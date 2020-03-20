@@ -7790,6 +7790,12 @@ references:
   commentId: T:Mirror.ServerDataReceivedEvent
   fullName: Mirror.ServerDataReceivedEvent
   nameWithType: ServerDataReceivedEvent
+- uid: Mirror.ShowInInspectorAttribute
+  name: ShowInInspectorAttribute
+  href: api/Mirror.ShowInInspectorAttribute.html
+  commentId: T:Mirror.ShowInInspectorAttribute
+  fullName: Mirror.ShowInInspectorAttribute
+  nameWithType: ShowInInspectorAttribute
 - uid: Mirror.SpawnDelegate
   name: SpawnDelegate
   href: api/Mirror.SpawnDelegate.html
