@@ -5661,6 +5661,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkRoomManager.RecalculateRoomPlayerIndices
   nameWithType: NetworkRoomManager.RecalculateRoomPlayerIndices
+- uid: Mirror.NetworkRoomManager.roomPlayerPrefab
+  name: roomPlayerPrefab
+  href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_roomPlayerPrefab
+  commentId: F:Mirror.NetworkRoomManager.roomPlayerPrefab
+  fullName: Mirror.NetworkRoomManager.roomPlayerPrefab
+  nameWithType: NetworkRoomManager.roomPlayerPrefab
 - uid: Mirror.NetworkRoomManager.RoomScene
   name: RoomScene
   href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_RoomScene
