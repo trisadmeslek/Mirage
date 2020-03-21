@@ -2567,6 +2567,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkClient.AddPlayer
   nameWithType: NetworkClient.AddPlayer
+- uid: Mirror.NetworkClient.authenticator
+  name: authenticator
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_authenticator
+  commentId: F:Mirror.NetworkClient.authenticator
+  fullName: Mirror.NetworkClient.authenticator
+  nameWithType: NetworkClient.authenticator
 - uid: Mirror.NetworkClient.ClearSpawners
   name: ClearSpawners()
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_ClearSpawners
@@ -3524,12 +3530,6 @@ references:
   commentId: T:Mirror.NetworkManager
   fullName: Mirror.NetworkManager
   nameWithType: NetworkManager
-- uid: Mirror.NetworkManager.authenticator
-  name: authenticator
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_authenticator
-  commentId: F:Mirror.NetworkManager.authenticator
-  fullName: Mirror.NetworkManager.authenticator
-  nameWithType: NetworkManager.authenticator
 - uid: Mirror.NetworkManager.autoCreatePlayer
   name: autoCreatePlayer
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_autoCreatePlayer
@@ -5918,6 +5918,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkServer.AddPlayerForConnection
   nameWithType: NetworkServer.AddPlayerForConnection
+- uid: Mirror.NetworkServer.authenticator
+  name: authenticator
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_authenticator
+  commentId: F:Mirror.NetworkServer.authenticator
+  fullName: Mirror.NetworkServer.authenticator
+  nameWithType: NetworkServer.authenticator
 - uid: Mirror.NetworkServer.ClearHandlers
   name: ClearHandlers()
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_ClearHandlers
