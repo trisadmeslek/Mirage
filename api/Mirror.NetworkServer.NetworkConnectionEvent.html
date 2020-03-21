@@ -5,9 +5,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Network Scene Checker </title>
+    <title>Class NetworkServer.NetworkConnectionEvent
+   </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Network Scene Checker ">
+    <meta name="title" content="Class NetworkServer.NetworkConnectionEvent
+   ">
     <meta name="generator" content="docfx 2.45.1.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -76,44 +78,24 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="">
-<h1 id="network-scene-checker">Network Scene Checker</h1>
-
-<p>The Network Scene Checker component controls the visibility of game objects for network clients, based on which scene they're in.</p>
-<p><img src="NetworkSceneChecker.png" alt="Network Scene Checker component"></p>
-<ul>
-<li><strong>Force Hidden</strong><br>
-Tick this checkbox to hide this object from all players.</li>
-</ul>
-<p>With the Network Scene Checker, a game running on a client doesn’t have information about game objects that are not visible. This has two main benefits: it reduces the amount of data sent across the network, and it makes your game more secure against hacking.</p>
-<p>This component would typically be used when the server has several subscenes loaded and needs to isolate networked objects to the subscene they're in.</p>
-<p>A game object with a Network Scene Checker component must also have a Network Identity component. When you create a Network Scene Checker component on a game object, Mirror also creates a Network Identity component on that game object if it does not already have one.</p>
-<p>Scene objects with a Network Scene Checker component are disabled when they're not in the same scene, and spawned objects are destroyed when they're not in the same scene.</p>
-<h2 id="use-with-additive-scenes">Use with Additive Scenes</h2>
-<p>In Mirror, the Server and connected Clients are always on the same main scene, however the server and clients can have various combinations of smaller subscenes loaded additively. The server may load all subscenes at start, or it may dynamically load and unload subscenes where players or other activity is going on as needed.</p>
-<p>All player objects are always first spawned in the main scene, which may or may not have visual content, networked objects, etc. With this component attached to all networked objects, whenever the player object is moved to a subscene (from the main or from another subscene), the observers lists for objects in both the new scene and the prior scene are updated accordingly.</p>
-<p>Loading the subscene(s) on the server is through the normal process with <code>SceneManager</code>:</p>
-<pre><code class="lang-cs">SceneManager.LoadSceneAsync(subScene, LoadSceneMode.Additive);
-</code></pre>
-<p>Next, you will send a <code>SceneMessage</code> to the client telling it to load a subscene additively:</p>
-<pre><code class="lang-cs">SceneMessage msg = new SceneMessage
-{
-    sceneName = subScene,
-    sceneOperation = SceneOperation.LoadAdditive
-};
-
-connectionToClient.Send(msg);
-</code></pre>
-<p>Then, on the server only, you just move the player object to the subscene:</p>
-<pre><code class="lang-cs">// Position the player object in world space first
-// This assumes it has a NetworkTransform component that will update clients
-player.transform.position = new Vector3(100, 1, 100);
-
-// Then move the player object to the subscene
-SceneManager.MoveGameObjectToScene(player, subScene);
-</code></pre>
-<p>Optionally you can send another <code>SceneMessage</code> to the client with <code>SceneOperation.UnloadAdditive</code> to remove any previous additive scene the client no longer needs.  This would apply to a game that has levels after a level change. A short delay may be necessary before removal to allow the client to get fully synced.</p>
-<p>Depending on the complexity of your game, you may find it helpful when switching a player between subscenes to move the player object to the main scene first, yield 100 ms, re-position it, and finally move it to the new subscene.</p>
+            <article class="content wrap" id="_content" data-uid="Mirror.NetworkServer.NetworkConnectionEvent">
+  
+  
+  <h1 id="Mirror_NetworkServer_NetworkConnectionEvent" data-uid="Mirror.NetworkServer.NetworkConnectionEvent" class="text-break">Class NetworkServer.NetworkConnectionEvent
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">NetworkServer.NetworkConnectionEvent</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.html">Mirror</a></h6>
+  <h6><strong>Assembly</strong>: doc.dll</h6>
+  <h5 id="Mirror_NetworkServer_NetworkConnectionEvent_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class NetworkConnectionEvent : UnityEvent&lt;NetworkConnectionToClient&gt;</code></pre>
+  </div>
 </article>
           </div>
           
@@ -122,7 +104,10 @@ SceneManager.MoveGameObjectToScene(player, subScene);
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/25f1558f47b7f83f6061d3c00dcf589fd1690add/doc/Components/NetworkSceneChecker.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/new/25f1558f47b7f83f6061d3c00dcf589fd1690add/apiSpec/new?filename=Mirror_NetworkServer_NetworkConnectionEvent.md&amp;value=---%0Auid%3A%20Mirror.NetworkServer.NetworkConnectionEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/25f1558f47b7f83f6061d3c00dcf589fd1690add/Assets/Mirror/Runtime/NetworkServer.cs/#L24" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

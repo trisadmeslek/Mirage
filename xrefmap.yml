@@ -5931,6 +5931,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkServer.ClearHandlers
   nameWithType: NetworkServer.ClearHandlers
+- uid: Mirror.NetworkServer.Connected
+  name: Connected
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Connected
+  commentId: F:Mirror.NetworkServer.Connected
+  fullName: Mirror.NetworkServer.Connected
+  nameWithType: NetworkServer.Connected
 - uid: Mirror.NetworkServer.connections
   name: connections
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_connections
@@ -6046,6 +6052,12 @@ references:
   commentId: F:Mirror.NetworkServer.MaxConnections
   fullName: Mirror.NetworkServer.MaxConnections
   nameWithType: NetworkServer.MaxConnections
+- uid: Mirror.NetworkServer.NetworkConnectionEvent
+  name: NetworkServer.NetworkConnectionEvent
+  href: api/Mirror.NetworkServer.NetworkConnectionEvent.html
+  commentId: T:Mirror.NetworkServer.NetworkConnectionEvent
+  fullName: Mirror.NetworkServer.NetworkConnectionEvent
+  nameWithType: NetworkServer.NetworkConnectionEvent
 - uid: Mirror.NetworkServer.RegisterHandler*
   name: RegisterHandler
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_RegisterHandler_
