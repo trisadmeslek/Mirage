@@ -5918,6 +5918,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkServer.AddPlayerForConnection
   nameWithType: NetworkServer.AddPlayerForConnection
+- uid: Mirror.NetworkServer.Authenticated
+  name: Authenticated
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Authenticated
+  commentId: F:Mirror.NetworkServer.Authenticated
+  fullName: Mirror.NetworkServer.Authenticated
+  nameWithType: NetworkServer.Authenticated
 - uid: Mirror.NetworkServer.authenticator
   name: authenticator
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_authenticator
