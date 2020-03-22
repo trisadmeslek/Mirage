@@ -2087,19 +2087,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.OnDeserialize
   nameWithType: NetworkBehaviour.OnDeserialize
-- uid: Mirror.NetworkBehaviour.OnNetworkDestroy
-  name: OnNetworkDestroy()
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnNetworkDestroy
-  commentId: M:Mirror.NetworkBehaviour.OnNetworkDestroy
-  fullName: Mirror.NetworkBehaviour.OnNetworkDestroy()
-  nameWithType: NetworkBehaviour.OnNetworkDestroy()
-- uid: Mirror.NetworkBehaviour.OnNetworkDestroy*
-  name: OnNetworkDestroy
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnNetworkDestroy_
-  commentId: Overload:Mirror.NetworkBehaviour.OnNetworkDestroy
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.OnNetworkDestroy
-  nameWithType: NetworkBehaviour.OnNetworkDestroy
 - uid: Mirror.NetworkBehaviour.OnRebuildObservers(HashSet{Mirror.NetworkConnection},System.Boolean)
   name: OnRebuildObservers(HashSet<NetworkConnection>, Boolean)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnRebuildObservers_HashSet_Mirror_NetworkConnection__System_Boolean_
@@ -2142,71 +2129,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.OnSetHostVisibility
   nameWithType: NetworkBehaviour.OnSetHostVisibility
-- uid: Mirror.NetworkBehaviour.OnStartAuthority
-  name: OnStartAuthority()
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnStartAuthority
-  commentId: M:Mirror.NetworkBehaviour.OnStartAuthority
-  fullName: Mirror.NetworkBehaviour.OnStartAuthority()
-  nameWithType: NetworkBehaviour.OnStartAuthority()
-- uid: Mirror.NetworkBehaviour.OnStartAuthority*
-  name: OnStartAuthority
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnStartAuthority_
-  commentId: Overload:Mirror.NetworkBehaviour.OnStartAuthority
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.OnStartAuthority
-  nameWithType: NetworkBehaviour.OnStartAuthority
-- uid: Mirror.NetworkBehaviour.OnStartClient
-  name: OnStartClient()
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnStartClient
-  commentId: M:Mirror.NetworkBehaviour.OnStartClient
-  fullName: Mirror.NetworkBehaviour.OnStartClient()
-  nameWithType: NetworkBehaviour.OnStartClient()
-- uid: Mirror.NetworkBehaviour.OnStartClient*
-  name: OnStartClient
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnStartClient_
-  commentId: Overload:Mirror.NetworkBehaviour.OnStartClient
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.OnStartClient
-  nameWithType: NetworkBehaviour.OnStartClient
-- uid: Mirror.NetworkBehaviour.OnStartLocalPlayer
-  name: OnStartLocalPlayer()
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnStartLocalPlayer
-  commentId: M:Mirror.NetworkBehaviour.OnStartLocalPlayer
-  fullName: Mirror.NetworkBehaviour.OnStartLocalPlayer()
-  nameWithType: NetworkBehaviour.OnStartLocalPlayer()
-- uid: Mirror.NetworkBehaviour.OnStartLocalPlayer*
-  name: OnStartLocalPlayer
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnStartLocalPlayer_
-  commentId: Overload:Mirror.NetworkBehaviour.OnStartLocalPlayer
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.OnStartLocalPlayer
-  nameWithType: NetworkBehaviour.OnStartLocalPlayer
-- uid: Mirror.NetworkBehaviour.OnStartServer
-  name: OnStartServer()
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnStartServer
-  commentId: M:Mirror.NetworkBehaviour.OnStartServer
-  fullName: Mirror.NetworkBehaviour.OnStartServer()
-  nameWithType: NetworkBehaviour.OnStartServer()
-- uid: Mirror.NetworkBehaviour.OnStartServer*
-  name: OnStartServer
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnStartServer_
-  commentId: Overload:Mirror.NetworkBehaviour.OnStartServer
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.OnStartServer
-  nameWithType: NetworkBehaviour.OnStartServer
-- uid: Mirror.NetworkBehaviour.OnStopAuthority
-  name: OnStopAuthority()
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnStopAuthority
-  commentId: M:Mirror.NetworkBehaviour.OnStopAuthority
-  fullName: Mirror.NetworkBehaviour.OnStopAuthority()
-  nameWithType: NetworkBehaviour.OnStopAuthority()
-- uid: Mirror.NetworkBehaviour.OnStopAuthority*
-  name: OnStopAuthority
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnStopAuthority_
-  commentId: Overload:Mirror.NetworkBehaviour.OnStopAuthority
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.OnStopAuthority
-  nameWithType: NetworkBehaviour.OnStopAuthority
 - uid: Mirror.NetworkBehaviour.RegisterCommandDelegate(Type,System.String,Mirror.NetworkBehaviour.CmdDelegate)
   name: RegisterCommandDelegate(Type, String, NetworkBehaviour.CmdDelegate)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_RegisterCommandDelegate_Type_System_String_Mirror_NetworkBehaviour_CmdDelegate_
@@ -3446,6 +3368,42 @@ references:
   commentId: F:Mirror.NetworkIdentity.observers
   fullName: Mirror.NetworkIdentity.observers
   nameWithType: NetworkIdentity.observers
+- uid: Mirror.NetworkIdentity.OnNetworkDestroy
+  name: OnNetworkDestroy
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_OnNetworkDestroy
+  commentId: F:Mirror.NetworkIdentity.OnNetworkDestroy
+  fullName: Mirror.NetworkIdentity.OnNetworkDestroy
+  nameWithType: NetworkIdentity.OnNetworkDestroy
+- uid: Mirror.NetworkIdentity.OnStartAuthority
+  name: OnStartAuthority
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_OnStartAuthority
+  commentId: F:Mirror.NetworkIdentity.OnStartAuthority
+  fullName: Mirror.NetworkIdentity.OnStartAuthority
+  nameWithType: NetworkIdentity.OnStartAuthority
+- uid: Mirror.NetworkIdentity.OnStartClient
+  name: OnStartClient
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_OnStartClient
+  commentId: F:Mirror.NetworkIdentity.OnStartClient
+  fullName: Mirror.NetworkIdentity.OnStartClient
+  nameWithType: NetworkIdentity.OnStartClient
+- uid: Mirror.NetworkIdentity.OnStartLocalPlayer
+  name: OnStartLocalPlayer
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_OnStartLocalPlayer
+  commentId: F:Mirror.NetworkIdentity.OnStartLocalPlayer
+  fullName: Mirror.NetworkIdentity.OnStartLocalPlayer
+  nameWithType: NetworkIdentity.OnStartLocalPlayer
+- uid: Mirror.NetworkIdentity.OnStartServer
+  name: OnStartServer
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_OnStartServer
+  commentId: F:Mirror.NetworkIdentity.OnStartServer
+  fullName: Mirror.NetworkIdentity.OnStartServer
+  nameWithType: NetworkIdentity.OnStartServer
+- uid: Mirror.NetworkIdentity.OnStopAuthority
+  name: OnStopAuthority
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_OnStopAuthority
+  commentId: F:Mirror.NetworkIdentity.OnStopAuthority
+  fullName: Mirror.NetworkIdentity.OnStopAuthority
+  nameWithType: NetworkIdentity.OnStopAuthority
 - uid: Mirror.NetworkIdentity.RebuildObservers(System.Boolean)
   name: RebuildObservers(Boolean)
   href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_RebuildObservers_System_Boolean_
