@@ -3480,19 +3480,6 @@ references:
   commentId: F:Mirror.NetworkManager.autoCreatePlayer
   fullName: Mirror.NetworkManager.autoCreatePlayer
   nameWithType: NetworkManager.autoCreatePlayer
-- uid: Mirror.NetworkManager.Awake
-  name: Awake()
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_Awake
-  commentId: M:Mirror.NetworkManager.Awake
-  fullName: Mirror.NetworkManager.Awake()
-  nameWithType: NetworkManager.Awake()
-- uid: Mirror.NetworkManager.Awake*
-  name: Awake
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_Awake_
-  commentId: Overload:Mirror.NetworkManager.Awake
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.Awake
-  nameWithType: NetworkManager.Awake
 - uid: Mirror.NetworkManager.client
   name: client
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_client
