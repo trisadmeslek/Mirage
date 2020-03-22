@@ -155,38 +155,6 @@ references:
   isSpec: "True"
   fullName: Mirror.CommandMessage.Serialize
   nameWithType: CommandMessage.Serialize
-- uid: Mirror.ConnectMessage
-  name: ConnectMessage
-  href: api/Mirror.ConnectMessage.html
-  commentId: T:Mirror.ConnectMessage
-  fullName: Mirror.ConnectMessage
-  nameWithType: ConnectMessage
-- uid: Mirror.ConnectMessage.Deserialize(Mirror.NetworkReader)
-  name: Deserialize(NetworkReader)
-  href: api/Mirror.ConnectMessage.html#Mirror_ConnectMessage_Deserialize_Mirror_NetworkReader_
-  commentId: M:Mirror.ConnectMessage.Deserialize(Mirror.NetworkReader)
-  fullName: Mirror.ConnectMessage.Deserialize(Mirror.NetworkReader)
-  nameWithType: ConnectMessage.Deserialize(NetworkReader)
-- uid: Mirror.ConnectMessage.Deserialize*
-  name: Deserialize
-  href: api/Mirror.ConnectMessage.html#Mirror_ConnectMessage_Deserialize_
-  commentId: Overload:Mirror.ConnectMessage.Deserialize
-  isSpec: "True"
-  fullName: Mirror.ConnectMessage.Deserialize
-  nameWithType: ConnectMessage.Deserialize
-- uid: Mirror.ConnectMessage.Serialize(Mirror.NetworkWriter)
-  name: Serialize(NetworkWriter)
-  href: api/Mirror.ConnectMessage.html#Mirror_ConnectMessage_Serialize_Mirror_NetworkWriter_
-  commentId: M:Mirror.ConnectMessage.Serialize(Mirror.NetworkWriter)
-  fullName: Mirror.ConnectMessage.Serialize(Mirror.NetworkWriter)
-  nameWithType: ConnectMessage.Serialize(NetworkWriter)
-- uid: Mirror.ConnectMessage.Serialize*
-  name: Serialize
-  href: api/Mirror.ConnectMessage.html#Mirror_ConnectMessage_Serialize_
-  commentId: Overload:Mirror.ConnectMessage.Serialize
-  isSpec: "True"
-  fullName: Mirror.ConnectMessage.Serialize
-  nameWithType: ConnectMessage.Serialize
 - uid: Mirror.ConnectState
   name: ConnectState
   href: api/Mirror.ConnectState.html
@@ -2605,6 +2573,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkClient.ConnectAsync
   nameWithType: NetworkClient.ConnectAsync
+- uid: Mirror.NetworkClient.Connected
+  name: Connected
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Connected
+  commentId: F:Mirror.NetworkClient.Connected
+  fullName: Mirror.NetworkClient.Connected
+  nameWithType: NetworkClient.Connected
 - uid: Mirror.NetworkClient.connection
   name: connection
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_connection
@@ -2699,6 +2673,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkClient.localPlayer
   nameWithType: NetworkClient.localPlayer
+- uid: Mirror.NetworkClient.NetworkConnectionEvent
+  name: NetworkClient.NetworkConnectionEvent
+  href: api/Mirror.NetworkClient.NetworkConnectionEvent.html
+  commentId: T:Mirror.NetworkClient.NetworkConnectionEvent
+  fullName: Mirror.NetworkClient.NetworkConnectionEvent
+  nameWithType: NetworkClient.NetworkConnectionEvent
 - uid: Mirror.NetworkClient.PrepareToSpawnSceneObjects
   name: PrepareToSpawnSceneObjects()
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_PrepareToSpawnSceneObjects
