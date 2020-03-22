@@ -2535,6 +2535,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkClient.AddPlayer
   nameWithType: NetworkClient.AddPlayer
+- uid: Mirror.NetworkClient.Authenticated
+  name: Authenticated
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Authenticated
+  commentId: F:Mirror.NetworkClient.Authenticated
+  fullName: Mirror.NetworkClient.Authenticated
+  nameWithType: NetworkClient.Authenticated
 - uid: Mirror.NetworkClient.authenticator
   name: authenticator
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_authenticator
