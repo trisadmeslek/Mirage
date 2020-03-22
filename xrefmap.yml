@@ -5973,7 +5973,14 @@ references:
 - uid: Mirror.NetworkServer.localClient
   name: localClient
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_localClient
-  commentId: F:Mirror.NetworkServer.localClient
+  commentId: P:Mirror.NetworkServer.localClient
+  fullName: Mirror.NetworkServer.localClient
+  nameWithType: NetworkServer.localClient
+- uid: Mirror.NetworkServer.localClient*
+  name: localClient
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_localClient_
+  commentId: Overload:Mirror.NetworkServer.localClient
+  isSpec: "True"
   fullName: Mirror.NetworkServer.localClient
   nameWithType: NetworkServer.localClient
 - uid: Mirror.NetworkServer.LocalClientActive
