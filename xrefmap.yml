@@ -5951,12 +5951,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkServer.DisconnectAllConnections
   nameWithType: NetworkServer.DisconnectAllConnections
-- uid: Mirror.NetworkServer.dontListen
-  name: dontListen
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_dontListen
-  commentId: F:Mirror.NetworkServer.dontListen
-  fullName: Mirror.NetworkServer.dontListen
-  nameWithType: NetworkServer.dontListen
 - uid: Mirror.NetworkServer.Listen
   name: Listen()
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Listen
@@ -5970,6 +5964,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkServer.Listen
   nameWithType: NetworkServer.Listen
+- uid: Mirror.NetworkServer.Listening
+  name: Listening
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Listening
+  commentId: F:Mirror.NetworkServer.Listening
+  fullName: Mirror.NetworkServer.Listening
+  nameWithType: NetworkServer.Listening
 - uid: Mirror.NetworkServer.localClient
   name: localClient
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_localClient
