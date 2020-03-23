@@ -8709,14 +8709,6 @@ references:
   fullName.vb: Mirror.SyncList(Of T).Add
   nameWithType: SyncList<T>.Add
   nameWithType.vb: SyncList(Of T).Add
-- uid: Mirror.SyncList`1.Callback
-  name: Callback
-  href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_Callback
-  commentId: E:Mirror.SyncList`1.Callback
-  fullName: Mirror.SyncList<T>.Callback
-  fullName.vb: Mirror.SyncList(Of T).Callback
-  nameWithType: SyncList<T>.Callback
-  nameWithType.vb: SyncList(Of T).Callback
 - uid: Mirror.SyncList`1.Clear
   name: Clear()
   href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_Clear
@@ -9036,6 +9028,22 @@ references:
   fullName.vb: Mirror.SyncList(Of T).Item
   nameWithType: SyncList<T>.Item
   nameWithType.vb: SyncList(Of T).Item
+- uid: Mirror.SyncList`1.OnChange
+  name: OnChange
+  href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_OnChange
+  commentId: E:Mirror.SyncList`1.OnChange
+  fullName: Mirror.SyncList<T>.OnChange
+  fullName.vb: Mirror.SyncList(Of T).OnChange
+  nameWithType: SyncList<T>.OnChange
+  nameWithType.vb: SyncList(Of T).OnChange
+- uid: Mirror.SyncList`1.OnClear
+  name: OnClear
+  href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_OnClear
+  commentId: E:Mirror.SyncList`1.OnClear
+  fullName: Mirror.SyncList<T>.OnClear
+  fullName.vb: Mirror.SyncList(Of T).OnClear
+  nameWithType: SyncList<T>.OnClear
+  nameWithType.vb: SyncList(Of T).OnClear
 - uid: Mirror.SyncList`1.OnDeserializeAll(Mirror.NetworkReader)
   name: OnDeserializeAll(NetworkReader)
   href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_OnDeserializeAll_Mirror_NetworkReader_
@@ -9070,6 +9078,22 @@ references:
   fullName.vb: Mirror.SyncList(Of T).OnDeserializeDelta
   nameWithType: SyncList<T>.OnDeserializeDelta
   nameWithType.vb: SyncList(Of T).OnDeserializeDelta
+- uid: Mirror.SyncList`1.OnInsert
+  name: OnInsert
+  href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_OnInsert
+  commentId: E:Mirror.SyncList`1.OnInsert
+  fullName: Mirror.SyncList<T>.OnInsert
+  fullName.vb: Mirror.SyncList(Of T).OnInsert
+  nameWithType: SyncList<T>.OnInsert
+  nameWithType.vb: SyncList(Of T).OnInsert
+- uid: Mirror.SyncList`1.OnRemove
+  name: OnRemove
+  href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_OnRemove
+  commentId: E:Mirror.SyncList`1.OnRemove
+  fullName: Mirror.SyncList<T>.OnRemove
+  fullName.vb: Mirror.SyncList(Of T).OnRemove
+  nameWithType: SyncList<T>.OnRemove
+  nameWithType.vb: SyncList(Of T).OnRemove
 - uid: Mirror.SyncList`1.OnSerializeAll(Mirror.NetworkWriter)
   name: OnSerializeAll(NetworkWriter)
   href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_OnSerializeAll_Mirror_NetworkWriter_
@@ -9104,55 +9128,14 @@ references:
   fullName.vb: Mirror.SyncList(Of T).OnSerializeDelta
   nameWithType: SyncList<T>.OnSerializeDelta
   nameWithType.vb: SyncList(Of T).OnSerializeDelta
-- uid: Mirror.SyncList`1.Operation
-  name: SyncList<T>.Operation
-  href: api/Mirror.SyncList-1.Operation.html
-  commentId: T:Mirror.SyncList`1.Operation
-  name.vb: SyncList(Of T).Operation
-  fullName: Mirror.SyncList<T>.Operation
-  fullName.vb: Mirror.SyncList(Of T).Operation
-  nameWithType: SyncList<T>.Operation
-  nameWithType.vb: SyncList(Of T).Operation
-- uid: Mirror.SyncList`1.Operation.OP_ADD
-  name: OP_ADD
-  href: api/Mirror.SyncList-1.Operation.html#Mirror_SyncList_1_Operation_OP_ADD
-  commentId: F:Mirror.SyncList`1.Operation.OP_ADD
-  fullName: Mirror.SyncList<T>.Operation.OP_ADD
-  fullName.vb: Mirror.SyncList(Of T).Operation.OP_ADD
-  nameWithType: SyncList<T>.Operation.OP_ADD
-  nameWithType.vb: SyncList(Of T).Operation.OP_ADD
-- uid: Mirror.SyncList`1.Operation.OP_CLEAR
-  name: OP_CLEAR
-  href: api/Mirror.SyncList-1.Operation.html#Mirror_SyncList_1_Operation_OP_CLEAR
-  commentId: F:Mirror.SyncList`1.Operation.OP_CLEAR
-  fullName: Mirror.SyncList<T>.Operation.OP_CLEAR
-  fullName.vb: Mirror.SyncList(Of T).Operation.OP_CLEAR
-  nameWithType: SyncList<T>.Operation.OP_CLEAR
-  nameWithType.vb: SyncList(Of T).Operation.OP_CLEAR
-- uid: Mirror.SyncList`1.Operation.OP_INSERT
-  name: OP_INSERT
-  href: api/Mirror.SyncList-1.Operation.html#Mirror_SyncList_1_Operation_OP_INSERT
-  commentId: F:Mirror.SyncList`1.Operation.OP_INSERT
-  fullName: Mirror.SyncList<T>.Operation.OP_INSERT
-  fullName.vb: Mirror.SyncList(Of T).Operation.OP_INSERT
-  nameWithType: SyncList<T>.Operation.OP_INSERT
-  nameWithType.vb: SyncList(Of T).Operation.OP_INSERT
-- uid: Mirror.SyncList`1.Operation.OP_REMOVEAT
-  name: OP_REMOVEAT
-  href: api/Mirror.SyncList-1.Operation.html#Mirror_SyncList_1_Operation_OP_REMOVEAT
-  commentId: F:Mirror.SyncList`1.Operation.OP_REMOVEAT
-  fullName: Mirror.SyncList<T>.Operation.OP_REMOVEAT
-  fullName.vb: Mirror.SyncList(Of T).Operation.OP_REMOVEAT
-  nameWithType: SyncList<T>.Operation.OP_REMOVEAT
-  nameWithType.vb: SyncList(Of T).Operation.OP_REMOVEAT
-- uid: Mirror.SyncList`1.Operation.OP_SET
-  name: OP_SET
-  href: api/Mirror.SyncList-1.Operation.html#Mirror_SyncList_1_Operation_OP_SET
-  commentId: F:Mirror.SyncList`1.Operation.OP_SET
-  fullName: Mirror.SyncList<T>.Operation.OP_SET
-  fullName.vb: Mirror.SyncList(Of T).Operation.OP_SET
-  nameWithType: SyncList<T>.Operation.OP_SET
-  nameWithType.vb: SyncList(Of T).Operation.OP_SET
+- uid: Mirror.SyncList`1.OnSet
+  name: OnSet
+  href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_OnSet
+  commentId: E:Mirror.SyncList`1.OnSet
+  fullName: Mirror.SyncList<T>.OnSet
+  fullName.vb: Mirror.SyncList(Of T).OnSet
+  nameWithType: SyncList<T>.OnSet
+  nameWithType.vb: SyncList(Of T).OnSet
 - uid: Mirror.SyncList`1.Remove(`0)
   name: Remove(T)
   href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_Remove__0_
@@ -9204,15 +9187,6 @@ references:
   fullName.vb: Mirror.SyncList(Of T).SerializeItem
   nameWithType: SyncList<T>.SerializeItem
   nameWithType.vb: SyncList(Of T).SerializeItem
-- uid: Mirror.SyncList`1.SyncListChanged
-  name: SyncList<T>.SyncListChanged
-  href: api/Mirror.SyncList-1.SyncListChanged.html
-  commentId: T:Mirror.SyncList`1.SyncListChanged
-  name.vb: SyncList(Of T).SyncListChanged
-  fullName: Mirror.SyncList<T>.SyncListChanged
-  fullName.vb: Mirror.SyncList(Of T).SyncListChanged
-  nameWithType: SyncList<T>.SyncListChanged
-  nameWithType.vb: SyncList(Of T).SyncListChanged
 - uid: Mirror.SyncListBool
   name: SyncListBool
   href: api/Mirror.SyncListBool.html
