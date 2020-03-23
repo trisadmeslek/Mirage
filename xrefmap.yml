@@ -9409,14 +9409,6 @@ references:
   fullName.vb: Mirror.SyncSet(Of T).Add
   nameWithType: SyncSet<T>.Add
   nameWithType.vb: SyncSet(Of T).Add
-- uid: Mirror.SyncSet`1.Callback
-  name: Callback
-  href: api/Mirror.SyncSet-1.html#Mirror_SyncSet_1_Callback
-  commentId: E:Mirror.SyncSet`1.Callback
-  fullName: Mirror.SyncSet<T>.Callback
-  fullName.vb: Mirror.SyncSet(Of T).Callback
-  nameWithType: SyncSet<T>.Callback
-  nameWithType.vb: SyncSet(Of T).Callback
 - uid: Mirror.SyncSet`1.Clear
   name: Clear()
   href: api/Mirror.SyncSet-1.html#Mirror_SyncSet_1_Clear
@@ -9687,6 +9679,30 @@ references:
   fullName.vb: Mirror.SyncSet(Of T).objects
   nameWithType: SyncSet<T>.objects
   nameWithType.vb: SyncSet(Of T).objects
+- uid: Mirror.SyncSet`1.OnAdd
+  name: OnAdd
+  href: api/Mirror.SyncSet-1.html#Mirror_SyncSet_1_OnAdd
+  commentId: E:Mirror.SyncSet`1.OnAdd
+  fullName: Mirror.SyncSet<T>.OnAdd
+  fullName.vb: Mirror.SyncSet(Of T).OnAdd
+  nameWithType: SyncSet<T>.OnAdd
+  nameWithType.vb: SyncSet(Of T).OnAdd
+- uid: Mirror.SyncSet`1.OnChange
+  name: OnChange
+  href: api/Mirror.SyncSet-1.html#Mirror_SyncSet_1_OnChange
+  commentId: E:Mirror.SyncSet`1.OnChange
+  fullName: Mirror.SyncSet<T>.OnChange
+  fullName.vb: Mirror.SyncSet(Of T).OnChange
+  nameWithType: SyncSet<T>.OnChange
+  nameWithType.vb: SyncSet(Of T).OnChange
+- uid: Mirror.SyncSet`1.OnClear
+  name: OnClear
+  href: api/Mirror.SyncSet-1.html#Mirror_SyncSet_1_OnClear
+  commentId: E:Mirror.SyncSet`1.OnClear
+  fullName: Mirror.SyncSet<T>.OnClear
+  fullName.vb: Mirror.SyncSet(Of T).OnClear
+  nameWithType: SyncSet<T>.OnClear
+  nameWithType.vb: SyncSet(Of T).OnClear
 - uid: Mirror.SyncSet`1.OnDeserializeAll(Mirror.NetworkReader)
   name: OnDeserializeAll(NetworkReader)
   href: api/Mirror.SyncSet-1.html#Mirror_SyncSet_1_OnDeserializeAll_Mirror_NetworkReader_
@@ -9721,6 +9737,14 @@ references:
   fullName.vb: Mirror.SyncSet(Of T).OnDeserializeDelta
   nameWithType: SyncSet<T>.OnDeserializeDelta
   nameWithType.vb: SyncSet(Of T).OnDeserializeDelta
+- uid: Mirror.SyncSet`1.OnRemove
+  name: OnRemove
+  href: api/Mirror.SyncSet-1.html#Mirror_SyncSet_1_OnRemove
+  commentId: E:Mirror.SyncSet`1.OnRemove
+  fullName: Mirror.SyncSet<T>.OnRemove
+  fullName.vb: Mirror.SyncSet(Of T).OnRemove
+  nameWithType: SyncSet<T>.OnRemove
+  nameWithType.vb: SyncSet(Of T).OnRemove
 - uid: Mirror.SyncSet`1.OnSerializeAll(Mirror.NetworkWriter)
   name: OnSerializeAll(NetworkWriter)
   href: api/Mirror.SyncSet-1.html#Mirror_SyncSet_1_OnSerializeAll_Mirror_NetworkWriter_
@@ -9755,39 +9779,6 @@ references:
   fullName.vb: Mirror.SyncSet(Of T).OnSerializeDelta
   nameWithType: SyncSet<T>.OnSerializeDelta
   nameWithType.vb: SyncSet(Of T).OnSerializeDelta
-- uid: Mirror.SyncSet`1.Operation
-  name: SyncSet<T>.Operation
-  href: api/Mirror.SyncSet-1.Operation.html
-  commentId: T:Mirror.SyncSet`1.Operation
-  name.vb: SyncSet(Of T).Operation
-  fullName: Mirror.SyncSet<T>.Operation
-  fullName.vb: Mirror.SyncSet(Of T).Operation
-  nameWithType: SyncSet<T>.Operation
-  nameWithType.vb: SyncSet(Of T).Operation
-- uid: Mirror.SyncSet`1.Operation.OP_ADD
-  name: OP_ADD
-  href: api/Mirror.SyncSet-1.Operation.html#Mirror_SyncSet_1_Operation_OP_ADD
-  commentId: F:Mirror.SyncSet`1.Operation.OP_ADD
-  fullName: Mirror.SyncSet<T>.Operation.OP_ADD
-  fullName.vb: Mirror.SyncSet(Of T).Operation.OP_ADD
-  nameWithType: SyncSet<T>.Operation.OP_ADD
-  nameWithType.vb: SyncSet(Of T).Operation.OP_ADD
-- uid: Mirror.SyncSet`1.Operation.OP_CLEAR
-  name: OP_CLEAR
-  href: api/Mirror.SyncSet-1.Operation.html#Mirror_SyncSet_1_Operation_OP_CLEAR
-  commentId: F:Mirror.SyncSet`1.Operation.OP_CLEAR
-  fullName: Mirror.SyncSet<T>.Operation.OP_CLEAR
-  fullName.vb: Mirror.SyncSet(Of T).Operation.OP_CLEAR
-  nameWithType: SyncSet<T>.Operation.OP_CLEAR
-  nameWithType.vb: SyncSet(Of T).Operation.OP_CLEAR
-- uid: Mirror.SyncSet`1.Operation.OP_REMOVE
-  name: OP_REMOVE
-  href: api/Mirror.SyncSet-1.Operation.html#Mirror_SyncSet_1_Operation_OP_REMOVE
-  commentId: F:Mirror.SyncSet`1.Operation.OP_REMOVE
-  fullName: Mirror.SyncSet<T>.Operation.OP_REMOVE
-  fullName.vb: Mirror.SyncSet(Of T).Operation.OP_REMOVE
-  nameWithType: SyncSet<T>.Operation.OP_REMOVE
-  nameWithType.vb: SyncSet(Of T).Operation.OP_REMOVE
 - uid: Mirror.SyncSet`1.Overlaps(IEnumerable{`0})
   name: Overlaps(IEnumerable<T>)
   href: api/Mirror.SyncSet-1.html#Mirror_SyncSet_1_Overlaps_IEnumerable__0__
@@ -9876,15 +9867,6 @@ references:
   fullName.vb: Mirror.SyncSet(Of T).SymmetricExceptWith
   nameWithType: SyncSet<T>.SymmetricExceptWith
   nameWithType.vb: SyncSet(Of T).SymmetricExceptWith
-- uid: Mirror.SyncSet`1.SyncSetChanged
-  name: SyncSet<T>.SyncSetChanged
-  href: api/Mirror.SyncSet-1.SyncSetChanged.html
-  commentId: T:Mirror.SyncSet`1.SyncSetChanged
-  name.vb: SyncSet(Of T).SyncSetChanged
-  fullName: Mirror.SyncSet<T>.SyncSetChanged
-  fullName.vb: Mirror.SyncSet(Of T).SyncSetChanged
-  nameWithType: SyncSet<T>.SyncSetChanged
-  nameWithType.vb: SyncSet(Of T).SyncSetChanged
 - uid: Mirror.SyncSet`1.UnionWith(IEnumerable{`0})
   name: UnionWith(IEnumerable<T>)
   href: api/Mirror.SyncSet-1.html#Mirror_SyncSet_1_UnionWith_IEnumerable__0__
