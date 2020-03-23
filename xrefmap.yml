@@ -8203,14 +8203,6 @@ references:
   fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).Add
   nameWithType: SyncIDictionary<TKey, TValue>.Add
   nameWithType.vb: SyncIDictionary(Of TKey, TValue).Add
-- uid: Mirror.SyncIDictionary`2.Callback
-  name: Callback
-  href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_Callback
-  commentId: E:Mirror.SyncIDictionary`2.Callback
-  fullName: Mirror.SyncIDictionary<TKey, TValue>.Callback
-  fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).Callback
-  nameWithType: SyncIDictionary<TKey, TValue>.Callback
-  nameWithType.vb: SyncIDictionary(Of TKey, TValue).Callback
 - uid: Mirror.SyncIDictionary`2.Clear
   name: Clear()
   href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_Clear
@@ -8443,6 +8435,22 @@ references:
   fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).objects
   nameWithType: SyncIDictionary<TKey, TValue>.objects
   nameWithType.vb: SyncIDictionary(Of TKey, TValue).objects
+- uid: Mirror.SyncIDictionary`2.OnChange
+  name: OnChange
+  href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_OnChange
+  commentId: E:Mirror.SyncIDictionary`2.OnChange
+  fullName: Mirror.SyncIDictionary<TKey, TValue>.OnChange
+  fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).OnChange
+  nameWithType: SyncIDictionary<TKey, TValue>.OnChange
+  nameWithType.vb: SyncIDictionary(Of TKey, TValue).OnChange
+- uid: Mirror.SyncIDictionary`2.OnClear
+  name: OnClear
+  href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_OnClear
+  commentId: E:Mirror.SyncIDictionary`2.OnClear
+  fullName: Mirror.SyncIDictionary<TKey, TValue>.OnClear
+  fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).OnClear
+  nameWithType: SyncIDictionary<TKey, TValue>.OnClear
+  nameWithType.vb: SyncIDictionary(Of TKey, TValue).OnClear
 - uid: Mirror.SyncIDictionary`2.OnDeserializeAll(Mirror.NetworkReader)
   name: OnDeserializeAll(NetworkReader)
   href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_OnDeserializeAll_Mirror_NetworkReader_
@@ -8477,6 +8485,22 @@ references:
   fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).OnDeserializeDelta
   nameWithType: SyncIDictionary<TKey, TValue>.OnDeserializeDelta
   nameWithType.vb: SyncIDictionary(Of TKey, TValue).OnDeserializeDelta
+- uid: Mirror.SyncIDictionary`2.OnInsert
+  name: OnInsert
+  href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_OnInsert
+  commentId: E:Mirror.SyncIDictionary`2.OnInsert
+  fullName: Mirror.SyncIDictionary<TKey, TValue>.OnInsert
+  fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).OnInsert
+  nameWithType: SyncIDictionary<TKey, TValue>.OnInsert
+  nameWithType.vb: SyncIDictionary(Of TKey, TValue).OnInsert
+- uid: Mirror.SyncIDictionary`2.OnRemove
+  name: OnRemove
+  href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_OnRemove
+  commentId: E:Mirror.SyncIDictionary`2.OnRemove
+  fullName: Mirror.SyncIDictionary<TKey, TValue>.OnRemove
+  fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).OnRemove
+  nameWithType: SyncIDictionary<TKey, TValue>.OnRemove
+  nameWithType.vb: SyncIDictionary(Of TKey, TValue).OnRemove
 - uid: Mirror.SyncIDictionary`2.OnSerializeAll(Mirror.NetworkWriter)
   name: OnSerializeAll(NetworkWriter)
   href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_OnSerializeAll_Mirror_NetworkWriter_
@@ -8511,47 +8535,14 @@ references:
   fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).OnSerializeDelta
   nameWithType: SyncIDictionary<TKey, TValue>.OnSerializeDelta
   nameWithType.vb: SyncIDictionary(Of TKey, TValue).OnSerializeDelta
-- uid: Mirror.SyncIDictionary`2.Operation
-  name: SyncIDictionary<TKey, TValue>.Operation
-  href: api/Mirror.SyncIDictionary-2.Operation.html
-  commentId: T:Mirror.SyncIDictionary`2.Operation
-  name.vb: SyncIDictionary(Of TKey, TValue).Operation
-  fullName: Mirror.SyncIDictionary<TKey, TValue>.Operation
-  fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).Operation
-  nameWithType: SyncIDictionary<TKey, TValue>.Operation
-  nameWithType.vb: SyncIDictionary(Of TKey, TValue).Operation
-- uid: Mirror.SyncIDictionary`2.Operation.OP_ADD
-  name: OP_ADD
-  href: api/Mirror.SyncIDictionary-2.Operation.html#Mirror_SyncIDictionary_2_Operation_OP_ADD
-  commentId: F:Mirror.SyncIDictionary`2.Operation.OP_ADD
-  fullName: Mirror.SyncIDictionary<TKey, TValue>.Operation.OP_ADD
-  fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).Operation.OP_ADD
-  nameWithType: SyncIDictionary<TKey, TValue>.Operation.OP_ADD
-  nameWithType.vb: SyncIDictionary(Of TKey, TValue).Operation.OP_ADD
-- uid: Mirror.SyncIDictionary`2.Operation.OP_CLEAR
-  name: OP_CLEAR
-  href: api/Mirror.SyncIDictionary-2.Operation.html#Mirror_SyncIDictionary_2_Operation_OP_CLEAR
-  commentId: F:Mirror.SyncIDictionary`2.Operation.OP_CLEAR
-  fullName: Mirror.SyncIDictionary<TKey, TValue>.Operation.OP_CLEAR
-  fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).Operation.OP_CLEAR
-  nameWithType: SyncIDictionary<TKey, TValue>.Operation.OP_CLEAR
-  nameWithType.vb: SyncIDictionary(Of TKey, TValue).Operation.OP_CLEAR
-- uid: Mirror.SyncIDictionary`2.Operation.OP_REMOVE
-  name: OP_REMOVE
-  href: api/Mirror.SyncIDictionary-2.Operation.html#Mirror_SyncIDictionary_2_Operation_OP_REMOVE
-  commentId: F:Mirror.SyncIDictionary`2.Operation.OP_REMOVE
-  fullName: Mirror.SyncIDictionary<TKey, TValue>.Operation.OP_REMOVE
-  fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).Operation.OP_REMOVE
-  nameWithType: SyncIDictionary<TKey, TValue>.Operation.OP_REMOVE
-  nameWithType.vb: SyncIDictionary(Of TKey, TValue).Operation.OP_REMOVE
-- uid: Mirror.SyncIDictionary`2.Operation.OP_SET
-  name: OP_SET
-  href: api/Mirror.SyncIDictionary-2.Operation.html#Mirror_SyncIDictionary_2_Operation_OP_SET
-  commentId: F:Mirror.SyncIDictionary`2.Operation.OP_SET
-  fullName: Mirror.SyncIDictionary<TKey, TValue>.Operation.OP_SET
-  fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).Operation.OP_SET
-  nameWithType: SyncIDictionary<TKey, TValue>.Operation.OP_SET
-  nameWithType.vb: SyncIDictionary(Of TKey, TValue).Operation.OP_SET
+- uid: Mirror.SyncIDictionary`2.OnSet
+  name: OnSet
+  href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_OnSet
+  commentId: E:Mirror.SyncIDictionary`2.OnSet
+  fullName: Mirror.SyncIDictionary<TKey, TValue>.OnSet
+  fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).OnSet
+  nameWithType: SyncIDictionary<TKey, TValue>.OnSet
+  nameWithType.vb: SyncIDictionary(Of TKey, TValue).OnSet
 - uid: Mirror.SyncIDictionary`2.Remove(`0)
   name: Remove(TKey)
   href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_Remove__0_
@@ -8612,15 +8603,6 @@ references:
   fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).SerializeKey
   nameWithType: SyncIDictionary<TKey, TValue>.SerializeKey
   nameWithType.vb: SyncIDictionary(Of TKey, TValue).SerializeKey
-- uid: Mirror.SyncIDictionary`2.SyncDictionaryChanged
-  name: SyncIDictionary<TKey, TValue>.SyncDictionaryChanged
-  href: api/Mirror.SyncIDictionary-2.SyncDictionaryChanged.html
-  commentId: T:Mirror.SyncIDictionary`2.SyncDictionaryChanged
-  name.vb: SyncIDictionary(Of TKey, TValue).SyncDictionaryChanged
-  fullName: Mirror.SyncIDictionary<TKey, TValue>.SyncDictionaryChanged
-  fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).SyncDictionaryChanged
-  nameWithType: SyncIDictionary<TKey, TValue>.SyncDictionaryChanged
-  nameWithType.vb: SyncIDictionary(Of TKey, TValue).SyncDictionaryChanged
 - uid: Mirror.SyncIDictionary`2.TryGetValue(`0,`1@)
   name: TryGetValue(TKey, out TValue)
   href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_TryGetValue__0__1__
