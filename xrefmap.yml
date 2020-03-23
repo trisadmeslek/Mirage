@@ -4068,12 +4068,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.OnValidate
   nameWithType: NetworkManager.OnValidate
-- uid: Mirror.NetworkManager.playerPrefab
-  name: playerPrefab
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_playerPrefab
-  commentId: F:Mirror.NetworkManager.playerPrefab
-  fullName: Mirror.NetworkManager.playerPrefab
-  nameWithType: NetworkManager.playerPrefab
 - uid: Mirror.NetworkManager.playerSpawnMethod
   name: playerSpawnMethod
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_playerSpawnMethod
@@ -5786,6 +5780,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkRoomManager.ServerChangeScene
   nameWithType: NetworkRoomManager.ServerChangeScene
+- uid: Mirror.NetworkRoomManager.Start
+  name: Start()
+  href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_Start
+  commentId: M:Mirror.NetworkRoomManager.Start
+  fullName: Mirror.NetworkRoomManager.Start()
+  nameWithType: NetworkRoomManager.Start()
+- uid: Mirror.NetworkRoomManager.Start*
+  name: Start
+  href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_Start_
+  commentId: Overload:Mirror.NetworkRoomManager.Start
+  isSpec: "True"
+  fullName: Mirror.NetworkRoomManager.Start
+  nameWithType: NetworkRoomManager.Start
 - uid: Mirror.NetworkRoomPlayer
   name: NetworkRoomPlayer
   href: api/Mirror.NetworkRoomPlayer.html
@@ -6158,6 +6165,12 @@ references:
   commentId: T:Mirror.NetworkServer.NetworkConnectionEvent
   fullName: Mirror.NetworkServer.NetworkConnectionEvent
   nameWithType: NetworkServer.NetworkConnectionEvent
+- uid: Mirror.NetworkServer.playerPrefab
+  name: playerPrefab
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_playerPrefab
+  commentId: F:Mirror.NetworkServer.playerPrefab
+  fullName: Mirror.NetworkServer.playerPrefab
+  nameWithType: NetworkServer.playerPrefab
 - uid: Mirror.NetworkServer.RemoveConnection(System.Int32)
   name: RemoveConnection(Int32)
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_RemoveConnection_System_Int32_
