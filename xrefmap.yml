@@ -106,14 +106,7 @@ references:
 - uid: Mirror.AsyncTcp.AsyncTcpTransport.Port
   name: Port
   href: api/Mirror.AsyncTcp.AsyncTcpTransport.html#Mirror_AsyncTcp_AsyncTcpTransport_Port
-  commentId: P:Mirror.AsyncTcp.AsyncTcpTransport.Port
-  fullName: Mirror.AsyncTcp.AsyncTcpTransport.Port
-  nameWithType: AsyncTcpTransport.Port
-- uid: Mirror.AsyncTcp.AsyncTcpTransport.Port*
-  name: Port
-  href: api/Mirror.AsyncTcp.AsyncTcpTransport.html#Mirror_AsyncTcp_AsyncTcpTransport_Port_
-  commentId: Overload:Mirror.AsyncTcp.AsyncTcpTransport.Port
-  isSpec: "True"
+  commentId: F:Mirror.AsyncTcp.AsyncTcpTransport.Port
   fullName: Mirror.AsyncTcp.AsyncTcpTransport.Port
   nameWithType: AsyncTcpTransport.Port
 - uid: Mirror.AsyncTransport
