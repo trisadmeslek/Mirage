@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class NetworkManagerHUD
+    <title>Class AsyncTransport
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class NetworkManagerHUD
+    <meta name="title" content="Class AsyncTransport
    ">
     <meta name="generator" content="docfx 2.45.1.0">
     
@@ -78,44 +78,48 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Mirror.NetworkManagerHUD">
+            <article class="content wrap" id="_content" data-uid="Mirror.AsyncTransport">
   
   
-  <h1 id="Mirror_NetworkManagerHUD" data-uid="Mirror.NetworkManagerHUD" class="text-break">Class NetworkManagerHUD
+  <h1 id="Mirror_AsyncTransport" data-uid="Mirror.AsyncTransport" class="text-break">Class AsyncTransport
   </h1>
-  <div class="markdown level0 summary"><p>An extension for the NetworkManager that displays a default HUD for controlling the network state of the game.</p>
-<p>This component also shows useful internal state for the networking system in the inspector window of the editor. It allows users to view connections, networked objects, message handlers, and packet statistics. This information can be helpful when debugging networked games.</p>
+  <div class="markdown level0 summary"><p>Base transport class,  any transport should implement this class
+and it's abstract methods</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">NetworkManagerHUD</span></div>
+    <div class="level1"><span class="xref">AsyncTransport</span></div>
+      <div class="level2"><a class="xref" href="Mirror.AsyncTcp.AsyncTcpTransport.html">AsyncTcpTransport</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.html">Mirror</a></h6>
   <h6><strong>Assembly</strong>: doc.dll</h6>
-  <h5 id="Mirror_NetworkManagerHUD_syntax">Syntax</h5>
+  <h5 id="Mirror_AsyncTransport_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class NetworkManagerHUD : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class AsyncTransport : MonoBehaviour</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/4a8dc676b96840493d178718049b9e20c8eb6510/apiSpec/new?filename=Mirror_NetworkManagerHUD_offsetX.md&amp;value=---%0Auid%3A%20Mirror.NetworkManagerHUD.offsetX%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/4a8dc676b96840493d178718049b9e20c8eb6510/apiSpec/new?filename=Mirror_AsyncTransport_AcceptAsync.md&amp;value=---%0Auid%3A%20Mirror.AsyncTransport.AcceptAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/4a8dc676b96840493d178718049b9e20c8eb6510/Assets/Mirror/Runtime/NetworkManagerHUD.cs/#L28">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/4a8dc676b96840493d178718049b9e20c8eb6510/Assets/Mirror/Runtime/Transport/AsyncTransport.cs/#L40">View Source</a>
   </span>
-  <h4 id="Mirror_NetworkManagerHUD_offsetX" data-uid="Mirror.NetworkManagerHUD.offsetX">offsetX</h4>
-  <div class="markdown level1 summary"><p>The horizontal offset in pixels to draw the HUD runtime GUI at.</p>
+  <a id="Mirror_AsyncTransport_AcceptAsync_" data-uid="Mirror.AsyncTransport.AcceptAsync*"></a>
+  <h4 id="Mirror_AsyncTransport_AcceptAsync" data-uid="Mirror.AsyncTransport.AcceptAsync">AcceptAsync()</h4>
+  <div class="markdown level1 summary"><p>Accepts a connection from a client.
+After ListenAsync completes,  clients will queue up until you call AcceptAsync
+then you get the connection to the client</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int offsetX</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract Task&lt;IConnection&gt; AcceptAsync()</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -125,27 +129,47 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Mirror.IConnection.html">IConnection</a>&gt;</td>
+        <td><p>The connection to a client</p>
+</td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/4a8dc676b96840493d178718049b9e20c8eb6510/apiSpec/new?filename=Mirror_NetworkManagerHUD_offsetY.md&amp;value=---%0Auid%3A%20Mirror.NetworkManagerHUD.offsetY%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/4a8dc676b96840493d178718049b9e20c8eb6510/apiSpec/new?filename=Mirror_AsyncTransport_ConnectAsync_Uri_.md&amp;value=---%0Auid%3A%20Mirror.AsyncTransport.ConnectAsync(Uri)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/4a8dc676b96840493d178718049b9e20c8eb6510/Assets/Mirror/Runtime/NetworkManagerHUD.cs/#L33">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/4a8dc676b96840493d178718049b9e20c8eb6510/Assets/Mirror/Runtime/Transport/AsyncTransport.cs/#L32">View Source</a>
   </span>
-  <h4 id="Mirror_NetworkManagerHUD_offsetY" data-uid="Mirror.NetworkManagerHUD.offsetY">offsetY</h4>
-  <div class="markdown level1 summary"><p>The vertical offset in pixels to draw the HUD runtime GUI at.</p>
+  <a id="Mirror_AsyncTransport_ConnectAsync_" data-uid="Mirror.AsyncTransport.ConnectAsync*"></a>
+  <h4 id="Mirror_AsyncTransport_ConnectAsync_Uri_" data-uid="Mirror.AsyncTransport.ConnectAsync(Uri)">ConnectAsync(Uri)</h4>
+  <div class="markdown level1 summary"><p>Connect to a server located at a provided uri</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int offsetY</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract Task&lt;IConnection&gt; ConnectAsync(Uri uri)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Uri</span></td>
+        <td><span class="parametername">uri</span></td>
+        <td><p>address of the server to connect to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -155,57 +179,46 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Mirror.IConnection.html">IConnection</a>&gt;</td>
+        <td><p>The connection to the server</p>
+</td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/4a8dc676b96840493d178718049b9e20c8eb6510/apiSpec/new?filename=Mirror_NetworkManagerHUD_serverIp.md&amp;value=---%0Auid%3A%20Mirror.NetworkManagerHUD.serverIp%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/4a8dc676b96840493d178718049b9e20c8eb6510/apiSpec/new?filename=Mirror_AsyncTransport_Disconnect.md&amp;value=---%0Auid%3A%20Mirror.AsyncTransport.Disconnect%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/4a8dc676b96840493d178718049b9e20c8eb6510/Assets/Mirror/Runtime/NetworkManagerHUD.cs/#L38">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/4a8dc676b96840493d178718049b9e20c8eb6510/Assets/Mirror/Runtime/Transport/AsyncTransport.cs/#L24">View Source</a>
   </span>
-  <h4 id="Mirror_NetworkManagerHUD_serverIp" data-uid="Mirror.NetworkManagerHUD.serverIp">serverIp</h4>
-  <div class="markdown level1 summary"><p>The IP address we're connecting to.</p>
+  <a id="Mirror_AsyncTransport_Disconnect_" data-uid="Mirror.AsyncTransport.Disconnect*"></a>
+  <h4 id="Mirror_AsyncTransport_Disconnect" data-uid="Mirror.AsyncTransport.Disconnect">Disconnect()</h4>
+  <div class="markdown level1 summary"><p>Stop listening to the port</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string serverIp</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract void Disconnect()</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/4a8dc676b96840493d178718049b9e20c8eb6510/apiSpec/new?filename=Mirror_NetworkManagerHUD_showGUI.md&amp;value=---%0Auid%3A%20Mirror.NetworkManagerHUD.showGUI%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/4a8dc676b96840493d178718049b9e20c8eb6510/apiSpec/new?filename=Mirror_AsyncTransport_ListenAsync.md&amp;value=---%0Auid%3A%20Mirror.AsyncTransport.ListenAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/4a8dc676b96840493d178718049b9e20c8eb6510/Assets/Mirror/Runtime/NetworkManagerHUD.cs/#L23">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/4a8dc676b96840493d178718049b9e20c8eb6510/Assets/Mirror/Runtime/Transport/AsyncTransport.cs/#L19">View Source</a>
   </span>
-  <h4 id="Mirror_NetworkManagerHUD_showGUI" data-uid="Mirror.NetworkManagerHUD.showGUI">showGUI</h4>
-  <div class="markdown level1 summary"><p>Whether to show the default control HUD at runtime.</p>
+  <a id="Mirror_AsyncTransport_ListenAsync_" data-uid="Mirror.AsyncTransport.ListenAsync*"></a>
+  <h4 id="Mirror_AsyncTransport_ListenAsync" data-uid="Mirror.AsyncTransport.ListenAsync">ListenAsync()</h4>
+  <div class="markdown level1 summary"><p>Open up the port and listen for connections
+Use in servers.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool showGUI</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract Task ListenAsync()</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -215,7 +228,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -228,10 +241,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/new/4a8dc676b96840493d178718049b9e20c8eb6510/apiSpec/new?filename=Mirror_NetworkManagerHUD.md&amp;value=---%0Auid%3A%20Mirror.NetworkManagerHUD%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/new/4a8dc676b96840493d178718049b9e20c8eb6510/apiSpec/new?filename=Mirror_AsyncTransport.md&amp;value=---%0Auid%3A%20Mirror.AsyncTransport%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/4a8dc676b96840493d178718049b9e20c8eb6510/Assets/Mirror/Runtime/NetworkManagerHUD.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/4a8dc676b96840493d178718049b9e20c8eb6510/Assets/Mirror/Runtime/Transport/AsyncTransport.cs/#L11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
