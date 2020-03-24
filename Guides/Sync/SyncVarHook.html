@@ -80,11 +80,12 @@
 <h1 id="syncvar-hook">SyncVar Hook</h1>
 
 <p><a href="https://www.youtube.com/watch?v=T7AoozedYfI&amp;list=PLkx8oFug638oBYF5EOwsSS-gOVBXj1dkP&amp;index=5"><img src="../../images/video_tutorial.png" alt="SyncVar hook video tutorial"></a></p>
-<p>The hook attribute can be used to specify a function to be called when the SyncVar changes value on the client.  This ensures that all clients receive the proper variables from other clients.</p>
+<p>The hook attribute can be used to specify a function to be called when the SyncVar changes value on the client.</p>
 <ul>
-<li>The Hook method must have a two parameters of the same type as the SyncVar property. One for the old value, one for the new value.</li>
-<li>The Hook is always called after the value was set. You don't need to set it yourself.</li>
+<li>The Hook method must have two parameters of the same type as the SyncVar property. One for the old value, one for the new value.</li>
+<li>The Hook is always called after the property value is set. You don't need to set it yourself.</li>
 <li>The Hook only fires for changed values, and changing a value in the inspector will not trigger an update.</li>
+<li>As of version 11.1.4 (March 2020) and later, hooks can be virtual methods and overriden in a derived class.</li>
 </ul>
 <p>Below is a simple example of assigning a random color to each player when they're spawned on the server.  All clients will see all players in the correct colors, even if they join later.</p>
 <blockquote>
@@ -130,7 +131,7 @@ public class PlayerController : NetworkBehaviour
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/ac136bbe78454a7c90a55570636d32ed125b155a/doc/Guides/Sync/SyncVarHook.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/06ea63d2713532f8fecea6df0e127042d073d2b8/doc/Guides/Sync/SyncVarHook.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
