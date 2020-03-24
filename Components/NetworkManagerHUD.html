@@ -94,26 +94,26 @@ Set the vertical pixel offset of the HUD GUI, measured from the top edge of the 
 <p>The Network Manager HUD provides the basic functions so that people playing your game can start hosting a networked game, or find and join an existing networked game. Unity displays the Network Manager HUD as a collection of simple UI buttons in the Game view.</p>
 <p><img src="NetworkManagerHUDUI.png" alt="The Network Manager HUD GUI, as viewed in the Game view"></p>
 <h2 id="using-the-hud">Using the HUD</h2>
-<p>The Network Manager HUD starts in LAN Host mode, and displays buttons relating to hosting and joining a  multiplayer game.</p>
-<h3 id="lan-host">LAN Host</h3>
-<p>Click the LAN Host button to start a game as a host on the local network. This client is both the host <em>and</em> one of the players in the game. It uses the information from the Network Info section in the inspector to host the game.</p>
+<p>The Network Manager HUD starts in Server + Client mode, and displays buttons relating to hosting and joining a  multiplayer game.</p>
+<h3 id="host-server--client">Host (Server + Client)</h3>
+<p>Click the Host (Server + Client) button to start a game as a host on the local network. This client is both the host <em>and</em> one of the players in the game. It uses the information from the Network Info section in the inspector to host the game.</p>
 <p>When you click this button, the HUD switches to a simple display of network details, and a Stop button which allows you to stop hosting the game and return to the main HUD menu.</p>
 <p><img src="NetworkManagerHUDHostingLAN.png" alt="The Network Manager HUD GUI when hosting a game."></p>
 <p>When you have started a game as a host, other players of the game can then connect to the host to join the game.</p>
 <p>Click the Stop button to disconnect from the host. Clicking Stop also returns to the main HUD menu.</p>
-<h3 id="lan-client">LAN Client</h3>
-<p>To connect to a host on the internet use the text field to the right of the LAN Client button to specify the address of the host. The default host address is “localhost”, which means the client looks on its own computer for the game host.  In addition to <em>localhost</em>, you can specify an IPv4 address, and IPv6 address, or a fully-qualified domain name (FQDN), e.g. <em>game.example.com</em>, and the transport with resolve the name using DNS.  Click LAN Client to attempt to connect to the host address you have specified.</p>
+<h3 id="client">Client</h3>
+<p>To connect to a host on the internet use the text field to the right of the Client button to specify the address of the host. The default host address is “localhost”, which means the client looks on its own computer for the game host.  In addition to <em>localhost</em>, you can specify an IPv4 address, and IPv6 address, or a fully-qualified domain name (FQDN), e.g. <em>game.example.com</em>, and the transport with resolve the name using DNS.  Click Client to attempt to connect to the host address you have specified.</p>
 <p>Use the default “localhost” in this field if you are running multiple instances of your game on one computer, to test multiplayer interactivity. To do this, you can create a standalone build of your game, and then launch it multiple times on your computer. This is a common way to quickly test that your networked game interactions are functioning as you expect, without you needing to deploy your game to multiple computers or devices.</p>
-<p><img src="NetworkGame3Instances.jpg" alt="An example of three instances of a networked game running on the same desktop PC. This is useful for quick tests to ensure networked interactions are behaving as you intended. One is running as LAN Host, and two are running as LAN Client."></p>
+<p><img src="NetworkGame3Instances.jpg" alt="An example of three instances of a networked game running on the same desktop PC. This is useful for quick tests to ensure networked interactions are behaving as you intended. One is running as Host, and two are running as Client."></p>
 <p>When you want to test your game on multiple machines you need to put the address of the computer acting as host into the address text field.</p>
 <p>The computer acting as the host needs to tell their IP address to everyone running clients, so that you can type this into the box.  For local clients on a LAN, that's the local IP address.  For remote clients, that's the WAN IP address of the router of the host.  Firewall rules and port-forwarding are generally required for a computer to act as host and accept connections from other computers, whether they're on the LAN or the internet.</p>
-<p>Enter the IP address (or leave it as “localhost” if you are testing it on your own machine), then click LAN Client to attempt to connect to the host.</p>
+<p>Enter the IP address (or leave it as “localhost” if you are testing it on your own machine), then click Client to attempt to connect to the host.</p>
 <p>When the client is attempting to connect, the HUD displays a Cancel Connection Attempt button. Click this if you want to stop trying to connect to the host.</p>
 <p><img src="NetworkManagerHUDConnectionAttempt.png" alt="The HUD GUI while attempting a connection"></p>
 <p>If the connection is successful, the HUD displays the Stop button. Click this if you want to stop the game on the client and disconnect from the host:</p>
 <p><img src="NetworkManagerHUDConnected.png" alt="The HUD GUI after a successful connection"></p>
-<h3 id="lan-server-only">LAN Server Only</h3>
-<p>Click LAN Server Only to start a game which acts as a server that other clients can connect to, but which does not act as a client to the game itself. This type of game is often called a “dedicated server”. A user cannot play the game on this particular instance of your game. All players must connect as clients, and nobody plays on the instance that is running as the server.</p>
+<h3 id="server-only">Server Only</h3>
+<p>Click Server Only to start a game which acts as a server that other clients can connect to, but which does not act as a client to the game itself. This type of game is often called a “dedicated server”. A user cannot play the game on this particular instance of your game. All players must connect as clients, and nobody plays on the instance that is running as the server.</p>
 <p>A dedicated server results in better performance for all connected players, because the server doesn’t need to process a local player’s game play in addition to acting as server.</p>
 <p>You might also choose this option if you want to host a game that can be played over the internet (rather than just within a local network), but want to maintain control of the server yourself - for example, to prevent cheating by one of the clients, because only the server has authority over the game. To do this, you would need to run the game in Server Only mode on a computer with a public IP address.</p>
 </article>
@@ -124,7 +124,7 @@ Set the vertical pixel offset of the HUD GUI, measured from the top edge of the 
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/0d987482b78f44628298585136a08b35e0ab71c8/doc/Components/NetworkManagerHUD.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/bc0edd1246d7a7057a8a6e5439ea334bec166c5c/doc/Components/NetworkManagerHUD.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
