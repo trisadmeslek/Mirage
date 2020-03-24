@@ -1206,6 +1206,19 @@ references:
   isSpec: "True"
   fullName: Mirror.IConnection.Disconnect
   nameWithType: IConnection.Disconnect
+- uid: Mirror.IConnection.GetEndPointAddress
+  name: GetEndPointAddress()
+  href: api/Mirror.IConnection.html#Mirror_IConnection_GetEndPointAddress
+  commentId: M:Mirror.IConnection.GetEndPointAddress
+  fullName: Mirror.IConnection.GetEndPointAddress()
+  nameWithType: IConnection.GetEndPointAddress()
+- uid: Mirror.IConnection.GetEndPointAddress*
+  name: GetEndPointAddress
+  href: api/Mirror.IConnection.html#Mirror_IConnection_GetEndPointAddress_
+  commentId: Overload:Mirror.IConnection.GetEndPointAddress
+  isSpec: "True"
+  fullName: Mirror.IConnection.GetEndPointAddress
+  nameWithType: IConnection.GetEndPointAddress
 - uid: Mirror.IConnection.ReceiveAsync(MemoryStream)
   name: ReceiveAsync(MemoryStream)
   href: api/Mirror.IConnection.html#Mirror_IConnection_ReceiveAsync_MemoryStream_
