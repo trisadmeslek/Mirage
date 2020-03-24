@@ -109,6 +109,19 @@ references:
   commentId: F:Mirror.AsyncTcp.AsyncTcpTransport.Port
   fullName: Mirror.AsyncTcp.AsyncTcpTransport.Port
   nameWithType: AsyncTcpTransport.Port
+- uid: Mirror.AsyncTcp.AsyncTcpTransport.ServerUri
+  name: ServerUri()
+  href: api/Mirror.AsyncTcp.AsyncTcpTransport.html#Mirror_AsyncTcp_AsyncTcpTransport_ServerUri
+  commentId: M:Mirror.AsyncTcp.AsyncTcpTransport.ServerUri
+  fullName: Mirror.AsyncTcp.AsyncTcpTransport.ServerUri()
+  nameWithType: AsyncTcpTransport.ServerUri()
+- uid: Mirror.AsyncTcp.AsyncTcpTransport.ServerUri*
+  name: ServerUri
+  href: api/Mirror.AsyncTcp.AsyncTcpTransport.html#Mirror_AsyncTcp_AsyncTcpTransport_ServerUri_
+  commentId: Overload:Mirror.AsyncTcp.AsyncTcpTransport.ServerUri
+  isSpec: "True"
+  fullName: Mirror.AsyncTcp.AsyncTcpTransport.ServerUri
+  nameWithType: AsyncTcpTransport.ServerUri
 - uid: Mirror.AsyncTransport
   name: AsyncTransport
   href: api/Mirror.AsyncTransport.html
@@ -167,6 +180,19 @@ references:
   isSpec: "True"
   fullName: Mirror.AsyncTransport.ListenAsync
   nameWithType: AsyncTransport.ListenAsync
+- uid: Mirror.AsyncTransport.ServerUri
+  name: ServerUri()
+  href: api/Mirror.AsyncTransport.html#Mirror_AsyncTransport_ServerUri
+  commentId: M:Mirror.AsyncTransport.ServerUri
+  fullName: Mirror.AsyncTransport.ServerUri()
+  nameWithType: AsyncTransport.ServerUri()
+- uid: Mirror.AsyncTransport.ServerUri*
+  name: ServerUri
+  href: api/Mirror.AsyncTransport.html#Mirror_AsyncTransport_ServerUri_
+  commentId: Overload:Mirror.AsyncTransport.ServerUri
+  isSpec: "True"
+  fullName: Mirror.AsyncTransport.ServerUri
+  nameWithType: AsyncTransport.ServerUri
 - uid: Mirror.Channels
   name: Channels
   href: api/Mirror.Channels.html
