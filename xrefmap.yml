@@ -5478,19 +5478,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkRoomManager.OnRoomServerSceneLoadedForPlayer
   nameWithType: NetworkRoomManager.OnRoomServerSceneLoadedForPlayer
-- uid: Mirror.NetworkRoomManager.OnRoomStartClient
-  name: OnRoomStartClient()
-  href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomStartClient
-  commentId: M:Mirror.NetworkRoomManager.OnRoomStartClient
-  fullName: Mirror.NetworkRoomManager.OnRoomStartClient()
-  nameWithType: NetworkRoomManager.OnRoomStartClient()
-- uid: Mirror.NetworkRoomManager.OnRoomStartClient*
-  name: OnRoomStartClient
-  href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomStartClient_
-  commentId: Overload:Mirror.NetworkRoomManager.OnRoomStartClient
-  isSpec: "True"
-  fullName: Mirror.NetworkRoomManager.OnRoomStartClient
-  nameWithType: NetworkRoomManager.OnRoomStartClient
 - uid: Mirror.NetworkRoomManager.OnRoomStartHost
   name: OnRoomStartHost()
   href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomStartHost
