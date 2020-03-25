@@ -2677,6 +2677,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkClient.Disconnect
   nameWithType: NetworkClient.Disconnect
+- uid: Mirror.NetworkClient.Disconnected
+  name: Disconnected
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Disconnected
+  commentId: F:Mirror.NetworkClient.Disconnected
+  fullName: Mirror.NetworkClient.Disconnected
+  nameWithType: NetworkClient.Disconnected
 - uid: Mirror.NetworkClient.GetPrefab(System.Guid,GameObject@)
   name: GetPrefab(System.Guid, out GameObject)
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_GetPrefab_System_Guid_GameObject__
@@ -4010,19 +4016,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.OnStartServer
   nameWithType: NetworkManager.OnStartServer
-- uid: Mirror.NetworkManager.OnStopClient
-  name: OnStopClient()
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnStopClient
-  commentId: M:Mirror.NetworkManager.OnStopClient
-  fullName: Mirror.NetworkManager.OnStopClient()
-  nameWithType: NetworkManager.OnStopClient()
-- uid: Mirror.NetworkManager.OnStopClient*
-  name: OnStopClient
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnStopClient_
-  commentId: Overload:Mirror.NetworkManager.OnStopClient
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.OnStopClient
-  nameWithType: NetworkManager.OnStopClient
 - uid: Mirror.NetworkManager.OnStopHost
   name: OnStopHost()
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnStopHost
@@ -5239,6 +5232,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkRoomManager.CheckReadyToBegin
   nameWithType: NetworkRoomManager.CheckReadyToBegin
+- uid: Mirror.NetworkRoomManager.Disconnected
+  name: Disconnected()
+  href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_Disconnected
+  commentId: M:Mirror.NetworkRoomManager.Disconnected
+  fullName: Mirror.NetworkRoomManager.Disconnected()
+  nameWithType: NetworkRoomManager.Disconnected()
+- uid: Mirror.NetworkRoomManager.Disconnected*
+  name: Disconnected
+  href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_Disconnected_
+  commentId: Overload:Mirror.NetworkRoomManager.Disconnected
+  isSpec: "True"
+  fullName: Mirror.NetworkRoomManager.Disconnected
+  nameWithType: NetworkRoomManager.Disconnected
 - uid: Mirror.NetworkRoomManager.GameplayScene
   name: GameplayScene
   href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_GameplayScene
@@ -5667,19 +5673,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkRoomManager.OnStartServer
   nameWithType: NetworkRoomManager.OnStartServer
-- uid: Mirror.NetworkRoomManager.OnStopClient
-  name: OnStopClient()
-  href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnStopClient
-  commentId: M:Mirror.NetworkRoomManager.OnStopClient
-  fullName: Mirror.NetworkRoomManager.OnStopClient()
-  nameWithType: NetworkRoomManager.OnStopClient()
-- uid: Mirror.NetworkRoomManager.OnStopClient*
-  name: OnStopClient
-  href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnStopClient_
-  commentId: Overload:Mirror.NetworkRoomManager.OnStopClient
-  isSpec: "True"
-  fullName: Mirror.NetworkRoomManager.OnStopClient
-  nameWithType: NetworkRoomManager.OnStopClient
 - uid: Mirror.NetworkRoomManager.OnStopHost
   name: OnStopHost()
   href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnStopHost
