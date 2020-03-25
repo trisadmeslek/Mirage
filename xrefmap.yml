@@ -4016,19 +4016,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.OnStopHost
   nameWithType: NetworkManager.OnStopHost
-- uid: Mirror.NetworkManager.OnStopServer
-  name: OnStopServer()
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnStopServer
-  commentId: M:Mirror.NetworkManager.OnStopServer
-  fullName: Mirror.NetworkManager.OnStopServer()
-  nameWithType: NetworkManager.OnStopServer()
-- uid: Mirror.NetworkManager.OnStopServer*
-  name: OnStopServer
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnStopServer_
-  commentId: Overload:Mirror.NetworkManager.OnStopServer
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.OnStopServer
-  nameWithType: NetworkManager.OnStopServer
 - uid: Mirror.NetworkManager.OnValidate
   name: OnValidate()
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnValidate
@@ -5647,19 +5634,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkRoomManager.OnStopHost
   nameWithType: NetworkRoomManager.OnStopHost
-- uid: Mirror.NetworkRoomManager.OnStopServer
-  name: OnStopServer()
-  href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnStopServer
-  commentId: M:Mirror.NetworkRoomManager.OnStopServer
-  fullName: Mirror.NetworkRoomManager.OnStopServer()
-  nameWithType: NetworkRoomManager.OnStopServer()
-- uid: Mirror.NetworkRoomManager.OnStopServer*
-  name: OnStopServer
-  href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnStopServer_
-  commentId: Overload:Mirror.NetworkRoomManager.OnStopServer
-  isSpec: "True"
-  fullName: Mirror.NetworkRoomManager.OnStopServer
-  nameWithType: NetworkRoomManager.OnStopServer
 - uid: Mirror.NetworkRoomManager.OnValidate
   name: OnValidate()
   href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnValidate
@@ -5754,6 +5728,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkRoomManager.Start
   nameWithType: NetworkRoomManager.Start
+- uid: Mirror.NetworkRoomManager.Stopped
+  name: Stopped()
+  href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_Stopped
+  commentId: M:Mirror.NetworkRoomManager.Stopped
+  fullName: Mirror.NetworkRoomManager.Stopped()
+  nameWithType: NetworkRoomManager.Stopped()
+- uid: Mirror.NetworkRoomManager.Stopped*
+  name: Stopped
+  href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_Stopped_
+  commentId: Overload:Mirror.NetworkRoomManager.Stopped
+  isSpec: "True"
+  fullName: Mirror.NetworkRoomManager.Stopped
+  nameWithType: NetworkRoomManager.Stopped
 - uid: Mirror.NetworkRoomPlayer
   name: NetworkRoomPlayer
   href: api/Mirror.NetworkRoomPlayer.html
@@ -6317,6 +6304,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkServer.SpawnObjects
   nameWithType: NetworkServer.SpawnObjects
+- uid: Mirror.NetworkServer.Stopped
+  name: Stopped
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Stopped
+  commentId: F:Mirror.NetworkServer.Stopped
+  fullName: Mirror.NetworkServer.Stopped
+  nameWithType: NetworkServer.Stopped
 - uid: Mirror.NetworkServer.Time
   name: Time
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Time
