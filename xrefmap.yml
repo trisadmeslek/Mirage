@@ -1129,64 +1129,6 @@ references:
   commentId: F:Mirror.FallbackTransport.transports
   fullName: Mirror.FallbackTransport.transports
   nameWithType: FallbackTransport.transports
-- uid: Mirror.FloatBytePacker
-  name: FloatBytePacker
-  href: api/Mirror.FloatBytePacker.html
-  commentId: T:Mirror.FloatBytePacker
-  fullName: Mirror.FloatBytePacker
-  nameWithType: FloatBytePacker
-- uid: Mirror.FloatBytePacker.PackThreeFloatsIntoUShort(System.Single,System.Single,System.Single,System.Single,System.Single)
-  name: PackThreeFloatsIntoUShort(Single, Single, Single, Single, Single)
-  href: api/Mirror.FloatBytePacker.html#Mirror_FloatBytePacker_PackThreeFloatsIntoUShort_System_Single_System_Single_System_Single_System_Single_System_Single_
-  commentId: M:Mirror.FloatBytePacker.PackThreeFloatsIntoUShort(System.Single,System.Single,System.Single,System.Single,System.Single)
-  fullName: Mirror.FloatBytePacker.PackThreeFloatsIntoUShort(System.Single, System.Single, System.Single, System.Single, System.Single)
-  nameWithType: FloatBytePacker.PackThreeFloatsIntoUShort(Single, Single, Single, Single, Single)
-- uid: Mirror.FloatBytePacker.PackThreeFloatsIntoUShort*
-  name: PackThreeFloatsIntoUShort
-  href: api/Mirror.FloatBytePacker.html#Mirror_FloatBytePacker_PackThreeFloatsIntoUShort_
-  commentId: Overload:Mirror.FloatBytePacker.PackThreeFloatsIntoUShort
-  isSpec: "True"
-  fullName: Mirror.FloatBytePacker.PackThreeFloatsIntoUShort
-  nameWithType: FloatBytePacker.PackThreeFloatsIntoUShort
-- uid: Mirror.FloatBytePacker.ScaleByteToFloat(System.Byte,System.Byte,System.Byte,System.Single,System.Single)
-  name: ScaleByteToFloat(Byte, Byte, Byte, Single, Single)
-  href: api/Mirror.FloatBytePacker.html#Mirror_FloatBytePacker_ScaleByteToFloat_System_Byte_System_Byte_System_Byte_System_Single_System_Single_
-  commentId: M:Mirror.FloatBytePacker.ScaleByteToFloat(System.Byte,System.Byte,System.Byte,System.Single,System.Single)
-  fullName: Mirror.FloatBytePacker.ScaleByteToFloat(System.Byte, System.Byte, System.Byte, System.Single, System.Single)
-  nameWithType: FloatBytePacker.ScaleByteToFloat(Byte, Byte, Byte, Single, Single)
-- uid: Mirror.FloatBytePacker.ScaleByteToFloat*
-  name: ScaleByteToFloat
-  href: api/Mirror.FloatBytePacker.html#Mirror_FloatBytePacker_ScaleByteToFloat_
-  commentId: Overload:Mirror.FloatBytePacker.ScaleByteToFloat
-  isSpec: "True"
-  fullName: Mirror.FloatBytePacker.ScaleByteToFloat
-  nameWithType: FloatBytePacker.ScaleByteToFloat
-- uid: Mirror.FloatBytePacker.ScaleFloatToByte(System.Single,System.Single,System.Single,System.Byte,System.Byte)
-  name: ScaleFloatToByte(Single, Single, Single, Byte, Byte)
-  href: api/Mirror.FloatBytePacker.html#Mirror_FloatBytePacker_ScaleFloatToByte_System_Single_System_Single_System_Single_System_Byte_System_Byte_
-  commentId: M:Mirror.FloatBytePacker.ScaleFloatToByte(System.Single,System.Single,System.Single,System.Byte,System.Byte)
-  fullName: Mirror.FloatBytePacker.ScaleFloatToByte(System.Single, System.Single, System.Single, System.Byte, System.Byte)
-  nameWithType: FloatBytePacker.ScaleFloatToByte(Single, Single, Single, Byte, Byte)
-- uid: Mirror.FloatBytePacker.ScaleFloatToByte*
-  name: ScaleFloatToByte
-  href: api/Mirror.FloatBytePacker.html#Mirror_FloatBytePacker_ScaleFloatToByte_
-  commentId: Overload:Mirror.FloatBytePacker.ScaleFloatToByte
-  isSpec: "True"
-  fullName: Mirror.FloatBytePacker.ScaleFloatToByte
-  nameWithType: FloatBytePacker.ScaleFloatToByte
-- uid: Mirror.FloatBytePacker.UnpackUShortIntoThreeFloats(System.UInt16,System.Single,System.Single)
-  name: UnpackUShortIntoThreeFloats(UInt16, Single, Single)
-  href: api/Mirror.FloatBytePacker.html#Mirror_FloatBytePacker_UnpackUShortIntoThreeFloats_System_UInt16_System_Single_System_Single_
-  commentId: M:Mirror.FloatBytePacker.UnpackUShortIntoThreeFloats(System.UInt16,System.Single,System.Single)
-  fullName: Mirror.FloatBytePacker.UnpackUShortIntoThreeFloats(System.UInt16, System.Single, System.Single)
-  nameWithType: FloatBytePacker.UnpackUShortIntoThreeFloats(UInt16, Single, Single)
-- uid: Mirror.FloatBytePacker.UnpackUShortIntoThreeFloats*
-  name: UnpackUShortIntoThreeFloats
-  href: api/Mirror.FloatBytePacker.html#Mirror_FloatBytePacker_UnpackUShortIntoThreeFloats_
-  commentId: Overload:Mirror.FloatBytePacker.UnpackUShortIntoThreeFloats
-  isSpec: "True"
-  fullName: Mirror.FloatBytePacker.UnpackUShortIntoThreeFloats
-  nameWithType: FloatBytePacker.UnpackUShortIntoThreeFloats
 - uid: Mirror.IConnection
   name: IConnection
   href: api/Mirror.IConnection.html
@@ -5608,6 +5550,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkRoomManager.OnRoomStopHost
   nameWithType: NetworkRoomManager.OnRoomStopHost
+- uid: Mirror.NetworkRoomManager.OnRoomStopServer
+  name: OnRoomStopServer()
+  href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomStopServer
+  commentId: M:Mirror.NetworkRoomManager.OnRoomStopServer
+  fullName: Mirror.NetworkRoomManager.OnRoomStopServer()
+  nameWithType: NetworkRoomManager.OnRoomStopServer()
+- uid: Mirror.NetworkRoomManager.OnRoomStopServer*
+  name: OnRoomStopServer
+  href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomStopServer_
+  commentId: Overload:Mirror.NetworkRoomManager.OnRoomStopServer
+  isSpec: "True"
+  fullName: Mirror.NetworkRoomManager.OnRoomStopServer
+  nameWithType: NetworkRoomManager.OnRoomStopServer
 - uid: Mirror.NetworkRoomManager.OnServerAddPlayer(Mirror.NetworkConnection)
   name: OnServerAddPlayer(NetworkConnection)
   href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnServerAddPlayer_Mirror_NetworkConnection_
@@ -6631,36 +6586,6 @@ references:
   commentId: F:Mirror.NetworkTransformBase.ClientAuthority
   fullName: Mirror.NetworkTransformBase.ClientAuthority
   nameWithType: NetworkTransformBase.ClientAuthority
-- uid: Mirror.NetworkTransformBase.Compression
-  name: NetworkTransformBase.Compression
-  href: api/Mirror.NetworkTransformBase.Compression.html
-  commentId: T:Mirror.NetworkTransformBase.Compression
-  fullName: Mirror.NetworkTransformBase.Compression
-  nameWithType: NetworkTransformBase.Compression
-- uid: Mirror.NetworkTransformBase.Compression.Lots
-  name: Lots
-  href: api/Mirror.NetworkTransformBase.Compression.html#Mirror_NetworkTransformBase_Compression_Lots
-  commentId: F:Mirror.NetworkTransformBase.Compression.Lots
-  fullName: Mirror.NetworkTransformBase.Compression.Lots
-  nameWithType: NetworkTransformBase.Compression.Lots
-- uid: Mirror.NetworkTransformBase.Compression.Much
-  name: Much
-  href: api/Mirror.NetworkTransformBase.Compression.html#Mirror_NetworkTransformBase_Compression_Much
-  commentId: F:Mirror.NetworkTransformBase.Compression.Much
-  fullName: Mirror.NetworkTransformBase.Compression.Much
-  nameWithType: NetworkTransformBase.Compression.Much
-- uid: Mirror.NetworkTransformBase.Compression.None
-  name: None
-  href: api/Mirror.NetworkTransformBase.Compression.html#Mirror_NetworkTransformBase_Compression_None
-  commentId: F:Mirror.NetworkTransformBase.Compression.None
-  fullName: Mirror.NetworkTransformBase.Compression.None
-  nameWithType: NetworkTransformBase.Compression.None
-- uid: Mirror.NetworkTransformBase.Compression.NoRotation
-  name: NoRotation
-  href: api/Mirror.NetworkTransformBase.Compression.html#Mirror_NetworkTransformBase_Compression_NoRotation
-  commentId: F:Mirror.NetworkTransformBase.Compression.NoRotation
-  fullName: Mirror.NetworkTransformBase.Compression.NoRotation
-  nameWithType: NetworkTransformBase.Compression.NoRotation
 - uid: Mirror.NetworkTransformBase.DataPoint
   name: NetworkTransformBase.DataPoint
   href: api/Mirror.NetworkTransformBase.DataPoint.html
@@ -6741,12 +6666,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkTransformBase.OnSerialize
   nameWithType: NetworkTransformBase.OnSerialize
-- uid: Mirror.NetworkTransformBase.SerializeIntoWriter(Mirror.NetworkWriter,Vector3,Quaternion,Mirror.NetworkTransformBase.Compression,Vector3)
-  name: SerializeIntoWriter(NetworkWriter, Vector3, Quaternion, NetworkTransformBase.Compression, Vector3)
-  href: api/Mirror.NetworkTransformBase.html#Mirror_NetworkTransformBase_SerializeIntoWriter_Mirror_NetworkWriter_Vector3_Quaternion_Mirror_NetworkTransformBase_Compression_Vector3_
-  commentId: M:Mirror.NetworkTransformBase.SerializeIntoWriter(Mirror.NetworkWriter,Vector3,Quaternion,Mirror.NetworkTransformBase.Compression,Vector3)
-  fullName: Mirror.NetworkTransformBase.SerializeIntoWriter(Mirror.NetworkWriter, Vector3, Quaternion, Mirror.NetworkTransformBase.Compression, Vector3)
-  nameWithType: NetworkTransformBase.SerializeIntoWriter(NetworkWriter, Vector3, Quaternion, NetworkTransformBase.Compression, Vector3)
+- uid: Mirror.NetworkTransformBase.SerializeIntoWriter(Mirror.NetworkWriter,Vector3,Quaternion,Vector3)
+  name: SerializeIntoWriter(NetworkWriter, Vector3, Quaternion, Vector3)
+  href: api/Mirror.NetworkTransformBase.html#Mirror_NetworkTransformBase_SerializeIntoWriter_Mirror_NetworkWriter_Vector3_Quaternion_Vector3_
+  commentId: M:Mirror.NetworkTransformBase.SerializeIntoWriter(Mirror.NetworkWriter,Vector3,Quaternion,Vector3)
+  fullName: Mirror.NetworkTransformBase.SerializeIntoWriter(Mirror.NetworkWriter, Vector3, Quaternion, Vector3)
+  nameWithType: NetworkTransformBase.SerializeIntoWriter(NetworkWriter, Vector3, Quaternion, Vector3)
 - uid: Mirror.NetworkTransformBase.SerializeIntoWriter*
   name: SerializeIntoWriter
   href: api/Mirror.NetworkTransformBase.html#Mirror_NetworkTransformBase_SerializeIntoWriter_
