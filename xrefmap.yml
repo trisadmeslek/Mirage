@@ -3977,19 +3977,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.OnServerSceneChanged
   nameWithType: NetworkManager.OnServerSceneChanged
-- uid: Mirror.NetworkManager.OnStartClient
-  name: OnStartClient()
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnStartClient
-  commentId: M:Mirror.NetworkManager.OnStartClient
-  fullName: Mirror.NetworkManager.OnStartClient()
-  nameWithType: NetworkManager.OnStartClient()
-- uid: Mirror.NetworkManager.OnStartClient*
-  name: OnStartClient
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnStartClient_
-  commentId: Overload:Mirror.NetworkManager.OnStartClient
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.OnStartClient
-  nameWithType: NetworkManager.OnStartClient
 - uid: Mirror.NetworkManager.OnStartHost
   name: OnStartHost()
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnStartHost
@@ -5634,19 +5621,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkRoomManager.OnServerSceneChanged
   nameWithType: NetworkRoomManager.OnServerSceneChanged
-- uid: Mirror.NetworkRoomManager.OnStartClient
-  name: OnStartClient()
-  href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnStartClient
-  commentId: M:Mirror.NetworkRoomManager.OnStartClient
-  fullName: Mirror.NetworkRoomManager.OnStartClient()
-  nameWithType: NetworkRoomManager.OnStartClient()
-- uid: Mirror.NetworkRoomManager.OnStartClient*
-  name: OnStartClient
-  href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnStartClient_
-  commentId: Overload:Mirror.NetworkRoomManager.OnStartClient
-  isSpec: "True"
-  fullName: Mirror.NetworkRoomManager.OnStartClient
-  nameWithType: NetworkRoomManager.OnStartClient
 - uid: Mirror.NetworkRoomManager.OnStartHost
   name: OnStartHost()
   href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnStartHost
