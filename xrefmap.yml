@@ -756,57 +756,6 @@ references:
   commentId: F:Mirror.Discovery.ServerResponse.uri
   fullName: Mirror.Discovery.ServerResponse.uri
   nameWithType: ServerResponse.uri
-- uid: Mirror.ErrorMessage
-  name: ErrorMessage
-  href: api/Mirror.ErrorMessage.html
-  commentId: T:Mirror.ErrorMessage
-  fullName: Mirror.ErrorMessage
-  nameWithType: ErrorMessage
-- uid: Mirror.ErrorMessage.#ctor(System.Byte)
-  name: ErrorMessage(Byte)
-  href: api/Mirror.ErrorMessage.html#Mirror_ErrorMessage__ctor_System_Byte_
-  commentId: M:Mirror.ErrorMessage.#ctor(System.Byte)
-  fullName: Mirror.ErrorMessage.ErrorMessage(System.Byte)
-  nameWithType: ErrorMessage.ErrorMessage(Byte)
-- uid: Mirror.ErrorMessage.#ctor*
-  name: ErrorMessage
-  href: api/Mirror.ErrorMessage.html#Mirror_ErrorMessage__ctor_
-  commentId: Overload:Mirror.ErrorMessage.#ctor
-  isSpec: "True"
-  fullName: Mirror.ErrorMessage.ErrorMessage
-  nameWithType: ErrorMessage.ErrorMessage
-- uid: Mirror.ErrorMessage.Deserialize(Mirror.NetworkReader)
-  name: Deserialize(NetworkReader)
-  href: api/Mirror.ErrorMessage.html#Mirror_ErrorMessage_Deserialize_Mirror_NetworkReader_
-  commentId: M:Mirror.ErrorMessage.Deserialize(Mirror.NetworkReader)
-  fullName: Mirror.ErrorMessage.Deserialize(Mirror.NetworkReader)
-  nameWithType: ErrorMessage.Deserialize(NetworkReader)
-- uid: Mirror.ErrorMessage.Deserialize*
-  name: Deserialize
-  href: api/Mirror.ErrorMessage.html#Mirror_ErrorMessage_Deserialize_
-  commentId: Overload:Mirror.ErrorMessage.Deserialize
-  isSpec: "True"
-  fullName: Mirror.ErrorMessage.Deserialize
-  nameWithType: ErrorMessage.Deserialize
-- uid: Mirror.ErrorMessage.Serialize(Mirror.NetworkWriter)
-  name: Serialize(NetworkWriter)
-  href: api/Mirror.ErrorMessage.html#Mirror_ErrorMessage_Serialize_Mirror_NetworkWriter_
-  commentId: M:Mirror.ErrorMessage.Serialize(Mirror.NetworkWriter)
-  fullName: Mirror.ErrorMessage.Serialize(Mirror.NetworkWriter)
-  nameWithType: ErrorMessage.Serialize(NetworkWriter)
-- uid: Mirror.ErrorMessage.Serialize*
-  name: Serialize
-  href: api/Mirror.ErrorMessage.html#Mirror_ErrorMessage_Serialize_
-  commentId: Overload:Mirror.ErrorMessage.Serialize
-  isSpec: "True"
-  fullName: Mirror.ErrorMessage.Serialize
-  nameWithType: ErrorMessage.Serialize
-- uid: Mirror.ErrorMessage.value
-  name: value
-  href: api/Mirror.ErrorMessage.html#Mirror_ErrorMessage_value
-  commentId: F:Mirror.ErrorMessage.value
-  fullName: Mirror.ErrorMessage.value
-  nameWithType: ErrorMessage.value
 - uid: Mirror.ExponentialMovingAverage
   name: ExponentialMovingAverage
   href: api/Mirror.ExponentialMovingAverage.html
