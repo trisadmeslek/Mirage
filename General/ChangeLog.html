@@ -93,7 +93,14 @@
 <li>Fixed: NetworkAnimator now correctly excludes parameters controlled by curves.</li>
 <li>Fixed: NetworkBehaviour now uses a property drawer for the SyncVar label so it displays better.</li>
 <li>Fixed: NetworkServer.SendToReady overloads are no longer ambiguous.</li>
+<li>Fixed: NetworkRoomManager no longer incorrectly destroys the game player object. It's left in the game scene to be cleaned up by Unity when the scene changes.</li>
+<li>Fixed: StopHost correctly raises OnServerDisconnect in Network Manager, and correctly unwinds before shutting down the server.</li>
+<li>Fixed: <code>isServer</code> is no longer incorrectly false on server in Network Identity's OnDestroy</li>
+<li>Changed: Network Manager HUD now calls StopHost / StopServer / StopClient more appropriately.</li>
+<li>Changed: Network Manager HUD labels no longer say LAN. Associated docs also cleaned up to eliminate the misconception of Mirror being LAN only solution.</li>
+<li>Changed: NetworkTransform compression removed and message handling is much simpler now.</li>
 <li>Changed: NetworkSceneChecker initializes in Awake again because OnEnable proved to be unreliable in some cases.</li>
+<li>Changed: Network Manager will no longer lose references to scenes if they aren't in the Build Settings scene list, however moving or renaming scenes may cause references to be lost.</li>
 <li>Changed: <strong>Breaking</strong> Many obsolete methods and properties removed. Use version 10 first if upgrading from UNet or older Mirror. See <a href="Deprecations.html">Deprecations</a> for complete list.</li>
 </ul>
 <h2 id="version-1047---2020-mar-03">Version 10.4.7 - 2020-Mar-03</h2>
@@ -433,7 +440,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/e8b933ddff9a47b64be371edb63af130bd3958b4/doc/General/ChangeLog.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/960a830fb308aacba5891e3b9a00421c77f40ff1/doc/General/ChangeLog.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
