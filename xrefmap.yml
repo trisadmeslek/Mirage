@@ -3725,12 +3725,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.numPlayers
   nameWithType: NetworkManager.numPlayers
-- uid: Mirror.NetworkManager.offlineScene
-  name: offlineScene
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_offlineScene
-  commentId: F:Mirror.NetworkManager.offlineScene
-  fullName: Mirror.NetworkManager.offlineScene
-  nameWithType: NetworkManager.offlineScene
 - uid: Mirror.NetworkManager.OnApplicationQuit
   name: OnApplicationQuit()
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnApplicationQuit
@@ -3822,12 +3816,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.OnDestroy
   nameWithType: NetworkManager.OnDestroy
-- uid: Mirror.NetworkManager.onlineScene
-  name: onlineScene
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_onlineScene
-  commentId: F:Mirror.NetworkManager.onlineScene
-  fullName: Mirror.NetworkManager.onlineScene
-  nameWithType: NetworkManager.onlineScene
 - uid: Mirror.NetworkManager.OnServerAddPlayer(Mirror.NetworkConnection)
   name: OnServerAddPlayer(NetworkConnection)
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnServerAddPlayer_Mirror_NetworkConnection_
