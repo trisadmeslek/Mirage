@@ -2486,25 +2486,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkClient.active
   nameWithType: NetworkClient.active
-- uid: Mirror.NetworkClient.AddPlayer
-  name: AddPlayer()
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_AddPlayer
-  commentId: M:Mirror.NetworkClient.AddPlayer
-  fullName: Mirror.NetworkClient.AddPlayer()
-  nameWithType: NetworkClient.AddPlayer()
-- uid: Mirror.NetworkClient.AddPlayer(Mirror.NetworkConnectionToServer)
-  name: AddPlayer(NetworkConnectionToServer)
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_AddPlayer_Mirror_NetworkConnectionToServer_
-  commentId: M:Mirror.NetworkClient.AddPlayer(Mirror.NetworkConnectionToServer)
-  fullName: Mirror.NetworkClient.AddPlayer(Mirror.NetworkConnectionToServer)
-  nameWithType: NetworkClient.AddPlayer(NetworkConnectionToServer)
-- uid: Mirror.NetworkClient.AddPlayer*
-  name: AddPlayer
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_AddPlayer_
-  commentId: Overload:Mirror.NetworkClient.AddPlayer
-  isSpec: "True"
-  fullName: Mirror.NetworkClient.AddPlayer
-  nameWithType: NetworkClient.AddPlayer
 - uid: Mirror.NetworkClient.Authenticated
   name: Authenticated
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Authenticated
@@ -3554,12 +3535,6 @@ references:
   commentId: T:Mirror.NetworkManager
   fullName: Mirror.NetworkManager
   nameWithType: NetworkManager
-- uid: Mirror.NetworkManager.autoCreatePlayer
-  name: autoCreatePlayer
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_autoCreatePlayer
-  commentId: F:Mirror.NetworkManager.autoCreatePlayer
-  fullName: Mirror.NetworkManager.autoCreatePlayer
-  nameWithType: NetworkManager.autoCreatePlayer
 - uid: Mirror.NetworkManager.client
   name: client
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_client
@@ -3591,19 +3566,6 @@ references:
   commentId: F:Mirror.NetworkManager.dontDestroyOnLoad
   fullName: Mirror.NetworkManager.dontDestroyOnLoad
   nameWithType: NetworkManager.dontDestroyOnLoad
-- uid: Mirror.NetworkManager.GetStartPosition
-  name: GetStartPosition()
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_GetStartPosition
-  commentId: M:Mirror.NetworkManager.GetStartPosition
-  fullName: Mirror.NetworkManager.GetStartPosition()
-  nameWithType: NetworkManager.GetStartPosition()
-- uid: Mirror.NetworkManager.GetStartPosition*
-  name: GetStartPosition
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_GetStartPosition_
-  commentId: Overload:Mirror.NetworkManager.GetStartPosition
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.GetStartPosition
-  nameWithType: NetworkManager.GetStartPosition
 - uid: Mirror.NetworkManager.isHeadless
   name: isHeadless
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_isHeadless
@@ -3661,19 +3623,6 @@ references:
   commentId: F:Mirror.NetworkManager.networkSceneName
   fullName: Mirror.NetworkManager.networkSceneName
   nameWithType: NetworkManager.networkSceneName
-- uid: Mirror.NetworkManager.numPlayers
-  name: numPlayers
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_numPlayers
-  commentId: P:Mirror.NetworkManager.numPlayers
-  fullName: Mirror.NetworkManager.numPlayers
-  nameWithType: NetworkManager.numPlayers
-- uid: Mirror.NetworkManager.numPlayers*
-  name: numPlayers
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_numPlayers_
-  commentId: Overload:Mirror.NetworkManager.numPlayers
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.numPlayers
-  nameWithType: NetworkManager.numPlayers
 - uid: Mirror.NetworkManager.OnApplicationQuit
   name: OnApplicationQuit()
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnApplicationQuit
@@ -3687,19 +3636,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.OnApplicationQuit
   nameWithType: NetworkManager.OnApplicationQuit
-- uid: Mirror.NetworkManager.OnAuthenticated(Mirror.NetworkConnectionToServer)
-  name: OnAuthenticated(NetworkConnectionToServer)
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnAuthenticated_Mirror_NetworkConnectionToServer_
-  commentId: M:Mirror.NetworkManager.OnAuthenticated(Mirror.NetworkConnectionToServer)
-  fullName: Mirror.NetworkManager.OnAuthenticated(Mirror.NetworkConnectionToServer)
-  nameWithType: NetworkManager.OnAuthenticated(NetworkConnectionToServer)
-- uid: Mirror.NetworkManager.OnAuthenticated*
-  name: OnAuthenticated
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnAuthenticated_
-  commentId: Overload:Mirror.NetworkManager.OnAuthenticated
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.OnAuthenticated
-  nameWithType: NetworkManager.OnAuthenticated
 - uid: Mirror.NetworkManager.OnClientChangeScene(System.String,Mirror.SceneOperation,System.Boolean)
   name: OnClientChangeScene(String, SceneOperation, Boolean)
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnClientChangeScene_System_String_Mirror_SceneOperation_System_Boolean_
@@ -3765,19 +3701,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.OnDestroy
   nameWithType: NetworkManager.OnDestroy
-- uid: Mirror.NetworkManager.OnServerAddPlayer(Mirror.NetworkConnection)
-  name: OnServerAddPlayer(NetworkConnection)
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnServerAddPlayer_Mirror_NetworkConnection_
-  commentId: M:Mirror.NetworkManager.OnServerAddPlayer(Mirror.NetworkConnection)
-  fullName: Mirror.NetworkManager.OnServerAddPlayer(Mirror.NetworkConnection)
-  nameWithType: NetworkManager.OnServerAddPlayer(NetworkConnection)
-- uid: Mirror.NetworkManager.OnServerAddPlayer*
-  name: OnServerAddPlayer
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnServerAddPlayer_
-  commentId: Overload:Mirror.NetworkManager.OnServerAddPlayer
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.OnServerAddPlayer
-  nameWithType: NetworkManager.OnServerAddPlayer
 - uid: Mirror.NetworkManager.OnServerChangeScene(System.String)
   name: OnServerChangeScene(String)
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnServerChangeScene_System_String_
@@ -3894,25 +3817,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.OnValidate
   nameWithType: NetworkManager.OnValidate
-- uid: Mirror.NetworkManager.playerSpawnMethod
-  name: playerSpawnMethod
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_playerSpawnMethod
-  commentId: F:Mirror.NetworkManager.playerSpawnMethod
-  fullName: Mirror.NetworkManager.playerSpawnMethod
-  nameWithType: NetworkManager.playerSpawnMethod
-- uid: Mirror.NetworkManager.RegisterStartPosition(Transform)
-  name: RegisterStartPosition(Transform)
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_RegisterStartPosition_Transform_
-  commentId: M:Mirror.NetworkManager.RegisterStartPosition(Transform)
-  fullName: Mirror.NetworkManager.RegisterStartPosition(Transform)
-  nameWithType: NetworkManager.RegisterStartPosition(Transform)
-- uid: Mirror.NetworkManager.RegisterStartPosition*
-  name: RegisterStartPosition
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_RegisterStartPosition_
-  commentId: Overload:Mirror.NetworkManager.RegisterStartPosition
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.RegisterStartPosition
-  nameWithType: NetworkManager.RegisterStartPosition
 - uid: Mirror.NetworkManager.server
   name: server
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_server
@@ -3995,18 +3899,6 @@ references:
   commentId: F:Mirror.NetworkManager.startOnHeadless
   fullName: Mirror.NetworkManager.startOnHeadless
   nameWithType: NetworkManager.startOnHeadless
-- uid: Mirror.NetworkManager.startPositionIndex
-  name: startPositionIndex
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_startPositionIndex
-  commentId: F:Mirror.NetworkManager.startPositionIndex
-  fullName: Mirror.NetworkManager.startPositionIndex
-  nameWithType: NetworkManager.startPositionIndex
-- uid: Mirror.NetworkManager.startPositions
-  name: startPositions
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_startPositions
-  commentId: F:Mirror.NetworkManager.startPositions
-  fullName: Mirror.NetworkManager.startPositions
-  nameWithType: NetworkManager.startPositions
 - uid: Mirror.NetworkManager.StartServer
   name: StartServer()
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_StartServer
@@ -4065,19 +3957,6 @@ references:
   commentId: F:Mirror.NetworkManager.transport
   fullName: Mirror.NetworkManager.transport
   nameWithType: NetworkManager.transport
-- uid: Mirror.NetworkManager.UnRegisterStartPosition(Transform)
-  name: UnRegisterStartPosition(Transform)
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_UnRegisterStartPosition_Transform_
-  commentId: M:Mirror.NetworkManager.UnRegisterStartPosition(Transform)
-  fullName: Mirror.NetworkManager.UnRegisterStartPosition(Transform)
-  nameWithType: NetworkManager.UnRegisterStartPosition(Transform)
-- uid: Mirror.NetworkManager.UnRegisterStartPosition*
-  name: UnRegisterStartPosition
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_UnRegisterStartPosition_
-  commentId: Overload:Mirror.NetworkManager.UnRegisterStartPosition
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.UnRegisterStartPosition
-  nameWithType: NetworkManager.UnRegisterStartPosition
 - uid: Mirror.NetworkManagerHUD
   name: NetworkManagerHUD
   href: api/Mirror.NetworkManagerHUD.html
@@ -5316,12 +5195,19 @@ references:
   commentId: T:Mirror.NetworkServer.NetworkConnectionEvent
   fullName: Mirror.NetworkServer.NetworkConnectionEvent
   nameWithType: NetworkServer.NetworkConnectionEvent
-- uid: Mirror.NetworkServer.playerPrefab
-  name: playerPrefab
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_playerPrefab
-  commentId: F:Mirror.NetworkServer.playerPrefab
-  fullName: Mirror.NetworkServer.playerPrefab
-  nameWithType: NetworkServer.playerPrefab
+- uid: Mirror.NetworkServer.NumPlayers
+  name: NumPlayers
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_NumPlayers
+  commentId: P:Mirror.NetworkServer.NumPlayers
+  fullName: Mirror.NetworkServer.NumPlayers
+  nameWithType: NetworkServer.NumPlayers
+- uid: Mirror.NetworkServer.NumPlayers*
+  name: NumPlayers
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_NumPlayers_
+  commentId: Overload:Mirror.NetworkServer.NumPlayers
+  isSpec: "True"
+  fullName: Mirror.NetworkServer.NumPlayers
+  nameWithType: NetworkServer.NumPlayers
 - uid: Mirror.NetworkServer.RemoveConnection(System.Int32)
   name: RemoveConnection(Int32)
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_RemoveConnection_System_Int32_
@@ -5532,44 +5418,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkServer.UnSpawn
   nameWithType: NetworkServer.UnSpawn
-- uid: Mirror.NetworkStartPosition
-  name: NetworkStartPosition
-  href: api/Mirror.NetworkStartPosition.html
-  commentId: T:Mirror.NetworkStartPosition
-  fullName: Mirror.NetworkStartPosition
-  nameWithType: NetworkStartPosition
-- uid: Mirror.NetworkStartPosition.Awake
-  name: Awake()
-  href: api/Mirror.NetworkStartPosition.html#Mirror_NetworkStartPosition_Awake
-  commentId: M:Mirror.NetworkStartPosition.Awake
-  fullName: Mirror.NetworkStartPosition.Awake()
-  nameWithType: NetworkStartPosition.Awake()
-- uid: Mirror.NetworkStartPosition.Awake*
-  name: Awake
-  href: api/Mirror.NetworkStartPosition.html#Mirror_NetworkStartPosition_Awake_
-  commentId: Overload:Mirror.NetworkStartPosition.Awake
-  isSpec: "True"
-  fullName: Mirror.NetworkStartPosition.Awake
-  nameWithType: NetworkStartPosition.Awake
-- uid: Mirror.NetworkStartPosition.manager
-  name: manager
-  href: api/Mirror.NetworkStartPosition.html#Mirror_NetworkStartPosition_manager
-  commentId: F:Mirror.NetworkStartPosition.manager
-  fullName: Mirror.NetworkStartPosition.manager
-  nameWithType: NetworkStartPosition.manager
-- uid: Mirror.NetworkStartPosition.OnDestroy
-  name: OnDestroy()
-  href: api/Mirror.NetworkStartPosition.html#Mirror_NetworkStartPosition_OnDestroy
-  commentId: M:Mirror.NetworkStartPosition.OnDestroy
-  fullName: Mirror.NetworkStartPosition.OnDestroy()
-  nameWithType: NetworkStartPosition.OnDestroy()
-- uid: Mirror.NetworkStartPosition.OnDestroy*
-  name: OnDestroy
-  href: api/Mirror.NetworkStartPosition.html#Mirror_NetworkStartPosition_OnDestroy_
-  commentId: Overload:Mirror.NetworkStartPosition.OnDestroy
-  isSpec: "True"
-  fullName: Mirror.NetworkStartPosition.OnDestroy
-  nameWithType: NetworkStartPosition.OnDestroy
 - uid: Mirror.NetworkTime
   name: NetworkTime
   href: api/Mirror.NetworkTime.html
@@ -6682,24 +6530,105 @@ references:
   isSpec: "True"
   fullName: Mirror.ObjectSpawnStartedMessage.Serialize
   nameWithType: ObjectSpawnStartedMessage.Serialize
-- uid: Mirror.PlayerSpawnMethod
-  name: PlayerSpawnMethod
-  href: api/Mirror.PlayerSpawnMethod.html
-  commentId: T:Mirror.PlayerSpawnMethod
-  fullName: Mirror.PlayerSpawnMethod
-  nameWithType: PlayerSpawnMethod
-- uid: Mirror.PlayerSpawnMethod.Random
+- uid: Mirror.PlayerSpawner
+  name: PlayerSpawner
+  href: api/Mirror.PlayerSpawner.html
+  commentId: T:Mirror.PlayerSpawner
+  fullName: Mirror.PlayerSpawner
+  nameWithType: PlayerSpawner
+- uid: Mirror.PlayerSpawner.client
+  name: client
+  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_client
+  commentId: F:Mirror.PlayerSpawner.client
+  fullName: Mirror.PlayerSpawner.client
+  nameWithType: PlayerSpawner.client
+- uid: Mirror.PlayerSpawner.GetStartPosition
+  name: GetStartPosition()
+  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_GetStartPosition
+  commentId: M:Mirror.PlayerSpawner.GetStartPosition
+  fullName: Mirror.PlayerSpawner.GetStartPosition()
+  nameWithType: PlayerSpawner.GetStartPosition()
+- uid: Mirror.PlayerSpawner.GetStartPosition*
+  name: GetStartPosition
+  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_GetStartPosition_
+  commentId: Overload:Mirror.PlayerSpawner.GetStartPosition
+  isSpec: "True"
+  fullName: Mirror.PlayerSpawner.GetStartPosition
+  nameWithType: PlayerSpawner.GetStartPosition
+- uid: Mirror.PlayerSpawner.OnServerAddPlayer(Mirror.NetworkConnection)
+  name: OnServerAddPlayer(NetworkConnection)
+  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_OnServerAddPlayer_Mirror_NetworkConnection_
+  commentId: M:Mirror.PlayerSpawner.OnServerAddPlayer(Mirror.NetworkConnection)
+  fullName: Mirror.PlayerSpawner.OnServerAddPlayer(Mirror.NetworkConnection)
+  nameWithType: PlayerSpawner.OnServerAddPlayer(NetworkConnection)
+- uid: Mirror.PlayerSpawner.OnServerAddPlayer*
+  name: OnServerAddPlayer
+  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_OnServerAddPlayer_
+  commentId: Overload:Mirror.PlayerSpawner.OnServerAddPlayer
+  isSpec: "True"
+  fullName: Mirror.PlayerSpawner.OnServerAddPlayer
+  nameWithType: PlayerSpawner.OnServerAddPlayer
+- uid: Mirror.PlayerSpawner.playerPrefab
+  name: playerPrefab
+  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_playerPrefab
+  commentId: F:Mirror.PlayerSpawner.playerPrefab
+  fullName: Mirror.PlayerSpawner.playerPrefab
+  nameWithType: PlayerSpawner.playerPrefab
+- uid: Mirror.PlayerSpawner.playerSpawnMethod
+  name: playerSpawnMethod
+  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_playerSpawnMethod
+  commentId: F:Mirror.PlayerSpawner.playerSpawnMethod
+  fullName: Mirror.PlayerSpawner.playerSpawnMethod
+  nameWithType: PlayerSpawner.playerSpawnMethod
+- uid: Mirror.PlayerSpawner.PlayerSpawnMethod
+  name: PlayerSpawner.PlayerSpawnMethod
+  href: api/Mirror.PlayerSpawner.PlayerSpawnMethod.html
+  commentId: T:Mirror.PlayerSpawner.PlayerSpawnMethod
+  fullName: Mirror.PlayerSpawner.PlayerSpawnMethod
+  nameWithType: PlayerSpawner.PlayerSpawnMethod
+- uid: Mirror.PlayerSpawner.PlayerSpawnMethod.Random
   name: Random
-  href: api/Mirror.PlayerSpawnMethod.html#Mirror_PlayerSpawnMethod_Random
-  commentId: F:Mirror.PlayerSpawnMethod.Random
-  fullName: Mirror.PlayerSpawnMethod.Random
-  nameWithType: PlayerSpawnMethod.Random
-- uid: Mirror.PlayerSpawnMethod.RoundRobin
+  href: api/Mirror.PlayerSpawner.PlayerSpawnMethod.html#Mirror_PlayerSpawner_PlayerSpawnMethod_Random
+  commentId: F:Mirror.PlayerSpawner.PlayerSpawnMethod.Random
+  fullName: Mirror.PlayerSpawner.PlayerSpawnMethod.Random
+  nameWithType: PlayerSpawner.PlayerSpawnMethod.Random
+- uid: Mirror.PlayerSpawner.PlayerSpawnMethod.RoundRobin
   name: RoundRobin
-  href: api/Mirror.PlayerSpawnMethod.html#Mirror_PlayerSpawnMethod_RoundRobin
-  commentId: F:Mirror.PlayerSpawnMethod.RoundRobin
-  fullName: Mirror.PlayerSpawnMethod.RoundRobin
-  nameWithType: PlayerSpawnMethod.RoundRobin
+  href: api/Mirror.PlayerSpawner.PlayerSpawnMethod.html#Mirror_PlayerSpawner_PlayerSpawnMethod_RoundRobin
+  commentId: F:Mirror.PlayerSpawner.PlayerSpawnMethod.RoundRobin
+  fullName: Mirror.PlayerSpawner.PlayerSpawnMethod.RoundRobin
+  nameWithType: PlayerSpawner.PlayerSpawnMethod.RoundRobin
+- uid: Mirror.PlayerSpawner.server
+  name: server
+  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_server
+  commentId: F:Mirror.PlayerSpawner.server
+  fullName: Mirror.PlayerSpawner.server
+  nameWithType: PlayerSpawner.server
+- uid: Mirror.PlayerSpawner.Start
+  name: Start()
+  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_Start
+  commentId: M:Mirror.PlayerSpawner.Start
+  fullName: Mirror.PlayerSpawner.Start()
+  nameWithType: PlayerSpawner.Start()
+- uid: Mirror.PlayerSpawner.Start*
+  name: Start
+  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_Start_
+  commentId: Overload:Mirror.PlayerSpawner.Start
+  isSpec: "True"
+  fullName: Mirror.PlayerSpawner.Start
+  nameWithType: PlayerSpawner.Start
+- uid: Mirror.PlayerSpawner.startPositionIndex
+  name: startPositionIndex
+  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_startPositionIndex
+  commentId: F:Mirror.PlayerSpawner.startPositionIndex
+  fullName: Mirror.PlayerSpawner.startPositionIndex
+  nameWithType: PlayerSpawner.startPositionIndex
+- uid: Mirror.PlayerSpawner.startPositions
+  name: startPositions
+  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_startPositions
+  commentId: F:Mirror.PlayerSpawner.startPositions
+  fullName: Mirror.PlayerSpawner.startPositions
+  nameWithType: PlayerSpawner.startPositions
 - uid: Mirror.PooledNetworkReader
   name: PooledNetworkReader
   href: api/Mirror.PooledNetworkReader.html
