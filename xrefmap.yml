@@ -3857,16 +3857,9 @@ references:
   fullName: Mirror.NetworkManager.OnServerSceneChanged
   nameWithType: NetworkManager.OnServerSceneChanged
 - uid: Mirror.NetworkManager.OnStartHost
-  name: OnStartHost()
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnStartHost
-  commentId: M:Mirror.NetworkManager.OnStartHost
-  fullName: Mirror.NetworkManager.OnStartHost()
-  nameWithType: NetworkManager.OnStartHost()
-- uid: Mirror.NetworkManager.OnStartHost*
   name: OnStartHost
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnStartHost_
-  commentId: Overload:Mirror.NetworkManager.OnStartHost
-  isSpec: "True"
+  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnStartHost
+  commentId: F:Mirror.NetworkManager.OnStartHost
   fullName: Mirror.NetworkManager.OnStartHost
   nameWithType: NetworkManager.OnStartHost
 - uid: Mirror.NetworkManager.OnStartServer
@@ -3883,16 +3876,9 @@ references:
   fullName: Mirror.NetworkManager.OnStartServer
   nameWithType: NetworkManager.OnStartServer
 - uid: Mirror.NetworkManager.OnStopHost
-  name: OnStopHost()
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnStopHost
-  commentId: M:Mirror.NetworkManager.OnStopHost
-  fullName: Mirror.NetworkManager.OnStopHost()
-  nameWithType: NetworkManager.OnStopHost()
-- uid: Mirror.NetworkManager.OnStopHost*
   name: OnStopHost
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnStopHost_
-  commentId: Overload:Mirror.NetworkManager.OnStopHost
-  isSpec: "True"
+  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnStopHost
+  commentId: F:Mirror.NetworkManager.OnStopHost
   fullName: Mirror.NetworkManager.OnStopHost
   nameWithType: NetworkManager.OnStopHost
 - uid: Mirror.NetworkManager.OnValidate
