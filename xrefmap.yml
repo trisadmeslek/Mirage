@@ -339,38 +339,6 @@ references:
   commentId: F:Mirror.ConnectState.None
   fullName: Mirror.ConnectState.None
   nameWithType: ConnectState.None
-- uid: Mirror.DisconnectMessage
-  name: DisconnectMessage
-  href: api/Mirror.DisconnectMessage.html
-  commentId: T:Mirror.DisconnectMessage
-  fullName: Mirror.DisconnectMessage
-  nameWithType: DisconnectMessage
-- uid: Mirror.DisconnectMessage.Deserialize(Mirror.NetworkReader)
-  name: Deserialize(NetworkReader)
-  href: api/Mirror.DisconnectMessage.html#Mirror_DisconnectMessage_Deserialize_Mirror_NetworkReader_
-  commentId: M:Mirror.DisconnectMessage.Deserialize(Mirror.NetworkReader)
-  fullName: Mirror.DisconnectMessage.Deserialize(Mirror.NetworkReader)
-  nameWithType: DisconnectMessage.Deserialize(NetworkReader)
-- uid: Mirror.DisconnectMessage.Deserialize*
-  name: Deserialize
-  href: api/Mirror.DisconnectMessage.html#Mirror_DisconnectMessage_Deserialize_
-  commentId: Overload:Mirror.DisconnectMessage.Deserialize
-  isSpec: "True"
-  fullName: Mirror.DisconnectMessage.Deserialize
-  nameWithType: DisconnectMessage.Deserialize
-- uid: Mirror.DisconnectMessage.Serialize(Mirror.NetworkWriter)
-  name: Serialize(NetworkWriter)
-  href: api/Mirror.DisconnectMessage.html#Mirror_DisconnectMessage_Serialize_Mirror_NetworkWriter_
-  commentId: M:Mirror.DisconnectMessage.Serialize(Mirror.NetworkWriter)
-  fullName: Mirror.DisconnectMessage.Serialize(Mirror.NetworkWriter)
-  nameWithType: DisconnectMessage.Serialize(NetworkWriter)
-- uid: Mirror.DisconnectMessage.Serialize*
-  name: Serialize
-  href: api/Mirror.DisconnectMessage.html#Mirror_DisconnectMessage_Serialize_
-  commentId: Overload:Mirror.DisconnectMessage.Serialize
-  isSpec: "True"
-  fullName: Mirror.DisconnectMessage.Serialize
-  nameWithType: DisconnectMessage.Serialize
 - uid: Mirror.Discovery
   name: Mirror.Discovery
   href: api/Mirror.Discovery.html
@@ -3802,19 +3770,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.OnClientChangeScene
   nameWithType: NetworkManager.OnClientChangeScene
-- uid: Mirror.NetworkManager.OnClientDisconnect(Mirror.NetworkConnection)
-  name: OnClientDisconnect(NetworkConnection)
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnClientDisconnect_Mirror_NetworkConnection_
-  commentId: M:Mirror.NetworkManager.OnClientDisconnect(Mirror.NetworkConnection)
-  fullName: Mirror.NetworkManager.OnClientDisconnect(Mirror.NetworkConnection)
-  nameWithType: NetworkManager.OnClientDisconnect(NetworkConnection)
-- uid: Mirror.NetworkManager.OnClientDisconnect*
-  name: OnClientDisconnect
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnClientDisconnect_
-  commentId: Overload:Mirror.NetworkManager.OnClientDisconnect
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.OnClientDisconnect
-  nameWithType: NetworkManager.OnClientDisconnect
 - uid: Mirror.NetworkManager.OnClientError(Mirror.NetworkConnection,System.Int32)
   name: OnClientError(NetworkConnection, Int32)
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnClientError_Mirror_NetworkConnection_System_Int32_
@@ -3912,19 +3867,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.OnServerConnect
   nameWithType: NetworkManager.OnServerConnect
-- uid: Mirror.NetworkManager.OnServerDisconnect(Mirror.NetworkConnection)
-  name: OnServerDisconnect(NetworkConnection)
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnServerDisconnect_Mirror_NetworkConnection_
-  commentId: M:Mirror.NetworkManager.OnServerDisconnect(Mirror.NetworkConnection)
-  fullName: Mirror.NetworkManager.OnServerDisconnect(Mirror.NetworkConnection)
-  nameWithType: NetworkManager.OnServerDisconnect(NetworkConnection)
-- uid: Mirror.NetworkManager.OnServerDisconnect*
-  name: OnServerDisconnect
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnServerDisconnect_
-  commentId: Overload:Mirror.NetworkManager.OnServerDisconnect
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.OnServerDisconnect
-  nameWithType: NetworkManager.OnServerDisconnect
 - uid: Mirror.NetworkManager.OnServerError(Mirror.NetworkConnection,System.Int32)
   name: OnServerError(NetworkConnection, Int32)
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnServerError_Mirror_NetworkConnection_System_Int32_
@@ -5238,19 +5180,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkRoomManager.OnAuthenticated
   nameWithType: NetworkRoomManager.OnAuthenticated
-- uid: Mirror.NetworkRoomManager.OnClientDisconnect(Mirror.NetworkConnection)
-  name: OnClientDisconnect(NetworkConnection)
-  href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnClientDisconnect_Mirror_NetworkConnection_
-  commentId: M:Mirror.NetworkRoomManager.OnClientDisconnect(Mirror.NetworkConnection)
-  fullName: Mirror.NetworkRoomManager.OnClientDisconnect(Mirror.NetworkConnection)
-  nameWithType: NetworkRoomManager.OnClientDisconnect(NetworkConnection)
-- uid: Mirror.NetworkRoomManager.OnClientDisconnect*
-  name: OnClientDisconnect
-  href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnClientDisconnect_
-  commentId: Overload:Mirror.NetworkRoomManager.OnClientDisconnect
-  isSpec: "True"
-  fullName: Mirror.NetworkRoomManager.OnClientDisconnect
-  nameWithType: NetworkRoomManager.OnClientDisconnect
 - uid: Mirror.NetworkRoomManager.OnClientSceneChanged(Mirror.NetworkConnectionToServer)
   name: OnClientSceneChanged(NetworkConnectionToServer)
   href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnClientSceneChanged_Mirror_NetworkConnectionToServer_
@@ -5303,19 +5232,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkRoomManager.OnRoomClientConnect
   nameWithType: NetworkRoomManager.OnRoomClientConnect
-- uid: Mirror.NetworkRoomManager.OnRoomClientDisconnect(Mirror.NetworkConnection)
-  name: OnRoomClientDisconnect(NetworkConnection)
-  href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomClientDisconnect_Mirror_NetworkConnection_
-  commentId: M:Mirror.NetworkRoomManager.OnRoomClientDisconnect(Mirror.NetworkConnection)
-  fullName: Mirror.NetworkRoomManager.OnRoomClientDisconnect(Mirror.NetworkConnection)
-  nameWithType: NetworkRoomManager.OnRoomClientDisconnect(NetworkConnection)
-- uid: Mirror.NetworkRoomManager.OnRoomClientDisconnect*
-  name: OnRoomClientDisconnect
-  href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomClientDisconnect_
-  commentId: Overload:Mirror.NetworkRoomManager.OnRoomClientDisconnect
-  isSpec: "True"
-  fullName: Mirror.NetworkRoomManager.OnRoomClientDisconnect
-  nameWithType: NetworkRoomManager.OnRoomClientDisconnect
 - uid: Mirror.NetworkRoomManager.OnRoomClientEnter
   name: OnRoomClientEnter()
   href: api/Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomClientEnter
@@ -6043,6 +5959,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkServer.DisconnectAllConnections
   nameWithType: NetworkServer.DisconnectAllConnections
+- uid: Mirror.NetworkServer.Disconnected
+  name: Disconnected
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Disconnected
+  commentId: F:Mirror.NetworkServer.Disconnected
+  fullName: Mirror.NetworkServer.Disconnected
+  nameWithType: NetworkServer.Disconnected
 - uid: Mirror.NetworkServer.Listen
   name: Listen()
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Listen
