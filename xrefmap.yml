@@ -2467,6 +2467,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.SyncVarNetworkIdentityEqual
   nameWithType: NetworkBehaviour.SyncVarNetworkIdentityEqual
+- uid: Mirror.NetworkBehaviour.Time
+  name: Time
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_Time
+  commentId: P:Mirror.NetworkBehaviour.Time
+  fullName: Mirror.NetworkBehaviour.Time
+  nameWithType: NetworkBehaviour.Time
+- uid: Mirror.NetworkBehaviour.Time*
+  name: Time
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_Time_
+  commentId: Overload:Mirror.NetworkBehaviour.Time
+  isSpec: "True"
+  fullName: Mirror.NetworkBehaviour.Time
+  nameWithType: NetworkBehaviour.Time
 - uid: Mirror.NetworkClient
   name: NetworkClient
   href: api/Mirror.NetworkClient.html
