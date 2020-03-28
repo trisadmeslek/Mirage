@@ -6351,6 +6351,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkWriterPool.GetWriter
   nameWithType: NetworkWriterPool.GetWriter
+- uid: Mirror.NetworkWriterPool.MaxPoolSize
+  name: MaxPoolSize
+  href: api/Mirror.NetworkWriterPool.html#Mirror_NetworkWriterPool_MaxPoolSize
+  commentId: F:Mirror.NetworkWriterPool.MaxPoolSize
+  fullName: Mirror.NetworkWriterPool.MaxPoolSize
+  nameWithType: NetworkWriterPool.MaxPoolSize
 - uid: Mirror.NetworkWriterPool.Recycle(Mirror.PooledNetworkWriter)
   name: Recycle(PooledNetworkWriter)
   href: api/Mirror.NetworkWriterPool.html#Mirror_NetworkWriterPool_Recycle_Mirror_PooledNetworkWriter_
