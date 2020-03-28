@@ -5721,6 +5721,19 @@ references:
   commentId: T:Mirror.NetworkWriter
   fullName: Mirror.NetworkWriter
   nameWithType: NetworkWriter
+- uid: Mirror.NetworkWriter.Length
+  name: Length
+  href: api/Mirror.NetworkWriter.html#Mirror_NetworkWriter_Length
+  commentId: P:Mirror.NetworkWriter.Length
+  fullName: Mirror.NetworkWriter.Length
+  nameWithType: NetworkWriter.Length
+- uid: Mirror.NetworkWriter.Length*
+  name: Length
+  href: api/Mirror.NetworkWriter.html#Mirror_NetworkWriter_Length_
+  commentId: Overload:Mirror.NetworkWriter.Length
+  isSpec: "True"
+  fullName: Mirror.NetworkWriter.Length
+  nameWithType: NetworkWriter.Length
 - uid: Mirror.NetworkWriter.MaxStringLength
   name: MaxStringLength
   href: api/Mirror.NetworkWriter.html#Mirror_NetworkWriter_MaxStringLength
@@ -5730,22 +5743,15 @@ references:
 - uid: Mirror.NetworkWriter.Position
   name: Position
   href: api/Mirror.NetworkWriter.html#Mirror_NetworkWriter_Position
-  commentId: P:Mirror.NetworkWriter.Position
+  commentId: F:Mirror.NetworkWriter.Position
   fullName: Mirror.NetworkWriter.Position
   nameWithType: NetworkWriter.Position
-- uid: Mirror.NetworkWriter.Position*
-  name: Position
-  href: api/Mirror.NetworkWriter.html#Mirror_NetworkWriter_Position_
-  commentId: Overload:Mirror.NetworkWriter.Position
-  isSpec: "True"
-  fullName: Mirror.NetworkWriter.Position
-  nameWithType: NetworkWriter.Position
-- uid: Mirror.NetworkWriter.SetLength(System.Int64)
-  name: SetLength(Int64)
-  href: api/Mirror.NetworkWriter.html#Mirror_NetworkWriter_SetLength_System_Int64_
-  commentId: M:Mirror.NetworkWriter.SetLength(System.Int64)
-  fullName: Mirror.NetworkWriter.SetLength(System.Int64)
-  nameWithType: NetworkWriter.SetLength(Int64)
+- uid: Mirror.NetworkWriter.SetLength(System.Int32)
+  name: SetLength(Int32)
+  href: api/Mirror.NetworkWriter.html#Mirror_NetworkWriter_SetLength_System_Int32_
+  commentId: M:Mirror.NetworkWriter.SetLength(System.Int32)
+  fullName: Mirror.NetworkWriter.SetLength(System.Int32)
+  nameWithType: NetworkWriter.SetLength(Int32)
 - uid: Mirror.NetworkWriter.SetLength*
   name: SetLength
   href: api/Mirror.NetworkWriter.html#Mirror_NetworkWriter_SetLength_
