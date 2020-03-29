@@ -3662,19 +3662,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.OnClientChangeScene
   nameWithType: NetworkManager.OnClientChangeScene
-- uid: Mirror.NetworkManager.OnClientError(Mirror.NetworkConnection,System.Int32)
-  name: OnClientError(NetworkConnection, Int32)
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnClientError_Mirror_NetworkConnection_System_Int32_
-  commentId: M:Mirror.NetworkManager.OnClientError(Mirror.NetworkConnection,System.Int32)
-  fullName: Mirror.NetworkManager.OnClientError(Mirror.NetworkConnection, System.Int32)
-  nameWithType: NetworkManager.OnClientError(NetworkConnection, Int32)
-- uid: Mirror.NetworkManager.OnClientError*
-  name: OnClientError
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnClientError_
-  commentId: Overload:Mirror.NetworkManager.OnClientError
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.OnClientError
-  nameWithType: NetworkManager.OnClientError
 - uid: Mirror.NetworkManager.OnClientNotReady(Mirror.NetworkConnection)
   name: OnClientNotReady(NetworkConnection)
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnClientNotReady_Mirror_NetworkConnection_
@@ -3740,19 +3727,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.OnServerConnect
   nameWithType: NetworkManager.OnServerConnect
-- uid: Mirror.NetworkManager.OnServerError(Mirror.NetworkConnection,System.Int32)
-  name: OnServerError(NetworkConnection, Int32)
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnServerError_Mirror_NetworkConnection_System_Int32_
-  commentId: M:Mirror.NetworkManager.OnServerError(Mirror.NetworkConnection,System.Int32)
-  fullName: Mirror.NetworkManager.OnServerError(Mirror.NetworkConnection, System.Int32)
-  nameWithType: NetworkManager.OnServerError(NetworkConnection, Int32)
-- uid: Mirror.NetworkManager.OnServerError*
-  name: OnServerError
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnServerError_
-  commentId: Overload:Mirror.NetworkManager.OnServerError
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.OnServerError
-  nameWithType: NetworkManager.OnServerError
 - uid: Mirror.NetworkManager.OnServerReady(Mirror.NetworkConnection)
   name: OnServerReady(NetworkConnection)
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnServerReady_Mirror_NetworkConnection_
