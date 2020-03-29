@@ -3798,19 +3798,6 @@ references:
   commentId: F:Mirror.NetworkManager.OnStartHost
   fullName: Mirror.NetworkManager.OnStartHost
   nameWithType: NetworkManager.OnStartHost
-- uid: Mirror.NetworkManager.OnStartServer
-  name: OnStartServer()
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnStartServer
-  commentId: M:Mirror.NetworkManager.OnStartServer
-  fullName: Mirror.NetworkManager.OnStartServer()
-  nameWithType: NetworkManager.OnStartServer()
-- uid: Mirror.NetworkManager.OnStartServer*
-  name: OnStartServer
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnStartServer_
-  commentId: Overload:Mirror.NetworkManager.OnStartServer
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.OnStartServer
-  nameWithType: NetworkManager.OnStartServer
 - uid: Mirror.NetworkManager.OnStopHost
   name: OnStopHost
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnStopHost
@@ -5406,6 +5393,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkServer.SpawnObjects
   nameWithType: NetworkServer.SpawnObjects
+- uid: Mirror.NetworkServer.Started
+  name: Started
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Started
+  commentId: F:Mirror.NetworkServer.Started
+  fullName: Mirror.NetworkServer.Started
+  nameWithType: NetworkServer.Started
 - uid: Mirror.NetworkServer.Stopped
   name: Stopped
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Stopped
