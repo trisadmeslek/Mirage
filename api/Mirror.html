@@ -198,18 +198,24 @@ present the data in a friendly way to the user</p>
 <p>There must be a NetworkTransform on the root object of the hierarchy. There can be multiple NetworkTransformChild components on an object. This does not use physics for synchronization, it simply synchronizes the localPosition and localRotation of the child transform and lerps towards the recieved values.</p>
 </section>
       <h4><a class="xref" href="Mirror.NetworkWriter.html">NetworkWriter</a></h4>
-      <section></section>
+      <section><p>Binary stream Writer. Supports simple types, buffers, arrays, structs, and nested types</p>
+<p>Use <a class="xref" href="Mirror.NetworkWriterPool.html#Mirror_NetworkWriterPool_GetWriter">GetWriter()</a> to reduce memory allocation</p>
+</section>
       <h4><a class="xref" href="Mirror.NetworkWriterExtensions.html">NetworkWriterExtensions</a></h4>
       <section></section>
       <h4><a class="xref" href="Mirror.NetworkWriterPool.html">NetworkWriterPool</a></h4>
-      <section></section>
+      <section><p>Pool of NetworkWriters</p>
+<p>Use this pool instead of <a class="xref" href="Mirror.NetworkWriter.html">NetworkWriter</a> to reduce memory allocation</p>
+<p>Use <a class="xref" href="Mirror.NetworkWriterPool.html#Mirror_NetworkWriterPool_Capacity">Capacity</a> to change size of pool</p>
+</section>
       <h4><a class="xref" href="Mirror.PlayerSpawner.html">PlayerSpawner</a></h4>
       <section><p>Spawns a player as soon  as the connection is authenticated</p>
 </section>
       <h4><a class="xref" href="Mirror.PooledNetworkReader.html">PooledNetworkReader</a></h4>
       <section></section>
       <h4><a class="xref" href="Mirror.PooledNetworkWriter.html">PooledNetworkWriter</a></h4>
-      <section></section>
+      <section><p>NetworkWriter to be used with <a class="xref" href="Mirror.NetworkWriterPool.html">NetworkWriterPool</a></p>
+</section>
       <h4><a class="xref" href="Mirror.SceneAttribute.html">SceneAttribute</a></h4>
       <section><p>Converts a string property into a Scene property in the inspector</p>
 </section>

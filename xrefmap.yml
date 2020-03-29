@@ -6277,6 +6277,19 @@ references:
   commentId: T:Mirror.NetworkWriterPool
   fullName: Mirror.NetworkWriterPool
   nameWithType: NetworkWriterPool
+- uid: Mirror.NetworkWriterPool.Capacity
+  name: Capacity
+  href: api/Mirror.NetworkWriterPool.html#Mirror_NetworkWriterPool_Capacity
+  commentId: P:Mirror.NetworkWriterPool.Capacity
+  fullName: Mirror.NetworkWriterPool.Capacity
+  nameWithType: NetworkWriterPool.Capacity
+- uid: Mirror.NetworkWriterPool.Capacity*
+  name: Capacity
+  href: api/Mirror.NetworkWriterPool.html#Mirror_NetworkWriterPool_Capacity_
+  commentId: Overload:Mirror.NetworkWriterPool.Capacity
+  isSpec: "True"
+  fullName: Mirror.NetworkWriterPool.Capacity
+  nameWithType: NetworkWriterPool.Capacity
 - uid: Mirror.NetworkWriterPool.GetWriter
   name: GetWriter()
   href: api/Mirror.NetworkWriterPool.html#Mirror_NetworkWriterPool_GetWriter
@@ -6290,12 +6303,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkWriterPool.GetWriter
   nameWithType: NetworkWriterPool.GetWriter
-- uid: Mirror.NetworkWriterPool.MaxPoolSize
-  name: MaxPoolSize
-  href: api/Mirror.NetworkWriterPool.html#Mirror_NetworkWriterPool_MaxPoolSize
-  commentId: F:Mirror.NetworkWriterPool.MaxPoolSize
-  fullName: Mirror.NetworkWriterPool.MaxPoolSize
-  nameWithType: NetworkWriterPool.MaxPoolSize
 - uid: Mirror.NetworkWriterPool.Recycle(Mirror.PooledNetworkWriter)
   name: Recycle(PooledNetworkWriter)
   href: api/Mirror.NetworkWriterPool.html#Mirror_NetworkWriterPool_Recycle_Mirror_PooledNetworkWriter_
