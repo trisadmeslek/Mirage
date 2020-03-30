@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IConnection
+    <title>Class PipeConnection
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IConnection
+    <meta name="title" content="Class PipeConnection
    ">
     <meta name="generator" content="docfx 2.45.1.0">
     
@@ -78,54 +78,91 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Mirror.IConnection">
+            <article class="content wrap" id="_content" data-uid="Mirror.PipeConnection">
   
   
-  <h1 id="Mirror_IConnection" data-uid="Mirror.IConnection" class="text-break">Interface IConnection
+  <h1 id="Mirror_PipeConnection" data-uid="Mirror.PipeConnection" class="text-break">Class PipeConnection
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>A connection that is directly connected to another connection
+If you send data in one of them,  you receive it on the other one</p>
+</div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">PipeConnection</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Mirror.IConnection.html">IConnection</a></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.html">Mirror</a></h6>
   <h6><strong>Assembly</strong>: doc.dll</h6>
-  <h5 id="Mirror_IConnection_syntax">Syntax</h5>
+  <h5 id="Mirror_PipeConnection_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IConnection</code></pre>
+    <pre><code class="lang-csharp hljs">public class PipeConnection : object, IConnection</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/471a881cdae1c6e526b5aa2d552cc91dc27f793a/apiSpec/new?filename=Mirror_IConnection_Disconnect.md&amp;value=---%0Auid%3A%20Mirror.IConnection.Disconnect%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/471a881cdae1c6e526b5aa2d552cc91dc27f793a/apiSpec/new?filename=Mirror_PipeConnection_CreatePipe.md&amp;value=---%0Auid%3A%20Mirror.PipeConnection.CreatePipe%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/471a881cdae1c6e526b5aa2d552cc91dc27f793a/Assets/Mirror/Runtime/Transport/IConnection.cs/#L22">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/471a881cdae1c6e526b5aa2d552cc91dc27f793a/Assets/Mirror/Runtime/Transport/PipeConnection.cs/#L32">View Source</a>
   </span>
-  <a id="Mirror_IConnection_Disconnect_" data-uid="Mirror.IConnection.Disconnect*"></a>
-  <h4 id="Mirror_IConnection_Disconnect" data-uid="Mirror.IConnection.Disconnect">Disconnect()</h4>
-  <div class="markdown level1 summary"><p>Disconnect this connection</p>
-</div>
+  <a id="Mirror_PipeConnection_CreatePipe_" data-uid="Mirror.PipeConnection.CreatePipe*"></a>
+  <h4 id="Mirror_PipeConnection_CreatePipe" data-uid="Mirror.PipeConnection.CreatePipe">CreatePipe()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Disconnect()</code></pre>
+    <pre><code class="lang-csharp hljs">public static (IConnection, IConnection)CreatePipe()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetuple-2">ValueTuple</a>&lt;<a class="xref" href="Mirror.IConnection.html">IConnection</a>, <a class="xref" href="Mirror.IConnection.html">IConnection</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/471a881cdae1c6e526b5aa2d552cc91dc27f793a/apiSpec/new?filename=Mirror_PipeConnection_Disconnect.md&amp;value=---%0Auid%3A%20Mirror.PipeConnection.Disconnect%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/471a881cdae1c6e526b5aa2d552cc91dc27f793a/Assets/Mirror/Runtime/Transport/PipeConnection.cs/#L43">View Source</a>
+  </span>
+  <a id="Mirror_PipeConnection_Disconnect_" data-uid="Mirror.PipeConnection.Disconnect*"></a>
+  <h4 id="Mirror_PipeConnection_Disconnect" data-uid="Mirror.PipeConnection.Disconnect">Disconnect()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Disconnect()</code></pre>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/471a881cdae1c6e526b5aa2d552cc91dc27f793a/apiSpec/new?filename=Mirror_IConnection_GetEndPointAddress.md&amp;value=---%0Auid%3A%20Mirror.IConnection.GetEndPointAddress%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/471a881cdae1c6e526b5aa2d552cc91dc27f793a/apiSpec/new?filename=Mirror_PipeConnection_GetEndPointAddress.md&amp;value=---%0Auid%3A%20Mirror.PipeConnection.GetEndPointAddress%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/471a881cdae1c6e526b5aa2d552cc91dc27f793a/Assets/Mirror/Runtime/Transport/IConnection.cs/#L30">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/471a881cdae1c6e526b5aa2d552cc91dc27f793a/Assets/Mirror/Runtime/Transport/PipeConnection.cs/#L54">View Source</a>
   </span>
-  <a id="Mirror_IConnection_GetEndPointAddress_" data-uid="Mirror.IConnection.GetEndPointAddress*"></a>
-  <h4 id="Mirror_IConnection_GetEndPointAddress" data-uid="Mirror.IConnection.GetEndPointAddress">GetEndPointAddress()</h4>
-  <div class="markdown level1 summary"><p>the address of endpoint we are connected to
-Note this can be IPEndPoint or a custom implementation
-of EndPoint, which depends on the transport</p>
-</div>
+  <a id="Mirror_PipeConnection_GetEndPointAddress_" data-uid="Mirror.PipeConnection.GetEndPointAddress*"></a>
+  <h4 id="Mirror_PipeConnection_GetEndPointAddress" data-uid="Mirror.PipeConnection.GetEndPointAddress">GetEndPointAddress()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">EndPoint GetEndPointAddress()</code></pre>
+    <pre><code class="lang-csharp hljs">public EndPoint GetEndPointAddress()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -144,19 +181,18 @@ of EndPoint, which depends on the transport</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/471a881cdae1c6e526b5aa2d552cc91dc27f793a/apiSpec/new?filename=Mirror_IConnection_ReceiveAsync_MemoryStream_.md&amp;value=---%0Auid%3A%20Mirror.IConnection.ReceiveAsync(MemoryStream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/471a881cdae1c6e526b5aa2d552cc91dc27f793a/apiSpec/new?filename=Mirror_PipeConnection_ReceiveAsync_MemoryStream_.md&amp;value=---%0Auid%3A%20Mirror.PipeConnection.ReceiveAsync(MemoryStream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/471a881cdae1c6e526b5aa2d552cc91dc27f793a/Assets/Mirror/Runtime/Transport/IConnection.cs/#L17">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/471a881cdae1c6e526b5aa2d552cc91dc27f793a/Assets/Mirror/Runtime/Transport/PipeConnection.cs/#L56">View Source</a>
   </span>
-  <a id="Mirror_IConnection_ReceiveAsync_" data-uid="Mirror.IConnection.ReceiveAsync*"></a>
-  <h4 id="Mirror_IConnection_ReceiveAsync_MemoryStream_" data-uid="Mirror.IConnection.ReceiveAsync(MemoryStream)">ReceiveAsync(MemoryStream)</h4>
-  <div class="markdown level1 summary"><p>reads a message from connection</p>
-</div>
+  <a id="Mirror_PipeConnection_ReceiveAsync_" data-uid="Mirror.PipeConnection.ReceiveAsync*"></a>
+  <h4 id="Mirror_PipeConnection_ReceiveAsync_MemoryStream_" data-uid="Mirror.PipeConnection.ReceiveAsync(MemoryStream)">ReceiveAsync(MemoryStream)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;bool&gt; ReceiveAsync(MemoryStream buffer)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; ReceiveAsync(MemoryStream buffer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -171,8 +207,7 @@ of EndPoint, which depends on the transport</p>
       <tr>
         <td><span class="xref">MemoryStream</span></td>
         <td><span class="parametername">buffer</span></td>
-        <td><p>buffer where the message will be written</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -187,25 +222,24 @@ of EndPoint, which depends on the transport</p>
     <tbody>
       <tr>
         <td><span class="xref">Task</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
-        <td><p>true if we got a message, false if we got disconnected</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/471a881cdae1c6e526b5aa2d552cc91dc27f793a/apiSpec/new?filename=Mirror_IConnection_SendAsync_ArraySegment_System_Byte__.md&amp;value=---%0Auid%3A%20Mirror.IConnection.SendAsync(ArraySegment%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/471a881cdae1c6e526b5aa2d552cc91dc27f793a/apiSpec/new?filename=Mirror_PipeConnection_SendAsync_ArraySegment_System_Byte__.md&amp;value=---%0Auid%3A%20Mirror.PipeConnection.SendAsync(ArraySegment%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/471a881cdae1c6e526b5aa2d552cc91dc27f793a/Assets/Mirror/Runtime/Transport/IConnection.cs/#L10">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/471a881cdae1c6e526b5aa2d552cc91dc27f793a/Assets/Mirror/Runtime/Transport/PipeConnection.cs/#L80">View Source</a>
   </span>
-  <a id="Mirror_IConnection_SendAsync_" data-uid="Mirror.IConnection.SendAsync*"></a>
-  <h4 id="Mirror_IConnection_SendAsync_ArraySegment_System_Byte__" data-uid="Mirror.IConnection.SendAsync(ArraySegment{System.Byte})">SendAsync(ArraySegment&lt;Byte&gt;)</h4>
+  <a id="Mirror_PipeConnection_SendAsync_" data-uid="Mirror.PipeConnection.SendAsync*"></a>
+  <h4 id="Mirror_PipeConnection_SendAsync_ArraySegment_System_Byte__" data-uid="Mirror.PipeConnection.SendAsync(ArraySegment{System.Byte})">SendAsync(ArraySegment&lt;Byte&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task SendAsync(ArraySegment&lt;byte&gt; data)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task SendAsync(ArraySegment&lt;byte&gt; data)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -239,6 +273,10 @@ of EndPoint, which depends on the transport</p>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Mirror.IConnection.html">IConnection</a>
+  </div>
 </article>
           </div>
           
@@ -247,10 +285,10 @@ of EndPoint, which depends on the transport</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/new/471a881cdae1c6e526b5aa2d552cc91dc27f793a/apiSpec/new?filename=Mirror_IConnection.md&amp;value=---%0Auid%3A%20Mirror.IConnection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/new/471a881cdae1c6e526b5aa2d552cc91dc27f793a/apiSpec/new?filename=Mirror_PipeConnection.md&amp;value=---%0Auid%3A%20Mirror.PipeConnection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/471a881cdae1c6e526b5aa2d552cc91dc27f793a/Assets/Mirror/Runtime/Transport/IConnection.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/471a881cdae1c6e526b5aa2d552cc91dc27f793a/Assets/Mirror/Runtime/Transport/PipeConnection.cs/#L14" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -6475,6 +6475,80 @@ references:
   isSpec: "True"
   fullName: Mirror.ObjectSpawnStartedMessage.Serialize
   nameWithType: ObjectSpawnStartedMessage.Serialize
+- uid: Mirror.PipeConnection
+  name: PipeConnection
+  href: api/Mirror.PipeConnection.html
+  commentId: T:Mirror.PipeConnection
+  fullName: Mirror.PipeConnection
+  nameWithType: PipeConnection
+- uid: Mirror.PipeConnection.CreatePipe
+  name: CreatePipe()
+  href: api/Mirror.PipeConnection.html#Mirror_PipeConnection_CreatePipe
+  commentId: M:Mirror.PipeConnection.CreatePipe
+  fullName: Mirror.PipeConnection.CreatePipe()
+  nameWithType: PipeConnection.CreatePipe()
+- uid: Mirror.PipeConnection.CreatePipe*
+  name: CreatePipe
+  href: api/Mirror.PipeConnection.html#Mirror_PipeConnection_CreatePipe_
+  commentId: Overload:Mirror.PipeConnection.CreatePipe
+  isSpec: "True"
+  fullName: Mirror.PipeConnection.CreatePipe
+  nameWithType: PipeConnection.CreatePipe
+- uid: Mirror.PipeConnection.Disconnect
+  name: Disconnect()
+  href: api/Mirror.PipeConnection.html#Mirror_PipeConnection_Disconnect
+  commentId: M:Mirror.PipeConnection.Disconnect
+  fullName: Mirror.PipeConnection.Disconnect()
+  nameWithType: PipeConnection.Disconnect()
+- uid: Mirror.PipeConnection.Disconnect*
+  name: Disconnect
+  href: api/Mirror.PipeConnection.html#Mirror_PipeConnection_Disconnect_
+  commentId: Overload:Mirror.PipeConnection.Disconnect
+  isSpec: "True"
+  fullName: Mirror.PipeConnection.Disconnect
+  nameWithType: PipeConnection.Disconnect
+- uid: Mirror.PipeConnection.GetEndPointAddress
+  name: GetEndPointAddress()
+  href: api/Mirror.PipeConnection.html#Mirror_PipeConnection_GetEndPointAddress
+  commentId: M:Mirror.PipeConnection.GetEndPointAddress
+  fullName: Mirror.PipeConnection.GetEndPointAddress()
+  nameWithType: PipeConnection.GetEndPointAddress()
+- uid: Mirror.PipeConnection.GetEndPointAddress*
+  name: GetEndPointAddress
+  href: api/Mirror.PipeConnection.html#Mirror_PipeConnection_GetEndPointAddress_
+  commentId: Overload:Mirror.PipeConnection.GetEndPointAddress
+  isSpec: "True"
+  fullName: Mirror.PipeConnection.GetEndPointAddress
+  nameWithType: PipeConnection.GetEndPointAddress
+- uid: Mirror.PipeConnection.ReceiveAsync(MemoryStream)
+  name: ReceiveAsync(MemoryStream)
+  href: api/Mirror.PipeConnection.html#Mirror_PipeConnection_ReceiveAsync_MemoryStream_
+  commentId: M:Mirror.PipeConnection.ReceiveAsync(MemoryStream)
+  fullName: Mirror.PipeConnection.ReceiveAsync(MemoryStream)
+  nameWithType: PipeConnection.ReceiveAsync(MemoryStream)
+- uid: Mirror.PipeConnection.ReceiveAsync*
+  name: ReceiveAsync
+  href: api/Mirror.PipeConnection.html#Mirror_PipeConnection_ReceiveAsync_
+  commentId: Overload:Mirror.PipeConnection.ReceiveAsync
+  isSpec: "True"
+  fullName: Mirror.PipeConnection.ReceiveAsync
+  nameWithType: PipeConnection.ReceiveAsync
+- uid: Mirror.PipeConnection.SendAsync(ArraySegment{System.Byte})
+  name: SendAsync(ArraySegment<Byte>)
+  href: api/Mirror.PipeConnection.html#Mirror_PipeConnection_SendAsync_ArraySegment_System_Byte__
+  commentId: M:Mirror.PipeConnection.SendAsync(ArraySegment{System.Byte})
+  name.vb: SendAsync(ArraySegment(Of Byte))
+  fullName: Mirror.PipeConnection.SendAsync(ArraySegment<System.Byte>)
+  fullName.vb: Mirror.PipeConnection.SendAsync(ArraySegment(Of System.Byte))
+  nameWithType: PipeConnection.SendAsync(ArraySegment<Byte>)
+  nameWithType.vb: PipeConnection.SendAsync(ArraySegment(Of Byte))
+- uid: Mirror.PipeConnection.SendAsync*
+  name: SendAsync
+  href: api/Mirror.PipeConnection.html#Mirror_PipeConnection_SendAsync_
+  commentId: Overload:Mirror.PipeConnection.SendAsync
+  isSpec: "True"
+  fullName: Mirror.PipeConnection.SendAsync
+  nameWithType: PipeConnection.SendAsync
 - uid: Mirror.PlayerSpawner
   name: PlayerSpawner
   href: api/Mirror.PlayerSpawner.html
