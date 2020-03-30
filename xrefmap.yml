@@ -5039,19 +5039,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkServer.DisconnectAll
   nameWithType: NetworkServer.DisconnectAll
-- uid: Mirror.NetworkServer.DisconnectAllConnections
-  name: DisconnectAllConnections()
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_DisconnectAllConnections
-  commentId: M:Mirror.NetworkServer.DisconnectAllConnections
-  fullName: Mirror.NetworkServer.DisconnectAllConnections()
-  nameWithType: NetworkServer.DisconnectAllConnections()
-- uid: Mirror.NetworkServer.DisconnectAllConnections*
-  name: DisconnectAllConnections
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_DisconnectAllConnections_
-  commentId: Overload:Mirror.NetworkServer.DisconnectAllConnections
-  isSpec: "True"
-  fullName: Mirror.NetworkServer.DisconnectAllConnections
-  nameWithType: NetworkServer.DisconnectAllConnections
 - uid: Mirror.NetworkServer.Disconnected
   name: Disconnected
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Disconnected
