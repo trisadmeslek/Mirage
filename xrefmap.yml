@@ -2486,19 +2486,19 @@ references:
   commentId: T:Mirror.NetworkClient
   fullName: Mirror.NetworkClient
   nameWithType: NetworkClient
-- uid: Mirror.NetworkClient.active
-  name: active
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_active
-  commentId: P:Mirror.NetworkClient.active
-  fullName: Mirror.NetworkClient.active
-  nameWithType: NetworkClient.active
-- uid: Mirror.NetworkClient.active*
-  name: active
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_active_
-  commentId: Overload:Mirror.NetworkClient.active
+- uid: Mirror.NetworkClient.Active
+  name: Active
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Active
+  commentId: P:Mirror.NetworkClient.Active
+  fullName: Mirror.NetworkClient.Active
+  nameWithType: NetworkClient.Active
+- uid: Mirror.NetworkClient.Active*
+  name: Active
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Active_
+  commentId: Overload:Mirror.NetworkClient.Active
   isSpec: "True"
-  fullName: Mirror.NetworkClient.active
-  nameWithType: NetworkClient.active
+  fullName: Mirror.NetworkClient.Active
+  nameWithType: NetworkClient.Active
 - uid: Mirror.NetworkClient.Authenticated
   name: Authenticated
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Authenticated
@@ -2549,19 +2549,19 @@ references:
   commentId: F:Mirror.NetworkClient.Connected
   fullName: Mirror.NetworkClient.Connected
   nameWithType: NetworkClient.Connected
-- uid: Mirror.NetworkClient.connection
-  name: connection
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_connection
-  commentId: P:Mirror.NetworkClient.connection
-  fullName: Mirror.NetworkClient.connection
-  nameWithType: NetworkClient.connection
-- uid: Mirror.NetworkClient.connection*
-  name: connection
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_connection_
-  commentId: Overload:Mirror.NetworkClient.connection
+- uid: Mirror.NetworkClient.Connection
+  name: Connection
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Connection
+  commentId: P:Mirror.NetworkClient.Connection
+  fullName: Mirror.NetworkClient.Connection
+  nameWithType: NetworkClient.Connection
+- uid: Mirror.NetworkClient.Connection*
+  name: Connection
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Connection_
+  commentId: Overload:Mirror.NetworkClient.Connection
   isSpec: "True"
-  fullName: Mirror.NetworkClient.connection
-  nameWithType: NetworkClient.connection
+  fullName: Mirror.NetworkClient.Connection
+  nameWithType: NetworkClient.Connection
 - uid: Mirror.NetworkClient.DestroyAllClientObjects
   name: DestroyAllClientObjects()
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_DestroyAllClientObjects
@@ -2610,45 +2610,45 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkClient.GetPrefab
   nameWithType: NetworkClient.GetPrefab
-- uid: Mirror.NetworkClient.isConnected
-  name: isConnected
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_isConnected
-  commentId: P:Mirror.NetworkClient.isConnected
-  fullName: Mirror.NetworkClient.isConnected
-  nameWithType: NetworkClient.isConnected
-- uid: Mirror.NetworkClient.isConnected*
-  name: isConnected
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_isConnected_
-  commentId: Overload:Mirror.NetworkClient.isConnected
+- uid: Mirror.NetworkClient.IsConnected
+  name: IsConnected
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_IsConnected
+  commentId: P:Mirror.NetworkClient.IsConnected
+  fullName: Mirror.NetworkClient.IsConnected
+  nameWithType: NetworkClient.IsConnected
+- uid: Mirror.NetworkClient.IsConnected*
+  name: IsConnected
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_IsConnected_
+  commentId: Overload:Mirror.NetworkClient.IsConnected
   isSpec: "True"
-  fullName: Mirror.NetworkClient.isConnected
-  nameWithType: NetworkClient.isConnected
-- uid: Mirror.NetworkClient.isLocalClient
-  name: isLocalClient
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_isLocalClient
-  commentId: P:Mirror.NetworkClient.isLocalClient
-  fullName: Mirror.NetworkClient.isLocalClient
-  nameWithType: NetworkClient.isLocalClient
-- uid: Mirror.NetworkClient.isLocalClient*
-  name: isLocalClient
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_isLocalClient_
-  commentId: Overload:Mirror.NetworkClient.isLocalClient
+  fullName: Mirror.NetworkClient.IsConnected
+  nameWithType: NetworkClient.IsConnected
+- uid: Mirror.NetworkClient.IsLocalClient
+  name: IsLocalClient
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_IsLocalClient
+  commentId: P:Mirror.NetworkClient.IsLocalClient
+  fullName: Mirror.NetworkClient.IsLocalClient
+  nameWithType: NetworkClient.IsLocalClient
+- uid: Mirror.NetworkClient.IsLocalClient*
+  name: IsLocalClient
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_IsLocalClient_
+  commentId: Overload:Mirror.NetworkClient.IsLocalClient
   isSpec: "True"
-  fullName: Mirror.NetworkClient.isLocalClient
-  nameWithType: NetworkClient.isLocalClient
-- uid: Mirror.NetworkClient.localPlayer
-  name: localPlayer
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_localPlayer
-  commentId: P:Mirror.NetworkClient.localPlayer
-  fullName: Mirror.NetworkClient.localPlayer
-  nameWithType: NetworkClient.localPlayer
-- uid: Mirror.NetworkClient.localPlayer*
-  name: localPlayer
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_localPlayer_
-  commentId: Overload:Mirror.NetworkClient.localPlayer
+  fullName: Mirror.NetworkClient.IsLocalClient
+  nameWithType: NetworkClient.IsLocalClient
+- uid: Mirror.NetworkClient.LocalPlayer
+  name: LocalPlayer
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_LocalPlayer
+  commentId: P:Mirror.NetworkClient.LocalPlayer
+  fullName: Mirror.NetworkClient.LocalPlayer
+  nameWithType: NetworkClient.LocalPlayer
+- uid: Mirror.NetworkClient.LocalPlayer*
+  name: LocalPlayer
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_LocalPlayer_
+  commentId: Overload:Mirror.NetworkClient.LocalPlayer
   isSpec: "True"
-  fullName: Mirror.NetworkClient.localPlayer
-  nameWithType: NetworkClient.localPlayer
+  fullName: Mirror.NetworkClient.LocalPlayer
+  nameWithType: NetworkClient.LocalPlayer
 - uid: Mirror.NetworkClient.NetworkConnectionEvent
   name: NetworkClient.NetworkConnectionEvent
   href: api/Mirror.NetworkClient.NetworkConnectionEvent.html
