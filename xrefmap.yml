@@ -2862,19 +2862,19 @@ references:
   commentId: T:Mirror.NetworkConnection
   fullName: Mirror.NetworkConnection
   nameWithType: NetworkConnection
-- uid: Mirror.NetworkConnection.address
-  name: address
-  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_address
-  commentId: P:Mirror.NetworkConnection.address
-  fullName: Mirror.NetworkConnection.address
-  nameWithType: NetworkConnection.address
-- uid: Mirror.NetworkConnection.address*
-  name: address
-  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_address_
-  commentId: Overload:Mirror.NetworkConnection.address
+- uid: Mirror.NetworkConnection.Address
+  name: Address
+  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_Address
+  commentId: P:Mirror.NetworkConnection.Address
+  fullName: Mirror.NetworkConnection.Address
+  nameWithType: NetworkConnection.Address
+- uid: Mirror.NetworkConnection.Address*
+  name: Address
+  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_Address_
+  commentId: Overload:Mirror.NetworkConnection.Address
   isSpec: "True"
-  fullName: Mirror.NetworkConnection.address
-  nameWithType: NetworkConnection.address
+  fullName: Mirror.NetworkConnection.Address
+  nameWithType: NetworkConnection.Address
 - uid: Mirror.NetworkConnection.authenticationData
   name: authenticationData
   href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_authenticationData
@@ -3102,19 +3102,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkConnectionToClient.NetworkConnectionToClient
   nameWithType: NetworkConnectionToClient.NetworkConnectionToClient
-- uid: Mirror.NetworkConnectionToClient.address
-  name: address
-  href: api/Mirror.NetworkConnectionToClient.html#Mirror_NetworkConnectionToClient_address
-  commentId: P:Mirror.NetworkConnectionToClient.address
-  fullName: Mirror.NetworkConnectionToClient.address
-  nameWithType: NetworkConnectionToClient.address
-- uid: Mirror.NetworkConnectionToClient.address*
-  name: address
-  href: api/Mirror.NetworkConnectionToClient.html#Mirror_NetworkConnectionToClient_address_
-  commentId: Overload:Mirror.NetworkConnectionToClient.address
+- uid: Mirror.NetworkConnectionToClient.Address
+  name: Address
+  href: api/Mirror.NetworkConnectionToClient.html#Mirror_NetworkConnectionToClient_Address
+  commentId: P:Mirror.NetworkConnectionToClient.Address
+  fullName: Mirror.NetworkConnectionToClient.Address
+  nameWithType: NetworkConnectionToClient.Address
+- uid: Mirror.NetworkConnectionToClient.Address*
+  name: Address
+  href: api/Mirror.NetworkConnectionToClient.html#Mirror_NetworkConnectionToClient_Address_
+  commentId: Overload:Mirror.NetworkConnectionToClient.Address
   isSpec: "True"
-  fullName: Mirror.NetworkConnectionToClient.address
-  nameWithType: NetworkConnectionToClient.address
+  fullName: Mirror.NetworkConnectionToClient.Address
+  nameWithType: NetworkConnectionToClient.Address
 - uid: Mirror.NetworkConnectionToClient.Disconnect
   name: Disconnect()
   href: api/Mirror.NetworkConnectionToClient.html#Mirror_NetworkConnectionToClient_Disconnect
@@ -3134,19 +3134,19 @@ references:
   commentId: T:Mirror.NetworkConnectionToServer
   fullName: Mirror.NetworkConnectionToServer
   nameWithType: NetworkConnectionToServer
-- uid: Mirror.NetworkConnectionToServer.address
-  name: address
-  href: api/Mirror.NetworkConnectionToServer.html#Mirror_NetworkConnectionToServer_address
-  commentId: P:Mirror.NetworkConnectionToServer.address
-  fullName: Mirror.NetworkConnectionToServer.address
-  nameWithType: NetworkConnectionToServer.address
-- uid: Mirror.NetworkConnectionToServer.address*
-  name: address
-  href: api/Mirror.NetworkConnectionToServer.html#Mirror_NetworkConnectionToServer_address_
-  commentId: Overload:Mirror.NetworkConnectionToServer.address
+- uid: Mirror.NetworkConnectionToServer.Address
+  name: Address
+  href: api/Mirror.NetworkConnectionToServer.html#Mirror_NetworkConnectionToServer_Address
+  commentId: P:Mirror.NetworkConnectionToServer.Address
+  fullName: Mirror.NetworkConnectionToServer.Address
+  nameWithType: NetworkConnectionToServer.Address
+- uid: Mirror.NetworkConnectionToServer.Address*
+  name: Address
+  href: api/Mirror.NetworkConnectionToServer.html#Mirror_NetworkConnectionToServer_Address_
+  commentId: Overload:Mirror.NetworkConnectionToServer.Address
   isSpec: "True"
-  fullName: Mirror.NetworkConnectionToServer.address
-  nameWithType: NetworkConnectionToServer.address
+  fullName: Mirror.NetworkConnectionToServer.Address
+  nameWithType: NetworkConnectionToServer.Address
 - uid: Mirror.NetworkConnectionToServer.Disconnect
   name: Disconnect()
   href: api/Mirror.NetworkConnectionToServer.html#Mirror_NetworkConnectionToServer_Disconnect
