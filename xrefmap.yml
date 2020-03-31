@@ -3214,19 +3214,19 @@ references:
   commentId: T:Mirror.NetworkIdentity
   fullName: Mirror.NetworkIdentity
   nameWithType: NetworkIdentity
-- uid: Mirror.NetworkIdentity.assetId
-  name: assetId
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_assetId
-  commentId: P:Mirror.NetworkIdentity.assetId
-  fullName: Mirror.NetworkIdentity.assetId
-  nameWithType: NetworkIdentity.assetId
-- uid: Mirror.NetworkIdentity.assetId*
-  name: assetId
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_assetId_
-  commentId: Overload:Mirror.NetworkIdentity.assetId
+- uid: Mirror.NetworkIdentity.AssetId
+  name: AssetId
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_AssetId
+  commentId: P:Mirror.NetworkIdentity.AssetId
+  fullName: Mirror.NetworkIdentity.AssetId
+  nameWithType: NetworkIdentity.AssetId
+- uid: Mirror.NetworkIdentity.AssetId*
+  name: AssetId
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_AssetId_
+  commentId: Overload:Mirror.NetworkIdentity.AssetId
   isSpec: "True"
-  fullName: Mirror.NetworkIdentity.assetId
-  nameWithType: NetworkIdentity.assetId
+  fullName: Mirror.NetworkIdentity.AssetId
+  nameWithType: NetworkIdentity.AssetId
 - uid: Mirror.NetworkIdentity.AssignClientAuthority(Mirror.NetworkConnection)
   name: AssignClientAuthority(NetworkConnection)
   href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_AssignClientAuthority_Mirror_NetworkConnection_
@@ -3240,19 +3240,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkIdentity.AssignClientAuthority
   nameWithType: NetworkIdentity.AssignClientAuthority
-- uid: Mirror.NetworkIdentity.client
-  name: client
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_client
-  commentId: P:Mirror.NetworkIdentity.client
-  fullName: Mirror.NetworkIdentity.client
-  nameWithType: NetworkIdentity.client
-- uid: Mirror.NetworkIdentity.client*
-  name: client
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_client_
-  commentId: Overload:Mirror.NetworkIdentity.client
+- uid: Mirror.NetworkIdentity.Client
+  name: Client
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_Client
+  commentId: P:Mirror.NetworkIdentity.Client
+  fullName: Mirror.NetworkIdentity.Client
+  nameWithType: NetworkIdentity.Client
+- uid: Mirror.NetworkIdentity.Client*
+  name: Client
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_Client_
+  commentId: Overload:Mirror.NetworkIdentity.Client
   isSpec: "True"
-  fullName: Mirror.NetworkIdentity.client
-  nameWithType: NetworkIdentity.client
+  fullName: Mirror.NetworkIdentity.Client
+  nameWithType: NetworkIdentity.Client
 - uid: Mirror.NetworkIdentity.clientAuthorityCallback
   name: clientAuthorityCallback
   href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_clientAuthorityCallback
@@ -3265,32 +3265,32 @@ references:
   commentId: T:Mirror.NetworkIdentity.ClientAuthorityCallback
   fullName: Mirror.NetworkIdentity.ClientAuthorityCallback
   nameWithType: NetworkIdentity.ClientAuthorityCallback
-- uid: Mirror.NetworkIdentity.connectionToClient
-  name: connectionToClient
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_connectionToClient
-  commentId: P:Mirror.NetworkIdentity.connectionToClient
-  fullName: Mirror.NetworkIdentity.connectionToClient
-  nameWithType: NetworkIdentity.connectionToClient
-- uid: Mirror.NetworkIdentity.connectionToClient*
-  name: connectionToClient
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_connectionToClient_
-  commentId: Overload:Mirror.NetworkIdentity.connectionToClient
+- uid: Mirror.NetworkIdentity.ConnectionToClient
+  name: ConnectionToClient
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_ConnectionToClient
+  commentId: P:Mirror.NetworkIdentity.ConnectionToClient
+  fullName: Mirror.NetworkIdentity.ConnectionToClient
+  nameWithType: NetworkIdentity.ConnectionToClient
+- uid: Mirror.NetworkIdentity.ConnectionToClient*
+  name: ConnectionToClient
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_ConnectionToClient_
+  commentId: Overload:Mirror.NetworkIdentity.ConnectionToClient
   isSpec: "True"
-  fullName: Mirror.NetworkIdentity.connectionToClient
-  nameWithType: NetworkIdentity.connectionToClient
-- uid: Mirror.NetworkIdentity.connectionToServer
-  name: connectionToServer
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_connectionToServer
-  commentId: P:Mirror.NetworkIdentity.connectionToServer
-  fullName: Mirror.NetworkIdentity.connectionToServer
-  nameWithType: NetworkIdentity.connectionToServer
-- uid: Mirror.NetworkIdentity.connectionToServer*
-  name: connectionToServer
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_connectionToServer_
-  commentId: Overload:Mirror.NetworkIdentity.connectionToServer
+  fullName: Mirror.NetworkIdentity.ConnectionToClient
+  nameWithType: NetworkIdentity.ConnectionToClient
+- uid: Mirror.NetworkIdentity.ConnectionToServer
+  name: ConnectionToServer
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_ConnectionToServer
+  commentId: P:Mirror.NetworkIdentity.ConnectionToServer
+  fullName: Mirror.NetworkIdentity.ConnectionToServer
+  nameWithType: NetworkIdentity.ConnectionToServer
+- uid: Mirror.NetworkIdentity.ConnectionToServer*
+  name: ConnectionToServer
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_ConnectionToServer_
+  commentId: Overload:Mirror.NetworkIdentity.ConnectionToServer
   isSpec: "True"
-  fullName: Mirror.NetworkIdentity.connectionToServer
-  nameWithType: NetworkIdentity.connectionToServer
+  fullName: Mirror.NetworkIdentity.ConnectionToServer
+  nameWithType: NetworkIdentity.ConnectionToServer
 - uid: Mirror.NetworkIdentity.GetSceneIdentity(System.UInt64)
   name: GetSceneIdentity(UInt64)
   href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_GetSceneIdentity_System_UInt64_
@@ -3304,84 +3304,84 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkIdentity.GetSceneIdentity
   nameWithType: NetworkIdentity.GetSceneIdentity
-- uid: Mirror.NetworkIdentity.hasAuthority
-  name: hasAuthority
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_hasAuthority
-  commentId: P:Mirror.NetworkIdentity.hasAuthority
-  fullName: Mirror.NetworkIdentity.hasAuthority
-  nameWithType: NetworkIdentity.hasAuthority
-- uid: Mirror.NetworkIdentity.hasAuthority*
-  name: hasAuthority
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_hasAuthority_
-  commentId: Overload:Mirror.NetworkIdentity.hasAuthority
+- uid: Mirror.NetworkIdentity.HasAuthority
+  name: HasAuthority
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_HasAuthority
+  commentId: P:Mirror.NetworkIdentity.HasAuthority
+  fullName: Mirror.NetworkIdentity.HasAuthority
+  nameWithType: NetworkIdentity.HasAuthority
+- uid: Mirror.NetworkIdentity.HasAuthority*
+  name: HasAuthority
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_HasAuthority_
+  commentId: Overload:Mirror.NetworkIdentity.HasAuthority
   isSpec: "True"
-  fullName: Mirror.NetworkIdentity.hasAuthority
-  nameWithType: NetworkIdentity.hasAuthority
-- uid: Mirror.NetworkIdentity.isClient
-  name: isClient
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_isClient
-  commentId: P:Mirror.NetworkIdentity.isClient
-  fullName: Mirror.NetworkIdentity.isClient
-  nameWithType: NetworkIdentity.isClient
-- uid: Mirror.NetworkIdentity.isClient*
-  name: isClient
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_isClient_
-  commentId: Overload:Mirror.NetworkIdentity.isClient
+  fullName: Mirror.NetworkIdentity.HasAuthority
+  nameWithType: NetworkIdentity.HasAuthority
+- uid: Mirror.NetworkIdentity.IsClient
+  name: IsClient
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_IsClient
+  commentId: P:Mirror.NetworkIdentity.IsClient
+  fullName: Mirror.NetworkIdentity.IsClient
+  nameWithType: NetworkIdentity.IsClient
+- uid: Mirror.NetworkIdentity.IsClient*
+  name: IsClient
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_IsClient_
+  commentId: Overload:Mirror.NetworkIdentity.IsClient
   isSpec: "True"
-  fullName: Mirror.NetworkIdentity.isClient
-  nameWithType: NetworkIdentity.isClient
-- uid: Mirror.NetworkIdentity.isLocalClient
-  name: isLocalClient
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_isLocalClient
-  commentId: P:Mirror.NetworkIdentity.isLocalClient
-  fullName: Mirror.NetworkIdentity.isLocalClient
-  nameWithType: NetworkIdentity.isLocalClient
-- uid: Mirror.NetworkIdentity.isLocalClient*
-  name: isLocalClient
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_isLocalClient_
-  commentId: Overload:Mirror.NetworkIdentity.isLocalClient
+  fullName: Mirror.NetworkIdentity.IsClient
+  nameWithType: NetworkIdentity.IsClient
+- uid: Mirror.NetworkIdentity.IsLocalClient
+  name: IsLocalClient
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_IsLocalClient
+  commentId: P:Mirror.NetworkIdentity.IsLocalClient
+  fullName: Mirror.NetworkIdentity.IsLocalClient
+  nameWithType: NetworkIdentity.IsLocalClient
+- uid: Mirror.NetworkIdentity.IsLocalClient*
+  name: IsLocalClient
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_IsLocalClient_
+  commentId: Overload:Mirror.NetworkIdentity.IsLocalClient
   isSpec: "True"
-  fullName: Mirror.NetworkIdentity.isLocalClient
-  nameWithType: NetworkIdentity.isLocalClient
-- uid: Mirror.NetworkIdentity.isLocalPlayer
-  name: isLocalPlayer
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_isLocalPlayer
-  commentId: P:Mirror.NetworkIdentity.isLocalPlayer
-  fullName: Mirror.NetworkIdentity.isLocalPlayer
-  nameWithType: NetworkIdentity.isLocalPlayer
-- uid: Mirror.NetworkIdentity.isLocalPlayer*
-  name: isLocalPlayer
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_isLocalPlayer_
-  commentId: Overload:Mirror.NetworkIdentity.isLocalPlayer
+  fullName: Mirror.NetworkIdentity.IsLocalClient
+  nameWithType: NetworkIdentity.IsLocalClient
+- uid: Mirror.NetworkIdentity.IsLocalPlayer
+  name: IsLocalPlayer
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_IsLocalPlayer
+  commentId: P:Mirror.NetworkIdentity.IsLocalPlayer
+  fullName: Mirror.NetworkIdentity.IsLocalPlayer
+  nameWithType: NetworkIdentity.IsLocalPlayer
+- uid: Mirror.NetworkIdentity.IsLocalPlayer*
+  name: IsLocalPlayer
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_IsLocalPlayer_
+  commentId: Overload:Mirror.NetworkIdentity.IsLocalPlayer
   isSpec: "True"
-  fullName: Mirror.NetworkIdentity.isLocalPlayer
-  nameWithType: NetworkIdentity.isLocalPlayer
-- uid: Mirror.NetworkIdentity.isServer
-  name: isServer
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_isServer
-  commentId: P:Mirror.NetworkIdentity.isServer
-  fullName: Mirror.NetworkIdentity.isServer
-  nameWithType: NetworkIdentity.isServer
-- uid: Mirror.NetworkIdentity.isServer*
-  name: isServer
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_isServer_
-  commentId: Overload:Mirror.NetworkIdentity.isServer
+  fullName: Mirror.NetworkIdentity.IsLocalPlayer
+  nameWithType: NetworkIdentity.IsLocalPlayer
+- uid: Mirror.NetworkIdentity.IsServer
+  name: IsServer
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_IsServer
+  commentId: P:Mirror.NetworkIdentity.IsServer
+  fullName: Mirror.NetworkIdentity.IsServer
+  nameWithType: NetworkIdentity.IsServer
+- uid: Mirror.NetworkIdentity.IsServer*
+  name: IsServer
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_IsServer_
+  commentId: Overload:Mirror.NetworkIdentity.IsServer
   isSpec: "True"
-  fullName: Mirror.NetworkIdentity.isServer
-  nameWithType: NetworkIdentity.isServer
-- uid: Mirror.NetworkIdentity.netId
-  name: netId
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_netId
-  commentId: P:Mirror.NetworkIdentity.netId
-  fullName: Mirror.NetworkIdentity.netId
-  nameWithType: NetworkIdentity.netId
-- uid: Mirror.NetworkIdentity.netId*
-  name: netId
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_netId_
-  commentId: Overload:Mirror.NetworkIdentity.netId
+  fullName: Mirror.NetworkIdentity.IsServer
+  nameWithType: NetworkIdentity.IsServer
+- uid: Mirror.NetworkIdentity.NetId
+  name: NetId
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_NetId
+  commentId: P:Mirror.NetworkIdentity.NetId
+  fullName: Mirror.NetworkIdentity.NetId
+  nameWithType: NetworkIdentity.NetId
+- uid: Mirror.NetworkIdentity.NetId*
+  name: NetId
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_NetId_
+  commentId: Overload:Mirror.NetworkIdentity.NetId
   isSpec: "True"
-  fullName: Mirror.NetworkIdentity.netId
-  nameWithType: NetworkIdentity.netId
+  fullName: Mirror.NetworkIdentity.NetId
+  nameWithType: NetworkIdentity.NetId
 - uid: Mirror.NetworkIdentity.NetworkBehaviours
   name: NetworkBehaviours
   href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_NetworkBehaviours
@@ -3482,19 +3482,19 @@ references:
   commentId: F:Mirror.NetworkIdentity.sceneId
   fullName: Mirror.NetworkIdentity.sceneId
   nameWithType: NetworkIdentity.sceneId
-- uid: Mirror.NetworkIdentity.server
-  name: server
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_server
-  commentId: P:Mirror.NetworkIdentity.server
-  fullName: Mirror.NetworkIdentity.server
-  nameWithType: NetworkIdentity.server
-- uid: Mirror.NetworkIdentity.server*
-  name: server
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_server_
-  commentId: Overload:Mirror.NetworkIdentity.server
+- uid: Mirror.NetworkIdentity.Server
+  name: Server
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_Server
+  commentId: P:Mirror.NetworkIdentity.Server
+  fullName: Mirror.NetworkIdentity.Server
+  nameWithType: NetworkIdentity.Server
+- uid: Mirror.NetworkIdentity.Server*
+  name: Server
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_Server_
+  commentId: Overload:Mirror.NetworkIdentity.Server
   isSpec: "True"
-  fullName: Mirror.NetworkIdentity.server
-  nameWithType: NetworkIdentity.server
+  fullName: Mirror.NetworkIdentity.Server
+  nameWithType: NetworkIdentity.Server
 - uid: Mirror.NetworkIdentity.serverOnly
   name: serverOnly
   href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_serverOnly
