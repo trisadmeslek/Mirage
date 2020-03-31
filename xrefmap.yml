@@ -3595,19 +3595,6 @@ references:
   commentId: F:Mirror.NetworkManager.networkSceneName
   fullName: Mirror.NetworkManager.networkSceneName
   nameWithType: NetworkManager.networkSceneName
-- uid: Mirror.NetworkManager.OnApplicationQuit
-  name: OnApplicationQuit()
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnApplicationQuit
-  commentId: M:Mirror.NetworkManager.OnApplicationQuit
-  fullName: Mirror.NetworkManager.OnApplicationQuit()
-  nameWithType: NetworkManager.OnApplicationQuit()
-- uid: Mirror.NetworkManager.OnApplicationQuit*
-  name: OnApplicationQuit
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnApplicationQuit_
-  commentId: Overload:Mirror.NetworkManager.OnApplicationQuit
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.OnApplicationQuit
-  nameWithType: NetworkManager.OnApplicationQuit
 - uid: Mirror.NetworkManager.OnClientChangeScene(System.String,Mirror.SceneOperation,System.Boolean)
   name: OnClientChangeScene(String, SceneOperation, Boolean)
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnClientChangeScene_System_String_Mirror_SceneOperation_System_Boolean_
