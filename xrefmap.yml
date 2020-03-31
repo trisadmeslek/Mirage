@@ -1787,19 +1787,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.ClearAllDirtyBits
   nameWithType: NetworkBehaviour.ClearAllDirtyBits
-- uid: Mirror.NetworkBehaviour.client
-  name: client
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_client
-  commentId: P:Mirror.NetworkBehaviour.client
-  fullName: Mirror.NetworkBehaviour.client
-  nameWithType: NetworkBehaviour.client
-- uid: Mirror.NetworkBehaviour.client*
-  name: client
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_client_
-  commentId: Overload:Mirror.NetworkBehaviour.client
+- uid: Mirror.NetworkBehaviour.Client
+  name: Client
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_Client
+  commentId: P:Mirror.NetworkBehaviour.Client
+  fullName: Mirror.NetworkBehaviour.Client
+  nameWithType: NetworkBehaviour.Client
+- uid: Mirror.NetworkBehaviour.Client*
+  name: Client
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_Client_
+  commentId: Overload:Mirror.NetworkBehaviour.Client
   isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.client
-  nameWithType: NetworkBehaviour.client
+  fullName: Mirror.NetworkBehaviour.Client
+  nameWithType: NetworkBehaviour.Client
 - uid: Mirror.NetworkBehaviour.CmdDelegate
   name: NetworkBehaviour.CmdDelegate
   href: api/Mirror.NetworkBehaviour.CmdDelegate.html
@@ -1819,32 +1819,32 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.ComponentIndex
   nameWithType: NetworkBehaviour.ComponentIndex
-- uid: Mirror.NetworkBehaviour.connectionToClient
-  name: connectionToClient
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_connectionToClient
-  commentId: P:Mirror.NetworkBehaviour.connectionToClient
-  fullName: Mirror.NetworkBehaviour.connectionToClient
-  nameWithType: NetworkBehaviour.connectionToClient
-- uid: Mirror.NetworkBehaviour.connectionToClient*
-  name: connectionToClient
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_connectionToClient_
-  commentId: Overload:Mirror.NetworkBehaviour.connectionToClient
+- uid: Mirror.NetworkBehaviour.ConnectionToClient
+  name: ConnectionToClient
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_ConnectionToClient
+  commentId: P:Mirror.NetworkBehaviour.ConnectionToClient
+  fullName: Mirror.NetworkBehaviour.ConnectionToClient
+  nameWithType: NetworkBehaviour.ConnectionToClient
+- uid: Mirror.NetworkBehaviour.ConnectionToClient*
+  name: ConnectionToClient
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_ConnectionToClient_
+  commentId: Overload:Mirror.NetworkBehaviour.ConnectionToClient
   isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.connectionToClient
-  nameWithType: NetworkBehaviour.connectionToClient
-- uid: Mirror.NetworkBehaviour.connectionToServer
-  name: connectionToServer
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_connectionToServer
-  commentId: P:Mirror.NetworkBehaviour.connectionToServer
-  fullName: Mirror.NetworkBehaviour.connectionToServer
-  nameWithType: NetworkBehaviour.connectionToServer
-- uid: Mirror.NetworkBehaviour.connectionToServer*
-  name: connectionToServer
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_connectionToServer_
-  commentId: Overload:Mirror.NetworkBehaviour.connectionToServer
+  fullName: Mirror.NetworkBehaviour.ConnectionToClient
+  nameWithType: NetworkBehaviour.ConnectionToClient
+- uid: Mirror.NetworkBehaviour.ConnectionToServer
+  name: ConnectionToServer
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_ConnectionToServer
+  commentId: P:Mirror.NetworkBehaviour.ConnectionToServer
+  fullName: Mirror.NetworkBehaviour.ConnectionToServer
+  nameWithType: NetworkBehaviour.ConnectionToServer
+- uid: Mirror.NetworkBehaviour.ConnectionToServer*
+  name: ConnectionToServer
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_ConnectionToServer_
+  commentId: Overload:Mirror.NetworkBehaviour.ConnectionToServer
   isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.connectionToServer
-  nameWithType: NetworkBehaviour.connectionToServer
+  fullName: Mirror.NetworkBehaviour.ConnectionToServer
+  nameWithType: NetworkBehaviour.ConnectionToServer
 - uid: Mirror.NetworkBehaviour.GetDelegate(System.Int32)
   name: GetDelegate(Int32)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetDelegate_System_Int32_
@@ -1887,19 +1887,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.GetSyncVarGameObject
   nameWithType: NetworkBehaviour.GetSyncVarGameObject
-- uid: Mirror.NetworkBehaviour.getSyncVarHookGuard(System.UInt64)
-  name: getSyncVarHookGuard(UInt64)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_getSyncVarHookGuard_System_UInt64_
-  commentId: M:Mirror.NetworkBehaviour.getSyncVarHookGuard(System.UInt64)
-  fullName: Mirror.NetworkBehaviour.getSyncVarHookGuard(System.UInt64)
-  nameWithType: NetworkBehaviour.getSyncVarHookGuard(UInt64)
-- uid: Mirror.NetworkBehaviour.getSyncVarHookGuard*
-  name: getSyncVarHookGuard
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_getSyncVarHookGuard_
-  commentId: Overload:Mirror.NetworkBehaviour.getSyncVarHookGuard
+- uid: Mirror.NetworkBehaviour.GetSyncVarHookGuard(System.UInt64)
+  name: GetSyncVarHookGuard(UInt64)
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetSyncVarHookGuard_System_UInt64_
+  commentId: M:Mirror.NetworkBehaviour.GetSyncVarHookGuard(System.UInt64)
+  fullName: Mirror.NetworkBehaviour.GetSyncVarHookGuard(System.UInt64)
+  nameWithType: NetworkBehaviour.GetSyncVarHookGuard(UInt64)
+- uid: Mirror.NetworkBehaviour.GetSyncVarHookGuard*
+  name: GetSyncVarHookGuard
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetSyncVarHookGuard_
+  commentId: Overload:Mirror.NetworkBehaviour.GetSyncVarHookGuard
   isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.getSyncVarHookGuard
-  nameWithType: NetworkBehaviour.getSyncVarHookGuard
+  fullName: Mirror.NetworkBehaviour.GetSyncVarHookGuard
+  nameWithType: NetworkBehaviour.GetSyncVarHookGuard
 - uid: Mirror.NetworkBehaviour.GetSyncVarNetworkIdentity(System.UInt32,Mirror.NetworkIdentity@)
   name: GetSyncVarNetworkIdentity(UInt32, ref NetworkIdentity)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetSyncVarNetworkIdentity_System_UInt32_Mirror_NetworkIdentity__
@@ -1916,19 +1916,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.GetSyncVarNetworkIdentity
   nameWithType: NetworkBehaviour.GetSyncVarNetworkIdentity
-- uid: Mirror.NetworkBehaviour.hasAuthority
-  name: hasAuthority
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_hasAuthority
-  commentId: P:Mirror.NetworkBehaviour.hasAuthority
-  fullName: Mirror.NetworkBehaviour.hasAuthority
-  nameWithType: NetworkBehaviour.hasAuthority
-- uid: Mirror.NetworkBehaviour.hasAuthority*
-  name: hasAuthority
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_hasAuthority_
-  commentId: Overload:Mirror.NetworkBehaviour.hasAuthority
+- uid: Mirror.NetworkBehaviour.HasAuthority
+  name: HasAuthority
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_HasAuthority
+  commentId: P:Mirror.NetworkBehaviour.HasAuthority
+  fullName: Mirror.NetworkBehaviour.HasAuthority
+  nameWithType: NetworkBehaviour.HasAuthority
+- uid: Mirror.NetworkBehaviour.HasAuthority*
+  name: HasAuthority
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_HasAuthority_
+  commentId: Overload:Mirror.NetworkBehaviour.HasAuthority
   isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.hasAuthority
-  nameWithType: NetworkBehaviour.hasAuthority
+  fullName: Mirror.NetworkBehaviour.HasAuthority
+  nameWithType: NetworkBehaviour.HasAuthority
 - uid: Mirror.NetworkBehaviour.InitSyncObject(Mirror.ISyncObject)
   name: InitSyncObject(ISyncObject)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InitSyncObject_Mirror_ISyncObject_
@@ -1979,19 +1979,19 @@ references:
   commentId: F:Mirror.NetworkBehaviour.Invoker.invokeType
   fullName: Mirror.NetworkBehaviour.Invoker.invokeType
   nameWithType: NetworkBehaviour.Invoker.invokeType
-- uid: Mirror.NetworkBehaviour.InvokeRPC(System.Int32,Mirror.NetworkReader)
-  name: InvokeRPC(Int32, NetworkReader)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InvokeRPC_System_Int32_Mirror_NetworkReader_
-  commentId: M:Mirror.NetworkBehaviour.InvokeRPC(System.Int32,Mirror.NetworkReader)
-  fullName: Mirror.NetworkBehaviour.InvokeRPC(System.Int32, Mirror.NetworkReader)
-  nameWithType: NetworkBehaviour.InvokeRPC(Int32, NetworkReader)
-- uid: Mirror.NetworkBehaviour.InvokeRPC*
-  name: InvokeRPC
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InvokeRPC_
-  commentId: Overload:Mirror.NetworkBehaviour.InvokeRPC
+- uid: Mirror.NetworkBehaviour.InvokeRpc(System.Int32,Mirror.NetworkReader)
+  name: InvokeRpc(Int32, NetworkReader)
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InvokeRpc_System_Int32_Mirror_NetworkReader_
+  commentId: M:Mirror.NetworkBehaviour.InvokeRpc(System.Int32,Mirror.NetworkReader)
+  fullName: Mirror.NetworkBehaviour.InvokeRpc(System.Int32, Mirror.NetworkReader)
+  nameWithType: NetworkBehaviour.InvokeRpc(Int32, NetworkReader)
+- uid: Mirror.NetworkBehaviour.InvokeRpc*
+  name: InvokeRpc
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InvokeRpc_
+  commentId: Overload:Mirror.NetworkBehaviour.InvokeRpc
   isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.InvokeRPC
-  nameWithType: NetworkBehaviour.InvokeRPC
+  fullName: Mirror.NetworkBehaviour.InvokeRpc
+  nameWithType: NetworkBehaviour.InvokeRpc
 - uid: Mirror.NetworkBehaviour.InvokeSyncEvent(System.Int32,Mirror.NetworkReader)
   name: InvokeSyncEvent(Int32, NetworkReader)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InvokeSyncEvent_System_Int32_Mirror_NetworkReader_
@@ -2005,110 +2005,110 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.InvokeSyncEvent
   nameWithType: NetworkBehaviour.InvokeSyncEvent
-- uid: Mirror.NetworkBehaviour.isClient
-  name: isClient
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_isClient
-  commentId: P:Mirror.NetworkBehaviour.isClient
-  fullName: Mirror.NetworkBehaviour.isClient
-  nameWithType: NetworkBehaviour.isClient
-- uid: Mirror.NetworkBehaviour.isClient*
-  name: isClient
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_isClient_
-  commentId: Overload:Mirror.NetworkBehaviour.isClient
+- uid: Mirror.NetworkBehaviour.IsClient
+  name: IsClient
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_IsClient
+  commentId: P:Mirror.NetworkBehaviour.IsClient
+  fullName: Mirror.NetworkBehaviour.IsClient
+  nameWithType: NetworkBehaviour.IsClient
+- uid: Mirror.NetworkBehaviour.IsClient*
+  name: IsClient
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_IsClient_
+  commentId: Overload:Mirror.NetworkBehaviour.IsClient
   isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.isClient
-  nameWithType: NetworkBehaviour.isClient
-- uid: Mirror.NetworkBehaviour.isClientOnly
-  name: isClientOnly
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_isClientOnly
-  commentId: P:Mirror.NetworkBehaviour.isClientOnly
-  fullName: Mirror.NetworkBehaviour.isClientOnly
-  nameWithType: NetworkBehaviour.isClientOnly
-- uid: Mirror.NetworkBehaviour.isClientOnly*
-  name: isClientOnly
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_isClientOnly_
-  commentId: Overload:Mirror.NetworkBehaviour.isClientOnly
+  fullName: Mirror.NetworkBehaviour.IsClient
+  nameWithType: NetworkBehaviour.IsClient
+- uid: Mirror.NetworkBehaviour.IsClientOnly
+  name: IsClientOnly
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_IsClientOnly
+  commentId: P:Mirror.NetworkBehaviour.IsClientOnly
+  fullName: Mirror.NetworkBehaviour.IsClientOnly
+  nameWithType: NetworkBehaviour.IsClientOnly
+- uid: Mirror.NetworkBehaviour.IsClientOnly*
+  name: IsClientOnly
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_IsClientOnly_
+  commentId: Overload:Mirror.NetworkBehaviour.IsClientOnly
   isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.isClientOnly
-  nameWithType: NetworkBehaviour.isClientOnly
-- uid: Mirror.NetworkBehaviour.isLocalClient
-  name: isLocalClient
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_isLocalClient
-  commentId: P:Mirror.NetworkBehaviour.isLocalClient
-  fullName: Mirror.NetworkBehaviour.isLocalClient
-  nameWithType: NetworkBehaviour.isLocalClient
-- uid: Mirror.NetworkBehaviour.isLocalClient*
-  name: isLocalClient
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_isLocalClient_
-  commentId: Overload:Mirror.NetworkBehaviour.isLocalClient
+  fullName: Mirror.NetworkBehaviour.IsClientOnly
+  nameWithType: NetworkBehaviour.IsClientOnly
+- uid: Mirror.NetworkBehaviour.IsLocalClient
+  name: IsLocalClient
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_IsLocalClient
+  commentId: P:Mirror.NetworkBehaviour.IsLocalClient
+  fullName: Mirror.NetworkBehaviour.IsLocalClient
+  nameWithType: NetworkBehaviour.IsLocalClient
+- uid: Mirror.NetworkBehaviour.IsLocalClient*
+  name: IsLocalClient
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_IsLocalClient_
+  commentId: Overload:Mirror.NetworkBehaviour.IsLocalClient
   isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.isLocalClient
-  nameWithType: NetworkBehaviour.isLocalClient
-- uid: Mirror.NetworkBehaviour.isLocalPlayer
-  name: isLocalPlayer
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_isLocalPlayer
-  commentId: P:Mirror.NetworkBehaviour.isLocalPlayer
-  fullName: Mirror.NetworkBehaviour.isLocalPlayer
-  nameWithType: NetworkBehaviour.isLocalPlayer
-- uid: Mirror.NetworkBehaviour.isLocalPlayer*
-  name: isLocalPlayer
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_isLocalPlayer_
-  commentId: Overload:Mirror.NetworkBehaviour.isLocalPlayer
+  fullName: Mirror.NetworkBehaviour.IsLocalClient
+  nameWithType: NetworkBehaviour.IsLocalClient
+- uid: Mirror.NetworkBehaviour.IsLocalPlayer
+  name: IsLocalPlayer
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_IsLocalPlayer
+  commentId: P:Mirror.NetworkBehaviour.IsLocalPlayer
+  fullName: Mirror.NetworkBehaviour.IsLocalPlayer
+  nameWithType: NetworkBehaviour.IsLocalPlayer
+- uid: Mirror.NetworkBehaviour.IsLocalPlayer*
+  name: IsLocalPlayer
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_IsLocalPlayer_
+  commentId: Overload:Mirror.NetworkBehaviour.IsLocalPlayer
   isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.isLocalPlayer
-  nameWithType: NetworkBehaviour.isLocalPlayer
-- uid: Mirror.NetworkBehaviour.isServer
-  name: isServer
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_isServer
-  commentId: P:Mirror.NetworkBehaviour.isServer
-  fullName: Mirror.NetworkBehaviour.isServer
-  nameWithType: NetworkBehaviour.isServer
-- uid: Mirror.NetworkBehaviour.isServer*
-  name: isServer
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_isServer_
-  commentId: Overload:Mirror.NetworkBehaviour.isServer
+  fullName: Mirror.NetworkBehaviour.IsLocalPlayer
+  nameWithType: NetworkBehaviour.IsLocalPlayer
+- uid: Mirror.NetworkBehaviour.IsServer
+  name: IsServer
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_IsServer
+  commentId: P:Mirror.NetworkBehaviour.IsServer
+  fullName: Mirror.NetworkBehaviour.IsServer
+  nameWithType: NetworkBehaviour.IsServer
+- uid: Mirror.NetworkBehaviour.IsServer*
+  name: IsServer
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_IsServer_
+  commentId: Overload:Mirror.NetworkBehaviour.IsServer
   isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.isServer
-  nameWithType: NetworkBehaviour.isServer
-- uid: Mirror.NetworkBehaviour.isServerOnly
-  name: isServerOnly
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_isServerOnly
-  commentId: P:Mirror.NetworkBehaviour.isServerOnly
-  fullName: Mirror.NetworkBehaviour.isServerOnly
-  nameWithType: NetworkBehaviour.isServerOnly
-- uid: Mirror.NetworkBehaviour.isServerOnly*
-  name: isServerOnly
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_isServerOnly_
-  commentId: Overload:Mirror.NetworkBehaviour.isServerOnly
+  fullName: Mirror.NetworkBehaviour.IsServer
+  nameWithType: NetworkBehaviour.IsServer
+- uid: Mirror.NetworkBehaviour.IsServerOnly
+  name: IsServerOnly
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_IsServerOnly
+  commentId: P:Mirror.NetworkBehaviour.IsServerOnly
+  fullName: Mirror.NetworkBehaviour.IsServerOnly
+  nameWithType: NetworkBehaviour.IsServerOnly
+- uid: Mirror.NetworkBehaviour.IsServerOnly*
+  name: IsServerOnly
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_IsServerOnly_
+  commentId: Overload:Mirror.NetworkBehaviour.IsServerOnly
   isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.isServerOnly
-  nameWithType: NetworkBehaviour.isServerOnly
-- uid: Mirror.NetworkBehaviour.netId
-  name: netId
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_netId
-  commentId: P:Mirror.NetworkBehaviour.netId
-  fullName: Mirror.NetworkBehaviour.netId
-  nameWithType: NetworkBehaviour.netId
-- uid: Mirror.NetworkBehaviour.netId*
-  name: netId
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_netId_
-  commentId: Overload:Mirror.NetworkBehaviour.netId
+  fullName: Mirror.NetworkBehaviour.IsServerOnly
+  nameWithType: NetworkBehaviour.IsServerOnly
+- uid: Mirror.NetworkBehaviour.NetId
+  name: NetId
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_NetId
+  commentId: P:Mirror.NetworkBehaviour.NetId
+  fullName: Mirror.NetworkBehaviour.NetId
+  nameWithType: NetworkBehaviour.NetId
+- uid: Mirror.NetworkBehaviour.NetId*
+  name: NetId
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_NetId_
+  commentId: Overload:Mirror.NetworkBehaviour.NetId
   isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.netId
-  nameWithType: NetworkBehaviour.netId
-- uid: Mirror.NetworkBehaviour.netIdentity
-  name: netIdentity
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_netIdentity
-  commentId: P:Mirror.NetworkBehaviour.netIdentity
-  fullName: Mirror.NetworkBehaviour.netIdentity
-  nameWithType: NetworkBehaviour.netIdentity
-- uid: Mirror.NetworkBehaviour.netIdentity*
-  name: netIdentity
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_netIdentity_
-  commentId: Overload:Mirror.NetworkBehaviour.netIdentity
+  fullName: Mirror.NetworkBehaviour.NetId
+  nameWithType: NetworkBehaviour.NetId
+- uid: Mirror.NetworkBehaviour.NetIdentity
+  name: NetIdentity
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_NetIdentity
+  commentId: P:Mirror.NetworkBehaviour.NetIdentity
+  fullName: Mirror.NetworkBehaviour.NetIdentity
+  nameWithType: NetworkBehaviour.NetIdentity
+- uid: Mirror.NetworkBehaviour.NetIdentity*
+  name: NetIdentity
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_NetIdentity_
+  commentId: Overload:Mirror.NetworkBehaviour.NetIdentity
   isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.netIdentity
-  nameWithType: NetworkBehaviour.netIdentity
+  fullName: Mirror.NetworkBehaviour.NetIdentity
+  nameWithType: NetworkBehaviour.NetIdentity
 - uid: Mirror.NetworkBehaviour.NetworkTime
   name: NetworkTime
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_NetworkTime
@@ -2268,32 +2268,32 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.SendEventInternal
   nameWithType: NetworkBehaviour.SendEventInternal
-- uid: Mirror.NetworkBehaviour.SendRPCInternal(Type,System.String,Mirror.NetworkWriter,System.Int32)
-  name: SendRPCInternal(Type, String, NetworkWriter, Int32)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendRPCInternal_Type_System_String_Mirror_NetworkWriter_System_Int32_
-  commentId: M:Mirror.NetworkBehaviour.SendRPCInternal(Type,System.String,Mirror.NetworkWriter,System.Int32)
-  fullName: Mirror.NetworkBehaviour.SendRPCInternal(Type, System.String, Mirror.NetworkWriter, System.Int32)
-  nameWithType: NetworkBehaviour.SendRPCInternal(Type, String, NetworkWriter, Int32)
-- uid: Mirror.NetworkBehaviour.SendRPCInternal*
-  name: SendRPCInternal
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendRPCInternal_
-  commentId: Overload:Mirror.NetworkBehaviour.SendRPCInternal
+- uid: Mirror.NetworkBehaviour.SendRpcInternal(Type,System.String,Mirror.NetworkWriter,System.Int32)
+  name: SendRpcInternal(Type, String, NetworkWriter, Int32)
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendRpcInternal_Type_System_String_Mirror_NetworkWriter_System_Int32_
+  commentId: M:Mirror.NetworkBehaviour.SendRpcInternal(Type,System.String,Mirror.NetworkWriter,System.Int32)
+  fullName: Mirror.NetworkBehaviour.SendRpcInternal(Type, System.String, Mirror.NetworkWriter, System.Int32)
+  nameWithType: NetworkBehaviour.SendRpcInternal(Type, String, NetworkWriter, Int32)
+- uid: Mirror.NetworkBehaviour.SendRpcInternal*
+  name: SendRpcInternal
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendRpcInternal_
+  commentId: Overload:Mirror.NetworkBehaviour.SendRpcInternal
   isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.SendRPCInternal
-  nameWithType: NetworkBehaviour.SendRPCInternal
-- uid: Mirror.NetworkBehaviour.SendTargetRPCInternal(Mirror.NetworkConnection,Type,System.String,Mirror.NetworkWriter,System.Int32)
-  name: SendTargetRPCInternal(NetworkConnection, Type, String, NetworkWriter, Int32)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendTargetRPCInternal_Mirror_NetworkConnection_Type_System_String_Mirror_NetworkWriter_System_Int32_
-  commentId: M:Mirror.NetworkBehaviour.SendTargetRPCInternal(Mirror.NetworkConnection,Type,System.String,Mirror.NetworkWriter,System.Int32)
-  fullName: Mirror.NetworkBehaviour.SendTargetRPCInternal(Mirror.NetworkConnection, Type, System.String, Mirror.NetworkWriter, System.Int32)
-  nameWithType: NetworkBehaviour.SendTargetRPCInternal(NetworkConnection, Type, String, NetworkWriter, Int32)
-- uid: Mirror.NetworkBehaviour.SendTargetRPCInternal*
-  name: SendTargetRPCInternal
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendTargetRPCInternal_
-  commentId: Overload:Mirror.NetworkBehaviour.SendTargetRPCInternal
+  fullName: Mirror.NetworkBehaviour.SendRpcInternal
+  nameWithType: NetworkBehaviour.SendRpcInternal
+- uid: Mirror.NetworkBehaviour.SendTargetRpcInternal(Mirror.NetworkConnection,Type,System.String,Mirror.NetworkWriter,System.Int32)
+  name: SendTargetRpcInternal(NetworkConnection, Type, String, NetworkWriter, Int32)
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendTargetRpcInternal_Mirror_NetworkConnection_Type_System_String_Mirror_NetworkWriter_System_Int32_
+  commentId: M:Mirror.NetworkBehaviour.SendTargetRpcInternal(Mirror.NetworkConnection,Type,System.String,Mirror.NetworkWriter,System.Int32)
+  fullName: Mirror.NetworkBehaviour.SendTargetRpcInternal(Mirror.NetworkConnection, Type, System.String, Mirror.NetworkWriter, System.Int32)
+  nameWithType: NetworkBehaviour.SendTargetRpcInternal(NetworkConnection, Type, String, NetworkWriter, Int32)
+- uid: Mirror.NetworkBehaviour.SendTargetRpcInternal*
+  name: SendTargetRpcInternal
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendTargetRpcInternal_
+  commentId: Overload:Mirror.NetworkBehaviour.SendTargetRpcInternal
   isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.SendTargetRPCInternal
-  nameWithType: NetworkBehaviour.SendTargetRPCInternal
+  fullName: Mirror.NetworkBehaviour.SendTargetRpcInternal
+  nameWithType: NetworkBehaviour.SendTargetRpcInternal
 - uid: Mirror.NetworkBehaviour.SerializeObjectsAll(Mirror.NetworkWriter)
   name: SerializeObjectsAll(NetworkWriter)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SerializeObjectsAll_Mirror_NetworkWriter_
@@ -2320,19 +2320,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.SerializeObjectsDelta
   nameWithType: NetworkBehaviour.SerializeObjectsDelta
-- uid: Mirror.NetworkBehaviour.server
-  name: server
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_server
-  commentId: P:Mirror.NetworkBehaviour.server
-  fullName: Mirror.NetworkBehaviour.server
-  nameWithType: NetworkBehaviour.server
-- uid: Mirror.NetworkBehaviour.server*
-  name: server
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_server_
-  commentId: Overload:Mirror.NetworkBehaviour.server
+- uid: Mirror.NetworkBehaviour.Server
+  name: Server
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_Server
+  commentId: P:Mirror.NetworkBehaviour.Server
+  fullName: Mirror.NetworkBehaviour.Server
+  nameWithType: NetworkBehaviour.Server
+- uid: Mirror.NetworkBehaviour.Server*
+  name: Server
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_Server_
+  commentId: Overload:Mirror.NetworkBehaviour.Server
   isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.server
-  nameWithType: NetworkBehaviour.server
+  fullName: Mirror.NetworkBehaviour.Server
+  nameWithType: NetworkBehaviour.Server
 - uid: Mirror.NetworkBehaviour.SetDirtyBit(System.UInt64)
   name: SetDirtyBit(UInt64)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SetDirtyBit_System_UInt64_
@@ -2378,19 +2378,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.SetSyncVarGameObject
   nameWithType: NetworkBehaviour.SetSyncVarGameObject
-- uid: Mirror.NetworkBehaviour.setSyncVarHookGuard(System.UInt64,System.Boolean)
-  name: setSyncVarHookGuard(UInt64, Boolean)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_setSyncVarHookGuard_System_UInt64_System_Boolean_
-  commentId: M:Mirror.NetworkBehaviour.setSyncVarHookGuard(System.UInt64,System.Boolean)
-  fullName: Mirror.NetworkBehaviour.setSyncVarHookGuard(System.UInt64, System.Boolean)
-  nameWithType: NetworkBehaviour.setSyncVarHookGuard(UInt64, Boolean)
-- uid: Mirror.NetworkBehaviour.setSyncVarHookGuard*
-  name: setSyncVarHookGuard
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_setSyncVarHookGuard_
-  commentId: Overload:Mirror.NetworkBehaviour.setSyncVarHookGuard
+- uid: Mirror.NetworkBehaviour.SetSyncVarHookGuard(System.UInt64,System.Boolean)
+  name: SetSyncVarHookGuard(UInt64, Boolean)
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SetSyncVarHookGuard_System_UInt64_System_Boolean_
+  commentId: M:Mirror.NetworkBehaviour.SetSyncVarHookGuard(System.UInt64,System.Boolean)
+  fullName: Mirror.NetworkBehaviour.SetSyncVarHookGuard(System.UInt64, System.Boolean)
+  nameWithType: NetworkBehaviour.SetSyncVarHookGuard(UInt64, Boolean)
+- uid: Mirror.NetworkBehaviour.SetSyncVarHookGuard*
+  name: SetSyncVarHookGuard
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SetSyncVarHookGuard_
+  commentId: Overload:Mirror.NetworkBehaviour.SetSyncVarHookGuard
   isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.setSyncVarHookGuard
-  nameWithType: NetworkBehaviour.setSyncVarHookGuard
+  fullName: Mirror.NetworkBehaviour.SetSyncVarHookGuard
+  nameWithType: NetworkBehaviour.SetSyncVarHookGuard
 - uid: Mirror.NetworkBehaviour.SetSyncVarNetworkIdentity(Mirror.NetworkIdentity,Mirror.NetworkIdentity@,System.UInt64,System.UInt32@)
   name: SetSyncVarNetworkIdentity(NetworkIdentity, ref NetworkIdentity, UInt64, ref UInt32)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SetSyncVarNetworkIdentity_Mirror_NetworkIdentity_Mirror_NetworkIdentity__System_UInt64_System_UInt32__
@@ -2425,19 +2425,19 @@ references:
   commentId: F:Mirror.NetworkBehaviour.syncObjects
   fullName: Mirror.NetworkBehaviour.syncObjects
   nameWithType: NetworkBehaviour.syncObjects
-- uid: Mirror.NetworkBehaviour.syncVarDirtyBits
-  name: syncVarDirtyBits
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_syncVarDirtyBits
-  commentId: P:Mirror.NetworkBehaviour.syncVarDirtyBits
-  fullName: Mirror.NetworkBehaviour.syncVarDirtyBits
-  nameWithType: NetworkBehaviour.syncVarDirtyBits
-- uid: Mirror.NetworkBehaviour.syncVarDirtyBits*
-  name: syncVarDirtyBits
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_syncVarDirtyBits_
-  commentId: Overload:Mirror.NetworkBehaviour.syncVarDirtyBits
+- uid: Mirror.NetworkBehaviour.SyncVarDirtyBits
+  name: SyncVarDirtyBits
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SyncVarDirtyBits
+  commentId: P:Mirror.NetworkBehaviour.SyncVarDirtyBits
+  fullName: Mirror.NetworkBehaviour.SyncVarDirtyBits
+  nameWithType: NetworkBehaviour.SyncVarDirtyBits
+- uid: Mirror.NetworkBehaviour.SyncVarDirtyBits*
+  name: SyncVarDirtyBits
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SyncVarDirtyBits_
+  commentId: Overload:Mirror.NetworkBehaviour.SyncVarDirtyBits
   isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.syncVarDirtyBits
-  nameWithType: NetworkBehaviour.syncVarDirtyBits
+  fullName: Mirror.NetworkBehaviour.SyncVarDirtyBits
+  nameWithType: NetworkBehaviour.SyncVarDirtyBits
 - uid: Mirror.NetworkBehaviour.SyncVarEqual*
   name: SyncVarEqual
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SyncVarEqual_
