@@ -1182,6 +1182,34 @@ references:
   isSpec: "True"
   fullName: Mirror.ISyncObject.OnSerializeDelta
   nameWithType: ISyncObject.OnSerializeDelta
+- uid: Mirror.LogFactory
+  name: LogFactory
+  href: api/Mirror.LogFactory.html
+  commentId: T:Mirror.LogFactory
+  fullName: Mirror.LogFactory
+  nameWithType: LogFactory
+- uid: Mirror.LogFactory.GetLogger(System.String)
+  name: GetLogger(String)
+  href: api/Mirror.LogFactory.html#Mirror_LogFactory_GetLogger_System_String_
+  commentId: M:Mirror.LogFactory.GetLogger(System.String)
+  fullName: Mirror.LogFactory.GetLogger(System.String)
+  nameWithType: LogFactory.GetLogger(String)
+- uid: Mirror.LogFactory.GetLogger*
+  name: GetLogger
+  href: api/Mirror.LogFactory.html#Mirror_LogFactory_GetLogger_
+  commentId: Overload:Mirror.LogFactory.GetLogger
+  isSpec: "True"
+  fullName: Mirror.LogFactory.GetLogger
+  nameWithType: LogFactory.GetLogger
+- uid: Mirror.LogFactory.GetLogger``1
+  name: GetLogger<T>()
+  href: api/Mirror.LogFactory.html#Mirror_LogFactory_GetLogger__1
+  commentId: M:Mirror.LogFactory.GetLogger``1
+  name.vb: GetLogger(Of T)()
+  fullName: Mirror.LogFactory.GetLogger<T>()
+  fullName.vb: Mirror.LogFactory.GetLogger(Of T)()
+  nameWithType: LogFactory.GetLogger<T>()
+  nameWithType.vb: LogFactory.GetLogger(Of T)()
 - uid: Mirror.LogFilter
   name: LogFilter
   href: api/Mirror.LogFilter.html
@@ -4484,6 +4512,19 @@ references:
   commentId: T:Mirror.NetworkReaderPool
   fullName: Mirror.NetworkReaderPool
   nameWithType: NetworkReaderPool
+- uid: Mirror.NetworkReaderPool.Capacity
+  name: Capacity
+  href: api/Mirror.NetworkReaderPool.html#Mirror_NetworkReaderPool_Capacity
+  commentId: P:Mirror.NetworkReaderPool.Capacity
+  fullName: Mirror.NetworkReaderPool.Capacity
+  nameWithType: NetworkReaderPool.Capacity
+- uid: Mirror.NetworkReaderPool.Capacity*
+  name: Capacity
+  href: api/Mirror.NetworkReaderPool.html#Mirror_NetworkReaderPool_Capacity_
+  commentId: Overload:Mirror.NetworkReaderPool.Capacity
+  isSpec: "True"
+  fullName: Mirror.NetworkReaderPool.Capacity
+  nameWithType: NetworkReaderPool.Capacity
 - uid: Mirror.NetworkReaderPool.GetReader(ArraySegment{System.Byte})
   name: GetReader(ArraySegment<Byte>)
   href: api/Mirror.NetworkReaderPool.html#Mirror_NetworkReaderPool_GetReader_ArraySegment_System_Byte__

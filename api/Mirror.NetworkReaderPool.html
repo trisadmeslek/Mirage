@@ -83,7 +83,10 @@
   
   <h1 id="Mirror_NetworkReaderPool" data-uid="Mirror.NetworkReaderPool" class="text-break">Class NetworkReaderPool
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Pool of NetworkReaders</p>
+<p>Use this pool instead of <a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a> to reduce memory allocation</p>
+<p>Use <a class="xref" href="Mirror.NetworkReaderPool.html#Mirror_NetworkReaderPool_Capacity">Capacity</a> to change size of pool</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -96,18 +99,55 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class NetworkReaderPool : object</code></pre>
   </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/d00b04aa2da1f53ee6f3ddf91eaea0760bc23f44/apiSpec/new?filename=Mirror_NetworkReaderPool_Capacity.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderPool.Capacity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/d00b04aa2da1f53ee6f3ddf91eaea0760bc23f44/Assets/Mirror/Runtime/NetworkReaderPool.cs/#L33">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderPool_Capacity_" data-uid="Mirror.NetworkReaderPool.Capacity*"></a>
+  <h4 id="Mirror_NetworkReaderPool_Capacity" data-uid="Mirror.NetworkReaderPool.Capacity">Capacity</h4>
+  <div class="markdown level1 summary"><p>Size of the pool</p>
+<p>If pool is too small getting readers will causes memory allocation</p>
+<p>Default value: 100</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Capacity { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/9df2f798953f78de113ef6fa9fea111b03a52cd0/apiSpec/new?filename=Mirror_NetworkReaderPool_GetReader_ArraySegment_System_Byte__.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderPool.GetReader(ArraySegment%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/d00b04aa2da1f53ee6f3ddf91eaea0760bc23f44/apiSpec/new?filename=Mirror_NetworkReaderPool_GetReader_ArraySegment_System_Byte__.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderPool.GetReader(ArraySegment%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/9df2f798953f78de113ef6fa9fea111b03a52cd0/Assets/Mirror/Runtime/NetworkReaderPool.cs/#L36">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/d00b04aa2da1f53ee6f3ddf91eaea0760bc23f44/Assets/Mirror/Runtime/NetworkReaderPool.cs/#L87">View Source</a>
   </span>
   <a id="Mirror_NetworkReaderPool_GetReader_" data-uid="Mirror.NetworkReaderPool.GetReader*"></a>
   <h4 id="Mirror_NetworkReaderPool_GetReader_ArraySegment_System_Byte__" data-uid="Mirror.NetworkReaderPool.GetReader(ArraySegment{System.Byte})">GetReader(ArraySegment&lt;Byte&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get the next reader in the pool</p>
+<p>If pool is empty, creates a new Reader</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -147,14 +187,16 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/9df2f798953f78de113ef6fa9fea111b03a52cd0/apiSpec/new?filename=Mirror_NetworkReaderPool_GetReader_System_Byte___.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderPool.GetReader(System.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/d00b04aa2da1f53ee6f3ddf91eaea0760bc23f44/apiSpec/new?filename=Mirror_NetworkReaderPool_GetReader_System_Byte___.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderPool.GetReader(System.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/9df2f798953f78de113ef6fa9fea111b03a52cd0/Assets/Mirror/Runtime/NetworkReaderPool.cs/#L23">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/d00b04aa2da1f53ee6f3ddf91eaea0760bc23f44/Assets/Mirror/Runtime/NetworkReaderPool.cs/#L67">View Source</a>
   </span>
   <a id="Mirror_NetworkReaderPool_GetReader_" data-uid="Mirror.NetworkReaderPool.GetReader*"></a>
   <h4 id="Mirror_NetworkReaderPool_GetReader_System_Byte___" data-uid="Mirror.NetworkReaderPool.GetReader(System.Byte[])">GetReader(Byte[])</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get the next reader in the pool</p>
+<p>If pool is empty, creates a new Reader</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -194,14 +236,16 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/9df2f798953f78de113ef6fa9fea111b03a52cd0/apiSpec/new?filename=Mirror_NetworkReaderPool_Recycle_Mirror_PooledNetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderPool.Recycle(Mirror.PooledNetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/d00b04aa2da1f53ee6f3ddf91eaea0760bc23f44/apiSpec/new?filename=Mirror_NetworkReaderPool_Recycle_Mirror_PooledNetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderPool.Recycle(Mirror.PooledNetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/9df2f798953f78de113ef6fa9fea111b03a52cd0/Assets/Mirror/Runtime/NetworkReaderPool.cs/#L62">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/d00b04aa2da1f53ee6f3ddf91eaea0760bc23f44/Assets/Mirror/Runtime/NetworkReaderPool.cs/#L107">View Source</a>
   </span>
   <a id="Mirror_NetworkReaderPool_Recycle_" data-uid="Mirror.NetworkReaderPool.Recycle*"></a>
   <h4 id="Mirror_NetworkReaderPool_Recycle_Mirror_PooledNetworkReader_" data-uid="Mirror.NetworkReaderPool.Recycle(Mirror.PooledNetworkReader)">Recycle(PooledNetworkReader)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Puts reader back into pool</p>
+<p>When pool is full, the extra reader is left for the GC</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -232,10 +276,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/new/9df2f798953f78de113ef6fa9fea111b03a52cd0/apiSpec/new?filename=Mirror_NetworkReaderPool.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderPool%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/new/d00b04aa2da1f53ee6f3ddf91eaea0760bc23f44/apiSpec/new?filename=Mirror_NetworkReaderPool.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderPool%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/9df2f798953f78de113ef6fa9fea111b03a52cd0/Assets/Mirror/Runtime/NetworkReaderPool.cs/#L19" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/d00b04aa2da1f53ee6f3ddf91eaea0760bc23f44/Assets/Mirror/Runtime/NetworkReaderPool.cs/#L26" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

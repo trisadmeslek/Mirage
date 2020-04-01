@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Delegate SpawnDelegate
+    <title>Class LogFactory
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Delegate SpawnDelegate
+    <meta name="title" content="Class LogFactory
    ">
     <meta name="generator" content="docfx 2.45.1.0">
     
@@ -78,18 +78,40 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Mirror.SpawnDelegate">
+            <article class="content wrap" id="_content" data-uid="Mirror.LogFactory">
   
   
-  <h1 id="Mirror_SpawnDelegate" data-uid="Mirror.SpawnDelegate" class="text-break">Delegate SpawnDelegate
+  <h1 id="Mirror_LogFactory" data-uid="Mirror.LogFactory" class="text-break">Class LogFactory
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">LogFactory</span></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.html">Mirror</a></h6>
   <h6><strong>Assembly</strong>: doc.dll</h6>
-  <h5 id="Mirror_SpawnDelegate_syntax">Syntax</h5>
+  <h5 id="Mirror_LogFactory_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate GameObject SpawnDelegate(Vector3 position, Guid assetId);</code></pre>
+    <pre><code class="lang-csharp hljs">public static class LogFactory : object</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/d00b04aa2da1f53ee6f3ddf91eaea0760bc23f44/apiSpec/new?filename=Mirror_LogFactory_GetLogger_System_String_.md&amp;value=---%0Auid%3A%20Mirror.LogFactory.GetLogger(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/d00b04aa2da1f53ee6f3ddf91eaea0760bc23f44/Assets/Mirror/Runtime/LogFactory.cs/#L15">View Source</a>
+  </span>
+  <a id="Mirror_LogFactory_GetLogger_" data-uid="Mirror.LogFactory.GetLogger*"></a>
+  <h4 id="Mirror_LogFactory_GetLogger_System_String_" data-uid="Mirror.LogFactory.GetLogger(System.String)">GetLogger(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ILogger GetLogger(string loggerName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -102,13 +124,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">position</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Guid</span></td>
-        <td><span class="parametername">assetId</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">loggerName</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -123,7 +140,52 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GameObject</span></td>
+        <td><span class="xref">ILogger</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/d00b04aa2da1f53ee6f3ddf91eaea0760bc23f44/apiSpec/new?filename=Mirror_LogFactory_GetLogger__1.md&amp;value=---%0Auid%3A%20Mirror.LogFactory.GetLogger%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/d00b04aa2da1f53ee6f3ddf91eaea0760bc23f44/Assets/Mirror/Runtime/LogFactory.cs/#L10">View Source</a>
+  </span>
+  <a id="Mirror_LogFactory_GetLogger_" data-uid="Mirror.LogFactory.GetLogger*"></a>
+  <h4 id="Mirror_LogFactory_GetLogger__1" data-uid="Mirror.LogFactory.GetLogger``1">GetLogger&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ILogger GetLogger&lt;T&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ILogger</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -136,10 +198,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/new/d00b04aa2da1f53ee6f3ddf91eaea0760bc23f44/apiSpec/new?filename=Mirror_SpawnDelegate.md&amp;value=---%0Auid%3A%20Mirror.SpawnDelegate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/new/d00b04aa2da1f53ee6f3ddf91eaea0760bc23f44/apiSpec/new?filename=Mirror_LogFactory.md&amp;value=---%0Auid%3A%20Mirror.LogFactory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/d00b04aa2da1f53ee6f3ddf91eaea0760bc23f44/Assets/Mirror/Runtime/UNetwork.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/d00b04aa2da1f53ee6f3ddf91eaea0760bc23f44/Assets/Mirror/Runtime/LogFactory.cs/#L6" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
