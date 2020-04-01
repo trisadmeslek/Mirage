@@ -94,7 +94,7 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Mirror.NetworkConnection.html#Mirror_NetworkConnection_connectionId">NetworkConnection.connectionId</a>
+      <a class="xref" href="Mirror.NetworkConnection.html#Mirror_NetworkConnection_connection">NetworkConnection.connection</a>
     </div>
     <div>
       <a class="xref" href="Mirror.NetworkConnection.html#Mirror_NetworkConnection_isAuthenticated">NetworkConnection.isAuthenticated</a>
@@ -104,6 +104,9 @@
     </div>
     <div>
       <a class="xref" href="Mirror.NetworkConnection.html#Mirror_NetworkConnection_isReady">NetworkConnection.isReady</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkConnection.html#Mirror_NetworkConnection_Address">NetworkConnection.Address</a>
     </div>
     <div>
       <a class="xref" href="Mirror.NetworkConnection.html#Mirror_NetworkConnection_lastMessageTime">NetworkConnection.lastMessageTime</a>
@@ -124,6 +127,9 @@
       <a class="xref" href="Mirror.NetworkConnection.html#Mirror_NetworkConnection_Dispose_System_Boolean_">NetworkConnection.Dispose(Boolean)</a>
     </div>
     <div>
+      <a class="xref" href="Mirror.NetworkConnection.html#Mirror_NetworkConnection_Disconnect">NetworkConnection.Disconnect()</a>
+    </div>
+    <div>
       <a class="xref" href="Mirror.NetworkConnection.html#Mirror_NetworkConnection_RegisterHandler__2_Action___0___1__System_Boolean_">NetworkConnection.RegisterHandler&lt;C, T&gt;(Action&lt;C, T&gt;, Boolean)</a>
     </div>
     <div>
@@ -137,6 +143,9 @@
     </div>
     <div>
       <a class="xref" href="Mirror.NetworkConnection.html#Mirror_NetworkConnection_Send__1___0_System_Int32_">NetworkConnection.Send&lt;T&gt;(T, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkConnection.html#Mirror_NetworkConnection_SendAsync__1___0_System_Int32_">NetworkConnection.SendAsync&lt;T&gt;(T, Int32)</a>
     </div>
     <div>
       <a class="xref" href="Mirror.NetworkConnection.html#Mirror_NetworkConnection_Send__1_IEnumerable_Mirror_NetworkConnection____0_System_Int32_">NetworkConnection.Send&lt;T&gt;(IEnumerable&lt;NetworkConnection&gt;, T, Int32)</a>
@@ -158,18 +167,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/7864e8d6f4a0952ef3114daac11842e4ee0a7a58/apiSpec/new?filename=Mirror_NetworkConnectionToClient__ctor_System_Int32_.md&amp;value=---%0Auid%3A%20Mirror.NetworkConnectionToClient.%23ctor(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/0e84f451e822fe7c1ca1cd04e052546ed273cfce/apiSpec/new?filename=Mirror_NetworkConnectionToClient__ctor_Mirror_IConnection_.md&amp;value=---%0Auid%3A%20Mirror.NetworkConnectionToClient.%23ctor(Mirror.IConnection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/7864e8d6f4a0952ef3114daac11842e4ee0a7a58/Assets/Mirror/Runtime/NetworkConnectionToClient.cs/#L10">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/0e84f451e822fe7c1ca1cd04e052546ed273cfce/Assets/Mirror/Runtime/NetworkConnectionToClient.cs/#L5">View Source</a>
   </span>
   <a id="Mirror_NetworkConnectionToClient__ctor_" data-uid="Mirror.NetworkConnectionToClient.#ctor*"></a>
-  <h4 id="Mirror_NetworkConnectionToClient__ctor_System_Int32_" data-uid="Mirror.NetworkConnectionToClient.#ctor(System.Int32)">NetworkConnectionToClient(Int32)</h4>
+  <h4 id="Mirror_NetworkConnectionToClient__ctor_Mirror_IConnection_" data-uid="Mirror.NetworkConnectionToClient.#ctor(Mirror.IConnection)">NetworkConnectionToClient(IConnection)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NetworkConnectionToClient(int networkConnectionId)</code></pre>
+    <pre><code class="lang-csharp hljs">public NetworkConnectionToClient(IConnection connection)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -182,66 +191,12 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">networkConnectionId</span></td>
+        <td><a class="xref" href="Mirror.IConnection.html">IConnection</a></td>
+        <td><span class="parametername">connection</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/7864e8d6f4a0952ef3114daac11842e4ee0a7a58/apiSpec/new?filename=Mirror_NetworkConnectionToClient_Address.md&amp;value=---%0Auid%3A%20Mirror.NetworkConnectionToClient.Address%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/7864e8d6f4a0952ef3114daac11842e4ee0a7a58/Assets/Mirror/Runtime/NetworkConnectionToClient.cs/#L14">View Source</a>
-  </span>
-  <a id="Mirror_NetworkConnectionToClient_Address_" data-uid="Mirror.NetworkConnectionToClient.Address*"></a>
-  <h4 id="Mirror_NetworkConnectionToClient_Address" data-uid="Mirror.NetworkConnectionToClient.Address">Address</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override EndPoint Address { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">EndPoint</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Mirror.NetworkConnection.html#Mirror_NetworkConnection_Address">NetworkConnection.Address</a></div>
-  <h3 id="methods">Methods
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/7864e8d6f4a0952ef3114daac11842e4ee0a7a58/apiSpec/new?filename=Mirror_NetworkConnectionToClient_Disconnect.md&amp;value=---%0Auid%3A%20Mirror.NetworkConnectionToClient.Disconnect%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/7864e8d6f4a0952ef3114daac11842e4ee0a7a58/Assets/Mirror/Runtime/NetworkConnectionToClient.cs/#L44">View Source</a>
-  </span>
-  <a id="Mirror_NetworkConnectionToClient_Disconnect_" data-uid="Mirror.NetworkConnectionToClient.Disconnect*"></a>
-  <h4 id="Mirror_NetworkConnectionToClient_Disconnect" data-uid="Mirror.NetworkConnectionToClient.Disconnect">Disconnect()</h4>
-  <div class="markdown level1 summary"><p>Disconnects this connection.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Disconnect()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Mirror.NetworkConnection.html#Mirror_NetworkConnection_Disconnect">NetworkConnection.Disconnect()</a></div>
 </article>
           </div>
           
@@ -250,10 +205,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/new/7864e8d6f4a0952ef3114daac11842e4ee0a7a58/apiSpec/new?filename=Mirror_NetworkConnectionToClient.md&amp;value=---%0Auid%3A%20Mirror.NetworkConnectionToClient%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/new/0e84f451e822fe7c1ca1cd04e052546ed273cfce/apiSpec/new?filename=Mirror_NetworkConnectionToClient.md&amp;value=---%0Auid%3A%20Mirror.NetworkConnectionToClient%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/7864e8d6f4a0952ef3114daac11842e4ee0a7a58/Assets/Mirror/Runtime/NetworkConnectionToClient.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/0e84f451e822fe7c1ca1cd04e052546ed273cfce/Assets/Mirror/Runtime/NetworkConnectionToClient.cs/#L3" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

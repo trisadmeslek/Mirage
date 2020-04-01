@@ -2524,12 +2524,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkClient.ClearSpawners
   nameWithType: NetworkClient.ClearSpawners
-- uid: Mirror.NetworkClient.ConnectAsync(System.String)
-  name: ConnectAsync(String)
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_ConnectAsync_System_String_
-  commentId: M:Mirror.NetworkClient.ConnectAsync(System.String)
-  fullName: Mirror.NetworkClient.ConnectAsync(System.String)
-  nameWithType: NetworkClient.ConnectAsync(String)
 - uid: Mirror.NetworkClient.ConnectAsync(Uri)
   name: ConnectAsync(Uri)
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_ConnectAsync_Uri_
@@ -2786,19 +2780,22 @@ references:
   fullName.vb: Mirror.NetworkClient.Send(Of T)(T, System.Int32)
   nameWithType: NetworkClient.Send<T>(T, Int32)
   nameWithType.vb: NetworkClient.Send(Of T)(T, Int32)
-- uid: Mirror.NetworkClient.Shutdown
-  name: Shutdown()
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Shutdown
-  commentId: M:Mirror.NetworkClient.Shutdown
-  fullName: Mirror.NetworkClient.Shutdown()
-  nameWithType: NetworkClient.Shutdown()
-- uid: Mirror.NetworkClient.Shutdown*
-  name: Shutdown
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Shutdown_
-  commentId: Overload:Mirror.NetworkClient.Shutdown
+- uid: Mirror.NetworkClient.SendAsync*
+  name: SendAsync
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_SendAsync_
+  commentId: Overload:Mirror.NetworkClient.SendAsync
   isSpec: "True"
-  fullName: Mirror.NetworkClient.Shutdown
-  nameWithType: NetworkClient.Shutdown
+  fullName: Mirror.NetworkClient.SendAsync
+  nameWithType: NetworkClient.SendAsync
+- uid: Mirror.NetworkClient.SendAsync``1(``0,System.Int32)
+  name: SendAsync<T>(T, Int32)
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_SendAsync__1___0_System_Int32_
+  commentId: M:Mirror.NetworkClient.SendAsync``1(``0,System.Int32)
+  name.vb: SendAsync(Of T)(T, Int32)
+  fullName: Mirror.NetworkClient.SendAsync<T>(T, System.Int32)
+  fullName.vb: Mirror.NetworkClient.SendAsync(Of T)(T, System.Int32)
+  nameWithType: NetworkClient.SendAsync<T>(T, Int32)
+  nameWithType.vb: NetworkClient.SendAsync(Of T)(T, Int32)
 - uid: Mirror.NetworkClient.spawnableObjects
   name: spawnableObjects
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_spawnableObjects
@@ -2830,6 +2827,12 @@ references:
   commentId: F:Mirror.NetworkClient.Time
   fullName: Mirror.NetworkClient.Time
   nameWithType: NetworkClient.Time
+- uid: Mirror.NetworkClient.Transport
+  name: Transport
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Transport
+  commentId: F:Mirror.NetworkClient.Transport
+  fullName: Mirror.NetworkClient.Transport
+  nameWithType: NetworkClient.Transport
 - uid: Mirror.NetworkClient.UnregisterPrefab(GameObject)
   name: UnregisterPrefab(GameObject)
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_UnregisterPrefab_GameObject_
@@ -2862,6 +2865,19 @@ references:
   commentId: T:Mirror.NetworkConnection
   fullName: Mirror.NetworkConnection
   nameWithType: NetworkConnection
+- uid: Mirror.NetworkConnection.#ctor(Mirror.IConnection)
+  name: NetworkConnection(IConnection)
+  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection__ctor_Mirror_IConnection_
+  commentId: M:Mirror.NetworkConnection.#ctor(Mirror.IConnection)
+  fullName: Mirror.NetworkConnection.NetworkConnection(Mirror.IConnection)
+  nameWithType: NetworkConnection.NetworkConnection(IConnection)
+- uid: Mirror.NetworkConnection.#ctor*
+  name: NetworkConnection
+  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection__ctor_
+  commentId: Overload:Mirror.NetworkConnection.#ctor
+  isSpec: "True"
+  fullName: Mirror.NetworkConnection.NetworkConnection
+  nameWithType: NetworkConnection.NetworkConnection
 - uid: Mirror.NetworkConnection.Address
   name: Address
   href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_Address
@@ -2900,12 +2916,12 @@ references:
   commentId: F:Mirror.NetworkConnection.clientOwnedObjects
   fullName: Mirror.NetworkConnection.clientOwnedObjects
   nameWithType: NetworkConnection.clientOwnedObjects
-- uid: Mirror.NetworkConnection.connectionId
-  name: connectionId
-  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_connectionId
-  commentId: F:Mirror.NetworkConnection.connectionId
-  fullName: Mirror.NetworkConnection.connectionId
-  nameWithType: NetworkConnection.connectionId
+- uid: Mirror.NetworkConnection.connection
+  name: connection
+  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_connection
+  commentId: F:Mirror.NetworkConnection.connection
+  fullName: Mirror.NetworkConnection.connection
+  nameWithType: NetworkConnection.connection
 - uid: Mirror.NetworkConnection.Disconnect
   name: Disconnect()
   href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_Disconnect
@@ -3054,6 +3070,22 @@ references:
   fullName.vb: Mirror.NetworkConnection.Send(Of T)(IEnumerable(Of Mirror.NetworkConnection), T, System.Int32)
   nameWithType: NetworkConnection.Send<T>(IEnumerable<NetworkConnection>, T, Int32)
   nameWithType.vb: NetworkConnection.Send(Of T)(IEnumerable(Of NetworkConnection), T, Int32)
+- uid: Mirror.NetworkConnection.SendAsync*
+  name: SendAsync
+  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_SendAsync_
+  commentId: Overload:Mirror.NetworkConnection.SendAsync
+  isSpec: "True"
+  fullName: Mirror.NetworkConnection.SendAsync
+  nameWithType: NetworkConnection.SendAsync
+- uid: Mirror.NetworkConnection.SendAsync``1(``0,System.Int32)
+  name: SendAsync<T>(T, Int32)
+  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_SendAsync__1___0_System_Int32_
+  commentId: M:Mirror.NetworkConnection.SendAsync``1(``0,System.Int32)
+  name.vb: SendAsync(Of T)(T, Int32)
+  fullName: Mirror.NetworkConnection.SendAsync<T>(T, System.Int32)
+  fullName.vb: Mirror.NetworkConnection.SendAsync(Of T)(T, System.Int32)
+  nameWithType: NetworkConnection.SendAsync<T>(T, Int32)
+  nameWithType.vb: NetworkConnection.SendAsync(Of T)(T, Int32)
 - uid: Mirror.NetworkConnection.ToString
   name: ToString()
   href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_ToString
@@ -3089,12 +3121,12 @@ references:
   commentId: T:Mirror.NetworkConnectionToClient
   fullName: Mirror.NetworkConnectionToClient
   nameWithType: NetworkConnectionToClient
-- uid: Mirror.NetworkConnectionToClient.#ctor(System.Int32)
-  name: NetworkConnectionToClient(Int32)
-  href: api/Mirror.NetworkConnectionToClient.html#Mirror_NetworkConnectionToClient__ctor_System_Int32_
-  commentId: M:Mirror.NetworkConnectionToClient.#ctor(System.Int32)
-  fullName: Mirror.NetworkConnectionToClient.NetworkConnectionToClient(System.Int32)
-  nameWithType: NetworkConnectionToClient.NetworkConnectionToClient(Int32)
+- uid: Mirror.NetworkConnectionToClient.#ctor(Mirror.IConnection)
+  name: NetworkConnectionToClient(IConnection)
+  href: api/Mirror.NetworkConnectionToClient.html#Mirror_NetworkConnectionToClient__ctor_Mirror_IConnection_
+  commentId: M:Mirror.NetworkConnectionToClient.#ctor(Mirror.IConnection)
+  fullName: Mirror.NetworkConnectionToClient.NetworkConnectionToClient(Mirror.IConnection)
+  nameWithType: NetworkConnectionToClient.NetworkConnectionToClient(IConnection)
 - uid: Mirror.NetworkConnectionToClient.#ctor*
   name: NetworkConnectionToClient
   href: api/Mirror.NetworkConnectionToClient.html#Mirror_NetworkConnectionToClient__ctor_
@@ -3102,64 +3134,25 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkConnectionToClient.NetworkConnectionToClient
   nameWithType: NetworkConnectionToClient.NetworkConnectionToClient
-- uid: Mirror.NetworkConnectionToClient.Address
-  name: Address
-  href: api/Mirror.NetworkConnectionToClient.html#Mirror_NetworkConnectionToClient_Address
-  commentId: P:Mirror.NetworkConnectionToClient.Address
-  fullName: Mirror.NetworkConnectionToClient.Address
-  nameWithType: NetworkConnectionToClient.Address
-- uid: Mirror.NetworkConnectionToClient.Address*
-  name: Address
-  href: api/Mirror.NetworkConnectionToClient.html#Mirror_NetworkConnectionToClient_Address_
-  commentId: Overload:Mirror.NetworkConnectionToClient.Address
-  isSpec: "True"
-  fullName: Mirror.NetworkConnectionToClient.Address
-  nameWithType: NetworkConnectionToClient.Address
-- uid: Mirror.NetworkConnectionToClient.Disconnect
-  name: Disconnect()
-  href: api/Mirror.NetworkConnectionToClient.html#Mirror_NetworkConnectionToClient_Disconnect
-  commentId: M:Mirror.NetworkConnectionToClient.Disconnect
-  fullName: Mirror.NetworkConnectionToClient.Disconnect()
-  nameWithType: NetworkConnectionToClient.Disconnect()
-- uid: Mirror.NetworkConnectionToClient.Disconnect*
-  name: Disconnect
-  href: api/Mirror.NetworkConnectionToClient.html#Mirror_NetworkConnectionToClient_Disconnect_
-  commentId: Overload:Mirror.NetworkConnectionToClient.Disconnect
-  isSpec: "True"
-  fullName: Mirror.NetworkConnectionToClient.Disconnect
-  nameWithType: NetworkConnectionToClient.Disconnect
 - uid: Mirror.NetworkConnectionToServer
   name: NetworkConnectionToServer
   href: api/Mirror.NetworkConnectionToServer.html
   commentId: T:Mirror.NetworkConnectionToServer
   fullName: Mirror.NetworkConnectionToServer
   nameWithType: NetworkConnectionToServer
-- uid: Mirror.NetworkConnectionToServer.Address
-  name: Address
-  href: api/Mirror.NetworkConnectionToServer.html#Mirror_NetworkConnectionToServer_Address
-  commentId: P:Mirror.NetworkConnectionToServer.Address
-  fullName: Mirror.NetworkConnectionToServer.Address
-  nameWithType: NetworkConnectionToServer.Address
-- uid: Mirror.NetworkConnectionToServer.Address*
-  name: Address
-  href: api/Mirror.NetworkConnectionToServer.html#Mirror_NetworkConnectionToServer_Address_
-  commentId: Overload:Mirror.NetworkConnectionToServer.Address
+- uid: Mirror.NetworkConnectionToServer.#ctor(Mirror.IConnection)
+  name: NetworkConnectionToServer(IConnection)
+  href: api/Mirror.NetworkConnectionToServer.html#Mirror_NetworkConnectionToServer__ctor_Mirror_IConnection_
+  commentId: M:Mirror.NetworkConnectionToServer.#ctor(Mirror.IConnection)
+  fullName: Mirror.NetworkConnectionToServer.NetworkConnectionToServer(Mirror.IConnection)
+  nameWithType: NetworkConnectionToServer.NetworkConnectionToServer(IConnection)
+- uid: Mirror.NetworkConnectionToServer.#ctor*
+  name: NetworkConnectionToServer
+  href: api/Mirror.NetworkConnectionToServer.html#Mirror_NetworkConnectionToServer__ctor_
+  commentId: Overload:Mirror.NetworkConnectionToServer.#ctor
   isSpec: "True"
-  fullName: Mirror.NetworkConnectionToServer.Address
-  nameWithType: NetworkConnectionToServer.Address
-- uid: Mirror.NetworkConnectionToServer.Disconnect
-  name: Disconnect()
-  href: api/Mirror.NetworkConnectionToServer.html#Mirror_NetworkConnectionToServer_Disconnect
-  commentId: M:Mirror.NetworkConnectionToServer.Disconnect
-  fullName: Mirror.NetworkConnectionToServer.Disconnect()
-  nameWithType: NetworkConnectionToServer.Disconnect()
-- uid: Mirror.NetworkConnectionToServer.Disconnect*
-  name: Disconnect
-  href: api/Mirror.NetworkConnectionToServer.html#Mirror_NetworkConnectionToServer_Disconnect_
-  commentId: Overload:Mirror.NetworkConnectionToServer.Disconnect
-  isSpec: "True"
-  fullName: Mirror.NetworkConnectionToServer.Disconnect
-  nameWithType: NetworkConnectionToServer.Disconnect
+  fullName: Mirror.NetworkConnectionToServer.NetworkConnectionToServer
+  nameWithType: NetworkConnectionToServer.NetworkConnectionToServer
 - uid: Mirror.NetworkDiagnostics
   name: NetworkDiagnostics
   href: api/Mirror.NetworkDiagnostics.html
@@ -3551,12 +3544,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.IsHeadless
   nameWithType: NetworkManager.IsHeadless
-- uid: Mirror.NetworkManager.isNetworkActive
-  name: isNetworkActive
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_isNetworkActive
-  commentId: F:Mirror.NetworkManager.isNetworkActive
-  fullName: Mirror.NetworkManager.isNetworkActive
-  nameWithType: NetworkManager.isNetworkActive
+- uid: Mirror.NetworkManager.IsNetworkActive
+  name: IsNetworkActive
+  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_IsNetworkActive
+  commentId: P:Mirror.NetworkManager.IsNetworkActive
+  fullName: Mirror.NetworkManager.IsNetworkActive
+  nameWithType: NetworkManager.IsNetworkActive
+- uid: Mirror.NetworkManager.IsNetworkActive*
+  name: IsNetworkActive
+  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_IsNetworkActive_
+  commentId: Overload:Mirror.NetworkManager.IsNetworkActive
+  isSpec: "True"
+  fullName: Mirror.NetworkManager.IsNetworkActive
+  nameWithType: NetworkManager.IsNetworkActive
 - uid: Mirror.NetworkManager.LateUpdate
   name: LateUpdate()
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_LateUpdate
@@ -3576,19 +3576,6 @@ references:
   commentId: F:Mirror.NetworkManager.loadingSceneAsync
   fullName: Mirror.NetworkManager.loadingSceneAsync
   nameWithType: NetworkManager.loadingSceneAsync
-- uid: Mirror.NetworkManager.Mode
-  name: Mode
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_Mode
-  commentId: P:Mirror.NetworkManager.Mode
-  fullName: Mirror.NetworkManager.Mode
-  nameWithType: NetworkManager.Mode
-- uid: Mirror.NetworkManager.Mode*
-  name: Mode
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_Mode_
-  commentId: Overload:Mirror.NetworkManager.Mode
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.Mode
-  nameWithType: NetworkManager.Mode
 - uid: Mirror.NetworkManager.networkSceneName
   name: networkSceneName
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_networkSceneName
@@ -5013,38 +5000,38 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkServer.DestroyPlayerForConnection
   nameWithType: NetworkServer.DestroyPlayerForConnection
-- uid: Mirror.NetworkServer.DisconnectAll
-  name: DisconnectAll()
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_DisconnectAll
-  commentId: M:Mirror.NetworkServer.DisconnectAll
-  fullName: Mirror.NetworkServer.DisconnectAll()
-  nameWithType: NetworkServer.DisconnectAll()
-- uid: Mirror.NetworkServer.DisconnectAll*
-  name: DisconnectAll
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_DisconnectAll_
-  commentId: Overload:Mirror.NetworkServer.DisconnectAll
+- uid: Mirror.NetworkServer.Disconnect
+  name: Disconnect()
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Disconnect
+  commentId: M:Mirror.NetworkServer.Disconnect
+  fullName: Mirror.NetworkServer.Disconnect()
+  nameWithType: NetworkServer.Disconnect()
+- uid: Mirror.NetworkServer.Disconnect*
+  name: Disconnect
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Disconnect_
+  commentId: Overload:Mirror.NetworkServer.Disconnect
   isSpec: "True"
-  fullName: Mirror.NetworkServer.DisconnectAll
-  nameWithType: NetworkServer.DisconnectAll
+  fullName: Mirror.NetworkServer.Disconnect
+  nameWithType: NetworkServer.Disconnect
 - uid: Mirror.NetworkServer.Disconnected
   name: Disconnected
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Disconnected
   commentId: F:Mirror.NetworkServer.Disconnected
   fullName: Mirror.NetworkServer.Disconnected
   nameWithType: NetworkServer.Disconnected
-- uid: Mirror.NetworkServer.Listen
-  name: Listen()
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Listen
-  commentId: M:Mirror.NetworkServer.Listen
-  fullName: Mirror.NetworkServer.Listen()
-  nameWithType: NetworkServer.Listen()
-- uid: Mirror.NetworkServer.Listen*
-  name: Listen
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Listen_
-  commentId: Overload:Mirror.NetworkServer.Listen
+- uid: Mirror.NetworkServer.ListenAsync
+  name: ListenAsync()
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_ListenAsync
+  commentId: M:Mirror.NetworkServer.ListenAsync
+  fullName: Mirror.NetworkServer.ListenAsync()
+  nameWithType: NetworkServer.ListenAsync()
+- uid: Mirror.NetworkServer.ListenAsync*
+  name: ListenAsync
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_ListenAsync_
+  commentId: Overload:Mirror.NetworkServer.ListenAsync
   isSpec: "True"
-  fullName: Mirror.NetworkServer.Listen
-  nameWithType: NetworkServer.Listen
+  fullName: Mirror.NetworkServer.ListenAsync
+  nameWithType: NetworkServer.ListenAsync
 - uid: Mirror.NetworkServer.Listening
   name: Listening
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Listening
@@ -5115,12 +5102,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkServer.NumPlayers
   nameWithType: NetworkServer.NumPlayers
-- uid: Mirror.NetworkServer.RemoveConnection(System.Int32)
-  name: RemoveConnection(Int32)
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_RemoveConnection_System_Int32_
-  commentId: M:Mirror.NetworkServer.RemoveConnection(System.Int32)
-  fullName: Mirror.NetworkServer.RemoveConnection(System.Int32)
-  nameWithType: NetworkServer.RemoveConnection(Int32)
+- uid: Mirror.NetworkServer.RemoveConnection(Mirror.NetworkConnectionToClient)
+  name: RemoveConnection(NetworkConnectionToClient)
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_RemoveConnection_Mirror_NetworkConnectionToClient_
+  commentId: M:Mirror.NetworkServer.RemoveConnection(Mirror.NetworkConnectionToClient)
+  fullName: Mirror.NetworkServer.RemoveConnection(Mirror.NetworkConnectionToClient)
+  nameWithType: NetworkServer.RemoveConnection(NetworkConnectionToClient)
 - uid: Mirror.NetworkServer.RemoveConnection*
   name: RemoveConnection
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_RemoveConnection_
@@ -5243,19 +5230,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkServer.SetClientReady
   nameWithType: NetworkServer.SetClientReady
-- uid: Mirror.NetworkServer.Shutdown
-  name: Shutdown()
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Shutdown
-  commentId: M:Mirror.NetworkServer.Shutdown
-  fullName: Mirror.NetworkServer.Shutdown()
-  nameWithType: NetworkServer.Shutdown()
-- uid: Mirror.NetworkServer.Shutdown*
-  name: Shutdown
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Shutdown_
-  commentId: Overload:Mirror.NetworkServer.Shutdown
-  isSpec: "True"
-  fullName: Mirror.NetworkServer.Shutdown
-  nameWithType: NetworkServer.Shutdown
 - uid: Mirror.NetworkServer.Spawn(GameObject,GameObject)
   name: Spawn(GameObject, GameObject)
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Spawn_GameObject_GameObject_
@@ -5318,6 +5292,12 @@ references:
   commentId: F:Mirror.NetworkServer.Time
   fullName: Mirror.NetworkServer.Time
   nameWithType: NetworkServer.Time
+- uid: Mirror.NetworkServer.transport
+  name: transport
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_transport
+  commentId: F:Mirror.NetworkServer.transport
+  fullName: Mirror.NetworkServer.transport
+  nameWithType: NetworkServer.transport
 - uid: Mirror.NetworkServer.UnSpawn(GameObject)
   name: UnSpawn(GameObject)
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_UnSpawn_GameObject_
@@ -9746,12 +9726,6 @@ references:
   commentId: T:Mirror.Transport
   fullName: Mirror.Transport
   nameWithType: Transport
-- uid: Mirror.Transport.activeTransport
-  name: activeTransport
-  href: api/Mirror.Transport.html#Mirror_Transport_activeTransport
-  commentId: F:Mirror.Transport.activeTransport
-  fullName: Mirror.Transport.activeTransport
-  nameWithType: Transport.activeTransport
 - uid: Mirror.Transport.Available
   name: Available()
   href: api/Mirror.Transport.html#Mirror_Transport_Available
