@@ -1067,6 +1067,134 @@ references:
   commentId: T:Mirror.INetworkConnection
   fullName: Mirror.INetworkConnection
   nameWithType: INetworkConnection
+- uid: Mirror.INetworkConnection.ClearHandlers
+  name: ClearHandlers()
+  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_ClearHandlers
+  commentId: M:Mirror.INetworkConnection.ClearHandlers
+  fullName: Mirror.INetworkConnection.ClearHandlers()
+  nameWithType: INetworkConnection.ClearHandlers()
+- uid: Mirror.INetworkConnection.ClearHandlers*
+  name: ClearHandlers
+  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_ClearHandlers_
+  commentId: Overload:Mirror.INetworkConnection.ClearHandlers
+  isSpec: "True"
+  fullName: Mirror.INetworkConnection.ClearHandlers
+  nameWithType: INetworkConnection.ClearHandlers
+- uid: Mirror.INetworkConnection.Disconnect
+  name: Disconnect()
+  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_Disconnect
+  commentId: M:Mirror.INetworkConnection.Disconnect
+  fullName: Mirror.INetworkConnection.Disconnect()
+  nameWithType: INetworkConnection.Disconnect()
+- uid: Mirror.INetworkConnection.Disconnect*
+  name: Disconnect
+  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_Disconnect_
+  commentId: Overload:Mirror.INetworkConnection.Disconnect
+  isSpec: "True"
+  fullName: Mirror.INetworkConnection.Disconnect
+  nameWithType: INetworkConnection.Disconnect
+- uid: Mirror.INetworkConnection.InvokeHandler*
+  name: InvokeHandler
+  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_InvokeHandler_
+  commentId: Overload:Mirror.INetworkConnection.InvokeHandler
+  isSpec: "True"
+  fullName: Mirror.INetworkConnection.InvokeHandler
+  nameWithType: INetworkConnection.InvokeHandler
+- uid: Mirror.INetworkConnection.InvokeHandler``1(``0,System.Int32)
+  name: InvokeHandler<T>(T, Int32)
+  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_InvokeHandler__1___0_System_Int32_
+  commentId: M:Mirror.INetworkConnection.InvokeHandler``1(``0,System.Int32)
+  name.vb: InvokeHandler(Of T)(T, Int32)
+  fullName: Mirror.INetworkConnection.InvokeHandler<T>(T, System.Int32)
+  fullName.vb: Mirror.INetworkConnection.InvokeHandler(Of T)(T, System.Int32)
+  nameWithType: INetworkConnection.InvokeHandler<T>(T, Int32)
+  nameWithType.vb: INetworkConnection.InvokeHandler(Of T)(T, Int32)
+- uid: Mirror.INetworkConnection.RegisterHandler*
+  name: RegisterHandler
+  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_RegisterHandler_
+  commentId: Overload:Mirror.INetworkConnection.RegisterHandler
+  isSpec: "True"
+  fullName: Mirror.INetworkConnection.RegisterHandler
+  nameWithType: INetworkConnection.RegisterHandler
+- uid: Mirror.INetworkConnection.RegisterHandler``1(Action{``0},System.Boolean)
+  name: RegisterHandler<T>(Action<T>, Boolean)
+  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_RegisterHandler__1_Action___0__System_Boolean_
+  commentId: M:Mirror.INetworkConnection.RegisterHandler``1(Action{``0},System.Boolean)
+  name.vb: RegisterHandler(Of T)(Action(Of T), Boolean)
+  fullName: Mirror.INetworkConnection.RegisterHandler<T>(Action<T>, System.Boolean)
+  fullName.vb: Mirror.INetworkConnection.RegisterHandler(Of T)(Action(Of T), System.Boolean)
+  nameWithType: INetworkConnection.RegisterHandler<T>(Action<T>, Boolean)
+  nameWithType.vb: INetworkConnection.RegisterHandler(Of T)(Action(Of T), Boolean)
+- uid: Mirror.INetworkConnection.RegisterHandler``2(Action{``0,``1},System.Boolean)
+  name: RegisterHandler<C, T>(Action<C, T>, Boolean)
+  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_RegisterHandler__2_Action___0___1__System_Boolean_
+  commentId: M:Mirror.INetworkConnection.RegisterHandler``2(Action{``0,``1},System.Boolean)
+  name.vb: RegisterHandler(Of C, T)(Action(Of C, T), Boolean)
+  fullName: Mirror.INetworkConnection.RegisterHandler<C, T>(Action<C, T>, System.Boolean)
+  fullName.vb: Mirror.INetworkConnection.RegisterHandler(Of C, T)(Action(Of C, T), System.Boolean)
+  nameWithType: INetworkConnection.RegisterHandler<C, T>(Action<C, T>, Boolean)
+  nameWithType.vb: INetworkConnection.RegisterHandler(Of C, T)(Action(Of C, T), Boolean)
+- uid: Mirror.INetworkConnection.Send*
+  name: Send
+  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_Send_
+  commentId: Overload:Mirror.INetworkConnection.Send
+  isSpec: "True"
+  fullName: Mirror.INetworkConnection.Send
+  nameWithType: INetworkConnection.Send
+- uid: Mirror.INetworkConnection.Send``1(``0,System.Int32)
+  name: Send<T>(T, Int32)
+  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_Send__1___0_System_Int32_
+  commentId: M:Mirror.INetworkConnection.Send``1(``0,System.Int32)
+  name.vb: Send(Of T)(T, Int32)
+  fullName: Mirror.INetworkConnection.Send<T>(T, System.Int32)
+  fullName.vb: Mirror.INetworkConnection.Send(Of T)(T, System.Int32)
+  nameWithType: INetworkConnection.Send<T>(T, Int32)
+  nameWithType.vb: INetworkConnection.Send(Of T)(T, Int32)
+- uid: Mirror.INetworkConnection.SendAsync*
+  name: SendAsync
+  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_SendAsync_
+  commentId: Overload:Mirror.INetworkConnection.SendAsync
+  isSpec: "True"
+  fullName: Mirror.INetworkConnection.SendAsync
+  nameWithType: INetworkConnection.SendAsync
+- uid: Mirror.INetworkConnection.SendAsync``1(``0,System.Int32)
+  name: SendAsync<T>(T, Int32)
+  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_SendAsync__1___0_System_Int32_
+  commentId: M:Mirror.INetworkConnection.SendAsync``1(``0,System.Int32)
+  name.vb: SendAsync(Of T)(T, Int32)
+  fullName: Mirror.INetworkConnection.SendAsync<T>(T, System.Int32)
+  fullName.vb: Mirror.INetworkConnection.SendAsync(Of T)(T, System.Int32)
+  nameWithType: INetworkConnection.SendAsync<T>(T, Int32)
+  nameWithType.vb: INetworkConnection.SendAsync(Of T)(T, Int32)
+- uid: Mirror.INetworkConnection.ToString
+  name: ToString()
+  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_ToString
+  commentId: M:Mirror.INetworkConnection.ToString
+  fullName: Mirror.INetworkConnection.ToString()
+  nameWithType: INetworkConnection.ToString()
+- uid: Mirror.INetworkConnection.ToString*
+  name: ToString
+  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_ToString_
+  commentId: Overload:Mirror.INetworkConnection.ToString
+  isSpec: "True"
+  fullName: Mirror.INetworkConnection.ToString
+  nameWithType: INetworkConnection.ToString
+- uid: Mirror.INetworkConnection.UnregisterHandler*
+  name: UnregisterHandler
+  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_UnregisterHandler_
+  commentId: Overload:Mirror.INetworkConnection.UnregisterHandler
+  isSpec: "True"
+  fullName: Mirror.INetworkConnection.UnregisterHandler
+  nameWithType: INetworkConnection.UnregisterHandler
+- uid: Mirror.INetworkConnection.UnregisterHandler``1
+  name: UnregisterHandler<T>()
+  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_UnregisterHandler__1
+  commentId: M:Mirror.INetworkConnection.UnregisterHandler``1
+  name.vb: UnregisterHandler(Of T)()
+  fullName: Mirror.INetworkConnection.UnregisterHandler<T>()
+  fullName.vb: Mirror.INetworkConnection.UnregisterHandler(Of T)()
+  nameWithType: INetworkConnection.UnregisterHandler<T>()
+  nameWithType.vb: INetworkConnection.UnregisterHandler(Of T)()
 - uid: Mirror.InvalidMessageException
   name: InvalidMessageException
   href: api/Mirror.InvalidMessageException.html
