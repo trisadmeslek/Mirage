@@ -2771,38 +2771,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkConnection.Disconnect
   nameWithType: NetworkConnection.Disconnect
-- uid: Mirror.NetworkConnection.Dispose
-  name: Dispose()
-  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_Dispose
-  commentId: M:Mirror.NetworkConnection.Dispose
-  fullName: Mirror.NetworkConnection.Dispose()
-  nameWithType: NetworkConnection.Dispose()
-- uid: Mirror.NetworkConnection.Dispose(System.Boolean)
-  name: Dispose(Boolean)
-  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_Dispose_System_Boolean_
-  commentId: M:Mirror.NetworkConnection.Dispose(System.Boolean)
-  fullName: Mirror.NetworkConnection.Dispose(System.Boolean)
-  nameWithType: NetworkConnection.Dispose(Boolean)
-- uid: Mirror.NetworkConnection.Dispose*
-  name: Dispose
-  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_Dispose_
-  commentId: Overload:Mirror.NetworkConnection.Dispose
-  isSpec: "True"
-  fullName: Mirror.NetworkConnection.Dispose
-  nameWithType: NetworkConnection.Dispose
-- uid: Mirror.NetworkConnection.Finalize
-  name: Finalize()
-  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_Finalize
-  commentId: M:Mirror.NetworkConnection.Finalize
-  fullName: Mirror.NetworkConnection.Finalize()
-  nameWithType: NetworkConnection.Finalize()
-- uid: Mirror.NetworkConnection.Finalize*
-  name: Finalize
-  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_Finalize_
-  commentId: Overload:Mirror.NetworkConnection.Finalize
-  isSpec: "True"
-  fullName: Mirror.NetworkConnection.Finalize
-  nameWithType: NetworkConnection.Finalize
 - uid: Mirror.NetworkConnection.Identity
   name: Identity
   href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_Identity
