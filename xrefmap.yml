@@ -1093,22 +1093,6 @@ references:
   isSpec: "True"
   fullName: Mirror.INetworkConnection.Disconnect
   nameWithType: INetworkConnection.Disconnect
-- uid: Mirror.INetworkConnection.InvokeHandler*
-  name: InvokeHandler
-  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_InvokeHandler_
-  commentId: Overload:Mirror.INetworkConnection.InvokeHandler
-  isSpec: "True"
-  fullName: Mirror.INetworkConnection.InvokeHandler
-  nameWithType: INetworkConnection.InvokeHandler
-- uid: Mirror.INetworkConnection.InvokeHandler``1(``0,System.Int32)
-  name: InvokeHandler<T>(T, Int32)
-  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_InvokeHandler__1___0_System_Int32_
-  commentId: M:Mirror.INetworkConnection.InvokeHandler``1(``0,System.Int32)
-  name.vb: InvokeHandler(Of T)(T, Int32)
-  fullName: Mirror.INetworkConnection.InvokeHandler<T>(T, System.Int32)
-  fullName.vb: Mirror.INetworkConnection.InvokeHandler(Of T)(T, System.Int32)
-  nameWithType: INetworkConnection.InvokeHandler<T>(T, Int32)
-  nameWithType.vb: INetworkConnection.InvokeHandler(Of T)(T, Int32)
 - uid: Mirror.INetworkConnection.RegisterHandler*
   name: RegisterHandler
   href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_RegisterHandler_
@@ -2832,22 +2816,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkConnection.Identity
   nameWithType: NetworkConnection.Identity
-- uid: Mirror.NetworkConnection.InvokeHandler*
-  name: InvokeHandler
-  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_InvokeHandler_
-  commentId: Overload:Mirror.NetworkConnection.InvokeHandler
-  isSpec: "True"
-  fullName: Mirror.NetworkConnection.InvokeHandler
-  nameWithType: NetworkConnection.InvokeHandler
-- uid: Mirror.NetworkConnection.InvokeHandler``1(``0,System.Int32)
-  name: InvokeHandler<T>(T, Int32)
-  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_InvokeHandler__1___0_System_Int32_
-  commentId: M:Mirror.NetworkConnection.InvokeHandler``1(``0,System.Int32)
-  name.vb: InvokeHandler(Of T)(T, Int32)
-  fullName: Mirror.NetworkConnection.InvokeHandler<T>(T, System.Int32)
-  fullName.vb: Mirror.NetworkConnection.InvokeHandler(Of T)(T, System.Int32)
-  nameWithType: NetworkConnection.InvokeHandler<T>(T, Int32)
-  nameWithType.vb: NetworkConnection.InvokeHandler(Of T)(T, Int32)
 - uid: Mirror.NetworkConnection.isAuthenticated
   name: isAuthenticated
   href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_isAuthenticated
