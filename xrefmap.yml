@@ -1061,6 +1061,12 @@ references:
   isSpec: "True"
   fullName: Mirror.IMessageBase.Serialize
   nameWithType: IMessageBase.Serialize
+- uid: Mirror.INetworkConnection
+  name: INetworkConnection
+  href: api/Mirror.INetworkConnection.html
+  commentId: T:Mirror.INetworkConnection
+  fullName: Mirror.INetworkConnection
+  nameWithType: INetworkConnection
 - uid: Mirror.InvalidMessageException
   name: InvalidMessageException
   href: api/Mirror.InvalidMessageException.html
