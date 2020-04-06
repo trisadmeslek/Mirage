@@ -3319,19 +3319,6 @@ references:
   commentId: F:Mirror.NetworkManager.dontDestroyOnLoad
   fullName: Mirror.NetworkManager.dontDestroyOnLoad
   nameWithType: NetworkManager.dontDestroyOnLoad
-- uid: Mirror.NetworkManager.IsHeadless
-  name: IsHeadless
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_IsHeadless
-  commentId: P:Mirror.NetworkManager.IsHeadless
-  fullName: Mirror.NetworkManager.IsHeadless
-  nameWithType: NetworkManager.IsHeadless
-- uid: Mirror.NetworkManager.IsHeadless*
-  name: IsHeadless
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_IsHeadless_
-  commentId: Overload:Mirror.NetworkManager.IsHeadless
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.IsHeadless
-  nameWithType: NetworkManager.IsHeadless
 - uid: Mirror.NetworkManager.IsNetworkActive
   name: IsNetworkActive
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_IsNetworkActive
