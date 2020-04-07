@@ -1585,12 +1585,12 @@ references:
   commentId: E:Mirror.NetworkAuthenticator.OnClientAuthenticated
   fullName: Mirror.NetworkAuthenticator.OnClientAuthenticated
   nameWithType: NetworkAuthenticator.OnClientAuthenticated
-- uid: Mirror.NetworkAuthenticator.OnServerAuthenticate(Mirror.NetworkConnectionToClient)
-  name: OnServerAuthenticate(NetworkConnectionToClient)
-  href: api/Mirror.NetworkAuthenticator.html#Mirror_NetworkAuthenticator_OnServerAuthenticate_Mirror_NetworkConnectionToClient_
-  commentId: M:Mirror.NetworkAuthenticator.OnServerAuthenticate(Mirror.NetworkConnectionToClient)
-  fullName: Mirror.NetworkAuthenticator.OnServerAuthenticate(Mirror.NetworkConnectionToClient)
-  nameWithType: NetworkAuthenticator.OnServerAuthenticate(NetworkConnectionToClient)
+- uid: Mirror.NetworkAuthenticator.OnServerAuthenticate(Mirror.NetworkConnection)
+  name: OnServerAuthenticate(NetworkConnection)
+  href: api/Mirror.NetworkAuthenticator.html#Mirror_NetworkAuthenticator_OnServerAuthenticate_Mirror_NetworkConnection_
+  commentId: M:Mirror.NetworkAuthenticator.OnServerAuthenticate(Mirror.NetworkConnection)
+  fullName: Mirror.NetworkAuthenticator.OnServerAuthenticate(Mirror.NetworkConnection)
+  nameWithType: NetworkAuthenticator.OnServerAuthenticate(NetworkConnection)
 - uid: Mirror.NetworkAuthenticator.OnServerAuthenticate*
   name: OnServerAuthenticate
   href: api/Mirror.NetworkAuthenticator.html#Mirror_NetworkAuthenticator_OnServerAuthenticate_
@@ -2903,25 +2903,6 @@ references:
   fullName.vb: Mirror.NetworkConnection.UnregisterHandler(Of T)()
   nameWithType: NetworkConnection.UnregisterHandler<T>()
   nameWithType.vb: NetworkConnection.UnregisterHandler(Of T)()
-- uid: Mirror.NetworkConnectionToClient
-  name: NetworkConnectionToClient
-  href: api/Mirror.NetworkConnectionToClient.html
-  commentId: T:Mirror.NetworkConnectionToClient
-  fullName: Mirror.NetworkConnectionToClient
-  nameWithType: NetworkConnectionToClient
-- uid: Mirror.NetworkConnectionToClient.#ctor(Mirror.IConnection)
-  name: NetworkConnectionToClient(IConnection)
-  href: api/Mirror.NetworkConnectionToClient.html#Mirror_NetworkConnectionToClient__ctor_Mirror_IConnection_
-  commentId: M:Mirror.NetworkConnectionToClient.#ctor(Mirror.IConnection)
-  fullName: Mirror.NetworkConnectionToClient.NetworkConnectionToClient(Mirror.IConnection)
-  nameWithType: NetworkConnectionToClient.NetworkConnectionToClient(IConnection)
-- uid: Mirror.NetworkConnectionToClient.#ctor*
-  name: NetworkConnectionToClient
-  href: api/Mirror.NetworkConnectionToClient.html#Mirror_NetworkConnectionToClient__ctor_
-  commentId: Overload:Mirror.NetworkConnectionToClient.#ctor
-  isSpec: "True"
-  fullName: Mirror.NetworkConnectionToClient.NetworkConnectionToClient
-  nameWithType: NetworkConnectionToClient.NetworkConnectionToClient
 - uid: Mirror.NetworkConnectionToServer
   name: NetworkConnectionToServer
   href: api/Mirror.NetworkConnectionToServer.html
@@ -4706,12 +4687,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkServer.active
   nameWithType: NetworkServer.active
-- uid: Mirror.NetworkServer.AddConnection(Mirror.NetworkConnectionToClient)
-  name: AddConnection(NetworkConnectionToClient)
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_AddConnection_Mirror_NetworkConnectionToClient_
-  commentId: M:Mirror.NetworkServer.AddConnection(Mirror.NetworkConnectionToClient)
-  fullName: Mirror.NetworkServer.AddConnection(Mirror.NetworkConnectionToClient)
-  nameWithType: NetworkServer.AddConnection(NetworkConnectionToClient)
+- uid: Mirror.NetworkServer.AddConnection(Mirror.NetworkConnection)
+  name: AddConnection(NetworkConnection)
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_AddConnection_Mirror_NetworkConnection_
+  commentId: M:Mirror.NetworkServer.AddConnection(Mirror.NetworkConnection)
+  fullName: Mirror.NetworkServer.AddConnection(Mirror.NetworkConnection)
+  nameWithType: NetworkServer.AddConnection(NetworkConnection)
 - uid: Mirror.NetworkServer.AddConnection*
   name: AddConnection
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_AddConnection_
@@ -4890,12 +4871,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkServer.NumPlayers
   nameWithType: NetworkServer.NumPlayers
-- uid: Mirror.NetworkServer.RemoveConnection(Mirror.NetworkConnectionToClient)
-  name: RemoveConnection(NetworkConnectionToClient)
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_RemoveConnection_Mirror_NetworkConnectionToClient_
-  commentId: M:Mirror.NetworkServer.RemoveConnection(Mirror.NetworkConnectionToClient)
-  fullName: Mirror.NetworkServer.RemoveConnection(Mirror.NetworkConnectionToClient)
-  nameWithType: NetworkServer.RemoveConnection(NetworkConnectionToClient)
+- uid: Mirror.NetworkServer.RemoveConnection(Mirror.NetworkConnection)
+  name: RemoveConnection(NetworkConnection)
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_RemoveConnection_Mirror_NetworkConnection_
+  commentId: M:Mirror.NetworkServer.RemoveConnection(Mirror.NetworkConnection)
+  fullName: Mirror.NetworkServer.RemoveConnection(Mirror.NetworkConnection)
+  nameWithType: NetworkServer.RemoveConnection(NetworkConnection)
 - uid: Mirror.NetworkServer.RemoveConnection*
   name: RemoveConnection
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_RemoveConnection_
