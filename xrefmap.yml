@@ -1109,15 +1109,15 @@ references:
   fullName.vb: Mirror.INetworkConnection.RegisterHandler(Of T)(Action(Of T), System.Boolean)
   nameWithType: INetworkConnection.RegisterHandler<T>(Action<T>, Boolean)
   nameWithType.vb: INetworkConnection.RegisterHandler(Of T)(Action(Of T), Boolean)
-- uid: Mirror.INetworkConnection.RegisterHandler``2(Action{``0,``1},System.Boolean)
-  name: RegisterHandler<C, T>(Action<C, T>, Boolean)
-  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_RegisterHandler__2_Action___0___1__System_Boolean_
-  commentId: M:Mirror.INetworkConnection.RegisterHandler``2(Action{``0,``1},System.Boolean)
-  name.vb: RegisterHandler(Of C, T)(Action(Of C, T), Boolean)
-  fullName: Mirror.INetworkConnection.RegisterHandler<C, T>(Action<C, T>, System.Boolean)
-  fullName.vb: Mirror.INetworkConnection.RegisterHandler(Of C, T)(Action(Of C, T), System.Boolean)
-  nameWithType: INetworkConnection.RegisterHandler<C, T>(Action<C, T>, Boolean)
-  nameWithType.vb: INetworkConnection.RegisterHandler(Of C, T)(Action(Of C, T), Boolean)
+- uid: Mirror.INetworkConnection.RegisterHandler``1(Action{Mirror.NetworkConnection,``0},System.Boolean)
+  name: RegisterHandler<T>(Action<NetworkConnection, T>, Boolean)
+  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_RegisterHandler__1_Action_Mirror_NetworkConnection___0__System_Boolean_
+  commentId: M:Mirror.INetworkConnection.RegisterHandler``1(Action{Mirror.NetworkConnection,``0},System.Boolean)
+  name.vb: RegisterHandler(Of T)(Action(Of NetworkConnection, T), Boolean)
+  fullName: Mirror.INetworkConnection.RegisterHandler<T>(Action<Mirror.NetworkConnection, T>, System.Boolean)
+  fullName.vb: Mirror.INetworkConnection.RegisterHandler(Of T)(Action(Of Mirror.NetworkConnection, T), System.Boolean)
+  nameWithType: INetworkConnection.RegisterHandler<T>(Action<NetworkConnection, T>, Boolean)
+  nameWithType.vb: INetworkConnection.RegisterHandler(Of T)(Action(Of NetworkConnection, T), Boolean)
 - uid: Mirror.INetworkConnection.Send*
   name: Send
   href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_Send_
@@ -2824,15 +2824,15 @@ references:
   fullName.vb: Mirror.NetworkConnection.RegisterHandler(Of T)(Action(Of T), System.Boolean)
   nameWithType: NetworkConnection.RegisterHandler<T>(Action<T>, Boolean)
   nameWithType.vb: NetworkConnection.RegisterHandler(Of T)(Action(Of T), Boolean)
-- uid: Mirror.NetworkConnection.RegisterHandler``2(Action{``0,``1},System.Boolean)
-  name: RegisterHandler<C, T>(Action<C, T>, Boolean)
-  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_RegisterHandler__2_Action___0___1__System_Boolean_
-  commentId: M:Mirror.NetworkConnection.RegisterHandler``2(Action{``0,``1},System.Boolean)
-  name.vb: RegisterHandler(Of C, T)(Action(Of C, T), Boolean)
-  fullName: Mirror.NetworkConnection.RegisterHandler<C, T>(Action<C, T>, System.Boolean)
-  fullName.vb: Mirror.NetworkConnection.RegisterHandler(Of C, T)(Action(Of C, T), System.Boolean)
-  nameWithType: NetworkConnection.RegisterHandler<C, T>(Action<C, T>, Boolean)
-  nameWithType.vb: NetworkConnection.RegisterHandler(Of C, T)(Action(Of C, T), Boolean)
+- uid: Mirror.NetworkConnection.RegisterHandler``1(Action{Mirror.NetworkConnection,``0},System.Boolean)
+  name: RegisterHandler<T>(Action<NetworkConnection, T>, Boolean)
+  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_RegisterHandler__1_Action_Mirror_NetworkConnection___0__System_Boolean_
+  commentId: M:Mirror.NetworkConnection.RegisterHandler``1(Action{Mirror.NetworkConnection,``0},System.Boolean)
+  name.vb: RegisterHandler(Of T)(Action(Of NetworkConnection, T), Boolean)
+  fullName: Mirror.NetworkConnection.RegisterHandler<T>(Action<Mirror.NetworkConnection, T>, System.Boolean)
+  fullName.vb: Mirror.NetworkConnection.RegisterHandler(Of T)(Action(Of Mirror.NetworkConnection, T), System.Boolean)
+  nameWithType: NetworkConnection.RegisterHandler<T>(Action<NetworkConnection, T>, Boolean)
+  nameWithType.vb: NetworkConnection.RegisterHandler(Of T)(Action(Of NetworkConnection, T), Boolean)
 - uid: Mirror.NetworkConnection.Send*
   name: Send
   href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_Send_
