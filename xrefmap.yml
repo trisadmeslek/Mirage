@@ -2752,12 +2752,6 @@ references:
   commentId: F:Mirror.NetworkConnection.clientOwnedObjects
   fullName: Mirror.NetworkConnection.clientOwnedObjects
   nameWithType: NetworkConnection.clientOwnedObjects
-- uid: Mirror.NetworkConnection.connection
-  name: connection
-  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_connection
-  commentId: F:Mirror.NetworkConnection.connection
-  fullName: Mirror.NetworkConnection.connection
-  nameWithType: NetworkConnection.connection
 - uid: Mirror.NetworkConnection.Disconnect
   name: Disconnect()
   href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_Disconnect
