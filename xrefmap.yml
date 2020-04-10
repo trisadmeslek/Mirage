@@ -2784,12 +2784,6 @@ references:
   commentId: F:Mirror.NetworkConnection.isReady
   fullName: Mirror.NetworkConnection.isReady
   nameWithType: NetworkConnection.isReady
-- uid: Mirror.NetworkConnection.lastMessageTime
-  name: lastMessageTime
-  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_lastMessageTime
-  commentId: F:Mirror.NetworkConnection.lastMessageTime
-  fullName: Mirror.NetworkConnection.lastMessageTime
-  nameWithType: NetworkConnection.lastMessageTime
 - uid: Mirror.NetworkConnection.logNetworkMessages
   name: logNetworkMessages
   href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_logNetworkMessages
