@@ -2823,12 +2823,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkConnection.Identity
   nameWithType: NetworkConnection.Identity
-- uid: Mirror.NetworkConnection.isReady
-  name: isReady
-  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_isReady
-  commentId: F:Mirror.NetworkConnection.isReady
-  fullName: Mirror.NetworkConnection.isReady
-  nameWithType: NetworkConnection.isReady
+- uid: Mirror.NetworkConnection.IsReady
+  name: IsReady
+  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_IsReady
+  commentId: P:Mirror.NetworkConnection.IsReady
+  fullName: Mirror.NetworkConnection.IsReady
+  nameWithType: NetworkConnection.IsReady
+- uid: Mirror.NetworkConnection.IsReady*
+  name: IsReady
+  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_IsReady_
+  commentId: Overload:Mirror.NetworkConnection.IsReady
+  isSpec: "True"
+  fullName: Mirror.NetworkConnection.IsReady
+  nameWithType: NetworkConnection.IsReady
 - uid: Mirror.NetworkConnection.RegisterHandler*
   name: RegisterHandler
   href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_RegisterHandler_
