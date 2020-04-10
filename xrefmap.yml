@@ -1100,24 +1100,24 @@ references:
   isSpec: "True"
   fullName: Mirror.INetworkConnection.RegisterHandler
   nameWithType: INetworkConnection.RegisterHandler
-- uid: Mirror.INetworkConnection.RegisterHandler``1(Action{``0},System.Boolean)
-  name: RegisterHandler<T>(Action<T>, Boolean)
-  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_RegisterHandler__1_Action___0__System_Boolean_
-  commentId: M:Mirror.INetworkConnection.RegisterHandler``1(Action{``0},System.Boolean)
-  name.vb: RegisterHandler(Of T)(Action(Of T), Boolean)
-  fullName: Mirror.INetworkConnection.RegisterHandler<T>(Action<T>, System.Boolean)
-  fullName.vb: Mirror.INetworkConnection.RegisterHandler(Of T)(Action(Of T), System.Boolean)
-  nameWithType: INetworkConnection.RegisterHandler<T>(Action<T>, Boolean)
-  nameWithType.vb: INetworkConnection.RegisterHandler(Of T)(Action(Of T), Boolean)
-- uid: Mirror.INetworkConnection.RegisterHandler``1(Action{Mirror.NetworkConnection,``0},System.Boolean)
-  name: RegisterHandler<T>(Action<NetworkConnection, T>, Boolean)
-  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_RegisterHandler__1_Action_Mirror_NetworkConnection___0__System_Boolean_
-  commentId: M:Mirror.INetworkConnection.RegisterHandler``1(Action{Mirror.NetworkConnection,``0},System.Boolean)
-  name.vb: RegisterHandler(Of T)(Action(Of NetworkConnection, T), Boolean)
-  fullName: Mirror.INetworkConnection.RegisterHandler<T>(Action<Mirror.NetworkConnection, T>, System.Boolean)
-  fullName.vb: Mirror.INetworkConnection.RegisterHandler(Of T)(Action(Of Mirror.NetworkConnection, T), System.Boolean)
-  nameWithType: INetworkConnection.RegisterHandler<T>(Action<NetworkConnection, T>, Boolean)
-  nameWithType.vb: INetworkConnection.RegisterHandler(Of T)(Action(Of NetworkConnection, T), Boolean)
+- uid: Mirror.INetworkConnection.RegisterHandler``1(Action{``0})
+  name: RegisterHandler<T>(Action<T>)
+  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_RegisterHandler__1_Action___0__
+  commentId: M:Mirror.INetworkConnection.RegisterHandler``1(Action{``0})
+  name.vb: RegisterHandler(Of T)(Action(Of T))
+  fullName: Mirror.INetworkConnection.RegisterHandler<T>(Action<T>)
+  fullName.vb: Mirror.INetworkConnection.RegisterHandler(Of T)(Action(Of T))
+  nameWithType: INetworkConnection.RegisterHandler<T>(Action<T>)
+  nameWithType.vb: INetworkConnection.RegisterHandler(Of T)(Action(Of T))
+- uid: Mirror.INetworkConnection.RegisterHandler``1(Action{Mirror.NetworkConnection,``0})
+  name: RegisterHandler<T>(Action<NetworkConnection, T>)
+  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_RegisterHandler__1_Action_Mirror_NetworkConnection___0__
+  commentId: M:Mirror.INetworkConnection.RegisterHandler``1(Action{Mirror.NetworkConnection,``0})
+  name.vb: RegisterHandler(Of T)(Action(Of NetworkConnection, T))
+  fullName: Mirror.INetworkConnection.RegisterHandler<T>(Action<Mirror.NetworkConnection, T>)
+  fullName.vb: Mirror.INetworkConnection.RegisterHandler(Of T)(Action(Of Mirror.NetworkConnection, T))
+  nameWithType: INetworkConnection.RegisterHandler<T>(Action<NetworkConnection, T>)
+  nameWithType.vb: INetworkConnection.RegisterHandler(Of T)(Action(Of NetworkConnection, T))
 - uid: Mirror.INetworkConnection.Send*
   name: Send
   href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_Send_
@@ -2778,12 +2778,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkConnection.Identity
   nameWithType: NetworkConnection.Identity
-- uid: Mirror.NetworkConnection.isAuthenticated
-  name: isAuthenticated
-  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_isAuthenticated
-  commentId: F:Mirror.NetworkConnection.isAuthenticated
-  fullName: Mirror.NetworkConnection.isAuthenticated
-  nameWithType: NetworkConnection.isAuthenticated
 - uid: Mirror.NetworkConnection.isReady
   name: isReady
   href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_isReady
@@ -2809,24 +2803,24 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkConnection.RegisterHandler
   nameWithType: NetworkConnection.RegisterHandler
-- uid: Mirror.NetworkConnection.RegisterHandler``1(Action{``0},System.Boolean)
-  name: RegisterHandler<T>(Action<T>, Boolean)
-  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_RegisterHandler__1_Action___0__System_Boolean_
-  commentId: M:Mirror.NetworkConnection.RegisterHandler``1(Action{``0},System.Boolean)
-  name.vb: RegisterHandler(Of T)(Action(Of T), Boolean)
-  fullName: Mirror.NetworkConnection.RegisterHandler<T>(Action<T>, System.Boolean)
-  fullName.vb: Mirror.NetworkConnection.RegisterHandler(Of T)(Action(Of T), System.Boolean)
-  nameWithType: NetworkConnection.RegisterHandler<T>(Action<T>, Boolean)
-  nameWithType.vb: NetworkConnection.RegisterHandler(Of T)(Action(Of T), Boolean)
-- uid: Mirror.NetworkConnection.RegisterHandler``1(Action{Mirror.NetworkConnection,``0},System.Boolean)
-  name: RegisterHandler<T>(Action<NetworkConnection, T>, Boolean)
-  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_RegisterHandler__1_Action_Mirror_NetworkConnection___0__System_Boolean_
-  commentId: M:Mirror.NetworkConnection.RegisterHandler``1(Action{Mirror.NetworkConnection,``0},System.Boolean)
-  name.vb: RegisterHandler(Of T)(Action(Of NetworkConnection, T), Boolean)
-  fullName: Mirror.NetworkConnection.RegisterHandler<T>(Action<Mirror.NetworkConnection, T>, System.Boolean)
-  fullName.vb: Mirror.NetworkConnection.RegisterHandler(Of T)(Action(Of Mirror.NetworkConnection, T), System.Boolean)
-  nameWithType: NetworkConnection.RegisterHandler<T>(Action<NetworkConnection, T>, Boolean)
-  nameWithType.vb: NetworkConnection.RegisterHandler(Of T)(Action(Of NetworkConnection, T), Boolean)
+- uid: Mirror.NetworkConnection.RegisterHandler``1(Action{``0})
+  name: RegisterHandler<T>(Action<T>)
+  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_RegisterHandler__1_Action___0__
+  commentId: M:Mirror.NetworkConnection.RegisterHandler``1(Action{``0})
+  name.vb: RegisterHandler(Of T)(Action(Of T))
+  fullName: Mirror.NetworkConnection.RegisterHandler<T>(Action<T>)
+  fullName.vb: Mirror.NetworkConnection.RegisterHandler(Of T)(Action(Of T))
+  nameWithType: NetworkConnection.RegisterHandler<T>(Action<T>)
+  nameWithType.vb: NetworkConnection.RegisterHandler(Of T)(Action(Of T))
+- uid: Mirror.NetworkConnection.RegisterHandler``1(Action{Mirror.NetworkConnection,``0})
+  name: RegisterHandler<T>(Action<NetworkConnection, T>)
+  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_RegisterHandler__1_Action_Mirror_NetworkConnection___0__
+  commentId: M:Mirror.NetworkConnection.RegisterHandler``1(Action{Mirror.NetworkConnection,``0})
+  name.vb: RegisterHandler(Of T)(Action(Of NetworkConnection, T))
+  fullName: Mirror.NetworkConnection.RegisterHandler<T>(Action<Mirror.NetworkConnection, T>)
+  fullName.vb: Mirror.NetworkConnection.RegisterHandler(Of T)(Action(Of Mirror.NetworkConnection, T))
+  nameWithType: NetworkConnection.RegisterHandler<T>(Action<NetworkConnection, T>)
+  nameWithType.vb: NetworkConnection.RegisterHandler(Of T)(Action(Of NetworkConnection, T))
 - uid: Mirror.NetworkConnection.Send*
   name: Send
   href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_Send_
