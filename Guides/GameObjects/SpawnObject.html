@@ -217,7 +217,7 @@ class Tree : NetworkBehaviour
 <p>Note that <code>OnStartLocalPlayer</code> is called after <code>OnStartClient</code>, because it only happens when the ownership message arrives from the server after the player game object is spawned, so <code>isLocalPlayer</code> is not set in <code>OnStartClient</code>.</p>
 <p>Because <code>OnStartLocalPlayer</code> is only called for the client’s local player game object, it is a good place to perform initialization that should only be done for the local player. This could include enabling input processing, and enabling camera tracking for the player game object.</p>
 <h2 id="spawning-game-objects-with-client-authority">Spawning Game Objects with Client Authority</h2>
-<p>To spawn game objects and assign authority of those game objects to a particular client, use <code>NetworkServer.SpawnWithClientAuthority</code>, which takes as an argument the <code>NetworkConnection</code> of the client that is to be made the authority.</p>
+<p>To spawn game objects and assign authority of those game objects to a particular client, use <code>NetworkServer.Spawn</code>, which takes as an argument the <code>NetworkConnection</code> of the client that is to be made the authority.</p>
 <p>For these game objects, the property <code>hasAuthority</code> is true on the client with authority, and <code>OnStartAuthority</code> is called on the client with authority. That client can issue commands for that game object. On other clients (and on the host), <code>hasAuthority</code> is false.</p>
 <p>Objects spawned with client authority must have <code>LocalPlayerAuthority</code> set in their <code>NetworkIdentity</code>.</p>
 <p>For example, the tree spawn example above can be modified to allow the tree to have client authority like this (note that we now need to pass in a NetworkConnection game object for the owning client’s connection):</p>
@@ -230,7 +230,7 @@ class Tree : NetworkBehaviour
         Tree tree = treeGo.GetComponent&lt;Tree&gt;();
         tree.numLeaves = Random.Range(10,200);
         Debug.Log(&quot;Spawning leaf with leaf count &quot; + tree.numLeaves);
-        NetworkServer.SpawnWithClientAuthority(treeGo, conn);
+        NetworkServer.Spawn(treeGo, conn);
     }
 }
 </code></pre>
@@ -255,7 +255,7 @@ void CmdMessageFromTree(string msg)
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/abb16c046499a8010a67f897783155161a6c6db6/doc/Guides/GameObjects/SpawnObject.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/d08085d339e92dd3c05088438575b28afc9108ad/doc/Guides/GameObjects/SpawnObject.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

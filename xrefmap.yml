@@ -1029,6 +1029,51 @@ references:
   isSpec: "True"
   fullName: Mirror.IConnection.SendAsync
   nameWithType: IConnection.SendAsync
+- uid: Mirror.ILoggerExtensions
+  name: ILoggerExtensions
+  href: api/Mirror.ILoggerExtensions.html
+  commentId: T:Mirror.ILoggerExtensions
+  fullName: Mirror.ILoggerExtensions
+  nameWithType: ILoggerExtensions
+- uid: Mirror.ILoggerExtensions.LogEnabled(ILogger)
+  name: LogEnabled(ILogger)
+  href: api/Mirror.ILoggerExtensions.html#Mirror_ILoggerExtensions_LogEnabled_ILogger_
+  commentId: M:Mirror.ILoggerExtensions.LogEnabled(ILogger)
+  fullName: Mirror.ILoggerExtensions.LogEnabled(ILogger)
+  nameWithType: ILoggerExtensions.LogEnabled(ILogger)
+- uid: Mirror.ILoggerExtensions.LogEnabled*
+  name: LogEnabled
+  href: api/Mirror.ILoggerExtensions.html#Mirror_ILoggerExtensions_LogEnabled_
+  commentId: Overload:Mirror.ILoggerExtensions.LogEnabled
+  isSpec: "True"
+  fullName: Mirror.ILoggerExtensions.LogEnabled
+  nameWithType: ILoggerExtensions.LogEnabled
+- uid: Mirror.ILoggerExtensions.LogError(ILogger,System.Object)
+  name: LogError(ILogger, Object)
+  href: api/Mirror.ILoggerExtensions.html#Mirror_ILoggerExtensions_LogError_ILogger_System_Object_
+  commentId: M:Mirror.ILoggerExtensions.LogError(ILogger,System.Object)
+  fullName: Mirror.ILoggerExtensions.LogError(ILogger, System.Object)
+  nameWithType: ILoggerExtensions.LogError(ILogger, Object)
+- uid: Mirror.ILoggerExtensions.LogError*
+  name: LogError
+  href: api/Mirror.ILoggerExtensions.html#Mirror_ILoggerExtensions_LogError_
+  commentId: Overload:Mirror.ILoggerExtensions.LogError
+  isSpec: "True"
+  fullName: Mirror.ILoggerExtensions.LogError
+  nameWithType: ILoggerExtensions.LogError
+- uid: Mirror.ILoggerExtensions.LogWarning(ILogger,System.Object)
+  name: LogWarning(ILogger, Object)
+  href: api/Mirror.ILoggerExtensions.html#Mirror_ILoggerExtensions_LogWarning_ILogger_System_Object_
+  commentId: M:Mirror.ILoggerExtensions.LogWarning(ILogger,System.Object)
+  fullName: Mirror.ILoggerExtensions.LogWarning(ILogger, System.Object)
+  nameWithType: ILoggerExtensions.LogWarning(ILogger, Object)
+- uid: Mirror.ILoggerExtensions.LogWarning*
+  name: LogWarning
+  href: api/Mirror.ILoggerExtensions.html#Mirror_ILoggerExtensions_LogWarning_
+  commentId: Overload:Mirror.ILoggerExtensions.LogWarning
+  isSpec: "True"
+  fullName: Mirror.ILoggerExtensions.LogWarning
+  nameWithType: ILoggerExtensions.LogWarning
 - uid: Mirror.IMessageBase
   name: IMessageBase
   href: api/Mirror.IMessageBase.html
@@ -1312,6 +1357,12 @@ references:
   commentId: M:Mirror.LogFactory.GetLogger(System.String)
   fullName: Mirror.LogFactory.GetLogger(System.String)
   nameWithType: LogFactory.GetLogger(String)
+- uid: Mirror.LogFactory.GetLogger(System.Type)
+  name: GetLogger(System.Type)
+  href: api/Mirror.LogFactory.html#Mirror_LogFactory_GetLogger_System_Type_
+  commentId: M:Mirror.LogFactory.GetLogger(System.Type)
+  fullName: Mirror.LogFactory.GetLogger(System.Type)
+  nameWithType: LogFactory.GetLogger(System.Type)
 - uid: Mirror.LogFactory.GetLogger*
   name: GetLogger
   href: api/Mirror.LogFactory.html#Mirror_LogFactory_GetLogger_
@@ -5356,9 +5407,29 @@ references:
 - uid: Mirror.NetworkWriter.Position
   name: Position
   href: api/Mirror.NetworkWriter.html#Mirror_NetworkWriter_Position
-  commentId: F:Mirror.NetworkWriter.Position
+  commentId: P:Mirror.NetworkWriter.Position
   fullName: Mirror.NetworkWriter.Position
   nameWithType: NetworkWriter.Position
+- uid: Mirror.NetworkWriter.Position*
+  name: Position
+  href: api/Mirror.NetworkWriter.html#Mirror_NetworkWriter_Position_
+  commentId: Overload:Mirror.NetworkWriter.Position
+  isSpec: "True"
+  fullName: Mirror.NetworkWriter.Position
+  nameWithType: NetworkWriter.Position
+- uid: Mirror.NetworkWriter.Reset
+  name: Reset()
+  href: api/Mirror.NetworkWriter.html#Mirror_NetworkWriter_Reset
+  commentId: M:Mirror.NetworkWriter.Reset
+  fullName: Mirror.NetworkWriter.Reset()
+  nameWithType: NetworkWriter.Reset()
+- uid: Mirror.NetworkWriter.Reset*
+  name: Reset
+  href: api/Mirror.NetworkWriter.html#Mirror_NetworkWriter_Reset_
+  commentId: Overload:Mirror.NetworkWriter.Reset
+  isSpec: "True"
+  fullName: Mirror.NetworkWriter.Reset
+  nameWithType: NetworkWriter.Reset
 - uid: Mirror.NetworkWriter.SetLength(System.Int32)
   name: SetLength(Int32)
   href: api/Mirror.NetworkWriter.html#Mirror_NetworkWriter_SetLength_System_Int32_

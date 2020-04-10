@@ -113,7 +113,7 @@
 }
 </code></pre>
 <p>Be careful of sending commands from the client every frame! This can cause a lot of network traffic.</p>
-<p>It is possible to send commands from non-player objects that have client authority. These objects must have been spawned with <code>NetworkServer.SpawnWithClientAuthority</code> or have authority set with <code>NetworkIdentity.AssignClientAuthority</code>. Commands sent from these object are run on the server instance of the object, not on the associated player object for the client.</p>
+<p>It is possible to send commands from non-player objects that have client authority. These objects must have been spawned with client authority or have authority set with <code>NetworkIdentity.AssignClientAuthority</code>. Commands sent from these object are run on the server instance of the object, not on the associated player object for the client.</p>
 <h2 id="clientrpc-calls">ClientRpc Calls</h2>
 <p>ClientRpc calls are sent from objects on the server to objects on clients. They can be sent from any server object with a NetworkIdentity that has been spawned. Since the server has authority, then there no security issues with server objects being able to send these calls. To make a function into a ClientRpc call, add the [ClientRpc] custom attribute to it, and add the “Rpc” prefix. This function will now be run on clients when it is called on the server. Any arguments will automatically be passed to the clients with the ClientRpc call..</p>
 <p>ClientRpc functions must have the prefix “Rpc” and cannot be static. This is a hint when reading code that calls the method - this function is special and is not invoked locally like a normal function.</p>
@@ -190,7 +190,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/abb16c046499a8010a67f897783155161a6c6db6/doc/Guides/Communications/RemoteActions.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/d08085d339e92dd3c05088438575b28afc9108ad/doc/Guides/Communications/RemoteActions.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
