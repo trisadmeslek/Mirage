@@ -2511,25 +2511,18 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkClient.PrepareToSpawnSceneObjects
   nameWithType: NetworkClient.PrepareToSpawnSceneObjects
-- uid: Mirror.NetworkClient.ready
-  name: ready
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_ready
-  commentId: P:Mirror.NetworkClient.ready
-  fullName: Mirror.NetworkClient.ready
-  nameWithType: NetworkClient.ready
+- uid: Mirror.NetworkClient.Ready
+  name: Ready
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Ready
+  commentId: P:Mirror.NetworkClient.Ready
+  fullName: Mirror.NetworkClient.Ready
+  nameWithType: NetworkClient.Ready
 - uid: Mirror.NetworkClient.Ready(Mirror.NetworkConnection)
   name: Ready(NetworkConnection)
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Ready_Mirror_NetworkConnection_
   commentId: M:Mirror.NetworkClient.Ready(Mirror.NetworkConnection)
   fullName: Mirror.NetworkClient.Ready(Mirror.NetworkConnection)
   nameWithType: NetworkClient.Ready(NetworkConnection)
-- uid: Mirror.NetworkClient.ready*
-  name: ready
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_ready_
-  commentId: Overload:Mirror.NetworkClient.ready
-  isSpec: "True"
-  fullName: Mirror.NetworkClient.ready
-  nameWithType: NetworkClient.ready
 - uid: Mirror.NetworkClient.Ready*
   name: Ready
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Ready_
