@@ -83,37 +83,131 @@
   
   <h1 id="Mirror_INetworkConnection" data-uid="Mirror.INetworkConnection" class="text-break">Interface INetworkConnection
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>A connection to a remote endpoint.
+May be from the server to client or from client to server</p>
+</div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Mirror.IMessageHandler.html#Mirror_IMessageHandler_RegisterHandler__1_Action_Mirror_INetworkConnection___0__">IMessageHandler.RegisterHandler&lt;T&gt;(Action&lt;INetworkConnection, T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.IMessageHandler.html#Mirror_IMessageHandler_RegisterHandler__1_Action___0__">IMessageHandler.RegisterHandler&lt;T&gt;(Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.IMessageHandler.html#Mirror_IMessageHandler_UnregisterHandler__1">IMessageHandler.UnregisterHandler&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.IMessageHandler.html#Mirror_IMessageHandler_ClearHandlers">IMessageHandler.ClearHandlers()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.IMessageHandler.html#Mirror_IMessageHandler_Send__1___0_System_Int32_">IMessageHandler.Send&lt;T&gt;(T, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.IMessageHandler.html#Mirror_IMessageHandler_SendAsync__1___0_System_Int32_">IMessageHandler.SendAsync&lt;T&gt;(T, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.IMessageHandler.html#Mirror_IMessageHandler_ProcessMessagesAsync">IMessageHandler.ProcessMessagesAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.IVisibilityTracker.html#Mirror_IVisibilityTracker_AddToVisList_Mirror_NetworkIdentity_">IVisibilityTracker.AddToVisList(NetworkIdentity)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.IVisibilityTracker.html#Mirror_IVisibilityTracker_RemoveFromVisList_Mirror_NetworkIdentity_">IVisibilityTracker.RemoveFromVisList(NetworkIdentity)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.IVisibilityTracker.html#Mirror_IVisibilityTracker_RemoveObservers">IVisibilityTracker.RemoveObservers()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.IObjectOwner.html#Mirror_IObjectOwner_Identity">IObjectOwner.Identity</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.IObjectOwner.html#Mirror_IObjectOwner_RemoveOwnedObject_Mirror_NetworkIdentity_">IObjectOwner.RemoveOwnedObject(NetworkIdentity)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.IObjectOwner.html#Mirror_IObjectOwner_AddOwnedObject_Mirror_NetworkIdentity_">IObjectOwner.AddOwnedObject(NetworkIdentity)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.IObjectOwner.html#Mirror_IObjectOwner_DestroyOwnedObjects">IObjectOwner.DestroyOwnedObjects()</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.html">Mirror</a></h6>
   <h6><strong>Assembly</strong>: doc.dll</h6>
   <h5 id="Mirror_INetworkConnection_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface INetworkConnection</code></pre>
+    <pre><code class="lang-csharp hljs">public interface INetworkConnection : IMessageHandler, IVisibilityTracker, IObjectOwner</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/ea6b1fa4c930014abbd03a261c5fe01b801006cb/apiSpec/new?filename=Mirror_INetworkConnection_ClearHandlers.md&amp;value=---%0Auid%3A%20Mirror.INetworkConnection.ClearHandlers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/eb98143bf496e7e9b441c61ac795385d44415fc3/apiSpec/new?filename=Mirror_INetworkConnection_Address.md&amp;value=---%0Auid%3A%20Mirror.INetworkConnection.Address%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/ea6b1fa4c930014abbd03a261c5fe01b801006cb/Assets/Mirror/Runtime/INetworkConnection.cs/#L17">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/eb98143bf496e7e9b441c61ac795385d44415fc3/Assets/Mirror/Runtime/INetworkConnection.cs/#L58">View Source</a>
   </span>
-  <a id="Mirror_INetworkConnection_ClearHandlers_" data-uid="Mirror.INetworkConnection.ClearHandlers*"></a>
-  <h4 id="Mirror_INetworkConnection_ClearHandlers" data-uid="Mirror.INetworkConnection.ClearHandlers">ClearHandlers()</h4>
+  <a id="Mirror_INetworkConnection_Address_" data-uid="Mirror.INetworkConnection.Address*"></a>
+  <h4 id="Mirror_INetworkConnection_Address" data-uid="Mirror.INetworkConnection.Address">Address</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void ClearHandlers()</code></pre>
+    <pre><code class="lang-csharp hljs">EndPoint Address { get; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EndPoint</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/ea6b1fa4c930014abbd03a261c5fe01b801006cb/apiSpec/new?filename=Mirror_INetworkConnection_Disconnect.md&amp;value=---%0Auid%3A%20Mirror.INetworkConnection.Disconnect%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/eb98143bf496e7e9b441c61ac795385d44415fc3/apiSpec/new?filename=Mirror_INetworkConnection_IsReady.md&amp;value=---%0Auid%3A%20Mirror.INetworkConnection.IsReady%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/ea6b1fa4c930014abbd03a261c5fe01b801006cb/Assets/Mirror/Runtime/INetworkConnection.cs/#L8">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/eb98143bf496e7e9b441c61ac795385d44415fc3/Assets/Mirror/Runtime/INetworkConnection.cs/#L57">View Source</a>
+  </span>
+  <a id="Mirror_INetworkConnection_IsReady_" data-uid="Mirror.INetworkConnection.IsReady*"></a>
+  <h4 id="Mirror_INetworkConnection_IsReady" data-uid="Mirror.INetworkConnection.IsReady">IsReady</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsReady { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/eb98143bf496e7e9b441c61ac795385d44415fc3/apiSpec/new?filename=Mirror_INetworkConnection_Disconnect.md&amp;value=---%0Auid%3A%20Mirror.INetworkConnection.Disconnect%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/eb98143bf496e7e9b441c61ac795385d44415fc3/Assets/Mirror/Runtime/INetworkConnection.cs/#L59">View Source</a>
   </span>
   <a id="Mirror_INetworkConnection_Disconnect_" data-uid="Mirror.INetworkConnection.Disconnect*"></a>
   <h4 id="Mirror_INetworkConnection_Disconnect" data-uid="Mirror.INetworkConnection.Disconnect">Disconnect()</h4>
@@ -123,284 +217,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">void Disconnect()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/ea6b1fa4c930014abbd03a261c5fe01b801006cb/apiSpec/new?filename=Mirror_INetworkConnection_RegisterHandler__1_Action___0__.md&amp;value=---%0Auid%3A%20Mirror.INetworkConnection.RegisterHandler%60%601(Action%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/ea6b1fa4c930014abbd03a261c5fe01b801006cb/Assets/Mirror/Runtime/INetworkConnection.cs/#L13">View Source</a>
-  </span>
-  <a id="Mirror_INetworkConnection_RegisterHandler_" data-uid="Mirror.INetworkConnection.RegisterHandler*"></a>
-  <h4 id="Mirror_INetworkConnection_RegisterHandler__1_Action___0__" data-uid="Mirror.INetworkConnection.RegisterHandler``1(Action{``0})">RegisterHandler&lt;T&gt;(Action&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void RegisterHandler&lt;T&gt;(Action&lt;T&gt; handler)
-    where T : IMessageBase, new()</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Action</span>&lt;T&gt;</td>
-        <td><span class="parametername">handler</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/ea6b1fa4c930014abbd03a261c5fe01b801006cb/apiSpec/new?filename=Mirror_INetworkConnection_RegisterHandler__1_Action_Mirror_NetworkConnection___0__.md&amp;value=---%0Auid%3A%20Mirror.INetworkConnection.RegisterHandler%60%601(Action%7BMirror.NetworkConnection%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/ea6b1fa4c930014abbd03a261c5fe01b801006cb/Assets/Mirror/Runtime/INetworkConnection.cs/#L10">View Source</a>
-  </span>
-  <a id="Mirror_INetworkConnection_RegisterHandler_" data-uid="Mirror.INetworkConnection.RegisterHandler*"></a>
-  <h4 id="Mirror_INetworkConnection_RegisterHandler__1_Action_Mirror_NetworkConnection___0__" data-uid="Mirror.INetworkConnection.RegisterHandler``1(Action{Mirror.NetworkConnection,``0})">RegisterHandler&lt;T&gt;(Action&lt;NetworkConnection, T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void RegisterHandler&lt;T&gt;(Action&lt;NetworkConnection, T&gt; handler)
-    where T : IMessageBase, new()</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<a class="xref" href="Mirror.NetworkConnection.html">NetworkConnection</a>, T&gt;</td>
-        <td><span class="parametername">handler</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/ea6b1fa4c930014abbd03a261c5fe01b801006cb/apiSpec/new?filename=Mirror_INetworkConnection_Send__1___0_System_Int32_.md&amp;value=---%0Auid%3A%20Mirror.INetworkConnection.Send%60%601(%60%600%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/ea6b1fa4c930014abbd03a261c5fe01b801006cb/Assets/Mirror/Runtime/INetworkConnection.cs/#L19">View Source</a>
-  </span>
-  <a id="Mirror_INetworkConnection_Send_" data-uid="Mirror.INetworkConnection.Send*"></a>
-  <h4 id="Mirror_INetworkConnection_Send__1___0_System_Int32_" data-uid="Mirror.INetworkConnection.Send``1(``0,System.Int32)">Send&lt;T&gt;(T, Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Send&lt;T&gt;(T msg, int channelId = null)
-    where T : IMessageBase</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">msg</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">channelId</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/ea6b1fa4c930014abbd03a261c5fe01b801006cb/apiSpec/new?filename=Mirror_INetworkConnection_SendAsync__1___0_System_Int32_.md&amp;value=---%0Auid%3A%20Mirror.INetworkConnection.SendAsync%60%601(%60%600%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/ea6b1fa4c930014abbd03a261c5fe01b801006cb/Assets/Mirror/Runtime/INetworkConnection.cs/#L21">View Source</a>
-  </span>
-  <a id="Mirror_INetworkConnection_SendAsync_" data-uid="Mirror.INetworkConnection.SendAsync*"></a>
-  <h4 id="Mirror_INetworkConnection_SendAsync__1___0_System_Int32_" data-uid="Mirror.INetworkConnection.SendAsync``1(``0,System.Int32)">SendAsync&lt;T&gt;(T, Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task SendAsync&lt;T&gt;(T msg, int channelId = null)
-    where T : IMessageBase</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">msg</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">channelId</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/ea6b1fa4c930014abbd03a261c5fe01b801006cb/apiSpec/new?filename=Mirror_INetworkConnection_ToString.md&amp;value=---%0Auid%3A%20Mirror.INetworkConnection.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/ea6b1fa4c930014abbd03a261c5fe01b801006cb/Assets/Mirror/Runtime/INetworkConnection.cs/#L23">View Source</a>
-  </span>
-  <a id="Mirror_INetworkConnection_ToString_" data-uid="Mirror.INetworkConnection.ToString*"></a>
-  <h4 id="Mirror_INetworkConnection_ToString" data-uid="Mirror.INetworkConnection.ToString">ToString()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string ToString()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/ea6b1fa4c930014abbd03a261c5fe01b801006cb/apiSpec/new?filename=Mirror_INetworkConnection_UnregisterHandler__1.md&amp;value=---%0Auid%3A%20Mirror.INetworkConnection.UnregisterHandler%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/ea6b1fa4c930014abbd03a261c5fe01b801006cb/Assets/Mirror/Runtime/INetworkConnection.cs/#L15">View Source</a>
-  </span>
-  <a id="Mirror_INetworkConnection_UnregisterHandler_" data-uid="Mirror.INetworkConnection.UnregisterHandler*"></a>
-  <h4 id="Mirror_INetworkConnection_UnregisterHandler__1" data-uid="Mirror.INetworkConnection.UnregisterHandler``1">UnregisterHandler&lt;T&gt;()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void UnregisterHandler&lt;T&gt;()
-    where T : IMessageBase</code></pre>
-  </div>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           
@@ -409,10 +225,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/new/ea6b1fa4c930014abbd03a261c5fe01b801006cb/apiSpec/new?filename=Mirror_INetworkConnection.md&amp;value=---%0Auid%3A%20Mirror.INetworkConnection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/new/eb98143bf496e7e9b441c61ac795385d44415fc3/apiSpec/new?filename=Mirror_INetworkConnection.md&amp;value=---%0Auid%3A%20Mirror.INetworkConnection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/ea6b1fa4c930014abbd03a261c5fe01b801006cb/Assets/Mirror/Runtime/INetworkConnection.cs/#L6" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/eb98143bf496e7e9b441c61ac795385d44415fc3/Assets/Mirror/Runtime/INetworkConnection.cs/#L55" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

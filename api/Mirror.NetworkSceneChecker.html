@@ -172,7 +172,7 @@
       <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendRpcInternal_Type_System_String_Mirror_NetworkWriter_System_Int32_">NetworkBehaviour.SendRpcInternal(Type, String, NetworkWriter, Int32)</a>
     </div>
     <div>
-      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendTargetRpcInternal_Mirror_NetworkConnection_Type_System_String_Mirror_NetworkWriter_System_Int32_">NetworkBehaviour.SendTargetRpcInternal(NetworkConnection, Type, String, NetworkWriter, Int32)</a>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendTargetRpcInternal_Mirror_INetworkConnection_Type_System_String_Mirror_NetworkWriter_System_Int32_">NetworkBehaviour.SendTargetRpcInternal(INetworkConnection, Type, String, NetworkWriter, Int32)</a>
     </div>
     <div>
       <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InvokeRpc_System_Int32_Mirror_NetworkReader_">NetworkBehaviour.InvokeRpc(Int32, NetworkReader)</a>
@@ -254,10 +254,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/ea6b1fa4c930014abbd03a261c5fe01b801006cb/apiSpec/new?filename=Mirror_NetworkSceneChecker_forceHidden.md&amp;value=---%0Auid%3A%20Mirror.NetworkSceneChecker.forceHidden%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/eb98143bf496e7e9b441c61ac795385d44415fc3/apiSpec/new?filename=Mirror_NetworkSceneChecker_forceHidden.md&amp;value=---%0Auid%3A%20Mirror.NetworkSceneChecker.forceHidden%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/ea6b1fa4c930014abbd03a261c5fe01b801006cb/Assets/Mirror/Components/NetworkSceneChecker.cs/#L22">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/eb98143bf496e7e9b441c61ac795385d44415fc3/Assets/Mirror/Components/NetworkSceneChecker.cs/#L22">View Source</a>
   </span>
   <h4 id="Mirror_NetworkSceneChecker_forceHidden" data-uid="Mirror.NetworkSceneChecker.forceHidden">forceHidden</h4>
   <div class="markdown level1 summary"><p>Flag to force this object to be hidden from all observers.</p>
@@ -287,19 +287,19 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/ea6b1fa4c930014abbd03a261c5fe01b801006cb/apiSpec/new?filename=Mirror_NetworkSceneChecker_OnCheckObserver_Mirror_NetworkConnection_.md&amp;value=---%0Auid%3A%20Mirror.NetworkSceneChecker.OnCheckObserver(Mirror.NetworkConnection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/eb98143bf496e7e9b441c61ac795385d44415fc3/apiSpec/new?filename=Mirror_NetworkSceneChecker_OnCheckObserver_Mirror_INetworkConnection_.md&amp;value=---%0Auid%3A%20Mirror.NetworkSceneChecker.OnCheckObserver(Mirror.INetworkConnection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/ea6b1fa4c930014abbd03a261c5fe01b801006cb/Assets/Mirror/Components/NetworkSceneChecker.cs/#L87">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/eb98143bf496e7e9b441c61ac795385d44415fc3/Assets/Mirror/Components/NetworkSceneChecker.cs/#L87">View Source</a>
   </span>
   <a id="Mirror_NetworkSceneChecker_OnCheckObserver_" data-uid="Mirror.NetworkSceneChecker.OnCheckObserver*"></a>
-  <h4 id="Mirror_NetworkSceneChecker_OnCheckObserver_Mirror_NetworkConnection_" data-uid="Mirror.NetworkSceneChecker.OnCheckObserver(Mirror.NetworkConnection)">OnCheckObserver(NetworkConnection)</h4>
+  <h4 id="Mirror_NetworkSceneChecker_OnCheckObserver_Mirror_INetworkConnection_" data-uid="Mirror.NetworkSceneChecker.OnCheckObserver(Mirror.INetworkConnection)">OnCheckObserver(INetworkConnection)</h4>
   <div class="markdown level1 summary"><p>Called when a new player enters the scene</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool OnCheckObserver(NetworkConnection conn)</code></pre>
+    <pre><code class="lang-csharp hljs">public override bool OnCheckObserver(INetworkConnection conn)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -312,7 +312,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirror.NetworkConnection.html">NetworkConnection</a></td>
+        <td><a class="xref" href="Mirror.INetworkConnection.html">INetworkConnection</a></td>
         <td><span class="parametername">conn</span></td>
         <td></td>
       </tr>
@@ -335,21 +335,21 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnCheckObserver_Mirror_NetworkConnection_">NetworkBehaviour.OnCheckObserver(NetworkConnection)</a></div>
+  <div><a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnCheckObserver_Mirror_INetworkConnection_">NetworkBehaviour.OnCheckObserver(INetworkConnection)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/ea6b1fa4c930014abbd03a261c5fe01b801006cb/apiSpec/new?filename=Mirror_NetworkSceneChecker_OnRebuildObservers_HashSet_Mirror_NetworkConnection__System_Boolean_.md&amp;value=---%0Auid%3A%20Mirror.NetworkSceneChecker.OnRebuildObservers(HashSet%7BMirror.NetworkConnection%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/eb98143bf496e7e9b441c61ac795385d44415fc3/apiSpec/new?filename=Mirror_NetworkSceneChecker_OnRebuildObservers_HashSet_Mirror_INetworkConnection__System_Boolean_.md&amp;value=---%0Auid%3A%20Mirror.NetworkSceneChecker.OnRebuildObservers(HashSet%7BMirror.INetworkConnection%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/ea6b1fa4c930014abbd03a261c5fe01b801006cb/Assets/Mirror/Components/NetworkSceneChecker.cs/#L97">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/eb98143bf496e7e9b441c61ac795385d44415fc3/Assets/Mirror/Components/NetworkSceneChecker.cs/#L97">View Source</a>
   </span>
   <a id="Mirror_NetworkSceneChecker_OnRebuildObservers_" data-uid="Mirror.NetworkSceneChecker.OnRebuildObservers*"></a>
-  <h4 id="Mirror_NetworkSceneChecker_OnRebuildObservers_HashSet_Mirror_NetworkConnection__System_Boolean_" data-uid="Mirror.NetworkSceneChecker.OnRebuildObservers(HashSet{Mirror.NetworkConnection},System.Boolean)">OnRebuildObservers(HashSet&lt;NetworkConnection&gt;, Boolean)</h4>
+  <h4 id="Mirror_NetworkSceneChecker_OnRebuildObservers_HashSet_Mirror_INetworkConnection__System_Boolean_" data-uid="Mirror.NetworkSceneChecker.OnRebuildObservers(HashSet{Mirror.INetworkConnection},System.Boolean)">OnRebuildObservers(HashSet&lt;INetworkConnection&gt;, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool OnRebuildObservers(HashSet&lt;NetworkConnection&gt; observers, bool initialize)</code></pre>
+    <pre><code class="lang-csharp hljs">public override bool OnRebuildObservers(HashSet&lt;INetworkConnection&gt; observers, bool initialize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -362,7 +362,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">HashSet</span>&lt;<a class="xref" href="Mirror.NetworkConnection.html">NetworkConnection</a>&gt;</td>
+        <td><span class="xref">HashSet</span>&lt;<a class="xref" href="Mirror.INetworkConnection.html">INetworkConnection</a>&gt;</td>
         <td><span class="parametername">observers</span></td>
         <td></td>
       </tr>
@@ -389,13 +389,13 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnRebuildObservers_HashSet_Mirror_NetworkConnection__System_Boolean_">NetworkBehaviour.OnRebuildObservers(HashSet&lt;NetworkConnection&gt;, Boolean)</a></div>
+  <div><a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnRebuildObservers_HashSet_Mirror_INetworkConnection__System_Boolean_">NetworkBehaviour.OnRebuildObservers(HashSet&lt;INetworkConnection&gt;, Boolean)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/ea6b1fa4c930014abbd03a261c5fe01b801006cb/apiSpec/new?filename=Mirror_NetworkSceneChecker_OnSetHostVisibility_System_Boolean_.md&amp;value=---%0Auid%3A%20Mirror.NetworkSceneChecker.OnSetHostVisibility(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/eb98143bf496e7e9b441c61ac795385d44415fc3/apiSpec/new?filename=Mirror_NetworkSceneChecker_OnSetHostVisibility_System_Boolean_.md&amp;value=---%0Auid%3A%20Mirror.NetworkSceneChecker.OnSetHostVisibility(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/ea6b1fa4c930014abbd03a261c5fe01b801006cb/Assets/Mirror/Components/NetworkSceneChecker.cs/#L118">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/eb98143bf496e7e9b441c61ac795385d44415fc3/Assets/Mirror/Components/NetworkSceneChecker.cs/#L118">View Source</a>
   </span>
   <a id="Mirror_NetworkSceneChecker_OnSetHostVisibility_" data-uid="Mirror.NetworkSceneChecker.OnSetHostVisibility*"></a>
   <h4 id="Mirror_NetworkSceneChecker_OnSetHostVisibility_System_Boolean_" data-uid="Mirror.NetworkSceneChecker.OnSetHostVisibility(System.Boolean)">OnSetHostVisibility(Boolean)</h4>
@@ -430,10 +430,10 @@ In that case, we simply hide/show meshes for the host player.</p>
   <div><a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnSetHostVisibility_System_Boolean_">NetworkBehaviour.OnSetHostVisibility(Boolean)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/ea6b1fa4c930014abbd03a261c5fe01b801006cb/apiSpec/new?filename=Mirror_NetworkSceneChecker_OnStartServer.md&amp;value=---%0Auid%3A%20Mirror.NetworkSceneChecker.OnStartServer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/eb98143bf496e7e9b441c61ac795385d44415fc3/apiSpec/new?filename=Mirror_NetworkSceneChecker_OnStartServer.md&amp;value=---%0Auid%3A%20Mirror.NetworkSceneChecker.OnStartServer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/ea6b1fa4c930014abbd03a261c5fe01b801006cb/Assets/Mirror/Components/NetworkSceneChecker.cs/#L38">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/eb98143bf496e7e9b441c61ac795385d44415fc3/Assets/Mirror/Components/NetworkSceneChecker.cs/#L38">View Source</a>
   </span>
   <a id="Mirror_NetworkSceneChecker_OnStartServer_" data-uid="Mirror.NetworkSceneChecker.OnStartServer*"></a>
   <h4 id="Mirror_NetworkSceneChecker_OnStartServer" data-uid="Mirror.NetworkSceneChecker.OnStartServer">OnStartServer()</h4>
@@ -451,10 +451,10 @@ In that case, we simply hide/show meshes for the host player.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/new/ea6b1fa4c930014abbd03a261c5fe01b801006cb/apiSpec/new?filename=Mirror_NetworkSceneChecker.md&amp;value=---%0Auid%3A%20Mirror.NetworkSceneChecker%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/new/eb98143bf496e7e9b441c61ac795385d44415fc3/apiSpec/new?filename=Mirror_NetworkSceneChecker.md&amp;value=---%0Auid%3A%20Mirror.NetworkSceneChecker%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/ea6b1fa4c930014abbd03a261c5fe01b801006cb/Assets/Mirror/Components/NetworkSceneChecker.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/eb98143bf496e7e9b441c61ac795385d44415fc3/Assets/Mirror/Components/NetworkSceneChecker.cs/#L12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
