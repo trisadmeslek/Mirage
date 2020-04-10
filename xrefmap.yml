@@ -2746,12 +2746,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkConnection.ClearHandlers
   nameWithType: NetworkConnection.ClearHandlers
-- uid: Mirror.NetworkConnection.clientOwnedObjects
-  name: clientOwnedObjects
-  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_clientOwnedObjects
-  commentId: F:Mirror.NetworkConnection.clientOwnedObjects
-  fullName: Mirror.NetworkConnection.clientOwnedObjects
-  nameWithType: NetworkConnection.clientOwnedObjects
 - uid: Mirror.NetworkConnection.Disconnect
   name: Disconnect()
   href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_Disconnect
