@@ -2784,12 +2784,6 @@ references:
   commentId: F:Mirror.NetworkConnection.isReady
   fullName: Mirror.NetworkConnection.isReady
   nameWithType: NetworkConnection.isReady
-- uid: Mirror.NetworkConnection.logNetworkMessages
-  name: logNetworkMessages
-  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_logNetworkMessages
-  commentId: F:Mirror.NetworkConnection.logNetworkMessages
-  fullName: Mirror.NetworkConnection.logNetworkMessages
-  nameWithType: NetworkConnection.logNetworkMessages
 - uid: Mirror.NetworkConnection.RegisterHandler*
   name: RegisterHandler
   href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_RegisterHandler_
