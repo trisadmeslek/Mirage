@@ -2778,12 +2778,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkConnection.Address
   nameWithType: NetworkConnection.Address
-- uid: Mirror.NetworkConnection.authenticationData
-  name: authenticationData
-  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_authenticationData
-  commentId: F:Mirror.NetworkConnection.authenticationData
-  fullName: Mirror.NetworkConnection.authenticationData
-  nameWithType: NetworkConnection.authenticationData
+- uid: Mirror.NetworkConnection.AuthenticationData
+  name: AuthenticationData
+  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_AuthenticationData
+  commentId: P:Mirror.NetworkConnection.AuthenticationData
+  fullName: Mirror.NetworkConnection.AuthenticationData
+  nameWithType: NetworkConnection.AuthenticationData
+- uid: Mirror.NetworkConnection.AuthenticationData*
+  name: AuthenticationData
+  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_AuthenticationData_
+  commentId: Overload:Mirror.NetworkConnection.AuthenticationData
+  isSpec: "True"
+  fullName: Mirror.NetworkConnection.AuthenticationData
+  nameWithType: NetworkConnection.AuthenticationData
 - uid: Mirror.NetworkConnection.ClearHandlers
   name: ClearHandlers()
   href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_ClearHandlers
