@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class NetworkTransformBase
+    <title>Class NetworkVisibility
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class NetworkTransformBase
+    <meta name="title" content="Class NetworkVisibility
    ">
     <meta name="generator" content="docfx 2.45.1.0">
     
@@ -78,10 +78,10 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Mirror.NetworkTransformBase">
+            <article class="content wrap" id="_content" data-uid="Mirror.NetworkVisibility">
   
   
-  <h1 id="Mirror_NetworkTransformBase" data-uid="Mirror.NetworkTransformBase" class="text-break">Class NetworkTransformBase
+  <h1 id="Mirror_NetworkVisibility" data-uid="Mirror.NetworkVisibility" class="text-break">Class NetworkVisibility
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
@@ -89,9 +89,9 @@
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><a class="xref" href="Mirror.NetworkBehaviour.html">NetworkBehaviour</a></div>
-    <div class="level2"><span class="xref">NetworkTransformBase</span></div>
-      <div class="level3"><a class="xref" href="Mirror.NetworkTransform.html">NetworkTransform</a></div>
-      <div class="level3"><a class="xref" href="Mirror.NetworkTransformChild.html">NetworkTransformChild</a></div>
+    <div class="level2"><span class="xref">NetworkVisibility</span></div>
+      <div class="level3"><a class="xref" href="Mirror.NetworkProximityChecker.html">NetworkProximityChecker</a></div>
+      <div class="level3"><a class="xref" href="Mirror.NetworkSceneChecker.html">NetworkSceneChecker</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -231,6 +231,12 @@
       <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_ClearAllDirtyBits">NetworkBehaviour.ClearAllDirtyBits()</a>
     </div>
     <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnSerialize_Mirror_NetworkWriter_System_Boolean_">NetworkBehaviour.OnSerialize(NetworkWriter, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnDeserialize_Mirror_NetworkReader_System_Boolean_">NetworkBehaviour.OnDeserialize(NetworkReader, Boolean)</a>
+    </div>
+    <div>
       <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SerializeObjectsAll_Mirror_NetworkWriter_">NetworkBehaviour.SerializeObjectsAll(NetworkWriter)</a>
     </div>
     <div>
@@ -239,176 +245,28 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.html">Mirror</a></h6>
   <h6><strong>Assembly</strong>: doc.dll</h6>
-  <h5 id="Mirror_NetworkTransformBase_syntax">Syntax</h5>
+  <h5 id="Mirror_NetworkVisibility_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class NetworkTransformBase : NetworkBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class NetworkVisibility : NetworkBehaviour</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/apiSpec/new?filename=Mirror_NetworkTransformBase_ClientAuthority.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.ClientAuthority%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/Assets/Mirror/Components/NetworkTransformBase.cs/#L28">View Source</a>
-  </span>
-  <h4 id="Mirror_NetworkTransformBase_ClientAuthority" data-uid="Mirror.NetworkTransformBase.ClientAuthority">ClientAuthority</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool ClientAuthority</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/apiSpec/new?filename=Mirror_NetworkTransformBase_LocalPositionSensitivity.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.LocalPositionSensitivity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/Assets/Mirror/Components/NetworkTransformBase.cs/#L38">View Source</a>
-  </span>
-  <h4 id="Mirror_NetworkTransformBase_LocalPositionSensitivity" data-uid="Mirror.NetworkTransformBase.LocalPositionSensitivity">LocalPositionSensitivity</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float LocalPositionSensitivity</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/apiSpec/new?filename=Mirror_NetworkTransformBase_LocalRotationSensitivity.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.LocalRotationSensitivity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/Assets/Mirror/Components/NetworkTransformBase.cs/#L40">View Source</a>
-  </span>
-  <h4 id="Mirror_NetworkTransformBase_LocalRotationSensitivity" data-uid="Mirror.NetworkTransformBase.LocalRotationSensitivity">LocalRotationSensitivity</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float LocalRotationSensitivity</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/apiSpec/new?filename=Mirror_NetworkTransformBase_LocalScaleSensitivity.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.LocalScaleSensitivity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/Assets/Mirror/Components/NetworkTransformBase.cs/#L42">View Source</a>
-  </span>
-  <h4 id="Mirror_NetworkTransformBase_LocalScaleSensitivity" data-uid="Mirror.NetworkTransformBase.LocalScaleSensitivity">LocalScaleSensitivity</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float LocalScaleSensitivity</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/apiSpec/new?filename=Mirror_NetworkTransformBase_TargetComponent.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.TargetComponent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/Assets/Mirror/Components/NetworkTransformBase.cs/#L45">View Source</a>
-  </span>
-  <a id="Mirror_NetworkTransformBase_TargetComponent_" data-uid="Mirror.NetworkTransformBase.TargetComponent*"></a>
-  <h4 id="Mirror_NetworkTransformBase_TargetComponent" data-uid="Mirror.NetworkTransformBase.TargetComponent">TargetComponent</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract Transform TargetComponent { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Transform</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/apiSpec/new?filename=Mirror_NetworkTransformBase_OnDeserialize_Mirror_NetworkReader_System_Boolean_.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.OnDeserialize(Mirror.NetworkReader%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/apiSpec/new?filename=Mirror_NetworkVisibility_OnCheckObserver_Mirror_INetworkConnection_.md&amp;value=---%0Auid%3A%20Mirror.NetworkVisibility.OnCheckObserver(Mirror.INetworkConnection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/Assets/Mirror/Components/NetworkTransformBase.cs/#L191">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/Assets/Mirror/Runtime/NetworkVisibility.cs/#L36">View Source</a>
   </span>
-  <a id="Mirror_NetworkTransformBase_OnDeserialize_" data-uid="Mirror.NetworkTransformBase.OnDeserialize*"></a>
-  <h4 id="Mirror_NetworkTransformBase_OnDeserialize_Mirror_NetworkReader_System_Boolean_" data-uid="Mirror.NetworkTransformBase.OnDeserialize(Mirror.NetworkReader,System.Boolean)">OnDeserialize(NetworkReader, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Mirror_NetworkVisibility_OnCheckObserver_" data-uid="Mirror.NetworkVisibility.OnCheckObserver*"></a>
+  <h4 id="Mirror_NetworkVisibility_OnCheckObserver_Mirror_INetworkConnection_" data-uid="Mirror.NetworkVisibility.OnCheckObserver(Mirror.INetworkConnection)">OnCheckObserver(INetworkConnection)</h4>
+  <div class="markdown level1 summary"><p>Callback used by the visibility system to determine if an observer (player) can see this object.</p>
+<p>If this function returns true, the network connection will be added as an observer.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnDeserialize(NetworkReader reader, bool initialState)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract bool OnCheckObserver(INetworkConnection conn)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -421,53 +279,10 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
-        <td><span class="parametername">reader</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">initialState</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnDeserialize_Mirror_NetworkReader_System_Boolean_">NetworkBehaviour.OnDeserialize(NetworkReader, Boolean)</a></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/apiSpec/new?filename=Mirror_NetworkTransformBase_OnSerialize_Mirror_NetworkWriter_System_Boolean_.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.OnSerialize(Mirror.NetworkWriter%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/Assets/Mirror/Components/NetworkTransformBase.cs/#L83">View Source</a>
-  </span>
-  <a id="Mirror_NetworkTransformBase_OnSerialize_" data-uid="Mirror.NetworkTransformBase.OnSerialize*"></a>
-  <h4 id="Mirror_NetworkTransformBase_OnSerialize_Mirror_NetworkWriter_System_Boolean_" data-uid="Mirror.NetworkTransformBase.OnSerialize(Mirror.NetworkWriter,System.Boolean)">OnSerialize(NetworkWriter, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool OnSerialize(NetworkWriter writer, bool initialState)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Mirror.NetworkWriter.html">NetworkWriter</a></td>
-        <td><span class="parametername">writer</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">initialState</span></td>
-        <td></td>
+        <td><a class="xref" href="Mirror.INetworkConnection.html">INetworkConnection</a></td>
+        <td><span class="parametername">conn</span></td>
+        <td><p>Network connection of a player.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -482,26 +297,27 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
+        <td><p>True if the player can see this object.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnSerialize_Mirror_NetworkWriter_System_Boolean_">NetworkBehaviour.OnSerialize(NetworkWriter, Boolean)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/apiSpec/new?filename=Mirror_NetworkTransformBase_SerializeIntoWriter_Mirror_NetworkWriter_Vector3_Quaternion_Vector3_.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.SerializeIntoWriter(Mirror.NetworkWriter%2CVector3%2CQuaternion%2CVector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/apiSpec/new?filename=Mirror_NetworkVisibility_OnRebuildObservers_HashSet_Mirror_INetworkConnection__System_Boolean_.md&amp;value=---%0Auid%3A%20Mirror.NetworkVisibility.OnRebuildObservers(HashSet%7BMirror.INetworkConnection%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/Assets/Mirror/Components/NetworkTransformBase.cs/#L71">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/Assets/Mirror/Runtime/NetworkVisibility.cs/#L21">View Source</a>
   </span>
-  <a id="Mirror_NetworkTransformBase_SerializeIntoWriter_" data-uid="Mirror.NetworkTransformBase.SerializeIntoWriter*"></a>
-  <h4 id="Mirror_NetworkTransformBase_SerializeIntoWriter_Mirror_NetworkWriter_Vector3_Quaternion_Vector3_" data-uid="Mirror.NetworkTransformBase.SerializeIntoWriter(Mirror.NetworkWriter,Vector3,Quaternion,Vector3)">SerializeIntoWriter(NetworkWriter, Vector3, Quaternion, Vector3)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Mirror_NetworkVisibility_OnRebuildObservers_" data-uid="Mirror.NetworkVisibility.OnRebuildObservers*"></a>
+  <h4 id="Mirror_NetworkVisibility_OnRebuildObservers_HashSet_Mirror_INetworkConnection__System_Boolean_" data-uid="Mirror.NetworkVisibility.OnRebuildObservers(HashSet{Mirror.INetworkConnection},System.Boolean)">OnRebuildObservers(HashSet&lt;INetworkConnection&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Callback used by the visibility system to (re)construct the set of observers that can see this object.</p>
+<p>Implementations of this callback should add network connections of players that can see this object to the observers set.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SerializeIntoWriter(NetworkWriter writer, Vector3 position, Quaternion rotation, Vector3 scale)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract void OnRebuildObservers(HashSet&lt;INetworkConnection&gt; observers, bool initialize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -514,24 +330,51 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirror.NetworkWriter.html">NetworkWriter</a></td>
-        <td><span class="parametername">writer</span></td>
-        <td></td>
+        <td><span class="xref">HashSet</span>&lt;<a class="xref" href="Mirror.INetworkConnection.html">INetworkConnection</a>&gt;</td>
+        <td><span class="parametername">observers</span></td>
+        <td><p>The new set of observers for this object.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">position</span></td>
-        <td></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">initialize</span></td>
+        <td><p>True if the set of observers is being built for the first time.</p>
+</td>
       </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/apiSpec/new?filename=Mirror_NetworkVisibility_OnSetHostVisibility_System_Boolean_.md&amp;value=---%0Auid%3A%20Mirror.NetworkVisibility.OnSetHostVisibility(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/Assets/Mirror/Runtime/NetworkVisibility.cs/#L28">View Source</a>
+  </span>
+  <a id="Mirror_NetworkVisibility_OnSetHostVisibility_" data-uid="Mirror.NetworkVisibility.OnSetHostVisibility*"></a>
+  <h4 id="Mirror_NetworkVisibility_OnSetHostVisibility_System_Boolean_" data-uid="Mirror.NetworkVisibility.OnSetHostVisibility(System.Boolean)">OnSetHostVisibility(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Callback used by the visibility system for objects on a host.</p>
+<p>Objects on a host (with a local client) cannot be disabled or destroyed when they are not visible to the local client. So this function is called to allow custom code to hide these objects. A typical implementation will disable renderer components on the object. This is only called on local clients on a host.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void OnSetHostVisibility(bool visible)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><span class="xref">Quaternion</span></td>
-        <td><span class="parametername">rotation</span></td>
-        <td></td>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
       </tr>
+    </thead>
+    <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">scale</span></td>
-        <td></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">visible</span></td>
+        <td><p>New visibility state.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -543,10 +386,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/new/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/apiSpec/new?filename=Mirror_NetworkTransformBase.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/new/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/apiSpec/new?filename=Mirror_NetworkVisibility.md&amp;value=---%0Auid%3A%20Mirror.NetworkVisibility%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/Assets/Mirror/Components/NetworkTransformBase.cs/#L24" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/996e9a51261c7bfd8bc424a6d926d5181a2d55fe/Assets/Mirror/Runtime/NetworkVisibility.cs/#L12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

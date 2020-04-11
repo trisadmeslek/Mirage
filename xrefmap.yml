@@ -2144,19 +2144,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.NetworkTime
   nameWithType: NetworkBehaviour.NetworkTime
-- uid: Mirror.NetworkBehaviour.OnCheckObserver(Mirror.INetworkConnection)
-  name: OnCheckObserver(INetworkConnection)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnCheckObserver_Mirror_INetworkConnection_
-  commentId: M:Mirror.NetworkBehaviour.OnCheckObserver(Mirror.INetworkConnection)
-  fullName: Mirror.NetworkBehaviour.OnCheckObserver(Mirror.INetworkConnection)
-  nameWithType: NetworkBehaviour.OnCheckObserver(INetworkConnection)
-- uid: Mirror.NetworkBehaviour.OnCheckObserver*
-  name: OnCheckObserver
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnCheckObserver_
-  commentId: Overload:Mirror.NetworkBehaviour.OnCheckObserver
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.OnCheckObserver
-  nameWithType: NetworkBehaviour.OnCheckObserver
 - uid: Mirror.NetworkBehaviour.OnDeserialize(Mirror.NetworkReader,System.Boolean)
   name: OnDeserialize(NetworkReader, Boolean)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnDeserialize_Mirror_NetworkReader_System_Boolean_
@@ -2170,22 +2157,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.OnDeserialize
   nameWithType: NetworkBehaviour.OnDeserialize
-- uid: Mirror.NetworkBehaviour.OnRebuildObservers(HashSet{Mirror.INetworkConnection},System.Boolean)
-  name: OnRebuildObservers(HashSet<INetworkConnection>, Boolean)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnRebuildObservers_HashSet_Mirror_INetworkConnection__System_Boolean_
-  commentId: M:Mirror.NetworkBehaviour.OnRebuildObservers(HashSet{Mirror.INetworkConnection},System.Boolean)
-  name.vb: OnRebuildObservers(HashSet(Of INetworkConnection), Boolean)
-  fullName: Mirror.NetworkBehaviour.OnRebuildObservers(HashSet<Mirror.INetworkConnection>, System.Boolean)
-  fullName.vb: Mirror.NetworkBehaviour.OnRebuildObservers(HashSet(Of Mirror.INetworkConnection), System.Boolean)
-  nameWithType: NetworkBehaviour.OnRebuildObservers(HashSet<INetworkConnection>, Boolean)
-  nameWithType.vb: NetworkBehaviour.OnRebuildObservers(HashSet(Of INetworkConnection), Boolean)
-- uid: Mirror.NetworkBehaviour.OnRebuildObservers*
-  name: OnRebuildObservers
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnRebuildObservers_
-  commentId: Overload:Mirror.NetworkBehaviour.OnRebuildObservers
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.OnRebuildObservers
-  nameWithType: NetworkBehaviour.OnRebuildObservers
 - uid: Mirror.NetworkBehaviour.OnSerialize(Mirror.NetworkWriter,System.Boolean)
   name: OnSerialize(NetworkWriter, Boolean)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnSerialize_Mirror_NetworkWriter_System_Boolean_
@@ -2199,19 +2170,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.OnSerialize
   nameWithType: NetworkBehaviour.OnSerialize
-- uid: Mirror.NetworkBehaviour.OnSetHostVisibility(System.Boolean)
-  name: OnSetHostVisibility(Boolean)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnSetHostVisibility_System_Boolean_
-  commentId: M:Mirror.NetworkBehaviour.OnSetHostVisibility(System.Boolean)
-  fullName: Mirror.NetworkBehaviour.OnSetHostVisibility(System.Boolean)
-  nameWithType: NetworkBehaviour.OnSetHostVisibility(Boolean)
-- uid: Mirror.NetworkBehaviour.OnSetHostVisibility*
-  name: OnSetHostVisibility
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnSetHostVisibility_
-  commentId: Overload:Mirror.NetworkBehaviour.OnSetHostVisibility
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.OnSetHostVisibility
-  nameWithType: NetworkBehaviour.OnSetHostVisibility
 - uid: Mirror.NetworkBehaviour.RegisterCommandDelegate(Type,System.String,Mirror.NetworkBehaviour.CmdDelegate)
   name: RegisterCommandDelegate(Type, String, NetworkBehaviour.CmdDelegate)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_RegisterCommandDelegate_Type_System_String_Mirror_NetworkBehaviour_CmdDelegate_
@@ -3505,6 +3463,19 @@ references:
   commentId: F:Mirror.NetworkIdentity.serverOnly
   fullName: Mirror.NetworkIdentity.serverOnly
   nameWithType: NetworkIdentity.serverOnly
+- uid: Mirror.NetworkIdentity.visibility
+  name: visibility
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_visibility
+  commentId: P:Mirror.NetworkIdentity.visibility
+  fullName: Mirror.NetworkIdentity.visibility
+  nameWithType: NetworkIdentity.visibility
+- uid: Mirror.NetworkIdentity.visibility*
+  name: visibility
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_visibility_
+  commentId: Overload:Mirror.NetworkIdentity.visibility
+  isSpec: "True"
+  fullName: Mirror.NetworkIdentity.visibility
+  nameWithType: NetworkIdentity.visibility
 - uid: Mirror.NetworkManager
   name: NetworkManager
   href: api/Mirror.NetworkManager.html
@@ -5619,6 +5590,54 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkTransformChild.TargetComponent
   nameWithType: NetworkTransformChild.TargetComponent
+- uid: Mirror.NetworkVisibility
+  name: NetworkVisibility
+  href: api/Mirror.NetworkVisibility.html
+  commentId: T:Mirror.NetworkVisibility
+  fullName: Mirror.NetworkVisibility
+  nameWithType: NetworkVisibility
+- uid: Mirror.NetworkVisibility.OnCheckObserver(Mirror.INetworkConnection)
+  name: OnCheckObserver(INetworkConnection)
+  href: api/Mirror.NetworkVisibility.html#Mirror_NetworkVisibility_OnCheckObserver_Mirror_INetworkConnection_
+  commentId: M:Mirror.NetworkVisibility.OnCheckObserver(Mirror.INetworkConnection)
+  fullName: Mirror.NetworkVisibility.OnCheckObserver(Mirror.INetworkConnection)
+  nameWithType: NetworkVisibility.OnCheckObserver(INetworkConnection)
+- uid: Mirror.NetworkVisibility.OnCheckObserver*
+  name: OnCheckObserver
+  href: api/Mirror.NetworkVisibility.html#Mirror_NetworkVisibility_OnCheckObserver_
+  commentId: Overload:Mirror.NetworkVisibility.OnCheckObserver
+  isSpec: "True"
+  fullName: Mirror.NetworkVisibility.OnCheckObserver
+  nameWithType: NetworkVisibility.OnCheckObserver
+- uid: Mirror.NetworkVisibility.OnRebuildObservers(HashSet{Mirror.INetworkConnection},System.Boolean)
+  name: OnRebuildObservers(HashSet<INetworkConnection>, Boolean)
+  href: api/Mirror.NetworkVisibility.html#Mirror_NetworkVisibility_OnRebuildObservers_HashSet_Mirror_INetworkConnection__System_Boolean_
+  commentId: M:Mirror.NetworkVisibility.OnRebuildObservers(HashSet{Mirror.INetworkConnection},System.Boolean)
+  name.vb: OnRebuildObservers(HashSet(Of INetworkConnection), Boolean)
+  fullName: Mirror.NetworkVisibility.OnRebuildObservers(HashSet<Mirror.INetworkConnection>, System.Boolean)
+  fullName.vb: Mirror.NetworkVisibility.OnRebuildObservers(HashSet(Of Mirror.INetworkConnection), System.Boolean)
+  nameWithType: NetworkVisibility.OnRebuildObservers(HashSet<INetworkConnection>, Boolean)
+  nameWithType.vb: NetworkVisibility.OnRebuildObservers(HashSet(Of INetworkConnection), Boolean)
+- uid: Mirror.NetworkVisibility.OnRebuildObservers*
+  name: OnRebuildObservers
+  href: api/Mirror.NetworkVisibility.html#Mirror_NetworkVisibility_OnRebuildObservers_
+  commentId: Overload:Mirror.NetworkVisibility.OnRebuildObservers
+  isSpec: "True"
+  fullName: Mirror.NetworkVisibility.OnRebuildObservers
+  nameWithType: NetworkVisibility.OnRebuildObservers
+- uid: Mirror.NetworkVisibility.OnSetHostVisibility(System.Boolean)
+  name: OnSetHostVisibility(Boolean)
+  href: api/Mirror.NetworkVisibility.html#Mirror_NetworkVisibility_OnSetHostVisibility_System_Boolean_
+  commentId: M:Mirror.NetworkVisibility.OnSetHostVisibility(System.Boolean)
+  fullName: Mirror.NetworkVisibility.OnSetHostVisibility(System.Boolean)
+  nameWithType: NetworkVisibility.OnSetHostVisibility(Boolean)
+- uid: Mirror.NetworkVisibility.OnSetHostVisibility*
+  name: OnSetHostVisibility
+  href: api/Mirror.NetworkVisibility.html#Mirror_NetworkVisibility_OnSetHostVisibility_
+  commentId: Overload:Mirror.NetworkVisibility.OnSetHostVisibility
+  isSpec: "True"
+  fullName: Mirror.NetworkVisibility.OnSetHostVisibility
+  nameWithType: NetworkVisibility.OnSetHostVisibility
 - uid: Mirror.NetworkWriter
   name: NetworkWriter
   href: api/Mirror.NetworkWriter.html
