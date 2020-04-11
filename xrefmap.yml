@@ -3463,19 +3463,19 @@ references:
   commentId: F:Mirror.NetworkIdentity.serverOnly
   fullName: Mirror.NetworkIdentity.serverOnly
   nameWithType: NetworkIdentity.serverOnly
-- uid: Mirror.NetworkIdentity.visibility
-  name: visibility
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_visibility
-  commentId: P:Mirror.NetworkIdentity.visibility
-  fullName: Mirror.NetworkIdentity.visibility
-  nameWithType: NetworkIdentity.visibility
-- uid: Mirror.NetworkIdentity.visibility*
-  name: visibility
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_visibility_
-  commentId: Overload:Mirror.NetworkIdentity.visibility
+- uid: Mirror.NetworkIdentity.Visibility
+  name: Visibility
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_Visibility
+  commentId: P:Mirror.NetworkIdentity.Visibility
+  fullName: Mirror.NetworkIdentity.Visibility
+  nameWithType: NetworkIdentity.Visibility
+- uid: Mirror.NetworkIdentity.Visibility*
+  name: Visibility
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_Visibility_
+  commentId: Overload:Mirror.NetworkIdentity.Visibility
   isSpec: "True"
-  fullName: Mirror.NetworkIdentity.visibility
-  nameWithType: NetworkIdentity.visibility
+  fullName: Mirror.NetworkIdentity.Visibility
+  nameWithType: NetworkIdentity.Visibility
 - uid: Mirror.NetworkManager
   name: NetworkManager
   href: api/Mirror.NetworkManager.html
