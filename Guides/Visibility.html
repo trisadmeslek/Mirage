@@ -97,7 +97,7 @@
 <p>When a player moves within the world, the set of network-visible game objects changes. The player’s client is told about these changes as they happen. The <code>ObjectHide</code> message is sent to clients when a game object becomes no longer network-visible. By default, Mirror destroys the game object when it receives this message. When a game object becomes visible, the client receives an <code>ObjectSpawn</code> message, as if Mirror has spawned the game object for the first time. By default, the game object is instantiated like any other spawned game object.</p>
 <h2 id="network-visibility-on-the-host">Network Visibility on the Host</h2>
 <p>The host shares the same Scene as the server, because it acts as both the server and the client to the player hosting the game. For this reason, it cannot destroy game objects that are not visible to the local player.</p>
-<p>Instead, there is the virtual method OnSetLocalVisibility on the NetworkBehaviour class that is invoked. This method is invoked on all <code>NetworkBehaviour</code> scripts on game objects that change visibility state on the host.</p>
+<p>Instead, there is the virtual method OnSetLocalVisibility in the NetworkVisibility class that is invoked. This method is invoked on all scripts that inherit from <code>NetworkVisibility</code> on game objects that change visibility state on the host.</p>
 <p>The default implementation of <code>OnSetLocalVisibility</code> disables or enables all renderer components on the game object. If you want to customize this implementation, you can override the method in your script, and provide a new behavior for how the host (and therefore the local client) should respond when a game object becomes network-visible or invisible (such as disabling HUD elements or renderers).</p>
 <h2 id="customizing-network-visibility">Customizing Network Visibility</h2>
 <p>Sometimes you might want to use other kinds of visibility check, such as grid-based rules, line-of-sight tests, navigation path tests, or any other type of test that suits your game.</p>
@@ -105,7 +105,7 @@
 <p>It may be helpful to understand how the Network Proximity Checker works.</p>
 <p>The Network Proximity Checker is implemented using the public visibility interface of Mirror’s HLAPI. Using this same interface, you can implement any kind of visibility rules you desire. Each <code>NetworkIdentity</code> keeps track of the set of players that it is visible to. The players that a NetworkIdentity game object is visible to are called the “observers” of the NetworkIdentity.</p>
 <p>The Network Proximity Checker calls the <code>RebuildObservers</code> method on the Network Identity component at a fixed interval (set using the “Vis Update Interval” value in the inspector), so that the set of network-visible game objects for each player is updated as they move around.</p>
-<p>On the <code>NetworkBehaviour</code>class (which your networked scripts inherit from), there are some virtual functions for determining visibility. These are:</p>
+<p>In the <code>NetworkVisibility</code> class (which your custom observer scripts inherit from), there are some virtual functions for determining visibility. These are:</p>
 <ul>
 <li><strong>OnCheckObserver</strong><br>
 This method is called on the server, on each networked game object when a new player enters the game. If it returns true, that player is added to the object’s observers. The Network Proximity Checker does a simple distance check in its implementation of this function, and uses <code>Physics.OverlapSphereNonAlloc</code> to find the players that are within the visibility distance for this object.</li>
@@ -135,7 +135,7 @@ for (int i = 0; i &lt; hitCount; i++)
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/6aa7850e9e4d10685b2e4b5d7bebe11b30911a78/doc/Guides/Visibility.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/537cd7e134020a16b1877f54f72ca28050d1c1f9/doc/Guides/Visibility.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
