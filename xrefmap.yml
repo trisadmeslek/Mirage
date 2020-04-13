@@ -1230,6 +1230,19 @@ references:
   isSpec: "True"
   fullName: Mirror.INetworkConnection.Address
   nameWithType: INetworkConnection.Address
+- uid: Mirror.INetworkConnection.AuthenticationData
+  name: AuthenticationData
+  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_AuthenticationData
+  commentId: P:Mirror.INetworkConnection.AuthenticationData
+  fullName: Mirror.INetworkConnection.AuthenticationData
+  nameWithType: INetworkConnection.AuthenticationData
+- uid: Mirror.INetworkConnection.AuthenticationData*
+  name: AuthenticationData
+  href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_AuthenticationData_
+  commentId: Overload:Mirror.INetworkConnection.AuthenticationData
+  isSpec: "True"
+  fullName: Mirror.INetworkConnection.AuthenticationData
+  nameWithType: INetworkConnection.AuthenticationData
 - uid: Mirror.INetworkConnection.Disconnect
   name: Disconnect()
   href: api/Mirror.INetworkConnection.html#Mirror_INetworkConnection_Disconnect
