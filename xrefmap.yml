@@ -1880,6 +1880,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.ConnectionToServer
   nameWithType: NetworkBehaviour.ConnectionToServer
+- uid: Mirror.NetworkBehaviour.DeserializeSyncVars(Mirror.NetworkReader,System.Boolean)
+  name: DeserializeSyncVars(NetworkReader, Boolean)
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_DeserializeSyncVars_Mirror_NetworkReader_System_Boolean_
+  commentId: M:Mirror.NetworkBehaviour.DeserializeSyncVars(Mirror.NetworkReader,System.Boolean)
+  fullName: Mirror.NetworkBehaviour.DeserializeSyncVars(Mirror.NetworkReader, System.Boolean)
+  nameWithType: NetworkBehaviour.DeserializeSyncVars(NetworkReader, Boolean)
+- uid: Mirror.NetworkBehaviour.DeserializeSyncVars*
+  name: DeserializeSyncVars
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_DeserializeSyncVars_
+  commentId: Overload:Mirror.NetworkBehaviour.DeserializeSyncVars
+  isSpec: "True"
+  fullName: Mirror.NetworkBehaviour.DeserializeSyncVars
+  nameWithType: NetworkBehaviour.DeserializeSyncVars
 - uid: Mirror.NetworkBehaviour.GetDelegate(System.Int32)
   name: GetDelegate(Int32)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetDelegate_System_Int32_
@@ -2313,6 +2326,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.SerializeObjectsDelta
   nameWithType: NetworkBehaviour.SerializeObjectsDelta
+- uid: Mirror.NetworkBehaviour.SerializeSyncVars(Mirror.NetworkWriter,System.Boolean)
+  name: SerializeSyncVars(NetworkWriter, Boolean)
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SerializeSyncVars_Mirror_NetworkWriter_System_Boolean_
+  commentId: M:Mirror.NetworkBehaviour.SerializeSyncVars(Mirror.NetworkWriter,System.Boolean)
+  fullName: Mirror.NetworkBehaviour.SerializeSyncVars(Mirror.NetworkWriter, System.Boolean)
+  nameWithType: NetworkBehaviour.SerializeSyncVars(NetworkWriter, Boolean)
+- uid: Mirror.NetworkBehaviour.SerializeSyncVars*
+  name: SerializeSyncVars
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SerializeSyncVars_
+  commentId: Overload:Mirror.NetworkBehaviour.SerializeSyncVars
+  isSpec: "True"
+  fullName: Mirror.NetworkBehaviour.SerializeSyncVars
+  nameWithType: NetworkBehaviour.SerializeSyncVars
 - uid: Mirror.NetworkBehaviour.Server
   name: Server
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_Server
@@ -4072,19 +4098,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkProximityChecker.OnRebuildObservers
   nameWithType: NetworkProximityChecker.OnRebuildObservers
-- uid: Mirror.NetworkProximityChecker.OnSetHostVisibility(System.Boolean)
-  name: OnSetHostVisibility(Boolean)
-  href: api/Mirror.NetworkProximityChecker.html#Mirror_NetworkProximityChecker_OnSetHostVisibility_System_Boolean_
-  commentId: M:Mirror.NetworkProximityChecker.OnSetHostVisibility(System.Boolean)
-  fullName: Mirror.NetworkProximityChecker.OnSetHostVisibility(System.Boolean)
-  nameWithType: NetworkProximityChecker.OnSetHostVisibility(Boolean)
-- uid: Mirror.NetworkProximityChecker.OnSetHostVisibility*
-  name: OnSetHostVisibility
-  href: api/Mirror.NetworkProximityChecker.html#Mirror_NetworkProximityChecker_OnSetHostVisibility_
-  commentId: Overload:Mirror.NetworkProximityChecker.OnSetHostVisibility
-  isSpec: "True"
-  fullName: Mirror.NetworkProximityChecker.OnSetHostVisibility
-  nameWithType: NetworkProximityChecker.OnSetHostVisibility
 - uid: Mirror.NetworkProximityChecker.VisibilityRange
   name: VisibilityRange
   href: api/Mirror.NetworkProximityChecker.html#Mirror_NetworkProximityChecker_VisibilityRange
@@ -4868,19 +4881,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkSceneChecker.OnRebuildObservers
   nameWithType: NetworkSceneChecker.OnRebuildObservers
-- uid: Mirror.NetworkSceneChecker.OnSetHostVisibility(System.Boolean)
-  name: OnSetHostVisibility(Boolean)
-  href: api/Mirror.NetworkSceneChecker.html#Mirror_NetworkSceneChecker_OnSetHostVisibility_System_Boolean_
-  commentId: M:Mirror.NetworkSceneChecker.OnSetHostVisibility(System.Boolean)
-  fullName: Mirror.NetworkSceneChecker.OnSetHostVisibility(System.Boolean)
-  nameWithType: NetworkSceneChecker.OnSetHostVisibility(Boolean)
-- uid: Mirror.NetworkSceneChecker.OnSetHostVisibility*
-  name: OnSetHostVisibility
-  href: api/Mirror.NetworkSceneChecker.html#Mirror_NetworkSceneChecker_OnSetHostVisibility_
-  commentId: Overload:Mirror.NetworkSceneChecker.OnSetHostVisibility
-  isSpec: "True"
-  fullName: Mirror.NetworkSceneChecker.OnSetHostVisibility
-  nameWithType: NetworkSceneChecker.OnSetHostVisibility
 - uid: Mirror.NetworkSceneChecker.OnStartServer
   name: OnStartServer()
   href: api/Mirror.NetworkSceneChecker.html#Mirror_NetworkSceneChecker_OnStartServer
