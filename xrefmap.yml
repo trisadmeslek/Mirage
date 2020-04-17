@@ -7977,6 +7977,42 @@ references:
   fullName.vb: Mirror.SyncList(Of T).Enumerator.Reset
   nameWithType: SyncList<T>.Enumerator.Reset
   nameWithType.vb: SyncList(Of T).Enumerator.Reset
+- uid: Mirror.SyncList`1.Find(Predicate{`0})
+  name: Find(Predicate<T>)
+  href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_Find_Predicate__0__
+  commentId: M:Mirror.SyncList`1.Find(Predicate{`0})
+  name.vb: Find(Predicate(Of T))
+  fullName: Mirror.SyncList<T>.Find(Predicate<T>)
+  fullName.vb: Mirror.SyncList(Of T).Find(Predicate(Of T))
+  nameWithType: SyncList<T>.Find(Predicate<T>)
+  nameWithType.vb: SyncList(Of T).Find(Predicate(Of T))
+- uid: Mirror.SyncList`1.Find*
+  name: Find
+  href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_Find_
+  commentId: Overload:Mirror.SyncList`1.Find
+  isSpec: "True"
+  fullName: Mirror.SyncList<T>.Find
+  fullName.vb: Mirror.SyncList(Of T).Find
+  nameWithType: SyncList<T>.Find
+  nameWithType.vb: SyncList(Of T).Find
+- uid: Mirror.SyncList`1.FindAll(Predicate{`0})
+  name: FindAll(Predicate<T>)
+  href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_FindAll_Predicate__0__
+  commentId: M:Mirror.SyncList`1.FindAll(Predicate{`0})
+  name.vb: FindAll(Predicate(Of T))
+  fullName: Mirror.SyncList<T>.FindAll(Predicate<T>)
+  fullName.vb: Mirror.SyncList(Of T).FindAll(Predicate(Of T))
+  nameWithType: SyncList<T>.FindAll(Predicate<T>)
+  nameWithType.vb: SyncList(Of T).FindAll(Predicate(Of T))
+- uid: Mirror.SyncList`1.FindAll*
+  name: FindAll
+  href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_FindAll_
+  commentId: Overload:Mirror.SyncList`1.FindAll
+  isSpec: "True"
+  fullName: Mirror.SyncList<T>.FindAll
+  fullName.vb: Mirror.SyncList(Of T).FindAll
+  nameWithType: SyncList<T>.FindAll
+  nameWithType.vb: SyncList(Of T).FindAll
 - uid: Mirror.SyncList`1.FindIndex(Predicate{`0})
   name: FindIndex(Predicate<T>)
   href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_FindIndex_Predicate__0__
