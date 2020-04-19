@@ -193,6 +193,15 @@ references:
   commentId: F:Mirror.AsyncMultiplexTransport.transports
   fullName: Mirror.AsyncMultiplexTransport.transports
   nameWithType: AsyncMultiplexTransport.transports
+- uid: Mirror.AsyncQueue`1
+  name: AsyncQueue<T>
+  href: api/Mirror.AsyncQueue-1.html
+  commentId: T:Mirror.AsyncQueue`1
+  name.vb: AsyncQueue(Of T)
+  fullName: Mirror.AsyncQueue<T>
+  fullName.vb: Mirror.AsyncQueue(Of T)
+  nameWithType: AsyncQueue<T>
+  nameWithType.vb: AsyncQueue(Of T)
 - uid: Mirror.AsyncTcp
   name: Mirror.AsyncTcp
   href: api/Mirror.AsyncTcp.html
