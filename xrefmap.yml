@@ -97,6 +97,19 @@ references:
   isSpec: "True"
   fullName: Mirror.AsyncFallbackTransport.ListenAsync
   nameWithType: AsyncFallbackTransport.ListenAsync
+- uid: Mirror.AsyncFallbackTransport.Scheme
+  name: Scheme
+  href: api/Mirror.AsyncFallbackTransport.html#Mirror_AsyncFallbackTransport_Scheme
+  commentId: P:Mirror.AsyncFallbackTransport.Scheme
+  fullName: Mirror.AsyncFallbackTransport.Scheme
+  nameWithType: AsyncFallbackTransport.Scheme
+- uid: Mirror.AsyncFallbackTransport.Scheme*
+  name: Scheme
+  href: api/Mirror.AsyncFallbackTransport.html#Mirror_AsyncFallbackTransport_Scheme_
+  commentId: Overload:Mirror.AsyncFallbackTransport.Scheme
+  isSpec: "True"
+  fullName: Mirror.AsyncFallbackTransport.Scheme
+  nameWithType: AsyncFallbackTransport.Scheme
 - uid: Mirror.AsyncFallbackTransport.ServerUri
   name: ServerUri()
   href: api/Mirror.AsyncFallbackTransport.html#Mirror_AsyncFallbackTransport_ServerUri
@@ -174,6 +187,19 @@ references:
   isSpec: "True"
   fullName: Mirror.AsyncMultiplexTransport.ListenAsync
   nameWithType: AsyncMultiplexTransport.ListenAsync
+- uid: Mirror.AsyncMultiplexTransport.Scheme
+  name: Scheme
+  href: api/Mirror.AsyncMultiplexTransport.html#Mirror_AsyncMultiplexTransport_Scheme
+  commentId: P:Mirror.AsyncMultiplexTransport.Scheme
+  fullName: Mirror.AsyncMultiplexTransport.Scheme
+  nameWithType: AsyncMultiplexTransport.Scheme
+- uid: Mirror.AsyncMultiplexTransport.Scheme*
+  name: Scheme
+  href: api/Mirror.AsyncMultiplexTransport.html#Mirror_AsyncMultiplexTransport_Scheme_
+  commentId: Overload:Mirror.AsyncMultiplexTransport.Scheme
+  isSpec: "True"
+  fullName: Mirror.AsyncMultiplexTransport.Scheme
+  nameWithType: AsyncMultiplexTransport.Scheme
 - uid: Mirror.AsyncMultiplexTransport.ServerUri
   name: ServerUri()
   href: api/Mirror.AsyncMultiplexTransport.html#Mirror_AsyncMultiplexTransport_ServerUri
@@ -272,6 +298,19 @@ references:
   commentId: F:Mirror.AsyncTcp.AsyncTcpTransport.Port
   fullName: Mirror.AsyncTcp.AsyncTcpTransport.Port
   nameWithType: AsyncTcpTransport.Port
+- uid: Mirror.AsyncTcp.AsyncTcpTransport.Scheme
+  name: Scheme
+  href: api/Mirror.AsyncTcp.AsyncTcpTransport.html#Mirror_AsyncTcp_AsyncTcpTransport_Scheme
+  commentId: P:Mirror.AsyncTcp.AsyncTcpTransport.Scheme
+  fullName: Mirror.AsyncTcp.AsyncTcpTransport.Scheme
+  nameWithType: AsyncTcpTransport.Scheme
+- uid: Mirror.AsyncTcp.AsyncTcpTransport.Scheme*
+  name: Scheme
+  href: api/Mirror.AsyncTcp.AsyncTcpTransport.html#Mirror_AsyncTcp_AsyncTcpTransport_Scheme_
+  commentId: Overload:Mirror.AsyncTcp.AsyncTcpTransport.Scheme
+  isSpec: "True"
+  fullName: Mirror.AsyncTcp.AsyncTcpTransport.Scheme
+  nameWithType: AsyncTcpTransport.Scheme
 - uid: Mirror.AsyncTcp.AsyncTcpTransport.ServerUri
   name: ServerUri()
   href: api/Mirror.AsyncTcp.AsyncTcpTransport.html#Mirror_AsyncTcp_AsyncTcpTransport_ServerUri
@@ -343,6 +382,19 @@ references:
   isSpec: "True"
   fullName: Mirror.AsyncTransport.ListenAsync
   nameWithType: AsyncTransport.ListenAsync
+- uid: Mirror.AsyncTransport.Scheme
+  name: Scheme
+  href: api/Mirror.AsyncTransport.html#Mirror_AsyncTransport_Scheme
+  commentId: P:Mirror.AsyncTransport.Scheme
+  fullName: Mirror.AsyncTransport.Scheme
+  nameWithType: AsyncTransport.Scheme
+- uid: Mirror.AsyncTransport.Scheme*
+  name: Scheme
+  href: api/Mirror.AsyncTransport.html#Mirror_AsyncTransport_Scheme_
+  commentId: Overload:Mirror.AsyncTransport.Scheme
+  isSpec: "True"
+  fullName: Mirror.AsyncTransport.Scheme
+  nameWithType: AsyncTransport.Scheme
 - uid: Mirror.AsyncTransport.ServerUri
   name: ServerUri()
   href: api/Mirror.AsyncTransport.html#Mirror_AsyncTransport_ServerUri
@@ -9478,6 +9530,19 @@ references:
   commentId: F:Mirror.Websocket.AsyncWsTransport.Port
   fullName: Mirror.Websocket.AsyncWsTransport.Port
   nameWithType: AsyncWsTransport.Port
+- uid: Mirror.Websocket.AsyncWsTransport.Scheme
+  name: Scheme
+  href: api/Mirror.Websocket.AsyncWsTransport.html#Mirror_Websocket_AsyncWsTransport_Scheme
+  commentId: P:Mirror.Websocket.AsyncWsTransport.Scheme
+  fullName: Mirror.Websocket.AsyncWsTransport.Scheme
+  nameWithType: AsyncWsTransport.Scheme
+- uid: Mirror.Websocket.AsyncWsTransport.Scheme*
+  name: Scheme
+  href: api/Mirror.Websocket.AsyncWsTransport.html#Mirror_Websocket_AsyncWsTransport_Scheme_
+  commentId: Overload:Mirror.Websocket.AsyncWsTransport.Scheme
+  isSpec: "True"
+  fullName: Mirror.Websocket.AsyncWsTransport.Scheme
+  nameWithType: AsyncWsTransport.Scheme
 - uid: Mirror.Websocket.AsyncWsTransport.ServerUri
   name: ServerUri()
   href: api/Mirror.Websocket.AsyncWsTransport.html#Mirror_Websocket_AsyncWsTransport_ServerUri
