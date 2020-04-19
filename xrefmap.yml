@@ -1527,18 +1527,6 @@ references:
   fullName.vb: Mirror.LogFactory.GetLogger(Of T)()
   nameWithType: LogFactory.GetLogger<T>()
   nameWithType.vb: LogFactory.GetLogger(Of T)()
-- uid: Mirror.LogFilter
-  name: LogFilter
-  href: api/Mirror.LogFilter.html
-  commentId: T:Mirror.LogFilter
-  fullName: Mirror.LogFilter
-  nameWithType: LogFilter
-- uid: Mirror.LogFilter.Debug
-  name: Debug
-  href: api/Mirror.LogFilter.html#Mirror_LogFilter_Debug
-  commentId: F:Mirror.LogFilter.Debug
-  fullName: Mirror.LogFilter.Debug
-  nameWithType: LogFilter.Debug
 - uid: Mirror.MessageBase
   name: MessageBase
   href: api/Mirror.MessageBase.html
@@ -3757,12 +3745,6 @@ references:
   commentId: F:Mirror.NetworkManager.serverTickRate
   fullName: Mirror.NetworkManager.serverTickRate
   nameWithType: NetworkManager.serverTickRate
-- uid: Mirror.NetworkManager.showDebugMessages
-  name: showDebugMessages
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_showDebugMessages
-  commentId: F:Mirror.NetworkManager.showDebugMessages
-  fullName: Mirror.NetworkManager.showDebugMessages
-  nameWithType: NetworkManager.showDebugMessages
 - uid: Mirror.NetworkManager.Start
   name: Start()
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_Start
