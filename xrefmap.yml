@@ -3426,6 +3426,12 @@ references:
   commentId: F:Mirror.NetworkIdentity.OnStopAuthority
   fullName: Mirror.NetworkIdentity.OnStopAuthority
   nameWithType: NetworkIdentity.OnStopAuthority
+- uid: Mirror.NetworkIdentity.OnStopServer
+  name: OnStopServer
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_OnStopServer
+  commentId: F:Mirror.NetworkIdentity.OnStopServer
+  fullName: Mirror.NetworkIdentity.OnStopServer
+  nameWithType: NetworkIdentity.OnStopServer
 - uid: Mirror.NetworkIdentity.RebuildObservers(System.Boolean)
   name: RebuildObservers(Boolean)
   href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_RebuildObservers_System_Boolean_
