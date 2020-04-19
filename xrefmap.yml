@@ -3643,19 +3643,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.OnServerChangeScene
   nameWithType: NetworkManager.OnServerChangeScene
-- uid: Mirror.NetworkManager.OnServerConnect(Mirror.INetworkConnection)
-  name: OnServerConnect(INetworkConnection)
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnServerConnect_Mirror_INetworkConnection_
-  commentId: M:Mirror.NetworkManager.OnServerConnect(Mirror.INetworkConnection)
-  fullName: Mirror.NetworkManager.OnServerConnect(Mirror.INetworkConnection)
-  nameWithType: NetworkManager.OnServerConnect(INetworkConnection)
-- uid: Mirror.NetworkManager.OnServerConnect*
-  name: OnServerConnect
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnServerConnect_
-  commentId: Overload:Mirror.NetworkManager.OnServerConnect
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.OnServerConnect
-  nameWithType: NetworkManager.OnServerConnect
 - uid: Mirror.NetworkManager.OnServerReady(Mirror.INetworkConnection)
   name: OnServerReady(INetworkConnection)
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnServerReady_Mirror_INetworkConnection_
