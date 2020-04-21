@@ -83,16 +83,23 @@
 <p>Note that if you create a Network Animator component on an empty game object, Mirror also creates a Network Identity component and an Animator component on that game object.</p>
 <p><img src="NetworkAnimatorComponent.png" alt="The Network Animator component in the Inspector window"></p>
 <ul>
-<li><strong>Animator</strong><br>
-Use this field to define the Animator component you want the Network Animator to synchronize with.</li>
+<li><p><strong>Client Authority</strong><br>
+Enable this to have changes to animation parameters sent from client to server.</p>
+</li>
+<li><p><strong>Animator</strong><br>
+Use this field to define the Animator component you want the Network Animator to synchronize with.</p>
+</li>
 </ul>
+<p>Normally, changes are sent to all observers of the object this component is on.  Setting <strong>Sync Mode</strong> to Owner Only makes the changes private between the server and the client owner of the object.</p>
+<p>You can use the <strong>Sync Interval</strong> to specify how often it syncs (in seconds).</p>
 <h2 id="details">Details</h2>
-<p>The Network Animator ensures the synchronization of game object animation across the network</p>
+<p>The Network Animator ensures the synchronization of game object animation across the network, meaning that all players see the animation happen at the same. There are two kinds of authority for networked animation (see documentation on <a href="../Guides/Authority.html">network authority</a>):</p>
+<blockquote>
+<p><strong>NOTE:</strong> Animator Triggers are not synced directly. Call <code>NetworkAnimator.SetTrigger</code> instead. A game object with authority can use the SetTrigger function to fire an animation trigger on other clients.</p>
+</blockquote>
 <ul>
-<li>meaning that all players see the animation happen at the same. There are two kinds of authority for networked animation (see documentation on <a href="../Guides/Authority.html">network authority</a>):</li>
 <li>If the game object has authority on the client, you should animate it locally on the client that owns the game object. That client sends the animation state information to the server, which broadcasts it to all the other clients. For example, this may be suitable for player characters with client authority.</li>
 <li>If the game object has authority on the server, then you should animate it on the server. The server then sends state information to all clients. This is common for animated game objects that are not related to a specific client, such as scene objects and non-player characters, or server-authoritative clients.</li>
-<li>Animator Triggers are not synced directly. Call <code>NetworkAnimator.SetTrigger</code> instead. A game object with authority can use the SetTrigger function to fire an animation trigger on other clients.</li>
 </ul>
 </article>
           </div>
@@ -102,7 +109,7 @@ Use this field to define the Animator component you want the Network Animator to
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/9ead8e8d1a7dbbc6fd1d6a3eb1df4284d2ee64a3/doc/Components/NetworkAnimator.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/7fb911a8a7812c61e6181a6d69d782bc1d75454c/doc/Components/NetworkAnimator.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

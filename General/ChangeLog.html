@@ -83,6 +83,11 @@
 <p>Mirror uses semantic versioning, and the versions shown here are those that were published to the Asset Store, and occasionally major version bumps happen mid-month between store submissions and are therefore not individually shown here.</p>
 <h2 id="version-12xx----in-progress">Version 12.x.x -- In Progress</h2>
 <ul>
+<li>Added: <a href="../Components/NetworkMatchChecker.html">NetworkMatchChecker</a> component. Use this component to create many concurrent isolated matches within a single game server.</li>
+<li>Added: <a href="../Guides/Sync/SyncLists.html">SyncLists</a> now have Find and FindAll functions.</li>
+<li>Added: Weaver now supports custom Reader &amp; Writer for types in other assemblies</li>
+<li>Fixed: NetworkAnimator no longer double-fires SetTrigger / ResetTrigger on the host client</li>
+<li>Fixed: Destroy is no longer invoked twice on the server for the player object.</li>
 <li>Changed: <strong>Breaking</strong> NetworkBehaviour: <code>OnRebuildObservers</code>, <code>OnCheckObserver</code>, and <code>OnSetHostVisibility</code> were moved to a separate class called <code>NetworkVisibility</code></li>
 </ul>
 <h2 id="version-1142---2020-apr-03">Version 11.4.2 - 2020-Apr-03</h2>
@@ -101,6 +106,7 @@
 <li>Fixed: NetworkRoomManager no longer incorrectly destroys the game player object. It's left in the game scene to be cleaned up by Unity when the scene changes.</li>
 <li>Fixed: StopHost correctly raises OnServerDisconnect in Network Manager, and correctly unwinds before shutting down the server.</li>
 <li>Fixed: <code>isServer</code> is no longer incorrectly false on server in Network Identity's OnDestroy</li>
+<li>Changed: Network Manager <code>offlineScene</code> and <code>onlineScene</code> store full paths now, so use SceneManager.GetActiveScene().path instead.</li>
 <li>Changed: Network Manager HUD now calls StopHost / StopServer / StopClient more appropriately.</li>
 <li>Changed: Network Manager HUD labels no longer say LAN. Associated docs also cleaned up to eliminate the misconception of Mirror being LAN only solution.</li>
 <li>Changed: NetworkTransform compression removed and message handling is much simpler now.</li>
@@ -445,7 +451,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/9ead8e8d1a7dbbc6fd1d6a3eb1df4284d2ee64a3/doc/General/ChangeLog.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/7fb911a8a7812c61e6181a6d69d782bc1d75454c/doc/General/ChangeLog.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

@@ -1560,18 +1560,18 @@ references:
   commentId: T:Mirror.LogFactory
   fullName: Mirror.LogFactory
   nameWithType: LogFactory
-- uid: Mirror.LogFactory.GetLogger(System.String)
-  name: GetLogger(String)
-  href: api/Mirror.LogFactory.html#Mirror_LogFactory_GetLogger_System_String_
-  commentId: M:Mirror.LogFactory.GetLogger(System.String)
-  fullName: Mirror.LogFactory.GetLogger(System.String)
-  nameWithType: LogFactory.GetLogger(String)
-- uid: Mirror.LogFactory.GetLogger(System.Type)
-  name: GetLogger(System.Type)
-  href: api/Mirror.LogFactory.html#Mirror_LogFactory_GetLogger_System_Type_
-  commentId: M:Mirror.LogFactory.GetLogger(System.Type)
-  fullName: Mirror.LogFactory.GetLogger(System.Type)
-  nameWithType: LogFactory.GetLogger(System.Type)
+- uid: Mirror.LogFactory.GetLogger(System.String,LogType)
+  name: GetLogger(String, LogType)
+  href: api/Mirror.LogFactory.html#Mirror_LogFactory_GetLogger_System_String_LogType_
+  commentId: M:Mirror.LogFactory.GetLogger(System.String,LogType)
+  fullName: Mirror.LogFactory.GetLogger(System.String, LogType)
+  nameWithType: LogFactory.GetLogger(String, LogType)
+- uid: Mirror.LogFactory.GetLogger(System.Type,LogType)
+  name: GetLogger(System.Type, LogType)
+  href: api/Mirror.LogFactory.html#Mirror_LogFactory_GetLogger_System_Type_LogType_
+  commentId: M:Mirror.LogFactory.GetLogger(System.Type,LogType)
+  fullName: Mirror.LogFactory.GetLogger(System.Type, LogType)
+  nameWithType: LogFactory.GetLogger(System.Type, LogType)
 - uid: Mirror.LogFactory.GetLogger*
   name: GetLogger
   href: api/Mirror.LogFactory.html#Mirror_LogFactory_GetLogger_
@@ -1579,15 +1579,15 @@ references:
   isSpec: "True"
   fullName: Mirror.LogFactory.GetLogger
   nameWithType: LogFactory.GetLogger
-- uid: Mirror.LogFactory.GetLogger``1
-  name: GetLogger<T>()
-  href: api/Mirror.LogFactory.html#Mirror_LogFactory_GetLogger__1
-  commentId: M:Mirror.LogFactory.GetLogger``1
-  name.vb: GetLogger(Of T)()
-  fullName: Mirror.LogFactory.GetLogger<T>()
-  fullName.vb: Mirror.LogFactory.GetLogger(Of T)()
-  nameWithType: LogFactory.GetLogger<T>()
-  nameWithType.vb: LogFactory.GetLogger(Of T)()
+- uid: Mirror.LogFactory.GetLogger``1(LogType)
+  name: GetLogger<T>(LogType)
+  href: api/Mirror.LogFactory.html#Mirror_LogFactory_GetLogger__1_LogType_
+  commentId: M:Mirror.LogFactory.GetLogger``1(LogType)
+  name.vb: GetLogger(Of T)(LogType)
+  fullName: Mirror.LogFactory.GetLogger<T>(LogType)
+  fullName.vb: Mirror.LogFactory.GetLogger(Of T)(LogType)
+  nameWithType: LogFactory.GetLogger<T>(LogType)
+  nameWithType.vb: LogFactory.GetLogger(Of T)(LogType)
 - uid: Mirror.MessageBase
   name: MessageBase
   href: api/Mirror.MessageBase.html
@@ -3451,12 +3451,6 @@ references:
   commentId: F:Mirror.NetworkIdentity.observers
   fullName: Mirror.NetworkIdentity.observers
   nameWithType: NetworkIdentity.observers
-- uid: Mirror.NetworkIdentity.OnNetworkDestroy
-  name: OnNetworkDestroy
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_OnNetworkDestroy
-  commentId: F:Mirror.NetworkIdentity.OnNetworkDestroy
-  fullName: Mirror.NetworkIdentity.OnNetworkDestroy
-  nameWithType: NetworkIdentity.OnNetworkDestroy
 - uid: Mirror.NetworkIdentity.OnStartAuthority
   name: OnStartAuthority
   href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_OnStartAuthority
@@ -3487,6 +3481,12 @@ references:
   commentId: F:Mirror.NetworkIdentity.OnStopAuthority
   fullName: Mirror.NetworkIdentity.OnStopAuthority
   nameWithType: NetworkIdentity.OnStopAuthority
+- uid: Mirror.NetworkIdentity.OnStopClient
+  name: OnStopClient
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_OnStopClient
+  commentId: F:Mirror.NetworkIdentity.OnStopClient
+  fullName: Mirror.NetworkIdentity.OnStopClient
+  nameWithType: NetworkIdentity.OnStopClient
 - uid: Mirror.NetworkIdentity.OnStopServer
   name: OnStopServer
   href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_OnStopServer
@@ -3968,6 +3968,99 @@ references:
   commentId: F:Mirror.NetworkManagerMode.ServerOnly
   fullName: Mirror.NetworkManagerMode.ServerOnly
   nameWithType: NetworkManagerMode.ServerOnly
+- uid: Mirror.NetworkMatchChecker
+  name: NetworkMatchChecker
+  href: api/Mirror.NetworkMatchChecker.html
+  commentId: T:Mirror.NetworkMatchChecker
+  fullName: Mirror.NetworkMatchChecker
+  nameWithType: NetworkMatchChecker
+- uid: Mirror.NetworkMatchChecker.Awake
+  name: Awake()
+  href: api/Mirror.NetworkMatchChecker.html#Mirror_NetworkMatchChecker_Awake
+  commentId: M:Mirror.NetworkMatchChecker.Awake
+  fullName: Mirror.NetworkMatchChecker.Awake()
+  nameWithType: NetworkMatchChecker.Awake()
+- uid: Mirror.NetworkMatchChecker.Awake*
+  name: Awake
+  href: api/Mirror.NetworkMatchChecker.html#Mirror_NetworkMatchChecker_Awake_
+  commentId: Overload:Mirror.NetworkMatchChecker.Awake
+  isSpec: "True"
+  fullName: Mirror.NetworkMatchChecker.Awake
+  nameWithType: NetworkMatchChecker.Awake
+- uid: Mirror.NetworkMatchChecker.currentMatchDebug
+  name: currentMatchDebug
+  href: api/Mirror.NetworkMatchChecker.html#Mirror_NetworkMatchChecker_currentMatchDebug
+  commentId: F:Mirror.NetworkMatchChecker.currentMatchDebug
+  fullName: Mirror.NetworkMatchChecker.currentMatchDebug
+  nameWithType: NetworkMatchChecker.currentMatchDebug
+- uid: Mirror.NetworkMatchChecker.Identity
+  name: Identity
+  href: api/Mirror.NetworkMatchChecker.html#Mirror_NetworkMatchChecker_Identity
+  commentId: P:Mirror.NetworkMatchChecker.Identity
+  fullName: Mirror.NetworkMatchChecker.Identity
+  nameWithType: NetworkMatchChecker.Identity
+- uid: Mirror.NetworkMatchChecker.Identity*
+  name: Identity
+  href: api/Mirror.NetworkMatchChecker.html#Mirror_NetworkMatchChecker_Identity_
+  commentId: Overload:Mirror.NetworkMatchChecker.Identity
+  isSpec: "True"
+  fullName: Mirror.NetworkMatchChecker.Identity
+  nameWithType: NetworkMatchChecker.Identity
+- uid: Mirror.NetworkMatchChecker.matchId
+  name: matchId
+  href: api/Mirror.NetworkMatchChecker.html#Mirror_NetworkMatchChecker_matchId
+  commentId: P:Mirror.NetworkMatchChecker.matchId
+  fullName: Mirror.NetworkMatchChecker.matchId
+  nameWithType: NetworkMatchChecker.matchId
+- uid: Mirror.NetworkMatchChecker.matchId*
+  name: matchId
+  href: api/Mirror.NetworkMatchChecker.html#Mirror_NetworkMatchChecker_matchId_
+  commentId: Overload:Mirror.NetworkMatchChecker.matchId
+  isSpec: "True"
+  fullName: Mirror.NetworkMatchChecker.matchId
+  nameWithType: NetworkMatchChecker.matchId
+- uid: Mirror.NetworkMatchChecker.OnCheckObserver(Mirror.INetworkConnection)
+  name: OnCheckObserver(INetworkConnection)
+  href: api/Mirror.NetworkMatchChecker.html#Mirror_NetworkMatchChecker_OnCheckObserver_Mirror_INetworkConnection_
+  commentId: M:Mirror.NetworkMatchChecker.OnCheckObserver(Mirror.INetworkConnection)
+  fullName: Mirror.NetworkMatchChecker.OnCheckObserver(Mirror.INetworkConnection)
+  nameWithType: NetworkMatchChecker.OnCheckObserver(INetworkConnection)
+- uid: Mirror.NetworkMatchChecker.OnCheckObserver*
+  name: OnCheckObserver
+  href: api/Mirror.NetworkMatchChecker.html#Mirror_NetworkMatchChecker_OnCheckObserver_
+  commentId: Overload:Mirror.NetworkMatchChecker.OnCheckObserver
+  isSpec: "True"
+  fullName: Mirror.NetworkMatchChecker.OnCheckObserver
+  nameWithType: NetworkMatchChecker.OnCheckObserver
+- uid: Mirror.NetworkMatchChecker.OnRebuildObservers(HashSet{Mirror.INetworkConnection},System.Boolean)
+  name: OnRebuildObservers(HashSet<INetworkConnection>, Boolean)
+  href: api/Mirror.NetworkMatchChecker.html#Mirror_NetworkMatchChecker_OnRebuildObservers_HashSet_Mirror_INetworkConnection__System_Boolean_
+  commentId: M:Mirror.NetworkMatchChecker.OnRebuildObservers(HashSet{Mirror.INetworkConnection},System.Boolean)
+  name.vb: OnRebuildObservers(HashSet(Of INetworkConnection), Boolean)
+  fullName: Mirror.NetworkMatchChecker.OnRebuildObservers(HashSet<Mirror.INetworkConnection>, System.Boolean)
+  fullName.vb: Mirror.NetworkMatchChecker.OnRebuildObservers(HashSet(Of Mirror.INetworkConnection), System.Boolean)
+  nameWithType: NetworkMatchChecker.OnRebuildObservers(HashSet<INetworkConnection>, Boolean)
+  nameWithType.vb: NetworkMatchChecker.OnRebuildObservers(HashSet(Of INetworkConnection), Boolean)
+- uid: Mirror.NetworkMatchChecker.OnRebuildObservers*
+  name: OnRebuildObservers
+  href: api/Mirror.NetworkMatchChecker.html#Mirror_NetworkMatchChecker_OnRebuildObservers_
+  commentId: Overload:Mirror.NetworkMatchChecker.OnRebuildObservers
+  isSpec: "True"
+  fullName: Mirror.NetworkMatchChecker.OnRebuildObservers
+  nameWithType: NetworkMatchChecker.OnRebuildObservers
+- uid: Mirror.NetworkMatchChecker.OnStartServer
+  name: OnStartServer()
+  href: api/Mirror.NetworkMatchChecker.html#Mirror_NetworkMatchChecker_OnStartServer
+  commentId: M:Mirror.NetworkMatchChecker.OnStartServer
+  fullName: Mirror.NetworkMatchChecker.OnStartServer()
+  nameWithType: NetworkMatchChecker.OnStartServer()
+- uid: Mirror.NetworkMatchChecker.OnStartServer*
+  name: OnStartServer
+  href: api/Mirror.NetworkMatchChecker.html#Mirror_NetworkMatchChecker_OnStartServer_
+  commentId: Overload:Mirror.NetworkMatchChecker.OnStartServer
+  isSpec: "True"
+  fullName: Mirror.NetworkMatchChecker.OnStartServer
+  nameWithType: NetworkMatchChecker.OnStartServer
 - uid: Mirror.NetworkPingMessage
   name: NetworkPingMessage
   href: api/Mirror.NetworkPingMessage.html
@@ -5018,19 +5111,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkServer.Destroy
   nameWithType: NetworkServer.Destroy
-- uid: Mirror.NetworkServer.DestroyPlayerForConnection(Mirror.INetworkConnection)
-  name: DestroyPlayerForConnection(INetworkConnection)
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_DestroyPlayerForConnection_Mirror_INetworkConnection_
-  commentId: M:Mirror.NetworkServer.DestroyPlayerForConnection(Mirror.INetworkConnection)
-  fullName: Mirror.NetworkServer.DestroyPlayerForConnection(Mirror.INetworkConnection)
-  nameWithType: NetworkServer.DestroyPlayerForConnection(INetworkConnection)
-- uid: Mirror.NetworkServer.DestroyPlayerForConnection*
-  name: DestroyPlayerForConnection
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_DestroyPlayerForConnection_
-  commentId: Overload:Mirror.NetworkServer.DestroyPlayerForConnection
-  isSpec: "True"
-  fullName: Mirror.NetworkServer.DestroyPlayerForConnection
-  nameWithType: NetworkServer.DestroyPlayerForConnection
 - uid: Mirror.NetworkServer.Disconnect
   name: Disconnect()
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Disconnect

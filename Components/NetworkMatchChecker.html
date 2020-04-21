@@ -5,11 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ServerDataReceivedEvent
-   </title>
+    <title>Network Scene Checker </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ServerDataReceivedEvent
-   ">
+    <meta name="title" content="Network Scene Checker ">
     <meta name="generator" content="docfx 2.45.1.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -78,24 +76,15 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Mirror.ServerDataReceivedEvent">
-  
-  
-  <h1 id="Mirror_ServerDataReceivedEvent" data-uid="Mirror.ServerDataReceivedEvent" class="text-break">Class ServerDataReceivedEvent
-  </h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">ServerDataReceivedEvent</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.html">Mirror</a></h6>
-  <h6><strong>Assembly</strong>: doc.dll</h6>
-  <h5 id="Mirror_ServerDataReceivedEvent_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ServerDataReceivedEvent : UnityEvent&lt;int, ArraySegment&lt;byte&gt;, int&gt;</code></pre>
-  </div>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="network-scene-checker">Network Scene Checker</h1>
+
+<p>The Network Match Checker component controls visibility of networked objects based on match id.</p>
+<p><img src="NetworkMatchChecker.png" alt="Network Scene Checker component"></p>
+<p>Any object with this component on it will only be visible to other objects in the same match.</p>
+<p>This would be used to isolate players to their respective matches within a single game server instance.</p>
+<p>When you create a match, generate and store, in a List for example, a new match id with <code>System.Guid.NewGuid();</code> and assign the same match id to the Network Scene Checker via <code>GetComponent&lt;NetworkMatchChecker&gt;().matchId</code>.</p>
+<p>Mirror's built-in Observers system will isolate SyncVar's and ClientRpc's on networked objects to only send updates to clients with the same match id.</p>
 </article>
           </div>
           
@@ -104,10 +93,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/new/7fb911a8a7812c61e6181a6d69d782bc1d75454c/apiSpec/new?filename=Mirror_ServerDataReceivedEvent.md&amp;value=---%0Auid%3A%20Mirror.ServerDataReceivedEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/7fb911a8a7812c61e6181a6d69d782bc1d75454c/Assets/Mirror/Runtime/Transport/Transport.cs/#L16" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/7fb911a8a7812c61e6181a6d69d782bc1d75454c/doc/Components/NetworkMatchChecker.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

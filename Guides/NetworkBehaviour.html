@@ -85,14 +85,14 @@
 <p><strong>Note:</strong> This is not a component that you can add to a game object directly. Instead, you must create a script which inherits from <code>NetworkBehaviour</code> (instead of the default <code>MonoBehaviour</code>), then you can add your script as a component to a game object.</p>
 <h2 id="properties">Properties</h2>
 <ul>
-<li><strong>isLocalPlayer</strong><br>
-Returns true if this game object represents the player created for this client.</li>
 <li><strong>isServer</strong><br>
 Returns true if this game object is running on the server, and has been spawned.</li>
 <li><strong>isClient</strong><br>
 Returns true if this game object is on the client and has been spawned by the server.</li>
+<li><strong>isLocalPlayer</strong><br>
+Returns true if this game object represents the player created for this client.</li>
 <li><strong>hasAuthority</strong><br>
-Returns true if this client has <a href="Authority.html">ownership</a> over this game object.  It is normally false in the server,  except if the server is also a client (host mode).</li>
+Returns true on the client if this client has <a href="Authority.html">authority</a> over this game object. It is meaningless in server context.</li>
 <li><strong>netId</strong><br>
 The unique network ID of this game object. The server assigns this at run time. It is unique for all game objects in that network session.</li>
 <li><strong>netIdentity</strong><br>
@@ -129,13 +129,13 @@ The NetworkConnection associated with the Network Identity component attached to
 </code></pre>
 <p>The built-in callbacks are:</p>
 <ul>
-<li><strong>OnStartServer</strong> called when a game object spawns on the server, or when the server is started for game objects in the Scene</li>
-<li><strong>OnStartClient</strong> called when the game object spawns on the client, or when the client connects to a server for game objects in the Scene</li>
-<li><strong>OnSerialize</strong> called to gather state to send from the server to clients</li>
-<li><strong>OnDeSerialize</strong> called to apply state to game objects on clients</li>
-<li><strong>OnNetworkDestroy</strong> called on clients when the server destroys the game object</li>
+<li><strong>OnStartServer</strong> called on server when a game object spawns on the server, or when the server is started for game objects in the Scene</li>
+<li><strong>OnStopServer</strong> called on server when a game object spawns on the server, or when the server is started for game objects in the Scene</li>
+<li><strong>OnStartClient</strong> called on clients when the game object spawns on the client, or when the client connects to a server for game objects in the Scene</li>
+<li><strong>OnStopClient</strong> called on clients when the server destroys the game object</li>
 <li><strong>OnStartLocalPlayer</strong> called on clients for player game objects on the local client (only)</li>
 <li><strong>OnStartAuthority</strong> called on clients for behaviours that have authority, based on context and hasAuthority.</li>
+<li><strong>OnStopAuthority</strong> called on clients for behaviours when authority is removed.</li>
 </ul>
 <p>Note that in a peer-hosted setup, when one of the clients is acting as both host and client, both <code>OnStartServer</code> and <code>OnStartClient</code> are called on the same game object. Both these functions are useful for actions that are specific to either the client or server, such as suppressing effects on a server, or setting up client-side events.</p>
 <h2 id="server-and-client-functions">Server and Client functions</h2>
@@ -183,7 +183,7 @@ The NetworkConnection associated with the Network Identity component attached to
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/9ead8e8d1a7dbbc6fd1d6a3eb1df4284d2ee64a3/doc/Guides/NetworkBehaviour.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/7fb911a8a7812c61e6181a6d69d782bc1d75454c/doc/Guides/NetworkBehaviour.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

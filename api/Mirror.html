@@ -164,6 +164,11 @@ present the data in a friendly way to the user</p>
       <section><p>An extension for the NetworkManager that displays a default HUD for controlling the network state of the game.</p>
 <p>This component also shows useful internal state for the networking system in the inspector window of the editor. It allows users to view connections, networked objects, message handlers, and packet statistics. This information can be helpful when debugging networked games.</p>
 </section>
+      <h4><a class="xref" href="Mirror.NetworkMatchChecker.html">NetworkMatchChecker</a></h4>
+      <section><p>Component that controls visibility of networked objects based on match id.</p>
+<p>Any object with this component on it will only be visible to other objects in the same match.</p>
+<p>This would be used to isolate players to their respective matches within a single game server instance. </p>
+</section>
       <h4><a class="xref" href="Mirror.NetworkProximityChecker.html">NetworkProximityChecker</a></h4>
       <section><p>Component that controls visibility of networked objects for players.</p>
 <p>Any object with this component on it will not be visible to players more than a (configurable) distance away.</p>
