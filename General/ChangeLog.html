@@ -85,9 +85,11 @@
 <ul>
 <li>Added: <a href="../Components/NetworkMatchChecker.html">NetworkMatchChecker</a> component. Use this component to create many concurrent isolated matches within a single game server.</li>
 <li>Added: <a href="../Guides/Sync/SyncLists.html">SyncLists</a> now have Find and FindAll functions.</li>
+<li>Added: NetworkBehaviour now has OnStopServer and OnStopClient virtual methods</li>
 <li>Added: Weaver now supports custom Reader &amp; Writer for types in other assemblies</li>
 <li>Fixed: NetworkAnimator no longer double-fires SetTrigger / ResetTrigger on the host client</li>
 <li>Fixed: Destroy is no longer invoked twice on the server for the player object.</li>
+<li>Changed: NetworkBehaviour: <code>OnNetworkDestroy</code> was renamed to <code>OnStopClient</code>.</li>
 <li>Changed: <strong>Breaking</strong> NetworkBehaviour: <code>OnRebuildObservers</code>, <code>OnCheckObserver</code>, and <code>OnSetHostVisibility</code> were moved to a separate class called <code>NetworkVisibility</code></li>
 </ul>
 <h2 id="version-1142---2020-apr-03">Version 11.4.2 - 2020-Apr-03</h2>
@@ -451,7 +453,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/7fb911a8a7812c61e6181a6d69d782bc1d75454c/doc/General/ChangeLog.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/de75b22894b444341cf58f9af85887e983e080b1/doc/General/ChangeLog.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

@@ -1509,6 +1509,19 @@ references:
   isSpec: "True"
   fullName: Mirror.ISyncObject.OnSerializeDelta
   nameWithType: ISyncObject.OnSerializeDelta
+- uid: Mirror.ISyncObject.Reset
+  name: Reset()
+  href: api/Mirror.ISyncObject.html#Mirror_ISyncObject_Reset
+  commentId: M:Mirror.ISyncObject.Reset
+  fullName: Mirror.ISyncObject.Reset()
+  nameWithType: ISyncObject.Reset()
+- uid: Mirror.ISyncObject.Reset*
+  name: Reset
+  href: api/Mirror.ISyncObject.html#Mirror_ISyncObject_Reset_
+  commentId: Overload:Mirror.ISyncObject.Reset
+  isSpec: "True"
+  fullName: Mirror.ISyncObject.Reset
+  nameWithType: ISyncObject.Reset
 - uid: Mirror.IVisibilityTracker
   name: IVisibilityTracker
   href: api/Mirror.IVisibilityTracker.html
@@ -7790,6 +7803,23 @@ references:
   fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).Remove
   nameWithType: SyncIDictionary<TKey, TValue>.Remove
   nameWithType.vb: SyncIDictionary(Of TKey, TValue).Remove
+- uid: Mirror.SyncIDictionary`2.Reset
+  name: Reset()
+  href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_Reset
+  commentId: M:Mirror.SyncIDictionary`2.Reset
+  fullName: Mirror.SyncIDictionary<TKey, TValue>.Reset()
+  fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).Reset()
+  nameWithType: SyncIDictionary<TKey, TValue>.Reset()
+  nameWithType.vb: SyncIDictionary(Of TKey, TValue).Reset()
+- uid: Mirror.SyncIDictionary`2.Reset*
+  name: Reset
+  href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_Reset_
+  commentId: Overload:Mirror.SyncIDictionary`2.Reset
+  isSpec: "True"
+  fullName: Mirror.SyncIDictionary<TKey, TValue>.Reset
+  fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).Reset
+  nameWithType: SyncIDictionary<TKey, TValue>.Reset
+  nameWithType.vb: SyncIDictionary(Of TKey, TValue).Reset
 - uid: Mirror.SyncIDictionary`2.SerializeItem(Mirror.NetworkWriter,`1)
   name: SerializeItem(NetworkWriter, TValue)
   href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_SerializeItem_Mirror_NetworkWriter__1_
@@ -8409,6 +8439,23 @@ references:
   fullName.vb: Mirror.SyncList(Of T).RemoveAt
   nameWithType: SyncList<T>.RemoveAt
   nameWithType.vb: SyncList(Of T).RemoveAt
+- uid: Mirror.SyncList`1.Reset
+  name: Reset()
+  href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_Reset
+  commentId: M:Mirror.SyncList`1.Reset
+  fullName: Mirror.SyncList<T>.Reset()
+  fullName.vb: Mirror.SyncList(Of T).Reset()
+  nameWithType: SyncList<T>.Reset()
+  nameWithType.vb: SyncList(Of T).Reset()
+- uid: Mirror.SyncList`1.Reset*
+  name: Reset
+  href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_Reset_
+  commentId: Overload:Mirror.SyncList`1.Reset
+  isSpec: "True"
+  fullName: Mirror.SyncList<T>.Reset
+  fullName.vb: Mirror.SyncList(Of T).Reset
+  nameWithType: SyncList<T>.Reset
+  nameWithType.vb: SyncList(Of T).Reset
 - uid: Mirror.SyncList`1.SerializeItem(Mirror.NetworkWriter,`0)
   name: SerializeItem(NetworkWriter, T)
   href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_SerializeItem_Mirror_NetworkWriter__0_
@@ -9053,6 +9100,23 @@ references:
   fullName.vb: Mirror.SyncSet(Of T).Remove
   nameWithType: SyncSet<T>.Remove
   nameWithType.vb: SyncSet(Of T).Remove
+- uid: Mirror.SyncSet`1.Reset
+  name: Reset()
+  href: api/Mirror.SyncSet-1.html#Mirror_SyncSet_1_Reset
+  commentId: M:Mirror.SyncSet`1.Reset
+  fullName: Mirror.SyncSet<T>.Reset()
+  fullName.vb: Mirror.SyncSet(Of T).Reset()
+  nameWithType: SyncSet<T>.Reset()
+  nameWithType.vb: SyncSet(Of T).Reset()
+- uid: Mirror.SyncSet`1.Reset*
+  name: Reset
+  href: api/Mirror.SyncSet-1.html#Mirror_SyncSet_1_Reset_
+  commentId: Overload:Mirror.SyncSet`1.Reset
+  isSpec: "True"
+  fullName: Mirror.SyncSet<T>.Reset
+  fullName.vb: Mirror.SyncSet(Of T).Reset
+  nameWithType: SyncSet<T>.Reset
+  nameWithType.vb: SyncSet(Of T).Reset
 - uid: Mirror.SyncSet`1.SerializeItem(Mirror.NetworkWriter,`0)
   name: SerializeItem(NetworkWriter, T)
   href: api/Mirror.SyncSet-1.html#Mirror_SyncSet_1_SerializeItem_Mirror_NetworkWriter__0_
