@@ -209,14 +209,14 @@ public  class MyBehaviour : NetworkBehaviour
     // your code
 }
 </code></pre>
-<p>In your newly Mirror-capable NetworkManager, if you are using the <code>OnServerAddPlayer</code> override, remove the &quot;playerControllerId&quot; parameter from your override and the base call, and change the <code>NetworkReader</code> into <code>AddPlayerMessage</code>:</p>
-<pre><code class="lang-cs">public override void OnServerAddPlayer(NetworkConnection conn, AddPlayerMessage extraMessage)
+<p>In your newly Mirror-capable NetworkManager, if you are using the <code>OnServerAddPlayer</code> override, remove the &quot;playerControllerId&quot; and &quot;extraMessageReader&quot; parameters from your override and the base call:</p>
+<pre><code class="lang-cs">public override void OnServerAddPlayer(NetworkConnection conn)
 {
-    base.OnServerAddPlayer(conn, extraMessage);
+    base.OnServerAddPlayer(conn);
     // your code
 }
 </code></pre>
-<p>Note that in UNet the parameter &quot;extraMessageReader&quot; is optional, but in Mirror it is required.</p>
+<p>See <a href="../Guides/GameObjects/SpawnPlayerCustom.html">Custom Player Spawn Guide</a> for details on how to submit custom characters now.</p>
 <h3 id="11-pick-your-transport">11. Pick your transport</h3>
 <p>You can choose one of several transports in Mirror.  Open your NetworkManager gameobject,   in the inspector you will see a <code>TelepathyTransport</code> component by default.  Drag in one of the available transports and remove <code>TelepathyTransport</code> if you wish to use a UDP based transport instead.</p>
 <h3 id="12-configure-address-and-port">12. Configure address and port</h3>
@@ -247,7 +247,7 @@ public  class MyBehaviour : NetworkBehaviour
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/77846315624a182faff453db3abc73038d81b806/doc/General/Migration.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/5ee5f11562fb416de79715de0069f24b20b30ace/doc/General/Migration.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
