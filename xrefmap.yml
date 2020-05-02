@@ -3723,32 +3723,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.OnServerChangeScene
   nameWithType: NetworkManager.OnServerChangeScene
-- uid: Mirror.NetworkManager.OnServerReady(Mirror.INetworkConnection)
-  name: OnServerReady(INetworkConnection)
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnServerReady_Mirror_INetworkConnection_
-  commentId: M:Mirror.NetworkManager.OnServerReady(Mirror.INetworkConnection)
-  fullName: Mirror.NetworkManager.OnServerReady(Mirror.INetworkConnection)
-  nameWithType: NetworkManager.OnServerReady(INetworkConnection)
-- uid: Mirror.NetworkManager.OnServerReady*
-  name: OnServerReady
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnServerReady_
-  commentId: Overload:Mirror.NetworkManager.OnServerReady
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.OnServerReady
-  nameWithType: NetworkManager.OnServerReady
-- uid: Mirror.NetworkManager.OnServerRemovePlayer(Mirror.INetworkConnection,Mirror.NetworkIdentity)
-  name: OnServerRemovePlayer(INetworkConnection, NetworkIdentity)
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnServerRemovePlayer_Mirror_INetworkConnection_Mirror_NetworkIdentity_
-  commentId: M:Mirror.NetworkManager.OnServerRemovePlayer(Mirror.INetworkConnection,Mirror.NetworkIdentity)
-  fullName: Mirror.NetworkManager.OnServerRemovePlayer(Mirror.INetworkConnection, Mirror.NetworkIdentity)
-  nameWithType: NetworkManager.OnServerRemovePlayer(INetworkConnection, NetworkIdentity)
-- uid: Mirror.NetworkManager.OnServerRemovePlayer*
-  name: OnServerRemovePlayer
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnServerRemovePlayer_
-  commentId: Overload:Mirror.NetworkManager.OnServerRemovePlayer
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.OnServerRemovePlayer
-  nameWithType: NetworkManager.OnServerRemovePlayer
 - uid: Mirror.NetworkManager.OnServerSceneChanged(System.String)
   name: OnServerSceneChanged(String)
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnServerSceneChanged_System_String_
