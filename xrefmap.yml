@@ -3949,36 +3949,6 @@ references:
   commentId: F:Mirror.NetworkManagerHUD.showGUI
   fullName: Mirror.NetworkManagerHUD.showGUI
   nameWithType: NetworkManagerHUD.showGUI
-- uid: Mirror.NetworkManagerMode
-  name: NetworkManagerMode
-  href: api/Mirror.NetworkManagerMode.html
-  commentId: T:Mirror.NetworkManagerMode
-  fullName: Mirror.NetworkManagerMode
-  nameWithType: NetworkManagerMode
-- uid: Mirror.NetworkManagerMode.ClientOnly
-  name: ClientOnly
-  href: api/Mirror.NetworkManagerMode.html#Mirror_NetworkManagerMode_ClientOnly
-  commentId: F:Mirror.NetworkManagerMode.ClientOnly
-  fullName: Mirror.NetworkManagerMode.ClientOnly
-  nameWithType: NetworkManagerMode.ClientOnly
-- uid: Mirror.NetworkManagerMode.Host
-  name: Host
-  href: api/Mirror.NetworkManagerMode.html#Mirror_NetworkManagerMode_Host
-  commentId: F:Mirror.NetworkManagerMode.Host
-  fullName: Mirror.NetworkManagerMode.Host
-  nameWithType: NetworkManagerMode.Host
-- uid: Mirror.NetworkManagerMode.Offline
-  name: Offline
-  href: api/Mirror.NetworkManagerMode.html#Mirror_NetworkManagerMode_Offline
-  commentId: F:Mirror.NetworkManagerMode.Offline
-  fullName: Mirror.NetworkManagerMode.Offline
-  nameWithType: NetworkManagerMode.Offline
-- uid: Mirror.NetworkManagerMode.ServerOnly
-  name: ServerOnly
-  href: api/Mirror.NetworkManagerMode.html#Mirror_NetworkManagerMode_ServerOnly
-  commentId: F:Mirror.NetworkManagerMode.ServerOnly
-  fullName: Mirror.NetworkManagerMode.ServerOnly
-  nameWithType: NetworkManagerMode.ServerOnly
 - uid: Mirror.NetworkMatchChecker
   name: NetworkMatchChecker
   href: api/Mirror.NetworkMatchChecker.html
