@@ -5,9 +5,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Changing playerController to identity </title>
+    <title>Interface IClientSceneManager
+   </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Changing playerController to identity ">
+    <meta name="title" content="Interface IClientSceneManager
+   ">
     <meta name="generator" content="docfx 2.45.1.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -76,37 +78,36 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="">
-<h1 id="changing-playercontroller-to-identity">Changing playerController to identity</h1>
-
-<p>If you need to fix up a project after <code>NetworkConnection.playerController</code> was changed to <code>identity</code> these instructions should be helpful.</p>
-<ol>
-<li>Open your Unity project and look for Assets/Mirror/Runtime/<strong>NetworkConnection</strong>:</li>
-</ol>
-<p><img src="pc2i-1.png" alt="Project window in Unity"></p>
-<ol start="2">
-<li>Open this file in Visual Studio or Visual Code from Unity and look for these lines:</li>
-</ol>
-<p><img src="pc2i-2.png" alt="Code snip in NetworkConnection.cs"></p>
-<p>The line numbers could be off a bit if minor file changes happen above them after this document was written.</p>
-<ol start="3">
-<li>Comment the last line shown:</li>
-</ol>
-<pre><code class="lang-cs">    // public NetworkIdentity identity { get; internal set; }
-</code></pre>
-<ol start="4">
-<li>Double-click and then right-click <code>playerController</code> and select Rename:</li>
-</ol>
-<p><img src="pc2i-3.png" alt="Start of Rename process"></p>
-<ol start="5">
-<li>Change <code>playerController</code> to <code>identity</code> and click Apply:</li>
-</ol>
-<p><img src="pc2i-4.png" alt="Finishing the Rename process"></p>
-<p>Visual Studio will now have applied the change throughout your project, but you're not done yet!</p>
-<p>Without using the replace feature this time, simply retype the name back to <code>playerController</code> and un-comment the last line in the code image that you commented out in step 3.</p>
-<p>Your code should now look like the code image again.</p>
-<p><img src="pc2i-2.png" alt="Code snip in NetworkConnection.cs"></p>
-<p><strong>Save your work!</strong></p>
+            <article class="content wrap" id="_content" data-uid="Mirror.IClientSceneManager">
+  
+  
+  <h1 id="Mirror_IClientSceneManager" data-uid="Mirror.IClientSceneManager" class="text-break">Interface IClientSceneManager
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.html">Mirror</a></h6>
+  <h6><strong>Assembly</strong>: doc.dll</h6>
+  <h5 id="Mirror_IClientSceneManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IClientSceneManager</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/869506df136ebaaf31a3e0f78f8d9699e36d0c13/apiSpec/new?filename=Mirror_IClientSceneManager_PrepareToSpawnSceneObjects.md&amp;value=---%0Auid%3A%20Mirror.IClientSceneManager.PrepareToSpawnSceneObjects%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/869506df136ebaaf31a3e0f78f8d9699e36d0c13/Assets/Mirror/Runtime/INetworkClient.cs/#L36">View Source</a>
+  </span>
+  <a id="Mirror_IClientSceneManager_PrepareToSpawnSceneObjects_" data-uid="Mirror.IClientSceneManager.PrepareToSpawnSceneObjects*"></a>
+  <h4 id="Mirror_IClientSceneManager_PrepareToSpawnSceneObjects" data-uid="Mirror.IClientSceneManager.PrepareToSpawnSceneObjects">PrepareToSpawnSceneObjects()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void PrepareToSpawnSceneObjects()</code></pre>
+  </div>
 </article>
           </div>
           
@@ -115,7 +116,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/869506df136ebaaf31a3e0f78f8d9699e36d0c13/doc/General/PlayerControllerToIdentity.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/new/869506df136ebaaf31a3e0f78f8d9699e36d0c13/apiSpec/new?filename=Mirror_IClientSceneManager.md&amp;value=---%0Auid%3A%20Mirror.IClientSceneManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/869506df136ebaaf31a3e0f78f8d9699e36d0c13/Assets/Mirror/Runtime/INetworkClient.cs/#L34" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
