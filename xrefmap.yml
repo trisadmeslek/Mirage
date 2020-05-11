@@ -1563,6 +1563,147 @@ references:
   isSpec: "True"
   fullName: Mirror.INetworkConnection.IsReady
   nameWithType: INetworkConnection.IsReady
+- uid: Mirror.INetworkServer
+  name: INetworkServer
+  href: api/Mirror.INetworkServer.html
+  commentId: T:Mirror.INetworkServer
+  fullName: Mirror.INetworkServer
+  nameWithType: INetworkServer
+- uid: Mirror.INetworkServer.AddConnection(Mirror.INetworkConnection)
+  name: AddConnection(INetworkConnection)
+  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_AddConnection_Mirror_INetworkConnection_
+  commentId: M:Mirror.INetworkServer.AddConnection(Mirror.INetworkConnection)
+  fullName: Mirror.INetworkServer.AddConnection(Mirror.INetworkConnection)
+  nameWithType: INetworkServer.AddConnection(INetworkConnection)
+- uid: Mirror.INetworkServer.AddConnection*
+  name: AddConnection
+  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_AddConnection_
+  commentId: Overload:Mirror.INetworkServer.AddConnection
+  isSpec: "True"
+  fullName: Mirror.INetworkServer.AddConnection
+  nameWithType: INetworkServer.AddConnection
+- uid: Mirror.INetworkServer.Disconnect
+  name: Disconnect()
+  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_Disconnect
+  commentId: M:Mirror.INetworkServer.Disconnect
+  fullName: Mirror.INetworkServer.Disconnect()
+  nameWithType: INetworkServer.Disconnect()
+- uid: Mirror.INetworkServer.Disconnect*
+  name: Disconnect
+  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_Disconnect_
+  commentId: Overload:Mirror.INetworkServer.Disconnect
+  isSpec: "True"
+  fullName: Mirror.INetworkServer.Disconnect
+  nameWithType: INetworkServer.Disconnect
+- uid: Mirror.INetworkServer.RemoveConnection(Mirror.INetworkConnection)
+  name: RemoveConnection(INetworkConnection)
+  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_RemoveConnection_Mirror_INetworkConnection_
+  commentId: M:Mirror.INetworkServer.RemoveConnection(Mirror.INetworkConnection)
+  fullName: Mirror.INetworkServer.RemoveConnection(Mirror.INetworkConnection)
+  nameWithType: INetworkServer.RemoveConnection(INetworkConnection)
+- uid: Mirror.INetworkServer.RemoveConnection*
+  name: RemoveConnection
+  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_RemoveConnection_
+  commentId: Overload:Mirror.INetworkServer.RemoveConnection
+  isSpec: "True"
+  fullName: Mirror.INetworkServer.RemoveConnection
+  nameWithType: INetworkServer.RemoveConnection
+- uid: Mirror.INetworkServer.SendToAll*
+  name: SendToAll
+  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SendToAll_
+  commentId: Overload:Mirror.INetworkServer.SendToAll
+  isSpec: "True"
+  fullName: Mirror.INetworkServer.SendToAll
+  nameWithType: INetworkServer.SendToAll
+- uid: Mirror.INetworkServer.SendToAll``1(``0,System.Int32)
+  name: SendToAll<T>(T, Int32)
+  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SendToAll__1___0_System_Int32_
+  commentId: M:Mirror.INetworkServer.SendToAll``1(``0,System.Int32)
+  name.vb: SendToAll(Of T)(T, Int32)
+  fullName: Mirror.INetworkServer.SendToAll<T>(T, System.Int32)
+  fullName.vb: Mirror.INetworkServer.SendToAll(Of T)(T, System.Int32)
+  nameWithType: INetworkServer.SendToAll<T>(T, Int32)
+  nameWithType.vb: INetworkServer.SendToAll(Of T)(T, Int32)
+- uid: Mirror.INetworkServer.SendToClientOfPlayer*
+  name: SendToClientOfPlayer
+  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SendToClientOfPlayer_
+  commentId: Overload:Mirror.INetworkServer.SendToClientOfPlayer
+  isSpec: "True"
+  fullName: Mirror.INetworkServer.SendToClientOfPlayer
+  nameWithType: INetworkServer.SendToClientOfPlayer
+- uid: Mirror.INetworkServer.SendToClientOfPlayer``1(Mirror.NetworkIdentity,``0,System.Int32)
+  name: SendToClientOfPlayer<T>(NetworkIdentity, T, Int32)
+  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SendToClientOfPlayer__1_Mirror_NetworkIdentity___0_System_Int32_
+  commentId: M:Mirror.INetworkServer.SendToClientOfPlayer``1(Mirror.NetworkIdentity,``0,System.Int32)
+  name.vb: SendToClientOfPlayer(Of T)(NetworkIdentity, T, Int32)
+  fullName: Mirror.INetworkServer.SendToClientOfPlayer<T>(Mirror.NetworkIdentity, T, System.Int32)
+  fullName.vb: Mirror.INetworkServer.SendToClientOfPlayer(Of T)(Mirror.NetworkIdentity, T, System.Int32)
+  nameWithType: INetworkServer.SendToClientOfPlayer<T>(NetworkIdentity, T, Int32)
+  nameWithType.vb: INetworkServer.SendToClientOfPlayer(Of T)(NetworkIdentity, T, Int32)
+- uid: Mirror.INetworkServer.SendToReady*
+  name: SendToReady
+  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SendToReady_
+  commentId: Overload:Mirror.INetworkServer.SendToReady
+  isSpec: "True"
+  fullName: Mirror.INetworkServer.SendToReady
+  nameWithType: INetworkServer.SendToReady
+- uid: Mirror.INetworkServer.SendToReady``1(Mirror.NetworkIdentity,``0,System.Boolean,System.Int32)
+  name: SendToReady<T>(NetworkIdentity, T, Boolean, Int32)
+  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SendToReady__1_Mirror_NetworkIdentity___0_System_Boolean_System_Int32_
+  commentId: M:Mirror.INetworkServer.SendToReady``1(Mirror.NetworkIdentity,``0,System.Boolean,System.Int32)
+  name.vb: SendToReady(Of T)(NetworkIdentity, T, Boolean, Int32)
+  fullName: Mirror.INetworkServer.SendToReady<T>(Mirror.NetworkIdentity, T, System.Boolean, System.Int32)
+  fullName.vb: Mirror.INetworkServer.SendToReady(Of T)(Mirror.NetworkIdentity, T, System.Boolean, System.Int32)
+  nameWithType: INetworkServer.SendToReady<T>(NetworkIdentity, T, Boolean, Int32)
+  nameWithType.vb: INetworkServer.SendToReady(Of T)(NetworkIdentity, T, Boolean, Int32)
+- uid: Mirror.INetworkServer.SendToReady``1(Mirror.NetworkIdentity,``0,System.Int32)
+  name: SendToReady<T>(NetworkIdentity, T, Int32)
+  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SendToReady__1_Mirror_NetworkIdentity___0_System_Int32_
+  commentId: M:Mirror.INetworkServer.SendToReady``1(Mirror.NetworkIdentity,``0,System.Int32)
+  name.vb: SendToReady(Of T)(NetworkIdentity, T, Int32)
+  fullName: Mirror.INetworkServer.SendToReady<T>(Mirror.NetworkIdentity, T, System.Int32)
+  fullName.vb: Mirror.INetworkServer.SendToReady(Of T)(Mirror.NetworkIdentity, T, System.Int32)
+  nameWithType: INetworkServer.SendToReady<T>(NetworkIdentity, T, Int32)
+  nameWithType.vb: INetworkServer.SendToReady(Of T)(NetworkIdentity, T, Int32)
+- uid: Mirror.INetworkServer.SetAllClientsNotReady
+  name: SetAllClientsNotReady()
+  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SetAllClientsNotReady
+  commentId: M:Mirror.INetworkServer.SetAllClientsNotReady
+  fullName: Mirror.INetworkServer.SetAllClientsNotReady()
+  nameWithType: INetworkServer.SetAllClientsNotReady()
+- uid: Mirror.INetworkServer.SetAllClientsNotReady*
+  name: SetAllClientsNotReady
+  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SetAllClientsNotReady_
+  commentId: Overload:Mirror.INetworkServer.SetAllClientsNotReady
+  isSpec: "True"
+  fullName: Mirror.INetworkServer.SetAllClientsNotReady
+  nameWithType: INetworkServer.SetAllClientsNotReady
+- uid: Mirror.INetworkServer.SetClientNotReady(Mirror.INetworkConnection)
+  name: SetClientNotReady(INetworkConnection)
+  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SetClientNotReady_Mirror_INetworkConnection_
+  commentId: M:Mirror.INetworkServer.SetClientNotReady(Mirror.INetworkConnection)
+  fullName: Mirror.INetworkServer.SetClientNotReady(Mirror.INetworkConnection)
+  nameWithType: INetworkServer.SetClientNotReady(INetworkConnection)
+- uid: Mirror.INetworkServer.SetClientNotReady*
+  name: SetClientNotReady
+  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SetClientNotReady_
+  commentId: Overload:Mirror.INetworkServer.SetClientNotReady
+  isSpec: "True"
+  fullName: Mirror.INetworkServer.SetClientNotReady
+  nameWithType: INetworkServer.SetClientNotReady
+- uid: Mirror.INetworkServer.SetClientReady(Mirror.INetworkConnection)
+  name: SetClientReady(INetworkConnection)
+  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SetClientReady_Mirror_INetworkConnection_
+  commentId: M:Mirror.INetworkServer.SetClientReady(Mirror.INetworkConnection)
+  fullName: Mirror.INetworkServer.SetClientReady(Mirror.INetworkConnection)
+  nameWithType: INetworkServer.SetClientReady(INetworkConnection)
+- uid: Mirror.INetworkServer.SetClientReady*
+  name: SetClientReady
+  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SetClientReady_
+  commentId: Overload:Mirror.INetworkServer.SetClientReady
+  isSpec: "True"
+  fullName: Mirror.INetworkServer.SetClientReady
+  nameWithType: INetworkServer.SetClientReady
 - uid: Mirror.InvalidMessageException
   name: InvalidMessageException
   href: api/Mirror.InvalidMessageException.html
@@ -1658,6 +1799,114 @@ references:
   isSpec: "True"
   fullName: Mirror.IObjectOwner.RemoveOwnedObject
   nameWithType: IObjectOwner.RemoveOwnedObject
+- uid: Mirror.IServerObjectManager
+  name: IServerObjectManager
+  href: api/Mirror.IServerObjectManager.html
+  commentId: T:Mirror.IServerObjectManager
+  fullName: Mirror.IServerObjectManager
+  nameWithType: IServerObjectManager
+- uid: Mirror.IServerObjectManager.AddPlayerForConnection(Mirror.INetworkConnection,GameObject)
+  name: AddPlayerForConnection(INetworkConnection, GameObject)
+  href: api/Mirror.IServerObjectManager.html#Mirror_IServerObjectManager_AddPlayerForConnection_Mirror_INetworkConnection_GameObject_
+  commentId: M:Mirror.IServerObjectManager.AddPlayerForConnection(Mirror.INetworkConnection,GameObject)
+  fullName: Mirror.IServerObjectManager.AddPlayerForConnection(Mirror.INetworkConnection, GameObject)
+  nameWithType: IServerObjectManager.AddPlayerForConnection(INetworkConnection, GameObject)
+- uid: Mirror.IServerObjectManager.AddPlayerForConnection(Mirror.INetworkConnection,GameObject,Guid)
+  name: AddPlayerForConnection(INetworkConnection, GameObject, Guid)
+  href: api/Mirror.IServerObjectManager.html#Mirror_IServerObjectManager_AddPlayerForConnection_Mirror_INetworkConnection_GameObject_Guid_
+  commentId: M:Mirror.IServerObjectManager.AddPlayerForConnection(Mirror.INetworkConnection,GameObject,Guid)
+  fullName: Mirror.IServerObjectManager.AddPlayerForConnection(Mirror.INetworkConnection, GameObject, Guid)
+  nameWithType: IServerObjectManager.AddPlayerForConnection(INetworkConnection, GameObject, Guid)
+- uid: Mirror.IServerObjectManager.AddPlayerForConnection*
+  name: AddPlayerForConnection
+  href: api/Mirror.IServerObjectManager.html#Mirror_IServerObjectManager_AddPlayerForConnection_
+  commentId: Overload:Mirror.IServerObjectManager.AddPlayerForConnection
+  isSpec: "True"
+  fullName: Mirror.IServerObjectManager.AddPlayerForConnection
+  nameWithType: IServerObjectManager.AddPlayerForConnection
+- uid: Mirror.IServerObjectManager.Destroy(GameObject)
+  name: Destroy(GameObject)
+  href: api/Mirror.IServerObjectManager.html#Mirror_IServerObjectManager_Destroy_GameObject_
+  commentId: M:Mirror.IServerObjectManager.Destroy(GameObject)
+  fullName: Mirror.IServerObjectManager.Destroy(GameObject)
+  nameWithType: IServerObjectManager.Destroy(GameObject)
+- uid: Mirror.IServerObjectManager.Destroy*
+  name: Destroy
+  href: api/Mirror.IServerObjectManager.html#Mirror_IServerObjectManager_Destroy_
+  commentId: Overload:Mirror.IServerObjectManager.Destroy
+  isSpec: "True"
+  fullName: Mirror.IServerObjectManager.Destroy
+  nameWithType: IServerObjectManager.Destroy
+- uid: Mirror.IServerObjectManager.ReplacePlayerForConnection(Mirror.INetworkConnection,Mirror.NetworkClient,GameObject,Guid,System.Boolean)
+  name: ReplacePlayerForConnection(INetworkConnection, NetworkClient, GameObject, Guid, Boolean)
+  href: api/Mirror.IServerObjectManager.html#Mirror_IServerObjectManager_ReplacePlayerForConnection_Mirror_INetworkConnection_Mirror_NetworkClient_GameObject_Guid_System_Boolean_
+  commentId: M:Mirror.IServerObjectManager.ReplacePlayerForConnection(Mirror.INetworkConnection,Mirror.NetworkClient,GameObject,Guid,System.Boolean)
+  fullName: Mirror.IServerObjectManager.ReplacePlayerForConnection(Mirror.INetworkConnection, Mirror.NetworkClient, GameObject, Guid, System.Boolean)
+  nameWithType: IServerObjectManager.ReplacePlayerForConnection(INetworkConnection, NetworkClient, GameObject, Guid, Boolean)
+- uid: Mirror.IServerObjectManager.ReplacePlayerForConnection(Mirror.INetworkConnection,Mirror.NetworkClient,GameObject,System.Boolean)
+  name: ReplacePlayerForConnection(INetworkConnection, NetworkClient, GameObject, Boolean)
+  href: api/Mirror.IServerObjectManager.html#Mirror_IServerObjectManager_ReplacePlayerForConnection_Mirror_INetworkConnection_Mirror_NetworkClient_GameObject_System_Boolean_
+  commentId: M:Mirror.IServerObjectManager.ReplacePlayerForConnection(Mirror.INetworkConnection,Mirror.NetworkClient,GameObject,System.Boolean)
+  fullName: Mirror.IServerObjectManager.ReplacePlayerForConnection(Mirror.INetworkConnection, Mirror.NetworkClient, GameObject, System.Boolean)
+  nameWithType: IServerObjectManager.ReplacePlayerForConnection(INetworkConnection, NetworkClient, GameObject, Boolean)
+- uid: Mirror.IServerObjectManager.ReplacePlayerForConnection*
+  name: ReplacePlayerForConnection
+  href: api/Mirror.IServerObjectManager.html#Mirror_IServerObjectManager_ReplacePlayerForConnection_
+  commentId: Overload:Mirror.IServerObjectManager.ReplacePlayerForConnection
+  isSpec: "True"
+  fullName: Mirror.IServerObjectManager.ReplacePlayerForConnection
+  nameWithType: IServerObjectManager.ReplacePlayerForConnection
+- uid: Mirror.IServerObjectManager.Spawn(GameObject,GameObject)
+  name: Spawn(GameObject, GameObject)
+  href: api/Mirror.IServerObjectManager.html#Mirror_IServerObjectManager_Spawn_GameObject_GameObject_
+  commentId: M:Mirror.IServerObjectManager.Spawn(GameObject,GameObject)
+  fullName: Mirror.IServerObjectManager.Spawn(GameObject, GameObject)
+  nameWithType: IServerObjectManager.Spawn(GameObject, GameObject)
+- uid: Mirror.IServerObjectManager.Spawn(GameObject,Guid,Mirror.INetworkConnection)
+  name: Spawn(GameObject, Guid, INetworkConnection)
+  href: api/Mirror.IServerObjectManager.html#Mirror_IServerObjectManager_Spawn_GameObject_Guid_Mirror_INetworkConnection_
+  commentId: M:Mirror.IServerObjectManager.Spawn(GameObject,Guid,Mirror.INetworkConnection)
+  fullName: Mirror.IServerObjectManager.Spawn(GameObject, Guid, Mirror.INetworkConnection)
+  nameWithType: IServerObjectManager.Spawn(GameObject, Guid, INetworkConnection)
+- uid: Mirror.IServerObjectManager.Spawn(GameObject,Mirror.INetworkConnection)
+  name: Spawn(GameObject, INetworkConnection)
+  href: api/Mirror.IServerObjectManager.html#Mirror_IServerObjectManager_Spawn_GameObject_Mirror_INetworkConnection_
+  commentId: M:Mirror.IServerObjectManager.Spawn(GameObject,Mirror.INetworkConnection)
+  fullName: Mirror.IServerObjectManager.Spawn(GameObject, Mirror.INetworkConnection)
+  nameWithType: IServerObjectManager.Spawn(GameObject, INetworkConnection)
+- uid: Mirror.IServerObjectManager.Spawn*
+  name: Spawn
+  href: api/Mirror.IServerObjectManager.html#Mirror_IServerObjectManager_Spawn_
+  commentId: Overload:Mirror.IServerObjectManager.Spawn
+  isSpec: "True"
+  fullName: Mirror.IServerObjectManager.Spawn
+  nameWithType: IServerObjectManager.Spawn
+- uid: Mirror.IServerObjectManager.SpawnObjects
+  name: SpawnObjects()
+  href: api/Mirror.IServerObjectManager.html#Mirror_IServerObjectManager_SpawnObjects
+  commentId: M:Mirror.IServerObjectManager.SpawnObjects
+  fullName: Mirror.IServerObjectManager.SpawnObjects()
+  nameWithType: IServerObjectManager.SpawnObjects()
+- uid: Mirror.IServerObjectManager.SpawnObjects*
+  name: SpawnObjects
+  href: api/Mirror.IServerObjectManager.html#Mirror_IServerObjectManager_SpawnObjects_
+  commentId: Overload:Mirror.IServerObjectManager.SpawnObjects
+  isSpec: "True"
+  fullName: Mirror.IServerObjectManager.SpawnObjects
+  nameWithType: IServerObjectManager.SpawnObjects
+- uid: Mirror.IServerObjectManager.UnSpawn(GameObject)
+  name: UnSpawn(GameObject)
+  href: api/Mirror.IServerObjectManager.html#Mirror_IServerObjectManager_UnSpawn_GameObject_
+  commentId: M:Mirror.IServerObjectManager.UnSpawn(GameObject)
+  fullName: Mirror.IServerObjectManager.UnSpawn(GameObject)
+  nameWithType: IServerObjectManager.UnSpawn(GameObject)
+- uid: Mirror.IServerObjectManager.UnSpawn*
+  name: UnSpawn
+  href: api/Mirror.IServerObjectManager.html#Mirror_IServerObjectManager_UnSpawn_
+  commentId: Overload:Mirror.IServerObjectManager.UnSpawn
+  isSpec: "True"
+  fullName: Mirror.IServerObjectManager.UnSpawn
+  nameWithType: IServerObjectManager.UnSpawn
 - uid: Mirror.ISyncObject
   name: ISyncObject
   href: api/Mirror.ISyncObject.html
