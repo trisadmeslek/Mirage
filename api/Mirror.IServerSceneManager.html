@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct ObjectSpawnFinishedMessage
+    <title>Interface IServerSceneManager
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct ObjectSpawnFinishedMessage
+    <meta name="title" content="Interface IServerSceneManager
    ">
     <meta name="generator" content="docfx 2.45.1.0">
     
@@ -78,39 +78,35 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Mirror.ObjectSpawnFinishedMessage">
+            <article class="content wrap" id="_content" data-uid="Mirror.IServerSceneManager">
   
   
-  <h1 id="Mirror_ObjectSpawnFinishedMessage" data-uid="Mirror.ObjectSpawnFinishedMessage" class="text-break">Struct ObjectSpawnFinishedMessage
+  <h1 id="Mirror_IServerSceneManager" data-uid="Mirror.IServerSceneManager" class="text-break">Interface IServerSceneManager
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="Mirror.IMessageBase.html">IMessageBase</a></div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.html">Mirror</a></h6>
   <h6><strong>Assembly</strong>: doc.dll</h6>
-  <h5 id="Mirror_ObjectSpawnFinishedMessage_syntax">Syntax</h5>
+  <h5 id="Mirror_IServerSceneManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct ObjectSpawnFinishedMessage : IMessageBase</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IServerSceneManager</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/25d10de2754472daf8f822f5fa8920d0dc0b2b94/apiSpec/new?filename=Mirror_ObjectSpawnFinishedMessage_Deserialize_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.ObjectSpawnFinishedMessage.Deserialize(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/25d10de2754472daf8f822f5fa8920d0dc0b2b94/apiSpec/new?filename=Mirror_IServerSceneManager_OnServerChangeScene_System_String_.md&amp;value=---%0Auid%3A%20Mirror.IServerSceneManager.OnServerChangeScene(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/25d10de2754472daf8f822f5fa8920d0dc0b2b94/Assets/Mirror/Runtime/Messages.cs/#L223">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/25d10de2754472daf8f822f5fa8920d0dc0b2b94/Assets/Mirror/Runtime/INetworkServer.cs/#L31">View Source</a>
   </span>
-  <a id="Mirror_ObjectSpawnFinishedMessage_Deserialize_" data-uid="Mirror.ObjectSpawnFinishedMessage.Deserialize*"></a>
-  <h4 id="Mirror_ObjectSpawnFinishedMessage_Deserialize_Mirror_NetworkReader_" data-uid="Mirror.ObjectSpawnFinishedMessage.Deserialize(Mirror.NetworkReader)">Deserialize(NetworkReader)</h4>
+  <a id="Mirror_IServerSceneManager_OnServerChangeScene_" data-uid="Mirror.IServerSceneManager.OnServerChangeScene*"></a>
+  <h4 id="Mirror_IServerSceneManager_OnServerChangeScene_System_String_" data-uid="Mirror.IServerSceneManager.OnServerChangeScene(System.String)">OnServerChangeScene(String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Deserialize(NetworkReader reader)</code></pre>
+    <pre><code class="lang-csharp hljs">void OnServerChangeScene(string newSceneName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -123,26 +119,26 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
-        <td><span class="parametername">reader</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">newSceneName</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/25d10de2754472daf8f822f5fa8920d0dc0b2b94/apiSpec/new?filename=Mirror_ObjectSpawnFinishedMessage_Serialize_Mirror_NetworkWriter_.md&amp;value=---%0Auid%3A%20Mirror.ObjectSpawnFinishedMessage.Serialize(Mirror.NetworkWriter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/25d10de2754472daf8f822f5fa8920d0dc0b2b94/apiSpec/new?filename=Mirror_IServerSceneManager_OnServerSceneChanged_System_String_.md&amp;value=---%0Auid%3A%20Mirror.IServerSceneManager.OnServerSceneChanged(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/25d10de2754472daf8f822f5fa8920d0dc0b2b94/Assets/Mirror/Runtime/Messages.cs/#L225">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/25d10de2754472daf8f822f5fa8920d0dc0b2b94/Assets/Mirror/Runtime/INetworkServer.cs/#L33">View Source</a>
   </span>
-  <a id="Mirror_ObjectSpawnFinishedMessage_Serialize_" data-uid="Mirror.ObjectSpawnFinishedMessage.Serialize*"></a>
-  <h4 id="Mirror_ObjectSpawnFinishedMessage_Serialize_Mirror_NetworkWriter_" data-uid="Mirror.ObjectSpawnFinishedMessage.Serialize(Mirror.NetworkWriter)">Serialize(NetworkWriter)</h4>
+  <a id="Mirror_IServerSceneManager_OnServerSceneChanged_" data-uid="Mirror.IServerSceneManager.OnServerSceneChanged*"></a>
+  <h4 id="Mirror_IServerSceneManager_OnServerSceneChanged_System_String_" data-uid="Mirror.IServerSceneManager.OnServerSceneChanged(System.String)">OnServerSceneChanged(String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Serialize(NetworkWriter writer)</code></pre>
+    <pre><code class="lang-csharp hljs">void OnServerSceneChanged(string sceneName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -155,16 +151,12 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirror.NetworkWriter.html">NetworkWriter</a></td>
-        <td><span class="parametername">writer</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">sceneName</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Mirror.IMessageBase.html">IMessageBase</a>
-  </div>
 </article>
           </div>
           
@@ -173,10 +165,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/new/25d10de2754472daf8f822f5fa8920d0dc0b2b94/apiSpec/new?filename=Mirror_ObjectSpawnFinishedMessage.md&amp;value=---%0Auid%3A%20Mirror.ObjectSpawnFinishedMessage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/new/25d10de2754472daf8f822f5fa8920d0dc0b2b94/apiSpec/new?filename=Mirror_IServerSceneManager.md&amp;value=---%0Auid%3A%20Mirror.IServerSceneManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/25d10de2754472daf8f822f5fa8920d0dc0b2b94/Assets/Mirror/Runtime/Messages.cs/#L221" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/25d10de2754472daf8f822f5fa8920d0dc0b2b94/Assets/Mirror/Runtime/INetworkServer.cs/#L29" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
