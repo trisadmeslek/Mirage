@@ -292,6 +292,19 @@ references:
   isSpec: "True"
   fullName: Mirror.AsyncTcp.AsyncTcpTransport.ListenAsync
   nameWithType: AsyncTcpTransport.ListenAsync
+- uid: Mirror.AsyncTcp.AsyncTcpTransport.OnApplicationQuit
+  name: OnApplicationQuit()
+  href: api/Mirror.AsyncTcp.AsyncTcpTransport.html#Mirror_AsyncTcp_AsyncTcpTransport_OnApplicationQuit
+  commentId: M:Mirror.AsyncTcp.AsyncTcpTransport.OnApplicationQuit
+  fullName: Mirror.AsyncTcp.AsyncTcpTransport.OnApplicationQuit()
+  nameWithType: AsyncTcpTransport.OnApplicationQuit()
+- uid: Mirror.AsyncTcp.AsyncTcpTransport.OnApplicationQuit*
+  name: OnApplicationQuit
+  href: api/Mirror.AsyncTcp.AsyncTcpTransport.html#Mirror_AsyncTcp_AsyncTcpTransport_OnApplicationQuit_
+  commentId: Overload:Mirror.AsyncTcp.AsyncTcpTransport.OnApplicationQuit
+  isSpec: "True"
+  fullName: Mirror.AsyncTcp.AsyncTcpTransport.OnApplicationQuit
+  nameWithType: AsyncTcpTransport.OnApplicationQuit
 - uid: Mirror.AsyncTcp.AsyncTcpTransport.Port
   name: Port
   href: api/Mirror.AsyncTcp.AsyncTcpTransport.html#Mirror_AsyncTcp_AsyncTcpTransport_Port
