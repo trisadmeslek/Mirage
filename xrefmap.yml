@@ -1265,6 +1265,32 @@ references:
   commentId: T:Mirror.ILoggerExtensions
   fullName: Mirror.ILoggerExtensions
   nameWithType: ILoggerExtensions
+- uid: Mirror.ILoggerExtensions.Assert(ILogger,System.Boolean,System.String)
+  name: Assert(ILogger, Boolean, String)
+  href: api/Mirror.ILoggerExtensions.html#Mirror_ILoggerExtensions_Assert_ILogger_System_Boolean_System_String_
+  commentId: M:Mirror.ILoggerExtensions.Assert(ILogger,System.Boolean,System.String)
+  fullName: Mirror.ILoggerExtensions.Assert(ILogger, System.Boolean, System.String)
+  nameWithType: ILoggerExtensions.Assert(ILogger, Boolean, String)
+- uid: Mirror.ILoggerExtensions.Assert*
+  name: Assert
+  href: api/Mirror.ILoggerExtensions.html#Mirror_ILoggerExtensions_Assert_
+  commentId: Overload:Mirror.ILoggerExtensions.Assert
+  isSpec: "True"
+  fullName: Mirror.ILoggerExtensions.Assert
+  nameWithType: ILoggerExtensions.Assert
+- uid: Mirror.ILoggerExtensions.ErrorEnabled(ILogger)
+  name: ErrorEnabled(ILogger)
+  href: api/Mirror.ILoggerExtensions.html#Mirror_ILoggerExtensions_ErrorEnabled_ILogger_
+  commentId: M:Mirror.ILoggerExtensions.ErrorEnabled(ILogger)
+  fullName: Mirror.ILoggerExtensions.ErrorEnabled(ILogger)
+  nameWithType: ILoggerExtensions.ErrorEnabled(ILogger)
+- uid: Mirror.ILoggerExtensions.ErrorEnabled*
+  name: ErrorEnabled
+  href: api/Mirror.ILoggerExtensions.html#Mirror_ILoggerExtensions_ErrorEnabled_
+  commentId: Overload:Mirror.ILoggerExtensions.ErrorEnabled
+  isSpec: "True"
+  fullName: Mirror.ILoggerExtensions.ErrorEnabled
+  nameWithType: ILoggerExtensions.ErrorEnabled
 - uid: Mirror.ILoggerExtensions.LogEnabled(ILogger)
   name: LogEnabled(ILogger)
   href: api/Mirror.ILoggerExtensions.html#Mirror_ILoggerExtensions_LogEnabled_ILogger_
@@ -1304,6 +1330,19 @@ references:
   isSpec: "True"
   fullName: Mirror.ILoggerExtensions.LogWarning
   nameWithType: ILoggerExtensions.LogWarning
+- uid: Mirror.ILoggerExtensions.WarnEnabled(ILogger)
+  name: WarnEnabled(ILogger)
+  href: api/Mirror.ILoggerExtensions.html#Mirror_ILoggerExtensions_WarnEnabled_ILogger_
+  commentId: M:Mirror.ILoggerExtensions.WarnEnabled(ILogger)
+  fullName: Mirror.ILoggerExtensions.WarnEnabled(ILogger)
+  nameWithType: ILoggerExtensions.WarnEnabled(ILogger)
+- uid: Mirror.ILoggerExtensions.WarnEnabled*
+  name: WarnEnabled
+  href: api/Mirror.ILoggerExtensions.html#Mirror_ILoggerExtensions_WarnEnabled_
+  commentId: Overload:Mirror.ILoggerExtensions.WarnEnabled
+  isSpec: "True"
+  fullName: Mirror.ILoggerExtensions.WarnEnabled
+  nameWithType: ILoggerExtensions.WarnEnabled
 - uid: Mirror.IMessageBase
   name: IMessageBase
   href: api/Mirror.IMessageBase.html
@@ -2139,6 +2178,19 @@ references:
   commentId: T:Mirror.LogFactory
   fullName: Mirror.LogFactory
   nameWithType: LogFactory
+- uid: Mirror.LogFactory.AllLoggers
+  name: AllLoggers
+  href: api/Mirror.LogFactory.html#Mirror_LogFactory_AllLoggers
+  commentId: P:Mirror.LogFactory.AllLoggers
+  fullName: Mirror.LogFactory.AllLoggers
+  nameWithType: LogFactory.AllLoggers
+- uid: Mirror.LogFactory.AllLoggers*
+  name: AllLoggers
+  href: api/Mirror.LogFactory.html#Mirror_LogFactory_AllLoggers_
+  commentId: Overload:Mirror.LogFactory.AllLoggers
+  isSpec: "True"
+  fullName: Mirror.LogFactory.AllLoggers
+  nameWithType: LogFactory.AllLoggers
 - uid: Mirror.LogFactory.GetLogger(System.String,LogType)
   name: GetLogger(String, LogType)
   href: api/Mirror.LogFactory.html#Mirror_LogFactory_GetLogger_System_String_LogType_
@@ -2167,6 +2219,99 @@ references:
   fullName.vb: Mirror.LogFactory.GetLogger(Of T)(LogType)
   nameWithType: LogFactory.GetLogger<T>(LogType)
   nameWithType.vb: LogFactory.GetLogger(Of T)(LogType)
+- uid: Mirror.LogFactory.ReplaceLogHandler(ILogHandler)
+  name: ReplaceLogHandler(ILogHandler)
+  href: api/Mirror.LogFactory.html#Mirror_LogFactory_ReplaceLogHandler_ILogHandler_
+  commentId: M:Mirror.LogFactory.ReplaceLogHandler(ILogHandler)
+  fullName: Mirror.LogFactory.ReplaceLogHandler(ILogHandler)
+  nameWithType: LogFactory.ReplaceLogHandler(ILogHandler)
+- uid: Mirror.LogFactory.ReplaceLogHandler*
+  name: ReplaceLogHandler
+  href: api/Mirror.LogFactory.html#Mirror_LogFactory_ReplaceLogHandler_
+  commentId: Overload:Mirror.LogFactory.ReplaceLogHandler
+  isSpec: "True"
+  fullName: Mirror.LogFactory.ReplaceLogHandler
+  nameWithType: LogFactory.ReplaceLogHandler
+- uid: Mirror.Logging
+  name: Mirror.Logging
+  href: api/Mirror.Logging.html
+  commentId: N:Mirror.Logging
+  fullName: Mirror.Logging
+  nameWithType: Mirror.Logging
+- uid: Mirror.Logging.LogSettings
+  name: LogSettings
+  href: api/Mirror.Logging.LogSettings.html
+  commentId: T:Mirror.Logging.LogSettings
+  fullName: Mirror.Logging.LogSettings
+  nameWithType: LogSettings
+- uid: Mirror.Logging.LogSettings.LoggerSettings
+  name: LogSettings.LoggerSettings
+  href: api/Mirror.Logging.LogSettings.LoggerSettings.html
+  commentId: T:Mirror.Logging.LogSettings.LoggerSettings
+  fullName: Mirror.Logging.LogSettings.LoggerSettings
+  nameWithType: LogSettings.LoggerSettings
+- uid: Mirror.Logging.LogSettings.LoggerSettings.logLevel
+  name: logLevel
+  href: api/Mirror.Logging.LogSettings.LoggerSettings.html#Mirror_Logging_LogSettings_LoggerSettings_logLevel
+  commentId: F:Mirror.Logging.LogSettings.LoggerSettings.logLevel
+  fullName: Mirror.Logging.LogSettings.LoggerSettings.logLevel
+  nameWithType: LogSettings.LoggerSettings.logLevel
+- uid: Mirror.Logging.LogSettings.LoggerSettings.name
+  name: name
+  href: api/Mirror.Logging.LogSettings.LoggerSettings.html#Mirror_Logging_LogSettings_LoggerSettings_name
+  commentId: F:Mirror.Logging.LogSettings.LoggerSettings.name
+  fullName: Mirror.Logging.LogSettings.LoggerSettings.name
+  nameWithType: LogSettings.LoggerSettings.name
+- uid: Mirror.Logging.LogSettings.loglevels
+  name: loglevels
+  href: api/Mirror.Logging.LogSettings.html#Mirror_Logging_LogSettings_loglevels
+  commentId: F:Mirror.Logging.LogSettings.loglevels
+  fullName: Mirror.Logging.LogSettings.loglevels
+  nameWithType: LogSettings.loglevels
+- uid: Mirror.Logging.LogSettingsExt
+  name: LogSettingsExt
+  href: api/Mirror.Logging.LogSettingsExt.html
+  commentId: T:Mirror.Logging.LogSettingsExt
+  fullName: Mirror.Logging.LogSettingsExt
+  nameWithType: LogSettingsExt
+- uid: Mirror.Logging.LogSettingsExt.LoadIntoDictionary(Mirror.Logging.LogSettings,SortedDictionary{System.String,ILogger})
+  name: LoadIntoDictionary(LogSettings, SortedDictionary<String, ILogger>)
+  href: api/Mirror.Logging.LogSettingsExt.html#Mirror_Logging_LogSettingsExt_LoadIntoDictionary_Mirror_Logging_LogSettings_SortedDictionary_System_String_ILogger__
+  commentId: M:Mirror.Logging.LogSettingsExt.LoadIntoDictionary(Mirror.Logging.LogSettings,SortedDictionary{System.String,ILogger})
+  name.vb: LoadIntoDictionary(LogSettings, SortedDictionary(Of String, ILogger))
+  fullName: Mirror.Logging.LogSettingsExt.LoadIntoDictionary(Mirror.Logging.LogSettings, SortedDictionary<System.String, ILogger>)
+  fullName.vb: Mirror.Logging.LogSettingsExt.LoadIntoDictionary(Mirror.Logging.LogSettings, SortedDictionary(Of System.String, ILogger))
+  nameWithType: LogSettingsExt.LoadIntoDictionary(LogSettings, SortedDictionary<String, ILogger>)
+  nameWithType.vb: LogSettingsExt.LoadIntoDictionary(LogSettings, SortedDictionary(Of String, ILogger))
+- uid: Mirror.Logging.LogSettingsExt.LoadIntoDictionary*
+  name: LoadIntoDictionary
+  href: api/Mirror.Logging.LogSettingsExt.html#Mirror_Logging_LogSettingsExt_LoadIntoDictionary_
+  commentId: Overload:Mirror.Logging.LogSettingsExt.LoadIntoDictionary
+  isSpec: "True"
+  fullName: Mirror.Logging.LogSettingsExt.LoadIntoDictionary
+  nameWithType: LogSettingsExt.LoadIntoDictionary
+- uid: Mirror.Logging.LogSettingsExt.SaveFromDictionary(Mirror.Logging.LogSettings,SortedDictionary{System.String,ILogger})
+  name: SaveFromDictionary(LogSettings, SortedDictionary<String, ILogger>)
+  href: api/Mirror.Logging.LogSettingsExt.html#Mirror_Logging_LogSettingsExt_SaveFromDictionary_Mirror_Logging_LogSettings_SortedDictionary_System_String_ILogger__
+  commentId: M:Mirror.Logging.LogSettingsExt.SaveFromDictionary(Mirror.Logging.LogSettings,SortedDictionary{System.String,ILogger})
+  name.vb: SaveFromDictionary(LogSettings, SortedDictionary(Of String, ILogger))
+  fullName: Mirror.Logging.LogSettingsExt.SaveFromDictionary(Mirror.Logging.LogSettings, SortedDictionary<System.String, ILogger>)
+  fullName.vb: Mirror.Logging.LogSettingsExt.SaveFromDictionary(Mirror.Logging.LogSettings, SortedDictionary(Of System.String, ILogger))
+  nameWithType: LogSettingsExt.SaveFromDictionary(LogSettings, SortedDictionary<String, ILogger>)
+  nameWithType.vb: LogSettingsExt.SaveFromDictionary(LogSettings, SortedDictionary(Of String, ILogger))
+- uid: Mirror.Logging.LogSettingsExt.SaveFromDictionary*
+  name: SaveFromDictionary
+  href: api/Mirror.Logging.LogSettingsExt.html#Mirror_Logging_LogSettingsExt_SaveFromDictionary_
+  commentId: Overload:Mirror.Logging.LogSettingsExt.SaveFromDictionary
+  isSpec: "True"
+  fullName: Mirror.Logging.LogSettingsExt.SaveFromDictionary
+  nameWithType: LogSettingsExt.SaveFromDictionary
+- uid: Mirror.Logging.NetworkLogSettings
+  name: NetworkLogSettings
+  href: api/Mirror.Logging.NetworkLogSettings.html
+  commentId: T:Mirror.Logging.NetworkLogSettings
+  fullName: Mirror.Logging.NetworkLogSettings
+  nameWithType: NetworkLogSettings
 - uid: Mirror.MessageBase
   name: MessageBase
   href: api/Mirror.MessageBase.html
