@@ -1042,6 +1042,18 @@ references:
   isSpec: "True"
   fullName: Mirror.ExponentialMovingAverage.Var
   nameWithType: ExponentialMovingAverage.Var
+- uid: Mirror.HasAuthorityAttribute
+  name: HasAuthorityAttribute
+  href: api/Mirror.HasAuthorityAttribute.html
+  commentId: T:Mirror.HasAuthorityAttribute
+  fullName: Mirror.HasAuthorityAttribute
+  nameWithType: HasAuthorityAttribute
+- uid: Mirror.HasAuthorityCallbackAttribute
+  name: HasAuthorityCallbackAttribute
+  href: api/Mirror.HasAuthorityCallbackAttribute.html
+  commentId: T:Mirror.HasAuthorityCallbackAttribute
+  fullName: Mirror.HasAuthorityCallbackAttribute
+  nameWithType: HasAuthorityCallbackAttribute
 - uid: Mirror.IClientObjectManager
   name: IClientObjectManager
   href: api/Mirror.IClientObjectManager.html
@@ -2172,6 +2184,18 @@ references:
   isSpec: "True"
   fullName: Mirror.IVisibilityTracker.RemoveObservers
   nameWithType: IVisibilityTracker.RemoveObservers
+- uid: Mirror.LocalPlayerAttribute
+  name: LocalPlayerAttribute
+  href: api/Mirror.LocalPlayerAttribute.html
+  commentId: T:Mirror.LocalPlayerAttribute
+  fullName: Mirror.LocalPlayerAttribute
+  nameWithType: LocalPlayerAttribute
+- uid: Mirror.LocalPlayerCallbackAttribute
+  name: LocalPlayerCallbackAttribute
+  href: api/Mirror.LocalPlayerCallbackAttribute.html
+  commentId: T:Mirror.LocalPlayerCallbackAttribute
+  fullName: Mirror.LocalPlayerCallbackAttribute
+  nameWithType: LocalPlayerCallbackAttribute
 - uid: Mirror.LogFactory
   name: LogFactory
   href: api/Mirror.LogFactory.html
