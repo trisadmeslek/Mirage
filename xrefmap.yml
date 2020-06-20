@@ -4429,19 +4429,19 @@ references:
   commentId: F:Mirror.NetworkManager.OnStopHost
   fullName: Mirror.NetworkManager.OnStopHost
   nameWithType: NetworkManager.OnStopHost
-- uid: Mirror.NetworkManager.Reset
-  name: Reset()
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_Reset
-  commentId: M:Mirror.NetworkManager.Reset
-  fullName: Mirror.NetworkManager.Reset()
-  nameWithType: NetworkManager.Reset()
-- uid: Mirror.NetworkManager.Reset*
-  name: Reset
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_Reset_
-  commentId: Overload:Mirror.NetworkManager.Reset
+- uid: Mirror.NetworkManager.OnValidate
+  name: OnValidate()
+  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnValidate
+  commentId: M:Mirror.NetworkManager.OnValidate
+  fullName: Mirror.NetworkManager.OnValidate()
+  nameWithType: NetworkManager.OnValidate()
+- uid: Mirror.NetworkManager.OnValidate*
+  name: OnValidate
+  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnValidate_
+  commentId: Overload:Mirror.NetworkManager.OnValidate
   isSpec: "True"
-  fullName: Mirror.NetworkManager.Reset
-  nameWithType: NetworkManager.Reset
+  fullName: Mirror.NetworkManager.OnValidate
+  nameWithType: NetworkManager.OnValidate
 - uid: Mirror.NetworkManager.server
   name: server
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_server
