@@ -89,12 +89,54 @@
 <li>Use Game Center in IOS</li>
 <li>Use a web service in your website</li>
 </ul>
-<p>In addition to the Authenticators listed below, you can make your own! Check out this <a href="../../Guides/Authentication.html">Guide</a> for details.</p>
-<h2 id="authenticators">Authenticators</h2>
+<h2 id="encryption-notice">Encryption Notice</h2>
+<p>By default Mirror uses Telepathy, which is not encrypted, so if you want to do authentication through Mirror, we highly recommend you use a transport that supports encryption.</p>
+<h2 id="basic-authenticator">Basic Authenticator</h2>
 <ul>
 <li><a href="Basic.html">Basic Authenticator</a><br>
 Mirror includes a Basic Authenticator in the Mirror / Authenticators folder which just uses a simple username and password.</li>
 </ul>
+<h2 id="custom-authenticators">Custom Authenticators</h2>
+<p>Authenticators are derived from an <code>Authenticator</code> abstract class that allows you to implement any authentication scheme you need.</p>
+<p>From the Assets menu, click Create &gt; Mirror &gt; Network Authenticator to make your own custom Authenticator from our <a href="../../General/ScriptTemplates.html">Script Templates</a>, and just fill in the messages and validation code to suit your needs. When a client is successfully authenticated,  call <code>base.OnServerAuthenticated.Invoke(conn)</code> on the server and <code>base.OnClientAuthenticated.Invoke(conn)</code> on the client. Mirror is listening for these events to proceed with the connection sequence. Subscribe to OnServerAuthenticated and OnClientAuthenticated events if you wish to perform additional steps after authentication.</p>
+<h2 id="message-registration">Message Registration</h2>
+<p>By default all messages registered to <code>NetworkServer</code> and <code>NetworkClient</code> require authentication unless explicitly indicated otherwise. To register messages to bypass authentication, you need to specify <code>false</code> for a bool parameter to the <code>RegisterMessage</code> method:</p>
+<pre><code>NetworkServer.RegisterHandler&lt;AuthenticationRequest&gt;(OnAuthRequestMessage, false);
+</code></pre>
+<p>Certain internal messages already have been set to bypass authentication:</p>
+<ul>
+<li>Server
+<ul>
+<li><code>ConnectMessage</code></li>
+<li><code>DisconnectMessage</code></li>
+<li><code>ErrorMessage</code></li>
+<li><code>NetworkPingMessage</code></li>
+</ul>
+</li>
+<li>Client
+<ul>
+<li><code>ConnectMessage</code></li>
+<li><code>DisconnectMessage</code></li>
+<li><code>ErrorMessage</code></li>
+<li><code>SceneMessage</code></li>
+<li><code>NetworkPongMessage</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="tips">Tips</h3>
+<ul>
+<li>Register handlers for messages in <code>OnStartServer</code> and <code>OnStartClient</code>. They're called from StartServer/StartHost, and StartClient, respectively.</li>
+<li>Send a message to the client if authentication fails, especially if there's some issue they can resolve.</li>
+<li>Call the <code>Disconnect()</code> method of the <code>NetworkConnection</code> on the server and client when authentication fails. If you want to give the user a few tries to get their credentials right, you certainly can, but Mirror will not do the disconnect for you.
+<ul>
+<li>Remember to put a small delay on the Disconnect call on the server if you send a failure message so that it has a chance to be delivered before the connection is dropped.</li>
+</ul>
+</li>
+<li><code>NetworkConnection</code> has an <code>authenticationData</code> object where you can drop any data you need to persist on the server related to the authentication, such as account id's, tokens, character selection, etc.</li>
+</ul>
+<p>Now that you have the foundation of a custom Authenticator component, the rest is up to you. You can exchange any number of custom messages between the server and client as necessary to complete your authentication process before approving the client.</p>
+<p>Authentication can also be extended to character selection and customization, just by crafting additional messages and exchanging them with the client before completing the authentication process.  This means this process takes place before the client player actually enters the game or changes to the Online scene.</p>
+<p>If you write a good authenticator, consider sharing it with other users or donating it to the Mirror project.</p>
 </article>
           </div>
           
@@ -103,7 +145,7 @@ Mirror includes a Basic Authenticator in the Mirror / Authenticators folder whic
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/09bbd686e6c294f24412b35785cfa7a5aa47b5f2/doc/Components/Authenticators/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/7fdc7450309be6ef33b25187e740ba0d3314914f/doc/Components/Authenticators/index.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

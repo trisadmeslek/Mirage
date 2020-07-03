@@ -166,16 +166,16 @@
       <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InitSyncObject_Mirror_ISyncObject_">NetworkBehaviour.InitSyncObject(ISyncObject)</a>
     </div>
     <div>
-      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendCommandInternal_Type_System_String_Mirror_NetworkWriter_System_Int32_">NetworkBehaviour.SendCommandInternal(Type, String, NetworkWriter, Int32)</a>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendCommandInternal_Type_System_String_Mirror_NetworkWriter_System_Int32_System_Boolean_">NetworkBehaviour.SendCommandInternal(Type, String, NetworkWriter, Int32, Boolean)</a>
     </div>
     <div>
       <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InvokeCommand_System_Int32_Mirror_NetworkReader_">NetworkBehaviour.InvokeCommand(Int32, NetworkReader)</a>
     </div>
     <div>
-      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendRpcInternal_Type_System_String_Mirror_NetworkWriter_System_Int32_">NetworkBehaviour.SendRpcInternal(Type, String, NetworkWriter, Int32)</a>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendRPCInternal_Type_System_String_Mirror_NetworkWriter_System_Int32_System_Boolean_">NetworkBehaviour.SendRPCInternal(Type, String, NetworkWriter, Int32, Boolean)</a>
     </div>
     <div>
-      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendTargetRpcInternal_Mirror_INetworkConnection_Type_System_String_Mirror_NetworkWriter_System_Int32_">NetworkBehaviour.SendTargetRpcInternal(INetworkConnection, Type, String, NetworkWriter, Int32)</a>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendTargetRPCInternal_Mirror_INetworkConnection_Type_System_String_Mirror_NetworkWriter_System_Int32_">NetworkBehaviour.SendTargetRPCInternal(INetworkConnection, Type, String, NetworkWriter, Int32)</a>
     </div>
     <div>
       <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InvokeRpc_System_Int32_Mirror_NetworkReader_">NetworkBehaviour.InvokeRpc(Int32, NetworkReader)</a>
@@ -185,24 +185,6 @@
     </div>
     <div>
       <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InvokeSyncEvent_System_Int32_Mirror_NetworkReader_">NetworkBehaviour.InvokeSyncEvent(Int32, NetworkReader)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_RegisterDelegate_Type_System_String_Mirror_MirrorInvokeType_Mirror_NetworkBehaviour_CmdDelegate_">NetworkBehaviour.RegisterDelegate(Type, String, MirrorInvokeType, NetworkBehaviour.CmdDelegate)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_RegisterCommandDelegate_Type_System_String_Mirror_NetworkBehaviour_CmdDelegate_">NetworkBehaviour.RegisterCommandDelegate(Type, String, NetworkBehaviour.CmdDelegate)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_RegisterRpcDelegate_Type_System_String_Mirror_NetworkBehaviour_CmdDelegate_">NetworkBehaviour.RegisterRpcDelegate(Type, String, NetworkBehaviour.CmdDelegate)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_RegisterEventDelegate_Type_System_String_Mirror_NetworkBehaviour_CmdDelegate_">NetworkBehaviour.RegisterEventDelegate(Type, String, NetworkBehaviour.CmdDelegate)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetRpcHandler_System_Int32_">NetworkBehaviour.GetRpcHandler(Int32)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetDelegate_System_Int32_">NetworkBehaviour.GetDelegate(Int32)</a>
     </div>
     <div>
       <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SyncVarGameObjectEqual_GameObject_System_UInt32_">NetworkBehaviour.SyncVarGameObjectEqual(GameObject, UInt32)</a>
@@ -263,73 +245,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/09bbd686e6c294f24412b35785cfa7a5aa47b5f2/apiSpec/new?filename=Mirror_NetworkProximityChecker_ActualCheckMethod.md&amp;value=---%0Auid%3A%20Mirror.NetworkProximityChecker.ActualCheckMethod%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/7fdc7450309be6ef33b25187e740ba0d3314914f/apiSpec/new?filename=Mirror_NetworkProximityChecker_ForceHidden.md&amp;value=---%0Auid%3A%20Mirror.NetworkProximityChecker.ForceHidden%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/09bbd686e6c294f24412b35785cfa7a5aa47b5f2/Assets/Mirror/Components/NetworkProximityChecker.cs/#L44">View Source</a>
-  </span>
-  <h4 id="Mirror_NetworkProximityChecker_ActualCheckMethod" data-uid="Mirror.NetworkProximityChecker.ActualCheckMethod">ActualCheckMethod</h4>
-  <div class="markdown level1 summary"><p>Which method to use for checking proximity of players.</p>
-<p>Physics3D uses 3D physics to determine proximity.</p>
-<p>Physics2D uses 2D physics to determine proximity.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NetworkProximityChecker.CheckMethod ActualCheckMethod</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Mirror.NetworkProximityChecker.CheckMethod.html">NetworkProximityChecker.CheckMethod</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/09bbd686e6c294f24412b35785cfa7a5aa47b5f2/apiSpec/new?filename=Mirror_NetworkProximityChecker_CastLayers.md&amp;value=---%0Auid%3A%20Mirror.NetworkProximityChecker.CastLayers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/09bbd686e6c294f24412b35785cfa7a5aa47b5f2/Assets/Mirror/Components/NetworkProximityChecker.cs/#L59">View Source</a>
-  </span>
-  <h4 id="Mirror_NetworkProximityChecker_CastLayers" data-uid="Mirror.NetworkProximityChecker.CastLayers">CastLayers</h4>
-  <div class="markdown level1 summary"><p>Select only the Player's layer to avoid unnecessary SphereCasts against the Terrain, etc.</p>
-<p>~0 means &apos;Everything&apos;.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LayerMask CastLayers</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">LayerMask</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/09bbd686e6c294f24412b35785cfa7a5aa47b5f2/apiSpec/new?filename=Mirror_NetworkProximityChecker_ForceHidden.md&amp;value=---%0Auid%3A%20Mirror.NetworkProximityChecker.ForceHidden%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/09bbd686e6c294f24412b35785cfa7a5aa47b5f2/Assets/Mirror/Components/NetworkProximityChecker.cs/#L51">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/7fdc7450309be6ef33b25187e740ba0d3314914f/Assets/Mirror/Components/NetworkProximityChecker.cs/#L34">View Source</a>
   </span>
   <h4 id="Mirror_NetworkProximityChecker_ForceHidden" data-uid="Mirror.NetworkProximityChecker.ForceHidden">ForceHidden</h4>
   <div class="markdown level1 summary"><p>Flag to force this object to be hidden for players.</p>
@@ -357,10 +276,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/09bbd686e6c294f24412b35785cfa7a5aa47b5f2/apiSpec/new?filename=Mirror_NetworkProximityChecker_VisibilityRange.md&amp;value=---%0Auid%3A%20Mirror.NetworkProximityChecker.VisibilityRange%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/7fdc7450309be6ef33b25187e740ba0d3314914f/apiSpec/new?filename=Mirror_NetworkProximityChecker_VisibilityRange.md&amp;value=---%0Auid%3A%20Mirror.NetworkProximityChecker.VisibilityRange%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/09bbd686e6c294f24412b35785cfa7a5aa47b5f2/Assets/Mirror/Components/NetworkProximityChecker.cs/#L30">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/7fdc7450309be6ef33b25187e740ba0d3314914f/Assets/Mirror/Components/NetworkProximityChecker.cs/#L21">View Source</a>
   </span>
   <h4 id="Mirror_NetworkProximityChecker_VisibilityRange" data-uid="Mirror.NetworkProximityChecker.VisibilityRange">VisibilityRange</h4>
   <div class="markdown level1 summary"><p>The maximim range that objects will be visible at.</p>
@@ -387,10 +306,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/09bbd686e6c294f24412b35785cfa7a5aa47b5f2/apiSpec/new?filename=Mirror_NetworkProximityChecker_VisibilityUpdateInterval.md&amp;value=---%0Auid%3A%20Mirror.NetworkProximityChecker.VisibilityUpdateInterval%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/7fdc7450309be6ef33b25187e740ba0d3314914f/apiSpec/new?filename=Mirror_NetworkProximityChecker_VisibilityUpdateInterval.md&amp;value=---%0Auid%3A%20Mirror.NetworkProximityChecker.VisibilityUpdateInterval%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/09bbd686e6c294f24412b35785cfa7a5aa47b5f2/Assets/Mirror/Components/NetworkProximityChecker.cs/#L36">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/7fdc7450309be6ef33b25187e740ba0d3314914f/Assets/Mirror/Components/NetworkProximityChecker.cs/#L27">View Source</a>
   </span>
   <h4 id="Mirror_NetworkProximityChecker_VisibilityUpdateInterval" data-uid="Mirror.NetworkProximityChecker.VisibilityUpdateInterval">VisibilityUpdateInterval</h4>
   <div class="markdown level1 summary"><p>How often (in seconds) that this object should update the list of observers that can see it.</p>
@@ -419,10 +338,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/09bbd686e6c294f24412b35785cfa7a5aa47b5f2/apiSpec/new?filename=Mirror_NetworkProximityChecker_OnCheckObserver_Mirror_INetworkConnection_.md&amp;value=---%0Auid%3A%20Mirror.NetworkProximityChecker.OnCheckObserver(Mirror.INetworkConnection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/7fdc7450309be6ef33b25187e740ba0d3314914f/apiSpec/new?filename=Mirror_NetworkProximityChecker_OnCheckObserver_Mirror_INetworkConnection_.md&amp;value=---%0Auid%3A%20Mirror.NetworkProximityChecker.OnCheckObserver(Mirror.INetworkConnection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/09bbd686e6c294f24412b35785cfa7a5aa47b5f2/Assets/Mirror/Components/NetworkProximityChecker.cs/#L90">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/7fdc7450309be6ef33b25187e740ba0d3314914f/Assets/Mirror/Components/NetworkProximityChecker.cs/#L57">View Source</a>
   </span>
   <a id="Mirror_NetworkProximityChecker_OnCheckObserver_" data-uid="Mirror.NetworkProximityChecker.OnCheckObserver*"></a>
   <h4 id="Mirror_NetworkProximityChecker_OnCheckObserver_Mirror_INetworkConnection_" data-uid="Mirror.NetworkProximityChecker.OnCheckObserver(Mirror.INetworkConnection)">OnCheckObserver(INetworkConnection)</h4>
@@ -472,10 +391,10 @@
   <div><a class="xref" href="Mirror.NetworkVisibility.html#Mirror_NetworkVisibility_OnCheckObserver_Mirror_INetworkConnection_">NetworkVisibility.OnCheckObserver(INetworkConnection)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/09bbd686e6c294f24412b35785cfa7a5aa47b5f2/apiSpec/new?filename=Mirror_NetworkProximityChecker_OnRebuildObservers_HashSet_Mirror_INetworkConnection__System_Boolean_.md&amp;value=---%0Auid%3A%20Mirror.NetworkProximityChecker.OnRebuildObservers(HashSet%7BMirror.INetworkConnection%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/new/7fdc7450309be6ef33b25187e740ba0d3314914f/apiSpec/new?filename=Mirror_NetworkProximityChecker_OnRebuildObservers_HashSet_Mirror_INetworkConnection__System_Boolean_.md&amp;value=---%0Auid%3A%20Mirror.NetworkProximityChecker.OnRebuildObservers(HashSet%7BMirror.INetworkConnection%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/09bbd686e6c294f24412b35785cfa7a5aa47b5f2/Assets/Mirror/Components/NetworkProximityChecker.cs/#L104">View Source</a>
+    <a href="https://github.com/MirrorNG/MirrorNG/blob/7fdc7450309be6ef33b25187e740ba0d3314914f/Assets/Mirror/Components/NetworkProximityChecker.cs/#L71">View Source</a>
   </span>
   <a id="Mirror_NetworkProximityChecker_OnRebuildObservers_" data-uid="Mirror.NetworkProximityChecker.OnRebuildObservers*"></a>
   <h4 id="Mirror_NetworkProximityChecker_OnRebuildObservers_HashSet_Mirror_INetworkConnection__System_Boolean_" data-uid="Mirror.NetworkProximityChecker.OnRebuildObservers(HashSet{Mirror.INetworkConnection},System.Boolean)">OnRebuildObservers(HashSet&lt;INetworkConnection&gt;, Boolean)</h4>
@@ -521,10 +440,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/new/09bbd686e6c294f24412b35785cfa7a5aa47b5f2/apiSpec/new?filename=Mirror_NetworkProximityChecker.md&amp;value=---%0Auid%3A%20Mirror.NetworkProximityChecker%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/new/7fdc7450309be6ef33b25187e740ba0d3314914f/apiSpec/new?filename=Mirror_NetworkProximityChecker.md&amp;value=---%0Auid%3A%20Mirror.NetworkProximityChecker%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/09bbd686e6c294f24412b35785cfa7a5aa47b5f2/Assets/Mirror/Components/NetworkProximityChecker.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/7fdc7450309be6ef33b25187e740ba0d3314914f/Assets/Mirror/Components/NetworkProximityChecker.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

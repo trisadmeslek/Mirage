@@ -79,7 +79,6 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="data-types">Data types</h1>
 
-<p><a href="https://www.youtube.com/watch?v=DIIeGYAawY0&amp;list=PLkx8oFug638oBYF5EOwsSS-gOVBXj1dkP&amp;index=9"><img src="../images/video_tutorial.png" alt="built in data types video tutorial"></a></p>
 <p>The client and server can pass data to each other via <a href="Communications/RemoteActions.html">Remote methods</a>, <a href="Sync/index.html">State Synchronization</a> or via <a href="Communications/NetworkMessages.html">Network Messages</a></p>
 <p>Mirror supports a number of data types you can use with these, including:</p>
 <ul>
@@ -87,15 +86,70 @@
 <li>Built-in Unity math type (Vector3, Quaternion, Rect, Plane, Vector3Int, etc)</li>
 <li>URI</li>
 <li>NetworkIdentity</li>
-<li>Game object with a NetworkIdentity component attached.</li>
-<li>Structures with any of the above (it's recommended to implement IEquatable&lt;T&gt; to avoid boxing and to have the struct readonly, cause modifying one of fields doesn't cause a resync)</li>
-<li>Classes as long as each field has a supported data type.</li>
-<li>ScriptableObject as long as each field has a supported data type</li>
-<li>Arrays of any of the above (not supported with syncvars or synclists)</li>
-<li>ArraySegments of any of the above (not supported with syncvars or synclists)</li>
+<li>Game object with a NetworkIdentity component attached
+<ul>
+<li>See important details in <a href="#game-objects">Game Objects</a> section below.</li>
 </ul>
+</li>
+<li>Structures with any of the above
+<ul>
+<li>It's recommended to implement IEquatable&lt;T&gt; to avoid boxing, and to have the struct readonly because modifying one of fields doesn't cause a resync</li>
+</ul>
+</li>
+<li>Classes as long as each field has a supported data type
+<ul>
+<li>These will allocate garbage and will be instantiated new on the receiver every time they're sent.</li>
+</ul>
+</li>
+<li>ScriptableObject as long as each field has a supported data type
+<ul>
+<li>These will allocate garbage and will be instantiated new on the receiver every time they're sent.</li>
+</ul>
+</li>
+<li>Arrays of any of the above
+<ul>
+<li>Not supported with syncvars or synclists</li>
+</ul>
+</li>
+<li>ArraySegments of any of the above
+<ul>
+<li>Not supported with syncvars or synclists</li>
+</ul>
+</li>
+</ul>
+<h2 id="game-objects">Game Objects</h2>
+<p>Game Objects in SyncVars, SyncLists, and SyncDictionaries are fragile in some cases, and should be used with caution.</p>
+<ul>
+<li>As long as the game object <em>already exists</em> on both the server and the client, the reference should be fine.</li>
+</ul>
+<p>When the sync data arrives at the client, the referenced game object may not yet exist on that client, resulting in null values in the sync data.  This is because interally Mirror passes the <code>netId</code> from the <code>NetworkIdentity</code> and tries to look it up on the client's <code>NetworkIdentity.spawned</code> dictionary.</p>
+<p>If the object hasn't been spawned on the client yet, no match will be found. It could be in the same payload, especially for joining clients, but after the sync data from another object.<br>
+It could also be null because the game object is excluded from a client due to network visibility, e.g. <code>NetworkProximityChecker</code>.</p>
+<p>You may find that it's more robust to sync the <code>NetworkIdentity.netID</code> (uint) instead, and do your own lookup in <code>NetworkIdentity.spawned</code> to get the object, perhaps in a coroutine:</p>
+<pre><code class="lang-cs">    public GameObject target;
+
+    [SyncVar(hook = nameof(OnTargetChanged))]
+    public uint targetID;
+
+    void OnTargetChanged(uint _, uint newValue)
+    {
+        if (NetworkIdentity.spawned.TryGetValue(targetID, out NetworkIdentity identity))
+            target = identity.gameObject;
+        else
+            StartCoroutine(SetTarget());
+    }
+
+    IEnumerator SetTarget()
+    {
+        while (target == null)
+        {
+            yield return null;
+            if (NetworkIdentity.spawned.TryGetValue(targetID, out NetworkIdentity identity))
+                target = identity.gameObject;
+        }
+    }
+</code></pre>
 <h2 id="custom-data-types">Custom Data Types</h2>
-<p><a href="https://www.youtube.com/watch?v=svXHy2TGaS8&amp;list=PLkx8oFug638oBYF5EOwsSS-gOVBXj1dkP&amp;index=10"><img src="../images/video_tutorial.png" alt="built in data types video tutorial"></a></p>
 <p>Sometimes you don't want mirror to generate serialization for your own types. For example, instead of serializing quest data, you may want to serialize just the quest id, and the receiver can look up the quest by id in a predefined list.</p>
 <p>Sometimes you may want to serialize data which uses a different type not supported by Mirror, such as DateTime or System.Uri</p>
 <p>You can add support for any type by adding extension methods to <code>NetworkWriter</code> and <code>NetworkReader</code>. For example, to add support for <code>DateTime</code>, add this somewhere in your project:</p>
@@ -155,8 +209,8 @@ class Player : NetworkBehaviour
     [Command]
     void CmdEquipArmor(Armor armor)
     {
-        // IMPORTANT: this does not work either,  you will receive an armor,  but 
-        // the armor will not have a valid Item.name,  even if you passed an armor with name
+        // IMPORTANT: this does not work either, you will receive an armor, but 
+        // the armor will not have a valid Item.name, even if you passed an armor with name
     }
 }
 </code></pre>
@@ -211,7 +265,7 @@ public static class ItemSerializer
 <h2 id="scriptable-objects">Scriptable Objects</h2>
 <p>People often want to send scriptable objects from the client or server. For example, you may have a bunch of swords created as scriptable objects and you want put the equipped sword in a syncvar. This will work fine, Mirror will generate a reader and writer for scriptable objects by calling ScriptableObject.CreateInstance and copy all the data.</p>
 <p>However the generated reader and writer are not suitable for every occasion. Scriptable objects often reference other assets such as textures, prefabs, or other types that can't be serialized. Scriptable objects are often saved in the in the Resources folder. Scriptable objects sometimes have a large amount of data in them. The generated reader and writers may not work or may be inneficient for these situations.</p>
-<p>Instead of passing the scriptable object data,  you can pass the name and the other side can lookup the same object by name. This way you can have any kind of data in your scriptable object. You can do that by providing a custom reader and writer.  Here is an example:</p>
+<p>Instead of passing the scriptable object data, you can pass the name and the other side can lookup the same object by name. This way you can have any kind of data in your scriptable object. You can do that by providing a custom reader and writer.  Here is an example:</p>
 <pre><code class="lang-cs">[CreateAssetMenu(fileName = &quot;New Armor&quot;, menuName = &quot;Armor Data&quot;)]
 class Armor : ScriptableObject
 {
@@ -245,7 +299,7 @@ public static class ArmorSerializer
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/09bbd686e6c294f24412b35785cfa7a5aa47b5f2/doc/Guides/DataTypes.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/7fdc7450309be6ef33b25187e740ba0d3314914f/doc/Guides/DataTypes.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

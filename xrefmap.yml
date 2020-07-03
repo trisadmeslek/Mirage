@@ -469,6 +469,12 @@ references:
   commentId: F:Mirror.ClientRpcAttribute.channel
   fullName: Mirror.ClientRpcAttribute.channel
   nameWithType: ClientRpcAttribute.channel
+- uid: Mirror.ClientRpcAttribute.excludeOwner
+  name: excludeOwner
+  href: api/Mirror.ClientRpcAttribute.html#Mirror_ClientRpcAttribute_excludeOwner
+  commentId: F:Mirror.ClientRpcAttribute.excludeOwner
+  fullName: Mirror.ClientRpcAttribute.excludeOwner
+  nameWithType: ClientRpcAttribute.excludeOwner
 - uid: Mirror.CommandAttribute
   name: CommandAttribute
   href: api/Mirror.CommandAttribute.html
@@ -481,6 +487,12 @@ references:
   commentId: F:Mirror.CommandAttribute.channel
   fullName: Mirror.CommandAttribute.channel
   nameWithType: CommandAttribute.channel
+- uid: Mirror.CommandAttribute.requireAuthority
+  name: requireAuthority
+  href: api/Mirror.CommandAttribute.html#Mirror_CommandAttribute_requireAuthority
+  commentId: F:Mirror.CommandAttribute.requireAuthority
+  fullName: Mirror.CommandAttribute.requireAuthority
+  nameWithType: CommandAttribute.requireAuthority
 - uid: Mirror.CommandMessage
   name: CommandMessage
   href: api/Mirror.CommandMessage.html
@@ -984,6 +996,220 @@ references:
   commentId: F:Mirror.Discovery.ServerResponse.uri
   fullName: Mirror.Discovery.ServerResponse.uri
   nameWithType: ServerResponse.uri
+- uid: Mirror.Experimental
+  name: Mirror.Experimental
+  href: api/Mirror.Experimental.html
+  commentId: N:Mirror.Experimental
+  fullName: Mirror.Experimental
+  nameWithType: Mirror.Experimental
+- uid: Mirror.Experimental.NetworkTransform
+  name: NetworkTransform
+  href: api/Mirror.Experimental.NetworkTransform.html
+  commentId: T:Mirror.Experimental.NetworkTransform
+  fullName: Mirror.Experimental.NetworkTransform
+  nameWithType: NetworkTransform
+- uid: Mirror.Experimental.NetworkTransform.targetTransform
+  name: targetTransform
+  href: api/Mirror.Experimental.NetworkTransform.html#Mirror_Experimental_NetworkTransform_targetTransform
+  commentId: P:Mirror.Experimental.NetworkTransform.targetTransform
+  fullName: Mirror.Experimental.NetworkTransform.targetTransform
+  nameWithType: NetworkTransform.targetTransform
+- uid: Mirror.Experimental.NetworkTransform.targetTransform*
+  name: targetTransform
+  href: api/Mirror.Experimental.NetworkTransform.html#Mirror_Experimental_NetworkTransform_targetTransform_
+  commentId: Overload:Mirror.Experimental.NetworkTransform.targetTransform
+  isSpec: "True"
+  fullName: Mirror.Experimental.NetworkTransform.targetTransform
+  nameWithType: NetworkTransform.targetTransform
+- uid: Mirror.Experimental.NetworkTransformBase
+  name: NetworkTransformBase
+  href: api/Mirror.Experimental.NetworkTransformBase.html
+  commentId: T:Mirror.Experimental.NetworkTransformBase
+  fullName: Mirror.Experimental.NetworkTransformBase
+  nameWithType: NetworkTransformBase
+- uid: Mirror.Experimental.NetworkTransformBase.clientAuthority
+  name: clientAuthority
+  href: api/Mirror.Experimental.NetworkTransformBase.html#Mirror_Experimental_NetworkTransformBase_clientAuthority
+  commentId: F:Mirror.Experimental.NetworkTransformBase.clientAuthority
+  fullName: Mirror.Experimental.NetworkTransformBase.clientAuthority
+  nameWithType: NetworkTransformBase.clientAuthority
+- uid: Mirror.Experimental.NetworkTransformBase.DataPoint
+  name: NetworkTransformBase.DataPoint
+  href: api/Mirror.Experimental.NetworkTransformBase.DataPoint.html
+  commentId: T:Mirror.Experimental.NetworkTransformBase.DataPoint
+  fullName: Mirror.Experimental.NetworkTransformBase.DataPoint
+  nameWithType: NetworkTransformBase.DataPoint
+- uid: Mirror.Experimental.NetworkTransformBase.DataPoint.isValid
+  name: isValid
+  href: api/Mirror.Experimental.NetworkTransformBase.DataPoint.html#Mirror_Experimental_NetworkTransformBase_DataPoint_isValid
+  commentId: P:Mirror.Experimental.NetworkTransformBase.DataPoint.isValid
+  fullName: Mirror.Experimental.NetworkTransformBase.DataPoint.isValid
+  nameWithType: NetworkTransformBase.DataPoint.isValid
+- uid: Mirror.Experimental.NetworkTransformBase.DataPoint.isValid*
+  name: isValid
+  href: api/Mirror.Experimental.NetworkTransformBase.DataPoint.html#Mirror_Experimental_NetworkTransformBase_DataPoint_isValid_
+  commentId: Overload:Mirror.Experimental.NetworkTransformBase.DataPoint.isValid
+  isSpec: "True"
+  fullName: Mirror.Experimental.NetworkTransformBase.DataPoint.isValid
+  nameWithType: NetworkTransformBase.DataPoint.isValid
+- uid: Mirror.Experimental.NetworkTransformBase.DataPoint.localPosition
+  name: localPosition
+  href: api/Mirror.Experimental.NetworkTransformBase.DataPoint.html#Mirror_Experimental_NetworkTransformBase_DataPoint_localPosition
+  commentId: F:Mirror.Experimental.NetworkTransformBase.DataPoint.localPosition
+  fullName: Mirror.Experimental.NetworkTransformBase.DataPoint.localPosition
+  nameWithType: NetworkTransformBase.DataPoint.localPosition
+- uid: Mirror.Experimental.NetworkTransformBase.DataPoint.localRotation
+  name: localRotation
+  href: api/Mirror.Experimental.NetworkTransformBase.DataPoint.html#Mirror_Experimental_NetworkTransformBase_DataPoint_localRotation
+  commentId: F:Mirror.Experimental.NetworkTransformBase.DataPoint.localRotation
+  fullName: Mirror.Experimental.NetworkTransformBase.DataPoint.localRotation
+  nameWithType: NetworkTransformBase.DataPoint.localRotation
+- uid: Mirror.Experimental.NetworkTransformBase.DataPoint.localScale
+  name: localScale
+  href: api/Mirror.Experimental.NetworkTransformBase.DataPoint.html#Mirror_Experimental_NetworkTransformBase_DataPoint_localScale
+  commentId: F:Mirror.Experimental.NetworkTransformBase.DataPoint.localScale
+  fullName: Mirror.Experimental.NetworkTransformBase.DataPoint.localScale
+  nameWithType: NetworkTransformBase.DataPoint.localScale
+- uid: Mirror.Experimental.NetworkTransformBase.DataPoint.movementSpeed
+  name: movementSpeed
+  href: api/Mirror.Experimental.NetworkTransformBase.DataPoint.html#Mirror_Experimental_NetworkTransformBase_DataPoint_movementSpeed
+  commentId: F:Mirror.Experimental.NetworkTransformBase.DataPoint.movementSpeed
+  fullName: Mirror.Experimental.NetworkTransformBase.DataPoint.movementSpeed
+  nameWithType: NetworkTransformBase.DataPoint.movementSpeed
+- uid: Mirror.Experimental.NetworkTransformBase.DataPoint.timeStamp
+  name: timeStamp
+  href: api/Mirror.Experimental.NetworkTransformBase.DataPoint.html#Mirror_Experimental_NetworkTransformBase_DataPoint_timeStamp
+  commentId: F:Mirror.Experimental.NetworkTransformBase.DataPoint.timeStamp
+  fullName: Mirror.Experimental.NetworkTransformBase.DataPoint.timeStamp
+  nameWithType: NetworkTransformBase.DataPoint.timeStamp
+- uid: Mirror.Experimental.NetworkTransformBase.excludeOwnerUpdate
+  name: excludeOwnerUpdate
+  href: api/Mirror.Experimental.NetworkTransformBase.html#Mirror_Experimental_NetworkTransformBase_excludeOwnerUpdate
+  commentId: F:Mirror.Experimental.NetworkTransformBase.excludeOwnerUpdate
+  fullName: Mirror.Experimental.NetworkTransformBase.excludeOwnerUpdate
+  nameWithType: NetworkTransformBase.excludeOwnerUpdate
+- uid: Mirror.Experimental.NetworkTransformBase.goal
+  name: goal
+  href: api/Mirror.Experimental.NetworkTransformBase.html#Mirror_Experimental_NetworkTransformBase_goal
+  commentId: F:Mirror.Experimental.NetworkTransformBase.goal
+  fullName: Mirror.Experimental.NetworkTransformBase.goal
+  nameWithType: NetworkTransformBase.goal
+- uid: Mirror.Experimental.NetworkTransformBase.interpolatePosition
+  name: interpolatePosition
+  href: api/Mirror.Experimental.NetworkTransformBase.html#Mirror_Experimental_NetworkTransformBase_interpolatePosition
+  commentId: F:Mirror.Experimental.NetworkTransformBase.interpolatePosition
+  fullName: Mirror.Experimental.NetworkTransformBase.interpolatePosition
+  nameWithType: NetworkTransformBase.interpolatePosition
+- uid: Mirror.Experimental.NetworkTransformBase.interpolateRotation
+  name: interpolateRotation
+  href: api/Mirror.Experimental.NetworkTransformBase.html#Mirror_Experimental_NetworkTransformBase_interpolateRotation
+  commentId: F:Mirror.Experimental.NetworkTransformBase.interpolateRotation
+  fullName: Mirror.Experimental.NetworkTransformBase.interpolateRotation
+  nameWithType: NetworkTransformBase.interpolateRotation
+- uid: Mirror.Experimental.NetworkTransformBase.interpolateScale
+  name: interpolateScale
+  href: api/Mirror.Experimental.NetworkTransformBase.html#Mirror_Experimental_NetworkTransformBase_interpolateScale
+  commentId: F:Mirror.Experimental.NetworkTransformBase.interpolateScale
+  fullName: Mirror.Experimental.NetworkTransformBase.interpolateScale
+  nameWithType: NetworkTransformBase.interpolateScale
+- uid: Mirror.Experimental.NetworkTransformBase.lastPosition
+  name: lastPosition
+  href: api/Mirror.Experimental.NetworkTransformBase.html#Mirror_Experimental_NetworkTransformBase_lastPosition
+  commentId: F:Mirror.Experimental.NetworkTransformBase.lastPosition
+  fullName: Mirror.Experimental.NetworkTransformBase.lastPosition
+  nameWithType: NetworkTransformBase.lastPosition
+- uid: Mirror.Experimental.NetworkTransformBase.lastRotation
+  name: lastRotation
+  href: api/Mirror.Experimental.NetworkTransformBase.html#Mirror_Experimental_NetworkTransformBase_lastRotation
+  commentId: F:Mirror.Experimental.NetworkTransformBase.lastRotation
+  fullName: Mirror.Experimental.NetworkTransformBase.lastRotation
+  nameWithType: NetworkTransformBase.lastRotation
+- uid: Mirror.Experimental.NetworkTransformBase.lastScale
+  name: lastScale
+  href: api/Mirror.Experimental.NetworkTransformBase.html#Mirror_Experimental_NetworkTransformBase_lastScale
+  commentId: F:Mirror.Experimental.NetworkTransformBase.lastScale
+  fullName: Mirror.Experimental.NetworkTransformBase.lastScale
+  nameWithType: NetworkTransformBase.lastScale
+- uid: Mirror.Experimental.NetworkTransformBase.localPositionSensitivity
+  name: localPositionSensitivity
+  href: api/Mirror.Experimental.NetworkTransformBase.html#Mirror_Experimental_NetworkTransformBase_localPositionSensitivity
+  commentId: F:Mirror.Experimental.NetworkTransformBase.localPositionSensitivity
+  fullName: Mirror.Experimental.NetworkTransformBase.localPositionSensitivity
+  nameWithType: NetworkTransformBase.localPositionSensitivity
+- uid: Mirror.Experimental.NetworkTransformBase.localRotationSensitivity
+  name: localRotationSensitivity
+  href: api/Mirror.Experimental.NetworkTransformBase.html#Mirror_Experimental_NetworkTransformBase_localRotationSensitivity
+  commentId: F:Mirror.Experimental.NetworkTransformBase.localRotationSensitivity
+  fullName: Mirror.Experimental.NetworkTransformBase.localRotationSensitivity
+  nameWithType: NetworkTransformBase.localRotationSensitivity
+- uid: Mirror.Experimental.NetworkTransformBase.localScaleSensitivity
+  name: localScaleSensitivity
+  href: api/Mirror.Experimental.NetworkTransformBase.html#Mirror_Experimental_NetworkTransformBase_localScaleSensitivity
+  commentId: F:Mirror.Experimental.NetworkTransformBase.localScaleSensitivity
+  fullName: Mirror.Experimental.NetworkTransformBase.localScaleSensitivity
+  nameWithType: NetworkTransformBase.localScaleSensitivity
+- uid: Mirror.Experimental.NetworkTransformBase.start
+  name: start
+  href: api/Mirror.Experimental.NetworkTransformBase.html#Mirror_Experimental_NetworkTransformBase_start
+  commentId: F:Mirror.Experimental.NetworkTransformBase.start
+  fullName: Mirror.Experimental.NetworkTransformBase.start
+  nameWithType: NetworkTransformBase.start
+- uid: Mirror.Experimental.NetworkTransformBase.syncPosition
+  name: syncPosition
+  href: api/Mirror.Experimental.NetworkTransformBase.html#Mirror_Experimental_NetworkTransformBase_syncPosition
+  commentId: F:Mirror.Experimental.NetworkTransformBase.syncPosition
+  fullName: Mirror.Experimental.NetworkTransformBase.syncPosition
+  nameWithType: NetworkTransformBase.syncPosition
+- uid: Mirror.Experimental.NetworkTransformBase.syncRotation
+  name: syncRotation
+  href: api/Mirror.Experimental.NetworkTransformBase.html#Mirror_Experimental_NetworkTransformBase_syncRotation
+  commentId: F:Mirror.Experimental.NetworkTransformBase.syncRotation
+  fullName: Mirror.Experimental.NetworkTransformBase.syncRotation
+  nameWithType: NetworkTransformBase.syncRotation
+- uid: Mirror.Experimental.NetworkTransformBase.syncScale
+  name: syncScale
+  href: api/Mirror.Experimental.NetworkTransformBase.html#Mirror_Experimental_NetworkTransformBase_syncScale
+  commentId: F:Mirror.Experimental.NetworkTransformBase.syncScale
+  fullName: Mirror.Experimental.NetworkTransformBase.syncScale
+  nameWithType: NetworkTransformBase.syncScale
+- uid: Mirror.Experimental.NetworkTransformBase.targetTransform
+  name: targetTransform
+  href: api/Mirror.Experimental.NetworkTransformBase.html#Mirror_Experimental_NetworkTransformBase_targetTransform
+  commentId: P:Mirror.Experimental.NetworkTransformBase.targetTransform
+  fullName: Mirror.Experimental.NetworkTransformBase.targetTransform
+  nameWithType: NetworkTransformBase.targetTransform
+- uid: Mirror.Experimental.NetworkTransformBase.targetTransform*
+  name: targetTransform
+  href: api/Mirror.Experimental.NetworkTransformBase.html#Mirror_Experimental_NetworkTransformBase_targetTransform_
+  commentId: Overload:Mirror.Experimental.NetworkTransformBase.targetTransform
+  isSpec: "True"
+  fullName: Mirror.Experimental.NetworkTransformBase.targetTransform
+  nameWithType: NetworkTransformBase.targetTransform
+- uid: Mirror.Experimental.NetworkTransformChild
+  name: NetworkTransformChild
+  href: api/Mirror.Experimental.NetworkTransformChild.html
+  commentId: T:Mirror.Experimental.NetworkTransformChild
+  fullName: Mirror.Experimental.NetworkTransformChild
+  nameWithType: NetworkTransformChild
+- uid: Mirror.Experimental.NetworkTransformChild.target
+  name: target
+  href: api/Mirror.Experimental.NetworkTransformChild.html#Mirror_Experimental_NetworkTransformChild_target
+  commentId: F:Mirror.Experimental.NetworkTransformChild.target
+  fullName: Mirror.Experimental.NetworkTransformChild.target
+  nameWithType: NetworkTransformChild.target
+- uid: Mirror.Experimental.NetworkTransformChild.targetTransform
+  name: targetTransform
+  href: api/Mirror.Experimental.NetworkTransformChild.html#Mirror_Experimental_NetworkTransformChild_targetTransform
+  commentId: P:Mirror.Experimental.NetworkTransformChild.targetTransform
+  fullName: Mirror.Experimental.NetworkTransformChild.targetTransform
+  nameWithType: NetworkTransformChild.targetTransform
+- uid: Mirror.Experimental.NetworkTransformChild.targetTransform*
+  name: targetTransform
+  href: api/Mirror.Experimental.NetworkTransformChild.html#Mirror_Experimental_NetworkTransformChild_targetTransform_
+  commentId: Overload:Mirror.Experimental.NetworkTransformChild.targetTransform
+  isSpec: "True"
+  fullName: Mirror.Experimental.NetworkTransformChild.targetTransform
+  nameWithType: NetworkTransformChild.targetTransform
 - uid: Mirror.ExponentialMovingAverage
   name: ExponentialMovingAverage
   href: api/Mirror.ExponentialMovingAverage.html
@@ -1152,19 +1378,6 @@ references:
   isSpec: "True"
   fullName: Mirror.IClientObjectManager.RegisterSpawnHandler
   nameWithType: IClientObjectManager.RegisterSpawnHandler
-- uid: Mirror.IClientObjectManager.RemovePlayer
-  name: RemovePlayer()
-  href: api/Mirror.IClientObjectManager.html#Mirror_IClientObjectManager_RemovePlayer
-  commentId: M:Mirror.IClientObjectManager.RemovePlayer
-  fullName: Mirror.IClientObjectManager.RemovePlayer()
-  nameWithType: IClientObjectManager.RemovePlayer()
-- uid: Mirror.IClientObjectManager.RemovePlayer*
-  name: RemovePlayer
-  href: api/Mirror.IClientObjectManager.html#Mirror_IClientObjectManager_RemovePlayer_
-  commentId: Overload:Mirror.IClientObjectManager.RemovePlayer
-  isSpec: "True"
-  fullName: Mirror.IClientObjectManager.RemovePlayer
-  nameWithType: IClientObjectManager.RemovePlayer
 - uid: Mirror.IClientObjectManager.UnregisterPrefab(GameObject)
   name: UnregisterPrefab(GameObject)
   href: api/Mirror.IClientObjectManager.html#Mirror_IClientObjectManager_UnregisterPrefab_GameObject_
@@ -2632,12 +2845,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.Client
   nameWithType: NetworkBehaviour.Client
-- uid: Mirror.NetworkBehaviour.CmdDelegate
-  name: NetworkBehaviour.CmdDelegate
-  href: api/Mirror.NetworkBehaviour.CmdDelegate.html
-  commentId: T:Mirror.NetworkBehaviour.CmdDelegate
-  fullName: Mirror.NetworkBehaviour.CmdDelegate
-  nameWithType: NetworkBehaviour.CmdDelegate
 - uid: Mirror.NetworkBehaviour.ComponentIndex
   name: ComponentIndex
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_ComponentIndex
@@ -2690,32 +2897,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.DeserializeSyncVars
   nameWithType: NetworkBehaviour.DeserializeSyncVars
-- uid: Mirror.NetworkBehaviour.GetDelegate(System.Int32)
-  name: GetDelegate(Int32)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetDelegate_System_Int32_
-  commentId: M:Mirror.NetworkBehaviour.GetDelegate(System.Int32)
-  fullName: Mirror.NetworkBehaviour.GetDelegate(System.Int32)
-  nameWithType: NetworkBehaviour.GetDelegate(Int32)
-- uid: Mirror.NetworkBehaviour.GetDelegate*
-  name: GetDelegate
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetDelegate_
-  commentId: Overload:Mirror.NetworkBehaviour.GetDelegate
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.GetDelegate
-  nameWithType: NetworkBehaviour.GetDelegate
-- uid: Mirror.NetworkBehaviour.GetRpcHandler(System.Int32)
-  name: GetRpcHandler(Int32)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetRpcHandler_System_Int32_
-  commentId: M:Mirror.NetworkBehaviour.GetRpcHandler(System.Int32)
-  fullName: Mirror.NetworkBehaviour.GetRpcHandler(System.Int32)
-  nameWithType: NetworkBehaviour.GetRpcHandler(Int32)
-- uid: Mirror.NetworkBehaviour.GetRpcHandler*
-  name: GetRpcHandler
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetRpcHandler_
-  commentId: Overload:Mirror.NetworkBehaviour.GetRpcHandler
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.GetRpcHandler
-  nameWithType: NetworkBehaviour.GetRpcHandler
 - uid: Mirror.NetworkBehaviour.GetSyncVarGameObject(System.UInt32,GameObject@)
   name: GetSyncVarGameObject(UInt32, ref GameObject)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetSyncVarGameObject_System_UInt32_GameObject__
@@ -2800,30 +2981,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.InvokeCommand
   nameWithType: NetworkBehaviour.InvokeCommand
-- uid: Mirror.NetworkBehaviour.Invoker
-  name: NetworkBehaviour.Invoker
-  href: api/Mirror.NetworkBehaviour.Invoker.html
-  commentId: T:Mirror.NetworkBehaviour.Invoker
-  fullName: Mirror.NetworkBehaviour.Invoker
-  nameWithType: NetworkBehaviour.Invoker
-- uid: Mirror.NetworkBehaviour.Invoker.invokeClass
-  name: invokeClass
-  href: api/Mirror.NetworkBehaviour.Invoker.html#Mirror_NetworkBehaviour_Invoker_invokeClass
-  commentId: F:Mirror.NetworkBehaviour.Invoker.invokeClass
-  fullName: Mirror.NetworkBehaviour.Invoker.invokeClass
-  nameWithType: NetworkBehaviour.Invoker.invokeClass
-- uid: Mirror.NetworkBehaviour.Invoker.invokeFunction
-  name: invokeFunction
-  href: api/Mirror.NetworkBehaviour.Invoker.html#Mirror_NetworkBehaviour_Invoker_invokeFunction
-  commentId: F:Mirror.NetworkBehaviour.Invoker.invokeFunction
-  fullName: Mirror.NetworkBehaviour.Invoker.invokeFunction
-  nameWithType: NetworkBehaviour.Invoker.invokeFunction
-- uid: Mirror.NetworkBehaviour.Invoker.invokeType
-  name: invokeType
-  href: api/Mirror.NetworkBehaviour.Invoker.html#Mirror_NetworkBehaviour_Invoker_invokeType
-  commentId: F:Mirror.NetworkBehaviour.Invoker.invokeType
-  fullName: Mirror.NetworkBehaviour.Invoker.invokeType
-  nameWithType: NetworkBehaviour.Invoker.invokeType
 - uid: Mirror.NetworkBehaviour.InvokeRpc(System.Int32,Mirror.NetworkReader)
   name: InvokeRpc(Int32, NetworkReader)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InvokeRpc_System_Int32_Mirror_NetworkReader_
@@ -2993,64 +3150,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.OnSerialize
   nameWithType: NetworkBehaviour.OnSerialize
-- uid: Mirror.NetworkBehaviour.RegisterCommandDelegate(Type,System.String,Mirror.NetworkBehaviour.CmdDelegate)
-  name: RegisterCommandDelegate(Type, String, NetworkBehaviour.CmdDelegate)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_RegisterCommandDelegate_Type_System_String_Mirror_NetworkBehaviour_CmdDelegate_
-  commentId: M:Mirror.NetworkBehaviour.RegisterCommandDelegate(Type,System.String,Mirror.NetworkBehaviour.CmdDelegate)
-  fullName: Mirror.NetworkBehaviour.RegisterCommandDelegate(Type, System.String, Mirror.NetworkBehaviour.CmdDelegate)
-  nameWithType: NetworkBehaviour.RegisterCommandDelegate(Type, String, NetworkBehaviour.CmdDelegate)
-- uid: Mirror.NetworkBehaviour.RegisterCommandDelegate*
-  name: RegisterCommandDelegate
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_RegisterCommandDelegate_
-  commentId: Overload:Mirror.NetworkBehaviour.RegisterCommandDelegate
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.RegisterCommandDelegate
-  nameWithType: NetworkBehaviour.RegisterCommandDelegate
-- uid: Mirror.NetworkBehaviour.RegisterDelegate(Type,System.String,Mirror.MirrorInvokeType,Mirror.NetworkBehaviour.CmdDelegate)
-  name: RegisterDelegate(Type, String, MirrorInvokeType, NetworkBehaviour.CmdDelegate)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_RegisterDelegate_Type_System_String_Mirror_MirrorInvokeType_Mirror_NetworkBehaviour_CmdDelegate_
-  commentId: M:Mirror.NetworkBehaviour.RegisterDelegate(Type,System.String,Mirror.MirrorInvokeType,Mirror.NetworkBehaviour.CmdDelegate)
-  fullName: Mirror.NetworkBehaviour.RegisterDelegate(Type, System.String, Mirror.MirrorInvokeType, Mirror.NetworkBehaviour.CmdDelegate)
-  nameWithType: NetworkBehaviour.RegisterDelegate(Type, String, MirrorInvokeType, NetworkBehaviour.CmdDelegate)
-- uid: Mirror.NetworkBehaviour.RegisterDelegate*
-  name: RegisterDelegate
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_RegisterDelegate_
-  commentId: Overload:Mirror.NetworkBehaviour.RegisterDelegate
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.RegisterDelegate
-  nameWithType: NetworkBehaviour.RegisterDelegate
-- uid: Mirror.NetworkBehaviour.RegisterEventDelegate(Type,System.String,Mirror.NetworkBehaviour.CmdDelegate)
-  name: RegisterEventDelegate(Type, String, NetworkBehaviour.CmdDelegate)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_RegisterEventDelegate_Type_System_String_Mirror_NetworkBehaviour_CmdDelegate_
-  commentId: M:Mirror.NetworkBehaviour.RegisterEventDelegate(Type,System.String,Mirror.NetworkBehaviour.CmdDelegate)
-  fullName: Mirror.NetworkBehaviour.RegisterEventDelegate(Type, System.String, Mirror.NetworkBehaviour.CmdDelegate)
-  nameWithType: NetworkBehaviour.RegisterEventDelegate(Type, String, NetworkBehaviour.CmdDelegate)
-- uid: Mirror.NetworkBehaviour.RegisterEventDelegate*
-  name: RegisterEventDelegate
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_RegisterEventDelegate_
-  commentId: Overload:Mirror.NetworkBehaviour.RegisterEventDelegate
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.RegisterEventDelegate
-  nameWithType: NetworkBehaviour.RegisterEventDelegate
-- uid: Mirror.NetworkBehaviour.RegisterRpcDelegate(Type,System.String,Mirror.NetworkBehaviour.CmdDelegate)
-  name: RegisterRpcDelegate(Type, String, NetworkBehaviour.CmdDelegate)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_RegisterRpcDelegate_Type_System_String_Mirror_NetworkBehaviour_CmdDelegate_
-  commentId: M:Mirror.NetworkBehaviour.RegisterRpcDelegate(Type,System.String,Mirror.NetworkBehaviour.CmdDelegate)
-  fullName: Mirror.NetworkBehaviour.RegisterRpcDelegate(Type, System.String, Mirror.NetworkBehaviour.CmdDelegate)
-  nameWithType: NetworkBehaviour.RegisterRpcDelegate(Type, String, NetworkBehaviour.CmdDelegate)
-- uid: Mirror.NetworkBehaviour.RegisterRpcDelegate*
-  name: RegisterRpcDelegate
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_RegisterRpcDelegate_
-  commentId: Overload:Mirror.NetworkBehaviour.RegisterRpcDelegate
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.RegisterRpcDelegate
-  nameWithType: NetworkBehaviour.RegisterRpcDelegate
-- uid: Mirror.NetworkBehaviour.SendCommandInternal(Type,System.String,Mirror.NetworkWriter,System.Int32)
-  name: SendCommandInternal(Type, String, NetworkWriter, Int32)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendCommandInternal_Type_System_String_Mirror_NetworkWriter_System_Int32_
-  commentId: M:Mirror.NetworkBehaviour.SendCommandInternal(Type,System.String,Mirror.NetworkWriter,System.Int32)
-  fullName: Mirror.NetworkBehaviour.SendCommandInternal(Type, System.String, Mirror.NetworkWriter, System.Int32)
-  nameWithType: NetworkBehaviour.SendCommandInternal(Type, String, NetworkWriter, Int32)
+- uid: Mirror.NetworkBehaviour.SendCommandInternal(Type,System.String,Mirror.NetworkWriter,System.Int32,System.Boolean)
+  name: SendCommandInternal(Type, String, NetworkWriter, Int32, Boolean)
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendCommandInternal_Type_System_String_Mirror_NetworkWriter_System_Int32_System_Boolean_
+  commentId: M:Mirror.NetworkBehaviour.SendCommandInternal(Type,System.String,Mirror.NetworkWriter,System.Int32,System.Boolean)
+  fullName: Mirror.NetworkBehaviour.SendCommandInternal(Type, System.String, Mirror.NetworkWriter, System.Int32, System.Boolean)
+  nameWithType: NetworkBehaviour.SendCommandInternal(Type, String, NetworkWriter, Int32, Boolean)
 - uid: Mirror.NetworkBehaviour.SendCommandInternal*
   name: SendCommandInternal
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendCommandInternal_
@@ -3071,32 +3176,32 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.SendEventInternal
   nameWithType: NetworkBehaviour.SendEventInternal
-- uid: Mirror.NetworkBehaviour.SendRpcInternal(Type,System.String,Mirror.NetworkWriter,System.Int32)
-  name: SendRpcInternal(Type, String, NetworkWriter, Int32)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendRpcInternal_Type_System_String_Mirror_NetworkWriter_System_Int32_
-  commentId: M:Mirror.NetworkBehaviour.SendRpcInternal(Type,System.String,Mirror.NetworkWriter,System.Int32)
-  fullName: Mirror.NetworkBehaviour.SendRpcInternal(Type, System.String, Mirror.NetworkWriter, System.Int32)
-  nameWithType: NetworkBehaviour.SendRpcInternal(Type, String, NetworkWriter, Int32)
-- uid: Mirror.NetworkBehaviour.SendRpcInternal*
-  name: SendRpcInternal
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendRpcInternal_
-  commentId: Overload:Mirror.NetworkBehaviour.SendRpcInternal
+- uid: Mirror.NetworkBehaviour.SendRPCInternal(Type,System.String,Mirror.NetworkWriter,System.Int32,System.Boolean)
+  name: SendRPCInternal(Type, String, NetworkWriter, Int32, Boolean)
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendRPCInternal_Type_System_String_Mirror_NetworkWriter_System_Int32_System_Boolean_
+  commentId: M:Mirror.NetworkBehaviour.SendRPCInternal(Type,System.String,Mirror.NetworkWriter,System.Int32,System.Boolean)
+  fullName: Mirror.NetworkBehaviour.SendRPCInternal(Type, System.String, Mirror.NetworkWriter, System.Int32, System.Boolean)
+  nameWithType: NetworkBehaviour.SendRPCInternal(Type, String, NetworkWriter, Int32, Boolean)
+- uid: Mirror.NetworkBehaviour.SendRPCInternal*
+  name: SendRPCInternal
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendRPCInternal_
+  commentId: Overload:Mirror.NetworkBehaviour.SendRPCInternal
   isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.SendRpcInternal
-  nameWithType: NetworkBehaviour.SendRpcInternal
-- uid: Mirror.NetworkBehaviour.SendTargetRpcInternal(Mirror.INetworkConnection,Type,System.String,Mirror.NetworkWriter,System.Int32)
-  name: SendTargetRpcInternal(INetworkConnection, Type, String, NetworkWriter, Int32)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendTargetRpcInternal_Mirror_INetworkConnection_Type_System_String_Mirror_NetworkWriter_System_Int32_
-  commentId: M:Mirror.NetworkBehaviour.SendTargetRpcInternal(Mirror.INetworkConnection,Type,System.String,Mirror.NetworkWriter,System.Int32)
-  fullName: Mirror.NetworkBehaviour.SendTargetRpcInternal(Mirror.INetworkConnection, Type, System.String, Mirror.NetworkWriter, System.Int32)
-  nameWithType: NetworkBehaviour.SendTargetRpcInternal(INetworkConnection, Type, String, NetworkWriter, Int32)
-- uid: Mirror.NetworkBehaviour.SendTargetRpcInternal*
-  name: SendTargetRpcInternal
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendTargetRpcInternal_
-  commentId: Overload:Mirror.NetworkBehaviour.SendTargetRpcInternal
+  fullName: Mirror.NetworkBehaviour.SendRPCInternal
+  nameWithType: NetworkBehaviour.SendRPCInternal
+- uid: Mirror.NetworkBehaviour.SendTargetRPCInternal(Mirror.INetworkConnection,Type,System.String,Mirror.NetworkWriter,System.Int32)
+  name: SendTargetRPCInternal(INetworkConnection, Type, String, NetworkWriter, Int32)
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendTargetRPCInternal_Mirror_INetworkConnection_Type_System_String_Mirror_NetworkWriter_System_Int32_
+  commentId: M:Mirror.NetworkBehaviour.SendTargetRPCInternal(Mirror.INetworkConnection,Type,System.String,Mirror.NetworkWriter,System.Int32)
+  fullName: Mirror.NetworkBehaviour.SendTargetRPCInternal(Mirror.INetworkConnection, Type, System.String, Mirror.NetworkWriter, System.Int32)
+  nameWithType: NetworkBehaviour.SendTargetRPCInternal(INetworkConnection, Type, String, NetworkWriter, Int32)
+- uid: Mirror.NetworkBehaviour.SendTargetRPCInternal*
+  name: SendTargetRPCInternal
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendTargetRPCInternal_
+  commentId: Overload:Mirror.NetworkBehaviour.SendTargetRPCInternal
   isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.SendTargetRpcInternal
-  nameWithType: NetworkBehaviour.SendTargetRpcInternal
+  fullName: Mirror.NetworkBehaviour.SendTargetRPCInternal
+  nameWithType: NetworkBehaviour.SendTargetRPCInternal
 - uid: Mirror.NetworkBehaviour.SerializeObjectsAll(Mirror.NetworkWriter)
   name: SerializeObjectsAll(NetworkWriter)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SerializeObjectsAll_Mirror_NetworkWriter_
@@ -3578,19 +3683,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkClient.RegisterSpawnHandler
   nameWithType: NetworkClient.RegisterSpawnHandler
-- uid: Mirror.NetworkClient.RemovePlayer
-  name: RemovePlayer()
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_RemovePlayer
-  commentId: M:Mirror.NetworkClient.RemovePlayer
-  fullName: Mirror.NetworkClient.RemovePlayer()
-  nameWithType: NetworkClient.RemovePlayer()
-- uid: Mirror.NetworkClient.RemovePlayer*
-  name: RemovePlayer
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_RemovePlayer_
-  commentId: Overload:Mirror.NetworkClient.RemovePlayer
-  isSpec: "True"
-  fullName: Mirror.NetworkClient.RemovePlayer
-  nameWithType: NetworkClient.RemovePlayer
 - uid: Mirror.NetworkClient.Send*
   name: Send
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Send_
@@ -4316,6 +4408,19 @@ references:
   commentId: F:Mirror.NetworkIdentity.serverOnly
   fullName: Mirror.NetworkIdentity.serverOnly
   nameWithType: NetworkIdentity.serverOnly
+- uid: Mirror.NetworkIdentity.SpawnedFromInstantiate
+  name: SpawnedFromInstantiate
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_SpawnedFromInstantiate
+  commentId: P:Mirror.NetworkIdentity.SpawnedFromInstantiate
+  fullName: Mirror.NetworkIdentity.SpawnedFromInstantiate
+  nameWithType: NetworkIdentity.SpawnedFromInstantiate
+- uid: Mirror.NetworkIdentity.SpawnedFromInstantiate*
+  name: SpawnedFromInstantiate
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_SpawnedFromInstantiate_
+  commentId: Overload:Mirror.NetworkIdentity.SpawnedFromInstantiate
+  isSpec: "True"
+  fullName: Mirror.NetworkIdentity.SpawnedFromInstantiate
+  nameWithType: NetworkIdentity.SpawnedFromInstantiate
 - uid: Mirror.NetworkIdentity.Visibility
   name: Visibility
   href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_Visibility
@@ -4699,6 +4804,18 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkMatchChecker.OnStartServer
   nameWithType: NetworkMatchChecker.OnStartServer
+- uid: Mirror.NetworkPingDisplay
+  name: NetworkPingDisplay
+  href: api/Mirror.NetworkPingDisplay.html
+  commentId: T:Mirror.NetworkPingDisplay
+  fullName: Mirror.NetworkPingDisplay
+  nameWithType: NetworkPingDisplay
+- uid: Mirror.NetworkPingDisplay.Client
+  name: Client
+  href: api/Mirror.NetworkPingDisplay.html#Mirror_NetworkPingDisplay_Client
+  commentId: F:Mirror.NetworkPingDisplay.Client
+  fullName: Mirror.NetworkPingDisplay.Client
+  nameWithType: NetworkPingDisplay.Client
 - uid: Mirror.NetworkPingMessage
   name: NetworkPingMessage
   href: api/Mirror.NetworkPingMessage.html
@@ -4800,36 +4917,6 @@ references:
   commentId: T:Mirror.NetworkProximityChecker
   fullName: Mirror.NetworkProximityChecker
   nameWithType: NetworkProximityChecker
-- uid: Mirror.NetworkProximityChecker.ActualCheckMethod
-  name: ActualCheckMethod
-  href: api/Mirror.NetworkProximityChecker.html#Mirror_NetworkProximityChecker_ActualCheckMethod
-  commentId: F:Mirror.NetworkProximityChecker.ActualCheckMethod
-  fullName: Mirror.NetworkProximityChecker.ActualCheckMethod
-  nameWithType: NetworkProximityChecker.ActualCheckMethod
-- uid: Mirror.NetworkProximityChecker.CastLayers
-  name: CastLayers
-  href: api/Mirror.NetworkProximityChecker.html#Mirror_NetworkProximityChecker_CastLayers
-  commentId: F:Mirror.NetworkProximityChecker.CastLayers
-  fullName: Mirror.NetworkProximityChecker.CastLayers
-  nameWithType: NetworkProximityChecker.CastLayers
-- uid: Mirror.NetworkProximityChecker.CheckMethod
-  name: NetworkProximityChecker.CheckMethod
-  href: api/Mirror.NetworkProximityChecker.CheckMethod.html
-  commentId: T:Mirror.NetworkProximityChecker.CheckMethod
-  fullName: Mirror.NetworkProximityChecker.CheckMethod
-  nameWithType: NetworkProximityChecker.CheckMethod
-- uid: Mirror.NetworkProximityChecker.CheckMethod.Physics2D
-  name: Physics2D
-  href: api/Mirror.NetworkProximityChecker.CheckMethod.html#Mirror_NetworkProximityChecker_CheckMethod_Physics2D
-  commentId: F:Mirror.NetworkProximityChecker.CheckMethod.Physics2D
-  fullName: Mirror.NetworkProximityChecker.CheckMethod.Physics2D
-  nameWithType: NetworkProximityChecker.CheckMethod.Physics2D
-- uid: Mirror.NetworkProximityChecker.CheckMethod.Physics3D
-  name: Physics3D
-  href: api/Mirror.NetworkProximityChecker.CheckMethod.html#Mirror_NetworkProximityChecker_CheckMethod_Physics3D
-  commentId: F:Mirror.NetworkProximityChecker.CheckMethod.Physics3D
-  fullName: Mirror.NetworkProximityChecker.CheckMethod.Physics3D
-  nameWithType: NetworkProximityChecker.CheckMethod.Physics3D
 - uid: Mirror.NetworkProximityChecker.ForceHidden
   name: ForceHidden
   href: api/Mirror.NetworkProximityChecker.html#Mirror_NetworkProximityChecker_ForceHidden
@@ -5870,6 +5957,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkServer.RemoveConnection
   nameWithType: NetworkServer.RemoveConnection
+- uid: Mirror.NetworkServer.RemovePlayerForConnection(Mirror.NetworkConnection,System.Boolean)
+  name: RemovePlayerForConnection(NetworkConnection, Boolean)
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_RemovePlayerForConnection_Mirror_NetworkConnection_System_Boolean_
+  commentId: M:Mirror.NetworkServer.RemovePlayerForConnection(Mirror.NetworkConnection,System.Boolean)
+  fullName: Mirror.NetworkServer.RemovePlayerForConnection(Mirror.NetworkConnection, System.Boolean)
+  nameWithType: NetworkServer.RemovePlayerForConnection(NetworkConnection, Boolean)
+- uid: Mirror.NetworkServer.RemovePlayerForConnection*
+  name: RemovePlayerForConnection
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_RemovePlayerForConnection_
+  commentId: Overload:Mirror.NetworkServer.RemovePlayerForConnection
+  isSpec: "True"
+  fullName: Mirror.NetworkServer.RemovePlayerForConnection
+  nameWithType: NetworkServer.RemovePlayerForConnection
 - uid: Mirror.NetworkServer.ReplacePlayerForConnection(Mirror.INetworkConnection,Mirror.NetworkClient,GameObject,Guid,System.Boolean)
   name: ReplacePlayerForConnection(INetworkConnection, NetworkClient, GameObject, Guid, Boolean)
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_ReplacePlayerForConnection_Mirror_INetworkConnection_Mirror_NetworkClient_GameObject_Guid_System_Boolean_
@@ -7520,38 +7620,88 @@ references:
   isSpec: "True"
   fullName: Mirror.ReadyMessage.Serialize
   nameWithType: ReadyMessage.Serialize
-- uid: Mirror.RemovePlayerMessage
-  name: RemovePlayerMessage
-  href: api/Mirror.RemovePlayerMessage.html
-  commentId: T:Mirror.RemovePlayerMessage
-  fullName: Mirror.RemovePlayerMessage
-  nameWithType: RemovePlayerMessage
-- uid: Mirror.RemovePlayerMessage.Deserialize(Mirror.NetworkReader)
-  name: Deserialize(NetworkReader)
-  href: api/Mirror.RemovePlayerMessage.html#Mirror_RemovePlayerMessage_Deserialize_Mirror_NetworkReader_
-  commentId: M:Mirror.RemovePlayerMessage.Deserialize(Mirror.NetworkReader)
-  fullName: Mirror.RemovePlayerMessage.Deserialize(Mirror.NetworkReader)
-  nameWithType: RemovePlayerMessage.Deserialize(NetworkReader)
-- uid: Mirror.RemovePlayerMessage.Deserialize*
-  name: Deserialize
-  href: api/Mirror.RemovePlayerMessage.html#Mirror_RemovePlayerMessage_Deserialize_
-  commentId: Overload:Mirror.RemovePlayerMessage.Deserialize
+- uid: Mirror.RemoteCalls
+  name: Mirror.RemoteCalls
+  href: api/Mirror.RemoteCalls.html
+  commentId: N:Mirror.RemoteCalls
+  fullName: Mirror.RemoteCalls
+  nameWithType: Mirror.RemoteCalls
+- uid: Mirror.RemoteCalls.CmdDelegate
+  name: CmdDelegate
+  href: api/Mirror.RemoteCalls.CmdDelegate.html
+  commentId: T:Mirror.RemoteCalls.CmdDelegate
+  fullName: Mirror.RemoteCalls.CmdDelegate
+  nameWithType: CmdDelegate
+- uid: Mirror.RemoteCalls.CommandInfo
+  name: CommandInfo
+  href: api/Mirror.RemoteCalls.CommandInfo.html
+  commentId: T:Mirror.RemoteCalls.CommandInfo
+  fullName: Mirror.RemoteCalls.CommandInfo
+  nameWithType: CommandInfo
+- uid: Mirror.RemoteCalls.CommandInfo.requireAuthority
+  name: requireAuthority
+  href: api/Mirror.RemoteCalls.CommandInfo.html#Mirror_RemoteCalls_CommandInfo_requireAuthority
+  commentId: F:Mirror.RemoteCalls.CommandInfo.requireAuthority
+  fullName: Mirror.RemoteCalls.CommandInfo.requireAuthority
+  nameWithType: CommandInfo.requireAuthority
+- uid: Mirror.RemoteCalls.RemoteCallHelper
+  name: RemoteCallHelper
+  href: api/Mirror.RemoteCalls.RemoteCallHelper.html
+  commentId: T:Mirror.RemoteCalls.RemoteCallHelper
+  fullName: Mirror.RemoteCalls.RemoteCallHelper
+  nameWithType: RemoteCallHelper
+- uid: Mirror.RemoteCalls.RemoteCallHelper.GetDelegate(System.Int32)
+  name: GetDelegate(Int32)
+  href: api/Mirror.RemoteCalls.RemoteCallHelper.html#Mirror_RemoteCalls_RemoteCallHelper_GetDelegate_System_Int32_
+  commentId: M:Mirror.RemoteCalls.RemoteCallHelper.GetDelegate(System.Int32)
+  fullName: Mirror.RemoteCalls.RemoteCallHelper.GetDelegate(System.Int32)
+  nameWithType: RemoteCallHelper.GetDelegate(Int32)
+- uid: Mirror.RemoteCalls.RemoteCallHelper.GetDelegate*
+  name: GetDelegate
+  href: api/Mirror.RemoteCalls.RemoteCallHelper.html#Mirror_RemoteCalls_RemoteCallHelper_GetDelegate_
+  commentId: Overload:Mirror.RemoteCalls.RemoteCallHelper.GetDelegate
   isSpec: "True"
-  fullName: Mirror.RemovePlayerMessage.Deserialize
-  nameWithType: RemovePlayerMessage.Deserialize
-- uid: Mirror.RemovePlayerMessage.Serialize(Mirror.NetworkWriter)
-  name: Serialize(NetworkWriter)
-  href: api/Mirror.RemovePlayerMessage.html#Mirror_RemovePlayerMessage_Serialize_Mirror_NetworkWriter_
-  commentId: M:Mirror.RemovePlayerMessage.Serialize(Mirror.NetworkWriter)
-  fullName: Mirror.RemovePlayerMessage.Serialize(Mirror.NetworkWriter)
-  nameWithType: RemovePlayerMessage.Serialize(NetworkWriter)
-- uid: Mirror.RemovePlayerMessage.Serialize*
-  name: Serialize
-  href: api/Mirror.RemovePlayerMessage.html#Mirror_RemovePlayerMessage_Serialize_
-  commentId: Overload:Mirror.RemovePlayerMessage.Serialize
+  fullName: Mirror.RemoteCalls.RemoteCallHelper.GetDelegate
+  nameWithType: RemoteCallHelper.GetDelegate
+- uid: Mirror.RemoteCalls.RemoteCallHelper.RegisterCommandDelegate(Type,System.String,Mirror.RemoteCalls.CmdDelegate,System.Boolean)
+  name: RegisterCommandDelegate(Type, String, CmdDelegate, Boolean)
+  href: api/Mirror.RemoteCalls.RemoteCallHelper.html#Mirror_RemoteCalls_RemoteCallHelper_RegisterCommandDelegate_Type_System_String_Mirror_RemoteCalls_CmdDelegate_System_Boolean_
+  commentId: M:Mirror.RemoteCalls.RemoteCallHelper.RegisterCommandDelegate(Type,System.String,Mirror.RemoteCalls.CmdDelegate,System.Boolean)
+  fullName: Mirror.RemoteCalls.RemoteCallHelper.RegisterCommandDelegate(Type, System.String, Mirror.RemoteCalls.CmdDelegate, System.Boolean)
+  nameWithType: RemoteCallHelper.RegisterCommandDelegate(Type, String, CmdDelegate, Boolean)
+- uid: Mirror.RemoteCalls.RemoteCallHelper.RegisterCommandDelegate*
+  name: RegisterCommandDelegate
+  href: api/Mirror.RemoteCalls.RemoteCallHelper.html#Mirror_RemoteCalls_RemoteCallHelper_RegisterCommandDelegate_
+  commentId: Overload:Mirror.RemoteCalls.RemoteCallHelper.RegisterCommandDelegate
   isSpec: "True"
-  fullName: Mirror.RemovePlayerMessage.Serialize
-  nameWithType: RemovePlayerMessage.Serialize
+  fullName: Mirror.RemoteCalls.RemoteCallHelper.RegisterCommandDelegate
+  nameWithType: RemoteCallHelper.RegisterCommandDelegate
+- uid: Mirror.RemoteCalls.RemoteCallHelper.RegisterEventDelegate(Type,System.String,Mirror.RemoteCalls.CmdDelegate)
+  name: RegisterEventDelegate(Type, String, CmdDelegate)
+  href: api/Mirror.RemoteCalls.RemoteCallHelper.html#Mirror_RemoteCalls_RemoteCallHelper_RegisterEventDelegate_Type_System_String_Mirror_RemoteCalls_CmdDelegate_
+  commentId: M:Mirror.RemoteCalls.RemoteCallHelper.RegisterEventDelegate(Type,System.String,Mirror.RemoteCalls.CmdDelegate)
+  fullName: Mirror.RemoteCalls.RemoteCallHelper.RegisterEventDelegate(Type, System.String, Mirror.RemoteCalls.CmdDelegate)
+  nameWithType: RemoteCallHelper.RegisterEventDelegate(Type, String, CmdDelegate)
+- uid: Mirror.RemoteCalls.RemoteCallHelper.RegisterEventDelegate*
+  name: RegisterEventDelegate
+  href: api/Mirror.RemoteCalls.RemoteCallHelper.html#Mirror_RemoteCalls_RemoteCallHelper_RegisterEventDelegate_
+  commentId: Overload:Mirror.RemoteCalls.RemoteCallHelper.RegisterEventDelegate
+  isSpec: "True"
+  fullName: Mirror.RemoteCalls.RemoteCallHelper.RegisterEventDelegate
+  nameWithType: RemoteCallHelper.RegisterEventDelegate
+- uid: Mirror.RemoteCalls.RemoteCallHelper.RegisterRpcDelegate(Type,System.String,Mirror.RemoteCalls.CmdDelegate)
+  name: RegisterRpcDelegate(Type, String, CmdDelegate)
+  href: api/Mirror.RemoteCalls.RemoteCallHelper.html#Mirror_RemoteCalls_RemoteCallHelper_RegisterRpcDelegate_Type_System_String_Mirror_RemoteCalls_CmdDelegate_
+  commentId: M:Mirror.RemoteCalls.RemoteCallHelper.RegisterRpcDelegate(Type,System.String,Mirror.RemoteCalls.CmdDelegate)
+  fullName: Mirror.RemoteCalls.RemoteCallHelper.RegisterRpcDelegate(Type, System.String, Mirror.RemoteCalls.CmdDelegate)
+  nameWithType: RemoteCallHelper.RegisterRpcDelegate(Type, String, CmdDelegate)
+- uid: Mirror.RemoteCalls.RemoteCallHelper.RegisterRpcDelegate*
+  name: RegisterRpcDelegate
+  href: api/Mirror.RemoteCalls.RemoteCallHelper.html#Mirror_RemoteCalls_RemoteCallHelper_RegisterRpcDelegate_
+  commentId: Overload:Mirror.RemoteCalls.RemoteCallHelper.RegisterRpcDelegate
+  isSpec: "True"
+  fullName: Mirror.RemoteCalls.RemoteCallHelper.RegisterRpcDelegate
+  nameWithType: RemoteCallHelper.RegisterRpcDelegate
 - uid: Mirror.RpcMessage
   name: RpcMessage
   href: api/Mirror.RpcMessage.html
@@ -8585,6 +8735,24 @@ references:
   fullName.vb: Mirror.SyncList(Of T).Add
   nameWithType: SyncList<T>.Add
   nameWithType.vb: SyncList(Of T).Add
+- uid: Mirror.SyncList`1.AddRange(IEnumerable{`0})
+  name: AddRange(IEnumerable<T>)
+  href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_AddRange_IEnumerable__0__
+  commentId: M:Mirror.SyncList`1.AddRange(IEnumerable{`0})
+  name.vb: AddRange(IEnumerable(Of T))
+  fullName: Mirror.SyncList<T>.AddRange(IEnumerable<T>)
+  fullName.vb: Mirror.SyncList(Of T).AddRange(IEnumerable(Of T))
+  nameWithType: SyncList<T>.AddRange(IEnumerable<T>)
+  nameWithType.vb: SyncList(Of T).AddRange(IEnumerable(Of T))
+- uid: Mirror.SyncList`1.AddRange*
+  name: AddRange
+  href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_AddRange_
+  commentId: Overload:Mirror.SyncList`1.AddRange
+  isSpec: "True"
+  fullName: Mirror.SyncList<T>.AddRange
+  fullName.vb: Mirror.SyncList(Of T).AddRange
+  nameWithType: SyncList<T>.AddRange
+  nameWithType.vb: SyncList(Of T).AddRange
 - uid: Mirror.SyncList`1.Clear
   name: Clear()
   href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_Clear
@@ -8888,6 +9056,24 @@ references:
   fullName.vb: Mirror.SyncList(Of T).Insert
   nameWithType: SyncList<T>.Insert
   nameWithType.vb: SyncList(Of T).Insert
+- uid: Mirror.SyncList`1.InsertRange(System.Int32,IEnumerable{`0})
+  name: InsertRange(Int32, IEnumerable<T>)
+  href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_InsertRange_System_Int32_IEnumerable__0__
+  commentId: M:Mirror.SyncList`1.InsertRange(System.Int32,IEnumerable{`0})
+  name.vb: InsertRange(Int32, IEnumerable(Of T))
+  fullName: Mirror.SyncList<T>.InsertRange(System.Int32, IEnumerable<T>)
+  fullName.vb: Mirror.SyncList(Of T).InsertRange(System.Int32, IEnumerable(Of T))
+  nameWithType: SyncList<T>.InsertRange(Int32, IEnumerable<T>)
+  nameWithType.vb: SyncList(Of T).InsertRange(Int32, IEnumerable(Of T))
+- uid: Mirror.SyncList`1.InsertRange*
+  name: InsertRange
+  href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_InsertRange_
+  commentId: Overload:Mirror.SyncList`1.InsertRange
+  isSpec: "True"
+  fullName: Mirror.SyncList<T>.InsertRange
+  fullName.vb: Mirror.SyncList(Of T).InsertRange
+  nameWithType: SyncList<T>.InsertRange
+  nameWithType.vb: SyncList(Of T).InsertRange
 - uid: Mirror.SyncList`1.IsDirty
   name: IsDirty
   href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_IsDirty
@@ -9065,6 +9251,24 @@ references:
   fullName.vb: Mirror.SyncList(Of T).Remove
   nameWithType: SyncList<T>.Remove
   nameWithType.vb: SyncList(Of T).Remove
+- uid: Mirror.SyncList`1.RemoveAll(Predicate{`0})
+  name: RemoveAll(Predicate<T>)
+  href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_RemoveAll_Predicate__0__
+  commentId: M:Mirror.SyncList`1.RemoveAll(Predicate{`0})
+  name.vb: RemoveAll(Predicate(Of T))
+  fullName: Mirror.SyncList<T>.RemoveAll(Predicate<T>)
+  fullName.vb: Mirror.SyncList(Of T).RemoveAll(Predicate(Of T))
+  nameWithType: SyncList<T>.RemoveAll(Predicate<T>)
+  nameWithType.vb: SyncList(Of T).RemoveAll(Predicate(Of T))
+- uid: Mirror.SyncList`1.RemoveAll*
+  name: RemoveAll
+  href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_RemoveAll_
+  commentId: Overload:Mirror.SyncList`1.RemoveAll
+  isSpec: "True"
+  fullName: Mirror.SyncList<T>.RemoveAll
+  fullName.vb: Mirror.SyncList(Of T).RemoveAll
+  nameWithType: SyncList<T>.RemoveAll
+  nameWithType.vb: SyncList(Of T).RemoveAll
 - uid: Mirror.SyncList`1.RemoveAt(System.Int32)
   name: RemoveAt(Int32)
   href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_RemoveAt_System_Int32_

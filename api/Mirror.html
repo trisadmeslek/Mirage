@@ -153,8 +153,6 @@ and it's abstract methods</p>
       <h4><a class="xref" href="Mirror.NetworkBehaviour.html">NetworkBehaviour</a></h4>
       <section><p>Base class which should be inherited by scripts which contain networking functionality.</p>
 </section>
-      <h4><a class="xref" href="Mirror.NetworkBehaviour.Invoker.html">NetworkBehaviour.Invoker</a></h4>
-      <section></section>
       <h4><a class="xref" href="Mirror.NetworkClient.html">NetworkClient</a></h4>
       <section><p>This is a network client class used by the networking system. It contains a NetworkConnection that is used to connect to a network server.</p>
 <p>The <a class="xref" href="Mirror.NetworkClient.html">NetworkClient</a> handle connection state, messages handlers, and connection configuration. There can be many <a class="xref" href="Mirror.NetworkClient.html">NetworkClient</a> instances in a process at a time, but only one that is connected to a game server (<a class="xref" href="Mirror.NetworkServer.html">NetworkServer</a>) that uses spawned objects.</p>
@@ -186,6 +184,9 @@ present the data in a friendly way to the user</p>
       <section><p>Component that controls visibility of networked objects based on match id.</p>
 <p>Any object with this component on it will only be visible to other objects in the same match.</p>
 <p>This would be used to isolate players to their respective matches within a single game server instance. </p>
+</section>
+      <h4><a class="xref" href="Mirror.NetworkPingDisplay.html">NetworkPingDisplay</a></h4>
+      <section><p>Component that will display the clients ping in milliseconds</p>
 </section>
       <h4><a class="xref" href="Mirror.NetworkProximityChecker.html">NetworkProximityChecker</a></h4>
       <section><p>Component that controls visibility of networked objects for players.</p>
@@ -337,8 +338,6 @@ If you send data in one of them,  you receive it on the other one</p>
       <section></section>
       <h4><a class="xref" href="Mirror.ReadyMessage.html">ReadyMessage</a></h4>
       <section></section>
-      <h4><a class="xref" href="Mirror.RemovePlayerMessage.html">RemovePlayerMessage</a></h4>
-      <section></section>
       <h4><a class="xref" href="Mirror.RpcMessage.html">RpcMessage</a></h4>
       <section></section>
       <h4><a class="xref" href="Mirror.SceneMessage.html">SceneMessage</a></h4>
@@ -391,9 +390,6 @@ this is useful for interest management</p>
       <section></section>
       <h4><a class="xref" href="Mirror.MirrorInvokeType.html">MirrorInvokeType</a></h4>
       <section></section>
-      <h4><a class="xref" href="Mirror.NetworkProximityChecker.CheckMethod.html">NetworkProximityChecker.CheckMethod</a></h4>
-      <section><p>Enumeration of methods to use to check proximity.</p>
-</section>
       <h4><a class="xref" href="Mirror.PlayerSpawner.PlayerSpawnMethod.html">PlayerSpawner.PlayerSpawnMethod</a></h4>
       <section><p>Enumeration of methods of where to spawn player objects in multiplayer games.</p>
 </section>
@@ -406,9 +402,6 @@ this is useful for interest management</p>
       <section></section>
     <h3 id="delegates">Delegates
   </h3>
-      <h4><a class="xref" href="Mirror.NetworkBehaviour.CmdDelegate.html">NetworkBehaviour.CmdDelegate</a></h4>
-      <section><p>Delegate for Command functions.</p>
-</section>
       <h4><a class="xref" href="Mirror.NetworkIdentity.ClientAuthorityCallback.html">NetworkIdentity.ClientAuthorityCallback</a></h4>
       <section><p>The delegate type for the clientAuthorityCallback.</p>
 </section>

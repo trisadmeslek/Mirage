@@ -86,16 +86,16 @@
 This attribute has been deprecated because <code>channels</code> were moved to transports (where applicable) and <code>interval</code> was moved to an inspector property</p>
 </li>
 <li><p><strong>Server</strong><br>
-means don't allow a client to call that method (throws a warning or an error when called on a client).</p>
+Only a server can call the method (throws a warning or an error when called on a client).</p>
 </li>
 <li><p><strong>ServerCallback</strong><br>
-A Custom Attribute that can be added to member functions of NetworkBehaviour scripts, to make them only run on servers.</p>
+Same as <strong>Server</strong> but does not throw warning when called on client.</p>
 </li>
 <li><p><strong>Client</strong><br>
-means don't allow a server to call that method (throws a warning or an error when called on the server).</p>
+Only a Client can call the method (throws a warning or an error when called on the server).</p>
 </li>
 <li><p><strong>ClientCallback</strong><br>
-A Custom Attribute that can be added to member functions of NetworkBehaviour scripts, to make them only run on clients, but not generate warnings.</p>
+Same as <strong>Client</strong> but does not throw warning when called on server.</p>
 </li>
 <li><p><strong>ClientRpc</strong><br>
 The server uses a Remote Procedure Call (RPC) to run that function on clients. See also: <a href="Communications/RemoteActions.html">Remote Actions</a></p>
@@ -136,7 +136,7 @@ The allowed argument types are:</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/09bbd686e6c294f24412b35785cfa7a5aa47b5f2/doc/Guides/Attributes.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/7fdc7450309be6ef33b25187e740ba0d3314914f/doc/Guides/Attributes.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
