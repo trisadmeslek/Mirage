@@ -107,6 +107,14 @@
 <li>Connection statisitcs (need DEBUG or STATS_ENABLED flag)</li>
 <li>Multicasting (for discovering hosts in local network)</li>
 </ul>
+<h2 id="il2cpp-warning">IL2CPP Warning!</h2>
+<p>With IL2CPP, IPv6 is only supported on Unity 2018.3.6f1 and later because of this:<br>
+<a href="https://unity3d.com/unity/whats-new/2018.3.6">Unity ChangeLog</a></p>
+<blockquote>
+<p>IL2CPP: Added protocol support for IPv6 on Windows. (1099133)</p>
+<p>IL2CPP: Correctly indicate that IPv6 is not supported on non-IPv6 platforms. (1108823)</p>
+</blockquote>
+<p>Also, socket Reuse Address option isn't available in IL2CPP.</p>
 <h2 id="credits">Credits</h2>
 <p>RevenantX - for <a href="https://github.com/RevenantX/LiteNetLib/releases">LiteNetLib</a><br>
 vis2k &amp; Paul - for <a href="https://assetstore.unity.com/packages/tools/network/mirror-129321">Mirror</a><br>
@@ -123,7 +131,7 @@ shiena - for NetworkDiscoveryHUD</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/3adf3438578ff304f1216022aae8e043c52cd71d/doc/Transports/LiteNetLib4Mirror.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/0ed4d05dc3520e991c71f7820d0e46f624ec4f5b/doc/Transports/LiteNetLib4Mirror.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

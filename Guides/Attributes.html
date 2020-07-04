@@ -81,6 +81,9 @@
 
 <p>Networking attributes are added to member functions of NetworkBehaviour scripts, to make them run on either the client or server.</p>
 <p>These attributes can be used for Unity game loop methods like Start or Update, as well as other implemented methods.</p>
+<blockquote>
+<p><strong>NOTE</strong>: when using abstract or virtual methods the Attributes need to be applied to the override methods too.</p>
+</blockquote>
 <ul>
 <li><p><strong>NetworkSettings</strong><br>
 This attribute has been deprecated because <code>channels</code> were moved to transports (where applicable) and <code>interval</code> was moved to an inspector property</p>
@@ -136,7 +139,7 @@ The allowed argument types are:</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/3adf3438578ff304f1216022aae8e043c52cd71d/doc/Guides/Attributes.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirrorNG/MirrorNG/blob/0ed4d05dc3520e991c71f7820d0e46f624ec4f5b/doc/Guides/Attributes.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
