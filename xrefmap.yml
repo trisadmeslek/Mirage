@@ -2718,19 +2718,6 @@ references:
   isSpec: "True"
   fullName: Mirror.INetworkClient.Disconnect
   nameWithType: INetworkClient.Disconnect
-- uid: Mirror.INetworkClient.Ready(Mirror.INetworkConnection)
-  name: Ready(INetworkConnection)
-  href: api/Mirror.INetworkClient.html#Mirror_INetworkClient_Ready_Mirror_INetworkConnection_
-  commentId: M:Mirror.INetworkClient.Ready(Mirror.INetworkConnection)
-  fullName: Mirror.INetworkClient.Ready(Mirror.INetworkConnection)
-  nameWithType: INetworkClient.Ready(INetworkConnection)
-- uid: Mirror.INetworkClient.Ready*
-  name: Ready
-  href: api/Mirror.INetworkClient.html#Mirror_INetworkClient_Ready_
-  commentId: Overload:Mirror.INetworkClient.Ready
-  isSpec: "True"
-  fullName: Mirror.INetworkClient.Ready
-  nameWithType: INetworkClient.Ready
 - uid: Mirror.INetworkClient.Send*
   name: Send
   href: api/Mirror.INetworkClient.html#Mirror_INetworkClient_Send_
@@ -2840,19 +2827,6 @@ references:
   isSpec: "True"
   fullName: Mirror.INetworkManager.OnDestroy
   nameWithType: INetworkManager.OnDestroy
-- uid: Mirror.INetworkManager.ServerChangeScene(System.String)
-  name: ServerChangeScene(String)
-  href: api/Mirror.INetworkManager.html#Mirror_INetworkManager_ServerChangeScene_System_String_
-  commentId: M:Mirror.INetworkManager.ServerChangeScene(System.String)
-  fullName: Mirror.INetworkManager.ServerChangeScene(System.String)
-  nameWithType: INetworkManager.ServerChangeScene(String)
-- uid: Mirror.INetworkManager.ServerChangeScene*
-  name: ServerChangeScene
-  href: api/Mirror.INetworkManager.html#Mirror_INetworkManager_ServerChangeScene_
-  commentId: Overload:Mirror.INetworkManager.ServerChangeScene
-  isSpec: "True"
-  fullName: Mirror.INetworkManager.ServerChangeScene
-  nameWithType: INetworkManager.ServerChangeScene
 - uid: Mirror.INetworkManager.StartClient(Uri)
   name: StartClient(Uri)
   href: api/Mirror.INetworkManager.html#Mirror_INetworkManager_StartClient_Uri_
@@ -2905,6 +2879,38 @@ references:
   isSpec: "True"
   fullName: Mirror.INetworkManager.StopServer
   nameWithType: INetworkManager.StopServer
+- uid: Mirror.INetworkSceneManager
+  name: INetworkSceneManager
+  href: api/Mirror.INetworkSceneManager.html
+  commentId: T:Mirror.INetworkSceneManager
+  fullName: Mirror.INetworkSceneManager
+  nameWithType: INetworkSceneManager
+- uid: Mirror.INetworkSceneManager.ChangeServerScene(System.String)
+  name: ChangeServerScene(String)
+  href: api/Mirror.INetworkSceneManager.html#Mirror_INetworkSceneManager_ChangeServerScene_System_String_
+  commentId: M:Mirror.INetworkSceneManager.ChangeServerScene(System.String)
+  fullName: Mirror.INetworkSceneManager.ChangeServerScene(System.String)
+  nameWithType: INetworkSceneManager.ChangeServerScene(String)
+- uid: Mirror.INetworkSceneManager.ChangeServerScene*
+  name: ChangeServerScene
+  href: api/Mirror.INetworkSceneManager.html#Mirror_INetworkSceneManager_ChangeServerScene_
+  commentId: Overload:Mirror.INetworkSceneManager.ChangeServerScene
+  isSpec: "True"
+  fullName: Mirror.INetworkSceneManager.ChangeServerScene
+  nameWithType: INetworkSceneManager.ChangeServerScene
+- uid: Mirror.INetworkSceneManager.Ready(Mirror.INetworkConnection)
+  name: Ready(INetworkConnection)
+  href: api/Mirror.INetworkSceneManager.html#Mirror_INetworkSceneManager_Ready_Mirror_INetworkConnection_
+  commentId: M:Mirror.INetworkSceneManager.Ready(Mirror.INetworkConnection)
+  fullName: Mirror.INetworkSceneManager.Ready(Mirror.INetworkConnection)
+  nameWithType: INetworkSceneManager.Ready(INetworkConnection)
+- uid: Mirror.INetworkSceneManager.Ready*
+  name: Ready
+  href: api/Mirror.INetworkSceneManager.html#Mirror_INetworkSceneManager_Ready_
+  commentId: Overload:Mirror.INetworkSceneManager.Ready
+  isSpec: "True"
+  fullName: Mirror.INetworkSceneManager.Ready
+  nameWithType: INetworkSceneManager.Ready
 - uid: Mirror.INetworkServer
   name: INetworkServer
   href: api/Mirror.INetworkServer.html
@@ -4493,24 +4499,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkClient.ClearSpawners
   nameWithType: NetworkClient.ClearSpawners
-- uid: Mirror.NetworkClient.ClientChangeScene
-  name: ClientChangeScene
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_ClientChangeScene
-  commentId: F:Mirror.NetworkClient.ClientChangeScene
-  fullName: Mirror.NetworkClient.ClientChangeScene
-  nameWithType: NetworkClient.ClientChangeScene
-- uid: Mirror.NetworkClient.ClientNotReady
-  name: ClientNotReady
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_ClientNotReady
-  commentId: F:Mirror.NetworkClient.ClientNotReady
-  fullName: Mirror.NetworkClient.ClientNotReady
-  nameWithType: NetworkClient.ClientNotReady
-- uid: Mirror.NetworkClient.ClientSceneChanged
-  name: ClientSceneChanged
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_ClientSceneChanged
-  commentId: F:Mirror.NetworkClient.ClientSceneChanged
-  fullName: Mirror.NetworkClient.ClientSceneChanged
-  nameWithType: NetworkClient.ClientSceneChanged
 - uid: Mirror.NetworkClient.ClientSceneChangeEvent
   name: NetworkClient.ClientSceneChangeEvent
   href: api/Mirror.NetworkClient.ClientSceneChangeEvent.html
@@ -4636,12 +4624,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkClient.LocalPlayer
   nameWithType: NetworkClient.LocalPlayer
-- uid: Mirror.NetworkClient.NetworkConnectionEvent
-  name: NetworkClient.NetworkConnectionEvent
-  href: api/Mirror.NetworkClient.NetworkConnectionEvent.html
-  commentId: T:Mirror.NetworkClient.NetworkConnectionEvent
-  fullName: Mirror.NetworkClient.NetworkConnectionEvent
-  nameWithType: NetworkClient.NetworkConnectionEvent
 - uid: Mirror.NetworkClient.PrepareToSpawnSceneObjects
   name: PrepareToSpawnSceneObjects()
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_PrepareToSpawnSceneObjects
@@ -4655,32 +4637,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkClient.PrepareToSpawnSceneObjects
   nameWithType: NetworkClient.PrepareToSpawnSceneObjects
-- uid: Mirror.NetworkClient.ready
-  name: ready
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_ready
-  commentId: P:Mirror.NetworkClient.ready
-  fullName: Mirror.NetworkClient.ready
-  nameWithType: NetworkClient.ready
-- uid: Mirror.NetworkClient.Ready(Mirror.INetworkConnection)
-  name: Ready(INetworkConnection)
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Ready_Mirror_INetworkConnection_
-  commentId: M:Mirror.NetworkClient.Ready(Mirror.INetworkConnection)
-  fullName: Mirror.NetworkClient.Ready(Mirror.INetworkConnection)
-  nameWithType: NetworkClient.Ready(INetworkConnection)
-- uid: Mirror.NetworkClient.ready*
-  name: ready
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_ready_
-  commentId: Overload:Mirror.NetworkClient.ready
-  isSpec: "True"
-  fullName: Mirror.NetworkClient.ready
-  nameWithType: NetworkClient.ready
-- uid: Mirror.NetworkClient.Ready*
-  name: Ready
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Ready_
-  commentId: Overload:Mirror.NetworkClient.Ready
-  isSpec: "True"
-  fullName: Mirror.NetworkClient.Ready
-  nameWithType: NetworkClient.Ready
 - uid: Mirror.NetworkClient.RegisterPrefab(GameObject)
   name: RegisterPrefab(GameObject)
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_RegisterPrefab_GameObject_
@@ -4731,6 +4687,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkClient.RegisterSpawnHandler
   nameWithType: NetworkClient.RegisterSpawnHandler
+- uid: Mirror.NetworkClient.sceneManager
+  name: sceneManager
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_sceneManager
+  commentId: F:Mirror.NetworkClient.sceneManager
+  fullName: Mirror.NetworkClient.sceneManager
+  nameWithType: NetworkClient.sceneManager
 - uid: Mirror.NetworkClient.Send*
   name: Send
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Send_
@@ -5109,6 +5071,12 @@ references:
   fullName.vb: Mirror.NetworkConnection.UnregisterHandler(Of T)()
   nameWithType: NetworkConnection.UnregisterHandler<T>()
   nameWithType.vb: NetworkConnection.UnregisterHandler(Of T)()
+- uid: Mirror.NetworkConnectionEvent
+  name: NetworkConnectionEvent
+  href: api/Mirror.NetworkConnectionEvent.html
+  commentId: T:Mirror.NetworkConnectionEvent
+  fullName: Mirror.NetworkConnectionEvent
+  nameWithType: NetworkConnectionEvent
 - uid: Mirror.NetworkDiagnostics
   name: NetworkDiagnostics
   href: api/Mirror.NetworkDiagnostics.html
@@ -5494,12 +5462,6 @@ references:
   commentId: F:Mirror.NetworkManager.client
   fullName: Mirror.NetworkManager.client
   nameWithType: NetworkManager.client
-- uid: Mirror.NetworkManager.clientLoadedScene
-  name: clientLoadedScene
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_clientLoadedScene
-  commentId: F:Mirror.NetworkManager.clientLoadedScene
-  fullName: Mirror.NetworkManager.clientLoadedScene
-  nameWithType: NetworkManager.clientLoadedScene
 - uid: Mirror.NetworkManager.ConfigureServerFrameRate
   name: ConfigureServerFrameRate()
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_ConfigureServerFrameRate
@@ -5513,12 +5475,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.ConfigureServerFrameRate
   nameWithType: NetworkManager.ConfigureServerFrameRate
-- uid: Mirror.NetworkManager.dontDestroyOnLoad
-  name: dontDestroyOnLoad
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_dontDestroyOnLoad
-  commentId: F:Mirror.NetworkManager.dontDestroyOnLoad
-  fullName: Mirror.NetworkManager.dontDestroyOnLoad
-  nameWithType: NetworkManager.dontDestroyOnLoad
 - uid: Mirror.NetworkManager.IsNetworkActive
   name: IsNetworkActive
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_IsNetworkActive
@@ -5532,31 +5488,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.IsNetworkActive
   nameWithType: NetworkManager.IsNetworkActive
-- uid: Mirror.NetworkManager.LateUpdate
-  name: LateUpdate()
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_LateUpdate
-  commentId: M:Mirror.NetworkManager.LateUpdate
-  fullName: Mirror.NetworkManager.LateUpdate()
-  nameWithType: NetworkManager.LateUpdate()
-- uid: Mirror.NetworkManager.LateUpdate*
-  name: LateUpdate
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_LateUpdate_
-  commentId: Overload:Mirror.NetworkManager.LateUpdate
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.LateUpdate
-  nameWithType: NetworkManager.LateUpdate
-- uid: Mirror.NetworkManager.loadingSceneAsync
-  name: loadingSceneAsync
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_loadingSceneAsync
-  commentId: F:Mirror.NetworkManager.loadingSceneAsync
-  fullName: Mirror.NetworkManager.loadingSceneAsync
-  nameWithType: NetworkManager.loadingSceneAsync
-- uid: Mirror.NetworkManager.networkSceneName
-  name: networkSceneName
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_networkSceneName
-  commentId: F:Mirror.NetworkManager.networkSceneName
-  fullName: Mirror.NetworkManager.networkSceneName
-  nameWithType: NetworkManager.networkSceneName
 - uid: Mirror.NetworkManager.OnDestroy
   name: OnDestroy()
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnDestroy
@@ -5601,19 +5532,6 @@ references:
   commentId: F:Mirror.NetworkManager.server
   fullName: Mirror.NetworkManager.server
   nameWithType: NetworkManager.server
-- uid: Mirror.NetworkManager.ServerChangeScene(System.String)
-  name: ServerChangeScene(String)
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_ServerChangeScene_System_String_
-  commentId: M:Mirror.NetworkManager.ServerChangeScene(System.String)
-  fullName: Mirror.NetworkManager.ServerChangeScene(System.String)
-  nameWithType: NetworkManager.ServerChangeScene(String)
-- uid: Mirror.NetworkManager.ServerChangeScene*
-  name: ServerChangeScene
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_ServerChangeScene_
-  commentId: Overload:Mirror.NetworkManager.ServerChangeScene
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.ServerChangeScene
-  nameWithType: NetworkManager.ServerChangeScene
 - uid: Mirror.NetworkManager.serverTickRate
   name: serverTickRate
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_serverTickRate
@@ -6796,6 +6714,143 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkSceneChecker.OnStartServer
   nameWithType: NetworkSceneChecker.OnStartServer
+- uid: Mirror.NetworkSceneManager
+  name: NetworkSceneManager
+  href: api/Mirror.NetworkSceneManager.html
+  commentId: T:Mirror.NetworkSceneManager
+  fullName: Mirror.NetworkSceneManager
+  nameWithType: NetworkSceneManager
+- uid: Mirror.NetworkSceneManager.ChangeServerScene(System.String)
+  name: ChangeServerScene(String)
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_ChangeServerScene_System_String_
+  commentId: M:Mirror.NetworkSceneManager.ChangeServerScene(System.String)
+  fullName: Mirror.NetworkSceneManager.ChangeServerScene(System.String)
+  nameWithType: NetworkSceneManager.ChangeServerScene(String)
+- uid: Mirror.NetworkSceneManager.ChangeServerScene*
+  name: ChangeServerScene
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_ChangeServerScene_
+  commentId: Overload:Mirror.NetworkSceneManager.ChangeServerScene
+  isSpec: "True"
+  fullName: Mirror.NetworkSceneManager.ChangeServerScene
+  nameWithType: NetworkSceneManager.ChangeServerScene
+- uid: Mirror.NetworkSceneManager.client
+  name: client
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_client
+  commentId: F:Mirror.NetworkSceneManager.client
+  fullName: Mirror.NetworkSceneManager.client
+  nameWithType: NetworkSceneManager.client
+- uid: Mirror.NetworkSceneManager.ClientChangeScene
+  name: ClientChangeScene
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_ClientChangeScene
+  commentId: F:Mirror.NetworkSceneManager.ClientChangeScene
+  fullName: Mirror.NetworkSceneManager.ClientChangeScene
+  nameWithType: NetworkSceneManager.ClientChangeScene
+- uid: Mirror.NetworkSceneManager.ClientNotReady
+  name: ClientNotReady
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_ClientNotReady
+  commentId: F:Mirror.NetworkSceneManager.ClientNotReady
+  fullName: Mirror.NetworkSceneManager.ClientNotReady
+  nameWithType: NetworkSceneManager.ClientNotReady
+- uid: Mirror.NetworkSceneManager.ClientSceneChanged
+  name: ClientSceneChanged
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_ClientSceneChanged
+  commentId: F:Mirror.NetworkSceneManager.ClientSceneChanged
+  fullName: Mirror.NetworkSceneManager.ClientSceneChanged
+  nameWithType: NetworkSceneManager.ClientSceneChanged
+- uid: Mirror.NetworkSceneManager.ClientSceneChangeEvent
+  name: NetworkSceneManager.ClientSceneChangeEvent
+  href: api/Mirror.NetworkSceneManager.ClientSceneChangeEvent.html
+  commentId: T:Mirror.NetworkSceneManager.ClientSceneChangeEvent
+  fullName: Mirror.NetworkSceneManager.ClientSceneChangeEvent
+  nameWithType: NetworkSceneManager.ClientSceneChangeEvent
+- uid: Mirror.NetworkSceneManager.LateUpdate
+  name: LateUpdate()
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_LateUpdate
+  commentId: M:Mirror.NetworkSceneManager.LateUpdate
+  fullName: Mirror.NetworkSceneManager.LateUpdate()
+  nameWithType: NetworkSceneManager.LateUpdate()
+- uid: Mirror.NetworkSceneManager.LateUpdate*
+  name: LateUpdate
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_LateUpdate_
+  commentId: Overload:Mirror.NetworkSceneManager.LateUpdate
+  isSpec: "True"
+  fullName: Mirror.NetworkSceneManager.LateUpdate
+  nameWithType: NetworkSceneManager.LateUpdate
+- uid: Mirror.NetworkSceneManager.loadingSceneAsync
+  name: loadingSceneAsync
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_loadingSceneAsync
+  commentId: F:Mirror.NetworkSceneManager.loadingSceneAsync
+  fullName: Mirror.NetworkSceneManager.loadingSceneAsync
+  nameWithType: NetworkSceneManager.loadingSceneAsync
+- uid: Mirror.NetworkSceneManager.NetworkSceneEvent
+  name: NetworkSceneManager.NetworkSceneEvent
+  href: api/Mirror.NetworkSceneManager.NetworkSceneEvent.html
+  commentId: T:Mirror.NetworkSceneManager.NetworkSceneEvent
+  fullName: Mirror.NetworkSceneManager.NetworkSceneEvent
+  nameWithType: NetworkSceneManager.NetworkSceneEvent
+- uid: Mirror.NetworkSceneManager.networkSceneName
+  name: networkSceneName
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_networkSceneName
+  commentId: F:Mirror.NetworkSceneManager.networkSceneName
+  fullName: Mirror.NetworkSceneManager.networkSceneName
+  nameWithType: NetworkSceneManager.networkSceneName
+- uid: Mirror.NetworkSceneManager.ready
+  name: ready
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_ready
+  commentId: P:Mirror.NetworkSceneManager.ready
+  fullName: Mirror.NetworkSceneManager.ready
+  nameWithType: NetworkSceneManager.ready
+- uid: Mirror.NetworkSceneManager.Ready(Mirror.INetworkConnection)
+  name: Ready(INetworkConnection)
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_Ready_Mirror_INetworkConnection_
+  commentId: M:Mirror.NetworkSceneManager.Ready(Mirror.INetworkConnection)
+  fullName: Mirror.NetworkSceneManager.Ready(Mirror.INetworkConnection)
+  nameWithType: NetworkSceneManager.Ready(INetworkConnection)
+- uid: Mirror.NetworkSceneManager.ready*
+  name: ready
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_ready_
+  commentId: Overload:Mirror.NetworkSceneManager.ready
+  isSpec: "True"
+  fullName: Mirror.NetworkSceneManager.ready
+  nameWithType: NetworkSceneManager.ready
+- uid: Mirror.NetworkSceneManager.Ready*
+  name: Ready
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_Ready_
+  commentId: Overload:Mirror.NetworkSceneManager.Ready
+  isSpec: "True"
+  fullName: Mirror.NetworkSceneManager.Ready
+  nameWithType: NetworkSceneManager.Ready
+- uid: Mirror.NetworkSceneManager.server
+  name: server
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_server
+  commentId: F:Mirror.NetworkSceneManager.server
+  fullName: Mirror.NetworkSceneManager.server
+  nameWithType: NetworkSceneManager.server
+- uid: Mirror.NetworkSceneManager.ServerChangeScene
+  name: ServerChangeScene
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_ServerChangeScene
+  commentId: F:Mirror.NetworkSceneManager.ServerChangeScene
+  fullName: Mirror.NetworkSceneManager.ServerChangeScene
+  nameWithType: NetworkSceneManager.ServerChangeScene
+- uid: Mirror.NetworkSceneManager.ServerSceneChanged
+  name: ServerSceneChanged
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_ServerSceneChanged
+  commentId: F:Mirror.NetworkSceneManager.ServerSceneChanged
+  fullName: Mirror.NetworkSceneManager.ServerSceneChanged
+  nameWithType: NetworkSceneManager.ServerSceneChanged
+- uid: Mirror.NetworkSceneManager.Start
+  name: Start()
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_Start
+  commentId: M:Mirror.NetworkSceneManager.Start
+  fullName: Mirror.NetworkSceneManager.Start()
+  nameWithType: NetworkSceneManager.Start()
+- uid: Mirror.NetworkSceneManager.Start*
+  name: Start
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_Start_
+  commentId: Overload:Mirror.NetworkSceneManager.Start
+  isSpec: "True"
+  fullName: Mirror.NetworkSceneManager.Start
+  nameWithType: NetworkSceneManager.Start
 - uid: Mirror.NetworkServer
   name: NetworkServer
   href: api/Mirror.NetworkServer.html
@@ -7037,6 +7092,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkServer.ReplacePlayerForConnection
   nameWithType: NetworkServer.ReplacePlayerForConnection
+- uid: Mirror.NetworkServer.sceneManager
+  name: sceneManager
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_sceneManager
+  commentId: F:Mirror.NetworkServer.sceneManager
+  fullName: Mirror.NetworkServer.sceneManager
+  nameWithType: NetworkServer.sceneManager
 - uid: Mirror.NetworkServer.SendToAll*
   name: SendToAll
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_SendToAll_
@@ -7094,18 +7155,6 @@ references:
   fullName.vb: Mirror.NetworkServer.SendToReady(Of T)(Mirror.NetworkIdentity, T, System.Int32)
   nameWithType: NetworkServer.SendToReady<T>(NetworkIdentity, T, Int32)
   nameWithType.vb: NetworkServer.SendToReady(Of T)(NetworkIdentity, T, Int32)
-- uid: Mirror.NetworkServer.ServerChangeScene
-  name: ServerChangeScene
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_ServerChangeScene
-  commentId: F:Mirror.NetworkServer.ServerChangeScene
-  fullName: Mirror.NetworkServer.ServerChangeScene
-  nameWithType: NetworkServer.ServerChangeScene
-- uid: Mirror.NetworkServer.ServerSceneChanged
-  name: ServerSceneChanged
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_ServerSceneChanged
-  commentId: F:Mirror.NetworkServer.ServerSceneChanged
-  fullName: Mirror.NetworkServer.ServerSceneChanged
-  nameWithType: NetworkServer.ServerSceneChanged
 - uid: Mirror.NetworkServer.SetAllClientsNotReady
   name: SetAllClientsNotReady()
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_SetAllClientsNotReady

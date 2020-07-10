@@ -161,11 +161,11 @@ and it's abstract methods</p>
 </section>
       <h4><a class="xref" href="Mirror.NetworkClient.ClientSceneChangeEvent.html">NetworkClient.ClientSceneChangeEvent</a></h4>
       <section></section>
-      <h4><a class="xref" href="Mirror.NetworkClient.NetworkConnectionEvent.html">NetworkClient.NetworkConnectionEvent</a></h4>
-      <section></section>
       <h4><a class="xref" href="Mirror.NetworkConnection.html">NetworkConnection</a></h4>
       <section><p>A High level network connection. This is used for connections from client-to-server and for connection from server-to-client.</p>
 </section>
+      <h4><a class="xref" href="Mirror.NetworkConnectionEvent.html">NetworkConnectionEvent</a></h4>
+      <section></section>
       <h4><a class="xref" href="Mirror.NetworkDiagnostics.html">NetworkDiagnostics</a></h4>
       <section><p>Provides profiling information from mirror
 A profiler can subscribe to these events and
@@ -208,6 +208,15 @@ present the data in a friendly way to the user</p>
 <p>Any object with this component on it will only be visible to other objects in the same scene</p>
 <p>This would be used when the server has multiple additive subscenes loaded to isolate players to their respective subscenes</p>
 </section>
+      <h4><a class="xref" href="Mirror.NetworkSceneManager.html">NetworkSceneManager</a></h4>
+      <section><p>Provides Scene Management to a NetworkServer and or NetworkClient.</p>
+<p>The <a class="xref" href="Mirror.NetworkClient.html">NetworkClient</a> loads scenes as instructed by the <a class="xref" href="Mirror.NetworkServer.html">NetworkServer</a>.</p>
+<p>The <a class="xref" href="Mirror.NetworkServer.html">NetworkServer</a> controls the currently active Scene and any additive Load/Unload.</p>
+</section>
+      <h4><a class="xref" href="Mirror.NetworkSceneManager.ClientSceneChangeEvent.html">NetworkSceneManager.ClientSceneChangeEvent</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Mirror.NetworkSceneManager.NetworkSceneEvent.html">NetworkSceneManager.NetworkSceneEvent</a></h4>
+      <section></section>
       <h4><a class="xref" href="Mirror.NetworkServer.html">NetworkServer</a></h4>
       <section><p>The NetworkServer.</p>
 </section>
@@ -370,6 +379,8 @@ If you send data in one of them,  you receive it on the other one</p>
 May be from the server to client or from client to server</p>
 </section>
       <h4><a class="xref" href="Mirror.INetworkManager.html">INetworkManager</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Mirror.INetworkSceneManager.html">INetworkSceneManager</a></h4>
       <section></section>
       <h4><a class="xref" href="Mirror.INetworkServer.html">INetworkServer</a></h4>
       <section></section>
