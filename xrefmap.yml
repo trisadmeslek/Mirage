@@ -5513,19 +5513,6 @@ references:
   commentId: F:Mirror.NetworkManager.OnStopHost
   fullName: Mirror.NetworkManager.OnStopHost
   nameWithType: NetworkManager.OnStopHost
-- uid: Mirror.NetworkManager.OnValidate
-  name: OnValidate()
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnValidate
-  commentId: M:Mirror.NetworkManager.OnValidate
-  fullName: Mirror.NetworkManager.OnValidate()
-  nameWithType: NetworkManager.OnValidate()
-- uid: Mirror.NetworkManager.OnValidate*
-  name: OnValidate
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnValidate_
-  commentId: Overload:Mirror.NetworkManager.OnValidate
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.OnValidate
-  nameWithType: NetworkManager.OnValidate
 - uid: Mirror.NetworkManager.server
   name: server
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_server
