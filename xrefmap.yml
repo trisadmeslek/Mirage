@@ -2002,19 +2002,19 @@ references:
   commentId: T:Mirror.Experimental.NetworkTransform
   fullName: Mirror.Experimental.NetworkTransform
   nameWithType: NetworkTransform
-- uid: Mirror.Experimental.NetworkTransform.targetTransform
-  name: targetTransform
-  href: api/Mirror.Experimental.NetworkTransform.html#Mirror_Experimental_NetworkTransform_targetTransform
-  commentId: P:Mirror.Experimental.NetworkTransform.targetTransform
-  fullName: Mirror.Experimental.NetworkTransform.targetTransform
-  nameWithType: NetworkTransform.targetTransform
-- uid: Mirror.Experimental.NetworkTransform.targetTransform*
-  name: targetTransform
-  href: api/Mirror.Experimental.NetworkTransform.html#Mirror_Experimental_NetworkTransform_targetTransform_
-  commentId: Overload:Mirror.Experimental.NetworkTransform.targetTransform
+- uid: Mirror.Experimental.NetworkTransform.TargetTransform
+  name: TargetTransform
+  href: api/Mirror.Experimental.NetworkTransform.html#Mirror_Experimental_NetworkTransform_TargetTransform
+  commentId: P:Mirror.Experimental.NetworkTransform.TargetTransform
+  fullName: Mirror.Experimental.NetworkTransform.TargetTransform
+  nameWithType: NetworkTransform.TargetTransform
+- uid: Mirror.Experimental.NetworkTransform.TargetTransform*
+  name: TargetTransform
+  href: api/Mirror.Experimental.NetworkTransform.html#Mirror_Experimental_NetworkTransform_TargetTransform_
+  commentId: Overload:Mirror.Experimental.NetworkTransform.TargetTransform
   isSpec: "True"
-  fullName: Mirror.Experimental.NetworkTransform.targetTransform
-  nameWithType: NetworkTransform.targetTransform
+  fullName: Mirror.Experimental.NetworkTransform.TargetTransform
+  nameWithType: NetworkTransform.TargetTransform
 - uid: Mirror.Experimental.NetworkTransformBase
   name: NetworkTransformBase
   href: api/Mirror.Experimental.NetworkTransformBase.html
@@ -2033,19 +2033,19 @@ references:
   commentId: T:Mirror.Experimental.NetworkTransformBase.DataPoint
   fullName: Mirror.Experimental.NetworkTransformBase.DataPoint
   nameWithType: NetworkTransformBase.DataPoint
-- uid: Mirror.Experimental.NetworkTransformBase.DataPoint.isValid
-  name: isValid
-  href: api/Mirror.Experimental.NetworkTransformBase.DataPoint.html#Mirror_Experimental_NetworkTransformBase_DataPoint_isValid
-  commentId: P:Mirror.Experimental.NetworkTransformBase.DataPoint.isValid
-  fullName: Mirror.Experimental.NetworkTransformBase.DataPoint.isValid
-  nameWithType: NetworkTransformBase.DataPoint.isValid
-- uid: Mirror.Experimental.NetworkTransformBase.DataPoint.isValid*
-  name: isValid
-  href: api/Mirror.Experimental.NetworkTransformBase.DataPoint.html#Mirror_Experimental_NetworkTransformBase_DataPoint_isValid_
-  commentId: Overload:Mirror.Experimental.NetworkTransformBase.DataPoint.isValid
+- uid: Mirror.Experimental.NetworkTransformBase.DataPoint.IsValid
+  name: IsValid
+  href: api/Mirror.Experimental.NetworkTransformBase.DataPoint.html#Mirror_Experimental_NetworkTransformBase_DataPoint_IsValid
+  commentId: P:Mirror.Experimental.NetworkTransformBase.DataPoint.IsValid
+  fullName: Mirror.Experimental.NetworkTransformBase.DataPoint.IsValid
+  nameWithType: NetworkTransformBase.DataPoint.IsValid
+- uid: Mirror.Experimental.NetworkTransformBase.DataPoint.IsValid*
+  name: IsValid
+  href: api/Mirror.Experimental.NetworkTransformBase.DataPoint.html#Mirror_Experimental_NetworkTransformBase_DataPoint_IsValid_
+  commentId: Overload:Mirror.Experimental.NetworkTransformBase.DataPoint.IsValid
   isSpec: "True"
-  fullName: Mirror.Experimental.NetworkTransformBase.DataPoint.isValid
-  nameWithType: NetworkTransformBase.DataPoint.isValid
+  fullName: Mirror.Experimental.NetworkTransformBase.DataPoint.IsValid
+  nameWithType: NetworkTransformBase.DataPoint.IsValid
 - uid: Mirror.Experimental.NetworkTransformBase.DataPoint.localPosition
   name: localPosition
   href: api/Mirror.Experimental.NetworkTransformBase.DataPoint.html#Mirror_Experimental_NetworkTransformBase_DataPoint_localPosition
@@ -2166,19 +2166,19 @@ references:
   commentId: F:Mirror.Experimental.NetworkTransformBase.syncScale
   fullName: Mirror.Experimental.NetworkTransformBase.syncScale
   nameWithType: NetworkTransformBase.syncScale
-- uid: Mirror.Experimental.NetworkTransformBase.targetTransform
-  name: targetTransform
-  href: api/Mirror.Experimental.NetworkTransformBase.html#Mirror_Experimental_NetworkTransformBase_targetTransform
-  commentId: P:Mirror.Experimental.NetworkTransformBase.targetTransform
-  fullName: Mirror.Experimental.NetworkTransformBase.targetTransform
-  nameWithType: NetworkTransformBase.targetTransform
-- uid: Mirror.Experimental.NetworkTransformBase.targetTransform*
-  name: targetTransform
-  href: api/Mirror.Experimental.NetworkTransformBase.html#Mirror_Experimental_NetworkTransformBase_targetTransform_
-  commentId: Overload:Mirror.Experimental.NetworkTransformBase.targetTransform
+- uid: Mirror.Experimental.NetworkTransformBase.TargetTransform
+  name: TargetTransform
+  href: api/Mirror.Experimental.NetworkTransformBase.html#Mirror_Experimental_NetworkTransformBase_TargetTransform
+  commentId: P:Mirror.Experimental.NetworkTransformBase.TargetTransform
+  fullName: Mirror.Experimental.NetworkTransformBase.TargetTransform
+  nameWithType: NetworkTransformBase.TargetTransform
+- uid: Mirror.Experimental.NetworkTransformBase.TargetTransform*
+  name: TargetTransform
+  href: api/Mirror.Experimental.NetworkTransformBase.html#Mirror_Experimental_NetworkTransformBase_TargetTransform_
+  commentId: Overload:Mirror.Experimental.NetworkTransformBase.TargetTransform
   isSpec: "True"
-  fullName: Mirror.Experimental.NetworkTransformBase.targetTransform
-  nameWithType: NetworkTransformBase.targetTransform
+  fullName: Mirror.Experimental.NetworkTransformBase.TargetTransform
+  nameWithType: NetworkTransformBase.TargetTransform
 - uid: Mirror.Experimental.NetworkTransformChild
   name: NetworkTransformChild
   href: api/Mirror.Experimental.NetworkTransformChild.html
@@ -2191,19 +2191,19 @@ references:
   commentId: F:Mirror.Experimental.NetworkTransformChild.target
   fullName: Mirror.Experimental.NetworkTransformChild.target
   nameWithType: NetworkTransformChild.target
-- uid: Mirror.Experimental.NetworkTransformChild.targetTransform
-  name: targetTransform
-  href: api/Mirror.Experimental.NetworkTransformChild.html#Mirror_Experimental_NetworkTransformChild_targetTransform
-  commentId: P:Mirror.Experimental.NetworkTransformChild.targetTransform
-  fullName: Mirror.Experimental.NetworkTransformChild.targetTransform
-  nameWithType: NetworkTransformChild.targetTransform
-- uid: Mirror.Experimental.NetworkTransformChild.targetTransform*
-  name: targetTransform
-  href: api/Mirror.Experimental.NetworkTransformChild.html#Mirror_Experimental_NetworkTransformChild_targetTransform_
-  commentId: Overload:Mirror.Experimental.NetworkTransformChild.targetTransform
+- uid: Mirror.Experimental.NetworkTransformChild.TargetTransform
+  name: TargetTransform
+  href: api/Mirror.Experimental.NetworkTransformChild.html#Mirror_Experimental_NetworkTransformChild_TargetTransform
+  commentId: P:Mirror.Experimental.NetworkTransformChild.TargetTransform
+  fullName: Mirror.Experimental.NetworkTransformChild.TargetTransform
+  nameWithType: NetworkTransformChild.TargetTransform
+- uid: Mirror.Experimental.NetworkTransformChild.TargetTransform*
+  name: TargetTransform
+  href: api/Mirror.Experimental.NetworkTransformChild.html#Mirror_Experimental_NetworkTransformChild_TargetTransform_
+  commentId: Overload:Mirror.Experimental.NetworkTransformChild.TargetTransform
   isSpec: "True"
-  fullName: Mirror.Experimental.NetworkTransformChild.targetTransform
-  nameWithType: NetworkTransformChild.targetTransform
+  fullName: Mirror.Experimental.NetworkTransformChild.TargetTransform
+  nameWithType: NetworkTransformChild.TargetTransform
 - uid: Mirror.ExponentialMovingAverage
   name: ExponentialMovingAverage
   href: api/Mirror.ExponentialMovingAverage.html
@@ -5702,19 +5702,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkMatchChecker.Identity
   nameWithType: NetworkMatchChecker.Identity
-- uid: Mirror.NetworkMatchChecker.matchId
-  name: matchId
-  href: api/Mirror.NetworkMatchChecker.html#Mirror_NetworkMatchChecker_matchId
-  commentId: P:Mirror.NetworkMatchChecker.matchId
-  fullName: Mirror.NetworkMatchChecker.matchId
-  nameWithType: NetworkMatchChecker.matchId
-- uid: Mirror.NetworkMatchChecker.matchId*
-  name: matchId
-  href: api/Mirror.NetworkMatchChecker.html#Mirror_NetworkMatchChecker_matchId_
-  commentId: Overload:Mirror.NetworkMatchChecker.matchId
+- uid: Mirror.NetworkMatchChecker.MatchId
+  name: MatchId
+  href: api/Mirror.NetworkMatchChecker.html#Mirror_NetworkMatchChecker_MatchId
+  commentId: P:Mirror.NetworkMatchChecker.MatchId
+  fullName: Mirror.NetworkMatchChecker.MatchId
+  nameWithType: NetworkMatchChecker.MatchId
+- uid: Mirror.NetworkMatchChecker.MatchId*
+  name: MatchId
+  href: api/Mirror.NetworkMatchChecker.html#Mirror_NetworkMatchChecker_MatchId_
+  commentId: Overload:Mirror.NetworkMatchChecker.MatchId
   isSpec: "True"
-  fullName: Mirror.NetworkMatchChecker.matchId
-  nameWithType: NetworkMatchChecker.matchId
+  fullName: Mirror.NetworkMatchChecker.MatchId
+  nameWithType: NetworkMatchChecker.MatchId
 - uid: Mirror.NetworkMatchChecker.OnCheckObserver(Mirror.INetworkConnection)
   name: OnCheckObserver(INetworkConnection)
   href: api/Mirror.NetworkMatchChecker.html#Mirror_NetworkMatchChecker_OnCheckObserver_Mirror_INetworkConnection_
