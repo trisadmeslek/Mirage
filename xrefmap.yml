@@ -337,90 +337,6 @@ references:
   isSpec: "True"
   fullName: Mirror.AsyncTcp.AsyncTcpTransport.ServerUri
   nameWithType: AsyncTcpTransport.ServerUri
-- uid: Mirror.AsyncTransport
-  name: AsyncTransport
-  href: api/Mirror.AsyncTransport.html
-  commentId: T:Mirror.AsyncTransport
-  fullName: Mirror.AsyncTransport
-  nameWithType: AsyncTransport
-- uid: Mirror.AsyncTransport.AcceptAsync
-  name: AcceptAsync()
-  href: api/Mirror.AsyncTransport.html#Mirror_AsyncTransport_AcceptAsync
-  commentId: M:Mirror.AsyncTransport.AcceptAsync
-  fullName: Mirror.AsyncTransport.AcceptAsync()
-  nameWithType: AsyncTransport.AcceptAsync()
-- uid: Mirror.AsyncTransport.AcceptAsync*
-  name: AcceptAsync
-  href: api/Mirror.AsyncTransport.html#Mirror_AsyncTransport_AcceptAsync_
-  commentId: Overload:Mirror.AsyncTransport.AcceptAsync
-  isSpec: "True"
-  fullName: Mirror.AsyncTransport.AcceptAsync
-  nameWithType: AsyncTransport.AcceptAsync
-- uid: Mirror.AsyncTransport.ConnectAsync(Uri)
-  name: ConnectAsync(Uri)
-  href: api/Mirror.AsyncTransport.html#Mirror_AsyncTransport_ConnectAsync_Uri_
-  commentId: M:Mirror.AsyncTransport.ConnectAsync(Uri)
-  fullName: Mirror.AsyncTransport.ConnectAsync(Uri)
-  nameWithType: AsyncTransport.ConnectAsync(Uri)
-- uid: Mirror.AsyncTransport.ConnectAsync*
-  name: ConnectAsync
-  href: api/Mirror.AsyncTransport.html#Mirror_AsyncTransport_ConnectAsync_
-  commentId: Overload:Mirror.AsyncTransport.ConnectAsync
-  isSpec: "True"
-  fullName: Mirror.AsyncTransport.ConnectAsync
-  nameWithType: AsyncTransport.ConnectAsync
-- uid: Mirror.AsyncTransport.Disconnect
-  name: Disconnect()
-  href: api/Mirror.AsyncTransport.html#Mirror_AsyncTransport_Disconnect
-  commentId: M:Mirror.AsyncTransport.Disconnect
-  fullName: Mirror.AsyncTransport.Disconnect()
-  nameWithType: AsyncTransport.Disconnect()
-- uid: Mirror.AsyncTransport.Disconnect*
-  name: Disconnect
-  href: api/Mirror.AsyncTransport.html#Mirror_AsyncTransport_Disconnect_
-  commentId: Overload:Mirror.AsyncTransport.Disconnect
-  isSpec: "True"
-  fullName: Mirror.AsyncTransport.Disconnect
-  nameWithType: AsyncTransport.Disconnect
-- uid: Mirror.AsyncTransport.ListenAsync
-  name: ListenAsync()
-  href: api/Mirror.AsyncTransport.html#Mirror_AsyncTransport_ListenAsync
-  commentId: M:Mirror.AsyncTransport.ListenAsync
-  fullName: Mirror.AsyncTransport.ListenAsync()
-  nameWithType: AsyncTransport.ListenAsync()
-- uid: Mirror.AsyncTransport.ListenAsync*
-  name: ListenAsync
-  href: api/Mirror.AsyncTransport.html#Mirror_AsyncTransport_ListenAsync_
-  commentId: Overload:Mirror.AsyncTransport.ListenAsync
-  isSpec: "True"
-  fullName: Mirror.AsyncTransport.ListenAsync
-  nameWithType: AsyncTransport.ListenAsync
-- uid: Mirror.AsyncTransport.Scheme
-  name: Scheme
-  href: api/Mirror.AsyncTransport.html#Mirror_AsyncTransport_Scheme
-  commentId: P:Mirror.AsyncTransport.Scheme
-  fullName: Mirror.AsyncTransport.Scheme
-  nameWithType: AsyncTransport.Scheme
-- uid: Mirror.AsyncTransport.Scheme*
-  name: Scheme
-  href: api/Mirror.AsyncTransport.html#Mirror_AsyncTransport_Scheme_
-  commentId: Overload:Mirror.AsyncTransport.Scheme
-  isSpec: "True"
-  fullName: Mirror.AsyncTransport.Scheme
-  nameWithType: AsyncTransport.Scheme
-- uid: Mirror.AsyncTransport.ServerUri
-  name: ServerUri()
-  href: api/Mirror.AsyncTransport.html#Mirror_AsyncTransport_ServerUri
-  commentId: M:Mirror.AsyncTransport.ServerUri
-  fullName: Mirror.AsyncTransport.ServerUri()
-  nameWithType: AsyncTransport.ServerUri()
-- uid: Mirror.AsyncTransport.ServerUri*
-  name: ServerUri
-  href: api/Mirror.AsyncTransport.html#Mirror_AsyncTransport_ServerUri_
-  commentId: Overload:Mirror.AsyncTransport.ServerUri
-  isSpec: "True"
-  fullName: Mirror.AsyncTransport.ServerUri
-  nameWithType: AsyncTransport.ServerUri
 - uid: Mirror.Channels
   name: Channels
   href: api/Mirror.Channels.html
@@ -451,12 +367,6 @@ references:
   commentId: T:Mirror.ClientCallbackAttribute
   fullName: Mirror.ClientCallbackAttribute
   nameWithType: ClientCallbackAttribute
-- uid: Mirror.ClientDataReceivedEvent
-  name: ClientDataReceivedEvent
-  href: api/Mirror.ClientDataReceivedEvent.html
-  commentId: T:Mirror.ClientDataReceivedEvent
-  fullName: Mirror.ClientDataReceivedEvent
-  nameWithType: ClientDataReceivedEvent
 - uid: Mirror.ClientRpcAttribute
   name: ClientRpcAttribute
   href: api/Mirror.ClientRpcAttribute.html
@@ -8934,12 +8844,6 @@ references:
   commentId: T:Mirror.ServerCallbackAttribute
   fullName: Mirror.ServerCallbackAttribute
   nameWithType: ServerCallbackAttribute
-- uid: Mirror.ServerDataReceivedEvent
-  name: ServerDataReceivedEvent
-  href: api/Mirror.ServerDataReceivedEvent.html
-  commentId: T:Mirror.ServerDataReceivedEvent
-  fullName: Mirror.ServerDataReceivedEvent
-  nameWithType: ServerDataReceivedEvent
 - uid: Mirror.ShowInInspectorAttribute
   name: ShowInInspectorAttribute
   href: api/Mirror.ShowInInspectorAttribute.html
@@ -11193,229 +11097,71 @@ references:
   commentId: T:Mirror.Transport
   fullName: Mirror.Transport
   nameWithType: Transport
-- uid: Mirror.Transport.Available
-  name: Available()
-  href: api/Mirror.Transport.html#Mirror_Transport_Available
-  commentId: M:Mirror.Transport.Available
-  fullName: Mirror.Transport.Available()
-  nameWithType: Transport.Available()
-- uid: Mirror.Transport.Available*
-  name: Available
-  href: api/Mirror.Transport.html#Mirror_Transport_Available_
-  commentId: Overload:Mirror.Transport.Available
+- uid: Mirror.Transport.AcceptAsync
+  name: AcceptAsync()
+  href: api/Mirror.Transport.html#Mirror_Transport_AcceptAsync
+  commentId: M:Mirror.Transport.AcceptAsync
+  fullName: Mirror.Transport.AcceptAsync()
+  nameWithType: Transport.AcceptAsync()
+- uid: Mirror.Transport.AcceptAsync*
+  name: AcceptAsync
+  href: api/Mirror.Transport.html#Mirror_Transport_AcceptAsync_
+  commentId: Overload:Mirror.Transport.AcceptAsync
   isSpec: "True"
-  fullName: Mirror.Transport.Available
-  nameWithType: Transport.Available
-- uid: Mirror.Transport.ClientConnectAsync(System.String)
-  name: ClientConnectAsync(String)
-  href: api/Mirror.Transport.html#Mirror_Transport_ClientConnectAsync_System_String_
-  commentId: M:Mirror.Transport.ClientConnectAsync(System.String)
-  fullName: Mirror.Transport.ClientConnectAsync(System.String)
-  nameWithType: Transport.ClientConnectAsync(String)
-- uid: Mirror.Transport.ClientConnectAsync(Uri)
-  name: ClientConnectAsync(Uri)
-  href: api/Mirror.Transport.html#Mirror_Transport_ClientConnectAsync_Uri_
-  commentId: M:Mirror.Transport.ClientConnectAsync(Uri)
-  fullName: Mirror.Transport.ClientConnectAsync(Uri)
-  nameWithType: Transport.ClientConnectAsync(Uri)
-- uid: Mirror.Transport.ClientConnectAsync*
-  name: ClientConnectAsync
-  href: api/Mirror.Transport.html#Mirror_Transport_ClientConnectAsync_
-  commentId: Overload:Mirror.Transport.ClientConnectAsync
+  fullName: Mirror.Transport.AcceptAsync
+  nameWithType: Transport.AcceptAsync
+- uid: Mirror.Transport.ConnectAsync(Uri)
+  name: ConnectAsync(Uri)
+  href: api/Mirror.Transport.html#Mirror_Transport_ConnectAsync_Uri_
+  commentId: M:Mirror.Transport.ConnectAsync(Uri)
+  fullName: Mirror.Transport.ConnectAsync(Uri)
+  nameWithType: Transport.ConnectAsync(Uri)
+- uid: Mirror.Transport.ConnectAsync*
+  name: ConnectAsync
+  href: api/Mirror.Transport.html#Mirror_Transport_ConnectAsync_
+  commentId: Overload:Mirror.Transport.ConnectAsync
   isSpec: "True"
-  fullName: Mirror.Transport.ClientConnectAsync
-  nameWithType: Transport.ClientConnectAsync
-- uid: Mirror.Transport.ClientConnected
-  name: ClientConnected()
-  href: api/Mirror.Transport.html#Mirror_Transport_ClientConnected
-  commentId: M:Mirror.Transport.ClientConnected
-  fullName: Mirror.Transport.ClientConnected()
-  nameWithType: Transport.ClientConnected()
-- uid: Mirror.Transport.ClientConnected*
-  name: ClientConnected
-  href: api/Mirror.Transport.html#Mirror_Transport_ClientConnected_
-  commentId: Overload:Mirror.Transport.ClientConnected
+  fullName: Mirror.Transport.ConnectAsync
+  nameWithType: Transport.ConnectAsync
+- uid: Mirror.Transport.Disconnect
+  name: Disconnect()
+  href: api/Mirror.Transport.html#Mirror_Transport_Disconnect
+  commentId: M:Mirror.Transport.Disconnect
+  fullName: Mirror.Transport.Disconnect()
+  nameWithType: Transport.Disconnect()
+- uid: Mirror.Transport.Disconnect*
+  name: Disconnect
+  href: api/Mirror.Transport.html#Mirror_Transport_Disconnect_
+  commentId: Overload:Mirror.Transport.Disconnect
   isSpec: "True"
-  fullName: Mirror.Transport.ClientConnected
-  nameWithType: Transport.ClientConnected
-- uid: Mirror.Transport.ClientDisconnect
-  name: ClientDisconnect()
-  href: api/Mirror.Transport.html#Mirror_Transport_ClientDisconnect
-  commentId: M:Mirror.Transport.ClientDisconnect
-  fullName: Mirror.Transport.ClientDisconnect()
-  nameWithType: Transport.ClientDisconnect()
-- uid: Mirror.Transport.ClientDisconnect*
-  name: ClientDisconnect
-  href: api/Mirror.Transport.html#Mirror_Transport_ClientDisconnect_
-  commentId: Overload:Mirror.Transport.ClientDisconnect
+  fullName: Mirror.Transport.Disconnect
+  nameWithType: Transport.Disconnect
+- uid: Mirror.Transport.ListenAsync
+  name: ListenAsync()
+  href: api/Mirror.Transport.html#Mirror_Transport_ListenAsync
+  commentId: M:Mirror.Transport.ListenAsync
+  fullName: Mirror.Transport.ListenAsync()
+  nameWithType: Transport.ListenAsync()
+- uid: Mirror.Transport.ListenAsync*
+  name: ListenAsync
+  href: api/Mirror.Transport.html#Mirror_Transport_ListenAsync_
+  commentId: Overload:Mirror.Transport.ListenAsync
   isSpec: "True"
-  fullName: Mirror.Transport.ClientDisconnect
-  nameWithType: Transport.ClientDisconnect
-- uid: Mirror.Transport.ClientSend(System.Int32,ArraySegment{System.Byte})
-  name: ClientSend(Int32, ArraySegment<Byte>)
-  href: api/Mirror.Transport.html#Mirror_Transport_ClientSend_System_Int32_ArraySegment_System_Byte__
-  commentId: M:Mirror.Transport.ClientSend(System.Int32,ArraySegment{System.Byte})
-  name.vb: ClientSend(Int32, ArraySegment(Of Byte))
-  fullName: Mirror.Transport.ClientSend(System.Int32, ArraySegment<System.Byte>)
-  fullName.vb: Mirror.Transport.ClientSend(System.Int32, ArraySegment(Of System.Byte))
-  nameWithType: Transport.ClientSend(Int32, ArraySegment<Byte>)
-  nameWithType.vb: Transport.ClientSend(Int32, ArraySegment(Of Byte))
-- uid: Mirror.Transport.ClientSend*
-  name: ClientSend
-  href: api/Mirror.Transport.html#Mirror_Transport_ClientSend_
-  commentId: Overload:Mirror.Transport.ClientSend
+  fullName: Mirror.Transport.ListenAsync
+  nameWithType: Transport.ListenAsync
+- uid: Mirror.Transport.Scheme
+  name: Scheme
+  href: api/Mirror.Transport.html#Mirror_Transport_Scheme
+  commentId: P:Mirror.Transport.Scheme
+  fullName: Mirror.Transport.Scheme
+  nameWithType: Transport.Scheme
+- uid: Mirror.Transport.Scheme*
+  name: Scheme
+  href: api/Mirror.Transport.html#Mirror_Transport_Scheme_
+  commentId: Overload:Mirror.Transport.Scheme
   isSpec: "True"
-  fullName: Mirror.Transport.ClientSend
-  nameWithType: Transport.ClientSend
-- uid: Mirror.Transport.GetMaxPacketSize(System.Int32)
-  name: GetMaxPacketSize(Int32)
-  href: api/Mirror.Transport.html#Mirror_Transport_GetMaxPacketSize_System_Int32_
-  commentId: M:Mirror.Transport.GetMaxPacketSize(System.Int32)
-  fullName: Mirror.Transport.GetMaxPacketSize(System.Int32)
-  nameWithType: Transport.GetMaxPacketSize(Int32)
-- uid: Mirror.Transport.GetMaxPacketSize*
-  name: GetMaxPacketSize
-  href: api/Mirror.Transport.html#Mirror_Transport_GetMaxPacketSize_
-  commentId: Overload:Mirror.Transport.GetMaxPacketSize
-  isSpec: "True"
-  fullName: Mirror.Transport.GetMaxPacketSize
-  nameWithType: Transport.GetMaxPacketSize
-- uid: Mirror.Transport.OnApplicationQuit
-  name: OnApplicationQuit()
-  href: api/Mirror.Transport.html#Mirror_Transport_OnApplicationQuit
-  commentId: M:Mirror.Transport.OnApplicationQuit
-  fullName: Mirror.Transport.OnApplicationQuit()
-  nameWithType: Transport.OnApplicationQuit()
-- uid: Mirror.Transport.OnApplicationQuit*
-  name: OnApplicationQuit
-  href: api/Mirror.Transport.html#Mirror_Transport_OnApplicationQuit_
-  commentId: Overload:Mirror.Transport.OnApplicationQuit
-  isSpec: "True"
-  fullName: Mirror.Transport.OnApplicationQuit
-  nameWithType: Transport.OnApplicationQuit
-- uid: Mirror.Transport.OnClientDataReceived
-  name: OnClientDataReceived
-  href: api/Mirror.Transport.html#Mirror_Transport_OnClientDataReceived
-  commentId: F:Mirror.Transport.OnClientDataReceived
-  fullName: Mirror.Transport.OnClientDataReceived
-  nameWithType: Transport.OnClientDataReceived
-- uid: Mirror.Transport.OnClientDisconnected
-  name: OnClientDisconnected
-  href: api/Mirror.Transport.html#Mirror_Transport_OnClientDisconnected
-  commentId: F:Mirror.Transport.OnClientDisconnected
-  fullName: Mirror.Transport.OnClientDisconnected
-  nameWithType: Transport.OnClientDisconnected
-- uid: Mirror.Transport.OnClientError
-  name: OnClientError
-  href: api/Mirror.Transport.html#Mirror_Transport_OnClientError
-  commentId: F:Mirror.Transport.OnClientError
-  fullName: Mirror.Transport.OnClientError
-  nameWithType: Transport.OnClientError
-- uid: Mirror.Transport.OnServerConnected
-  name: OnServerConnected
-  href: api/Mirror.Transport.html#Mirror_Transport_OnServerConnected
-  commentId: F:Mirror.Transport.OnServerConnected
-  fullName: Mirror.Transport.OnServerConnected
-  nameWithType: Transport.OnServerConnected
-- uid: Mirror.Transport.OnServerDataReceived
-  name: OnServerDataReceived
-  href: api/Mirror.Transport.html#Mirror_Transport_OnServerDataReceived
-  commentId: F:Mirror.Transport.OnServerDataReceived
-  fullName: Mirror.Transport.OnServerDataReceived
-  nameWithType: Transport.OnServerDataReceived
-- uid: Mirror.Transport.OnServerDisconnected
-  name: OnServerDisconnected
-  href: api/Mirror.Transport.html#Mirror_Transport_OnServerDisconnected
-  commentId: F:Mirror.Transport.OnServerDisconnected
-  fullName: Mirror.Transport.OnServerDisconnected
-  nameWithType: Transport.OnServerDisconnected
-- uid: Mirror.Transport.OnServerError
-  name: OnServerError
-  href: api/Mirror.Transport.html#Mirror_Transport_OnServerError
-  commentId: F:Mirror.Transport.OnServerError
-  fullName: Mirror.Transport.OnServerError
-  nameWithType: Transport.OnServerError
-- uid: Mirror.Transport.ServerActive
-  name: ServerActive()
-  href: api/Mirror.Transport.html#Mirror_Transport_ServerActive
-  commentId: M:Mirror.Transport.ServerActive
-  fullName: Mirror.Transport.ServerActive()
-  nameWithType: Transport.ServerActive()
-- uid: Mirror.Transport.ServerActive*
-  name: ServerActive
-  href: api/Mirror.Transport.html#Mirror_Transport_ServerActive_
-  commentId: Overload:Mirror.Transport.ServerActive
-  isSpec: "True"
-  fullName: Mirror.Transport.ServerActive
-  nameWithType: Transport.ServerActive
-- uid: Mirror.Transport.ServerDisconnect(System.Int32)
-  name: ServerDisconnect(Int32)
-  href: api/Mirror.Transport.html#Mirror_Transport_ServerDisconnect_System_Int32_
-  commentId: M:Mirror.Transport.ServerDisconnect(System.Int32)
-  fullName: Mirror.Transport.ServerDisconnect(System.Int32)
-  nameWithType: Transport.ServerDisconnect(Int32)
-- uid: Mirror.Transport.ServerDisconnect*
-  name: ServerDisconnect
-  href: api/Mirror.Transport.html#Mirror_Transport_ServerDisconnect_
-  commentId: Overload:Mirror.Transport.ServerDisconnect
-  isSpec: "True"
-  fullName: Mirror.Transport.ServerDisconnect
-  nameWithType: Transport.ServerDisconnect
-- uid: Mirror.Transport.ServerGetClientAddress(System.Int32)
-  name: ServerGetClientAddress(Int32)
-  href: api/Mirror.Transport.html#Mirror_Transport_ServerGetClientAddress_System_Int32_
-  commentId: M:Mirror.Transport.ServerGetClientAddress(System.Int32)
-  fullName: Mirror.Transport.ServerGetClientAddress(System.Int32)
-  nameWithType: Transport.ServerGetClientAddress(Int32)
-- uid: Mirror.Transport.ServerGetClientAddress*
-  name: ServerGetClientAddress
-  href: api/Mirror.Transport.html#Mirror_Transport_ServerGetClientAddress_
-  commentId: Overload:Mirror.Transport.ServerGetClientAddress
-  isSpec: "True"
-  fullName: Mirror.Transport.ServerGetClientAddress
-  nameWithType: Transport.ServerGetClientAddress
-- uid: Mirror.Transport.ServerSend(List{System.Int32},System.Int32,ArraySegment{System.Byte})
-  name: ServerSend(List<Int32>, Int32, ArraySegment<Byte>)
-  href: api/Mirror.Transport.html#Mirror_Transport_ServerSend_List_System_Int32__System_Int32_ArraySegment_System_Byte__
-  commentId: M:Mirror.Transport.ServerSend(List{System.Int32},System.Int32,ArraySegment{System.Byte})
-  name.vb: ServerSend(List(Of Int32), Int32, ArraySegment(Of Byte))
-  fullName: Mirror.Transport.ServerSend(List<System.Int32>, System.Int32, ArraySegment<System.Byte>)
-  fullName.vb: Mirror.Transport.ServerSend(List(Of System.Int32), System.Int32, ArraySegment(Of System.Byte))
-  nameWithType: Transport.ServerSend(List<Int32>, Int32, ArraySegment<Byte>)
-  nameWithType.vb: Transport.ServerSend(List(Of Int32), Int32, ArraySegment(Of Byte))
-- uid: Mirror.Transport.ServerSend*
-  name: ServerSend
-  href: api/Mirror.Transport.html#Mirror_Transport_ServerSend_
-  commentId: Overload:Mirror.Transport.ServerSend
-  isSpec: "True"
-  fullName: Mirror.Transport.ServerSend
-  nameWithType: Transport.ServerSend
-- uid: Mirror.Transport.ServerStart
-  name: ServerStart()
-  href: api/Mirror.Transport.html#Mirror_Transport_ServerStart
-  commentId: M:Mirror.Transport.ServerStart
-  fullName: Mirror.Transport.ServerStart()
-  nameWithType: Transport.ServerStart()
-- uid: Mirror.Transport.ServerStart*
-  name: ServerStart
-  href: api/Mirror.Transport.html#Mirror_Transport_ServerStart_
-  commentId: Overload:Mirror.Transport.ServerStart
-  isSpec: "True"
-  fullName: Mirror.Transport.ServerStart
-  nameWithType: Transport.ServerStart
-- uid: Mirror.Transport.ServerStop
-  name: ServerStop()
-  href: api/Mirror.Transport.html#Mirror_Transport_ServerStop
-  commentId: M:Mirror.Transport.ServerStop
-  fullName: Mirror.Transport.ServerStop()
-  nameWithType: Transport.ServerStop()
-- uid: Mirror.Transport.ServerStop*
-  name: ServerStop
-  href: api/Mirror.Transport.html#Mirror_Transport_ServerStop_
-  commentId: Overload:Mirror.Transport.ServerStop
-  isSpec: "True"
-  fullName: Mirror.Transport.ServerStop
-  nameWithType: Transport.ServerStop
+  fullName: Mirror.Transport.Scheme
+  nameWithType: Transport.Scheme
 - uid: Mirror.Transport.ServerUri
   name: ServerUri()
   href: api/Mirror.Transport.html#Mirror_Transport_ServerUri
@@ -11429,50 +11175,6 @@ references:
   isSpec: "True"
   fullName: Mirror.Transport.ServerUri
   nameWithType: Transport.ServerUri
-- uid: Mirror.Transport.Shutdown
-  name: Shutdown()
-  href: api/Mirror.Transport.html#Mirror_Transport_Shutdown
-  commentId: M:Mirror.Transport.Shutdown
-  fullName: Mirror.Transport.Shutdown()
-  nameWithType: Transport.Shutdown()
-- uid: Mirror.Transport.Shutdown*
-  name: Shutdown
-  href: api/Mirror.Transport.html#Mirror_Transport_Shutdown_
-  commentId: Overload:Mirror.Transport.Shutdown
-  isSpec: "True"
-  fullName: Mirror.Transport.Shutdown
-  nameWithType: Transport.Shutdown
-- uid: Mirror.Transport.Update
-  name: Update()
-  href: api/Mirror.Transport.html#Mirror_Transport_Update
-  commentId: M:Mirror.Transport.Update
-  fullName: Mirror.Transport.Update()
-  nameWithType: Transport.Update()
-- uid: Mirror.Transport.Update*
-  name: Update
-  href: api/Mirror.Transport.html#Mirror_Transport_Update_
-  commentId: Overload:Mirror.Transport.Update
-  isSpec: "True"
-  fullName: Mirror.Transport.Update
-  nameWithType: Transport.Update
-- uid: Mirror.UnityEventException
-  name: UnityEventException
-  href: api/Mirror.UnityEventException.html
-  commentId: T:Mirror.UnityEventException
-  fullName: Mirror.UnityEventException
-  nameWithType: UnityEventException
-- uid: Mirror.UnityEventInt
-  name: UnityEventInt
-  href: api/Mirror.UnityEventInt.html
-  commentId: T:Mirror.UnityEventInt
-  fullName: Mirror.UnityEventInt
-  nameWithType: UnityEventInt
-- uid: Mirror.UnityEventIntException
-  name: UnityEventIntException
-  href: api/Mirror.UnityEventIntException.html
-  commentId: T:Mirror.UnityEventIntException
-  fullName: Mirror.UnityEventIntException
-  nameWithType: UnityEventIntException
 - uid: Mirror.UnSpawnDelegate
   name: UnSpawnDelegate
   href: api/Mirror.UnSpawnDelegate.html
