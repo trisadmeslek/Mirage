@@ -8777,12 +8777,6 @@ references:
   commentId: T:Mirror.SceneMessage
   fullName: Mirror.SceneMessage
   nameWithType: SceneMessage
-- uid: Mirror.SceneMessage.customHandling
-  name: customHandling
-  href: api/Mirror.SceneMessage.html#Mirror_SceneMessage_customHandling
-  commentId: F:Mirror.SceneMessage.customHandling
-  fullName: Mirror.SceneMessage.customHandling
-  nameWithType: SceneMessage.customHandling
 - uid: Mirror.SceneMessage.Deserialize(Mirror.NetworkReader)
   name: Deserialize(NetworkReader)
   href: api/Mirror.SceneMessage.html#Mirror_SceneMessage_Deserialize_Mirror_NetworkReader_
