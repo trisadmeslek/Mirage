@@ -3507,6 +3507,12 @@ references:
   commentId: T:Mirror.Logging.NetworkHeadlessLogger
   fullName: Mirror.Logging.NetworkHeadlessLogger
   nameWithType: NetworkHeadlessLogger
+- uid: Mirror.Logging.NetworkHeadlessLogger.showExceptionStackTrace
+  name: showExceptionStackTrace
+  href: api/Mirror.Logging.NetworkHeadlessLogger.html#Mirror_Logging_NetworkHeadlessLogger_showExceptionStackTrace
+  commentId: F:Mirror.Logging.NetworkHeadlessLogger.showExceptionStackTrace
+  fullName: Mirror.Logging.NetworkHeadlessLogger.showExceptionStackTrace
+  nameWithType: NetworkHeadlessLogger.showExceptionStackTrace
 - uid: Mirror.Logging.NetworkLogSettings
   name: NetworkLogSettings
   href: api/Mirror.Logging.NetworkLogSettings.html
