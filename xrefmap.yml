@@ -1858,6 +1858,30 @@ references:
   commentId: T:Mirror.Experimental.NetworkRigidbody
   fullName: Mirror.Experimental.NetworkRigidbody
   nameWithType: NetworkRigidbody
+- uid: Mirror.Experimental.NetworkRigidbody.angularVelocitySensitivity
+  name: angularVelocitySensitivity
+  href: api/Mirror.Experimental.NetworkRigidbody.html#Mirror_Experimental_NetworkRigidbody_angularVelocitySensitivity
+  commentId: F:Mirror.Experimental.NetworkRigidbody.angularVelocitySensitivity
+  fullName: Mirror.Experimental.NetworkRigidbody.angularVelocitySensitivity
+  nameWithType: NetworkRigidbody.angularVelocitySensitivity
+- uid: Mirror.Experimental.NetworkRigidbody.clearAngularVelocity
+  name: clearAngularVelocity
+  href: api/Mirror.Experimental.NetworkRigidbody.html#Mirror_Experimental_NetworkRigidbody_clearAngularVelocity
+  commentId: F:Mirror.Experimental.NetworkRigidbody.clearAngularVelocity
+  fullName: Mirror.Experimental.NetworkRigidbody.clearAngularVelocity
+  nameWithType: NetworkRigidbody.clearAngularVelocity
+- uid: Mirror.Experimental.NetworkRigidbody.clearVelocity
+  name: clearVelocity
+  href: api/Mirror.Experimental.NetworkRigidbody.html#Mirror_Experimental_NetworkRigidbody_clearVelocity
+  commentId: F:Mirror.Experimental.NetworkRigidbody.clearVelocity
+  fullName: Mirror.Experimental.NetworkRigidbody.clearVelocity
+  nameWithType: NetworkRigidbody.clearVelocity
+- uid: Mirror.Experimental.NetworkRigidbody.clientAuthority
+  name: clientAuthority
+  href: api/Mirror.Experimental.NetworkRigidbody.html#Mirror_Experimental_NetworkRigidbody_clientAuthority
+  commentId: F:Mirror.Experimental.NetworkRigidbody.clientAuthority
+  fullName: Mirror.Experimental.NetworkRigidbody.clientAuthority
+  nameWithType: NetworkRigidbody.clientAuthority
 - uid: Mirror.Experimental.NetworkRigidbody.ClientSyncState
   name: NetworkRigidbody.ClientSyncState
   href: api/Mirror.Experimental.NetworkRigidbody.ClientSyncState.html
@@ -1906,6 +1930,30 @@ references:
   commentId: F:Mirror.Experimental.NetworkRigidbody.ClientSyncState.velocity
   fullName: Mirror.Experimental.NetworkRigidbody.ClientSyncState.velocity
   nameWithType: NetworkRigidbody.ClientSyncState.velocity
+- uid: Mirror.Experimental.NetworkRigidbody.syncAngularVelocity
+  name: syncAngularVelocity
+  href: api/Mirror.Experimental.NetworkRigidbody.html#Mirror_Experimental_NetworkRigidbody_syncAngularVelocity
+  commentId: F:Mirror.Experimental.NetworkRigidbody.syncAngularVelocity
+  fullName: Mirror.Experimental.NetworkRigidbody.syncAngularVelocity
+  nameWithType: NetworkRigidbody.syncAngularVelocity
+- uid: Mirror.Experimental.NetworkRigidbody.syncVelocity
+  name: syncVelocity
+  href: api/Mirror.Experimental.NetworkRigidbody.html#Mirror_Experimental_NetworkRigidbody_syncVelocity
+  commentId: F:Mirror.Experimental.NetworkRigidbody.syncVelocity
+  fullName: Mirror.Experimental.NetworkRigidbody.syncVelocity
+  nameWithType: NetworkRigidbody.syncVelocity
+- uid: Mirror.Experimental.NetworkRigidbody.target
+  name: target
+  href: api/Mirror.Experimental.NetworkRigidbody.html#Mirror_Experimental_NetworkRigidbody_target
+  commentId: F:Mirror.Experimental.NetworkRigidbody.target
+  fullName: Mirror.Experimental.NetworkRigidbody.target
+  nameWithType: NetworkRigidbody.target
+- uid: Mirror.Experimental.NetworkRigidbody.velocitySensitivity
+  name: velocitySensitivity
+  href: api/Mirror.Experimental.NetworkRigidbody.html#Mirror_Experimental_NetworkRigidbody_velocitySensitivity
+  commentId: F:Mirror.Experimental.NetworkRigidbody.velocitySensitivity
+  fullName: Mirror.Experimental.NetworkRigidbody.velocitySensitivity
+  nameWithType: NetworkRigidbody.velocitySensitivity
 - uid: Mirror.Experimental.NetworkTransform
   name: NetworkTransform
   href: api/Mirror.Experimental.NetworkTransform.html
