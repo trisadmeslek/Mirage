@@ -106,10 +106,6 @@
       <h4><a class="xref" href="Mirror.ClientRpcAttribute.html">ClientRpcAttribute</a></h4>
       <section><p>The server uses a Remote Procedure Call (RPC) to run this function on clients.</p>
 </section>
-      <h4><a class="xref" href="Mirror.CommandAttribute.html">CommandAttribute</a></h4>
-      <section><p>Call this from a client to run this function on the server.</p>
-<p>Make sure to validate input etc. It&apos;s not possible to call this from a server.</p>
-</section>
       <h4><a class="xref" href="Mirror.ExponentialMovingAverage.html">ExponentialMovingAverage</a></h4>
       <section></section>
       <h4><a class="xref" href="Mirror.HasAuthorityAttribute.html">HasAuthorityAttribute</a></h4>
@@ -268,6 +264,10 @@ If you send data in one of them,  you receive it on the other one</p>
       <section><p>Prevents clients from running this method.</p>
 <p>No warning is thrown.</p>
 </section>
+      <h4><a class="xref" href="Mirror.ServerRpcAttribute.html">ServerRpcAttribute</a></h4>
+      <section><p>Call this from a client to run this function on the server.</p>
+<p>Make sure to validate input etc. It&apos;s not possible to call this from a server.</p>
+</section>
       <h4><a class="xref" href="Mirror.ShowInInspectorAttribute.html">ShowInInspectorAttribute</a></h4>
       <section><p>Used to show private SyncList in the inspector,</p>
 <p> Use instead of SerializeField for non Serializable types </p>
@@ -314,8 +314,6 @@ and it's abstract methods</p>
   </h3>
       <h4><a class="xref" href="Mirror.AddPlayerMessage.html">AddPlayerMessage</a></h4>
       <section></section>
-      <h4><a class="xref" href="Mirror.CommandMessage.html">CommandMessage</a></h4>
-      <section></section>
       <h4><a class="xref" href="Mirror.NetworkDiagnostics.MessageInfo.html">NetworkDiagnostics.MessageInfo</a></h4>
       <section><p>Describes an outgoing message</p>
 </section>
@@ -338,6 +336,8 @@ and it's abstract methods</p>
       <h4><a class="xref" href="Mirror.RpcMessage.html">RpcMessage</a></h4>
       <section></section>
       <h4><a class="xref" href="Mirror.SceneMessage.html">SceneMessage</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Mirror.ServerRpcMessage.html">ServerRpcMessage</a></h4>
       <section></section>
       <h4><a class="xref" href="Mirror.SpawnMessage.html">SpawnMessage</a></h4>
       <section></section>

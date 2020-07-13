@@ -815,57 +815,6 @@
   </table>
   
   
-  <a id="Mirror_NetworkBehaviour_InvokeCommand_" data-uid="Mirror.NetworkBehaviour.InvokeCommand*"></a>
-  <h4 id="Mirror_NetworkBehaviour_InvokeCommand_System_Int32_Mirror_NetworkReader_" data-uid="Mirror.NetworkBehaviour.InvokeCommand(System.Int32,Mirror.NetworkReader)">InvokeCommand(Int32, NetworkReader)</h4>
-  <div class="markdown level1 summary"><p>Manually invoke a Command.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual bool InvokeCommand(int cmdHash, NetworkReader reader)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">cmdHash</span></td>
-        <td><p>Hash of the Command name.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
-        <td><span class="parametername">reader</span></td>
-        <td><p>Parameters to pass to the command.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><p>Returns true if successful.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Mirror_NetworkBehaviour_InvokeRpc_" data-uid="Mirror.NetworkBehaviour.InvokeRpc*"></a>
   <h4 id="Mirror_NetworkBehaviour_InvokeRpc_System_Int32_Mirror_NetworkReader_" data-uid="Mirror.NetworkBehaviour.InvokeRpc(System.Int32,Mirror.NetworkReader)">InvokeRpc(Int32, NetworkReader)</h4>
   <div class="markdown level1 summary"><p>Manually invoke an RPC function.</p>
@@ -895,6 +844,57 @@
         <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
         <td><span class="parametername">reader</span></td>
         <td><p>Parameters to pass to the RPC function.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p>Returns true if successful.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mirror_NetworkBehaviour_InvokeServerRpc_" data-uid="Mirror.NetworkBehaviour.InvokeServerRpc*"></a>
+  <h4 id="Mirror_NetworkBehaviour_InvokeServerRpc_System_Int32_Mirror_NetworkReader_" data-uid="Mirror.NetworkBehaviour.InvokeServerRpc(System.Int32,Mirror.NetworkReader)">InvokeServerRpc(Int32, NetworkReader)</h4>
+  <div class="markdown level1 summary"><p>Manually invoke a ServerRpc.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool InvokeServerRpc(int cmdHash, NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">cmdHash</span></td>
+        <td><p>Hash of the ServerRpc name.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td><p>Parameters to pass to the ServerRpc.</p>
 </td>
       </tr>
     </tbody>
@@ -1059,53 +1059,6 @@
 </div>
   
   
-  <a id="Mirror_NetworkBehaviour_SendCommandInternal_" data-uid="Mirror.NetworkBehaviour.SendCommandInternal*"></a>
-  <h4 id="Mirror_NetworkBehaviour_SendCommandInternal_Type_System_String_Mirror_NetworkWriter_System_Int32_System_Boolean_" data-uid="Mirror.NetworkBehaviour.SendCommandInternal(Type,System.String,Mirror.NetworkWriter,System.Int32,System.Boolean)">SendCommandInternal(Type, String, NetworkWriter, Int32, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void SendCommandInternal(Type invokeClass, string cmdName, NetworkWriter writer, int channelId, bool requireAuthority = true)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Type</span></td>
-        <td><span class="parametername">invokeClass</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">cmdName</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Mirror.NetworkWriter.html">NetworkWriter</a></td>
-        <td><span class="parametername">writer</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">channelId</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">requireAuthority</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Mirror_NetworkBehaviour_SendEventInternal_" data-uid="Mirror.NetworkBehaviour.SendEventInternal*"></a>
   <h4 id="Mirror_NetworkBehaviour_SendEventInternal_Type_System_String_Mirror_NetworkWriter_System_Int32_" data-uid="Mirror.NetworkBehaviour.SendEventInternal(Type,System.String,Mirror.NetworkWriter,System.Int32)">SendEventInternal(Type, String, NetworkWriter, Int32)</h4>
   <div class="markdown level1 summary"></div>
@@ -1189,6 +1142,53 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><span class="parametername">excludeOwner</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mirror_NetworkBehaviour_SendServerRpcInternal_" data-uid="Mirror.NetworkBehaviour.SendServerRpcInternal*"></a>
+  <h4 id="Mirror_NetworkBehaviour_SendServerRpcInternal_Type_System_String_Mirror_NetworkWriter_System_Int32_System_Boolean_" data-uid="Mirror.NetworkBehaviour.SendServerRpcInternal(Type,System.String,Mirror.NetworkWriter,System.Int32,System.Boolean)">SendServerRpcInternal(Type, String, NetworkWriter, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SendServerRpcInternal(Type invokeClass, string cmdName, NetworkWriter writer, int channelId, bool requireAuthority = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">invokeClass</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">cmdName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkWriter.html">NetworkWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">channelId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">requireAuthority</span></td>
         <td></td>
       </tr>
     </tbody>

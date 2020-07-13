@@ -1325,80 +1325,6 @@ references:
   isSpec: "True"
   fullName: Mirror.Cloud.UnityEqualCheckExtension.IsNull
   nameWithType: UnityEqualCheckExtension.IsNull
-- uid: Mirror.CommandAttribute
-  name: CommandAttribute
-  href: api/Mirror.CommandAttribute.html
-  commentId: T:Mirror.CommandAttribute
-  fullName: Mirror.CommandAttribute
-  nameWithType: CommandAttribute
-- uid: Mirror.CommandAttribute.channel
-  name: channel
-  href: api/Mirror.CommandAttribute.html#Mirror_CommandAttribute_channel
-  commentId: F:Mirror.CommandAttribute.channel
-  fullName: Mirror.CommandAttribute.channel
-  nameWithType: CommandAttribute.channel
-- uid: Mirror.CommandAttribute.requireAuthority
-  name: requireAuthority
-  href: api/Mirror.CommandAttribute.html#Mirror_CommandAttribute_requireAuthority
-  commentId: F:Mirror.CommandAttribute.requireAuthority
-  fullName: Mirror.CommandAttribute.requireAuthority
-  nameWithType: CommandAttribute.requireAuthority
-- uid: Mirror.CommandMessage
-  name: CommandMessage
-  href: api/Mirror.CommandMessage.html
-  commentId: T:Mirror.CommandMessage
-  fullName: Mirror.CommandMessage
-  nameWithType: CommandMessage
-- uid: Mirror.CommandMessage.componentIndex
-  name: componentIndex
-  href: api/Mirror.CommandMessage.html#Mirror_CommandMessage_componentIndex
-  commentId: F:Mirror.CommandMessage.componentIndex
-  fullName: Mirror.CommandMessage.componentIndex
-  nameWithType: CommandMessage.componentIndex
-- uid: Mirror.CommandMessage.Deserialize(Mirror.NetworkReader)
-  name: Deserialize(NetworkReader)
-  href: api/Mirror.CommandMessage.html#Mirror_CommandMessage_Deserialize_Mirror_NetworkReader_
-  commentId: M:Mirror.CommandMessage.Deserialize(Mirror.NetworkReader)
-  fullName: Mirror.CommandMessage.Deserialize(Mirror.NetworkReader)
-  nameWithType: CommandMessage.Deserialize(NetworkReader)
-- uid: Mirror.CommandMessage.Deserialize*
-  name: Deserialize
-  href: api/Mirror.CommandMessage.html#Mirror_CommandMessage_Deserialize_
-  commentId: Overload:Mirror.CommandMessage.Deserialize
-  isSpec: "True"
-  fullName: Mirror.CommandMessage.Deserialize
-  nameWithType: CommandMessage.Deserialize
-- uid: Mirror.CommandMessage.functionHash
-  name: functionHash
-  href: api/Mirror.CommandMessage.html#Mirror_CommandMessage_functionHash
-  commentId: F:Mirror.CommandMessage.functionHash
-  fullName: Mirror.CommandMessage.functionHash
-  nameWithType: CommandMessage.functionHash
-- uid: Mirror.CommandMessage.netId
-  name: netId
-  href: api/Mirror.CommandMessage.html#Mirror_CommandMessage_netId
-  commentId: F:Mirror.CommandMessage.netId
-  fullName: Mirror.CommandMessage.netId
-  nameWithType: CommandMessage.netId
-- uid: Mirror.CommandMessage.payload
-  name: payload
-  href: api/Mirror.CommandMessage.html#Mirror_CommandMessage_payload
-  commentId: F:Mirror.CommandMessage.payload
-  fullName: Mirror.CommandMessage.payload
-  nameWithType: CommandMessage.payload
-- uid: Mirror.CommandMessage.Serialize(Mirror.NetworkWriter)
-  name: Serialize(NetworkWriter)
-  href: api/Mirror.CommandMessage.html#Mirror_CommandMessage_Serialize_Mirror_NetworkWriter_
-  commentId: M:Mirror.CommandMessage.Serialize(Mirror.NetworkWriter)
-  fullName: Mirror.CommandMessage.Serialize(Mirror.NetworkWriter)
-  nameWithType: CommandMessage.Serialize(NetworkWriter)
-- uid: Mirror.CommandMessage.Serialize*
-  name: Serialize
-  href: api/Mirror.CommandMessage.html#Mirror_CommandMessage_Serialize_
-  commentId: Overload:Mirror.CommandMessage.Serialize
-  isSpec: "True"
-  fullName: Mirror.CommandMessage.Serialize
-  nameWithType: CommandMessage.Serialize
 - uid: Mirror.ConnectState
   name: ConnectState
   href: api/Mirror.ConnectState.html
@@ -3693,12 +3619,12 @@ references:
   commentId: F:Mirror.MirrorInvokeType.ClientRpc
   fullName: Mirror.MirrorInvokeType.ClientRpc
   nameWithType: MirrorInvokeType.ClientRpc
-- uid: Mirror.MirrorInvokeType.Command
-  name: Command
-  href: api/Mirror.MirrorInvokeType.html#Mirror_MirrorInvokeType_Command
-  commentId: F:Mirror.MirrorInvokeType.Command
-  fullName: Mirror.MirrorInvokeType.Command
-  nameWithType: MirrorInvokeType.Command
+- uid: Mirror.MirrorInvokeType.ServerRpc
+  name: ServerRpc
+  href: api/Mirror.MirrorInvokeType.html#Mirror_MirrorInvokeType_ServerRpc
+  commentId: F:Mirror.MirrorInvokeType.ServerRpc
+  fullName: Mirror.MirrorInvokeType.ServerRpc
+  nameWithType: MirrorInvokeType.ServerRpc
 - uid: Mirror.MirrorInvokeType.SyncEvent
   name: SyncEvent
   href: api/Mirror.MirrorInvokeType.html#Mirror_MirrorInvokeType_SyncEvent
@@ -3986,19 +3912,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.InitSyncObject
   nameWithType: NetworkBehaviour.InitSyncObject
-- uid: Mirror.NetworkBehaviour.InvokeCommand(System.Int32,Mirror.NetworkReader)
-  name: InvokeCommand(Int32, NetworkReader)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InvokeCommand_System_Int32_Mirror_NetworkReader_
-  commentId: M:Mirror.NetworkBehaviour.InvokeCommand(System.Int32,Mirror.NetworkReader)
-  fullName: Mirror.NetworkBehaviour.InvokeCommand(System.Int32, Mirror.NetworkReader)
-  nameWithType: NetworkBehaviour.InvokeCommand(Int32, NetworkReader)
-- uid: Mirror.NetworkBehaviour.InvokeCommand*
-  name: InvokeCommand
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InvokeCommand_
-  commentId: Overload:Mirror.NetworkBehaviour.InvokeCommand
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.InvokeCommand
-  nameWithType: NetworkBehaviour.InvokeCommand
 - uid: Mirror.NetworkBehaviour.InvokeRpc(System.Int32,Mirror.NetworkReader)
   name: InvokeRpc(Int32, NetworkReader)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InvokeRpc_System_Int32_Mirror_NetworkReader_
@@ -4012,6 +3925,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.InvokeRpc
   nameWithType: NetworkBehaviour.InvokeRpc
+- uid: Mirror.NetworkBehaviour.InvokeServerRpc(System.Int32,Mirror.NetworkReader)
+  name: InvokeServerRpc(Int32, NetworkReader)
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InvokeServerRpc_System_Int32_Mirror_NetworkReader_
+  commentId: M:Mirror.NetworkBehaviour.InvokeServerRpc(System.Int32,Mirror.NetworkReader)
+  fullName: Mirror.NetworkBehaviour.InvokeServerRpc(System.Int32, Mirror.NetworkReader)
+  nameWithType: NetworkBehaviour.InvokeServerRpc(Int32, NetworkReader)
+- uid: Mirror.NetworkBehaviour.InvokeServerRpc*
+  name: InvokeServerRpc
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InvokeServerRpc_
+  commentId: Overload:Mirror.NetworkBehaviour.InvokeServerRpc
+  isSpec: "True"
+  fullName: Mirror.NetworkBehaviour.InvokeServerRpc
+  nameWithType: NetworkBehaviour.InvokeServerRpc
 - uid: Mirror.NetworkBehaviour.InvokeSyncEvent(System.Int32,Mirror.NetworkReader)
   name: InvokeSyncEvent(Int32, NetworkReader)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InvokeSyncEvent_System_Int32_Mirror_NetworkReader_
@@ -4168,19 +4094,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.OnSerialize
   nameWithType: NetworkBehaviour.OnSerialize
-- uid: Mirror.NetworkBehaviour.SendCommandInternal(Type,System.String,Mirror.NetworkWriter,System.Int32,System.Boolean)
-  name: SendCommandInternal(Type, String, NetworkWriter, Int32, Boolean)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendCommandInternal_Type_System_String_Mirror_NetworkWriter_System_Int32_System_Boolean_
-  commentId: M:Mirror.NetworkBehaviour.SendCommandInternal(Type,System.String,Mirror.NetworkWriter,System.Int32,System.Boolean)
-  fullName: Mirror.NetworkBehaviour.SendCommandInternal(Type, System.String, Mirror.NetworkWriter, System.Int32, System.Boolean)
-  nameWithType: NetworkBehaviour.SendCommandInternal(Type, String, NetworkWriter, Int32, Boolean)
-- uid: Mirror.NetworkBehaviour.SendCommandInternal*
-  name: SendCommandInternal
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendCommandInternal_
-  commentId: Overload:Mirror.NetworkBehaviour.SendCommandInternal
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.SendCommandInternal
-  nameWithType: NetworkBehaviour.SendCommandInternal
 - uid: Mirror.NetworkBehaviour.SendEventInternal(Type,System.String,Mirror.NetworkWriter,System.Int32)
   name: SendEventInternal(Type, String, NetworkWriter, Int32)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendEventInternal_Type_System_String_Mirror_NetworkWriter_System_Int32_
@@ -4207,6 +4120,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.SendRPCInternal
   nameWithType: NetworkBehaviour.SendRPCInternal
+- uid: Mirror.NetworkBehaviour.SendServerRpcInternal(Type,System.String,Mirror.NetworkWriter,System.Int32,System.Boolean)
+  name: SendServerRpcInternal(Type, String, NetworkWriter, Int32, Boolean)
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendServerRpcInternal_Type_System_String_Mirror_NetworkWriter_System_Int32_System_Boolean_
+  commentId: M:Mirror.NetworkBehaviour.SendServerRpcInternal(Type,System.String,Mirror.NetworkWriter,System.Int32,System.Boolean)
+  fullName: Mirror.NetworkBehaviour.SendServerRpcInternal(Type, System.String, Mirror.NetworkWriter, System.Int32, System.Boolean)
+  nameWithType: NetworkBehaviour.SendServerRpcInternal(Type, String, NetworkWriter, Int32, Boolean)
+- uid: Mirror.NetworkBehaviour.SendServerRpcInternal*
+  name: SendServerRpcInternal
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendServerRpcInternal_
+  commentId: Overload:Mirror.NetworkBehaviour.SendServerRpcInternal
+  isSpec: "True"
+  fullName: Mirror.NetworkBehaviour.SendServerRpcInternal
+  nameWithType: NetworkBehaviour.SendServerRpcInternal
 - uid: Mirror.NetworkBehaviour.SendTargetRPCInternal(Mirror.INetworkConnection,Type,System.String,Mirror.NetworkWriter,System.Int32)
   name: SendTargetRPCInternal(INetworkConnection, Type, String, NetworkWriter, Int32)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendTargetRPCInternal_Mirror_INetworkConnection_Type_System_String_Mirror_NetworkWriter_System_Int32_
@@ -8693,18 +8619,6 @@ references:
   commentId: T:Mirror.RemoteCalls.CmdDelegate
   fullName: Mirror.RemoteCalls.CmdDelegate
   nameWithType: CmdDelegate
-- uid: Mirror.RemoteCalls.CommandInfo
-  name: CommandInfo
-  href: api/Mirror.RemoteCalls.CommandInfo.html
-  commentId: T:Mirror.RemoteCalls.CommandInfo
-  fullName: Mirror.RemoteCalls.CommandInfo
-  nameWithType: CommandInfo
-- uid: Mirror.RemoteCalls.CommandInfo.requireAuthority
-  name: requireAuthority
-  href: api/Mirror.RemoteCalls.CommandInfo.html#Mirror_RemoteCalls_CommandInfo_requireAuthority
-  commentId: F:Mirror.RemoteCalls.CommandInfo.requireAuthority
-  fullName: Mirror.RemoteCalls.CommandInfo.requireAuthority
-  nameWithType: CommandInfo.requireAuthority
 - uid: Mirror.RemoteCalls.RemoteCallHelper
   name: RemoteCallHelper
   href: api/Mirror.RemoteCalls.RemoteCallHelper.html
@@ -8724,19 +8638,6 @@ references:
   isSpec: "True"
   fullName: Mirror.RemoteCalls.RemoteCallHelper.GetDelegate
   nameWithType: RemoteCallHelper.GetDelegate
-- uid: Mirror.RemoteCalls.RemoteCallHelper.RegisterCommandDelegate(Type,System.String,Mirror.RemoteCalls.CmdDelegate,System.Boolean)
-  name: RegisterCommandDelegate(Type, String, CmdDelegate, Boolean)
-  href: api/Mirror.RemoteCalls.RemoteCallHelper.html#Mirror_RemoteCalls_RemoteCallHelper_RegisterCommandDelegate_Type_System_String_Mirror_RemoteCalls_CmdDelegate_System_Boolean_
-  commentId: M:Mirror.RemoteCalls.RemoteCallHelper.RegisterCommandDelegate(Type,System.String,Mirror.RemoteCalls.CmdDelegate,System.Boolean)
-  fullName: Mirror.RemoteCalls.RemoteCallHelper.RegisterCommandDelegate(Type, System.String, Mirror.RemoteCalls.CmdDelegate, System.Boolean)
-  nameWithType: RemoteCallHelper.RegisterCommandDelegate(Type, String, CmdDelegate, Boolean)
-- uid: Mirror.RemoteCalls.RemoteCallHelper.RegisterCommandDelegate*
-  name: RegisterCommandDelegate
-  href: api/Mirror.RemoteCalls.RemoteCallHelper.html#Mirror_RemoteCalls_RemoteCallHelper_RegisterCommandDelegate_
-  commentId: Overload:Mirror.RemoteCalls.RemoteCallHelper.RegisterCommandDelegate
-  isSpec: "True"
-  fullName: Mirror.RemoteCalls.RemoteCallHelper.RegisterCommandDelegate
-  nameWithType: RemoteCallHelper.RegisterCommandDelegate
 - uid: Mirror.RemoteCalls.RemoteCallHelper.RegisterEventDelegate(Type,System.String,Mirror.RemoteCalls.CmdDelegate)
   name: RegisterEventDelegate(Type, String, CmdDelegate)
   href: api/Mirror.RemoteCalls.RemoteCallHelper.html#Mirror_RemoteCalls_RemoteCallHelper_RegisterEventDelegate_Type_System_String_Mirror_RemoteCalls_CmdDelegate_
@@ -8763,6 +8664,31 @@ references:
   isSpec: "True"
   fullName: Mirror.RemoteCalls.RemoteCallHelper.RegisterRpcDelegate
   nameWithType: RemoteCallHelper.RegisterRpcDelegate
+- uid: Mirror.RemoteCalls.RemoteCallHelper.RegisterServerRpcDelegate(Type,System.String,Mirror.RemoteCalls.CmdDelegate,System.Boolean)
+  name: RegisterServerRpcDelegate(Type, String, CmdDelegate, Boolean)
+  href: api/Mirror.RemoteCalls.RemoteCallHelper.html#Mirror_RemoteCalls_RemoteCallHelper_RegisterServerRpcDelegate_Type_System_String_Mirror_RemoteCalls_CmdDelegate_System_Boolean_
+  commentId: M:Mirror.RemoteCalls.RemoteCallHelper.RegisterServerRpcDelegate(Type,System.String,Mirror.RemoteCalls.CmdDelegate,System.Boolean)
+  fullName: Mirror.RemoteCalls.RemoteCallHelper.RegisterServerRpcDelegate(Type, System.String, Mirror.RemoteCalls.CmdDelegate, System.Boolean)
+  nameWithType: RemoteCallHelper.RegisterServerRpcDelegate(Type, String, CmdDelegate, Boolean)
+- uid: Mirror.RemoteCalls.RemoteCallHelper.RegisterServerRpcDelegate*
+  name: RegisterServerRpcDelegate
+  href: api/Mirror.RemoteCalls.RemoteCallHelper.html#Mirror_RemoteCalls_RemoteCallHelper_RegisterServerRpcDelegate_
+  commentId: Overload:Mirror.RemoteCalls.RemoteCallHelper.RegisterServerRpcDelegate
+  isSpec: "True"
+  fullName: Mirror.RemoteCalls.RemoteCallHelper.RegisterServerRpcDelegate
+  nameWithType: RemoteCallHelper.RegisterServerRpcDelegate
+- uid: Mirror.RemoteCalls.ServerRpcInfo
+  name: ServerRpcInfo
+  href: api/Mirror.RemoteCalls.ServerRpcInfo.html
+  commentId: T:Mirror.RemoteCalls.ServerRpcInfo
+  fullName: Mirror.RemoteCalls.ServerRpcInfo
+  nameWithType: ServerRpcInfo
+- uid: Mirror.RemoteCalls.ServerRpcInfo.requireAuthority
+  name: requireAuthority
+  href: api/Mirror.RemoteCalls.ServerRpcInfo.html#Mirror_RemoteCalls_ServerRpcInfo_requireAuthority
+  commentId: F:Mirror.RemoteCalls.ServerRpcInfo.requireAuthority
+  fullName: Mirror.RemoteCalls.ServerRpcInfo.requireAuthority
+  nameWithType: ServerRpcInfo.requireAuthority
 - uid: Mirror.RpcMessage
   name: RpcMessage
   href: api/Mirror.RpcMessage.html
@@ -8905,6 +8831,80 @@ references:
   commentId: T:Mirror.ServerCallbackAttribute
   fullName: Mirror.ServerCallbackAttribute
   nameWithType: ServerCallbackAttribute
+- uid: Mirror.ServerRpcAttribute
+  name: ServerRpcAttribute
+  href: api/Mirror.ServerRpcAttribute.html
+  commentId: T:Mirror.ServerRpcAttribute
+  fullName: Mirror.ServerRpcAttribute
+  nameWithType: ServerRpcAttribute
+- uid: Mirror.ServerRpcAttribute.channel
+  name: channel
+  href: api/Mirror.ServerRpcAttribute.html#Mirror_ServerRpcAttribute_channel
+  commentId: F:Mirror.ServerRpcAttribute.channel
+  fullName: Mirror.ServerRpcAttribute.channel
+  nameWithType: ServerRpcAttribute.channel
+- uid: Mirror.ServerRpcAttribute.requireAuthority
+  name: requireAuthority
+  href: api/Mirror.ServerRpcAttribute.html#Mirror_ServerRpcAttribute_requireAuthority
+  commentId: F:Mirror.ServerRpcAttribute.requireAuthority
+  fullName: Mirror.ServerRpcAttribute.requireAuthority
+  nameWithType: ServerRpcAttribute.requireAuthority
+- uid: Mirror.ServerRpcMessage
+  name: ServerRpcMessage
+  href: api/Mirror.ServerRpcMessage.html
+  commentId: T:Mirror.ServerRpcMessage
+  fullName: Mirror.ServerRpcMessage
+  nameWithType: ServerRpcMessage
+- uid: Mirror.ServerRpcMessage.componentIndex
+  name: componentIndex
+  href: api/Mirror.ServerRpcMessage.html#Mirror_ServerRpcMessage_componentIndex
+  commentId: F:Mirror.ServerRpcMessage.componentIndex
+  fullName: Mirror.ServerRpcMessage.componentIndex
+  nameWithType: ServerRpcMessage.componentIndex
+- uid: Mirror.ServerRpcMessage.Deserialize(Mirror.NetworkReader)
+  name: Deserialize(NetworkReader)
+  href: api/Mirror.ServerRpcMessage.html#Mirror_ServerRpcMessage_Deserialize_Mirror_NetworkReader_
+  commentId: M:Mirror.ServerRpcMessage.Deserialize(Mirror.NetworkReader)
+  fullName: Mirror.ServerRpcMessage.Deserialize(Mirror.NetworkReader)
+  nameWithType: ServerRpcMessage.Deserialize(NetworkReader)
+- uid: Mirror.ServerRpcMessage.Deserialize*
+  name: Deserialize
+  href: api/Mirror.ServerRpcMessage.html#Mirror_ServerRpcMessage_Deserialize_
+  commentId: Overload:Mirror.ServerRpcMessage.Deserialize
+  isSpec: "True"
+  fullName: Mirror.ServerRpcMessage.Deserialize
+  nameWithType: ServerRpcMessage.Deserialize
+- uid: Mirror.ServerRpcMessage.functionHash
+  name: functionHash
+  href: api/Mirror.ServerRpcMessage.html#Mirror_ServerRpcMessage_functionHash
+  commentId: F:Mirror.ServerRpcMessage.functionHash
+  fullName: Mirror.ServerRpcMessage.functionHash
+  nameWithType: ServerRpcMessage.functionHash
+- uid: Mirror.ServerRpcMessage.netId
+  name: netId
+  href: api/Mirror.ServerRpcMessage.html#Mirror_ServerRpcMessage_netId
+  commentId: F:Mirror.ServerRpcMessage.netId
+  fullName: Mirror.ServerRpcMessage.netId
+  nameWithType: ServerRpcMessage.netId
+- uid: Mirror.ServerRpcMessage.payload
+  name: payload
+  href: api/Mirror.ServerRpcMessage.html#Mirror_ServerRpcMessage_payload
+  commentId: F:Mirror.ServerRpcMessage.payload
+  fullName: Mirror.ServerRpcMessage.payload
+  nameWithType: ServerRpcMessage.payload
+- uid: Mirror.ServerRpcMessage.Serialize(Mirror.NetworkWriter)
+  name: Serialize(NetworkWriter)
+  href: api/Mirror.ServerRpcMessage.html#Mirror_ServerRpcMessage_Serialize_Mirror_NetworkWriter_
+  commentId: M:Mirror.ServerRpcMessage.Serialize(Mirror.NetworkWriter)
+  fullName: Mirror.ServerRpcMessage.Serialize(Mirror.NetworkWriter)
+  nameWithType: ServerRpcMessage.Serialize(NetworkWriter)
+- uid: Mirror.ServerRpcMessage.Serialize*
+  name: Serialize
+  href: api/Mirror.ServerRpcMessage.html#Mirror_ServerRpcMessage_Serialize_
+  commentId: Overload:Mirror.ServerRpcMessage.Serialize
+  isSpec: "True"
+  fullName: Mirror.ServerRpcMessage.Serialize
+  nameWithType: ServerRpcMessage.Serialize
 - uid: Mirror.ShowInInspectorAttribute
   name: ShowInInspectorAttribute
   href: api/Mirror.ShowInInspectorAttribute.html
