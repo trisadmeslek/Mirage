@@ -2152,12 +2152,12 @@ references:
   commentId: T:Mirror.HasAuthorityAttribute
   fullName: Mirror.HasAuthorityAttribute
   nameWithType: HasAuthorityAttribute
-- uid: Mirror.HasAuthorityCallbackAttribute
-  name: HasAuthorityCallbackAttribute
-  href: api/Mirror.HasAuthorityCallbackAttribute.html
-  commentId: T:Mirror.HasAuthorityCallbackAttribute
-  fullName: Mirror.HasAuthorityCallbackAttribute
-  nameWithType: HasAuthorityCallbackAttribute
+- uid: Mirror.HasAuthorityAttribute.error
+  name: error
+  href: api/Mirror.HasAuthorityAttribute.html#Mirror_HasAuthorityAttribute_error
+  commentId: F:Mirror.HasAuthorityAttribute.error
+  fullName: Mirror.HasAuthorityAttribute.error
+  nameWithType: HasAuthorityAttribute.error
 - uid: Mirror.IClientObjectManager
   name: IClientObjectManager
   href: api/Mirror.IClientObjectManager.html
