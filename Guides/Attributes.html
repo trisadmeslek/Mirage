@@ -88,13 +88,10 @@
 <li><p><strong>NetworkSettings</strong><br>
 This attribute has been deprecated because <code>channels</code> were moved to transports (where applicable) and <code>interval</code> was moved to an inspector property</p>
 </li>
-<li><p><strong>Server</strong><br>
-Only a server can call the method (throws a warning or an error when called on a client).</p>
+<li><p><strong><a class="xref" href="../api/Mirror.ServerAttribute.html">ServerAttribute</a></strong><br>
+Only a server can call the method (throws an error when called on a client unless you specify error = false).</p>
 </li>
-<li><p><strong>ServerCallback</strong><br>
-Same as <strong>Server</strong> but does not throw warning when called on client.</p>
-</li>
-<li><p><strong>Client</strong><br>
+<li><p><strong><a class="xref" href="../api/Mirror.ClientAttribute.html">ClientAttribute</a></strong><br>
 Only a Client can call the method (throws a warning or an error when called on the server).</p>
 </li>
 <li><p><strong>ClientCallback</strong><br>

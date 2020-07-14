@@ -139,9 +139,7 @@ The NetworkConnection associated with the Network Identity component attached to
 </ul>
 <p>Note that in a peer-hosted setup, when one of the clients is acting as both host and client, both <code>OnStartServer</code> and <code>OnStartClient</code> are called on the same game object. Both these functions are useful for actions that are specific to either the client or server, such as suppressing effects on a server, or setting up client-side events.</p>
 <h2 id="server-and-client-functions">Server and Client functions</h2>
-<p>You can tag member functions in NetworkBehaviour scripts with custom attributes to designate them as server-only or client-only functions. <code>Server</code> and <code>ServerCallback</code> return immediately if the client is not active. Likewise, <code>Client</code> and <code>ClientCallback</code> return immediately if the server is not active.</p>
-<p>The <code>Server</code> and <code>Client</code> attributes are for your own custom callback functions. They do not generate compile time errors, but they do emit a warning log message if called in the wrong scope.</p>
-<p>The <code>ServerCallback</code> and <code>ClientCallback</code> attributes are for built-in callback functions that are called automatically by Mirror. These attributes do not cause a warning to be generated.</p>
+<p>You can tag member functions in NetworkBehaviour scripts with custom attributes to designate them as server-only or client-only functions. <a class="xref" href="../api/Mirror.ServerAttribute.html">ServerAttribute</a> will check that the function is called in the server. Likewise, <a class="xref" href="../api/Mirror.ClientAttribute.html">ClientAttribute</a> will check if the function is called in the client.</p>
 <p>For more information, see <a href="Attributes.html">Attributes</a>.</p>
 <h2 id="commands">Commands</h2>
 <p>To execute code on the server, you must use commands. The high-level API is a server-authoritative system, so commands are the only way for a client to trigger some code on the server.</p>

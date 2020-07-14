@@ -3607,6 +3607,37 @@ references:
   isSpec: "True"
   fullName: Mirror.MessagePacker.UnpackId
   nameWithType: MessagePacker.UnpackId
+- uid: Mirror.MethodInvocationException
+  name: MethodInvocationException
+  href: api/Mirror.MethodInvocationException.html
+  commentId: T:Mirror.MethodInvocationException
+  fullName: Mirror.MethodInvocationException
+  nameWithType: MethodInvocationException
+- uid: Mirror.MethodInvocationException.#ctor
+  name: MethodInvocationException()
+  href: api/Mirror.MethodInvocationException.html#Mirror_MethodInvocationException__ctor
+  commentId: M:Mirror.MethodInvocationException.#ctor
+  fullName: Mirror.MethodInvocationException.MethodInvocationException()
+  nameWithType: MethodInvocationException.MethodInvocationException()
+- uid: Mirror.MethodInvocationException.#ctor(SerializationInfo,StreamingContext)
+  name: MethodInvocationException(SerializationInfo, StreamingContext)
+  href: api/Mirror.MethodInvocationException.html#Mirror_MethodInvocationException__ctor_SerializationInfo_StreamingContext_
+  commentId: M:Mirror.MethodInvocationException.#ctor(SerializationInfo,StreamingContext)
+  fullName: Mirror.MethodInvocationException.MethodInvocationException(SerializationInfo, StreamingContext)
+  nameWithType: MethodInvocationException.MethodInvocationException(SerializationInfo, StreamingContext)
+- uid: Mirror.MethodInvocationException.#ctor(System.String)
+  name: MethodInvocationException(String)
+  href: api/Mirror.MethodInvocationException.html#Mirror_MethodInvocationException__ctor_System_String_
+  commentId: M:Mirror.MethodInvocationException.#ctor(System.String)
+  fullName: Mirror.MethodInvocationException.MethodInvocationException(System.String)
+  nameWithType: MethodInvocationException.MethodInvocationException(String)
+- uid: Mirror.MethodInvocationException.#ctor*
+  name: MethodInvocationException
+  href: api/Mirror.MethodInvocationException.html#Mirror_MethodInvocationException__ctor_
+  commentId: Overload:Mirror.MethodInvocationException.#ctor
+  isSpec: "True"
+  fullName: Mirror.MethodInvocationException.MethodInvocationException
+  nameWithType: MethodInvocationException.MethodInvocationException
 - uid: Mirror.MirrorInvokeType
   name: MirrorInvokeType
   href: api/Mirror.MirrorInvokeType.html
@@ -8825,12 +8856,12 @@ references:
   commentId: T:Mirror.ServerAttribute
   fullName: Mirror.ServerAttribute
   nameWithType: ServerAttribute
-- uid: Mirror.ServerCallbackAttribute
-  name: ServerCallbackAttribute
-  href: api/Mirror.ServerCallbackAttribute.html
-  commentId: T:Mirror.ServerCallbackAttribute
-  fullName: Mirror.ServerCallbackAttribute
-  nameWithType: ServerCallbackAttribute
+- uid: Mirror.ServerAttribute.error
+  name: error
+  href: api/Mirror.ServerAttribute.html#Mirror_ServerAttribute_error
+  commentId: F:Mirror.ServerAttribute.error
+  fullName: Mirror.ServerAttribute.error
+  nameWithType: ServerAttribute.error
 - uid: Mirror.ServerRpcAttribute
   name: ServerRpcAttribute
   href: api/Mirror.ServerRpcAttribute.html
