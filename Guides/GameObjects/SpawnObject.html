@@ -218,7 +218,7 @@ class Tree : NetworkBehaviour
 <p>Because <code>OnStartLocalPlayer</code> is only called for the client’s local player game object, it is a good place to perform initialization that should only be done for the local player. This could include enabling input processing, and enabling camera tracking for the player game object.</p>
 <h2 id="spawning-game-objects-with-client-authority">Spawning Game Objects with Client Authority</h2>
 <p>To spawn game objects and assign authority of those game objects to a particular client, use <code>NetworkServer.Spawn</code>, which takes as an argument the <code>NetworkConnection</code> of the client that is to be made the authority.</p>
-<p>For these game objects, the property <code>hasAuthority</code> is true on the client with authority, and <code>OnStartAuthority</code> is called on the client with authority. That client can issue commands for that game object. On other clients (and on the host), <code>hasAuthority</code> is false.</p>
+<p>For these game objects, the property <code>hasAuthority</code> is true on the client with authority, and <code>OnStartAuthority</code> is called on the client with authority. That client can issue Server RPCs for that game object. On other clients (and on the host), <code>hasAuthority</code> is false.</p>
 <p>Objects spawned with client authority must have <code>LocalPlayerAuthority</code> set in their <code>NetworkIdentity</code>.</p>
 <p>For example, the tree spawn example above can be modified to allow the tree to have client authority like this (note that we now need to pass in a NetworkConnection game object for the owning client’s connection):</p>
 <pre><code class="lang-cs">void SpawnTrees(NetworkConnection conn)
@@ -234,13 +234,13 @@ class Tree : NetworkBehaviour
     }
 }
 </code></pre>
-<p>The Tree script can now be modified to send a command to the server:</p>
+<p>The Tree script can now be modified to send a Server RPC Call to the server:</p>
 <pre><code class="lang-cs">public override void OnStartAuthority()
 {
     CmdMessageFromTree(&quot;Tree with &quot; + numLeaves + &quot; reporting in&quot;);
 }
 
-[Command]
+[ServerRpc]
 void CmdMessageFromTree(string msg)
 {
     Debug.Log(&quot;Client sent a tree message: &quot; + msg);

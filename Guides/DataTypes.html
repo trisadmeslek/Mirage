@@ -166,7 +166,7 @@ It could also be null because the game object is excluded from a client due to n
       }
 }
 </code></pre>
-<p>...then you can use <code>DateTime</code> in your <code>[Command]</code> or <code>SyncList</code></p>
+<p>...then you can use <code>DateTime</code> in your <code>[ServerRpc]</code> or <code>SyncList</code></p>
 <h2 id="inheritance-and-polymorphism">Inheritance and Polymorphism</h2>
 <p>Sometimes you might want to send a polymorphic data type to your commands. Mirror does not serialize the type name to keep messages small and for security reasons, therefore Mirror cannot figure out the type of object it received by looking at the message.</p>
 <blockquote>
@@ -190,7 +190,7 @@ class Armor : Item
 
 class Player : NetworkBehaviour
 {
-    [Command]
+    [ServerRpc]
     void CmdEquip(Item item)
     {
         // IMPORTANT: this does not work. Mirror will pass you an object of type item
@@ -206,7 +206,7 @@ class Player : NetworkBehaviour
         }
     }
 
-    [Command]
+    [ServerRpc]
     void CmdEquipArmor(Armor armor)
     {
         // IMPORTANT: this does not work either, you will receive an armor, but 

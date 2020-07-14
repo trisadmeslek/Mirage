@@ -80,7 +80,7 @@
 <h1 id="networkbehaviour">NetworkBehaviour</h1>
 
 <p><strong>See also <a class="xref" href="../api/Mirror.NetworkBehaviour.html">NetworkBehaviour</a> in the API Reference.</strong></p>
-<p>Network Behaviour scripts work with game objects that have a NetworkIdentity component. These scripts can perform high-level API functions such as Commands, ClientRpc's, SyncEvents and SyncVars.</p>
+<p>Network Behaviour scripts work with game objects that have a NetworkIdentity component. These scripts can perform high-level API functions such as ServerRpc's, ClientRpc's, SyncEvents and SyncVars.</p>
 <p>With the server-authoritative system of Mirror, the server must use the <code>NetworkServer.Spawn</code> function to spawn game objects with Network Identity components. Spawning them this way assigns them a <code>netId</code> and creates them on clients connected to the server.</p>
 <p><strong>Note:</strong> This is not a component that you can add to a game object directly. Instead, you must create a script which inherits from <code>NetworkBehaviour</code> (instead of the default <code>MonoBehaviour</code>), then you can add your script as a component to a game object.</p>
 <h2 id="properties">Properties</h2>
@@ -107,7 +107,7 @@ The NetworkConnection associated with the Network Identity component attached to
 <li>Synchronized variables</li>
 <li>Network callbacks</li>
 <li>Server and client functions</li>
-<li>Sending commands</li>
+<li>Server RPC calls</li>
 <li>Client RPC calls</li>
 <li>Networked events</li>
 </ul>
@@ -141,17 +141,17 @@ The NetworkConnection associated with the Network Identity component attached to
 <h2 id="server-and-client-functions">Server and Client functions</h2>
 <p>You can tag member functions in NetworkBehaviour scripts with custom attributes to designate them as server-only or client-only functions. <a class="xref" href="../api/Mirror.ServerAttribute.html">ServerAttribute</a> will check that the function is called in the server. Likewise, <a class="xref" href="../api/Mirror.ClientAttribute.html">ClientAttribute</a> will check if the function is called in the client.</p>
 <p>For more information, see <a href="Attributes.html">Attributes</a>.</p>
-<h2 id="commands">Commands</h2>
-<p>To execute code on the server, you must use commands. The high-level API is a server-authoritative system, so commands are the only way for a client to trigger some code on the server.</p>
-<p>Only player game objects can send commands.</p>
-<p>When a client player game object sends a command, that command runs on the corresponding player game object on the server. This routing happens automatically, so it is impossible for a client to send a command for a different player.</p>
-<p>To define a command in your code, you must write a function which has:</p>
+<h2 id="server-rpc-calls">Server RPC Calls</h2>
+<p>To execute code on the server, you must use Server RPC calls. The high-level API is a server-authoritative system, so ServerRpc are the only way for a client to trigger some code on the server.</p>
+<p>Only player game objects can send ServerRpcs.</p>
+<p>When a client player game object sends a ServerRpc, that ServerRpc runs on the corresponding player game object on the server. This routing happens automatically, so it is impossible for a client to send a ServerRpc for a different player.</p>
+<p>To define a Server RPC Call in your code, you must write a function which has:</p>
 <ul>
 <li>A name that begins with <code>Cmd</code></li>
-<li>The <code>Command</code> attribute</li>
+<li>The <code>ServerRpc</code> attribute</li>
 </ul>
-<p>Commands are called just by invoking the function normally on the client. Instead of the command function running on the client, it is automatically invoked on the corresponding player game object on the server.</p>
-<p>Commands are type-safe, have built-in security and routing to the player, and use an efficient serialization mechanism for the arguments to make calling them fast.</p>
+<p>Server RPC Calls are called just by invoking the function normally on the client. Instead of the ServerRpc function running on the client, it is automatically invoked on the corresponding player game object on the server.</p>
+<p>Server RPC Calls are type-safe, have built-in security and routing to the player, and use an efficient serialization mechanism for the arguments to make calling them fast.</p>
 <p>See <a href="Communications/index.html">Communications</a> and related sections for more information.</p>
 <h2 id="client-rpc-calls">Client RPC Calls</h2>
 <p>Client RPC calls are a way for server game objects to make things happen on client game objects.</p>
@@ -171,7 +171,7 @@ The NetworkConnection associated with the Network Identity component attached to
 <li>Has the <code>SyncEvent</code> attribute</li>
 </ul>
 <p>You can use events to build powerful networked game systems that can be extended by other scripts. This example shows how an effect script on the client can respond to events generated by a combat script on the server.</p>
-<p>SyncEvent is the base class that Commands and ClientRpc calls are derived from. You can use the SyncEvent attribute on your own functions to make your own event-driven networked game play code. Using SyncEvent, you can extend Mirror’s Multiplayer features to better fit your own programming patterns.</p>
+<p>SyncEvent is the base class that ServerRpc and ClientRpc calls are derived from. You can use the SyncEvent attribute on your own functions to make your own event-driven networked game play code. Using SyncEvent, you can extend Mirror’s Multiplayer features to better fit your own programming patterns.</p>
 <p>See <a href="Sync/SyncEvent.html">SyncEvents</a> for more details.</p>
 </article>
           </div>

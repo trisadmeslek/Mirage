@@ -84,30 +84,30 @@
 <p>The default state of authority in networked games using Mirror is that the Server has authority over all game objects which do not represent players. This means, for example, the server would manage control of all collectible items, moving platforms, NPCs, and any other parts of your game that players can interact with, and player game objects have authority on their owner’s client (meaning the client manages their behavior).</p>
 <h2 id="client-authority">Client Authority</h2>
 <p>Client authority means the local client can control a networked game object. By default only the server has control over a networked object.</p>
-<p>In practical terms, having client authority means that the client can call <a href="Communications/RemoteActions.html">Command</a> methods, and if the client disconnects, the object is automatically destroyed.</p>
+<p>In practical terms, having client authority means that the client can call <a href="Communications/RemoteActions.html">ServerRpc</a> methods, and if the client disconnects, the object is automatically destroyed.</p>
 <p>Use the <code>NetworkIdentity.hasAuthority</code> property in the client to find out whether a game object has local authority (also accessible on <code>NetworkBehaviour</code> for convenience).</p>
 <p>Assigning authority to a client causes Mirror to call <code>OnStartAuthority()</code> on each <code>NetworkBehaviour</code> on the game object on the authority client, and sets the <code>hasAuthority</code> property to true. On other clients, the <code>hasAuthority</code> property remains false.</p>
 <p>Player objects always have client authority. This is required for controlling movement and other player actions.</p>
-<p><strong>Client Authority is not to be confused with client authoritative architecture</strong> Any action must still go to the server via a <a href="Communications/RemoteActions.html">Command</a>. The client cannot modify SyncVars or affect other clients directly.</p>
+<p><strong>Client Authority is not to be confused with client authoritative architecture</strong> Any action must still go to the server via a <a href="Communications/RemoteActions.html">ServerRpc</a>. The client cannot modify SyncVars or affect other clients directly.</p>
 <h2 id="non-player-game-objects">Non-Player Game Objects</h2>
 <p>There are two ways to grant client authority over non-player game objects:</p>
 <ol>
 <li>Spawn the game object using <code>NetworkServer.Spawn</code> and pass the network connection of the client to take ownership.</li>
 <li>Use <code>NetworkIdentity.AssignClientAuthority</code> with the network connection of the client to take ownership.</li>
 </ol>
-<p>Additionally, there is an optional parameter for [Command] that bypasses the authority check: <code>[Command(requireAuthority = false)]</code> which allows them to be invoked without the client having authority of the object.</p>
+<p>Additionally, there is an optional parameter for [ServerRpc] that bypasses the authority check: <code>[ServerRpc(requireAuthority = false)]</code> which allows them to be invoked without the client having authority of the object.</p>
 <p>The example below spawns a game object and assigns authority to the client of the player that spawned it, and also shows how to assign authority on request.</p>
-<pre><code class="lang-cs">[Command]
+<pre><code class="lang-cs">[ServerRpc]
 void CmdSpawn()
 {
     GameObject go = Instantiate(otherPrefab, transform.position + new Vector3(0,1,0), Quaternion.identity);
     NetworkServer.Spawn(go, connectionToClient);
 }
 
-[Command]
+[ServerRpc]
 void GrantAuthority(GameObject target)
 {
-    // target must have a NetworkIdentity component to be passed through a Command
+    // target must have a NetworkIdentity component to be passed through a ServerRpc
     // and must already exist on both server and client
     target.GetComponent&lt;NetworkIdentity&gt;().AssignClientAuthority(connectionToClient);
 }

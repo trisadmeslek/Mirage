@@ -164,7 +164,7 @@ public class PlayerEquip : NetworkBehaviour
             CmdChangeEquippedItem(EquippedItem.cylinder);
     }
 
-    [Command]
+    [ServerRpc]
     void CmdChangeEquippedItem(EquippedItem selectedItem)
     {
         equippedItem = selectedItem;
@@ -191,7 +191,7 @@ public class PlayerEquip : NetworkBehaviour
             CmdDropItem();
     }
 </code></pre>
-<pre><code class="lang-cs">    [Command]
+<pre><code class="lang-cs">    [ServerRpc]
     void CmdDropItem()
     {
         // Instantiate the scene object on the server
@@ -277,7 +277,7 @@ public class SceneObject : NetworkBehaviour
 <h2 id="pickup-items">Pickup Items</h2>
 <p>Now that we have a box dropped in the scene, we need to pick it up again. To do that, a <code>CmdPickupItem</code> method is added to the Player Equip script:</p>
 <pre><code class="lang-cs">    // CmdPickupItem is public because it's called from a script on the SceneObject
-    [Command]
+    [ServerRpc]
     public void CmdPickupItem(GameObject sceneObject)
     {
         // set the player's SyncVar so clients can show the equipped item

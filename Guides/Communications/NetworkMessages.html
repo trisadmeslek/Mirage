@@ -79,7 +79,7 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="network-messages">Network Messages</h1>
 
-<p>For the most part we recommend the high level <a href="RemoteActions.html">Commands and RPC</a> calls and <a href="../Sync/index.html">SyncVar</a>, but you can also send low level network messages. This can be useful if you want clients to send messages that are not tied to game objects, such as logging, analytics or profiling information.</p>
+<p>For the most part we recommend the high level <a href="RemoteActions.html">RPC</a> calls and <a href="../Sync/index.html">SyncVar</a>, but you can also send low level network messages. This can be useful if you want clients to send messages that are not tied to game objects, such as logging, analytics or profiling information.</p>
 <p>There is a class called MessageBase that you can extend to make serializable network message classes. This class has Serialize and Deserialize functions that take writer and reader objects. You can implement these functions yourself, but we recommend you let Mirror generate them for you.</p>
 <p>The base class looks like this:</p>
 <pre><code class="lang-cs">public abstract class MessageBase
