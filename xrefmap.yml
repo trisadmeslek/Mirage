@@ -123,6 +123,19 @@ references:
   isSpec: "True"
   fullName: Mirror.AsyncFallbackTransport.ServerUri
   nameWithType: AsyncFallbackTransport.ServerUri
+- uid: Mirror.AsyncFallbackTransport.Supported
+  name: Supported
+  href: api/Mirror.AsyncFallbackTransport.html#Mirror_AsyncFallbackTransport_Supported
+  commentId: P:Mirror.AsyncFallbackTransport.Supported
+  fullName: Mirror.AsyncFallbackTransport.Supported
+  nameWithType: AsyncFallbackTransport.Supported
+- uid: Mirror.AsyncFallbackTransport.Supported*
+  name: Supported
+  href: api/Mirror.AsyncFallbackTransport.html#Mirror_AsyncFallbackTransport_Supported_
+  commentId: Overload:Mirror.AsyncFallbackTransport.Supported
+  isSpec: "True"
+  fullName: Mirror.AsyncFallbackTransport.Supported
+  nameWithType: AsyncFallbackTransport.Supported
 - uid: Mirror.AsyncFallbackTransport.transports
   name: transports
   href: api/Mirror.AsyncFallbackTransport.html#Mirror_AsyncFallbackTransport_transports
@@ -213,6 +226,19 @@ references:
   isSpec: "True"
   fullName: Mirror.AsyncMultiplexTransport.ServerUri
   nameWithType: AsyncMultiplexTransport.ServerUri
+- uid: Mirror.AsyncMultiplexTransport.Supported
+  name: Supported
+  href: api/Mirror.AsyncMultiplexTransport.html#Mirror_AsyncMultiplexTransport_Supported
+  commentId: P:Mirror.AsyncMultiplexTransport.Supported
+  fullName: Mirror.AsyncMultiplexTransport.Supported
+  nameWithType: AsyncMultiplexTransport.Supported
+- uid: Mirror.AsyncMultiplexTransport.Supported*
+  name: Supported
+  href: api/Mirror.AsyncMultiplexTransport.html#Mirror_AsyncMultiplexTransport_Supported_
+  commentId: Overload:Mirror.AsyncMultiplexTransport.Supported
+  isSpec: "True"
+  fullName: Mirror.AsyncMultiplexTransport.Supported
+  nameWithType: AsyncMultiplexTransport.Supported
 - uid: Mirror.AsyncMultiplexTransport.transports
   name: transports
   href: api/Mirror.AsyncMultiplexTransport.html#Mirror_AsyncMultiplexTransport_transports
@@ -337,6 +363,19 @@ references:
   isSpec: "True"
   fullName: Mirror.AsyncTcp.AsyncTcpTransport.ServerUri
   nameWithType: AsyncTcpTransport.ServerUri
+- uid: Mirror.AsyncTcp.AsyncTcpTransport.Supported
+  name: Supported
+  href: api/Mirror.AsyncTcp.AsyncTcpTransport.html#Mirror_AsyncTcp_AsyncTcpTransport_Supported
+  commentId: P:Mirror.AsyncTcp.AsyncTcpTransport.Supported
+  fullName: Mirror.AsyncTcp.AsyncTcpTransport.Supported
+  nameWithType: AsyncTcpTransport.Supported
+- uid: Mirror.AsyncTcp.AsyncTcpTransport.Supported*
+  name: Supported
+  href: api/Mirror.AsyncTcp.AsyncTcpTransport.html#Mirror_AsyncTcp_AsyncTcpTransport_Supported_
+  commentId: Overload:Mirror.AsyncTcp.AsyncTcpTransport.Supported
+  isSpec: "True"
+  fullName: Mirror.AsyncTcp.AsyncTcpTransport.Supported
+  nameWithType: AsyncTcpTransport.Supported
 - uid: Mirror.Channels
   name: Channels
   href: api/Mirror.Channels.html
@@ -11267,6 +11306,19 @@ references:
   isSpec: "True"
   fullName: Mirror.Transport.ServerUri
   nameWithType: Transport.ServerUri
+- uid: Mirror.Transport.Supported
+  name: Supported
+  href: api/Mirror.Transport.html#Mirror_Transport_Supported
+  commentId: P:Mirror.Transport.Supported
+  fullName: Mirror.Transport.Supported
+  nameWithType: Transport.Supported
+- uid: Mirror.Transport.Supported*
+  name: Supported
+  href: api/Mirror.Transport.html#Mirror_Transport_Supported_
+  commentId: Overload:Mirror.Transport.Supported
+  isSpec: "True"
+  fullName: Mirror.Transport.Supported
+  nameWithType: Transport.Supported
 - uid: Mirror.UnSpawnDelegate
   name: UnSpawnDelegate
   href: api/Mirror.UnSpawnDelegate.html
@@ -11425,3 +11477,16 @@ references:
   isSpec: "True"
   fullName: Mirror.Websocket.AsyncWsTransport.ServerUri
   nameWithType: AsyncWsTransport.ServerUri
+- uid: Mirror.Websocket.AsyncWsTransport.Supported
+  name: Supported
+  href: api/Mirror.Websocket.AsyncWsTransport.html#Mirror_Websocket_AsyncWsTransport_Supported
+  commentId: P:Mirror.Websocket.AsyncWsTransport.Supported
+  fullName: Mirror.Websocket.AsyncWsTransport.Supported
+  nameWithType: AsyncWsTransport.Supported
+- uid: Mirror.Websocket.AsyncWsTransport.Supported*
+  name: Supported
+  href: api/Mirror.Websocket.AsyncWsTransport.html#Mirror_Websocket_AsyncWsTransport_Supported_
+  commentId: Overload:Mirror.Websocket.AsyncWsTransport.Supported
+  isSpec: "True"
+  fullName: Mirror.Websocket.AsyncWsTransport.Supported
+  nameWithType: AsyncWsTransport.Supported
