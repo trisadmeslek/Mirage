@@ -2808,12 +2808,12 @@ references:
   commentId: T:Mirror.INetworkSceneManager
   fullName: Mirror.INetworkSceneManager
   nameWithType: INetworkSceneManager
-- uid: Mirror.INetworkSceneManager.ChangeServerScene(System.String)
-  name: ChangeServerScene(String)
-  href: api/Mirror.INetworkSceneManager.html#Mirror_INetworkSceneManager_ChangeServerScene_System_String_
-  commentId: M:Mirror.INetworkSceneManager.ChangeServerScene(System.String)
-  fullName: Mirror.INetworkSceneManager.ChangeServerScene(System.String)
-  nameWithType: INetworkSceneManager.ChangeServerScene(String)
+- uid: Mirror.INetworkSceneManager.ChangeServerScene(System.String,Mirror.SceneOperation)
+  name: ChangeServerScene(String, SceneOperation)
+  href: api/Mirror.INetworkSceneManager.html#Mirror_INetworkSceneManager_ChangeServerScene_System_String_Mirror_SceneOperation_
+  commentId: M:Mirror.INetworkSceneManager.ChangeServerScene(System.String,Mirror.SceneOperation)
+  fullName: Mirror.INetworkSceneManager.ChangeServerScene(System.String, Mirror.SceneOperation)
+  nameWithType: INetworkSceneManager.ChangeServerScene(String, SceneOperation)
 - uid: Mirror.INetworkSceneManager.ChangeServerScene*
   name: ChangeServerScene
   href: api/Mirror.INetworkSceneManager.html#Mirror_INetworkSceneManager_ChangeServerScene_
@@ -6680,12 +6680,12 @@ references:
   commentId: T:Mirror.NetworkSceneManager
   fullName: Mirror.NetworkSceneManager
   nameWithType: NetworkSceneManager
-- uid: Mirror.NetworkSceneManager.ChangeServerScene(System.String)
-  name: ChangeServerScene(String)
-  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_ChangeServerScene_System_String_
-  commentId: M:Mirror.NetworkSceneManager.ChangeServerScene(System.String)
-  fullName: Mirror.NetworkSceneManager.ChangeServerScene(System.String)
-  nameWithType: NetworkSceneManager.ChangeServerScene(String)
+- uid: Mirror.NetworkSceneManager.ChangeServerScene(System.String,Mirror.SceneOperation)
+  name: ChangeServerScene(String, SceneOperation)
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_ChangeServerScene_System_String_Mirror_SceneOperation_
+  commentId: M:Mirror.NetworkSceneManager.ChangeServerScene(System.String,Mirror.SceneOperation)
+  fullName: Mirror.NetworkSceneManager.ChangeServerScene(System.String, Mirror.SceneOperation)
+  nameWithType: NetworkSceneManager.ChangeServerScene(String, SceneOperation)
 - uid: Mirror.NetworkSceneManager.ChangeServerScene*
   name: ChangeServerScene
   href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_ChangeServerScene_
