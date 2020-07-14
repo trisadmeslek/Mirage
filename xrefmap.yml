@@ -3287,12 +3287,12 @@ references:
   commentId: T:Mirror.LocalPlayerAttribute
   fullName: Mirror.LocalPlayerAttribute
   nameWithType: LocalPlayerAttribute
-- uid: Mirror.LocalPlayerCallbackAttribute
-  name: LocalPlayerCallbackAttribute
-  href: api/Mirror.LocalPlayerCallbackAttribute.html
-  commentId: T:Mirror.LocalPlayerCallbackAttribute
-  fullName: Mirror.LocalPlayerCallbackAttribute
-  nameWithType: LocalPlayerCallbackAttribute
+- uid: Mirror.LocalPlayerAttribute.error
+  name: error
+  href: api/Mirror.LocalPlayerAttribute.html#Mirror_LocalPlayerAttribute_error
+  commentId: F:Mirror.LocalPlayerAttribute.error
+  fullName: Mirror.LocalPlayerAttribute.error
+  nameWithType: LocalPlayerAttribute.error
 - uid: Mirror.LogFactory
   name: LogFactory
   href: api/Mirror.LogFactory.html
