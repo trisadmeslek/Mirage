@@ -92,10 +92,7 @@ This attribute has been deprecated because <code>channels</code> were moved to t
 Only a server can call the method (throws an error when called on a client unless you specify error = false).</p>
 </li>
 <li><p><strong><a class="xref" href="../api/Mirror.ClientAttribute.html">ClientAttribute</a></strong><br>
-Only a Client can call the method (throws a warning or an error when called on the server).</p>
-</li>
-<li><p><strong>ClientCallback</strong><br>
-Same as <strong>Client</strong> but does not throw warning when called on server.</p>
+Only a Client can call the method (throws an error when called on the server unless you specify error = false).</p>
 </li>
 <li><p><strong>ClientRpc</strong><br>
 The server uses a Remote Procedure Call (RPC) to run that function on clients. See also: <a href="Communications/RemoteActions.html">Remote Actions</a></p>

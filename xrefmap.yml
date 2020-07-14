@@ -361,12 +361,12 @@ references:
   commentId: T:Mirror.ClientAttribute
   fullName: Mirror.ClientAttribute
   nameWithType: ClientAttribute
-- uid: Mirror.ClientCallbackAttribute
-  name: ClientCallbackAttribute
-  href: api/Mirror.ClientCallbackAttribute.html
-  commentId: T:Mirror.ClientCallbackAttribute
-  fullName: Mirror.ClientCallbackAttribute
-  nameWithType: ClientCallbackAttribute
+- uid: Mirror.ClientAttribute.error
+  name: error
+  href: api/Mirror.ClientAttribute.html#Mirror_ClientAttribute_error
+  commentId: F:Mirror.ClientAttribute.error
+  fullName: Mirror.ClientAttribute.error
+  nameWithType: ClientAttribute.error
 - uid: Mirror.ClientRpcAttribute
   name: ClientRpcAttribute
   href: api/Mirror.ClientRpcAttribute.html
