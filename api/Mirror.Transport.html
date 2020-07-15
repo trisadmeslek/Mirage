@@ -280,7 +280,7 @@ Useful for network discovery</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract Uri ServerUri()</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract IEnumerable&lt;Uri&gt; ServerUri()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -292,7 +292,7 @@ Useful for network discovery</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Uri</span></td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">Uri</span>&gt;</td>
         <td><p>the url at which this server can be reached</p>
 </td>
       </tr>
