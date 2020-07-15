@@ -48,6 +48,57 @@ references:
   fullName.vb: Mirror.AsyncQueue(Of T)
   nameWithType: AsyncQueue<T>
   nameWithType.vb: AsyncQueue(Of T)
+- uid: Mirror.AsyncQueue`1.Count
+  name: Count
+  href: api/Mirror.AsyncQueue-1.html#Mirror_AsyncQueue_1_Count
+  commentId: P:Mirror.AsyncQueue`1.Count
+  fullName: Mirror.AsyncQueue<T>.Count
+  fullName.vb: Mirror.AsyncQueue(Of T).Count
+  nameWithType: AsyncQueue<T>.Count
+  nameWithType.vb: AsyncQueue(Of T).Count
+- uid: Mirror.AsyncQueue`1.Count*
+  name: Count
+  href: api/Mirror.AsyncQueue-1.html#Mirror_AsyncQueue_1_Count_
+  commentId: Overload:Mirror.AsyncQueue`1.Count
+  isSpec: "True"
+  fullName: Mirror.AsyncQueue<T>.Count
+  fullName.vb: Mirror.AsyncQueue(Of T).Count
+  nameWithType: AsyncQueue<T>.Count
+  nameWithType.vb: AsyncQueue(Of T).Count
+- uid: Mirror.AsyncQueue`1.DequeueAsync
+  name: DequeueAsync()
+  href: api/Mirror.AsyncQueue-1.html#Mirror_AsyncQueue_1_DequeueAsync
+  commentId: M:Mirror.AsyncQueue`1.DequeueAsync
+  fullName: Mirror.AsyncQueue<T>.DequeueAsync()
+  fullName.vb: Mirror.AsyncQueue(Of T).DequeueAsync()
+  nameWithType: AsyncQueue<T>.DequeueAsync()
+  nameWithType.vb: AsyncQueue(Of T).DequeueAsync()
+- uid: Mirror.AsyncQueue`1.DequeueAsync*
+  name: DequeueAsync
+  href: api/Mirror.AsyncQueue-1.html#Mirror_AsyncQueue_1_DequeueAsync_
+  commentId: Overload:Mirror.AsyncQueue`1.DequeueAsync
+  isSpec: "True"
+  fullName: Mirror.AsyncQueue<T>.DequeueAsync
+  fullName.vb: Mirror.AsyncQueue(Of T).DequeueAsync
+  nameWithType: AsyncQueue<T>.DequeueAsync
+  nameWithType.vb: AsyncQueue(Of T).DequeueAsync
+- uid: Mirror.AsyncQueue`1.Enqueue(`0)
+  name: Enqueue(T)
+  href: api/Mirror.AsyncQueue-1.html#Mirror_AsyncQueue_1_Enqueue__0_
+  commentId: M:Mirror.AsyncQueue`1.Enqueue(`0)
+  fullName: Mirror.AsyncQueue<T>.Enqueue(T)
+  fullName.vb: Mirror.AsyncQueue(Of T).Enqueue(T)
+  nameWithType: AsyncQueue<T>.Enqueue(T)
+  nameWithType.vb: AsyncQueue(Of T).Enqueue(T)
+- uid: Mirror.AsyncQueue`1.Enqueue*
+  name: Enqueue
+  href: api/Mirror.AsyncQueue-1.html#Mirror_AsyncQueue_1_Enqueue_
+  commentId: Overload:Mirror.AsyncQueue`1.Enqueue
+  isSpec: "True"
+  fullName: Mirror.AsyncQueue<T>.Enqueue
+  fullName.vb: Mirror.AsyncQueue(Of T).Enqueue
+  nameWithType: AsyncQueue<T>.Enqueue
+  nameWithType.vb: AsyncQueue(Of T).Enqueue
 - uid: Mirror.Channels
   name: Channels
   href: api/Mirror.Channels.html
