@@ -229,36 +229,6 @@
   </table>
   
   
-  <h4 id="Mirror_NetworkSceneManager_networkSceneName" data-uid="Mirror.NetworkSceneManager.networkSceneName">networkSceneName</h4>
-  <div class="markdown level1 summary"><p>The name of the current network scene.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string networkSceneName</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="Mirror_NetworkSceneManager_networkSceneName_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This should not be changed directly. Calls to ServerChangeScene() cause this to change. New clients that connect to a server will automatically load this scene.</p>
-<p>This is used to make sure that all scene changes are initialized by Mirror.</p>
-<p>Loading a scene manually wont set networkSceneName, so Mirror would still load it again on start.</p>
-</div>
-  
-  
   <h4 id="Mirror_NetworkSceneManager_server" data-uid="Mirror.NetworkSceneManager.server">server</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -333,6 +303,37 @@
   </table>
   <h3 id="properties">Properties
   </h3>
+  
+  
+  <a id="Mirror_NetworkSceneManager_NetworkSceneName_" data-uid="Mirror.NetworkSceneManager.NetworkSceneName*"></a>
+  <h4 id="Mirror_NetworkSceneManager_NetworkSceneName" data-uid="Mirror.NetworkSceneManager.NetworkSceneName">NetworkSceneName</h4>
+  <div class="markdown level1 summary"><p>The name of the current network scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string NetworkSceneName { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Mirror_NetworkSceneManager_NetworkSceneName_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This should not be changed directly. Calls to ServerChangeScene() cause this to change. New clients that connect to a server will automatically load this scene.</p>
+<p>This is used to make sure that all scene changes are initialized by Mirror.</p>
+<p>Loading a scene manually wont set networkSceneName, so Mirror would still load it again on start.</p>
+</div>
   
   
   <a id="Mirror_NetworkSceneManager_Ready_" data-uid="Mirror.NetworkSceneManager.Ready*"></a>

@@ -6677,12 +6677,19 @@ references:
   commentId: T:Mirror.NetworkSceneManager.NetworkSceneEvent
   fullName: Mirror.NetworkSceneManager.NetworkSceneEvent
   nameWithType: NetworkSceneManager.NetworkSceneEvent
-- uid: Mirror.NetworkSceneManager.networkSceneName
-  name: networkSceneName
-  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_networkSceneName
-  commentId: F:Mirror.NetworkSceneManager.networkSceneName
-  fullName: Mirror.NetworkSceneManager.networkSceneName
-  nameWithType: NetworkSceneManager.networkSceneName
+- uid: Mirror.NetworkSceneManager.NetworkSceneName
+  name: NetworkSceneName
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_NetworkSceneName
+  commentId: P:Mirror.NetworkSceneManager.NetworkSceneName
+  fullName: Mirror.NetworkSceneManager.NetworkSceneName
+  nameWithType: NetworkSceneManager.NetworkSceneName
+- uid: Mirror.NetworkSceneManager.NetworkSceneName*
+  name: NetworkSceneName
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_NetworkSceneName_
+  commentId: Overload:Mirror.NetworkSceneManager.NetworkSceneName
+  isSpec: "True"
+  fullName: Mirror.NetworkSceneManager.NetworkSceneName
+  nameWithType: NetworkSceneManager.NetworkSceneName
 - uid: Mirror.NetworkSceneManager.Ready
   name: Ready
   href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_Ready
