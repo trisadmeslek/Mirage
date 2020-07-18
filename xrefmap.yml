@@ -7115,12 +7115,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkServer.Spawn
   nameWithType: NetworkServer.Spawn
-- uid: Mirror.NetworkServer.spawned
-  name: spawned
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_spawned
-  commentId: F:Mirror.NetworkServer.spawned
-  fullName: Mirror.NetworkServer.spawned
-  nameWithType: NetworkServer.spawned
+- uid: Mirror.NetworkServer.Spawned
+  name: Spawned
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Spawned
+  commentId: F:Mirror.NetworkServer.Spawned
+  fullName: Mirror.NetworkServer.Spawned
+  nameWithType: NetworkServer.Spawned
 - uid: Mirror.NetworkServer.SpawnObjects
   name: SpawnObjects()
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_SpawnObjects
