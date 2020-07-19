@@ -6665,12 +6665,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkSceneManager.LateUpdate
   nameWithType: NetworkSceneManager.LateUpdate
-- uid: Mirror.NetworkSceneManager.loadingSceneAsync
-  name: loadingSceneAsync
-  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_loadingSceneAsync
-  commentId: F:Mirror.NetworkSceneManager.loadingSceneAsync
-  fullName: Mirror.NetworkSceneManager.loadingSceneAsync
-  nameWithType: NetworkSceneManager.loadingSceneAsync
 - uid: Mirror.NetworkSceneManager.NetworkSceneEvent
   name: NetworkSceneManager.NetworkSceneEvent
   href: api/Mirror.NetworkSceneManager.NetworkSceneEvent.html
