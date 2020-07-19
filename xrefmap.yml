@@ -2647,12 +2647,12 @@ references:
   isSpec: "True"
   fullName: Mirror.INetworkSceneManager.ChangeServerScene
   nameWithType: INetworkSceneManager.ChangeServerScene
-- uid: Mirror.INetworkSceneManager.SetClientReady(Mirror.INetworkConnection)
-  name: SetClientReady(INetworkConnection)
-  href: api/Mirror.INetworkSceneManager.html#Mirror_INetworkSceneManager_SetClientReady_Mirror_INetworkConnection_
-  commentId: M:Mirror.INetworkSceneManager.SetClientReady(Mirror.INetworkConnection)
-  fullName: Mirror.INetworkSceneManager.SetClientReady(Mirror.INetworkConnection)
-  nameWithType: INetworkSceneManager.SetClientReady(INetworkConnection)
+- uid: Mirror.INetworkSceneManager.SetClientReady
+  name: SetClientReady()
+  href: api/Mirror.INetworkSceneManager.html#Mirror_INetworkSceneManager_SetClientReady
+  commentId: M:Mirror.INetworkSceneManager.SetClientReady
+  fullName: Mirror.INetworkSceneManager.SetClientReady()
+  nameWithType: INetworkSceneManager.SetClientReady()
 - uid: Mirror.INetworkSceneManager.SetClientReady*
   name: SetClientReady
   href: api/Mirror.INetworkSceneManager.html#Mirror_INetworkSceneManager_SetClientReady_
@@ -6721,12 +6721,12 @@ references:
   commentId: F:Mirror.NetworkSceneManager.ServerSceneChanged
   fullName: Mirror.NetworkSceneManager.ServerSceneChanged
   nameWithType: NetworkSceneManager.ServerSceneChanged
-- uid: Mirror.NetworkSceneManager.SetClientReady(Mirror.INetworkConnection)
-  name: SetClientReady(INetworkConnection)
-  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_SetClientReady_Mirror_INetworkConnection_
-  commentId: M:Mirror.NetworkSceneManager.SetClientReady(Mirror.INetworkConnection)
-  fullName: Mirror.NetworkSceneManager.SetClientReady(Mirror.INetworkConnection)
-  nameWithType: NetworkSceneManager.SetClientReady(INetworkConnection)
+- uid: Mirror.NetworkSceneManager.SetClientReady
+  name: SetClientReady()
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_SetClientReady
+  commentId: M:Mirror.NetworkSceneManager.SetClientReady
+  fullName: Mirror.NetworkSceneManager.SetClientReady()
+  nameWithType: NetworkSceneManager.SetClientReady()
 - uid: Mirror.NetworkSceneManager.SetClientReady*
   name: SetClientReady
   href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_SetClientReady_
