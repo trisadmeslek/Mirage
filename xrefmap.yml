@@ -6665,12 +6665,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkSceneManager.LateUpdate
   nameWithType: NetworkSceneManager.LateUpdate
-- uid: Mirror.NetworkSceneManager.NetworkSceneEvent
-  name: NetworkSceneManager.NetworkSceneEvent
-  href: api/Mirror.NetworkSceneManager.NetworkSceneEvent.html
-  commentId: T:Mirror.NetworkSceneManager.NetworkSceneEvent
-  fullName: Mirror.NetworkSceneManager.NetworkSceneEvent
-  nameWithType: NetworkSceneManager.NetworkSceneEvent
 - uid: Mirror.NetworkSceneManager.NetworkSceneName
   name: NetworkSceneName
   href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_NetworkSceneName
