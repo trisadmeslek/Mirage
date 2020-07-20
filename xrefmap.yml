@@ -117,6 +117,30 @@ references:
   commentId: F:Mirror.Channels.DefaultUnreliable
   fullName: Mirror.Channels.DefaultUnreliable
   nameWithType: Channels.DefaultUnreliable
+- uid: Mirror.Client
+  name: Client
+  href: api/Mirror.Client.html
+  commentId: T:Mirror.Client
+  fullName: Mirror.Client
+  nameWithType: Client
+- uid: Mirror.Client.Connection
+  name: Connection
+  href: api/Mirror.Client.html#Mirror_Client_Connection
+  commentId: F:Mirror.Client.Connection
+  fullName: Mirror.Client.Connection
+  nameWithType: Client.Connection
+- uid: Mirror.Client.Observers
+  name: Observers
+  href: api/Mirror.Client.html#Mirror_Client_Observers
+  commentId: F:Mirror.Client.Observers
+  fullName: Mirror.Client.Observers
+  nameWithType: Client.Observers
+- uid: Mirror.Client.Owner
+  name: Owner
+  href: api/Mirror.Client.html#Mirror_Client_Owner
+  commentId: F:Mirror.Client.Owner
+  fullName: Mirror.Client.Owner
+  nameWithType: Client.Owner
 - uid: Mirror.ClientAttribute
   name: ClientAttribute
   href: api/Mirror.ClientAttribute.html
@@ -147,6 +171,12 @@ references:
   commentId: F:Mirror.ClientRpcAttribute.excludeOwner
   fullName: Mirror.ClientRpcAttribute.excludeOwner
   nameWithType: ClientRpcAttribute.excludeOwner
+- uid: Mirror.ClientRpcAttribute.target
+  name: target
+  href: api/Mirror.ClientRpcAttribute.html#Mirror_ClientRpcAttribute_target
+  commentId: F:Mirror.ClientRpcAttribute.target
+  fullName: Mirror.ClientRpcAttribute.target
+  nameWithType: ClientRpcAttribute.target
 - uid: Mirror.Cloud
   name: Mirror.Cloud
   href: api/Mirror.Cloud.html
@@ -11134,18 +11164,6 @@ references:
   commentId: F:Mirror.SyncVarAttribute.hook
   fullName: Mirror.SyncVarAttribute.hook
   nameWithType: SyncVarAttribute.hook
-- uid: Mirror.TargetRpcAttribute
-  name: TargetRpcAttribute
-  href: api/Mirror.TargetRpcAttribute.html
-  commentId: T:Mirror.TargetRpcAttribute
-  fullName: Mirror.TargetRpcAttribute
-  nameWithType: TargetRpcAttribute
-- uid: Mirror.TargetRpcAttribute.channel
-  name: channel
-  href: api/Mirror.TargetRpcAttribute.html#Mirror_TargetRpcAttribute_channel
-  commentId: F:Mirror.TargetRpcAttribute.channel
-  fullName: Mirror.TargetRpcAttribute.channel
-  nameWithType: TargetRpcAttribute.channel
 - uid: Mirror.Tcp
   name: Mirror.Tcp
   href: api/Mirror.Tcp.html

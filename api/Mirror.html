@@ -95,8 +95,7 @@
       <section><p>Prevents the server from running this method.</p>
 </section>
       <h4><a class="xref" href="Mirror.ClientRpcAttribute.html">ClientRpcAttribute</a></h4>
-      <section><p>The server uses a Remote Procedure Call (RPC) to run this function on clients.</p>
-</section>
+      <section></section>
       <h4><a class="xref" href="Mirror.ExponentialMovingAverage.html">ExponentialMovingAverage</a></h4>
       <section></section>
       <h4><a class="xref" href="Mirror.FallbackTransport.html">FallbackTransport</a></h4>
@@ -284,9 +283,6 @@ If you send data in one of them,  you receive it on the other one</p>
       <section><p>SyncVars are used to synchronize a variable from the server to all clients automatically.</p>
 <p>Value must be changed on server, not directly by clients.  Hook parameter allows you to define a client-side method to be invoked when the client gets an update from the server.</p>
 </section>
-      <h4><a class="xref" href="Mirror.TargetRpcAttribute.html">TargetRpcAttribute</a></h4>
-      <section><p>The server uses a Remote Procedure Call (RPC) to run this function on a specific client.</p>
-</section>
       <h4><a class="xref" href="Mirror.Transport.html">Transport</a></h4>
       <section><p>Base transport class,  any transport should implement this class
 and it's abstract methods</p>
@@ -366,6 +362,9 @@ this is useful for interest management</p>
 </section>
     <h3 id="enums">Enums
   </h3>
+      <h4><a class="xref" href="Mirror.Client.html">Client</a></h4>
+      <section><p>The server uses a Remote Procedure Call (RPC) to run this function on specific clients.</p>
+</section>
       <h4><a class="xref" href="Mirror.ConnectState.html">ConnectState</a></h4>
       <section></section>
       <h4><a class="xref" href="Mirror.MirrorInvokeType.html">MirrorInvokeType</a></h4>
