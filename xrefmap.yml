@@ -2183,19 +2183,19 @@ references:
   commentId: T:Mirror.IClientSceneManager
   fullName: Mirror.IClientSceneManager
   nameWithType: IClientSceneManager
-- uid: Mirror.IClientSceneManager.PrepareToSpawnSceneObjects
-  name: PrepareToSpawnSceneObjects()
-  href: api/Mirror.IClientSceneManager.html#Mirror_IClientSceneManager_PrepareToSpawnSceneObjects
-  commentId: M:Mirror.IClientSceneManager.PrepareToSpawnSceneObjects
-  fullName: Mirror.IClientSceneManager.PrepareToSpawnSceneObjects()
-  nameWithType: IClientSceneManager.PrepareToSpawnSceneObjects()
-- uid: Mirror.IClientSceneManager.PrepareToSpawnSceneObjects*
-  name: PrepareToSpawnSceneObjects
-  href: api/Mirror.IClientSceneManager.html#Mirror_IClientSceneManager_PrepareToSpawnSceneObjects_
-  commentId: Overload:Mirror.IClientSceneManager.PrepareToSpawnSceneObjects
+- uid: Mirror.IClientSceneManager.SetClientReady
+  name: SetClientReady()
+  href: api/Mirror.IClientSceneManager.html#Mirror_IClientSceneManager_SetClientReady
+  commentId: M:Mirror.IClientSceneManager.SetClientReady
+  fullName: Mirror.IClientSceneManager.SetClientReady()
+  nameWithType: IClientSceneManager.SetClientReady()
+- uid: Mirror.IClientSceneManager.SetClientReady*
+  name: SetClientReady
+  href: api/Mirror.IClientSceneManager.html#Mirror_IClientSceneManager_SetClientReady_
+  commentId: Overload:Mirror.IClientSceneManager.SetClientReady
   isSpec: "True"
-  fullName: Mirror.IClientSceneManager.PrepareToSpawnSceneObjects
-  nameWithType: IClientSceneManager.PrepareToSpawnSceneObjects
+  fullName: Mirror.IClientSceneManager.SetClientReady
+  nameWithType: IClientSceneManager.SetClientReady
 - uid: Mirror.IConnection
   name: IConnection
   href: api/Mirror.IConnection.html
@@ -2497,6 +2497,19 @@ references:
   isSpec: "True"
   fullName: Mirror.INetworkClient.Disconnect
   nameWithType: INetworkClient.Disconnect
+- uid: Mirror.INetworkClient.PrepareToSpawnSceneObjects
+  name: PrepareToSpawnSceneObjects()
+  href: api/Mirror.INetworkClient.html#Mirror_INetworkClient_PrepareToSpawnSceneObjects
+  commentId: M:Mirror.INetworkClient.PrepareToSpawnSceneObjects
+  fullName: Mirror.INetworkClient.PrepareToSpawnSceneObjects()
+  nameWithType: INetworkClient.PrepareToSpawnSceneObjects()
+- uid: Mirror.INetworkClient.PrepareToSpawnSceneObjects*
+  name: PrepareToSpawnSceneObjects
+  href: api/Mirror.INetworkClient.html#Mirror_INetworkClient_PrepareToSpawnSceneObjects_
+  commentId: Overload:Mirror.INetworkClient.PrepareToSpawnSceneObjects
+  isSpec: "True"
+  fullName: Mirror.INetworkClient.PrepareToSpawnSceneObjects
+  nameWithType: INetworkClient.PrepareToSpawnSceneObjects
 - uid: Mirror.INetworkClient.Send*
   name: Send
   href: api/Mirror.INetworkClient.html#Mirror_INetworkClient_Send_
@@ -2677,19 +2690,6 @@ references:
   isSpec: "True"
   fullName: Mirror.INetworkSceneManager.ChangeServerScene
   nameWithType: INetworkSceneManager.ChangeServerScene
-- uid: Mirror.INetworkSceneManager.SetClientReady
-  name: SetClientReady()
-  href: api/Mirror.INetworkSceneManager.html#Mirror_INetworkSceneManager_SetClientReady
-  commentId: M:Mirror.INetworkSceneManager.SetClientReady
-  fullName: Mirror.INetworkSceneManager.SetClientReady()
-  nameWithType: INetworkSceneManager.SetClientReady()
-- uid: Mirror.INetworkSceneManager.SetClientReady*
-  name: SetClientReady
-  href: api/Mirror.INetworkSceneManager.html#Mirror_INetworkSceneManager_SetClientReady_
-  commentId: Overload:Mirror.INetworkSceneManager.SetClientReady
-  isSpec: "True"
-  fullName: Mirror.INetworkSceneManager.SetClientReady
-  nameWithType: INetworkSceneManager.SetClientReady
 - uid: Mirror.INetworkServer
   name: INetworkServer
   href: api/Mirror.INetworkServer.html
@@ -2792,45 +2792,6 @@ references:
   fullName.vb: Mirror.INetworkServer.SendToReady(Of T)(Mirror.NetworkIdentity, T, System.Int32)
   nameWithType: INetworkServer.SendToReady<T>(NetworkIdentity, T, Int32)
   nameWithType.vb: INetworkServer.SendToReady(Of T)(NetworkIdentity, T, Int32)
-- uid: Mirror.INetworkServer.SetAllClientsNotReady
-  name: SetAllClientsNotReady()
-  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SetAllClientsNotReady
-  commentId: M:Mirror.INetworkServer.SetAllClientsNotReady
-  fullName: Mirror.INetworkServer.SetAllClientsNotReady()
-  nameWithType: INetworkServer.SetAllClientsNotReady()
-- uid: Mirror.INetworkServer.SetAllClientsNotReady*
-  name: SetAllClientsNotReady
-  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SetAllClientsNotReady_
-  commentId: Overload:Mirror.INetworkServer.SetAllClientsNotReady
-  isSpec: "True"
-  fullName: Mirror.INetworkServer.SetAllClientsNotReady
-  nameWithType: INetworkServer.SetAllClientsNotReady
-- uid: Mirror.INetworkServer.SetClientNotReady(Mirror.INetworkConnection)
-  name: SetClientNotReady(INetworkConnection)
-  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SetClientNotReady_Mirror_INetworkConnection_
-  commentId: M:Mirror.INetworkServer.SetClientNotReady(Mirror.INetworkConnection)
-  fullName: Mirror.INetworkServer.SetClientNotReady(Mirror.INetworkConnection)
-  nameWithType: INetworkServer.SetClientNotReady(INetworkConnection)
-- uid: Mirror.INetworkServer.SetClientNotReady*
-  name: SetClientNotReady
-  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SetClientNotReady_
-  commentId: Overload:Mirror.INetworkServer.SetClientNotReady
-  isSpec: "True"
-  fullName: Mirror.INetworkServer.SetClientNotReady
-  nameWithType: INetworkServer.SetClientNotReady
-- uid: Mirror.INetworkServer.SetClientReady(Mirror.INetworkConnection)
-  name: SetClientReady(INetworkConnection)
-  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SetClientReady_Mirror_INetworkConnection_
-  commentId: M:Mirror.INetworkServer.SetClientReady(Mirror.INetworkConnection)
-  fullName: Mirror.INetworkServer.SetClientReady(Mirror.INetworkConnection)
-  nameWithType: INetworkServer.SetClientReady(INetworkConnection)
-- uid: Mirror.INetworkServer.SetClientReady*
-  name: SetClientReady
-  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SetClientReady_
-  commentId: Overload:Mirror.INetworkServer.SetClientReady
-  isSpec: "True"
-  fullName: Mirror.INetworkServer.SetClientReady
-  nameWithType: INetworkServer.SetClientReady
 - uid: Mirror.InvalidMessageException
   name: InvalidMessageException
   href: api/Mirror.InvalidMessageException.html
@@ -3034,6 +2995,51 @@ references:
   isSpec: "True"
   fullName: Mirror.IServerObjectManager.UnSpawn
   nameWithType: IServerObjectManager.UnSpawn
+- uid: Mirror.IServerSceneManager
+  name: IServerSceneManager
+  href: api/Mirror.IServerSceneManager.html
+  commentId: T:Mirror.IServerSceneManager
+  fullName: Mirror.IServerSceneManager
+  nameWithType: IServerSceneManager
+- uid: Mirror.IServerSceneManager.SetAllClientsNotReady
+  name: SetAllClientsNotReady()
+  href: api/Mirror.IServerSceneManager.html#Mirror_IServerSceneManager_SetAllClientsNotReady
+  commentId: M:Mirror.IServerSceneManager.SetAllClientsNotReady
+  fullName: Mirror.IServerSceneManager.SetAllClientsNotReady()
+  nameWithType: IServerSceneManager.SetAllClientsNotReady()
+- uid: Mirror.IServerSceneManager.SetAllClientsNotReady*
+  name: SetAllClientsNotReady
+  href: api/Mirror.IServerSceneManager.html#Mirror_IServerSceneManager_SetAllClientsNotReady_
+  commentId: Overload:Mirror.IServerSceneManager.SetAllClientsNotReady
+  isSpec: "True"
+  fullName: Mirror.IServerSceneManager.SetAllClientsNotReady
+  nameWithType: IServerSceneManager.SetAllClientsNotReady
+- uid: Mirror.IServerSceneManager.SetClientNotReady(Mirror.INetworkConnection)
+  name: SetClientNotReady(INetworkConnection)
+  href: api/Mirror.IServerSceneManager.html#Mirror_IServerSceneManager_SetClientNotReady_Mirror_INetworkConnection_
+  commentId: M:Mirror.IServerSceneManager.SetClientNotReady(Mirror.INetworkConnection)
+  fullName: Mirror.IServerSceneManager.SetClientNotReady(Mirror.INetworkConnection)
+  nameWithType: IServerSceneManager.SetClientNotReady(INetworkConnection)
+- uid: Mirror.IServerSceneManager.SetClientNotReady*
+  name: SetClientNotReady
+  href: api/Mirror.IServerSceneManager.html#Mirror_IServerSceneManager_SetClientNotReady_
+  commentId: Overload:Mirror.IServerSceneManager.SetClientNotReady
+  isSpec: "True"
+  fullName: Mirror.IServerSceneManager.SetClientNotReady
+  nameWithType: IServerSceneManager.SetClientNotReady
+- uid: Mirror.IServerSceneManager.SetClientReady(Mirror.INetworkConnection)
+  name: SetClientReady(INetworkConnection)
+  href: api/Mirror.IServerSceneManager.html#Mirror_IServerSceneManager_SetClientReady_Mirror_INetworkConnection_
+  commentId: M:Mirror.IServerSceneManager.SetClientReady(Mirror.INetworkConnection)
+  fullName: Mirror.IServerSceneManager.SetClientReady(Mirror.INetworkConnection)
+  nameWithType: IServerSceneManager.SetClientReady(INetworkConnection)
+- uid: Mirror.IServerSceneManager.SetClientReady*
+  name: SetClientReady
+  href: api/Mirror.IServerSceneManager.html#Mirror_IServerSceneManager_SetClientReady_
+  commentId: Overload:Mirror.IServerSceneManager.SetClientReady
+  isSpec: "True"
+  fullName: Mirror.IServerSceneManager.SetClientReady
+  nameWithType: IServerSceneManager.SetClientReady
 - uid: Mirror.ISyncObject
   name: ISyncObject
   href: api/Mirror.ISyncObject.html

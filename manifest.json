@@ -2585,7 +2585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.IClientSceneManager.html",
-          "hash": "C1ZAhWskujn4AsFqJfBWdQ=="
+          "hash": "Y/JO05tK4vS0+HEGVndpHQ=="
         }
       },
       "is_incremental": false,
@@ -2645,7 +2645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.INetworkClient.html",
-          "hash": "NMSzyhpzClLLHQj1pW3Nqw=="
+          "hash": "kGuGh9lxsuYg3pK08kEIuw=="
         }
       },
       "is_incremental": false,
@@ -2681,7 +2681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.INetworkSceneManager.html",
-          "hash": "DV6m8PZC1Vryud+pYLyf0w=="
+          "hash": "a/i7e1cIRydAPmGbIdIVJA=="
         }
       },
       "is_incremental": false,
@@ -2693,7 +2693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.INetworkServer.html",
-          "hash": "HbP/Vm3y3LpNyOXZUXW1xA=="
+          "hash": "19ROXk7a39bqEkVkLRwp0Q=="
         }
       },
       "is_incremental": false,
@@ -2718,6 +2718,18 @@
         ".html": {
           "relative_path": "api/Mirror.IServerObjectManager.html",
           "hash": "XDkZYzqyB7j2jPIhtm1WuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mirror.IServerSceneManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mirror.IServerSceneManager.html",
+          "hash": "nEwEGSJM66AtF7H2NnJmKg=="
         }
       },
       "is_incremental": false,
@@ -2981,7 +2993,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.NetworkClient.html",
-          "hash": "Q+1WVEYzXzlPH0LPvgjRYQ=="
+          "hash": "ePTS9hfInq+DSJCd8kmvPA=="
         }
       },
       "is_incremental": false,
@@ -3209,7 +3221,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.NetworkSceneManager.html",
-          "hash": "rYKMSEFxeKk96vJn+AdLdA=="
+          "hash": "UKv6ML+ADFQlD8MQI0/36w=="
         }
       },
       "is_incremental": false,
@@ -3233,7 +3245,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.NetworkServer.html",
-          "hash": "wsSjHdVO0XY4Y/Xvbi9v3g=="
+          "hash": "kPRSGBfFunLSr47hUDamFA=="
         }
       },
       "is_incremental": false,
@@ -3941,7 +3953,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.html",
-          "hash": "eiLzdwbu3CLJqps+bec/RQ=="
+          "hash": "vnoJF5dDz0Aiop4hv4U3PA=="
         }
       },
       "is_incremental": false,
@@ -3965,7 +3977,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "E46eywClhl8u7kvJCBcyHA=="
+          "hash": "kA+Fo2y/kdEfye7h7lsi2Q=="
         }
       },
       "is_incremental": false,
@@ -4029,18 +4041,6 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 169,
-          "skipped_file_count": 0
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 78,
-          "skipped_file_count": 0
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -4053,6 +4053,18 @@
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 78,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 170,
           "skipped_file_count": 0
         }
       }

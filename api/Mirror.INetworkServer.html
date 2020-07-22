@@ -117,12 +117,21 @@
     <div>
       <a class="xref" href="Mirror.IServerObjectManager.html#Mirror_IServerObjectManager_SpawnObjects">IServerObjectManager.SpawnObjects()</a>
     </div>
+    <div>
+      <a class="xref" href="Mirror.IServerSceneManager.html#Mirror_IServerSceneManager_SetClientReady_Mirror_INetworkConnection_">IServerSceneManager.SetClientReady(INetworkConnection)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.IServerSceneManager.html#Mirror_IServerSceneManager_SetAllClientsNotReady">IServerSceneManager.SetAllClientsNotReady()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.IServerSceneManager.html#Mirror_IServerSceneManager_SetClientNotReady_Mirror_INetworkConnection_">IServerSceneManager.SetClientNotReady(INetworkConnection)</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.html">Mirror</a></h6>
   <h6><strong>Assembly</strong>: doc.dll</h6>
   <h5 id="Mirror_INetworkServer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface INetworkServer : IServerObjectManager</code></pre>
+    <pre><code class="lang-csharp hljs">public interface INetworkServer : IServerObjectManager, IServerSceneManager</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -398,70 +407,6 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Mirror_INetworkServer_SetAllClientsNotReady_" data-uid="Mirror.INetworkServer.SetAllClientsNotReady*"></a>
-  <h4 id="Mirror_INetworkServer_SetAllClientsNotReady" data-uid="Mirror.INetworkServer.SetAllClientsNotReady">SetAllClientsNotReady()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SetAllClientsNotReady()</code></pre>
-  </div>
-  
-  
-  <a id="Mirror_INetworkServer_SetClientNotReady_" data-uid="Mirror.INetworkServer.SetClientNotReady*"></a>
-  <h4 id="Mirror_INetworkServer_SetClientNotReady_Mirror_INetworkConnection_" data-uid="Mirror.INetworkServer.SetClientNotReady(Mirror.INetworkConnection)">SetClientNotReady(INetworkConnection)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SetClientNotReady(INetworkConnection conn)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Mirror.INetworkConnection.html">INetworkConnection</a></td>
-        <td><span class="parametername">conn</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Mirror_INetworkServer_SetClientReady_" data-uid="Mirror.INetworkServer.SetClientReady*"></a>
-  <h4 id="Mirror_INetworkServer_SetClientReady_Mirror_INetworkConnection_" data-uid="Mirror.INetworkServer.SetClientReady(Mirror.INetworkConnection)">SetClientReady(INetworkConnection)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SetClientReady(INetworkConnection conn)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Mirror.INetworkConnection.html">INetworkConnection</a></td>
-        <td><span class="parametername">conn</span></td>
         <td></td>
       </tr>
     </tbody>

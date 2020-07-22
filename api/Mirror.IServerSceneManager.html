@@ -93,20 +93,25 @@
   </div>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/3759eb6aa1765bfdb7e1dd721530f1cbff10b5bb/apiSpec/new?filename=Mirror_IServerSceneManager_OnServerChangeScene_System_String_.md&amp;value=---%0Auid%3A%20Mirror.IServerSceneManager.OnServerChangeScene(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/3759eb6aa1765bfdb7e1dd721530f1cbff10b5bb/Assets/Mirror/Runtime/INetworkServer.cs/#L31">View Source</a>
-  </span>
-  <a id="Mirror_IServerSceneManager_OnServerChangeScene_" data-uid="Mirror.IServerSceneManager.OnServerChangeScene*"></a>
-  <h4 id="Mirror_IServerSceneManager_OnServerChangeScene_System_String_" data-uid="Mirror.IServerSceneManager.OnServerChangeScene(System.String)">OnServerChangeScene(String)</h4>
+  
+  
+  <a id="Mirror_IServerSceneManager_SetAllClientsNotReady_" data-uid="Mirror.IServerSceneManager.SetAllClientsNotReady*"></a>
+  <h4 id="Mirror_IServerSceneManager_SetAllClientsNotReady" data-uid="Mirror.IServerSceneManager.SetAllClientsNotReady">SetAllClientsNotReady()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void OnServerChangeScene(string newSceneName)</code></pre>
+    <pre><code class="lang-csharp hljs">void SetAllClientsNotReady()</code></pre>
+  </div>
+  
+  
+  <a id="Mirror_IServerSceneManager_SetClientNotReady_" data-uid="Mirror.IServerSceneManager.SetClientNotReady*"></a>
+  <h4 id="Mirror_IServerSceneManager_SetClientNotReady_Mirror_INetworkConnection_" data-uid="Mirror.IServerSceneManager.SetClientNotReady(Mirror.INetworkConnection)">SetClientNotReady(INetworkConnection)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetClientNotReady(INetworkConnection conn)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,26 +124,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">newSceneName</span></td>
+        <td><a class="xref" href="Mirror.INetworkConnection.html">INetworkConnection</a></td>
+        <td><span class="parametername">conn</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirrorNG/MirrorNG/new/3759eb6aa1765bfdb7e1dd721530f1cbff10b5bb/apiSpec/new?filename=Mirror_IServerSceneManager_OnServerSceneChanged_System_String_.md&amp;value=---%0Auid%3A%20Mirror.IServerSceneManager.OnServerSceneChanged(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirrorNG/MirrorNG/blob/3759eb6aa1765bfdb7e1dd721530f1cbff10b5bb/Assets/Mirror/Runtime/INetworkServer.cs/#L33">View Source</a>
-  </span>
-  <a id="Mirror_IServerSceneManager_OnServerSceneChanged_" data-uid="Mirror.IServerSceneManager.OnServerSceneChanged*"></a>
-  <h4 id="Mirror_IServerSceneManager_OnServerSceneChanged_System_String_" data-uid="Mirror.IServerSceneManager.OnServerSceneChanged(System.String)">OnServerSceneChanged(String)</h4>
+  
+  
+  <a id="Mirror_IServerSceneManager_SetClientReady_" data-uid="Mirror.IServerSceneManager.SetClientReady*"></a>
+  <h4 id="Mirror_IServerSceneManager_SetClientReady_Mirror_INetworkConnection_" data-uid="Mirror.IServerSceneManager.SetClientReady(Mirror.INetworkConnection)">SetClientReady(INetworkConnection)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void OnServerSceneChanged(string sceneName)</code></pre>
+    <pre><code class="lang-csharp hljs">void SetClientReady(INetworkConnection conn)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -151,8 +151,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">sceneName</span></td>
+        <td><a class="xref" href="Mirror.INetworkConnection.html">INetworkConnection</a></td>
+        <td><span class="parametername">conn</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -164,12 +164,6 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/new/3759eb6aa1765bfdb7e1dd721530f1cbff10b5bb/apiSpec/new?filename=Mirror_IServerSceneManager.md&amp;value=---%0Auid%3A%20Mirror.IServerSceneManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/MirrorNG/MirrorNG/blob/3759eb6aa1765bfdb7e1dd721530f1cbff10b5bb/Assets/Mirror/Runtime/INetworkServer.cs/#L29" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
