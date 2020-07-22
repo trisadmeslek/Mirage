@@ -5547,12 +5547,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.StopServer
   nameWithType: NetworkManager.StopServer
-- uid: Mirror.NetworkManager.transport
-  name: transport
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_transport
-  commentId: F:Mirror.NetworkManager.transport
-  fullName: Mirror.NetworkManager.transport
-  nameWithType: NetworkManager.transport
 - uid: Mirror.NetworkManagerHUD
   name: NetworkManagerHUD
   href: api/Mirror.NetworkManagerHUD.html
@@ -6942,12 +6936,6 @@ references:
   commentId: T:Mirror.NetworkServer.NetworkConnectionEvent
   fullName: Mirror.NetworkServer.NetworkConnectionEvent
   nameWithType: NetworkServer.NetworkConnectionEvent
-- uid: Mirror.NetworkServer.NetworkSceneEvent
-  name: NetworkServer.NetworkSceneEvent
-  href: api/Mirror.NetworkServer.NetworkSceneEvent.html
-  commentId: T:Mirror.NetworkServer.NetworkSceneEvent
-  fullName: Mirror.NetworkServer.NetworkSceneEvent
-  nameWithType: NetworkServer.NetworkSceneEvent
 - uid: Mirror.NetworkServer.NumPlayers
   name: NumPlayers
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_NumPlayers
