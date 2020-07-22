@@ -4612,12 +4612,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkClient.RegisterSpawnHandler
   nameWithType: NetworkClient.RegisterSpawnHandler
-- uid: Mirror.NetworkClient.sceneManager
-  name: sceneManager
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_sceneManager
-  commentId: F:Mirror.NetworkClient.sceneManager
-  fullName: Mirror.NetworkClient.sceneManager
-  nameWithType: NetworkClient.sceneManager
 - uid: Mirror.NetworkClient.Send*
   name: Send
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Send_
@@ -7000,12 +6994,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkServer.ReplacePlayerForConnection
   nameWithType: NetworkServer.ReplacePlayerForConnection
-- uid: Mirror.NetworkServer.sceneManager
-  name: sceneManager
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_sceneManager
-  commentId: F:Mirror.NetworkServer.sceneManager
-  fullName: Mirror.NetworkServer.sceneManager
-  nameWithType: NetworkServer.sceneManager
 - uid: Mirror.NetworkServer.SendToAll*
   name: SendToAll
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_SendToAll_
@@ -8524,6 +8512,12 @@ references:
   commentId: F:Mirror.PlayerSpawner.PlayerSpawnMethod.RoundRobin
   fullName: Mirror.PlayerSpawner.PlayerSpawnMethod.RoundRobin
   nameWithType: PlayerSpawner.PlayerSpawnMethod.RoundRobin
+- uid: Mirror.PlayerSpawner.sceneManager
+  name: sceneManager
+  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_sceneManager
+  commentId: F:Mirror.PlayerSpawner.sceneManager
+  fullName: Mirror.PlayerSpawner.sceneManager
+  nameWithType: PlayerSpawner.sceneManager
 - uid: Mirror.PlayerSpawner.server
   name: server
   href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_server
