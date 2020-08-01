@@ -2053,6 +2053,49 @@ references:
   commentId: F:Mirror.HasAuthorityAttribute.error
   fullName: Mirror.HasAuthorityAttribute.error
   nameWithType: HasAuthorityAttribute.error
+- uid: Mirror.HeadlessAutoStart
+  name: HeadlessAutoStart
+  href: api/Mirror.HeadlessAutoStart.html
+  commentId: T:Mirror.HeadlessAutoStart
+  fullName: Mirror.HeadlessAutoStart
+  nameWithType: HeadlessAutoStart
+- uid: Mirror.HeadlessAutoStart.server
+  name: server
+  href: api/Mirror.HeadlessAutoStart.html#Mirror_HeadlessAutoStart_server
+  commentId: F:Mirror.HeadlessAutoStart.server
+  fullName: Mirror.HeadlessAutoStart.server
+  nameWithType: HeadlessAutoStart.server
+- uid: Mirror.HeadlessAutoStart.startOnHeadless
+  name: startOnHeadless
+  href: api/Mirror.HeadlessAutoStart.html#Mirror_HeadlessAutoStart_startOnHeadless
+  commentId: F:Mirror.HeadlessAutoStart.startOnHeadless
+  fullName: Mirror.HeadlessAutoStart.startOnHeadless
+  nameWithType: HeadlessAutoStart.startOnHeadless
+- uid: Mirror.HeadlessFrameLimiter
+  name: HeadlessFrameLimiter
+  href: api/Mirror.HeadlessFrameLimiter.html
+  commentId: T:Mirror.HeadlessFrameLimiter
+  fullName: Mirror.HeadlessFrameLimiter
+  nameWithType: HeadlessFrameLimiter
+- uid: Mirror.HeadlessFrameLimiter.serverTickRate
+  name: serverTickRate
+  href: api/Mirror.HeadlessFrameLimiter.html#Mirror_HeadlessFrameLimiter_serverTickRate
+  commentId: F:Mirror.HeadlessFrameLimiter.serverTickRate
+  fullName: Mirror.HeadlessFrameLimiter.serverTickRate
+  nameWithType: HeadlessFrameLimiter.serverTickRate
+- uid: Mirror.HeadlessFrameLimiter.Start
+  name: Start()
+  href: api/Mirror.HeadlessFrameLimiter.html#Mirror_HeadlessFrameLimiter_Start
+  commentId: M:Mirror.HeadlessFrameLimiter.Start
+  fullName: Mirror.HeadlessFrameLimiter.Start()
+  nameWithType: HeadlessFrameLimiter.Start()
+- uid: Mirror.HeadlessFrameLimiter.Start*
+  name: Start
+  href: api/Mirror.HeadlessFrameLimiter.html#Mirror_HeadlessFrameLimiter_Start_
+  commentId: Overload:Mirror.HeadlessFrameLimiter.Start
+  isSpec: "True"
+  fullName: Mirror.HeadlessFrameLimiter.Start
+  nameWithType: HeadlessFrameLimiter.Start
 - uid: Mirror.IClientObjectManager
   name: IClientObjectManager
   href: api/Mirror.IClientObjectManager.html
@@ -2606,19 +2649,6 @@ references:
   commentId: T:Mirror.INetworkManager
   fullName: Mirror.INetworkManager
   nameWithType: INetworkManager
-- uid: Mirror.INetworkManager.OnDestroy
-  name: OnDestroy()
-  href: api/Mirror.INetworkManager.html#Mirror_INetworkManager_OnDestroy
-  commentId: M:Mirror.INetworkManager.OnDestroy
-  fullName: Mirror.INetworkManager.OnDestroy()
-  nameWithType: INetworkManager.OnDestroy()
-- uid: Mirror.INetworkManager.OnDestroy*
-  name: OnDestroy
-  href: api/Mirror.INetworkManager.html#Mirror_INetworkManager_OnDestroy_
-  commentId: Overload:Mirror.INetworkManager.OnDestroy
-  isSpec: "True"
-  fullName: Mirror.INetworkManager.OnDestroy
-  nameWithType: INetworkManager.OnDestroy
 - uid: Mirror.INetworkManager.StartClient(Uri)
   name: StartClient(Uri)
   href: api/Mirror.INetworkManager.html#Mirror_INetworkManager_StartClient_Uri_
@@ -5381,19 +5411,6 @@ references:
   commentId: F:Mirror.NetworkManager.client
   fullName: Mirror.NetworkManager.client
   nameWithType: NetworkManager.client
-- uid: Mirror.NetworkManager.ConfigureServerFrameRate
-  name: ConfigureServerFrameRate()
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_ConfigureServerFrameRate
-  commentId: M:Mirror.NetworkManager.ConfigureServerFrameRate
-  fullName: Mirror.NetworkManager.ConfigureServerFrameRate()
-  nameWithType: NetworkManager.ConfigureServerFrameRate()
-- uid: Mirror.NetworkManager.ConfigureServerFrameRate*
-  name: ConfigureServerFrameRate
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_ConfigureServerFrameRate_
-  commentId: Overload:Mirror.NetworkManager.ConfigureServerFrameRate
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.ConfigureServerFrameRate
-  nameWithType: NetworkManager.ConfigureServerFrameRate
 - uid: Mirror.NetworkManager.IsNetworkActive
   name: IsNetworkActive
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_IsNetworkActive
@@ -5407,19 +5424,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.IsNetworkActive
   nameWithType: NetworkManager.IsNetworkActive
-- uid: Mirror.NetworkManager.OnDestroy
-  name: OnDestroy()
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnDestroy
-  commentId: M:Mirror.NetworkManager.OnDestroy
-  fullName: Mirror.NetworkManager.OnDestroy()
-  nameWithType: NetworkManager.OnDestroy()
-- uid: Mirror.NetworkManager.OnDestroy*
-  name: OnDestroy
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnDestroy_
-  commentId: Overload:Mirror.NetworkManager.OnDestroy
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.OnDestroy
-  nameWithType: NetworkManager.OnDestroy
 - uid: Mirror.NetworkManager.OnStartHost
   name: OnStartHost
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnStartHost
@@ -5438,25 +5442,6 @@ references:
   commentId: F:Mirror.NetworkManager.server
   fullName: Mirror.NetworkManager.server
   nameWithType: NetworkManager.server
-- uid: Mirror.NetworkManager.serverTickRate
-  name: serverTickRate
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_serverTickRate
-  commentId: F:Mirror.NetworkManager.serverTickRate
-  fullName: Mirror.NetworkManager.serverTickRate
-  nameWithType: NetworkManager.serverTickRate
-- uid: Mirror.NetworkManager.Start
-  name: Start()
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_Start
-  commentId: M:Mirror.NetworkManager.Start
-  fullName: Mirror.NetworkManager.Start()
-  nameWithType: NetworkManager.Start()
-- uid: Mirror.NetworkManager.Start*
-  name: Start
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_Start_
-  commentId: Overload:Mirror.NetworkManager.Start
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.Start
-  nameWithType: NetworkManager.Start
 - uid: Mirror.NetworkManager.StartClient(System.String)
   name: StartClient(String)
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_StartClient_System_String_
@@ -5489,12 +5474,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.StartHost
   nameWithType: NetworkManager.StartHost
-- uid: Mirror.NetworkManager.startOnHeadless
-  name: startOnHeadless
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_startOnHeadless
-  commentId: F:Mirror.NetworkManager.startOnHeadless
-  fullName: Mirror.NetworkManager.startOnHeadless
-  nameWithType: NetworkManager.startOnHeadless
 - uid: Mirror.NetworkManager.StartServer
   name: StartServer()
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_StartServer

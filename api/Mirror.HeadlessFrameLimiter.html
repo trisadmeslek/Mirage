@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface INetworkManager
+    <title>Class HeadlessFrameLimiter
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface INetworkManager
+    <meta name="title" content="Class HeadlessFrameLimiter
    ">
     <meta name="generator" content="docfx 2.45.1.0">
     
@@ -78,77 +78,63 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Mirror.INetworkManager">
+            <article class="content wrap" id="_content" data-uid="Mirror.HeadlessFrameLimiter">
   
   
-  <h1 id="Mirror_INetworkManager" data-uid="Mirror.INetworkManager" class="text-break">Interface INetworkManager
+  <h1 id="Mirror_HeadlessFrameLimiter" data-uid="Mirror.HeadlessFrameLimiter" class="text-break">Class HeadlessFrameLimiter
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">HeadlessFrameLimiter</span></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.html">Mirror</a></h6>
   <h6><strong>Assembly</strong>: doc.dll</h6>
-  <h5 id="Mirror_INetworkManager_syntax">Syntax</h5>
+  <h5 id="Mirror_HeadlessFrameLimiter_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface INetworkManager</code></pre>
+    <pre><code class="lang-csharp hljs">public class HeadlessFrameLimiter : MonoBehaviour</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="Mirror_INetworkManager_StartClient_" data-uid="Mirror.INetworkManager.StartClient*"></a>
-  <h4 id="Mirror_INetworkManager_StartClient_Uri_" data-uid="Mirror.INetworkManager.StartClient(Uri)">StartClient(Uri)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Mirror_HeadlessFrameLimiter_serverTickRate" data-uid="Mirror.HeadlessFrameLimiter.serverTickRate">serverTickRate</h4>
+  <div class="markdown level1 summary"><p>Server Update frequency, per second. Use around 60Hz for fast paced games like Counter-Strike to minimize latency. Use around 30Hz for games like WoW to minimize computations. Use around 1-10Hz for slow paced games like EVE.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void StartClient(Uri uri)</code></pre>
+    <pre><code class="lang-csharp hljs">public int serverTickRate</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Uri</span></td>
-        <td><span class="parametername">uri</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
   
   
-  <a id="Mirror_INetworkManager_StopClient_" data-uid="Mirror.INetworkManager.StopClient*"></a>
-  <h4 id="Mirror_INetworkManager_StopClient" data-uid="Mirror.INetworkManager.StopClient">StopClient()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Mirror_HeadlessFrameLimiter_Start_" data-uid="Mirror.HeadlessFrameLimiter.Start*"></a>
+  <h4 id="Mirror_HeadlessFrameLimiter_Start" data-uid="Mirror.HeadlessFrameLimiter.Start">Start()</h4>
+  <div class="markdown level1 summary"><p>Set the frame rate for a headless server.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void StopClient()</code></pre>
-  </div>
-  
-  
-  <a id="Mirror_INetworkManager_StopHost_" data-uid="Mirror.INetworkManager.StopHost*"></a>
-  <h4 id="Mirror_INetworkManager_StopHost" data-uid="Mirror.INetworkManager.StopHost">StopHost()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void StopHost()</code></pre>
-  </div>
-  
-  
-  <a id="Mirror_INetworkManager_StopServer_" data-uid="Mirror.INetworkManager.StopServer*"></a>
-  <h4 id="Mirror_INetworkManager_StopServer" data-uid="Mirror.INetworkManager.StopServer">StopServer()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void StopServer()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Start()</code></pre>
   </div>
 </article>
           </div>
