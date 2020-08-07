@@ -4476,12 +4476,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkClient.ClearSpawners
   nameWithType: NetworkClient.ClearSpawners
-- uid: Mirror.NetworkClient.ClientSceneChangeEvent
-  name: NetworkClient.ClientSceneChangeEvent
-  href: api/Mirror.NetworkClient.ClientSceneChangeEvent.html
-  commentId: T:Mirror.NetworkClient.ClientSceneChangeEvent
-  fullName: Mirror.NetworkClient.ClientSceneChangeEvent
-  nameWithType: NetworkClient.ClientSceneChangeEvent
 - uid: Mirror.NetworkClient.ConnectAsync(Uri)
   name: ConnectAsync(Uri)
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_ConnectAsync_Uri_
@@ -6931,12 +6925,6 @@ references:
   commentId: F:Mirror.NetworkServer.MaxConnections
   fullName: Mirror.NetworkServer.MaxConnections
   nameWithType: NetworkServer.MaxConnections
-- uid: Mirror.NetworkServer.NetworkConnectionEvent
-  name: NetworkServer.NetworkConnectionEvent
-  href: api/Mirror.NetworkServer.NetworkConnectionEvent.html
-  commentId: T:Mirror.NetworkServer.NetworkConnectionEvent
-  fullName: Mirror.NetworkServer.NetworkConnectionEvent
-  nameWithType: NetworkServer.NetworkConnectionEvent
 - uid: Mirror.NetworkServer.NumPlayers
   name: NumPlayers
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_NumPlayers
