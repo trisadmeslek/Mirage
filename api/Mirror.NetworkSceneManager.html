@@ -311,35 +311,6 @@
 <p>This is used to make sure that all scene changes are initialized by Mirror.</p>
 <p>Loading a scene manually wont set networkSceneName, so Mirror would still load it again on start.</p>
 </div>
-  
-  
-  <a id="Mirror_NetworkSceneManager_Ready_" data-uid="Mirror.NetworkSceneManager.Ready*"></a>
-  <h4 id="Mirror_NetworkSceneManager_Ready" data-uid="Mirror.NetworkSceneManager.Ready">Ready</h4>
-  <div class="markdown level1 summary"><p>Returns true when a client's connection has been set to ready.</p>
-<p>A client that is ready recieves state updates from the server, while a client that is not ready does not. This useful when the state of the game is not normal, such as a scene change or end-of-game.</p>
-<p>This is read-only. To change the ready state of a client, use ClientScene.Ready(). The server is able to set the ready state of clients using NetworkServer.SetClientReady(), NetworkServer.SetClientNotReady() and NetworkServer.SetAllClientsNotReady().</p>
-<p>This is done when changing scenes so that clients don&apos;t receive state update messages during scene loading.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Ready { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
