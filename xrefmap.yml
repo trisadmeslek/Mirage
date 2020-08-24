@@ -8807,6 +8807,38 @@ references:
   commentId: F:Mirror.SceneOperation.UnloadAdditive
   fullName: Mirror.SceneOperation.UnloadAdditive
   nameWithType: SceneOperation.UnloadAdditive
+- uid: Mirror.SceneReadyMessage
+  name: SceneReadyMessage
+  href: api/Mirror.SceneReadyMessage.html
+  commentId: T:Mirror.SceneReadyMessage
+  fullName: Mirror.SceneReadyMessage
+  nameWithType: SceneReadyMessage
+- uid: Mirror.SceneReadyMessage.Deserialize(Mirror.NetworkReader)
+  name: Deserialize(NetworkReader)
+  href: api/Mirror.SceneReadyMessage.html#Mirror_SceneReadyMessage_Deserialize_Mirror_NetworkReader_
+  commentId: M:Mirror.SceneReadyMessage.Deserialize(Mirror.NetworkReader)
+  fullName: Mirror.SceneReadyMessage.Deserialize(Mirror.NetworkReader)
+  nameWithType: SceneReadyMessage.Deserialize(NetworkReader)
+- uid: Mirror.SceneReadyMessage.Deserialize*
+  name: Deserialize
+  href: api/Mirror.SceneReadyMessage.html#Mirror_SceneReadyMessage_Deserialize_
+  commentId: Overload:Mirror.SceneReadyMessage.Deserialize
+  isSpec: "True"
+  fullName: Mirror.SceneReadyMessage.Deserialize
+  nameWithType: SceneReadyMessage.Deserialize
+- uid: Mirror.SceneReadyMessage.Serialize(Mirror.NetworkWriter)
+  name: Serialize(NetworkWriter)
+  href: api/Mirror.SceneReadyMessage.html#Mirror_SceneReadyMessage_Serialize_Mirror_NetworkWriter_
+  commentId: M:Mirror.SceneReadyMessage.Serialize(Mirror.NetworkWriter)
+  fullName: Mirror.SceneReadyMessage.Serialize(Mirror.NetworkWriter)
+  nameWithType: SceneReadyMessage.Serialize(NetworkWriter)
+- uid: Mirror.SceneReadyMessage.Serialize*
+  name: Serialize
+  href: api/Mirror.SceneReadyMessage.html#Mirror_SceneReadyMessage_Serialize_
+  commentId: Overload:Mirror.SceneReadyMessage.Serialize
+  isSpec: "True"
+  fullName: Mirror.SceneReadyMessage.Serialize
+  nameWithType: SceneReadyMessage.Serialize
 - uid: Mirror.ServerAttribute
   name: ServerAttribute
   href: api/Mirror.ServerAttribute.html
