@@ -5754,6 +5754,12 @@ references:
   commentId: F:Mirror.NetworkPingDisplay.Client
   fullName: Mirror.NetworkPingDisplay.Client
   nameWithType: NetworkPingDisplay.Client
+- uid: Mirror.NetworkPingDisplay.NetworkPingLabelText
+  name: NetworkPingLabelText
+  href: api/Mirror.NetworkPingDisplay.html#Mirror_NetworkPingDisplay_NetworkPingLabelText
+  commentId: F:Mirror.NetworkPingDisplay.NetworkPingLabelText
+  fullName: Mirror.NetworkPingDisplay.NetworkPingLabelText
+  nameWithType: NetworkPingDisplay.NetworkPingLabelText
 - uid: Mirror.NetworkPingMessage
   name: NetworkPingMessage
   href: api/Mirror.NetworkPingMessage.html
