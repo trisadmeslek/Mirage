@@ -83,9 +83,7 @@
   
   <h1 id="Mirror_NetworkManagerHUD" data-uid="Mirror.NetworkManagerHUD" class="text-break">Class NetworkManagerHUD
   </h1>
-  <div class="markdown level0 summary"><p>An extension for the NetworkManager that displays a default HUD for controlling the network state of the game.</p>
-<p>This component also shows useful internal state for the networking system in the inspector window of the editor. It allows users to view connections, networked objects, message handlers, and packet statistics. This information can be helpful when debugging networked games.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -102,63 +100,12 @@
   </h3>
   
   
-  <h4 id="Mirror_NetworkManagerHUD_offsetX" data-uid="Mirror.NetworkManagerHUD.offsetX">offsetX</h4>
-  <div class="markdown level1 summary"><p>The horizontal offset in pixels to draw the HUD runtime GUI at.</p>
-</div>
+  <h4 id="Mirror_NetworkManagerHUD_NetworkAddress" data-uid="Mirror.NetworkManagerHUD.NetworkAddress">NetworkAddress</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int offsetX</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Mirror_NetworkManagerHUD_offsetY" data-uid="Mirror.NetworkManagerHUD.offsetY">offsetY</h4>
-  <div class="markdown level1 summary"><p>The vertical offset in pixels to draw the HUD runtime GUI at.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int offsetY</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Mirror_NetworkManagerHUD_serverIp" data-uid="Mirror.NetworkManagerHUD.serverIp">serverIp</h4>
-  <div class="markdown level1 summary"><p>The IP address we're connecting to.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string serverIp</code></pre>
+    <pre><code class="lang-csharp hljs">public string NetworkAddress</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -177,13 +124,12 @@
   </table>
   
   
-  <h4 id="Mirror_NetworkManagerHUD_showGUI" data-uid="Mirror.NetworkManagerHUD.showGUI">showGUI</h4>
-  <div class="markdown level1 summary"><p>Whether to show the default control HUD at runtime.</p>
-</div>
+  <h4 id="Mirror_NetworkManagerHUD_NetworkAddressInput" data-uid="Mirror.NetworkManagerHUD.NetworkAddressInput">NetworkAddressInput</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool showGUI</code></pre>
+    <pre><code class="lang-csharp hljs">public InputField NetworkAddressInput</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -195,11 +141,159 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">InputField</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <h4 id="Mirror_NetworkManagerHUD_NetworkManager" data-uid="Mirror.NetworkManagerHUD.NetworkManager">NetworkManager</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NetworkManager NetworkManager</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkManager.html">NetworkManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Mirror_NetworkManagerHUD_OfflineGO" data-uid="Mirror.NetworkManagerHUD.OfflineGO">OfflineGO</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject OfflineGO</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Mirror_NetworkManagerHUD_OnlineGO" data-uid="Mirror.NetworkManagerHUD.OnlineGO">OnlineGO</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject OnlineGO</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Mirror_NetworkManagerHUD_StatusLabel" data-uid="Mirror.NetworkManagerHUD.StatusLabel">StatusLabel</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Text StatusLabel</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Text</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Mirror_NetworkManagerHUD_OnNetworkAddressInputUpdate_" data-uid="Mirror.NetworkManagerHUD.OnNetworkAddressInputUpdate*"></a>
+  <h4 id="Mirror_NetworkManagerHUD_OnNetworkAddressInputUpdate" data-uid="Mirror.NetworkManagerHUD.OnNetworkAddressInputUpdate">OnNetworkAddressInputUpdate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnNetworkAddressInputUpdate()</code></pre>
+  </div>
+  
+  
+  <a id="Mirror_NetworkManagerHUD_StartClientButtonHandler_" data-uid="Mirror.NetworkManagerHUD.StartClientButtonHandler*"></a>
+  <h4 id="Mirror_NetworkManagerHUD_StartClientButtonHandler" data-uid="Mirror.NetworkManagerHUD.StartClientButtonHandler">StartClientButtonHandler()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartClientButtonHandler()</code></pre>
+  </div>
+  
+  
+  <a id="Mirror_NetworkManagerHUD_StartHostButtonHandler_" data-uid="Mirror.NetworkManagerHUD.StartHostButtonHandler*"></a>
+  <h4 id="Mirror_NetworkManagerHUD_StartHostButtonHandler" data-uid="Mirror.NetworkManagerHUD.StartHostButtonHandler">StartHostButtonHandler()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartHostButtonHandler()</code></pre>
+  </div>
+  
+  
+  <a id="Mirror_NetworkManagerHUD_StartServerOnlyButtonHandler_" data-uid="Mirror.NetworkManagerHUD.StartServerOnlyButtonHandler*"></a>
+  <h4 id="Mirror_NetworkManagerHUD_StartServerOnlyButtonHandler" data-uid="Mirror.NetworkManagerHUD.StartServerOnlyButtonHandler">StartServerOnlyButtonHandler()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartServerOnlyButtonHandler()</code></pre>
+  </div>
+  
+  
+  <a id="Mirror_NetworkManagerHUD_StopButtonHandler_" data-uid="Mirror.NetworkManagerHUD.StopButtonHandler*"></a>
+  <h4 id="Mirror_NetworkManagerHUD_StopButtonHandler" data-uid="Mirror.NetworkManagerHUD.StopButtonHandler">StopButtonHandler()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopButtonHandler()</code></pre>
+  </div>
 </article>
           </div>
           
