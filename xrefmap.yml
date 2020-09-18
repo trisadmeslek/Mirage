@@ -5542,113 +5542,113 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.StopServer
   nameWithType: NetworkManager.StopServer
-- uid: Mirror.NetworkManagerHUD
-  name: NetworkManagerHUD
-  href: api/Mirror.NetworkManagerHUD.html
-  commentId: T:Mirror.NetworkManagerHUD
-  fullName: Mirror.NetworkManagerHUD
-  nameWithType: NetworkManagerHUD
-- uid: Mirror.NetworkManagerHUD.NetworkAddress
+- uid: Mirror.NetworkManagerHud
+  name: NetworkManagerHud
+  href: api/Mirror.NetworkManagerHud.html
+  commentId: T:Mirror.NetworkManagerHud
+  fullName: Mirror.NetworkManagerHud
+  nameWithType: NetworkManagerHud
+- uid: Mirror.NetworkManagerHud.NetworkAddress
   name: NetworkAddress
-  href: api/Mirror.NetworkManagerHUD.html#Mirror_NetworkManagerHUD_NetworkAddress
-  commentId: F:Mirror.NetworkManagerHUD.NetworkAddress
-  fullName: Mirror.NetworkManagerHUD.NetworkAddress
-  nameWithType: NetworkManagerHUD.NetworkAddress
-- uid: Mirror.NetworkManagerHUD.NetworkAddressInput
+  href: api/Mirror.NetworkManagerHud.html#Mirror_NetworkManagerHud_NetworkAddress
+  commentId: F:Mirror.NetworkManagerHud.NetworkAddress
+  fullName: Mirror.NetworkManagerHud.NetworkAddress
+  nameWithType: NetworkManagerHud.NetworkAddress
+- uid: Mirror.NetworkManagerHud.NetworkAddressInput
   name: NetworkAddressInput
-  href: api/Mirror.NetworkManagerHUD.html#Mirror_NetworkManagerHUD_NetworkAddressInput
-  commentId: F:Mirror.NetworkManagerHUD.NetworkAddressInput
-  fullName: Mirror.NetworkManagerHUD.NetworkAddressInput
-  nameWithType: NetworkManagerHUD.NetworkAddressInput
-- uid: Mirror.NetworkManagerHUD.NetworkManager
+  href: api/Mirror.NetworkManagerHud.html#Mirror_NetworkManagerHud_NetworkAddressInput
+  commentId: F:Mirror.NetworkManagerHud.NetworkAddressInput
+  fullName: Mirror.NetworkManagerHud.NetworkAddressInput
+  nameWithType: NetworkManagerHud.NetworkAddressInput
+- uid: Mirror.NetworkManagerHud.NetworkManager
   name: NetworkManager
-  href: api/Mirror.NetworkManagerHUD.html#Mirror_NetworkManagerHUD_NetworkManager
-  commentId: F:Mirror.NetworkManagerHUD.NetworkManager
-  fullName: Mirror.NetworkManagerHUD.NetworkManager
-  nameWithType: NetworkManagerHUD.NetworkManager
-- uid: Mirror.NetworkManagerHUD.OfflineGO
+  href: api/Mirror.NetworkManagerHud.html#Mirror_NetworkManagerHud_NetworkManager
+  commentId: F:Mirror.NetworkManagerHud.NetworkManager
+  fullName: Mirror.NetworkManagerHud.NetworkManager
+  nameWithType: NetworkManagerHud.NetworkManager
+- uid: Mirror.NetworkManagerHud.OfflineGO
   name: OfflineGO
-  href: api/Mirror.NetworkManagerHUD.html#Mirror_NetworkManagerHUD_OfflineGO
-  commentId: F:Mirror.NetworkManagerHUD.OfflineGO
-  fullName: Mirror.NetworkManagerHUD.OfflineGO
-  nameWithType: NetworkManagerHUD.OfflineGO
-- uid: Mirror.NetworkManagerHUD.OnlineGO
+  href: api/Mirror.NetworkManagerHud.html#Mirror_NetworkManagerHud_OfflineGO
+  commentId: F:Mirror.NetworkManagerHud.OfflineGO
+  fullName: Mirror.NetworkManagerHud.OfflineGO
+  nameWithType: NetworkManagerHud.OfflineGO
+- uid: Mirror.NetworkManagerHud.OnlineGO
   name: OnlineGO
-  href: api/Mirror.NetworkManagerHUD.html#Mirror_NetworkManagerHUD_OnlineGO
-  commentId: F:Mirror.NetworkManagerHUD.OnlineGO
-  fullName: Mirror.NetworkManagerHUD.OnlineGO
-  nameWithType: NetworkManagerHUD.OnlineGO
-- uid: Mirror.NetworkManagerHUD.OnNetworkAddressInputUpdate
+  href: api/Mirror.NetworkManagerHud.html#Mirror_NetworkManagerHud_OnlineGO
+  commentId: F:Mirror.NetworkManagerHud.OnlineGO
+  fullName: Mirror.NetworkManagerHud.OnlineGO
+  nameWithType: NetworkManagerHud.OnlineGO
+- uid: Mirror.NetworkManagerHud.OnNetworkAddressInputUpdate
   name: OnNetworkAddressInputUpdate()
-  href: api/Mirror.NetworkManagerHUD.html#Mirror_NetworkManagerHUD_OnNetworkAddressInputUpdate
-  commentId: M:Mirror.NetworkManagerHUD.OnNetworkAddressInputUpdate
-  fullName: Mirror.NetworkManagerHUD.OnNetworkAddressInputUpdate()
-  nameWithType: NetworkManagerHUD.OnNetworkAddressInputUpdate()
-- uid: Mirror.NetworkManagerHUD.OnNetworkAddressInputUpdate*
+  href: api/Mirror.NetworkManagerHud.html#Mirror_NetworkManagerHud_OnNetworkAddressInputUpdate
+  commentId: M:Mirror.NetworkManagerHud.OnNetworkAddressInputUpdate
+  fullName: Mirror.NetworkManagerHud.OnNetworkAddressInputUpdate()
+  nameWithType: NetworkManagerHud.OnNetworkAddressInputUpdate()
+- uid: Mirror.NetworkManagerHud.OnNetworkAddressInputUpdate*
   name: OnNetworkAddressInputUpdate
-  href: api/Mirror.NetworkManagerHUD.html#Mirror_NetworkManagerHUD_OnNetworkAddressInputUpdate_
-  commentId: Overload:Mirror.NetworkManagerHUD.OnNetworkAddressInputUpdate
+  href: api/Mirror.NetworkManagerHud.html#Mirror_NetworkManagerHud_OnNetworkAddressInputUpdate_
+  commentId: Overload:Mirror.NetworkManagerHud.OnNetworkAddressInputUpdate
   isSpec: "True"
-  fullName: Mirror.NetworkManagerHUD.OnNetworkAddressInputUpdate
-  nameWithType: NetworkManagerHUD.OnNetworkAddressInputUpdate
-- uid: Mirror.NetworkManagerHUD.StartClientButtonHandler
+  fullName: Mirror.NetworkManagerHud.OnNetworkAddressInputUpdate
+  nameWithType: NetworkManagerHud.OnNetworkAddressInputUpdate
+- uid: Mirror.NetworkManagerHud.StartClientButtonHandler
   name: StartClientButtonHandler()
-  href: api/Mirror.NetworkManagerHUD.html#Mirror_NetworkManagerHUD_StartClientButtonHandler
-  commentId: M:Mirror.NetworkManagerHUD.StartClientButtonHandler
-  fullName: Mirror.NetworkManagerHUD.StartClientButtonHandler()
-  nameWithType: NetworkManagerHUD.StartClientButtonHandler()
-- uid: Mirror.NetworkManagerHUD.StartClientButtonHandler*
+  href: api/Mirror.NetworkManagerHud.html#Mirror_NetworkManagerHud_StartClientButtonHandler
+  commentId: M:Mirror.NetworkManagerHud.StartClientButtonHandler
+  fullName: Mirror.NetworkManagerHud.StartClientButtonHandler()
+  nameWithType: NetworkManagerHud.StartClientButtonHandler()
+- uid: Mirror.NetworkManagerHud.StartClientButtonHandler*
   name: StartClientButtonHandler
-  href: api/Mirror.NetworkManagerHUD.html#Mirror_NetworkManagerHUD_StartClientButtonHandler_
-  commentId: Overload:Mirror.NetworkManagerHUD.StartClientButtonHandler
+  href: api/Mirror.NetworkManagerHud.html#Mirror_NetworkManagerHud_StartClientButtonHandler_
+  commentId: Overload:Mirror.NetworkManagerHud.StartClientButtonHandler
   isSpec: "True"
-  fullName: Mirror.NetworkManagerHUD.StartClientButtonHandler
-  nameWithType: NetworkManagerHUD.StartClientButtonHandler
-- uid: Mirror.NetworkManagerHUD.StartHostButtonHandler
+  fullName: Mirror.NetworkManagerHud.StartClientButtonHandler
+  nameWithType: NetworkManagerHud.StartClientButtonHandler
+- uid: Mirror.NetworkManagerHud.StartHostButtonHandler
   name: StartHostButtonHandler()
-  href: api/Mirror.NetworkManagerHUD.html#Mirror_NetworkManagerHUD_StartHostButtonHandler
-  commentId: M:Mirror.NetworkManagerHUD.StartHostButtonHandler
-  fullName: Mirror.NetworkManagerHUD.StartHostButtonHandler()
-  nameWithType: NetworkManagerHUD.StartHostButtonHandler()
-- uid: Mirror.NetworkManagerHUD.StartHostButtonHandler*
+  href: api/Mirror.NetworkManagerHud.html#Mirror_NetworkManagerHud_StartHostButtonHandler
+  commentId: M:Mirror.NetworkManagerHud.StartHostButtonHandler
+  fullName: Mirror.NetworkManagerHud.StartHostButtonHandler()
+  nameWithType: NetworkManagerHud.StartHostButtonHandler()
+- uid: Mirror.NetworkManagerHud.StartHostButtonHandler*
   name: StartHostButtonHandler
-  href: api/Mirror.NetworkManagerHUD.html#Mirror_NetworkManagerHUD_StartHostButtonHandler_
-  commentId: Overload:Mirror.NetworkManagerHUD.StartHostButtonHandler
+  href: api/Mirror.NetworkManagerHud.html#Mirror_NetworkManagerHud_StartHostButtonHandler_
+  commentId: Overload:Mirror.NetworkManagerHud.StartHostButtonHandler
   isSpec: "True"
-  fullName: Mirror.NetworkManagerHUD.StartHostButtonHandler
-  nameWithType: NetworkManagerHUD.StartHostButtonHandler
-- uid: Mirror.NetworkManagerHUD.StartServerOnlyButtonHandler
+  fullName: Mirror.NetworkManagerHud.StartHostButtonHandler
+  nameWithType: NetworkManagerHud.StartHostButtonHandler
+- uid: Mirror.NetworkManagerHud.StartServerOnlyButtonHandler
   name: StartServerOnlyButtonHandler()
-  href: api/Mirror.NetworkManagerHUD.html#Mirror_NetworkManagerHUD_StartServerOnlyButtonHandler
-  commentId: M:Mirror.NetworkManagerHUD.StartServerOnlyButtonHandler
-  fullName: Mirror.NetworkManagerHUD.StartServerOnlyButtonHandler()
-  nameWithType: NetworkManagerHUD.StartServerOnlyButtonHandler()
-- uid: Mirror.NetworkManagerHUD.StartServerOnlyButtonHandler*
+  href: api/Mirror.NetworkManagerHud.html#Mirror_NetworkManagerHud_StartServerOnlyButtonHandler
+  commentId: M:Mirror.NetworkManagerHud.StartServerOnlyButtonHandler
+  fullName: Mirror.NetworkManagerHud.StartServerOnlyButtonHandler()
+  nameWithType: NetworkManagerHud.StartServerOnlyButtonHandler()
+- uid: Mirror.NetworkManagerHud.StartServerOnlyButtonHandler*
   name: StartServerOnlyButtonHandler
-  href: api/Mirror.NetworkManagerHUD.html#Mirror_NetworkManagerHUD_StartServerOnlyButtonHandler_
-  commentId: Overload:Mirror.NetworkManagerHUD.StartServerOnlyButtonHandler
+  href: api/Mirror.NetworkManagerHud.html#Mirror_NetworkManagerHud_StartServerOnlyButtonHandler_
+  commentId: Overload:Mirror.NetworkManagerHud.StartServerOnlyButtonHandler
   isSpec: "True"
-  fullName: Mirror.NetworkManagerHUD.StartServerOnlyButtonHandler
-  nameWithType: NetworkManagerHUD.StartServerOnlyButtonHandler
-- uid: Mirror.NetworkManagerHUD.StatusLabel
+  fullName: Mirror.NetworkManagerHud.StartServerOnlyButtonHandler
+  nameWithType: NetworkManagerHud.StartServerOnlyButtonHandler
+- uid: Mirror.NetworkManagerHud.StatusLabel
   name: StatusLabel
-  href: api/Mirror.NetworkManagerHUD.html#Mirror_NetworkManagerHUD_StatusLabel
-  commentId: F:Mirror.NetworkManagerHUD.StatusLabel
-  fullName: Mirror.NetworkManagerHUD.StatusLabel
-  nameWithType: NetworkManagerHUD.StatusLabel
-- uid: Mirror.NetworkManagerHUD.StopButtonHandler
+  href: api/Mirror.NetworkManagerHud.html#Mirror_NetworkManagerHud_StatusLabel
+  commentId: F:Mirror.NetworkManagerHud.StatusLabel
+  fullName: Mirror.NetworkManagerHud.StatusLabel
+  nameWithType: NetworkManagerHud.StatusLabel
+- uid: Mirror.NetworkManagerHud.StopButtonHandler
   name: StopButtonHandler()
-  href: api/Mirror.NetworkManagerHUD.html#Mirror_NetworkManagerHUD_StopButtonHandler
-  commentId: M:Mirror.NetworkManagerHUD.StopButtonHandler
-  fullName: Mirror.NetworkManagerHUD.StopButtonHandler()
-  nameWithType: NetworkManagerHUD.StopButtonHandler()
-- uid: Mirror.NetworkManagerHUD.StopButtonHandler*
+  href: api/Mirror.NetworkManagerHud.html#Mirror_NetworkManagerHud_StopButtonHandler
+  commentId: M:Mirror.NetworkManagerHud.StopButtonHandler
+  fullName: Mirror.NetworkManagerHud.StopButtonHandler()
+  nameWithType: NetworkManagerHud.StopButtonHandler()
+- uid: Mirror.NetworkManagerHud.StopButtonHandler*
   name: StopButtonHandler
-  href: api/Mirror.NetworkManagerHUD.html#Mirror_NetworkManagerHUD_StopButtonHandler_
-  commentId: Overload:Mirror.NetworkManagerHUD.StopButtonHandler
+  href: api/Mirror.NetworkManagerHud.html#Mirror_NetworkManagerHud_StopButtonHandler_
+  commentId: Overload:Mirror.NetworkManagerHud.StopButtonHandler
   isSpec: "True"
-  fullName: Mirror.NetworkManagerHUD.StopButtonHandler
-  nameWithType: NetworkManagerHUD.StopButtonHandler
+  fullName: Mirror.NetworkManagerHud.StopButtonHandler
+  nameWithType: NetworkManagerHud.StopButtonHandler
 - uid: Mirror.NetworkMatchChecker
   name: NetworkMatchChecker
   href: api/Mirror.NetworkMatchChecker.html
