@@ -121,8 +121,9 @@ The allowed argument types are:</p>
 <li><p><strong>SyncVar</strong><br>
 <a href="Sync/SyncVars.html">SyncVars</a> are used to synchronize a variable from the server to all clients automatically. Don't assign them from a client, it's pointless. Don't let them be null, you will get errors. You can use int, long, float, string, Vector3 etc. (all simple types) and NetworkIdentity and game object if the game object has a NetworkIdentity attached to it. You can use <a href="Sync/SyncVarHook.html">hooks</a>.</p>
 </li>
-<li><p><strong>SyncEvent</strong><br>
-<a href="Sync/SyncEvent.html">SyncEvent</a> are networked events like ClientRpc's, but instead of calling a function on the game object, they trigger Events instead.</p>
+<li><p><strong>SyncEvent  (Obsolete)</strong><br>
+<a href="Sync/SyncEvent.html">SyncEvent</a> are networked events like ClientRpc's, but instead of calling a function on the game object, they trigger Events instead.
+<strong>IMPORTANT:</strong> removed in version 18.0.0, see this <a href="https://github.com/vis2k/Mirror/pull/2178">Issue</a> for more information.</p>
 </li>
 </ul>
 </article>

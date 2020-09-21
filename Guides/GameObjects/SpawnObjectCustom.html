@@ -80,109 +80,173 @@
 <h1 id="custom-spawn-functions">Custom Spawn Functions</h1>
 
 <p>You can use spawn handler functions to customize the default behavior when creating spawned game objects on the client. Spawn handler functions ensure you have full control of how you spawn the game object, as well as how you destroy it.</p>
-<p>Use <code>ClientScene.RegisterSpawnHandler</code> to register functions to spawn and destroy client game objects. The server creates game objects directly, and then spawns them on the clients through this functionality. This function takes the asset ID of the game object and two function delegates: one to handle creating game objects on the client, and one to handle destroying game objects on the client. The asset ID can be a dynamic one, or just the asset ID found on the prefab game object you want to spawn (if you have one).</p>
-<p>The spawn / unspawn delegates need to have this game object signature. This is defined in the high level API.</p>
-<pre><code class="lang-cs">// Handles requests to spawn game objects on the client
-public delegate GameObject SpawnDelegate(Vector3 position, System.Guid assetId);
-
-// Handles requests to unspawn game objects on the client
-public delegate void UnSpawnDelegate(GameObject spawned);
+<p>Use <code>ClientScene.RegisterSpawnHandler</code> or <code>ClientScene.RegisterPrefab</code> to register functions to spawn and destroy client game objects. The server creates game objects directly, and then spawns them on the clients through this functionality. This functions takes either the asset ID or a prefab and two function delegates: one to handle creating game objects on the client, and one to handle destroying game objects on the client. The asset ID can be a dynamic one, or just the asset ID found on the prefab game object you want to spawn.</p>
+<p>The spawn / unspawn delegates will look something like this:</p>
+<p><strong>Spawn Handler</strong></p>
+<pre><code class="lang-cs">GameObject SpawnDelegate(Vector3 position, System.Guid assetId) 
+{
+    // do stuff here
+}
 </code></pre>
-<p>The asset ID passed to the spawn function can be found on <code>NetworkIdentity.assetId</code> for prefabs, where it is populated automatically. The registration for a dynamic asset ID is handled like this:</p>
+<p>or</p>
+<pre><code class="lang-cs">GameObject SpawnDelegate(SpawnMessage msg) 
+{
+    // do stuff here
+}
+</code></pre>
+<p><strong>UnSpawn Handler</strong></p>
+<pre><code class="lang-cs">void UnSpawnDelegate(GameObject spawned) 
+{
+    // do stuff here
+}
+</code></pre>
+<p>When a prefab is saved its <code>assetId</code> field will be automatically set. If you want to create prefabs at runtime you will have to generate a new GUID.</p>
+<p><strong>Generate prefab at runtime</strong></p>
 <pre><code class="lang-cs">// generate a new unique assetId 
 System.Guid creatureAssetId = System.Guid.NewGuid();
 
 // register handlers for the new assetId
 ClientScene.RegisterSpawnHandler(creatureAssetId, SpawnCreature, UnSpawnCreature);
-
-// get assetId on an existing prefab
-System.Guid coinAssetId = coinPrefab.GetComponent&lt;NetworkIdentity&gt;().assetId;
-
-// register handlers for an existing prefab you'd like to custom spawn
-ClientScene.RegisterSpawnHandler(coinAssetId, SpawnCoin, UnSpawnCoin);
-
-// spawn a coin - SpawnCoin is called on client
+</code></pre>
+<p><strong>Use existing prefab</strong></p>
+<pre><code class="lang-cs">// register prefab you'd like to custom spawn and pass in handlers
+ClientScene.RegisterPrefab(coinAssetId, SpawnCoin, UnSpawnCoin);
+</code></pre>
+<p><strong>Spawn on Server</strong></p>
+<pre><code class="lang-cs">// spawn a coin - SpawnCoin is called on client
 NetworkServer.Spawn(gameObject, coinAssetId);
 </code></pre>
 <p>The spawn functions themselves are implemented with the delegate signature. Here is the coin spawner. The <code>SpawnCreature</code> would look the same, but have different spawn logic:</p>
-<pre><code class="lang-cs">public GameObject SpawnCoin(Vector3 position, System.Guid assetId)
+<pre><code class="lang-cs">public GameObject SpawnCoin(SpawnMessage msg)
 {
-    return Instantiate(m_CoinPrefab, position, Quaternion.identity);
+    return Instantiate(m_CoinPrefab, msg.position, msg.rotation);
 }
 public void UnSpawnCoin(GameObject spawned)
 {
     Destroy(spawned);
 }
 </code></pre>
-<p>When using custom spawn functions, it is sometimes useful to be able to unspawn game objects without destroying them. This can be done by calling <code>NetworkServer.UnSpawn</code>. This causes a message to be sent to clients to un-spawn the game object, so that the custom unspawn function will be called on the clients. The game object is not destroyed when this function is called.</p>
-<p>Note that on the host, game objects are not spawned for the local client, because they already exist on the server. This also means that no spawn handler functions are called.</p>
+<p>When using custom spawn functions, it is sometimes useful to be able to unspawn game objects without destroying them. This can be done by calling <code>NetworkServer.UnSpawn</code>. This causes the object to be <code>Reset</code> on the server and sends a <code>ObjectDestroyMessage</code> to clients. The <code>ObjectDestroyMessage</code> will cause the custom unspawn function to be called on the clients. If there is no unspawn function the object will instead be <code>Destroy</code></p>
+<p>Note that on the host, game objects are not spawned for the local client, because they already exist on the server. This also means that no spawn or unspawn handler functions are called.</p>
 <h2 id="setting-up-a-game-object-pool-with-custom-spawn-handlers">Setting Up a Game Object Pool with Custom Spawn Handlers</h2>
-<p>Here is an example of how you might set up a very simple game object pooling system with custom spawn handlers. Spawning and unspawning then puts game objects in or out of the pool.</p>
-<pre><code class="lang-cs">using UnityEngine;
+<p>Here is an example of how you might set up a simple game object pooling system with custom spawn handlers. Spawning and unspawning then puts game objects in or out of the pool.</p>
+<pre><code class="lang-cs">using System.Collections.Generic;
 using Mirror;
-using System.Collections;
+using UnityEngine;
 
-public class SpawnManager : MonoBehaviour
+namespace Mirror.Examples
 {
-    public int m_ObjectPoolSize = 5;
-    public GameObject m_Prefab;
-    public GameObject[] m_Pool;
-
-    public System.Guid assetId { get; set;
-}
-    
-    public delegate GameObject SpawnDelegate(Vector3 position, System.Guid assetId);
-    public delegate void UnSpawnDelegate(GameObject spawned);
-
-    void Start()
+    public class PrefabPoolManager : MonoBehaviour
     {
-        assetId = m_Prefab.GetComponent&lt;NetworkIdentity&gt; ().assetId;
-        m_Pool = new GameObject[m_ObjectPoolSize];
-        for (int i = 0; i &lt; m_ObjectPoolSize; ++i)
+        [Header(&quot;Settings&quot;)]
+        public int startSize = 5;
+        public int maxSize = 20;
+        public GameObject prefab;
+
+        [Header(&quot;Debug&quot;)]
+        [SerializeField] Queue&lt;GameObject&gt; pool;
+        [SerializeField] int currentCount;
+
+
+        void Start()
         {
-            m_Pool[i] = Instantiate(m_Prefab, Vector3.zero, Quaternion.identity);
-            m_Pool[i].name = &quot;PoolObject&quot; + i;
-            m_Pool[i].SetActive(false);
+            InitializePool();
+
+            ClientScene.RegisterPrefab(prefab, SpawnHandler, UnspawnHandler);
         }
-        
-        ClientScene.RegisterSpawnHandler(assetId, SpawnObject, UnSpawnObject);
-    }
 
-    public GameObject GetFromPool(Vector3 position)
-    {
-        foreach (var obj in m_Pool)
+        void OnDestroy()
         {
-            if (!obj.activeInHierarchy)
+            ClientScene.UnregisterPrefab(prefab);
+        }
+
+        private void InitializePool()
+        {
+            pool = new Queue&lt;GameObject&gt;();
+            for (int i = 0; i &lt; startSize; i++)
             {
-                Debug.Log(&quot;Activating GameObject &quot; + obj.name + &quot; at &quot; + position);
-                obj.transform.position = position;
-                obj.SetActive (true);
-                return obj;
+                GameObject next = CreateNew();
+
+                pool.Enqueue(next);
             }
         }
-        Debug.LogError (&quot;Could not grab game object from pool, nothing available&quot;);
-        return null;
-    }
-    
-    public GameObject SpawnObject(Vector3 position, System.Guid assetId)
-    {
-        return GetFromPool(position);
-    }
-    
-    public void UnSpawnObject(GameObject spawned)
-    {
-        Debug.Log (&quot;Re-pooling game object &quot; + spawned.name);
-        spawned.SetActive (false);
+
+        GameObject CreateNew()
+        {
+            if (currentCount &gt; maxSize)
+            {
+                Debug.LogError($&quot;Pool has reached max size of {maxSize}&quot;);
+                return null;
+            }
+
+            // use this object as parent so that objects dont crowd hierarchy
+            GameObject next = Instantiate(prefab, transform);
+            next.name = $&quot;{prefab.name}_pooled_{currentCount}&quot;;
+            next.SetActive(false);
+            currentCount++;
+            return next;
+        }
+
+        // used by ClientScene.RegisterPrefab
+        GameObject SpawnHandler(SpawnMessage msg)
+        {
+            return GetFromPool(msg.position, msg.rotation);
+        }
+
+        // used by ClientScene.RegisterPrefab
+        void UnspawnHandler(GameObject spawned)
+        {
+            PutBackInPool(spawned);
+        }
+
+        /// &lt;summary&gt;
+        /// Used to take Object from Pool.
+        /// &lt;para&gt;Should be used on server to get the next Object&lt;/para&gt;
+        /// &lt;para&gt;Used on client by ClientScene to spawn objects&lt;/para&gt;
+        /// &lt;/summary&gt;
+        /// &lt;param name=&quot;position&quot;&gt;&lt;/param&gt;
+        /// &lt;param name=&quot;rotation&quot;&gt;&lt;/param&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        public GameObject GetFromPool(Vector3 position, Quaternion rotation)
+        {
+            GameObject next = pool.Count &gt; 0
+                ? pool.Dequeue() // take from pool
+                : CreateNew(); // create new because pool is empty
+
+            // CreateNew might return null if max size is reached
+            if (next == null) { return null; }
+
+            // set position/rotation and set active
+            next.transform.position = position;
+            next.transform.rotation = rotation;
+            next.SetActive(true);
+            return next;
+        }
+
+        /// &lt;summary&gt;
+        /// Used to put object back into pool so they can b
+        /// &lt;para&gt;Should be used on server after unspawning an object&lt;/para&gt;
+        /// &lt;para&gt;Used on client by ClientScene to unspawn objects&lt;/para&gt;
+        /// &lt;/summary&gt;
+        /// &lt;param name=&quot;spawned&quot;&gt;&lt;/param&gt;
+        public void PutBackInPool(GameObject spawned)
+        {
+            // disable object
+            spawned.SetActive(false);
+
+            // add back to pool
+            pool.Enqueue(spawned);
+        }
     }
 }
 </code></pre>
-<p>To use this manager, create a new empty game object and name it “SpawnManager”. Create a new script called <em>SpawnManager,</em> copy in the code sample above, and attach it to the new SpawnManager game object. Next, drag a prefab you want to spawn multiple times to the Prefab field, and set the Object Pool Size (default is 5).</p>
-<p>Finally, set up a reference to the SpawnManager in the script you are using for player movement:</p>
-<pre><code class="lang-cs">SpawnManager spawnManager;
+<p>To use this manager, create a new empty game object and add the <code>PrefabPoolManager</code> component (code above). Next, drag a prefab you want to spawn multiple times to the Prefab field, and set <code>startSize</code> and <code>maxSize</code> fields. <code>startSize</code> is how many will be spawned when your game starts. <code>maxSize</code> is the max number that can be spawned, if this number is reached then an error will be given when trying to more new objects.</p>
+<p>Finally, set up a reference to the PrefabPoolManager in the script you are using for player movement:</p>
+<pre><code class="lang-cs">PrefabPoolManager prefabPoolManager;
 
 void Start()
 {
-    spawnManager = GameObject.Find(&quot;SpawnManager&quot;).GetComponent&lt;SpawnManager&gt; ();
+    prefabPoolManager = FindObjectOfType&lt;PrefabPoolManager&gt;();
 }
 </code></pre>
 <p>Your player logic might contain something like this, which moves and fires coins:</p>
@@ -191,11 +255,12 @@ void Start()
     if (!isLocalPlayer)
         return;
     
-    var x = Input.GetAxis(&quot;Horizontal&quot;)*0.1f;
-    var z = Input.GetAxis(&quot;Vertical&quot;)*0.1f;
-    
+    // move
+    var x = Input.GetAxis(&quot;Horizontal&quot;) * 0.1f;
+    var z = Input.GetAxis(&quot;Vertical&quot;) * 0.1f;
     transform.Translate(x, 0, z);
 
+    // shoot
     if (Input.GetKeyDown(KeyCode.Space))
     {
         // Server RPC Call function is called on the client, but invoked on the server
@@ -207,25 +272,29 @@ void Start()
 <pre><code class="lang-cs">[ServerRpc]
 void CmdFire()
 {
-    // Set up coin on server
-    var coin = spawnManager.GetFromPool(transform.position + transform.forward);  
-    coin.GetComponent&lt;Rigidbody&gt;().velocity = transform.forward*4;
-    
-    // spawn coin on client, custom spawn handler is called
-    NetworkServer.Spawn(coin, spawnManager.assetId);
-    
-    // when the coin is destroyed on the server, it is automatically destroyed on clients
-    StartCoroutine (Destroy (coin, 2.0f));
+    // Set up bullet on server
+    GameObject bullet = prefabPoolManager.GetFromPool(transform.position + transform.forward, Quaternion.identity);
+    bullet.GetComponent&lt;Rigidbody&gt;().velocity = transform.forward * 4;
+
+    // tell server to send SpawnMessage, which will call SpawnHandler on client
+    NetworkServer.Spawn(bullet);
+
+    // destroy bullet after 2 seconds
+    StartCoroutine(Destroy(bullet, 2.0f));
 }
 
-public IEnumerator Destroy(GameObject go, float timer)
+public IEnumerator Destroy(GameObject go, float delay)
 {
-    yield return new WaitForSeconds(timer);
-    spawnManager.UnSpawnObject(go);
+    yield return new WaitForSeconds(delay);
+
+    // return object to pool on server
+    prefabPoolManager.PutBackInPool(go);
+
+    // tell server to send ObjectDestroyMessage, which will call UnspawnHandler on client
     NetworkServer.UnSpawn(go);
 }
 </code></pre>
-<p>The automatic destruction shows how the game objects are returned to the pool and re-used when you fire again.</p>
+<p>The Destroy method above shows how to return game objects to the pool so that they can be re-used when you fire again</p>
 </article>
           </div>
           

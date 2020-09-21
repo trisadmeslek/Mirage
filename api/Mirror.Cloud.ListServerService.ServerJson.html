@@ -100,7 +100,9 @@
   
   
   <h4 id="Mirror_Cloud_ListServerService_ServerJson_address" data-uid="Mirror.Cloud.ListServerService.ServerJson.address">address</h4>
-  <div class="markdown level1 summary"><p>This is returns from the api, any incoming address fields will be ignored</p>
+  <div class="markdown level1 summary"><p>Uri string of the ip and port of the server.</p>
+<p>The ip is calculated by the request to the API</p>
+<p>This is returns from the api, any incoming address fields will be ignored</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -118,6 +120,58 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Mirror_Cloud_ListServerService_ServerJson_customAddress" data-uid="Mirror.Cloud.ListServerService.ServerJson.customAddress">customAddress</h4>
+  <div class="markdown level1 summary"><p>Can be used to set custom uri</p>
+<p>optional</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string customAddress</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Mirror_Cloud_ListServerService_ServerJson_customData" data-uid="Mirror.Cloud.ListServerService.ServerJson.customData">customData</h4>
+  <div class="markdown level1 summary"><p>Array of custom data, use SetCustomData to set values</p>
+<p>optional</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KeyValue[] customData</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.Cloud.ListServerService.KeyValue.html">KeyValue</a>[]</td>
         <td></td>
       </tr>
     </tbody>
@@ -239,6 +293,113 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Mirror_Cloud_ListServerService_ServerJson_GetCustomUri_" data-uid="Mirror.Cloud.ListServerService.ServerJson.GetCustomUri*"></a>
+  <h4 id="Mirror_Cloud_ListServerService_ServerJson_GetCustomUri" data-uid="Mirror.Cloud.ListServerService.ServerJson.GetCustomUri">GetCustomUri()</h4>
+  <div class="markdown level1 summary"><p>Uri from customAddress field</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Uri GetCustomUri()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Uri</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mirror_Cloud_ListServerService_ServerJson_GetServerUri_" data-uid="Mirror.Cloud.ListServerService.ServerJson.GetServerUri*"></a>
+  <h4 id="Mirror_Cloud_ListServerService_ServerJson_GetServerUri" data-uid="Mirror.Cloud.ListServerService.ServerJson.GetServerUri">GetServerUri()</h4>
+  <div class="markdown level1 summary"><p>Uri from address field</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Uri GetServerUri()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Uri</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mirror_Cloud_ListServerService_ServerJson_SetCustomData_" data-uid="Mirror.Cloud.ListServerService.ServerJson.SetCustomData*"></a>
+  <h4 id="Mirror_Cloud_ListServerService_ServerJson_SetCustomData_Dictionary_System_String_System_String__" data-uid="Mirror.Cloud.ListServerService.ServerJson.SetCustomData(Dictionary{System.String,System.String})">SetCustomData(Dictionary&lt;String, String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Updates the customData array</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCustomData(Dictionary&lt;string, string&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Dictionary</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mirror_Cloud_ListServerService_ServerJson_Validate_" data-uid="Mirror.Cloud.ListServerService.ServerJson.Validate*"></a>
+  <h4 id="Mirror_Cloud_ListServerService_ServerJson_Validate" data-uid="Mirror.Cloud.ListServerService.ServerJson.Validate">Validate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Validate()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>

@@ -162,7 +162,10 @@ The NetworkConnection associated with the Network Identity component attached to
 <li>Has the <code>ClientRpc</code> attribute</li>
 </ul>
 <p>See <a href="Communications/index.html">Communications</a> and related sections for more information.</p>
-<h2 id="networked-events">Networked Events</h2>
+<h2 id="networked-events-obsolete">Networked Events (Obsolete)</h2>
+<blockquote>
+<p><strong>IMPORTANT</strong> SyncEvents have been removed in version 18.0.0, see this <a href="https://github.com/vis2k/Mirror/pull/2178">Issue</a> for more information</p>
+</blockquote>
 <p>Networked events are like Client RPC calls, but instead of calling a function on the game object, they trigger Events instead.</p>
 <p>This allows you to write scripts which can register for a callback when an event is triggered.</p>
 <p>To define a Networked event in your code, you must write a function which both:</p>

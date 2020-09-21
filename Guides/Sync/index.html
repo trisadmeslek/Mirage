@@ -85,8 +85,9 @@
 <ul>
 <li><a href="SyncVars.html">SyncVars</a><br>
 SyncVars are variables of scripts that inherit from NetworkBehaviour, which are synchronized from the server to clients.</li>
-<li><a href="SyncEvent.html">SyncEvents</a><br>
-SyncEvents are networked events like ClientRpc’s, but instead of calling a function on the game object, they trigger Events instead.</li>
+<li><a href="SyncEvent.html">SyncEvents (Obsolete)</a><br>
+SyncEvents are networked events like ClientRpc’s, but instead of calling a function on the game object, they trigger Events instead.
+<strong>IMPORTANT:</strong> removed in version 18.0.0, see this <a href="https://github.com/vis2k/Mirror/pull/2178">Issue</a> for more information.</li>
 <li><a href="SyncLists.html">SyncLists</a><br>
 SyncLists contain lists of values and synchronize data from servers to clients.</li>
 <li><a href="SyncDictionary.html">SyncDictionary</a><br>
@@ -121,7 +122,7 @@ A sorted set of values that do not repeat.</li>
 </code></pre>
 <p>Use the <code>initialState</code> flag to differentiate between the first time a game object is serialized and when incremental updates can be sent. The first time a game object is sent to a client, it must include a full state snapshot, but subsequent updates can save on bandwidth by including only incremental changes.</p>
 <p>The <code>OnSerialize</code> function should return true to indicate that an update should be sent. If it returns true, the dirty bits for that script are set to zero. If it returns false, the dirty bits are not changed. This allows multiple changes to a script to be accumulated over time and sent when the system is ready, instead of every frame.</p>
-<p>The <code>OnSerialize</code> function is only called for <code>initialState</code> or when the <code>NetworkBehavior</code> is dirty. A <code>NetworkBehavior</code> will only be dirty if a <code>SyncVar</code> or <code>SyncObject</code> (e.g. <code>SyncList</code>) has changed since the last OnSerialize call. After data has been sent the <code>NetworkBehavior</code> will not be dirty again until the next <code>syncInterval</code> (set in the inspector). A <code>NetworkBehavior</code> can also be marked as dirty by manually calling <code>SetDirtyBit</code> (this does not bypass the syncInterval limit).</p>
+<p>The <code>OnSerialize</code> function is only called for <code>initialState</code> or when the <code>NetworkBehaviour</code> is dirty. A <code>NetworkBehaviour</code> will only be dirty if a <code>SyncVar</code> or <code>SyncObject</code> (e.g. <code>SyncList</code>) has changed since the last OnSerialize call. After data has been sent the <code>NetworkBehaviour</code> will not be dirty again until the next <code>syncInterval</code> (set in the inspector). A <code>NetworkBehaviour</code> can also be marked as dirty by manually calling <code>SetDirtyBit</code> (this does not bypass the syncInterval limit).</p>
 <p>Although this works,  it is usually better to let Mirror generate these methods and provide <a href="../DataTypes.html">custom serializers</a> for your specific field.</p>
 <h2 id="serialization-flow">Serialization Flow</h2>
 <p>Game objects with the Network Identity component attached can have multiple scripts derived from <code>NetworkBehaviour</code>. The flow for serializing these game objects is:</p>

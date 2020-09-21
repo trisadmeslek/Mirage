@@ -498,6 +498,60 @@ references:
   commentId: N:Mirror.Cloud.ListServerService
   fullName: Mirror.Cloud.ListServerService
   nameWithType: Mirror.Cloud.ListServerService
+- uid: Mirror.Cloud.ListServerService.CustomDataHelper
+  name: CustomDataHelper
+  href: api/Mirror.Cloud.ListServerService.CustomDataHelper.html
+  commentId: T:Mirror.Cloud.ListServerService.CustomDataHelper
+  fullName: Mirror.Cloud.ListServerService.CustomDataHelper
+  nameWithType: CustomDataHelper
+- uid: Mirror.Cloud.ListServerService.CustomDataHelper.ToDictionary(Mirror.Cloud.ListServerService.KeyValue[])
+  name: ToDictionary(KeyValue[])
+  href: api/Mirror.Cloud.ListServerService.CustomDataHelper.html#Mirror_Cloud_ListServerService_CustomDataHelper_ToDictionary_Mirror_Cloud_ListServerService_KeyValue___
+  commentId: M:Mirror.Cloud.ListServerService.CustomDataHelper.ToDictionary(Mirror.Cloud.ListServerService.KeyValue[])
+  name.vb: ToDictionary(KeyValue())
+  fullName: Mirror.Cloud.ListServerService.CustomDataHelper.ToDictionary(Mirror.Cloud.ListServerService.KeyValue[])
+  fullName.vb: Mirror.Cloud.ListServerService.CustomDataHelper.ToDictionary(Mirror.Cloud.ListServerService.KeyValue())
+  nameWithType: CustomDataHelper.ToDictionary(KeyValue[])
+  nameWithType.vb: CustomDataHelper.ToDictionary(KeyValue())
+- uid: Mirror.Cloud.ListServerService.CustomDataHelper.ToDictionary*
+  name: ToDictionary
+  href: api/Mirror.Cloud.ListServerService.CustomDataHelper.html#Mirror_Cloud_ListServerService_CustomDataHelper_ToDictionary_
+  commentId: Overload:Mirror.Cloud.ListServerService.CustomDataHelper.ToDictionary
+  isSpec: "True"
+  fullName: Mirror.Cloud.ListServerService.CustomDataHelper.ToDictionary
+  nameWithType: CustomDataHelper.ToDictionary
+- uid: Mirror.Cloud.ListServerService.CustomDataHelper.ToKeyValueArray(Dictionary{System.String,System.String})
+  name: ToKeyValueArray(Dictionary<String, String>)
+  href: api/Mirror.Cloud.ListServerService.CustomDataHelper.html#Mirror_Cloud_ListServerService_CustomDataHelper_ToKeyValueArray_Dictionary_System_String_System_String__
+  commentId: M:Mirror.Cloud.ListServerService.CustomDataHelper.ToKeyValueArray(Dictionary{System.String,System.String})
+  name.vb: ToKeyValueArray(Dictionary(Of String, String))
+  fullName: Mirror.Cloud.ListServerService.CustomDataHelper.ToKeyValueArray(Dictionary<System.String, System.String>)
+  fullName.vb: Mirror.Cloud.ListServerService.CustomDataHelper.ToKeyValueArray(Dictionary(Of System.String, System.String))
+  nameWithType: CustomDataHelper.ToKeyValueArray(Dictionary<String, String>)
+  nameWithType.vb: CustomDataHelper.ToKeyValueArray(Dictionary(Of String, String))
+- uid: Mirror.Cloud.ListServerService.CustomDataHelper.ToKeyValueArray*
+  name: ToKeyValueArray
+  href: api/Mirror.Cloud.ListServerService.CustomDataHelper.html#Mirror_Cloud_ListServerService_CustomDataHelper_ToKeyValueArray_
+  commentId: Overload:Mirror.Cloud.ListServerService.CustomDataHelper.ToKeyValueArray
+  isSpec: "True"
+  fullName: Mirror.Cloud.ListServerService.CustomDataHelper.ToKeyValueArray
+  nameWithType: CustomDataHelper.ToKeyValueArray
+- uid: Mirror.Cloud.ListServerService.CustomDataHelper.ValidateCustomData(Mirror.Cloud.ListServerService.KeyValue[])
+  name: ValidateCustomData(KeyValue[])
+  href: api/Mirror.Cloud.ListServerService.CustomDataHelper.html#Mirror_Cloud_ListServerService_CustomDataHelper_ValidateCustomData_Mirror_Cloud_ListServerService_KeyValue___
+  commentId: M:Mirror.Cloud.ListServerService.CustomDataHelper.ValidateCustomData(Mirror.Cloud.ListServerService.KeyValue[])
+  name.vb: ValidateCustomData(KeyValue())
+  fullName: Mirror.Cloud.ListServerService.CustomDataHelper.ValidateCustomData(Mirror.Cloud.ListServerService.KeyValue[])
+  fullName.vb: Mirror.Cloud.ListServerService.CustomDataHelper.ValidateCustomData(Mirror.Cloud.ListServerService.KeyValue())
+  nameWithType: CustomDataHelper.ValidateCustomData(KeyValue[])
+  nameWithType.vb: CustomDataHelper.ValidateCustomData(KeyValue())
+- uid: Mirror.Cloud.ListServerService.CustomDataHelper.ValidateCustomData*
+  name: ValidateCustomData
+  href: api/Mirror.Cloud.ListServerService.CustomDataHelper.html#Mirror_Cloud_ListServerService_CustomDataHelper_ValidateCustomData_
+  commentId: Overload:Mirror.Cloud.ListServerService.CustomDataHelper.ValidateCustomData
+  isSpec: "True"
+  fullName: Mirror.Cloud.ListServerService.CustomDataHelper.ValidateCustomData
+  nameWithType: CustomDataHelper.ValidateCustomData
 - uid: Mirror.Cloud.ListServerService.IListServerClientApi
   name: IListServerClientApi
   href: api/Mirror.Cloud.ListServerService.IListServerClientApi.html
@@ -613,6 +667,50 @@ references:
   isSpec: "True"
   fullName: Mirror.Cloud.ListServerService.IListServerServerApi.UpdateServer
   nameWithType: IListServerServerApi.UpdateServer
+- uid: Mirror.Cloud.ListServerService.KeyValue
+  name: KeyValue
+  href: api/Mirror.Cloud.ListServerService.KeyValue.html
+  commentId: T:Mirror.Cloud.ListServerService.KeyValue
+  fullName: Mirror.Cloud.ListServerService.KeyValue
+  nameWithType: KeyValue
+- uid: Mirror.Cloud.ListServerService.KeyValue.#ctor(System.String,System.String)
+  name: KeyValue(String, String)
+  href: api/Mirror.Cloud.ListServerService.KeyValue.html#Mirror_Cloud_ListServerService_KeyValue__ctor_System_String_System_String_
+  commentId: M:Mirror.Cloud.ListServerService.KeyValue.#ctor(System.String,System.String)
+  fullName: Mirror.Cloud.ListServerService.KeyValue.KeyValue(System.String, System.String)
+  nameWithType: KeyValue.KeyValue(String, String)
+- uid: Mirror.Cloud.ListServerService.KeyValue.#ctor*
+  name: KeyValue
+  href: api/Mirror.Cloud.ListServerService.KeyValue.html#Mirror_Cloud_ListServerService_KeyValue__ctor_
+  commentId: Overload:Mirror.Cloud.ListServerService.KeyValue.#ctor
+  isSpec: "True"
+  fullName: Mirror.Cloud.ListServerService.KeyValue.KeyValue
+  nameWithType: KeyValue.KeyValue
+- uid: Mirror.Cloud.ListServerService.KeyValue.key
+  name: key
+  href: api/Mirror.Cloud.ListServerService.KeyValue.html#Mirror_Cloud_ListServerService_KeyValue_key
+  commentId: F:Mirror.Cloud.ListServerService.KeyValue.key
+  fullName: Mirror.Cloud.ListServerService.KeyValue.key
+  nameWithType: KeyValue.key
+- uid: Mirror.Cloud.ListServerService.KeyValue.Validate
+  name: Validate()
+  href: api/Mirror.Cloud.ListServerService.KeyValue.html#Mirror_Cloud_ListServerService_KeyValue_Validate
+  commentId: M:Mirror.Cloud.ListServerService.KeyValue.Validate
+  fullName: Mirror.Cloud.ListServerService.KeyValue.Validate()
+  nameWithType: KeyValue.Validate()
+- uid: Mirror.Cloud.ListServerService.KeyValue.Validate*
+  name: Validate
+  href: api/Mirror.Cloud.ListServerService.KeyValue.html#Mirror_Cloud_ListServerService_KeyValue_Validate_
+  commentId: Overload:Mirror.Cloud.ListServerService.KeyValue.Validate
+  isSpec: "True"
+  fullName: Mirror.Cloud.ListServerService.KeyValue.Validate
+  nameWithType: KeyValue.Validate
+- uid: Mirror.Cloud.ListServerService.KeyValue.value
+  name: value
+  href: api/Mirror.Cloud.ListServerService.KeyValue.html#Mirror_Cloud_ListServerService_KeyValue_value
+  commentId: F:Mirror.Cloud.ListServerService.KeyValue.value
+  fullName: Mirror.Cloud.ListServerService.KeyValue.value
+  nameWithType: KeyValue.value
 - uid: Mirror.Cloud.ListServerService.ListServer
   name: ListServer
   href: api/Mirror.Cloud.ListServerService.ListServer.html
@@ -836,6 +934,12 @@ references:
   commentId: T:Mirror.Cloud.ListServerService.PartialServerJson
   fullName: Mirror.Cloud.ListServerService.PartialServerJson
   nameWithType: PartialServerJson
+- uid: Mirror.Cloud.ListServerService.PartialServerJson.customData
+  name: customData
+  href: api/Mirror.Cloud.ListServerService.PartialServerJson.html#Mirror_Cloud_ListServerService_PartialServerJson_customData
+  commentId: F:Mirror.Cloud.ListServerService.PartialServerJson.customData
+  fullName: Mirror.Cloud.ListServerService.PartialServerJson.customData
+  nameWithType: PartialServerJson.customData
 - uid: Mirror.Cloud.ListServerService.PartialServerJson.displayName
   name: displayName
   href: api/Mirror.Cloud.ListServerService.PartialServerJson.html#Mirror_Cloud_ListServerService_PartialServerJson_displayName
@@ -854,6 +958,35 @@ references:
   commentId: F:Mirror.Cloud.ListServerService.PartialServerJson.playerCount
   fullName: Mirror.Cloud.ListServerService.PartialServerJson.playerCount
   nameWithType: PartialServerJson.playerCount
+- uid: Mirror.Cloud.ListServerService.PartialServerJson.SetCustomData(Dictionary{System.String,System.String})
+  name: SetCustomData(Dictionary<String, String>)
+  href: api/Mirror.Cloud.ListServerService.PartialServerJson.html#Mirror_Cloud_ListServerService_PartialServerJson_SetCustomData_Dictionary_System_String_System_String__
+  commentId: M:Mirror.Cloud.ListServerService.PartialServerJson.SetCustomData(Dictionary{System.String,System.String})
+  name.vb: SetCustomData(Dictionary(Of String, String))
+  fullName: Mirror.Cloud.ListServerService.PartialServerJson.SetCustomData(Dictionary<System.String, System.String>)
+  fullName.vb: Mirror.Cloud.ListServerService.PartialServerJson.SetCustomData(Dictionary(Of System.String, System.String))
+  nameWithType: PartialServerJson.SetCustomData(Dictionary<String, String>)
+  nameWithType.vb: PartialServerJson.SetCustomData(Dictionary(Of String, String))
+- uid: Mirror.Cloud.ListServerService.PartialServerJson.SetCustomData*
+  name: SetCustomData
+  href: api/Mirror.Cloud.ListServerService.PartialServerJson.html#Mirror_Cloud_ListServerService_PartialServerJson_SetCustomData_
+  commentId: Overload:Mirror.Cloud.ListServerService.PartialServerJson.SetCustomData
+  isSpec: "True"
+  fullName: Mirror.Cloud.ListServerService.PartialServerJson.SetCustomData
+  nameWithType: PartialServerJson.SetCustomData
+- uid: Mirror.Cloud.ListServerService.PartialServerJson.Validate
+  name: Validate()
+  href: api/Mirror.Cloud.ListServerService.PartialServerJson.html#Mirror_Cloud_ListServerService_PartialServerJson_Validate
+  commentId: M:Mirror.Cloud.ListServerService.PartialServerJson.Validate
+  fullName: Mirror.Cloud.ListServerService.PartialServerJson.Validate()
+  nameWithType: PartialServerJson.Validate()
+- uid: Mirror.Cloud.ListServerService.PartialServerJson.Validate*
+  name: Validate
+  href: api/Mirror.Cloud.ListServerService.PartialServerJson.html#Mirror_Cloud_ListServerService_PartialServerJson_Validate_
+  commentId: Overload:Mirror.Cloud.ListServerService.PartialServerJson.Validate
+  isSpec: "True"
+  fullName: Mirror.Cloud.ListServerService.PartialServerJson.Validate
+  nameWithType: PartialServerJson.Validate
 - uid: Mirror.Cloud.ListServerService.ServerCollectionJson
   name: ServerCollectionJson
   href: api/Mirror.Cloud.ListServerService.ServerCollectionJson.html
@@ -878,12 +1011,50 @@ references:
   commentId: F:Mirror.Cloud.ListServerService.ServerJson.address
   fullName: Mirror.Cloud.ListServerService.ServerJson.address
   nameWithType: ServerJson.address
+- uid: Mirror.Cloud.ListServerService.ServerJson.customAddress
+  name: customAddress
+  href: api/Mirror.Cloud.ListServerService.ServerJson.html#Mirror_Cloud_ListServerService_ServerJson_customAddress
+  commentId: F:Mirror.Cloud.ListServerService.ServerJson.customAddress
+  fullName: Mirror.Cloud.ListServerService.ServerJson.customAddress
+  nameWithType: ServerJson.customAddress
+- uid: Mirror.Cloud.ListServerService.ServerJson.customData
+  name: customData
+  href: api/Mirror.Cloud.ListServerService.ServerJson.html#Mirror_Cloud_ListServerService_ServerJson_customData
+  commentId: F:Mirror.Cloud.ListServerService.ServerJson.customData
+  fullName: Mirror.Cloud.ListServerService.ServerJson.customData
+  nameWithType: ServerJson.customData
 - uid: Mirror.Cloud.ListServerService.ServerJson.displayName
   name: displayName
   href: api/Mirror.Cloud.ListServerService.ServerJson.html#Mirror_Cloud_ListServerService_ServerJson_displayName
   commentId: F:Mirror.Cloud.ListServerService.ServerJson.displayName
   fullName: Mirror.Cloud.ListServerService.ServerJson.displayName
   nameWithType: ServerJson.displayName
+- uid: Mirror.Cloud.ListServerService.ServerJson.GetCustomUri
+  name: GetCustomUri()
+  href: api/Mirror.Cloud.ListServerService.ServerJson.html#Mirror_Cloud_ListServerService_ServerJson_GetCustomUri
+  commentId: M:Mirror.Cloud.ListServerService.ServerJson.GetCustomUri
+  fullName: Mirror.Cloud.ListServerService.ServerJson.GetCustomUri()
+  nameWithType: ServerJson.GetCustomUri()
+- uid: Mirror.Cloud.ListServerService.ServerJson.GetCustomUri*
+  name: GetCustomUri
+  href: api/Mirror.Cloud.ListServerService.ServerJson.html#Mirror_Cloud_ListServerService_ServerJson_GetCustomUri_
+  commentId: Overload:Mirror.Cloud.ListServerService.ServerJson.GetCustomUri
+  isSpec: "True"
+  fullName: Mirror.Cloud.ListServerService.ServerJson.GetCustomUri
+  nameWithType: ServerJson.GetCustomUri
+- uid: Mirror.Cloud.ListServerService.ServerJson.GetServerUri
+  name: GetServerUri()
+  href: api/Mirror.Cloud.ListServerService.ServerJson.html#Mirror_Cloud_ListServerService_ServerJson_GetServerUri
+  commentId: M:Mirror.Cloud.ListServerService.ServerJson.GetServerUri
+  fullName: Mirror.Cloud.ListServerService.ServerJson.GetServerUri()
+  nameWithType: ServerJson.GetServerUri()
+- uid: Mirror.Cloud.ListServerService.ServerJson.GetServerUri*
+  name: GetServerUri
+  href: api/Mirror.Cloud.ListServerService.ServerJson.html#Mirror_Cloud_ListServerService_ServerJson_GetServerUri_
+  commentId: Overload:Mirror.Cloud.ListServerService.ServerJson.GetServerUri
+  isSpec: "True"
+  fullName: Mirror.Cloud.ListServerService.ServerJson.GetServerUri
+  nameWithType: ServerJson.GetServerUri
 - uid: Mirror.Cloud.ListServerService.ServerJson.maxPlayerCount
   name: maxPlayerCount
   href: api/Mirror.Cloud.ListServerService.ServerJson.html#Mirror_Cloud_ListServerService_ServerJson_maxPlayerCount
@@ -908,6 +1079,35 @@ references:
   commentId: F:Mirror.Cloud.ListServerService.ServerJson.protocol
   fullName: Mirror.Cloud.ListServerService.ServerJson.protocol
   nameWithType: ServerJson.protocol
+- uid: Mirror.Cloud.ListServerService.ServerJson.SetCustomData(Dictionary{System.String,System.String})
+  name: SetCustomData(Dictionary<String, String>)
+  href: api/Mirror.Cloud.ListServerService.ServerJson.html#Mirror_Cloud_ListServerService_ServerJson_SetCustomData_Dictionary_System_String_System_String__
+  commentId: M:Mirror.Cloud.ListServerService.ServerJson.SetCustomData(Dictionary{System.String,System.String})
+  name.vb: SetCustomData(Dictionary(Of String, String))
+  fullName: Mirror.Cloud.ListServerService.ServerJson.SetCustomData(Dictionary<System.String, System.String>)
+  fullName.vb: Mirror.Cloud.ListServerService.ServerJson.SetCustomData(Dictionary(Of System.String, System.String))
+  nameWithType: ServerJson.SetCustomData(Dictionary<String, String>)
+  nameWithType.vb: ServerJson.SetCustomData(Dictionary(Of String, String))
+- uid: Mirror.Cloud.ListServerService.ServerJson.SetCustomData*
+  name: SetCustomData
+  href: api/Mirror.Cloud.ListServerService.ServerJson.html#Mirror_Cloud_ListServerService_ServerJson_SetCustomData_
+  commentId: Overload:Mirror.Cloud.ListServerService.ServerJson.SetCustomData
+  isSpec: "True"
+  fullName: Mirror.Cloud.ListServerService.ServerJson.SetCustomData
+  nameWithType: ServerJson.SetCustomData
+- uid: Mirror.Cloud.ListServerService.ServerJson.Validate
+  name: Validate()
+  href: api/Mirror.Cloud.ListServerService.ServerJson.html#Mirror_Cloud_ListServerService_ServerJson_Validate
+  commentId: M:Mirror.Cloud.ListServerService.ServerJson.Validate
+  fullName: Mirror.Cloud.ListServerService.ServerJson.Validate()
+  nameWithType: ServerJson.Validate()
+- uid: Mirror.Cloud.ListServerService.ServerJson.Validate*
+  name: Validate
+  href: api/Mirror.Cloud.ListServerService.ServerJson.html#Mirror_Cloud_ListServerService_ServerJson_Validate_
+  commentId: Overload:Mirror.Cloud.ListServerService.ServerJson.Validate
+  isSpec: "True"
+  fullName: Mirror.Cloud.ListServerService.ServerJson.Validate
+  nameWithType: ServerJson.Validate
 - uid: Mirror.Cloud.Logger
   name: Logger
   href: api/Mirror.Cloud.Logger.html
@@ -1397,6 +1597,14 @@ references:
   fullName.vb: Mirror.Discovery.NetworkDiscoveryBase(Of Request, Response).secretHandshake
   nameWithType: NetworkDiscoveryBase<Request, Response>.secretHandshake
   nameWithType.vb: NetworkDiscoveryBase(Of Request, Response).secretHandshake
+- uid: Mirror.Discovery.NetworkDiscoveryBase`2.serverBroadcastListenPort
+  name: serverBroadcastListenPort
+  href: api/Mirror.Discovery.NetworkDiscoveryBase-2.html#Mirror_Discovery_NetworkDiscoveryBase_2_serverBroadcastListenPort
+  commentId: F:Mirror.Discovery.NetworkDiscoveryBase`2.serverBroadcastListenPort
+  fullName: Mirror.Discovery.NetworkDiscoveryBase<Request, Response>.serverBroadcastListenPort
+  fullName.vb: Mirror.Discovery.NetworkDiscoveryBase(Of Request, Response).serverBroadcastListenPort
+  nameWithType: NetworkDiscoveryBase<Request, Response>.serverBroadcastListenPort
+  nameWithType.vb: NetworkDiscoveryBase(Of Request, Response).serverBroadcastListenPort
 - uid: Mirror.Discovery.NetworkDiscoveryBase`2.ServerListenAsync
   name: ServerListenAsync()
   href: api/Mirror.Discovery.NetworkDiscoveryBase-2.html#Mirror_Discovery_NetworkDiscoveryBase_2_ServerListenAsync
@@ -1570,6 +1778,30 @@ references:
   commentId: N:Mirror.Experimental
   fullName: Mirror.Experimental
   nameWithType: Mirror.Experimental
+- uid: Mirror.Experimental.NetworkLerpRigidbody
+  name: NetworkLerpRigidbody
+  href: api/Mirror.Experimental.NetworkLerpRigidbody.html
+  commentId: T:Mirror.Experimental.NetworkLerpRigidbody
+  fullName: Mirror.Experimental.NetworkLerpRigidbody
+  nameWithType: NetworkLerpRigidbody
+- uid: Mirror.Experimental.NetworkLerpRigidbody.clientAuthority
+  name: clientAuthority
+  href: api/Mirror.Experimental.NetworkLerpRigidbody.html#Mirror_Experimental_NetworkLerpRigidbody_clientAuthority
+  commentId: F:Mirror.Experimental.NetworkLerpRigidbody.clientAuthority
+  fullName: Mirror.Experimental.NetworkLerpRigidbody.clientAuthority
+  nameWithType: NetworkLerpRigidbody.clientAuthority
+- uid: Mirror.Experimental.NetworkLerpRigidbody.lerpPositionAmount
+  name: lerpPositionAmount
+  href: api/Mirror.Experimental.NetworkLerpRigidbody.html#Mirror_Experimental_NetworkLerpRigidbody_lerpPositionAmount
+  commentId: F:Mirror.Experimental.NetworkLerpRigidbody.lerpPositionAmount
+  fullName: Mirror.Experimental.NetworkLerpRigidbody.lerpPositionAmount
+  nameWithType: NetworkLerpRigidbody.lerpPositionAmount
+- uid: Mirror.Experimental.NetworkLerpRigidbody.lerpVelocityAmount
+  name: lerpVelocityAmount
+  href: api/Mirror.Experimental.NetworkLerpRigidbody.html#Mirror_Experimental_NetworkLerpRigidbody_lerpVelocityAmount
+  commentId: F:Mirror.Experimental.NetworkLerpRigidbody.lerpVelocityAmount
+  fullName: Mirror.Experimental.NetworkLerpRigidbody.lerpVelocityAmount
+  nameWithType: NetworkLerpRigidbody.lerpVelocityAmount
 - uid: Mirror.Experimental.NetworkRigidbody
   name: NetworkRigidbody
   href: api/Mirror.Experimental.NetworkRigidbody.html
@@ -3609,12 +3841,6 @@ references:
   commentId: F:Mirror.MirrorInvokeType.ServerRpc
   fullName: Mirror.MirrorInvokeType.ServerRpc
   nameWithType: MirrorInvokeType.ServerRpc
-- uid: Mirror.MirrorInvokeType.SyncEvent
-  name: SyncEvent
-  href: api/Mirror.MirrorInvokeType.html#Mirror_MirrorInvokeType_SyncEvent
-  commentId: F:Mirror.MirrorInvokeType.SyncEvent
-  fullName: Mirror.MirrorInvokeType.SyncEvent
-  nameWithType: MirrorInvokeType.SyncEvent
 - uid: Mirror.MultiplexTransport
   name: MultiplexTransport
   href: api/Mirror.MultiplexTransport.html
@@ -4025,19 +4251,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.InvokeServerRpc
   nameWithType: NetworkBehaviour.InvokeServerRpc
-- uid: Mirror.NetworkBehaviour.InvokeSyncEvent(System.Int32,Mirror.NetworkReader)
-  name: InvokeSyncEvent(Int32, NetworkReader)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InvokeSyncEvent_System_Int32_Mirror_NetworkReader_
-  commentId: M:Mirror.NetworkBehaviour.InvokeSyncEvent(System.Int32,Mirror.NetworkReader)
-  fullName: Mirror.NetworkBehaviour.InvokeSyncEvent(System.Int32, Mirror.NetworkReader)
-  nameWithType: NetworkBehaviour.InvokeSyncEvent(Int32, NetworkReader)
-- uid: Mirror.NetworkBehaviour.InvokeSyncEvent*
-  name: InvokeSyncEvent
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InvokeSyncEvent_
-  commentId: Overload:Mirror.NetworkBehaviour.InvokeSyncEvent
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.InvokeSyncEvent
-  nameWithType: NetworkBehaviour.InvokeSyncEvent
 - uid: Mirror.NetworkBehaviour.IsClient
   name: IsClient
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_IsClient
@@ -4064,6 +4277,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.IsClientOnly
   nameWithType: NetworkBehaviour.IsClientOnly
+- uid: Mirror.NetworkBehaviour.IsDirty
+  name: IsDirty()
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_IsDirty
+  commentId: M:Mirror.NetworkBehaviour.IsDirty
+  fullName: Mirror.NetworkBehaviour.IsDirty()
+  nameWithType: NetworkBehaviour.IsDirty()
+- uid: Mirror.NetworkBehaviour.IsDirty*
+  name: IsDirty
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_IsDirty_
+  commentId: Overload:Mirror.NetworkBehaviour.IsDirty
+  isSpec: "True"
+  fullName: Mirror.NetworkBehaviour.IsDirty
+  nameWithType: NetworkBehaviour.IsDirty
 - uid: Mirror.NetworkBehaviour.IsLocalClient
   name: IsLocalClient
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_IsLocalClient
@@ -4181,19 +4407,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.OnSerialize
   nameWithType: NetworkBehaviour.OnSerialize
-- uid: Mirror.NetworkBehaviour.SendEventInternal(Type,System.String,Mirror.NetworkWriter,System.Int32)
-  name: SendEventInternal(Type, String, NetworkWriter, Int32)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendEventInternal_Type_System_String_Mirror_NetworkWriter_System_Int32_
-  commentId: M:Mirror.NetworkBehaviour.SendEventInternal(Type,System.String,Mirror.NetworkWriter,System.Int32)
-  fullName: Mirror.NetworkBehaviour.SendEventInternal(Type, System.String, Mirror.NetworkWriter, System.Int32)
-  nameWithType: NetworkBehaviour.SendEventInternal(Type, String, NetworkWriter, Int32)
-- uid: Mirror.NetworkBehaviour.SendEventInternal*
-  name: SendEventInternal
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendEventInternal_
-  commentId: Overload:Mirror.NetworkBehaviour.SendEventInternal
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.SendEventInternal
-  nameWithType: NetworkBehaviour.SendEventInternal
 - uid: Mirror.NetworkBehaviour.SendRPCInternal(Type,System.String,Mirror.NetworkWriter,System.Int32,System.Boolean)
   name: SendRPCInternal(Type, String, NetworkWriter, Int32, Boolean)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendRPCInternal_Type_System_String_Mirror_NetworkWriter_System_Int32_System_Boolean_
@@ -8709,19 +8922,6 @@ references:
   isSpec: "True"
   fullName: Mirror.RemoteCalls.RemoteCallHelper.GetDelegate
   nameWithType: RemoteCallHelper.GetDelegate
-- uid: Mirror.RemoteCalls.RemoteCallHelper.RegisterEventDelegate(Type,System.String,Mirror.RemoteCalls.CmdDelegate)
-  name: RegisterEventDelegate(Type, String, CmdDelegate)
-  href: api/Mirror.RemoteCalls.RemoteCallHelper.html#Mirror_RemoteCalls_RemoteCallHelper_RegisterEventDelegate_Type_System_String_Mirror_RemoteCalls_CmdDelegate_
-  commentId: M:Mirror.RemoteCalls.RemoteCallHelper.RegisterEventDelegate(Type,System.String,Mirror.RemoteCalls.CmdDelegate)
-  fullName: Mirror.RemoteCalls.RemoteCallHelper.RegisterEventDelegate(Type, System.String, Mirror.RemoteCalls.CmdDelegate)
-  nameWithType: RemoteCallHelper.RegisterEventDelegate(Type, String, CmdDelegate)
-- uid: Mirror.RemoteCalls.RemoteCallHelper.RegisterEventDelegate*
-  name: RegisterEventDelegate
-  href: api/Mirror.RemoteCalls.RemoteCallHelper.html#Mirror_RemoteCalls_RemoteCallHelper_RegisterEventDelegate_
-  commentId: Overload:Mirror.RemoteCalls.RemoteCallHelper.RegisterEventDelegate
-  isSpec: "True"
-  fullName: Mirror.RemoteCalls.RemoteCallHelper.RegisterEventDelegate
-  nameWithType: RemoteCallHelper.RegisterEventDelegate
 - uid: Mirror.RemoteCalls.RemoteCallHelper.RegisterRpcDelegate(Type,System.String,Mirror.RemoteCalls.CmdDelegate)
   name: RegisterRpcDelegate(Type, String, CmdDelegate)
   href: api/Mirror.RemoteCalls.RemoteCallHelper.html#Mirror_RemoteCalls_RemoteCallHelper_RegisterRpcDelegate_Type_System_String_Mirror_RemoteCalls_CmdDelegate_
@@ -9229,62 +9429,6 @@ references:
   commentId: F:Mirror.SyncEventAttribute.channel
   fullName: Mirror.SyncEventAttribute.channel
   nameWithType: SyncEventAttribute.channel
-- uid: Mirror.SyncEventMessage
-  name: SyncEventMessage
-  href: api/Mirror.SyncEventMessage.html
-  commentId: T:Mirror.SyncEventMessage
-  fullName: Mirror.SyncEventMessage
-  nameWithType: SyncEventMessage
-- uid: Mirror.SyncEventMessage.componentIndex
-  name: componentIndex
-  href: api/Mirror.SyncEventMessage.html#Mirror_SyncEventMessage_componentIndex
-  commentId: F:Mirror.SyncEventMessage.componentIndex
-  fullName: Mirror.SyncEventMessage.componentIndex
-  nameWithType: SyncEventMessage.componentIndex
-- uid: Mirror.SyncEventMessage.Deserialize(Mirror.NetworkReader)
-  name: Deserialize(NetworkReader)
-  href: api/Mirror.SyncEventMessage.html#Mirror_SyncEventMessage_Deserialize_Mirror_NetworkReader_
-  commentId: M:Mirror.SyncEventMessage.Deserialize(Mirror.NetworkReader)
-  fullName: Mirror.SyncEventMessage.Deserialize(Mirror.NetworkReader)
-  nameWithType: SyncEventMessage.Deserialize(NetworkReader)
-- uid: Mirror.SyncEventMessage.Deserialize*
-  name: Deserialize
-  href: api/Mirror.SyncEventMessage.html#Mirror_SyncEventMessage_Deserialize_
-  commentId: Overload:Mirror.SyncEventMessage.Deserialize
-  isSpec: "True"
-  fullName: Mirror.SyncEventMessage.Deserialize
-  nameWithType: SyncEventMessage.Deserialize
-- uid: Mirror.SyncEventMessage.functionHash
-  name: functionHash
-  href: api/Mirror.SyncEventMessage.html#Mirror_SyncEventMessage_functionHash
-  commentId: F:Mirror.SyncEventMessage.functionHash
-  fullName: Mirror.SyncEventMessage.functionHash
-  nameWithType: SyncEventMessage.functionHash
-- uid: Mirror.SyncEventMessage.netId
-  name: netId
-  href: api/Mirror.SyncEventMessage.html#Mirror_SyncEventMessage_netId
-  commentId: F:Mirror.SyncEventMessage.netId
-  fullName: Mirror.SyncEventMessage.netId
-  nameWithType: SyncEventMessage.netId
-- uid: Mirror.SyncEventMessage.payload
-  name: payload
-  href: api/Mirror.SyncEventMessage.html#Mirror_SyncEventMessage_payload
-  commentId: F:Mirror.SyncEventMessage.payload
-  fullName: Mirror.SyncEventMessage.payload
-  nameWithType: SyncEventMessage.payload
-- uid: Mirror.SyncEventMessage.Serialize(Mirror.NetworkWriter)
-  name: Serialize(NetworkWriter)
-  href: api/Mirror.SyncEventMessage.html#Mirror_SyncEventMessage_Serialize_Mirror_NetworkWriter_
-  commentId: M:Mirror.SyncEventMessage.Serialize(Mirror.NetworkWriter)
-  fullName: Mirror.SyncEventMessage.Serialize(Mirror.NetworkWriter)
-  nameWithType: SyncEventMessage.Serialize(NetworkWriter)
-- uid: Mirror.SyncEventMessage.Serialize*
-  name: Serialize
-  href: api/Mirror.SyncEventMessage.html#Mirror_SyncEventMessage_Serialize_
-  commentId: Overload:Mirror.SyncEventMessage.Serialize
-  isSpec: "True"
-  fullName: Mirror.SyncEventMessage.Serialize
-  nameWithType: SyncEventMessage.Serialize
 - uid: Mirror.SyncHashSet`1
   name: SyncHashSet<T>
   href: api/Mirror.SyncHashSet-1.html

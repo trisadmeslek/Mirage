@@ -90,6 +90,7 @@
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">NetworkBehaviour</span></div>
+      <div class="level2"><a class="xref" href="Mirror.Experimental.NetworkLerpRigidbody.html">NetworkLerpRigidbody</a></div>
       <div class="level2"><a class="xref" href="Mirror.Experimental.NetworkRigidbody.html">NetworkRigidbody</a></div>
       <div class="level2"><a class="xref" href="Mirror.Experimental.NetworkTransformBase.html">NetworkTransformBase</a></div>
       <div class="level2"><a class="xref" href="Mirror.NetworkAnimator.html">NetworkAnimator</a></div>
@@ -917,39 +918,14 @@
   </table>
   
   
-  <a id="Mirror_NetworkBehaviour_InvokeSyncEvent_" data-uid="Mirror.NetworkBehaviour.InvokeSyncEvent*"></a>
-  <h4 id="Mirror_NetworkBehaviour_InvokeSyncEvent_System_Int32_Mirror_NetworkReader_" data-uid="Mirror.NetworkBehaviour.InvokeSyncEvent(System.Int32,Mirror.NetworkReader)">InvokeSyncEvent(Int32, NetworkReader)</h4>
-  <div class="markdown level1 summary"><p>Manually invoke a SyncEvent.</p>
-</div>
+  <a id="Mirror_NetworkBehaviour_IsDirty_" data-uid="Mirror.NetworkBehaviour.IsDirty*"></a>
+  <h4 id="Mirror_NetworkBehaviour_IsDirty" data-uid="Mirror.NetworkBehaviour.IsDirty">IsDirty()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual bool InvokeSyncEvent(int eventHash, NetworkReader reader)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsDirty()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">eventHash</span></td>
-        <td><p>Hash of the SyncEvent name.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
-        <td><span class="parametername">reader</span></td>
-        <td><p>Parameters to pass to the SyncEvent.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -961,8 +937,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><p>Returns true if successful.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1057,48 +1032,6 @@
 <p>If a class has SyncVars, then an implementation of this function and OnDeserialize() are added automatically to the class. So a class that has SyncVars cannot also have custom serialization functions.</p>
 <p>The OnSerialize function should return true to indicate that an update should be sent. If it returns true, then the dirty bits for that script are set to zero, if it returns false then the dirty bits are not changed. This allows multiple changes to a script to be accumulated over time and sent when the system is ready, instead of every frame.</p>
 </div>
-  
-  
-  <a id="Mirror_NetworkBehaviour_SendEventInternal_" data-uid="Mirror.NetworkBehaviour.SendEventInternal*"></a>
-  <h4 id="Mirror_NetworkBehaviour_SendEventInternal_Type_System_String_Mirror_NetworkWriter_System_Int32_" data-uid="Mirror.NetworkBehaviour.SendEventInternal(Type,System.String,Mirror.NetworkWriter,System.Int32)">SendEventInternal(Type, String, NetworkWriter, Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void SendEventInternal(Type invokeClass, string eventName, NetworkWriter writer, int channelId)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Type</span></td>
-        <td><span class="parametername">invokeClass</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">eventName</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Mirror.NetworkWriter.html">NetworkWriter</a></td>
-        <td><span class="parametername">writer</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">channelId</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="Mirror_NetworkBehaviour_SendRPCInternal_" data-uid="Mirror.NetworkBehaviour.SendRPCInternal*"></a>

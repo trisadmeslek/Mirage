@@ -117,8 +117,8 @@ public class MyNetworkManager : MonoBehaviour
     NetworkServer.RegisterHandler&lt;ConnectMessage&gt;(OnServerConnect);
     NetworkServer.RegisterHandler&lt;ReadyMessage&gt;(OnClientReady);
 
-    if (NetworkServer.Listen(7777))
-        Debug.Log(&quot;Server started listening on port 7777&quot;);
+    // start listening, and allow up to 4 connections
+    NetworkServer.Listen(4);
 }
 
 // When client is ready spawn a few trees  

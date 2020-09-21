@@ -83,7 +83,9 @@
   
   <h1 id="Mirror_NetworkIdentity" data-uid="Mirror.NetworkIdentity" class="text-break">Class NetworkIdentity
   </h1>
-  <div class="markdown level0 summary"><p>The NetworkIdentity identifies objects across the network, between server and clients. Its primary data is a NetworkInstanceId which is allocated by the server and then set on clients. This is used in network communications to be able to lookup game objects on different machines.</p>
+  <div class="markdown level0 summary"><p>The NetworkIdentity identifies objects across the network, between server and clients.
+Its primary data is a NetworkInstanceId which is allocated by the server and then set on clients.
+This is used in network communications to be able to lookup game objects on different machines.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -98,29 +100,30 @@
     <pre><code class="lang-csharp hljs">public sealed class NetworkIdentity : MonoBehaviour</code></pre>
   </div>
   <h5 id="Mirror_NetworkIdentity_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p>The NetworkIdentity is used to synchronize information in the object with the network. Only the server should create instances of objects which have NetworkIdentity as otherwise they will not be properly connected to the system.</p>
-<p>For complex objects with a hierarchy of subcomponents, the NetworkIdentity must be on the root of the hierarchy. It is not supported to have multiple NetworkIdentity components on subcomponents of a hierarchy.</p>
-<p>NetworkBehaviour scripts require a NetworkIdentity on the game object to be able to function.</p>
-<p>The NetworkIdentity manages the dirty state of the NetworkBehaviours of the object. When it discovers that NetworkBehaviours are dirty, it causes an update packet to be created and sent to clients.</p>
-<p>The flow for serialization updates managed by the NetworkIdentity is:</p>
-<p>* Each NetworkBehaviour has a dirty mask. This mask is available inside OnSerialize as syncVarDirtyBits</p>
-<p>* Each SyncVar in a NetworkBehaviour script is assigned a bit in the dirty mask.</p>
-<p>* Changing the value of SyncVars causes the bit for that SyncVar to be set in the dirty mask</p>
-<p>* Alternatively, calling SetDirtyBit() writes directly to the dirty mask</p>
-<p>* NetworkIdentity objects are checked on the server as part of it&apos;s update loop</p>
-<p>* If any NetworkBehaviours on a NetworkIdentity are dirty, then an UpdateVars packet is created for that object</p>
-<p>* The UpdateVars packet is populated by calling OnSerialize on each NetworkBehaviour on the object</p>
-<p>* NetworkBehaviours that are NOT dirty write a zero to the packet for their dirty bits</p>
-<p>* NetworkBehaviours that are dirty write their dirty mask, then the values for the SyncVars that have changed</p>
-<p>* If OnSerialize returns true for a NetworkBehaviour, the dirty mask is reset for that NetworkBehaviour, so it will not send again until its value changes.</p>
-<p>* The UpdateVars packet is sent to ready clients that are observing the object</p>
-<p>On the client:</p>
-<p>* an UpdateVars packet is received for an object</p>
-<p>* The OnDeserialize function is called for each NetworkBehaviour script on the object</p>
-<p>* Each NetworkBehaviour script on the object reads a dirty mask.</p>
-<p>* If the dirty mask for a NetworkBehaviour is zero, the OnDeserialize functions returns without reading any more</p>
-<p>* If the dirty mask is non-zero value, then the OnDeserialize function reads the values for the SyncVars that correspond to the dirty bits that are set</p>
-<p>* If there are SyncVar hook functions, those are invoked with the value read from the stream.</p>
+  <div class="markdown level0 remarks"><p>
+    The NetworkIdentity is used to synchronize information in the object with the network.
+    Only the server should create instances of objects which have NetworkIdentity as otherwise
+    they will not be properly connected to the system.
+</p>
+<p>
+    For complex objects with a hierarchy of subcomponents, the NetworkIdentity must be on the root of the hierarchy.
+    It is not supported to have multiple NetworkIdentity components on subcomponents of a hierarchy.
+</p>
+<p>
+    NetworkBehaviour scripts require a NetworkIdentity on the game object to be able to function.
+</p>
+<p>
+    The NetworkIdentity manages the dirty state of the NetworkBehaviours of the object.
+    When it discovers that NetworkBehaviours are dirty, it causes an update packet to be created and sent to clients.
+</p>
+<p>
+    The flow for serialization updates managed by the NetworkIdentity is:
+<ul><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul>
+</p>
+<p>
+    On the client:
+<ul><li></li><li></li><li></li><li></li><li></li><li></li></ul>
+</p>
 </div>
   <h3 id="fields">Fields
   </h3>
@@ -392,8 +395,7 @@
   
   <a id="Mirror_NetworkIdentity_AssetId_" data-uid="Mirror.NetworkIdentity.AssetId*"></a>
   <h4 id="Mirror_NetworkIdentity_AssetId" data-uid="Mirror.NetworkIdentity.AssetId">AssetId</h4>
-  <div class="markdown level1 summary"><p>Unique identifier used to find the source assets when server spawns the on clients.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -414,6 +416,12 @@
       </tr>
     </tbody>
   </table>
+  <h5 id="Mirror_NetworkIdentity_AssetId_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The AssetId trick:</p>
+<ul><li></li><li></li><li></li></ul>
+The solution is to serialize the string internally here and then
+use the real &apos;Guid&apos; type for everything else via .assetId
+</div>
   
   
   <a id="Mirror_NetworkIdentity_Client_" data-uid="Mirror.NetworkIdentity.Client*"></a>
@@ -526,6 +534,17 @@
   <a id="Mirror_NetworkIdentity_IsClient_" data-uid="Mirror.NetworkIdentity.IsClient*"></a>
   <h4 id="Mirror_NetworkIdentity_IsClient" data-uid="Mirror.NetworkIdentity.IsClient">IsClient</h4>
   <div class="markdown level1 summary"><p>Returns true if running as a client and this object was spawned by a server.</p>
+<p>
+<strong>IMPORTANT:</strong> checking NetworkClient.active means that isClient is false in OnDestroy:
+</p>
+<code>    public bool isClient => NetworkClient.active &amp;&amp; netId != 0 &amp;&amp; !serverOnly;</code>
+<p>
+    but we need it in OnDestroy, e.g. when saving skillbars on quit. this
+    works fine if we keep the UNET way of setting isClient manually.
+</p>
+<p>
+    => fixes <a href="https://github.com/vis2k/Mirror/issues/1475">https://github.com/vis2k/Mirror/issues/1475</a>
+</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -835,7 +854,8 @@
   
   <a id="Mirror_NetworkIdentity_RebuildObservers_" data-uid="Mirror.NetworkIdentity.RebuildObservers*"></a>
   <h4 id="Mirror_NetworkIdentity_RebuildObservers_System_Boolean_" data-uid="Mirror.NetworkIdentity.RebuildObservers(System.Boolean)">RebuildObservers(Boolean)</h4>
-  <div class="markdown level1 summary"><p>This causes the set of players that can see this object to be rebuild. The OnRebuildObservers callback function will be invoked on each NetworkBehaviour.</p>
+  <div class="markdown level1 summary"><p>This causes the set of players that can see this object to be rebuild.
+The OnRebuildObservers callback function will be invoked on each NetworkBehaviour.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

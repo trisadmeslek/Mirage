@@ -151,7 +151,9 @@ A profiler can subscribe to these events and
 present the data in a friendly way to the user</p>
 </section>
       <h4><a class="xref" href="Mirror.NetworkIdentity.html">NetworkIdentity</a></h4>
-      <section><p>The NetworkIdentity identifies objects across the network, between server and clients. Its primary data is a NetworkInstanceId which is allocated by the server and then set on clients. This is used in network communications to be able to lookup game objects on different machines.</p>
+      <section><p>The NetworkIdentity identifies objects across the network, between server and clients.
+Its primary data is a NetworkInstanceId which is allocated by the server and then set on clients.
+This is used in network communications to be able to lookup game objects on different machines.</p>
 </section>
       <h4><a class="xref" href="Mirror.NetworkManager.html">NetworkManager</a></h4>
       <section></section>
@@ -254,6 +256,9 @@ If you send data in one of them,  you receive it on the other one</p>
       <section></section>
       <h4><a class="xref" href="Mirror.SyncEventAttribute.html">SyncEventAttribute</a></h4>
       <section><p>SyncEvents are networked events like ClientRpc's, but instead of calling a function on the game object, they trigger Events instead.</p>
+<p>
+**IMPORTANT** SyncEvents have been removed in version 18.0.0, see this [Issue](https://github.com/vis2k/Mirror/pull/2178) for more information
+</p>
 </section>
       <h4><a class="xref" href="Mirror.SyncHashSet-1.html">SyncHashSet&lt;T&gt;</a></h4>
       <section></section>
@@ -315,8 +320,6 @@ and it's abstract methods</p>
       <h4><a class="xref" href="Mirror.ServerRpcMessage.html">ServerRpcMessage</a></h4>
       <section></section>
       <h4><a class="xref" href="Mirror.SpawnMessage.html">SpawnMessage</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Mirror.SyncEventMessage.html">SyncEventMessage</a></h4>
       <section></section>
       <h4><a class="xref" href="Mirror.SyncList-1.Enumerator.html">SyncList&lt;T&gt;.Enumerator</a></h4>
       <section></section>
