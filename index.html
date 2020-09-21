@@ -34,8 +34,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="http://mirror-networking.com">
-                <img id="logo" class="svg" style="vertical-align: middle;" src="logo.svg" alt="">
+              <a class="navbar-brand" style="display:flex;" href="http://mirror-networking.com">
+                <img id="logo" class="svg" style="vertical-align: middle;align-self:center;" src="logo.png" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -73,7 +73,7 @@
 <h1 id="mirror-networking-for-unity">Mirror Networking for Unity</h1>
 
 <p><strong>Mirror is the most compatible direct replacement for the deprecated Unity Networking API.</strong></p>
-<p>Mirror has nearly all of the components and features from UNet, making networking easy, concise and maintainable, whether you're starting from scratch or converting an existing project. We even have a <a href="General/Migration.html">Migration Tool</a> to do most of the work for you!</p>
+<p>Mirror has nearly all of the components and features from UNet, making networking easy, concise and maintainable, whether you're starting from scratch or converting an existing project. We even have a <a href="Articles/General/Migration.html">Migration Tool</a> to do most of the work for you!</p>
 <p>Built to support games of any scale, from LAN party games to dedicated high-volume authoritative servers running hundreds of players, Mirror is the core networking solution for <a href="https://assetstore.unity.com/packages/templates/systems/ummorpg-51212">uMMORPG</a>, <a href="https://assetstore.unity.com/packages/templates/systems/usurvival-95015">uSurvival</a>, <a href="https://www.cubica.net/">Cubica</a>, and <a href="https://mirror-networking.com/showcase/">more</a>!</p>
 <p>uMMORPG was possible with &lt;6000 lines of code. We needed a networking library that allows us to launch our games, period!</p>
 <ul>
@@ -85,31 +85,31 @@
 </ul>
 <p><strong>Multiple Transports Available:</strong></p>
 <ul>
-<li><strong>TCP</strong> (<a href="Transports/Telepathy.html">Telepathy</a> and <a href="https://mirror-networking.com/apathy/">Apathy</a> and <a href="https://mirror-networking.com/booster/">Booster</a>)</li>
-<li><strong>UDP</strong> (<a href="Transports/Ignorance.html">ENet</a> and <a href="Transports/LiteNetLib4Mirror.html">LiteNetLib</a>)</li>
-<li><strong>WebGL</strong> (<a href="Transports/WebSockets.html">Secure Web Sockets</a>)</li>
-<li><strong>Steam</strong> (<a href="Transports/FizzySteamworks.html">Steamworks.Net</a>) and (<a href="Transports/FizzyFacepunch.html">FacePunch</a>)</li>
-<li><strong>Multiplexer</strong> (<a href="Transports/Multiplexer.html">Multiplexer</a>)</li>
-<li><strong>Fallback</strong> (<a href="Transports/Fallback.html">Fallback</a>)</li>
+<li><strong>TCP</strong> (<a href="Articles/Transports/Telepathy.html">Telepathy</a> and <a href="https://mirror-networking.com/apathy/">Apathy</a> and <a href="https://mirror-networking.com/booster/">Booster</a>)</li>
+<li><strong>UDP</strong> (<a href="Articles/Transports/Ignorance.html">ENet</a> and <a href="Articles/Transports/LiteNetLib4Mirror.html">LiteNetLib</a>)</li>
+<li><strong>WebGL</strong> (<a href="Articles/Transports/WebSockets.html">Secure Web Sockets</a>)</li>
+<li><strong>Steam</strong> (<a href="Articles/Transports/FizzySteamworks.html">Steamworks.Net</a>) and (<a href="Articles/Transports/FizzyFacepunch.html">FacePunch</a>)</li>
+<li><strong>Multiplexer</strong> (<a href="Articles/Transports/Multiplexer.html">Multiplexer</a>)</li>
+<li><strong>Fallback</strong> (<a href="Articles/Transports/Fallback.html">Fallback</a>)</li>
 </ul>
 <p><strong>List Server</strong></p>
 <p>We've developed a <a href="https://mirror-networking.com/list-server/">List Server</a> where game servers can register and clients can connect to find those servers to play on them.</p>
 <p><strong>Key Features &amp; Components:</strong></p>
 <ul>
-<li><a href="Transports/index.html">Transports</a> are interchangeable components</li>
+<li><a href="Articles/Transports/index.html">Transports</a> are interchangeable components</li>
 <li>Additive Scene handling</li>
 <li>Single and separated Unity projects supported</li>
-<li>Network <a href="Components/Authenticators/index.html">Authenticators</a> to manage access to your game</li>
-<li>Network <a href="Components/NetworkDiscovery.html">Discovery</a> to easily connect LAN players to a LAN Server or Host</li>
-<li>Network <a href="Components/NetworkManager.html">Manager</a> and <a href="Components/NetworkManagerHUD.html">HUD</a></li>
-<li>Network <a href="Components/NetworkRoomManager.html">Room Manager</a> and <a href="Components/NetworkRoomPlayer.html">Room Player</a></li>
-<li>Network <a href="Components/NetworkIdentity.html">Identity</a></li>
-<li>Network <a href="Components/NetworkTransform.html">Transform</a> to sync position, rotation, and scale with interpolation</li>
-<li>Network <a href="Components/NetworkAnimator.html">Animator</a> with 64 parameters</li>
-<li>Network <a href="Components/NetworkProximityChecker.html">Proximity Checker</a> to help with Area of Interest</li>
-<li>Network <a href="Components/NetworkSceneChecker.html">Scene Checker</a> to islolate players and networked objects to Additive scene instances</li>
-<li>Network <a href="Components/NetworkMatchChecker.html">Match Checker</a> to islolate players and networked objects by <a href="Guides/Visibility.html">Network Visibility</a></li>
-<li><a href="Guides/Sync/SyncVars.html">SyncVar</a>, <a href="Guides/Sync/SyncLists.html">SyncList</a>, <a href="Guides/Sync/SyncDictionary.html">SyncDictionary</a>, and <a href="Guides/Sync/SyncHashSet.html">SyncHashSet</a></li>
+<li><a href="Articles/Components/Authenticators/index.html">Network Authenticators</a> to manage access to your game</li>
+<li><a href="Articles/Components/NetworkDiscovery.html">Network Discovery</a> to easily connect LAN players to a LAN Server or Host</li>
+<li><a href="Articles/Components/NetworkManager.html">Network Manager</a> and <a href="Articles/Components/NetworkManagerHUD.html">HUD</a></li>
+<li><a href="Articles/Components/NetworkRoomManager.html">Network Room Manager</a> and <a href="Articles/Components/NetworkRoomPlayer.html">Room Player</a></li>
+<li><a href="Articles/Components/NetworkIdentity.html">Network Identity</a></li>
+<li><a href="Articles/Components/NetworkTransform.html">Network Transform</a> to sync position, rotation, and scale with interpolation</li>
+<li><a href="Articles/Components/NetworkAnimator.html">Network Animator</a> with 64 parameters</li>
+<li><a href="Articles/Components/NetworkProximityChecker.html">Network Proximity Checker</a> to help with Area of Interest</li>
+<li><a href="Articles/Components/NetworkSceneChecker.html">Network Scene Checker</a> to isolate players and networked objects to Additive scene instances</li>
+<li><a href="Articles/Components/NetworkMatchChecker.html">Network Match Checker</a> to isolate players and networked objects by <a href="Articles/Guides/Visibility.html">Network Visibility</a></li>
+<li><a href="Articles/Guides/Sync/SyncVars.html">SyncVar</a>, <a href="Articles/Guides/Sync/SyncLists.html">SyncList</a>, <a href="Articles/Guides/Sync/SyncDictionary.html">SyncDictionary</a>, and <a href="Articles/Guides/Sync/SyncHashSet.html">SyncHashSet</a></li>
 </ul>
 <p><strong>Integrations</strong></p>
 <ul>

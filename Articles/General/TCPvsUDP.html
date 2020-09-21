@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>TCP vs UDP </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="TCP vs UDP ">
+    <meta name="generator" content="docfx 2.45.1.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" style="display:flex;" href="http://mirror-networking.com">
+                <img id="logo" class="svg" style="vertical-align: middle;align-self:center;" src="../../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="tcp-vs-udp">TCP vs UDP</h1>
+
+<p>TCP and UDP are protocol used to send information over the internet.</p>
+<p>Key difference between UDP and TCP</p>
+<ul>
+<li>TCP has higher latency, reliable</li>
+<li>UDP has lower latency, unreliable</li>
+</ul>
+<h2 id="tcp-transmission-control-protocol"><a href="https://en.wikipedia.org/wiki/Transmission_Control_Protocol">TCP (Transmission Control Protocol)</a></h2>
+<p>TCP is the most popular protocol on the internet. TCP is used for HTTP, SSH, FTP, and many more.</p>
+<p>TCP features make it easy for programers to work with TCP but at the cost of latency.</p>
+<p>TCP is better for slower paced games where latency isn't important.</p>
+<h4 id="key-features-include">Key features include</h4>
+<ul>
+<li><strong>Reliable:</strong> Applications don't have to worry about missing packets. If a packet gets lost, TCP will resend it. All data is either transmitted successfully or you get an error and the connection is closed.</li>
+<li><strong>Sequenced:</strong> TCP guarantees that every message will arrive in the same order it was sent. If you send &quot;a&quot; then &quot;b&quot; you will receive &quot;a&quot; then &quot;b&quot; on the other side as well.</li>
+<li><strong>Connection oriented:</strong> TCP has the concept of a connection. A connection will say open until either the client or server decides to close it. Both the client and server get notified when the connection ends.</li>
+<li><strong>Congestion control:</strong> If a server is being overwhelmed, TCP will throttle the data to avoid congestion collapse.</li>
+</ul>
+<h4 id="transports">Transports</h4>
+<ul>
+<li><a href="https://mirror-networking.com/docs/Articles/Transports/Telepathy.html">Telepathy</a></li>
+<li><a href="https://mirror-networking.com/apathy/">Apathy</a></li>
+<li><a href="https://mirror-networking.com/docs/Articles/Transports/WebSockets.html">WebGL</a></li>
+</ul>
+<h2 id="udp-user-datagram-protocol"><a href="https://en.wikipedia.org/wiki/User_Datagram_Protocol">UDP (User Datagram Protocol)</a></h2>
+<p>UDP is used for real time applications such as fast paced action games or voice over ip, where low latency is more important than reliability.</p>
+<p>UDP features allow a greater control of how data is sent allowing non-critical data to be send faster.</p>
+<p>UDP is better for fast paced games where latency is important and if a few packets are lost the game can recover.</p>
+<h4 id="key-features-include-1">Key features include</h4>
+<ul>
+<li><strong>Low Latency:</strong> UDP is faster because it doesn't need to wait for acknowledge packets, instead it can send keep sending new pacakges one after the other.</li>
+<li><strong>Channel support:</strong> Channels allow for different delivery types. One channel can be used for critical data that needs to get to the destination, while a different channel can just be specified by send and forget without any reliability.</li>
+<li><strong>Different packet types:</strong> Reliable Ordered, Reliable Unordered, Unreliable, and more depending on the implementation</li>
+</ul>
+<h4 id="transports-1">Transports</h4>
+<ul>
+<li><a href="https://mirror-networking.com/docs/Articles/Transports/Ignorance.html">Ignorance</a></li>
+<li><a href="https://mirror-networking.com/docs/Articles/Transports/LiteNetLib4Mirror.html">LiteNetLib</a></li>
+</ul>
+<h2 id="the-choice-is-yours">The choice is yours</h2>
+<p>Mirror is transport independent, they can simply by added to your NetworkManager GameObject. Mirror comes with 2 built in transports to pick from, <a href="../Transports/Telepathy.html">Telepathy</a> and <a href="../Transports/WebSockets.html">Ninja WebSockets</a>. See the <a href="../Transports/index.html">transports</a> page for more about transports.</p>
+<p>Pick whatever works best for you. We recommend you profile your game and collect real world numbers before you make a final decision.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

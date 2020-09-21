@@ -36,8 +36,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="http://mirror-networking.com">
-                <img id="logo" class="svg" style="vertical-align: middle;" src="../logo.svg" alt="">
+              <a class="navbar-brand" style="display:flex;" href="http://mirror-networking.com">
+                <img id="logo" class="svg" style="vertical-align: middle;align-self:center;" src="../logo.png" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -83,7 +83,9 @@
   
   <h1 id="Mirror_ISyncObject" data-uid="Mirror.ISyncObject" class="text-break">Interface ISyncObject
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>A sync object is an object that can synchronize it's state
+between server and client, such as a SyncList</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.html">Mirror</a></h6>
   <h6><strong>Assembly</strong>: doc.dll</h6>
@@ -97,7 +99,8 @@
   
   <a id="Mirror_ISyncObject_IsDirty_" data-uid="Mirror.ISyncObject.IsDirty*"></a>
   <h4 id="Mirror_ISyncObject_IsDirty" data-uid="Mirror.ISyncObject.IsDirty">IsDirty</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>true if there are changes since the last flush</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -124,7 +127,9 @@
   
   <a id="Mirror_ISyncObject_Flush_" data-uid="Mirror.ISyncObject.Flush*"></a>
   <h4 id="Mirror_ISyncObject_Flush" data-uid="Mirror.ISyncObject.Flush">Flush()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Discard all the queued changes</p>
+<p>Consider the object fully synchronized with clients</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -134,7 +139,8 @@
   
   <a id="Mirror_ISyncObject_OnDeserializeAll_" data-uid="Mirror.ISyncObject.OnDeserializeAll*"></a>
   <h4 id="Mirror_ISyncObject_OnDeserializeAll_Mirror_NetworkReader_" data-uid="Mirror.ISyncObject.OnDeserializeAll(Mirror.NetworkReader)">OnDeserializeAll(NetworkReader)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Reads a full copy of the object</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -161,7 +167,8 @@
   
   <a id="Mirror_ISyncObject_OnDeserializeDelta_" data-uid="Mirror.ISyncObject.OnDeserializeDelta*"></a>
   <h4 id="Mirror_ISyncObject_OnDeserializeDelta_Mirror_NetworkReader_" data-uid="Mirror.ISyncObject.OnDeserializeDelta(Mirror.NetworkReader)">OnDeserializeDelta(NetworkReader)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Reads the changes made to the object since last sync</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -188,7 +195,8 @@
   
   <a id="Mirror_ISyncObject_OnSerializeAll_" data-uid="Mirror.ISyncObject.OnSerializeAll*"></a>
   <h4 id="Mirror_ISyncObject_OnSerializeAll_Mirror_NetworkWriter_" data-uid="Mirror.ISyncObject.OnSerializeAll(Mirror.NetworkWriter)">OnSerializeAll(NetworkWriter)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Write a full copy of the object</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -215,7 +223,8 @@
   
   <a id="Mirror_ISyncObject_OnSerializeDelta_" data-uid="Mirror.ISyncObject.OnSerializeDelta*"></a>
   <h4 id="Mirror_ISyncObject_OnSerializeDelta_Mirror_NetworkWriter_" data-uid="Mirror.ISyncObject.OnSerializeDelta(Mirror.NetworkWriter)">OnSerializeDelta(NetworkWriter)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Write the changes made to the object since last sync</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">

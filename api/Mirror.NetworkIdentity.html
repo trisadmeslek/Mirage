@@ -36,8 +36,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="http://mirror-networking.com">
-                <img id="logo" class="svg" style="vertical-align: middle;" src="../logo.svg" alt="">
+              <a class="navbar-brand" style="display:flex;" href="http://mirror-networking.com">
+                <img id="logo" class="svg" style="vertical-align: middle;align-self:center;" src="../logo.png" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -534,17 +534,6 @@ use the real &apos;Guid&apos; type for everything else via .assetId
   <a id="Mirror_NetworkIdentity_IsClient_" data-uid="Mirror.NetworkIdentity.IsClient*"></a>
   <h4 id="Mirror_NetworkIdentity_IsClient" data-uid="Mirror.NetworkIdentity.IsClient">IsClient</h4>
   <div class="markdown level1 summary"><p>Returns true if running as a client and this object was spawned by a server.</p>
-<p>
-<strong>IMPORTANT:</strong> checking NetworkClient.active means that isClient is false in OnDestroy:
-</p>
-<code>    public bool isClient => NetworkClient.active &amp;&amp; netId != 0 &amp;&amp; !serverOnly;</code>
-<p>
-    but we need it in OnDestroy, e.g. when saving skillbars on quit. this
-    works fine if we keep the UNET way of setting isClient manually.
-</p>
-<p>
-    => fixes <a href="https://github.com/vis2k/Mirror/issues/1475">https://github.com/vis2k/Mirror/issues/1475</a>
-</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
