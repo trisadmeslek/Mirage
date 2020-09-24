@@ -4753,6 +4753,19 @@ references:
   commentId: F:Mirror.NetworkClient.Disconnected
   fullName: Mirror.NetworkClient.Disconnected
   nameWithType: NetworkClient.Disconnected
+- uid: Mirror.NetworkClient.GetNewConnection(Mirror.IConnection)
+  name: GetNewConnection(IConnection)
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_GetNewConnection_Mirror_IConnection_
+  commentId: M:Mirror.NetworkClient.GetNewConnection(Mirror.IConnection)
+  fullName: Mirror.NetworkClient.GetNewConnection(Mirror.IConnection)
+  nameWithType: NetworkClient.GetNewConnection(IConnection)
+- uid: Mirror.NetworkClient.GetNewConnection*
+  name: GetNewConnection
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_GetNewConnection_
+  commentId: Overload:Mirror.NetworkClient.GetNewConnection
+  isSpec: "True"
+  fullName: Mirror.NetworkClient.GetNewConnection
+  nameWithType: NetworkClient.GetNewConnection
 - uid: Mirror.NetworkClient.GetPrefab(System.Guid,GameObject@)
   name: GetPrefab(System.Guid, out GameObject)
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_GetPrefab_System_Guid_GameObject__
@@ -7144,6 +7157,19 @@ references:
   commentId: F:Mirror.NetworkServer.Disconnected
   fullName: Mirror.NetworkServer.Disconnected
   nameWithType: NetworkServer.Disconnected
+- uid: Mirror.NetworkServer.GetNewConnection(Mirror.IConnection)
+  name: GetNewConnection(IConnection)
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_GetNewConnection_Mirror_IConnection_
+  commentId: M:Mirror.NetworkServer.GetNewConnection(Mirror.IConnection)
+  fullName: Mirror.NetworkServer.GetNewConnection(Mirror.IConnection)
+  nameWithType: NetworkServer.GetNewConnection(IConnection)
+- uid: Mirror.NetworkServer.GetNewConnection*
+  name: GetNewConnection
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_GetNewConnection_
+  commentId: Overload:Mirror.NetworkServer.GetNewConnection
+  isSpec: "True"
+  fullName: Mirror.NetworkServer.GetNewConnection
+  nameWithType: NetworkServer.GetNewConnection
 - uid: Mirror.NetworkServer.ListenAsync
   name: ListenAsync()
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_ListenAsync
