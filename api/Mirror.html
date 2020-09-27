@@ -121,8 +121,6 @@
 </section>
       <h4><a class="xref" href="Mirror.LogFactory.html">LogFactory</a></h4>
       <section></section>
-      <h4><a class="xref" href="Mirror.MessageBase.html">MessageBase</a></h4>
-      <section></section>
       <h4><a class="xref" href="Mirror.MessagePacker.html">MessagePacker</a></h4>
       <section></section>
       <h4><a class="xref" href="Mirror.MethodInvocationException.html">MethodInvocationException</a></h4>
@@ -241,6 +239,12 @@ If you send data in one of them,  you receive it on the other one</p>
       <h4><a class="xref" href="Mirror.PooledNetworkWriter.html">PooledNetworkWriter</a></h4>
       <section><p>NetworkWriter to be used with <a class="xref" href="Mirror.NetworkWriterPool.html">NetworkWriterPool</a></p>
 </section>
+      <h4><a class="xref" href="Mirror.Reader-1.html">Reader&lt;T&gt;</a></h4>
+      <section><p>a class that holds writers for the different types
+Note that c# creates a different static variable for each
+type
+This will be populated by the weaver</p>
+</section>
       <h4><a class="xref" href="Mirror.SceneAttribute.html">SceneAttribute</a></h4>
       <section><p>Converts a string property into a Scene property in the inspector</p>
 </section>
@@ -297,6 +301,12 @@ If you send data in one of them,  you receive it on the other one</p>
       <section><p>Base transport class,  any transport should implement this class
 and it's abstract methods</p>
 </section>
+      <h4><a class="xref" href="Mirror.Writer-1.html">Writer&lt;T&gt;</a></h4>
+      <section><p>a class that holds writers for the different types
+Note that c# creates a different static variable for each
+type
+This will be populated by the weaver</p>
+</section>
     <h3 id="structs">Structs
   </h3>
       <h4><a class="xref" href="Mirror.AddPlayerMessage.html">AddPlayerMessage</a></h4>
@@ -343,8 +353,6 @@ and it's abstract methods</p>
       <h4><a class="xref" href="Mirror.IClientSceneManager.html">IClientSceneManager</a></h4>
       <section></section>
       <h4><a class="xref" href="Mirror.IConnection.html">IConnection</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Mirror.IMessageBase.html">IMessageBase</a></h4>
       <section></section>
       <h4><a class="xref" href="Mirror.IMessageHandler.html">IMessageHandler</a></h4>
       <section><p>An object that can send and receive messages</p>

@@ -137,8 +137,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void RegisterHandler&lt;T&gt;(Action&lt;T&gt; handler)
-    where T : IMessageBase, new()</code></pre>
+    <pre><code class="lang-csharp hljs">void RegisterHandler&lt;T&gt;(Action&lt;T&gt; handler)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -180,8 +179,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void RegisterHandler&lt;T&gt;(Action&lt;INetworkConnection, T&gt; handler)
-    where T : IMessageBase, new()</code></pre>
+    <pre><code class="lang-csharp hljs">void RegisterHandler&lt;T&gt;(Action&lt;INetworkConnection, T&gt; handler)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -223,8 +221,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Send&lt;T&gt;(T msg, int channelId = null)
-    where T : IMessageBase</code></pre>
+    <pre><code class="lang-csharp hljs">void Send&lt;T&gt;(T msg, int channelId = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -271,8 +268,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task SendAsync&lt;T&gt;(T msg, int channelId = null)
-    where T : IMessageBase</code></pre>
+    <pre><code class="lang-csharp hljs">Task SendAsync&lt;T&gt;(T msg, int channelId = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -334,8 +330,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void UnregisterHandler&lt;T&gt;()
-    where T : IMessageBase</code></pre>
+    <pre><code class="lang-csharp hljs">void UnregisterHandler&lt;T&gt;()</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

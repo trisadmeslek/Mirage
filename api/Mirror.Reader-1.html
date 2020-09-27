@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct NetworkDiagnostics.MessageInfo
+    <title>Class Reader&lt;T&gt;
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct NetworkDiagnostics.MessageInfo
+    <meta name="title" content="Class Reader&lt;T&gt;
    ">
     <meta name="generator" content="docfx 2.45.1.0">
     
@@ -78,31 +78,53 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Mirror.NetworkDiagnostics.MessageInfo">
+            <article class="content wrap" id="_content" data-uid="Mirror.Reader`1">
   
   
-  <h1 id="Mirror_NetworkDiagnostics_MessageInfo" data-uid="Mirror.NetworkDiagnostics.MessageInfo" class="text-break">Struct NetworkDiagnostics.MessageInfo
+  <h1 id="Mirror_Reader_1" data-uid="Mirror.Reader`1" class="text-break">Class Reader&lt;T&gt;
   </h1>
-  <div class="markdown level0 summary"><p>Describes an outgoing message</p>
+  <div class="markdown level0 summary"><p>a class that holds writers for the different types
+Note that c# creates a different static variable for each
+type
+This will be populated by the weaver</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">Reader&lt;T&gt;</span></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.html">Mirror</a></h6>
   <h6><strong>Assembly</strong>: doc.dll</h6>
-  <h5 id="Mirror_NetworkDiagnostics_MessageInfo_syntax">Syntax</h5>
+  <h5 id="Mirror_Reader_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct MessageInfo</code></pre>
+    <pre><code class="lang-csharp hljs">public static class Reader&lt;T&gt; : object</code></pre>
   </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Mirror_NetworkDiagnostics_MessageInfo_bytes" data-uid="Mirror.NetworkDiagnostics.MessageInfo.bytes">bytes</h4>
-  <div class="markdown level1 summary"><p>how big was the message (does not include transport headers)</p>
-</div>
+  <h4 id="Mirror_Reader_1_read" data-uid="Mirror.Reader`1.read">read</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly int bytes</code></pre>
+    <pre><code class="lang-csharp hljs">public static Func&lt;NetworkReader, T&gt; read</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -114,83 +136,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Mirror_NetworkDiagnostics_MessageInfo_channel" data-uid="Mirror.NetworkDiagnostics.MessageInfo.channel">channel</h4>
-  <div class="markdown level1 summary"><p>channel through which the message was sent</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly int channel</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Mirror_NetworkDiagnostics_MessageInfo_count" data-uid="Mirror.NetworkDiagnostics.MessageInfo.count">count</h4>
-  <div class="markdown level1 summary"><p>How many connections was the message sent to
-If an object has a lot of observers this count could be high</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly int count</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Mirror_NetworkDiagnostics_MessageInfo_message" data-uid="Mirror.NetworkDiagnostics.MessageInfo.message">message</h4>
-  <div class="markdown level1 summary"><p>The message being sent</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly object message</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="xref">Func</span>&lt;<a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a>, T&gt;</td>
         <td></td>
       </tr>
     </tbody>

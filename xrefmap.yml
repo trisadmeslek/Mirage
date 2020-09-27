@@ -13,32 +13,6 @@ references:
   commentId: T:Mirror.AddPlayerMessage
   fullName: Mirror.AddPlayerMessage
   nameWithType: AddPlayerMessage
-- uid: Mirror.AddPlayerMessage.Deserialize(Mirror.NetworkReader)
-  name: Deserialize(NetworkReader)
-  href: api/Mirror.AddPlayerMessage.html#Mirror_AddPlayerMessage_Deserialize_Mirror_NetworkReader_
-  commentId: M:Mirror.AddPlayerMessage.Deserialize(Mirror.NetworkReader)
-  fullName: Mirror.AddPlayerMessage.Deserialize(Mirror.NetworkReader)
-  nameWithType: AddPlayerMessage.Deserialize(NetworkReader)
-- uid: Mirror.AddPlayerMessage.Deserialize*
-  name: Deserialize
-  href: api/Mirror.AddPlayerMessage.html#Mirror_AddPlayerMessage_Deserialize_
-  commentId: Overload:Mirror.AddPlayerMessage.Deserialize
-  isSpec: "True"
-  fullName: Mirror.AddPlayerMessage.Deserialize
-  nameWithType: AddPlayerMessage.Deserialize
-- uid: Mirror.AddPlayerMessage.Serialize(Mirror.NetworkWriter)
-  name: Serialize(NetworkWriter)
-  href: api/Mirror.AddPlayerMessage.html#Mirror_AddPlayerMessage_Serialize_Mirror_NetworkWriter_
-  commentId: M:Mirror.AddPlayerMessage.Serialize(Mirror.NetworkWriter)
-  fullName: Mirror.AddPlayerMessage.Serialize(Mirror.NetworkWriter)
-  nameWithType: AddPlayerMessage.Serialize(NetworkWriter)
-- uid: Mirror.AddPlayerMessage.Serialize*
-  name: Serialize
-  href: api/Mirror.AddPlayerMessage.html#Mirror_AddPlayerMessage_Serialize_
-  commentId: Overload:Mirror.AddPlayerMessage.Serialize
-  isSpec: "True"
-  fullName: Mirror.AddPlayerMessage.Serialize
-  nameWithType: AddPlayerMessage.Serialize
 - uid: Mirror.AsyncQueue`1
   name: AsyncQueue<T>
   href: api/Mirror.AsyncQueue-1.html
@@ -2845,38 +2819,6 @@ references:
   isSpec: "True"
   fullName: Mirror.ILoggerExtensions.WarnEnabled
   nameWithType: ILoggerExtensions.WarnEnabled
-- uid: Mirror.IMessageBase
-  name: IMessageBase
-  href: api/Mirror.IMessageBase.html
-  commentId: T:Mirror.IMessageBase
-  fullName: Mirror.IMessageBase
-  nameWithType: IMessageBase
-- uid: Mirror.IMessageBase.Deserialize(Mirror.NetworkReader)
-  name: Deserialize(NetworkReader)
-  href: api/Mirror.IMessageBase.html#Mirror_IMessageBase_Deserialize_Mirror_NetworkReader_
-  commentId: M:Mirror.IMessageBase.Deserialize(Mirror.NetworkReader)
-  fullName: Mirror.IMessageBase.Deserialize(Mirror.NetworkReader)
-  nameWithType: IMessageBase.Deserialize(NetworkReader)
-- uid: Mirror.IMessageBase.Deserialize*
-  name: Deserialize
-  href: api/Mirror.IMessageBase.html#Mirror_IMessageBase_Deserialize_
-  commentId: Overload:Mirror.IMessageBase.Deserialize
-  isSpec: "True"
-  fullName: Mirror.IMessageBase.Deserialize
-  nameWithType: IMessageBase.Deserialize
-- uid: Mirror.IMessageBase.Serialize(Mirror.NetworkWriter)
-  name: Serialize(NetworkWriter)
-  href: api/Mirror.IMessageBase.html#Mirror_IMessageBase_Serialize_Mirror_NetworkWriter_
-  commentId: M:Mirror.IMessageBase.Serialize(Mirror.NetworkWriter)
-  fullName: Mirror.IMessageBase.Serialize(Mirror.NetworkWriter)
-  nameWithType: IMessageBase.Serialize(NetworkWriter)
-- uid: Mirror.IMessageBase.Serialize*
-  name: Serialize
-  href: api/Mirror.IMessageBase.html#Mirror_IMessageBase_Serialize_
-  commentId: Overload:Mirror.IMessageBase.Serialize
-  isSpec: "True"
-  fullName: Mirror.IMessageBase.Serialize
-  nameWithType: IMessageBase.Serialize
 - uid: Mirror.IMessageHandler
   name: IMessageHandler
   href: api/Mirror.IMessageHandler.html
@@ -3872,38 +3814,6 @@ references:
   commentId: T:Mirror.Logging.NetworkLogSettings
   fullName: Mirror.Logging.NetworkLogSettings
   nameWithType: NetworkLogSettings
-- uid: Mirror.MessageBase
-  name: MessageBase
-  href: api/Mirror.MessageBase.html
-  commentId: T:Mirror.MessageBase
-  fullName: Mirror.MessageBase
-  nameWithType: MessageBase
-- uid: Mirror.MessageBase.Deserialize(Mirror.NetworkReader)
-  name: Deserialize(NetworkReader)
-  href: api/Mirror.MessageBase.html#Mirror_MessageBase_Deserialize_Mirror_NetworkReader_
-  commentId: M:Mirror.MessageBase.Deserialize(Mirror.NetworkReader)
-  fullName: Mirror.MessageBase.Deserialize(Mirror.NetworkReader)
-  nameWithType: MessageBase.Deserialize(NetworkReader)
-- uid: Mirror.MessageBase.Deserialize*
-  name: Deserialize
-  href: api/Mirror.MessageBase.html#Mirror_MessageBase_Deserialize_
-  commentId: Overload:Mirror.MessageBase.Deserialize
-  isSpec: "True"
-  fullName: Mirror.MessageBase.Deserialize
-  nameWithType: MessageBase.Deserialize
-- uid: Mirror.MessageBase.Serialize(Mirror.NetworkWriter)
-  name: Serialize(NetworkWriter)
-  href: api/Mirror.MessageBase.html#Mirror_MessageBase_Serialize_Mirror_NetworkWriter_
-  commentId: M:Mirror.MessageBase.Serialize(Mirror.NetworkWriter)
-  fullName: Mirror.MessageBase.Serialize(Mirror.NetworkWriter)
-  nameWithType: MessageBase.Serialize(NetworkWriter)
-- uid: Mirror.MessageBase.Serialize*
-  name: Serialize
-  href: api/Mirror.MessageBase.html#Mirror_MessageBase_Serialize_
-  commentId: Overload:Mirror.MessageBase.Serialize
-  isSpec: "True"
-  fullName: Mirror.MessageBase.Serialize
-  nameWithType: MessageBase.Serialize
 - uid: Mirror.MessagePacker
   name: MessagePacker
   href: api/Mirror.MessagePacker.html
@@ -6186,51 +6096,12 @@ references:
   commentId: T:Mirror.NetworkPingMessage
   fullName: Mirror.NetworkPingMessage
   nameWithType: NetworkPingMessage
-- uid: Mirror.NetworkPingMessage.#ctor(System.Double)
-  name: NetworkPingMessage(Double)
-  href: api/Mirror.NetworkPingMessage.html#Mirror_NetworkPingMessage__ctor_System_Double_
-  commentId: M:Mirror.NetworkPingMessage.#ctor(System.Double)
-  fullName: Mirror.NetworkPingMessage.NetworkPingMessage(System.Double)
-  nameWithType: NetworkPingMessage.NetworkPingMessage(Double)
-- uid: Mirror.NetworkPingMessage.#ctor*
-  name: NetworkPingMessage
-  href: api/Mirror.NetworkPingMessage.html#Mirror_NetworkPingMessage__ctor_
-  commentId: Overload:Mirror.NetworkPingMessage.#ctor
-  isSpec: "True"
-  fullName: Mirror.NetworkPingMessage.NetworkPingMessage
-  nameWithType: NetworkPingMessage.NetworkPingMessage
 - uid: Mirror.NetworkPingMessage.clientTime
   name: clientTime
   href: api/Mirror.NetworkPingMessage.html#Mirror_NetworkPingMessage_clientTime
   commentId: F:Mirror.NetworkPingMessage.clientTime
   fullName: Mirror.NetworkPingMessage.clientTime
   nameWithType: NetworkPingMessage.clientTime
-- uid: Mirror.NetworkPingMessage.Deserialize(Mirror.NetworkReader)
-  name: Deserialize(NetworkReader)
-  href: api/Mirror.NetworkPingMessage.html#Mirror_NetworkPingMessage_Deserialize_Mirror_NetworkReader_
-  commentId: M:Mirror.NetworkPingMessage.Deserialize(Mirror.NetworkReader)
-  fullName: Mirror.NetworkPingMessage.Deserialize(Mirror.NetworkReader)
-  nameWithType: NetworkPingMessage.Deserialize(NetworkReader)
-- uid: Mirror.NetworkPingMessage.Deserialize*
-  name: Deserialize
-  href: api/Mirror.NetworkPingMessage.html#Mirror_NetworkPingMessage_Deserialize_
-  commentId: Overload:Mirror.NetworkPingMessage.Deserialize
-  isSpec: "True"
-  fullName: Mirror.NetworkPingMessage.Deserialize
-  nameWithType: NetworkPingMessage.Deserialize
-- uid: Mirror.NetworkPingMessage.Serialize(Mirror.NetworkWriter)
-  name: Serialize(NetworkWriter)
-  href: api/Mirror.NetworkPingMessage.html#Mirror_NetworkPingMessage_Serialize_Mirror_NetworkWriter_
-  commentId: M:Mirror.NetworkPingMessage.Serialize(Mirror.NetworkWriter)
-  fullName: Mirror.NetworkPingMessage.Serialize(Mirror.NetworkWriter)
-  nameWithType: NetworkPingMessage.Serialize(NetworkWriter)
-- uid: Mirror.NetworkPingMessage.Serialize*
-  name: Serialize
-  href: api/Mirror.NetworkPingMessage.html#Mirror_NetworkPingMessage_Serialize_
-  commentId: Overload:Mirror.NetworkPingMessage.Serialize
-  isSpec: "True"
-  fullName: Mirror.NetworkPingMessage.Serialize
-  nameWithType: NetworkPingMessage.Serialize
 - uid: Mirror.NetworkPongMessage
   name: NetworkPongMessage
   href: api/Mirror.NetworkPongMessage.html
@@ -6243,32 +6114,6 @@ references:
   commentId: F:Mirror.NetworkPongMessage.clientTime
   fullName: Mirror.NetworkPongMessage.clientTime
   nameWithType: NetworkPongMessage.clientTime
-- uid: Mirror.NetworkPongMessage.Deserialize(Mirror.NetworkReader)
-  name: Deserialize(NetworkReader)
-  href: api/Mirror.NetworkPongMessage.html#Mirror_NetworkPongMessage_Deserialize_Mirror_NetworkReader_
-  commentId: M:Mirror.NetworkPongMessage.Deserialize(Mirror.NetworkReader)
-  fullName: Mirror.NetworkPongMessage.Deserialize(Mirror.NetworkReader)
-  nameWithType: NetworkPongMessage.Deserialize(NetworkReader)
-- uid: Mirror.NetworkPongMessage.Deserialize*
-  name: Deserialize
-  href: api/Mirror.NetworkPongMessage.html#Mirror_NetworkPongMessage_Deserialize_
-  commentId: Overload:Mirror.NetworkPongMessage.Deserialize
-  isSpec: "True"
-  fullName: Mirror.NetworkPongMessage.Deserialize
-  nameWithType: NetworkPongMessage.Deserialize
-- uid: Mirror.NetworkPongMessage.Serialize(Mirror.NetworkWriter)
-  name: Serialize(NetworkWriter)
-  href: api/Mirror.NetworkPongMessage.html#Mirror_NetworkPongMessage_Serialize_Mirror_NetworkWriter_
-  commentId: M:Mirror.NetworkPongMessage.Serialize(Mirror.NetworkWriter)
-  fullName: Mirror.NetworkPongMessage.Serialize(Mirror.NetworkWriter)
-  nameWithType: NetworkPongMessage.Serialize(NetworkWriter)
-- uid: Mirror.NetworkPongMessage.Serialize*
-  name: Serialize
-  href: api/Mirror.NetworkPongMessage.html#Mirror_NetworkPongMessage_Serialize_
-  commentId: Overload:Mirror.NetworkPongMessage.Serialize
-  isSpec: "True"
-  fullName: Mirror.NetworkPongMessage.Serialize
-  nameWithType: NetworkPongMessage.Serialize
 - uid: Mirror.NetworkPongMessage.serverTime
   name: serverTime
   href: api/Mirror.NetworkPongMessage.html#Mirror_NetworkPongMessage_serverTime
@@ -6459,6 +6304,22 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkReader.ReadInt64
   nameWithType: NetworkReader.ReadInt64
+- uid: Mirror.NetworkReader.ReadMessage*
+  name: ReadMessage
+  href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_ReadMessage_
+  commentId: Overload:Mirror.NetworkReader.ReadMessage
+  isSpec: "True"
+  fullName: Mirror.NetworkReader.ReadMessage
+  nameWithType: NetworkReader.ReadMessage
+- uid: Mirror.NetworkReader.ReadMessage``1
+  name: ReadMessage<T>()
+  href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_ReadMessage__1
+  commentId: M:Mirror.NetworkReader.ReadMessage``1
+  name.vb: ReadMessage(Of T)()
+  fullName: Mirror.NetworkReader.ReadMessage<T>()
+  fullName.vb: Mirror.NetworkReader.ReadMessage(Of T)()
+  nameWithType: NetworkReader.ReadMessage<T>()
+  nameWithType.vb: NetworkReader.ReadMessage(Of T)()
 - uid: Mirror.NetworkReader.ReadUInt32
   name: ReadUInt32()
   href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_ReadUInt32
@@ -6712,22 +6573,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkReaderExtensions.ReadMatrix4x4
   nameWithType: NetworkReaderExtensions.ReadMatrix4x4
-- uid: Mirror.NetworkReaderExtensions.ReadMessage*
-  name: ReadMessage
-  href: api/Mirror.NetworkReaderExtensions.html#Mirror_NetworkReaderExtensions_ReadMessage_
-  commentId: Overload:Mirror.NetworkReaderExtensions.ReadMessage
-  isSpec: "True"
-  fullName: Mirror.NetworkReaderExtensions.ReadMessage
-  nameWithType: NetworkReaderExtensions.ReadMessage
-- uid: Mirror.NetworkReaderExtensions.ReadMessage``1(Mirror.NetworkReader,``0)
-  name: ReadMessage<T>(NetworkReader, T)
-  href: api/Mirror.NetworkReaderExtensions.html#Mirror_NetworkReaderExtensions_ReadMessage__1_Mirror_NetworkReader___0_
-  commentId: M:Mirror.NetworkReaderExtensions.ReadMessage``1(Mirror.NetworkReader,``0)
-  name.vb: ReadMessage(Of T)(NetworkReader, T)
-  fullName: Mirror.NetworkReaderExtensions.ReadMessage<T>(Mirror.NetworkReader, T)
-  fullName.vb: Mirror.NetworkReaderExtensions.ReadMessage(Of T)(Mirror.NetworkReader, T)
-  nameWithType: NetworkReaderExtensions.ReadMessage<T>(NetworkReader, T)
-  nameWithType.vb: NetworkReaderExtensions.ReadMessage(Of T)(NetworkReader, T)
 - uid: Mirror.NetworkReaderExtensions.ReadNetworkIdentity(Mirror.NetworkReader)
   name: ReadNetworkIdentity(NetworkReader)
   href: api/Mirror.NetworkReaderExtensions.html#Mirror_NetworkReaderExtensions_ReadNetworkIdentity_Mirror_NetworkReader_
@@ -8153,6 +7998,22 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkWriter.WriteInt64
   nameWithType: NetworkWriter.WriteInt64
+- uid: Mirror.NetworkWriter.WriteMessage*
+  name: WriteMessage
+  href: api/Mirror.NetworkWriter.html#Mirror_NetworkWriter_WriteMessage_
+  commentId: Overload:Mirror.NetworkWriter.WriteMessage
+  isSpec: "True"
+  fullName: Mirror.NetworkWriter.WriteMessage
+  nameWithType: NetworkWriter.WriteMessage
+- uid: Mirror.NetworkWriter.WriteMessage``1(``0)
+  name: WriteMessage<T>(T)
+  href: api/Mirror.NetworkWriter.html#Mirror_NetworkWriter_WriteMessage__1___0_
+  commentId: M:Mirror.NetworkWriter.WriteMessage``1(``0)
+  name.vb: WriteMessage(Of T)(T)
+  fullName: Mirror.NetworkWriter.WriteMessage<T>(T)
+  fullName.vb: Mirror.NetworkWriter.WriteMessage(Of T)(T)
+  nameWithType: NetworkWriter.WriteMessage<T>(T)
+  nameWithType.vb: NetworkWriter.WriteMessage(Of T)(T)
 - uid: Mirror.NetworkWriter.WriteUInt32(System.UInt32)
   name: WriteUInt32(UInt32)
   href: api/Mirror.NetworkWriter.html#Mirror_NetworkWriter_WriteUInt32_System_UInt32_
@@ -8369,22 +8230,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkWriterExtensions.WriteMatrix4x4
   nameWithType: NetworkWriterExtensions.WriteMatrix4x4
-- uid: Mirror.NetworkWriterExtensions.WriteMessage*
-  name: WriteMessage
-  href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteMessage_
-  commentId: Overload:Mirror.NetworkWriterExtensions.WriteMessage
-  isSpec: "True"
-  fullName: Mirror.NetworkWriterExtensions.WriteMessage
-  nameWithType: NetworkWriterExtensions.WriteMessage
-- uid: Mirror.NetworkWriterExtensions.WriteMessage``1(Mirror.NetworkWriter,``0)
-  name: WriteMessage<T>(NetworkWriter, T)
-  href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteMessage__1_Mirror_NetworkWriter___0_
-  commentId: M:Mirror.NetworkWriterExtensions.WriteMessage``1(Mirror.NetworkWriter,``0)
-  name.vb: WriteMessage(Of T)(NetworkWriter, T)
-  fullName: Mirror.NetworkWriterExtensions.WriteMessage<T>(Mirror.NetworkWriter, T)
-  fullName.vb: Mirror.NetworkWriterExtensions.WriteMessage(Of T)(Mirror.NetworkWriter, T)
-  nameWithType: NetworkWriterExtensions.WriteMessage<T>(NetworkWriter, T)
-  nameWithType.vb: NetworkWriterExtensions.WriteMessage(Of T)(NetworkWriter, T)
 - uid: Mirror.NetworkWriterExtensions.WriteNetworkIdentity(Mirror.NetworkWriter,Mirror.NetworkIdentity)
   name: WriteNetworkIdentity(NetworkWriter, NetworkIdentity)
   href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteNetworkIdentity_Mirror_NetworkWriter_Mirror_NetworkIdentity_
@@ -8696,172 +8541,42 @@ references:
   commentId: T:Mirror.NotReadyMessage
   fullName: Mirror.NotReadyMessage
   nameWithType: NotReadyMessage
-- uid: Mirror.NotReadyMessage.Deserialize(Mirror.NetworkReader)
-  name: Deserialize(NetworkReader)
-  href: api/Mirror.NotReadyMessage.html#Mirror_NotReadyMessage_Deserialize_Mirror_NetworkReader_
-  commentId: M:Mirror.NotReadyMessage.Deserialize(Mirror.NetworkReader)
-  fullName: Mirror.NotReadyMessage.Deserialize(Mirror.NetworkReader)
-  nameWithType: NotReadyMessage.Deserialize(NetworkReader)
-- uid: Mirror.NotReadyMessage.Deserialize*
-  name: Deserialize
-  href: api/Mirror.NotReadyMessage.html#Mirror_NotReadyMessage_Deserialize_
-  commentId: Overload:Mirror.NotReadyMessage.Deserialize
-  isSpec: "True"
-  fullName: Mirror.NotReadyMessage.Deserialize
-  nameWithType: NotReadyMessage.Deserialize
-- uid: Mirror.NotReadyMessage.Serialize(Mirror.NetworkWriter)
-  name: Serialize(NetworkWriter)
-  href: api/Mirror.NotReadyMessage.html#Mirror_NotReadyMessage_Serialize_Mirror_NetworkWriter_
-  commentId: M:Mirror.NotReadyMessage.Serialize(Mirror.NetworkWriter)
-  fullName: Mirror.NotReadyMessage.Serialize(Mirror.NetworkWriter)
-  nameWithType: NotReadyMessage.Serialize(NetworkWriter)
-- uid: Mirror.NotReadyMessage.Serialize*
-  name: Serialize
-  href: api/Mirror.NotReadyMessage.html#Mirror_NotReadyMessage_Serialize_
-  commentId: Overload:Mirror.NotReadyMessage.Serialize
-  isSpec: "True"
-  fullName: Mirror.NotReadyMessage.Serialize
-  nameWithType: NotReadyMessage.Serialize
 - uid: Mirror.ObjectDestroyMessage
   name: ObjectDestroyMessage
   href: api/Mirror.ObjectDestroyMessage.html
   commentId: T:Mirror.ObjectDestroyMessage
   fullName: Mirror.ObjectDestroyMessage
   nameWithType: ObjectDestroyMessage
-- uid: Mirror.ObjectDestroyMessage.Deserialize(Mirror.NetworkReader)
-  name: Deserialize(NetworkReader)
-  href: api/Mirror.ObjectDestroyMessage.html#Mirror_ObjectDestroyMessage_Deserialize_Mirror_NetworkReader_
-  commentId: M:Mirror.ObjectDestroyMessage.Deserialize(Mirror.NetworkReader)
-  fullName: Mirror.ObjectDestroyMessage.Deserialize(Mirror.NetworkReader)
-  nameWithType: ObjectDestroyMessage.Deserialize(NetworkReader)
-- uid: Mirror.ObjectDestroyMessage.Deserialize*
-  name: Deserialize
-  href: api/Mirror.ObjectDestroyMessage.html#Mirror_ObjectDestroyMessage_Deserialize_
-  commentId: Overload:Mirror.ObjectDestroyMessage.Deserialize
-  isSpec: "True"
-  fullName: Mirror.ObjectDestroyMessage.Deserialize
-  nameWithType: ObjectDestroyMessage.Deserialize
 - uid: Mirror.ObjectDestroyMessage.netId
   name: netId
   href: api/Mirror.ObjectDestroyMessage.html#Mirror_ObjectDestroyMessage_netId
   commentId: F:Mirror.ObjectDestroyMessage.netId
   fullName: Mirror.ObjectDestroyMessage.netId
   nameWithType: ObjectDestroyMessage.netId
-- uid: Mirror.ObjectDestroyMessage.Serialize(Mirror.NetworkWriter)
-  name: Serialize(NetworkWriter)
-  href: api/Mirror.ObjectDestroyMessage.html#Mirror_ObjectDestroyMessage_Serialize_Mirror_NetworkWriter_
-  commentId: M:Mirror.ObjectDestroyMessage.Serialize(Mirror.NetworkWriter)
-  fullName: Mirror.ObjectDestroyMessage.Serialize(Mirror.NetworkWriter)
-  nameWithType: ObjectDestroyMessage.Serialize(NetworkWriter)
-- uid: Mirror.ObjectDestroyMessage.Serialize*
-  name: Serialize
-  href: api/Mirror.ObjectDestroyMessage.html#Mirror_ObjectDestroyMessage_Serialize_
-  commentId: Overload:Mirror.ObjectDestroyMessage.Serialize
-  isSpec: "True"
-  fullName: Mirror.ObjectDestroyMessage.Serialize
-  nameWithType: ObjectDestroyMessage.Serialize
 - uid: Mirror.ObjectHideMessage
   name: ObjectHideMessage
   href: api/Mirror.ObjectHideMessage.html
   commentId: T:Mirror.ObjectHideMessage
   fullName: Mirror.ObjectHideMessage
   nameWithType: ObjectHideMessage
-- uid: Mirror.ObjectHideMessage.Deserialize(Mirror.NetworkReader)
-  name: Deserialize(NetworkReader)
-  href: api/Mirror.ObjectHideMessage.html#Mirror_ObjectHideMessage_Deserialize_Mirror_NetworkReader_
-  commentId: M:Mirror.ObjectHideMessage.Deserialize(Mirror.NetworkReader)
-  fullName: Mirror.ObjectHideMessage.Deserialize(Mirror.NetworkReader)
-  nameWithType: ObjectHideMessage.Deserialize(NetworkReader)
-- uid: Mirror.ObjectHideMessage.Deserialize*
-  name: Deserialize
-  href: api/Mirror.ObjectHideMessage.html#Mirror_ObjectHideMessage_Deserialize_
-  commentId: Overload:Mirror.ObjectHideMessage.Deserialize
-  isSpec: "True"
-  fullName: Mirror.ObjectHideMessage.Deserialize
-  nameWithType: ObjectHideMessage.Deserialize
 - uid: Mirror.ObjectHideMessage.netId
   name: netId
   href: api/Mirror.ObjectHideMessage.html#Mirror_ObjectHideMessage_netId
   commentId: F:Mirror.ObjectHideMessage.netId
   fullName: Mirror.ObjectHideMessage.netId
   nameWithType: ObjectHideMessage.netId
-- uid: Mirror.ObjectHideMessage.Serialize(Mirror.NetworkWriter)
-  name: Serialize(NetworkWriter)
-  href: api/Mirror.ObjectHideMessage.html#Mirror_ObjectHideMessage_Serialize_Mirror_NetworkWriter_
-  commentId: M:Mirror.ObjectHideMessage.Serialize(Mirror.NetworkWriter)
-  fullName: Mirror.ObjectHideMessage.Serialize(Mirror.NetworkWriter)
-  nameWithType: ObjectHideMessage.Serialize(NetworkWriter)
-- uid: Mirror.ObjectHideMessage.Serialize*
-  name: Serialize
-  href: api/Mirror.ObjectHideMessage.html#Mirror_ObjectHideMessage_Serialize_
-  commentId: Overload:Mirror.ObjectHideMessage.Serialize
-  isSpec: "True"
-  fullName: Mirror.ObjectHideMessage.Serialize
-  nameWithType: ObjectHideMessage.Serialize
 - uid: Mirror.ObjectSpawnFinishedMessage
   name: ObjectSpawnFinishedMessage
   href: api/Mirror.ObjectSpawnFinishedMessage.html
   commentId: T:Mirror.ObjectSpawnFinishedMessage
   fullName: Mirror.ObjectSpawnFinishedMessage
   nameWithType: ObjectSpawnFinishedMessage
-- uid: Mirror.ObjectSpawnFinishedMessage.Deserialize(Mirror.NetworkReader)
-  name: Deserialize(NetworkReader)
-  href: api/Mirror.ObjectSpawnFinishedMessage.html#Mirror_ObjectSpawnFinishedMessage_Deserialize_Mirror_NetworkReader_
-  commentId: M:Mirror.ObjectSpawnFinishedMessage.Deserialize(Mirror.NetworkReader)
-  fullName: Mirror.ObjectSpawnFinishedMessage.Deserialize(Mirror.NetworkReader)
-  nameWithType: ObjectSpawnFinishedMessage.Deserialize(NetworkReader)
-- uid: Mirror.ObjectSpawnFinishedMessage.Deserialize*
-  name: Deserialize
-  href: api/Mirror.ObjectSpawnFinishedMessage.html#Mirror_ObjectSpawnFinishedMessage_Deserialize_
-  commentId: Overload:Mirror.ObjectSpawnFinishedMessage.Deserialize
-  isSpec: "True"
-  fullName: Mirror.ObjectSpawnFinishedMessage.Deserialize
-  nameWithType: ObjectSpawnFinishedMessage.Deserialize
-- uid: Mirror.ObjectSpawnFinishedMessage.Serialize(Mirror.NetworkWriter)
-  name: Serialize(NetworkWriter)
-  href: api/Mirror.ObjectSpawnFinishedMessage.html#Mirror_ObjectSpawnFinishedMessage_Serialize_Mirror_NetworkWriter_
-  commentId: M:Mirror.ObjectSpawnFinishedMessage.Serialize(Mirror.NetworkWriter)
-  fullName: Mirror.ObjectSpawnFinishedMessage.Serialize(Mirror.NetworkWriter)
-  nameWithType: ObjectSpawnFinishedMessage.Serialize(NetworkWriter)
-- uid: Mirror.ObjectSpawnFinishedMessage.Serialize*
-  name: Serialize
-  href: api/Mirror.ObjectSpawnFinishedMessage.html#Mirror_ObjectSpawnFinishedMessage_Serialize_
-  commentId: Overload:Mirror.ObjectSpawnFinishedMessage.Serialize
-  isSpec: "True"
-  fullName: Mirror.ObjectSpawnFinishedMessage.Serialize
-  nameWithType: ObjectSpawnFinishedMessage.Serialize
 - uid: Mirror.ObjectSpawnStartedMessage
   name: ObjectSpawnStartedMessage
   href: api/Mirror.ObjectSpawnStartedMessage.html
   commentId: T:Mirror.ObjectSpawnStartedMessage
   fullName: Mirror.ObjectSpawnStartedMessage
   nameWithType: ObjectSpawnStartedMessage
-- uid: Mirror.ObjectSpawnStartedMessage.Deserialize(Mirror.NetworkReader)
-  name: Deserialize(NetworkReader)
-  href: api/Mirror.ObjectSpawnStartedMessage.html#Mirror_ObjectSpawnStartedMessage_Deserialize_Mirror_NetworkReader_
-  commentId: M:Mirror.ObjectSpawnStartedMessage.Deserialize(Mirror.NetworkReader)
-  fullName: Mirror.ObjectSpawnStartedMessage.Deserialize(Mirror.NetworkReader)
-  nameWithType: ObjectSpawnStartedMessage.Deserialize(NetworkReader)
-- uid: Mirror.ObjectSpawnStartedMessage.Deserialize*
-  name: Deserialize
-  href: api/Mirror.ObjectSpawnStartedMessage.html#Mirror_ObjectSpawnStartedMessage_Deserialize_
-  commentId: Overload:Mirror.ObjectSpawnStartedMessage.Deserialize
-  isSpec: "True"
-  fullName: Mirror.ObjectSpawnStartedMessage.Deserialize
-  nameWithType: ObjectSpawnStartedMessage.Deserialize
-- uid: Mirror.ObjectSpawnStartedMessage.Serialize(Mirror.NetworkWriter)
-  name: Serialize(NetworkWriter)
-  href: api/Mirror.ObjectSpawnStartedMessage.html#Mirror_ObjectSpawnStartedMessage_Serialize_Mirror_NetworkWriter_
-  commentId: M:Mirror.ObjectSpawnStartedMessage.Serialize(Mirror.NetworkWriter)
-  fullName: Mirror.ObjectSpawnStartedMessage.Serialize(Mirror.NetworkWriter)
-  nameWithType: ObjectSpawnStartedMessage.Serialize(NetworkWriter)
-- uid: Mirror.ObjectSpawnStartedMessage.Serialize*
-  name: Serialize
-  href: api/Mirror.ObjectSpawnStartedMessage.html#Mirror_ObjectSpawnStartedMessage_Serialize_
-  commentId: Overload:Mirror.ObjectSpawnStartedMessage.Serialize
-  isSpec: "True"
-  fullName: Mirror.ObjectSpawnStartedMessage.Serialize
-  nameWithType: ObjectSpawnStartedMessage.Serialize
 - uid: Mirror.PipeConnection
   name: PipeConnection
   href: api/Mirror.PipeConnection.html
@@ -9079,38 +8794,29 @@ references:
   isSpec: "True"
   fullName: Mirror.PooledNetworkWriter.Dispose
   nameWithType: PooledNetworkWriter.Dispose
+- uid: Mirror.Reader`1
+  name: Reader<T>
+  href: api/Mirror.Reader-1.html
+  commentId: T:Mirror.Reader`1
+  name.vb: Reader(Of T)
+  fullName: Mirror.Reader<T>
+  fullName.vb: Mirror.Reader(Of T)
+  nameWithType: Reader<T>
+  nameWithType.vb: Reader(Of T)
+- uid: Mirror.Reader`1.read
+  name: read
+  href: api/Mirror.Reader-1.html#Mirror_Reader_1_read
+  commentId: F:Mirror.Reader`1.read
+  fullName: Mirror.Reader<T>.read
+  fullName.vb: Mirror.Reader(Of T).read
+  nameWithType: Reader<T>.read
+  nameWithType.vb: Reader(Of T).read
 - uid: Mirror.ReadyMessage
   name: ReadyMessage
   href: api/Mirror.ReadyMessage.html
   commentId: T:Mirror.ReadyMessage
   fullName: Mirror.ReadyMessage
   nameWithType: ReadyMessage
-- uid: Mirror.ReadyMessage.Deserialize(Mirror.NetworkReader)
-  name: Deserialize(NetworkReader)
-  href: api/Mirror.ReadyMessage.html#Mirror_ReadyMessage_Deserialize_Mirror_NetworkReader_
-  commentId: M:Mirror.ReadyMessage.Deserialize(Mirror.NetworkReader)
-  fullName: Mirror.ReadyMessage.Deserialize(Mirror.NetworkReader)
-  nameWithType: ReadyMessage.Deserialize(NetworkReader)
-- uid: Mirror.ReadyMessage.Deserialize*
-  name: Deserialize
-  href: api/Mirror.ReadyMessage.html#Mirror_ReadyMessage_Deserialize_
-  commentId: Overload:Mirror.ReadyMessage.Deserialize
-  isSpec: "True"
-  fullName: Mirror.ReadyMessage.Deserialize
-  nameWithType: ReadyMessage.Deserialize
-- uid: Mirror.ReadyMessage.Serialize(Mirror.NetworkWriter)
-  name: Serialize(NetworkWriter)
-  href: api/Mirror.ReadyMessage.html#Mirror_ReadyMessage_Serialize_Mirror_NetworkWriter_
-  commentId: M:Mirror.ReadyMessage.Serialize(Mirror.NetworkWriter)
-  fullName: Mirror.ReadyMessage.Serialize(Mirror.NetworkWriter)
-  nameWithType: ReadyMessage.Serialize(NetworkWriter)
-- uid: Mirror.ReadyMessage.Serialize*
-  name: Serialize
-  href: api/Mirror.ReadyMessage.html#Mirror_ReadyMessage_Serialize_
-  commentId: Overload:Mirror.ReadyMessage.Serialize
-  isSpec: "True"
-  fullName: Mirror.ReadyMessage.Serialize
-  nameWithType: ReadyMessage.Serialize
 - uid: Mirror.RemoteCalls
   name: Mirror.RemoteCalls
   href: api/Mirror.RemoteCalls.html
@@ -9192,19 +8898,6 @@ references:
   commentId: F:Mirror.RpcMessage.componentIndex
   fullName: Mirror.RpcMessage.componentIndex
   nameWithType: RpcMessage.componentIndex
-- uid: Mirror.RpcMessage.Deserialize(Mirror.NetworkReader)
-  name: Deserialize(NetworkReader)
-  href: api/Mirror.RpcMessage.html#Mirror_RpcMessage_Deserialize_Mirror_NetworkReader_
-  commentId: M:Mirror.RpcMessage.Deserialize(Mirror.NetworkReader)
-  fullName: Mirror.RpcMessage.Deserialize(Mirror.NetworkReader)
-  nameWithType: RpcMessage.Deserialize(NetworkReader)
-- uid: Mirror.RpcMessage.Deserialize*
-  name: Deserialize
-  href: api/Mirror.RpcMessage.html#Mirror_RpcMessage_Deserialize_
-  commentId: Overload:Mirror.RpcMessage.Deserialize
-  isSpec: "True"
-  fullName: Mirror.RpcMessage.Deserialize
-  nameWithType: RpcMessage.Deserialize
 - uid: Mirror.RpcMessage.functionHash
   name: functionHash
   href: api/Mirror.RpcMessage.html#Mirror_RpcMessage_functionHash
@@ -9223,19 +8916,6 @@ references:
   commentId: F:Mirror.RpcMessage.payload
   fullName: Mirror.RpcMessage.payload
   nameWithType: RpcMessage.payload
-- uid: Mirror.RpcMessage.Serialize(Mirror.NetworkWriter)
-  name: Serialize(NetworkWriter)
-  href: api/Mirror.RpcMessage.html#Mirror_RpcMessage_Serialize_Mirror_NetworkWriter_
-  commentId: M:Mirror.RpcMessage.Serialize(Mirror.NetworkWriter)
-  fullName: Mirror.RpcMessage.Serialize(Mirror.NetworkWriter)
-  nameWithType: RpcMessage.Serialize(NetworkWriter)
-- uid: Mirror.RpcMessage.Serialize*
-  name: Serialize
-  href: api/Mirror.RpcMessage.html#Mirror_RpcMessage_Serialize_
-  commentId: Overload:Mirror.RpcMessage.Serialize
-  isSpec: "True"
-  fullName: Mirror.RpcMessage.Serialize
-  nameWithType: RpcMessage.Serialize
 - uid: Mirror.SceneAttribute
   name: SceneAttribute
   href: api/Mirror.SceneAttribute.html
@@ -9248,19 +8928,6 @@ references:
   commentId: T:Mirror.SceneMessage
   fullName: Mirror.SceneMessage
   nameWithType: SceneMessage
-- uid: Mirror.SceneMessage.Deserialize(Mirror.NetworkReader)
-  name: Deserialize(NetworkReader)
-  href: api/Mirror.SceneMessage.html#Mirror_SceneMessage_Deserialize_Mirror_NetworkReader_
-  commentId: M:Mirror.SceneMessage.Deserialize(Mirror.NetworkReader)
-  fullName: Mirror.SceneMessage.Deserialize(Mirror.NetworkReader)
-  nameWithType: SceneMessage.Deserialize(NetworkReader)
-- uid: Mirror.SceneMessage.Deserialize*
-  name: Deserialize
-  href: api/Mirror.SceneMessage.html#Mirror_SceneMessage_Deserialize_
-  commentId: Overload:Mirror.SceneMessage.Deserialize
-  isSpec: "True"
-  fullName: Mirror.SceneMessage.Deserialize
-  nameWithType: SceneMessage.Deserialize
 - uid: Mirror.SceneMessage.sceneName
   name: sceneName
   href: api/Mirror.SceneMessage.html#Mirror_SceneMessage_sceneName
@@ -9273,19 +8940,6 @@ references:
   commentId: F:Mirror.SceneMessage.sceneOperation
   fullName: Mirror.SceneMessage.sceneOperation
   nameWithType: SceneMessage.sceneOperation
-- uid: Mirror.SceneMessage.Serialize(Mirror.NetworkWriter)
-  name: Serialize(NetworkWriter)
-  href: api/Mirror.SceneMessage.html#Mirror_SceneMessage_Serialize_Mirror_NetworkWriter_
-  commentId: M:Mirror.SceneMessage.Serialize(Mirror.NetworkWriter)
-  fullName: Mirror.SceneMessage.Serialize(Mirror.NetworkWriter)
-  nameWithType: SceneMessage.Serialize(NetworkWriter)
-- uid: Mirror.SceneMessage.Serialize*
-  name: Serialize
-  href: api/Mirror.SceneMessage.html#Mirror_SceneMessage_Serialize_
-  commentId: Overload:Mirror.SceneMessage.Serialize
-  isSpec: "True"
-  fullName: Mirror.SceneMessage.Serialize
-  nameWithType: SceneMessage.Serialize
 - uid: Mirror.SceneOperation
   name: SceneOperation
   href: api/Mirror.SceneOperation.html
@@ -9316,32 +8970,6 @@ references:
   commentId: T:Mirror.SceneReadyMessage
   fullName: Mirror.SceneReadyMessage
   nameWithType: SceneReadyMessage
-- uid: Mirror.SceneReadyMessage.Deserialize(Mirror.NetworkReader)
-  name: Deserialize(NetworkReader)
-  href: api/Mirror.SceneReadyMessage.html#Mirror_SceneReadyMessage_Deserialize_Mirror_NetworkReader_
-  commentId: M:Mirror.SceneReadyMessage.Deserialize(Mirror.NetworkReader)
-  fullName: Mirror.SceneReadyMessage.Deserialize(Mirror.NetworkReader)
-  nameWithType: SceneReadyMessage.Deserialize(NetworkReader)
-- uid: Mirror.SceneReadyMessage.Deserialize*
-  name: Deserialize
-  href: api/Mirror.SceneReadyMessage.html#Mirror_SceneReadyMessage_Deserialize_
-  commentId: Overload:Mirror.SceneReadyMessage.Deserialize
-  isSpec: "True"
-  fullName: Mirror.SceneReadyMessage.Deserialize
-  nameWithType: SceneReadyMessage.Deserialize
-- uid: Mirror.SceneReadyMessage.Serialize(Mirror.NetworkWriter)
-  name: Serialize(NetworkWriter)
-  href: api/Mirror.SceneReadyMessage.html#Mirror_SceneReadyMessage_Serialize_Mirror_NetworkWriter_
-  commentId: M:Mirror.SceneReadyMessage.Serialize(Mirror.NetworkWriter)
-  fullName: Mirror.SceneReadyMessage.Serialize(Mirror.NetworkWriter)
-  nameWithType: SceneReadyMessage.Serialize(NetworkWriter)
-- uid: Mirror.SceneReadyMessage.Serialize*
-  name: Serialize
-  href: api/Mirror.SceneReadyMessage.html#Mirror_SceneReadyMessage_Serialize_
-  commentId: Overload:Mirror.SceneReadyMessage.Serialize
-  isSpec: "True"
-  fullName: Mirror.SceneReadyMessage.Serialize
-  nameWithType: SceneReadyMessage.Serialize
 - uid: Mirror.ServerAttribute
   name: ServerAttribute
   href: api/Mirror.ServerAttribute.html
@@ -9565,19 +9193,6 @@ references:
   commentId: F:Mirror.ServerRpcMessage.componentIndex
   fullName: Mirror.ServerRpcMessage.componentIndex
   nameWithType: ServerRpcMessage.componentIndex
-- uid: Mirror.ServerRpcMessage.Deserialize(Mirror.NetworkReader)
-  name: Deserialize(NetworkReader)
-  href: api/Mirror.ServerRpcMessage.html#Mirror_ServerRpcMessage_Deserialize_Mirror_NetworkReader_
-  commentId: M:Mirror.ServerRpcMessage.Deserialize(Mirror.NetworkReader)
-  fullName: Mirror.ServerRpcMessage.Deserialize(Mirror.NetworkReader)
-  nameWithType: ServerRpcMessage.Deserialize(NetworkReader)
-- uid: Mirror.ServerRpcMessage.Deserialize*
-  name: Deserialize
-  href: api/Mirror.ServerRpcMessage.html#Mirror_ServerRpcMessage_Deserialize_
-  commentId: Overload:Mirror.ServerRpcMessage.Deserialize
-  isSpec: "True"
-  fullName: Mirror.ServerRpcMessage.Deserialize
-  nameWithType: ServerRpcMessage.Deserialize
 - uid: Mirror.ServerRpcMessage.functionHash
   name: functionHash
   href: api/Mirror.ServerRpcMessage.html#Mirror_ServerRpcMessage_functionHash
@@ -9596,19 +9211,6 @@ references:
   commentId: F:Mirror.ServerRpcMessage.payload
   fullName: Mirror.ServerRpcMessage.payload
   nameWithType: ServerRpcMessage.payload
-- uid: Mirror.ServerRpcMessage.Serialize(Mirror.NetworkWriter)
-  name: Serialize(NetworkWriter)
-  href: api/Mirror.ServerRpcMessage.html#Mirror_ServerRpcMessage_Serialize_Mirror_NetworkWriter_
-  commentId: M:Mirror.ServerRpcMessage.Serialize(Mirror.NetworkWriter)
-  fullName: Mirror.ServerRpcMessage.Serialize(Mirror.NetworkWriter)
-  nameWithType: ServerRpcMessage.Serialize(NetworkWriter)
-- uid: Mirror.ServerRpcMessage.Serialize*
-  name: Serialize
-  href: api/Mirror.ServerRpcMessage.html#Mirror_ServerRpcMessage_Serialize_
-  commentId: Overload:Mirror.ServerRpcMessage.Serialize
-  isSpec: "True"
-  fullName: Mirror.ServerRpcMessage.Serialize
-  nameWithType: ServerRpcMessage.Serialize
 - uid: Mirror.ShowInInspectorAttribute
   name: ShowInInspectorAttribute
   href: api/Mirror.ShowInInspectorAttribute.html
@@ -9639,19 +9241,6 @@ references:
   commentId: F:Mirror.SpawnMessage.assetId
   fullName: Mirror.SpawnMessage.assetId
   nameWithType: SpawnMessage.assetId
-- uid: Mirror.SpawnMessage.Deserialize(Mirror.NetworkReader)
-  name: Deserialize(NetworkReader)
-  href: api/Mirror.SpawnMessage.html#Mirror_SpawnMessage_Deserialize_Mirror_NetworkReader_
-  commentId: M:Mirror.SpawnMessage.Deserialize(Mirror.NetworkReader)
-  fullName: Mirror.SpawnMessage.Deserialize(Mirror.NetworkReader)
-  nameWithType: SpawnMessage.Deserialize(NetworkReader)
-- uid: Mirror.SpawnMessage.Deserialize*
-  name: Deserialize
-  href: api/Mirror.SpawnMessage.html#Mirror_SpawnMessage_Deserialize_
-  commentId: Overload:Mirror.SpawnMessage.Deserialize
-  isSpec: "True"
-  fullName: Mirror.SpawnMessage.Deserialize
-  nameWithType: SpawnMessage.Deserialize
 - uid: Mirror.SpawnMessage.isLocalPlayer
   name: isLocalPlayer
   href: api/Mirror.SpawnMessage.html#Mirror_SpawnMessage_isLocalPlayer
@@ -9700,19 +9289,6 @@ references:
   commentId: F:Mirror.SpawnMessage.sceneId
   fullName: Mirror.SpawnMessage.sceneId
   nameWithType: SpawnMessage.sceneId
-- uid: Mirror.SpawnMessage.Serialize(Mirror.NetworkWriter)
-  name: Serialize(NetworkWriter)
-  href: api/Mirror.SpawnMessage.html#Mirror_SpawnMessage_Serialize_Mirror_NetworkWriter_
-  commentId: M:Mirror.SpawnMessage.Serialize(Mirror.NetworkWriter)
-  fullName: Mirror.SpawnMessage.Serialize(Mirror.NetworkWriter)
-  nameWithType: SpawnMessage.Serialize(NetworkWriter)
-- uid: Mirror.SpawnMessage.Serialize*
-  name: Serialize
-  href: api/Mirror.SpawnMessage.html#Mirror_SpawnMessage_Serialize_
-  commentId: Overload:Mirror.SpawnMessage.Serialize
-  isSpec: "True"
-  fullName: Mirror.SpawnMessage.Serialize
-  nameWithType: SpawnMessage.Serialize
 - uid: Mirror.StringHash
   name: StringHash
   href: api/Mirror.StringHash.html
@@ -12019,19 +11595,6 @@ references:
   commentId: T:Mirror.UpdateVarsMessage
   fullName: Mirror.UpdateVarsMessage
   nameWithType: UpdateVarsMessage
-- uid: Mirror.UpdateVarsMessage.Deserialize(Mirror.NetworkReader)
-  name: Deserialize(NetworkReader)
-  href: api/Mirror.UpdateVarsMessage.html#Mirror_UpdateVarsMessage_Deserialize_Mirror_NetworkReader_
-  commentId: M:Mirror.UpdateVarsMessage.Deserialize(Mirror.NetworkReader)
-  fullName: Mirror.UpdateVarsMessage.Deserialize(Mirror.NetworkReader)
-  nameWithType: UpdateVarsMessage.Deserialize(NetworkReader)
-- uid: Mirror.UpdateVarsMessage.Deserialize*
-  name: Deserialize
-  href: api/Mirror.UpdateVarsMessage.html#Mirror_UpdateVarsMessage_Deserialize_
-  commentId: Overload:Mirror.UpdateVarsMessage.Deserialize
-  isSpec: "True"
-  fullName: Mirror.UpdateVarsMessage.Deserialize
-  nameWithType: UpdateVarsMessage.Deserialize
 - uid: Mirror.UpdateVarsMessage.netId
   name: netId
   href: api/Mirror.UpdateVarsMessage.html#Mirror_UpdateVarsMessage_netId
@@ -12044,19 +11607,6 @@ references:
   commentId: F:Mirror.UpdateVarsMessage.payload
   fullName: Mirror.UpdateVarsMessage.payload
   nameWithType: UpdateVarsMessage.payload
-- uid: Mirror.UpdateVarsMessage.Serialize(Mirror.NetworkWriter)
-  name: Serialize(NetworkWriter)
-  href: api/Mirror.UpdateVarsMessage.html#Mirror_UpdateVarsMessage_Serialize_Mirror_NetworkWriter_
-  commentId: M:Mirror.UpdateVarsMessage.Serialize(Mirror.NetworkWriter)
-  fullName: Mirror.UpdateVarsMessage.Serialize(Mirror.NetworkWriter)
-  nameWithType: UpdateVarsMessage.Serialize(NetworkWriter)
-- uid: Mirror.UpdateVarsMessage.Serialize*
-  name: Serialize
-  href: api/Mirror.UpdateVarsMessage.html#Mirror_UpdateVarsMessage_Serialize_
-  commentId: Overload:Mirror.UpdateVarsMessage.Serialize
-  isSpec: "True"
-  fullName: Mirror.UpdateVarsMessage.Serialize
-  nameWithType: UpdateVarsMessage.Serialize
 - uid: Mirror.Version
   name: Version
   href: api/Mirror.Version.html
@@ -12069,3 +11619,20 @@ references:
   commentId: F:Mirror.Version.Current
   fullName: Mirror.Version.Current
   nameWithType: Version.Current
+- uid: Mirror.Writer`1
+  name: Writer<T>
+  href: api/Mirror.Writer-1.html
+  commentId: T:Mirror.Writer`1
+  name.vb: Writer(Of T)
+  fullName: Mirror.Writer<T>
+  fullName.vb: Mirror.Writer(Of T)
+  nameWithType: Writer<T>
+  nameWithType.vb: Writer(Of T)
+- uid: Mirror.Writer`1.write
+  name: write
+  href: api/Mirror.Writer-1.html#Mirror_Writer_1_write
+  commentId: F:Mirror.Writer`1.write
+  fullName: Mirror.Writer<T>.write
+  fullName.vb: Mirror.Writer(Of T).write
+  nameWithType: Writer<T>.write
+  nameWithType.vb: Writer(Of T).write
