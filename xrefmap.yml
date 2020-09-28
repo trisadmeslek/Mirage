@@ -3602,6 +3602,47 @@ references:
   isSpec: "True"
   fullName: Mirror.IVisibilityTracker.RemoveObservers
   nameWithType: IVisibilityTracker.RemoveObservers
+- uid: Mirror.LobbyReady
+  name: LobbyReady
+  href: api/Mirror.LobbyReady.html
+  commentId: T:Mirror.LobbyReady
+  fullName: Mirror.LobbyReady
+  nameWithType: LobbyReady
+- uid: Mirror.LobbyReady.ObjectReadyList
+  name: ObjectReadyList
+  href: api/Mirror.LobbyReady.html#Mirror_LobbyReady_ObjectReadyList
+  commentId: F:Mirror.LobbyReady.ObjectReadyList
+  fullName: Mirror.LobbyReady.ObjectReadyList
+  nameWithType: LobbyReady.ObjectReadyList
+- uid: Mirror.LobbyReady.SendToReady*
+  name: SendToReady
+  href: api/Mirror.LobbyReady.html#Mirror_LobbyReady_SendToReady_
+  commentId: Overload:Mirror.LobbyReady.SendToReady
+  isSpec: "True"
+  fullName: Mirror.LobbyReady.SendToReady
+  nameWithType: LobbyReady.SendToReady
+- uid: Mirror.LobbyReady.SendToReady``1(Mirror.NetworkIdentity,``0,System.Boolean,System.Int32)
+  name: SendToReady<T>(NetworkIdentity, T, Boolean, Int32)
+  href: api/Mirror.LobbyReady.html#Mirror_LobbyReady_SendToReady__1_Mirror_NetworkIdentity___0_System_Boolean_System_Int32_
+  commentId: M:Mirror.LobbyReady.SendToReady``1(Mirror.NetworkIdentity,``0,System.Boolean,System.Int32)
+  name.vb: SendToReady(Of T)(NetworkIdentity, T, Boolean, Int32)
+  fullName: Mirror.LobbyReady.SendToReady<T>(Mirror.NetworkIdentity, T, System.Boolean, System.Int32)
+  fullName.vb: Mirror.LobbyReady.SendToReady(Of T)(Mirror.NetworkIdentity, T, System.Boolean, System.Int32)
+  nameWithType: LobbyReady.SendToReady<T>(NetworkIdentity, T, Boolean, Int32)
+  nameWithType.vb: LobbyReady.SendToReady(Of T)(NetworkIdentity, T, Boolean, Int32)
+- uid: Mirror.LobbyReady.SetAllClientsNotReady
+  name: SetAllClientsNotReady()
+  href: api/Mirror.LobbyReady.html#Mirror_LobbyReady_SetAllClientsNotReady
+  commentId: M:Mirror.LobbyReady.SetAllClientsNotReady
+  fullName: Mirror.LobbyReady.SetAllClientsNotReady()
+  nameWithType: LobbyReady.SetAllClientsNotReady()
+- uid: Mirror.LobbyReady.SetAllClientsNotReady*
+  name: SetAllClientsNotReady
+  href: api/Mirror.LobbyReady.html#Mirror_LobbyReady_SetAllClientsNotReady_
+  commentId: Overload:Mirror.LobbyReady.SetAllClientsNotReady
+  isSpec: "True"
+  fullName: Mirror.LobbyReady.SetAllClientsNotReady
+  nameWithType: LobbyReady.SetAllClientsNotReady
 - uid: Mirror.LocalPlayerAttribute
   name: LocalPlayerAttribute
   href: api/Mirror.LocalPlayerAttribute.html
@@ -8565,6 +8606,57 @@ references:
   commentId: F:Mirror.ObjectHideMessage.netId
   fullName: Mirror.ObjectHideMessage.netId
   nameWithType: ObjectHideMessage.netId
+- uid: Mirror.ObjectReady
+  name: ObjectReady
+  href: api/Mirror.ObjectReady.html
+  commentId: T:Mirror.ObjectReady
+  fullName: Mirror.ObjectReady
+  nameWithType: ObjectReady
+- uid: Mirror.ObjectReady.IsReady
+  name: IsReady
+  href: api/Mirror.ObjectReady.html#Mirror_ObjectReady_IsReady
+  commentId: F:Mirror.ObjectReady.IsReady
+  fullName: Mirror.ObjectReady.IsReady
+  nameWithType: ObjectReady.IsReady
+- uid: Mirror.ObjectReady.Ready
+  name: Ready()
+  href: api/Mirror.ObjectReady.html#Mirror_ObjectReady_Ready
+  commentId: M:Mirror.ObjectReady.Ready
+  fullName: Mirror.ObjectReady.Ready()
+  nameWithType: ObjectReady.Ready()
+- uid: Mirror.ObjectReady.Ready*
+  name: Ready
+  href: api/Mirror.ObjectReady.html#Mirror_ObjectReady_Ready_
+  commentId: Overload:Mirror.ObjectReady.Ready
+  isSpec: "True"
+  fullName: Mirror.ObjectReady.Ready
+  nameWithType: ObjectReady.Ready
+- uid: Mirror.ObjectReady.SetClientNotReady
+  name: SetClientNotReady()
+  href: api/Mirror.ObjectReady.html#Mirror_ObjectReady_SetClientNotReady
+  commentId: M:Mirror.ObjectReady.SetClientNotReady
+  fullName: Mirror.ObjectReady.SetClientNotReady()
+  nameWithType: ObjectReady.SetClientNotReady()
+- uid: Mirror.ObjectReady.SetClientNotReady*
+  name: SetClientNotReady
+  href: api/Mirror.ObjectReady.html#Mirror_ObjectReady_SetClientNotReady_
+  commentId: Overload:Mirror.ObjectReady.SetClientNotReady
+  isSpec: "True"
+  fullName: Mirror.ObjectReady.SetClientNotReady
+  nameWithType: ObjectReady.SetClientNotReady
+- uid: Mirror.ObjectReady.SetClientReady
+  name: SetClientReady()
+  href: api/Mirror.ObjectReady.html#Mirror_ObjectReady_SetClientReady
+  commentId: M:Mirror.ObjectReady.SetClientReady
+  fullName: Mirror.ObjectReady.SetClientReady()
+  nameWithType: ObjectReady.SetClientReady()
+- uid: Mirror.ObjectReady.SetClientReady*
+  name: SetClientReady
+  href: api/Mirror.ObjectReady.html#Mirror_ObjectReady_SetClientReady_
+  commentId: Overload:Mirror.ObjectReady.SetClientReady
+  isSpec: "True"
+  fullName: Mirror.ObjectReady.SetClientReady
+  nameWithType: ObjectReady.SetClientReady
 - uid: Mirror.ObjectSpawnFinishedMessage
   name: ObjectSpawnFinishedMessage
   href: api/Mirror.ObjectSpawnFinishedMessage.html
