@@ -95,7 +95,7 @@
 <p><strong>Note</strong>: You can only ever have one active Network Manager in each scene because it's a singleton. Do not place the Network Manager component on a networked game object (one which has a Network Identity component), because Mirror disables these when the Scene loads.</p>
 <p>If you are already familiar with multiplayer game development, you might find it useful to know that the Network Manager component is implemented entirely using the API, so everything it does is also available to you through scripting. For advanced users, if you find that you need to expand on the Network Manager component’s features, you can use scripting to derive your own class from Network Manager and customize its behavior by overriding any of the virtual function hooks that it provides. However, the Network Manager component wraps up a lot of useful functionality into a single place, and makes creating, running and debugging multiplayer games as simple as possible.</p>
 <h2 id="transports">Transports</h2>
-<p>Mirror's uses a separate component (derived from the Transport class) to connect across the network. By default, it is Telepathy Transport. This design choice of separating the transport into its own component allows game developers to choose the transport that best fits their game needs. Changing transports is as simple as swapping out the component on the Network Manager object and assigning it to the Transport field.</p>
+<p>Mirror uses a separate component (derived from the Transport class) to connect across the network. By default, it is Telepathy Transport. This design choice of separating the transport into its own component allows game developers to choose the transport that best fits their game needs. Changing transports is as simple as swapping out the component on the Network Manager object and assigning it to the Transport field.</p>
 <p>Transports are available for TCP, UDP, WebGL, and Steam. Additionally, there's a Multiplex transport that allows for using two transports together on the server, e.g. Telepathy and WebSockets, so that desktop and browser players can play together on the same server seamlessly. See <a href="../Transports/index.html">Transports</a> for more information.</p>
 <h2 id="game-state-management">Game State Management</h2>
 <p>A Networking multiplayer game can run in three modes - as a client, as a dedicated server, or as a host which is both a client and a server at the same time.</p>
@@ -115,7 +115,7 @@
 <p>Use the Network Manager to manage the spawning (networked instantiation) of networked game objects from Prefabs.</p>
 <p><img src="NetworkManagerSpawnInfo.png" alt="The “Spawn Info” section of the Network Manager component"></p>
 <p>Most games have a Prefab which represents the player, so the Network Manager has a Player Prefab slot. You should assign this slot with your player Prefab. When you have a player Prefab set, a player game object is automatically spawned from that Prefab for each user in the game. This applies to the local player on a hosted server, and remote players on remote clients. You must attach a Network Identity component to the Player Prefab before assigning it to this field.</p>
-<p>Once you have assigned a Player Prefab, you can start the game as a host and see the player game object spawn. Stopping the game destroys the player game object . If you build and run another copy of the game and connect it as a client to <em>localhost</em>, the Network Manager makes another player game object appear. When you stop that client, it destroys that player’s game object .</p>
+<p>Once you have assigned a Player Prefab, you can start the game as a host and see the player game object spawn. Stopping the game destroys the player game object . If you build and run another copy of the game and connect it as a client to <em>localhost</em>, the Network Manager makes another player game object appear. When you stop that client, it destroys that player’s game object.</p>
 <p>In addition to the Player Prefab, you must also register other prefabs that you want to dynamically spawn during game play with the Network Manager.</p>
 <p>You can add prefabs to the list shown in the inspector labelled Registered Spawnable Prefabs. You can also register prefabs via code, with the <code>ClientScene.RegisterPrefab</code> method.</p>
 <p>If you have one Network Manager that is persisted through scenes via Don't Destroy On Load (DDOL), you need to register all prefabs to it which might be spawned in any scene. If you have a separate Network Manager in each scene, you only need to register the prefabs relevant for that scene.</p>
@@ -215,7 +215,7 @@ Bool indicating that the server is online or the client is connected.</p>
 Returns the <code>NetworkClient.singleton</code>.</p>
 </li>
 <li><p><strong>isHeadless</strong><br>
-Bool that indicates of the application was started in headless mode.</p>
+Bool that indicates if the application was started in headless mode.</p>
 </li>
 </ul>
 </li>
