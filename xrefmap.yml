@@ -6277,6 +6277,22 @@ references:
   commentId: F:Mirror.NetworkReader.Position
   fullName: Mirror.NetworkReader.Position
   nameWithType: NetworkReader.Position
+- uid: Mirror.NetworkReader.Read*
+  name: Read
+  href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_Read_
+  commentId: Overload:Mirror.NetworkReader.Read
+  isSpec: "True"
+  fullName: Mirror.NetworkReader.Read
+  nameWithType: NetworkReader.Read
+- uid: Mirror.NetworkReader.Read``1
+  name: Read<T>()
+  href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_Read__1
+  commentId: M:Mirror.NetworkReader.Read``1
+  name.vb: Read(Of T)()
+  fullName: Mirror.NetworkReader.Read<T>()
+  fullName.vb: Mirror.NetworkReader.Read(Of T)()
+  nameWithType: NetworkReader.Read<T>()
+  nameWithType.vb: NetworkReader.Read(Of T)()
 - uid: Mirror.NetworkReader.ReadByte
   name: ReadByte()
   href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_ReadByte
@@ -6345,22 +6361,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkReader.ReadInt64
   nameWithType: NetworkReader.ReadInt64
-- uid: Mirror.NetworkReader.ReadMessage*
-  name: ReadMessage
-  href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_ReadMessage_
-  commentId: Overload:Mirror.NetworkReader.ReadMessage
-  isSpec: "True"
-  fullName: Mirror.NetworkReader.ReadMessage
-  nameWithType: NetworkReader.ReadMessage
-- uid: Mirror.NetworkReader.ReadMessage``1
-  name: ReadMessage<T>()
-  href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_ReadMessage__1
-  commentId: M:Mirror.NetworkReader.ReadMessage``1
-  name.vb: ReadMessage(Of T)()
-  fullName: Mirror.NetworkReader.ReadMessage<T>()
-  fullName.vb: Mirror.NetworkReader.ReadMessage(Of T)()
-  nameWithType: NetworkReader.ReadMessage<T>()
-  nameWithType.vb: NetworkReader.ReadMessage(Of T)()
 - uid: Mirror.NetworkReader.ReadUInt32
   name: ReadUInt32()
   href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_ReadUInt32
@@ -7984,6 +7984,22 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkWriter.ToArraySegment
   nameWithType: NetworkWriter.ToArraySegment
+- uid: Mirror.NetworkWriter.Write*
+  name: Write
+  href: api/Mirror.NetworkWriter.html#Mirror_NetworkWriter_Write_
+  commentId: Overload:Mirror.NetworkWriter.Write
+  isSpec: "True"
+  fullName: Mirror.NetworkWriter.Write
+  nameWithType: NetworkWriter.Write
+- uid: Mirror.NetworkWriter.Write``1(``0)
+  name: Write<T>(T)
+  href: api/Mirror.NetworkWriter.html#Mirror_NetworkWriter_Write__1___0_
+  commentId: M:Mirror.NetworkWriter.Write``1(``0)
+  name.vb: Write(Of T)(T)
+  fullName: Mirror.NetworkWriter.Write<T>(T)
+  fullName.vb: Mirror.NetworkWriter.Write(Of T)(T)
+  nameWithType: NetworkWriter.Write<T>(T)
+  nameWithType.vb: NetworkWriter.Write(Of T)(T)
 - uid: Mirror.NetworkWriter.WriteByte(System.Byte)
   name: WriteByte(Byte)
   href: api/Mirror.NetworkWriter.html#Mirror_NetworkWriter_WriteByte_System_Byte_
@@ -8039,22 +8055,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkWriter.WriteInt64
   nameWithType: NetworkWriter.WriteInt64
-- uid: Mirror.NetworkWriter.WriteMessage*
-  name: WriteMessage
-  href: api/Mirror.NetworkWriter.html#Mirror_NetworkWriter_WriteMessage_
-  commentId: Overload:Mirror.NetworkWriter.WriteMessage
-  isSpec: "True"
-  fullName: Mirror.NetworkWriter.WriteMessage
-  nameWithType: NetworkWriter.WriteMessage
-- uid: Mirror.NetworkWriter.WriteMessage``1(``0)
-  name: WriteMessage<T>(T)
-  href: api/Mirror.NetworkWriter.html#Mirror_NetworkWriter_WriteMessage__1___0_
-  commentId: M:Mirror.NetworkWriter.WriteMessage``1(``0)
-  name.vb: WriteMessage(Of T)(T)
-  fullName: Mirror.NetworkWriter.WriteMessage<T>(T)
-  fullName.vb: Mirror.NetworkWriter.WriteMessage(Of T)(T)
-  nameWithType: NetworkWriter.WriteMessage<T>(T)
-  nameWithType.vb: NetworkWriter.WriteMessage(Of T)(T)
 - uid: Mirror.NetworkWriter.WriteUInt32(System.UInt32)
   name: WriteUInt32(UInt32)
   href: api/Mirror.NetworkWriter.html#Mirror_NetworkWriter_WriteUInt32_System_UInt32_
