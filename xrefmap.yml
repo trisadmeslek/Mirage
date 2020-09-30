@@ -3039,32 +3039,6 @@ references:
   commentId: T:Mirror.INetworkManager
   fullName: Mirror.INetworkManager
   nameWithType: INetworkManager
-- uid: Mirror.INetworkManager.StartClient(Uri)
-  name: StartClient(Uri)
-  href: api/Mirror.INetworkManager.html#Mirror_INetworkManager_StartClient_Uri_
-  commentId: M:Mirror.INetworkManager.StartClient(Uri)
-  fullName: Mirror.INetworkManager.StartClient(Uri)
-  nameWithType: INetworkManager.StartClient(Uri)
-- uid: Mirror.INetworkManager.StartClient*
-  name: StartClient
-  href: api/Mirror.INetworkManager.html#Mirror_INetworkManager_StartClient_
-  commentId: Overload:Mirror.INetworkManager.StartClient
-  isSpec: "True"
-  fullName: Mirror.INetworkManager.StartClient
-  nameWithType: INetworkManager.StartClient
-- uid: Mirror.INetworkManager.StopClient
-  name: StopClient()
-  href: api/Mirror.INetworkManager.html#Mirror_INetworkManager_StopClient
-  commentId: M:Mirror.INetworkManager.StopClient
-  fullName: Mirror.INetworkManager.StopClient()
-  nameWithType: INetworkManager.StopClient()
-- uid: Mirror.INetworkManager.StopClient*
-  name: StopClient
-  href: api/Mirror.INetworkManager.html#Mirror_INetworkManager_StopClient_
-  commentId: Overload:Mirror.INetworkManager.StopClient
-  isSpec: "True"
-  fullName: Mirror.INetworkManager.StopClient
-  nameWithType: INetworkManager.StopClient
 - uid: Mirror.INetworkManager.StopHost
   name: StopHost()
   href: api/Mirror.INetworkManager.html#Mirror_INetworkManager_StopHost
@@ -3078,19 +3052,6 @@ references:
   isSpec: "True"
   fullName: Mirror.INetworkManager.StopHost
   nameWithType: INetworkManager.StopHost
-- uid: Mirror.INetworkManager.StopServer
-  name: StopServer()
-  href: api/Mirror.INetworkManager.html#Mirror_INetworkManager_StopServer
-  commentId: M:Mirror.INetworkManager.StopServer
-  fullName: Mirror.INetworkManager.StopServer()
-  nameWithType: INetworkManager.StopServer()
-- uid: Mirror.INetworkManager.StopServer*
-  name: StopServer
-  href: api/Mirror.INetworkManager.html#Mirror_INetworkManager_StopServer_
-  commentId: Overload:Mirror.INetworkManager.StopServer
-  isSpec: "True"
-  fullName: Mirror.INetworkManager.StopServer
-  nameWithType: INetworkManager.StopServer
 - uid: Mirror.INetworkSceneManager
   name: INetworkSceneManager
   href: api/Mirror.INetworkSceneManager.html
@@ -4834,6 +4795,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkClient.ClearSpawners
   nameWithType: NetworkClient.ClearSpawners
+- uid: Mirror.NetworkClient.ConnectAsync(System.String)
+  name: ConnectAsync(String)
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_ConnectAsync_System_String_
+  commentId: M:Mirror.NetworkClient.ConnectAsync(System.String)
+  fullName: Mirror.NetworkClient.ConnectAsync(System.String)
+  nameWithType: NetworkClient.ConnectAsync(String)
 - uid: Mirror.NetworkClient.ConnectAsync(Uri)
   name: ConnectAsync(Uri)
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_ConnectAsync_Uri_
@@ -5829,25 +5796,6 @@ references:
   commentId: F:Mirror.NetworkManager.server
   fullName: Mirror.NetworkManager.server
   nameWithType: NetworkManager.server
-- uid: Mirror.NetworkManager.StartClient(System.String)
-  name: StartClient(String)
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_StartClient_System_String_
-  commentId: M:Mirror.NetworkManager.StartClient(System.String)
-  fullName: Mirror.NetworkManager.StartClient(System.String)
-  nameWithType: NetworkManager.StartClient(String)
-- uid: Mirror.NetworkManager.StartClient(Uri)
-  name: StartClient(Uri)
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_StartClient_Uri_
-  commentId: M:Mirror.NetworkManager.StartClient(Uri)
-  fullName: Mirror.NetworkManager.StartClient(Uri)
-  nameWithType: NetworkManager.StartClient(Uri)
-- uid: Mirror.NetworkManager.StartClient*
-  name: StartClient
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_StartClient_
-  commentId: Overload:Mirror.NetworkManager.StartClient
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.StartClient
-  nameWithType: NetworkManager.StartClient
 - uid: Mirror.NetworkManager.StartHost
   name: StartHost()
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_StartHost
@@ -5861,32 +5809,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.StartHost
   nameWithType: NetworkManager.StartHost
-- uid: Mirror.NetworkManager.StartServer
-  name: StartServer()
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_StartServer
-  commentId: M:Mirror.NetworkManager.StartServer
-  fullName: Mirror.NetworkManager.StartServer()
-  nameWithType: NetworkManager.StartServer()
-- uid: Mirror.NetworkManager.StartServer*
-  name: StartServer
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_StartServer_
-  commentId: Overload:Mirror.NetworkManager.StartServer
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.StartServer
-  nameWithType: NetworkManager.StartServer
-- uid: Mirror.NetworkManager.StopClient
-  name: StopClient()
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_StopClient
-  commentId: M:Mirror.NetworkManager.StopClient
-  fullName: Mirror.NetworkManager.StopClient()
-  nameWithType: NetworkManager.StopClient()
-- uid: Mirror.NetworkManager.StopClient*
-  name: StopClient
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_StopClient_
-  commentId: Overload:Mirror.NetworkManager.StopClient
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.StopClient
-  nameWithType: NetworkManager.StopClient
 - uid: Mirror.NetworkManager.StopHost
   name: StopHost()
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_StopHost
@@ -5900,19 +5822,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.StopHost
   nameWithType: NetworkManager.StopHost
-- uid: Mirror.NetworkManager.StopServer
-  name: StopServer()
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_StopServer
-  commentId: M:Mirror.NetworkManager.StopServer
-  fullName: Mirror.NetworkManager.StopServer()
-  nameWithType: NetworkManager.StopServer()
-- uid: Mirror.NetworkManager.StopServer*
-  name: StopServer
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_StopServer_
-  commentId: Overload:Mirror.NetworkManager.StopServer
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.StopServer
-  nameWithType: NetworkManager.StopServer
 - uid: Mirror.NetworkManagerHud
   name: NetworkManagerHud
   href: api/Mirror.NetworkManagerHud.html
