@@ -89,11 +89,6 @@
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">SyncList&lt;T&gt;</span></div>
-      <div class="level2"><a class="xref" href="Mirror.SyncListBool.html">SyncListBool</a></div>
-      <div class="level2"><a class="xref" href="Mirror.SyncListFloat.html">SyncListFloat</a></div>
-      <div class="level2"><a class="xref" href="Mirror.SyncListInt.html">SyncListInt</a></div>
-      <div class="level2"><a class="xref" href="Mirror.SyncListString.html">SyncListString</a></div>
-      <div class="level2"><a class="xref" href="Mirror.SyncListUInt.html">SyncListUInt</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -104,7 +99,7 @@
   <h6><strong>Assembly</strong>: doc.dll</h6>
   <h5 id="Mirror_SyncList_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class SyncList&lt;T&gt; : IList&lt;T&gt;, IReadOnlyList&lt;T&gt;, ISyncObject</code></pre>
+    <pre><code class="lang-csharp hljs">public class SyncList&lt;T&gt; : IList&lt;T&gt;, IReadOnlyList&lt;T&gt;, ISyncObject</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -126,12 +121,22 @@
   
   
   <a id="Mirror_SyncList_1__ctor_" data-uid="Mirror.SyncList`1.#ctor*"></a>
+  <h4 id="Mirror_SyncList_1__ctor" data-uid="Mirror.SyncList`1.#ctor">SyncList()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SyncList()</code></pre>
+  </div>
+  
+  
+  <a id="Mirror_SyncList_1__ctor_" data-uid="Mirror.SyncList`1.#ctor*"></a>
   <h4 id="Mirror_SyncList_1__ctor_IEqualityComparer__0__" data-uid="Mirror.SyncList`1.#ctor(IEqualityComparer{`0})">SyncList(IEqualityComparer&lt;T&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected SyncList(IEqualityComparer&lt;T&gt; comparer = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public SyncList(IEqualityComparer&lt;T&gt; comparer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -158,7 +163,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected SyncList(IList&lt;T&gt; objects, IEqualityComparer&lt;T&gt; comparer = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public SyncList(IList&lt;T&gt; objects, IEqualityComparer&lt;T&gt; comparer = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -437,48 +442,6 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">arrayIndex</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Mirror_SyncList_1_DeserializeItem_" data-uid="Mirror.SyncList`1.DeserializeItem*"></a>
-  <h4 id="Mirror_SyncList_1_DeserializeItem_Mirror_NetworkReader_" data-uid="Mirror.SyncList`1.DeserializeItem(Mirror.NetworkReader)">DeserializeItem(NetworkReader)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual T DeserializeItem(NetworkReader reader)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
-        <td><span class="parametername">reader</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -979,38 +942,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
   </div>
-  
-  
-  <a id="Mirror_SyncList_1_SerializeItem_" data-uid="Mirror.SyncList`1.SerializeItem*"></a>
-  <h4 id="Mirror_SyncList_1_SerializeItem_Mirror_NetworkWriter__0_" data-uid="Mirror.SyncList`1.SerializeItem(Mirror.NetworkWriter,`0)">SerializeItem(NetworkWriter, T)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void SerializeItem(NetworkWriter writer, T item)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Mirror.NetworkWriter.html">NetworkWriter</a></td>
-        <td><span class="parametername">writer</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">item</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="events">Events
   </h3>
   

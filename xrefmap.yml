@@ -9682,40 +9682,6 @@ references:
   fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).Count
   nameWithType: SyncIDictionary<TKey, TValue>.Count
   nameWithType.vb: SyncIDictionary(Of TKey, TValue).Count
-- uid: Mirror.SyncIDictionary`2.DeserializeItem(Mirror.NetworkReader)
-  name: DeserializeItem(NetworkReader)
-  href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_DeserializeItem_Mirror_NetworkReader_
-  commentId: M:Mirror.SyncIDictionary`2.DeserializeItem(Mirror.NetworkReader)
-  fullName: Mirror.SyncIDictionary<TKey, TValue>.DeserializeItem(Mirror.NetworkReader)
-  fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).DeserializeItem(Mirror.NetworkReader)
-  nameWithType: SyncIDictionary<TKey, TValue>.DeserializeItem(NetworkReader)
-  nameWithType.vb: SyncIDictionary(Of TKey, TValue).DeserializeItem(NetworkReader)
-- uid: Mirror.SyncIDictionary`2.DeserializeItem*
-  name: DeserializeItem
-  href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_DeserializeItem_
-  commentId: Overload:Mirror.SyncIDictionary`2.DeserializeItem
-  isSpec: "True"
-  fullName: Mirror.SyncIDictionary<TKey, TValue>.DeserializeItem
-  fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).DeserializeItem
-  nameWithType: SyncIDictionary<TKey, TValue>.DeserializeItem
-  nameWithType.vb: SyncIDictionary(Of TKey, TValue).DeserializeItem
-- uid: Mirror.SyncIDictionary`2.DeserializeKey(Mirror.NetworkReader)
-  name: DeserializeKey(NetworkReader)
-  href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_DeserializeKey_Mirror_NetworkReader_
-  commentId: M:Mirror.SyncIDictionary`2.DeserializeKey(Mirror.NetworkReader)
-  fullName: Mirror.SyncIDictionary<TKey, TValue>.DeserializeKey(Mirror.NetworkReader)
-  fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).DeserializeKey(Mirror.NetworkReader)
-  nameWithType: SyncIDictionary<TKey, TValue>.DeserializeKey(NetworkReader)
-  nameWithType.vb: SyncIDictionary(Of TKey, TValue).DeserializeKey(NetworkReader)
-- uid: Mirror.SyncIDictionary`2.DeserializeKey*
-  name: DeserializeKey
-  href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_DeserializeKey_
-  commentId: Overload:Mirror.SyncIDictionary`2.DeserializeKey
-  isSpec: "True"
-  fullName: Mirror.SyncIDictionary<TKey, TValue>.DeserializeKey
-  fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).DeserializeKey
-  nameWithType: SyncIDictionary<TKey, TValue>.DeserializeKey
-  nameWithType.vb: SyncIDictionary(Of TKey, TValue).DeserializeKey
 - uid: Mirror.SyncIDictionary`2.Flush
   name: Flush()
   href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_Flush
@@ -9978,40 +9944,6 @@ references:
   fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).Reset
   nameWithType: SyncIDictionary<TKey, TValue>.Reset
   nameWithType.vb: SyncIDictionary(Of TKey, TValue).Reset
-- uid: Mirror.SyncIDictionary`2.SerializeItem(Mirror.NetworkWriter,`1)
-  name: SerializeItem(NetworkWriter, TValue)
-  href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_SerializeItem_Mirror_NetworkWriter__1_
-  commentId: M:Mirror.SyncIDictionary`2.SerializeItem(Mirror.NetworkWriter,`1)
-  fullName: Mirror.SyncIDictionary<TKey, TValue>.SerializeItem(Mirror.NetworkWriter, TValue)
-  fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).SerializeItem(Mirror.NetworkWriter, TValue)
-  nameWithType: SyncIDictionary<TKey, TValue>.SerializeItem(NetworkWriter, TValue)
-  nameWithType.vb: SyncIDictionary(Of TKey, TValue).SerializeItem(NetworkWriter, TValue)
-- uid: Mirror.SyncIDictionary`2.SerializeItem*
-  name: SerializeItem
-  href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_SerializeItem_
-  commentId: Overload:Mirror.SyncIDictionary`2.SerializeItem
-  isSpec: "True"
-  fullName: Mirror.SyncIDictionary<TKey, TValue>.SerializeItem
-  fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).SerializeItem
-  nameWithType: SyncIDictionary<TKey, TValue>.SerializeItem
-  nameWithType.vb: SyncIDictionary(Of TKey, TValue).SerializeItem
-- uid: Mirror.SyncIDictionary`2.SerializeKey(Mirror.NetworkWriter,`0)
-  name: SerializeKey(NetworkWriter, TKey)
-  href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_SerializeKey_Mirror_NetworkWriter__0_
-  commentId: M:Mirror.SyncIDictionary`2.SerializeKey(Mirror.NetworkWriter,`0)
-  fullName: Mirror.SyncIDictionary<TKey, TValue>.SerializeKey(Mirror.NetworkWriter, TKey)
-  fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).SerializeKey(Mirror.NetworkWriter, TKey)
-  nameWithType: SyncIDictionary<TKey, TValue>.SerializeKey(NetworkWriter, TKey)
-  nameWithType.vb: SyncIDictionary(Of TKey, TValue).SerializeKey(NetworkWriter, TKey)
-- uid: Mirror.SyncIDictionary`2.SerializeKey*
-  name: SerializeKey
-  href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_SerializeKey_
-  commentId: Overload:Mirror.SyncIDictionary`2.SerializeKey
-  isSpec: "True"
-  fullName: Mirror.SyncIDictionary<TKey, TValue>.SerializeKey
-  fullName.vb: Mirror.SyncIDictionary(Of TKey, TValue).SerializeKey
-  nameWithType: SyncIDictionary<TKey, TValue>.SerializeKey
-  nameWithType.vb: SyncIDictionary(Of TKey, TValue).SerializeKey
 - uid: Mirror.SyncIDictionary`2.TryGetValue(`0,`1@)
   name: TryGetValue(TKey, out TValue)
   href: api/Mirror.SyncIDictionary-2.html#Mirror_SyncIDictionary_2_TryGetValue__0__1__
@@ -10056,6 +9988,14 @@ references:
   fullName.vb: Mirror.SyncList(Of T)
   nameWithType: SyncList<T>
   nameWithType.vb: SyncList(Of T)
+- uid: Mirror.SyncList`1.#ctor
+  name: SyncList()
+  href: api/Mirror.SyncList-1.html#Mirror_SyncList_1__ctor
+  commentId: M:Mirror.SyncList`1.#ctor
+  fullName: Mirror.SyncList<T>.SyncList()
+  fullName.vb: Mirror.SyncList(Of T).SyncList()
+  nameWithType: SyncList<T>.SyncList()
+  nameWithType.vb: SyncList(Of T).SyncList()
 - uid: Mirror.SyncList`1.#ctor(IEqualityComparer{`0})
   name: SyncList(IEqualityComparer<T>)
   href: api/Mirror.SyncList-1.html#Mirror_SyncList_1__ctor_IEqualityComparer__0__
@@ -10187,23 +10127,6 @@ references:
   fullName.vb: Mirror.SyncList(Of T).Count
   nameWithType: SyncList<T>.Count
   nameWithType.vb: SyncList(Of T).Count
-- uid: Mirror.SyncList`1.DeserializeItem(Mirror.NetworkReader)
-  name: DeserializeItem(NetworkReader)
-  href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_DeserializeItem_Mirror_NetworkReader_
-  commentId: M:Mirror.SyncList`1.DeserializeItem(Mirror.NetworkReader)
-  fullName: Mirror.SyncList<T>.DeserializeItem(Mirror.NetworkReader)
-  fullName.vb: Mirror.SyncList(Of T).DeserializeItem(Mirror.NetworkReader)
-  nameWithType: SyncList<T>.DeserializeItem(NetworkReader)
-  nameWithType.vb: SyncList(Of T).DeserializeItem(NetworkReader)
-- uid: Mirror.SyncList`1.DeserializeItem*
-  name: DeserializeItem
-  href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_DeserializeItem_
-  commentId: Overload:Mirror.SyncList`1.DeserializeItem
-  isSpec: "True"
-  fullName: Mirror.SyncList<T>.DeserializeItem
-  fullName.vb: Mirror.SyncList(Of T).DeserializeItem
-  nameWithType: SyncList<T>.DeserializeItem
-  nameWithType.vb: SyncList(Of T).DeserializeItem
 - uid: Mirror.SyncList`1.Enumerator
   name: SyncList<T>.Enumerator
   href: api/Mirror.SyncList-1.Enumerator.html
@@ -10668,183 +10591,6 @@ references:
   fullName.vb: Mirror.SyncList(Of T).Reset
   nameWithType: SyncList<T>.Reset
   nameWithType.vb: SyncList(Of T).Reset
-- uid: Mirror.SyncList`1.SerializeItem(Mirror.NetworkWriter,`0)
-  name: SerializeItem(NetworkWriter, T)
-  href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_SerializeItem_Mirror_NetworkWriter__0_
-  commentId: M:Mirror.SyncList`1.SerializeItem(Mirror.NetworkWriter,`0)
-  fullName: Mirror.SyncList<T>.SerializeItem(Mirror.NetworkWriter, T)
-  fullName.vb: Mirror.SyncList(Of T).SerializeItem(Mirror.NetworkWriter, T)
-  nameWithType: SyncList<T>.SerializeItem(NetworkWriter, T)
-  nameWithType.vb: SyncList(Of T).SerializeItem(NetworkWriter, T)
-- uid: Mirror.SyncList`1.SerializeItem*
-  name: SerializeItem
-  href: api/Mirror.SyncList-1.html#Mirror_SyncList_1_SerializeItem_
-  commentId: Overload:Mirror.SyncList`1.SerializeItem
-  isSpec: "True"
-  fullName: Mirror.SyncList<T>.SerializeItem
-  fullName.vb: Mirror.SyncList(Of T).SerializeItem
-  nameWithType: SyncList<T>.SerializeItem
-  nameWithType.vb: SyncList(Of T).SerializeItem
-- uid: Mirror.SyncListBool
-  name: SyncListBool
-  href: api/Mirror.SyncListBool.html
-  commentId: T:Mirror.SyncListBool
-  fullName: Mirror.SyncListBool
-  nameWithType: SyncListBool
-- uid: Mirror.SyncListBool.DeserializeItem(Mirror.NetworkReader)
-  name: DeserializeItem(NetworkReader)
-  href: api/Mirror.SyncListBool.html#Mirror_SyncListBool_DeserializeItem_Mirror_NetworkReader_
-  commentId: M:Mirror.SyncListBool.DeserializeItem(Mirror.NetworkReader)
-  fullName: Mirror.SyncListBool.DeserializeItem(Mirror.NetworkReader)
-  nameWithType: SyncListBool.DeserializeItem(NetworkReader)
-- uid: Mirror.SyncListBool.DeserializeItem*
-  name: DeserializeItem
-  href: api/Mirror.SyncListBool.html#Mirror_SyncListBool_DeserializeItem_
-  commentId: Overload:Mirror.SyncListBool.DeserializeItem
-  isSpec: "True"
-  fullName: Mirror.SyncListBool.DeserializeItem
-  nameWithType: SyncListBool.DeserializeItem
-- uid: Mirror.SyncListBool.SerializeItem(Mirror.NetworkWriter,System.Boolean)
-  name: SerializeItem(NetworkWriter, Boolean)
-  href: api/Mirror.SyncListBool.html#Mirror_SyncListBool_SerializeItem_Mirror_NetworkWriter_System_Boolean_
-  commentId: M:Mirror.SyncListBool.SerializeItem(Mirror.NetworkWriter,System.Boolean)
-  fullName: Mirror.SyncListBool.SerializeItem(Mirror.NetworkWriter, System.Boolean)
-  nameWithType: SyncListBool.SerializeItem(NetworkWriter, Boolean)
-- uid: Mirror.SyncListBool.SerializeItem*
-  name: SerializeItem
-  href: api/Mirror.SyncListBool.html#Mirror_SyncListBool_SerializeItem_
-  commentId: Overload:Mirror.SyncListBool.SerializeItem
-  isSpec: "True"
-  fullName: Mirror.SyncListBool.SerializeItem
-  nameWithType: SyncListBool.SerializeItem
-- uid: Mirror.SyncListFloat
-  name: SyncListFloat
-  href: api/Mirror.SyncListFloat.html
-  commentId: T:Mirror.SyncListFloat
-  fullName: Mirror.SyncListFloat
-  nameWithType: SyncListFloat
-- uid: Mirror.SyncListFloat.DeserializeItem(Mirror.NetworkReader)
-  name: DeserializeItem(NetworkReader)
-  href: api/Mirror.SyncListFloat.html#Mirror_SyncListFloat_DeserializeItem_Mirror_NetworkReader_
-  commentId: M:Mirror.SyncListFloat.DeserializeItem(Mirror.NetworkReader)
-  fullName: Mirror.SyncListFloat.DeserializeItem(Mirror.NetworkReader)
-  nameWithType: SyncListFloat.DeserializeItem(NetworkReader)
-- uid: Mirror.SyncListFloat.DeserializeItem*
-  name: DeserializeItem
-  href: api/Mirror.SyncListFloat.html#Mirror_SyncListFloat_DeserializeItem_
-  commentId: Overload:Mirror.SyncListFloat.DeserializeItem
-  isSpec: "True"
-  fullName: Mirror.SyncListFloat.DeserializeItem
-  nameWithType: SyncListFloat.DeserializeItem
-- uid: Mirror.SyncListFloat.SerializeItem(Mirror.NetworkWriter,System.Single)
-  name: SerializeItem(NetworkWriter, Single)
-  href: api/Mirror.SyncListFloat.html#Mirror_SyncListFloat_SerializeItem_Mirror_NetworkWriter_System_Single_
-  commentId: M:Mirror.SyncListFloat.SerializeItem(Mirror.NetworkWriter,System.Single)
-  fullName: Mirror.SyncListFloat.SerializeItem(Mirror.NetworkWriter, System.Single)
-  nameWithType: SyncListFloat.SerializeItem(NetworkWriter, Single)
-- uid: Mirror.SyncListFloat.SerializeItem*
-  name: SerializeItem
-  href: api/Mirror.SyncListFloat.html#Mirror_SyncListFloat_SerializeItem_
-  commentId: Overload:Mirror.SyncListFloat.SerializeItem
-  isSpec: "True"
-  fullName: Mirror.SyncListFloat.SerializeItem
-  nameWithType: SyncListFloat.SerializeItem
-- uid: Mirror.SyncListInt
-  name: SyncListInt
-  href: api/Mirror.SyncListInt.html
-  commentId: T:Mirror.SyncListInt
-  fullName: Mirror.SyncListInt
-  nameWithType: SyncListInt
-- uid: Mirror.SyncListInt.DeserializeItem(Mirror.NetworkReader)
-  name: DeserializeItem(NetworkReader)
-  href: api/Mirror.SyncListInt.html#Mirror_SyncListInt_DeserializeItem_Mirror_NetworkReader_
-  commentId: M:Mirror.SyncListInt.DeserializeItem(Mirror.NetworkReader)
-  fullName: Mirror.SyncListInt.DeserializeItem(Mirror.NetworkReader)
-  nameWithType: SyncListInt.DeserializeItem(NetworkReader)
-- uid: Mirror.SyncListInt.DeserializeItem*
-  name: DeserializeItem
-  href: api/Mirror.SyncListInt.html#Mirror_SyncListInt_DeserializeItem_
-  commentId: Overload:Mirror.SyncListInt.DeserializeItem
-  isSpec: "True"
-  fullName: Mirror.SyncListInt.DeserializeItem
-  nameWithType: SyncListInt.DeserializeItem
-- uid: Mirror.SyncListInt.SerializeItem(Mirror.NetworkWriter,System.Int32)
-  name: SerializeItem(NetworkWriter, Int32)
-  href: api/Mirror.SyncListInt.html#Mirror_SyncListInt_SerializeItem_Mirror_NetworkWriter_System_Int32_
-  commentId: M:Mirror.SyncListInt.SerializeItem(Mirror.NetworkWriter,System.Int32)
-  fullName: Mirror.SyncListInt.SerializeItem(Mirror.NetworkWriter, System.Int32)
-  nameWithType: SyncListInt.SerializeItem(NetworkWriter, Int32)
-- uid: Mirror.SyncListInt.SerializeItem*
-  name: SerializeItem
-  href: api/Mirror.SyncListInt.html#Mirror_SyncListInt_SerializeItem_
-  commentId: Overload:Mirror.SyncListInt.SerializeItem
-  isSpec: "True"
-  fullName: Mirror.SyncListInt.SerializeItem
-  nameWithType: SyncListInt.SerializeItem
-- uid: Mirror.SyncListString
-  name: SyncListString
-  href: api/Mirror.SyncListString.html
-  commentId: T:Mirror.SyncListString
-  fullName: Mirror.SyncListString
-  nameWithType: SyncListString
-- uid: Mirror.SyncListString.DeserializeItem(Mirror.NetworkReader)
-  name: DeserializeItem(NetworkReader)
-  href: api/Mirror.SyncListString.html#Mirror_SyncListString_DeserializeItem_Mirror_NetworkReader_
-  commentId: M:Mirror.SyncListString.DeserializeItem(Mirror.NetworkReader)
-  fullName: Mirror.SyncListString.DeserializeItem(Mirror.NetworkReader)
-  nameWithType: SyncListString.DeserializeItem(NetworkReader)
-- uid: Mirror.SyncListString.DeserializeItem*
-  name: DeserializeItem
-  href: api/Mirror.SyncListString.html#Mirror_SyncListString_DeserializeItem_
-  commentId: Overload:Mirror.SyncListString.DeserializeItem
-  isSpec: "True"
-  fullName: Mirror.SyncListString.DeserializeItem
-  nameWithType: SyncListString.DeserializeItem
-- uid: Mirror.SyncListString.SerializeItem(Mirror.NetworkWriter,System.String)
-  name: SerializeItem(NetworkWriter, String)
-  href: api/Mirror.SyncListString.html#Mirror_SyncListString_SerializeItem_Mirror_NetworkWriter_System_String_
-  commentId: M:Mirror.SyncListString.SerializeItem(Mirror.NetworkWriter,System.String)
-  fullName: Mirror.SyncListString.SerializeItem(Mirror.NetworkWriter, System.String)
-  nameWithType: SyncListString.SerializeItem(NetworkWriter, String)
-- uid: Mirror.SyncListString.SerializeItem*
-  name: SerializeItem
-  href: api/Mirror.SyncListString.html#Mirror_SyncListString_SerializeItem_
-  commentId: Overload:Mirror.SyncListString.SerializeItem
-  isSpec: "True"
-  fullName: Mirror.SyncListString.SerializeItem
-  nameWithType: SyncListString.SerializeItem
-- uid: Mirror.SyncListUInt
-  name: SyncListUInt
-  href: api/Mirror.SyncListUInt.html
-  commentId: T:Mirror.SyncListUInt
-  fullName: Mirror.SyncListUInt
-  nameWithType: SyncListUInt
-- uid: Mirror.SyncListUInt.DeserializeItem(Mirror.NetworkReader)
-  name: DeserializeItem(NetworkReader)
-  href: api/Mirror.SyncListUInt.html#Mirror_SyncListUInt_DeserializeItem_Mirror_NetworkReader_
-  commentId: M:Mirror.SyncListUInt.DeserializeItem(Mirror.NetworkReader)
-  fullName: Mirror.SyncListUInt.DeserializeItem(Mirror.NetworkReader)
-  nameWithType: SyncListUInt.DeserializeItem(NetworkReader)
-- uid: Mirror.SyncListUInt.DeserializeItem*
-  name: DeserializeItem
-  href: api/Mirror.SyncListUInt.html#Mirror_SyncListUInt_DeserializeItem_
-  commentId: Overload:Mirror.SyncListUInt.DeserializeItem
-  isSpec: "True"
-  fullName: Mirror.SyncListUInt.DeserializeItem
-  nameWithType: SyncListUInt.DeserializeItem
-- uid: Mirror.SyncListUInt.SerializeItem(Mirror.NetworkWriter,System.UInt32)
-  name: SerializeItem(NetworkWriter, UInt32)
-  href: api/Mirror.SyncListUInt.html#Mirror_SyncListUInt_SerializeItem_Mirror_NetworkWriter_System_UInt32_
-  commentId: M:Mirror.SyncListUInt.SerializeItem(Mirror.NetworkWriter,System.UInt32)
-  fullName: Mirror.SyncListUInt.SerializeItem(Mirror.NetworkWriter, System.UInt32)
-  nameWithType: SyncListUInt.SerializeItem(NetworkWriter, UInt32)
-- uid: Mirror.SyncListUInt.SerializeItem*
-  name: SerializeItem
-  href: api/Mirror.SyncListUInt.html#Mirror_SyncListUInt_SerializeItem_
-  commentId: Overload:Mirror.SyncListUInt.SerializeItem
-  isSpec: "True"
-  fullName: Mirror.SyncListUInt.SerializeItem
-  nameWithType: SyncListUInt.SerializeItem
 - uid: Mirror.SyncMode
   name: SyncMode
   href: api/Mirror.SyncMode.html
@@ -10976,23 +10722,6 @@ references:
   fullName.vb: Mirror.SyncSet(Of T).Count
   nameWithType: SyncSet<T>.Count
   nameWithType.vb: SyncSet(Of T).Count
-- uid: Mirror.SyncSet`1.DeserializeItem(Mirror.NetworkReader)
-  name: DeserializeItem(NetworkReader)
-  href: api/Mirror.SyncSet-1.html#Mirror_SyncSet_1_DeserializeItem_Mirror_NetworkReader_
-  commentId: M:Mirror.SyncSet`1.DeserializeItem(Mirror.NetworkReader)
-  fullName: Mirror.SyncSet<T>.DeserializeItem(Mirror.NetworkReader)
-  fullName.vb: Mirror.SyncSet(Of T).DeserializeItem(Mirror.NetworkReader)
-  nameWithType: SyncSet<T>.DeserializeItem(NetworkReader)
-  nameWithType.vb: SyncSet(Of T).DeserializeItem(NetworkReader)
-- uid: Mirror.SyncSet`1.DeserializeItem*
-  name: DeserializeItem
-  href: api/Mirror.SyncSet-1.html#Mirror_SyncSet_1_DeserializeItem_
-  commentId: Overload:Mirror.SyncSet`1.DeserializeItem
-  isSpec: "True"
-  fullName: Mirror.SyncSet<T>.DeserializeItem
-  fullName.vb: Mirror.SyncSet(Of T).DeserializeItem
-  nameWithType: SyncSet<T>.DeserializeItem
-  nameWithType.vb: SyncSet(Of T).DeserializeItem
 - uid: Mirror.SyncSet`1.ExceptWith(IEnumerable{`0})
   name: ExceptWith(IEnumerable<T>)
   href: api/Mirror.SyncSet-1.html#Mirror_SyncSet_1_ExceptWith_IEnumerable__0__
@@ -11329,23 +11058,6 @@ references:
   fullName.vb: Mirror.SyncSet(Of T).Reset
   nameWithType: SyncSet<T>.Reset
   nameWithType.vb: SyncSet(Of T).Reset
-- uid: Mirror.SyncSet`1.SerializeItem(Mirror.NetworkWriter,`0)
-  name: SerializeItem(NetworkWriter, T)
-  href: api/Mirror.SyncSet-1.html#Mirror_SyncSet_1_SerializeItem_Mirror_NetworkWriter__0_
-  commentId: M:Mirror.SyncSet`1.SerializeItem(Mirror.NetworkWriter,`0)
-  fullName: Mirror.SyncSet<T>.SerializeItem(Mirror.NetworkWriter, T)
-  fullName.vb: Mirror.SyncSet(Of T).SerializeItem(Mirror.NetworkWriter, T)
-  nameWithType: SyncSet<T>.SerializeItem(NetworkWriter, T)
-  nameWithType.vb: SyncSet(Of T).SerializeItem(NetworkWriter, T)
-- uid: Mirror.SyncSet`1.SerializeItem*
-  name: SerializeItem
-  href: api/Mirror.SyncSet-1.html#Mirror_SyncSet_1_SerializeItem_
-  commentId: Overload:Mirror.SyncSet`1.SerializeItem
-  isSpec: "True"
-  fullName: Mirror.SyncSet<T>.SerializeItem
-  fullName.vb: Mirror.SyncSet(Of T).SerializeItem
-  nameWithType: SyncSet<T>.SerializeItem
-  nameWithType.vb: SyncSet(Of T).SerializeItem
 - uid: Mirror.SyncSet`1.SetEquals(IEnumerable{`0})
   name: SetEquals(IEnumerable<T>)
   href: api/Mirror.SyncSet-1.html#Mirror_SyncSet_1_SetEquals_IEnumerable__0__
