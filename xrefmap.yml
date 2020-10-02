@@ -1315,12 +1315,6 @@ references:
   commentId: F:Mirror.ConnectState.Disconnected
   fullName: Mirror.ConnectState.Disconnected
   nameWithType: ConnectState.Disconnected
-- uid: Mirror.ConnectState.None
-  name: None
-  href: api/Mirror.ConnectState.html#Mirror_ConnectState_None
-  commentId: F:Mirror.ConnectState.None
-  fullName: Mirror.ConnectState.None
-  nameWithType: ConnectState.None
 - uid: Mirror.Discovery
   name: Mirror.Discovery
   href: api/Mirror.Discovery.html
