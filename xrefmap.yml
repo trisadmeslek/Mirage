@@ -9416,6 +9416,14 @@ references:
   fullName.vb: Mirror.SyncHashSet(Of T)
   nameWithType: SyncHashSet<T>
   nameWithType.vb: SyncHashSet(Of T)
+- uid: Mirror.SyncHashSet`1.#ctor
+  name: SyncHashSet()
+  href: api/Mirror.SyncHashSet-1.html#Mirror_SyncHashSet_1__ctor
+  commentId: M:Mirror.SyncHashSet`1.#ctor
+  fullName: Mirror.SyncHashSet<T>.SyncHashSet()
+  fullName.vb: Mirror.SyncHashSet(Of T).SyncHashSet()
+  nameWithType: SyncHashSet<T>.SyncHashSet()
+  nameWithType.vb: SyncHashSet(Of T).SyncHashSet()
 - uid: Mirror.SyncHashSet`1.#ctor(IEqualityComparer{`0})
   name: SyncHashSet(IEqualityComparer<T>)
   href: api/Mirror.SyncHashSet-1.html#Mirror_SyncHashSet_1__ctor_IEqualityComparer__0__
@@ -11030,6 +11038,14 @@ references:
   fullName.vb: Mirror.SyncSortedSet(Of T)
   nameWithType: SyncSortedSet<T>
   nameWithType.vb: SyncSortedSet(Of T)
+- uid: Mirror.SyncSortedSet`1.#ctor
+  name: SyncSortedSet()
+  href: api/Mirror.SyncSortedSet-1.html#Mirror_SyncSortedSet_1__ctor
+  commentId: M:Mirror.SyncSortedSet`1.#ctor
+  fullName: Mirror.SyncSortedSet<T>.SyncSortedSet()
+  fullName.vb: Mirror.SyncSortedSet(Of T).SyncSortedSet()
+  nameWithType: SyncSortedSet<T>.SyncSortedSet()
+  nameWithType.vb: SyncSortedSet(Of T).SyncSortedSet()
 - uid: Mirror.SyncSortedSet`1.#ctor(IComparer{`0})
   name: SyncSortedSet(IComparer<T>)
   href: api/Mirror.SyncSortedSet-1.html#Mirror_SyncSortedSet_1__ctor_IComparer__0__

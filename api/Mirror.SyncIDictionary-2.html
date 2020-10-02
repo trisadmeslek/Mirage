@@ -100,7 +100,7 @@
   <h6><strong>Assembly</strong>: doc.dll</h6>
   <h5 id="Mirror_SyncIDictionary_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class SyncIDictionary&lt;TKey, TValue&gt; : IDictionary&lt;TKey, TValue&gt;, ISyncObject, IReadOnlyDictionary&lt;TKey, TValue&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class SyncIDictionary&lt;TKey, TValue&gt; : IDictionary&lt;TKey, TValue&gt;, ISyncObject, IReadOnlyDictionary&lt;TKey, TValue&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -131,7 +131,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected SyncIDictionary(IDictionary&lt;TKey, TValue&gt; objects)</code></pre>
+    <pre><code class="lang-csharp hljs">public SyncIDictionary(IDictionary&lt;TKey, TValue&gt; objects)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
