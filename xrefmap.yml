@@ -4060,22 +4060,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.DeserializeSyncVars
   nameWithType: NetworkBehaviour.DeserializeSyncVars
-- uid: Mirror.NetworkBehaviour.GetSyncVarGameObject(System.UInt32,GameObject@)
-  name: GetSyncVarGameObject(UInt32, ref GameObject)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetSyncVarGameObject_System_UInt32_GameObject__
-  commentId: M:Mirror.NetworkBehaviour.GetSyncVarGameObject(System.UInt32,GameObject@)
-  name.vb: GetSyncVarGameObject(UInt32, ByRef GameObject)
-  fullName: Mirror.NetworkBehaviour.GetSyncVarGameObject(System.UInt32, ref GameObject)
-  fullName.vb: Mirror.NetworkBehaviour.GetSyncVarGameObject(System.UInt32, ByRef GameObject)
-  nameWithType: NetworkBehaviour.GetSyncVarGameObject(UInt32, ref GameObject)
-  nameWithType.vb: NetworkBehaviour.GetSyncVarGameObject(UInt32, ByRef GameObject)
-- uid: Mirror.NetworkBehaviour.GetSyncVarGameObject*
-  name: GetSyncVarGameObject
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetSyncVarGameObject_
-  commentId: Overload:Mirror.NetworkBehaviour.GetSyncVarGameObject
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.GetSyncVarGameObject
-  nameWithType: NetworkBehaviour.GetSyncVarGameObject
 - uid: Mirror.NetworkBehaviour.GetSyncVarHookGuard(System.UInt64)
   name: GetSyncVarHookGuard(UInt64)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetSyncVarHookGuard_System_UInt64_
@@ -4433,22 +4417,6 @@ references:
   fullName.vb: Mirror.NetworkBehaviour.SetSyncVar(Of T)(T, ByRef T, System.UInt64)
   nameWithType: NetworkBehaviour.SetSyncVar<T>(T, ref T, UInt64)
   nameWithType.vb: NetworkBehaviour.SetSyncVar(Of T)(T, ByRef T, UInt64)
-- uid: Mirror.NetworkBehaviour.SetSyncVarGameObject(GameObject,GameObject@,System.UInt64,System.UInt32@)
-  name: SetSyncVarGameObject(GameObject, ref GameObject, UInt64, ref UInt32)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SetSyncVarGameObject_GameObject_GameObject__System_UInt64_System_UInt32__
-  commentId: M:Mirror.NetworkBehaviour.SetSyncVarGameObject(GameObject,GameObject@,System.UInt64,System.UInt32@)
-  name.vb: SetSyncVarGameObject(GameObject, ByRef GameObject, UInt64, ByRef UInt32)
-  fullName: Mirror.NetworkBehaviour.SetSyncVarGameObject(GameObject, ref GameObject, System.UInt64, ref System.UInt32)
-  fullName.vb: Mirror.NetworkBehaviour.SetSyncVarGameObject(GameObject, ByRef GameObject, System.UInt64, ByRef System.UInt32)
-  nameWithType: NetworkBehaviour.SetSyncVarGameObject(GameObject, ref GameObject, UInt64, ref UInt32)
-  nameWithType.vb: NetworkBehaviour.SetSyncVarGameObject(GameObject, ByRef GameObject, UInt64, ByRef UInt32)
-- uid: Mirror.NetworkBehaviour.SetSyncVarGameObject*
-  name: SetSyncVarGameObject
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SetSyncVarGameObject_
-  commentId: Overload:Mirror.NetworkBehaviour.SetSyncVarGameObject
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.SetSyncVarGameObject
-  nameWithType: NetworkBehaviour.SetSyncVarGameObject
 - uid: Mirror.NetworkBehaviour.SetSyncVarHookGuard(System.UInt64,System.Boolean)
   name: SetSyncVarHookGuard(UInt64, Boolean)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SetSyncVarHookGuard_System_UInt64_System_Boolean_
@@ -4525,19 +4493,6 @@ references:
   fullName.vb: Mirror.NetworkBehaviour.SyncVarEqual(Of T)(T, ByRef T)
   nameWithType: NetworkBehaviour.SyncVarEqual<T>(T, ref T)
   nameWithType.vb: NetworkBehaviour.SyncVarEqual(Of T)(T, ByRef T)
-- uid: Mirror.NetworkBehaviour.SyncVarGameObjectEqual(GameObject,System.UInt32)
-  name: SyncVarGameObjectEqual(GameObject, UInt32)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SyncVarGameObjectEqual_GameObject_System_UInt32_
-  commentId: M:Mirror.NetworkBehaviour.SyncVarGameObjectEqual(GameObject,System.UInt32)
-  fullName: Mirror.NetworkBehaviour.SyncVarGameObjectEqual(GameObject, System.UInt32)
-  nameWithType: NetworkBehaviour.SyncVarGameObjectEqual(GameObject, UInt32)
-- uid: Mirror.NetworkBehaviour.SyncVarGameObjectEqual*
-  name: SyncVarGameObjectEqual
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SyncVarGameObjectEqual_
-  commentId: Overload:Mirror.NetworkBehaviour.SyncVarGameObjectEqual
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.SyncVarGameObjectEqual
-  nameWithType: NetworkBehaviour.SyncVarGameObjectEqual
 - uid: Mirror.NetworkBehaviour.SyncVarNetworkIdentityEqual(Mirror.NetworkIdentity,System.UInt32)
   name: SyncVarNetworkIdentityEqual(NetworkIdentity, UInt32)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SyncVarNetworkIdentityEqual_Mirror_NetworkIdentity_System_UInt32_
@@ -6245,19 +6200,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkReaderExtensions.ReadDouble
   nameWithType: NetworkReaderExtensions.ReadDouble
-- uid: Mirror.NetworkReaderExtensions.ReadGameObject(Mirror.NetworkReader)
-  name: ReadGameObject(NetworkReader)
-  href: api/Mirror.NetworkReaderExtensions.html#Mirror_NetworkReaderExtensions_ReadGameObject_Mirror_NetworkReader_
-  commentId: M:Mirror.NetworkReaderExtensions.ReadGameObject(Mirror.NetworkReader)
-  fullName: Mirror.NetworkReaderExtensions.ReadGameObject(Mirror.NetworkReader)
-  nameWithType: NetworkReaderExtensions.ReadGameObject(NetworkReader)
-- uid: Mirror.NetworkReaderExtensions.ReadGameObject*
-  name: ReadGameObject
-  href: api/Mirror.NetworkReaderExtensions.html#Mirror_NetworkReaderExtensions_ReadGameObject_
-  commentId: Overload:Mirror.NetworkReaderExtensions.ReadGameObject
-  isSpec: "True"
-  fullName: Mirror.NetworkReaderExtensions.ReadGameObject
-  nameWithType: NetworkReaderExtensions.ReadGameObject
 - uid: Mirror.NetworkReaderExtensions.ReadGuid(Mirror.NetworkReader)
   name: ReadGuid(NetworkReader)
   href: api/Mirror.NetworkReaderExtensions.html#Mirror_NetworkReaderExtensions_ReadGuid_Mirror_NetworkReader_
@@ -6479,19 +6421,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkReaderExtensions.ReadString
   nameWithType: NetworkReaderExtensions.ReadString
-- uid: Mirror.NetworkReaderExtensions.ReadTransform(Mirror.NetworkReader)
-  name: ReadTransform(NetworkReader)
-  href: api/Mirror.NetworkReaderExtensions.html#Mirror_NetworkReaderExtensions_ReadTransform_Mirror_NetworkReader_
-  commentId: M:Mirror.NetworkReaderExtensions.ReadTransform(Mirror.NetworkReader)
-  fullName: Mirror.NetworkReaderExtensions.ReadTransform(Mirror.NetworkReader)
-  nameWithType: NetworkReaderExtensions.ReadTransform(NetworkReader)
-- uid: Mirror.NetworkReaderExtensions.ReadTransform*
-  name: ReadTransform
-  href: api/Mirror.NetworkReaderExtensions.html#Mirror_NetworkReaderExtensions_ReadTransform_
-  commentId: Overload:Mirror.NetworkReaderExtensions.ReadTransform
-  isSpec: "True"
-  fullName: Mirror.NetworkReaderExtensions.ReadTransform
-  nameWithType: NetworkReaderExtensions.ReadTransform
 - uid: Mirror.NetworkReaderExtensions.ReadUInt16(Mirror.NetworkReader)
   name: ReadUInt16(NetworkReader)
   href: api/Mirror.NetworkReaderExtensions.html#Mirror_NetworkReaderExtensions_ReadUInt16_Mirror_NetworkReader_
@@ -7928,19 +7857,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkWriterExtensions.WriteDouble
   nameWithType: NetworkWriterExtensions.WriteDouble
-- uid: Mirror.NetworkWriterExtensions.WriteGameObject(Mirror.NetworkWriter,GameObject)
-  name: WriteGameObject(NetworkWriter, GameObject)
-  href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteGameObject_Mirror_NetworkWriter_GameObject_
-  commentId: M:Mirror.NetworkWriterExtensions.WriteGameObject(Mirror.NetworkWriter,GameObject)
-  fullName: Mirror.NetworkWriterExtensions.WriteGameObject(Mirror.NetworkWriter, GameObject)
-  nameWithType: NetworkWriterExtensions.WriteGameObject(NetworkWriter, GameObject)
-- uid: Mirror.NetworkWriterExtensions.WriteGameObject*
-  name: WriteGameObject
-  href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteGameObject_
-  commentId: Overload:Mirror.NetworkWriterExtensions.WriteGameObject
-  isSpec: "True"
-  fullName: Mirror.NetworkWriterExtensions.WriteGameObject
-  nameWithType: NetworkWriterExtensions.WriteGameObject
 - uid: Mirror.NetworkWriterExtensions.WriteGuid(Mirror.NetworkWriter,Guid)
   name: WriteGuid(NetworkWriter, Guid)
   href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteGuid_Mirror_NetworkWriter_Guid_
@@ -8136,19 +8052,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkWriterExtensions.WriteString
   nameWithType: NetworkWriterExtensions.WriteString
-- uid: Mirror.NetworkWriterExtensions.WriteTransform(Mirror.NetworkWriter,Transform)
-  name: WriteTransform(NetworkWriter, Transform)
-  href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteTransform_Mirror_NetworkWriter_Transform_
-  commentId: M:Mirror.NetworkWriterExtensions.WriteTransform(Mirror.NetworkWriter,Transform)
-  fullName: Mirror.NetworkWriterExtensions.WriteTransform(Mirror.NetworkWriter, Transform)
-  nameWithType: NetworkWriterExtensions.WriteTransform(NetworkWriter, Transform)
-- uid: Mirror.NetworkWriterExtensions.WriteTransform*
-  name: WriteTransform
-  href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteTransform_
-  commentId: Overload:Mirror.NetworkWriterExtensions.WriteTransform
-  isSpec: "True"
-  fullName: Mirror.NetworkWriterExtensions.WriteTransform
-  nameWithType: NetworkWriterExtensions.WriteTransform
 - uid: Mirror.NetworkWriterExtensions.WriteUInt16(Mirror.NetworkWriter,System.UInt16)
   name: WriteUInt16(NetworkWriter, UInt16)
   href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteUInt16_Mirror_NetworkWriter_System_UInt16_
