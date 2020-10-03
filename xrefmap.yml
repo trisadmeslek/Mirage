@@ -3253,6 +3253,12 @@ references:
   isSpec: "True"
   fullName: Mirror.ISyncObject.IsDirty
   nameWithType: ISyncObject.IsDirty
+- uid: Mirror.ISyncObject.OnChange
+  name: OnChange
+  href: api/Mirror.ISyncObject.html#Mirror_ISyncObject_OnChange
+  commentId: E:Mirror.ISyncObject.OnChange
+  fullName: Mirror.ISyncObject.OnChange
+  nameWithType: ISyncObject.OnChange
 - uid: Mirror.ISyncObject.OnDeserializeAll(Mirror.NetworkReader)
   name: OnDeserializeAll(NetworkReader)
   href: api/Mirror.ISyncObject.html#Mirror_ISyncObject_OnDeserializeAll_Mirror_NetworkReader_
