@@ -8923,18 +8923,6 @@ references:
   fullName.vb: Mirror.SyncDictionary(Of TKey, TValue).Values
   nameWithType: SyncDictionary<TKey, TValue>.Values
   nameWithType.vb: SyncDictionary(Of TKey, TValue).Values
-- uid: Mirror.SyncEventAttribute
-  name: SyncEventAttribute
-  href: api/Mirror.SyncEventAttribute.html
-  commentId: T:Mirror.SyncEventAttribute
-  fullName: Mirror.SyncEventAttribute
-  nameWithType: SyncEventAttribute
-- uid: Mirror.SyncEventAttribute.channel
-  name: channel
-  href: api/Mirror.SyncEventAttribute.html#Mirror_SyncEventAttribute_channel
-  commentId: F:Mirror.SyncEventAttribute.channel
-  fullName: Mirror.SyncEventAttribute.channel
-  nameWithType: SyncEventAttribute.channel
 - uid: Mirror.SyncHashSet`1
   name: SyncHashSet<T>
   href: api/Mirror.SyncHashSet-1.html
