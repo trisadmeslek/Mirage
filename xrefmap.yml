@@ -5539,50 +5539,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.IsNetworkActive
   nameWithType: NetworkManager.IsNetworkActive
-- uid: Mirror.NetworkManager.OnStartHost
-  name: OnStartHost
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnStartHost
-  commentId: F:Mirror.NetworkManager.OnStartHost
-  fullName: Mirror.NetworkManager.OnStartHost
-  nameWithType: NetworkManager.OnStartHost
-- uid: Mirror.NetworkManager.OnStopHost
-  name: OnStopHost
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_OnStopHost
-  commentId: F:Mirror.NetworkManager.OnStopHost
-  fullName: Mirror.NetworkManager.OnStopHost
-  nameWithType: NetworkManager.OnStopHost
 - uid: Mirror.NetworkManager.server
   name: server
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_server
   commentId: F:Mirror.NetworkManager.server
   fullName: Mirror.NetworkManager.server
   nameWithType: NetworkManager.server
-- uid: Mirror.NetworkManager.StartHost
-  name: StartHost()
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_StartHost
-  commentId: M:Mirror.NetworkManager.StartHost
-  fullName: Mirror.NetworkManager.StartHost()
-  nameWithType: NetworkManager.StartHost()
-- uid: Mirror.NetworkManager.StartHost*
-  name: StartHost
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_StartHost_
-  commentId: Overload:Mirror.NetworkManager.StartHost
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.StartHost
-  nameWithType: NetworkManager.StartHost
-- uid: Mirror.NetworkManager.StopHost
-  name: StopHost()
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_StopHost
-  commentId: M:Mirror.NetworkManager.StopHost
-  fullName: Mirror.NetworkManager.StopHost()
-  nameWithType: NetworkManager.StopHost()
-- uid: Mirror.NetworkManager.StopHost*
-  name: StopHost
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_StopHost_
-  commentId: Overload:Mirror.NetworkManager.StopHost
-  isSpec: "True"
-  fullName: Mirror.NetworkManager.StopHost
-  nameWithType: NetworkManager.StopHost
 - uid: Mirror.NetworkManagerHud
   name: NetworkManagerHud
   href: api/Mirror.NetworkManagerHud.html
@@ -6971,6 +6933,18 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkServer.NumPlayers
   nameWithType: NetworkServer.NumPlayers
+- uid: Mirror.NetworkServer.OnStartHost
+  name: OnStartHost
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_OnStartHost
+  commentId: F:Mirror.NetworkServer.OnStartHost
+  fullName: Mirror.NetworkServer.OnStartHost
+  nameWithType: NetworkServer.OnStartHost
+- uid: Mirror.NetworkServer.OnStopHost
+  name: OnStopHost
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_OnStopHost
+  commentId: F:Mirror.NetworkServer.OnStopHost
+  fullName: Mirror.NetworkServer.OnStopHost
+  nameWithType: NetworkServer.OnStopHost
 - uid: Mirror.NetworkServer.RemoveConnection(Mirror.INetworkConnection)
   name: RemoveConnection(INetworkConnection)
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_RemoveConnection_Mirror_INetworkConnection_
@@ -7162,6 +7136,32 @@ references:
   commentId: F:Mirror.NetworkServer.Started
   fullName: Mirror.NetworkServer.Started
   nameWithType: NetworkServer.Started
+- uid: Mirror.NetworkServer.StartHost(Mirror.NetworkClient)
+  name: StartHost(NetworkClient)
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_StartHost_Mirror_NetworkClient_
+  commentId: M:Mirror.NetworkServer.StartHost(Mirror.NetworkClient)
+  fullName: Mirror.NetworkServer.StartHost(Mirror.NetworkClient)
+  nameWithType: NetworkServer.StartHost(NetworkClient)
+- uid: Mirror.NetworkServer.StartHost*
+  name: StartHost
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_StartHost_
+  commentId: Overload:Mirror.NetworkServer.StartHost
+  isSpec: "True"
+  fullName: Mirror.NetworkServer.StartHost
+  nameWithType: NetworkServer.StartHost
+- uid: Mirror.NetworkServer.StopHost
+  name: StopHost()
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_StopHost
+  commentId: M:Mirror.NetworkServer.StopHost
+  fullName: Mirror.NetworkServer.StopHost()
+  nameWithType: NetworkServer.StopHost()
+- uid: Mirror.NetworkServer.StopHost*
+  name: StopHost
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_StopHost_
+  commentId: Overload:Mirror.NetworkServer.StopHost
+  isSpec: "True"
+  fullName: Mirror.NetworkServer.StopHost
+  nameWithType: NetworkServer.StopHost
 - uid: Mirror.NetworkServer.Stopped
   name: Stopped
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Stopped

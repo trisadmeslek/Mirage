@@ -90,15 +90,11 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">NetworkManager</span></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="Mirror.INetworkManager.html">INetworkManager</a></div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.html">Mirror</a></h6>
   <h6><strong>Assembly</strong>: doc.dll</h6>
   <h5 id="Mirror_NetworkManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class NetworkManager : MonoBehaviour, INetworkManager</code></pre>
+    <pre><code class="lang-csharp hljs">public class NetworkManager : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -122,57 +118,6 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Mirror.NetworkClient.html">NetworkClient</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Mirror_NetworkManager_OnStartHost" data-uid="Mirror.NetworkManager.OnStartHost">OnStartHost</h4>
-  <div class="markdown level1 summary"><p>This is invoked when a host is started.</p>
-<p>StartHost has multiple signatures, but they all cause this hook to be called.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent OnStartHost</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEvent</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Mirror_NetworkManager_OnStopHost" data-uid="Mirror.NetworkManager.OnStopHost">OnStopHost</h4>
-  <div class="markdown level1 summary"><p>This is called when a host is stopped.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent OnStopHost</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEvent</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -230,50 +175,6 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="Mirror_NetworkManager_StartHost_" data-uid="Mirror.NetworkManager.StartHost*"></a>
-  <h4 id="Mirror_NetworkManager_StartHost" data-uid="Mirror.NetworkManager.StartHost">StartHost()</h4>
-  <div class="markdown level1 summary"><p>This starts a network &quot;host&quot; - a server and client in the same application.</p>
-<p>The client returned from StartHost() is a special &quot;local&quot; client that communicates to the in-process server using a message queue instead of the real network. But in almost all other cases, it can be treated as a normal client.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task StartHost()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Mirror_NetworkManager_StopHost_" data-uid="Mirror.NetworkManager.StopHost*"></a>
-  <h4 id="Mirror_NetworkManager_StopHost" data-uid="Mirror.NetworkManager.StopHost">StopHost()</h4>
-  <div class="markdown level1 summary"><p>This stops both the client and the server that the manager is using.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void StopHost()</code></pre>
-  </div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Mirror.INetworkManager.html">INetworkManager</a>
-  </div>
 </article>
           </div>
           

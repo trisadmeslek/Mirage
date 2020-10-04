@@ -288,6 +288,57 @@
   </table>
   
   
+  <h4 id="Mirror_NetworkServer_OnStartHost" data-uid="Mirror.NetworkServer.OnStartHost">OnStartHost</h4>
+  <div class="markdown level1 summary"><p>This is invoked when a host is started.</p>
+<p>StartHost has multiple signatures, but they all cause this hook to be called.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent OnStartHost</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Mirror_NetworkServer_OnStopHost" data-uid="Mirror.NetworkServer.OnStopHost">OnStopHost</h4>
+  <div class="markdown level1 summary"><p>This is called when a host is stopped.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent OnStopHost</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Mirror_NetworkServer_Spawned" data-uid="Mirror.NetworkServer.Spawned">Spawned</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -1425,6 +1476,61 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Mirror_NetworkServer_StartHost_" data-uid="Mirror.NetworkServer.StartHost*"></a>
+  <h4 id="Mirror_NetworkServer_StartHost_Mirror_NetworkClient_" data-uid="Mirror.NetworkServer.StartHost(Mirror.NetworkClient)">StartHost(NetworkClient)</h4>
+  <div class="markdown level1 summary"><p>This starts a network &quot;host&quot; - a server and client in the same application.</p>
+<p>The client returned from StartHost() is a special &quot;local&quot; client that communicates to the in-process server using a message queue instead of the real network. But in almost all other cases, it can be treated as a normal client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task StartHost(NetworkClient client)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkClient.html">NetworkClient</a></td>
+        <td><span class="parametername">client</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mirror_NetworkServer_StopHost_" data-uid="Mirror.NetworkServer.StopHost*"></a>
+  <h4 id="Mirror_NetworkServer_StopHost" data-uid="Mirror.NetworkServer.StopHost">StopHost()</h4>
+  <div class="markdown level1 summary"><p>This stops both the client and the server that the manager is using.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopHost()</code></pre>
+  </div>
   
   
   <a id="Mirror_NetworkServer_UnSpawn_" data-uid="Mirror.NetworkServer.UnSpawn*"></a>
