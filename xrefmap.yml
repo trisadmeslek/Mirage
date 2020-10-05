@@ -4452,6 +4452,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.SetSyncVarNetworkIdentity
   nameWithType: NetworkBehaviour.SetSyncVarNetworkIdentity
+- uid: Mirror.NetworkBehaviour.StillDirty
+  name: StillDirty()
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_StillDirty
+  commentId: M:Mirror.NetworkBehaviour.StillDirty
+  fullName: Mirror.NetworkBehaviour.StillDirty()
+  nameWithType: NetworkBehaviour.StillDirty()
+- uid: Mirror.NetworkBehaviour.StillDirty*
+  name: StillDirty
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_StillDirty_
+  commentId: Overload:Mirror.NetworkBehaviour.StillDirty
+  isSpec: "True"
+  fullName: Mirror.NetworkBehaviour.StillDirty
+  nameWithType: NetworkBehaviour.StillDirty
 - uid: Mirror.NetworkBehaviour.syncInterval
   name: syncInterval
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_syncInterval
@@ -6824,6 +6837,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkServer.Destroy
   nameWithType: NetworkServer.Destroy
+- uid: Mirror.NetworkServer.DirtyObjects
+  name: DirtyObjects
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_DirtyObjects
+  commentId: F:Mirror.NetworkServer.DirtyObjects
+  fullName: Mirror.NetworkServer.DirtyObjects
+  nameWithType: NetworkServer.DirtyObjects
 - uid: Mirror.NetworkServer.Disconnect
   name: Disconnect()
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Disconnect
