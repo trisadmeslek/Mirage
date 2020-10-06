@@ -94,13 +94,12 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Mirror.INetworkServer.html">INetworkServer</a></div>
-    <div><a class="xref" href="Mirror.IServerSceneManager.html">IServerSceneManager</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.html">Mirror</a></h6>
   <h6><strong>Assembly</strong>: doc.dll</h6>
   <h5 id="Mirror_NetworkServer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class NetworkServer : MonoBehaviour, INetworkServer, IServerSceneManager</code></pre>
+    <pre><code class="lang-csharp hljs">public class NetworkServer : MonoBehaviour, INetworkServer</code></pre>
   </div>
   <h5 id="Mirror_NetworkServer_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>NetworkServer handles remote connections from remote clients via a NetworkServerSimple instance, and also has a local connection for a local client.</p>
@@ -1062,8 +1061,7 @@
   
   <a id="Mirror_NetworkServer_SendToAll_" data-uid="Mirror.NetworkServer.SendToAll*"></a>
   <h4 id="Mirror_NetworkServer_SendToAll__1___0_System_Int32_" data-uid="Mirror.NetworkServer.SendToAll``1(``0,System.Int32)">SendToAll&lt;T&gt;(T, Int32)</h4>
-  <div class="markdown level1 summary"><p>Send a message to all connected clients, both ready and not-ready.</p>
-<p>See <a class="xref" href="Mirror.NetworkConnection.html#Mirror_NetworkConnection_IsReady">IsReady</a></p>
+  <div class="markdown level1 summary"><p>Send a message to all connected clients.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1589,9 +1587,6 @@
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Mirror.INetworkServer.html">INetworkServer</a>
-  </div>
-  <div>
-      <a class="xref" href="Mirror.IServerSceneManager.html">IServerSceneManager</a>
   </div>
 </article>
           </div>

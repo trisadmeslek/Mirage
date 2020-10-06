@@ -2932,31 +2932,6 @@ references:
   fullName.vb: Mirror.INetworkServer.SendToAll(Of T)(T, System.Int32)
   nameWithType: INetworkServer.SendToAll<T>(T, Int32)
   nameWithType.vb: INetworkServer.SendToAll(Of T)(T, Int32)
-- uid: Mirror.INetworkServer.SendToReady*
-  name: SendToReady
-  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SendToReady_
-  commentId: Overload:Mirror.INetworkServer.SendToReady
-  isSpec: "True"
-  fullName: Mirror.INetworkServer.SendToReady
-  nameWithType: INetworkServer.SendToReady
-- uid: Mirror.INetworkServer.SendToReady``1(Mirror.NetworkIdentity,``0,System.Boolean,System.Int32)
-  name: SendToReady<T>(NetworkIdentity, T, Boolean, Int32)
-  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SendToReady__1_Mirror_NetworkIdentity___0_System_Boolean_System_Int32_
-  commentId: M:Mirror.INetworkServer.SendToReady``1(Mirror.NetworkIdentity,``0,System.Boolean,System.Int32)
-  name.vb: SendToReady(Of T)(NetworkIdentity, T, Boolean, Int32)
-  fullName: Mirror.INetworkServer.SendToReady<T>(Mirror.NetworkIdentity, T, System.Boolean, System.Int32)
-  fullName.vb: Mirror.INetworkServer.SendToReady(Of T)(Mirror.NetworkIdentity, T, System.Boolean, System.Int32)
-  nameWithType: INetworkServer.SendToReady<T>(NetworkIdentity, T, Boolean, Int32)
-  nameWithType.vb: INetworkServer.SendToReady(Of T)(NetworkIdentity, T, Boolean, Int32)
-- uid: Mirror.INetworkServer.SendToReady``1(Mirror.NetworkIdentity,``0,System.Int32)
-  name: SendToReady<T>(NetworkIdentity, T, Int32)
-  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SendToReady__1_Mirror_NetworkIdentity___0_System_Int32_
-  commentId: M:Mirror.INetworkServer.SendToReady``1(Mirror.NetworkIdentity,``0,System.Int32)
-  name.vb: SendToReady(Of T)(NetworkIdentity, T, Int32)
-  fullName: Mirror.INetworkServer.SendToReady<T>(Mirror.NetworkIdentity, T, System.Int32)
-  fullName.vb: Mirror.INetworkServer.SendToReady(Of T)(Mirror.NetworkIdentity, T, System.Int32)
-  nameWithType: INetworkServer.SendToReady<T>(NetworkIdentity, T, Int32)
-  nameWithType.vb: INetworkServer.SendToReady(Of T)(NetworkIdentity, T, Int32)
 - uid: Mirror.InvalidMessageException
   name: InvalidMessageException
   href: api/Mirror.InvalidMessageException.html
@@ -3176,51 +3151,6 @@ references:
   isSpec: "True"
   fullName: Mirror.IServerObjectManager.UnSpawn
   nameWithType: IServerObjectManager.UnSpawn
-- uid: Mirror.IServerSceneManager
-  name: IServerSceneManager
-  href: api/Mirror.IServerSceneManager.html
-  commentId: T:Mirror.IServerSceneManager
-  fullName: Mirror.IServerSceneManager
-  nameWithType: IServerSceneManager
-- uid: Mirror.IServerSceneManager.SetAllClientsNotReady
-  name: SetAllClientsNotReady()
-  href: api/Mirror.IServerSceneManager.html#Mirror_IServerSceneManager_SetAllClientsNotReady
-  commentId: M:Mirror.IServerSceneManager.SetAllClientsNotReady
-  fullName: Mirror.IServerSceneManager.SetAllClientsNotReady()
-  nameWithType: IServerSceneManager.SetAllClientsNotReady()
-- uid: Mirror.IServerSceneManager.SetAllClientsNotReady*
-  name: SetAllClientsNotReady
-  href: api/Mirror.IServerSceneManager.html#Mirror_IServerSceneManager_SetAllClientsNotReady_
-  commentId: Overload:Mirror.IServerSceneManager.SetAllClientsNotReady
-  isSpec: "True"
-  fullName: Mirror.IServerSceneManager.SetAllClientsNotReady
-  nameWithType: IServerSceneManager.SetAllClientsNotReady
-- uid: Mirror.IServerSceneManager.SetClientNotReady(Mirror.INetworkConnection)
-  name: SetClientNotReady(INetworkConnection)
-  href: api/Mirror.IServerSceneManager.html#Mirror_IServerSceneManager_SetClientNotReady_Mirror_INetworkConnection_
-  commentId: M:Mirror.IServerSceneManager.SetClientNotReady(Mirror.INetworkConnection)
-  fullName: Mirror.IServerSceneManager.SetClientNotReady(Mirror.INetworkConnection)
-  nameWithType: IServerSceneManager.SetClientNotReady(INetworkConnection)
-- uid: Mirror.IServerSceneManager.SetClientNotReady*
-  name: SetClientNotReady
-  href: api/Mirror.IServerSceneManager.html#Mirror_IServerSceneManager_SetClientNotReady_
-  commentId: Overload:Mirror.IServerSceneManager.SetClientNotReady
-  isSpec: "True"
-  fullName: Mirror.IServerSceneManager.SetClientNotReady
-  nameWithType: IServerSceneManager.SetClientNotReady
-- uid: Mirror.IServerSceneManager.SetClientReady(Mirror.INetworkConnection)
-  name: SetClientReady(INetworkConnection)
-  href: api/Mirror.IServerSceneManager.html#Mirror_IServerSceneManager_SetClientReady_Mirror_INetworkConnection_
-  commentId: M:Mirror.IServerSceneManager.SetClientReady(Mirror.INetworkConnection)
-  fullName: Mirror.IServerSceneManager.SetClientReady(Mirror.INetworkConnection)
-  nameWithType: IServerSceneManager.SetClientReady(INetworkConnection)
-- uid: Mirror.IServerSceneManager.SetClientReady*
-  name: SetClientReady
-  href: api/Mirror.IServerSceneManager.html#Mirror_IServerSceneManager_SetClientReady_
-  commentId: Overload:Mirror.IServerSceneManager.SetClientReady
-  isSpec: "True"
-  fullName: Mirror.IServerSceneManager.SetClientReady
-  nameWithType: IServerSceneManager.SetClientReady
 - uid: Mirror.ISyncObject
   name: ISyncObject
   href: api/Mirror.ISyncObject.html
@@ -6661,12 +6591,6 @@ references:
   commentId: F:Mirror.NetworkSceneManager.ClientChangeScene
   fullName: Mirror.NetworkSceneManager.ClientChangeScene
   nameWithType: NetworkSceneManager.ClientChangeScene
-- uid: Mirror.NetworkSceneManager.ClientNotReady
-  name: ClientNotReady
-  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_ClientNotReady
-  commentId: F:Mirror.NetworkSceneManager.ClientNotReady
-  fullName: Mirror.NetworkSceneManager.ClientNotReady
-  nameWithType: NetworkSceneManager.ClientNotReady
 - uid: Mirror.NetworkSceneManager.ClientSceneChanged
   name: ClientSceneChanged
   href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_ClientSceneChanged
