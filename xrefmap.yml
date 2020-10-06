@@ -8294,18 +8294,6 @@ references:
   isSpec: "True"
   fullName: Mirror.ObjectReady.SetClientReady
   nameWithType: ObjectReady.SetClientReady
-- uid: Mirror.ObjectSpawnFinishedMessage
-  name: ObjectSpawnFinishedMessage
-  href: api/Mirror.ObjectSpawnFinishedMessage.html
-  commentId: T:Mirror.ObjectSpawnFinishedMessage
-  fullName: Mirror.ObjectSpawnFinishedMessage
-  nameWithType: ObjectSpawnFinishedMessage
-- uid: Mirror.ObjectSpawnStartedMessage
-  name: ObjectSpawnStartedMessage
-  href: api/Mirror.ObjectSpawnStartedMessage.html
-  commentId: T:Mirror.ObjectSpawnStartedMessage
-  fullName: Mirror.ObjectSpawnStartedMessage
-  nameWithType: ObjectSpawnStartedMessage
 - uid: Mirror.PipeConnection
   name: PipeConnection
   href: api/Mirror.PipeConnection.html
