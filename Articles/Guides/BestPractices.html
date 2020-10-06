@@ -84,14 +84,10 @@
 </blockquote>
 <h2 id="custom-messages">Custom Messages</h2>
 <p>If you send custom message regularly then the message should be a struct so that there is no GC/allocations</p>
-<pre><code class="lang-cs">struct CreateVisualEffect : IMessageBase
+<pre><code class="lang-cs">struct CreateVisualEffect
 {
     public Vector3 position;
     public Guid prefabId;
-
-    // Mirror will automatically implement message that are empty
-    public void Deserialize(NetworkReader reader) { }
-    public void Serialize(NetworkWriter writer) { }
 }
 </code></pre>
 </article>

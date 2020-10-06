@@ -140,7 +140,7 @@ public class NetStreamer : NetworkBehaviour
 <h3 id="7-replace-networkhash128-and-networkinstanceid">7. Replace NetworkHash128 and NetworkInstanceId</h3>
 <p>These have been changed to System.Guid and uint, respectively.</p>
 <p>For example, if you have something like this:</p>
-<pre><code class="lang-cs">public sealed class SpawnItemMessage : MessageBase
+<pre><code class="lang-cs">public sealed class SpawnItemMessage
 {
     public NetworkHash128 assetID;
     public NetworkInstanceId networkInstanceID;
@@ -149,7 +149,7 @@ public class NetStreamer : NetworkBehaviour
 }
 </code></pre>
 <p>replace with:</p>
-<pre><code class="lang-cs">public sealed class SpawnItemMessage : MessageBase
+<pre><code class="lang-cs">public sealed class SpawnItemMessage
 {
     public System.Guid assetID;
     public uint networkInstanceID;
