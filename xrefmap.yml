@@ -2455,25 +2455,6 @@ references:
   isSpec: "True"
   fullName: Mirror.IClientObjectManager.UnregisterSpawnHandler
   nameWithType: IClientObjectManager.UnregisterSpawnHandler
-- uid: Mirror.IClientSceneManager
-  name: IClientSceneManager
-  href: api/Mirror.IClientSceneManager.html
-  commentId: T:Mirror.IClientSceneManager
-  fullName: Mirror.IClientSceneManager
-  nameWithType: IClientSceneManager
-- uid: Mirror.IClientSceneManager.SetClientReady
-  name: SetClientReady()
-  href: api/Mirror.IClientSceneManager.html#Mirror_IClientSceneManager_SetClientReady
-  commentId: M:Mirror.IClientSceneManager.SetClientReady
-  fullName: Mirror.IClientSceneManager.SetClientReady()
-  nameWithType: IClientSceneManager.SetClientReady()
-- uid: Mirror.IClientSceneManager.SetClientReady*
-  name: SetClientReady
-  href: api/Mirror.IClientSceneManager.html#Mirror_IClientSceneManager_SetClientReady_
-  commentId: Overload:Mirror.IClientSceneManager.SetClientReady
-  isSpec: "True"
-  fullName: Mirror.IClientSceneManager.SetClientReady
-  nameWithType: IClientSceneManager.SetClientReady
 - uid: Mirror.IConnection
   name: IConnection
   href: api/Mirror.IConnection.html
@@ -6965,31 +6946,6 @@ references:
   fullName.vb: Mirror.NetworkServer.SendToClientOfPlayer(Of T)(Mirror.NetworkIdentity, T, System.Int32)
   nameWithType: NetworkServer.SendToClientOfPlayer<T>(NetworkIdentity, T, Int32)
   nameWithType.vb: NetworkServer.SendToClientOfPlayer(Of T)(NetworkIdentity, T, Int32)
-- uid: Mirror.NetworkServer.SendToReady*
-  name: SendToReady
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_SendToReady_
-  commentId: Overload:Mirror.NetworkServer.SendToReady
-  isSpec: "True"
-  fullName: Mirror.NetworkServer.SendToReady
-  nameWithType: NetworkServer.SendToReady
-- uid: Mirror.NetworkServer.SendToReady``1(Mirror.NetworkIdentity,``0,System.Boolean,System.Int32)
-  name: SendToReady<T>(NetworkIdentity, T, Boolean, Int32)
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_SendToReady__1_Mirror_NetworkIdentity___0_System_Boolean_System_Int32_
-  commentId: M:Mirror.NetworkServer.SendToReady``1(Mirror.NetworkIdentity,``0,System.Boolean,System.Int32)
-  name.vb: SendToReady(Of T)(NetworkIdentity, T, Boolean, Int32)
-  fullName: Mirror.NetworkServer.SendToReady<T>(Mirror.NetworkIdentity, T, System.Boolean, System.Int32)
-  fullName.vb: Mirror.NetworkServer.SendToReady(Of T)(Mirror.NetworkIdentity, T, System.Boolean, System.Int32)
-  nameWithType: NetworkServer.SendToReady<T>(NetworkIdentity, T, Boolean, Int32)
-  nameWithType.vb: NetworkServer.SendToReady(Of T)(NetworkIdentity, T, Boolean, Int32)
-- uid: Mirror.NetworkServer.SendToReady``1(Mirror.NetworkIdentity,``0,System.Int32)
-  name: SendToReady<T>(NetworkIdentity, T, Int32)
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_SendToReady__1_Mirror_NetworkIdentity___0_System_Int32_
-  commentId: M:Mirror.NetworkServer.SendToReady``1(Mirror.NetworkIdentity,``0,System.Int32)
-  name.vb: SendToReady(Of T)(NetworkIdentity, T, Int32)
-  fullName: Mirror.NetworkServer.SendToReady<T>(Mirror.NetworkIdentity, T, System.Int32)
-  fullName.vb: Mirror.NetworkServer.SendToReady(Of T)(Mirror.NetworkIdentity, T, System.Int32)
-  nameWithType: NetworkServer.SendToReady<T>(NetworkIdentity, T, Int32)
-  nameWithType.vb: NetworkServer.SendToReady(Of T)(NetworkIdentity, T, Int32)
 - uid: Mirror.NetworkServer.SetAllClientsNotReady
   name: SetAllClientsNotReady()
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_SetAllClientsNotReady
