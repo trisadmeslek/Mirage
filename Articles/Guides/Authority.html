@@ -85,7 +85,7 @@
 <h2 id="client-authority">Client Authority</h2>
 <p>Client authority means that the client has control of an object.</p>
 <p>When a client has authority over an object it means that they can call <a href="Communications/RemoteActions.html">ServerRpc</a> and that the object will automatically be destroyed when the client disconnects.</p>
-<p>Even if a client has authority over an object the server still controls SyncVar and control other serialization features. A component will need to use a <a href="Communications/RemoteActions.html">Commands</a> to update the state on the server in order for it to sync to other clients.</p>
+<p>Even if a client has authority over an object the server still controls SyncVar and control other serialization features. A component will need to use a <a href="Communications/RemoteActions.html">ServerRpc</a> to update the state on the server in order for it to sync to other clients.</p>
 <h2 id="how-to-give-authority">How to give authority</h2>
 <p>By default the server has Authority over all objects. The server can give authority to objects that a client needs to control, like the player object.</p>
 <p>If you spawn a player object using <code>NetworkServer.AddPlayerForConnection</code> then it will automatically be given authority.</p>
