@@ -168,7 +168,7 @@ then you get the connection to the client</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract Task&lt;IConnection&gt; AcceptAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract UniTask&lt;IConnection&gt; AcceptAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -180,7 +180,7 @@ then you get the connection to the client</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<a class="xref" href="Mirror.IConnection.html">IConnection</a>&gt;</td>
+        <td><span class="xref">UniTask</span>&lt;<a class="xref" href="Mirror.IConnection.html">IConnection</a>&gt;</td>
         <td><p>The connection to a client</p>
 </td>
       </tr>
@@ -195,7 +195,7 @@ then you get the connection to the client</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract Task&lt;IConnection&gt; ConnectAsync(Uri uri)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract UniTask&lt;IConnection&gt; ConnectAsync(Uri uri)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -225,7 +225,7 @@ then you get the connection to the client</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<a class="xref" href="Mirror.IConnection.html">IConnection</a>&gt;</td>
+        <td><span class="xref">UniTask</span>&lt;<a class="xref" href="Mirror.IConnection.html">IConnection</a>&gt;</td>
         <td><p>The connection to the server</p>
 </td>
       </tr>
@@ -252,7 +252,7 @@ Use in servers.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract Task ListenAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract UniTask ListenAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -264,7 +264,7 @@ Use in servers.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span></td>
+        <td><span class="xref">UniTask</span></td>
         <td></td>
       </tr>
     </tbody>
