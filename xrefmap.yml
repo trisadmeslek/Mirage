@@ -3901,12 +3901,12 @@ references:
   commentId: T:Mirror.KCP.Utils
   fullName: Mirror.KCP.Utils
   nameWithType: Utils
-- uid: Mirror.KCP.Utils.Clamp(System.UInt32,System.UInt32,System.UInt32)
-  name: Clamp(UInt32, UInt32, UInt32)
-  href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Clamp_System_UInt32_System_UInt32_System_UInt32_
-  commentId: M:Mirror.KCP.Utils.Clamp(System.UInt32,System.UInt32,System.UInt32)
-  fullName: Mirror.KCP.Utils.Clamp(System.UInt32, System.UInt32, System.UInt32)
-  nameWithType: Utils.Clamp(UInt32, UInt32, UInt32)
+- uid: Mirror.KCP.Utils.Clamp(System.Int32,System.Int32,System.Int32)
+  name: Clamp(Int32, Int32, Int32)
+  href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Clamp_System_Int32_System_Int32_System_Int32_
+  commentId: M:Mirror.KCP.Utils.Clamp(System.Int32,System.Int32,System.Int32)
+  fullName: Mirror.KCP.Utils.Clamp(System.Int32, System.Int32, System.Int32)
+  nameWithType: Utils.Clamp(Int32, Int32, Int32)
 - uid: Mirror.KCP.Utils.Clamp*
   name: Clamp
   href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Clamp_
