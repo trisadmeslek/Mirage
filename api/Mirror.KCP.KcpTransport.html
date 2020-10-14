@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Transport
+    <title>Class KcpTransport
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Transport
+    <meta name="title" content="Class KcpTransport
    ">
     <meta name="generator" content="docfx 2.45.1.0">
     
@@ -78,41 +78,62 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Mirror.Transport">
+            <article class="content wrap" id="_content" data-uid="Mirror.KCP.KcpTransport">
   
   
-  <h1 id="Mirror_Transport" data-uid="Mirror.Transport" class="text-break">Class Transport
+  <h1 id="Mirror_KCP_KcpTransport" data-uid="Mirror.KCP.KcpTransport" class="text-break">Class KcpTransport
   </h1>
-  <div class="markdown level0 summary"><p>Base transport class,  any transport should implement this class
-and it's abstract methods</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">Transport</span></div>
-      <div class="level2"><a class="xref" href="Mirror.FallbackTransport.html">FallbackTransport</a></div>
-      <div class="level2"><a class="xref" href="Mirror.KCP.KcpTransport.html">KcpTransport</a></div>
-      <div class="level2"><a class="xref" href="Mirror.MultiplexTransport.html">MultiplexTransport</a></div>
-      <div class="level2"><a class="xref" href="Mirror.Tcp.TcpTransport.html">TcpTransport</a></div>
+    <div class="level1"><a class="xref" href="Mirror.Transport.html">Transport</a></div>
+    <div class="level2"><span class="xref">KcpTransport</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.html">Mirror</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.KCP.html">Mirror.KCP</a></h6>
   <h6><strong>Assembly</strong>: doc.dll</h6>
-  <h5 id="Mirror_Transport_syntax">Syntax</h5>
+  <h5 id="Mirror_KCP_KcpTransport_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class Transport : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class KcpTransport : Transport</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="Mirror_Transport_Scheme_" data-uid="Mirror.Transport.Scheme*"></a>
-  <h4 id="Mirror_Transport_Scheme" data-uid="Mirror.Transport.Scheme">Scheme</h4>
+  <h4 id="Mirror_KCP_KcpTransport_Port" data-uid="Mirror.KCP.KcpTransport.Port">Port</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract IEnumerable&lt;string&gt; Scheme { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ushort Port</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint16">UInt16</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Mirror_KCP_KcpTransport_Scheme_" data-uid="Mirror.KCP.KcpTransport.Scheme*"></a>
+  <h4 id="Mirror_KCP_KcpTransport_Scheme" data-uid="Mirror.KCP.KcpTransport.Scheme">Scheme</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IEnumerable&lt;string&gt; Scheme { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -129,16 +150,18 @@ and it's abstract methods</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.Transport.html#Mirror_Transport_Scheme">Transport.Scheme</a></div>
   
   
-  <a id="Mirror_Transport_Supported_" data-uid="Mirror.Transport.Supported*"></a>
-  <h4 id="Mirror_Transport_Supported" data-uid="Mirror.Transport.Supported">Supported</h4>
+  <a id="Mirror_KCP_KcpTransport_Supported_" data-uid="Mirror.KCP.KcpTransport.Supported*"></a>
+  <h4 id="Mirror_KCP_KcpTransport_Supported" data-uid="Mirror.KCP.KcpTransport.Supported">Supported</h4>
   <div class="markdown level1 summary"><p>Determines if this transport is supported in the current platform</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract bool Supported { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override bool Supported { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -156,12 +179,14 @@ and it's abstract methods</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.Transport.html#Mirror_Transport_Supported">Transport.Supported</a></div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Mirror_Transport_AcceptAsync_" data-uid="Mirror.Transport.AcceptAsync*"></a>
-  <h4 id="Mirror_Transport_AcceptAsync" data-uid="Mirror.Transport.AcceptAsync">AcceptAsync()</h4>
+  <a id="Mirror_KCP_KcpTransport_AcceptAsync_" data-uid="Mirror.KCP.KcpTransport.AcceptAsync*"></a>
+  <h4 id="Mirror_KCP_KcpTransport_AcceptAsync" data-uid="Mirror.KCP.KcpTransport.AcceptAsync">AcceptAsync()</h4>
   <div class="markdown level1 summary"><p>Accepts a connection from a client.
 After ListenAsync completes,  clients will queue up until you call AcceptAsync
 then you get the connection to the client</p>
@@ -169,7 +194,7 @@ then you get the connection to the client</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract UniTask&lt;IConnection&gt; AcceptAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public override UniTask&lt;IConnection&gt; AcceptAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -187,16 +212,18 @@ then you get the connection to the client</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.Transport.html#Mirror_Transport_AcceptAsync">Transport.AcceptAsync()</a></div>
   
   
-  <a id="Mirror_Transport_ConnectAsync_" data-uid="Mirror.Transport.ConnectAsync*"></a>
-  <h4 id="Mirror_Transport_ConnectAsync_Uri_" data-uid="Mirror.Transport.ConnectAsync(Uri)">ConnectAsync(Uri)</h4>
+  <a id="Mirror_KCP_KcpTransport_ConnectAsync_" data-uid="Mirror.KCP.KcpTransport.ConnectAsync*"></a>
+  <h4 id="Mirror_KCP_KcpTransport_ConnectAsync_Uri_" data-uid="Mirror.KCP.KcpTransport.ConnectAsync(Uri)">ConnectAsync(Uri)</h4>
   <div class="markdown level1 summary"><p>Connect to a server located at a provided uri</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract UniTask&lt;IConnection&gt; ConnectAsync(Uri uri)</code></pre>
+    <pre><code class="lang-csharp hljs">public override UniTask&lt;IConnection&gt; ConnectAsync(Uri uri)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -232,28 +259,32 @@ then you get the connection to the client</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.Transport.html#Mirror_Transport_ConnectAsync_Uri_">Transport.ConnectAsync(Uri)</a></div>
   
   
-  <a id="Mirror_Transport_Disconnect_" data-uid="Mirror.Transport.Disconnect*"></a>
-  <h4 id="Mirror_Transport_Disconnect" data-uid="Mirror.Transport.Disconnect">Disconnect()</h4>
+  <a id="Mirror_KCP_KcpTransport_Disconnect_" data-uid="Mirror.KCP.KcpTransport.Disconnect*"></a>
+  <h4 id="Mirror_KCP_KcpTransport_Disconnect" data-uid="Mirror.KCP.KcpTransport.Disconnect">Disconnect()</h4>
   <div class="markdown level1 summary"><p>Stop listening to the port</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void Disconnect()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Disconnect()</code></pre>
   </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.Transport.html#Mirror_Transport_Disconnect">Transport.Disconnect()</a></div>
   
   
-  <a id="Mirror_Transport_ListenAsync_" data-uid="Mirror.Transport.ListenAsync*"></a>
-  <h4 id="Mirror_Transport_ListenAsync" data-uid="Mirror.Transport.ListenAsync">ListenAsync()</h4>
+  <a id="Mirror_KCP_KcpTransport_ListenAsync_" data-uid="Mirror.KCP.KcpTransport.ListenAsync*"></a>
+  <h4 id="Mirror_KCP_KcpTransport_ListenAsync" data-uid="Mirror.KCP.KcpTransport.ListenAsync">ListenAsync()</h4>
   <div class="markdown level1 summary"><p>Open up the port and listen for connections
 Use in servers.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract UniTask ListenAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public override UniTask ListenAsync()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -270,17 +301,19 @@ Use in servers.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.Transport.html#Mirror_Transport_ListenAsync">Transport.ListenAsync()</a></div>
   
   
-  <a id="Mirror_Transport_ServerUri_" data-uid="Mirror.Transport.ServerUri*"></a>
-  <h4 id="Mirror_Transport_ServerUri" data-uid="Mirror.Transport.ServerUri">ServerUri()</h4>
+  <a id="Mirror_KCP_KcpTransport_ServerUri_" data-uid="Mirror.KCP.KcpTransport.ServerUri*"></a>
+  <h4 id="Mirror_KCP_KcpTransport_ServerUri" data-uid="Mirror.KCP.KcpTransport.ServerUri">ServerUri()</h4>
   <div class="markdown level1 summary"><p>Retrieves the address of this server.
 Useful for network discovery</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract IEnumerable&lt;Uri&gt; ServerUri()</code></pre>
+    <pre><code class="lang-csharp hljs">public override IEnumerable&lt;Uri&gt; ServerUri()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -298,6 +331,18 @@ Useful for network discovery</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.Transport.html#Mirror_Transport_ServerUri">Transport.ServerUri()</a></div>
+  
+  
+  <a id="Mirror_KCP_KcpTransport_Update_" data-uid="Mirror.KCP.KcpTransport.Update*"></a>
+  <h4 id="Mirror_KCP_KcpTransport_Update" data-uid="Mirror.KCP.KcpTransport.Update">Update()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Update()</code></pre>
+  </div>
 </article>
           </div>
           
