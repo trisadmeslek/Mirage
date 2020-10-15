@@ -3226,6 +3226,38 @@ references:
   commentId: N:Mirror.KCP
   fullName: Mirror.KCP
   nameWithType: Mirror.KCP
+- uid: Mirror.KCP.IPEndpointComparer
+  name: IPEndpointComparer
+  href: api/Mirror.KCP.IPEndpointComparer.html
+  commentId: T:Mirror.KCP.IPEndpointComparer
+  fullName: Mirror.KCP.IPEndpointComparer
+  nameWithType: IPEndpointComparer
+- uid: Mirror.KCP.IPEndpointComparer.Equals(IPEndPoint,IPEndPoint)
+  name: Equals(IPEndPoint, IPEndPoint)
+  href: api/Mirror.KCP.IPEndpointComparer.html#Mirror_KCP_IPEndpointComparer_Equals_IPEndPoint_IPEndPoint_
+  commentId: M:Mirror.KCP.IPEndpointComparer.Equals(IPEndPoint,IPEndPoint)
+  fullName: Mirror.KCP.IPEndpointComparer.Equals(IPEndPoint, IPEndPoint)
+  nameWithType: IPEndpointComparer.Equals(IPEndPoint, IPEndPoint)
+- uid: Mirror.KCP.IPEndpointComparer.Equals*
+  name: Equals
+  href: api/Mirror.KCP.IPEndpointComparer.html#Mirror_KCP_IPEndpointComparer_Equals_
+  commentId: Overload:Mirror.KCP.IPEndpointComparer.Equals
+  isSpec: "True"
+  fullName: Mirror.KCP.IPEndpointComparer.Equals
+  nameWithType: IPEndpointComparer.Equals
+- uid: Mirror.KCP.IPEndpointComparer.GetHashCode(IPEndPoint)
+  name: GetHashCode(IPEndPoint)
+  href: api/Mirror.KCP.IPEndpointComparer.html#Mirror_KCP_IPEndpointComparer_GetHashCode_IPEndPoint_
+  commentId: M:Mirror.KCP.IPEndpointComparer.GetHashCode(IPEndPoint)
+  fullName: Mirror.KCP.IPEndpointComparer.GetHashCode(IPEndPoint)
+  nameWithType: IPEndpointComparer.GetHashCode(IPEndPoint)
+- uid: Mirror.KCP.IPEndpointComparer.GetHashCode*
+  name: GetHashCode
+  href: api/Mirror.KCP.IPEndpointComparer.html#Mirror_KCP_IPEndpointComparer_GetHashCode_
+  commentId: Overload:Mirror.KCP.IPEndpointComparer.GetHashCode
+  isSpec: "True"
+  fullName: Mirror.KCP.IPEndpointComparer.GetHashCode
+  nameWithType: IPEndpointComparer.GetHashCode
 - uid: Mirror.KCP.Kcp
   name: Kcp
   href: api/Mirror.KCP.Kcp.html
