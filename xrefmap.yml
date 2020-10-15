@@ -3226,6 +3226,36 @@ references:
   commentId: N:Mirror.KCP
   fullName: Mirror.KCP
   nameWithType: Mirror.KCP
+- uid: Mirror.KCP.CommandType
+  name: CommandType
+  href: api/Mirror.KCP.CommandType.html
+  commentId: T:Mirror.KCP.CommandType
+  fullName: Mirror.KCP.CommandType
+  nameWithType: CommandType
+- uid: Mirror.KCP.CommandType.Ack
+  name: Ack
+  href: api/Mirror.KCP.CommandType.html#Mirror_KCP_CommandType_Ack
+  commentId: F:Mirror.KCP.CommandType.Ack
+  fullName: Mirror.KCP.CommandType.Ack
+  nameWithType: CommandType.Ack
+- uid: Mirror.KCP.CommandType.Push
+  name: Push
+  href: api/Mirror.KCP.CommandType.html#Mirror_KCP_CommandType_Push
+  commentId: F:Mirror.KCP.CommandType.Push
+  fullName: Mirror.KCP.CommandType.Push
+  nameWithType: CommandType.Push
+- uid: Mirror.KCP.CommandType.WindowAsk
+  name: WindowAsk
+  href: api/Mirror.KCP.CommandType.html#Mirror_KCP_CommandType_WindowAsk
+  commentId: F:Mirror.KCP.CommandType.WindowAsk
+  fullName: Mirror.KCP.CommandType.WindowAsk
+  nameWithType: CommandType.WindowAsk
+- uid: Mirror.KCP.CommandType.WindowTell
+  name: WindowTell
+  href: api/Mirror.KCP.CommandType.html#Mirror_KCP_CommandType_WindowTell
+  commentId: F:Mirror.KCP.CommandType.WindowTell
+  fullName: Mirror.KCP.CommandType.WindowTell
+  nameWithType: CommandType.WindowTell
 - uid: Mirror.KCP.IPEndpointComparer
   name: IPEndpointComparer
   href: api/Mirror.KCP.IPEndpointComparer.html
@@ -3305,36 +3335,6 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Kcp.Check
   nameWithType: Kcp.Check
-- uid: Mirror.KCP.Kcp.CommandType
-  name: Kcp.CommandType
-  href: api/Mirror.KCP.Kcp.CommandType.html
-  commentId: T:Mirror.KCP.Kcp.CommandType
-  fullName: Mirror.KCP.Kcp.CommandType
-  nameWithType: Kcp.CommandType
-- uid: Mirror.KCP.Kcp.CommandType.Ack
-  name: Ack
-  href: api/Mirror.KCP.Kcp.CommandType.html#Mirror_KCP_Kcp_CommandType_Ack
-  commentId: F:Mirror.KCP.Kcp.CommandType.Ack
-  fullName: Mirror.KCP.Kcp.CommandType.Ack
-  nameWithType: Kcp.CommandType.Ack
-- uid: Mirror.KCP.Kcp.CommandType.Push
-  name: Push
-  href: api/Mirror.KCP.Kcp.CommandType.html#Mirror_KCP_Kcp_CommandType_Push
-  commentId: F:Mirror.KCP.Kcp.CommandType.Push
-  fullName: Mirror.KCP.Kcp.CommandType.Push
-  nameWithType: Kcp.CommandType.Push
-- uid: Mirror.KCP.Kcp.CommandType.WindowAsk
-  name: WindowAsk
-  href: api/Mirror.KCP.Kcp.CommandType.html#Mirror_KCP_Kcp_CommandType_WindowAsk
-  commentId: F:Mirror.KCP.Kcp.CommandType.WindowAsk
-  fullName: Mirror.KCP.Kcp.CommandType.WindowAsk
-  nameWithType: Kcp.CommandType.WindowAsk
-- uid: Mirror.KCP.Kcp.CommandType.WindowTell
-  name: WindowTell
-  href: api/Mirror.KCP.Kcp.CommandType.html#Mirror_KCP_Kcp_CommandType_WindowTell
-  commentId: F:Mirror.KCP.Kcp.CommandType.WindowTell
-  fullName: Mirror.KCP.Kcp.CommandType.WindowTell
-  nameWithType: Kcp.CommandType.WindowTell
 - uid: Mirror.KCP.Kcp.CurrentMS
   name: CurrentMS
   href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_CurrentMS
@@ -3946,15 +3946,15 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Utils.Clamp
   nameWithType: Utils.Clamp
-- uid: Mirror.KCP.Utils.Decode16U(System.Byte[],System.Int32,System.UInt16@)
-  name: Decode16U(Byte[], Int32, ref UInt16)
-  href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Decode16U_System_Byte___System_Int32_System_UInt16__
-  commentId: M:Mirror.KCP.Utils.Decode16U(System.Byte[],System.Int32,System.UInt16@)
-  name.vb: Decode16U(Byte(), Int32, ByRef UInt16)
-  fullName: Mirror.KCP.Utils.Decode16U(System.Byte[], System.Int32, ref System.UInt16)
-  fullName.vb: Mirror.KCP.Utils.Decode16U(System.Byte(), System.Int32, ByRef System.UInt16)
-  nameWithType: Utils.Decode16U(Byte[], Int32, ref UInt16)
-  nameWithType.vb: Utils.Decode16U(Byte(), Int32, ByRef UInt16)
+- uid: Mirror.KCP.Utils.Decode16U(System.Byte[],System.Int32)
+  name: Decode16U(Byte[], Int32)
+  href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Decode16U_System_Byte___System_Int32_
+  commentId: M:Mirror.KCP.Utils.Decode16U(System.Byte[],System.Int32)
+  name.vb: Decode16U(Byte(), Int32)
+  fullName: Mirror.KCP.Utils.Decode16U(System.Byte[], System.Int32)
+  fullName.vb: Mirror.KCP.Utils.Decode16U(System.Byte(), System.Int32)
+  nameWithType: Utils.Decode16U(Byte[], Int32)
+  nameWithType.vb: Utils.Decode16U(Byte(), Int32)
 - uid: Mirror.KCP.Utils.Decode16U*
   name: Decode16U
   href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Decode16U_
@@ -3962,15 +3962,15 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Utils.Decode16U
   nameWithType: Utils.Decode16U
-- uid: Mirror.KCP.Utils.Decode32U(System.Byte[],System.Int32,System.UInt32@)
-  name: Decode32U(Byte[], Int32, ref UInt32)
-  href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Decode32U_System_Byte___System_Int32_System_UInt32__
-  commentId: M:Mirror.KCP.Utils.Decode32U(System.Byte[],System.Int32,System.UInt32@)
-  name.vb: Decode32U(Byte(), Int32, ByRef UInt32)
-  fullName: Mirror.KCP.Utils.Decode32U(System.Byte[], System.Int32, ref System.UInt32)
-  fullName.vb: Mirror.KCP.Utils.Decode32U(System.Byte(), System.Int32, ByRef System.UInt32)
-  nameWithType: Utils.Decode32U(Byte[], Int32, ref UInt32)
-  nameWithType.vb: Utils.Decode32U(Byte(), Int32, ByRef UInt32)
+- uid: Mirror.KCP.Utils.Decode32U(System.Byte[],System.Int32)
+  name: Decode32U(Byte[], Int32)
+  href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Decode32U_System_Byte___System_Int32_
+  commentId: M:Mirror.KCP.Utils.Decode32U(System.Byte[],System.Int32)
+  name.vb: Decode32U(Byte(), Int32)
+  fullName: Mirror.KCP.Utils.Decode32U(System.Byte[], System.Int32)
+  fullName.vb: Mirror.KCP.Utils.Decode32U(System.Byte(), System.Int32)
+  nameWithType: Utils.Decode32U(Byte[], Int32)
+  nameWithType.vb: Utils.Decode32U(Byte(), Int32)
 - uid: Mirror.KCP.Utils.Decode32U*
   name: Decode32U
   href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Decode32U_
@@ -3978,15 +3978,15 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Utils.Decode32U
   nameWithType: Utils.Decode32U
-- uid: Mirror.KCP.Utils.Decode8u(System.Byte[],System.Int32,System.Byte@)
-  name: Decode8u(Byte[], Int32, ref Byte)
-  href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Decode8u_System_Byte___System_Int32_System_Byte__
-  commentId: M:Mirror.KCP.Utils.Decode8u(System.Byte[],System.Int32,System.Byte@)
-  name.vb: Decode8u(Byte(), Int32, ByRef Byte)
-  fullName: Mirror.KCP.Utils.Decode8u(System.Byte[], System.Int32, ref System.Byte)
-  fullName.vb: Mirror.KCP.Utils.Decode8u(System.Byte(), System.Int32, ByRef System.Byte)
-  nameWithType: Utils.Decode8u(Byte[], Int32, ref Byte)
-  nameWithType.vb: Utils.Decode8u(Byte(), Int32, ByRef Byte)
+- uid: Mirror.KCP.Utils.Decode8u(System.Byte[],System.Int32)
+  name: Decode8u(Byte[], Int32)
+  href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Decode8u_System_Byte___System_Int32_
+  commentId: M:Mirror.KCP.Utils.Decode8u(System.Byte[],System.Int32)
+  name.vb: Decode8u(Byte(), Int32)
+  fullName: Mirror.KCP.Utils.Decode8u(System.Byte[], System.Int32)
+  fullName.vb: Mirror.KCP.Utils.Decode8u(System.Byte(), System.Int32)
+  nameWithType: Utils.Decode8u(Byte[], Int32)
+  nameWithType.vb: Utils.Decode8u(Byte(), Int32)
 - uid: Mirror.KCP.Utils.Decode8u*
   name: Decode8u
   href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Decode8u_

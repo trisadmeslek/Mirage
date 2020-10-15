@@ -153,12 +153,12 @@
   
   
   <a id="Mirror_KCP_Utils_Decode16U_" data-uid="Mirror.KCP.Utils.Decode16U*"></a>
-  <h4 id="Mirror_KCP_Utils_Decode16U_System_Byte___System_Int32_System_UInt16__" data-uid="Mirror.KCP.Utils.Decode16U(System.Byte[],System.Int32,System.UInt16@)">Decode16U(Byte[], Int32, ref UInt16)</h4>
+  <h4 id="Mirror_KCP_Utils_Decode16U_System_Byte___System_Int32_" data-uid="Mirror.KCP.Utils.Decode16U(System.Byte[],System.Int32)">Decode16U(Byte[], Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int Decode16U(byte[] p, int offset, ref ushort c)</code></pre>
+    <pre><code class="lang-csharp hljs">public static (int offset, ushort value)Decode16U(byte[] p, int offset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -180,11 +180,6 @@
         <td><span class="parametername">offset</span></td>
         <td></td>
       </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint16">UInt16</a></td>
-        <td><span class="parametername">c</span></td>
-        <td></td>
-      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -197,7 +192,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetuple-2">ValueTuple</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint16">UInt16</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -205,12 +200,12 @@
   
   
   <a id="Mirror_KCP_Utils_Decode32U_" data-uid="Mirror.KCP.Utils.Decode32U*"></a>
-  <h4 id="Mirror_KCP_Utils_Decode32U_System_Byte___System_Int32_System_UInt32__" data-uid="Mirror.KCP.Utils.Decode32U(System.Byte[],System.Int32,System.UInt32@)">Decode32U(Byte[], Int32, ref UInt32)</h4>
+  <h4 id="Mirror_KCP_Utils_Decode32U_System_Byte___System_Int32_" data-uid="Mirror.KCP.Utils.Decode32U(System.Byte[],System.Int32)">Decode32U(Byte[], Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int Decode32U(byte[] p, int offset, ref uint c)</code></pre>
+    <pre><code class="lang-csharp hljs">public static (int offset, uint value)Decode32U(byte[] p, int offset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -232,11 +227,6 @@
         <td><span class="parametername">offset</span></td>
         <td></td>
       </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
-        <td><span class="parametername">c</span></td>
-        <td></td>
-      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -249,7 +239,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetuple-2">ValueTuple</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -257,12 +247,12 @@
   
   
   <a id="Mirror_KCP_Utils_Decode8u_" data-uid="Mirror.KCP.Utils.Decode8u*"></a>
-  <h4 id="Mirror_KCP_Utils_Decode8u_System_Byte___System_Int32_System_Byte__" data-uid="Mirror.KCP.Utils.Decode8u(System.Byte[],System.Int32,System.Byte@)">Decode8u(Byte[], Int32, ref Byte)</h4>
+  <h4 id="Mirror_KCP_Utils_Decode8u_System_Byte___System_Int32_" data-uid="Mirror.KCP.Utils.Decode8u(System.Byte[],System.Int32)">Decode8u(Byte[], Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int Decode8u(byte[] p, int offset, ref byte c)</code></pre>
+    <pre><code class="lang-csharp hljs">public static (int offset, byte value)Decode8u(byte[] p, int offset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -284,11 +274,6 @@
         <td><span class="parametername">offset</span></td>
         <td></td>
       </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
-        <td><span class="parametername">c</span></td>
-        <td></td>
-      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -301,7 +286,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetuple-2">ValueTuple</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
