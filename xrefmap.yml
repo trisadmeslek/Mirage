@@ -3881,6 +3881,19 @@ references:
   commentId: F:Mirror.KCP.KcpTransport.Port
   fullName: Mirror.KCP.KcpTransport.Port
   nameWithType: KcpTransport.Port
+- uid: Mirror.KCP.KcpTransport.ReceivedMessageCount
+  name: ReceivedMessageCount
+  href: api/Mirror.KCP.KcpTransport.html#Mirror_KCP_KcpTransport_ReceivedMessageCount
+  commentId: P:Mirror.KCP.KcpTransport.ReceivedMessageCount
+  fullName: Mirror.KCP.KcpTransport.ReceivedMessageCount
+  nameWithType: KcpTransport.ReceivedMessageCount
+- uid: Mirror.KCP.KcpTransport.ReceivedMessageCount*
+  name: ReceivedMessageCount
+  href: api/Mirror.KCP.KcpTransport.html#Mirror_KCP_KcpTransport_ReceivedMessageCount_
+  commentId: Overload:Mirror.KCP.KcpTransport.ReceivedMessageCount
+  isSpec: "True"
+  fullName: Mirror.KCP.KcpTransport.ReceivedMessageCount
+  nameWithType: KcpTransport.ReceivedMessageCount
 - uid: Mirror.KCP.KcpTransport.Scheme
   name: Scheme
   href: api/Mirror.KCP.KcpTransport.html#Mirror_KCP_KcpTransport_Scheme
