@@ -3735,6 +3735,12 @@ references:
   commentId: F:Mirror.KCP.KcpConnection.remoteEndpoint
   fullName: Mirror.KCP.KcpConnection.remoteEndpoint
   nameWithType: KcpConnection.remoteEndpoint
+- uid: Mirror.KCP.KcpConnection.RESERVED
+  name: RESERVED
+  href: api/Mirror.KCP.KcpConnection.html#Mirror_KCP_KcpConnection_RESERVED
+  commentId: F:Mirror.KCP.KcpConnection.RESERVED
+  fullName: Mirror.KCP.KcpConnection.RESERVED
+  nameWithType: KcpConnection.RESERVED
 - uid: Mirror.KCP.KcpConnection.SendAsync(ArraySegment{System.Byte})
   name: SendAsync(ArraySegment<Byte>)
   href: api/Mirror.KCP.KcpConnection.html#Mirror_KCP_KcpConnection_SendAsync_ArraySegment_System_Byte__
@@ -3978,6 +3984,22 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Utils.Decode32U
   nameWithType: Utils.Decode32U
+- uid: Mirror.KCP.Utils.Decode64U(System.Byte[],System.Int32)
+  name: Decode64U(Byte[], Int32)
+  href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Decode64U_System_Byte___System_Int32_
+  commentId: M:Mirror.KCP.Utils.Decode64U(System.Byte[],System.Int32)
+  name.vb: Decode64U(Byte(), Int32)
+  fullName: Mirror.KCP.Utils.Decode64U(System.Byte[], System.Int32)
+  fullName.vb: Mirror.KCP.Utils.Decode64U(System.Byte(), System.Int32)
+  nameWithType: Utils.Decode64U(Byte[], Int32)
+  nameWithType.vb: Utils.Decode64U(Byte(), Int32)
+- uid: Mirror.KCP.Utils.Decode64U*
+  name: Decode64U
+  href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Decode64U_
+  commentId: Overload:Mirror.KCP.Utils.Decode64U
+  isSpec: "True"
+  fullName: Mirror.KCP.Utils.Decode64U
+  nameWithType: Utils.Decode64U
 - uid: Mirror.KCP.Utils.Decode8u(System.Byte[],System.Int32)
   name: Decode8u(Byte[], Int32)
   href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Decode8u_System_Byte___System_Int32_
@@ -4026,6 +4048,22 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Utils.Encode32U
   nameWithType: Utils.Encode32U
+- uid: Mirror.KCP.Utils.Encode64U(System.Byte[],System.Int32,System.UInt64)
+  name: Encode64U(Byte[], Int32, UInt64)
+  href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Encode64U_System_Byte___System_Int32_System_UInt64_
+  commentId: M:Mirror.KCP.Utils.Encode64U(System.Byte[],System.Int32,System.UInt64)
+  name.vb: Encode64U(Byte(), Int32, UInt64)
+  fullName: Mirror.KCP.Utils.Encode64U(System.Byte[], System.Int32, System.UInt64)
+  fullName.vb: Mirror.KCP.Utils.Encode64U(System.Byte(), System.Int32, System.UInt64)
+  nameWithType: Utils.Encode64U(Byte[], Int32, UInt64)
+  nameWithType.vb: Utils.Encode64U(Byte(), Int32, UInt64)
+- uid: Mirror.KCP.Utils.Encode64U*
+  name: Encode64U
+  href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Encode64U_
+  commentId: Overload:Mirror.KCP.Utils.Encode64U
+  isSpec: "True"
+  fullName: Mirror.KCP.Utils.Encode64U
+  nameWithType: Utils.Encode64U
 - uid: Mirror.KCP.Utils.Encode8u(System.Byte[],System.Int32,System.Byte)
   name: Encode8u(Byte[], Int32, Byte)
   href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Encode8u_System_Byte___System_Int32_System_Byte_
