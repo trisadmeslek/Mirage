@@ -635,14 +635,14 @@
   
   
   <a id="Mirror_NetworkClient_GetPrefab_" data-uid="Mirror.NetworkClient.GetPrefab*"></a>
-  <h4 id="Mirror_NetworkClient_GetPrefab_System_Guid_GameObject__" data-uid="Mirror.NetworkClient.GetPrefab(System.Guid,GameObject@)">GetPrefab(System.Guid, out GameObject)</h4>
+  <h4 id="Mirror_NetworkClient_GetPrefab_System_Guid_" data-uid="Mirror.NetworkClient.GetPrefab(System.Guid)">GetPrefab(System.Guid)</h4>
   <div class="markdown level1 summary"><p>Find the registered prefab for this asset id.
 Useful for debuggers</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool GetPrefab(System.Guid assetId, out GameObject prefab)</code></pre>
+    <pre><code class="lang-csharp hljs">public GameObject GetPrefab(System.Guid assetId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -660,12 +660,6 @@ Useful for debuggers</p>
         <td><p>asset id of the prefab</p>
 </td>
       </tr>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">prefab</span></td>
-        <td><p>the prefab gameobject</p>
-</td>
-      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -678,7 +672,7 @@ Useful for debuggers</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">GameObject</span></td>
         <td><p>true if prefab was registered</p>
 </td>
       </tr>

@@ -2252,15 +2252,12 @@ references:
   isSpec: "True"
   fullName: Mirror.IClientObjectManager.DestroyAllClientObjects
   nameWithType: IClientObjectManager.DestroyAllClientObjects
-- uid: Mirror.IClientObjectManager.GetPrefab(Guid,GameObject@)
-  name: GetPrefab(Guid, out GameObject)
-  href: api/Mirror.IClientObjectManager.html#Mirror_IClientObjectManager_GetPrefab_Guid_GameObject__
-  commentId: M:Mirror.IClientObjectManager.GetPrefab(Guid,GameObject@)
-  name.vb: GetPrefab(Guid, ByRef GameObject)
-  fullName: Mirror.IClientObjectManager.GetPrefab(Guid, out GameObject)
-  fullName.vb: Mirror.IClientObjectManager.GetPrefab(Guid, ByRef GameObject)
-  nameWithType: IClientObjectManager.GetPrefab(Guid, out GameObject)
-  nameWithType.vb: IClientObjectManager.GetPrefab(Guid, ByRef GameObject)
+- uid: Mirror.IClientObjectManager.GetPrefab(Guid)
+  name: GetPrefab(Guid)
+  href: api/Mirror.IClientObjectManager.html#Mirror_IClientObjectManager_GetPrefab_Guid_
+  commentId: M:Mirror.IClientObjectManager.GetPrefab(Guid)
+  fullName: Mirror.IClientObjectManager.GetPrefab(Guid)
+  nameWithType: IClientObjectManager.GetPrefab(Guid)
 - uid: Mirror.IClientObjectManager.GetPrefab*
   name: GetPrefab
   href: api/Mirror.IClientObjectManager.html#Mirror_IClientObjectManager_GetPrefab_
@@ -5550,15 +5547,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkClient.GetNewConnection
   nameWithType: NetworkClient.GetNewConnection
-- uid: Mirror.NetworkClient.GetPrefab(System.Guid,GameObject@)
-  name: GetPrefab(System.Guid, out GameObject)
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_GetPrefab_System_Guid_GameObject__
-  commentId: M:Mirror.NetworkClient.GetPrefab(System.Guid,GameObject@)
-  name.vb: GetPrefab(System.Guid, ByRef GameObject)
-  fullName: Mirror.NetworkClient.GetPrefab(System.Guid, out GameObject)
-  fullName.vb: Mirror.NetworkClient.GetPrefab(System.Guid, ByRef GameObject)
-  nameWithType: NetworkClient.GetPrefab(System.Guid, out GameObject)
-  nameWithType.vb: NetworkClient.GetPrefab(System.Guid, ByRef GameObject)
+- uid: Mirror.NetworkClient.GetPrefab(System.Guid)
+  name: GetPrefab(System.Guid)
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_GetPrefab_System_Guid_
+  commentId: M:Mirror.NetworkClient.GetPrefab(System.Guid)
+  fullName: Mirror.NetworkClient.GetPrefab(System.Guid)
+  nameWithType: NetworkClient.GetPrefab(System.Guid)
 - uid: Mirror.NetworkClient.GetPrefab*
   name: GetPrefab
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_GetPrefab_
