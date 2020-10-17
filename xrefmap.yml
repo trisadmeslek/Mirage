@@ -3746,6 +3746,19 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.KcpClientConnection.HandshakeAsync
   nameWithType: KcpClientConnection.HandshakeAsync
+- uid: Mirror.KCP.KcpClientConnection.HashCashBits
+  name: HashCashBits
+  href: api/Mirror.KCP.KcpClientConnection.html#Mirror_KCP_KcpClientConnection_HashCashBits
+  commentId: P:Mirror.KCP.KcpClientConnection.HashCashBits
+  fullName: Mirror.KCP.KcpClientConnection.HashCashBits
+  nameWithType: KcpClientConnection.HashCashBits
+- uid: Mirror.KCP.KcpClientConnection.HashCashBits*
+  name: HashCashBits
+  href: api/Mirror.KCP.KcpClientConnection.html#Mirror_KCP_KcpClientConnection_HashCashBits_
+  commentId: Overload:Mirror.KCP.KcpClientConnection.HashCashBits
+  isSpec: "True"
+  fullName: Mirror.KCP.KcpClientConnection.HashCashBits
+  nameWithType: KcpClientConnection.HashCashBits
 - uid: Mirror.KCP.KcpClientConnection.RawSend(System.Byte[],System.Int32)
   name: RawSend(Byte[], Int32)
   href: api/Mirror.KCP.KcpClientConnection.html#Mirror_KCP_KcpClientConnection_RawSend_System_Byte___System_Int32_
