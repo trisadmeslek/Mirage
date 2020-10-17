@@ -3256,6 +3256,157 @@ references:
   commentId: F:Mirror.KCP.CommandType.WindowTell
   fullName: Mirror.KCP.CommandType.WindowTell
   nameWithType: CommandType.WindowTell
+- uid: Mirror.KCP.HashCash
+  name: HashCash
+  href: api/Mirror.KCP.HashCash.html
+  commentId: T:Mirror.KCP.HashCash
+  fullName: Mirror.KCP.HashCash
+  nameWithType: HashCash
+- uid: Mirror.KCP.HashCash.#ctor(DateTime,System.Int32,System.UInt64,System.UInt64)
+  name: HashCash(DateTime, Int32, UInt64, UInt64)
+  href: api/Mirror.KCP.HashCash.html#Mirror_KCP_HashCash__ctor_DateTime_System_Int32_System_UInt64_System_UInt64_
+  commentId: M:Mirror.KCP.HashCash.#ctor(DateTime,System.Int32,System.UInt64,System.UInt64)
+  fullName: Mirror.KCP.HashCash.HashCash(DateTime, System.Int32, System.UInt64, System.UInt64)
+  nameWithType: HashCash.HashCash(DateTime, Int32, UInt64, UInt64)
+- uid: Mirror.KCP.HashCash.#ctor(DateTime,System.String,System.UInt64,System.UInt64)
+  name: HashCash(DateTime, String, UInt64, UInt64)
+  href: api/Mirror.KCP.HashCash.html#Mirror_KCP_HashCash__ctor_DateTime_System_String_System_UInt64_System_UInt64_
+  commentId: M:Mirror.KCP.HashCash.#ctor(DateTime,System.String,System.UInt64,System.UInt64)
+  fullName: Mirror.KCP.HashCash.HashCash(DateTime, System.String, System.UInt64, System.UInt64)
+  nameWithType: HashCash.HashCash(DateTime, String, UInt64, UInt64)
+- uid: Mirror.KCP.HashCash.#ctor*
+  name: HashCash
+  href: api/Mirror.KCP.HashCash.html#Mirror_KCP_HashCash__ctor_
+  commentId: Overload:Mirror.KCP.HashCash.#ctor
+  isSpec: "True"
+  fullName: Mirror.KCP.HashCash.HashCash
+  nameWithType: HashCash.HashCash
+- uid: Mirror.KCP.HashCash.counter
+  name: counter
+  href: api/Mirror.KCP.HashCash.html#Mirror_KCP_HashCash_counter
+  commentId: F:Mirror.KCP.HashCash.counter
+  fullName: Mirror.KCP.HashCash.counter
+  nameWithType: HashCash.counter
+- uid: Mirror.KCP.HashCash.dt
+  name: dt
+  href: api/Mirror.KCP.HashCash.html#Mirror_KCP_HashCash_dt
+  commentId: F:Mirror.KCP.HashCash.dt
+  fullName: Mirror.KCP.HashCash.dt
+  nameWithType: HashCash.dt
+- uid: Mirror.KCP.HashCash.Equals(Mirror.KCP.HashCash)
+  name: Equals(HashCash)
+  href: api/Mirror.KCP.HashCash.html#Mirror_KCP_HashCash_Equals_Mirror_KCP_HashCash_
+  commentId: M:Mirror.KCP.HashCash.Equals(Mirror.KCP.HashCash)
+  fullName: Mirror.KCP.HashCash.Equals(Mirror.KCP.HashCash)
+  nameWithType: HashCash.Equals(HashCash)
+- uid: Mirror.KCP.HashCash.Equals(System.Object)
+  name: Equals(Object)
+  href: api/Mirror.KCP.HashCash.html#Mirror_KCP_HashCash_Equals_System_Object_
+  commentId: M:Mirror.KCP.HashCash.Equals(System.Object)
+  fullName: Mirror.KCP.HashCash.Equals(System.Object)
+  nameWithType: HashCash.Equals(Object)
+- uid: Mirror.KCP.HashCash.Equals*
+  name: Equals
+  href: api/Mirror.KCP.HashCash.html#Mirror_KCP_HashCash_Equals_
+  commentId: Overload:Mirror.KCP.HashCash.Equals
+  isSpec: "True"
+  fullName: Mirror.KCP.HashCash.Equals
+  nameWithType: HashCash.Equals
+- uid: Mirror.KCP.HashCash.GetHashCode
+  name: GetHashCode()
+  href: api/Mirror.KCP.HashCash.html#Mirror_KCP_HashCash_GetHashCode
+  commentId: M:Mirror.KCP.HashCash.GetHashCode
+  fullName: Mirror.KCP.HashCash.GetHashCode()
+  nameWithType: HashCash.GetHashCode()
+- uid: Mirror.KCP.HashCash.GetHashCode*
+  name: GetHashCode
+  href: api/Mirror.KCP.HashCash.html#Mirror_KCP_HashCash_GetHashCode_
+  commentId: Overload:Mirror.KCP.HashCash.GetHashCode
+  isSpec: "True"
+  fullName: Mirror.KCP.HashCash.GetHashCode
+  nameWithType: HashCash.GetHashCode
+- uid: Mirror.KCP.HashCash.Mine(System.String,System.Int32)
+  name: Mine(String, Int32)
+  href: api/Mirror.KCP.HashCash.html#Mirror_KCP_HashCash_Mine_System_String_System_Int32_
+  commentId: M:Mirror.KCP.HashCash.Mine(System.String,System.Int32)
+  fullName: Mirror.KCP.HashCash.Mine(System.String, System.Int32)
+  nameWithType: HashCash.Mine(String, Int32)
+- uid: Mirror.KCP.HashCash.Mine*
+  name: Mine
+  href: api/Mirror.KCP.HashCash.html#Mirror_KCP_HashCash_Mine_
+  commentId: Overload:Mirror.KCP.HashCash.Mine
+  isSpec: "True"
+  fullName: Mirror.KCP.HashCash.Mine
+  nameWithType: HashCash.Mine
+- uid: Mirror.KCP.HashCash.resource
+  name: resource
+  href: api/Mirror.KCP.HashCash.html#Mirror_KCP_HashCash_resource
+  commentId: F:Mirror.KCP.HashCash.resource
+  fullName: Mirror.KCP.HashCash.resource
+  nameWithType: HashCash.resource
+- uid: Mirror.KCP.HashCash.salt
+  name: salt
+  href: api/Mirror.KCP.HashCash.html#Mirror_KCP_HashCash_salt
+  commentId: F:Mirror.KCP.HashCash.salt
+  fullName: Mirror.KCP.HashCash.salt
+  nameWithType: HashCash.salt
+- uid: Mirror.KCP.HashCash.Validate(System.String,System.Int32)
+  name: Validate(String, Int32)
+  href: api/Mirror.KCP.HashCash.html#Mirror_KCP_HashCash_Validate_System_String_System_Int32_
+  commentId: M:Mirror.KCP.HashCash.Validate(System.String,System.Int32)
+  fullName: Mirror.KCP.HashCash.Validate(System.String, System.Int32)
+  nameWithType: HashCash.Validate(String, Int32)
+- uid: Mirror.KCP.HashCash.Validate*
+  name: Validate
+  href: api/Mirror.KCP.HashCash.html#Mirror_KCP_HashCash_Validate_
+  commentId: Overload:Mirror.KCP.HashCash.Validate
+  isSpec: "True"
+  fullName: Mirror.KCP.HashCash.Validate
+  nameWithType: HashCash.Validate
+- uid: Mirror.KCP.HashCashEncoding
+  name: HashCashEncoding
+  href: api/Mirror.KCP.HashCashEncoding.html
+  commentId: T:Mirror.KCP.HashCashEncoding
+  fullName: Mirror.KCP.HashCashEncoding
+  nameWithType: HashCashEncoding
+- uid: Mirror.KCP.HashCashEncoding.Decode(System.Byte[],System.Int32)
+  name: Decode(Byte[], Int32)
+  href: api/Mirror.KCP.HashCashEncoding.html#Mirror_KCP_HashCashEncoding_Decode_System_Byte___System_Int32_
+  commentId: M:Mirror.KCP.HashCashEncoding.Decode(System.Byte[],System.Int32)
+  name.vb: Decode(Byte(), Int32)
+  fullName: Mirror.KCP.HashCashEncoding.Decode(System.Byte[], System.Int32)
+  fullName.vb: Mirror.KCP.HashCashEncoding.Decode(System.Byte(), System.Int32)
+  nameWithType: HashCashEncoding.Decode(Byte[], Int32)
+  nameWithType.vb: HashCashEncoding.Decode(Byte(), Int32)
+- uid: Mirror.KCP.HashCashEncoding.Decode*
+  name: Decode
+  href: api/Mirror.KCP.HashCashEncoding.html#Mirror_KCP_HashCashEncoding_Decode_
+  commentId: Overload:Mirror.KCP.HashCashEncoding.Decode
+  isSpec: "True"
+  fullName: Mirror.KCP.HashCashEncoding.Decode
+  nameWithType: HashCashEncoding.Decode
+- uid: Mirror.KCP.HashCashEncoding.Encode(System.Byte[],System.Int32,Mirror.KCP.HashCash)
+  name: Encode(Byte[], Int32, HashCash)
+  href: api/Mirror.KCP.HashCashEncoding.html#Mirror_KCP_HashCashEncoding_Encode_System_Byte___System_Int32_Mirror_KCP_HashCash_
+  commentId: M:Mirror.KCP.HashCashEncoding.Encode(System.Byte[],System.Int32,Mirror.KCP.HashCash)
+  name.vb: Encode(Byte(), Int32, HashCash)
+  fullName: Mirror.KCP.HashCashEncoding.Encode(System.Byte[], System.Int32, Mirror.KCP.HashCash)
+  fullName.vb: Mirror.KCP.HashCashEncoding.Encode(System.Byte(), System.Int32, Mirror.KCP.HashCash)
+  nameWithType: HashCashEncoding.Encode(Byte[], Int32, HashCash)
+  nameWithType.vb: HashCashEncoding.Encode(Byte(), Int32, HashCash)
+- uid: Mirror.KCP.HashCashEncoding.Encode*
+  name: Encode
+  href: api/Mirror.KCP.HashCashEncoding.html#Mirror_KCP_HashCashEncoding_Encode_
+  commentId: Overload:Mirror.KCP.HashCashEncoding.Encode
+  isSpec: "True"
+  fullName: Mirror.KCP.HashCashEncoding.Encode
+  nameWithType: HashCashEncoding.Encode
+- uid: Mirror.KCP.HashCashEncoding.SIZE
+  name: SIZE
+  href: api/Mirror.KCP.HashCashEncoding.html#Mirror_KCP_HashCashEncoding_SIZE
+  commentId: F:Mirror.KCP.HashCashEncoding.SIZE
+  fullName: Mirror.KCP.HashCashEncoding.SIZE
+  nameWithType: HashCashEncoding.SIZE
 - uid: Mirror.KCP.IPEndpointComparer
   name: IPEndpointComparer
   href: api/Mirror.KCP.IPEndpointComparer.html
@@ -3620,6 +3771,19 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.KcpClientConnection.Dispose
   nameWithType: KcpClientConnection.Dispose
+- uid: Mirror.KCP.KcpClientConnection.HandshakeAsync(System.Int32)
+  name: HandshakeAsync(Int32)
+  href: api/Mirror.KCP.KcpClientConnection.html#Mirror_KCP_KcpClientConnection_HandshakeAsync_System_Int32_
+  commentId: M:Mirror.KCP.KcpClientConnection.HandshakeAsync(System.Int32)
+  fullName: Mirror.KCP.KcpClientConnection.HandshakeAsync(System.Int32)
+  nameWithType: KcpClientConnection.HandshakeAsync(Int32)
+- uid: Mirror.KCP.KcpClientConnection.HandshakeAsync*
+  name: HandshakeAsync
+  href: api/Mirror.KCP.KcpClientConnection.html#Mirror_KCP_KcpClientConnection_HandshakeAsync_
+  commentId: Overload:Mirror.KCP.KcpClientConnection.HandshakeAsync
+  isSpec: "True"
+  fullName: Mirror.KCP.KcpClientConnection.HandshakeAsync
+  nameWithType: KcpClientConnection.HandshakeAsync
 - uid: Mirror.KCP.KcpClientConnection.RawSend(System.Byte[],System.Int32)
   name: RawSend(Byte[], Int32)
   href: api/Mirror.KCP.KcpClientConnection.html#Mirror_KCP_KcpClientConnection_RawSend_System_Byte___System_Int32_
@@ -3862,6 +4026,12 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.KcpTransport.Disconnect
   nameWithType: KcpTransport.Disconnect
+- uid: Mirror.KCP.KcpTransport.HashCashBits
+  name: HashCashBits
+  href: api/Mirror.KCP.KcpTransport.html#Mirror_KCP_KcpTransport_HashCashBits
+  commentId: F:Mirror.KCP.KcpTransport.HashCashBits
+  fullName: Mirror.KCP.KcpTransport.HashCashBits
+  nameWithType: KcpTransport.HashCashBits
 - uid: Mirror.KCP.KcpTransport.ListenAsync
   name: ListenAsync()
   href: api/Mirror.KCP.KcpTransport.html#Mirror_KCP_KcpTransport_ListenAsync

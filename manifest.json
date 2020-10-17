@@ -3232,6 +3232,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Mirror.KCP.HashCash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mirror.KCP.HashCash.html",
+          "hash": "ZWniE4xD+fy3tsrfsoPkwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mirror.KCP.HashCashEncoding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mirror.KCP.HashCashEncoding.html",
+          "hash": "ST9gs+F1jzehmJddIVI2QA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Mirror.KCP.IPEndpointComparer.yml",
       "output": {
         ".html": {
@@ -3260,7 +3284,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.KCP.KcpClientConnection.html",
-          "hash": "NW5W3id+eZsEKGhij7c5yg=="
+          "hash": "wkav3PeLZOSuQo3X4Im0Cg=="
         }
       },
       "is_incremental": false,
@@ -3296,7 +3320,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.KCP.KcpTransport.html",
-          "hash": "MXktTymUxAN17qWQ+xV/jw=="
+          "hash": "VxujVPZ8ExYn2nEbs69rRw=="
         }
       },
       "is_incremental": false,
@@ -3320,7 +3344,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.KCP.html",
-          "hash": "cTX8PTEQv7BYAv1WZE2lAA=="
+          "hash": "tC8IGoMCUQc7hA+9sZU0+w=="
         }
       },
       "is_incremental": false,
@@ -4448,7 +4472,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "jk6OIOwM6Q8D/7xVsLPx6w=="
+          "hash": "g3McXV05zs3Pjpm/WP8lDg=="
         }
       },
       "is_incremental": false,
@@ -4512,11 +4536,10 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ResourceDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 176,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
@@ -4532,10 +4555,11 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 174,
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
