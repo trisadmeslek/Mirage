@@ -3377,19 +3377,19 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Kcp.Input
   nameWithType: Kcp.Input
-- uid: Mirror.KCP.Kcp.Mss
-  name: Mss
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Mss
-  commentId: P:Mirror.KCP.Kcp.Mss
-  fullName: Mirror.KCP.Kcp.Mss
-  nameWithType: Kcp.Mss
-- uid: Mirror.KCP.Kcp.Mss*
-  name: Mss
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Mss_
-  commentId: Overload:Mirror.KCP.Kcp.Mss
+- uid: Mirror.KCP.Kcp.MaximumSegmentSize
+  name: MaximumSegmentSize
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_MaximumSegmentSize
+  commentId: P:Mirror.KCP.Kcp.MaximumSegmentSize
+  fullName: Mirror.KCP.Kcp.MaximumSegmentSize
+  nameWithType: Kcp.MaximumSegmentSize
+- uid: Mirror.KCP.Kcp.MaximumSegmentSize*
+  name: MaximumSegmentSize
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_MaximumSegmentSize_
+  commentId: Overload:Mirror.KCP.Kcp.MaximumSegmentSize
   isSpec: "True"
-  fullName: Mirror.KCP.Kcp.Mss
-  nameWithType: Kcp.Mss
+  fullName: Mirror.KCP.Kcp.MaximumSegmentSize
+  nameWithType: Kcp.MaximumSegmentSize
 - uid: Mirror.KCP.Kcp.OVERHEAD
   name: OVERHEAD
   href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_OVERHEAD
