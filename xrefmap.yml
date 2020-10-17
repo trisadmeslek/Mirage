@@ -400,12 +400,6 @@ references:
   isSpec: "True"
   fullName: Mirror.Cloud.IRequestCreator.SendRequestEnumerator
   nameWithType: IRequestCreator.SendRequestEnumerator
-- uid: Mirror.Cloud.IUnityEqualCheck
-  name: IUnityEqualCheck
-  href: api/Mirror.Cloud.IUnityEqualCheck.html
-  commentId: T:Mirror.Cloud.IUnityEqualCheck
-  fullName: Mirror.Cloud.IUnityEqualCheck
-  nameWithType: IUnityEqualCheck
 - uid: Mirror.Cloud.ListServerService
   name: Mirror.Cloud.ListServerService
   href: api/Mirror.Cloud.ListServerService.html
@@ -1199,38 +1193,6 @@ references:
   commentId: T:Mirror.Cloud.ServerListEvent
   fullName: Mirror.Cloud.ServerListEvent
   nameWithType: ServerListEvent
-- uid: Mirror.Cloud.UnityEqualCheckExtension
-  name: UnityEqualCheckExtension
-  href: api/Mirror.Cloud.UnityEqualCheckExtension.html
-  commentId: T:Mirror.Cloud.UnityEqualCheckExtension
-  fullName: Mirror.Cloud.UnityEqualCheckExtension
-  nameWithType: UnityEqualCheckExtension
-- uid: Mirror.Cloud.UnityEqualCheckExtension.IsNotNull(Mirror.Cloud.IUnityEqualCheck)
-  name: IsNotNull(IUnityEqualCheck)
-  href: api/Mirror.Cloud.UnityEqualCheckExtension.html#Mirror_Cloud_UnityEqualCheckExtension_IsNotNull_Mirror_Cloud_IUnityEqualCheck_
-  commentId: M:Mirror.Cloud.UnityEqualCheckExtension.IsNotNull(Mirror.Cloud.IUnityEqualCheck)
-  fullName: Mirror.Cloud.UnityEqualCheckExtension.IsNotNull(Mirror.Cloud.IUnityEqualCheck)
-  nameWithType: UnityEqualCheckExtension.IsNotNull(IUnityEqualCheck)
-- uid: Mirror.Cloud.UnityEqualCheckExtension.IsNotNull*
-  name: IsNotNull
-  href: api/Mirror.Cloud.UnityEqualCheckExtension.html#Mirror_Cloud_UnityEqualCheckExtension_IsNotNull_
-  commentId: Overload:Mirror.Cloud.UnityEqualCheckExtension.IsNotNull
-  isSpec: "True"
-  fullName: Mirror.Cloud.UnityEqualCheckExtension.IsNotNull
-  nameWithType: UnityEqualCheckExtension.IsNotNull
-- uid: Mirror.Cloud.UnityEqualCheckExtension.IsNull(Mirror.Cloud.IUnityEqualCheck)
-  name: IsNull(IUnityEqualCheck)
-  href: api/Mirror.Cloud.UnityEqualCheckExtension.html#Mirror_Cloud_UnityEqualCheckExtension_IsNull_Mirror_Cloud_IUnityEqualCheck_
-  commentId: M:Mirror.Cloud.UnityEqualCheckExtension.IsNull(Mirror.Cloud.IUnityEqualCheck)
-  fullName: Mirror.Cloud.UnityEqualCheckExtension.IsNull(Mirror.Cloud.IUnityEqualCheck)
-  nameWithType: UnityEqualCheckExtension.IsNull(IUnityEqualCheck)
-- uid: Mirror.Cloud.UnityEqualCheckExtension.IsNull*
-  name: IsNull
-  href: api/Mirror.Cloud.UnityEqualCheckExtension.html#Mirror_Cloud_UnityEqualCheckExtension_IsNull_
-  commentId: Overload:Mirror.Cloud.UnityEqualCheckExtension.IsNull
-  isSpec: "True"
-  fullName: Mirror.Cloud.UnityEqualCheckExtension.IsNull
-  nameWithType: UnityEqualCheckExtension.IsNull
 - uid: Mirror.ConnectState
   name: ConnectState
   href: api/Mirror.ConnectState.html
