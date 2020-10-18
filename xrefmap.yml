@@ -4155,22 +4155,22 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Utils.Decode64U
   nameWithType: Utils.Decode64U
-- uid: Mirror.KCP.Utils.Decode8u(System.Byte[],System.Int32)
-  name: Decode8u(Byte[], Int32)
-  href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Decode8u_System_Byte___System_Int32_
-  commentId: M:Mirror.KCP.Utils.Decode8u(System.Byte[],System.Int32)
-  name.vb: Decode8u(Byte(), Int32)
-  fullName: Mirror.KCP.Utils.Decode8u(System.Byte[], System.Int32)
-  fullName.vb: Mirror.KCP.Utils.Decode8u(System.Byte(), System.Int32)
-  nameWithType: Utils.Decode8u(Byte[], Int32)
-  nameWithType.vb: Utils.Decode8u(Byte(), Int32)
-- uid: Mirror.KCP.Utils.Decode8u*
-  name: Decode8u
-  href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Decode8u_
-  commentId: Overload:Mirror.KCP.Utils.Decode8u
+- uid: Mirror.KCP.Utils.Decode8U(System.Byte[],System.Int32)
+  name: Decode8U(Byte[], Int32)
+  href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Decode8U_System_Byte___System_Int32_
+  commentId: M:Mirror.KCP.Utils.Decode8U(System.Byte[],System.Int32)
+  name.vb: Decode8U(Byte(), Int32)
+  fullName: Mirror.KCP.Utils.Decode8U(System.Byte[], System.Int32)
+  fullName.vb: Mirror.KCP.Utils.Decode8U(System.Byte(), System.Int32)
+  nameWithType: Utils.Decode8U(Byte[], Int32)
+  nameWithType.vb: Utils.Decode8U(Byte(), Int32)
+- uid: Mirror.KCP.Utils.Decode8U*
+  name: Decode8U
+  href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Decode8U_
+  commentId: Overload:Mirror.KCP.Utils.Decode8U
   isSpec: "True"
-  fullName: Mirror.KCP.Utils.Decode8u
-  nameWithType: Utils.Decode8u
+  fullName: Mirror.KCP.Utils.Decode8U
+  nameWithType: Utils.Decode8U
 - uid: Mirror.KCP.Utils.Encode16U(System.Byte[],System.Int32,System.UInt16)
   name: Encode16U(Byte[], Int32, UInt16)
   href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Encode16U_System_Byte___System_Int32_System_UInt16_
@@ -4219,22 +4219,22 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Utils.Encode64U
   nameWithType: Utils.Encode64U
-- uid: Mirror.KCP.Utils.Encode8u(System.Byte[],System.Int32,System.Byte)
-  name: Encode8u(Byte[], Int32, Byte)
-  href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Encode8u_System_Byte___System_Int32_System_Byte_
-  commentId: M:Mirror.KCP.Utils.Encode8u(System.Byte[],System.Int32,System.Byte)
-  name.vb: Encode8u(Byte(), Int32, Byte)
-  fullName: Mirror.KCP.Utils.Encode8u(System.Byte[], System.Int32, System.Byte)
-  fullName.vb: Mirror.KCP.Utils.Encode8u(System.Byte(), System.Int32, System.Byte)
-  nameWithType: Utils.Encode8u(Byte[], Int32, Byte)
-  nameWithType.vb: Utils.Encode8u(Byte(), Int32, Byte)
-- uid: Mirror.KCP.Utils.Encode8u*
-  name: Encode8u
-  href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Encode8u_
-  commentId: Overload:Mirror.KCP.Utils.Encode8u
+- uid: Mirror.KCP.Utils.Encode8U(System.Byte[],System.Int32,System.Byte)
+  name: Encode8U(Byte[], Int32, Byte)
+  href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Encode8U_System_Byte___System_Int32_System_Byte_
+  commentId: M:Mirror.KCP.Utils.Encode8U(System.Byte[],System.Int32,System.Byte)
+  name.vb: Encode8U(Byte(), Int32, Byte)
+  fullName: Mirror.KCP.Utils.Encode8U(System.Byte[], System.Int32, System.Byte)
+  fullName.vb: Mirror.KCP.Utils.Encode8U(System.Byte(), System.Int32, System.Byte)
+  nameWithType: Utils.Encode8U(Byte[], Int32, Byte)
+  nameWithType.vb: Utils.Encode8U(Byte(), Int32, Byte)
+- uid: Mirror.KCP.Utils.Encode8U*
+  name: Encode8U
+  href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Encode8U_
+  commentId: Overload:Mirror.KCP.Utils.Encode8U
   isSpec: "True"
-  fullName: Mirror.KCP.Utils.Encode8u
-  nameWithType: Utils.Encode8u
+  fullName: Mirror.KCP.Utils.Encode8U
+  nameWithType: Utils.Encode8U
 - uid: Mirror.KCP.Utils.Equal(ArraySegment{System.Byte},ArraySegment{System.Byte})
   name: Equal(ArraySegment<Byte>, ArraySegment<Byte>)
   href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_Equal_ArraySegment_System_Byte__ArraySegment_System_Byte__
