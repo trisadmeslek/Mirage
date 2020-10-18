@@ -3592,6 +3592,18 @@ references:
   commentId: F:Mirror.KCP.Kcp.RTO_MAX
   fullName: Mirror.KCP.Kcp.RTO_MAX
   nameWithType: Kcp.RTO_MAX
+- uid: Mirror.KCP.Kcp.RTO_MIN
+  name: RTO_MIN
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_RTO_MIN
+  commentId: F:Mirror.KCP.Kcp.RTO_MIN
+  fullName: Mirror.KCP.Kcp.RTO_MIN
+  nameWithType: Kcp.RTO_MIN
+- uid: Mirror.KCP.Kcp.RTO_NDL
+  name: RTO_NDL
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_RTO_NDL
+  commentId: F:Mirror.KCP.Kcp.RTO_NDL
+  fullName: Mirror.KCP.Kcp.RTO_NDL
+  nameWithType: Kcp.RTO_NDL
 - uid: Mirror.KCP.Kcp.Send(System.Byte[],System.Int32,System.Int32)
   name: Send(Byte[], Int32, Int32)
   href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Send_System_Byte___System_Int32_System_Int32_
@@ -3634,12 +3646,12 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Kcp.SetMtu
   nameWithType: Kcp.SetMtu
-- uid: Mirror.KCP.Kcp.SetNoDelay(System.Boolean,System.UInt32,System.Int32,System.Boolean,System.UInt32)
-  name: SetNoDelay(Boolean, UInt32, Int32, Boolean, UInt32)
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_SetNoDelay_System_Boolean_System_UInt32_System_Int32_System_Boolean_System_UInt32_
-  commentId: M:Mirror.KCP.Kcp.SetNoDelay(System.Boolean,System.UInt32,System.Int32,System.Boolean,System.UInt32)
-  fullName: Mirror.KCP.Kcp.SetNoDelay(System.Boolean, System.UInt32, System.Int32, System.Boolean, System.UInt32)
-  nameWithType: Kcp.SetNoDelay(Boolean, UInt32, Int32, Boolean, UInt32)
+- uid: Mirror.KCP.Kcp.SetNoDelay(System.Boolean,System.UInt32,System.Int32,System.Boolean)
+  name: SetNoDelay(Boolean, UInt32, Int32, Boolean)
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_SetNoDelay_System_Boolean_System_UInt32_System_Int32_System_Boolean_
+  commentId: M:Mirror.KCP.Kcp.SetNoDelay(System.Boolean,System.UInt32,System.Int32,System.Boolean)
+  fullName: Mirror.KCP.Kcp.SetNoDelay(System.Boolean, System.UInt32, System.Int32, System.Boolean)
+  nameWithType: Kcp.SetNoDelay(Boolean, UInt32, Int32, Boolean)
 - uid: Mirror.KCP.Kcp.SetNoDelay*
   name: SetNoDelay
   href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_SetNoDelay_
