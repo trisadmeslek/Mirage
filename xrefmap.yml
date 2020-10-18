@@ -5198,19 +5198,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.OnSerialize
   nameWithType: NetworkBehaviour.OnSerialize
-- uid: Mirror.NetworkBehaviour.SendRPCInternal(Type,System.String,Mirror.NetworkWriter,System.Int32,System.Boolean)
-  name: SendRPCInternal(Type, String, NetworkWriter, Int32, Boolean)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendRPCInternal_Type_System_String_Mirror_NetworkWriter_System_Int32_System_Boolean_
-  commentId: M:Mirror.NetworkBehaviour.SendRPCInternal(Type,System.String,Mirror.NetworkWriter,System.Int32,System.Boolean)
-  fullName: Mirror.NetworkBehaviour.SendRPCInternal(Type, System.String, Mirror.NetworkWriter, System.Int32, System.Boolean)
-  nameWithType: NetworkBehaviour.SendRPCInternal(Type, String, NetworkWriter, Int32, Boolean)
-- uid: Mirror.NetworkBehaviour.SendRPCInternal*
-  name: SendRPCInternal
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendRPCInternal_
-  commentId: Overload:Mirror.NetworkBehaviour.SendRPCInternal
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.SendRPCInternal
-  nameWithType: NetworkBehaviour.SendRPCInternal
 - uid: Mirror.NetworkBehaviour.SendServerRpcInternal(Type,System.String,Mirror.NetworkWriter,System.Int32,System.Boolean)
   name: SendServerRpcInternal(Type, String, NetworkWriter, Int32, Boolean)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendServerRpcInternal_Type_System_String_Mirror_NetworkWriter_System_Int32_System_Boolean_
@@ -5224,19 +5211,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.SendServerRpcInternal
   nameWithType: NetworkBehaviour.SendServerRpcInternal
-- uid: Mirror.NetworkBehaviour.SendTargetRPCInternal(Mirror.INetworkConnection,Type,System.String,Mirror.NetworkWriter,System.Int32)
-  name: SendTargetRPCInternal(INetworkConnection, Type, String, NetworkWriter, Int32)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendTargetRPCInternal_Mirror_INetworkConnection_Type_System_String_Mirror_NetworkWriter_System_Int32_
-  commentId: M:Mirror.NetworkBehaviour.SendTargetRPCInternal(Mirror.INetworkConnection,Type,System.String,Mirror.NetworkWriter,System.Int32)
-  fullName: Mirror.NetworkBehaviour.SendTargetRPCInternal(Mirror.INetworkConnection, Type, System.String, Mirror.NetworkWriter, System.Int32)
-  nameWithType: NetworkBehaviour.SendTargetRPCInternal(INetworkConnection, Type, String, NetworkWriter, Int32)
-- uid: Mirror.NetworkBehaviour.SendTargetRPCInternal*
-  name: SendTargetRPCInternal
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendTargetRPCInternal_
-  commentId: Overload:Mirror.NetworkBehaviour.SendTargetRPCInternal
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.SendTargetRPCInternal
-  nameWithType: NetworkBehaviour.SendTargetRPCInternal
 - uid: Mirror.NetworkBehaviour.SerializeObjectsAll(Mirror.NetworkWriter)
   name: SerializeObjectsAll(NetworkWriter)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SerializeObjectsAll_Mirror_NetworkWriter_
