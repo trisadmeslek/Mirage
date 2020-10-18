@@ -3646,12 +3646,12 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Kcp.SetMtu
   nameWithType: Kcp.SetMtu
-- uid: Mirror.KCP.Kcp.SetNoDelay(System.Boolean,System.UInt32,System.Int32,System.Boolean)
-  name: SetNoDelay(Boolean, UInt32, Int32, Boolean)
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_SetNoDelay_System_Boolean_System_UInt32_System_Int32_System_Boolean_
-  commentId: M:Mirror.KCP.Kcp.SetNoDelay(System.Boolean,System.UInt32,System.Int32,System.Boolean)
-  fullName: Mirror.KCP.Kcp.SetNoDelay(System.Boolean, System.UInt32, System.Int32, System.Boolean)
-  nameWithType: Kcp.SetNoDelay(Boolean, UInt32, Int32, Boolean)
+- uid: Mirror.KCP.Kcp.SetNoDelay(System.Boolean,System.Int32,System.Int32,System.Boolean)
+  name: SetNoDelay(Boolean, Int32, Int32, Boolean)
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_SetNoDelay_System_Boolean_System_Int32_System_Int32_System_Boolean_
+  commentId: M:Mirror.KCP.Kcp.SetNoDelay(System.Boolean,System.Int32,System.Int32,System.Boolean)
+  fullName: Mirror.KCP.Kcp.SetNoDelay(System.Boolean, System.Int32, System.Int32, System.Boolean)
+  nameWithType: Kcp.SetNoDelay(Boolean, Int32, Int32, Boolean)
 - uid: Mirror.KCP.Kcp.SetNoDelay*
   name: SetNoDelay
   href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_SetNoDelay_

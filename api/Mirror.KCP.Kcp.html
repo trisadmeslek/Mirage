@@ -570,12 +570,12 @@ Standard KCP returns time as current + delta.  This version returns delta</p>
   <a id="Mirror_KCP_Kcp_Flush_" data-uid="Mirror.KCP.Kcp.Flush*"></a>
   <h4 id="Mirror_KCP_Kcp_Flush_System_Boolean_" data-uid="Mirror.KCP.Kcp.Flush(System.Boolean)">Flush(Boolean)</h4>
   <div class="markdown level1 summary"><p>Flush</p>
-<return>Returns uint (interval or mintro)</return>
+<return>Returns int (interval or mintro)</return>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public uint Flush(bool ackOnly)</code></pre>
+    <pre><code class="lang-csharp hljs">public int Flush(bool ackOnly)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -605,7 +605,7 @@ Standard KCP returns time as current + delta.  This version returns delta</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -861,7 +861,7 @@ Return -2 if len(buffer) is smaller than kcp.PeekSize().</return>
   
   
   <a id="Mirror_KCP_Kcp_SetNoDelay_" data-uid="Mirror.KCP.Kcp.SetNoDelay*"></a>
-  <h4 id="Mirror_KCP_Kcp_SetNoDelay_System_Boolean_System_UInt32_System_Int32_System_Boolean_" data-uid="Mirror.KCP.Kcp.SetNoDelay(System.Boolean,System.UInt32,System.Int32,System.Boolean)">SetNoDelay(Boolean, UInt32, Int32, Boolean)</h4>
+  <h4 id="Mirror_KCP_Kcp_SetNoDelay_System_Boolean_System_Int32_System_Int32_System_Boolean_" data-uid="Mirror.KCP.Kcp.SetNoDelay(System.Boolean,System.Int32,System.Int32,System.Boolean)">SetNoDelay(Boolean, Int32, Int32, Boolean)</h4>
   <div class="markdown level1 summary"><p>SetNoDelay</p>
 <p>Normal: false, 40, 0, 0</p>
 <p>Fast:    false, 30, 2, 1</p>
@@ -871,7 +871,7 @@ Return -2 if len(buffer) is smaller than kcp.PeekSize().</return>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetNoDelay(bool nodelay = false, uint interval = null, int resend = 0, bool nc = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetNoDelay(bool nodelay = false, int interval = 40, int resend = 0, bool nc = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -890,7 +890,7 @@ Return -2 if len(buffer) is smaller than kcp.PeekSize().</return>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">interval</span></td>
         <td><p>Interval of the internal working of the protocol, in milliseconds, such as 10ms or 20ms.</p>
 </td>
