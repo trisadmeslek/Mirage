@@ -3646,6 +3646,12 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Kcp.SetMtu
   nameWithType: Kcp.SetMtu
+- uid: Mirror.KCP.Kcp.SetNoDelay(Mirror.KCP.KcpDelayMode)
+  name: SetNoDelay(KcpDelayMode)
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_SetNoDelay_Mirror_KCP_KcpDelayMode_
+  commentId: M:Mirror.KCP.Kcp.SetNoDelay(Mirror.KCP.KcpDelayMode)
+  fullName: Mirror.KCP.Kcp.SetNoDelay(Mirror.KCP.KcpDelayMode)
+  nameWithType: Kcp.SetNoDelay(KcpDelayMode)
 - uid: Mirror.KCP.Kcp.SetNoDelay(System.Boolean,System.Int32,System.Int32,System.Boolean)
   name: SetNoDelay(Boolean, Int32, Int32, Boolean)
   href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_SetNoDelay_System_Boolean_System_Int32_System_Int32_System_Boolean_
@@ -3716,12 +3722,12 @@ references:
   commentId: T:Mirror.KCP.KcpClientConnection
   fullName: Mirror.KCP.KcpClientConnection
   nameWithType: KcpClientConnection
-- uid: Mirror.KCP.KcpClientConnection.#ctor
-  name: KcpClientConnection()
-  href: api/Mirror.KCP.KcpClientConnection.html#Mirror_KCP_KcpClientConnection__ctor
-  commentId: M:Mirror.KCP.KcpClientConnection.#ctor
-  fullName: Mirror.KCP.KcpClientConnection.KcpClientConnection()
-  nameWithType: KcpClientConnection.KcpClientConnection()
+- uid: Mirror.KCP.KcpClientConnection.#ctor(Mirror.KCP.KcpDelayMode)
+  name: KcpClientConnection(KcpDelayMode)
+  href: api/Mirror.KCP.KcpClientConnection.html#Mirror_KCP_KcpClientConnection__ctor_Mirror_KCP_KcpDelayMode_
+  commentId: M:Mirror.KCP.KcpClientConnection.#ctor(Mirror.KCP.KcpDelayMode)
+  fullName: Mirror.KCP.KcpClientConnection.KcpClientConnection(Mirror.KCP.KcpDelayMode)
+  nameWithType: KcpClientConnection.KcpClientConnection(KcpDelayMode)
 - uid: Mirror.KCP.KcpClientConnection.#ctor*
   name: KcpClientConnection
   href: api/Mirror.KCP.KcpClientConnection.html#Mirror_KCP_KcpClientConnection__ctor_
@@ -3790,12 +3796,12 @@ references:
   commentId: T:Mirror.KCP.KcpConnection
   fullName: Mirror.KCP.KcpConnection
   nameWithType: KcpConnection
-- uid: Mirror.KCP.KcpConnection.#ctor
-  name: KcpConnection()
-  href: api/Mirror.KCP.KcpConnection.html#Mirror_KCP_KcpConnection__ctor
-  commentId: M:Mirror.KCP.KcpConnection.#ctor
-  fullName: Mirror.KCP.KcpConnection.KcpConnection()
-  nameWithType: KcpConnection.KcpConnection()
+- uid: Mirror.KCP.KcpConnection.#ctor(Mirror.KCP.KcpDelayMode)
+  name: KcpConnection(KcpDelayMode)
+  href: api/Mirror.KCP.KcpConnection.html#Mirror_KCP_KcpConnection__ctor_Mirror_KCP_KcpDelayMode_
+  commentId: M:Mirror.KCP.KcpConnection.#ctor(Mirror.KCP.KcpDelayMode)
+  fullName: Mirror.KCP.KcpConnection.KcpConnection(Mirror.KCP.KcpDelayMode)
+  nameWithType: KcpConnection.KcpConnection(KcpDelayMode)
 - uid: Mirror.KCP.KcpConnection.#ctor*
   name: KcpConnection
   href: api/Mirror.KCP.KcpConnection.html#Mirror_KCP_KcpConnection__ctor_
@@ -3930,18 +3936,48 @@ references:
   commentId: F:Mirror.KCP.KcpConnection.TIMEOUT
   fullName: Mirror.KCP.KcpConnection.TIMEOUT
   nameWithType: KcpConnection.TIMEOUT
+- uid: Mirror.KCP.KcpDelayMode
+  name: KcpDelayMode
+  href: api/Mirror.KCP.KcpDelayMode.html
+  commentId: T:Mirror.KCP.KcpDelayMode
+  fullName: Mirror.KCP.KcpDelayMode
+  nameWithType: KcpDelayMode
+- uid: Mirror.KCP.KcpDelayMode.Fast
+  name: Fast
+  href: api/Mirror.KCP.KcpDelayMode.html#Mirror_KCP_KcpDelayMode_Fast
+  commentId: F:Mirror.KCP.KcpDelayMode.Fast
+  fullName: Mirror.KCP.KcpDelayMode.Fast
+  nameWithType: KcpDelayMode.Fast
+- uid: Mirror.KCP.KcpDelayMode.Fast2
+  name: Fast2
+  href: api/Mirror.KCP.KcpDelayMode.html#Mirror_KCP_KcpDelayMode_Fast2
+  commentId: F:Mirror.KCP.KcpDelayMode.Fast2
+  fullName: Mirror.KCP.KcpDelayMode.Fast2
+  nameWithType: KcpDelayMode.Fast2
+- uid: Mirror.KCP.KcpDelayMode.Fast3
+  name: Fast3
+  href: api/Mirror.KCP.KcpDelayMode.html#Mirror_KCP_KcpDelayMode_Fast3
+  commentId: F:Mirror.KCP.KcpDelayMode.Fast3
+  fullName: Mirror.KCP.KcpDelayMode.Fast3
+  nameWithType: KcpDelayMode.Fast3
+- uid: Mirror.KCP.KcpDelayMode.Normal
+  name: Normal
+  href: api/Mirror.KCP.KcpDelayMode.html#Mirror_KCP_KcpDelayMode_Normal
+  commentId: F:Mirror.KCP.KcpDelayMode.Normal
+  fullName: Mirror.KCP.KcpDelayMode.Normal
+  nameWithType: KcpDelayMode.Normal
 - uid: Mirror.KCP.KcpServerConnection
   name: KcpServerConnection
   href: api/Mirror.KCP.KcpServerConnection.html
   commentId: T:Mirror.KCP.KcpServerConnection
   fullName: Mirror.KCP.KcpServerConnection
   nameWithType: KcpServerConnection
-- uid: Mirror.KCP.KcpServerConnection.#ctor(Socket,EndPoint)
-  name: KcpServerConnection(Socket, EndPoint)
-  href: api/Mirror.KCP.KcpServerConnection.html#Mirror_KCP_KcpServerConnection__ctor_Socket_EndPoint_
-  commentId: M:Mirror.KCP.KcpServerConnection.#ctor(Socket,EndPoint)
-  fullName: Mirror.KCP.KcpServerConnection.KcpServerConnection(Socket, EndPoint)
-  nameWithType: KcpServerConnection.KcpServerConnection(Socket, EndPoint)
+- uid: Mirror.KCP.KcpServerConnection.#ctor(Socket,EndPoint,Mirror.KCP.KcpDelayMode)
+  name: KcpServerConnection(Socket, EndPoint, KcpDelayMode)
+  href: api/Mirror.KCP.KcpServerConnection.html#Mirror_KCP_KcpServerConnection__ctor_Socket_EndPoint_Mirror_KCP_KcpDelayMode_
+  commentId: M:Mirror.KCP.KcpServerConnection.#ctor(Socket,EndPoint,Mirror.KCP.KcpDelayMode)
+  fullName: Mirror.KCP.KcpServerConnection.KcpServerConnection(Socket, EndPoint, Mirror.KCP.KcpDelayMode)
+  nameWithType: KcpServerConnection.KcpServerConnection(Socket, EndPoint, KcpDelayMode)
 - uid: Mirror.KCP.KcpServerConnection.#ctor*
   name: KcpServerConnection
   href: api/Mirror.KCP.KcpServerConnection.html#Mirror_KCP_KcpServerConnection__ctor_
@@ -3997,6 +4033,12 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.KcpTransport.ConnectAsync
   nameWithType: KcpTransport.ConnectAsync
+- uid: Mirror.KCP.KcpTransport.delayMode
+  name: delayMode
+  href: api/Mirror.KCP.KcpTransport.html#Mirror_KCP_KcpTransport_delayMode
+  commentId: F:Mirror.KCP.KcpTransport.delayMode
+  fullName: Mirror.KCP.KcpTransport.delayMode
+  nameWithType: KcpTransport.delayMode
 - uid: Mirror.KCP.KcpTransport.Disconnect
   name: Disconnect()
   href: api/Mirror.KCP.KcpTransport.html#Mirror_KCP_KcpTransport_Disconnect

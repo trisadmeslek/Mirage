@@ -3248,7 +3248,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.KCP.Kcp.html",
-          "hash": "v/EfFGDAazzcaxYUtxS79g=="
+          "hash": "uvlYH9pfrcKnCSYI/oigEQ=="
         }
       },
       "is_incremental": false,
@@ -3260,7 +3260,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.KCP.KcpClientConnection.html",
-          "hash": "Ecs/RJuJbvUWeQvoBhJezg=="
+          "hash": "F8H7y6kngJ9q0YuCM5Emzg=="
         }
       },
       "is_incremental": false,
@@ -3272,7 +3272,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.KCP.KcpConnection.html",
-          "hash": "GSbX14A5DoJgt308Bl6+JA=="
+          "hash": "PHYclSW9qw4DXpEgEEVUXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mirror.KCP.KcpDelayMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mirror.KCP.KcpDelayMode.html",
+          "hash": "AwDkq5pv3JZmc13qzNQ2dw=="
         }
       },
       "is_incremental": false,
@@ -3284,7 +3296,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.KCP.KcpServerConnection.html",
-          "hash": "BHhOWrWW660Hge7YZwVulw=="
+          "hash": "jyPT9ofoemoc+5zLpBpnYw=="
         }
       },
       "is_incremental": false,
@@ -3296,7 +3308,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.KCP.KcpTransport.html",
-          "hash": "VxujVPZ8ExYn2nEbs69rRw=="
+          "hash": "6GZgvF0cqHMy8irUNARv7g=="
         }
       },
       "is_incremental": false,
@@ -3320,7 +3332,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.KCP.html",
-          "hash": "tC8IGoMCUQc7hA+9sZU0+w=="
+          "hash": "IPg4PN/GQeNzlDldsX9wlQ=="
         }
       },
       "is_incremental": false,
@@ -4448,7 +4460,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "8+EevkdQY8hD5KGrWHuTDA=="
+          "hash": "JSFuuSzGUDeyCQ399IODMg=="
         }
       },
       "is_incremental": false,
@@ -4512,17 +4524,18 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 174,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
@@ -4531,11 +4544,10 @@
           "total_file_count": 87,
           "skipped_file_count": 0
         },
-        "ResourceDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 175,
           "skipped_file_count": 0
         }
       }
