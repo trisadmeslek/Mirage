@@ -80,7 +80,7 @@
 <h1 id="clock-synchronization">Clock Synchronization</h1>
 
 <p>For many algorithms you need the clock to be synchronized between the client and
-the server. Mirror does that automatically for you.</p>
+the server. MirrorNG does that automatically for you.</p>
 <p>To get the current time use this code:</p>
 <pre><code class="lang-cs">double now = NetworkTime.time;
 </code></pre>
@@ -94,7 +94,7 @@ some time:</p>
 <li>after 30 days , accuracy is 250 ms</li>
 <li>after 60 days, accuracy is 500 ms</li>
 </ul>
-<p>Mirror will also calculate the RTT time as seen by the application:</p>
+<p>MirrorNG will also calculate the RTT time as seen by the application:</p>
 <pre><code class="lang-cs">double rtt = NetworkTime.rtt;
 </code></pre>
 <p>You can measure accuracy.</p>

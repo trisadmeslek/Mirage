@@ -80,64 +80,20 @@
 <h1 id="networkbehaviour">NetworkBehaviour</h1>
 
 <p><strong>See also <a class="xref" href="../../api/Mirror.NetworkBehaviour.html">NetworkBehaviour</a> in the API Reference.</strong></p>
-<p>Network Behaviour scripts work with game objects that have a NetworkIdentity component. These scripts can perform high-level API functions such as ServerRpc's, ClientRpc's, SyncEvents and SyncVars.</p>
-<p>With the server-authoritative system of Mirror, the server must use the <code>NetworkServer.Spawn</code> function to spawn game objects with Network Identity components. Spawning them this way assigns them a <code>netId</code> and creates them on clients connected to the server.</p>
+<p>Network Behaviour scripts work with game objects that have a NetworkIdentity component. These scripts can perform high-level API functions such as ServerRpcs, ClientRpcs and SyncVars.</p>
+<p>With the server-authoritative system of MirrorNG, the server must use the <code>NetworkServer.Spawn</code> function to spawn game objects with Network Identity components. Spawning them this way assigns them a <code>netId</code> and creates them on clients connected to the server.</p>
 <p><strong>Note:</strong> This is not a component that you can add to a game object directly. Instead, you must create a script which inherits from <code>NetworkBehaviour</code> (instead of the default <code>MonoBehaviour</code>), then you can add your script as a component to a game object.</p>
-<h2 id="properties">Properties</h2>
-<ul>
-<li><strong>isServer</strong><br>
-Returns true if this game object is running on the server, and has been spawned.</li>
-<li><strong>isClient</strong><br>
-Returns true if this game object is on the client and has been spawned by the server.</li>
-<li><strong>isLocalPlayer</strong><br>
-Returns true if this game object represents the player created for this client.</li>
-<li><strong>hasAuthority</strong><br>
-Returns true on the client if this client has <a href="Authority.html">authority</a> over this game object. It is meaningless in server context.</li>
-<li><strong>netId</strong><br>
-The unique network ID of this game object. The server assigns this at run time. It is unique for all game objects in that network session.</li>
-<li><strong>netIdentity</strong><br>
-Returns the NetworkIdentity of this object</li>
-<li><strong>connectionToServer</strong><br>
-The NetworkConnection associated with the Network Identity component attached to this game object. This is only valid for <strong>player objects</strong> on the client.</li>
-<li><strong>connectionToClient</strong><br>
-The NetworkConnection associated with the Network Identity component attached to this game object. This is only valid for player game objects on the server.</li>
-</ul>
 <p>NetworkBehaviour scripts have the following features:</p>
 <ul>
 <li>Synchronized variables</li>
-<li>Network callbacks</li>
 <li>Server and client functions</li>
 <li>Server RPC calls</li>
 <li>Client RPC calls</li>
-<li>Networked events</li>
 </ul>
 <p><img src="UNetDirections.jpg" alt="Data Flow Graph"></p>
-<h2 id="network-callbacks">Network Callbacks</h2>
-<p>There are built-in callback functions which are invoked on NetworkBehaviour scripts for various network events. These are virtual functions on the base class, so you can override them in your own code like this:</p>
-<pre><code class="lang-cs">public class SpaceShip : NetworkBehaviour
-{
-    public override void OnStartServer()
-    {
-        // disable client stuff
-    }
-
-    public override void OnStartClient()
-    {
-        // register client events, enable effects
-    }
-}
-</code></pre>
-<p>The built-in callbacks are:</p>
-<ul>
-<li><strong>OnStartServer</strong> called on server when a game object spawns on the server, or when the server is started for game objects in the Scene</li>
-<li><strong>OnStopServer</strong> called on server when a game object is destroyed on the server, or when the server is stopped for game objects in the Scene</li>
-<li><strong>OnStartClient</strong> called on clients when the game object spawns on the client, or when the client connects to a server for game objects in the Scene</li>
-<li><strong>OnStopClient</strong> called on clients when the server destroys the game object</li>
-<li><strong>OnStartLocalPlayer</strong> called on clients for player game objects on the local client (only)</li>
-<li><strong>OnStartAuthority</strong> called on clients for behaviours that have authority, based on context and hasAuthority.</li>
-<li><strong>OnStopAuthority</strong> called on clients for behaviours when authority is removed.</li>
-</ul>
-<p>Note that in a peer-hosted setup, when one of the clients is acting as both host and client, both <code>OnStartServer</code> and <code>OnStartClient</code> are called on the same game object. Both these functions are useful for actions that are specific to either the client or server, such as suppressing effects on a server, or setting up client-side events.</p>
+<p><strong>Note:</strong> NetworkBehaviors in Mirror and in UNet provide virtual functions as a way for you to add logic in response to lifecycle events.  MirrorNG does not,  instead add listeners to the events in <a href="../Components/NetworkIdentity.html">NetworkIdentity</a>.</p>
+<h2 id="synchronized-variables">Synchronized variables</h2>
+<p>Your component can have data which is automatically synchronized from the server to the client. You can use <a href="Sync/SyncVars.html">SyncVars</a> as well as <a href="Sync/SyncLists.html">SyncLists</a>, <a href="Sync/SyncHashSet.html">SyncSet</a> and <a href="Sync/SyncDictionary.html">SyncDictionary</a> inside a NetworkBehaviour.  They will be automatically propagated to the clients whenever their value change in the server.</p>
 <h2 id="server-and-client-functions">Server and Client functions</h2>
 <p>You can tag member functions in NetworkBehaviour scripts with custom attributes to designate them as server-only or client-only functions. <a class="xref" href="../../api/Mirror.ServerAttribute.html">ServerAttribute</a> will check that the function is called in the server. Likewise, <a class="xref" href="../../api/Mirror.ClientAttribute.html">ClientAttribute</a> will check if the function is called in the client.</p>
 <p>For more information, see <a href="Attributes.html">Attributes</a>.</p>
@@ -162,20 +118,6 @@ The NetworkConnection associated with the Network Identity component attached to
 <li>Has the <code>ClientRpc</code> attribute</li>
 </ul>
 <p>See <a href="Communications/index.html">Communications</a> and related sections for more information.</p>
-<h2 id="networked-events-obsolete">Networked Events (Obsolete)</h2>
-<blockquote>
-<p><strong>IMPORTANT</strong> SyncEvents have been removed in version 18.0.0, see this <a href="https://github.com/vis2k/Mirror/pull/2178">Issue</a> for more information</p>
-</blockquote>
-<p>Networked events are like Client RPC calls, but instead of calling a function on the game object, they trigger Events instead.</p>
-<p>This allows you to write scripts which can register for a callback when an event is triggered.</p>
-<p>To define a Networked event in your code, you must write a function which both:</p>
-<ul>
-<li>Has a name that begins with <code>Event</code></li>
-<li>Has the <code>SyncEvent</code> attribute</li>
-</ul>
-<p>You can use events to build powerful networked game systems that can be extended by other scripts. This example shows how an effect script on the client can respond to events generated by a combat script on the server.</p>
-<p>SyncEvent is the base class that ServerRpc and ClientRpc calls are derived from. You can use the SyncEvent attribute on your own functions to make your own event-driven networked game play code. Using SyncEvent, you can extend Mirror’s Multiplayer features to better fit your own programming patterns.</p>
-<p>See <a href="Sync/SyncEvent.html">SyncEvents</a> for more details.</p>
 </article>
           </div>
           

@@ -79,12 +79,12 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="deprecations">Deprecations</h1>
 
-<p>Certain features of Unity Networking (UNet) were removed from Mirror or modified for various reasons. This page will identify all changed and removed features, properties, and methods, the reason for change or removal, and possible alternatives.</p>
+<p>Certain features of Unity Networking (UNet) were removed from MirrorNG or modified for various reasons. This page will identify all changed and removed features, properties, and methods, the reason for change or removal, and possible alternatives.</p>
 <blockquote>
 <p>Note: Some changes in this document may apply to an upcoming release to the Asset Store.</p>
 </blockquote>
 <h2 id="match-namespace--host-migration">Match Namespace &amp; Host Migration</h2>
-<p>As part of the Unity Services, this entire namespace was removed. It didn't work well to begin with, and was incredibly complex to be part of the core networking package. We expect this, along with other back-end services, will be provided through standalone apps that have integration to Mirror.</p>
+<p>As part of the Unity Services, this entire namespace was removed. It didn't work well to begin with, and was incredibly complex to be part of the core networking package. We expect this, along with other back-end services, will be provided through standalone apps that have integration to MirrorNG.</p>
 <h2 id="network-server-simple">Network Server Simple</h2>
 <p>This was too complex and impractical to maintain for what little it did, and was removed. There are much easier ways to make a basic listen server, with or without one of our transports.</p>
 <h2 id="couch-co-op">Couch Co-Op</h2>
@@ -110,7 +110,7 @@
 </ul>
 <h2 id="quality-of-service-flags">Quality of Service Flags</h2>
 <p>In classic UNet, QoS Flags were used to determine how packets got to the remote end. For example, if you needed a packet to be prioritized in the queue, you would specify a high priority flag which the Unity LLAPI would then receive and deal with appropriately. Unfortunately, this caused a lot of extra work for the transport layer and some of the QoS flags did not work as intended due to buggy code that relied on too much magic.</p>
-<p>In Mirror, QoS flags were replaced with a &quot;Channels&quot; system. While the default transport, <a href="../Transports/Telepathy.html">Telepathy</a>, does not use channels at all because it's TCP-based, other transports, such as <a href="../Transports/Ignorance.html">Ignorance</a> and <a href="../Transports/LiteNetLib4Mirror.html">LiteNetLib4Mirror</a>, do support them.</p>
+<p>In MirrorNG, QoS flags were replaced with a &quot;Channels&quot; system. While the default transport, <a href="../Transports/Telepathy.html">Telepathy</a>, does not use channels at all because it's TCP-based, other transports, such as <a href="../Transports/Ignorance.html">Ignorance</a> and <a href="../Transports/LiteNetLib4Mirror.html">LiteNetLib4Mirror</a>, do support them.</p>
 <p>The currently defined channels are:</p>
 <ul>
 <li><code>Channels.DefaultReliable = 0</code></li>
@@ -171,7 +171,7 @@ Use <code>GetSceneIdentity</code> instead (typo in original name)</p>
 NetworkConnection parameter is no longer needed and nothing is returned</p>
 </li>
 <li><p>Local Player Authority checkbox<br>
-This checkbox is no longer needed, and we simplified how <a href="../Guides/Authority.html">Authority</a> works in Mirror.</p>
+This checkbox is no longer needed, and we simplified how <a href="../Guides/Authority.html">Authority</a> works in MirrorNG.</p>
 </li>
 </ul>
 <h3 id="networkbehaviour">NetworkBehaviour</h3>

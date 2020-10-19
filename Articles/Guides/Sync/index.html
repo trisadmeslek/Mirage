@@ -87,7 +87,7 @@
 SyncVars are variables of scripts that inherit from NetworkBehaviour, which are synchronized from the server to clients.</li>
 <li><a href="SyncEvent.html">SyncEvents (Obsolete)</a><br>
 SyncEvents are networked events like ClientRpc’s, but instead of calling a function on the game object, they trigger Events instead.
-<strong>IMPORTANT:</strong> removed in version 18.0.0, see this <a href="https://github.com/vis2k/Mirror/pull/2178">Issue</a> for more information.</li>
+<strong>IMPORTANT:</strong> removed in version 18.0.0, see this <a href="https://github.com/vis2k/MirrorNG/pull/2178">Issue</a> for more information.</li>
 <li><a href="SyncLists.html">SyncLists</a><br>
 SyncLists contain lists of values and synchronize data from servers to clients.</li>
 <li><a href="SyncDictionary.html">SyncDictionary</a><br>
@@ -98,7 +98,7 @@ An unordered set of values that do not repeat.</li>
 A sorted set of values that do not repeat.</li>
 </ul>
 <h2 id="sync-to-owner">Sync To Owner</h2>
-<p>It is often the case when you don't want some player data visible to other players. In the inspector change the &quot;Network Sync Mode&quot; from &quot;Observers&quot; (default) to &quot;Owner&quot; to let Mirror know to synchronize the data only with the owning client.</p>
+<p>It is often the case when you don't want some player data visible to other players. In the inspector change the &quot;Network Sync Mode&quot; from &quot;Observers&quot; (default) to &quot;Owner&quot; to let MirrorNG know to synchronize the data only with the owning client.</p>
 <p>For example, suppose you are making an inventory system. Suppose player A,B and C are in the same area. There will be a total of 12 objects in the entire network:</p>
 <ul>
 <li>Client A has Player A (himself),  Player B and Player C</li>
@@ -108,12 +108,12 @@ A sorted set of values that do not repeat.</li>
 </ul>
 <p>each one of them would have an Inventory component</p>
 <p>Suppose Player A picks up some loot.  The server adds the loot to Player's A inventory,  which would have a <a href="SyncLists.html">SyncLists</a> of Items.</p>
-<p>By default,  Mirror now has to synchronize player A's inventory everywhere,  that means sending an update message to client A,  client B and client C,  because they all have a copy of Player A. This is wasteful,  Client B and Client C do not need to know about Player's A inventory,  they never see it on screen.  It is also a security problem,  someone could hack the client and display other people's inventory and use it to their advantage.</p>
+<p>By default,  MirrorNG now has to synchronize player A's inventory everywhere,  that means sending an update message to client A,  client B and client C,  because they all have a copy of Player A. This is wasteful,  Client B and Client C do not need to know about Player's A inventory,  they never see it on screen.  It is also a security problem,  someone could hack the client and display other people's inventory and use it to their advantage.</p>
 <p>If you set the &quot;Network Sync Mode&quot;  in the Inventory component to &quot;Owner&quot;,  then Player A's inventory will only be synchronized with Client A.</p>
 <p>Now,  suppose instead of 3 people you have 50 people in an area and one of them picks up loot.  It means that instead of sending 50 messages to 50 different clients,  you would only send 1.  This can have a big impact in bandwith in your game.</p>
 <p>Other typical use cases include quests,  player's hand in a card game, skills, experience, or any other data you don't need to share with other players.</p>
 <h2 id="advanced-state-synchronization">Advanced State Synchronization</h2>
-<p>In most cases, the use of SyncVars is enough for your game scripts to serialize their state to clients. However in some cases you might require more complex serialization code. This page is only relevant for advanced developers who need customized synchronization solutions that go beyond Mirror’s normal SyncVar feature.</p>
+<p>In most cases, the use of SyncVars is enough for your game scripts to serialize their state to clients. However in some cases you might require more complex serialization code. This page is only relevant for advanced developers who need customized synchronization solutions that go beyond MirrorNG’s normal SyncVar feature.</p>
 <h2 id="custom-serialization-functions">Custom Serialization Functions</h2>
 <p>To perform your own custom serialization, you can implement virtual functions on NetworkBehaviour to be used for SyncVar serialization. These functions are:</p>
 <pre><code class="lang-cs">public virtual bool OnSerialize(NetworkWriter writer, bool initialState);
@@ -123,7 +123,7 @@ A sorted set of values that do not repeat.</li>
 <p>Use the <code>initialState</code> flag to differentiate between the first time a game object is serialized and when incremental updates can be sent. The first time a game object is sent to a client, it must include a full state snapshot, but subsequent updates can save on bandwidth by including only incremental changes.</p>
 <p>The <code>OnSerialize</code> function should return true to indicate that an update should be sent. If it returns true, the dirty bits for that script are set to zero. If it returns false, the dirty bits are not changed. This allows multiple changes to a script to be accumulated over time and sent when the system is ready, instead of every frame.</p>
 <p>The <code>OnSerialize</code> function is only called for <code>initialState</code> or when the <code>NetworkBehaviour</code> is dirty. A <code>NetworkBehaviour</code> will only be dirty if a <code>SyncVar</code> or <code>SyncObject</code> (e.g. <code>SyncList</code>) has changed since the last OnSerialize call. After data has been sent the <code>NetworkBehaviour</code> will not be dirty again until the next <code>syncInterval</code> (set in the inspector). A <code>NetworkBehaviour</code> can also be marked as dirty by manually calling <code>SetDirtyBit</code> (this does not bypass the syncInterval limit).</p>
-<p>Although this works,  it is usually better to let Mirror generate these methods and provide <a href="../DataTypes.html">custom serializers</a> for your specific field.</p>
+<p>Although this works,  it is usually better to let MirrorNG generate these methods and provide <a href="../DataTypes.html">custom serializers</a> for your specific field.</p>
 <h2 id="serialization-flow">Serialization Flow</h2>
 <p>Game objects with the Network Identity component attached can have multiple scripts derived from <code>NetworkBehaviour</code>. The flow for serializing these game objects is:</p>
 <p>On the server:</p>
@@ -167,7 +167,7 @@ A sorted set of values that do not repeat.</li>
     }
 }
 </code></pre>
-<p>The following sample shows the code that is generated by Mirror for the <code>SerializeSyncVars</code> function which is called inside <code>NetworkBehaviour.OnSerialize</code>:</p>
+<p>The following sample shows the code that is generated by MirrorNG for the <code>SerializeSyncVars</code> function which is called inside <code>NetworkBehaviour.OnSerialize</code>:</p>
 <pre><code class="lang-cs">public override bool SerializeSyncVars(NetworkWriter writer, bool initialState)
 {
     // Write any SyncVars in base class
@@ -208,7 +208,7 @@ A sorted set of values that do not repeat.</li>
     }
 }
 </code></pre>
-<p>The following sample shows the code that is generated by Mirror for the <code>DeserializeSyncVars</code> function which is called inside <code>NetworkBehaviour.OnDeserialize</code>:</p>
+<p>The following sample shows the code that is generated by MirrorNG for the <code>DeserializeSyncVars</code> function which is called inside <code>NetworkBehaviour.OnDeserialize</code>:</p>
 <pre><code class="lang-cs">public override void DeserializeSyncVars(NetworkReader reader, bool initialState)
 {
     // Read any SyncVars in base class
