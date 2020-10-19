@@ -3471,15 +3471,15 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Kcp.Flush
   nameWithType: Kcp.Flush
-- uid: Mirror.KCP.Kcp.Input(System.Byte[],System.Int32,System.Int32,System.Boolean,System.Boolean)
-  name: Input(Byte[], Int32, Int32, Boolean, Boolean)
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Input_System_Byte___System_Int32_System_Int32_System_Boolean_System_Boolean_
-  commentId: M:Mirror.KCP.Kcp.Input(System.Byte[],System.Int32,System.Int32,System.Boolean,System.Boolean)
-  name.vb: Input(Byte(), Int32, Int32, Boolean, Boolean)
-  fullName: Mirror.KCP.Kcp.Input(System.Byte[], System.Int32, System.Int32, System.Boolean, System.Boolean)
-  fullName.vb: Mirror.KCP.Kcp.Input(System.Byte(), System.Int32, System.Int32, System.Boolean, System.Boolean)
-  nameWithType: Kcp.Input(Byte[], Int32, Int32, Boolean, Boolean)
-  nameWithType.vb: Kcp.Input(Byte(), Int32, Int32, Boolean, Boolean)
+- uid: Mirror.KCP.Kcp.Input(System.Byte[],System.Int32,System.Int32)
+  name: Input(Byte[], Int32, Int32)
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Input_System_Byte___System_Int32_System_Int32_
+  commentId: M:Mirror.KCP.Kcp.Input(System.Byte[],System.Int32,System.Int32)
+  name.vb: Input(Byte(), Int32, Int32)
+  fullName: Mirror.KCP.Kcp.Input(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: Mirror.KCP.Kcp.Input(System.Byte(), System.Int32, System.Int32)
+  nameWithType: Kcp.Input(Byte[], Int32, Int32)
+  nameWithType.vb: Kcp.Input(Byte(), Int32, Int32)
 - uid: Mirror.KCP.Kcp.Input*
   name: Input
   href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Input_
