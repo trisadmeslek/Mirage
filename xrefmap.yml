@@ -3185,6 +3185,40 @@ references:
   commentId: N:Mirror.KCP
   fullName: Mirror.KCP
   nameWithType: Mirror.KCP
+- uid: Mirror.KCP.ByteBuffer
+  name: ByteBuffer
+  href: api/Mirror.KCP.ByteBuffer.html
+  commentId: T:Mirror.KCP.ByteBuffer
+  fullName: Mirror.KCP.ByteBuffer
+  nameWithType: ByteBuffer
+- uid: Mirror.KCP.ByteBuffer.Position
+  name: Position
+  href: api/Mirror.KCP.ByteBuffer.html#Mirror_KCP_ByteBuffer_Position
+  commentId: F:Mirror.KCP.ByteBuffer.Position
+  fullName: Mirror.KCP.ByteBuffer.Position
+  nameWithType: ByteBuffer.Position
+- uid: Mirror.KCP.ByteBuffer.RawBuffer
+  name: RawBuffer
+  href: api/Mirror.KCP.ByteBuffer.html#Mirror_KCP_ByteBuffer_RawBuffer
+  commentId: F:Mirror.KCP.ByteBuffer.RawBuffer
+  fullName: Mirror.KCP.ByteBuffer.RawBuffer
+  nameWithType: ByteBuffer.RawBuffer
+- uid: Mirror.KCP.ByteBuffer.WriteBytes(System.Byte[],System.Int32,System.Int32)
+  name: WriteBytes(Byte[], Int32, Int32)
+  href: api/Mirror.KCP.ByteBuffer.html#Mirror_KCP_ByteBuffer_WriteBytes_System_Byte___System_Int32_System_Int32_
+  commentId: M:Mirror.KCP.ByteBuffer.WriteBytes(System.Byte[],System.Int32,System.Int32)
+  name.vb: WriteBytes(Byte(), Int32, Int32)
+  fullName: Mirror.KCP.ByteBuffer.WriteBytes(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: Mirror.KCP.ByteBuffer.WriteBytes(System.Byte(), System.Int32, System.Int32)
+  nameWithType: ByteBuffer.WriteBytes(Byte[], Int32, Int32)
+  nameWithType.vb: ByteBuffer.WriteBytes(Byte(), Int32, Int32)
+- uid: Mirror.KCP.ByteBuffer.WriteBytes*
+  name: WriteBytes
+  href: api/Mirror.KCP.ByteBuffer.html#Mirror_KCP_ByteBuffer_WriteBytes_
+  commentId: Overload:Mirror.KCP.ByteBuffer.WriteBytes
+  isSpec: "True"
+  fullName: Mirror.KCP.ByteBuffer.WriteBytes
+  nameWithType: ByteBuffer.WriteBytes
 - uid: Mirror.KCP.CommandType
   name: CommandType
   href: api/Mirror.KCP.CommandType.html
