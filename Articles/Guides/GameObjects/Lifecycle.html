@@ -152,7 +152,7 @@ component in your gameobject with your own method and subscribe to
 <p>For example:</p>
 <pre><code class="lang-cs">class MyComponent : MonoBehaviour {
 
-    public void Start() {
+    public void Awake() {
         GetComponent&lt;NetworkIdentity&gt;.OnStartServer.AddListener(OnStartServer);
     }
 
@@ -161,7 +161,7 @@ component in your gameobject with your own method and subscribe to
     }
 }
 </code></pre>
-<p>You can also simply drag the <code>OnStartServer</code> method in the <a class="xref" href="../../../api/Mirror.NetworkIdentity.html">NetworkIdentity</a> event in the inspector.</p>
+<p>You can also simply drag your <code>OnStartServer</code> method in the <a class="xref" href="../../../api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_OnStartServer">OnStartServer</a> event in the inspector.</p>
 <p>During the spawn a message will be sent to all the clients telling them to spawn the object. The message
 will include all the data in <a href="../Sync/SyncVars.html">SyncVars</a>, <a href="../Sync/SyncLists.html">SyncLists</a>, <a href="../Sync/SyncHashSet.html">SyncSet</a>, <a href="../Sync/SyncDictionary.html">SyncDictionary</a></p>
 <h1 id="client-instantiate">Client Instantiate</h1>
