@@ -85,10 +85,14 @@
 <p><strong>Note:</strong> This is not a component that you can add to a game object directly. Instead, you must create a script which inherits from <code>NetworkBehaviour</code> (instead of the default <code>MonoBehaviour</code>), then you can add your script as a component to a game object.</p>
 <p>NetworkBehaviour scripts have the following features:</p>
 <ul>
-<li>Synchronized variables</li>
-<li>Server and client functions</li>
-<li>Server RPC calls</li>
-<li>Client RPC calls</li>
+<li><a href="#networkbehaviour">NetworkBehaviour</a>
+<ul>
+<li><a href="#synchronized-variables">Synchronized variables</a></li>
+<li><a href="#server-and-client-functions">Server and Client functions</a></li>
+<li><a href="#server-rpc-calls">Server RPC Calls</a></li>
+<li><a href="#client-rpc-calls">Client RPC Calls</a></li>
+</ul>
+</li>
 </ul>
 <p><img src="UNetDirections.jpg" alt="Data Flow Graph"></p>
 <p><strong>Note:</strong> NetworkBehaviors in Mirror and in UNet provide virtual functions as a way for you to add logic in response to lifecycle events.  MirrorNG does not,  instead add listeners to the events in <a href="../Components/NetworkIdentity.html">NetworkIdentity</a>.</p>
