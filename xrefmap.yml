@@ -3930,12 +3930,19 @@ references:
   commentId: F:Mirror.KCP.KcpConnection.socket
   fullName: Mirror.KCP.KcpConnection.socket
   nameWithType: KcpConnection.socket
-- uid: Mirror.KCP.KcpConnection.TIMEOUT
-  name: TIMEOUT
-  href: api/Mirror.KCP.KcpConnection.html#Mirror_KCP_KcpConnection_TIMEOUT
-  commentId: F:Mirror.KCP.KcpConnection.TIMEOUT
-  fullName: Mirror.KCP.KcpConnection.TIMEOUT
-  nameWithType: KcpConnection.TIMEOUT
+- uid: Mirror.KCP.KcpConnection.Timeout
+  name: Timeout
+  href: api/Mirror.KCP.KcpConnection.html#Mirror_KCP_KcpConnection_Timeout
+  commentId: P:Mirror.KCP.KcpConnection.Timeout
+  fullName: Mirror.KCP.KcpConnection.Timeout
+  nameWithType: KcpConnection.Timeout
+- uid: Mirror.KCP.KcpConnection.Timeout*
+  name: Timeout
+  href: api/Mirror.KCP.KcpConnection.html#Mirror_KCP_KcpConnection_Timeout_
+  commentId: Overload:Mirror.KCP.KcpConnection.Timeout
+  isSpec: "True"
+  fullName: Mirror.KCP.KcpConnection.Timeout
+  nameWithType: KcpConnection.Timeout
 - uid: Mirror.KCP.KcpDelayMode
   name: KcpDelayMode
   href: api/Mirror.KCP.KcpDelayMode.html
