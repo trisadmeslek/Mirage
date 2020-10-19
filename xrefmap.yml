@@ -3258,6 +3258,12 @@ references:
   commentId: M:Mirror.KCP.HashCash.Equals(Mirror.KCP.HashCash)
   fullName: Mirror.KCP.HashCash.Equals(Mirror.KCP.HashCash)
   nameWithType: HashCash.Equals(HashCash)
+- uid: Mirror.KCP.HashCash.Equals(System.Object)
+  name: Equals(Object)
+  href: api/Mirror.KCP.HashCash.html#Mirror_KCP_HashCash_Equals_System_Object_
+  commentId: M:Mirror.KCP.HashCash.Equals(System.Object)
+  fullName: Mirror.KCP.HashCash.Equals(System.Object)
+  nameWithType: HashCash.Equals(Object)
 - uid: Mirror.KCP.HashCash.Equals*
   name: Equals
   href: api/Mirror.KCP.HashCash.html#Mirror_KCP_HashCash_Equals_
