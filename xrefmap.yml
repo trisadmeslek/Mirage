@@ -4475,6 +4475,19 @@ references:
   fullName.vb: Mirror.MessagePacker.GetId(Of T)()
   nameWithType: MessagePacker.GetId<T>()
   nameWithType.vb: MessagePacker.GetId(Of T)()
+- uid: Mirror.MessagePacker.GetMessageType(System.Int32)
+  name: GetMessageType(Int32)
+  href: api/Mirror.MessagePacker.html#Mirror_MessagePacker_GetMessageType_System_Int32_
+  commentId: M:Mirror.MessagePacker.GetMessageType(System.Int32)
+  fullName: Mirror.MessagePacker.GetMessageType(System.Int32)
+  nameWithType: MessagePacker.GetMessageType(Int32)
+- uid: Mirror.MessagePacker.GetMessageType*
+  name: GetMessageType
+  href: api/Mirror.MessagePacker.html#Mirror_MessagePacker_GetMessageType_
+  commentId: Overload:Mirror.MessagePacker.GetMessageType
+  isSpec: "True"
+  fullName: Mirror.MessagePacker.GetMessageType
+  nameWithType: MessagePacker.GetMessageType
 - uid: Mirror.MessagePacker.Pack*
   name: Pack
   href: api/Mirror.MessagePacker.html#Mirror_MessagePacker_Pack_
@@ -4500,6 +4513,22 @@ references:
   fullName.vb: Mirror.MessagePacker.Pack(Of T)(T, Mirror.NetworkWriter)
   nameWithType: MessagePacker.Pack<T>(T, NetworkWriter)
   nameWithType.vb: MessagePacker.Pack(Of T)(T, NetworkWriter)
+- uid: Mirror.MessagePacker.RegisterMessage*
+  name: RegisterMessage
+  href: api/Mirror.MessagePacker.html#Mirror_MessagePacker_RegisterMessage_
+  commentId: Overload:Mirror.MessagePacker.RegisterMessage
+  isSpec: "True"
+  fullName: Mirror.MessagePacker.RegisterMessage
+  nameWithType: MessagePacker.RegisterMessage
+- uid: Mirror.MessagePacker.RegisterMessage``1
+  name: RegisterMessage<T>()
+  href: api/Mirror.MessagePacker.html#Mirror_MessagePacker_RegisterMessage__1
+  commentId: M:Mirror.MessagePacker.RegisterMessage``1
+  name.vb: RegisterMessage(Of T)()
+  fullName: Mirror.MessagePacker.RegisterMessage<T>()
+  fullName.vb: Mirror.MessagePacker.RegisterMessage(Of T)()
+  nameWithType: MessagePacker.RegisterMessage<T>()
+  nameWithType.vb: MessagePacker.RegisterMessage(Of T)()
 - uid: Mirror.MessagePacker.Unpack*
   name: Unpack
   href: api/Mirror.MessagePacker.html#Mirror_MessagePacker_Unpack_
