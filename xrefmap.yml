@@ -6884,6 +6884,22 @@ references:
   commentId: T:Mirror.NetworkReaderExtensions
   fullName: Mirror.NetworkReaderExtensions
   nameWithType: NetworkReaderExtensions
+- uid: Mirror.NetworkReaderExtensions.ReadArray*
+  name: ReadArray
+  href: api/Mirror.NetworkReaderExtensions.html#Mirror_NetworkReaderExtensions_ReadArray_
+  commentId: Overload:Mirror.NetworkReaderExtensions.ReadArray
+  isSpec: "True"
+  fullName: Mirror.NetworkReaderExtensions.ReadArray
+  nameWithType: NetworkReaderExtensions.ReadArray
+- uid: Mirror.NetworkReaderExtensions.ReadArray``1(Mirror.NetworkReader)
+  name: ReadArray<T>(NetworkReader)
+  href: api/Mirror.NetworkReaderExtensions.html#Mirror_NetworkReaderExtensions_ReadArray__1_Mirror_NetworkReader_
+  commentId: M:Mirror.NetworkReaderExtensions.ReadArray``1(Mirror.NetworkReader)
+  name.vb: ReadArray(Of T)(NetworkReader)
+  fullName: Mirror.NetworkReaderExtensions.ReadArray<T>(Mirror.NetworkReader)
+  fullName.vb: Mirror.NetworkReaderExtensions.ReadArray(Of T)(Mirror.NetworkReader)
+  nameWithType: NetworkReaderExtensions.ReadArray<T>(NetworkReader)
+  nameWithType.vb: NetworkReaderExtensions.ReadArray(Of T)(NetworkReader)
 - uid: Mirror.NetworkReaderExtensions.ReadBoolean(Mirror.NetworkReader)
   name: ReadBoolean(NetworkReader)
   href: api/Mirror.NetworkReaderExtensions.html#Mirror_NetworkReaderExtensions_ReadBoolean_Mirror_NetworkReader_
@@ -7066,6 +7082,22 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkReaderExtensions.ReadInt64
   nameWithType: NetworkReaderExtensions.ReadInt64
+- uid: Mirror.NetworkReaderExtensions.ReadList*
+  name: ReadList
+  href: api/Mirror.NetworkReaderExtensions.html#Mirror_NetworkReaderExtensions_ReadList_
+  commentId: Overload:Mirror.NetworkReaderExtensions.ReadList
+  isSpec: "True"
+  fullName: Mirror.NetworkReaderExtensions.ReadList
+  nameWithType: NetworkReaderExtensions.ReadList
+- uid: Mirror.NetworkReaderExtensions.ReadList``1(Mirror.NetworkReader)
+  name: ReadList<T>(NetworkReader)
+  href: api/Mirror.NetworkReaderExtensions.html#Mirror_NetworkReaderExtensions_ReadList__1_Mirror_NetworkReader_
+  commentId: M:Mirror.NetworkReaderExtensions.ReadList``1(Mirror.NetworkReader)
+  name.vb: ReadList(Of T)(NetworkReader)
+  fullName: Mirror.NetworkReaderExtensions.ReadList<T>(Mirror.NetworkReader)
+  fullName.vb: Mirror.NetworkReaderExtensions.ReadList(Of T)(Mirror.NetworkReader)
+  nameWithType: NetworkReaderExtensions.ReadList<T>(NetworkReader)
+  nameWithType.vb: NetworkReaderExtensions.ReadList(Of T)(NetworkReader)
 - uid: Mirror.NetworkReaderExtensions.ReadMatrix4x4(Mirror.NetworkReader)
   name: ReadMatrix4x4(NetworkReader)
   href: api/Mirror.NetworkReaderExtensions.html#Mirror_NetworkReaderExtensions_ReadMatrix4x4_Mirror_NetworkReader_
@@ -8552,6 +8584,38 @@ references:
   commentId: T:Mirror.NetworkWriterExtensions
   fullName: Mirror.NetworkWriterExtensions
   nameWithType: NetworkWriterExtensions
+- uid: Mirror.NetworkWriterExtensions.WriteArray*
+  name: WriteArray
+  href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteArray_
+  commentId: Overload:Mirror.NetworkWriterExtensions.WriteArray
+  isSpec: "True"
+  fullName: Mirror.NetworkWriterExtensions.WriteArray
+  nameWithType: NetworkWriterExtensions.WriteArray
+- uid: Mirror.NetworkWriterExtensions.WriteArray``1(Mirror.NetworkWriter,``0[])
+  name: WriteArray<T>(NetworkWriter, T[])
+  href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteArray__1_Mirror_NetworkWriter___0___
+  commentId: M:Mirror.NetworkWriterExtensions.WriteArray``1(Mirror.NetworkWriter,``0[])
+  name.vb: WriteArray(Of T)(NetworkWriter, T())
+  fullName: Mirror.NetworkWriterExtensions.WriteArray<T>(Mirror.NetworkWriter, T[])
+  fullName.vb: Mirror.NetworkWriterExtensions.WriteArray(Of T)(Mirror.NetworkWriter, T())
+  nameWithType: NetworkWriterExtensions.WriteArray<T>(NetworkWriter, T[])
+  nameWithType.vb: NetworkWriterExtensions.WriteArray(Of T)(NetworkWriter, T())
+- uid: Mirror.NetworkWriterExtensions.WriteArraySegment*
+  name: WriteArraySegment
+  href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteArraySegment_
+  commentId: Overload:Mirror.NetworkWriterExtensions.WriteArraySegment
+  isSpec: "True"
+  fullName: Mirror.NetworkWriterExtensions.WriteArraySegment
+  nameWithType: NetworkWriterExtensions.WriteArraySegment
+- uid: Mirror.NetworkWriterExtensions.WriteArraySegment``1(Mirror.NetworkWriter,ArraySegment{``0})
+  name: WriteArraySegment<T>(NetworkWriter, ArraySegment<T>)
+  href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteArraySegment__1_Mirror_NetworkWriter_ArraySegment___0__
+  commentId: M:Mirror.NetworkWriterExtensions.WriteArraySegment``1(Mirror.NetworkWriter,ArraySegment{``0})
+  name.vb: WriteArraySegment(Of T)(NetworkWriter, ArraySegment(Of T))
+  fullName: Mirror.NetworkWriterExtensions.WriteArraySegment<T>(Mirror.NetworkWriter, ArraySegment<T>)
+  fullName.vb: Mirror.NetworkWriterExtensions.WriteArraySegment(Of T)(Mirror.NetworkWriter, ArraySegment(Of T))
+  nameWithType: NetworkWriterExtensions.WriteArraySegment<T>(NetworkWriter, ArraySegment<T>)
+  nameWithType.vb: NetworkWriterExtensions.WriteArraySegment(Of T)(NetworkWriter, ArraySegment(Of T))
 - uid: Mirror.NetworkWriterExtensions.WriteBoolean(Mirror.NetworkWriter,System.Boolean)
   name: WriteBoolean(NetworkWriter, Boolean)
   href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteBoolean_Mirror_NetworkWriter_System_Boolean_
@@ -8710,6 +8774,22 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkWriterExtensions.WriteInt16
   nameWithType: NetworkWriterExtensions.WriteInt16
+- uid: Mirror.NetworkWriterExtensions.WriteList*
+  name: WriteList
+  href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteList_
+  commentId: Overload:Mirror.NetworkWriterExtensions.WriteList
+  isSpec: "True"
+  fullName: Mirror.NetworkWriterExtensions.WriteList
+  nameWithType: NetworkWriterExtensions.WriteList
+- uid: Mirror.NetworkWriterExtensions.WriteList``1(Mirror.NetworkWriter,List{``0})
+  name: WriteList<T>(NetworkWriter, List<T>)
+  href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteList__1_Mirror_NetworkWriter_List___0__
+  commentId: M:Mirror.NetworkWriterExtensions.WriteList``1(Mirror.NetworkWriter,List{``0})
+  name.vb: WriteList(Of T)(NetworkWriter, List(Of T))
+  fullName: Mirror.NetworkWriterExtensions.WriteList<T>(Mirror.NetworkWriter, List<T>)
+  fullName.vb: Mirror.NetworkWriterExtensions.WriteList(Of T)(Mirror.NetworkWriter, List(Of T))
+  nameWithType: NetworkWriterExtensions.WriteList<T>(NetworkWriter, List<T>)
+  nameWithType.vb: NetworkWriterExtensions.WriteList(Of T)(NetworkWriter, List(Of T))
 - uid: Mirror.NetworkWriterExtensions.WriteMatrix4x4(Mirror.NetworkWriter,Matrix4x4)
   name: WriteMatrix4x4(NetworkWriter, Matrix4x4)
   href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteMatrix4x4_Mirror_NetworkWriter_Matrix4x4_
