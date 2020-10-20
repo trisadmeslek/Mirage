@@ -3769,19 +3769,19 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.KcpClientConnection.KcpClientConnection
   nameWithType: KcpClientConnection.KcpClientConnection
-- uid: Mirror.KCP.KcpClientConnection.Dispose
-  name: Dispose()
-  href: api/Mirror.KCP.KcpClientConnection.html#Mirror_KCP_KcpClientConnection_Dispose
-  commentId: M:Mirror.KCP.KcpClientConnection.Dispose
-  fullName: Mirror.KCP.KcpClientConnection.Dispose()
-  nameWithType: KcpClientConnection.Dispose()
-- uid: Mirror.KCP.KcpClientConnection.Dispose*
-  name: Dispose
-  href: api/Mirror.KCP.KcpClientConnection.html#Mirror_KCP_KcpClientConnection_Dispose_
-  commentId: Overload:Mirror.KCP.KcpClientConnection.Dispose
+- uid: Mirror.KCP.KcpClientConnection.Close
+  name: Close()
+  href: api/Mirror.KCP.KcpClientConnection.html#Mirror_KCP_KcpClientConnection_Close
+  commentId: M:Mirror.KCP.KcpClientConnection.Close
+  fullName: Mirror.KCP.KcpClientConnection.Close()
+  nameWithType: KcpClientConnection.Close()
+- uid: Mirror.KCP.KcpClientConnection.Close*
+  name: Close
+  href: api/Mirror.KCP.KcpClientConnection.html#Mirror_KCP_KcpClientConnection_Close_
+  commentId: Overload:Mirror.KCP.KcpClientConnection.Close
   isSpec: "True"
-  fullName: Mirror.KCP.KcpClientConnection.Dispose
-  nameWithType: KcpClientConnection.Dispose
+  fullName: Mirror.KCP.KcpClientConnection.Close
+  nameWithType: KcpClientConnection.Close
 - uid: Mirror.KCP.KcpClientConnection.HandshakeAsync(System.Int32)
   name: HandshakeAsync(Int32)
   href: api/Mirror.KCP.KcpClientConnection.html#Mirror_KCP_KcpClientConnection_HandshakeAsync_System_Int32_
@@ -3843,6 +3843,19 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.KcpConnection.KcpConnection
   nameWithType: KcpConnection.KcpConnection
+- uid: Mirror.KCP.KcpConnection.Close
+  name: Close()
+  href: api/Mirror.KCP.KcpConnection.html#Mirror_KCP_KcpConnection_Close
+  commentId: M:Mirror.KCP.KcpConnection.Close
+  fullName: Mirror.KCP.KcpConnection.Close()
+  nameWithType: KcpConnection.Close()
+- uid: Mirror.KCP.KcpConnection.Close*
+  name: Close
+  href: api/Mirror.KCP.KcpConnection.html#Mirror_KCP_KcpConnection_Close_
+  commentId: Overload:Mirror.KCP.KcpConnection.Close
+  isSpec: "True"
+  fullName: Mirror.KCP.KcpConnection.Close
+  nameWithType: KcpConnection.Close
 - uid: Mirror.KCP.KcpConnection.Disconnect
   name: Disconnect()
   href: api/Mirror.KCP.KcpConnection.html#Mirror_KCP_KcpConnection_Disconnect
@@ -3856,19 +3869,6 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.KcpConnection.Disconnect
   nameWithType: KcpConnection.Disconnect
-- uid: Mirror.KCP.KcpConnection.Dispose
-  name: Dispose()
-  href: api/Mirror.KCP.KcpConnection.html#Mirror_KCP_KcpConnection_Dispose
-  commentId: M:Mirror.KCP.KcpConnection.Dispose
-  fullName: Mirror.KCP.KcpConnection.Dispose()
-  nameWithType: KcpConnection.Dispose()
-- uid: Mirror.KCP.KcpConnection.Dispose*
-  name: Dispose
-  href: api/Mirror.KCP.KcpConnection.html#Mirror_KCP_KcpConnection_Dispose_
-  commentId: Overload:Mirror.KCP.KcpConnection.Dispose
-  isSpec: "True"
-  fullName: Mirror.KCP.KcpConnection.Dispose
-  nameWithType: KcpConnection.Dispose
 - uid: Mirror.KCP.KcpConnection.GetEndPointAddress
   name: GetEndPointAddress()
   href: api/Mirror.KCP.KcpConnection.html#Mirror_KCP_KcpConnection_GetEndPointAddress
