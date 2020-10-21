@@ -3184,6 +3184,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Mirror.InvalidMessageException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mirror.InvalidMessageException.html",
+          "hash": "cHnOV8w+RDUGGaloDhOGkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Mirror.KCP.CommandType.yml",
       "output": {
         ".html": {
@@ -4436,7 +4448,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.html",
-          "hash": "PGm/D7PpJgsoWqkLj6qXvg=="
+          "hash": "sSRn3ZfQjjTlHmpGQmOOUg=="
         }
       },
       "is_incremental": false,
@@ -4460,7 +4472,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "71eWrolvkGhX+c6RCf1bPQ=="
+          "hash": "qAivsoFVNqrlYcoacCEJXQ=="
         }
       },
       "is_incremental": false,
@@ -4524,16 +4536,16 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 175,
+          "skipped_file_count": 0
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 88,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 174,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
