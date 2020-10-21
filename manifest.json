@@ -3188,7 +3188,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.KCP.ByteBuffer.html",
-          "hash": "1APZEBRdtbb43wtoDlGUkw=="
+          "hash": "20NBw9gQJBJxV9+YpCu1QA=="
         }
       },
       "is_incremental": false,
@@ -3260,7 +3260,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.KCP.KcpClientConnection.html",
-          "hash": "29e7mJB+lJJJdlvifcIooQ=="
+          "hash": "q4MnBsjxgwgXyEt6rCwCwg=="
         }
       },
       "is_incremental": false,
@@ -3272,7 +3272,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.KCP.KcpConnection.html",
-          "hash": "2nVFNXw3sY6GuxUp5xltEw=="
+          "hash": "256LRDm1nN3jrHIs2BebiQ=="
         }
       },
       "is_incremental": false,
@@ -3296,7 +3296,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.KCP.KcpServerConnection.html",
-          "hash": "7UotFxiGEVJF99dyO26C+w=="
+          "hash": "NQLpTXUuPdsy4fHAhk/lpw=="
         }
       },
       "is_incremental": false,
@@ -3309,6 +3309,18 @@
         ".html": {
           "relative_path": "api/Mirror.KCP.KcpTransport.html",
           "hash": "6GZgvF0cqHMy8irUNARv7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mirror.KCP.Unreliable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mirror.KCP.Unreliable.html",
+          "hash": "OVHOIX40sUKX7uDEPqEijg=="
         }
       },
       "is_incremental": false,
@@ -3332,7 +3344,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.KCP.html",
-          "hash": "Lfn24wRKq3lW9Txnn02ONg=="
+          "hash": "kkBJVoSS9udKc1SghOzezw=="
         }
       },
       "is_incremental": false,
@@ -4460,7 +4472,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "uRFt4Zix1CGZO4+EuVpYZA=="
+          "hash": "GV1T5xsTQkXPw5CVwitErQ=="
         }
       },
       "is_incremental": false,
@@ -4533,7 +4545,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 174,
+          "total_file_count": 175,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
