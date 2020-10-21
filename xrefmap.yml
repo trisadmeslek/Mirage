@@ -7667,19 +7667,6 @@ references:
   commentId: T:Mirror.NetworkSceneManager.ClientSceneChangeEvent
   fullName: Mirror.NetworkSceneManager.ClientSceneChangeEvent
   nameWithType: NetworkSceneManager.ClientSceneChangeEvent
-- uid: Mirror.NetworkSceneManager.LateUpdate
-  name: LateUpdate()
-  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_LateUpdate
-  commentId: M:Mirror.NetworkSceneManager.LateUpdate
-  fullName: Mirror.NetworkSceneManager.LateUpdate()
-  nameWithType: NetworkSceneManager.LateUpdate()
-- uid: Mirror.NetworkSceneManager.LateUpdate*
-  name: LateUpdate
-  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_LateUpdate_
-  commentId: Overload:Mirror.NetworkSceneManager.LateUpdate
-  isSpec: "True"
-  fullName: Mirror.NetworkSceneManager.LateUpdate
-  nameWithType: NetworkSceneManager.LateUpdate
 - uid: Mirror.NetworkSceneManager.NetworkSceneName
   name: NetworkSceneName
   href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_NetworkSceneName
