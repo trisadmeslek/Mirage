@@ -13,24 +13,24 @@ references:
   commentId: T:Mirror.AddPlayerMessage
   fullName: Mirror.AddPlayerMessage
   nameWithType: AddPlayerMessage
-- uid: Mirror.Channels
-  name: Channels
-  href: api/Mirror.Channels.html
-  commentId: T:Mirror.Channels
-  fullName: Mirror.Channels
-  nameWithType: Channels
-- uid: Mirror.Channels.DefaultReliable
-  name: DefaultReliable
-  href: api/Mirror.Channels.html#Mirror_Channels_DefaultReliable
-  commentId: F:Mirror.Channels.DefaultReliable
-  fullName: Mirror.Channels.DefaultReliable
-  nameWithType: Channels.DefaultReliable
-- uid: Mirror.Channels.DefaultUnreliable
-  name: DefaultUnreliable
-  href: api/Mirror.Channels.html#Mirror_Channels_DefaultUnreliable
-  commentId: F:Mirror.Channels.DefaultUnreliable
-  fullName: Mirror.Channels.DefaultUnreliable
-  nameWithType: Channels.DefaultUnreliable
+- uid: Mirror.Channel
+  name: Channel
+  href: api/Mirror.Channel.html
+  commentId: T:Mirror.Channel
+  fullName: Mirror.Channel
+  nameWithType: Channel
+- uid: Mirror.Channel.Reliable
+  name: Reliable
+  href: api/Mirror.Channel.html#Mirror_Channel_Reliable
+  commentId: F:Mirror.Channel.Reliable
+  fullName: Mirror.Channel.Reliable
+  nameWithType: Channel.Reliable
+- uid: Mirror.Channel.Unreliable
+  name: Unreliable
+  href: api/Mirror.Channel.html#Mirror_Channel_Unreliable
+  commentId: F:Mirror.Channel.Unreliable
+  fullName: Mirror.Channel.Unreliable
+  nameWithType: Channel.Unreliable
 - uid: Mirror.Client
   name: Client
   href: api/Mirror.Client.html
@@ -2198,28 +2198,6 @@ references:
   isSpec: "True"
   fullName: Mirror.HeadlessFrameLimiter.Start
   nameWithType: HeadlessFrameLimiter.Start
-- uid: Mirror.IChannelConnection
-  name: IChannelConnection
-  href: api/Mirror.IChannelConnection.html
-  commentId: T:Mirror.IChannelConnection
-  fullName: Mirror.IChannelConnection
-  nameWithType: IChannelConnection
-- uid: Mirror.IChannelConnection.SendAsync(ArraySegment{System.Byte},System.Int32)
-  name: SendAsync(ArraySegment<Byte>, Int32)
-  href: api/Mirror.IChannelConnection.html#Mirror_IChannelConnection_SendAsync_ArraySegment_System_Byte__System_Int32_
-  commentId: M:Mirror.IChannelConnection.SendAsync(ArraySegment{System.Byte},System.Int32)
-  name.vb: SendAsync(ArraySegment(Of Byte), Int32)
-  fullName: Mirror.IChannelConnection.SendAsync(ArraySegment<System.Byte>, System.Int32)
-  fullName.vb: Mirror.IChannelConnection.SendAsync(ArraySegment(Of System.Byte), System.Int32)
-  nameWithType: IChannelConnection.SendAsync(ArraySegment<Byte>, Int32)
-  nameWithType.vb: IChannelConnection.SendAsync(ArraySegment(Of Byte), Int32)
-- uid: Mirror.IChannelConnection.SendAsync*
-  name: SendAsync
-  href: api/Mirror.IChannelConnection.html#Mirror_IChannelConnection_SendAsync_
-  commentId: Overload:Mirror.IChannelConnection.SendAsync
-  isSpec: "True"
-  fullName: Mirror.IChannelConnection.SendAsync
-  nameWithType: IChannelConnection.SendAsync
 - uid: Mirror.IClientObjectManager
   name: IClientObjectManager
   href: api/Mirror.IClientObjectManager.html
@@ -2399,15 +2377,15 @@ references:
   isSpec: "True"
   fullName: Mirror.IConnection.ReceiveAsync
   nameWithType: IConnection.ReceiveAsync
-- uid: Mirror.IConnection.SendAsync(ArraySegment{System.Byte})
-  name: SendAsync(ArraySegment<Byte>)
-  href: api/Mirror.IConnection.html#Mirror_IConnection_SendAsync_ArraySegment_System_Byte__
-  commentId: M:Mirror.IConnection.SendAsync(ArraySegment{System.Byte})
-  name.vb: SendAsync(ArraySegment(Of Byte))
-  fullName: Mirror.IConnection.SendAsync(ArraySegment<System.Byte>)
-  fullName.vb: Mirror.IConnection.SendAsync(ArraySegment(Of System.Byte))
-  nameWithType: IConnection.SendAsync(ArraySegment<Byte>)
-  nameWithType.vb: IConnection.SendAsync(ArraySegment(Of Byte))
+- uid: Mirror.IConnection.SendAsync(ArraySegment{System.Byte},System.Int32)
+  name: SendAsync(ArraySegment<Byte>, Int32)
+  href: api/Mirror.IConnection.html#Mirror_IConnection_SendAsync_ArraySegment_System_Byte__System_Int32_
+  commentId: M:Mirror.IConnection.SendAsync(ArraySegment{System.Byte},System.Int32)
+  name.vb: SendAsync(ArraySegment(Of Byte), Int32)
+  fullName: Mirror.IConnection.SendAsync(ArraySegment<System.Byte>, System.Int32)
+  fullName.vb: Mirror.IConnection.SendAsync(ArraySegment(Of System.Byte), System.Int32)
+  nameWithType: IConnection.SendAsync(ArraySegment<Byte>, Int32)
+  nameWithType.vb: IConnection.SendAsync(ArraySegment(Of Byte), Int32)
 - uid: Mirror.IConnection.SendAsync*
   name: SendAsync
   href: api/Mirror.IConnection.html#Mirror_IConnection_SendAsync_
@@ -3892,15 +3870,15 @@ references:
   commentId: F:Mirror.KCP.KcpConnection.RESERVED
   fullName: Mirror.KCP.KcpConnection.RESERVED
   nameWithType: KcpConnection.RESERVED
-- uid: Mirror.KCP.KcpConnection.SendAsync(ArraySegment{System.Byte})
-  name: SendAsync(ArraySegment<Byte>)
-  href: api/Mirror.KCP.KcpConnection.html#Mirror_KCP_KcpConnection_SendAsync_ArraySegment_System_Byte__
-  commentId: M:Mirror.KCP.KcpConnection.SendAsync(ArraySegment{System.Byte})
-  name.vb: SendAsync(ArraySegment(Of Byte))
-  fullName: Mirror.KCP.KcpConnection.SendAsync(ArraySegment<System.Byte>)
-  fullName.vb: Mirror.KCP.KcpConnection.SendAsync(ArraySegment(Of System.Byte))
-  nameWithType: KcpConnection.SendAsync(ArraySegment<Byte>)
-  nameWithType.vb: KcpConnection.SendAsync(ArraySegment(Of Byte))
+- uid: Mirror.KCP.KcpConnection.SendAsync(ArraySegment{System.Byte},System.Int32)
+  name: SendAsync(ArraySegment<Byte>, Int32)
+  href: api/Mirror.KCP.KcpConnection.html#Mirror_KCP_KcpConnection_SendAsync_ArraySegment_System_Byte__System_Int32_
+  commentId: M:Mirror.KCP.KcpConnection.SendAsync(ArraySegment{System.Byte},System.Int32)
+  name.vb: SendAsync(ArraySegment(Of Byte), Int32)
+  fullName: Mirror.KCP.KcpConnection.SendAsync(ArraySegment<System.Byte>, System.Int32)
+  fullName.vb: Mirror.KCP.KcpConnection.SendAsync(ArraySegment(Of System.Byte), System.Int32)
+  nameWithType: KcpConnection.SendAsync(ArraySegment<Byte>, Int32)
+  nameWithType.vb: KcpConnection.SendAsync(ArraySegment(Of Byte), Int32)
 - uid: Mirror.KCP.KcpConnection.SendAsync*
   name: SendAsync
   href: api/Mirror.KCP.KcpConnection.html#Mirror_KCP_KcpConnection_SendAsync_
@@ -9252,15 +9230,15 @@ references:
   isSpec: "True"
   fullName: Mirror.PipeConnection.ReceiveAsync
   nameWithType: PipeConnection.ReceiveAsync
-- uid: Mirror.PipeConnection.SendAsync(ArraySegment{System.Byte})
-  name: SendAsync(ArraySegment<Byte>)
-  href: api/Mirror.PipeConnection.html#Mirror_PipeConnection_SendAsync_ArraySegment_System_Byte__
-  commentId: M:Mirror.PipeConnection.SendAsync(ArraySegment{System.Byte})
-  name.vb: SendAsync(ArraySegment(Of Byte))
-  fullName: Mirror.PipeConnection.SendAsync(ArraySegment<System.Byte>)
-  fullName.vb: Mirror.PipeConnection.SendAsync(ArraySegment(Of System.Byte))
-  nameWithType: PipeConnection.SendAsync(ArraySegment<Byte>)
-  nameWithType.vb: PipeConnection.SendAsync(ArraySegment(Of Byte))
+- uid: Mirror.PipeConnection.SendAsync(ArraySegment{System.Byte},System.Int32)
+  name: SendAsync(ArraySegment<Byte>, Int32)
+  href: api/Mirror.PipeConnection.html#Mirror_PipeConnection_SendAsync_ArraySegment_System_Byte__System_Int32_
+  commentId: M:Mirror.PipeConnection.SendAsync(ArraySegment{System.Byte},System.Int32)
+  name.vb: SendAsync(ArraySegment(Of Byte), Int32)
+  fullName: Mirror.PipeConnection.SendAsync(ArraySegment<System.Byte>, System.Int32)
+  fullName.vb: Mirror.PipeConnection.SendAsync(ArraySegment(Of System.Byte), System.Int32)
+  nameWithType: PipeConnection.SendAsync(ArraySegment<Byte>, Int32)
+  nameWithType.vb: PipeConnection.SendAsync(ArraySegment(Of Byte), Int32)
 - uid: Mirror.PipeConnection.SendAsync*
   name: SendAsync
   href: api/Mirror.PipeConnection.html#Mirror_PipeConnection_SendAsync_
