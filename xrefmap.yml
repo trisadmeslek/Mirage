@@ -1568,37 +1568,37 @@ references:
   fullName.vb: Mirror.Discovery.NetworkDiscoveryBase(Of Request, Response).SupportedOnThisPlatform
   nameWithType: NetworkDiscoveryBase<Request, Response>.SupportedOnThisPlatform
   nameWithType.vb: NetworkDiscoveryBase(Of Request, Response).SupportedOnThisPlatform
-- uid: Mirror.Discovery.NetworkDiscoveryHUD
-  name: NetworkDiscoveryHUD
-  href: api/Mirror.Discovery.NetworkDiscoveryHUD.html
-  commentId: T:Mirror.Discovery.NetworkDiscoveryHUD
-  fullName: Mirror.Discovery.NetworkDiscoveryHUD
-  nameWithType: NetworkDiscoveryHUD
-- uid: Mirror.Discovery.NetworkDiscoveryHUD.networkDiscovery
+- uid: Mirror.Discovery.NetworkDiscoveryHud
+  name: NetworkDiscoveryHud
+  href: api/Mirror.Discovery.NetworkDiscoveryHud.html
+  commentId: T:Mirror.Discovery.NetworkDiscoveryHud
+  fullName: Mirror.Discovery.NetworkDiscoveryHud
+  nameWithType: NetworkDiscoveryHud
+- uid: Mirror.Discovery.NetworkDiscoveryHud.networkDiscovery
   name: networkDiscovery
-  href: api/Mirror.Discovery.NetworkDiscoveryHUD.html#Mirror_Discovery_NetworkDiscoveryHUD_networkDiscovery
-  commentId: F:Mirror.Discovery.NetworkDiscoveryHUD.networkDiscovery
-  fullName: Mirror.Discovery.NetworkDiscoveryHUD.networkDiscovery
-  nameWithType: NetworkDiscoveryHUD.networkDiscovery
-- uid: Mirror.Discovery.NetworkDiscoveryHUD.networkManager
+  href: api/Mirror.Discovery.NetworkDiscoveryHud.html#Mirror_Discovery_NetworkDiscoveryHud_networkDiscovery
+  commentId: F:Mirror.Discovery.NetworkDiscoveryHud.networkDiscovery
+  fullName: Mirror.Discovery.NetworkDiscoveryHud.networkDiscovery
+  nameWithType: NetworkDiscoveryHud.networkDiscovery
+- uid: Mirror.Discovery.NetworkDiscoveryHud.networkManager
   name: networkManager
-  href: api/Mirror.Discovery.NetworkDiscoveryHUD.html#Mirror_Discovery_NetworkDiscoveryHUD_networkManager
-  commentId: F:Mirror.Discovery.NetworkDiscoveryHUD.networkManager
-  fullName: Mirror.Discovery.NetworkDiscoveryHUD.networkManager
-  nameWithType: NetworkDiscoveryHUD.networkManager
-- uid: Mirror.Discovery.NetworkDiscoveryHUD.OnDiscoveredServer(Mirror.Discovery.ServerResponse)
+  href: api/Mirror.Discovery.NetworkDiscoveryHud.html#Mirror_Discovery_NetworkDiscoveryHud_networkManager
+  commentId: F:Mirror.Discovery.NetworkDiscoveryHud.networkManager
+  fullName: Mirror.Discovery.NetworkDiscoveryHud.networkManager
+  nameWithType: NetworkDiscoveryHud.networkManager
+- uid: Mirror.Discovery.NetworkDiscoveryHud.OnDiscoveredServer(Mirror.Discovery.ServerResponse)
   name: OnDiscoveredServer(ServerResponse)
-  href: api/Mirror.Discovery.NetworkDiscoveryHUD.html#Mirror_Discovery_NetworkDiscoveryHUD_OnDiscoveredServer_Mirror_Discovery_ServerResponse_
-  commentId: M:Mirror.Discovery.NetworkDiscoveryHUD.OnDiscoveredServer(Mirror.Discovery.ServerResponse)
-  fullName: Mirror.Discovery.NetworkDiscoveryHUD.OnDiscoveredServer(Mirror.Discovery.ServerResponse)
-  nameWithType: NetworkDiscoveryHUD.OnDiscoveredServer(ServerResponse)
-- uid: Mirror.Discovery.NetworkDiscoveryHUD.OnDiscoveredServer*
+  href: api/Mirror.Discovery.NetworkDiscoveryHud.html#Mirror_Discovery_NetworkDiscoveryHud_OnDiscoveredServer_Mirror_Discovery_ServerResponse_
+  commentId: M:Mirror.Discovery.NetworkDiscoveryHud.OnDiscoveredServer(Mirror.Discovery.ServerResponse)
+  fullName: Mirror.Discovery.NetworkDiscoveryHud.OnDiscoveredServer(Mirror.Discovery.ServerResponse)
+  nameWithType: NetworkDiscoveryHud.OnDiscoveredServer(ServerResponse)
+- uid: Mirror.Discovery.NetworkDiscoveryHud.OnDiscoveredServer*
   name: OnDiscoveredServer
-  href: api/Mirror.Discovery.NetworkDiscoveryHUD.html#Mirror_Discovery_NetworkDiscoveryHUD_OnDiscoveredServer_
-  commentId: Overload:Mirror.Discovery.NetworkDiscoveryHUD.OnDiscoveredServer
+  href: api/Mirror.Discovery.NetworkDiscoveryHud.html#Mirror_Discovery_NetworkDiscoveryHud_OnDiscoveredServer_
+  commentId: Overload:Mirror.Discovery.NetworkDiscoveryHud.OnDiscoveredServer
   isSpec: "True"
-  fullName: Mirror.Discovery.NetworkDiscoveryHUD.OnDiscoveredServer
-  nameWithType: NetworkDiscoveryHUD.OnDiscoveredServer
+  fullName: Mirror.Discovery.NetworkDiscoveryHud.OnDiscoveredServer
+  nameWithType: NetworkDiscoveryHud.OnDiscoveredServer
 - uid: Mirror.Discovery.ServerFoundUnityEvent
   name: ServerFoundUnityEvent
   href: api/Mirror.Discovery.ServerFoundUnityEvent.html
