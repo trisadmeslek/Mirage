@@ -83,7 +83,9 @@
   
   <h1 id="Mirror_KCP_Kcp" data-uid="Mirror.KCP.Kcp" class="text-break">Class Kcp
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>A reliability algorithm over an unreliable transport such as UDP.
+based on <a href="https://github.com/skywind3000/kcp">https://github.com/skywind3000/kcp</a></p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -102,12 +104,13 @@
   
   <a id="Mirror_KCP_Kcp__ctor_" data-uid="Mirror.KCP.Kcp.#ctor*"></a>
   <h4 id="Mirror_KCP_Kcp__ctor_System_UInt32_Action_System_Byte___System_Int32__" data-uid="Mirror.KCP.Kcp.#ctor(System.UInt32,Action{System.Byte[],System.Int32})">Kcp(UInt32, Action&lt;Byte[], Int32&gt;)</h4>
-  <div class="markdown level1 summary"><p>create a new kcp control object</p>
+  <div class="markdown level1 summary"><p>create a new kcp control object, 'conv' must equal in two endpoint
+from the same connection.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Kcp(uint conv_, Action&lt;byte[], int&gt; output_)</code></pre>
+    <pre><code class="lang-csharp hljs">public Kcp(uint conv, Action&lt;byte[], int&gt; output)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -121,19 +124,44 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
-        <td><span class="parametername">conv_</span></td>
-        <td><p>must equal in two endpoint from the same connection.</p>
+        <td><span class="parametername">conv</span></td>
+        <td><p>a number that must match between two endpoints</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">Action</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[], <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
-        <td><span class="parametername">output_</span></td>
-        <td></td>
+        <td><span class="parametername">output</span></td>
+        <td><p>a delegate to use when sending data</p>
+</td>
       </tr>
     </tbody>
   </table>
   <h3 id="fields">Fields
   </h3>
+  
+  
+  <h4 id="Mirror_KCP_Kcp_ACK_FAST" data-uid="Mirror.KCP.Kcp.ACK_FAST">ACK_FAST</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ACK_FAST = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <h4 id="Mirror_KCP_Kcp_ASK_SEND" data-uid="Mirror.KCP.Kcp.ASK_SEND">ASK_SEND</h4>
@@ -166,6 +194,102 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public const int ASK_TELL = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Mirror_KCP_Kcp_DEADLINK" data-uid="Mirror.KCP.Kcp.DEADLINK">DEADLINK</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DEADLINK = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Mirror_KCP_Kcp_FASTACK_LIMIT" data-uid="Mirror.KCP.Kcp.FASTACK_LIMIT">FASTACK_LIMIT</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int FASTACK_LIMIT = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Mirror_KCP_Kcp_INTERVAL" data-uid="Mirror.KCP.Kcp.INTERVAL">INTERVAL</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int INTERVAL = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Mirror_KCP_Kcp_MTU_DEF" data-uid="Mirror.KCP.Kcp.MTU_DEF">MTU_DEF</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MTU_DEF = null</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -256,6 +380,30 @@
   </table>
   
   
+  <h4 id="Mirror_KCP_Kcp_RTO_DEF" data-uid="Mirror.KCP.Kcp.RTO_DEF">RTO_DEF</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RTO_DEF = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Mirror_KCP_Kcp_RTO_MAX" data-uid="Mirror.KCP.Kcp.RTO_MAX">RTO_MAX</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -328,6 +476,54 @@
   </table>
   
   
+  <h4 id="Mirror_KCP_Kcp_THRESH_INIT" data-uid="Mirror.KCP.Kcp.THRESH_INIT">THRESH_INIT</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int THRESH_INIT = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Mirror_KCP_Kcp_THRESH_MIN" data-uid="Mirror.KCP.Kcp.THRESH_MIN">THRESH_MIN</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int THRESH_MIN = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Mirror_KCP_Kcp_WND_RCV" data-uid="Mirror.KCP.Kcp.WND_RCV">WND_RCV</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -378,14 +574,65 @@
   </h3>
   
   
-  <a id="Mirror_KCP_Kcp_CurrentMS_" data-uid="Mirror.KCP.Kcp.CurrentMS*"></a>
-  <h4 id="Mirror_KCP_Kcp_CurrentMS" data-uid="Mirror.KCP.Kcp.CurrentMS">CurrentMS</h4>
-  <div class="markdown level1 summary"><p>Returns uint current internal time in Milliseconds</p>
+  <a id="Mirror_KCP_Kcp_FastAckConserve_" data-uid="Mirror.KCP.Kcp.FastAckConserve*"></a>
+  <h4 id="Mirror_KCP_Kcp_FastAckConserve" data-uid="Mirror.KCP.Kcp.FastAckConserve">FastAckConserve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool FastAckConserve { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mirror_KCP_Kcp_Mtu_" data-uid="Mirror.KCP.Kcp.Mtu*"></a>
+  <h4 id="Mirror_KCP_Kcp_Mtu" data-uid="Mirror.KCP.Kcp.Mtu">Mtu</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Mtu { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mirror_KCP_Kcp_Reserved_" data-uid="Mirror.KCP.Kcp.Reserved*"></a>
+  <h4 id="Mirror_KCP_Kcp_Reserved" data-uid="Mirror.KCP.Kcp.Reserved">Reserved</h4>
+  <div class="markdown level1 summary"><p>How many bytes to reserve at beginning of a packet
+the extra bytes can be used to store a CRC or other information</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public uint CurrentMS { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int Reserved { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -397,107 +644,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Mirror_KCP_Kcp_MaximumSegmentSize_" data-uid="Mirror.KCP.Kcp.MaximumSegmentSize*"></a>
-  <h4 id="Mirror_KCP_Kcp_MaximumSegmentSize" data-uid="Mirror.KCP.Kcp.MaximumSegmentSize">MaximumSegmentSize</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public uint MaximumSegmentSize { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Mirror_KCP_Kcp_ReceiveWindowMax_" data-uid="Mirror.KCP.Kcp.ReceiveWindowMax*"></a>
-  <h4 id="Mirror_KCP_Kcp_ReceiveWindowMax" data-uid="Mirror.KCP.Kcp.ReceiveWindowMax">ReceiveWindowMax</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public uint ReceiveWindowMax { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Mirror_KCP_Kcp_RmtWnd_" data-uid="Mirror.KCP.Kcp.RmtWnd*"></a>
-  <h4 id="Mirror_KCP_Kcp_RmtWnd" data-uid="Mirror.KCP.Kcp.RmtWnd">RmtWnd</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public uint RmtWnd { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Mirror_KCP_Kcp_SendWindowMax_" data-uid="Mirror.KCP.Kcp.SendWindowMax*"></a>
-  <h4 id="Mirror_KCP_Kcp_SendWindowMax" data-uid="Mirror.KCP.Kcp.SendWindowMax">SendWindowMax</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public uint SendWindowMax { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -506,8 +653,7 @@
   
   <a id="Mirror_KCP_Kcp_WaitSnd_" data-uid="Mirror.KCP.Kcp.WaitSnd*"></a>
   <h4 id="Mirror_KCP_Kcp_WaitSnd" data-uid="Mirror.KCP.Kcp.WaitSnd">WaitSnd</h4>
-  <div class="markdown level1 summary"><p>Returns int count of current packets waiting to be sent</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -533,49 +679,12 @@
   
   
   <a id="Mirror_KCP_Kcp_Check_" data-uid="Mirror.KCP.Kcp.Check*"></a>
-  <h4 id="Mirror_KCP_Kcp_Check" data-uid="Mirror.KCP.Kcp.Check">Check()</h4>
-  <div class="markdown level1 summary"><p>Check
-Determine when should you invoke update</p>
-<p>Returns when you should invoke update in millisec, if there
-is no input/_send calling. you can call update in that
-time, instead of call update repeatly.
-Important to reduce unnacessary update invoking. use it to
-schedule update (eg. implementing an epoll-like mechanism, or
-optimize update when handling massive kcp connections)
-Standard KCP returns time as current + delta.  This version returns delta</p>
-<returns>Returns int (0 or minimum interval)</returns>
-</div>
+  <h4 id="Mirror_KCP_Kcp_Check_System_UInt32_" data-uid="Mirror.KCP.Kcp.Check(System.UInt32)">Check(UInt32)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Check()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Mirror_KCP_Kcp_Flush_" data-uid="Mirror.KCP.Kcp.Flush*"></a>
-  <h4 id="Mirror_KCP_Kcp_Flush_System_Boolean_" data-uid="Mirror.KCP.Kcp.Flush(System.Boolean)">Flush(Boolean)</h4>
-  <div class="markdown level1 summary"><p>Flush</p>
-<return>Returns int (interval or mintro)</return>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Flush(bool ackOnly)</code></pre>
+    <pre><code class="lang-csharp hljs">public uint Check(uint current_)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -588,10 +697,9 @@ Standard KCP returns time as current + delta.  This version returns delta</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">ackOnly</span></td>
-        <td><p>flush remain ack segments</p>
-</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><span class="parametername">current_</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -605,23 +713,30 @@ Standard KCP returns time as current + delta.  This version returns delta</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Mirror_KCP_Kcp_Input_" data-uid="Mirror.KCP.Kcp.Input*"></a>
-  <h4 id="Mirror_KCP_Kcp_Input_System_Byte___System_Int32_System_Int32_" data-uid="Mirror.KCP.Kcp.Input(System.Byte[],System.Int32,System.Int32)">Input(Byte[], Int32, Int32)</h4>
-  <div class="markdown level1 summary"><p>Input</p>
-<p>Used when you receive a low level packet (eg. UDP packet)</p>
-<returns>Returns int (-3, -1, or 0)</returns>
-</div>
+  <a id="Mirror_KCP_Kcp_Flush_" data-uid="Mirror.KCP.Kcp.Flush*"></a>
+  <h4 id="Mirror_KCP_Kcp_Flush" data-uid="Mirror.KCP.Kcp.Flush">Flush()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Input(byte[] data, int index, int size)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Flush()</code></pre>
+  </div>
+  
+  
+  <a id="Mirror_KCP_Kcp_Input_" data-uid="Mirror.KCP.Kcp.Input*"></a>
+  <h4 id="Mirror_KCP_Kcp_Input_System_Byte___System_Int32_" data-uid="Mirror.KCP.Kcp.Input(System.Byte[],System.Int32)">Input(Byte[], Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Input(byte[] data, int size)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -636,11 +751,6 @@ Standard KCP returns time as current + delta.  This version returns delta</p>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
         <td><span class="parametername">data</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">index</span></td>
         <td></td>
       </tr>
       <tr>
@@ -669,10 +779,7 @@ Standard KCP returns time as current + delta.  This version returns delta</p>
   
   <a id="Mirror_KCP_Kcp_PeekSize_" data-uid="Mirror.KCP.Kcp.PeekSize*"></a>
   <h4 id="Mirror_KCP_Kcp_PeekSize" data-uid="Mirror.KCP.Kcp.PeekSize">PeekSize()</h4>
-  <div class="markdown level1 summary"><p>PeekSize</p>
-<p>check the size of next message in the recv queue</p>
-<return>Returns int (-1, length or readablebytes)</return>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -696,17 +803,13 @@ Standard KCP returns time as current + delta.  This version returns delta</p>
   
   
   <a id="Mirror_KCP_Kcp_Receive_" data-uid="Mirror.KCP.Kcp.Receive*"></a>
-  <h4 id="Mirror_KCP_Kcp_Receive_System_Byte___System_Int32_System_Int32_" data-uid="Mirror.KCP.Kcp.Receive(System.Byte[],System.Int32,System.Int32)">Receive(Byte[], Int32, Int32)</h4>
-  <div class="markdown level1 summary"><p>Receive</p>
-<p>Receive data from kcp state machine</p>
-<return>Return number of bytes read.
-Return -1 when there is no readable data.
-Return -2 if len(buffer) is smaller than kcp.PeekSize().</return>
+  <h4 id="Mirror_KCP_Kcp_Receive_System_Byte___" data-uid="Mirror.KCP.Kcp.Receive(System.Byte[])">Receive(Byte[])</h4>
+  <div class="markdown level1 summary"><p>receive data from kcp state machine</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Receive(byte[] buffer, int offset, int length)</code></pre>
+    <pre><code class="lang-csharp hljs">public int Receive(byte[] buffer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -721,17 +824,8 @@ Return -2 if len(buffer) is smaller than kcp.PeekSize().</return>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
         <td><span class="parametername">buffer</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">offset</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">length</span></td>
-        <td></td>
+        <td><p>buffer where the data will be stored</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -746,35 +840,8 @@ Return -2 if len(buffer) is smaller than kcp.PeekSize().</return>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Mirror_KCP_Kcp_ReserveBytes_" data-uid="Mirror.KCP.Kcp.ReserveBytes*"></a>
-  <h4 id="Mirror_KCP_Kcp_ReserveBytes_System_UInt32_" data-uid="Mirror.KCP.Kcp.ReserveBytes(System.UInt32)">ReserveBytes(UInt32)</h4>
-  <div class="markdown level1 summary"><p>ReserveBytes</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ReserveBytes(uint reservedSize)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
-        <td><span class="parametername">reservedSize</span></td>
-        <td></td>
+        <td><p>number of read bytes</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -782,9 +849,7 @@ Return -2 if len(buffer) is smaller than kcp.PeekSize().</return>
   
   <a id="Mirror_KCP_Kcp_Send_" data-uid="Mirror.KCP.Kcp.Send*"></a>
   <h4 id="Mirror_KCP_Kcp_Send_System_Byte___System_Int32_System_Int32_" data-uid="Mirror.KCP.Kcp.Send(System.Byte[],System.Int32,System.Int32)">Send(Byte[], Int32, Int32)</h4>
-  <div class="markdown level1 summary"><p>Send</p>
-<p>user/upper level send</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -819,14 +884,13 @@ Return -2 if len(buffer) is smaller than kcp.PeekSize().</return>
   </table>
   
   
-  <a id="Mirror_KCP_Kcp_SetMtu_" data-uid="Mirror.KCP.Kcp.SetMtu*"></a>
-  <h4 id="Mirror_KCP_Kcp_SetMtu_System_UInt32_" data-uid="Mirror.KCP.Kcp.SetMtu(System.UInt32)">SetMtu(UInt32)</h4>
-  <div class="markdown level1 summary"><p>Change MTU (Maximum Transmission Unit) size. Default is 1200.</p>
-</div>
+  <a id="Mirror_KCP_Kcp_SetInterval_" data-uid="Mirror.KCP.Kcp.SetInterval*"></a>
+  <h4 id="Mirror_KCP_Kcp_SetInterval_System_Int32_" data-uid="Mirror.KCP.Kcp.SetInterval(System.Int32)">SetInterval(Int32)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetMtu(uint mtu)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetInterval(int interval)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -839,10 +903,9 @@ Return -2 if len(buffer) is smaller than kcp.PeekSize().</return>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
-        <td><span class="parametername">mtu</span></td>
-        <td><p>Maximum Transmission Unit size. Can't be lower than 50 and must be higher than reserved bytes.</p>
-</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">interval</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -850,11 +913,12 @@ Return -2 if len(buffer) is smaller than kcp.PeekSize().</return>
   
   <a id="Mirror_KCP_Kcp_SetNoDelay_" data-uid="Mirror.KCP.Kcp.SetNoDelay*"></a>
   <h4 id="Mirror_KCP_Kcp_SetNoDelay_Mirror_KCP_KcpDelayMode_" data-uid="Mirror.KCP.Kcp.SetNoDelay(Mirror.KCP.KcpDelayMode)">SetNoDelay(KcpDelayMode)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Convenience method to configure KCP for well known configurations</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetNoDelay(KcpDelayMode kcpDelayMode)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetNoDelay(KcpDelayMode mode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -868,7 +932,7 @@ Return -2 if len(buffer) is smaller than kcp.PeekSize().</return>
     <tbody>
       <tr>
         <td><a class="xref" href="Mirror.KCP.KcpDelayMode.html">KcpDelayMode</a></td>
-        <td><span class="parametername">kcpDelayMode</span></td>
+        <td><span class="parametername">mode</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -876,17 +940,12 @@ Return -2 if len(buffer) is smaller than kcp.PeekSize().</return>
   
   
   <a id="Mirror_KCP_Kcp_SetNoDelay_" data-uid="Mirror.KCP.Kcp.SetNoDelay*"></a>
-  <h4 id="Mirror_KCP_Kcp_SetNoDelay_System_Boolean_System_Int32_System_Int32_System_Boolean_" data-uid="Mirror.KCP.Kcp.SetNoDelay(System.Boolean,System.Int32,System.Int32,System.Boolean)">SetNoDelay(Boolean, Int32, Int32, Boolean)</h4>
-  <div class="markdown level1 summary"><p>SetNoDelay</p>
-<p>Normal: false, 40, 0, false</p>
-<p>Fast:    false, 30, 2, true</p>
-<p>Fast2:   true, 20, 2, true</p>
-<p>Fast3:   true, 10, 2, true</p>
-</div>
+  <h4 id="Mirror_KCP_Kcp_SetNoDelay_System_UInt32_System_Int32_System_Int32_System_Boolean_" data-uid="Mirror.KCP.Kcp.SetNoDelay(System.UInt32,System.Int32,System.Int32,System.Boolean)">SetNoDelay(UInt32, Int32, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetNoDelay(bool nodelay = false, int interval = 40, int resend = 0, bool nc = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetNoDelay(uint nodelay = null, int interval = null, int resend = 0, bool nocwnd = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -899,28 +958,24 @@ Return -2 if len(buffer) is smaller than kcp.PeekSize().</return>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
         <td><span class="parametername">nodelay</span></td>
-        <td><p>Whether to enable nodelay mode.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">interval</span></td>
-        <td><p>Interval of the internal working of the protocol, in milliseconds, such as 10ms or 20ms.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">resend</span></td>
-        <td><p>fast retransmission mode, default 0 is off, 1 fast resend, 2 can be set (2 ACK crossings will directly retransmit).</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">nc</span></td>
-        <td><p>Whether to close the flow control (congestion), the default is 0 means not to close, 1 means to close.</p>
-</td>
+        <td><span class="parametername">nocwnd</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -928,13 +983,11 @@ Return -2 if len(buffer) is smaller than kcp.PeekSize().</return>
   
   <a id="Mirror_KCP_Kcp_SetWindowSize_" data-uid="Mirror.KCP.Kcp.SetWindowSize*"></a>
   <h4 id="Mirror_KCP_Kcp_SetWindowSize_System_UInt32_System_UInt32_" data-uid="Mirror.KCP.Kcp.SetWindowSize(System.UInt32,System.UInt32)">SetWindowSize(UInt32, UInt32)</h4>
-  <div class="markdown level1 summary"><p>SetWindowSize
-sets maximum window size</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetWindowSize(uint sendWindow = null, uint receiveWindow = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetWindowSize(uint sendWindow, uint receiveWindow)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -949,30 +1002,42 @@ sets maximum window size</p>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
         <td><span class="parametername">sendWindow</span></td>
-        <td><p>32 by default</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
         <td><span class="parametername">receiveWindow</span></td>
-        <td><p>32 by default</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
   <a id="Mirror_KCP_Kcp_Update_" data-uid="Mirror.KCP.Kcp.Update*"></a>
-  <h4 id="Mirror_KCP_Kcp_Update" data-uid="Mirror.KCP.Kcp.Update">Update()</h4>
-  <div class="markdown level1 summary"><p>Update
-Determine when should you invoke update</p>
-<p>update state (call it repeatedly, every 10ms-100ms)</p>
-</div>
+  <h4 id="Mirror_KCP_Kcp_Update_System_UInt32_" data-uid="Mirror.KCP.Kcp.Update(System.UInt32)">Update(UInt32)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Update()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Update(uint currentTimeMilliSeconds)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><span class="parametername">currentTimeMilliSeconds</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

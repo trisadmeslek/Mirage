@@ -184,7 +184,7 @@
   
   
   <a id="Mirror_KCP_Unreliable_Input_" data-uid="Mirror.KCP.Unreliable.Input*"></a>
-  <h4 id="Mirror_KCP_Unreliable_Input_System_Byte___System_Int32_System_Int32_" data-uid="Mirror.KCP.Unreliable.Input(System.Byte[],System.Int32,System.Int32)">Input(Byte[], Int32, Int32)</h4>
+  <h4 id="Mirror_KCP_Unreliable_Input_System_Byte___System_Int32_" data-uid="Mirror.KCP.Unreliable.Input(System.Byte[],System.Int32)">Input(Byte[], Int32)</h4>
   <div class="markdown level1 summary"><p>Input</p>
 <p>Used when you receive a low level packet (eg. UDP packet)</p>
 <returns>Returns int (-3, -1, or 0)</returns>
@@ -192,7 +192,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Input(byte[] data, int index, int size)</code></pre>
+    <pre><code class="lang-csharp hljs">public int Input(byte[] data, int size)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -207,11 +207,6 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
         <td><span class="parametername">data</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">index</span></td>
         <td></td>
       </tr>
       <tr>
@@ -264,7 +259,7 @@
   
   
   <a id="Mirror_KCP_Unreliable_Receive_" data-uid="Mirror.KCP.Unreliable.Receive*"></a>
-  <h4 id="Mirror_KCP_Unreliable_Receive_System_Byte___System_Int32_System_Int32_" data-uid="Mirror.KCP.Unreliable.Receive(System.Byte[],System.Int32,System.Int32)">Receive(Byte[], Int32, Int32)</h4>
+  <h4 id="Mirror_KCP_Unreliable_Receive_System_Byte___System_Int32_" data-uid="Mirror.KCP.Unreliable.Receive(System.Byte[],System.Int32)">Receive(Byte[], Int32)</h4>
   <div class="markdown level1 summary"><p>Receive</p>
 <p>Receive data from kcp state machine</p>
 <return>Return number of bytes read.
@@ -274,7 +269,7 @@ Return -2 if len(buffer) is smaller than kcp.PeekSize().</return>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Receive(byte[] buffer, int offset, int length)</code></pre>
+    <pre><code class="lang-csharp hljs">public int Receive(byte[] buffer, int length)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -289,11 +284,6 @@ Return -2 if len(buffer) is smaller than kcp.PeekSize().</return>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
         <td><span class="parametername">buffer</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">offset</span></td>
         <td></td>
       </tr>
       <tr>

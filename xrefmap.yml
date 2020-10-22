@@ -3398,6 +3398,12 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Kcp.Kcp
   nameWithType: Kcp.Kcp
+- uid: Mirror.KCP.Kcp.ACK_FAST
+  name: ACK_FAST
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_ACK_FAST
+  commentId: F:Mirror.KCP.Kcp.ACK_FAST
+  fullName: Mirror.KCP.Kcp.ACK_FAST
+  nameWithType: Kcp.ACK_FAST
 - uid: Mirror.KCP.Kcp.ASK_SEND
   name: ASK_SEND
   href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_ASK_SEND
@@ -3410,12 +3416,12 @@ references:
   commentId: F:Mirror.KCP.Kcp.ASK_TELL
   fullName: Mirror.KCP.Kcp.ASK_TELL
   nameWithType: Kcp.ASK_TELL
-- uid: Mirror.KCP.Kcp.Check
-  name: Check()
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Check
-  commentId: M:Mirror.KCP.Kcp.Check
-  fullName: Mirror.KCP.Kcp.Check()
-  nameWithType: Kcp.Check()
+- uid: Mirror.KCP.Kcp.Check(System.UInt32)
+  name: Check(UInt32)
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Check_System_UInt32_
+  commentId: M:Mirror.KCP.Kcp.Check(System.UInt32)
+  fullName: Mirror.KCP.Kcp.Check(System.UInt32)
+  nameWithType: Kcp.Check(UInt32)
 - uid: Mirror.KCP.Kcp.Check*
   name: Check
   href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Check_
@@ -3423,25 +3429,37 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Kcp.Check
   nameWithType: Kcp.Check
-- uid: Mirror.KCP.Kcp.CurrentMS
-  name: CurrentMS
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_CurrentMS
-  commentId: P:Mirror.KCP.Kcp.CurrentMS
-  fullName: Mirror.KCP.Kcp.CurrentMS
-  nameWithType: Kcp.CurrentMS
-- uid: Mirror.KCP.Kcp.CurrentMS*
-  name: CurrentMS
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_CurrentMS_
-  commentId: Overload:Mirror.KCP.Kcp.CurrentMS
+- uid: Mirror.KCP.Kcp.DEADLINK
+  name: DEADLINK
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_DEADLINK
+  commentId: F:Mirror.KCP.Kcp.DEADLINK
+  fullName: Mirror.KCP.Kcp.DEADLINK
+  nameWithType: Kcp.DEADLINK
+- uid: Mirror.KCP.Kcp.FASTACK_LIMIT
+  name: FASTACK_LIMIT
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_FASTACK_LIMIT
+  commentId: F:Mirror.KCP.Kcp.FASTACK_LIMIT
+  fullName: Mirror.KCP.Kcp.FASTACK_LIMIT
+  nameWithType: Kcp.FASTACK_LIMIT
+- uid: Mirror.KCP.Kcp.FastAckConserve
+  name: FastAckConserve
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_FastAckConserve
+  commentId: P:Mirror.KCP.Kcp.FastAckConserve
+  fullName: Mirror.KCP.Kcp.FastAckConserve
+  nameWithType: Kcp.FastAckConserve
+- uid: Mirror.KCP.Kcp.FastAckConserve*
+  name: FastAckConserve
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_FastAckConserve_
+  commentId: Overload:Mirror.KCP.Kcp.FastAckConserve
   isSpec: "True"
-  fullName: Mirror.KCP.Kcp.CurrentMS
-  nameWithType: Kcp.CurrentMS
-- uid: Mirror.KCP.Kcp.Flush(System.Boolean)
-  name: Flush(Boolean)
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Flush_System_Boolean_
-  commentId: M:Mirror.KCP.Kcp.Flush(System.Boolean)
-  fullName: Mirror.KCP.Kcp.Flush(System.Boolean)
-  nameWithType: Kcp.Flush(Boolean)
+  fullName: Mirror.KCP.Kcp.FastAckConserve
+  nameWithType: Kcp.FastAckConserve
+- uid: Mirror.KCP.Kcp.Flush
+  name: Flush()
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Flush
+  commentId: M:Mirror.KCP.Kcp.Flush
+  fullName: Mirror.KCP.Kcp.Flush()
+  nameWithType: Kcp.Flush()
 - uid: Mirror.KCP.Kcp.Flush*
   name: Flush
   href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Flush_
@@ -3449,15 +3467,15 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Kcp.Flush
   nameWithType: Kcp.Flush
-- uid: Mirror.KCP.Kcp.Input(System.Byte[],System.Int32,System.Int32)
-  name: Input(Byte[], Int32, Int32)
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Input_System_Byte___System_Int32_System_Int32_
-  commentId: M:Mirror.KCP.Kcp.Input(System.Byte[],System.Int32,System.Int32)
-  name.vb: Input(Byte(), Int32, Int32)
-  fullName: Mirror.KCP.Kcp.Input(System.Byte[], System.Int32, System.Int32)
-  fullName.vb: Mirror.KCP.Kcp.Input(System.Byte(), System.Int32, System.Int32)
-  nameWithType: Kcp.Input(Byte[], Int32, Int32)
-  nameWithType.vb: Kcp.Input(Byte(), Int32, Int32)
+- uid: Mirror.KCP.Kcp.Input(System.Byte[],System.Int32)
+  name: Input(Byte[], Int32)
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Input_System_Byte___System_Int32_
+  commentId: M:Mirror.KCP.Kcp.Input(System.Byte[],System.Int32)
+  name.vb: Input(Byte(), Int32)
+  fullName: Mirror.KCP.Kcp.Input(System.Byte[], System.Int32)
+  fullName.vb: Mirror.KCP.Kcp.Input(System.Byte(), System.Int32)
+  nameWithType: Kcp.Input(Byte[], Int32)
+  nameWithType.vb: Kcp.Input(Byte(), Int32)
 - uid: Mirror.KCP.Kcp.Input*
   name: Input
   href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Input_
@@ -3465,19 +3483,31 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Kcp.Input
   nameWithType: Kcp.Input
-- uid: Mirror.KCP.Kcp.MaximumSegmentSize
-  name: MaximumSegmentSize
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_MaximumSegmentSize
-  commentId: P:Mirror.KCP.Kcp.MaximumSegmentSize
-  fullName: Mirror.KCP.Kcp.MaximumSegmentSize
-  nameWithType: Kcp.MaximumSegmentSize
-- uid: Mirror.KCP.Kcp.MaximumSegmentSize*
-  name: MaximumSegmentSize
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_MaximumSegmentSize_
-  commentId: Overload:Mirror.KCP.Kcp.MaximumSegmentSize
+- uid: Mirror.KCP.Kcp.INTERVAL
+  name: INTERVAL
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_INTERVAL
+  commentId: F:Mirror.KCP.Kcp.INTERVAL
+  fullName: Mirror.KCP.Kcp.INTERVAL
+  nameWithType: Kcp.INTERVAL
+- uid: Mirror.KCP.Kcp.Mtu
+  name: Mtu
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Mtu
+  commentId: P:Mirror.KCP.Kcp.Mtu
+  fullName: Mirror.KCP.Kcp.Mtu
+  nameWithType: Kcp.Mtu
+- uid: Mirror.KCP.Kcp.Mtu*
+  name: Mtu
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Mtu_
+  commentId: Overload:Mirror.KCP.Kcp.Mtu
   isSpec: "True"
-  fullName: Mirror.KCP.Kcp.MaximumSegmentSize
-  nameWithType: Kcp.MaximumSegmentSize
+  fullName: Mirror.KCP.Kcp.Mtu
+  nameWithType: Kcp.Mtu
+- uid: Mirror.KCP.Kcp.MTU_DEF
+  name: MTU_DEF
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_MTU_DEF
+  commentId: F:Mirror.KCP.Kcp.MTU_DEF
+  fullName: Mirror.KCP.Kcp.MTU_DEF
+  nameWithType: Kcp.MTU_DEF
 - uid: Mirror.KCP.Kcp.OVERHEAD
   name: OVERHEAD
   href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_OVERHEAD
@@ -3509,15 +3539,15 @@ references:
   commentId: F:Mirror.KCP.Kcp.PROBE_LIMIT
   fullName: Mirror.KCP.Kcp.PROBE_LIMIT
   nameWithType: Kcp.PROBE_LIMIT
-- uid: Mirror.KCP.Kcp.Receive(System.Byte[],System.Int32,System.Int32)
-  name: Receive(Byte[], Int32, Int32)
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Receive_System_Byte___System_Int32_System_Int32_
-  commentId: M:Mirror.KCP.Kcp.Receive(System.Byte[],System.Int32,System.Int32)
-  name.vb: Receive(Byte(), Int32, Int32)
-  fullName: Mirror.KCP.Kcp.Receive(System.Byte[], System.Int32, System.Int32)
-  fullName.vb: Mirror.KCP.Kcp.Receive(System.Byte(), System.Int32, System.Int32)
-  nameWithType: Kcp.Receive(Byte[], Int32, Int32)
-  nameWithType.vb: Kcp.Receive(Byte(), Int32, Int32)
+- uid: Mirror.KCP.Kcp.Receive(System.Byte[])
+  name: Receive(Byte[])
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Receive_System_Byte___
+  commentId: M:Mirror.KCP.Kcp.Receive(System.Byte[])
+  name.vb: Receive(Byte())
+  fullName: Mirror.KCP.Kcp.Receive(System.Byte[])
+  fullName.vb: Mirror.KCP.Kcp.Receive(System.Byte())
+  nameWithType: Kcp.Receive(Byte[])
+  nameWithType.vb: Kcp.Receive(Byte())
 - uid: Mirror.KCP.Kcp.Receive*
   name: Receive
   href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Receive_
@@ -3525,45 +3555,25 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Kcp.Receive
   nameWithType: Kcp.Receive
-- uid: Mirror.KCP.Kcp.ReceiveWindowMax
-  name: ReceiveWindowMax
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_ReceiveWindowMax
-  commentId: P:Mirror.KCP.Kcp.ReceiveWindowMax
-  fullName: Mirror.KCP.Kcp.ReceiveWindowMax
-  nameWithType: Kcp.ReceiveWindowMax
-- uid: Mirror.KCP.Kcp.ReceiveWindowMax*
-  name: ReceiveWindowMax
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_ReceiveWindowMax_
-  commentId: Overload:Mirror.KCP.Kcp.ReceiveWindowMax
+- uid: Mirror.KCP.Kcp.Reserved
+  name: Reserved
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Reserved
+  commentId: P:Mirror.KCP.Kcp.Reserved
+  fullName: Mirror.KCP.Kcp.Reserved
+  nameWithType: Kcp.Reserved
+- uid: Mirror.KCP.Kcp.Reserved*
+  name: Reserved
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Reserved_
+  commentId: Overload:Mirror.KCP.Kcp.Reserved
   isSpec: "True"
-  fullName: Mirror.KCP.Kcp.ReceiveWindowMax
-  nameWithType: Kcp.ReceiveWindowMax
-- uid: Mirror.KCP.Kcp.ReserveBytes(System.UInt32)
-  name: ReserveBytes(UInt32)
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_ReserveBytes_System_UInt32_
-  commentId: M:Mirror.KCP.Kcp.ReserveBytes(System.UInt32)
-  fullName: Mirror.KCP.Kcp.ReserveBytes(System.UInt32)
-  nameWithType: Kcp.ReserveBytes(UInt32)
-- uid: Mirror.KCP.Kcp.ReserveBytes*
-  name: ReserveBytes
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_ReserveBytes_
-  commentId: Overload:Mirror.KCP.Kcp.ReserveBytes
-  isSpec: "True"
-  fullName: Mirror.KCP.Kcp.ReserveBytes
-  nameWithType: Kcp.ReserveBytes
-- uid: Mirror.KCP.Kcp.RmtWnd
-  name: RmtWnd
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_RmtWnd
-  commentId: P:Mirror.KCP.Kcp.RmtWnd
-  fullName: Mirror.KCP.Kcp.RmtWnd
-  nameWithType: Kcp.RmtWnd
-- uid: Mirror.KCP.Kcp.RmtWnd*
-  name: RmtWnd
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_RmtWnd_
-  commentId: Overload:Mirror.KCP.Kcp.RmtWnd
-  isSpec: "True"
-  fullName: Mirror.KCP.Kcp.RmtWnd
-  nameWithType: Kcp.RmtWnd
+  fullName: Mirror.KCP.Kcp.Reserved
+  nameWithType: Kcp.Reserved
+- uid: Mirror.KCP.Kcp.RTO_DEF
+  name: RTO_DEF
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_RTO_DEF
+  commentId: F:Mirror.KCP.Kcp.RTO_DEF
+  fullName: Mirror.KCP.Kcp.RTO_DEF
+  nameWithType: Kcp.RTO_DEF
 - uid: Mirror.KCP.Kcp.RTO_MAX
   name: RTO_MAX
   href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_RTO_MAX
@@ -3598,44 +3608,31 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Kcp.Send
   nameWithType: Kcp.Send
-- uid: Mirror.KCP.Kcp.SendWindowMax
-  name: SendWindowMax
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_SendWindowMax
-  commentId: P:Mirror.KCP.Kcp.SendWindowMax
-  fullName: Mirror.KCP.Kcp.SendWindowMax
-  nameWithType: Kcp.SendWindowMax
-- uid: Mirror.KCP.Kcp.SendWindowMax*
-  name: SendWindowMax
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_SendWindowMax_
-  commentId: Overload:Mirror.KCP.Kcp.SendWindowMax
+- uid: Mirror.KCP.Kcp.SetInterval(System.Int32)
+  name: SetInterval(Int32)
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_SetInterval_System_Int32_
+  commentId: M:Mirror.KCP.Kcp.SetInterval(System.Int32)
+  fullName: Mirror.KCP.Kcp.SetInterval(System.Int32)
+  nameWithType: Kcp.SetInterval(Int32)
+- uid: Mirror.KCP.Kcp.SetInterval*
+  name: SetInterval
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_SetInterval_
+  commentId: Overload:Mirror.KCP.Kcp.SetInterval
   isSpec: "True"
-  fullName: Mirror.KCP.Kcp.SendWindowMax
-  nameWithType: Kcp.SendWindowMax
-- uid: Mirror.KCP.Kcp.SetMtu(System.UInt32)
-  name: SetMtu(UInt32)
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_SetMtu_System_UInt32_
-  commentId: M:Mirror.KCP.Kcp.SetMtu(System.UInt32)
-  fullName: Mirror.KCP.Kcp.SetMtu(System.UInt32)
-  nameWithType: Kcp.SetMtu(UInt32)
-- uid: Mirror.KCP.Kcp.SetMtu*
-  name: SetMtu
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_SetMtu_
-  commentId: Overload:Mirror.KCP.Kcp.SetMtu
-  isSpec: "True"
-  fullName: Mirror.KCP.Kcp.SetMtu
-  nameWithType: Kcp.SetMtu
+  fullName: Mirror.KCP.Kcp.SetInterval
+  nameWithType: Kcp.SetInterval
 - uid: Mirror.KCP.Kcp.SetNoDelay(Mirror.KCP.KcpDelayMode)
   name: SetNoDelay(KcpDelayMode)
   href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_SetNoDelay_Mirror_KCP_KcpDelayMode_
   commentId: M:Mirror.KCP.Kcp.SetNoDelay(Mirror.KCP.KcpDelayMode)
   fullName: Mirror.KCP.Kcp.SetNoDelay(Mirror.KCP.KcpDelayMode)
   nameWithType: Kcp.SetNoDelay(KcpDelayMode)
-- uid: Mirror.KCP.Kcp.SetNoDelay(System.Boolean,System.Int32,System.Int32,System.Boolean)
-  name: SetNoDelay(Boolean, Int32, Int32, Boolean)
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_SetNoDelay_System_Boolean_System_Int32_System_Int32_System_Boolean_
-  commentId: M:Mirror.KCP.Kcp.SetNoDelay(System.Boolean,System.Int32,System.Int32,System.Boolean)
-  fullName: Mirror.KCP.Kcp.SetNoDelay(System.Boolean, System.Int32, System.Int32, System.Boolean)
-  nameWithType: Kcp.SetNoDelay(Boolean, Int32, Int32, Boolean)
+- uid: Mirror.KCP.Kcp.SetNoDelay(System.UInt32,System.Int32,System.Int32,System.Boolean)
+  name: SetNoDelay(UInt32, Int32, Int32, Boolean)
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_SetNoDelay_System_UInt32_System_Int32_System_Int32_System_Boolean_
+  commentId: M:Mirror.KCP.Kcp.SetNoDelay(System.UInt32,System.Int32,System.Int32,System.Boolean)
+  fullName: Mirror.KCP.Kcp.SetNoDelay(System.UInt32, System.Int32, System.Int32, System.Boolean)
+  nameWithType: Kcp.SetNoDelay(UInt32, Int32, Int32, Boolean)
 - uid: Mirror.KCP.Kcp.SetNoDelay*
   name: SetNoDelay
   href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_SetNoDelay_
@@ -3656,12 +3653,24 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Kcp.SetWindowSize
   nameWithType: Kcp.SetWindowSize
-- uid: Mirror.KCP.Kcp.Update
-  name: Update()
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Update
-  commentId: M:Mirror.KCP.Kcp.Update
-  fullName: Mirror.KCP.Kcp.Update()
-  nameWithType: Kcp.Update()
+- uid: Mirror.KCP.Kcp.THRESH_INIT
+  name: THRESH_INIT
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_THRESH_INIT
+  commentId: F:Mirror.KCP.Kcp.THRESH_INIT
+  fullName: Mirror.KCP.Kcp.THRESH_INIT
+  nameWithType: Kcp.THRESH_INIT
+- uid: Mirror.KCP.Kcp.THRESH_MIN
+  name: THRESH_MIN
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_THRESH_MIN
+  commentId: F:Mirror.KCP.Kcp.THRESH_MIN
+  fullName: Mirror.KCP.Kcp.THRESH_MIN
+  nameWithType: Kcp.THRESH_MIN
+- uid: Mirror.KCP.Kcp.Update(System.UInt32)
+  name: Update(UInt32)
+  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Update_System_UInt32_
+  commentId: M:Mirror.KCP.Kcp.Update(System.UInt32)
+  fullName: Mirror.KCP.Kcp.Update(System.UInt32)
+  nameWithType: Kcp.Update(UInt32)
 - uid: Mirror.KCP.Kcp.Update*
   name: Update
   href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Update_
@@ -4177,15 +4186,15 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Unreliable.Unreliable
   nameWithType: Unreliable.Unreliable
-- uid: Mirror.KCP.Unreliable.Input(System.Byte[],System.Int32,System.Int32)
-  name: Input(Byte[], Int32, Int32)
-  href: api/Mirror.KCP.Unreliable.html#Mirror_KCP_Unreliable_Input_System_Byte___System_Int32_System_Int32_
-  commentId: M:Mirror.KCP.Unreliable.Input(System.Byte[],System.Int32,System.Int32)
-  name.vb: Input(Byte(), Int32, Int32)
-  fullName: Mirror.KCP.Unreliable.Input(System.Byte[], System.Int32, System.Int32)
-  fullName.vb: Mirror.KCP.Unreliable.Input(System.Byte(), System.Int32, System.Int32)
-  nameWithType: Unreliable.Input(Byte[], Int32, Int32)
-  nameWithType.vb: Unreliable.Input(Byte(), Int32, Int32)
+- uid: Mirror.KCP.Unreliable.Input(System.Byte[],System.Int32)
+  name: Input(Byte[], Int32)
+  href: api/Mirror.KCP.Unreliable.html#Mirror_KCP_Unreliable_Input_System_Byte___System_Int32_
+  commentId: M:Mirror.KCP.Unreliable.Input(System.Byte[],System.Int32)
+  name.vb: Input(Byte(), Int32)
+  fullName: Mirror.KCP.Unreliable.Input(System.Byte[], System.Int32)
+  fullName.vb: Mirror.KCP.Unreliable.Input(System.Byte(), System.Int32)
+  nameWithType: Unreliable.Input(Byte[], Int32)
+  nameWithType.vb: Unreliable.Input(Byte(), Int32)
 - uid: Mirror.KCP.Unreliable.Input*
   name: Input
   href: api/Mirror.KCP.Unreliable.html#Mirror_KCP_Unreliable_Input_
@@ -4212,15 +4221,15 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Unreliable.PeekSize
   nameWithType: Unreliable.PeekSize
-- uid: Mirror.KCP.Unreliable.Receive(System.Byte[],System.Int32,System.Int32)
-  name: Receive(Byte[], Int32, Int32)
-  href: api/Mirror.KCP.Unreliable.html#Mirror_KCP_Unreliable_Receive_System_Byte___System_Int32_System_Int32_
-  commentId: M:Mirror.KCP.Unreliable.Receive(System.Byte[],System.Int32,System.Int32)
-  name.vb: Receive(Byte(), Int32, Int32)
-  fullName: Mirror.KCP.Unreliable.Receive(System.Byte[], System.Int32, System.Int32)
-  fullName.vb: Mirror.KCP.Unreliable.Receive(System.Byte(), System.Int32, System.Int32)
-  nameWithType: Unreliable.Receive(Byte[], Int32, Int32)
-  nameWithType.vb: Unreliable.Receive(Byte(), Int32, Int32)
+- uid: Mirror.KCP.Unreliable.Receive(System.Byte[],System.Int32)
+  name: Receive(Byte[], Int32)
+  href: api/Mirror.KCP.Unreliable.html#Mirror_KCP_Unreliable_Receive_System_Byte___System_Int32_
+  commentId: M:Mirror.KCP.Unreliable.Receive(System.Byte[],System.Int32)
+  name.vb: Receive(Byte(), Int32)
+  fullName: Mirror.KCP.Unreliable.Receive(System.Byte[], System.Int32)
+  fullName.vb: Mirror.KCP.Unreliable.Receive(System.Byte(), System.Int32)
+  nameWithType: Unreliable.Receive(Byte[], Int32)
+  nameWithType.vb: Unreliable.Receive(Byte(), Int32)
 - uid: Mirror.KCP.Unreliable.Receive*
   name: Receive
   href: api/Mirror.KCP.Unreliable.html#Mirror_KCP_Unreliable_Receive_
@@ -4292,19 +4301,6 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Utils.Equal
   nameWithType: Utils.Equal
-- uid: Mirror.KCP.Utils.TimeDiff(System.UInt32,System.UInt32)
-  name: TimeDiff(UInt32, UInt32)
-  href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_TimeDiff_System_UInt32_System_UInt32_
-  commentId: M:Mirror.KCP.Utils.TimeDiff(System.UInt32,System.UInt32)
-  fullName: Mirror.KCP.Utils.TimeDiff(System.UInt32, System.UInt32)
-  nameWithType: Utils.TimeDiff(UInt32, UInt32)
-- uid: Mirror.KCP.Utils.TimeDiff*
-  name: TimeDiff
-  href: api/Mirror.KCP.Utils.html#Mirror_KCP_Utils_TimeDiff_
-  commentId: Overload:Mirror.KCP.Utils.TimeDiff
-  isSpec: "True"
-  fullName: Mirror.KCP.Utils.TimeDiff
-  nameWithType: Utils.TimeDiff
 - uid: Mirror.LobbyReady
   name: LobbyReady
   href: api/Mirror.LobbyReady.html
