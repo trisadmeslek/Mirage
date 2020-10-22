@@ -3441,19 +3441,6 @@ references:
   commentId: F:Mirror.KCP.Kcp.FASTACK_LIMIT
   fullName: Mirror.KCP.Kcp.FASTACK_LIMIT
   nameWithType: Kcp.FASTACK_LIMIT
-- uid: Mirror.KCP.Kcp.FastAckConserve
-  name: FastAckConserve
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_FastAckConserve
-  commentId: P:Mirror.KCP.Kcp.FastAckConserve
-  fullName: Mirror.KCP.Kcp.FastAckConserve
-  nameWithType: Kcp.FastAckConserve
-- uid: Mirror.KCP.Kcp.FastAckConserve*
-  name: FastAckConserve
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_FastAckConserve_
-  commentId: Overload:Mirror.KCP.Kcp.FastAckConserve
-  isSpec: "True"
-  fullName: Mirror.KCP.Kcp.FastAckConserve
-  nameWithType: Kcp.FastAckConserve
 - uid: Mirror.KCP.Kcp.Flush
   name: Flush()
   href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Flush
