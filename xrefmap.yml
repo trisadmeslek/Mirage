@@ -3398,12 +3398,6 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Kcp.Kcp
   nameWithType: Kcp.Kcp
-- uid: Mirror.KCP.Kcp.ACK_FAST
-  name: ACK_FAST
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_ACK_FAST
-  commentId: F:Mirror.KCP.Kcp.ACK_FAST
-  fullName: Mirror.KCP.Kcp.ACK_FAST
-  nameWithType: Kcp.ACK_FAST
 - uid: Mirror.KCP.Kcp.ASK_SEND
   name: ASK_SEND
   href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_ASK_SEND
@@ -3429,18 +3423,6 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Kcp.Check
   nameWithType: Kcp.Check
-- uid: Mirror.KCP.Kcp.DEADLINK
-  name: DEADLINK
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_DEADLINK
-  commentId: F:Mirror.KCP.Kcp.DEADLINK
-  fullName: Mirror.KCP.Kcp.DEADLINK
-  nameWithType: Kcp.DEADLINK
-- uid: Mirror.KCP.Kcp.FASTACK_LIMIT
-  name: FASTACK_LIMIT
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_FASTACK_LIMIT
-  commentId: F:Mirror.KCP.Kcp.FASTACK_LIMIT
-  fullName: Mirror.KCP.Kcp.FASTACK_LIMIT
-  nameWithType: Kcp.FASTACK_LIMIT
 - uid: Mirror.KCP.Kcp.Flush
   name: Flush()
   href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_Flush
@@ -3489,12 +3471,6 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Kcp.Mtu
   nameWithType: Kcp.Mtu
-- uid: Mirror.KCP.Kcp.MTU_DEF
-  name: MTU_DEF
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_MTU_DEF
-  commentId: F:Mirror.KCP.Kcp.MTU_DEF
-  fullName: Mirror.KCP.Kcp.MTU_DEF
-  nameWithType: Kcp.MTU_DEF
 - uid: Mirror.KCP.Kcp.OVERHEAD
   name: OVERHEAD
   href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_OVERHEAD
@@ -3555,12 +3531,6 @@ references:
   isSpec: "True"
   fullName: Mirror.KCP.Kcp.Reserved
   nameWithType: Kcp.Reserved
-- uid: Mirror.KCP.Kcp.RTO_DEF
-  name: RTO_DEF
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_RTO_DEF
-  commentId: F:Mirror.KCP.Kcp.RTO_DEF
-  fullName: Mirror.KCP.Kcp.RTO_DEF
-  nameWithType: Kcp.RTO_DEF
 - uid: Mirror.KCP.Kcp.RTO_MAX
   name: RTO_MAX
   href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_RTO_MAX
@@ -3684,12 +3654,6 @@ references:
   commentId: F:Mirror.KCP.Kcp.WND_RCV
   fullName: Mirror.KCP.Kcp.WND_RCV
   nameWithType: Kcp.WND_RCV
-- uid: Mirror.KCP.Kcp.WND_SND
-  name: WND_SND
-  href: api/Mirror.KCP.Kcp.html#Mirror_KCP_Kcp_WND_SND
-  commentId: F:Mirror.KCP.Kcp.WND_SND
-  fullName: Mirror.KCP.Kcp.WND_SND
-  nameWithType: Kcp.WND_SND
 - uid: Mirror.KCP.KcpClientConnection
   name: KcpClientConnection
   href: api/Mirror.KCP.KcpClientConnection.html
