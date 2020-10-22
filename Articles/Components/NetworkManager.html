@@ -95,8 +95,8 @@
 <p><strong>Note</strong>: You can only ever have one active Network Manager in each scene because it's a singleton. Do not place the Network Manager component on a networked game object (one which has a Network Identity component), because MirrorNG disables these when the Scene loads.</p>
 <p>If you are already familiar with multiplayer game development, you might find it useful to know that the Network Manager component is implemented entirely using the API, so everything it does is also available to you through scripting. For advanced users, if you find that you need to expand on the Network Manager component’s features, you can use scripting to derive your own class from Network Manager and customize its behavior by overriding any of the virtual function hooks that it provides. However, the Network Manager component wraps up a lot of useful functionality into a single place, and makes creating, running and debugging multiplayer games as simple as possible.</p>
 <h2 id="transports">Transports</h2>
-<p>MirrorNG uses a separate component (derived from the Transport class) to connect across the network. By default, it is Telepathy Transport. This design choice of separating the transport into its own component allows game developers to choose the transport that best fits their game needs. Changing transports is as simple as swapping out the component on the Network Manager object and assigning it to the Transport field.</p>
-<p>Transports are available for TCP, UDP, WebGL, and Steam. Additionally, there's a Multiplex transport that allows for using two transports together on the server, e.g. Telepathy and WebSockets, so that desktop and browser players can play together on the same server seamlessly. See <a href="../Transports/index.html">Transports</a> for more information.</p>
+<p>MirrorNG uses a separate component (derived from the Transport class) to connect across the network. By default, it is Kcp Transport. This design choice of separating the transport into its own component allows game developers to choose the transport that best fits their game needs. Changing transports is as simple as swapping out the component on the Network Manager object and assigning it to the Transport field.</p>
+<p>Transports are available for UDP, WebGL, and Steam. Additionally, there's a Multiplex transport that allows for using two transports together on the server, e.g. Kcp and WebSockets, so that desktop and browser players can play together on the same server seamlessly. See <a href="../Transports/index.html">Transports</a> for more information.</p>
 <h2 id="game-state-management">Game State Management</h2>
 <p>A Networking multiplayer game can run in three modes - as a client, as a dedicated server, or as a host which is both a client and a server at the same time.</p>
 <p>If you’re using the Network Manager HUD, it automatically tells the Network Manager which mode to start in, based on which button the player clicks. If you’re writing your own UI that allows the player to start the game, you’ll need to call these from your own code. These methods are:</p>
@@ -163,7 +163,7 @@ If you assign a Scene to this field, the Network Manager automatically switches 
 <li><p><strong>Network Info</strong></p>
 <ul>
 <li><p><strong>transport</strong><br>
-A link to a Component derived from <code>Transport</code> class. TelepathyTransport is created and linked there by default.</p>
+A link to a Component derived from <code>Transport</code> class. KcpTransport is created and linked there by default.</p>
 </li>
 <li><p><strong>networkAddress</strong><br>
 The network address currently in use. For clients, this is the address of the server that is connected to. For servers, this is the local address. This is set to ‘localhost’ by default. A Fully Qualified Domain Name (FQDN) can be used by clients in this field.</p>

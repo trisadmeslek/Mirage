@@ -110,11 +110,11 @@
 </ul>
 <h2 id="quality-of-service-flags">Quality of Service Flags</h2>
 <p>In classic UNet, QoS Flags were used to determine how packets got to the remote end. For example, if you needed a packet to be prioritized in the queue, you would specify a high priority flag which the Unity LLAPI would then receive and deal with appropriately. Unfortunately, this caused a lot of extra work for the transport layer and some of the QoS flags did not work as intended due to buggy code that relied on too much magic.</p>
-<p>In MirrorNG, QoS flags were replaced with a &quot;Channels&quot; system. While the default transport, <a href="../Transports/Telepathy.html">Telepathy</a>, does not use channels at all because it's TCP-based, other transports, such as <a href="../Transports/Ignorance.html">Ignorance</a> and <a href="../Transports/LiteNetLib4Mirror.html">LiteNetLib4Mirror</a>, do support them.</p>
+<p>In MirrorNG, QoS flags were replaced with a &quot;Channels&quot; system. While the default transport, Telepathy, does not use channels at all because it's TCP-based, other transports, such as <a href="../Transports/Ignorance.html">Ignorance</a> and <a href="../Transports/LiteNetLib4Mirror.html">LiteNetLib4Mirror</a>, do support them.</p>
 <p>The currently defined channels are:</p>
 <ul>
-<li><code>Channels.DefaultReliable = 0</code></li>
-<li><code>Channels.DefaultUnreliable = 1</code></li>
+<li><code>Channel.Reliable = 0</code></li>
+<li><code>Channel.Unreliable = 1</code></li>
 </ul>
 <h2 id="changes-by-class">Changes by Class</h2>
 <h3 id="networkmanager">NetworkManager</h3>

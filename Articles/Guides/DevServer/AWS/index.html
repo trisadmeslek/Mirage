@@ -141,7 +141,7 @@ Keep in mind that you can always click &quot;Previous&quot; if you need to retur
 <p>Create a new security group and you can give it your own name and description. Add the following rules:</p>
 <ul>
 <li>RDP with source &quot;Anywhere&quot;, Description can be whatever but put it as Remote Desktop Program.</li>
-<li>Custom TCP Rule with port 7777 and source &quot;Anywhere&quot;, Description can be whatever but put it as MirrorNG.</li>
+<li>Custom UDP Rule with port 7777 and source &quot;Anywhere&quot;, Description can be whatever but put it as MirrorNG.</li>
 <li>SSH with source &quot;Anywhere&quot;, Description can be whatever but put it as SSH.</li>
 </ul>
 <p>SSH is not strictly necessary but can be used to remote connect to it through other means than the RDP.</p>
@@ -197,7 +197,7 @@ Once done you will be able to copy the password.</p>
 <p>There you have it! Now you have your password and Remote Desktop should show you logging into your dedicated server!</p>
 <h4 id="setting-up-the-firewall-to-allow-connections-through">Setting up the firewall to allow connections through</h4>
 <p>Go to the windows firewall settings, go to the advanced firewall settings and go to inbound rules. <strong>Add a new rule</strong> and choose the port type.
-Select TCP and enter the 7777 port (or any other if you use another port in MirrorNG). Continue clicking next and keep things default.
+Select UDP and enter the 7777 port (or any other if you use another port in MirrorNG). Continue clicking next and keep things default.
 Close all the windows when done.</p>
 <p><img src="Windows%20Firewall%20Exception.PNG" alt="Windows Firewall Exception"></p>
 <p>AWESOME! You now have everything set up to accept incoming requests on <strong>port 7777</strong>.</p>

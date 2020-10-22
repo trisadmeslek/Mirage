@@ -79,9 +79,6 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="mirrorng-quick-start-guide">MirrorNG Quick Start Guide</h1>
 
-<p>Written by <a href="http://stephenallengames.co.uk/">StephenAllenGames.co.uk</a> <br>
-Edited by <a href="https://github.com/James-Frowen">James Frowen</a></p>
-<hr>
 <p>This guide currently shows you:</p>
 <ul>
 <li><a href="#part-1">Basic scene setup</a></li>
@@ -93,14 +90,14 @@ Edited by <a href="https://github.com/James-Frowen">James Frowen</a></p>
 <p>It is best to first make a mini practice game before converting your single player game, or creating your ideal brand new multiplayer.</p>
 <p>The Pre-made MirrorNG examples are great for using as reference, it is recommend to use them regarding connection setup, with ports and firewalls. This can be a huge topic that changes from person to person, and is not covered in this guide, here we will use localHost (multiple games on same PC).</p>
 <h2 id="part-1">Part 1</h2>
-<p>Blank Project, import MirrorNG from <a href="https://assetstore.unity.com/packages/tools/network/mirror-129321">Asset Store</a>.</p>
+<p>Blank Project, import UniTask and MirrorNG using Unity package manager.</p>
 <h2 id="part-2">Part 2</h2>
 <ul>
 <li>Create new scene, save it, and add it to build settings</li>
 <li>Create a new GameObject, name it NetworkManager in the scene, and add these 3 components
 <ul>
 <li>NetworkManager</li>
-<li>TelepathyTransport</li>
+<li>KcpTransport</li>
 <li>NetworkManagerHUD</li>
 </ul>
 </li>

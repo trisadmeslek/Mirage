@@ -128,7 +128,6 @@ public class NetStreamer : NetworkBehaviour
     }
 }
 </code></pre>
-<p>Please note that the default transport <a href="../Transports/Telepathy.html">Telpathy</a>, completely ignores channels, all messages are reliable, sequenced and fragmented. They just work with no fuss. If you want to take advantage of unreliable channels use LLAPITransport instead.</p>
 <h3 id="6-change-syncliststruct-to-synclist">6. Change SyncListStruct to SyncList</h3>
 <p>There is a bug in the original UNet Weaver that makes it mess with our <code>MirrorNG.SyncListStruct</code> without checking the namespace. In MirrorNG, we fixed SyncLists so that they work with structs by default.</p>
 <p>For example, if you have definitions like:</p>
@@ -218,11 +217,11 @@ public  class MyBehaviour : NetworkBehaviour
 </code></pre>
 <p>See <a href="../Guides/GameObjects/SpawnPlayerCustom.html">Custom Player Spawn Guide</a> for details on how to submit custom characters now.</p>
 <h3 id="11-pick-your-transport">11. Pick your transport</h3>
-<p>You can choose one of several transports in MirrorNG.  Open your NetworkManager gameobject,   in the inspector you will see a <code>TelepathyTransport</code> component by default.  Drag in one of the available transports and remove <code>TelepathyTransport</code> if you wish to use a UDP based transport instead.</p>
+<p>You can choose one of several transports in MirrorNG.  Open your NetworkManager gameobject,   in the inspector you will see a <code>KcpTransport</code> component by default.  Drag in one of the available transports and remove <code>KcpTransport</code> if you wish to use another transport instead.</p>
 <h3 id="12-configure-address-and-port">12. Configure address and port</h3>
 <p>In HLAPI, you configure the port and local address in the NetworkManager. One of our goals is to make MirrorNG transport independent. Not all transports need address and port.  Some transports might even use more than one port at the same time, so these settings were inadequate. We removed the port and address and all other Network Info properties from NetworkManager,  and we moved them to the transport components instead.</p>
 <h3 id="13-update-your-firewall-and-router">13. Update your firewall and router</h3>
-<p>LLAPI uses UDP. MirrorNG uses TCP by default. This means you may need to change your router port forwarding and firewall rules in your machine to expose the TCP port instead of UDP. This highly depends on your router and operating system.</p>
+<p>MirrorNG uses UDP by default. This means you may need to change your router port forwarding and firewall rules in your machine to expose the UDP port. This highly depends on your router and operating system.</p>
 <h2 id="video-version">Video version</h2>
 <p>See for yourself how uMMORPG was migrated to MirrorNG</p>
 <p><a href="http://www.youtube.com/watch?v=LF9rTSS3rlI"><img src="MigrationVideo.jpg" alt="Manually upgrading uMMORPG V1.130 to V1.131 (MirrorNG)"></a></p>
