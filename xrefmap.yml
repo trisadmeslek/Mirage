@@ -7614,19 +7614,19 @@ references:
   commentId: T:Mirror.NetworkSceneManager.ClientSceneChangeEvent
   fullName: Mirror.NetworkSceneManager.ClientSceneChangeEvent
   nameWithType: NetworkSceneManager.ClientSceneChangeEvent
-- uid: Mirror.NetworkSceneManager.NetworkSceneName
-  name: NetworkSceneName
-  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_NetworkSceneName
-  commentId: P:Mirror.NetworkSceneManager.NetworkSceneName
-  fullName: Mirror.NetworkSceneManager.NetworkSceneName
-  nameWithType: NetworkSceneManager.NetworkSceneName
-- uid: Mirror.NetworkSceneManager.NetworkSceneName*
-  name: NetworkSceneName
-  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_NetworkSceneName_
-  commentId: Overload:Mirror.NetworkSceneManager.NetworkSceneName
+- uid: Mirror.NetworkSceneManager.NetworkScenePath
+  name: NetworkScenePath
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_NetworkScenePath
+  commentId: P:Mirror.NetworkSceneManager.NetworkScenePath
+  fullName: Mirror.NetworkSceneManager.NetworkScenePath
+  nameWithType: NetworkSceneManager.NetworkScenePath
+- uid: Mirror.NetworkSceneManager.NetworkScenePath*
+  name: NetworkScenePath
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_NetworkScenePath_
+  commentId: Overload:Mirror.NetworkSceneManager.NetworkScenePath
   isSpec: "True"
-  fullName: Mirror.NetworkSceneManager.NetworkSceneName
-  nameWithType: NetworkSceneManager.NetworkSceneName
+  fullName: Mirror.NetworkSceneManager.NetworkScenePath
+  nameWithType: NetworkSceneManager.NetworkScenePath
 - uid: Mirror.NetworkSceneManager.server
   name: server
   href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_server
@@ -9602,18 +9602,18 @@ references:
   commentId: T:Mirror.SceneMessage
   fullName: Mirror.SceneMessage
   nameWithType: SceneMessage
-- uid: Mirror.SceneMessage.sceneName
-  name: sceneName
-  href: api/Mirror.SceneMessage.html#Mirror_SceneMessage_sceneName
-  commentId: F:Mirror.SceneMessage.sceneName
-  fullName: Mirror.SceneMessage.sceneName
-  nameWithType: SceneMessage.sceneName
 - uid: Mirror.SceneMessage.sceneOperation
   name: sceneOperation
   href: api/Mirror.SceneMessage.html#Mirror_SceneMessage_sceneOperation
   commentId: F:Mirror.SceneMessage.sceneOperation
   fullName: Mirror.SceneMessage.sceneOperation
   nameWithType: SceneMessage.sceneOperation
+- uid: Mirror.SceneMessage.scenePath
+  name: scenePath
+  href: api/Mirror.SceneMessage.html#Mirror_SceneMessage_scenePath
+  commentId: F:Mirror.SceneMessage.scenePath
+  fullName: Mirror.SceneMessage.scenePath
+  nameWithType: SceneMessage.scenePath
 - uid: Mirror.SceneOperation
   name: SceneOperation
   href: api/Mirror.SceneOperation.html

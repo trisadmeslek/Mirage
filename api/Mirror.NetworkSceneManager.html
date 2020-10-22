@@ -257,14 +257,14 @@
   </h3>
   
   
-  <a id="Mirror_NetworkSceneManager_NetworkSceneName_" data-uid="Mirror.NetworkSceneManager.NetworkSceneName*"></a>
-  <h4 id="Mirror_NetworkSceneManager_NetworkSceneName" data-uid="Mirror.NetworkSceneManager.NetworkSceneName">NetworkSceneName</h4>
-  <div class="markdown level1 summary"><p>The name of the current network scene.</p>
+  <a id="Mirror_NetworkSceneManager_NetworkScenePath_" data-uid="Mirror.NetworkSceneManager.NetworkScenePath*"></a>
+  <h4 id="Mirror_NetworkSceneManager_NetworkScenePath" data-uid="Mirror.NetworkSceneManager.NetworkScenePath">NetworkScenePath</h4>
+  <div class="markdown level1 summary"><p>The path of the current network scene.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string NetworkSceneName { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string NetworkScenePath { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -281,10 +281,9 @@
       </tr>
     </tbody>
   </table>
-  <h5 id="Mirror_NetworkSceneManager_NetworkSceneName_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This should not be changed directly. Calls to ServerChangeScene() cause this to change. New clients that connect to a server will automatically load this scene.</p>
+  <h5 id="Mirror_NetworkSceneManager_NetworkScenePath_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>New clients that connect to a server will automatically load this scene.</p>
 <p>This is used to make sure that all scene changes are initialized by Mirror.</p>
-<p>Loading a scene manually wont set networkSceneName, so Mirror would still load it again on start.</p>
 </div>
   <h3 id="methods">Methods
   </h3>
@@ -292,13 +291,13 @@
   
   <a id="Mirror_NetworkSceneManager_ChangeServerScene_" data-uid="Mirror.NetworkSceneManager.ChangeServerScene*"></a>
   <h4 id="Mirror_NetworkSceneManager_ChangeServerScene_System_String_Mirror_SceneOperation_" data-uid="Mirror.NetworkSceneManager.ChangeServerScene(System.String,Mirror.SceneOperation)">ChangeServerScene(String, SceneOperation)</h4>
-  <div class="markdown level1 summary"><p>This causes the server to switch scenes and sets the networkSceneName.</p>
+  <div class="markdown level1 summary"><p>This causes the server to switch scenes and sets the NetworkScenePath.</p>
 <p>Clients that connect to this server will automatically switch to this scene. This automatically sets clients to be not-ready. The clients must call Ready() again to participate in the new scene.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ChangeServerScene(string newSceneName, SceneOperation sceneOperation = SceneOperation.Normal)</code></pre>
+    <pre><code class="lang-csharp hljs">public void ChangeServerScene(string scenePath, SceneOperation sceneOperation = SceneOperation.Normal)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -312,7 +311,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><span class="parametername">newSceneName</span></td>
+        <td><span class="parametername">scenePath</span></td>
         <td></td>
       </tr>
       <tr>
