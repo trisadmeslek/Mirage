@@ -8853,19 +8853,19 @@ references:
   fullName.vb: Mirror.NetworkWriterExtensions.WriteList(Of T)(Mirror.NetworkWriter, List(Of T))
   nameWithType: NetworkWriterExtensions.WriteList<T>(NetworkWriter, List<T>)
   nameWithType.vb: NetworkWriterExtensions.WriteList(Of T)(NetworkWriter, List(Of T))
-- uid: Mirror.NetworkWriterExtensions.WriteMatrix4x4(Mirror.NetworkWriter,Matrix4x4)
-  name: WriteMatrix4x4(NetworkWriter, Matrix4x4)
-  href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteMatrix4x4_Mirror_NetworkWriter_Matrix4x4_
-  commentId: M:Mirror.NetworkWriterExtensions.WriteMatrix4x4(Mirror.NetworkWriter,Matrix4x4)
-  fullName: Mirror.NetworkWriterExtensions.WriteMatrix4x4(Mirror.NetworkWriter, Matrix4x4)
-  nameWithType: NetworkWriterExtensions.WriteMatrix4x4(NetworkWriter, Matrix4x4)
-- uid: Mirror.NetworkWriterExtensions.WriteMatrix4x4*
-  name: WriteMatrix4x4
-  href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteMatrix4x4_
-  commentId: Overload:Mirror.NetworkWriterExtensions.WriteMatrix4x4
+- uid: Mirror.NetworkWriterExtensions.WriteMatrix4X4(Mirror.NetworkWriter,Matrix4x4)
+  name: WriteMatrix4X4(NetworkWriter, Matrix4x4)
+  href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteMatrix4X4_Mirror_NetworkWriter_Matrix4x4_
+  commentId: M:Mirror.NetworkWriterExtensions.WriteMatrix4X4(Mirror.NetworkWriter,Matrix4x4)
+  fullName: Mirror.NetworkWriterExtensions.WriteMatrix4X4(Mirror.NetworkWriter, Matrix4x4)
+  nameWithType: NetworkWriterExtensions.WriteMatrix4X4(NetworkWriter, Matrix4x4)
+- uid: Mirror.NetworkWriterExtensions.WriteMatrix4X4*
+  name: WriteMatrix4X4
+  href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteMatrix4X4_
+  commentId: Overload:Mirror.NetworkWriterExtensions.WriteMatrix4X4
   isSpec: "True"
-  fullName: Mirror.NetworkWriterExtensions.WriteMatrix4x4
-  nameWithType: NetworkWriterExtensions.WriteMatrix4x4
+  fullName: Mirror.NetworkWriterExtensions.WriteMatrix4X4
+  nameWithType: NetworkWriterExtensions.WriteMatrix4X4
 - uid: Mirror.NetworkWriterExtensions.WriteNetworkIdentity(Mirror.NetworkWriter,Mirror.NetworkIdentity)
   name: WriteNetworkIdentity(NetworkWriter, NetworkIdentity)
   href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteNetworkIdentity_Mirror_NetworkWriter_Mirror_NetworkIdentity_
