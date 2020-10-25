@@ -439,7 +439,7 @@ of EndPoint, which depends on the transport</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UniTask&lt;(bool next, int channel)&gt; ReceiveAsync(MemoryStream buffer)</code></pre>
+    <pre><code class="lang-csharp hljs">public UniTask&lt;int&gt; ReceiveAsync(MemoryStream buffer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -469,7 +469,7 @@ of EndPoint, which depends on the transport</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UniTask</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetuple-2">ValueTuple</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;&gt;</td>
+        <td><span class="xref">UniTask</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
         <td><p>true if we got a message, false if we got disconnected</p>
 </td>
       </tr>
