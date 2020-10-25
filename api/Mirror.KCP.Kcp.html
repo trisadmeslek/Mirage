@@ -771,12 +771,12 @@ the extra bytes can be used to store a CRC or other information</p>
   
   
   <a id="Mirror_KCP_Kcp_SetNoDelay_" data-uid="Mirror.KCP.Kcp.SetNoDelay*"></a>
-  <h4 id="Mirror_KCP_Kcp_SetNoDelay_System_UInt32_System_Int32_System_Int32_System_Boolean_" data-uid="Mirror.KCP.Kcp.SetNoDelay(System.UInt32,System.Int32,System.Int32,System.Boolean)">SetNoDelay(UInt32, Int32, Int32, Boolean)</h4>
+  <h4 id="Mirror_KCP_Kcp_SetNoDelay_System_Boolean_System_Int32_System_Int32_System_Boolean_" data-uid="Mirror.KCP.Kcp.SetNoDelay(System.Boolean,System.Int32,System.Int32,System.Boolean)">SetNoDelay(Boolean, Int32, Int32, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetNoDelay(uint nodelay = null, int interval = null, int resend = 0, bool nocwnd = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetNoDelay(bool nodelay = false, int interval = null, int resend = 0, bool nocwnd = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -789,7 +789,7 @@ the extra bytes can be used to store a CRC or other information</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><span class="parametername">nodelay</span></td>
         <td></td>
       </tr>
