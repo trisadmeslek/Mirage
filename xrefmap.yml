@@ -6358,6 +6358,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.IsNetworkActive
   nameWithType: NetworkManager.IsNetworkActive
+- uid: Mirror.NetworkManager.sceneManager
+  name: sceneManager
+  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_sceneManager
+  commentId: F:Mirror.NetworkManager.sceneManager
+  fullName: Mirror.NetworkManager.sceneManager
+  nameWithType: NetworkManager.sceneManager
 - uid: Mirror.NetworkManager.server
   name: server
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_server
