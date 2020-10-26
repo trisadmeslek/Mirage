@@ -3020,7 +3020,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.ILoggerExtensions.html",
-          "hash": "73ea6REsDvM7fIHGgytBzQ=="
+          "hash": "9evt+qzX5mCCqfMQSeA/gQ=="
         }
       },
       "is_incremental": false,
@@ -3344,7 +3344,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.LogFactory.html",
-          "hash": "USps6GiTJGgzC6KRI8EwcA=="
+          "hash": "RLwvOy9RBDErXEPnz1y1fQ=="
         }
       },
       "is_incremental": false,
@@ -3352,11 +3352,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Mirror.Logging.ConsoleColorLogHandler.yml",
+      "source_relative_path": "api/Mirror.LogSettings.Level.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Mirror.Logging.ConsoleColorLogHandler.html",
-          "hash": "McoXrD3q4Q/fEpqmbKvXRw=="
+          "relative_path": "api/Mirror.LogSettings.Level.html",
+          "hash": "ieHpchFRELgE7yLSKDhcWQ=="
         }
       },
       "is_incremental": false,
@@ -3364,71 +3364,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Mirror.Logging.LogSettings.LoggerSettings.yml",
+      "source_relative_path": "api/Mirror.LogSettings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Mirror.Logging.LogSettings.LoggerSettings.html",
-          "hash": "nwp51oHhXYuh4xJ0yI+mtA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Mirror.Logging.LogSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Mirror.Logging.LogSettings.html",
-          "hash": "VyYq6apqYBtylg4gRq5Zsw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Mirror.Logging.LogSettingsExt.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Mirror.Logging.LogSettingsExt.html",
-          "hash": "4eS+bd6rB3tu8zplkB6L+Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Mirror.Logging.NetworkHeadlessLogger.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Mirror.Logging.NetworkHeadlessLogger.html",
-          "hash": "/tIReJ/xY8nw4tox/Iw0aw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Mirror.Logging.NetworkLogSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Mirror.Logging.NetworkLogSettings.html",
-          "hash": "eMdlkZF90Wj8lAzoEMgLvg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Mirror.Logging.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Mirror.Logging.html",
-          "hash": "z+rLiUeLEJ6myKWWPH3F/g=="
+          "relative_path": "api/Mirror.LogSettings.html",
+          "hash": "6SLpYvAwRciqRiTBGiOFnQ=="
         }
       },
       "is_incremental": false,
@@ -4388,7 +4328,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.html",
-          "hash": "wE8Ho6SytyO2jdbclVAnlQ=="
+          "hash": "UYL8qIXMhjSk3yHWkAu8Zg=="
         }
       },
       "is_incremental": false,
@@ -4412,7 +4352,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "tsMzIpU/akFOIRO4FG/Y4A=="
+          "hash": "KcccAziE0UV9hdZNBU8rFA=="
         }
       },
       "is_incremental": false,
@@ -4476,28 +4416,28 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 172,
-          "skipped_file_count": 0
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 86,
           "skipped_file_count": 0
         },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 167,
+          "skipped_file_count": 0
+        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0

@@ -2296,19 +2296,6 @@ references:
   commentId: T:Mirror.ILoggerExtensions
   fullName: Mirror.ILoggerExtensions
   nameWithType: ILoggerExtensions
-- uid: Mirror.ILoggerExtensions.Assert(ILogger,System.Boolean,System.String)
-  name: Assert(ILogger, Boolean, String)
-  href: api/Mirror.ILoggerExtensions.html#Mirror_ILoggerExtensions_Assert_ILogger_System_Boolean_System_String_
-  commentId: M:Mirror.ILoggerExtensions.Assert(ILogger,System.Boolean,System.String)
-  fullName: Mirror.ILoggerExtensions.Assert(ILogger, System.Boolean, System.String)
-  nameWithType: ILoggerExtensions.Assert(ILogger, Boolean, String)
-- uid: Mirror.ILoggerExtensions.Assert*
-  name: Assert
-  href: api/Mirror.ILoggerExtensions.html#Mirror_ILoggerExtensions_Assert_
-  commentId: Overload:Mirror.ILoggerExtensions.Assert
-  isSpec: "True"
-  fullName: Mirror.ILoggerExtensions.Assert
-  nameWithType: ILoggerExtensions.Assert
 - uid: Mirror.ILoggerExtensions.ErrorEnabled(ILogger)
   name: ErrorEnabled(ILogger)
   href: api/Mirror.ILoggerExtensions.html#Mirror_ILoggerExtensions_ErrorEnabled_ILogger_
@@ -4208,19 +4195,6 @@ references:
   commentId: T:Mirror.LogFactory
   fullName: Mirror.LogFactory
   nameWithType: LogFactory
-- uid: Mirror.LogFactory.AllLoggers
-  name: AllLoggers
-  href: api/Mirror.LogFactory.html#Mirror_LogFactory_AllLoggers
-  commentId: P:Mirror.LogFactory.AllLoggers
-  fullName: Mirror.LogFactory.AllLoggers
-  nameWithType: LogFactory.AllLoggers
-- uid: Mirror.LogFactory.AllLoggers*
-  name: AllLoggers
-  href: api/Mirror.LogFactory.html#Mirror_LogFactory_AllLoggers_
-  commentId: Overload:Mirror.LogFactory.AllLoggers
-  isSpec: "True"
-  fullName: Mirror.LogFactory.AllLoggers
-  nameWithType: LogFactory.AllLoggers
 - uid: Mirror.LogFactory.GetLogger(System.String,LogType)
   name: GetLogger(String, LogType)
   href: api/Mirror.LogFactory.html#Mirror_LogFactory_GetLogger_System_String_LogType_
@@ -4249,159 +4223,49 @@ references:
   fullName.vb: Mirror.LogFactory.GetLogger(Of T)(LogType)
   nameWithType: LogFactory.GetLogger<T>(LogType)
   nameWithType.vb: LogFactory.GetLogger(Of T)(LogType)
-- uid: Mirror.LogFactory.ReplaceLogHandler(ILogHandler)
-  name: ReplaceLogHandler(ILogHandler)
-  href: api/Mirror.LogFactory.html#Mirror_LogFactory_ReplaceLogHandler_ILogHandler_
-  commentId: M:Mirror.LogFactory.ReplaceLogHandler(ILogHandler)
-  fullName: Mirror.LogFactory.ReplaceLogHandler(ILogHandler)
-  nameWithType: LogFactory.ReplaceLogHandler(ILogHandler)
-- uid: Mirror.LogFactory.ReplaceLogHandler*
-  name: ReplaceLogHandler
-  href: api/Mirror.LogFactory.html#Mirror_LogFactory_ReplaceLogHandler_
-  commentId: Overload:Mirror.LogFactory.ReplaceLogHandler
-  isSpec: "True"
-  fullName: Mirror.LogFactory.ReplaceLogHandler
-  nameWithType: LogFactory.ReplaceLogHandler
-- uid: Mirror.Logging
-  name: Mirror.Logging
-  href: api/Mirror.Logging.html
-  commentId: N:Mirror.Logging
-  fullName: Mirror.Logging
-  nameWithType: Mirror.Logging
-- uid: Mirror.Logging.ConsoleColorLogHandler
-  name: ConsoleColorLogHandler
-  href: api/Mirror.Logging.ConsoleColorLogHandler.html
-  commentId: T:Mirror.Logging.ConsoleColorLogHandler
-  fullName: Mirror.Logging.ConsoleColorLogHandler
-  nameWithType: ConsoleColorLogHandler
-- uid: Mirror.Logging.ConsoleColorLogHandler.#ctor(System.Boolean)
-  name: ConsoleColorLogHandler(Boolean)
-  href: api/Mirror.Logging.ConsoleColorLogHandler.html#Mirror_Logging_ConsoleColorLogHandler__ctor_System_Boolean_
-  commentId: M:Mirror.Logging.ConsoleColorLogHandler.#ctor(System.Boolean)
-  fullName: Mirror.Logging.ConsoleColorLogHandler.ConsoleColorLogHandler(System.Boolean)
-  nameWithType: ConsoleColorLogHandler.ConsoleColorLogHandler(Boolean)
-- uid: Mirror.Logging.ConsoleColorLogHandler.#ctor*
-  name: ConsoleColorLogHandler
-  href: api/Mirror.Logging.ConsoleColorLogHandler.html#Mirror_Logging_ConsoleColorLogHandler__ctor_
-  commentId: Overload:Mirror.Logging.ConsoleColorLogHandler.#ctor
-  isSpec: "True"
-  fullName: Mirror.Logging.ConsoleColorLogHandler.ConsoleColorLogHandler
-  nameWithType: ConsoleColorLogHandler.ConsoleColorLogHandler
-- uid: Mirror.Logging.ConsoleColorLogHandler.LogException(Exception,UnityEngine.Object)
-  name: LogException(Exception, UnityEngine.Object)
-  href: api/Mirror.Logging.ConsoleColorLogHandler.html#Mirror_Logging_ConsoleColorLogHandler_LogException_Exception_UnityEngine_Object_
-  commentId: M:Mirror.Logging.ConsoleColorLogHandler.LogException(Exception,UnityEngine.Object)
-  fullName: Mirror.Logging.ConsoleColorLogHandler.LogException(Exception, UnityEngine.Object)
-  nameWithType: ConsoleColorLogHandler.LogException(Exception, UnityEngine.Object)
-- uid: Mirror.Logging.ConsoleColorLogHandler.LogException*
-  name: LogException
-  href: api/Mirror.Logging.ConsoleColorLogHandler.html#Mirror_Logging_ConsoleColorLogHandler_LogException_
-  commentId: Overload:Mirror.Logging.ConsoleColorLogHandler.LogException
-  isSpec: "True"
-  fullName: Mirror.Logging.ConsoleColorLogHandler.LogException
-  nameWithType: ConsoleColorLogHandler.LogException
-- uid: Mirror.Logging.ConsoleColorLogHandler.LogFormat(LogType,UnityEngine.Object,System.String,System.Object[])
-  name: LogFormat(LogType, UnityEngine.Object, String, Object[])
-  href: api/Mirror.Logging.ConsoleColorLogHandler.html#Mirror_Logging_ConsoleColorLogHandler_LogFormat_LogType_UnityEngine_Object_System_String_System_Object___
-  commentId: M:Mirror.Logging.ConsoleColorLogHandler.LogFormat(LogType,UnityEngine.Object,System.String,System.Object[])
-  name.vb: LogFormat(LogType, UnityEngine.Object, String, Object())
-  fullName: Mirror.Logging.ConsoleColorLogHandler.LogFormat(LogType, UnityEngine.Object, System.String, System.Object[])
-  fullName.vb: Mirror.Logging.ConsoleColorLogHandler.LogFormat(LogType, UnityEngine.Object, System.String, System.Object())
-  nameWithType: ConsoleColorLogHandler.LogFormat(LogType, UnityEngine.Object, String, Object[])
-  nameWithType.vb: ConsoleColorLogHandler.LogFormat(LogType, UnityEngine.Object, String, Object())
-- uid: Mirror.Logging.ConsoleColorLogHandler.LogFormat*
-  name: LogFormat
-  href: api/Mirror.Logging.ConsoleColorLogHandler.html#Mirror_Logging_ConsoleColorLogHandler_LogFormat_
-  commentId: Overload:Mirror.Logging.ConsoleColorLogHandler.LogFormat
-  isSpec: "True"
-  fullName: Mirror.Logging.ConsoleColorLogHandler.LogFormat
-  nameWithType: ConsoleColorLogHandler.LogFormat
-- uid: Mirror.Logging.LogSettings
+- uid: Mirror.LogSettings
   name: LogSettings
-  href: api/Mirror.Logging.LogSettings.html
-  commentId: T:Mirror.Logging.LogSettings
-  fullName: Mirror.Logging.LogSettings
+  href: api/Mirror.LogSettings.html
+  commentId: T:Mirror.LogSettings
+  fullName: Mirror.LogSettings
   nameWithType: LogSettings
-- uid: Mirror.Logging.LogSettings.LoggerSettings
-  name: LogSettings.LoggerSettings
-  href: api/Mirror.Logging.LogSettings.LoggerSettings.html
-  commentId: T:Mirror.Logging.LogSettings.LoggerSettings
-  fullName: Mirror.Logging.LogSettings.LoggerSettings
-  nameWithType: LogSettings.LoggerSettings
-- uid: Mirror.Logging.LogSettings.LoggerSettings.logLevel
-  name: logLevel
-  href: api/Mirror.Logging.LogSettings.LoggerSettings.html#Mirror_Logging_LogSettings_LoggerSettings_logLevel
-  commentId: F:Mirror.Logging.LogSettings.LoggerSettings.logLevel
-  fullName: Mirror.Logging.LogSettings.LoggerSettings.logLevel
-  nameWithType: LogSettings.LoggerSettings.logLevel
-- uid: Mirror.Logging.LogSettings.LoggerSettings.name
-  name: name
-  href: api/Mirror.Logging.LogSettings.LoggerSettings.html#Mirror_Logging_LogSettings_LoggerSettings_name
-  commentId: F:Mirror.Logging.LogSettings.LoggerSettings.name
-  fullName: Mirror.Logging.LogSettings.LoggerSettings.name
-  nameWithType: LogSettings.LoggerSettings.name
-- uid: Mirror.Logging.LogSettings.loglevels
-  name: loglevels
-  href: api/Mirror.Logging.LogSettings.html#Mirror_Logging_LogSettings_loglevels
-  commentId: F:Mirror.Logging.LogSettings.loglevels
-  fullName: Mirror.Logging.LogSettings.loglevels
-  nameWithType: LogSettings.loglevels
-- uid: Mirror.Logging.LogSettingsExt
-  name: LogSettingsExt
-  href: api/Mirror.Logging.LogSettingsExt.html
-  commentId: T:Mirror.Logging.LogSettingsExt
-  fullName: Mirror.Logging.LogSettingsExt
-  nameWithType: LogSettingsExt
-- uid: Mirror.Logging.LogSettingsExt.LoadIntoDictionary(Mirror.Logging.LogSettings,SortedDictionary{System.String,ILogger})
-  name: LoadIntoDictionary(LogSettings, SortedDictionary<String, ILogger>)
-  href: api/Mirror.Logging.LogSettingsExt.html#Mirror_Logging_LogSettingsExt_LoadIntoDictionary_Mirror_Logging_LogSettings_SortedDictionary_System_String_ILogger__
-  commentId: M:Mirror.Logging.LogSettingsExt.LoadIntoDictionary(Mirror.Logging.LogSettings,SortedDictionary{System.String,ILogger})
-  name.vb: LoadIntoDictionary(LogSettings, SortedDictionary(Of String, ILogger))
-  fullName: Mirror.Logging.LogSettingsExt.LoadIntoDictionary(Mirror.Logging.LogSettings, SortedDictionary<System.String, ILogger>)
-  fullName.vb: Mirror.Logging.LogSettingsExt.LoadIntoDictionary(Mirror.Logging.LogSettings, SortedDictionary(Of System.String, ILogger))
-  nameWithType: LogSettingsExt.LoadIntoDictionary(LogSettings, SortedDictionary<String, ILogger>)
-  nameWithType.vb: LogSettingsExt.LoadIntoDictionary(LogSettings, SortedDictionary(Of String, ILogger))
-- uid: Mirror.Logging.LogSettingsExt.LoadIntoDictionary*
-  name: LoadIntoDictionary
-  href: api/Mirror.Logging.LogSettingsExt.html#Mirror_Logging_LogSettingsExt_LoadIntoDictionary_
-  commentId: Overload:Mirror.Logging.LogSettingsExt.LoadIntoDictionary
+- uid: Mirror.LogSettings.Level
+  name: LogSettings.Level
+  href: api/Mirror.LogSettings.Level.html
+  commentId: T:Mirror.LogSettings.Level
+  fullName: Mirror.LogSettings.Level
+  nameWithType: LogSettings.Level
+- uid: Mirror.LogSettings.Level.level
+  name: level
+  href: api/Mirror.LogSettings.Level.html#Mirror_LogSettings_Level_level
+  commentId: F:Mirror.LogSettings.Level.level
+  fullName: Mirror.LogSettings.Level.level
+  nameWithType: LogSettings.Level.level
+- uid: Mirror.LogSettings.Level.Name
+  name: Name
+  href: api/Mirror.LogSettings.Level.html#Mirror_LogSettings_Level_Name
+  commentId: F:Mirror.LogSettings.Level.Name
+  fullName: Mirror.LogSettings.Level.Name
+  nameWithType: LogSettings.Level.Name
+- uid: Mirror.LogSettings.Levels
+  name: Levels
+  href: api/Mirror.LogSettings.html#Mirror_LogSettings_Levels
+  commentId: F:Mirror.LogSettings.Levels
+  fullName: Mirror.LogSettings.Levels
+  nameWithType: LogSettings.Levels
+- uid: Mirror.LogSettings.SetLogLevels
+  name: SetLogLevels()
+  href: api/Mirror.LogSettings.html#Mirror_LogSettings_SetLogLevels
+  commentId: M:Mirror.LogSettings.SetLogLevels
+  fullName: Mirror.LogSettings.SetLogLevels()
+  nameWithType: LogSettings.SetLogLevels()
+- uid: Mirror.LogSettings.SetLogLevels*
+  name: SetLogLevels
+  href: api/Mirror.LogSettings.html#Mirror_LogSettings_SetLogLevels_
+  commentId: Overload:Mirror.LogSettings.SetLogLevels
   isSpec: "True"
-  fullName: Mirror.Logging.LogSettingsExt.LoadIntoDictionary
-  nameWithType: LogSettingsExt.LoadIntoDictionary
-- uid: Mirror.Logging.LogSettingsExt.SaveFromDictionary(Mirror.Logging.LogSettings,SortedDictionary{System.String,ILogger})
-  name: SaveFromDictionary(LogSettings, SortedDictionary<String, ILogger>)
-  href: api/Mirror.Logging.LogSettingsExt.html#Mirror_Logging_LogSettingsExt_SaveFromDictionary_Mirror_Logging_LogSettings_SortedDictionary_System_String_ILogger__
-  commentId: M:Mirror.Logging.LogSettingsExt.SaveFromDictionary(Mirror.Logging.LogSettings,SortedDictionary{System.String,ILogger})
-  name.vb: SaveFromDictionary(LogSettings, SortedDictionary(Of String, ILogger))
-  fullName: Mirror.Logging.LogSettingsExt.SaveFromDictionary(Mirror.Logging.LogSettings, SortedDictionary<System.String, ILogger>)
-  fullName.vb: Mirror.Logging.LogSettingsExt.SaveFromDictionary(Mirror.Logging.LogSettings, SortedDictionary(Of System.String, ILogger))
-  nameWithType: LogSettingsExt.SaveFromDictionary(LogSettings, SortedDictionary<String, ILogger>)
-  nameWithType.vb: LogSettingsExt.SaveFromDictionary(LogSettings, SortedDictionary(Of String, ILogger))
-- uid: Mirror.Logging.LogSettingsExt.SaveFromDictionary*
-  name: SaveFromDictionary
-  href: api/Mirror.Logging.LogSettingsExt.html#Mirror_Logging_LogSettingsExt_SaveFromDictionary_
-  commentId: Overload:Mirror.Logging.LogSettingsExt.SaveFromDictionary
-  isSpec: "True"
-  fullName: Mirror.Logging.LogSettingsExt.SaveFromDictionary
-  nameWithType: LogSettingsExt.SaveFromDictionary
-- uid: Mirror.Logging.NetworkHeadlessLogger
-  name: NetworkHeadlessLogger
-  href: api/Mirror.Logging.NetworkHeadlessLogger.html
-  commentId: T:Mirror.Logging.NetworkHeadlessLogger
-  fullName: Mirror.Logging.NetworkHeadlessLogger
-  nameWithType: NetworkHeadlessLogger
-- uid: Mirror.Logging.NetworkHeadlessLogger.showExceptionStackTrace
-  name: showExceptionStackTrace
-  href: api/Mirror.Logging.NetworkHeadlessLogger.html#Mirror_Logging_NetworkHeadlessLogger_showExceptionStackTrace
-  commentId: F:Mirror.Logging.NetworkHeadlessLogger.showExceptionStackTrace
-  fullName: Mirror.Logging.NetworkHeadlessLogger.showExceptionStackTrace
-  nameWithType: NetworkHeadlessLogger.showExceptionStackTrace
-- uid: Mirror.Logging.NetworkLogSettings
-  name: NetworkLogSettings
-  href: api/Mirror.Logging.NetworkLogSettings.html
-  commentId: T:Mirror.Logging.NetworkLogSettings
-  fullName: Mirror.Logging.NetworkLogSettings
-  nameWithType: NetworkLogSettings
+  fullName: Mirror.LogSettings.SetLogLevels
+  nameWithType: LogSettings.SetLogLevels
 - uid: Mirror.MessagePacker
   name: MessagePacker
   href: api/Mirror.MessagePacker.html
