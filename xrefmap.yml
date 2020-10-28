@@ -67,6 +67,183 @@ references:
   commentId: F:Mirror.ClientAttribute.error
   fullName: Mirror.ClientAttribute.error
   nameWithType: ClientAttribute.error
+- uid: Mirror.ClientObjectManager
+  name: ClientObjectManager
+  href: api/Mirror.ClientObjectManager.html
+  commentId: T:Mirror.ClientObjectManager
+  fullName: Mirror.ClientObjectManager
+  nameWithType: ClientObjectManager
+- uid: Mirror.ClientObjectManager.ClearSpawners
+  name: ClearSpawners()
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_ClearSpawners
+  commentId: M:Mirror.ClientObjectManager.ClearSpawners
+  fullName: Mirror.ClientObjectManager.ClearSpawners()
+  nameWithType: ClientObjectManager.ClearSpawners()
+- uid: Mirror.ClientObjectManager.ClearSpawners*
+  name: ClearSpawners
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_ClearSpawners_
+  commentId: Overload:Mirror.ClientObjectManager.ClearSpawners
+  isSpec: "True"
+  fullName: Mirror.ClientObjectManager.ClearSpawners
+  nameWithType: ClientObjectManager.ClearSpawners
+- uid: Mirror.ClientObjectManager.client
+  name: client
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_client
+  commentId: F:Mirror.ClientObjectManager.client
+  fullName: Mirror.ClientObjectManager.client
+  nameWithType: ClientObjectManager.client
+- uid: Mirror.ClientObjectManager.DestroyAllClientObjects
+  name: DestroyAllClientObjects()
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_DestroyAllClientObjects
+  commentId: M:Mirror.ClientObjectManager.DestroyAllClientObjects
+  fullName: Mirror.ClientObjectManager.DestroyAllClientObjects()
+  nameWithType: ClientObjectManager.DestroyAllClientObjects()
+- uid: Mirror.ClientObjectManager.DestroyAllClientObjects*
+  name: DestroyAllClientObjects
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_DestroyAllClientObjects_
+  commentId: Overload:Mirror.ClientObjectManager.DestroyAllClientObjects
+  isSpec: "True"
+  fullName: Mirror.ClientObjectManager.DestroyAllClientObjects
+  nameWithType: ClientObjectManager.DestroyAllClientObjects
+- uid: Mirror.ClientObjectManager.GetPrefab(Guid)
+  name: GetPrefab(Guid)
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_GetPrefab_Guid_
+  commentId: M:Mirror.ClientObjectManager.GetPrefab(Guid)
+  fullName: Mirror.ClientObjectManager.GetPrefab(Guid)
+  nameWithType: ClientObjectManager.GetPrefab(Guid)
+- uid: Mirror.ClientObjectManager.GetPrefab*
+  name: GetPrefab
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_GetPrefab_
+  commentId: Overload:Mirror.ClientObjectManager.GetPrefab
+  isSpec: "True"
+  fullName: Mirror.ClientObjectManager.GetPrefab
+  nameWithType: ClientObjectManager.GetPrefab
+- uid: Mirror.ClientObjectManager.networkSceneManager
+  name: networkSceneManager
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_networkSceneManager
+  commentId: F:Mirror.ClientObjectManager.networkSceneManager
+  fullName: Mirror.ClientObjectManager.networkSceneManager
+  nameWithType: ClientObjectManager.networkSceneManager
+- uid: Mirror.ClientObjectManager.PrepareToSpawnSceneObjects
+  name: PrepareToSpawnSceneObjects()
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_PrepareToSpawnSceneObjects
+  commentId: M:Mirror.ClientObjectManager.PrepareToSpawnSceneObjects
+  fullName: Mirror.ClientObjectManager.PrepareToSpawnSceneObjects()
+  nameWithType: ClientObjectManager.PrepareToSpawnSceneObjects()
+- uid: Mirror.ClientObjectManager.PrepareToSpawnSceneObjects*
+  name: PrepareToSpawnSceneObjects
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_PrepareToSpawnSceneObjects_
+  commentId: Overload:Mirror.ClientObjectManager.PrepareToSpawnSceneObjects
+  isSpec: "True"
+  fullName: Mirror.ClientObjectManager.PrepareToSpawnSceneObjects
+  nameWithType: ClientObjectManager.PrepareToSpawnSceneObjects
+- uid: Mirror.ClientObjectManager.RegisterPrefab(GameObject)
+  name: RegisterPrefab(GameObject)
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_RegisterPrefab_GameObject_
+  commentId: M:Mirror.ClientObjectManager.RegisterPrefab(GameObject)
+  fullName: Mirror.ClientObjectManager.RegisterPrefab(GameObject)
+  nameWithType: ClientObjectManager.RegisterPrefab(GameObject)
+- uid: Mirror.ClientObjectManager.RegisterPrefab(GameObject,Guid)
+  name: RegisterPrefab(GameObject, Guid)
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_RegisterPrefab_GameObject_Guid_
+  commentId: M:Mirror.ClientObjectManager.RegisterPrefab(GameObject,Guid)
+  fullName: Mirror.ClientObjectManager.RegisterPrefab(GameObject, Guid)
+  nameWithType: ClientObjectManager.RegisterPrefab(GameObject, Guid)
+- uid: Mirror.ClientObjectManager.RegisterPrefab(GameObject,Mirror.SpawnDelegate,Mirror.UnSpawnDelegate)
+  name: RegisterPrefab(GameObject, SpawnDelegate, UnSpawnDelegate)
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_RegisterPrefab_GameObject_Mirror_SpawnDelegate_Mirror_UnSpawnDelegate_
+  commentId: M:Mirror.ClientObjectManager.RegisterPrefab(GameObject,Mirror.SpawnDelegate,Mirror.UnSpawnDelegate)
+  fullName: Mirror.ClientObjectManager.RegisterPrefab(GameObject, Mirror.SpawnDelegate, Mirror.UnSpawnDelegate)
+  nameWithType: ClientObjectManager.RegisterPrefab(GameObject, SpawnDelegate, UnSpawnDelegate)
+- uid: Mirror.ClientObjectManager.RegisterPrefab(GameObject,Mirror.SpawnHandlerDelegate,Mirror.UnSpawnDelegate)
+  name: RegisterPrefab(GameObject, SpawnHandlerDelegate, UnSpawnDelegate)
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_RegisterPrefab_GameObject_Mirror_SpawnHandlerDelegate_Mirror_UnSpawnDelegate_
+  commentId: M:Mirror.ClientObjectManager.RegisterPrefab(GameObject,Mirror.SpawnHandlerDelegate,Mirror.UnSpawnDelegate)
+  fullName: Mirror.ClientObjectManager.RegisterPrefab(GameObject, Mirror.SpawnHandlerDelegate, Mirror.UnSpawnDelegate)
+  nameWithType: ClientObjectManager.RegisterPrefab(GameObject, SpawnHandlerDelegate, UnSpawnDelegate)
+- uid: Mirror.ClientObjectManager.RegisterPrefab*
+  name: RegisterPrefab
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_RegisterPrefab_
+  commentId: Overload:Mirror.ClientObjectManager.RegisterPrefab
+  isSpec: "True"
+  fullName: Mirror.ClientObjectManager.RegisterPrefab
+  nameWithType: ClientObjectManager.RegisterPrefab
+- uid: Mirror.ClientObjectManager.RegisterSpawnHandler(Guid,Mirror.SpawnDelegate,Mirror.UnSpawnDelegate)
+  name: RegisterSpawnHandler(Guid, SpawnDelegate, UnSpawnDelegate)
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_RegisterSpawnHandler_Guid_Mirror_SpawnDelegate_Mirror_UnSpawnDelegate_
+  commentId: M:Mirror.ClientObjectManager.RegisterSpawnHandler(Guid,Mirror.SpawnDelegate,Mirror.UnSpawnDelegate)
+  fullName: Mirror.ClientObjectManager.RegisterSpawnHandler(Guid, Mirror.SpawnDelegate, Mirror.UnSpawnDelegate)
+  nameWithType: ClientObjectManager.RegisterSpawnHandler(Guid, SpawnDelegate, UnSpawnDelegate)
+- uid: Mirror.ClientObjectManager.RegisterSpawnHandler(Guid,Mirror.SpawnHandlerDelegate,Mirror.UnSpawnDelegate)
+  name: RegisterSpawnHandler(Guid, SpawnHandlerDelegate, UnSpawnDelegate)
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_RegisterSpawnHandler_Guid_Mirror_SpawnHandlerDelegate_Mirror_UnSpawnDelegate_
+  commentId: M:Mirror.ClientObjectManager.RegisterSpawnHandler(Guid,Mirror.SpawnHandlerDelegate,Mirror.UnSpawnDelegate)
+  fullName: Mirror.ClientObjectManager.RegisterSpawnHandler(Guid, Mirror.SpawnHandlerDelegate, Mirror.UnSpawnDelegate)
+  nameWithType: ClientObjectManager.RegisterSpawnHandler(Guid, SpawnHandlerDelegate, UnSpawnDelegate)
+- uid: Mirror.ClientObjectManager.RegisterSpawnHandler*
+  name: RegisterSpawnHandler
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_RegisterSpawnHandler_
+  commentId: Overload:Mirror.ClientObjectManager.RegisterSpawnHandler
+  isSpec: "True"
+  fullName: Mirror.ClientObjectManager.RegisterSpawnHandler
+  nameWithType: ClientObjectManager.RegisterSpawnHandler
+- uid: Mirror.ClientObjectManager.server
+  name: server
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_server
+  commentId: F:Mirror.ClientObjectManager.server
+  fullName: Mirror.ClientObjectManager.server
+  nameWithType: ClientObjectManager.server
+- uid: Mirror.ClientObjectManager.spawnableObjects
+  name: spawnableObjects
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_spawnableObjects
+  commentId: F:Mirror.ClientObjectManager.spawnableObjects
+  fullName: Mirror.ClientObjectManager.spawnableObjects
+  nameWithType: ClientObjectManager.spawnableObjects
+- uid: Mirror.ClientObjectManager.spawnPrefabs
+  name: spawnPrefabs
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_spawnPrefabs
+  commentId: F:Mirror.ClientObjectManager.spawnPrefabs
+  fullName: Mirror.ClientObjectManager.spawnPrefabs
+  nameWithType: ClientObjectManager.spawnPrefabs
+- uid: Mirror.ClientObjectManager.Start
+  name: Start()
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_Start
+  commentId: M:Mirror.ClientObjectManager.Start
+  fullName: Mirror.ClientObjectManager.Start()
+  nameWithType: ClientObjectManager.Start()
+- uid: Mirror.ClientObjectManager.Start*
+  name: Start
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_Start_
+  commentId: Overload:Mirror.ClientObjectManager.Start
+  isSpec: "True"
+  fullName: Mirror.ClientObjectManager.Start
+  nameWithType: ClientObjectManager.Start
+- uid: Mirror.ClientObjectManager.UnregisterPrefab(GameObject)
+  name: UnregisterPrefab(GameObject)
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_UnregisterPrefab_GameObject_
+  commentId: M:Mirror.ClientObjectManager.UnregisterPrefab(GameObject)
+  fullName: Mirror.ClientObjectManager.UnregisterPrefab(GameObject)
+  nameWithType: ClientObjectManager.UnregisterPrefab(GameObject)
+- uid: Mirror.ClientObjectManager.UnregisterPrefab*
+  name: UnregisterPrefab
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_UnregisterPrefab_
+  commentId: Overload:Mirror.ClientObjectManager.UnregisterPrefab
+  isSpec: "True"
+  fullName: Mirror.ClientObjectManager.UnregisterPrefab
+  nameWithType: ClientObjectManager.UnregisterPrefab
+- uid: Mirror.ClientObjectManager.UnregisterSpawnHandler(Guid)
+  name: UnregisterSpawnHandler(Guid)
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_UnregisterSpawnHandler_Guid_
+  commentId: M:Mirror.ClientObjectManager.UnregisterSpawnHandler(Guid)
+  fullName: Mirror.ClientObjectManager.UnregisterSpawnHandler(Guid)
+  nameWithType: ClientObjectManager.UnregisterSpawnHandler(Guid)
+- uid: Mirror.ClientObjectManager.UnregisterSpawnHandler*
+  name: UnregisterSpawnHandler
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_UnregisterSpawnHandler_
+  commentId: Overload:Mirror.ClientObjectManager.UnregisterSpawnHandler
+  isSpec: "True"
+  fullName: Mirror.ClientObjectManager.UnregisterSpawnHandler
+  nameWithType: ClientObjectManager.UnregisterSpawnHandler
 - uid: Mirror.ClientRpcAttribute
   name: ClientRpcAttribute
   href: api/Mirror.ClientRpcAttribute.html
@@ -5229,19 +5406,6 @@ references:
   commentId: F:Mirror.NetworkClient.authenticator
   fullName: Mirror.NetworkClient.authenticator
   nameWithType: NetworkClient.authenticator
-- uid: Mirror.NetworkClient.ClearSpawners
-  name: ClearSpawners()
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_ClearSpawners
-  commentId: M:Mirror.NetworkClient.ClearSpawners
-  fullName: Mirror.NetworkClient.ClearSpawners()
-  nameWithType: NetworkClient.ClearSpawners()
-- uid: Mirror.NetworkClient.ClearSpawners*
-  name: ClearSpawners
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_ClearSpawners_
-  commentId: Overload:Mirror.NetworkClient.ClearSpawners
-  isSpec: "True"
-  fullName: Mirror.NetworkClient.ClearSpawners
-  nameWithType: NetworkClient.ClearSpawners
 - uid: Mirror.NetworkClient.ConnectAsync(System.String)
   name: ConnectAsync(String)
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_ConnectAsync_System_String_
@@ -5280,19 +5444,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkClient.Connection
   nameWithType: NetworkClient.Connection
-- uid: Mirror.NetworkClient.DestroyAllClientObjects
-  name: DestroyAllClientObjects()
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_DestroyAllClientObjects
-  commentId: M:Mirror.NetworkClient.DestroyAllClientObjects
-  fullName: Mirror.NetworkClient.DestroyAllClientObjects()
-  nameWithType: NetworkClient.DestroyAllClientObjects()
-- uid: Mirror.NetworkClient.DestroyAllClientObjects*
-  name: DestroyAllClientObjects
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_DestroyAllClientObjects_
-  commentId: Overload:Mirror.NetworkClient.DestroyAllClientObjects
-  isSpec: "True"
-  fullName: Mirror.NetworkClient.DestroyAllClientObjects
-  nameWithType: NetworkClient.DestroyAllClientObjects
 - uid: Mirror.NetworkClient.Disconnect
   name: Disconnect()
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Disconnect
@@ -5325,19 +5476,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkClient.GetNewConnection
   nameWithType: NetworkClient.GetNewConnection
-- uid: Mirror.NetworkClient.GetPrefab(System.Guid)
-  name: GetPrefab(System.Guid)
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_GetPrefab_System_Guid_
-  commentId: M:Mirror.NetworkClient.GetPrefab(System.Guid)
-  fullName: Mirror.NetworkClient.GetPrefab(System.Guid)
-  nameWithType: NetworkClient.GetPrefab(System.Guid)
-- uid: Mirror.NetworkClient.GetPrefab*
-  name: GetPrefab
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_GetPrefab_
-  commentId: Overload:Mirror.NetworkClient.GetPrefab
-  isSpec: "True"
-  fullName: Mirror.NetworkClient.GetPrefab
-  nameWithType: NetworkClient.GetPrefab
 - uid: Mirror.NetworkClient.IsConnected
   name: IsConnected
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_IsConnected
@@ -5377,69 +5515,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkClient.LocalPlayer
   nameWithType: NetworkClient.LocalPlayer
-- uid: Mirror.NetworkClient.PrepareToSpawnSceneObjects
-  name: PrepareToSpawnSceneObjects()
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_PrepareToSpawnSceneObjects
-  commentId: M:Mirror.NetworkClient.PrepareToSpawnSceneObjects
-  fullName: Mirror.NetworkClient.PrepareToSpawnSceneObjects()
-  nameWithType: NetworkClient.PrepareToSpawnSceneObjects()
-- uid: Mirror.NetworkClient.PrepareToSpawnSceneObjects*
-  name: PrepareToSpawnSceneObjects
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_PrepareToSpawnSceneObjects_
-  commentId: Overload:Mirror.NetworkClient.PrepareToSpawnSceneObjects
-  isSpec: "True"
-  fullName: Mirror.NetworkClient.PrepareToSpawnSceneObjects
-  nameWithType: NetworkClient.PrepareToSpawnSceneObjects
-- uid: Mirror.NetworkClient.RegisterPrefab(GameObject)
-  name: RegisterPrefab(GameObject)
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_RegisterPrefab_GameObject_
-  commentId: M:Mirror.NetworkClient.RegisterPrefab(GameObject)
-  fullName: Mirror.NetworkClient.RegisterPrefab(GameObject)
-  nameWithType: NetworkClient.RegisterPrefab(GameObject)
-- uid: Mirror.NetworkClient.RegisterPrefab(GameObject,Mirror.SpawnDelegate,Mirror.UnSpawnDelegate)
-  name: RegisterPrefab(GameObject, SpawnDelegate, UnSpawnDelegate)
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_RegisterPrefab_GameObject_Mirror_SpawnDelegate_Mirror_UnSpawnDelegate_
-  commentId: M:Mirror.NetworkClient.RegisterPrefab(GameObject,Mirror.SpawnDelegate,Mirror.UnSpawnDelegate)
-  fullName: Mirror.NetworkClient.RegisterPrefab(GameObject, Mirror.SpawnDelegate, Mirror.UnSpawnDelegate)
-  nameWithType: NetworkClient.RegisterPrefab(GameObject, SpawnDelegate, UnSpawnDelegate)
-- uid: Mirror.NetworkClient.RegisterPrefab(GameObject,Mirror.SpawnHandlerDelegate,Mirror.UnSpawnDelegate)
-  name: RegisterPrefab(GameObject, SpawnHandlerDelegate, UnSpawnDelegate)
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_RegisterPrefab_GameObject_Mirror_SpawnHandlerDelegate_Mirror_UnSpawnDelegate_
-  commentId: M:Mirror.NetworkClient.RegisterPrefab(GameObject,Mirror.SpawnHandlerDelegate,Mirror.UnSpawnDelegate)
-  fullName: Mirror.NetworkClient.RegisterPrefab(GameObject, Mirror.SpawnHandlerDelegate, Mirror.UnSpawnDelegate)
-  nameWithType: NetworkClient.RegisterPrefab(GameObject, SpawnHandlerDelegate, UnSpawnDelegate)
-- uid: Mirror.NetworkClient.RegisterPrefab(GameObject,System.Guid)
-  name: RegisterPrefab(GameObject, System.Guid)
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_RegisterPrefab_GameObject_System_Guid_
-  commentId: M:Mirror.NetworkClient.RegisterPrefab(GameObject,System.Guid)
-  fullName: Mirror.NetworkClient.RegisterPrefab(GameObject, System.Guid)
-  nameWithType: NetworkClient.RegisterPrefab(GameObject, System.Guid)
-- uid: Mirror.NetworkClient.RegisterPrefab*
-  name: RegisterPrefab
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_RegisterPrefab_
-  commentId: Overload:Mirror.NetworkClient.RegisterPrefab
-  isSpec: "True"
-  fullName: Mirror.NetworkClient.RegisterPrefab
-  nameWithType: NetworkClient.RegisterPrefab
-- uid: Mirror.NetworkClient.RegisterSpawnHandler(System.Guid,Mirror.SpawnDelegate,Mirror.UnSpawnDelegate)
-  name: RegisterSpawnHandler(System.Guid, SpawnDelegate, UnSpawnDelegate)
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_RegisterSpawnHandler_System_Guid_Mirror_SpawnDelegate_Mirror_UnSpawnDelegate_
-  commentId: M:Mirror.NetworkClient.RegisterSpawnHandler(System.Guid,Mirror.SpawnDelegate,Mirror.UnSpawnDelegate)
-  fullName: Mirror.NetworkClient.RegisterSpawnHandler(System.Guid, Mirror.SpawnDelegate, Mirror.UnSpawnDelegate)
-  nameWithType: NetworkClient.RegisterSpawnHandler(System.Guid, SpawnDelegate, UnSpawnDelegate)
-- uid: Mirror.NetworkClient.RegisterSpawnHandler(System.Guid,Mirror.SpawnHandlerDelegate,Mirror.UnSpawnDelegate)
-  name: RegisterSpawnHandler(System.Guid, SpawnHandlerDelegate, UnSpawnDelegate)
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_RegisterSpawnHandler_System_Guid_Mirror_SpawnHandlerDelegate_Mirror_UnSpawnDelegate_
-  commentId: M:Mirror.NetworkClient.RegisterSpawnHandler(System.Guid,Mirror.SpawnHandlerDelegate,Mirror.UnSpawnDelegate)
-  fullName: Mirror.NetworkClient.RegisterSpawnHandler(System.Guid, Mirror.SpawnHandlerDelegate, Mirror.UnSpawnDelegate)
-  nameWithType: NetworkClient.RegisterSpawnHandler(System.Guid, SpawnHandlerDelegate, UnSpawnDelegate)
-- uid: Mirror.NetworkClient.RegisterSpawnHandler*
-  name: RegisterSpawnHandler
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_RegisterSpawnHandler_
-  commentId: Overload:Mirror.NetworkClient.RegisterSpawnHandler
-  isSpec: "True"
-  fullName: Mirror.NetworkClient.RegisterSpawnHandler
-  nameWithType: NetworkClient.RegisterSpawnHandler
 - uid: Mirror.NetworkClient.Send*
   name: Send
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Send_
@@ -5472,12 +5547,6 @@ references:
   fullName.vb: Mirror.NetworkClient.SendAsync(Of T)(T, System.Int32)
   nameWithType: NetworkClient.SendAsync<T>(T, Int32)
   nameWithType.vb: NetworkClient.SendAsync(Of T)(T, Int32)
-- uid: Mirror.NetworkClient.spawnableObjects
-  name: spawnableObjects
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_spawnableObjects
-  commentId: F:Mirror.NetworkClient.spawnableObjects
-  fullName: Mirror.NetworkClient.spawnableObjects
-  nameWithType: NetworkClient.spawnableObjects
 - uid: Mirror.NetworkClient.Spawned
   name: Spawned
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Spawned
@@ -5491,12 +5560,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkClient.Spawned
   nameWithType: NetworkClient.Spawned
-- uid: Mirror.NetworkClient.spawnPrefabs
-  name: spawnPrefabs
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_spawnPrefabs
-  commentId: F:Mirror.NetworkClient.spawnPrefabs
-  fullName: Mirror.NetworkClient.spawnPrefabs
-  nameWithType: NetworkClient.spawnPrefabs
 - uid: Mirror.NetworkClient.Time
   name: Time
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Time
@@ -5509,32 +5572,6 @@ references:
   commentId: F:Mirror.NetworkClient.Transport
   fullName: Mirror.NetworkClient.Transport
   nameWithType: NetworkClient.Transport
-- uid: Mirror.NetworkClient.UnregisterPrefab(GameObject)
-  name: UnregisterPrefab(GameObject)
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_UnregisterPrefab_GameObject_
-  commentId: M:Mirror.NetworkClient.UnregisterPrefab(GameObject)
-  fullName: Mirror.NetworkClient.UnregisterPrefab(GameObject)
-  nameWithType: NetworkClient.UnregisterPrefab(GameObject)
-- uid: Mirror.NetworkClient.UnregisterPrefab*
-  name: UnregisterPrefab
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_UnregisterPrefab_
-  commentId: Overload:Mirror.NetworkClient.UnregisterPrefab
-  isSpec: "True"
-  fullName: Mirror.NetworkClient.UnregisterPrefab
-  nameWithType: NetworkClient.UnregisterPrefab
-- uid: Mirror.NetworkClient.UnregisterSpawnHandler(System.Guid)
-  name: UnregisterSpawnHandler(System.Guid)
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_UnregisterSpawnHandler_System_Guid_
-  commentId: M:Mirror.NetworkClient.UnregisterSpawnHandler(System.Guid)
-  fullName: Mirror.NetworkClient.UnregisterSpawnHandler(System.Guid)
-  nameWithType: NetworkClient.UnregisterSpawnHandler(System.Guid)
-- uid: Mirror.NetworkClient.UnregisterSpawnHandler*
-  name: UnregisterSpawnHandler
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_UnregisterSpawnHandler_
-  commentId: Overload:Mirror.NetworkClient.UnregisterSpawnHandler
-  isSpec: "True"
-  fullName: Mirror.NetworkClient.UnregisterSpawnHandler
-  nameWithType: NetworkClient.UnregisterSpawnHandler
 - uid: Mirror.NetworkConnection
   name: NetworkConnection
   href: api/Mirror.NetworkConnection.html
@@ -9105,6 +9142,12 @@ references:
   isSpec: "True"
   fullName: Mirror.PlayerSpawner.GetStartPosition
   nameWithType: PlayerSpawner.GetStartPosition
+- uid: Mirror.PlayerSpawner.objectManager
+  name: objectManager
+  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_objectManager
+  commentId: F:Mirror.PlayerSpawner.objectManager
+  fullName: Mirror.PlayerSpawner.objectManager
+  nameWithType: PlayerSpawner.objectManager
 - uid: Mirror.PlayerSpawner.OnServerAddPlayer(Mirror.INetworkConnection)
   name: OnServerAddPlayer(INetworkConnection)
   href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_OnServerAddPlayer_Mirror_INetworkConnection_

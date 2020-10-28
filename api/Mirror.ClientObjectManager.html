@@ -83,25 +83,18 @@
   
   <h1 id="Mirror_ClientObjectManager" data-uid="Mirror.ClientObjectManager" class="text-break">Class ClientObjectManager
   </h1>
-  <div class="markdown level0 summary"><p>Provides Object Management to a NetworkServer and or NetworkClient.</p>
-<p>The <a class="xref" href="Mirror.NetworkClient.html">NetworkClient</a> loads objects as instructed by the <a class="xref" href="Mirror.NetworkServer.html">NetworkServer</a>.</p>
-<p>The <a class="xref" href="Mirror.NetworkServer.html">NetworkServer</a> controls the currently spawning, visibility and authority of network objects.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">ClientObjectManager</span></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="Mirror.IClientObjectManager.html">IClientObjectManager</a></div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.html">Mirror</a></h6>
   <h6><strong>Assembly</strong>: doc.dll</h6>
   <h5 id="Mirror_ClientObjectManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ClientObjectManager : MonoBehaviour, IClientObjectManager</code></pre>
+    <pre><code class="lang-csharp hljs">public class ClientObjectManager : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -125,6 +118,54 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Mirror.NetworkClient.html">NetworkClient</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Mirror_ClientObjectManager_networkSceneManager" data-uid="Mirror.ClientObjectManager.networkSceneManager">networkSceneManager</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NetworkSceneManager networkSceneManager</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkSceneManager.html">NetworkSceneManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Mirror_ClientObjectManager_server" data-uid="Mirror.ClientObjectManager.server">server</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NetworkServer server</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkServer.html">NetworkServer</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -181,60 +222,6 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="Mirror_ClientObjectManager_LocalPlayer_" data-uid="Mirror.ClientObjectManager.LocalPlayer*"></a>
-  <h4 id="Mirror_ClientObjectManager_LocalPlayer" data-uid="Mirror.ClientObjectManager.LocalPlayer">LocalPlayer</h4>
-  <div class="markdown level1 summary"><p>NetworkIdentity of the localPlayer</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NetworkIdentity LocalPlayer { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Mirror.NetworkIdentity.html">NetworkIdentity</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Mirror_ClientObjectManager_Spawned_" data-uid="Mirror.ClientObjectManager.Spawned*"></a>
-  <h4 id="Mirror_ClientObjectManager_Spawned" data-uid="Mirror.ClientObjectManager.Spawned">Spawned</h4>
-  <div class="markdown level1 summary"><p>List of all objects spawned in this client</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Dictionary&lt;uint, NetworkIdentity&gt; Spawned { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Dictionary</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a>, <a class="xref" href="Mirror.NetworkIdentity.html">NetworkIdentity</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -263,14 +250,14 @@
   
   
   <a id="Mirror_ClientObjectManager_GetPrefab_" data-uid="Mirror.ClientObjectManager.GetPrefab*"></a>
-  <h4 id="Mirror_ClientObjectManager_GetPrefab_System_Guid_GameObject__" data-uid="Mirror.ClientObjectManager.GetPrefab(System.Guid,GameObject@)">GetPrefab(System.Guid, out GameObject)</h4>
+  <h4 id="Mirror_ClientObjectManager_GetPrefab_Guid_" data-uid="Mirror.ClientObjectManager.GetPrefab(Guid)">GetPrefab(Guid)</h4>
   <div class="markdown level1 summary"><p>Find the registered prefab for this asset id.
 Useful for debuggers</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool GetPrefab(System.Guid assetId, out GameObject prefab)</code></pre>
+    <pre><code class="lang-csharp hljs">public GameObject GetPrefab(Guid assetId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -283,15 +270,9 @@ Useful for debuggers</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">System.Guid</a></td>
+        <td><span class="xref">Guid</span></td>
         <td><span class="parametername">assetId</span></td>
         <td><p>asset id of the prefab</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">prefab</span></td>
-        <td><p>the prefab gameobject</p>
 </td>
       </tr>
     </tbody>
@@ -306,7 +287,7 @@ Useful for debuggers</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">GameObject</span></td>
         <td><p>true if prefab was registered</p>
 </td>
       </tr>
@@ -351,6 +332,44 @@ Useful for debuggers</p>
         <td><span class="xref">GameObject</span></td>
         <td><span class="parametername">prefab</span></td>
         <td><p>A Prefab that will be spawned.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mirror_ClientObjectManager_RegisterPrefab_" data-uid="Mirror.ClientObjectManager.RegisterPrefab*"></a>
+  <h4 id="Mirror_ClientObjectManager_RegisterPrefab_GameObject_Guid_" data-uid="Mirror.ClientObjectManager.RegisterPrefab(GameObject,Guid)">RegisterPrefab(GameObject, Guid)</h4>
+  <div class="markdown level1 summary"><p>Registers a prefab with the spawning system.</p>
+<p>When a NetworkIdentity object is spawned on a server with NetworkServer.SpawnObject(), and the prefab that the object was created from was registered with RegisterPrefab(), the client will use that prefab to instantiate a corresponding client object with the same netId.</p>
+<p>The NetworkManager has a list of spawnable prefabs, it uses this function to register those prefabs with the ClientScene.</p>
+<p>The set of current spawnable object is available in the ClientScene static member variable ClientScene.prefabs, which is a dictionary of NetworkAssetIds and prefab references.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterPrefab(GameObject prefab, Guid newAssetId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">prefab</span></td>
+        <td><p>A Prefab that will be spawned.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Guid</span></td>
+        <td><span class="parametername">newAssetId</span></td>
+        <td><p>An assetId to be assigned to this prefab. This allows a dynamically created game object to be registered for an already known asset Id.</p>
 </td>
       </tr>
     </tbody>
@@ -445,53 +464,15 @@ Useful for debuggers</p>
   </table>
   
   
-  <a id="Mirror_ClientObjectManager_RegisterPrefab_" data-uid="Mirror.ClientObjectManager.RegisterPrefab*"></a>
-  <h4 id="Mirror_ClientObjectManager_RegisterPrefab_GameObject_System_Guid_" data-uid="Mirror.ClientObjectManager.RegisterPrefab(GameObject,System.Guid)">RegisterPrefab(GameObject, System.Guid)</h4>
-  <div class="markdown level1 summary"><p>Registers a prefab with the spawning system.</p>
-<p>When a NetworkIdentity object is spawned on a server with NetworkServer.SpawnObject(), and the prefab that the object was created from was registered with RegisterPrefab(), the client will use that prefab to instantiate a corresponding client object with the same netId.</p>
-<p>The NetworkManager has a list of spawnable prefabs, it uses this function to register those prefabs with the ClientScene.</p>
-<p>The set of current spawnable object is available in the ClientScene static member variable ClientScene.prefabs, which is a dictionary of NetworkAssetIds and prefab references.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RegisterPrefab(GameObject prefab, System.Guid newAssetId)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">prefab</span></td>
-        <td><p>A Prefab that will be spawned.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">System.Guid</a></td>
-        <td><span class="parametername">newAssetId</span></td>
-        <td><p>An assetId to be assigned to this prefab. This allows a dynamically created game object to be registered for an already known asset Id.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Mirror_ClientObjectManager_RegisterSpawnHandler_" data-uid="Mirror.ClientObjectManager.RegisterSpawnHandler*"></a>
-  <h4 id="Mirror_ClientObjectManager_RegisterSpawnHandler_System_Guid_Mirror_SpawnDelegate_Mirror_UnSpawnDelegate_" data-uid="Mirror.ClientObjectManager.RegisterSpawnHandler(System.Guid,Mirror.SpawnDelegate,Mirror.UnSpawnDelegate)">RegisterSpawnHandler(System.Guid, SpawnDelegate, UnSpawnDelegate)</h4>
+  <h4 id="Mirror_ClientObjectManager_RegisterSpawnHandler_Guid_Mirror_SpawnDelegate_Mirror_UnSpawnDelegate_" data-uid="Mirror.ClientObjectManager.RegisterSpawnHandler(Guid,Mirror.SpawnDelegate,Mirror.UnSpawnDelegate)">RegisterSpawnHandler(Guid, SpawnDelegate, UnSpawnDelegate)</h4>
   <div class="markdown level1 summary"><p>This is an advanced spawning function that registers a custom assetId with the UNET spawning system.</p>
 <p>This can be used to register custom spawning methods for an assetId - instead of the usual method of registering spawning methods for a prefab. This should be used when no prefab exists for the spawned objects - such as when they are constructed dynamically at runtime from configuration data.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RegisterSpawnHandler(System.Guid assetId, SpawnDelegate spawnHandler, UnSpawnDelegate unspawnHandler)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RegisterSpawnHandler(Guid assetId, SpawnDelegate spawnHandler, UnSpawnDelegate unspawnHandler)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -504,7 +485,7 @@ Useful for debuggers</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">System.Guid</a></td>
+        <td><span class="xref">Guid</span></td>
         <td><span class="parametername">assetId</span></td>
         <td><p>Custom assetId string.</p>
 </td>
@@ -526,14 +507,14 @@ Useful for debuggers</p>
   
   
   <a id="Mirror_ClientObjectManager_RegisterSpawnHandler_" data-uid="Mirror.ClientObjectManager.RegisterSpawnHandler*"></a>
-  <h4 id="Mirror_ClientObjectManager_RegisterSpawnHandler_System_Guid_Mirror_SpawnHandlerDelegate_Mirror_UnSpawnDelegate_" data-uid="Mirror.ClientObjectManager.RegisterSpawnHandler(System.Guid,Mirror.SpawnHandlerDelegate,Mirror.UnSpawnDelegate)">RegisterSpawnHandler(System.Guid, SpawnHandlerDelegate, UnSpawnDelegate)</h4>
+  <h4 id="Mirror_ClientObjectManager_RegisterSpawnHandler_Guid_Mirror_SpawnHandlerDelegate_Mirror_UnSpawnDelegate_" data-uid="Mirror.ClientObjectManager.RegisterSpawnHandler(Guid,Mirror.SpawnHandlerDelegate,Mirror.UnSpawnDelegate)">RegisterSpawnHandler(Guid, SpawnHandlerDelegate, UnSpawnDelegate)</h4>
   <div class="markdown level1 summary"><p>This is an advanced spawning function that registers a custom assetId with the UNET spawning system.</p>
 <p>This can be used to register custom spawning methods for an assetId - instead of the usual method of registering spawning methods for a prefab. This should be used when no prefab exists for the spawned objects - such as when they are constructed dynamically at runtime from configuration data.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RegisterSpawnHandler(System.Guid assetId, SpawnHandlerDelegate spawnHandler, UnSpawnDelegate unspawnHandler)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RegisterSpawnHandler(Guid assetId, SpawnHandlerDelegate spawnHandler, UnSpawnDelegate unspawnHandler)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -546,7 +527,7 @@ Useful for debuggers</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">System.Guid</a></td>
+        <td><span class="xref">Guid</span></td>
         <td><span class="parametername">assetId</span></td>
         <td><p>Custom assetId string.</p>
 </td>
@@ -607,13 +588,13 @@ Useful for debuggers</p>
   
   
   <a id="Mirror_ClientObjectManager_UnregisterSpawnHandler_" data-uid="Mirror.ClientObjectManager.UnregisterSpawnHandler*"></a>
-  <h4 id="Mirror_ClientObjectManager_UnregisterSpawnHandler_System_Guid_" data-uid="Mirror.ClientObjectManager.UnregisterSpawnHandler(System.Guid)">UnregisterSpawnHandler(System.Guid)</h4>
+  <h4 id="Mirror_ClientObjectManager_UnregisterSpawnHandler_Guid_" data-uid="Mirror.ClientObjectManager.UnregisterSpawnHandler(Guid)">UnregisterSpawnHandler(Guid)</h4>
   <div class="markdown level1 summary"><p>Removes a registered spawn handler function that was registered with ClientScene.RegisterHandler().</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UnregisterSpawnHandler(System.Guid assetId)</code></pre>
+    <pre><code class="lang-csharp hljs">public void UnregisterSpawnHandler(Guid assetId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -626,17 +607,13 @@ Useful for debuggers</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">System.Guid</a></td>
+        <td><span class="xref">Guid</span></td>
         <td><span class="parametername">assetId</span></td>
         <td><p>The assetId for the handler to be removed for.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Mirror.IClientObjectManager.html">IClientObjectManager</a>
-  </div>
 </article>
           </div>
           

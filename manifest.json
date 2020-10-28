@@ -2380,6 +2380,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Mirror.ClientObjectManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mirror.ClientObjectManager.html",
+          "hash": "eAEZ1KfEYpvpQjfrDIvDyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Mirror.ClientRpcAttribute.yml",
       "output": {
         ".html": {
@@ -3464,7 +3476,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.NetworkClient.html",
-          "hash": "AOV4lhSnCFJk112r2332/w=="
+          "hash": "AqPDGlFYWhbXM1lLSGRwLQ=="
         }
       },
       "is_incremental": false,
@@ -3896,7 +3908,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.PlayerSpawner.html",
-          "hash": "KzQqhcNPlDguHRigxyBpKQ=="
+          "hash": "SvaeQsESIQ3c3UEZuC1T8A=="
         }
       },
       "is_incremental": false,
@@ -4328,7 +4340,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirror.html",
-          "hash": "UYL8qIXMhjSk3yHWkAu8Zg=="
+          "hash": "EoiaLu1y53Eu33369UDeDQ=="
         }
       },
       "is_incremental": false,
@@ -4352,7 +4364,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "KcccAziE0UV9hdZNBU8rFA=="
+          "hash": "3+PyhQfLEcgKB5GPvS/7ag=="
         }
       },
       "is_incremental": false,
@@ -4416,16 +4428,16 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 168,
+          "skipped_file_count": 0
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 86,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 167,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
