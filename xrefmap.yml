@@ -187,12 +187,6 @@ references:
   isSpec: "True"
   fullName: Mirror.ClientObjectManager.RegisterSpawnHandler
   nameWithType: ClientObjectManager.RegisterSpawnHandler
-- uid: Mirror.ClientObjectManager.server
-  name: server
-  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_server
-  commentId: F:Mirror.ClientObjectManager.server
-  fullName: Mirror.ClientObjectManager.server
-  nameWithType: ClientObjectManager.server
 - uid: Mirror.ClientObjectManager.spawnableObjects
   name: spawnableObjects
   href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_spawnableObjects
