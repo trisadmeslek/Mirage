@@ -80,74 +80,7 @@
 <h1 id="network-manager-callbacks">Network Manager Callbacks</h1>
 
 <p><strong>See also <a class="xref" href="../../../api/Mirror.NetworkManager.html">NetworkManager</a> in the API Reference.</strong></p>
-<p>There are a number of events that can occur over the course of the normal operation of a multiplayer game, such as the host starting up, a player joining, or a player leaving. Each of these possible events has an associated callback that you can implement in your own code to take action when the event occurs.</p>
-<p>To do this for the <code>NetworkManager</code>, you need to create your own script which inherits from <code>NetworkManager</code>. You can then override the virtual methods on <code>NetworkManager</code> with your own implementation of what should happen when the given event occurs.</p>
-<p>This page lists all the virtual methods (the callbacks) that you can implement on the <code>NetworkManager</code>, and when they occur. The callbacks that occur, and the order they occur, vary slightly depending on which mode your game is running in, so each mode’s callbacks are listed separately below.</p>
-<p>A game can be running in one of three modes, host, client, or server-only. The callbacks for each mode are listed below:</p>
-<h2 id="host-mode">Host Mode:</h2>
-<p>When the host is started:</p>
-<ul>
-<li><code>OnStartServer</code></li>
-<li><code>OnStartHost</code></li>
-<li><code>OnServerConnect</code></li>
-<li><code>OnStartClient</code></li>
-<li><code>OnClientConnect</code></li>
-<li><code>OnServerSceneChanged</code></li>
-<li><code>OnServerReady</code></li>
-<li><code>OnServerAddPlayer</code></li>
-<li><code>OnClientChangeScene</code></li>
-<li><code>OnClientSceneChanged</code></li>
-</ul>
-<p>When a client connects:</p>
-<ul>
-<li><code>OnServerConnect</code></li>
-<li><code>OnServerReady</code></li>
-<li><code>OnServerAddPlayer</code></li>
-</ul>
-<p>When a client disconnects:</p>
-<ul>
-<li><code>OnServerDisconnect</code></li>
-</ul>
-<p>When the host is stopped:</p>
-<ul>
-<li><code>OnStopHost</code></li>
-<li><code>OnServerDisconnect</code></li>
-<li><code>OnStopClient</code></li>
-<li><code>OnStopServer</code></li>
-</ul>
-<h2 id="client-mode">Client Mode</h2>
-<p>When the client starts:</p>
-<ul>
-<li><code>OnStartClient</code></li>
-<li><code>OnClientConnect</code></li>
-<li><code>OnClientChangeScene</code></li>
-<li><code>OnClientSceneChanged</code></li>
-</ul>
-<p>When the client stops:</p>
-<ul>
-<li><code>OnStopClient</code></li>
-<li><code>OnClientDisconnect</code></li>
-</ul>
-<h2 id="server-mode">Server Mode</h2>
-<p>When the server starts:</p>
-<ul>
-<li><code>OnStartServer</code></li>
-<li><code>OnServerSceneChanged</code></li>
-</ul>
-<p>When a client connects:</p>
-<ul>
-<li><code>OnServerConnect</code></li>
-<li><code>OnServerReady</code></li>
-<li><code>OnServerAddPlayer</code></li>
-</ul>
-<p>When a client disconnects:</p>
-<ul>
-<li><code>OnServerDisconnect</code></li>
-</ul>
-<p>When the server stops:</p>
-<ul>
-<li><code>OnStopServer</code></li>
-</ul>
+<p>NetworkManager is a helper class with instance references to the other major parts of the MirrorNG network.</p>
 </article>
           </div>
           
