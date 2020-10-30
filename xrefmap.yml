@@ -5238,6 +5238,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.Server
   nameWithType: NetworkBehaviour.Server
+- uid: Mirror.NetworkBehaviour.ServerObjectManager
+  name: ServerObjectManager
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_ServerObjectManager
+  commentId: P:Mirror.NetworkBehaviour.ServerObjectManager
+  fullName: Mirror.NetworkBehaviour.ServerObjectManager
+  nameWithType: NetworkBehaviour.ServerObjectManager
+- uid: Mirror.NetworkBehaviour.ServerObjectManager*
+  name: ServerObjectManager
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_ServerObjectManager_
+  commentId: Overload:Mirror.NetworkBehaviour.ServerObjectManager
+  isSpec: "True"
+  fullName: Mirror.NetworkBehaviour.ServerObjectManager
+  nameWithType: NetworkBehaviour.ServerObjectManager
 - uid: Mirror.NetworkBehaviour.SetDirtyBit(System.UInt64)
   name: SetDirtyBit(UInt64)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SetDirtyBit_System_UInt64_
