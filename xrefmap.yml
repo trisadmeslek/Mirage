@@ -4974,32 +4974,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.InitSyncObject
   nameWithType: NetworkBehaviour.InitSyncObject
-- uid: Mirror.NetworkBehaviour.InvokeRpc(System.Int32,Mirror.NetworkReader)
-  name: InvokeRpc(Int32, NetworkReader)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InvokeRpc_System_Int32_Mirror_NetworkReader_
-  commentId: M:Mirror.NetworkBehaviour.InvokeRpc(System.Int32,Mirror.NetworkReader)
-  fullName: Mirror.NetworkBehaviour.InvokeRpc(System.Int32, Mirror.NetworkReader)
-  nameWithType: NetworkBehaviour.InvokeRpc(Int32, NetworkReader)
-- uid: Mirror.NetworkBehaviour.InvokeRpc*
-  name: InvokeRpc
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InvokeRpc_
-  commentId: Overload:Mirror.NetworkBehaviour.InvokeRpc
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.InvokeRpc
-  nameWithType: NetworkBehaviour.InvokeRpc
-- uid: Mirror.NetworkBehaviour.InvokeServerRpc(System.Int32,Mirror.NetworkReader)
-  name: InvokeServerRpc(Int32, NetworkReader)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InvokeServerRpc_System_Int32_Mirror_NetworkReader_
-  commentId: M:Mirror.NetworkBehaviour.InvokeServerRpc(System.Int32,Mirror.NetworkReader)
-  fullName: Mirror.NetworkBehaviour.InvokeServerRpc(System.Int32, Mirror.NetworkReader)
-  nameWithType: NetworkBehaviour.InvokeServerRpc(Int32, NetworkReader)
-- uid: Mirror.NetworkBehaviour.InvokeServerRpc*
-  name: InvokeServerRpc
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InvokeServerRpc_
-  commentId: Overload:Mirror.NetworkBehaviour.InvokeServerRpc
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.InvokeServerRpc
-  nameWithType: NetworkBehaviour.InvokeServerRpc
 - uid: Mirror.NetworkBehaviour.IsClient
   name: IsClient
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_IsClient
