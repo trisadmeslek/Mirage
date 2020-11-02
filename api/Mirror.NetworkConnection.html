@@ -626,6 +626,53 @@ associated with the connection for reference after Authentication completes.</p>
   
   
   <a id="Mirror_NetworkConnection_SendAsync_" data-uid="Mirror.NetworkConnection.SendAsync*"></a>
+  <h4 id="Mirror_NetworkConnection_SendAsync_ArraySegment_System_Byte__System_Int32_" data-uid="Mirror.NetworkConnection.SendAsync(ArraySegment{System.Byte},System.Int32)">SendAsync(ArraySegment&lt;Byte&gt;, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UniTask SendAsync(ArraySegment&lt;byte&gt; segment, int channelId = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ArraySegment</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>&gt;</td>
+        <td><span class="parametername">segment</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">channelId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UniTask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mirror_NetworkConnection_SendAsync_" data-uid="Mirror.NetworkConnection.SendAsync*"></a>
   <h4 id="Mirror_NetworkConnection_SendAsync__1___0_System_Int32_" data-uid="Mirror.NetworkConnection.SendAsync``1(``0,System.Int32)">SendAsync&lt;T&gt;(T, Int32)</h4>
   <div class="markdown level1 summary"><p>This sends a network message to the connection. You can await it to check for errors</p>
 </div>

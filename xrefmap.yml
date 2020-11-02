@@ -2605,6 +2605,15 @@ references:
   fullName.vb: Mirror.IMessageHandler.Send(Of T)(T, System.Int32)
   nameWithType: IMessageHandler.Send<T>(T, Int32)
   nameWithType.vb: IMessageHandler.Send(Of T)(T, Int32)
+- uid: Mirror.IMessageHandler.SendAsync(ArraySegment{System.Byte},System.Int32)
+  name: SendAsync(ArraySegment<Byte>, Int32)
+  href: api/Mirror.IMessageHandler.html#Mirror_IMessageHandler_SendAsync_ArraySegment_System_Byte__System_Int32_
+  commentId: M:Mirror.IMessageHandler.SendAsync(ArraySegment{System.Byte},System.Int32)
+  name.vb: SendAsync(ArraySegment(Of Byte), Int32)
+  fullName: Mirror.IMessageHandler.SendAsync(ArraySegment<System.Byte>, System.Int32)
+  fullName.vb: Mirror.IMessageHandler.SendAsync(ArraySegment(Of System.Byte), System.Int32)
+  nameWithType: IMessageHandler.SendAsync(ArraySegment<Byte>, Int32)
+  nameWithType.vb: IMessageHandler.SendAsync(ArraySegment(Of Byte), Int32)
 - uid: Mirror.IMessageHandler.SendAsync*
   name: SendAsync
   href: api/Mirror.IMessageHandler.html#Mirror_IMessageHandler_SendAsync_
@@ -5817,6 +5826,15 @@ references:
   fullName.vb: Mirror.NetworkConnection.Send(Of T)(IEnumerable(Of Mirror.INetworkConnection), T, System.Int32)
   nameWithType: NetworkConnection.Send<T>(IEnumerable<INetworkConnection>, T, Int32)
   nameWithType.vb: NetworkConnection.Send(Of T)(IEnumerable(Of INetworkConnection), T, Int32)
+- uid: Mirror.NetworkConnection.SendAsync(ArraySegment{System.Byte},System.Int32)
+  name: SendAsync(ArraySegment<Byte>, Int32)
+  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_SendAsync_ArraySegment_System_Byte__System_Int32_
+  commentId: M:Mirror.NetworkConnection.SendAsync(ArraySegment{System.Byte},System.Int32)
+  name.vb: SendAsync(ArraySegment(Of Byte), Int32)
+  fullName: Mirror.NetworkConnection.SendAsync(ArraySegment<System.Byte>, System.Int32)
+  fullName.vb: Mirror.NetworkConnection.SendAsync(ArraySegment(Of System.Byte), System.Int32)
+  nameWithType: NetworkConnection.SendAsync(ArraySegment<Byte>, Int32)
+  nameWithType.vb: NetworkConnection.SendAsync(ArraySegment(Of Byte), Int32)
 - uid: Mirror.NetworkConnection.SendAsync*
   name: SendAsync
   href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_SendAsync_
