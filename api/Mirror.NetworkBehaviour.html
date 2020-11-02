@@ -802,7 +802,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual bool InvokeRpc(int rpcHash, NetworkReader reader)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void InvokeRpc(int rpcHash, NetworkReader reader)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -828,22 +828,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><p>Returns true if successful.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="Mirror_NetworkBehaviour_InvokeServerRpc_" data-uid="Mirror.NetworkBehaviour.InvokeServerRpc*"></a>
@@ -853,7 +837,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual bool InvokeServerRpc(int cmdHash, NetworkReader reader)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void InvokeServerRpc(int cmdHash, NetworkReader reader)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -875,22 +859,6 @@
         <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
         <td><span class="parametername">reader</span></td>
         <td><p>Parameters to pass to the ServerRpc.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><p>Returns true if successful.</p>
 </td>
       </tr>
     </tbody>
