@@ -9271,6 +9271,12 @@ references:
   commentId: T:Mirror.SceneMessage
   fullName: Mirror.SceneMessage
   nameWithType: SceneMessage
+- uid: Mirror.SceneMessage.additiveScenes
+  name: additiveScenes
+  href: api/Mirror.SceneMessage.html#Mirror_SceneMessage_additiveScenes
+  commentId: F:Mirror.SceneMessage.additiveScenes
+  fullName: Mirror.SceneMessage.additiveScenes
+  nameWithType: SceneMessage.additiveScenes
 - uid: Mirror.SceneMessage.sceneOperation
   name: sceneOperation
   href: api/Mirror.SceneMessage.html#Mirror_SceneMessage_sceneOperation
