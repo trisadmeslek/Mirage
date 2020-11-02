@@ -9209,18 +9209,6 @@ references:
   isSpec: "True"
   fullName: Mirror.RemoteCalls.RemoteCallHelper.RegisterServerRpcDelegate
   nameWithType: RemoteCallHelper.RegisterServerRpcDelegate
-- uid: Mirror.RemoteCalls.ServerRpcInfo
-  name: ServerRpcInfo
-  href: api/Mirror.RemoteCalls.ServerRpcInfo.html
-  commentId: T:Mirror.RemoteCalls.ServerRpcInfo
-  fullName: Mirror.RemoteCalls.ServerRpcInfo
-  nameWithType: ServerRpcInfo
-- uid: Mirror.RemoteCalls.ServerRpcInfo.requireAuthority
-  name: requireAuthority
-  href: api/Mirror.RemoteCalls.ServerRpcInfo.html#Mirror_RemoteCalls_ServerRpcInfo_requireAuthority
-  commentId: F:Mirror.RemoteCalls.ServerRpcInfo.requireAuthority
-  fullName: Mirror.RemoteCalls.ServerRpcInfo.requireAuthority
-  nameWithType: ServerRpcInfo.requireAuthority
 - uid: Mirror.RpcMessage
   name: RpcMessage
   href: api/Mirror.RpcMessage.html

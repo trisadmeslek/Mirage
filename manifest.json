@@ -3988,23 +3988,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Mirror.RemoteCalls.ServerRpcInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Mirror.RemoteCalls.ServerRpcInfo.html",
-          "hash": "WmHXn6R9NJJO0pDXSaMW5Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Mirror.RemoteCalls.yml",
       "output": {
         ".html": {
           "relative_path": "api/Mirror.RemoteCalls.html",
-          "hash": "YrWBUX6KZPWI5C+5JhDsMw=="
+          "hash": "S+VLnW/UcIgyS+iOmN1Q4g=="
         }
       },
       "is_incremental": false,
@@ -4376,7 +4364,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "f6MjR8Q/8E9duIixD77U5Q=="
+          "hash": "SWgw2llc5aYpWrA5yC0e8g=="
         }
       },
       "is_incremental": false,
@@ -4447,13 +4435,6 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
@@ -4463,7 +4444,14 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 169,
+          "total_file_count": 168,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
