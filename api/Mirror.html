@@ -140,7 +140,6 @@
       <section><p>This is a network client class used by the networking system. It contains a NetworkConnection that is used to connect to a network server.</p>
 <p>The <a class="xref" href="Mirror.NetworkClient.html">NetworkClient</a> handle connection state, messages handlers, and connection configuration. There can be many <a class="xref" href="Mirror.NetworkClient.html">NetworkClient</a> instances in a process at a time, but only one that is connected to a game server (<a class="xref" href="Mirror.NetworkServer.html">NetworkServer</a>) that uses spawned objects.</p>
 <p><a class="xref" href="Mirror.NetworkClient.html">NetworkClient</a> has an internal update function where it handles events from the transport layer. This includes asynchronous connect events, disconnect events and incoming data from a server.</p>
-<p>The <a class="xref" href="Mirror.NetworkManager.html">NetworkManager</a> has a NetworkClient instance that it uses for games that it starts, but the NetworkClient may be used by itself.</p>
 </section>
       <h4><a class="xref" href="Mirror.NetworkConnection.html">NetworkConnection</a></h4>
       <section><p>A High level network connection. This is used for connections from client-to-server and for connection from server-to-client.</p>

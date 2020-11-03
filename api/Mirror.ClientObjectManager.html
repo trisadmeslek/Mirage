@@ -286,7 +286,7 @@ Useful for debuggers</p>
   <h4 id="Mirror_ClientObjectManager_RegisterPrefab_GameObject_" data-uid="Mirror.ClientObjectManager.RegisterPrefab(GameObject)">RegisterPrefab(GameObject)</h4>
   <div class="markdown level1 summary"><p>Registers a prefab with the spawning system.</p>
 <p>When a NetworkIdentity object is spawned on a server with NetworkServer.SpawnObject(), and the prefab that the object was created from was registered with RegisterPrefab(), the client will use that prefab to instantiate a corresponding client object with the same netId.</p>
-<p>The NetworkManager has a list of spawnable prefabs, it uses this function to register those prefabs with the ClientScene.</p>
+<p>The ClientObjectManager has a list of spawnable prefabs, it uses this function to register those prefabs with the ClientScene.</p>
 <p>The set of current spawnable object is available in the ClientScene static member variable ClientScene.prefabs, which is a dictionary of NetworkAssetIds and prefab references.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -318,7 +318,7 @@ Useful for debuggers</p>
   <h4 id="Mirror_ClientObjectManager_RegisterPrefab_GameObject_Guid_" data-uid="Mirror.ClientObjectManager.RegisterPrefab(GameObject,Guid)">RegisterPrefab(GameObject, Guid)</h4>
   <div class="markdown level1 summary"><p>Registers a prefab with the spawning system.</p>
 <p>When a NetworkIdentity object is spawned on a server with NetworkServer.SpawnObject(), and the prefab that the object was created from was registered with RegisterPrefab(), the client will use that prefab to instantiate a corresponding client object with the same netId.</p>
-<p>The NetworkManager has a list of spawnable prefabs, it uses this function to register those prefabs with the ClientScene.</p>
+<p>The ClientObjectManager has a list of spawnable prefabs, it uses this function to register those prefabs with the ClientScene.</p>
 <p>The set of current spawnable object is available in the ClientScene static member variable ClientScene.prefabs, which is a dictionary of NetworkAssetIds and prefab references.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -356,7 +356,7 @@ Useful for debuggers</p>
   <h4 id="Mirror_ClientObjectManager_RegisterPrefab_GameObject_Mirror_SpawnDelegate_Mirror_UnSpawnDelegate_" data-uid="Mirror.ClientObjectManager.RegisterPrefab(GameObject,Mirror.SpawnDelegate,Mirror.UnSpawnDelegate)">RegisterPrefab(GameObject, SpawnDelegate, UnSpawnDelegate)</h4>
   <div class="markdown level1 summary"><p>Registers a prefab with the spawning system.</p>
 <p>When a NetworkIdentity object is spawned on a server with NetworkServer.SpawnObject(), and the prefab that the object was created from was registered with RegisterPrefab(), the client will use that prefab to instantiate a corresponding client object with the same netId.</p>
-<p>The NetworkManager has a list of spawnable prefabs, it uses this function to register those prefabs with the ClientScene.</p>
+<p>The ClientObjectManager has a list of spawnable prefabs, it uses this function to register those prefabs with the ClientScene.</p>
 <p>The set of current spawnable object is available in the ClientScene static member variable ClientScene.prefabs, which is a dictionary of NetworkAssetIds and prefab references.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -400,7 +400,7 @@ Useful for debuggers</p>
   <h4 id="Mirror_ClientObjectManager_RegisterPrefab_GameObject_Mirror_SpawnHandlerDelegate_Mirror_UnSpawnDelegate_" data-uid="Mirror.ClientObjectManager.RegisterPrefab(GameObject,Mirror.SpawnHandlerDelegate,Mirror.UnSpawnDelegate)">RegisterPrefab(GameObject, SpawnHandlerDelegate, UnSpawnDelegate)</h4>
   <div class="markdown level1 summary"><p>Registers a prefab with the spawning system.</p>
 <p>When a NetworkIdentity object is spawned on a server with NetworkServer.SpawnObject(), and the prefab that the object was created from was registered with RegisterPrefab(), the client will use that prefab to instantiate a corresponding client object with the same netId.</p>
-<p>The NetworkManager has a list of spawnable prefabs, it uses this function to register those prefabs with the ClientScene.</p>
+<p>The ClientObjectManager has a list of spawnable prefabs, it uses this function to register those prefabs with the ClientScene.</p>
 <p>The set of current spawnable object is available in the ClientScene static member variable ClientScene.prefabs, which is a dictionary of NetworkAssetIds and prefab references.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
