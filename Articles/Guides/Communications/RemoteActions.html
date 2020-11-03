@@ -84,8 +84,8 @@
 <p><img src="UNetDirections.jpg" alt="Data Flow Graph"></p>
 <h2 id="server-rpc-calls">Server RPC Calls</h2>
 <p>Server RPC Calls are sent from player objects on the client to player objects on the server. For security, Server RPC Calls can only be sent from YOUR player object by default, so you cannot control the objects of other players.  You can bypass the authority check using <code>[ServerRpc(requireAuthority = false)]</code>.</p>
-<p>To make a function into a Server RPC Calls, add the [ServerRpc] custom attribute to it, and add the “Cmd” prefix. This function will now be run on the server when it is called on the client. Any parameters of <a href="../DataTypes.html">allowed data type</a> will be automatically passed to the server with the Server RPC Call.</p>
-<p>Server RPC Calls functions must have the prefix “Cmd” and cannot be static. This is a hint when reading code that calls the ServerRpc - this function is special and is not invoked locally like a normal function.</p>
+<p>To make a function into a Server RPC Calls, add the [ServerRpc] custom attribute to it. This function will now be run on the server when it is called on the client. Any parameters of <a href="../DataTypes.html">allowed data type</a> will be automatically passed to the server with the Server RPC Call.</p>
+<p>Server RPC Calls functions cannot be static.</p>
 <pre><code class="lang-cs">public class Player : NetworkBehaviour
 {
     void Update()
@@ -93,14 +93,14 @@
         if (!isLocalPlayer) return;
 
         if (Input.GetKey(KeyCode.X))
-            CmdDropCube();
+            DropCube();
     }
 
     // assigned in inspector
     public GameObject cubePrefab;
 
     [ServerRpc]
-    void CmdDropCube()
+    void DropCube()
     {
         if (cubePrefab != null)
         {
@@ -113,6 +113,34 @@
 }
 </code></pre>
 <p>Be careful of sending ServerRpcs from the client every frame! This can cause a lot of network traffic.</p>
+<h3 id="returning-values">Returning values</h3>
+<p>ServerRpcs can return values.  It can take a long time for the server to reply, so they must return a UniTask which the client can await.
+To return a value,  add a return value using <code>UniTask&lt;MyReturnType&gt;</code> where <code>MyReturnType</code> is any <a href="../DataTypes.html">supported MirrorNG type</a>.  In the server you can make your method async,  or you can use <code>UniTask.FromResult(myresult);</code>.  For example:</p>
+<pre><code class="lang-cs">public class Shop: NetworkBehavior {
+
+    [ServerRpc]
+    public UniTask&lt;int&gt; GetPrice(string item) 
+    {
+        switch (item) 
+        {
+             case &quot;turnip&quot;:
+                 return UniTask.FromResult(10);
+             case &quot;apple&quot;:
+                return UniTask.FromResult(3);
+             default:
+                return UniTask.FromResult(int.MaxValue);
+        }
+    }
+
+    [Client]
+    public async UniTaskVoid DisplayTurnipPrice() 
+    {
+        // call the RPC and wait for the response without blocking the main thread
+        int price = await GetPrice(&quot;turnip&quot;);
+        Debug.Log($&quot;Turnips price {price}&quot;);
+    }
+}
+</code></pre>
 <h3 id="serverrpc-and-authority">ServerRpc and Authority</h3>
 <p>It is possible to invoke ServerRpcs on non-player objects if any of the following are true:</p>
 <ul>
@@ -145,8 +173,8 @@ public class Door : NetworkBehaviour
 }
 </code></pre>
 <h2 id="clientrpc-calls">ClientRpc Calls</h2>
-<p>ClientRpc calls are sent from objects on the server to objects on clients. They can be sent from any server object with a NetworkIdentity that has been spawned. Since the server has authority, then there no security issues with server objects being able to send these calls. To make a function into a ClientRpc call, add the [ClientRpc] custom attribute to it, and add the “Rpc” prefix. This function will now be run on clients when it is called on the server. Any parameters of <a href="../DataTypes.html">allowed data type</a> will automatically be passed to the clients with the ClientRpc call..</p>
-<p>ClientRpc functions must have the prefix “Rpc” and cannot be static. This is a hint when reading code that calls the method - this function is special and is not invoked locally like a normal function.</p>
+<p>ClientRpc calls are sent from objects on the server to objects on clients. They can be sent from any server object with a NetworkIdentity that has been spawned. Since the server has authority, then there no security issues with server objects being able to send these calls. To make a function into a ClientRpc call, add the [ClientRpc] custom attribute to it. This function will now be run on clients when it is called on the server. Any parameters of <a href="../DataTypes.html">allowed data type</a> will automatically be passed to the clients with the ClientRpc call..</p>
+<p>ClientRpc functions cannot be static.  They must return <code>void</code></p>
 <p>ClientRpc messages are only sent to observers of an object according to its <a href="../Visibility.html">Network Visibility</a>. Player objects are always obeservers of themselves. In some cases, you may want to exclude the owner client when calling a ClientRpc.  This is done with the <code>excludeOwner</code> option: <code>[ClientRpc(excludeOwner = true)]</code>.</p>
 <pre><code class="lang-cs">public class Player : NetworkBehaviour
 {
@@ -157,11 +185,11 @@ public class Door : NetworkBehaviour
         if (!isServer) return;
 
         health -= amount;
-        RpcDamage(amount);
+        Damage(amount);
     }
 
     [ClientRpc]
-    void RpcDamage(int amount)
+    void Damage(int amount)
     {
         Debug.Log(&quot;Took damage:&quot; + amount);
     }
@@ -174,31 +202,31 @@ public class Door : NetworkBehaviour
 {
     int health;
 
-    [ClientRpc]
-    void CmdMagic(GameObject target, int damage)
+    [Server]
+    void Magic(GameObject target, int damage)
     {
         target.GetComponent&lt;Player&gt;().health -= damage;
 
         NetworkIdentity opponentIdentity = target.GetComponent&lt;NetworkIdentity&gt;();
-        TargetDoMagic(opponentIdentity.connectionToClient, damage);
+        DoMagic(opponentIdentity.connectionToClient, damage);
     }
 
     [ClientRpc(target = Client.Connection)]
-    public void TargetDoMagic(NetworkConnection target, int damage)
+    public void DoMagic(NetworkConnection target, int damage)
     {
         // This will appear on the opponent's client, not the attacking player's
         Debug.Log($&quot;Magic Damage = {damage}&quot;);
     }
 
-    [ServerRpc]
-    void CmdHealMe()
+    [Server]
+    void HealMe()
     {
         health += 10;
-        TargetHealed(10);
+        Healed(10);
     }
 
     [ClientRpc(target = client.Owner)]
-    public void TargetHealed(int amount)
+    public void Healed(int amount)
     {
         // No NetworkConnection parameter, so it goes to owner
         Debug.Log($&quot;Health increased by {amount}&quot;);
@@ -206,7 +234,7 @@ public class Door : NetworkBehaviour
 }
 </code></pre>
 <h2 id="arguments-to-remote-actions">Arguments to Remote Actions</h2>
-<p>The arguments passed to ServerRpc and ClientRpc calls are serialized and sent over the network. You can use any <a href="../DataTypes.html">supported mirror type</a>.</p>
+<p>The arguments passed to ServerRpc and ClientRpc calls are serialized and sent over the network. You can use any <a href="../DataTypes.html">supported MirrorNG type</a>.</p>
 <p>Arguments to remote actions cannot be sub-components of game objects, such as script instances or Transforms.</p>
 </article>
           </div>

@@ -81,7 +81,7 @@
 
 <p><code>SyncSortedSet</code> are sets similar to C# <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.sortedset-1">SortedSet&lt;T&gt;</a> that synchronize their contents from the server to the clients.</p>
 <p>Unlike SyncHashSets, all elements in a SyncSortedSet are sorted when they are inserted. Please note this has some performance implications.</p>
-<p>A SyncSortedSet can contain any <a href="../DataTypes.html">supported mirror type</a></p>
+<p>A SyncSortedSet can contain any <a href="../DataTypes.html">supported MirrorNG type</a></p>
 <h2 id="usage">Usage</h2>
 <p>Create a class that derives from SyncSortedSet for your specific type. This is necessary because MirrorNG will add methods to that class with the weaver. Then add a SyncSortedSet field to your NetworkBehaviour class. For example:</p>
 <pre><code class="lang-cs">class Player : NetworkBehaviour {
