@@ -1005,6 +1005,83 @@
   </table>
   
   
+  <a id="Mirror_NetworkBehaviour_SendServerRpcWithReturn_" data-uid="Mirror.NetworkBehaviour.SendServerRpcWithReturn*"></a>
+  <h4 id="Mirror_NetworkBehaviour_SendServerRpcWithReturn__1_Type_System_String_Mirror_NetworkWriter_System_Int32_System_Boolean_" data-uid="Mirror.NetworkBehaviour.SendServerRpcWithReturn``1(Type,System.String,Mirror.NetworkWriter,System.Int32,System.Boolean)">SendServerRpcWithReturn&lt;T&gt;(Type, String, NetworkWriter, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected UniTask&lt;T&gt; SendServerRpcWithReturn&lt;T&gt;(Type invokeClass, string cmdName, NetworkWriter writer, int channelId, bool requireAuthority = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">invokeClass</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">cmdName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkWriter.html">NetworkWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">channelId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">requireAuthority</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UniTask</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Mirror_NetworkBehaviour_SendTargetRpcInternal_" data-uid="Mirror.NetworkBehaviour.SendTargetRpcInternal*"></a>
   <h4 id="Mirror_NetworkBehaviour_SendTargetRpcInternal_Mirror_INetworkConnection_Type_System_String_Mirror_NetworkWriter_System_Int32_" data-uid="Mirror.NetworkBehaviour.SendTargetRpcInternal(Mirror.INetworkConnection,Type,System.String,Mirror.NetworkWriter,System.Int32)">SendTargetRpcInternal(INetworkConnection, Type, String, NetworkWriter, Int32)</h4>
   <div class="markdown level1 summary"></div>

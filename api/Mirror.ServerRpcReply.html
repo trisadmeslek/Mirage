@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Delegate CmdDelegate
+    <title>Struct ServerRpcReply
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Delegate CmdDelegate
+    <meta name="title" content="Struct ServerRpcReply
    ">
     <meta name="generator" content="docfx 2.45.1.0">
     
@@ -78,48 +78,65 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Mirror.RemoteCalls.CmdDelegate">
+            <article class="content wrap" id="_content" data-uid="Mirror.ServerRpcReply">
   
   
-  <h1 id="Mirror_RemoteCalls_CmdDelegate" data-uid="Mirror.RemoteCalls.CmdDelegate" class="text-break">Delegate CmdDelegate
+  <h1 id="Mirror_ServerRpcReply" data-uid="Mirror.ServerRpcReply" class="text-break">Struct ServerRpcReply
   </h1>
-  <div class="markdown level0 summary"><p>Delegate for ServerRpc functions.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.RemoteCalls.html">Mirror.RemoteCalls</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.html">Mirror</a></h6>
   <h6><strong>Assembly</strong>: doc.dll</h6>
-  <h5 id="Mirror_RemoteCalls_CmdDelegate_syntax">Syntax</h5>
+  <h5 id="Mirror_ServerRpcReply_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate void CmdDelegate(NetworkBehaviour obj, NetworkReader reader, INetworkConnection senderConnection, int replyId);</code></pre>
+    <pre><code class="lang-csharp hljs">public struct ServerRpcReply</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Mirror_ServerRpcReply_payload" data-uid="Mirror.ServerRpcReply.payload">payload</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ArraySegment&lt;byte&gt; payload</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirror.NetworkBehaviour.html">NetworkBehaviour</a></td>
-        <td><span class="parametername">obj</span></td>
+        <td><span class="xref">ArraySegment</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>&gt;</td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Mirror_ServerRpcReply_replyId" data-uid="Mirror.ServerRpcReply.replyId">replyId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int replyId</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
-        <td><span class="parametername">reader</span></td>
-        <td></td>
+        <th>Type</th>
+        <th>Description</th>
       </tr>
-      <tr>
-        <td><a class="xref" href="Mirror.INetworkConnection.html">INetworkConnection</a></td>
-        <td><span class="parametername">senderConnection</span></td>
-        <td></td>
-      </tr>
+    </thead>
+    <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">replyId</span></td>
         <td></td>
       </tr>
     </tbody>

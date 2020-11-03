@@ -5156,6 +5156,22 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.SendServerRpcInternal
   nameWithType: NetworkBehaviour.SendServerRpcInternal
+- uid: Mirror.NetworkBehaviour.SendServerRpcWithReturn*
+  name: SendServerRpcWithReturn
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendServerRpcWithReturn_
+  commentId: Overload:Mirror.NetworkBehaviour.SendServerRpcWithReturn
+  isSpec: "True"
+  fullName: Mirror.NetworkBehaviour.SendServerRpcWithReturn
+  nameWithType: NetworkBehaviour.SendServerRpcWithReturn
+- uid: Mirror.NetworkBehaviour.SendServerRpcWithReturn``1(Type,System.String,Mirror.NetworkWriter,System.Int32,System.Boolean)
+  name: SendServerRpcWithReturn<T>(Type, String, NetworkWriter, Int32, Boolean)
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendServerRpcWithReturn__1_Type_System_String_Mirror_NetworkWriter_System_Int32_System_Boolean_
+  commentId: M:Mirror.NetworkBehaviour.SendServerRpcWithReturn``1(Type,System.String,Mirror.NetworkWriter,System.Int32,System.Boolean)
+  name.vb: SendServerRpcWithReturn(Of T)(Type, String, NetworkWriter, Int32, Boolean)
+  fullName: Mirror.NetworkBehaviour.SendServerRpcWithReturn<T>(Type, System.String, Mirror.NetworkWriter, System.Int32, System.Boolean)
+  fullName.vb: Mirror.NetworkBehaviour.SendServerRpcWithReturn(Of T)(Type, System.String, Mirror.NetworkWriter, System.Int32, System.Boolean)
+  nameWithType: NetworkBehaviour.SendServerRpcWithReturn<T>(Type, String, NetworkWriter, Int32, Boolean)
+  nameWithType.vb: NetworkBehaviour.SendServerRpcWithReturn(Of T)(Type, String, NetworkWriter, Int32, Boolean)
 - uid: Mirror.NetworkBehaviour.SendTargetRpcInternal(Mirror.INetworkConnection,Type,System.String,Mirror.NetworkWriter,System.Int32)
   name: SendTargetRpcInternal(INetworkConnection, Type, String, NetworkWriter, Int32)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendTargetRpcInternal_Mirror_INetworkConnection_Type_System_String_Mirror_NetworkWriter_System_Int32_
@@ -9209,6 +9225,15 @@ references:
   isSpec: "True"
   fullName: Mirror.RemoteCalls.RemoteCallHelper.RegisterServerRpcDelegate
   nameWithType: RemoteCallHelper.RegisterServerRpcDelegate
+- uid: Mirror.RemoteCalls.RequestDelegate`1
+  name: RequestDelegate<T>
+  href: api/Mirror.RemoteCalls.RequestDelegate-1.html
+  commentId: T:Mirror.RemoteCalls.RequestDelegate`1
+  name.vb: RequestDelegate(Of T)
+  fullName: Mirror.RemoteCalls.RequestDelegate<T>
+  fullName.vb: Mirror.RemoteCalls.RequestDelegate(Of T)
+  nameWithType: RequestDelegate<T>
+  nameWithType.vb: RequestDelegate(Of T)
 - uid: Mirror.RpcMessage
   name: RpcMessage
   href: api/Mirror.RpcMessage.html
@@ -9550,6 +9575,30 @@ references:
   commentId: F:Mirror.ServerRpcMessage.payload
   fullName: Mirror.ServerRpcMessage.payload
   nameWithType: ServerRpcMessage.payload
+- uid: Mirror.ServerRpcMessage.replyId
+  name: replyId
+  href: api/Mirror.ServerRpcMessage.html#Mirror_ServerRpcMessage_replyId
+  commentId: F:Mirror.ServerRpcMessage.replyId
+  fullName: Mirror.ServerRpcMessage.replyId
+  nameWithType: ServerRpcMessage.replyId
+- uid: Mirror.ServerRpcReply
+  name: ServerRpcReply
+  href: api/Mirror.ServerRpcReply.html
+  commentId: T:Mirror.ServerRpcReply
+  fullName: Mirror.ServerRpcReply
+  nameWithType: ServerRpcReply
+- uid: Mirror.ServerRpcReply.payload
+  name: payload
+  href: api/Mirror.ServerRpcReply.html#Mirror_ServerRpcReply_payload
+  commentId: F:Mirror.ServerRpcReply.payload
+  fullName: Mirror.ServerRpcReply.payload
+  nameWithType: ServerRpcReply.payload
+- uid: Mirror.ServerRpcReply.replyId
+  name: replyId
+  href: api/Mirror.ServerRpcReply.html#Mirror_ServerRpcReply_replyId
+  commentId: F:Mirror.ServerRpcReply.replyId
+  fullName: Mirror.ServerRpcReply.replyId
+  nameWithType: ServerRpcReply.replyId
 - uid: Mirror.ShowInInspectorAttribute
   name: ShowInInspectorAttribute
   href: api/Mirror.ShowInInspectorAttribute.html
