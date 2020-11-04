@@ -11610,11 +11610,20 @@ references:
   fullName.vb: Mirror.Writer(Of T)
   nameWithType: Writer<T>
   nameWithType.vb: Writer(Of T)
-- uid: Mirror.Writer`1.write
-  name: write
-  href: api/Mirror.Writer-1.html#Mirror_Writer_1_write
-  commentId: F:Mirror.Writer`1.write
-  fullName: Mirror.Writer<T>.write
-  fullName.vb: Mirror.Writer(Of T).write
-  nameWithType: Writer<T>.write
-  nameWithType.vb: Writer(Of T).write
+- uid: Mirror.Writer`1.Write
+  name: Write
+  href: api/Mirror.Writer-1.html#Mirror_Writer_1_Write
+  commentId: P:Mirror.Writer`1.Write
+  fullName: Mirror.Writer<T>.Write
+  fullName.vb: Mirror.Writer(Of T).Write
+  nameWithType: Writer<T>.Write
+  nameWithType.vb: Writer(Of T).Write
+- uid: Mirror.Writer`1.Write*
+  name: Write
+  href: api/Mirror.Writer-1.html#Mirror_Writer_1_Write_
+  commentId: Overload:Mirror.Writer`1.Write
+  isSpec: "True"
+  fullName: Mirror.Writer<T>.Write
+  fullName.vb: Mirror.Writer(Of T).Write
+  nameWithType: Writer<T>.Write
+  nameWithType.vb: Writer(Of T).Write
