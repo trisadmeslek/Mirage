@@ -4867,6 +4867,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.Client
   nameWithType: NetworkBehaviour.Client
+- uid: Mirror.NetworkBehaviour.ClientObjectManager
+  name: ClientObjectManager
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_ClientObjectManager
+  commentId: P:Mirror.NetworkBehaviour.ClientObjectManager
+  fullName: Mirror.NetworkBehaviour.ClientObjectManager
+  nameWithType: NetworkBehaviour.ClientObjectManager
+- uid: Mirror.NetworkBehaviour.ClientObjectManager*
+  name: ClientObjectManager
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_ClientObjectManager_
+  commentId: Overload:Mirror.NetworkBehaviour.ClientObjectManager
+  isSpec: "True"
+  fullName: Mirror.NetworkBehaviour.ClientObjectManager
+  nameWithType: NetworkBehaviour.ClientObjectManager
 - uid: Mirror.NetworkBehaviour.ComponentIndex
   name: ComponentIndex
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_ComponentIndex
@@ -5981,6 +5994,12 @@ references:
   commentId: T:Mirror.NetworkIdentity.ClientAuthorityCallback
   fullName: Mirror.NetworkIdentity.ClientAuthorityCallback
   nameWithType: NetworkIdentity.ClientAuthorityCallback
+- uid: Mirror.NetworkIdentity.ClientObjectManager
+  name: ClientObjectManager
+  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_ClientObjectManager
+  commentId: F:Mirror.NetworkIdentity.ClientObjectManager
+  fullName: Mirror.NetworkIdentity.ClientObjectManager
+  nameWithType: NetworkIdentity.ClientObjectManager
 - uid: Mirror.NetworkIdentity.ConnectionToClient
   name: ConnectionToClient
   href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_ConnectionToClient
