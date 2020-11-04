@@ -9154,14 +9154,23 @@ references:
   fullName.vb: Mirror.Reader(Of T)
   nameWithType: Reader<T>
   nameWithType.vb: Reader(Of T)
-- uid: Mirror.Reader`1.read
-  name: read
-  href: api/Mirror.Reader-1.html#Mirror_Reader_1_read
-  commentId: F:Mirror.Reader`1.read
-  fullName: Mirror.Reader<T>.read
-  fullName.vb: Mirror.Reader(Of T).read
-  nameWithType: Reader<T>.read
-  nameWithType.vb: Reader(Of T).read
+- uid: Mirror.Reader`1.Read
+  name: Read
+  href: api/Mirror.Reader-1.html#Mirror_Reader_1_Read
+  commentId: P:Mirror.Reader`1.Read
+  fullName: Mirror.Reader<T>.Read
+  fullName.vb: Mirror.Reader(Of T).Read
+  nameWithType: Reader<T>.Read
+  nameWithType.vb: Reader(Of T).Read
+- uid: Mirror.Reader`1.Read*
+  name: Read
+  href: api/Mirror.Reader-1.html#Mirror_Reader_1_Read_
+  commentId: Overload:Mirror.Reader`1.Read
+  isSpec: "True"
+  fullName: Mirror.Reader<T>.Read
+  fullName.vb: Mirror.Reader(Of T).Read
+  nameWithType: Reader<T>.Read
+  nameWithType.vb: Reader(Of T).Read
 - uid: Mirror.ReadyMessage
   name: ReadyMessage
   href: api/Mirror.ReadyMessage.html
