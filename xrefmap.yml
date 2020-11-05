@@ -5249,22 +5249,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.SetDirtyBit
   nameWithType: NetworkBehaviour.SetDirtyBit
-- uid: Mirror.NetworkBehaviour.SetSyncVar*
-  name: SetSyncVar
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SetSyncVar_
-  commentId: Overload:Mirror.NetworkBehaviour.SetSyncVar
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.SetSyncVar
-  nameWithType: NetworkBehaviour.SetSyncVar
-- uid: Mirror.NetworkBehaviour.SetSyncVar``1(``0,``0@,System.UInt64)
-  name: SetSyncVar<T>(T, ref T, UInt64)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SetSyncVar__1___0___0__System_UInt64_
-  commentId: M:Mirror.NetworkBehaviour.SetSyncVar``1(``0,``0@,System.UInt64)
-  name.vb: SetSyncVar(Of T)(T, ByRef T, UInt64)
-  fullName: Mirror.NetworkBehaviour.SetSyncVar<T>(T, ref T, System.UInt64)
-  fullName.vb: Mirror.NetworkBehaviour.SetSyncVar(Of T)(T, ByRef T, System.UInt64)
-  nameWithType: NetworkBehaviour.SetSyncVar<T>(T, ref T, UInt64)
-  nameWithType.vb: NetworkBehaviour.SetSyncVar(Of T)(T, ByRef T, UInt64)
 - uid: Mirror.NetworkBehaviour.SetSyncVarHookGuard(System.UInt64,System.Boolean)
   name: SetSyncVarHookGuard(UInt64, Boolean)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SetSyncVarHookGuard_System_UInt64_System_Boolean_
