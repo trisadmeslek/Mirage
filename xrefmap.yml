@@ -149,12 +149,6 @@ references:
   commentId: M:Mirror.ClientObjectManager.RegisterPrefab(GameObject,Guid)
   fullName: Mirror.ClientObjectManager.RegisterPrefab(GameObject, Guid)
   nameWithType: ClientObjectManager.RegisterPrefab(GameObject, Guid)
-- uid: Mirror.ClientObjectManager.RegisterPrefab(GameObject,Mirror.SpawnDelegate,Mirror.UnSpawnDelegate)
-  name: RegisterPrefab(GameObject, SpawnDelegate, UnSpawnDelegate)
-  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_RegisterPrefab_GameObject_Mirror_SpawnDelegate_Mirror_UnSpawnDelegate_
-  commentId: M:Mirror.ClientObjectManager.RegisterPrefab(GameObject,Mirror.SpawnDelegate,Mirror.UnSpawnDelegate)
-  fullName: Mirror.ClientObjectManager.RegisterPrefab(GameObject, Mirror.SpawnDelegate, Mirror.UnSpawnDelegate)
-  nameWithType: ClientObjectManager.RegisterPrefab(GameObject, SpawnDelegate, UnSpawnDelegate)
 - uid: Mirror.ClientObjectManager.RegisterPrefab(GameObject,Mirror.SpawnHandlerDelegate,Mirror.UnSpawnDelegate)
   name: RegisterPrefab(GameObject, SpawnHandlerDelegate, UnSpawnDelegate)
   href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_RegisterPrefab_GameObject_Mirror_SpawnHandlerDelegate_Mirror_UnSpawnDelegate_
@@ -168,12 +162,6 @@ references:
   isSpec: "True"
   fullName: Mirror.ClientObjectManager.RegisterPrefab
   nameWithType: ClientObjectManager.RegisterPrefab
-- uid: Mirror.ClientObjectManager.RegisterSpawnHandler(Guid,Mirror.SpawnDelegate,Mirror.UnSpawnDelegate)
-  name: RegisterSpawnHandler(Guid, SpawnDelegate, UnSpawnDelegate)
-  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_RegisterSpawnHandler_Guid_Mirror_SpawnDelegate_Mirror_UnSpawnDelegate_
-  commentId: M:Mirror.ClientObjectManager.RegisterSpawnHandler(Guid,Mirror.SpawnDelegate,Mirror.UnSpawnDelegate)
-  fullName: Mirror.ClientObjectManager.RegisterSpawnHandler(Guid, Mirror.SpawnDelegate, Mirror.UnSpawnDelegate)
-  nameWithType: ClientObjectManager.RegisterSpawnHandler(Guid, SpawnDelegate, UnSpawnDelegate)
 - uid: Mirror.ClientObjectManager.RegisterSpawnHandler(Guid,Mirror.SpawnHandlerDelegate,Mirror.UnSpawnDelegate)
   name: RegisterSpawnHandler(Guid, SpawnHandlerDelegate, UnSpawnDelegate)
   href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_RegisterSpawnHandler_Guid_Mirror_SpawnHandlerDelegate_Mirror_UnSpawnDelegate_
@@ -2336,12 +2324,6 @@ references:
   commentId: M:Mirror.IClientObjectManager.RegisterPrefab(GameObject,Guid)
   fullName: Mirror.IClientObjectManager.RegisterPrefab(GameObject, Guid)
   nameWithType: IClientObjectManager.RegisterPrefab(GameObject, Guid)
-- uid: Mirror.IClientObjectManager.RegisterPrefab(GameObject,Mirror.SpawnDelegate,Mirror.UnSpawnDelegate)
-  name: RegisterPrefab(GameObject, SpawnDelegate, UnSpawnDelegate)
-  href: api/Mirror.IClientObjectManager.html#Mirror_IClientObjectManager_RegisterPrefab_GameObject_Mirror_SpawnDelegate_Mirror_UnSpawnDelegate_
-  commentId: M:Mirror.IClientObjectManager.RegisterPrefab(GameObject,Mirror.SpawnDelegate,Mirror.UnSpawnDelegate)
-  fullName: Mirror.IClientObjectManager.RegisterPrefab(GameObject, Mirror.SpawnDelegate, Mirror.UnSpawnDelegate)
-  nameWithType: IClientObjectManager.RegisterPrefab(GameObject, SpawnDelegate, UnSpawnDelegate)
 - uid: Mirror.IClientObjectManager.RegisterPrefab(GameObject,Mirror.SpawnHandlerDelegate,Mirror.UnSpawnDelegate)
   name: RegisterPrefab(GameObject, SpawnHandlerDelegate, UnSpawnDelegate)
   href: api/Mirror.IClientObjectManager.html#Mirror_IClientObjectManager_RegisterPrefab_GameObject_Mirror_SpawnHandlerDelegate_Mirror_UnSpawnDelegate_
@@ -2355,12 +2337,6 @@ references:
   isSpec: "True"
   fullName: Mirror.IClientObjectManager.RegisterPrefab
   nameWithType: IClientObjectManager.RegisterPrefab
-- uid: Mirror.IClientObjectManager.RegisterSpawnHandler(Guid,Mirror.SpawnDelegate,Mirror.UnSpawnDelegate)
-  name: RegisterSpawnHandler(Guid, SpawnDelegate, UnSpawnDelegate)
-  href: api/Mirror.IClientObjectManager.html#Mirror_IClientObjectManager_RegisterSpawnHandler_Guid_Mirror_SpawnDelegate_Mirror_UnSpawnDelegate_
-  commentId: M:Mirror.IClientObjectManager.RegisterSpawnHandler(Guid,Mirror.SpawnDelegate,Mirror.UnSpawnDelegate)
-  fullName: Mirror.IClientObjectManager.RegisterSpawnHandler(Guid, Mirror.SpawnDelegate, Mirror.UnSpawnDelegate)
-  nameWithType: IClientObjectManager.RegisterSpawnHandler(Guid, SpawnDelegate, UnSpawnDelegate)
 - uid: Mirror.IClientObjectManager.RegisterSpawnHandler(Guid,Mirror.SpawnHandlerDelegate,Mirror.UnSpawnDelegate)
   name: RegisterSpawnHandler(Guid, SpawnHandlerDelegate, UnSpawnDelegate)
   href: api/Mirror.IClientObjectManager.html#Mirror_IClientObjectManager_RegisterSpawnHandler_Guid_Mirror_SpawnHandlerDelegate_Mirror_UnSpawnDelegate_
@@ -9633,12 +9609,6 @@ references:
   commentId: T:Mirror.ShowInInspectorAttribute
   fullName: Mirror.ShowInInspectorAttribute
   nameWithType: ShowInInspectorAttribute
-- uid: Mirror.SpawnDelegate
-  name: SpawnDelegate
-  href: api/Mirror.SpawnDelegate.html
-  commentId: T:Mirror.SpawnDelegate
-  fullName: Mirror.SpawnDelegate
-  nameWithType: SpawnDelegate
 - uid: Mirror.SpawnHandlerDelegate
   name: SpawnHandlerDelegate
   href: api/Mirror.SpawnHandlerDelegate.html
