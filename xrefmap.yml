@@ -5348,15 +5348,15 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.SyncVarEqual
   nameWithType: NetworkBehaviour.SyncVarEqual
-- uid: Mirror.NetworkBehaviour.SyncVarEqual``1(``0,``0@)
-  name: SyncVarEqual<T>(T, ref T)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SyncVarEqual__1___0___0__
-  commentId: M:Mirror.NetworkBehaviour.SyncVarEqual``1(``0,``0@)
-  name.vb: SyncVarEqual(Of T)(T, ByRef T)
-  fullName: Mirror.NetworkBehaviour.SyncVarEqual<T>(T, ref T)
-  fullName.vb: Mirror.NetworkBehaviour.SyncVarEqual(Of T)(T, ByRef T)
-  nameWithType: NetworkBehaviour.SyncVarEqual<T>(T, ref T)
-  nameWithType.vb: NetworkBehaviour.SyncVarEqual(Of T)(T, ByRef T)
+- uid: Mirror.NetworkBehaviour.SyncVarEqual``1(``0,``0)
+  name: SyncVarEqual<T>(T, T)
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SyncVarEqual__1___0___0_
+  commentId: M:Mirror.NetworkBehaviour.SyncVarEqual``1(``0,``0)
+  name.vb: SyncVarEqual(Of T)(T, T)
+  fullName: Mirror.NetworkBehaviour.SyncVarEqual<T>(T, T)
+  fullName.vb: Mirror.NetworkBehaviour.SyncVarEqual(Of T)(T, T)
+  nameWithType: NetworkBehaviour.SyncVarEqual<T>(T, T)
+  nameWithType.vb: NetworkBehaviour.SyncVarEqual(Of T)(T, T)
 - uid: Mirror.NetworkBehaviour.SyncVarNetworkIdentityEqual(Mirror.NetworkIdentity,System.UInt32)
   name: SyncVarNetworkIdentityEqual(NetworkIdentity, UInt32)
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SyncVarNetworkIdentityEqual_Mirror_NetworkIdentity_System_UInt32_
