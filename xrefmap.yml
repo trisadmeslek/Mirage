@@ -4921,15 +4921,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.GetSyncVarHookGuard
   nameWithType: NetworkBehaviour.GetSyncVarHookGuard
-- uid: Mirror.NetworkBehaviour.GetSyncVarNetworkIdentity(System.UInt32,Mirror.NetworkIdentity@)
-  name: GetSyncVarNetworkIdentity(UInt32, ref NetworkIdentity)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetSyncVarNetworkIdentity_System_UInt32_Mirror_NetworkIdentity__
-  commentId: M:Mirror.NetworkBehaviour.GetSyncVarNetworkIdentity(System.UInt32,Mirror.NetworkIdentity@)
-  name.vb: GetSyncVarNetworkIdentity(UInt32, ByRef NetworkIdentity)
-  fullName: Mirror.NetworkBehaviour.GetSyncVarNetworkIdentity(System.UInt32, ref Mirror.NetworkIdentity)
-  fullName.vb: Mirror.NetworkBehaviour.GetSyncVarNetworkIdentity(System.UInt32, ByRef Mirror.NetworkIdentity)
-  nameWithType: NetworkBehaviour.GetSyncVarNetworkIdentity(UInt32, ref NetworkIdentity)
-  nameWithType.vb: NetworkBehaviour.GetSyncVarNetworkIdentity(UInt32, ByRef NetworkIdentity)
+- uid: Mirror.NetworkBehaviour.GetSyncVarNetworkIdentity(System.UInt32,Mirror.NetworkIdentity)
+  name: GetSyncVarNetworkIdentity(UInt32, NetworkIdentity)
+  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetSyncVarNetworkIdentity_System_UInt32_Mirror_NetworkIdentity_
+  commentId: M:Mirror.NetworkBehaviour.GetSyncVarNetworkIdentity(System.UInt32,Mirror.NetworkIdentity)
+  fullName: Mirror.NetworkBehaviour.GetSyncVarNetworkIdentity(System.UInt32, Mirror.NetworkIdentity)
+  nameWithType: NetworkBehaviour.GetSyncVarNetworkIdentity(UInt32, NetworkIdentity)
 - uid: Mirror.NetworkBehaviour.GetSyncVarNetworkIdentity*
   name: GetSyncVarNetworkIdentity
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetSyncVarNetworkIdentity_
