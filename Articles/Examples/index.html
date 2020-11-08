@@ -81,18 +81,18 @@
 
 <p>MirrorNG includes several small examples to help you learn how to use various features and how to set things up so they work together.</p>
 <ul>
-<li><a href="Basic/index.html">Basic</a><br>
-Basic is what it sounds like...the most rudimentary baseline of a networked game. Features SyncVars updating random UI data for each player.</li>
-<li><a href="Tanks/index.html">Tanks</a><br>
-This is a simple scene with animated tanks, networked rigidbody projectiles, and NavMesh movement</li>
-<li><a href="Pong/index.html">Pong</a><br>
-A simple example for &quot;How to build a multiplayer game with MirrorNG&quot; is Pong. It illustrates the usage of <code>NetworkManager</code>, <code>NetworkManagerHUD</code>, NetworkBehaviour, NetworkIdentity, <code>NetworkTransform</code>, <code>NetworkStartPosition</code>and various Attributes.</li>
 <li><a href="AdditiveScenes/index.html">Additive Scenes</a><br>
 The Additive Scenes example demonstrates a server additively loading a sub-scene into a main scene at startup, and having a server-only trigger that generates a message to any client whose player enters the trigger zone to also load the sub-scene, and subsequently unload it when they leave the trigger zone. Only players inside the trigger zone can see the objects in the sub-scene. Network Proximity Checker components are key to making this scenario work.</li>
-<li><a href="MultipleAdditiveScenes/index.html">Multiple Concurrent Additive Scenes</a><br>
-The Multiple Concurrent Additive Scenes example demonstrates a server additively loading multiple instances of a sub-scene into a main scene at startup, with physics separation, and assigning players to the instances to play matches independently. <a href="../Components/NetworkSceneChecker.html">NetworkSceneChecker</a> is the key component that makes this example work.</li>
-<li><a href="Room/index.html">Room System</a><br>
-The Room System example demonstrates how to set up a &quot;staging&quot; scene where players assemble before starting a match. When all players are ready, the server sends them all a message to change scenes (along with the server itself) to the actual game play scene so they all come in at once.  Includes fully playable game with a character controller where players collect server-spawned prizes for score.</li>
+<li><a href="Basic/index.html">Basic</a><br>
+Basic is what it sounds like...the most rudimentary baseline of a networked game. Features SyncVars updating random UI data for each player.
+<a href="Chat/index.html">Chat</a><br>
+A simple text chat for multiple networked clients.</li>
+<li><a href="ChangeScene/index.html">ChangeScene</a><br>
+Provides examples for Normal and Additive network scene changing.</li>
+<li><a href="Pong/index.html">Pong</a><br>
+A simple example for &quot;How to build a multiplayer game with MirrorNG&quot; is Pong. It illustrates the usage of <code>NetworkManager</code>, <code>NetworkManagerHUD</code>, NetworkBehaviour, NetworkIdentity, <code>NetworkTransform</code>, <code>NetworkStartPosition</code>and various Attributes.</li>
+<li><a href="Tanks/index.html">Tanks</a><br>
+This is a simple scene with animated tanks, networked rigidbody projectiles, and NavMesh movement</li>
 </ul>
 </article>
           </div>
