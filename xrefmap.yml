@@ -1352,6 +1352,12 @@ references:
   commentId: T:Mirror.Cloud.ServerListEvent
   fullName: Mirror.Cloud.ServerListEvent
   nameWithType: ServerListEvent
+- uid: Mirror.Compression
+  name: Compression
+  href: api/Mirror.Compression.html
+  commentId: T:Mirror.Compression
+  fullName: Mirror.Compression
+  nameWithType: Compression
 - uid: Mirror.ConnectState
   name: ConnectState
   href: api/Mirror.ConnectState.html
