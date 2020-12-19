@@ -6204,12 +6204,6 @@ references:
   commentId: F:Mirror.NetworkIdentity.ServerObjectManager
   fullName: Mirror.NetworkIdentity.ServerObjectManager
   nameWithType: NetworkIdentity.ServerObjectManager
-- uid: Mirror.NetworkIdentity.serverOnly
-  name: serverOnly
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_serverOnly
-  commentId: F:Mirror.NetworkIdentity.serverOnly
-  fullName: Mirror.NetworkIdentity.serverOnly
-  nameWithType: NetworkIdentity.serverOnly
 - uid: Mirror.NetworkIdentity.SpawnedFromInstantiate
   name: SpawnedFromInstantiate
   href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_SpawnedFromInstantiate
