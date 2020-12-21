@@ -6624,6 +6624,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkReader.NetworkReader
   nameWithType: NetworkReader.NetworkReader
+- uid: Mirror.NetworkReader.Client
+  name: Client
+  href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_Client
+  commentId: P:Mirror.NetworkReader.Client
+  fullName: Mirror.NetworkReader.Client
+  nameWithType: NetworkReader.Client
+- uid: Mirror.NetworkReader.Client*
+  name: Client
+  href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_Client_
+  commentId: Overload:Mirror.NetworkReader.Client
+  isSpec: "True"
+  fullName: Mirror.NetworkReader.Client
+  nameWithType: NetworkReader.Client
 - uid: Mirror.NetworkReader.Length
   name: Length
   href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_Length
@@ -6753,6 +6766,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkReader.ReadUInt64
   nameWithType: NetworkReader.ReadUInt64
+- uid: Mirror.NetworkReader.Server
+  name: Server
+  href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_Server
+  commentId: P:Mirror.NetworkReader.Server
+  fullName: Mirror.NetworkReader.Server
+  nameWithType: NetworkReader.Server
+- uid: Mirror.NetworkReader.Server*
+  name: Server
+  href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_Server_
+  commentId: Overload:Mirror.NetworkReader.Server
+  isSpec: "True"
+  fullName: Mirror.NetworkReader.Server
+  nameWithType: NetworkReader.Server
 - uid: Mirror.NetworkReader.ToString
   name: ToString()
   href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_ToString
