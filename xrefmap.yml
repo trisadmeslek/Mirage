@@ -4926,19 +4926,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.GetSyncVarHookGuard
   nameWithType: NetworkBehaviour.GetSyncVarHookGuard
-- uid: Mirror.NetworkBehaviour.GetSyncVarNetworkIdentity(System.UInt32,Mirror.NetworkIdentity)
-  name: GetSyncVarNetworkIdentity(UInt32, NetworkIdentity)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetSyncVarNetworkIdentity_System_UInt32_Mirror_NetworkIdentity_
-  commentId: M:Mirror.NetworkBehaviour.GetSyncVarNetworkIdentity(System.UInt32,Mirror.NetworkIdentity)
-  fullName: Mirror.NetworkBehaviour.GetSyncVarNetworkIdentity(System.UInt32, Mirror.NetworkIdentity)
-  nameWithType: NetworkBehaviour.GetSyncVarNetworkIdentity(UInt32, NetworkIdentity)
-- uid: Mirror.NetworkBehaviour.GetSyncVarNetworkIdentity*
-  name: GetSyncVarNetworkIdentity
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetSyncVarNetworkIdentity_
-  commentId: Overload:Mirror.NetworkBehaviour.GetSyncVarNetworkIdentity
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.GetSyncVarNetworkIdentity
-  nameWithType: NetworkBehaviour.GetSyncVarNetworkIdentity
 - uid: Mirror.NetworkBehaviour.HasAuthority
   name: HasAuthority
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_HasAuthority
@@ -5267,22 +5254,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkBehaviour.SetSyncVarHookGuard
   nameWithType: NetworkBehaviour.SetSyncVarHookGuard
-- uid: Mirror.NetworkBehaviour.SetSyncVarNetworkIdentity(Mirror.NetworkIdentity,Mirror.NetworkIdentity@,System.UInt64,System.UInt32@)
-  name: SetSyncVarNetworkIdentity(NetworkIdentity, ref NetworkIdentity, UInt64, ref UInt32)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SetSyncVarNetworkIdentity_Mirror_NetworkIdentity_Mirror_NetworkIdentity__System_UInt64_System_UInt32__
-  commentId: M:Mirror.NetworkBehaviour.SetSyncVarNetworkIdentity(Mirror.NetworkIdentity,Mirror.NetworkIdentity@,System.UInt64,System.UInt32@)
-  name.vb: SetSyncVarNetworkIdentity(NetworkIdentity, ByRef NetworkIdentity, UInt64, ByRef UInt32)
-  fullName: Mirror.NetworkBehaviour.SetSyncVarNetworkIdentity(Mirror.NetworkIdentity, ref Mirror.NetworkIdentity, System.UInt64, ref System.UInt32)
-  fullName.vb: Mirror.NetworkBehaviour.SetSyncVarNetworkIdentity(Mirror.NetworkIdentity, ByRef Mirror.NetworkIdentity, System.UInt64, ByRef System.UInt32)
-  nameWithType: NetworkBehaviour.SetSyncVarNetworkIdentity(NetworkIdentity, ref NetworkIdentity, UInt64, ref UInt32)
-  nameWithType.vb: NetworkBehaviour.SetSyncVarNetworkIdentity(NetworkIdentity, ByRef NetworkIdentity, UInt64, ByRef UInt32)
-- uid: Mirror.NetworkBehaviour.SetSyncVarNetworkIdentity*
-  name: SetSyncVarNetworkIdentity
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SetSyncVarNetworkIdentity_
-  commentId: Overload:Mirror.NetworkBehaviour.SetSyncVarNetworkIdentity
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.SetSyncVarNetworkIdentity
-  nameWithType: NetworkBehaviour.SetSyncVarNetworkIdentity
 - uid: Mirror.NetworkBehaviour.StillDirty
   name: StillDirty()
   href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_StillDirty
@@ -5343,19 +5314,6 @@ references:
   fullName.vb: Mirror.NetworkBehaviour.SyncVarEqual(Of T)(T, T)
   nameWithType: NetworkBehaviour.SyncVarEqual<T>(T, T)
   nameWithType.vb: NetworkBehaviour.SyncVarEqual(Of T)(T, T)
-- uid: Mirror.NetworkBehaviour.SyncVarNetworkIdentityEqual(Mirror.NetworkIdentity,System.UInt32)
-  name: SyncVarNetworkIdentityEqual(NetworkIdentity, UInt32)
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SyncVarNetworkIdentityEqual_Mirror_NetworkIdentity_System_UInt32_
-  commentId: M:Mirror.NetworkBehaviour.SyncVarNetworkIdentityEqual(Mirror.NetworkIdentity,System.UInt32)
-  fullName: Mirror.NetworkBehaviour.SyncVarNetworkIdentityEqual(Mirror.NetworkIdentity, System.UInt32)
-  nameWithType: NetworkBehaviour.SyncVarNetworkIdentityEqual(NetworkIdentity, UInt32)
-- uid: Mirror.NetworkBehaviour.SyncVarNetworkIdentityEqual*
-  name: SyncVarNetworkIdentityEqual
-  href: api/Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SyncVarNetworkIdentityEqual_
-  commentId: Overload:Mirror.NetworkBehaviour.SyncVarNetworkIdentityEqual
-  isSpec: "True"
-  fullName: Mirror.NetworkBehaviour.SyncVarNetworkIdentityEqual
-  nameWithType: NetworkBehaviour.SyncVarNetworkIdentityEqual
 - uid: Mirror.NetworkClient
   name: NetworkClient
   href: api/Mirror.NetworkClient.html
@@ -6230,6 +6188,57 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkIdentity.Visibility
   nameWithType: NetworkIdentity.Visibility
+- uid: Mirror.NetworkIdentitySerializers
+  name: NetworkIdentitySerializers
+  href: api/Mirror.NetworkIdentitySerializers.html
+  commentId: T:Mirror.NetworkIdentitySerializers
+  fullName: Mirror.NetworkIdentitySerializers
+  nameWithType: NetworkIdentitySerializers
+- uid: Mirror.NetworkIdentitySerializers.ReadNetworkIdentity(Mirror.NetworkReader)
+  name: ReadNetworkIdentity(NetworkReader)
+  href: api/Mirror.NetworkIdentitySerializers.html#Mirror_NetworkIdentitySerializers_ReadNetworkIdentity_Mirror_NetworkReader_
+  commentId: M:Mirror.NetworkIdentitySerializers.ReadNetworkIdentity(Mirror.NetworkReader)
+  fullName: Mirror.NetworkIdentitySerializers.ReadNetworkIdentity(Mirror.NetworkReader)
+  nameWithType: NetworkIdentitySerializers.ReadNetworkIdentity(NetworkReader)
+- uid: Mirror.NetworkIdentitySerializers.ReadNetworkIdentity*
+  name: ReadNetworkIdentity
+  href: api/Mirror.NetworkIdentitySerializers.html#Mirror_NetworkIdentitySerializers_ReadNetworkIdentity_
+  commentId: Overload:Mirror.NetworkIdentitySerializers.ReadNetworkIdentity
+  isSpec: "True"
+  fullName: Mirror.NetworkIdentitySerializers.ReadNetworkIdentity
+  nameWithType: NetworkIdentitySerializers.ReadNetworkIdentity
+- uid: Mirror.NetworkIdentitySerializers.WriteNetworkIdentity(Mirror.NetworkWriter,Mirror.NetworkIdentitySyncvar)
+  name: WriteNetworkIdentity(NetworkWriter, NetworkIdentitySyncvar)
+  href: api/Mirror.NetworkIdentitySerializers.html#Mirror_NetworkIdentitySerializers_WriteNetworkIdentity_Mirror_NetworkWriter_Mirror_NetworkIdentitySyncvar_
+  commentId: M:Mirror.NetworkIdentitySerializers.WriteNetworkIdentity(Mirror.NetworkWriter,Mirror.NetworkIdentitySyncvar)
+  fullName: Mirror.NetworkIdentitySerializers.WriteNetworkIdentity(Mirror.NetworkWriter, Mirror.NetworkIdentitySyncvar)
+  nameWithType: NetworkIdentitySerializers.WriteNetworkIdentity(NetworkWriter, NetworkIdentitySyncvar)
+- uid: Mirror.NetworkIdentitySerializers.WriteNetworkIdentity*
+  name: WriteNetworkIdentity
+  href: api/Mirror.NetworkIdentitySerializers.html#Mirror_NetworkIdentitySerializers_WriteNetworkIdentity_
+  commentId: Overload:Mirror.NetworkIdentitySerializers.WriteNetworkIdentity
+  isSpec: "True"
+  fullName: Mirror.NetworkIdentitySerializers.WriteNetworkIdentity
+  nameWithType: NetworkIdentitySerializers.WriteNetworkIdentity
+- uid: Mirror.NetworkIdentitySyncvar
+  name: NetworkIdentitySyncvar
+  href: api/Mirror.NetworkIdentitySyncvar.html
+  commentId: T:Mirror.NetworkIdentitySyncvar
+  fullName: Mirror.NetworkIdentitySyncvar
+  nameWithType: NetworkIdentitySyncvar
+- uid: Mirror.NetworkIdentitySyncvar.Value
+  name: Value
+  href: api/Mirror.NetworkIdentitySyncvar.html#Mirror_NetworkIdentitySyncvar_Value
+  commentId: P:Mirror.NetworkIdentitySyncvar.Value
+  fullName: Mirror.NetworkIdentitySyncvar.Value
+  nameWithType: NetworkIdentitySyncvar.Value
+- uid: Mirror.NetworkIdentitySyncvar.Value*
+  name: Value
+  href: api/Mirror.NetworkIdentitySyncvar.html#Mirror_NetworkIdentitySyncvar_Value_
+  commentId: Overload:Mirror.NetworkIdentitySyncvar.Value
+  isSpec: "True"
+  fullName: Mirror.NetworkIdentitySyncvar.Value
+  nameWithType: NetworkIdentitySyncvar.Value
 - uid: Mirror.NetworkManager
   name: NetworkManager
   href: api/Mirror.NetworkManager.html
