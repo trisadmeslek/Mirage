@@ -4867,6 +4867,57 @@ references:
   commentId: E:Mirror.NetworkAuthenticator.OnServerAuthenticated
   fullName: Mirror.NetworkAuthenticator.OnServerAuthenticated
   nameWithType: NetworkAuthenticator.OnServerAuthenticated
+- uid: Mirror.NetworkBehaviorSerializers
+  name: NetworkBehaviorSerializers
+  href: api/Mirror.NetworkBehaviorSerializers.html
+  commentId: T:Mirror.NetworkBehaviorSerializers
+  fullName: Mirror.NetworkBehaviorSerializers
+  nameWithType: NetworkBehaviorSerializers
+- uid: Mirror.NetworkBehaviorSerializers.ReadNetworkIdentity(Mirror.NetworkReader)
+  name: ReadNetworkIdentity(NetworkReader)
+  href: api/Mirror.NetworkBehaviorSerializers.html#Mirror_NetworkBehaviorSerializers_ReadNetworkIdentity_Mirror_NetworkReader_
+  commentId: M:Mirror.NetworkBehaviorSerializers.ReadNetworkIdentity(Mirror.NetworkReader)
+  fullName: Mirror.NetworkBehaviorSerializers.ReadNetworkIdentity(Mirror.NetworkReader)
+  nameWithType: NetworkBehaviorSerializers.ReadNetworkIdentity(NetworkReader)
+- uid: Mirror.NetworkBehaviorSerializers.ReadNetworkIdentity*
+  name: ReadNetworkIdentity
+  href: api/Mirror.NetworkBehaviorSerializers.html#Mirror_NetworkBehaviorSerializers_ReadNetworkIdentity_
+  commentId: Overload:Mirror.NetworkBehaviorSerializers.ReadNetworkIdentity
+  isSpec: "True"
+  fullName: Mirror.NetworkBehaviorSerializers.ReadNetworkIdentity
+  nameWithType: NetworkBehaviorSerializers.ReadNetworkIdentity
+- uid: Mirror.NetworkBehaviorSerializers.WriteNetworkIdentity(Mirror.NetworkWriter,Mirror.NetworkBehaviorSyncvar)
+  name: WriteNetworkIdentity(NetworkWriter, NetworkBehaviorSyncvar)
+  href: api/Mirror.NetworkBehaviorSerializers.html#Mirror_NetworkBehaviorSerializers_WriteNetworkIdentity_Mirror_NetworkWriter_Mirror_NetworkBehaviorSyncvar_
+  commentId: M:Mirror.NetworkBehaviorSerializers.WriteNetworkIdentity(Mirror.NetworkWriter,Mirror.NetworkBehaviorSyncvar)
+  fullName: Mirror.NetworkBehaviorSerializers.WriteNetworkIdentity(Mirror.NetworkWriter, Mirror.NetworkBehaviorSyncvar)
+  nameWithType: NetworkBehaviorSerializers.WriteNetworkIdentity(NetworkWriter, NetworkBehaviorSyncvar)
+- uid: Mirror.NetworkBehaviorSerializers.WriteNetworkIdentity*
+  name: WriteNetworkIdentity
+  href: api/Mirror.NetworkBehaviorSerializers.html#Mirror_NetworkBehaviorSerializers_WriteNetworkIdentity_
+  commentId: Overload:Mirror.NetworkBehaviorSerializers.WriteNetworkIdentity
+  isSpec: "True"
+  fullName: Mirror.NetworkBehaviorSerializers.WriteNetworkIdentity
+  nameWithType: NetworkBehaviorSerializers.WriteNetworkIdentity
+- uid: Mirror.NetworkBehaviorSyncvar
+  name: NetworkBehaviorSyncvar
+  href: api/Mirror.NetworkBehaviorSyncvar.html
+  commentId: T:Mirror.NetworkBehaviorSyncvar
+  fullName: Mirror.NetworkBehaviorSyncvar
+  nameWithType: NetworkBehaviorSyncvar
+- uid: Mirror.NetworkBehaviorSyncvar.Value
+  name: Value
+  href: api/Mirror.NetworkBehaviorSyncvar.html#Mirror_NetworkBehaviorSyncvar_Value
+  commentId: P:Mirror.NetworkBehaviorSyncvar.Value
+  fullName: Mirror.NetworkBehaviorSyncvar.Value
+  nameWithType: NetworkBehaviorSyncvar.Value
+- uid: Mirror.NetworkBehaviorSyncvar.Value*
+  name: Value
+  href: api/Mirror.NetworkBehaviorSyncvar.html#Mirror_NetworkBehaviorSyncvar_Value_
+  commentId: Overload:Mirror.NetworkBehaviorSyncvar.Value
+  isSpec: "True"
+  fullName: Mirror.NetworkBehaviorSyncvar.Value
+  nameWithType: NetworkBehaviorSyncvar.Value
 - uid: Mirror.NetworkBehaviour
   name: NetworkBehaviour
   href: api/Mirror.NetworkBehaviour.html
