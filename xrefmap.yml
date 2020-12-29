@@ -2205,6 +2205,57 @@ references:
   isSpec: "True"
   fullName: Mirror.ExponentialMovingAverage.Var
   nameWithType: ExponentialMovingAverage.Var
+- uid: Mirror.GameObjectSerializers
+  name: GameObjectSerializers
+  href: api/Mirror.GameObjectSerializers.html
+  commentId: T:Mirror.GameObjectSerializers
+  fullName: Mirror.GameObjectSerializers
+  nameWithType: GameObjectSerializers
+- uid: Mirror.GameObjectSerializers.ReadNetworkIdentity(Mirror.NetworkReader)
+  name: ReadNetworkIdentity(NetworkReader)
+  href: api/Mirror.GameObjectSerializers.html#Mirror_GameObjectSerializers_ReadNetworkIdentity_Mirror_NetworkReader_
+  commentId: M:Mirror.GameObjectSerializers.ReadNetworkIdentity(Mirror.NetworkReader)
+  fullName: Mirror.GameObjectSerializers.ReadNetworkIdentity(Mirror.NetworkReader)
+  nameWithType: GameObjectSerializers.ReadNetworkIdentity(NetworkReader)
+- uid: Mirror.GameObjectSerializers.ReadNetworkIdentity*
+  name: ReadNetworkIdentity
+  href: api/Mirror.GameObjectSerializers.html#Mirror_GameObjectSerializers_ReadNetworkIdentity_
+  commentId: Overload:Mirror.GameObjectSerializers.ReadNetworkIdentity
+  isSpec: "True"
+  fullName: Mirror.GameObjectSerializers.ReadNetworkIdentity
+  nameWithType: GameObjectSerializers.ReadNetworkIdentity
+- uid: Mirror.GameObjectSerializers.WriteNetworkIdentity(Mirror.NetworkWriter,Mirror.GameObjectSyncvar)
+  name: WriteNetworkIdentity(NetworkWriter, GameObjectSyncvar)
+  href: api/Mirror.GameObjectSerializers.html#Mirror_GameObjectSerializers_WriteNetworkIdentity_Mirror_NetworkWriter_Mirror_GameObjectSyncvar_
+  commentId: M:Mirror.GameObjectSerializers.WriteNetworkIdentity(Mirror.NetworkWriter,Mirror.GameObjectSyncvar)
+  fullName: Mirror.GameObjectSerializers.WriteNetworkIdentity(Mirror.NetworkWriter, Mirror.GameObjectSyncvar)
+  nameWithType: GameObjectSerializers.WriteNetworkIdentity(NetworkWriter, GameObjectSyncvar)
+- uid: Mirror.GameObjectSerializers.WriteNetworkIdentity*
+  name: WriteNetworkIdentity
+  href: api/Mirror.GameObjectSerializers.html#Mirror_GameObjectSerializers_WriteNetworkIdentity_
+  commentId: Overload:Mirror.GameObjectSerializers.WriteNetworkIdentity
+  isSpec: "True"
+  fullName: Mirror.GameObjectSerializers.WriteNetworkIdentity
+  nameWithType: GameObjectSerializers.WriteNetworkIdentity
+- uid: Mirror.GameObjectSyncvar
+  name: GameObjectSyncvar
+  href: api/Mirror.GameObjectSyncvar.html
+  commentId: T:Mirror.GameObjectSyncvar
+  fullName: Mirror.GameObjectSyncvar
+  nameWithType: GameObjectSyncvar
+- uid: Mirror.GameObjectSyncvar.Value
+  name: Value
+  href: api/Mirror.GameObjectSyncvar.html#Mirror_GameObjectSyncvar_Value
+  commentId: P:Mirror.GameObjectSyncvar.Value
+  fullName: Mirror.GameObjectSyncvar.Value
+  nameWithType: GameObjectSyncvar.Value
+- uid: Mirror.GameObjectSyncvar.Value*
+  name: Value
+  href: api/Mirror.GameObjectSyncvar.html#Mirror_GameObjectSyncvar_Value_
+  commentId: Overload:Mirror.GameObjectSyncvar.Value
+  isSpec: "True"
+  fullName: Mirror.GameObjectSyncvar.Value
+  nameWithType: GameObjectSyncvar.Value
 - uid: Mirror.HasAuthorityAttribute
   name: HasAuthorityAttribute
   href: api/Mirror.HasAuthorityAttribute.html
