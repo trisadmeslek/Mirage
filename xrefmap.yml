@@ -2211,32 +2211,32 @@ references:
   commentId: T:Mirror.GameObjectSerializers
   fullName: Mirror.GameObjectSerializers
   nameWithType: GameObjectSerializers
-- uid: Mirror.GameObjectSerializers.ReadNetworkIdentity(Mirror.NetworkReader)
-  name: ReadNetworkIdentity(NetworkReader)
-  href: api/Mirror.GameObjectSerializers.html#Mirror_GameObjectSerializers_ReadNetworkIdentity_Mirror_NetworkReader_
-  commentId: M:Mirror.GameObjectSerializers.ReadNetworkIdentity(Mirror.NetworkReader)
-  fullName: Mirror.GameObjectSerializers.ReadNetworkIdentity(Mirror.NetworkReader)
-  nameWithType: GameObjectSerializers.ReadNetworkIdentity(NetworkReader)
-- uid: Mirror.GameObjectSerializers.ReadNetworkIdentity*
-  name: ReadNetworkIdentity
-  href: api/Mirror.GameObjectSerializers.html#Mirror_GameObjectSerializers_ReadNetworkIdentity_
-  commentId: Overload:Mirror.GameObjectSerializers.ReadNetworkIdentity
+- uid: Mirror.GameObjectSerializers.ReadGameObject(Mirror.NetworkReader)
+  name: ReadGameObject(NetworkReader)
+  href: api/Mirror.GameObjectSerializers.html#Mirror_GameObjectSerializers_ReadGameObject_Mirror_NetworkReader_
+  commentId: M:Mirror.GameObjectSerializers.ReadGameObject(Mirror.NetworkReader)
+  fullName: Mirror.GameObjectSerializers.ReadGameObject(Mirror.NetworkReader)
+  nameWithType: GameObjectSerializers.ReadGameObject(NetworkReader)
+- uid: Mirror.GameObjectSerializers.ReadGameObject*
+  name: ReadGameObject
+  href: api/Mirror.GameObjectSerializers.html#Mirror_GameObjectSerializers_ReadGameObject_
+  commentId: Overload:Mirror.GameObjectSerializers.ReadGameObject
   isSpec: "True"
-  fullName: Mirror.GameObjectSerializers.ReadNetworkIdentity
-  nameWithType: GameObjectSerializers.ReadNetworkIdentity
-- uid: Mirror.GameObjectSerializers.WriteNetworkIdentity(Mirror.NetworkWriter,Mirror.GameObjectSyncvar)
-  name: WriteNetworkIdentity(NetworkWriter, GameObjectSyncvar)
-  href: api/Mirror.GameObjectSerializers.html#Mirror_GameObjectSerializers_WriteNetworkIdentity_Mirror_NetworkWriter_Mirror_GameObjectSyncvar_
-  commentId: M:Mirror.GameObjectSerializers.WriteNetworkIdentity(Mirror.NetworkWriter,Mirror.GameObjectSyncvar)
-  fullName: Mirror.GameObjectSerializers.WriteNetworkIdentity(Mirror.NetworkWriter, Mirror.GameObjectSyncvar)
-  nameWithType: GameObjectSerializers.WriteNetworkIdentity(NetworkWriter, GameObjectSyncvar)
-- uid: Mirror.GameObjectSerializers.WriteNetworkIdentity*
-  name: WriteNetworkIdentity
-  href: api/Mirror.GameObjectSerializers.html#Mirror_GameObjectSerializers_WriteNetworkIdentity_
-  commentId: Overload:Mirror.GameObjectSerializers.WriteNetworkIdentity
+  fullName: Mirror.GameObjectSerializers.ReadGameObject
+  nameWithType: GameObjectSerializers.ReadGameObject
+- uid: Mirror.GameObjectSerializers.WriteGameObject(Mirror.NetworkWriter,Mirror.GameObjectSyncvar)
+  name: WriteGameObject(NetworkWriter, GameObjectSyncvar)
+  href: api/Mirror.GameObjectSerializers.html#Mirror_GameObjectSerializers_WriteGameObject_Mirror_NetworkWriter_Mirror_GameObjectSyncvar_
+  commentId: M:Mirror.GameObjectSerializers.WriteGameObject(Mirror.NetworkWriter,Mirror.GameObjectSyncvar)
+  fullName: Mirror.GameObjectSerializers.WriteGameObject(Mirror.NetworkWriter, Mirror.GameObjectSyncvar)
+  nameWithType: GameObjectSerializers.WriteGameObject(NetworkWriter, GameObjectSyncvar)
+- uid: Mirror.GameObjectSerializers.WriteGameObject*
+  name: WriteGameObject
+  href: api/Mirror.GameObjectSerializers.html#Mirror_GameObjectSerializers_WriteGameObject_
+  commentId: Overload:Mirror.GameObjectSerializers.WriteGameObject
   isSpec: "True"
-  fullName: Mirror.GameObjectSerializers.WriteNetworkIdentity
-  nameWithType: GameObjectSerializers.WriteNetworkIdentity
+  fullName: Mirror.GameObjectSerializers.WriteGameObject
+  nameWithType: GameObjectSerializers.WriteGameObject
 - uid: Mirror.GameObjectSyncvar
   name: GameObjectSyncvar
   href: api/Mirror.GameObjectSyncvar.html
@@ -4873,32 +4873,32 @@ references:
   commentId: T:Mirror.NetworkBehaviorSerializers
   fullName: Mirror.NetworkBehaviorSerializers
   nameWithType: NetworkBehaviorSerializers
-- uid: Mirror.NetworkBehaviorSerializers.ReadNetworkIdentity(Mirror.NetworkReader)
-  name: ReadNetworkIdentity(NetworkReader)
-  href: api/Mirror.NetworkBehaviorSerializers.html#Mirror_NetworkBehaviorSerializers_ReadNetworkIdentity_Mirror_NetworkReader_
-  commentId: M:Mirror.NetworkBehaviorSerializers.ReadNetworkIdentity(Mirror.NetworkReader)
-  fullName: Mirror.NetworkBehaviorSerializers.ReadNetworkIdentity(Mirror.NetworkReader)
-  nameWithType: NetworkBehaviorSerializers.ReadNetworkIdentity(NetworkReader)
-- uid: Mirror.NetworkBehaviorSerializers.ReadNetworkIdentity*
-  name: ReadNetworkIdentity
-  href: api/Mirror.NetworkBehaviorSerializers.html#Mirror_NetworkBehaviorSerializers_ReadNetworkIdentity_
-  commentId: Overload:Mirror.NetworkBehaviorSerializers.ReadNetworkIdentity
+- uid: Mirror.NetworkBehaviorSerializers.ReadNetworkBehaviour(Mirror.NetworkReader)
+  name: ReadNetworkBehaviour(NetworkReader)
+  href: api/Mirror.NetworkBehaviorSerializers.html#Mirror_NetworkBehaviorSerializers_ReadNetworkBehaviour_Mirror_NetworkReader_
+  commentId: M:Mirror.NetworkBehaviorSerializers.ReadNetworkBehaviour(Mirror.NetworkReader)
+  fullName: Mirror.NetworkBehaviorSerializers.ReadNetworkBehaviour(Mirror.NetworkReader)
+  nameWithType: NetworkBehaviorSerializers.ReadNetworkBehaviour(NetworkReader)
+- uid: Mirror.NetworkBehaviorSerializers.ReadNetworkBehaviour*
+  name: ReadNetworkBehaviour
+  href: api/Mirror.NetworkBehaviorSerializers.html#Mirror_NetworkBehaviorSerializers_ReadNetworkBehaviour_
+  commentId: Overload:Mirror.NetworkBehaviorSerializers.ReadNetworkBehaviour
   isSpec: "True"
-  fullName: Mirror.NetworkBehaviorSerializers.ReadNetworkIdentity
-  nameWithType: NetworkBehaviorSerializers.ReadNetworkIdentity
-- uid: Mirror.NetworkBehaviorSerializers.WriteNetworkIdentity(Mirror.NetworkWriter,Mirror.NetworkBehaviorSyncvar)
-  name: WriteNetworkIdentity(NetworkWriter, NetworkBehaviorSyncvar)
-  href: api/Mirror.NetworkBehaviorSerializers.html#Mirror_NetworkBehaviorSerializers_WriteNetworkIdentity_Mirror_NetworkWriter_Mirror_NetworkBehaviorSyncvar_
-  commentId: M:Mirror.NetworkBehaviorSerializers.WriteNetworkIdentity(Mirror.NetworkWriter,Mirror.NetworkBehaviorSyncvar)
-  fullName: Mirror.NetworkBehaviorSerializers.WriteNetworkIdentity(Mirror.NetworkWriter, Mirror.NetworkBehaviorSyncvar)
-  nameWithType: NetworkBehaviorSerializers.WriteNetworkIdentity(NetworkWriter, NetworkBehaviorSyncvar)
-- uid: Mirror.NetworkBehaviorSerializers.WriteNetworkIdentity*
-  name: WriteNetworkIdentity
-  href: api/Mirror.NetworkBehaviorSerializers.html#Mirror_NetworkBehaviorSerializers_WriteNetworkIdentity_
-  commentId: Overload:Mirror.NetworkBehaviorSerializers.WriteNetworkIdentity
+  fullName: Mirror.NetworkBehaviorSerializers.ReadNetworkBehaviour
+  nameWithType: NetworkBehaviorSerializers.ReadNetworkBehaviour
+- uid: Mirror.NetworkBehaviorSerializers.WriteNetworkBehavior(Mirror.NetworkWriter,Mirror.NetworkBehaviorSyncvar)
+  name: WriteNetworkBehavior(NetworkWriter, NetworkBehaviorSyncvar)
+  href: api/Mirror.NetworkBehaviorSerializers.html#Mirror_NetworkBehaviorSerializers_WriteNetworkBehavior_Mirror_NetworkWriter_Mirror_NetworkBehaviorSyncvar_
+  commentId: M:Mirror.NetworkBehaviorSerializers.WriteNetworkBehavior(Mirror.NetworkWriter,Mirror.NetworkBehaviorSyncvar)
+  fullName: Mirror.NetworkBehaviorSerializers.WriteNetworkBehavior(Mirror.NetworkWriter, Mirror.NetworkBehaviorSyncvar)
+  nameWithType: NetworkBehaviorSerializers.WriteNetworkBehavior(NetworkWriter, NetworkBehaviorSyncvar)
+- uid: Mirror.NetworkBehaviorSerializers.WriteNetworkBehavior*
+  name: WriteNetworkBehavior
+  href: api/Mirror.NetworkBehaviorSerializers.html#Mirror_NetworkBehaviorSerializers_WriteNetworkBehavior_
+  commentId: Overload:Mirror.NetworkBehaviorSerializers.WriteNetworkBehavior
   isSpec: "True"
-  fullName: Mirror.NetworkBehaviorSerializers.WriteNetworkIdentity
-  nameWithType: NetworkBehaviorSerializers.WriteNetworkIdentity
+  fullName: Mirror.NetworkBehaviorSerializers.WriteNetworkBehavior
+  nameWithType: NetworkBehaviorSerializers.WriteNetworkBehavior
 - uid: Mirror.NetworkBehaviorSyncvar
   name: NetworkBehaviorSyncvar
   href: api/Mirror.NetworkBehaviorSyncvar.html
