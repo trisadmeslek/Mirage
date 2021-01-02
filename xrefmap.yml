@@ -8895,6 +8895,35 @@ references:
   isSpec: "True"
   fullName: Mirror.RemoteCalls.RemoteCallHelper.GetDelegate
   nameWithType: RemoteCallHelper.GetDelegate
+- uid: Mirror.RemoteCalls.RemoteCallHelper.RegisterDelegate(Type,System.String,Mirror.MirrorInvokeType,Mirror.RemoteCalls.CmdDelegate,System.Boolean)
+  name: RegisterDelegate(Type, String, MirrorInvokeType, CmdDelegate, Boolean)
+  href: api/Mirror.RemoteCalls.RemoteCallHelper.html#Mirror_RemoteCalls_RemoteCallHelper_RegisterDelegate_Type_System_String_Mirror_MirrorInvokeType_Mirror_RemoteCalls_CmdDelegate_System_Boolean_
+  commentId: M:Mirror.RemoteCalls.RemoteCallHelper.RegisterDelegate(Type,System.String,Mirror.MirrorInvokeType,Mirror.RemoteCalls.CmdDelegate,System.Boolean)
+  fullName: Mirror.RemoteCalls.RemoteCallHelper.RegisterDelegate(Type, System.String, Mirror.MirrorInvokeType, Mirror.RemoteCalls.CmdDelegate, System.Boolean)
+  nameWithType: RemoteCallHelper.RegisterDelegate(Type, String, MirrorInvokeType, CmdDelegate, Boolean)
+- uid: Mirror.RemoteCalls.RemoteCallHelper.RegisterDelegate*
+  name: RegisterDelegate
+  href: api/Mirror.RemoteCalls.RemoteCallHelper.html#Mirror_RemoteCalls_RemoteCallHelper_RegisterDelegate_
+  commentId: Overload:Mirror.RemoteCalls.RemoteCallHelper.RegisterDelegate
+  isSpec: "True"
+  fullName: Mirror.RemoteCalls.RemoteCallHelper.RegisterDelegate
+  nameWithType: RemoteCallHelper.RegisterDelegate
+- uid: Mirror.RemoteCalls.RemoteCallHelper.RegisterRequestDelegate*
+  name: RegisterRequestDelegate
+  href: api/Mirror.RemoteCalls.RemoteCallHelper.html#Mirror_RemoteCalls_RemoteCallHelper_RegisterRequestDelegate_
+  commentId: Overload:Mirror.RemoteCalls.RemoteCallHelper.RegisterRequestDelegate
+  isSpec: "True"
+  fullName: Mirror.RemoteCalls.RemoteCallHelper.RegisterRequestDelegate
+  nameWithType: RemoteCallHelper.RegisterRequestDelegate
+- uid: Mirror.RemoteCalls.RemoteCallHelper.RegisterRequestDelegate``1(Type,System.String,Mirror.RemoteCalls.RequestDelegate{``0},System.Boolean)
+  name: RegisterRequestDelegate<T>(Type, String, RequestDelegate<T>, Boolean)
+  href: api/Mirror.RemoteCalls.RemoteCallHelper.html#Mirror_RemoteCalls_RemoteCallHelper_RegisterRequestDelegate__1_Type_System_String_Mirror_RemoteCalls_RequestDelegate___0__System_Boolean_
+  commentId: M:Mirror.RemoteCalls.RemoteCallHelper.RegisterRequestDelegate``1(Type,System.String,Mirror.RemoteCalls.RequestDelegate{``0},System.Boolean)
+  name.vb: RegisterRequestDelegate(Of T)(Type, String, RequestDelegate(Of T), Boolean)
+  fullName: Mirror.RemoteCalls.RemoteCallHelper.RegisterRequestDelegate<T>(Type, System.String, Mirror.RemoteCalls.RequestDelegate<T>, System.Boolean)
+  fullName.vb: Mirror.RemoteCalls.RemoteCallHelper.RegisterRequestDelegate(Of T)(Type, System.String, Mirror.RemoteCalls.RequestDelegate(Of T), System.Boolean)
+  nameWithType: RemoteCallHelper.RegisterRequestDelegate<T>(Type, String, RequestDelegate<T>, Boolean)
+  nameWithType.vb: RemoteCallHelper.RegisterRequestDelegate(Of T)(Type, String, RequestDelegate(Of T), Boolean)
 - uid: Mirror.RemoteCalls.RemoteCallHelper.RegisterRpcDelegate(Type,System.String,Mirror.RemoteCalls.CmdDelegate)
   name: RegisterRpcDelegate(Type, String, CmdDelegate)
   href: api/Mirror.RemoteCalls.RemoteCallHelper.html#Mirror_RemoteCalls_RemoteCallHelper_RegisterRpcDelegate_Type_System_String_Mirror_RemoteCalls_CmdDelegate_
