@@ -6630,6 +6630,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkReaderExtensions.ReadDouble
   nameWithType: NetworkReaderExtensions.ReadDouble
+- uid: Mirror.NetworkReaderExtensions.ReadGameObject(Mirror.NetworkReader)
+  name: ReadGameObject(NetworkReader)
+  href: api/Mirror.NetworkReaderExtensions.html#Mirror_NetworkReaderExtensions_ReadGameObject_Mirror_NetworkReader_
+  commentId: M:Mirror.NetworkReaderExtensions.ReadGameObject(Mirror.NetworkReader)
+  fullName: Mirror.NetworkReaderExtensions.ReadGameObject(Mirror.NetworkReader)
+  nameWithType: NetworkReaderExtensions.ReadGameObject(NetworkReader)
+- uid: Mirror.NetworkReaderExtensions.ReadGameObject*
+  name: ReadGameObject
+  href: api/Mirror.NetworkReaderExtensions.html#Mirror_NetworkReaderExtensions_ReadGameObject_
+  commentId: Overload:Mirror.NetworkReaderExtensions.ReadGameObject
+  isSpec: "True"
+  fullName: Mirror.NetworkReaderExtensions.ReadGameObject
+  nameWithType: NetworkReaderExtensions.ReadGameObject
 - uid: Mirror.NetworkReaderExtensions.ReadGuid(Mirror.NetworkReader)
   name: ReadGuid(NetworkReader)
   href: api/Mirror.NetworkReaderExtensions.html#Mirror_NetworkReaderExtensions_ReadGuid_Mirror_NetworkReader_
@@ -6711,6 +6724,28 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkReaderExtensions.ReadMatrix4x4
   nameWithType: NetworkReaderExtensions.ReadMatrix4x4
+- uid: Mirror.NetworkReaderExtensions.ReadNetworkBehaviour(Mirror.NetworkReader)
+  name: ReadNetworkBehaviour(NetworkReader)
+  href: api/Mirror.NetworkReaderExtensions.html#Mirror_NetworkReaderExtensions_ReadNetworkBehaviour_Mirror_NetworkReader_
+  commentId: M:Mirror.NetworkReaderExtensions.ReadNetworkBehaviour(Mirror.NetworkReader)
+  fullName: Mirror.NetworkReaderExtensions.ReadNetworkBehaviour(Mirror.NetworkReader)
+  nameWithType: NetworkReaderExtensions.ReadNetworkBehaviour(NetworkReader)
+- uid: Mirror.NetworkReaderExtensions.ReadNetworkBehaviour*
+  name: ReadNetworkBehaviour
+  href: api/Mirror.NetworkReaderExtensions.html#Mirror_NetworkReaderExtensions_ReadNetworkBehaviour_
+  commentId: Overload:Mirror.NetworkReaderExtensions.ReadNetworkBehaviour
+  isSpec: "True"
+  fullName: Mirror.NetworkReaderExtensions.ReadNetworkBehaviour
+  nameWithType: NetworkReaderExtensions.ReadNetworkBehaviour
+- uid: Mirror.NetworkReaderExtensions.ReadNetworkBehaviour``1(Mirror.NetworkReader)
+  name: ReadNetworkBehaviour<T>(NetworkReader)
+  href: api/Mirror.NetworkReaderExtensions.html#Mirror_NetworkReaderExtensions_ReadNetworkBehaviour__1_Mirror_NetworkReader_
+  commentId: M:Mirror.NetworkReaderExtensions.ReadNetworkBehaviour``1(Mirror.NetworkReader)
+  name.vb: ReadNetworkBehaviour(Of T)(NetworkReader)
+  fullName: Mirror.NetworkReaderExtensions.ReadNetworkBehaviour<T>(Mirror.NetworkReader)
+  fullName.vb: Mirror.NetworkReaderExtensions.ReadNetworkBehaviour(Of T)(Mirror.NetworkReader)
+  nameWithType: NetworkReaderExtensions.ReadNetworkBehaviour<T>(NetworkReader)
+  nameWithType.vb: NetworkReaderExtensions.ReadNetworkBehaviour(Of T)(NetworkReader)
 - uid: Mirror.NetworkReaderExtensions.ReadNetworkIdentity(Mirror.NetworkReader)
   name: ReadNetworkIdentity(NetworkReader)
   href: api/Mirror.NetworkReaderExtensions.html#Mirror_NetworkReaderExtensions_ReadNetworkIdentity_Mirror_NetworkReader_
@@ -8175,6 +8210,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkWriterExtensions.WriteDouble
   nameWithType: NetworkWriterExtensions.WriteDouble
+- uid: Mirror.NetworkWriterExtensions.WriteGameObject(Mirror.NetworkWriter,GameObject)
+  name: WriteGameObject(NetworkWriter, GameObject)
+  href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteGameObject_Mirror_NetworkWriter_GameObject_
+  commentId: M:Mirror.NetworkWriterExtensions.WriteGameObject(Mirror.NetworkWriter,GameObject)
+  fullName: Mirror.NetworkWriterExtensions.WriteGameObject(Mirror.NetworkWriter, GameObject)
+  nameWithType: NetworkWriterExtensions.WriteGameObject(NetworkWriter, GameObject)
+- uid: Mirror.NetworkWriterExtensions.WriteGameObject*
+  name: WriteGameObject
+  href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteGameObject_
+  commentId: Overload:Mirror.NetworkWriterExtensions.WriteGameObject
+  isSpec: "True"
+  fullName: Mirror.NetworkWriterExtensions.WriteGameObject
+  nameWithType: NetworkWriterExtensions.WriteGameObject
 - uid: Mirror.NetworkWriterExtensions.WriteGuid(Mirror.NetworkWriter,Guid)
   name: WriteGuid(NetworkWriter, Guid)
   href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteGuid_Mirror_NetworkWriter_Guid_
@@ -8230,6 +8278,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkWriterExtensions.WriteMatrix4X4
   nameWithType: NetworkWriterExtensions.WriteMatrix4X4
+- uid: Mirror.NetworkWriterExtensions.WriteNetworkBehaviour(Mirror.NetworkWriter,Mirror.NetworkBehaviour)
+  name: WriteNetworkBehaviour(NetworkWriter, NetworkBehaviour)
+  href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteNetworkBehaviour_Mirror_NetworkWriter_Mirror_NetworkBehaviour_
+  commentId: M:Mirror.NetworkWriterExtensions.WriteNetworkBehaviour(Mirror.NetworkWriter,Mirror.NetworkBehaviour)
+  fullName: Mirror.NetworkWriterExtensions.WriteNetworkBehaviour(Mirror.NetworkWriter, Mirror.NetworkBehaviour)
+  nameWithType: NetworkWriterExtensions.WriteNetworkBehaviour(NetworkWriter, NetworkBehaviour)
+- uid: Mirror.NetworkWriterExtensions.WriteNetworkBehaviour*
+  name: WriteNetworkBehaviour
+  href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteNetworkBehaviour_
+  commentId: Overload:Mirror.NetworkWriterExtensions.WriteNetworkBehaviour
+  isSpec: "True"
+  fullName: Mirror.NetworkWriterExtensions.WriteNetworkBehaviour
+  nameWithType: NetworkWriterExtensions.WriteNetworkBehaviour
 - uid: Mirror.NetworkWriterExtensions.WriteNetworkIdentity(Mirror.NetworkWriter,Mirror.NetworkIdentity)
   name: WriteNetworkIdentity(NetworkWriter, NetworkIdentity)
   href: api/Mirror.NetworkWriterExtensions.html#Mirror_NetworkWriterExtensions_WriteNetworkIdentity_Mirror_NetworkWriter_Mirror_NetworkIdentity_
