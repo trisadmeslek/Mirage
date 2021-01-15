@@ -5801,19 +5801,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkIdentity.RemoveClientAuthority
   nameWithType: NetworkIdentity.RemoveClientAuthority
-- uid: Mirror.NetworkIdentity.ResetNextNetworkId
-  name: ResetNextNetworkId()
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_ResetNextNetworkId
-  commentId: M:Mirror.NetworkIdentity.ResetNextNetworkId
-  fullName: Mirror.NetworkIdentity.ResetNextNetworkId()
-  nameWithType: NetworkIdentity.ResetNextNetworkId()
-- uid: Mirror.NetworkIdentity.ResetNextNetworkId*
-  name: ResetNextNetworkId
-  href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_ResetNextNetworkId_
-  commentId: Overload:Mirror.NetworkIdentity.ResetNextNetworkId
-  isSpec: "True"
-  fullName: Mirror.NetworkIdentity.ResetNextNetworkId
-  nameWithType: NetworkIdentity.ResetNextNetworkId
 - uid: Mirror.NetworkIdentity.sceneId
   name: sceneId
   href: api/Mirror.NetworkIdentity.html#Mirror_NetworkIdentity_sceneId
