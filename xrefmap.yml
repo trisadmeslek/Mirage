@@ -5028,6 +5028,12 @@ references:
   commentId: M:Mirror.NetworkClient.ConnectAsync(System.String)
   fullName: Mirror.NetworkClient.ConnectAsync(System.String)
   nameWithType: NetworkClient.ConnectAsync(String)
+- uid: Mirror.NetworkClient.ConnectAsync(System.String,System.UInt16)
+  name: ConnectAsync(String, UInt16)
+  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_ConnectAsync_System_String_System_UInt16_
+  commentId: M:Mirror.NetworkClient.ConnectAsync(System.String,System.UInt16)
+  fullName: Mirror.NetworkClient.ConnectAsync(System.String, System.UInt16)
+  nameWithType: NetworkClient.ConnectAsync(String, UInt16)
 - uid: Mirror.NetworkClient.ConnectAsync(Uri)
   name: ConnectAsync(Uri)
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_ConnectAsync_Uri_
