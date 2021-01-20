@@ -8657,6 +8657,36 @@ references:
   isSpec: "True"
   fullName: Mirror.ObjectReady.SetClientReady
   nameWithType: ObjectReady.SetClientReady
+- uid: Mirror.OnlineOfflineScene
+  name: OnlineOfflineScene
+  href: api/Mirror.OnlineOfflineScene.html
+  commentId: T:Mirror.OnlineOfflineScene
+  fullName: Mirror.OnlineOfflineScene
+  nameWithType: OnlineOfflineScene
+- uid: Mirror.OnlineOfflineScene.client
+  name: client
+  href: api/Mirror.OnlineOfflineScene.html#Mirror_OnlineOfflineScene_client
+  commentId: F:Mirror.OnlineOfflineScene.client
+  fullName: Mirror.OnlineOfflineScene.client
+  nameWithType: OnlineOfflineScene.client
+- uid: Mirror.OnlineOfflineScene.OfflineScene
+  name: OfflineScene
+  href: api/Mirror.OnlineOfflineScene.html#Mirror_OnlineOfflineScene_OfflineScene
+  commentId: F:Mirror.OnlineOfflineScene.OfflineScene
+  fullName: Mirror.OnlineOfflineScene.OfflineScene
+  nameWithType: OnlineOfflineScene.OfflineScene
+- uid: Mirror.OnlineOfflineScene.OnlineScene
+  name: OnlineScene
+  href: api/Mirror.OnlineOfflineScene.html#Mirror_OnlineOfflineScene_OnlineScene
+  commentId: F:Mirror.OnlineOfflineScene.OnlineScene
+  fullName: Mirror.OnlineOfflineScene.OnlineScene
+  nameWithType: OnlineOfflineScene.OnlineScene
+- uid: Mirror.OnlineOfflineScene.server
+  name: server
+  href: api/Mirror.OnlineOfflineScene.html#Mirror_OnlineOfflineScene_server
+  commentId: F:Mirror.OnlineOfflineScene.server
+  fullName: Mirror.OnlineOfflineScene.server
+  nameWithType: OnlineOfflineScene.server
 - uid: Mirror.PipeConnection
   name: PipeConnection
   href: api/Mirror.PipeConnection.html
