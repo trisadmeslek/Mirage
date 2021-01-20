@@ -7495,12 +7495,12 @@ references:
   commentId: F:Mirror.NetworkServer.Time
   fullName: Mirror.NetworkServer.Time
   nameWithType: NetworkServer.Time
-- uid: Mirror.NetworkServer.transport
-  name: transport
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_transport
-  commentId: F:Mirror.NetworkServer.transport
-  fullName: Mirror.NetworkServer.transport
-  nameWithType: NetworkServer.transport
+- uid: Mirror.NetworkServer.Transport
+  name: Transport
+  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Transport
+  commentId: F:Mirror.NetworkServer.Transport
+  fullName: Mirror.NetworkServer.Transport
+  nameWithType: NetworkServer.Transport
 - uid: Mirror.NetworkTime
   name: NetworkTime
   href: api/Mirror.NetworkTime.html
