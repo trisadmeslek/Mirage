@@ -3709,6 +3709,19 @@ references:
   commentId: F:Mirror.KCP.KcpTransport.Port
   fullName: Mirror.KCP.KcpTransport.Port
   nameWithType: KcpTransport.Port
+- uid: Mirror.KCP.KcpTransport.ReceivedBytes
+  name: ReceivedBytes
+  href: api/Mirror.KCP.KcpTransport.html#Mirror_KCP_KcpTransport_ReceivedBytes
+  commentId: P:Mirror.KCP.KcpTransport.ReceivedBytes
+  fullName: Mirror.KCP.KcpTransport.ReceivedBytes
+  nameWithType: KcpTransport.ReceivedBytes
+- uid: Mirror.KCP.KcpTransport.ReceivedBytes*
+  name: ReceivedBytes
+  href: api/Mirror.KCP.KcpTransport.html#Mirror_KCP_KcpTransport_ReceivedBytes_
+  commentId: Overload:Mirror.KCP.KcpTransport.ReceivedBytes
+  isSpec: "True"
+  fullName: Mirror.KCP.KcpTransport.ReceivedBytes
+  nameWithType: KcpTransport.ReceivedBytes
 - uid: Mirror.KCP.KcpTransport.ReceivedMessageCount
   name: ReceivedMessageCount
   href: api/Mirror.KCP.KcpTransport.html#Mirror_KCP_KcpTransport_ReceivedMessageCount
@@ -3747,6 +3760,19 @@ references:
   commentId: F:Mirror.KCP.KcpTransport.SendWindowSize
   fullName: Mirror.KCP.KcpTransport.SendWindowSize
   nameWithType: KcpTransport.SendWindowSize
+- uid: Mirror.KCP.KcpTransport.SentBytes
+  name: SentBytes
+  href: api/Mirror.KCP.KcpTransport.html#Mirror_KCP_KcpTransport_SentBytes
+  commentId: P:Mirror.KCP.KcpTransport.SentBytes
+  fullName: Mirror.KCP.KcpTransport.SentBytes
+  nameWithType: KcpTransport.SentBytes
+- uid: Mirror.KCP.KcpTransport.SentBytes*
+  name: SentBytes
+  href: api/Mirror.KCP.KcpTransport.html#Mirror_KCP_KcpTransport_SentBytes_
+  commentId: Overload:Mirror.KCP.KcpTransport.SentBytes
+  isSpec: "True"
+  fullName: Mirror.KCP.KcpTransport.SentBytes
+  nameWithType: KcpTransport.SentBytes
 - uid: Mirror.KCP.KcpTransport.ServerUri
   name: ServerUri()
   href: api/Mirror.KCP.KcpTransport.html#Mirror_KCP_KcpTransport_ServerUri
@@ -11328,6 +11354,19 @@ references:
   isSpec: "True"
   fullName: Mirror.Transport.ListenAsync
   nameWithType: Transport.ListenAsync
+- uid: Mirror.Transport.ReceivedBytes
+  name: ReceivedBytes
+  href: api/Mirror.Transport.html#Mirror_Transport_ReceivedBytes
+  commentId: P:Mirror.Transport.ReceivedBytes
+  fullName: Mirror.Transport.ReceivedBytes
+  nameWithType: Transport.ReceivedBytes
+- uid: Mirror.Transport.ReceivedBytes*
+  name: ReceivedBytes
+  href: api/Mirror.Transport.html#Mirror_Transport_ReceivedBytes_
+  commentId: Overload:Mirror.Transport.ReceivedBytes
+  isSpec: "True"
+  fullName: Mirror.Transport.ReceivedBytes
+  nameWithType: Transport.ReceivedBytes
 - uid: Mirror.Transport.Scheme
   name: Scheme
   href: api/Mirror.Transport.html#Mirror_Transport_Scheme
@@ -11341,6 +11380,19 @@ references:
   isSpec: "True"
   fullName: Mirror.Transport.Scheme
   nameWithType: Transport.Scheme
+- uid: Mirror.Transport.SentBytes
+  name: SentBytes
+  href: api/Mirror.Transport.html#Mirror_Transport_SentBytes
+  commentId: P:Mirror.Transport.SentBytes
+  fullName: Mirror.Transport.SentBytes
+  nameWithType: Transport.SentBytes
+- uid: Mirror.Transport.SentBytes*
+  name: SentBytes
+  href: api/Mirror.Transport.html#Mirror_Transport_SentBytes_
+  commentId: Overload:Mirror.Transport.SentBytes
+  isSpec: "True"
+  fullName: Mirror.Transport.SentBytes
+  nameWithType: Transport.SentBytes
 - uid: Mirror.Transport.ServerUri
   name: ServerUri()
   href: api/Mirror.Transport.html#Mirror_Transport_ServerUri
