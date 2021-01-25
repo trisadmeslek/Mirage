@@ -9159,6 +9159,77 @@ references:
   commentId: T:Mirror.SceneReadyMessage
   fullName: Mirror.SceneReadyMessage
   nameWithType: SceneReadyMessage
+- uid: Mirror.Sequencer
+  name: Sequencer
+  href: api/Mirror.Sequencer.html
+  commentId: T:Mirror.Sequencer
+  fullName: Mirror.Sequencer
+  nameWithType: Sequencer
+- uid: Mirror.Sequencer.#ctor(System.Int32)
+  name: Sequencer(Int32)
+  href: api/Mirror.Sequencer.html#Mirror_Sequencer__ctor_System_Int32_
+  commentId: M:Mirror.Sequencer.#ctor(System.Int32)
+  fullName: Mirror.Sequencer.Sequencer(System.Int32)
+  nameWithType: Sequencer.Sequencer(Int32)
+- uid: Mirror.Sequencer.#ctor*
+  name: Sequencer
+  href: api/Mirror.Sequencer.html#Mirror_Sequencer__ctor_
+  commentId: Overload:Mirror.Sequencer.#ctor
+  isSpec: "True"
+  fullName: Mirror.Sequencer.Sequencer
+  nameWithType: Sequencer.Sequencer
+- uid: Mirror.Sequencer.Bits
+  name: Bits
+  href: api/Mirror.Sequencer.html#Mirror_Sequencer_Bits
+  commentId: P:Mirror.Sequencer.Bits
+  fullName: Mirror.Sequencer.Bits
+  nameWithType: Sequencer.Bits
+- uid: Mirror.Sequencer.Bits*
+  name: Bits
+  href: api/Mirror.Sequencer.html#Mirror_Sequencer_Bits_
+  commentId: Overload:Mirror.Sequencer.Bits
+  isSpec: "True"
+  fullName: Mirror.Sequencer.Bits
+  nameWithType: Sequencer.Bits
+- uid: Mirror.Sequencer.Distance(System.UInt64,System.UInt64)
+  name: Distance(UInt64, UInt64)
+  href: api/Mirror.Sequencer.html#Mirror_Sequencer_Distance_System_UInt64_System_UInt64_
+  commentId: M:Mirror.Sequencer.Distance(System.UInt64,System.UInt64)
+  fullName: Mirror.Sequencer.Distance(System.UInt64, System.UInt64)
+  nameWithType: Sequencer.Distance(UInt64, UInt64)
+- uid: Mirror.Sequencer.Distance*
+  name: Distance
+  href: api/Mirror.Sequencer.html#Mirror_Sequencer_Distance_
+  commentId: Overload:Mirror.Sequencer.Distance
+  isSpec: "True"
+  fullName: Mirror.Sequencer.Distance
+  nameWithType: Sequencer.Distance
+- uid: Mirror.Sequencer.Next
+  name: Next()
+  href: api/Mirror.Sequencer.html#Mirror_Sequencer_Next
+  commentId: M:Mirror.Sequencer.Next
+  fullName: Mirror.Sequencer.Next()
+  nameWithType: Sequencer.Next()
+- uid: Mirror.Sequencer.Next*
+  name: Next
+  href: api/Mirror.Sequencer.html#Mirror_Sequencer_Next_
+  commentId: Overload:Mirror.Sequencer.Next
+  isSpec: "True"
+  fullName: Mirror.Sequencer.Next
+  nameWithType: Sequencer.Next
+- uid: Mirror.Sequencer.NextAfter(System.UInt64)
+  name: NextAfter(UInt64)
+  href: api/Mirror.Sequencer.html#Mirror_Sequencer_NextAfter_System_UInt64_
+  commentId: M:Mirror.Sequencer.NextAfter(System.UInt64)
+  fullName: Mirror.Sequencer.NextAfter(System.UInt64)
+  nameWithType: Sequencer.NextAfter(UInt64)
+- uid: Mirror.Sequencer.NextAfter*
+  name: NextAfter
+  href: api/Mirror.Sequencer.html#Mirror_Sequencer_NextAfter_
+  commentId: Overload:Mirror.Sequencer.NextAfter
+  isSpec: "True"
+  fullName: Mirror.Sequencer.NextAfter
+  nameWithType: Sequencer.NextAfter
 - uid: Mirror.ServerAttribute
   name: ServerAttribute
   href: api/Mirror.ServerAttribute.html
