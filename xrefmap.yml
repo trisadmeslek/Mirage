@@ -2159,6 +2159,18 @@ references:
   isSpec: "True"
   fullName: Mirror.IMessageHandler.ClearHandlers
   nameWithType: IMessageHandler.ClearHandlers
+- uid: Mirror.IMessageHandler.NotifyDelivered
+  name: NotifyDelivered
+  href: api/Mirror.IMessageHandler.html#Mirror_IMessageHandler_NotifyDelivered
+  commentId: E:Mirror.IMessageHandler.NotifyDelivered
+  fullName: Mirror.IMessageHandler.NotifyDelivered
+  nameWithType: IMessageHandler.NotifyDelivered
+- uid: Mirror.IMessageHandler.NotifyLost
+  name: NotifyLost
+  href: api/Mirror.IMessageHandler.html#Mirror_IMessageHandler_NotifyLost
+  commentId: E:Mirror.IMessageHandler.NotifyLost
+  fullName: Mirror.IMessageHandler.NotifyLost
+  nameWithType: IMessageHandler.NotifyLost
 - uid: Mirror.IMessageHandler.ProcessMessagesAsync
   name: ProcessMessagesAsync()
   href: api/Mirror.IMessageHandler.html#Mirror_IMessageHandler_ProcessMessagesAsync
@@ -2238,6 +2250,22 @@ references:
   fullName.vb: Mirror.IMessageHandler.SendAsync(Of T)(T, System.Int32)
   nameWithType: IMessageHandler.SendAsync<T>(T, Int32)
   nameWithType.vb: IMessageHandler.SendAsync(Of T)(T, Int32)
+- uid: Mirror.IMessageHandler.SendNotify*
+  name: SendNotify
+  href: api/Mirror.IMessageHandler.html#Mirror_IMessageHandler_SendNotify_
+  commentId: Overload:Mirror.IMessageHandler.SendNotify
+  isSpec: "True"
+  fullName: Mirror.IMessageHandler.SendNotify
+  nameWithType: IMessageHandler.SendNotify
+- uid: Mirror.IMessageHandler.SendNotify``1(``0,System.Object,System.Int32)
+  name: SendNotify<T>(T, Object, Int32)
+  href: api/Mirror.IMessageHandler.html#Mirror_IMessageHandler_SendNotify__1___0_System_Object_System_Int32_
+  commentId: M:Mirror.IMessageHandler.SendNotify``1(``0,System.Object,System.Int32)
+  name.vb: SendNotify(Of T)(T, Object, Int32)
+  fullName: Mirror.IMessageHandler.SendNotify<T>(T, System.Object, System.Int32)
+  fullName.vb: Mirror.IMessageHandler.SendNotify(Of T)(T, System.Object, System.Int32)
+  nameWithType: IMessageHandler.SendNotify<T>(T, Object, Int32)
+  nameWithType.vb: IMessageHandler.SendNotify(Of T)(T, Object, Int32)
 - uid: Mirror.IMessageHandler.UnregisterHandler*
   name: UnregisterHandler
   href: api/Mirror.IMessageHandler.html#Mirror_IMessageHandler_UnregisterHandler_
@@ -5356,6 +5384,18 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkConnection.IsReady
   nameWithType: NetworkConnection.IsReady
+- uid: Mirror.NetworkConnection.NotifyDelivered
+  name: NotifyDelivered
+  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_NotifyDelivered
+  commentId: E:Mirror.NetworkConnection.NotifyDelivered
+  fullName: Mirror.NetworkConnection.NotifyDelivered
+  nameWithType: NetworkConnection.NotifyDelivered
+- uid: Mirror.NetworkConnection.NotifyLost
+  name: NotifyLost
+  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_NotifyLost
+  commentId: E:Mirror.NetworkConnection.NotifyLost
+  fullName: Mirror.NetworkConnection.NotifyLost
+  nameWithType: NetworkConnection.NotifyLost
 - uid: Mirror.NetworkConnection.ProcessMessagesAsync
   name: ProcessMessagesAsync()
   href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_ProcessMessagesAsync
@@ -5483,6 +5523,22 @@ references:
   fullName.vb: Mirror.NetworkConnection.SendAsync(Of T)(T, System.Int32)
   nameWithType: NetworkConnection.SendAsync<T>(T, Int32)
   nameWithType.vb: NetworkConnection.SendAsync(Of T)(T, Int32)
+- uid: Mirror.NetworkConnection.SendNotify*
+  name: SendNotify
+  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_SendNotify_
+  commentId: Overload:Mirror.NetworkConnection.SendNotify
+  isSpec: "True"
+  fullName: Mirror.NetworkConnection.SendNotify
+  nameWithType: NetworkConnection.SendNotify
+- uid: Mirror.NetworkConnection.SendNotify``1(``0,System.Object,System.Int32)
+  name: SendNotify<T>(T, Object, Int32)
+  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_SendNotify__1___0_System_Object_System_Int32_
+  commentId: M:Mirror.NetworkConnection.SendNotify``1(``0,System.Object,System.Int32)
+  name.vb: SendNotify(Of T)(T, Object, Int32)
+  fullName: Mirror.NetworkConnection.SendNotify<T>(T, System.Object, System.Int32)
+  fullName.vb: Mirror.NetworkConnection.SendNotify(Of T)(T, System.Object, System.Int32)
+  nameWithType: NetworkConnection.SendNotify<T>(T, Object, Int32)
+  nameWithType.vb: NetworkConnection.SendNotify(Of T)(T, Object, Int32)
 - uid: Mirror.NetworkConnection.ToString
   name: ToString()
   href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_ToString
@@ -8602,6 +8658,62 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkWriterPool.Recycle
   nameWithType: NetworkWriterPool.Recycle
+- uid: Mirror.NotifyPacket
+  name: NotifyPacket
+  href: api/Mirror.NotifyPacket.html
+  commentId: T:Mirror.NotifyPacket
+  fullName: Mirror.NotifyPacket
+  nameWithType: NotifyPacket
+- uid: Mirror.NotifyPacket.AckMask
+  name: AckMask
+  href: api/Mirror.NotifyPacket.html#Mirror_NotifyPacket_AckMask
+  commentId: F:Mirror.NotifyPacket.AckMask
+  fullName: Mirror.NotifyPacket.AckMask
+  nameWithType: NotifyPacket.AckMask
+- uid: Mirror.NotifyPacket.ReceiveSequence
+  name: ReceiveSequence
+  href: api/Mirror.NotifyPacket.html#Mirror_NotifyPacket_ReceiveSequence
+  commentId: F:Mirror.NotifyPacket.ReceiveSequence
+  fullName: Mirror.NotifyPacket.ReceiveSequence
+  nameWithType: NotifyPacket.ReceiveSequence
+- uid: Mirror.NotifyPacket.Sequence
+  name: Sequence
+  href: api/Mirror.NotifyPacket.html#Mirror_NotifyPacket_Sequence
+  commentId: F:Mirror.NotifyPacket.Sequence
+  fullName: Mirror.NotifyPacket.Sequence
+  nameWithType: NotifyPacket.Sequence
+- uid: Mirror.NotifyPacketSerializer
+  name: NotifyPacketSerializer
+  href: api/Mirror.NotifyPacketSerializer.html
+  commentId: T:Mirror.NotifyPacketSerializer
+  fullName: Mirror.NotifyPacketSerializer
+  nameWithType: NotifyPacketSerializer
+- uid: Mirror.NotifyPacketSerializer.ReadNotifyPacket(Mirror.NetworkReader)
+  name: ReadNotifyPacket(NetworkReader)
+  href: api/Mirror.NotifyPacketSerializer.html#Mirror_NotifyPacketSerializer_ReadNotifyPacket_Mirror_NetworkReader_
+  commentId: M:Mirror.NotifyPacketSerializer.ReadNotifyPacket(Mirror.NetworkReader)
+  fullName: Mirror.NotifyPacketSerializer.ReadNotifyPacket(Mirror.NetworkReader)
+  nameWithType: NotifyPacketSerializer.ReadNotifyPacket(NetworkReader)
+- uid: Mirror.NotifyPacketSerializer.ReadNotifyPacket*
+  name: ReadNotifyPacket
+  href: api/Mirror.NotifyPacketSerializer.html#Mirror_NotifyPacketSerializer_ReadNotifyPacket_
+  commentId: Overload:Mirror.NotifyPacketSerializer.ReadNotifyPacket
+  isSpec: "True"
+  fullName: Mirror.NotifyPacketSerializer.ReadNotifyPacket
+  nameWithType: NotifyPacketSerializer.ReadNotifyPacket
+- uid: Mirror.NotifyPacketSerializer.WriteNotifyPacket(Mirror.NetworkWriter,Mirror.NotifyPacket)
+  name: WriteNotifyPacket(NetworkWriter, NotifyPacket)
+  href: api/Mirror.NotifyPacketSerializer.html#Mirror_NotifyPacketSerializer_WriteNotifyPacket_Mirror_NetworkWriter_Mirror_NotifyPacket_
+  commentId: M:Mirror.NotifyPacketSerializer.WriteNotifyPacket(Mirror.NetworkWriter,Mirror.NotifyPacket)
+  fullName: Mirror.NotifyPacketSerializer.WriteNotifyPacket(Mirror.NetworkWriter, Mirror.NotifyPacket)
+  nameWithType: NotifyPacketSerializer.WriteNotifyPacket(NetworkWriter, NotifyPacket)
+- uid: Mirror.NotifyPacketSerializer.WriteNotifyPacket*
+  name: WriteNotifyPacket
+  href: api/Mirror.NotifyPacketSerializer.html#Mirror_NotifyPacketSerializer_WriteNotifyPacket_
+  commentId: Overload:Mirror.NotifyPacketSerializer.WriteNotifyPacket
+  isSpec: "True"
+  fullName: Mirror.NotifyPacketSerializer.WriteNotifyPacket
+  nameWithType: NotifyPacketSerializer.WriteNotifyPacket
 - uid: Mirror.NotReadyMessage
   name: NotReadyMessage
   href: api/Mirror.NotReadyMessage.html
