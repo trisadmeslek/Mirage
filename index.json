@@ -382,7 +382,7 @@
   "api/Mirror.KCP.KcpDelayMode.html": {
     "href": "api/Mirror.KCP.KcpDelayMode.html",
     "title": "Enum KcpDelayMode",
-    "keywords": "Enum KcpDelayMode Namespace : Mirror.KCP Assembly : doc.dll Syntax public enum KcpDelayMode : int Fields Name Description Fast Fast2 Fast3 Normal"
+    "keywords": "Enum KcpDelayMode Namespace : Mirror.KCP Assembly : doc.dll Syntax public enum KcpDelayMode : int Fields Name Description Fast No Delay Off, 30ms rate, No Fast Resend, Congestion Window Fast2 No Delay ON, 20ms rate, No Fast Resend, Congestion Window Fast3 No Delay ON, 10ms rate, No Fast Resend, Congestion Window Normal No Delay Off, 40ms rate, No Fast Resend, No Congestion Window"
   },
   "api/Mirror.KCP.KcpServerConnection.html": {
     "href": "api/Mirror.KCP.KcpServerConnection.html",
