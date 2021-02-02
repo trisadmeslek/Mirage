@@ -86,12 +86,12 @@ references:
   isSpec: "True"
   fullName: Mirror.ClientObjectManager.ClearSpawners
   nameWithType: ClientObjectManager.ClearSpawners
-- uid: Mirror.ClientObjectManager.client
-  name: client
-  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_client
-  commentId: F:Mirror.ClientObjectManager.client
-  fullName: Mirror.ClientObjectManager.client
-  nameWithType: ClientObjectManager.client
+- uid: Mirror.ClientObjectManager.Client
+  name: Client
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_Client
+  commentId: F:Mirror.ClientObjectManager.Client
+  fullName: Mirror.ClientObjectManager.Client
+  nameWithType: ClientObjectManager.Client
 - uid: Mirror.ClientObjectManager.DestroyAllClientObjects
   name: DestroyAllClientObjects()
   href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_DestroyAllClientObjects
@@ -118,12 +118,12 @@ references:
   isSpec: "True"
   fullName: Mirror.ClientObjectManager.GetPrefab
   nameWithType: ClientObjectManager.GetPrefab
-- uid: Mirror.ClientObjectManager.networkSceneManager
-  name: networkSceneManager
-  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_networkSceneManager
-  commentId: F:Mirror.ClientObjectManager.networkSceneManager
-  fullName: Mirror.ClientObjectManager.networkSceneManager
-  nameWithType: ClientObjectManager.networkSceneManager
+- uid: Mirror.ClientObjectManager.NetworkSceneManager
+  name: NetworkSceneManager
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_NetworkSceneManager
+  commentId: F:Mirror.ClientObjectManager.NetworkSceneManager
+  fullName: Mirror.ClientObjectManager.NetworkSceneManager
+  nameWithType: ClientObjectManager.NetworkSceneManager
 - uid: Mirror.ClientObjectManager.PrepareToSpawnSceneObjects
   name: PrepareToSpawnSceneObjects()
   href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_PrepareToSpawnSceneObjects
@@ -1849,12 +1849,12 @@ references:
   commentId: T:Mirror.HeadlessAutoStart
   fullName: Mirror.HeadlessAutoStart
   nameWithType: HeadlessAutoStart
-- uid: Mirror.HeadlessAutoStart.server
-  name: server
-  href: api/Mirror.HeadlessAutoStart.html#Mirror_HeadlessAutoStart_server
-  commentId: F:Mirror.HeadlessAutoStart.server
-  fullName: Mirror.HeadlessAutoStart.server
-  nameWithType: HeadlessAutoStart.server
+- uid: Mirror.HeadlessAutoStart.Server
+  name: Server
+  href: api/Mirror.HeadlessAutoStart.html#Mirror_HeadlessAutoStart_Server
+  commentId: F:Mirror.HeadlessAutoStart.Server
+  fullName: Mirror.HeadlessAutoStart.Server
+  nameWithType: HeadlessAutoStart.Server
 - uid: Mirror.HeadlessAutoStart.startOnHeadless
   name: startOnHeadless
   href: api/Mirror.HeadlessAutoStart.html#Mirror_HeadlessAutoStart_startOnHeadless
@@ -5997,18 +5997,18 @@ references:
   commentId: T:Mirror.NetworkManager
   fullName: Mirror.NetworkManager
   nameWithType: NetworkManager
-- uid: Mirror.NetworkManager.client
-  name: client
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_client
-  commentId: F:Mirror.NetworkManager.client
-  fullName: Mirror.NetworkManager.client
-  nameWithType: NetworkManager.client
-- uid: Mirror.NetworkManager.clientObjectManager
-  name: clientObjectManager
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_clientObjectManager
-  commentId: F:Mirror.NetworkManager.clientObjectManager
-  fullName: Mirror.NetworkManager.clientObjectManager
-  nameWithType: NetworkManager.clientObjectManager
+- uid: Mirror.NetworkManager.Client
+  name: Client
+  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_Client
+  commentId: F:Mirror.NetworkManager.Client
+  fullName: Mirror.NetworkManager.Client
+  nameWithType: NetworkManager.Client
+- uid: Mirror.NetworkManager.ClientObjectManager
+  name: ClientObjectManager
+  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_ClientObjectManager
+  commentId: F:Mirror.NetworkManager.ClientObjectManager
+  fullName: Mirror.NetworkManager.ClientObjectManager
+  nameWithType: NetworkManager.ClientObjectManager
 - uid: Mirror.NetworkManager.IsNetworkActive
   name: IsNetworkActive
   href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_IsNetworkActive
@@ -6022,24 +6022,24 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkManager.IsNetworkActive
   nameWithType: NetworkManager.IsNetworkActive
-- uid: Mirror.NetworkManager.sceneManager
-  name: sceneManager
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_sceneManager
-  commentId: F:Mirror.NetworkManager.sceneManager
-  fullName: Mirror.NetworkManager.sceneManager
-  nameWithType: NetworkManager.sceneManager
-- uid: Mirror.NetworkManager.server
-  name: server
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_server
-  commentId: F:Mirror.NetworkManager.server
-  fullName: Mirror.NetworkManager.server
-  nameWithType: NetworkManager.server
-- uid: Mirror.NetworkManager.serverObjectManager
-  name: serverObjectManager
-  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_serverObjectManager
-  commentId: F:Mirror.NetworkManager.serverObjectManager
-  fullName: Mirror.NetworkManager.serverObjectManager
-  nameWithType: NetworkManager.serverObjectManager
+- uid: Mirror.NetworkManager.SceneManager
+  name: SceneManager
+  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_SceneManager
+  commentId: F:Mirror.NetworkManager.SceneManager
+  fullName: Mirror.NetworkManager.SceneManager
+  nameWithType: NetworkManager.SceneManager
+- uid: Mirror.NetworkManager.Server
+  name: Server
+  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_Server
+  commentId: F:Mirror.NetworkManager.Server
+  fullName: Mirror.NetworkManager.Server
+  nameWithType: NetworkManager.Server
+- uid: Mirror.NetworkManager.ServerObjectManager
+  name: ServerObjectManager
+  href: api/Mirror.NetworkManager.html#Mirror_NetworkManager_ServerObjectManager
+  commentId: F:Mirror.NetworkManager.ServerObjectManager
+  fullName: Mirror.NetworkManager.ServerObjectManager
+  nameWithType: NetworkManager.ServerObjectManager
 - uid: Mirror.NetworkManagerHud
   name: NetworkManagerHud
   href: api/Mirror.NetworkManagerHud.html
@@ -7224,12 +7224,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkSceneManager.ChangeServerScene
   nameWithType: NetworkSceneManager.ChangeServerScene
-- uid: Mirror.NetworkSceneManager.client
-  name: client
-  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_client
-  commentId: F:Mirror.NetworkSceneManager.client
-  fullName: Mirror.NetworkSceneManager.client
-  nameWithType: NetworkSceneManager.client
+- uid: Mirror.NetworkSceneManager.Client
+  name: Client
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_Client
+  commentId: F:Mirror.NetworkSceneManager.Client
+  fullName: Mirror.NetworkSceneManager.Client
+  nameWithType: NetworkSceneManager.Client
 - uid: Mirror.NetworkSceneManager.ClientChangeScene
   name: ClientChangeScene
   href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_ClientChangeScene
@@ -7261,12 +7261,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkSceneManager.NetworkScenePath
   nameWithType: NetworkSceneManager.NetworkScenePath
-- uid: Mirror.NetworkSceneManager.server
-  name: server
-  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_server
-  commentId: F:Mirror.NetworkSceneManager.server
-  fullName: Mirror.NetworkSceneManager.server
-  nameWithType: NetworkSceneManager.server
+- uid: Mirror.NetworkSceneManager.Server
+  name: Server
+  href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_Server
+  commentId: F:Mirror.NetworkSceneManager.Server
+  fullName: Mirror.NetworkSceneManager.Server
+  nameWithType: NetworkSceneManager.Server
 - uid: Mirror.NetworkSceneManager.ServerChangeScene
   name: ServerChangeScene
   href: api/Mirror.NetworkSceneManager.html#Mirror_NetworkSceneManager_ServerChangeScene
@@ -8801,12 +8801,12 @@ references:
   commentId: T:Mirror.OnlineOfflineScene
   fullName: Mirror.OnlineOfflineScene
   nameWithType: OnlineOfflineScene
-- uid: Mirror.OnlineOfflineScene.client
-  name: client
-  href: api/Mirror.OnlineOfflineScene.html#Mirror_OnlineOfflineScene_client
-  commentId: F:Mirror.OnlineOfflineScene.client
-  fullName: Mirror.OnlineOfflineScene.client
-  nameWithType: OnlineOfflineScene.client
+- uid: Mirror.OnlineOfflineScene.Client
+  name: Client
+  href: api/Mirror.OnlineOfflineScene.html#Mirror_OnlineOfflineScene_Client
+  commentId: F:Mirror.OnlineOfflineScene.Client
+  fullName: Mirror.OnlineOfflineScene.Client
+  nameWithType: OnlineOfflineScene.Client
 - uid: Mirror.OnlineOfflineScene.OfflineScene
   name: OfflineScene
   href: api/Mirror.OnlineOfflineScene.html#Mirror_OnlineOfflineScene_OfflineScene
@@ -8819,12 +8819,12 @@ references:
   commentId: F:Mirror.OnlineOfflineScene.OnlineScene
   fullName: Mirror.OnlineOfflineScene.OnlineScene
   nameWithType: OnlineOfflineScene.OnlineScene
-- uid: Mirror.OnlineOfflineScene.server
-  name: server
-  href: api/Mirror.OnlineOfflineScene.html#Mirror_OnlineOfflineScene_server
-  commentId: F:Mirror.OnlineOfflineScene.server
-  fullName: Mirror.OnlineOfflineScene.server
-  nameWithType: OnlineOfflineScene.server
+- uid: Mirror.OnlineOfflineScene.Server
+  name: Server
+  href: api/Mirror.OnlineOfflineScene.html#Mirror_OnlineOfflineScene_Server
+  commentId: F:Mirror.OnlineOfflineScene.Server
+  fullName: Mirror.OnlineOfflineScene.Server
+  nameWithType: OnlineOfflineScene.Server
 - uid: Mirror.PipeConnection
   name: PipeConnection
   href: api/Mirror.PipeConnection.html
@@ -8905,18 +8905,18 @@ references:
   commentId: T:Mirror.PlayerSpawner
   fullName: Mirror.PlayerSpawner
   nameWithType: PlayerSpawner
-- uid: Mirror.PlayerSpawner.client
-  name: client
-  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_client
-  commentId: F:Mirror.PlayerSpawner.client
-  fullName: Mirror.PlayerSpawner.client
-  nameWithType: PlayerSpawner.client
-- uid: Mirror.PlayerSpawner.clientObjectManager
-  name: clientObjectManager
-  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_clientObjectManager
-  commentId: F:Mirror.PlayerSpawner.clientObjectManager
-  fullName: Mirror.PlayerSpawner.clientObjectManager
-  nameWithType: PlayerSpawner.clientObjectManager
+- uid: Mirror.PlayerSpawner.Client
+  name: Client
+  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_Client
+  commentId: F:Mirror.PlayerSpawner.Client
+  fullName: Mirror.PlayerSpawner.Client
+  nameWithType: PlayerSpawner.Client
+- uid: Mirror.PlayerSpawner.ClientObjectManager
+  name: ClientObjectManager
+  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_ClientObjectManager
+  commentId: F:Mirror.PlayerSpawner.ClientObjectManager
+  fullName: Mirror.PlayerSpawner.ClientObjectManager
+  nameWithType: PlayerSpawner.ClientObjectManager
 - uid: Mirror.PlayerSpawner.GetStartPosition
   name: GetStartPosition()
   href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_GetStartPosition
@@ -8943,12 +8943,12 @@ references:
   isSpec: "True"
   fullName: Mirror.PlayerSpawner.OnServerAddPlayer
   nameWithType: PlayerSpawner.OnServerAddPlayer
-- uid: Mirror.PlayerSpawner.playerPrefab
-  name: playerPrefab
-  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_playerPrefab
-  commentId: F:Mirror.PlayerSpawner.playerPrefab
-  fullName: Mirror.PlayerSpawner.playerPrefab
-  nameWithType: PlayerSpawner.playerPrefab
+- uid: Mirror.PlayerSpawner.PlayerPrefab
+  name: PlayerPrefab
+  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_PlayerPrefab
+  commentId: F:Mirror.PlayerSpawner.PlayerPrefab
+  fullName: Mirror.PlayerSpawner.PlayerPrefab
+  nameWithType: PlayerSpawner.PlayerPrefab
 - uid: Mirror.PlayerSpawner.playerSpawnMethod
   name: playerSpawnMethod
   href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_playerSpawnMethod
@@ -8973,24 +8973,24 @@ references:
   commentId: F:Mirror.PlayerSpawner.PlayerSpawnMethod.RoundRobin
   fullName: Mirror.PlayerSpawner.PlayerSpawnMethod.RoundRobin
   nameWithType: PlayerSpawner.PlayerSpawnMethod.RoundRobin
-- uid: Mirror.PlayerSpawner.sceneManager
-  name: sceneManager
-  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_sceneManager
-  commentId: F:Mirror.PlayerSpawner.sceneManager
-  fullName: Mirror.PlayerSpawner.sceneManager
-  nameWithType: PlayerSpawner.sceneManager
-- uid: Mirror.PlayerSpawner.server
-  name: server
-  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_server
-  commentId: F:Mirror.PlayerSpawner.server
-  fullName: Mirror.PlayerSpawner.server
-  nameWithType: PlayerSpawner.server
-- uid: Mirror.PlayerSpawner.serverObjectManager
-  name: serverObjectManager
-  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_serverObjectManager
-  commentId: F:Mirror.PlayerSpawner.serverObjectManager
-  fullName: Mirror.PlayerSpawner.serverObjectManager
-  nameWithType: PlayerSpawner.serverObjectManager
+- uid: Mirror.PlayerSpawner.SceneManager
+  name: SceneManager
+  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_SceneManager
+  commentId: F:Mirror.PlayerSpawner.SceneManager
+  fullName: Mirror.PlayerSpawner.SceneManager
+  nameWithType: PlayerSpawner.SceneManager
+- uid: Mirror.PlayerSpawner.Server
+  name: Server
+  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_Server
+  commentId: F:Mirror.PlayerSpawner.Server
+  fullName: Mirror.PlayerSpawner.Server
+  nameWithType: PlayerSpawner.Server
+- uid: Mirror.PlayerSpawner.ServerObjectManager
+  name: ServerObjectManager
+  href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_ServerObjectManager
+  commentId: F:Mirror.PlayerSpawner.ServerObjectManager
+  fullName: Mirror.PlayerSpawner.ServerObjectManager
+  nameWithType: PlayerSpawner.ServerObjectManager
 - uid: Mirror.PlayerSpawner.Start
   name: Start()
   href: api/Mirror.PlayerSpawner.html#Mirror_PlayerSpawner_Start
@@ -9398,12 +9398,12 @@ references:
   commentId: F:Mirror.ServerObjectManager.DirtyObjects
   fullName: Mirror.ServerObjectManager.DirtyObjects
   nameWithType: ServerObjectManager.DirtyObjects
-- uid: Mirror.ServerObjectManager.networkSceneManager
-  name: networkSceneManager
-  href: api/Mirror.ServerObjectManager.html#Mirror_ServerObjectManager_networkSceneManager
-  commentId: F:Mirror.ServerObjectManager.networkSceneManager
-  fullName: Mirror.ServerObjectManager.networkSceneManager
-  nameWithType: ServerObjectManager.networkSceneManager
+- uid: Mirror.ServerObjectManager.NetworkSceneManager
+  name: NetworkSceneManager
+  href: api/Mirror.ServerObjectManager.html#Mirror_ServerObjectManager_NetworkSceneManager
+  commentId: F:Mirror.ServerObjectManager.NetworkSceneManager
+  fullName: Mirror.ServerObjectManager.NetworkSceneManager
+  nameWithType: ServerObjectManager.NetworkSceneManager
 - uid: Mirror.ServerObjectManager.RemovePlayerForConnection(Mirror.INetworkConnection,System.Boolean)
   name: RemovePlayerForConnection(INetworkConnection, Boolean)
   href: api/Mirror.ServerObjectManager.html#Mirror_ServerObjectManager_RemovePlayerForConnection_Mirror_INetworkConnection_System_Boolean_
@@ -9436,12 +9436,12 @@ references:
   isSpec: "True"
   fullName: Mirror.ServerObjectManager.ReplacePlayerForConnection
   nameWithType: ServerObjectManager.ReplacePlayerForConnection
-- uid: Mirror.ServerObjectManager.server
-  name: server
-  href: api/Mirror.ServerObjectManager.html#Mirror_ServerObjectManager_server
-  commentId: F:Mirror.ServerObjectManager.server
-  fullName: Mirror.ServerObjectManager.server
-  nameWithType: ServerObjectManager.server
+- uid: Mirror.ServerObjectManager.Server
+  name: Server
+  href: api/Mirror.ServerObjectManager.html#Mirror_ServerObjectManager_Server
+  commentId: F:Mirror.ServerObjectManager.Server
+  fullName: Mirror.ServerObjectManager.Server
+  nameWithType: ServerObjectManager.Server
 - uid: Mirror.ServerObjectManager.SetAllClientsNotReady
   name: SetAllClientsNotReady()
   href: api/Mirror.ServerObjectManager.html#Mirror_ServerObjectManager_SetAllClientsNotReady
