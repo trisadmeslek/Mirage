@@ -6258,6 +6258,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkMatchChecker.OnStartServer
   nameWithType: NetworkMatchChecker.OnStartServer
+- uid: Mirror.NetworkMessageAttribute
+  name: NetworkMessageAttribute
+  href: api/Mirror.NetworkMessageAttribute.html
+  commentId: T:Mirror.NetworkMessageAttribute
+  fullName: Mirror.NetworkMessageAttribute
+  nameWithType: NetworkMessageAttribute
 - uid: Mirror.NetworkPingDisplay
   name: NetworkPingDisplay
   href: api/Mirror.NetworkPingDisplay.html
@@ -9360,12 +9366,6 @@ references:
   isSpec: "True"
   fullName: Mirror.Sequencer.NextAfter
   nameWithType: Sequencer.NextAfter
-- uid: Mirror.SerializableAttribute
-  name: SerializableAttribute
-  href: api/Mirror.SerializableAttribute.html
-  commentId: T:Mirror.SerializableAttribute
-  fullName: Mirror.SerializableAttribute
-  nameWithType: SerializableAttribute
 - uid: Mirror.ServerAttribute
   name: ServerAttribute
   href: api/Mirror.ServerAttribute.html
