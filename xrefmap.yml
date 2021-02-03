@@ -9505,6 +9505,12 @@ references:
   commentId: M:Mirror.ServerObjectManager.Spawn(GameObject,Mirror.INetworkConnection)
   fullName: Mirror.ServerObjectManager.Spawn(GameObject, Mirror.INetworkConnection)
   nameWithType: ServerObjectManager.Spawn(GameObject, INetworkConnection)
+- uid: Mirror.ServerObjectManager.Spawn(Mirror.NetworkIdentity)
+  name: Spawn(NetworkIdentity)
+  href: api/Mirror.ServerObjectManager.html#Mirror_ServerObjectManager_Spawn_Mirror_NetworkIdentity_
+  commentId: M:Mirror.ServerObjectManager.Spawn(Mirror.NetworkIdentity)
+  fullName: Mirror.ServerObjectManager.Spawn(Mirror.NetworkIdentity)
+  nameWithType: ServerObjectManager.Spawn(NetworkIdentity)
 - uid: Mirror.ServerObjectManager.Spawn*
   name: Spawn
   href: api/Mirror.ServerObjectManager.html#Mirror_ServerObjectManager_Spawn_
