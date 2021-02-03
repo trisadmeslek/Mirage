@@ -181,6 +181,18 @@ references:
   commentId: F:Mirror.ClientObjectManager.spawnableObjects
   fullName: Mirror.ClientObjectManager.spawnableObjects
   nameWithType: ClientObjectManager.spawnableObjects
+- uid: Mirror.ClientObjectManager.Spawned
+  name: Spawned
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_Spawned
+  commentId: F:Mirror.ClientObjectManager.Spawned
+  fullName: Mirror.ClientObjectManager.Spawned
+  nameWithType: ClientObjectManager.Spawned
+- uid: Mirror.ClientObjectManager.SpawnEvent
+  name: ClientObjectManager.SpawnEvent
+  href: api/Mirror.ClientObjectManager.SpawnEvent.html
+  commentId: T:Mirror.ClientObjectManager.SpawnEvent
+  fullName: Mirror.ClientObjectManager.SpawnEvent
+  nameWithType: ClientObjectManager.SpawnEvent
 - uid: Mirror.ClientObjectManager.spawnPrefabs
   name: spawnPrefabs
   href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_spawnPrefabs
@@ -226,6 +238,12 @@ references:
   isSpec: "True"
   fullName: Mirror.ClientObjectManager.UnregisterSpawnHandler
   nameWithType: ClientObjectManager.UnregisterSpawnHandler
+- uid: Mirror.ClientObjectManager.UnSpawned
+  name: UnSpawned
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_UnSpawned
+  commentId: F:Mirror.ClientObjectManager.UnSpawned
+  fullName: Mirror.ClientObjectManager.UnSpawned
+  nameWithType: ClientObjectManager.UnSpawned
 - uid: Mirror.ClientRpcAttribute
   name: ClientRpcAttribute
   href: api/Mirror.ClientRpcAttribute.html
@@ -9518,6 +9536,18 @@ references:
   isSpec: "True"
   fullName: Mirror.ServerObjectManager.Spawn
   nameWithType: ServerObjectManager.Spawn
+- uid: Mirror.ServerObjectManager.Spawned
+  name: Spawned
+  href: api/Mirror.ServerObjectManager.html#Mirror_ServerObjectManager_Spawned
+  commentId: F:Mirror.ServerObjectManager.Spawned
+  fullName: Mirror.ServerObjectManager.Spawned
+  nameWithType: ServerObjectManager.Spawned
+- uid: Mirror.ServerObjectManager.SpawnEvent
+  name: ServerObjectManager.SpawnEvent
+  href: api/Mirror.ServerObjectManager.SpawnEvent.html
+  commentId: T:Mirror.ServerObjectManager.SpawnEvent
+  fullName: Mirror.ServerObjectManager.SpawnEvent
+  nameWithType: ServerObjectManager.SpawnEvent
 - uid: Mirror.ServerObjectManager.SpawnObjects
   name: SpawnObjects()
   href: api/Mirror.ServerObjectManager.html#Mirror_ServerObjectManager_SpawnObjects
@@ -9557,6 +9587,12 @@ references:
   isSpec: "True"
   fullName: Mirror.ServerObjectManager.UnSpawn
   nameWithType: ServerObjectManager.UnSpawn
+- uid: Mirror.ServerObjectManager.UnSpawned
+  name: UnSpawned
+  href: api/Mirror.ServerObjectManager.html#Mirror_ServerObjectManager_UnSpawned
+  commentId: F:Mirror.ServerObjectManager.UnSpawned
+  fullName: Mirror.ServerObjectManager.UnSpawned
+  nameWithType: ServerObjectManager.UnSpawned
 - uid: Mirror.ServerRpcAttribute
   name: ServerRpcAttribute
   href: api/Mirror.ServerRpcAttribute.html
