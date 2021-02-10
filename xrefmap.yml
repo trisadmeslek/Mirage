@@ -5402,6 +5402,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkConnection.IsReady
   nameWithType: NetworkConnection.IsReady
+- uid: Mirror.NetworkConnection.NOTIFY_ACK_TIMEOUT
+  name: NOTIFY_ACK_TIMEOUT
+  href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_NOTIFY_ACK_TIMEOUT
+  commentId: F:Mirror.NetworkConnection.NOTIFY_ACK_TIMEOUT
+  fullName: Mirror.NetworkConnection.NOTIFY_ACK_TIMEOUT
+  nameWithType: NetworkConnection.NOTIFY_ACK_TIMEOUT
 - uid: Mirror.NetworkConnection.NotifyDelivered
   name: NotifyDelivered
   href: api/Mirror.NetworkConnection.html#Mirror_NetworkConnection_NotifyDelivered
@@ -8682,6 +8688,12 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkWriterPool.Recycle
   nameWithType: NetworkWriterPool.Recycle
+- uid: Mirror.NotifyAck
+  name: NotifyAck
+  href: api/Mirror.NotifyAck.html
+  commentId: T:Mirror.NotifyAck
+  fullName: Mirror.NotifyAck
+  nameWithType: NotifyAck
 - uid: Mirror.NotifyPacket
   name: NotifyPacket
   href: api/Mirror.NotifyPacket.html
