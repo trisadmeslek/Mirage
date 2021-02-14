@@ -118,6 +118,22 @@ references:
   isSpec: "True"
   fullName: Mirror.ClientObjectManager.GetPrefab
   nameWithType: ClientObjectManager.GetPrefab
+- uid: Mirror.ClientObjectManager.Item(System.UInt32)
+  name: Item[UInt32]
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_Item_System_UInt32_
+  commentId: P:Mirror.ClientObjectManager.Item(System.UInt32)
+  name.vb: Item(UInt32)
+  fullName: Mirror.ClientObjectManager.Item[System.UInt32]
+  fullName.vb: Mirror.ClientObjectManager.Item(System.UInt32)
+  nameWithType: ClientObjectManager.Item[UInt32]
+  nameWithType.vb: ClientObjectManager.Item(UInt32)
+- uid: Mirror.ClientObjectManager.Item*
+  name: Item
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_Item_
+  commentId: Overload:Mirror.ClientObjectManager.Item
+  isSpec: "True"
+  fullName: Mirror.ClientObjectManager.Item
+  nameWithType: ClientObjectManager.Item
 - uid: Mirror.ClientObjectManager.NetworkSceneManager
   name: NetworkSceneManager
   href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_NetworkSceneManager
@@ -2545,6 +2561,28 @@ references:
   isSpec: "True"
   fullName: Mirror.InvalidMessageException.InvalidMessageException
   nameWithType: InvalidMessageException.InvalidMessageException
+- uid: Mirror.IObjectLocator
+  name: IObjectLocator
+  href: api/Mirror.IObjectLocator.html
+  commentId: T:Mirror.IObjectLocator
+  fullName: Mirror.IObjectLocator
+  nameWithType: IObjectLocator
+- uid: Mirror.IObjectLocator.Item(System.UInt32)
+  name: Item[UInt32]
+  href: api/Mirror.IObjectLocator.html#Mirror_IObjectLocator_Item_System_UInt32_
+  commentId: P:Mirror.IObjectLocator.Item(System.UInt32)
+  name.vb: Item(UInt32)
+  fullName: Mirror.IObjectLocator.Item[System.UInt32]
+  fullName.vb: Mirror.IObjectLocator.Item(System.UInt32)
+  nameWithType: IObjectLocator.Item[UInt32]
+  nameWithType.vb: IObjectLocator.Item(UInt32)
+- uid: Mirror.IObjectLocator.Item*
+  name: Item
+  href: api/Mirror.IObjectLocator.html#Mirror_IObjectLocator_Item_
+  commentId: Overload:Mirror.IObjectLocator.Item
+  isSpec: "True"
+  fullName: Mirror.IObjectLocator.Item
+  nameWithType: IObjectLocator.Item
 - uid: Mirror.IObjectOwner
   name: IObjectOwner
   href: api/Mirror.IObjectOwner.html
@@ -6399,19 +6437,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkReader.NetworkReader
   nameWithType: NetworkReader.NetworkReader
-- uid: Mirror.NetworkReader.Client
-  name: Client
-  href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_Client
-  commentId: P:Mirror.NetworkReader.Client
-  fullName: Mirror.NetworkReader.Client
-  nameWithType: NetworkReader.Client
-- uid: Mirror.NetworkReader.Client*
-  name: Client
-  href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_Client_
-  commentId: Overload:Mirror.NetworkReader.Client
-  isSpec: "True"
-  fullName: Mirror.NetworkReader.Client
-  nameWithType: NetworkReader.Client
 - uid: Mirror.NetworkReader.Length
   name: Length
   href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_Length
@@ -6425,6 +6450,19 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkReader.Length
   nameWithType: NetworkReader.Length
+- uid: Mirror.NetworkReader.ObjectLocator
+  name: ObjectLocator
+  href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_ObjectLocator
+  commentId: P:Mirror.NetworkReader.ObjectLocator
+  fullName: Mirror.NetworkReader.ObjectLocator
+  nameWithType: NetworkReader.ObjectLocator
+- uid: Mirror.NetworkReader.ObjectLocator*
+  name: ObjectLocator
+  href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_ObjectLocator_
+  commentId: Overload:Mirror.NetworkReader.ObjectLocator
+  isSpec: "True"
+  fullName: Mirror.NetworkReader.ObjectLocator
+  nameWithType: NetworkReader.ObjectLocator
 - uid: Mirror.NetworkReader.Position
   name: Position
   href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_Position
@@ -6541,19 +6579,6 @@ references:
   isSpec: "True"
   fullName: Mirror.NetworkReader.ReadUInt64
   nameWithType: NetworkReader.ReadUInt64
-- uid: Mirror.NetworkReader.Server
-  name: Server
-  href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_Server
-  commentId: P:Mirror.NetworkReader.Server
-  fullName: Mirror.NetworkReader.Server
-  nameWithType: NetworkReader.Server
-- uid: Mirror.NetworkReader.Server*
-  name: Server
-  href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_Server_
-  commentId: Overload:Mirror.NetworkReader.Server
-  isSpec: "True"
-  fullName: Mirror.NetworkReader.Server
-  nameWithType: NetworkReader.Server
 - uid: Mirror.NetworkReader.ToString
   name: ToString()
   href: api/Mirror.NetworkReader.html#Mirror_NetworkReader_ToString
@@ -9402,6 +9427,22 @@ references:
   commentId: F:Mirror.ServerObjectManager.DirtyObjects
   fullName: Mirror.ServerObjectManager.DirtyObjects
   nameWithType: ServerObjectManager.DirtyObjects
+- uid: Mirror.ServerObjectManager.Item(System.UInt32)
+  name: Item[UInt32]
+  href: api/Mirror.ServerObjectManager.html#Mirror_ServerObjectManager_Item_System_UInt32_
+  commentId: P:Mirror.ServerObjectManager.Item(System.UInt32)
+  name.vb: Item(UInt32)
+  fullName: Mirror.ServerObjectManager.Item[System.UInt32]
+  fullName.vb: Mirror.ServerObjectManager.Item(System.UInt32)
+  nameWithType: ServerObjectManager.Item[UInt32]
+  nameWithType.vb: ServerObjectManager.Item(UInt32)
+- uid: Mirror.ServerObjectManager.Item*
+  name: Item
+  href: api/Mirror.ServerObjectManager.html#Mirror_ServerObjectManager_Item_
+  commentId: Overload:Mirror.ServerObjectManager.Item
+  isSpec: "True"
+  fullName: Mirror.ServerObjectManager.Item
+  nameWithType: ServerObjectManager.Item
 - uid: Mirror.ServerObjectManager.NetworkSceneManager
   name: NetworkSceneManager
   href: api/Mirror.ServerObjectManager.html#Mirror_ServerObjectManager_NetworkSceneManager
