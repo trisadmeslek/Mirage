@@ -2508,22 +2508,6 @@ references:
   fullName.vb: Mirror.INetworkServer.SendToAll(Of T)(T, System.Int32)
   nameWithType: INetworkServer.SendToAll<T>(T, Int32)
   nameWithType.vb: INetworkServer.SendToAll(Of T)(T, Int32)
-- uid: Mirror.INetworkServer.SendToClientOfPlayer*
-  name: SendToClientOfPlayer
-  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SendToClientOfPlayer_
-  commentId: Overload:Mirror.INetworkServer.SendToClientOfPlayer
-  isSpec: "True"
-  fullName: Mirror.INetworkServer.SendToClientOfPlayer
-  nameWithType: INetworkServer.SendToClientOfPlayer
-- uid: Mirror.INetworkServer.SendToClientOfPlayer``1(Mirror.NetworkIdentity,``0,System.Int32)
-  name: SendToClientOfPlayer<T>(NetworkIdentity, T, Int32)
-  href: api/Mirror.INetworkServer.html#Mirror_INetworkServer_SendToClientOfPlayer__1_Mirror_NetworkIdentity___0_System_Int32_
-  commentId: M:Mirror.INetworkServer.SendToClientOfPlayer``1(Mirror.NetworkIdentity,``0,System.Int32)
-  name.vb: SendToClientOfPlayer(Of T)(NetworkIdentity, T, Int32)
-  fullName: Mirror.INetworkServer.SendToClientOfPlayer<T>(Mirror.NetworkIdentity, T, System.Int32)
-  fullName.vb: Mirror.INetworkServer.SendToClientOfPlayer(Of T)(Mirror.NetworkIdentity, T, System.Int32)
-  nameWithType: INetworkServer.SendToClientOfPlayer<T>(NetworkIdentity, T, Int32)
-  nameWithType.vb: INetworkServer.SendToClientOfPlayer(Of T)(NetworkIdentity, T, Int32)
 - uid: Mirror.InvalidMessageException
   name: InvalidMessageException
   href: api/Mirror.InvalidMessageException.html
@@ -7541,22 +7525,6 @@ references:
   fullName.vb: Mirror.NetworkServer.SendToAll(Of T)(T, System.Int32)
   nameWithType: NetworkServer.SendToAll<T>(T, Int32)
   nameWithType.vb: NetworkServer.SendToAll(Of T)(T, Int32)
-- uid: Mirror.NetworkServer.SendToClientOfPlayer*
-  name: SendToClientOfPlayer
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_SendToClientOfPlayer_
-  commentId: Overload:Mirror.NetworkServer.SendToClientOfPlayer
-  isSpec: "True"
-  fullName: Mirror.NetworkServer.SendToClientOfPlayer
-  nameWithType: NetworkServer.SendToClientOfPlayer
-- uid: Mirror.NetworkServer.SendToClientOfPlayer``1(Mirror.NetworkIdentity,``0,System.Int32)
-  name: SendToClientOfPlayer<T>(NetworkIdentity, T, Int32)
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_SendToClientOfPlayer__1_Mirror_NetworkIdentity___0_System_Int32_
-  commentId: M:Mirror.NetworkServer.SendToClientOfPlayer``1(Mirror.NetworkIdentity,``0,System.Int32)
-  name.vb: SendToClientOfPlayer(Of T)(NetworkIdentity, T, Int32)
-  fullName: Mirror.NetworkServer.SendToClientOfPlayer<T>(Mirror.NetworkIdentity, T, System.Int32)
-  fullName.vb: Mirror.NetworkServer.SendToClientOfPlayer(Of T)(Mirror.NetworkIdentity, T, System.Int32)
-  nameWithType: NetworkServer.SendToClientOfPlayer<T>(NetworkIdentity, T, Int32)
-  nameWithType.vb: NetworkServer.SendToClientOfPlayer(Of T)(NetworkIdentity, T, Int32)
 - uid: Mirror.NetworkServer.Spawned
   name: Spawned
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Spawned
