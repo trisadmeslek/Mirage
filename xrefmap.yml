@@ -203,6 +203,19 @@ references:
   commentId: F:Mirror.ClientObjectManager.Spawned
   fullName: Mirror.ClientObjectManager.Spawned
   nameWithType: ClientObjectManager.Spawned
+- uid: Mirror.ClientObjectManager.SpawnedObjects
+  name: SpawnedObjects
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_SpawnedObjects
+  commentId: P:Mirror.ClientObjectManager.SpawnedObjects
+  fullName: Mirror.ClientObjectManager.SpawnedObjects
+  nameWithType: ClientObjectManager.SpawnedObjects
+- uid: Mirror.ClientObjectManager.SpawnedObjects*
+  name: SpawnedObjects
+  href: api/Mirror.ClientObjectManager.html#Mirror_ClientObjectManager_SpawnedObjects_
+  commentId: Overload:Mirror.ClientObjectManager.SpawnedObjects
+  isSpec: "True"
+  fullName: Mirror.ClientObjectManager.SpawnedObjects
+  nameWithType: ClientObjectManager.SpawnedObjects
 - uid: Mirror.ClientObjectManager.SpawnEvent
   name: ClientObjectManager.SpawnEvent
   href: api/Mirror.ClientObjectManager.SpawnEvent.html
@@ -5263,19 +5276,6 @@ references:
   fullName.vb: Mirror.NetworkClient.SendAsync(Of T)(T, System.Int32)
   nameWithType: NetworkClient.SendAsync<T>(T, Int32)
   nameWithType.vb: NetworkClient.SendAsync(Of T)(T, Int32)
-- uid: Mirror.NetworkClient.Spawned
-  name: Spawned
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Spawned
-  commentId: P:Mirror.NetworkClient.Spawned
-  fullName: Mirror.NetworkClient.Spawned
-  nameWithType: NetworkClient.Spawned
-- uid: Mirror.NetworkClient.Spawned*
-  name: Spawned
-  href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Spawned_
-  commentId: Overload:Mirror.NetworkClient.Spawned
-  isSpec: "True"
-  fullName: Mirror.NetworkClient.Spawned
-  nameWithType: NetworkClient.Spawned
 - uid: Mirror.NetworkClient.Time
   name: Time
   href: api/Mirror.NetworkClient.html#Mirror_NetworkClient_Time
@@ -7550,12 +7550,6 @@ references:
   fullName.vb: Mirror.NetworkServer.SendToAll(Of T)(T, System.Int32)
   nameWithType: NetworkServer.SendToAll<T>(T, Int32)
   nameWithType.vb: NetworkServer.SendToAll(Of T)(T, Int32)
-- uid: Mirror.NetworkServer.Spawned
-  name: Spawned
-  href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Spawned
-  commentId: F:Mirror.NetworkServer.Spawned
-  fullName: Mirror.NetworkServer.Spawned
-  nameWithType: NetworkServer.Spawned
 - uid: Mirror.NetworkServer.Started
   name: Started
   href: api/Mirror.NetworkServer.html#Mirror_NetworkServer_Started
@@ -9563,6 +9557,12 @@ references:
   commentId: F:Mirror.ServerObjectManager.Spawned
   fullName: Mirror.ServerObjectManager.Spawned
   nameWithType: ServerObjectManager.Spawned
+- uid: Mirror.ServerObjectManager.SpawnedObjects
+  name: SpawnedObjects
+  href: api/Mirror.ServerObjectManager.html#Mirror_ServerObjectManager_SpawnedObjects
+  commentId: F:Mirror.ServerObjectManager.SpawnedObjects
+  fullName: Mirror.ServerObjectManager.SpawnedObjects
+  nameWithType: ServerObjectManager.SpawnedObjects
 - uid: Mirror.ServerObjectManager.SpawnEvent
   name: ServerObjectManager.SpawnEvent
   href: api/Mirror.ServerObjectManager.SpawnEvent.html
