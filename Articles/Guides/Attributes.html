@@ -34,7 +34,7 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" style="display:flex;" href="https://github.com/MirrorNG/MirrorNG">
+              <a class="navbar-brand" style="display:flex;" href="https://github.com/MirageNet/Mirage">
                 <img id="logo" class="svg" style="vertical-align: middle;align-self:center;" src="../../logo.png" alt="">
               </a>
             </div>
@@ -85,16 +85,16 @@
 <p><strong>NOTE</strong>: when using abstract or virtual methods the Attributes need to be applied to the override methods too.</p>
 </blockquote>
 <ul>
-<li><p><strong><a class="xref" href="../../api/Mirror.ServerAttribute.html">ServerAttribute</a></strong><br>
+<li><p><strong><a class="xref" href="../../api/Mirage.ServerAttribute.html">ServerAttribute</a></strong><br>
 Only a server can call the method (throws an error when called on a client unless you specify error = false).</p>
 </li>
-<li><p><strong><a class="xref" href="../../api/Mirror.ClientAttribute.html">ClientAttribute</a></strong><br>
+<li><p><strong><a class="xref" href="../../api/Mirage.ClientAttribute.html">ClientAttribute</a></strong><br>
 Only a Client can call the method (throws an error when called on the server unless you specify error = false).</p>
 </li>
-<li><p><strong><a class="xref" href="../../api/Mirror.ClientRpcAttribute.html">ClientRpcAttribute</a></strong><br>
+<li><p><strong><a class="xref" href="../../api/Mirage.ClientRpcAttribute.html">ClientRpcAttribute</a></strong><br>
 The server uses a Remote Procedure Call (RPC) to run that function on clients. It has a <strong>target</strong> option allowing you to specify in which clients it should be executed, along with a <strong>channel</strong> option. See also: <a href="Communications/RemoteActions.html">Remote Actions</a></p>
 </li>
-<li><p><strong><a class="xref" href="../../api/Mirror.ServerRpcAttribute.html">ServerRpcAttribute</a></strong><br>
+<li><p><strong><a class="xref" href="../../api/Mirage.ServerRpcAttribute.html">ServerRpcAttribute</a></strong><br>
 Call this from a client to run this function on the server. Make sure to validate input etc. It's not possible to call this from a server. Use this as a wrapper around another function, if you want to call it from the server too. Note that you can return value from it. See also <a href="Communications/RemoteActions.html">Remote Actions​</a></p>
 <p>The allowed argument types are:</p>
 <ul>
