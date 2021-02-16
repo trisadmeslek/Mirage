@@ -87,7 +87,7 @@ Tick this checkbox to ensure that Unity only spawns the game object on the serve
 </ul>
 <p><img src="NetworkIdentity.PNG" alt="Inspector"></p>
 <h2 id="instantiated-network-game-objects">Instantiated Network Game Objects</h2>
-<p>With the MirrorNG’s server-authoritative networking system, the server must spawn networked game objects with network identities, using <code>NetworkServer.Spawn</code>. This automatically creates them on clients that are connected to the server, and assigns them a <code>netId</code>.</p>
+<p>With the Mirage’s server-authoritative networking system, the server must spawn networked game objects with network identities, using <code>NetworkServer.Spawn</code>. This automatically creates them on clients that are connected to the server, and assigns them a <code>netId</code>.</p>
 <p>You must put a Network Identity component on any Prefabs that spawn at runtime for the network system to use them. See <a href="../Guides/GameObjects/SpawnObject.html">Object Spawning</a> for more information.</p>
 <h2 id="scene-based-network-game-objects">Scene-based Network Game Objects</h2>
 <p>You can also network game objects that are saved as part of your Scene (for example, environmental props). Networking game objects makes them behave slightly differently, because you need to have them spawn across the network.</p>

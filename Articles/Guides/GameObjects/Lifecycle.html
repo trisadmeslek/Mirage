@@ -137,12 +137,12 @@ You can add custom logic to the object lifecycle events by subscribing to the co
 </table>
 <blockquote>
 <p><strong>Note:</strong> In Mirror and UNet, you can add logic to lifecycle events by overriding methods in NetworkBehaviour
-In MirrorNG you do it by subscribing to events in <a class="xref" href="../../../api/Mirror.NetworkIdentity.html">NetworkIdentity</a></p>
+In Mirage you do it by subscribing to events in <a class="xref" href="../../../api/Mirror.NetworkIdentity.html">NetworkIdentity</a></p>
 </blockquote>
 <h1 id="server-instantiate">Server Instantiate</h1>
 <p>This is done usual by you using Unity's <code>GameObject.Instantiate</code>
 This goes through the regular GameObject Lifecycle events such as Awake, Start, Enabled, etc..
-Basically this is outside MirrorNG's control.</p>
+Basically this is outside Mirage's control.</p>
 <p><a href="SceneObjects.html">Scene Objects</a> are normally instantiated as part of the scene.</p>
 <h1 id="server-start">Server Start</h1>
 <p>To start a server object,  <a href="SpawnObject.html">spawn it</a>.
@@ -167,9 +167,9 @@ will include all the data in <a href="../Sync/SyncVars.html">SyncVars</a>, <a hr
 <h1 id="client-instantiate">Client Instantiate</h1>
 <p>When an object is spawned,  the server will send a message to the clients telling it to spawn a GameObject and provide
 an asset id.</p>
-<p>By default, MirrorNG will look up all the known prefabs looking for that asset id.<br>
+<p>By default, Mirage will look up all the known prefabs looking for that asset id.<br>
 Make sure to add your prefabs in the NetworkClient list of prefabs.
-Then MirrorNG will instantiate the prefab,  and it will go through the regular Unity Lifecycle events.
+Then Mirage will instantiate the prefab,  and it will go through the regular Unity Lifecycle events.
 You can customize how objects are instantiated using Spawn Handlers.</p>
 <p>Do not add Network logic to these events.  Instead,  use these events to subscribe to network events in NetworkIdentity.</p>
 <p>Immediatelly after the object is instantiated, all the data is updated to match the data in the server.</p>

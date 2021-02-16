@@ -80,17 +80,17 @@
 <h1 id="synclists">SyncLists</h1>
 
 <p>SyncLists are array based lists similar to C# <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1?view=netframework-4.7.2">List&lt;T&gt;</a> that synchronize their contents from the server to the clients.</p>
-<p>A SyncList can contain any <a href="../DataTypes.html">supported MirrorNG type</a>.</p>
+<p>A SyncList can contain any <a href="../DataTypes.html">supported Mirage type</a>.</p>
 <h2 id="differences-with-hlapi">Differences with HLAPI</h2>
 <p>HLAPI also supports SyncLists, but we have redesigned them to better suit our needs. Some of the key differences include:</p>
 <ul>
-<li>In HLAPI, SyncLists were synchronized immediately when they changed. If you add 10 elements, that means 10 separate messages. MirrorNG synchronizes SyncLists with the SyncVars. The 10 elements and other SyncVars are batched together into a single message. MirrorNG also respects the sync interval when synchronizing lists.</li>
+<li>In HLAPI, SyncLists were synchronized immediately when they changed. If you add 10 elements, that means 10 separate messages. Mirage synchronizes SyncLists with the SyncVars. The 10 elements and other SyncVars are batched together into a single message. Mirage also respects the sync interval when synchronizing lists.</li>
 <li>In HLAPI if you want a list of structs, you have to use <code>SyncListStruct&lt;MyStructure&gt;</code>, we changed it to just <code>SyncList&lt;MyStructure&gt;</code></li>
-<li>In HLAPI the Callback is a delegate. In MirrorNG we changed it to an event, so that you can add many subscribers.</li>
-<li>In HLAPI the Callback tells you the operation and index. In MirrorNG, the callback also receives an item. We made this change so that we could tell what item was removed.</li>
+<li>In HLAPI the Callback is a delegate. In Mirage we changed it to an event, so that you can add many subscribers.</li>
+<li>In HLAPI the Callback tells you the operation and index. In Mirage, the callback also receives an item. We made this change so that we could tell what item was removed.</li>
 </ul>
 <h2 id="usage">Usage</h2>
-<p>Create a class that derives from SyncList for your specific type. This is necessary because MirrorNG will add methods to that class with the weaver. Then add a SyncList field to your NetworkBehaviour class. For example:</p>
+<p>Create a class that derives from SyncList for your specific type. This is necessary because Mirage will add methods to that class with the weaver. Then add a SyncList field to your NetworkBehaviour class. For example:</p>
 <pre><code class="lang-cs">[System.Serializable]
 public struct Item
 {

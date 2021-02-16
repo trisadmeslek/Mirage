@@ -80,12 +80,12 @@
 <h1 id="syncevent-obsolete">SyncEvent (Obsolete)</h1>
 
 <blockquote>
-<p><strong>IMPORTANT</strong> SyncEvents have been removed in version 18.0.0, see this <a href="https://github.com/vis2k/MirrorNG/pull/2178">Issue</a> for more information</p>
+<p><strong>IMPORTANT</strong> SyncEvents have been removed in version 18.0.0, see this <a href="https://github.com/MirageNet/Mirage/pull/2178">Issue</a> for more information</p>
 </blockquote>
 <p>This is an attribute that can be put on events in NetworkBehaviour classes to allow them to be invoked on client when the event is called on the server.</p>
 <p>SyncEvent events are called by user code on the server, and then invoked on corresponding client objects on clients connected to the server. The arguments to the Event call are serialized across the network, so that the client event is invoked with the same values as the method on the server. These events must begin with the prefix &quot;Event&quot;.</p>
 <pre><code class="lang-cs">using UnityEngine;
-using MirrorNG;
+using Mirage;
 
 public class DamageClass : NetworkBehaviour
 {
