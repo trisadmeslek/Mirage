@@ -4538,6 +4538,28 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/Install Mirage.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Install Mirage.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Scoped Registry.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Scoped Registry.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/video_tutorial.png",
       "output": {
         "resource": {
