@@ -297,6 +297,12 @@ references:
   commentId: F:Mirage.ClientRpcAttribute.target
   fullName: Mirage.ClientRpcAttribute.target
   nameWithType: ClientRpcAttribute.target
+- uid: Mirage.ClientSceneChangeEvent
+  name: ClientSceneChangeEvent
+  href: api/Mirage.ClientSceneChangeEvent.html
+  commentId: T:Mirage.ClientSceneChangeEvent
+  fullName: Mirage.ClientSceneChangeEvent
+  nameWithType: ClientSceneChangeEvent
 - uid: Mirage.Cloud
   name: Mirage.Cloud
   href: api/Mirage.Cloud.html
@@ -7281,12 +7287,6 @@ references:
   commentId: F:Mirage.NetworkSceneManager.ClientSceneChanged
   fullName: Mirage.NetworkSceneManager.ClientSceneChanged
   nameWithType: NetworkSceneManager.ClientSceneChanged
-- uid: Mirage.NetworkSceneManager.ClientSceneChangeEvent
-  name: NetworkSceneManager.ClientSceneChangeEvent
-  href: api/Mirage.NetworkSceneManager.ClientSceneChangeEvent.html
-  commentId: T:Mirage.NetworkSceneManager.ClientSceneChangeEvent
-  fullName: Mirage.NetworkSceneManager.ClientSceneChangeEvent
-  nameWithType: NetworkSceneManager.ClientSceneChangeEvent
 - uid: Mirage.NetworkSceneManager.DontDestroy
   name: DontDestroy
   href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_DontDestroy
