@@ -7287,6 +7287,12 @@ references:
   commentId: T:Mirage.NetworkSceneManager.ClientSceneChangeEvent
   fullName: Mirage.NetworkSceneManager.ClientSceneChangeEvent
   nameWithType: NetworkSceneManager.ClientSceneChangeEvent
+- uid: Mirage.NetworkSceneManager.DontDestroy
+  name: DontDestroy
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_DontDestroy
+  commentId: F:Mirage.NetworkSceneManager.DontDestroy
+  fullName: Mirage.NetworkSceneManager.DontDestroy
+  nameWithType: NetworkSceneManager.DontDestroy
 - uid: Mirage.NetworkSceneManager.NetworkScenePath
   name: NetworkScenePath
   href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_NetworkScenePath
