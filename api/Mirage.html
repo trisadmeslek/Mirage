@@ -99,7 +99,10 @@
 <p>Note that if you set the target as Connection, you need to pass a specific connection as a parameter of your method</p>
 </section>
       <h4><a class="xref" href="Mirage.ClientSceneChangeEvent.html">ClientSceneChangeEvent</a></h4>
-      <section></section>
+      <section><p>Event fires from <a class="xref" href="Mirage.INetworkSceneManager.html">INetworkSceneManager</a> when a scene change happens on either Server or Client.</p>
+<p>string - New ScenePath</p>
+<p>SceneOperation - Scene change type (Normal, Additive Load, Additive Unload).</p>
+</section>
       <h4><a class="xref" href="Mirage.Compression.html">Compression</a></h4>
       <section><p>Credit to this man for converting gaffer games c code to c#
 <a href="https://gist.github.com/fversnel/0497ad7ab3b81e0dc1dd">https://gist.github.com/fversnel/0497ad7ab3b81e0dc1dd</a></p>
@@ -155,7 +158,9 @@
       <section><p>A High level network connection. This is used for connections from client-to-server and for connection from server-to-client.</p>
 </section>
       <h4><a class="xref" href="Mirage.NetworkConnectionEvent.html">NetworkConnectionEvent</a></h4>
-      <section></section>
+      <section><p>Event fires from a <a class="xref" href="Mirage.NetworkClient.html">NetworkClient</a> or <a class="xref" href="Mirage.NetworkServer.html">NetworkServer</a> during a new connection, a new authentication, or a disconnection.</p>
+<p>INetworkConnection - connection creating the event</p>
+</section>
       <h4><a class="xref" href="Mirage.NetworkDiagnostics.html">NetworkDiagnostics</a></h4>
       <section><p>Provides profiling information from mirror
 A profiler can subscribe to these events and
