@@ -200,7 +200,14 @@ references:
 - uid: Mirage.ClientObjectManager.Spawned
   name: Spawned
   href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_Spawned
-  commentId: F:Mirage.ClientObjectManager.Spawned
+  commentId: P:Mirage.ClientObjectManager.Spawned
+  fullName: Mirage.ClientObjectManager.Spawned
+  nameWithType: ClientObjectManager.Spawned
+- uid: Mirage.ClientObjectManager.Spawned*
+  name: Spawned
+  href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_Spawned_
+  commentId: Overload:Mirage.ClientObjectManager.Spawned
+  isSpec: "True"
   fullName: Mirage.ClientObjectManager.Spawned
   nameWithType: ClientObjectManager.Spawned
 - uid: Mirage.ClientObjectManager.SpawnedObjects
@@ -216,12 +223,6 @@ references:
   isSpec: "True"
   fullName: Mirage.ClientObjectManager.SpawnedObjects
   nameWithType: ClientObjectManager.SpawnedObjects
-- uid: Mirage.ClientObjectManager.SpawnEvent
-  name: ClientObjectManager.SpawnEvent
-  href: api/Mirage.ClientObjectManager.SpawnEvent.html
-  commentId: T:Mirage.ClientObjectManager.SpawnEvent
-  fullName: Mirage.ClientObjectManager.SpawnEvent
-  nameWithType: ClientObjectManager.SpawnEvent
 - uid: Mirage.ClientObjectManager.spawnPrefabs
   name: spawnPrefabs
   href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_spawnPrefabs
@@ -270,7 +271,14 @@ references:
 - uid: Mirage.ClientObjectManager.UnSpawned
   name: UnSpawned
   href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_UnSpawned
-  commentId: F:Mirage.ClientObjectManager.UnSpawned
+  commentId: P:Mirage.ClientObjectManager.UnSpawned
+  fullName: Mirage.ClientObjectManager.UnSpawned
+  nameWithType: ClientObjectManager.UnSpawned
+- uid: Mirage.ClientObjectManager.UnSpawned*
+  name: UnSpawned
+  href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_UnSpawned_
+  commentId: Overload:Mirage.ClientObjectManager.UnSpawned
+  isSpec: "True"
   fullName: Mirage.ClientObjectManager.UnSpawned
   nameWithType: ClientObjectManager.UnSpawned
 - uid: Mirage.ClientRpcAttribute
@@ -933,6 +941,19 @@ references:
   isSpec: "True"
   fullName: Mirage.IClientObjectManager.RegisterSpawnHandler
   nameWithType: IClientObjectManager.RegisterSpawnHandler
+- uid: Mirage.IClientObjectManager.Spawned
+  name: Spawned
+  href: api/Mirage.IClientObjectManager.html#Mirage_IClientObjectManager_Spawned
+  commentId: P:Mirage.IClientObjectManager.Spawned
+  fullName: Mirage.IClientObjectManager.Spawned
+  nameWithType: IClientObjectManager.Spawned
+- uid: Mirage.IClientObjectManager.Spawned*
+  name: Spawned
+  href: api/Mirage.IClientObjectManager.html#Mirage_IClientObjectManager_Spawned_
+  commentId: Overload:Mirage.IClientObjectManager.Spawned
+  isSpec: "True"
+  fullName: Mirage.IClientObjectManager.Spawned
+  nameWithType: IClientObjectManager.Spawned
 - uid: Mirage.IClientObjectManager.UnregisterPrefab(Mirage.NetworkIdentity)
   name: UnregisterPrefab(NetworkIdentity)
   href: api/Mirage.IClientObjectManager.html#Mirage_IClientObjectManager_UnregisterPrefab_Mirage_NetworkIdentity_
@@ -959,6 +980,19 @@ references:
   isSpec: "True"
   fullName: Mirage.IClientObjectManager.UnregisterSpawnHandler
   nameWithType: IClientObjectManager.UnregisterSpawnHandler
+- uid: Mirage.IClientObjectManager.UnSpawned
+  name: UnSpawned
+  href: api/Mirage.IClientObjectManager.html#Mirage_IClientObjectManager_UnSpawned
+  commentId: P:Mirage.IClientObjectManager.UnSpawned
+  fullName: Mirage.IClientObjectManager.UnSpawned
+  nameWithType: IClientObjectManager.UnSpawned
+- uid: Mirage.IClientObjectManager.UnSpawned*
+  name: UnSpawned
+  href: api/Mirage.IClientObjectManager.html#Mirage_IClientObjectManager_UnSpawned_
+  commentId: Overload:Mirage.IClientObjectManager.UnSpawned
+  isSpec: "True"
+  fullName: Mirage.IClientObjectManager.UnSpawned
+  nameWithType: IClientObjectManager.UnSpawned
 - uid: Mirage.IConnection
   name: IConnection
   href: api/Mirage.IConnection.html
@@ -1239,6 +1273,32 @@ references:
   commentId: T:Mirage.INetworkClient
   fullName: Mirage.INetworkClient
   nameWithType: INetworkClient
+- uid: Mirage.INetworkClient.Authenticated
+  name: Authenticated
+  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Authenticated
+  commentId: P:Mirage.INetworkClient.Authenticated
+  fullName: Mirage.INetworkClient.Authenticated
+  nameWithType: INetworkClient.Authenticated
+- uid: Mirage.INetworkClient.Authenticated*
+  name: Authenticated
+  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Authenticated_
+  commentId: Overload:Mirage.INetworkClient.Authenticated
+  isSpec: "True"
+  fullName: Mirage.INetworkClient.Authenticated
+  nameWithType: INetworkClient.Authenticated
+- uid: Mirage.INetworkClient.Connected
+  name: Connected
+  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Connected
+  commentId: P:Mirage.INetworkClient.Connected
+  fullName: Mirage.INetworkClient.Connected
+  nameWithType: INetworkClient.Connected
+- uid: Mirage.INetworkClient.Connected*
+  name: Connected
+  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Connected_
+  commentId: Overload:Mirage.INetworkClient.Connected
+  isSpec: "True"
+  fullName: Mirage.INetworkClient.Connected
+  nameWithType: INetworkClient.Connected
 - uid: Mirage.INetworkClient.Disconnect
   name: Disconnect()
   href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Disconnect
@@ -1252,6 +1312,19 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkClient.Disconnect
   nameWithType: INetworkClient.Disconnect
+- uid: Mirage.INetworkClient.Disconnected
+  name: Disconnected
+  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Disconnected
+  commentId: P:Mirage.INetworkClient.Disconnected
+  fullName: Mirage.INetworkClient.Disconnected
+  nameWithType: INetworkClient.Disconnected
+- uid: Mirage.INetworkClient.Disconnected*
+  name: Disconnected
+  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Disconnected_
+  commentId: Overload:Mirage.INetworkClient.Disconnected
+  isSpec: "True"
+  fullName: Mirage.INetworkClient.Disconnected
+  nameWithType: INetworkClient.Disconnected
 - uid: Mirage.INetworkClient.Send*
   name: Send
   href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Send_
@@ -1380,6 +1453,58 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkSceneManager.ChangeServerScene
   nameWithType: INetworkSceneManager.ChangeServerScene
+- uid: Mirage.INetworkSceneManager.ClientChangeScene
+  name: ClientChangeScene
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ClientChangeScene
+  commentId: P:Mirage.INetworkSceneManager.ClientChangeScene
+  fullName: Mirage.INetworkSceneManager.ClientChangeScene
+  nameWithType: INetworkSceneManager.ClientChangeScene
+- uid: Mirage.INetworkSceneManager.ClientChangeScene*
+  name: ClientChangeScene
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ClientChangeScene_
+  commentId: Overload:Mirage.INetworkSceneManager.ClientChangeScene
+  isSpec: "True"
+  fullName: Mirage.INetworkSceneManager.ClientChangeScene
+  nameWithType: INetworkSceneManager.ClientChangeScene
+- uid: Mirage.INetworkSceneManager.ClientSceneChanged
+  name: ClientSceneChanged
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ClientSceneChanged
+  commentId: P:Mirage.INetworkSceneManager.ClientSceneChanged
+  fullName: Mirage.INetworkSceneManager.ClientSceneChanged
+  nameWithType: INetworkSceneManager.ClientSceneChanged
+- uid: Mirage.INetworkSceneManager.ClientSceneChanged*
+  name: ClientSceneChanged
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ClientSceneChanged_
+  commentId: Overload:Mirage.INetworkSceneManager.ClientSceneChanged
+  isSpec: "True"
+  fullName: Mirage.INetworkSceneManager.ClientSceneChanged
+  nameWithType: INetworkSceneManager.ClientSceneChanged
+- uid: Mirage.INetworkSceneManager.ServerChangeScene
+  name: ServerChangeScene
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ServerChangeScene
+  commentId: P:Mirage.INetworkSceneManager.ServerChangeScene
+  fullName: Mirage.INetworkSceneManager.ServerChangeScene
+  nameWithType: INetworkSceneManager.ServerChangeScene
+- uid: Mirage.INetworkSceneManager.ServerChangeScene*
+  name: ServerChangeScene
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ServerChangeScene_
+  commentId: Overload:Mirage.INetworkSceneManager.ServerChangeScene
+  isSpec: "True"
+  fullName: Mirage.INetworkSceneManager.ServerChangeScene
+  nameWithType: INetworkSceneManager.ServerChangeScene
+- uid: Mirage.INetworkSceneManager.ServerSceneChanged
+  name: ServerSceneChanged
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ServerSceneChanged
+  commentId: P:Mirage.INetworkSceneManager.ServerSceneChanged
+  fullName: Mirage.INetworkSceneManager.ServerSceneChanged
+  nameWithType: INetworkSceneManager.ServerSceneChanged
+- uid: Mirage.INetworkSceneManager.ServerSceneChanged*
+  name: ServerSceneChanged
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ServerSceneChanged_
+  commentId: Overload:Mirage.INetworkSceneManager.ServerSceneChanged
+  isSpec: "True"
+  fullName: Mirage.INetworkSceneManager.ServerSceneChanged
+  nameWithType: INetworkSceneManager.ServerSceneChanged
 - uid: Mirage.INetworkServer
   name: INetworkServer
   href: api/Mirage.INetworkServer.html
@@ -1399,6 +1524,32 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkServer.AddConnection
   nameWithType: INetworkServer.AddConnection
+- uid: Mirage.INetworkServer.Authenticated
+  name: Authenticated
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Authenticated
+  commentId: P:Mirage.INetworkServer.Authenticated
+  fullName: Mirage.INetworkServer.Authenticated
+  nameWithType: INetworkServer.Authenticated
+- uid: Mirage.INetworkServer.Authenticated*
+  name: Authenticated
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Authenticated_
+  commentId: Overload:Mirage.INetworkServer.Authenticated
+  isSpec: "True"
+  fullName: Mirage.INetworkServer.Authenticated
+  nameWithType: INetworkServer.Authenticated
+- uid: Mirage.INetworkServer.Connected
+  name: Connected
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Connected
+  commentId: P:Mirage.INetworkServer.Connected
+  fullName: Mirage.INetworkServer.Connected
+  nameWithType: INetworkServer.Connected
+- uid: Mirage.INetworkServer.Connected*
+  name: Connected
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Connected_
+  commentId: Overload:Mirage.INetworkServer.Connected
+  isSpec: "True"
+  fullName: Mirage.INetworkServer.Connected
+  nameWithType: INetworkServer.Connected
 - uid: Mirage.INetworkServer.Disconnect
   name: Disconnect()
   href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Disconnect
@@ -1412,6 +1563,45 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkServer.Disconnect
   nameWithType: INetworkServer.Disconnect
+- uid: Mirage.INetworkServer.Disconnected
+  name: Disconnected
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Disconnected
+  commentId: P:Mirage.INetworkServer.Disconnected
+  fullName: Mirage.INetworkServer.Disconnected
+  nameWithType: INetworkServer.Disconnected
+- uid: Mirage.INetworkServer.Disconnected*
+  name: Disconnected
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Disconnected_
+  commentId: Overload:Mirage.INetworkServer.Disconnected
+  isSpec: "True"
+  fullName: Mirage.INetworkServer.Disconnected
+  nameWithType: INetworkServer.Disconnected
+- uid: Mirage.INetworkServer.OnStartHost
+  name: OnStartHost
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_OnStartHost
+  commentId: P:Mirage.INetworkServer.OnStartHost
+  fullName: Mirage.INetworkServer.OnStartHost
+  nameWithType: INetworkServer.OnStartHost
+- uid: Mirage.INetworkServer.OnStartHost*
+  name: OnStartHost
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_OnStartHost_
+  commentId: Overload:Mirage.INetworkServer.OnStartHost
+  isSpec: "True"
+  fullName: Mirage.INetworkServer.OnStartHost
+  nameWithType: INetworkServer.OnStartHost
+- uid: Mirage.INetworkServer.OnStopHost
+  name: OnStopHost
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_OnStopHost
+  commentId: P:Mirage.INetworkServer.OnStopHost
+  fullName: Mirage.INetworkServer.OnStopHost
+  nameWithType: INetworkServer.OnStopHost
+- uid: Mirage.INetworkServer.OnStopHost*
+  name: OnStopHost
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_OnStopHost_
+  commentId: Overload:Mirage.INetworkServer.OnStopHost
+  isSpec: "True"
+  fullName: Mirage.INetworkServer.OnStopHost
+  nameWithType: INetworkServer.OnStopHost
 - uid: Mirage.INetworkServer.RemoveConnection(Mirage.INetworkConnection)
   name: RemoveConnection(INetworkConnection)
   href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_RemoveConnection_Mirage_INetworkConnection_
@@ -1441,6 +1631,32 @@ references:
   fullName.vb: Mirage.INetworkServer.SendToAll(Of T)(T, System.Int32)
   nameWithType: INetworkServer.SendToAll<T>(T, Int32)
   nameWithType.vb: INetworkServer.SendToAll(Of T)(T, Int32)
+- uid: Mirage.INetworkServer.Started
+  name: Started
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Started
+  commentId: P:Mirage.INetworkServer.Started
+  fullName: Mirage.INetworkServer.Started
+  nameWithType: INetworkServer.Started
+- uid: Mirage.INetworkServer.Started*
+  name: Started
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Started_
+  commentId: Overload:Mirage.INetworkServer.Started
+  isSpec: "True"
+  fullName: Mirage.INetworkServer.Started
+  nameWithType: INetworkServer.Started
+- uid: Mirage.INetworkServer.Stopped
+  name: Stopped
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Stopped
+  commentId: P:Mirage.INetworkServer.Stopped
+  fullName: Mirage.INetworkServer.Stopped
+  nameWithType: INetworkServer.Stopped
+- uid: Mirage.INetworkServer.Stopped*
+  name: Stopped
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Stopped_
+  commentId: Overload:Mirage.INetworkServer.Stopped
+  isSpec: "True"
+  fullName: Mirage.INetworkServer.Stopped
+  nameWithType: INetworkServer.Stopped
 - uid: Mirage.InvalidMessageException
   name: InvalidMessageException
   href: api/Mirage.InvalidMessageException.html
@@ -1640,6 +1856,19 @@ references:
   isSpec: "True"
   fullName: Mirage.IServerObjectManager.Spawn
   nameWithType: IServerObjectManager.Spawn
+- uid: Mirage.IServerObjectManager.Spawned
+  name: Spawned
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_Spawned
+  commentId: P:Mirage.IServerObjectManager.Spawned
+  fullName: Mirage.IServerObjectManager.Spawned
+  nameWithType: IServerObjectManager.Spawned
+- uid: Mirage.IServerObjectManager.Spawned*
+  name: Spawned
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_Spawned_
+  commentId: Overload:Mirage.IServerObjectManager.Spawned
+  isSpec: "True"
+  fullName: Mirage.IServerObjectManager.Spawned
+  nameWithType: IServerObjectManager.Spawned
 - uid: Mirage.IServerObjectManager.SpawnObjects
   name: SpawnObjects()
   href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_SpawnObjects
@@ -1666,6 +1895,19 @@ references:
   isSpec: "True"
   fullName: Mirage.IServerObjectManager.UnSpawn
   nameWithType: IServerObjectManager.UnSpawn
+- uid: Mirage.IServerObjectManager.UnSpawned
+  name: UnSpawned
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_UnSpawned
+  commentId: P:Mirage.IServerObjectManager.UnSpawned
+  fullName: Mirage.IServerObjectManager.UnSpawned
+  nameWithType: IServerObjectManager.UnSpawned
+- uid: Mirage.IServerObjectManager.UnSpawned*
+  name: UnSpawned
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_UnSpawned_
+  commentId: Overload:Mirage.IServerObjectManager.UnSpawned
+  isSpec: "True"
+  fullName: Mirage.IServerObjectManager.UnSpawned
+  nameWithType: IServerObjectManager.UnSpawned
 - uid: Mirage.ISyncObject
   name: ISyncObject
   href: api/Mirage.ISyncObject.html
@@ -4024,7 +4266,14 @@ references:
 - uid: Mirage.NetworkClient.Authenticated
   name: Authenticated
   href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Authenticated
-  commentId: F:Mirage.NetworkClient.Authenticated
+  commentId: P:Mirage.NetworkClient.Authenticated
+  fullName: Mirage.NetworkClient.Authenticated
+  nameWithType: NetworkClient.Authenticated
+- uid: Mirage.NetworkClient.Authenticated*
+  name: Authenticated
+  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Authenticated_
+  commentId: Overload:Mirage.NetworkClient.Authenticated
+  isSpec: "True"
   fullName: Mirage.NetworkClient.Authenticated
   nameWithType: NetworkClient.Authenticated
 - uid: Mirage.NetworkClient.authenticator
@@ -4061,7 +4310,14 @@ references:
 - uid: Mirage.NetworkClient.Connected
   name: Connected
   href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Connected
-  commentId: F:Mirage.NetworkClient.Connected
+  commentId: P:Mirage.NetworkClient.Connected
+  fullName: Mirage.NetworkClient.Connected
+  nameWithType: NetworkClient.Connected
+- uid: Mirage.NetworkClient.Connected*
+  name: Connected
+  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Connected_
+  commentId: Overload:Mirage.NetworkClient.Connected
+  isSpec: "True"
   fullName: Mirage.NetworkClient.Connected
   nameWithType: NetworkClient.Connected
 - uid: Mirage.NetworkClient.Connection
@@ -4093,7 +4349,14 @@ references:
 - uid: Mirage.NetworkClient.Disconnected
   name: Disconnected
   href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Disconnected
-  commentId: F:Mirage.NetworkClient.Disconnected
+  commentId: P:Mirage.NetworkClient.Disconnected
+  fullName: Mirage.NetworkClient.Disconnected
+  nameWithType: NetworkClient.Disconnected
+- uid: Mirage.NetworkClient.Disconnected*
+  name: Disconnected
+  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Disconnected_
+  commentId: Overload:Mirage.NetworkClient.Disconnected
+  isSpec: "True"
   fullName: Mirage.NetworkClient.Disconnected
   nameWithType: NetworkClient.Disconnected
 - uid: Mirage.NetworkClient.GetNewConnection(Mirage.IConnection)
@@ -6176,13 +6439,27 @@ references:
 - uid: Mirage.NetworkSceneManager.ClientChangeScene
   name: ClientChangeScene
   href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ClientChangeScene
-  commentId: F:Mirage.NetworkSceneManager.ClientChangeScene
+  commentId: P:Mirage.NetworkSceneManager.ClientChangeScene
+  fullName: Mirage.NetworkSceneManager.ClientChangeScene
+  nameWithType: NetworkSceneManager.ClientChangeScene
+- uid: Mirage.NetworkSceneManager.ClientChangeScene*
+  name: ClientChangeScene
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ClientChangeScene_
+  commentId: Overload:Mirage.NetworkSceneManager.ClientChangeScene
+  isSpec: "True"
   fullName: Mirage.NetworkSceneManager.ClientChangeScene
   nameWithType: NetworkSceneManager.ClientChangeScene
 - uid: Mirage.NetworkSceneManager.ClientSceneChanged
   name: ClientSceneChanged
   href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ClientSceneChanged
-  commentId: F:Mirage.NetworkSceneManager.ClientSceneChanged
+  commentId: P:Mirage.NetworkSceneManager.ClientSceneChanged
+  fullName: Mirage.NetworkSceneManager.ClientSceneChanged
+  nameWithType: NetworkSceneManager.ClientSceneChanged
+- uid: Mirage.NetworkSceneManager.ClientSceneChanged*
+  name: ClientSceneChanged
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ClientSceneChanged_
+  commentId: Overload:Mirage.NetworkSceneManager.ClientSceneChanged
+  isSpec: "True"
   fullName: Mirage.NetworkSceneManager.ClientSceneChanged
   nameWithType: NetworkSceneManager.ClientSceneChanged
 - uid: Mirage.NetworkSceneManager.DontDestroy
@@ -6213,13 +6490,27 @@ references:
 - uid: Mirage.NetworkSceneManager.ServerChangeScene
   name: ServerChangeScene
   href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ServerChangeScene
-  commentId: F:Mirage.NetworkSceneManager.ServerChangeScene
+  commentId: P:Mirage.NetworkSceneManager.ServerChangeScene
+  fullName: Mirage.NetworkSceneManager.ServerChangeScene
+  nameWithType: NetworkSceneManager.ServerChangeScene
+- uid: Mirage.NetworkSceneManager.ServerChangeScene*
+  name: ServerChangeScene
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ServerChangeScene_
+  commentId: Overload:Mirage.NetworkSceneManager.ServerChangeScene
+  isSpec: "True"
   fullName: Mirage.NetworkSceneManager.ServerChangeScene
   nameWithType: NetworkSceneManager.ServerChangeScene
 - uid: Mirage.NetworkSceneManager.ServerSceneChanged
   name: ServerSceneChanged
   href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ServerSceneChanged
-  commentId: F:Mirage.NetworkSceneManager.ServerSceneChanged
+  commentId: P:Mirage.NetworkSceneManager.ServerSceneChanged
+  fullName: Mirage.NetworkSceneManager.ServerSceneChanged
+  nameWithType: NetworkSceneManager.ServerSceneChanged
+- uid: Mirage.NetworkSceneManager.ServerSceneChanged*
+  name: ServerSceneChanged
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ServerSceneChanged_
+  commentId: Overload:Mirage.NetworkSceneManager.ServerSceneChanged
+  isSpec: "True"
   fullName: Mirage.NetworkSceneManager.ServerSceneChanged
   nameWithType: NetworkSceneManager.ServerSceneChanged
 - uid: Mirage.NetworkSceneManager.SetClientReady
@@ -6283,7 +6574,14 @@ references:
 - uid: Mirage.NetworkServer.Authenticated
   name: Authenticated
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Authenticated
-  commentId: F:Mirage.NetworkServer.Authenticated
+  commentId: P:Mirage.NetworkServer.Authenticated
+  fullName: Mirage.NetworkServer.Authenticated
+  nameWithType: NetworkServer.Authenticated
+- uid: Mirage.NetworkServer.Authenticated*
+  name: Authenticated
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Authenticated_
+  commentId: Overload:Mirage.NetworkServer.Authenticated
+  isSpec: "True"
   fullName: Mirage.NetworkServer.Authenticated
   nameWithType: NetworkServer.Authenticated
 - uid: Mirage.NetworkServer.authenticator
@@ -6295,7 +6593,14 @@ references:
 - uid: Mirage.NetworkServer.Connected
   name: Connected
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Connected
-  commentId: F:Mirage.NetworkServer.Connected
+  commentId: P:Mirage.NetworkServer.Connected
+  fullName: Mirage.NetworkServer.Connected
+  nameWithType: NetworkServer.Connected
+- uid: Mirage.NetworkServer.Connected*
+  name: Connected
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Connected_
+  commentId: Overload:Mirage.NetworkServer.Connected
+  isSpec: "True"
   fullName: Mirage.NetworkServer.Connected
   nameWithType: NetworkServer.Connected
 - uid: Mirage.NetworkServer.connections
@@ -6320,7 +6625,14 @@ references:
 - uid: Mirage.NetworkServer.Disconnected
   name: Disconnected
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Disconnected
-  commentId: F:Mirage.NetworkServer.Disconnected
+  commentId: P:Mirage.NetworkServer.Disconnected
+  fullName: Mirage.NetworkServer.Disconnected
+  nameWithType: NetworkServer.Disconnected
+- uid: Mirage.NetworkServer.Disconnected*
+  name: Disconnected
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Disconnected_
+  commentId: Overload:Mirage.NetworkServer.Disconnected
+  isSpec: "True"
   fullName: Mirage.NetworkServer.Disconnected
   nameWithType: NetworkServer.Disconnected
 - uid: Mirage.NetworkServer.GetNewConnection(Mirage.IConnection)
@@ -6416,13 +6728,27 @@ references:
 - uid: Mirage.NetworkServer.OnStartHost
   name: OnStartHost
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_OnStartHost
-  commentId: F:Mirage.NetworkServer.OnStartHost
+  commentId: P:Mirage.NetworkServer.OnStartHost
+  fullName: Mirage.NetworkServer.OnStartHost
+  nameWithType: NetworkServer.OnStartHost
+- uid: Mirage.NetworkServer.OnStartHost*
+  name: OnStartHost
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_OnStartHost_
+  commentId: Overload:Mirage.NetworkServer.OnStartHost
+  isSpec: "True"
   fullName: Mirage.NetworkServer.OnStartHost
   nameWithType: NetworkServer.OnStartHost
 - uid: Mirage.NetworkServer.OnStopHost
   name: OnStopHost
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_OnStopHost
-  commentId: F:Mirage.NetworkServer.OnStopHost
+  commentId: P:Mirage.NetworkServer.OnStopHost
+  fullName: Mirage.NetworkServer.OnStopHost
+  nameWithType: NetworkServer.OnStopHost
+- uid: Mirage.NetworkServer.OnStopHost*
+  name: OnStopHost
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_OnStopHost_
+  commentId: Overload:Mirage.NetworkServer.OnStopHost
+  isSpec: "True"
   fullName: Mirage.NetworkServer.OnStopHost
   nameWithType: NetworkServer.OnStopHost
 - uid: Mirage.NetworkServer.RemoveConnection(Mirage.INetworkConnection)
@@ -6457,7 +6783,14 @@ references:
 - uid: Mirage.NetworkServer.Started
   name: Started
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Started
-  commentId: F:Mirage.NetworkServer.Started
+  commentId: P:Mirage.NetworkServer.Started
+  fullName: Mirage.NetworkServer.Started
+  nameWithType: NetworkServer.Started
+- uid: Mirage.NetworkServer.Started*
+  name: Started
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Started_
+  commentId: Overload:Mirage.NetworkServer.Started
+  isSpec: "True"
   fullName: Mirage.NetworkServer.Started
   nameWithType: NetworkServer.Started
 - uid: Mirage.NetworkServer.StartHost(Mirage.NetworkClient)
@@ -6489,7 +6822,14 @@ references:
 - uid: Mirage.NetworkServer.Stopped
   name: Stopped
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Stopped
-  commentId: F:Mirage.NetworkServer.Stopped
+  commentId: P:Mirage.NetworkServer.Stopped
+  fullName: Mirage.NetworkServer.Stopped
+  nameWithType: NetworkServer.Stopped
+- uid: Mirage.NetworkServer.Stopped*
+  name: Stopped
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Stopped_
+  commentId: Overload:Mirage.NetworkServer.Stopped
+  isSpec: "True"
   fullName: Mirage.NetworkServer.Stopped
   nameWithType: NetworkServer.Stopped
 - uid: Mirage.NetworkServer.Time
@@ -8458,7 +8798,14 @@ references:
 - uid: Mirage.ServerObjectManager.Spawned
   name: Spawned
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_Spawned
-  commentId: F:Mirage.ServerObjectManager.Spawned
+  commentId: P:Mirage.ServerObjectManager.Spawned
+  fullName: Mirage.ServerObjectManager.Spawned
+  nameWithType: ServerObjectManager.Spawned
+- uid: Mirage.ServerObjectManager.Spawned*
+  name: Spawned
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_Spawned_
+  commentId: Overload:Mirage.ServerObjectManager.Spawned
+  isSpec: "True"
   fullName: Mirage.ServerObjectManager.Spawned
   nameWithType: ServerObjectManager.Spawned
 - uid: Mirage.ServerObjectManager.SpawnedObjects
@@ -8467,12 +8814,6 @@ references:
   commentId: F:Mirage.ServerObjectManager.SpawnedObjects
   fullName: Mirage.ServerObjectManager.SpawnedObjects
   nameWithType: ServerObjectManager.SpawnedObjects
-- uid: Mirage.ServerObjectManager.SpawnEvent
-  name: ServerObjectManager.SpawnEvent
-  href: api/Mirage.ServerObjectManager.SpawnEvent.html
-  commentId: T:Mirage.ServerObjectManager.SpawnEvent
-  fullName: Mirage.ServerObjectManager.SpawnEvent
-  nameWithType: ServerObjectManager.SpawnEvent
 - uid: Mirage.ServerObjectManager.SpawnObjects
   name: SpawnObjects()
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_SpawnObjects
@@ -8515,7 +8856,14 @@ references:
 - uid: Mirage.ServerObjectManager.UnSpawned
   name: UnSpawned
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_UnSpawned
-  commentId: F:Mirage.ServerObjectManager.UnSpawned
+  commentId: P:Mirage.ServerObjectManager.UnSpawned
+  fullName: Mirage.ServerObjectManager.UnSpawned
+  nameWithType: ServerObjectManager.UnSpawned
+- uid: Mirage.ServerObjectManager.UnSpawned*
+  name: UnSpawned
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_UnSpawned_
+  commentId: Overload:Mirage.ServerObjectManager.UnSpawned
+  isSpec: "True"
   fullName: Mirage.ServerObjectManager.UnSpawned
   nameWithType: ServerObjectManager.UnSpawned
 - uid: Mirage.ServerRpcAttribute
@@ -8596,6 +8944,12 @@ references:
   commentId: T:Mirage.ShowInInspectorAttribute
   fullName: Mirage.ShowInInspectorAttribute
   nameWithType: ShowInInspectorAttribute
+- uid: Mirage.SpawnEvent
+  name: SpawnEvent
+  href: api/Mirage.SpawnEvent.html
+  commentId: T:Mirage.SpawnEvent
+  fullName: Mirage.SpawnEvent
+  nameWithType: SpawnEvent
 - uid: Mirage.SpawnHandlerDelegate
   name: SpawnHandlerDelegate
   href: api/Mirage.SpawnHandlerDelegate.html
