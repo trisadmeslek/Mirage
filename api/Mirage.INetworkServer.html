@@ -95,6 +95,38 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_INetworkServer_Active.md&amp;value=---%0Auid%3A%20Mirage.INetworkServer.Active%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/master/Assets/Mirage/Runtime/INetworkServer.cs/#L59">View Source</a>
+  </span>
+  <a id="Mirage_INetworkServer_Active_" data-uid="Mirage.INetworkServer.Active*"></a>
+  <h4 id="Mirage_INetworkServer_Active" data-uid="Mirage.INetworkServer.Active">Active</h4>
+  <div class="markdown level1 summary"><p>Checks if the server has been started.</p>
+<p>This will be true after NetworkServer.Listen() has been called.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool Active { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_INetworkServer_Authenticated.md&amp;value=---%0Auid%3A%20Mirage.INetworkServer.Authenticated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -182,6 +214,99 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Mirage.NetworkConnectionEvent.html">NetworkConnectionEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_INetworkServer_LocalClient.md&amp;value=---%0Auid%3A%20Mirage.INetworkServer.LocalClient%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/master/Assets/Mirage/Runtime/INetworkServer.cs/#L48">View Source</a>
+  </span>
+  <a id="Mirage_INetworkServer_LocalClient_" data-uid="Mirage.INetworkServer.LocalClient*"></a>
+  <h4 id="Mirage_INetworkServer_LocalClient" data-uid="Mirage.INetworkServer.LocalClient">LocalClient</h4>
+  <div class="markdown level1 summary"><p>The host client for this server</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">NetworkClient LocalClient { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirage.NetworkClient.html">NetworkClient</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_INetworkServer_LocalClientActive.md&amp;value=---%0Auid%3A%20Mirage.INetworkServer.LocalClientActive%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/master/Assets/Mirage/Runtime/INetworkServer.cs/#L53">View Source</a>
+  </span>
+  <a id="Mirage_INetworkServer_LocalClientActive_" data-uid="Mirage.INetworkServer.LocalClientActive*"></a>
+  <h4 id="Mirage_INetworkServer_LocalClientActive" data-uid="Mirage.INetworkServer.LocalClientActive">LocalClientActive</h4>
+  <div class="markdown level1 summary"><p>True if there is a local client connected to this server (host mode)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool LocalClientActive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_INetworkServer_LocalConnection.md&amp;value=---%0Auid%3A%20Mirage.INetworkServer.LocalConnection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/master/Assets/Mirage/Runtime/INetworkServer.cs/#L43">View Source</a>
+  </span>
+  <a id="Mirage_INetworkServer_LocalConnection_" data-uid="Mirage.INetworkServer.LocalConnection*"></a>
+  <h4 id="Mirage_INetworkServer_LocalConnection" data-uid="Mirage.INetworkServer.LocalConnection">LocalConnection</h4>
+  <div class="markdown level1 summary"><p>The connection to the host mode client (if any).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">INetworkConnection LocalConnection { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -317,7 +442,7 @@
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_INetworkServer_AddConnection_Mirage_INetworkConnection_.md&amp;value=---%0Auid%3A%20Mirage.INetworkServer.AddConnection(Mirage.INetworkConnection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/master/Assets/Mirage/Runtime/INetworkServer.cs/#L42">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/master/Assets/Mirage/Runtime/INetworkServer.cs/#L63">View Source</a>
   </span>
   <a id="Mirage_INetworkServer_AddConnection_" data-uid="Mirage.INetworkServer.AddConnection*"></a>
   <h4 id="Mirage_INetworkServer_AddConnection_Mirage_INetworkConnection_" data-uid="Mirage.INetworkServer.AddConnection(Mirage.INetworkConnection)">AddConnection(INetworkConnection)</h4>
@@ -349,7 +474,7 @@
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_INetworkServer_Disconnect.md&amp;value=---%0Auid%3A%20Mirage.INetworkServer.Disconnect%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/master/Assets/Mirage/Runtime/INetworkServer.cs/#L40">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/master/Assets/Mirage/Runtime/INetworkServer.cs/#L61">View Source</a>
   </span>
   <a id="Mirage_INetworkServer_Disconnect_" data-uid="Mirage.INetworkServer.Disconnect*"></a>
   <h4 id="Mirage_INetworkServer_Disconnect" data-uid="Mirage.INetworkServer.Disconnect">Disconnect()</h4>
@@ -364,7 +489,7 @@
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_INetworkServer_RemoveConnection_Mirage_INetworkConnection_.md&amp;value=---%0Auid%3A%20Mirage.INetworkServer.RemoveConnection(Mirage.INetworkConnection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/master/Assets/Mirage/Runtime/INetworkServer.cs/#L44">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/master/Assets/Mirage/Runtime/INetworkServer.cs/#L65">View Source</a>
   </span>
   <a id="Mirage_INetworkServer_RemoveConnection_" data-uid="Mirage.INetworkServer.RemoveConnection*"></a>
   <h4 id="Mirage_INetworkServer_RemoveConnection_Mirage_INetworkConnection_" data-uid="Mirage.INetworkServer.RemoveConnection(Mirage.INetworkConnection)">RemoveConnection(INetworkConnection)</h4>
@@ -396,7 +521,7 @@
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_INetworkServer_SendToAll__1___0_System_Int32_.md&amp;value=---%0Auid%3A%20Mirage.INetworkServer.SendToAll%60%601(%60%600%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/master/Assets/Mirage/Runtime/INetworkServer.cs/#L46">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/master/Assets/Mirage/Runtime/INetworkServer.cs/#L67">View Source</a>
   </span>
   <a id="Mirage_INetworkServer_SendToAll_" data-uid="Mirage.INetworkServer.SendToAll*"></a>
   <h4 id="Mirage_INetworkServer_SendToAll__1___0_System_Int32_" data-uid="Mirage.INetworkServer.SendToAll``1(``0,System.Int32)">SendToAll&lt;T&gt;(T, Int32)</h4>

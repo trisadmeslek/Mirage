@@ -1273,6 +1273,19 @@ references:
   commentId: T:Mirage.INetworkClient
   fullName: Mirage.INetworkClient
   nameWithType: INetworkClient
+- uid: Mirage.INetworkClient.Active
+  name: Active
+  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Active
+  commentId: P:Mirage.INetworkClient.Active
+  fullName: Mirage.INetworkClient.Active
+  nameWithType: INetworkClient.Active
+- uid: Mirage.INetworkClient.Active*
+  name: Active
+  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Active_
+  commentId: Overload:Mirage.INetworkClient.Active
+  isSpec: "True"
+  fullName: Mirage.INetworkClient.Active
+  nameWithType: INetworkClient.Active
 - uid: Mirage.INetworkClient.Authenticated
   name: Authenticated
   href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Authenticated
@@ -1299,6 +1312,19 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkClient.Connected
   nameWithType: INetworkClient.Connected
+- uid: Mirage.INetworkClient.Connection
+  name: Connection
+  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Connection
+  commentId: P:Mirage.INetworkClient.Connection
+  fullName: Mirage.INetworkClient.Connection
+  nameWithType: INetworkClient.Connection
+- uid: Mirage.INetworkClient.Connection*
+  name: Connection
+  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Connection_
+  commentId: Overload:Mirage.INetworkClient.Connection
+  isSpec: "True"
+  fullName: Mirage.INetworkClient.Connection
+  nameWithType: INetworkClient.Connection
 - uid: Mirage.INetworkClient.Disconnect
   name: Disconnect()
   href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Disconnect
@@ -1325,6 +1351,32 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkClient.Disconnected
   nameWithType: INetworkClient.Disconnected
+- uid: Mirage.INetworkClient.IsLocalClient
+  name: IsLocalClient
+  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_IsLocalClient
+  commentId: P:Mirage.INetworkClient.IsLocalClient
+  fullName: Mirage.INetworkClient.IsLocalClient
+  nameWithType: INetworkClient.IsLocalClient
+- uid: Mirage.INetworkClient.IsLocalClient*
+  name: IsLocalClient
+  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_IsLocalClient_
+  commentId: Overload:Mirage.INetworkClient.IsLocalClient
+  isSpec: "True"
+  fullName: Mirage.INetworkClient.IsLocalClient
+  nameWithType: INetworkClient.IsLocalClient
+- uid: Mirage.INetworkClient.LocalPlayer
+  name: LocalPlayer
+  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_LocalPlayer
+  commentId: P:Mirage.INetworkClient.LocalPlayer
+  fullName: Mirage.INetworkClient.LocalPlayer
+  nameWithType: INetworkClient.LocalPlayer
+- uid: Mirage.INetworkClient.LocalPlayer*
+  name: LocalPlayer
+  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_LocalPlayer_
+  commentId: Overload:Mirage.INetworkClient.LocalPlayer
+  isSpec: "True"
+  fullName: Mirage.INetworkClient.LocalPlayer
+  nameWithType: INetworkClient.LocalPlayer
 - uid: Mirage.INetworkClient.Send*
   name: Send
   href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Send_
@@ -1511,6 +1563,19 @@ references:
   commentId: T:Mirage.INetworkServer
   fullName: Mirage.INetworkServer
   nameWithType: INetworkServer
+- uid: Mirage.INetworkServer.Active
+  name: Active
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Active
+  commentId: P:Mirage.INetworkServer.Active
+  fullName: Mirage.INetworkServer.Active
+  nameWithType: INetworkServer.Active
+- uid: Mirage.INetworkServer.Active*
+  name: Active
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Active_
+  commentId: Overload:Mirage.INetworkServer.Active
+  isSpec: "True"
+  fullName: Mirage.INetworkServer.Active
+  nameWithType: INetworkServer.Active
 - uid: Mirage.INetworkServer.AddConnection(Mirage.INetworkConnection)
   name: AddConnection(INetworkConnection)
   href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_AddConnection_Mirage_INetworkConnection_
@@ -1576,6 +1641,45 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkServer.Disconnected
   nameWithType: INetworkServer.Disconnected
+- uid: Mirage.INetworkServer.LocalClient
+  name: LocalClient
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_LocalClient
+  commentId: P:Mirage.INetworkServer.LocalClient
+  fullName: Mirage.INetworkServer.LocalClient
+  nameWithType: INetworkServer.LocalClient
+- uid: Mirage.INetworkServer.LocalClient*
+  name: LocalClient
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_LocalClient_
+  commentId: Overload:Mirage.INetworkServer.LocalClient
+  isSpec: "True"
+  fullName: Mirage.INetworkServer.LocalClient
+  nameWithType: INetworkServer.LocalClient
+- uid: Mirage.INetworkServer.LocalClientActive
+  name: LocalClientActive
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_LocalClientActive
+  commentId: P:Mirage.INetworkServer.LocalClientActive
+  fullName: Mirage.INetworkServer.LocalClientActive
+  nameWithType: INetworkServer.LocalClientActive
+- uid: Mirage.INetworkServer.LocalClientActive*
+  name: LocalClientActive
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_LocalClientActive_
+  commentId: Overload:Mirage.INetworkServer.LocalClientActive
+  isSpec: "True"
+  fullName: Mirage.INetworkServer.LocalClientActive
+  nameWithType: INetworkServer.LocalClientActive
+- uid: Mirage.INetworkServer.LocalConnection
+  name: LocalConnection
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_LocalConnection
+  commentId: P:Mirage.INetworkServer.LocalConnection
+  fullName: Mirage.INetworkServer.LocalConnection
+  nameWithType: INetworkServer.LocalConnection
+- uid: Mirage.INetworkServer.LocalConnection*
+  name: LocalConnection
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_LocalConnection_
+  commentId: Overload:Mirage.INetworkServer.LocalConnection
+  isSpec: "True"
+  fullName: Mirage.INetworkServer.LocalConnection
+  nameWithType: INetworkServer.LocalConnection
 - uid: Mirage.INetworkServer.OnStartHost
   name: OnStartHost
   href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_OnStartHost
