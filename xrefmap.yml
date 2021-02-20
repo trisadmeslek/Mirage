@@ -4550,7 +4550,14 @@ references:
 - uid: Mirage.NetworkClient.Time
   name: Time
   href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Time
-  commentId: F:Mirage.NetworkClient.Time
+  commentId: P:Mirage.NetworkClient.Time
+  fullName: Mirage.NetworkClient.Time
+  nameWithType: NetworkClient.Time
+- uid: Mirage.NetworkClient.Time*
+  name: Time
+  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Time_
+  commentId: Overload:Mirage.NetworkClient.Time
+  isSpec: "True"
   fullName: Mirage.NetworkClient.Time
   nameWithType: NetworkClient.Time
 - uid: Mirage.NetworkClient.Transport
@@ -6939,7 +6946,14 @@ references:
 - uid: Mirage.NetworkServer.Time
   name: Time
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Time
-  commentId: F:Mirage.NetworkServer.Time
+  commentId: P:Mirage.NetworkServer.Time
+  fullName: Mirage.NetworkServer.Time
+  nameWithType: NetworkServer.Time
+- uid: Mirage.NetworkServer.Time*
+  name: Time
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Time_
+  commentId: Overload:Mirage.NetworkServer.Time
+  isSpec: "True"
   fullName: Mirage.NetworkServer.Time
   nameWithType: NetworkServer.Time
 - uid: Mirage.NetworkServer.Transport
