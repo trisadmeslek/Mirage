@@ -134,6 +134,19 @@ references:
   isSpec: "True"
   fullName: Mirage.ClientObjectManager.Item
   nameWithType: ClientObjectManager.Item
+- uid: Mirage.ClientObjectManager.LocalPlayer
+  name: LocalPlayer
+  href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_LocalPlayer
+  commentId: P:Mirage.ClientObjectManager.LocalPlayer
+  fullName: Mirage.ClientObjectManager.LocalPlayer
+  nameWithType: ClientObjectManager.LocalPlayer
+- uid: Mirage.ClientObjectManager.LocalPlayer*
+  name: LocalPlayer
+  href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_LocalPlayer_
+  commentId: Overload:Mirage.ClientObjectManager.LocalPlayer
+  isSpec: "True"
+  fullName: Mirage.ClientObjectManager.LocalPlayer
+  nameWithType: ClientObjectManager.LocalPlayer
 - uid: Mirage.ClientObjectManager.NetworkSceneManager
   name: NetworkSceneManager
   href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_NetworkSceneManager
@@ -890,6 +903,19 @@ references:
   isSpec: "True"
   fullName: Mirage.IClientObjectManager.GetPrefab
   nameWithType: IClientObjectManager.GetPrefab
+- uid: Mirage.IClientObjectManager.LocalPlayer
+  name: LocalPlayer
+  href: api/Mirage.IClientObjectManager.html#Mirage_IClientObjectManager_LocalPlayer
+  commentId: P:Mirage.IClientObjectManager.LocalPlayer
+  fullName: Mirage.IClientObjectManager.LocalPlayer
+  nameWithType: IClientObjectManager.LocalPlayer
+- uid: Mirage.IClientObjectManager.LocalPlayer*
+  name: LocalPlayer
+  href: api/Mirage.IClientObjectManager.html#Mirage_IClientObjectManager_LocalPlayer_
+  commentId: Overload:Mirage.IClientObjectManager.LocalPlayer
+  isSpec: "True"
+  fullName: Mirage.IClientObjectManager.LocalPlayer
+  nameWithType: IClientObjectManager.LocalPlayer
 - uid: Mirage.IClientObjectManager.PrepareToSpawnSceneObjects
   name: PrepareToSpawnSceneObjects()
   href: api/Mirage.IClientObjectManager.html#Mirage_IClientObjectManager_PrepareToSpawnSceneObjects
@@ -1364,19 +1390,6 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkClient.IsLocalClient
   nameWithType: INetworkClient.IsLocalClient
-- uid: Mirage.INetworkClient.LocalPlayer
-  name: LocalPlayer
-  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_LocalPlayer
-  commentId: P:Mirage.INetworkClient.LocalPlayer
-  fullName: Mirage.INetworkClient.LocalPlayer
-  nameWithType: INetworkClient.LocalPlayer
-- uid: Mirage.INetworkClient.LocalPlayer*
-  name: LocalPlayer
-  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_LocalPlayer_
-  commentId: Overload:Mirage.INetworkClient.LocalPlayer
-  isSpec: "True"
-  fullName: Mirage.INetworkClient.LocalPlayer
-  nameWithType: INetworkClient.LocalPlayer
 - uid: Mirage.INetworkClient.Send*
   name: Send
   href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Send_
@@ -4502,19 +4515,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkClient.IsLocalClient
   nameWithType: NetworkClient.IsLocalClient
-- uid: Mirage.NetworkClient.LocalPlayer
-  name: LocalPlayer
-  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_LocalPlayer
-  commentId: P:Mirage.NetworkClient.LocalPlayer
-  fullName: Mirage.NetworkClient.LocalPlayer
-  nameWithType: NetworkClient.LocalPlayer
-- uid: Mirage.NetworkClient.LocalPlayer*
-  name: LocalPlayer
-  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_LocalPlayer_
-  commentId: Overload:Mirage.NetworkClient.LocalPlayer
-  isSpec: "True"
-  fullName: Mirage.NetworkClient.LocalPlayer
-  nameWithType: NetworkClient.LocalPlayer
 - uid: Mirage.NetworkClient.Send*
   name: Send
   href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Send_
