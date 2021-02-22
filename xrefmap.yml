@@ -8290,6 +8290,12 @@ references:
   commentId: T:Mirage.PlayerSpawner
   fullName: Mirage.PlayerSpawner
   nameWithType: PlayerSpawner
+- uid: Mirage.PlayerSpawner.AutoSpawn
+  name: AutoSpawn
+  href: api/Mirage.PlayerSpawner.html#Mirage_PlayerSpawner_AutoSpawn
+  commentId: F:Mirage.PlayerSpawner.AutoSpawn
+  fullName: Mirage.PlayerSpawner.AutoSpawn
+  nameWithType: PlayerSpawner.AutoSpawn
 - uid: Mirage.PlayerSpawner.Client
   name: Client
   href: api/Mirage.PlayerSpawner.html#Mirage_PlayerSpawner_Client
@@ -8358,6 +8364,19 @@ references:
   commentId: F:Mirage.PlayerSpawner.PlayerSpawnMethod.RoundRobin
   fullName: Mirage.PlayerSpawner.PlayerSpawnMethod.RoundRobin
   nameWithType: PlayerSpawner.PlayerSpawnMethod.RoundRobin
+- uid: Mirage.PlayerSpawner.RequestServerSpawnPlayer
+  name: RequestServerSpawnPlayer()
+  href: api/Mirage.PlayerSpawner.html#Mirage_PlayerSpawner_RequestServerSpawnPlayer
+  commentId: M:Mirage.PlayerSpawner.RequestServerSpawnPlayer
+  fullName: Mirage.PlayerSpawner.RequestServerSpawnPlayer()
+  nameWithType: PlayerSpawner.RequestServerSpawnPlayer()
+- uid: Mirage.PlayerSpawner.RequestServerSpawnPlayer*
+  name: RequestServerSpawnPlayer
+  href: api/Mirage.PlayerSpawner.html#Mirage_PlayerSpawner_RequestServerSpawnPlayer_
+  commentId: Overload:Mirage.PlayerSpawner.RequestServerSpawnPlayer
+  isSpec: "True"
+  fullName: Mirage.PlayerSpawner.RequestServerSpawnPlayer
+  nameWithType: PlayerSpawner.RequestServerSpawnPlayer
 - uid: Mirage.PlayerSpawner.SceneManager
   name: SceneManager
   href: api/Mirage.PlayerSpawner.html#Mirage_PlayerSpawner_SceneManager
