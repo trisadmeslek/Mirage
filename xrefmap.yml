@@ -5624,6 +5624,19 @@ references:
   commentId: T:Mirage.NetworkProximityChecker
   fullName: Mirage.NetworkProximityChecker
   nameWithType: NetworkProximityChecker
+- uid: Mirage.NetworkProximityChecker.Awake
+  name: Awake()
+  href: api/Mirage.NetworkProximityChecker.html#Mirage_NetworkProximityChecker_Awake
+  commentId: M:Mirage.NetworkProximityChecker.Awake
+  fullName: Mirage.NetworkProximityChecker.Awake()
+  nameWithType: NetworkProximityChecker.Awake()
+- uid: Mirage.NetworkProximityChecker.Awake*
+  name: Awake
+  href: api/Mirage.NetworkProximityChecker.html#Mirage_NetworkProximityChecker_Awake_
+  commentId: Overload:Mirage.NetworkProximityChecker.Awake
+  isSpec: "True"
+  fullName: Mirage.NetworkProximityChecker.Awake
+  nameWithType: NetworkProximityChecker.Awake
 - uid: Mirage.NetworkProximityChecker.ForceHidden
   name: ForceHidden
   href: api/Mirage.NetworkProximityChecker.html#Mirage_NetworkProximityChecker_ForceHidden
@@ -5659,19 +5672,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkProximityChecker.OnRebuildObservers
   nameWithType: NetworkProximityChecker.OnRebuildObservers
-- uid: Mirage.NetworkProximityChecker.Start
-  name: Start()
-  href: api/Mirage.NetworkProximityChecker.html#Mirage_NetworkProximityChecker_Start
-  commentId: M:Mirage.NetworkProximityChecker.Start
-  fullName: Mirage.NetworkProximityChecker.Start()
-  nameWithType: NetworkProximityChecker.Start()
-- uid: Mirage.NetworkProximityChecker.Start*
-  name: Start
-  href: api/Mirage.NetworkProximityChecker.html#Mirage_NetworkProximityChecker_Start_
-  commentId: Overload:Mirage.NetworkProximityChecker.Start
-  isSpec: "True"
-  fullName: Mirage.NetworkProximityChecker.Start
-  nameWithType: NetworkProximityChecker.Start
 - uid: Mirage.NetworkProximityChecker.VisibilityRange
   name: VisibilityRange
   href: api/Mirage.NetworkProximityChecker.html#Mirage_NetworkProximityChecker_VisibilityRange
