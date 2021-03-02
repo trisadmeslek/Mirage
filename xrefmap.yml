@@ -1086,6 +1086,19 @@ references:
   commentId: T:Mirage.ILoggerExtensions
   fullName: Mirage.ILoggerExtensions
   nameWithType: ILoggerExtensions
+- uid: Mirage.ILoggerExtensions.Assert(ILogger,System.Boolean,System.Object)
+  name: Assert(ILogger, Boolean, Object)
+  href: api/Mirage.ILoggerExtensions.html#Mirage_ILoggerExtensions_Assert_ILogger_System_Boolean_System_Object_
+  commentId: M:Mirage.ILoggerExtensions.Assert(ILogger,System.Boolean,System.Object)
+  fullName: Mirage.ILoggerExtensions.Assert(ILogger, System.Boolean, System.Object)
+  nameWithType: ILoggerExtensions.Assert(ILogger, Boolean, Object)
+- uid: Mirage.ILoggerExtensions.Assert*
+  name: Assert
+  href: api/Mirage.ILoggerExtensions.html#Mirage_ILoggerExtensions_Assert_
+  commentId: Overload:Mirage.ILoggerExtensions.Assert
+  isSpec: "True"
+  fullName: Mirage.ILoggerExtensions.Assert
+  nameWithType: ILoggerExtensions.Assert
 - uid: Mirage.ILoggerExtensions.ErrorEnabled(ILogger)
   name: ErrorEnabled(ILogger)
   href: api/Mirage.ILoggerExtensions.html#Mirage_ILoggerExtensions_ErrorEnabled_ILogger_
