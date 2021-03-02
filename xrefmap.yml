@@ -6823,19 +6823,19 @@ references:
   commentId: F:Mirage.NetworkServer.MaxConnections
   fullName: Mirage.NetworkServer.MaxConnections
   nameWithType: NetworkServer.MaxConnections
-- uid: Mirage.NetworkServer.NumPlayers
-  name: NumPlayers
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_NumPlayers
-  commentId: P:Mirage.NetworkServer.NumPlayers
-  fullName: Mirage.NetworkServer.NumPlayers
-  nameWithType: NetworkServer.NumPlayers
-- uid: Mirage.NetworkServer.NumPlayers*
-  name: NumPlayers
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_NumPlayers_
-  commentId: Overload:Mirage.NetworkServer.NumPlayers
+- uid: Mirage.NetworkServer.NumberOfPlayers
+  name: NumberOfPlayers
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_NumberOfPlayers
+  commentId: P:Mirage.NetworkServer.NumberOfPlayers
+  fullName: Mirage.NetworkServer.NumberOfPlayers
+  nameWithType: NetworkServer.NumberOfPlayers
+- uid: Mirage.NetworkServer.NumberOfPlayers*
+  name: NumberOfPlayers
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_NumberOfPlayers_
+  commentId: Overload:Mirage.NetworkServer.NumberOfPlayers
   isSpec: "True"
-  fullName: Mirage.NetworkServer.NumPlayers
-  nameWithType: NetworkServer.NumPlayers
+  fullName: Mirage.NetworkServer.NumberOfPlayers
+  nameWithType: NetworkServer.NumberOfPlayers
 - uid: Mirage.NetworkServer.OnStartHost
   name: OnStartHost
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_OnStartHost
