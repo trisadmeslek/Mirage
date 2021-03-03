@@ -90,7 +90,8 @@
       <h4><a class="xref" href="Mirage.Channel.html">Channel</a></h4>
       <section></section>
       <h4><a class="xref" href="Mirage.ClientAttribute.html">ClientAttribute</a></h4>
-      <section><p>Prevents the server from running this method.</p>
+      <section><p>Prevents this method from running if client is not active.</p>
+<p>Can only be used inside a NetworkBehaviour</p>
 </section>
       <h4><a class="xref" href="Mirage.ClientObjectManager.html">ClientObjectManager</a></h4>
       <section></section>
@@ -113,6 +114,7 @@
       <section></section>
       <h4><a class="xref" href="Mirage.HasAuthorityAttribute.html">HasAuthorityAttribute</a></h4>
       <section><p>Prevents players without authority from running this method.</p>
+<p>Can only be used inside a NetworkBehaviour</p>
 </section>
       <h4><a class="xref" href="Mirage.HeadlessAutoStart.html">HeadlessAutoStart</a></h4>
       <section></section>
@@ -126,6 +128,7 @@
       <section></section>
       <h4><a class="xref" href="Mirage.LocalPlayerAttribute.html">LocalPlayerAttribute</a></h4>
       <section><p>Prevents nonlocal players from running this method.</p>
+<p>Can only be used inside a NetworkBehaviour</p>
 </section>
       <h4><a class="xref" href="Mirage.LogFactory.html">LogFactory</a></h4>
       <section></section>
@@ -271,7 +274,8 @@ This will be populated by the weaver</p>
       <section><p>Converts a string property into a Scene property in the inspector</p>
 </section>
       <h4><a class="xref" href="Mirage.ServerAttribute.html">ServerAttribute</a></h4>
-      <section><p>Prevents clients from running this method.</p>
+      <section><p>Prevents a method from running if server is not active.</p>
+<p>Can only be used inside a NetworkBehaviour</p>
 </section>
       <h4><a class="xref" href="Mirage.ServerObjectManager.html">ServerObjectManager</a></h4>
       <section><p>The ServerObjectManager.</p>
