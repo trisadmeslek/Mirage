@@ -935,28 +935,6 @@
       "version": ""
     },
     {
-      "type": "Resource",
-      "source_relative_path": "Articles/General/NetworkHost.png",
-      "output": {
-        "resource": {
-          "relative_path": "Articles/General/NetworkHost.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Articles/General/NetworkLayers.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "Articles/General/NetworkLayers.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "Articles/General/PlayerControllerToIdentity.md",
       "output": {
@@ -1045,7 +1023,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/General/index.html",
-          "hash": "82lK1S5RU9RSoBla60drZg=="
+          "hash": "BtKD8vklqbIsDD07g0dgVA=="
         }
       },
       "is_incremental": false,
