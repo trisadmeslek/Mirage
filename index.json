@@ -667,7 +667,7 @@
   "api/Mirage.StringHash.html": {
     "href": "api/Mirage.StringHash.html",
     "title": "Class StringHash",
-    "keywords": "Class StringHash Inheritance Object StringHash Namespace : Mirage Assembly : doc.dll Syntax public static class StringHash : object Methods | Improve this Doc View Source GetStableHashCode(String) Declaration public static int GetStableHashCode(this string text) Parameters Type Name Description String text Returns Type Description Int32"
+    "keywords": "Class StringHash Inheritance Object StringHash Namespace : Mirage Assembly : doc.dll Syntax public static class StringHash : object Methods | Improve this Doc View Source GetStableHashCode(String) Gets a hash for a string. This hash will be the same on all platforms Declaration public static int GetStableHashCode(this string text) Parameters Type Name Description String text Returns Type Description Int32 Remarks string.GetHashCode is not guaranteed to be the same on all platforms"
   },
   "api/Mirage.SyncDictionary-2.html": {
     "href": "api/Mirage.SyncDictionary-2.html",
