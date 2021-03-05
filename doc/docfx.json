@@ -4,8 +4,11 @@
             "src": [
                 {
                     "files": [
-                        "doc.csproj"
-                    ]
+                        "Mirage.csproj",
+                        "Mirage.Authenticators.csproj",
+                        "Mirage.Components.csproj"
+                    ],
+                    "src": "../"
                 }
             ],
             "dest": "api",
