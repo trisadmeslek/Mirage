@@ -6541,6 +6541,19 @@ references:
   commentId: T:Mirage.NetworkSceneManager
   fullName: Mirage.NetworkSceneManager
   nameWithType: NetworkSceneManager
+- uid: Mirage.NetworkSceneManager.ActiveScenePath
+  name: ActiveScenePath
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ActiveScenePath
+  commentId: P:Mirage.NetworkSceneManager.ActiveScenePath
+  fullName: Mirage.NetworkSceneManager.ActiveScenePath
+  nameWithType: NetworkSceneManager.ActiveScenePath
+- uid: Mirage.NetworkSceneManager.ActiveScenePath*
+  name: ActiveScenePath
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ActiveScenePath_
+  commentId: Overload:Mirage.NetworkSceneManager.ActiveScenePath
+  isSpec: "True"
+  fullName: Mirage.NetworkSceneManager.ActiveScenePath
+  nameWithType: NetworkSceneManager.ActiveScenePath
 - uid: Mirage.NetworkSceneManager.ChangeServerScene(System.String,Mirage.SceneOperation)
   name: ChangeServerScene(String, SceneOperation)
   href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ChangeServerScene_System_String_Mirage_SceneOperation_
@@ -6592,19 +6605,6 @@ references:
   commentId: F:Mirage.NetworkSceneManager.DontDestroy
   fullName: Mirage.NetworkSceneManager.DontDestroy
   nameWithType: NetworkSceneManager.DontDestroy
-- uid: Mirage.NetworkSceneManager.NetworkScenePath
-  name: NetworkScenePath
-  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_NetworkScenePath
-  commentId: P:Mirage.NetworkSceneManager.NetworkScenePath
-  fullName: Mirage.NetworkSceneManager.NetworkScenePath
-  nameWithType: NetworkSceneManager.NetworkScenePath
-- uid: Mirage.NetworkSceneManager.NetworkScenePath*
-  name: NetworkScenePath
-  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_NetworkScenePath_
-  commentId: Overload:Mirage.NetworkSceneManager.NetworkScenePath
-  isSpec: "True"
-  fullName: Mirage.NetworkSceneManager.NetworkScenePath
-  nameWithType: NetworkSceneManager.NetworkScenePath
 - uid: Mirage.NetworkSceneManager.Server
   name: Server
   href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_Server
