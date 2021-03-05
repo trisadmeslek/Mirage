@@ -9,8 +9,7 @@
                 }
             ],
             "dest": "api",
-            "disableDefaultFilter": false,
-            "filter": "filterConfig.yml"
+            "disableDefaultFilter": false
         }
     ],
     "build": {
