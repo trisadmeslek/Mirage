@@ -1493,25 +1493,6 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkConnection.IsReady
   nameWithType: INetworkConnection.IsReady
-- uid: Mirage.INetworkManager
-  name: INetworkManager
-  href: api/Mirage.INetworkManager.html
-  commentId: T:Mirage.INetworkManager
-  fullName: Mirage.INetworkManager
-  nameWithType: INetworkManager
-- uid: Mirage.INetworkManager.StopHost
-  name: StopHost()
-  href: api/Mirage.INetworkManager.html#Mirage_INetworkManager_StopHost
-  commentId: M:Mirage.INetworkManager.StopHost
-  fullName: Mirage.INetworkManager.StopHost()
-  nameWithType: INetworkManager.StopHost()
-- uid: Mirage.INetworkManager.StopHost*
-  name: StopHost
-  href: api/Mirage.INetworkManager.html#Mirage_INetworkManager_StopHost_
-  commentId: Overload:Mirage.INetworkManager.StopHost
-  isSpec: "True"
-  fullName: Mirage.INetworkManager.StopHost
-  nameWithType: INetworkManager.StopHost
 - uid: Mirage.INetworkSceneManager
   name: INetworkSceneManager
   href: api/Mirage.INetworkSceneManager.html
