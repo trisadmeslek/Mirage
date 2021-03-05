@@ -5,18 +5,53 @@ on: [push]
 jobs:
   build_doc:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
+    container: gableroux/unity3d:2020.1.12f1
 
+    env:
+      UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
     steps:
+    # Install docfx
+    - name: get docfx.zip
+      run: wget https://github.com/dotnet/docfx/releases/download/v2.56.6/docfx.zip 
+    - name: update
+      run: apt-get update
+    - name: install unzip
+      run: apt-get install -y unzip
+    - name: unzip docfx
+      run: unzip docfx.zip -d /docfx
+    - name: delete zip
+      run: rm docfx.zip
+
+    # Checkout
     - uses: actions/checkout@v2
+    
+    # Generate .sln
+    - name: Activate license
+      uses: James-Frowen/unity-runner@3.1.6
+      with:
+        entrypoint: /activate.sh
+        
+    - name: Generate Solution
+      uses: James-Frowen/unity-runner@3.1.6
+      with:
+        # Arguments to pass to unity
+        args: -buildTarget StandaloneWindows64 -customBuildName Mirage -customBuildPath ./build/StandaloneWindows64 -projectPath . -executeMethod  UnityEditor.SyncVS.SyncSolution -quit
+
+    
+    # Generate docs
     - name: Generate API
-      uses: nikeee/docfx-action@v1.0.0
+      uses: James-Frowen/unity-runner@3.1.6
       with:
-        args: metadata --logLevel Warning --warningsAsErrors doc/docfx.json
+        entrypoint: /docfx.sh
+        args: metadata --logLevel verbose doc/docfx.json
     - name: Compile Docs
-      uses: nikeee/docfx-action@v1.0.0
+      uses: James-Frowen/unity-runner@3.1.6
       with:
-        args: build --logLevel Warning --warningsAsErrors doc/docfx.json
+        entrypoint: /docfx.sh
+        args: build --logLevel verbose doc/docfx.json
+    
+    # Deploy to Github pages
     - name: GitHub Pages
       uses: crazy-max/ghaction-github-pages@v2.2.0
       if: github.ref == 'refs/heads/master'
