@@ -41,7 +41,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/Components/Authenticators/index.html",
-          "hash": "/3dsO0BwKci9ufsGE2R/Ng=="
+          "hash": "TmKz8iYKFhAdNdcNi6xH/w=="
         }
       },
       "is_incremental": false,
@@ -98,7 +98,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/Components/NetworkDiscovery.html",
-          "hash": "5KvvE7FIEvvHha20KWOENA=="
+          "hash": "O32buq35HXdKC2qqEjysFQ=="
         }
       },
       "is_incremental": false,
@@ -948,29 +948,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Articles/General/ScriptTemplates.md",
-      "output": {
-        ".html": {
-          "relative_path": "Articles/General/ScriptTemplates.html",
-          "hash": "xN84+I09G449RAn8wLD+tA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Articles/General/ScriptTemplates.png",
-      "output": {
-        "resource": {
-          "relative_path": "Articles/General/ScriptTemplates.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "Articles/General/Showcase.md",
       "output": {
         ".html": {
@@ -987,7 +964,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/General/Start.html",
-          "hash": "eiDQMY0mjw1q0q85SKFJzQ=="
+          "hash": "wu9nH+9nCv7ra8FzqExqfw=="
         }
       },
       "is_incremental": false,
@@ -2151,7 +2128,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/Guides/Visibility.html",
-          "hash": "CyTo/VKHuYOlCAaIE/dfLA=="
+          "hash": "j7Qsti+3v24FkoK9IIKxww=="
         }
       },
       "is_incremental": false,
@@ -2175,7 +2152,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/toc.html",
-          "hash": "zAfN5tLrgU7LDKZYtbLrCA=="
+          "hash": "nv4FV2wknWy/VcVJbnFwOw=="
         }
       },
       "is_incremental": false,
@@ -4052,7 +4029,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 80,
+          "total_file_count": 79,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
