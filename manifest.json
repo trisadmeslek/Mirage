@@ -1068,7 +1068,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/Guides/Attributes.html",
-          "hash": "7qvTghyAowNoyC1VNHy9+g=="
+          "hash": "eRhoIWiSa46CQX+xAZDx0A=="
         }
       },
       "is_incremental": false,
@@ -2088,23 +2088,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "Articles/Guides/Sync/SyncVarHook.md",
-      "output": {
-        ".html": {
-          "relative_path": "Articles/Guides/Sync/SyncVarHook.html",
-          "hash": "OFhdQV7kFMsMIsmVE60FBA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "Articles/Guides/Sync/SyncVars.md",
       "output": {
         ".html": {
           "relative_path": "Articles/Guides/Sync/SyncVars.html",
-          "hash": "P/LWLXtyNQI/sVgsZp7Kiw=="
+          "hash": "jJ8ieoDQwMaAfDCIar71mw=="
         }
       },
       "is_incremental": false,
@@ -2152,7 +2140,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/toc.html",
-          "hash": "nv4FV2wknWy/VcVJbnFwOw=="
+          "hash": "8RODIVhp04P/RUTvfbnn0Q=="
         }
       },
       "is_incremental": false,
@@ -4029,7 +4017,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 79,
+          "total_file_count": 78,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
