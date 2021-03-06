@@ -2004,6 +2004,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "Articles/Guides/MirrorMigration.md",
+      "output": {
+        ".html": {
+          "relative_path": "Articles/Guides/MirrorMigration.html",
+          "hash": "bgiHMhzrL3tmPgRHxXUG8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "Articles/Guides/Profiler.md",
       "output": {
         ".html": {
@@ -2175,7 +2187,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/toc.html",
-          "hash": "6DOttCgk0/2Rf9YLUtKiLQ=="
+          "hash": "hMwSCPmTAu90b0YOYLH/Lg=="
         }
       },
       "is_incremental": false,
@@ -4052,7 +4064,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 80,
+          "total_file_count": 81,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
