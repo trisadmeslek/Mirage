@@ -15,25 +15,25 @@ jobs:
     
     # Generate .sln
     - name: Activate license
-      uses: James-Frowen/unity-runner@3.1.6
+      uses: MirageNet/unity-runner@3.2
       with:
         entrypoint: /activate.sh
         
     - name: Generate Solution
-      uses: James-Frowen/unity-runner@3.1.6
+      uses: MirageNet/unity-runner@3.2
       with:
         # Arguments to pass to unity
         args: -buildTarget StandaloneWindows64 -customBuildName Mirage -customBuildPath ./build/StandaloneWindows64 -projectPath . -executeMethod  UnityEditor.SyncVS.SyncSolution -quit
 
-    
     # Generate docs
     - name: Generate API
-      uses: James-Frowen/unity-runner@3.1.6
+      uses: MirageNet/unity-runner@3.2
       with:
         entrypoint: /docfx.sh
         args: metadata --logLevel verbose doc/docfx.json
+    
     - name: Compile Docs
-      uses: James-Frowen/unity-runner@3.1.6
+      uses: MirageNet/unity-runner@3.2
       with:
         entrypoint: /docfx.sh
         args: build --logLevel verbose doc/docfx.json
