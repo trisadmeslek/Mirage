@@ -152,7 +152,7 @@
   "api/Mirage.IMessageSender.html": {
     "href": "api/Mirage.IMessageSender.html",
     "title": "Interface IMessageSender",
-    "keywords": "Interface IMessageSender An object that can send messages Namespace : Mirage Assembly : doc.dll Syntax public interface IMessageSender Methods | Improve this Doc View Source Send(ArraySegment<Byte>, Int32) Declaration void Send(ArraySegment<byte> segment, int channelId = null) Parameters Type Name Description ArraySegment < Byte > segment Int32 channelId | Improve this Doc View Source Send<T>(T, Int32) Declaration void Send<T>(T msg, int channelId = null) Parameters Type Name Description T msg Int32 channelId Type Parameters Name Description T"
+    "keywords": "Interface IMessageSender An object that can send messages Namespace : Mirage Assembly : doc.dll Syntax public interface IMessageSender Methods | Improve this Doc View Source Send(ArraySegment<Byte>, Int32) Declaration void Send(ArraySegment<byte> segment, int channelId = null) Parameters Type Name Description ArraySegment < Byte > segment Int32 channelId | Improve this Doc View Source Send<T>(T, Int32) Declaration void Send<T>(T message, int channelId = null) Parameters Type Name Description T message Int32 channelId Type Parameters Name Description T"
   },
   "api/Mirage.INetworkClient.html": {
     "href": "api/Mirage.INetworkClient.html",
