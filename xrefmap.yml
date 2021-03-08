@@ -1249,6 +1249,15 @@ references:
   commentId: T:Mirage.IMessageSender
   fullName: Mirage.IMessageSender
   nameWithType: IMessageSender
+- uid: Mirage.IMessageSender.Send(ArraySegment{System.Byte},System.Int32)
+  name: Send(ArraySegment<Byte>, Int32)
+  href: api/Mirage.IMessageSender.html#Mirage_IMessageSender_Send_ArraySegment_System_Byte__System_Int32_
+  commentId: M:Mirage.IMessageSender.Send(ArraySegment{System.Byte},System.Int32)
+  name.vb: Send(ArraySegment(Of Byte), Int32)
+  fullName: Mirage.IMessageSender.Send(ArraySegment<System.Byte>, System.Int32)
+  fullName.vb: Mirage.IMessageSender.Send(ArraySegment(Of System.Byte), System.Int32)
+  nameWithType: IMessageSender.Send(ArraySegment<Byte>, Int32)
+  nameWithType.vb: IMessageSender.Send(ArraySegment(Of Byte), Int32)
 - uid: Mirage.IMessageSender.Send*
   name: Send
   href: api/Mirage.IMessageSender.html#Mirage_IMessageSender_Send_
@@ -1265,31 +1274,6 @@ references:
   fullName.vb: Mirage.IMessageSender.Send(Of T)(T, System.Int32)
   nameWithType: IMessageSender.Send<T>(T, Int32)
   nameWithType.vb: IMessageSender.Send(Of T)(T, Int32)
-- uid: Mirage.IMessageSender.SendAsync(ArraySegment{System.Byte},System.Int32)
-  name: SendAsync(ArraySegment<Byte>, Int32)
-  href: api/Mirage.IMessageSender.html#Mirage_IMessageSender_SendAsync_ArraySegment_System_Byte__System_Int32_
-  commentId: M:Mirage.IMessageSender.SendAsync(ArraySegment{System.Byte},System.Int32)
-  name.vb: SendAsync(ArraySegment(Of Byte), Int32)
-  fullName: Mirage.IMessageSender.SendAsync(ArraySegment<System.Byte>, System.Int32)
-  fullName.vb: Mirage.IMessageSender.SendAsync(ArraySegment(Of System.Byte), System.Int32)
-  nameWithType: IMessageSender.SendAsync(ArraySegment<Byte>, Int32)
-  nameWithType.vb: IMessageSender.SendAsync(ArraySegment(Of Byte), Int32)
-- uid: Mirage.IMessageSender.SendAsync*
-  name: SendAsync
-  href: api/Mirage.IMessageSender.html#Mirage_IMessageSender_SendAsync_
-  commentId: Overload:Mirage.IMessageSender.SendAsync
-  isSpec: "True"
-  fullName: Mirage.IMessageSender.SendAsync
-  nameWithType: IMessageSender.SendAsync
-- uid: Mirage.IMessageSender.SendAsync``1(``0,System.Int32)
-  name: SendAsync<T>(T, Int32)
-  href: api/Mirage.IMessageSender.html#Mirage_IMessageSender_SendAsync__1___0_System_Int32_
-  commentId: M:Mirage.IMessageSender.SendAsync``1(``0,System.Int32)
-  name.vb: SendAsync(Of T)(T, Int32)
-  fullName: Mirage.IMessageSender.SendAsync<T>(T, System.Int32)
-  fullName.vb: Mirage.IMessageSender.SendAsync(Of T)(T, System.Int32)
-  nameWithType: IMessageSender.SendAsync<T>(T, Int32)
-  nameWithType.vb: IMessageSender.SendAsync(Of T)(T, Int32)
 - uid: Mirage.INetworkClient
   name: INetworkClient
   href: api/Mirage.INetworkClient.html
@@ -4501,6 +4485,15 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkClient.IsLocalClient
   nameWithType: NetworkClient.IsLocalClient
+- uid: Mirage.NetworkClient.Send(ArraySegment{System.Byte},System.Int32)
+  name: Send(ArraySegment<Byte>, Int32)
+  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Send_ArraySegment_System_Byte__System_Int32_
+  commentId: M:Mirage.NetworkClient.Send(ArraySegment{System.Byte},System.Int32)
+  name.vb: Send(ArraySegment(Of Byte), Int32)
+  fullName: Mirage.NetworkClient.Send(ArraySegment<System.Byte>, System.Int32)
+  fullName.vb: Mirage.NetworkClient.Send(ArraySegment(Of System.Byte), System.Int32)
+  nameWithType: NetworkClient.Send(ArraySegment<Byte>, Int32)
+  nameWithType.vb: NetworkClient.Send(ArraySegment(Of Byte), Int32)
 - uid: Mirage.NetworkClient.Send*
   name: Send
   href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Send_
@@ -4517,31 +4510,6 @@ references:
   fullName.vb: Mirage.NetworkClient.Send(Of T)(T, System.Int32)
   nameWithType: NetworkClient.Send<T>(T, Int32)
   nameWithType.vb: NetworkClient.Send(Of T)(T, Int32)
-- uid: Mirage.NetworkClient.SendAsync(ArraySegment{System.Byte},System.Int32)
-  name: SendAsync(ArraySegment<Byte>, Int32)
-  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_SendAsync_ArraySegment_System_Byte__System_Int32_
-  commentId: M:Mirage.NetworkClient.SendAsync(ArraySegment{System.Byte},System.Int32)
-  name.vb: SendAsync(ArraySegment(Of Byte), Int32)
-  fullName: Mirage.NetworkClient.SendAsync(ArraySegment<System.Byte>, System.Int32)
-  fullName.vb: Mirage.NetworkClient.SendAsync(ArraySegment(Of System.Byte), System.Int32)
-  nameWithType: NetworkClient.SendAsync(ArraySegment<Byte>, Int32)
-  nameWithType.vb: NetworkClient.SendAsync(ArraySegment(Of Byte), Int32)
-- uid: Mirage.NetworkClient.SendAsync*
-  name: SendAsync
-  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_SendAsync_
-  commentId: Overload:Mirage.NetworkClient.SendAsync
-  isSpec: "True"
-  fullName: Mirage.NetworkClient.SendAsync
-  nameWithType: NetworkClient.SendAsync
-- uid: Mirage.NetworkClient.SendAsync``1(``0,System.Int32)
-  name: SendAsync<T>(T, Int32)
-  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_SendAsync__1___0_System_Int32_
-  commentId: M:Mirage.NetworkClient.SendAsync``1(``0,System.Int32)
-  name.vb: SendAsync(Of T)(T, Int32)
-  fullName: Mirage.NetworkClient.SendAsync<T>(T, System.Int32)
-  fullName.vb: Mirage.NetworkClient.SendAsync(Of T)(T, System.Int32)
-  nameWithType: NetworkClient.SendAsync<T>(T, Int32)
-  nameWithType.vb: NetworkClient.SendAsync(Of T)(T, Int32)
 - uid: Mirage.NetworkClient.Time
   name: Time
   href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Time
@@ -4792,6 +4760,15 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkConnection.RemoveOwnedObject
   nameWithType: NetworkConnection.RemoveOwnedObject
+- uid: Mirage.NetworkConnection.Send(ArraySegment{System.Byte},System.Int32)
+  name: Send(ArraySegment<Byte>, Int32)
+  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_Send_ArraySegment_System_Byte__System_Int32_
+  commentId: M:Mirage.NetworkConnection.Send(ArraySegment{System.Byte},System.Int32)
+  name.vb: Send(ArraySegment(Of Byte), Int32)
+  fullName: Mirage.NetworkConnection.Send(ArraySegment<System.Byte>, System.Int32)
+  fullName.vb: Mirage.NetworkConnection.Send(ArraySegment(Of System.Byte), System.Int32)
+  nameWithType: NetworkConnection.Send(ArraySegment<Byte>, Int32)
+  nameWithType.vb: NetworkConnection.Send(ArraySegment(Of Byte), Int32)
 - uid: Mirage.NetworkConnection.Send*
   name: Send
   href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_Send_
@@ -4817,31 +4794,6 @@ references:
   fullName.vb: Mirage.NetworkConnection.Send(Of T)(IEnumerable(Of Mirage.INetworkConnection), T, System.Int32)
   nameWithType: NetworkConnection.Send<T>(IEnumerable<INetworkConnection>, T, Int32)
   nameWithType.vb: NetworkConnection.Send(Of T)(IEnumerable(Of INetworkConnection), T, Int32)
-- uid: Mirage.NetworkConnection.SendAsync(ArraySegment{System.Byte},System.Int32)
-  name: SendAsync(ArraySegment<Byte>, Int32)
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_SendAsync_ArraySegment_System_Byte__System_Int32_
-  commentId: M:Mirage.NetworkConnection.SendAsync(ArraySegment{System.Byte},System.Int32)
-  name.vb: SendAsync(ArraySegment(Of Byte), Int32)
-  fullName: Mirage.NetworkConnection.SendAsync(ArraySegment<System.Byte>, System.Int32)
-  fullName.vb: Mirage.NetworkConnection.SendAsync(ArraySegment(Of System.Byte), System.Int32)
-  nameWithType: NetworkConnection.SendAsync(ArraySegment<Byte>, Int32)
-  nameWithType.vb: NetworkConnection.SendAsync(ArraySegment(Of Byte), Int32)
-- uid: Mirage.NetworkConnection.SendAsync*
-  name: SendAsync
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_SendAsync_
-  commentId: Overload:Mirage.NetworkConnection.SendAsync
-  isSpec: "True"
-  fullName: Mirage.NetworkConnection.SendAsync
-  nameWithType: NetworkConnection.SendAsync
-- uid: Mirage.NetworkConnection.SendAsync``1(``0,System.Int32)
-  name: SendAsync<T>(T, Int32)
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_SendAsync__1___0_System_Int32_
-  commentId: M:Mirage.NetworkConnection.SendAsync``1(``0,System.Int32)
-  name.vb: SendAsync(Of T)(T, Int32)
-  fullName: Mirage.NetworkConnection.SendAsync<T>(T, System.Int32)
-  fullName.vb: Mirage.NetworkConnection.SendAsync(Of T)(T, System.Int32)
-  nameWithType: NetworkConnection.SendAsync<T>(T, Int32)
-  nameWithType.vb: NetworkConnection.SendAsync(Of T)(T, Int32)
 - uid: Mirage.NetworkConnection.SendNotify*
   name: SendNotify
   href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_SendNotify_
