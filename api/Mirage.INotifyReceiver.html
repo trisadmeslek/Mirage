@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IMessageHandler
+    <title>Interface INotifyReceiver
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IMessageHandler
+    <meta name="title" content="Interface INotifyReceiver
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -80,56 +80,82 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Mirage.IMessageHandler">
+            <article class="content wrap" id="_content" data-uid="Mirage.INotifyReceiver">
   
   
-  <h1 id="Mirage_IMessageHandler" data-uid="Mirage.IMessageHandler" class="text-break">Interface IMessageHandler
+  <h1 id="Mirage_INotifyReceiver" data-uid="Mirage.INotifyReceiver" class="text-break">Interface INotifyReceiver
   </h1>
-  <div class="markdown level0 summary"><p>An object that can send and receive messages and notify messages</p>
+  <div class="markdown level0 summary"><p>An object that can receive notify messages</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Mirage.IMessageSender.html#Mirage_IMessageSender_Send__1___0_System_Int32_">IMessageSender.Send&lt;T&gt;(T, Int32)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.IMessageSender.html#Mirage_IMessageSender_SendAsync__1___0_System_Int32_">IMessageSender.SendAsync&lt;T&gt;(T, Int32)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.IMessageSender.html#Mirage_IMessageSender_SendAsync_ArraySegment_System_Byte__System_Int32_">IMessageSender.SendAsync(ArraySegment&lt;Byte&gt;, Int32)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_RegisterHandler__1_Action_Mirage_INetworkConnection___0__">IMessageReceiver.RegisterHandler&lt;T&gt;(Action&lt;INetworkConnection, T&gt;)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_RegisterHandler__1_Action___0__">IMessageReceiver.RegisterHandler&lt;T&gt;(Action&lt;T&gt;)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_UnregisterHandler__1">IMessageReceiver.UnregisterHandler&lt;T&gt;()</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_ClearHandlers">IMessageReceiver.ClearHandlers()</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_ProcessMessagesAsync">IMessageReceiver.ProcessMessagesAsync()</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.INotifySender.html#Mirage_INotifySender_SendNotify__1___0_System_Object_System_Int32_">INotifySender.SendNotify&lt;T&gt;(T, Object, Int32)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.INotifyReceiver.html#Mirage_INotifyReceiver_NotifyDelivered">INotifyReceiver.NotifyDelivered</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.INotifyReceiver.html#Mirage_INotifyReceiver_NotifyLost">INotifyReceiver.NotifyLost</a>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mirage.html">Mirage</a></h6>
   <h6><strong>Assembly</strong>: doc.dll</h6>
-  <h5 id="Mirage_IMessageHandler_syntax">Syntax</h5>
+  <h5 id="Mirage_INotifyReceiver_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IMessageHandler : IMessageSender, IMessageReceiver, INotifySender, INotifyReceiver</code></pre>
+    <pre><code class="lang-csharp hljs">public interface INotifyReceiver</code></pre>
   </div>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_INotifyReceiver_NotifyDelivered.md&amp;value=---%0Auid%3A%20Mirage.INotifyReceiver.NotifyDelivered%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/master/Assets/Mirage/Runtime/INetworkConnection.cs/#L61">View Source</a>
+  </span>
+  <h4 id="Mirage_INotifyReceiver_NotifyDelivered" data-uid="Mirage.INotifyReceiver.NotifyDelivered">NotifyDelivered</h4>
+  <div class="markdown level1 summary"><p>Raised when a message is delivered</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event Action&lt;INetworkConnection, object&gt; NotifyDelivered</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_INotifyReceiver_NotifyLost.md&amp;value=---%0Auid%3A%20Mirage.INotifyReceiver.NotifyLost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/master/Assets/Mirage/Runtime/INetworkConnection.cs/#L66">View Source</a>
+  </span>
+  <h4 id="Mirage_INotifyReceiver_NotifyLost" data-uid="Mirage.INotifyReceiver.NotifyLost">NotifyLost</h4>
+  <div class="markdown level1 summary"><p>Raised when a message is lost</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event Action&lt;INetworkConnection, object&gt; NotifyLost</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -138,10 +164,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_IMessageHandler.md&amp;value=---%0Auid%3A%20Mirage.IMessageHandler%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_INotifyReceiver.md&amp;value=---%0Auid%3A%20Mirage.INotifyReceiver%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/blob/master/Assets/Mirage/Runtime/INetworkConnection.cs/#L72" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirageNet/Mirage/blob/master/Assets/Mirage/Runtime/INetworkConnection.cs/#L56" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

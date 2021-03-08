@@ -2464,7 +2464,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirage.IMessageHandler.html",
-          "hash": "iO9cp7ANpW26v9zI9uxN5g=="
+          "hash": "4x+/gFBQMiSNsBfVzVAI8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mirage.IMessageReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mirage.IMessageReceiver.html",
+          "hash": "n8dpT50j2N83ezgoUMZCZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mirage.IMessageSender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mirage.IMessageSender.html",
+          "hash": "VDYFlvcKG34BmYG+roJNfg=="
         }
       },
       "is_incremental": false,
@@ -2488,7 +2512,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirage.INetworkConnection.html",
-          "hash": "hA8iSaqFbVwd5xFibYJ3wA=="
+          "hash": "QSN2kAIqXXBzPP3wJ2BGig=="
         }
       },
       "is_incremental": false,
@@ -2520,6 +2544,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Mirage.INotifyReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mirage.INotifyReceiver.html",
+          "hash": "LwP2CxMrrTVK8dZKL+JE/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mirage.INotifySender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mirage.INotifySender.html",
+          "hash": "ePgKE1TAwf6tiDt0Ntx8cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Mirage.IObjectLocator.yml",
       "output": {
         ".html": {
@@ -2536,7 +2584,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirage.IObjectOwner.html",
-          "hash": "v7uRhqyOF72+Zc4biVoUKw=="
+          "hash": "asg+OgLFxrt1mFWeWPDiUQ=="
         }
       },
       "is_incremental": false,
@@ -2572,7 +2620,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirage.IVisibilityTracker.html",
-          "hash": "av6AtQf2cyaPhpBHPYJSTw=="
+          "hash": "kU0FRK+QONrWg662EmcZZw=="
         }
       },
       "is_incremental": false,
@@ -2932,7 +2980,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirage.NetworkConnection.html",
-          "hash": "PoVWg4snIxDpsOSWmGodPg=="
+          "hash": "iipG5KhhcapW6TYqigr1Xg=="
         }
       },
       "is_incremental": false,
@@ -3904,7 +3952,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirage.html",
-          "hash": "vvO/ATOV3O8snsr+HltIJQ=="
+          "hash": "ze8WrR6IE3GzfGQSTLtR0g=="
         }
       },
       "is_incremental": false,
@@ -3928,7 +3976,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "4ihGyJQy3k0o5VMjrp7A2w=="
+          "hash": "CYmIDv/huLhXCT06GplxrA=="
         }
       },
       "is_incremental": false,
@@ -4023,7 +4071,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 147,
+          "total_file_count": 151,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

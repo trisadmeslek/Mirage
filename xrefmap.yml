@@ -1170,142 +1170,126 @@ references:
   commentId: T:Mirage.IMessageHandler
   fullName: Mirage.IMessageHandler
   nameWithType: IMessageHandler
-- uid: Mirage.IMessageHandler.ClearHandlers
+- uid: Mirage.IMessageReceiver
+  name: IMessageReceiver
+  href: api/Mirage.IMessageReceiver.html
+  commentId: T:Mirage.IMessageReceiver
+  fullName: Mirage.IMessageReceiver
+  nameWithType: IMessageReceiver
+- uid: Mirage.IMessageReceiver.ClearHandlers
   name: ClearHandlers()
-  href: api/Mirage.IMessageHandler.html#Mirage_IMessageHandler_ClearHandlers
-  commentId: M:Mirage.IMessageHandler.ClearHandlers
-  fullName: Mirage.IMessageHandler.ClearHandlers()
-  nameWithType: IMessageHandler.ClearHandlers()
-- uid: Mirage.IMessageHandler.ClearHandlers*
+  href: api/Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_ClearHandlers
+  commentId: M:Mirage.IMessageReceiver.ClearHandlers
+  fullName: Mirage.IMessageReceiver.ClearHandlers()
+  nameWithType: IMessageReceiver.ClearHandlers()
+- uid: Mirage.IMessageReceiver.ClearHandlers*
   name: ClearHandlers
-  href: api/Mirage.IMessageHandler.html#Mirage_IMessageHandler_ClearHandlers_
-  commentId: Overload:Mirage.IMessageHandler.ClearHandlers
+  href: api/Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_ClearHandlers_
+  commentId: Overload:Mirage.IMessageReceiver.ClearHandlers
   isSpec: "True"
-  fullName: Mirage.IMessageHandler.ClearHandlers
-  nameWithType: IMessageHandler.ClearHandlers
-- uid: Mirage.IMessageHandler.NotifyDelivered
-  name: NotifyDelivered
-  href: api/Mirage.IMessageHandler.html#Mirage_IMessageHandler_NotifyDelivered
-  commentId: E:Mirage.IMessageHandler.NotifyDelivered
-  fullName: Mirage.IMessageHandler.NotifyDelivered
-  nameWithType: IMessageHandler.NotifyDelivered
-- uid: Mirage.IMessageHandler.NotifyLost
-  name: NotifyLost
-  href: api/Mirage.IMessageHandler.html#Mirage_IMessageHandler_NotifyLost
-  commentId: E:Mirage.IMessageHandler.NotifyLost
-  fullName: Mirage.IMessageHandler.NotifyLost
-  nameWithType: IMessageHandler.NotifyLost
-- uid: Mirage.IMessageHandler.ProcessMessagesAsync
+  fullName: Mirage.IMessageReceiver.ClearHandlers
+  nameWithType: IMessageReceiver.ClearHandlers
+- uid: Mirage.IMessageReceiver.ProcessMessagesAsync
   name: ProcessMessagesAsync()
-  href: api/Mirage.IMessageHandler.html#Mirage_IMessageHandler_ProcessMessagesAsync
-  commentId: M:Mirage.IMessageHandler.ProcessMessagesAsync
-  fullName: Mirage.IMessageHandler.ProcessMessagesAsync()
-  nameWithType: IMessageHandler.ProcessMessagesAsync()
-- uid: Mirage.IMessageHandler.ProcessMessagesAsync*
+  href: api/Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_ProcessMessagesAsync
+  commentId: M:Mirage.IMessageReceiver.ProcessMessagesAsync
+  fullName: Mirage.IMessageReceiver.ProcessMessagesAsync()
+  nameWithType: IMessageReceiver.ProcessMessagesAsync()
+- uid: Mirage.IMessageReceiver.ProcessMessagesAsync*
   name: ProcessMessagesAsync
-  href: api/Mirage.IMessageHandler.html#Mirage_IMessageHandler_ProcessMessagesAsync_
-  commentId: Overload:Mirage.IMessageHandler.ProcessMessagesAsync
+  href: api/Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_ProcessMessagesAsync_
+  commentId: Overload:Mirage.IMessageReceiver.ProcessMessagesAsync
   isSpec: "True"
-  fullName: Mirage.IMessageHandler.ProcessMessagesAsync
-  nameWithType: IMessageHandler.ProcessMessagesAsync
-- uid: Mirage.IMessageHandler.RegisterHandler*
+  fullName: Mirage.IMessageReceiver.ProcessMessagesAsync
+  nameWithType: IMessageReceiver.ProcessMessagesAsync
+- uid: Mirage.IMessageReceiver.RegisterHandler*
   name: RegisterHandler
-  href: api/Mirage.IMessageHandler.html#Mirage_IMessageHandler_RegisterHandler_
-  commentId: Overload:Mirage.IMessageHandler.RegisterHandler
+  href: api/Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_RegisterHandler_
+  commentId: Overload:Mirage.IMessageReceiver.RegisterHandler
   isSpec: "True"
-  fullName: Mirage.IMessageHandler.RegisterHandler
-  nameWithType: IMessageHandler.RegisterHandler
-- uid: Mirage.IMessageHandler.RegisterHandler``1(Action{``0})
+  fullName: Mirage.IMessageReceiver.RegisterHandler
+  nameWithType: IMessageReceiver.RegisterHandler
+- uid: Mirage.IMessageReceiver.RegisterHandler``1(Action{``0})
   name: RegisterHandler<T>(Action<T>)
-  href: api/Mirage.IMessageHandler.html#Mirage_IMessageHandler_RegisterHandler__1_Action___0__
-  commentId: M:Mirage.IMessageHandler.RegisterHandler``1(Action{``0})
+  href: api/Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_RegisterHandler__1_Action___0__
+  commentId: M:Mirage.IMessageReceiver.RegisterHandler``1(Action{``0})
   name.vb: RegisterHandler(Of T)(Action(Of T))
-  fullName: Mirage.IMessageHandler.RegisterHandler<T>(Action<T>)
-  fullName.vb: Mirage.IMessageHandler.RegisterHandler(Of T)(Action(Of T))
-  nameWithType: IMessageHandler.RegisterHandler<T>(Action<T>)
-  nameWithType.vb: IMessageHandler.RegisterHandler(Of T)(Action(Of T))
-- uid: Mirage.IMessageHandler.RegisterHandler``1(Action{Mirage.INetworkConnection,``0})
+  fullName: Mirage.IMessageReceiver.RegisterHandler<T>(Action<T>)
+  fullName.vb: Mirage.IMessageReceiver.RegisterHandler(Of T)(Action(Of T))
+  nameWithType: IMessageReceiver.RegisterHandler<T>(Action<T>)
+  nameWithType.vb: IMessageReceiver.RegisterHandler(Of T)(Action(Of T))
+- uid: Mirage.IMessageReceiver.RegisterHandler``1(Action{Mirage.INetworkConnection,``0})
   name: RegisterHandler<T>(Action<INetworkConnection, T>)
-  href: api/Mirage.IMessageHandler.html#Mirage_IMessageHandler_RegisterHandler__1_Action_Mirage_INetworkConnection___0__
-  commentId: M:Mirage.IMessageHandler.RegisterHandler``1(Action{Mirage.INetworkConnection,``0})
+  href: api/Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_RegisterHandler__1_Action_Mirage_INetworkConnection___0__
+  commentId: M:Mirage.IMessageReceiver.RegisterHandler``1(Action{Mirage.INetworkConnection,``0})
   name.vb: RegisterHandler(Of T)(Action(Of INetworkConnection, T))
-  fullName: Mirage.IMessageHandler.RegisterHandler<T>(Action<Mirage.INetworkConnection, T>)
-  fullName.vb: Mirage.IMessageHandler.RegisterHandler(Of T)(Action(Of Mirage.INetworkConnection, T))
-  nameWithType: IMessageHandler.RegisterHandler<T>(Action<INetworkConnection, T>)
-  nameWithType.vb: IMessageHandler.RegisterHandler(Of T)(Action(Of INetworkConnection, T))
-- uid: Mirage.IMessageHandler.Send*
-  name: Send
-  href: api/Mirage.IMessageHandler.html#Mirage_IMessageHandler_Send_
-  commentId: Overload:Mirage.IMessageHandler.Send
-  isSpec: "True"
-  fullName: Mirage.IMessageHandler.Send
-  nameWithType: IMessageHandler.Send
-- uid: Mirage.IMessageHandler.Send``1(``0,System.Int32)
-  name: Send<T>(T, Int32)
-  href: api/Mirage.IMessageHandler.html#Mirage_IMessageHandler_Send__1___0_System_Int32_
-  commentId: M:Mirage.IMessageHandler.Send``1(``0,System.Int32)
-  name.vb: Send(Of T)(T, Int32)
-  fullName: Mirage.IMessageHandler.Send<T>(T, System.Int32)
-  fullName.vb: Mirage.IMessageHandler.Send(Of T)(T, System.Int32)
-  nameWithType: IMessageHandler.Send<T>(T, Int32)
-  nameWithType.vb: IMessageHandler.Send(Of T)(T, Int32)
-- uid: Mirage.IMessageHandler.SendAsync(ArraySegment{System.Byte},System.Int32)
-  name: SendAsync(ArraySegment<Byte>, Int32)
-  href: api/Mirage.IMessageHandler.html#Mirage_IMessageHandler_SendAsync_ArraySegment_System_Byte__System_Int32_
-  commentId: M:Mirage.IMessageHandler.SendAsync(ArraySegment{System.Byte},System.Int32)
-  name.vb: SendAsync(ArraySegment(Of Byte), Int32)
-  fullName: Mirage.IMessageHandler.SendAsync(ArraySegment<System.Byte>, System.Int32)
-  fullName.vb: Mirage.IMessageHandler.SendAsync(ArraySegment(Of System.Byte), System.Int32)
-  nameWithType: IMessageHandler.SendAsync(ArraySegment<Byte>, Int32)
-  nameWithType.vb: IMessageHandler.SendAsync(ArraySegment(Of Byte), Int32)
-- uid: Mirage.IMessageHandler.SendAsync*
-  name: SendAsync
-  href: api/Mirage.IMessageHandler.html#Mirage_IMessageHandler_SendAsync_
-  commentId: Overload:Mirage.IMessageHandler.SendAsync
-  isSpec: "True"
-  fullName: Mirage.IMessageHandler.SendAsync
-  nameWithType: IMessageHandler.SendAsync
-- uid: Mirage.IMessageHandler.SendAsync``1(``0,System.Int32)
-  name: SendAsync<T>(T, Int32)
-  href: api/Mirage.IMessageHandler.html#Mirage_IMessageHandler_SendAsync__1___0_System_Int32_
-  commentId: M:Mirage.IMessageHandler.SendAsync``1(``0,System.Int32)
-  name.vb: SendAsync(Of T)(T, Int32)
-  fullName: Mirage.IMessageHandler.SendAsync<T>(T, System.Int32)
-  fullName.vb: Mirage.IMessageHandler.SendAsync(Of T)(T, System.Int32)
-  nameWithType: IMessageHandler.SendAsync<T>(T, Int32)
-  nameWithType.vb: IMessageHandler.SendAsync(Of T)(T, Int32)
-- uid: Mirage.IMessageHandler.SendNotify*
-  name: SendNotify
-  href: api/Mirage.IMessageHandler.html#Mirage_IMessageHandler_SendNotify_
-  commentId: Overload:Mirage.IMessageHandler.SendNotify
-  isSpec: "True"
-  fullName: Mirage.IMessageHandler.SendNotify
-  nameWithType: IMessageHandler.SendNotify
-- uid: Mirage.IMessageHandler.SendNotify``1(``0,System.Object,System.Int32)
-  name: SendNotify<T>(T, Object, Int32)
-  href: api/Mirage.IMessageHandler.html#Mirage_IMessageHandler_SendNotify__1___0_System_Object_System_Int32_
-  commentId: M:Mirage.IMessageHandler.SendNotify``1(``0,System.Object,System.Int32)
-  name.vb: SendNotify(Of T)(T, Object, Int32)
-  fullName: Mirage.IMessageHandler.SendNotify<T>(T, System.Object, System.Int32)
-  fullName.vb: Mirage.IMessageHandler.SendNotify(Of T)(T, System.Object, System.Int32)
-  nameWithType: IMessageHandler.SendNotify<T>(T, Object, Int32)
-  nameWithType.vb: IMessageHandler.SendNotify(Of T)(T, Object, Int32)
-- uid: Mirage.IMessageHandler.UnregisterHandler*
+  fullName: Mirage.IMessageReceiver.RegisterHandler<T>(Action<Mirage.INetworkConnection, T>)
+  fullName.vb: Mirage.IMessageReceiver.RegisterHandler(Of T)(Action(Of Mirage.INetworkConnection, T))
+  nameWithType: IMessageReceiver.RegisterHandler<T>(Action<INetworkConnection, T>)
+  nameWithType.vb: IMessageReceiver.RegisterHandler(Of T)(Action(Of INetworkConnection, T))
+- uid: Mirage.IMessageReceiver.UnregisterHandler*
   name: UnregisterHandler
-  href: api/Mirage.IMessageHandler.html#Mirage_IMessageHandler_UnregisterHandler_
-  commentId: Overload:Mirage.IMessageHandler.UnregisterHandler
+  href: api/Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_UnregisterHandler_
+  commentId: Overload:Mirage.IMessageReceiver.UnregisterHandler
   isSpec: "True"
-  fullName: Mirage.IMessageHandler.UnregisterHandler
-  nameWithType: IMessageHandler.UnregisterHandler
-- uid: Mirage.IMessageHandler.UnregisterHandler``1
+  fullName: Mirage.IMessageReceiver.UnregisterHandler
+  nameWithType: IMessageReceiver.UnregisterHandler
+- uid: Mirage.IMessageReceiver.UnregisterHandler``1
   name: UnregisterHandler<T>()
-  href: api/Mirage.IMessageHandler.html#Mirage_IMessageHandler_UnregisterHandler__1
-  commentId: M:Mirage.IMessageHandler.UnregisterHandler``1
+  href: api/Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_UnregisterHandler__1
+  commentId: M:Mirage.IMessageReceiver.UnregisterHandler``1
   name.vb: UnregisterHandler(Of T)()
-  fullName: Mirage.IMessageHandler.UnregisterHandler<T>()
-  fullName.vb: Mirage.IMessageHandler.UnregisterHandler(Of T)()
-  nameWithType: IMessageHandler.UnregisterHandler<T>()
-  nameWithType.vb: IMessageHandler.UnregisterHandler(Of T)()
+  fullName: Mirage.IMessageReceiver.UnregisterHandler<T>()
+  fullName.vb: Mirage.IMessageReceiver.UnregisterHandler(Of T)()
+  nameWithType: IMessageReceiver.UnregisterHandler<T>()
+  nameWithType.vb: IMessageReceiver.UnregisterHandler(Of T)()
+- uid: Mirage.IMessageSender
+  name: IMessageSender
+  href: api/Mirage.IMessageSender.html
+  commentId: T:Mirage.IMessageSender
+  fullName: Mirage.IMessageSender
+  nameWithType: IMessageSender
+- uid: Mirage.IMessageSender.Send*
+  name: Send
+  href: api/Mirage.IMessageSender.html#Mirage_IMessageSender_Send_
+  commentId: Overload:Mirage.IMessageSender.Send
+  isSpec: "True"
+  fullName: Mirage.IMessageSender.Send
+  nameWithType: IMessageSender.Send
+- uid: Mirage.IMessageSender.Send``1(``0,System.Int32)
+  name: Send<T>(T, Int32)
+  href: api/Mirage.IMessageSender.html#Mirage_IMessageSender_Send__1___0_System_Int32_
+  commentId: M:Mirage.IMessageSender.Send``1(``0,System.Int32)
+  name.vb: Send(Of T)(T, Int32)
+  fullName: Mirage.IMessageSender.Send<T>(T, System.Int32)
+  fullName.vb: Mirage.IMessageSender.Send(Of T)(T, System.Int32)
+  nameWithType: IMessageSender.Send<T>(T, Int32)
+  nameWithType.vb: IMessageSender.Send(Of T)(T, Int32)
+- uid: Mirage.IMessageSender.SendAsync(ArraySegment{System.Byte},System.Int32)
+  name: SendAsync(ArraySegment<Byte>, Int32)
+  href: api/Mirage.IMessageSender.html#Mirage_IMessageSender_SendAsync_ArraySegment_System_Byte__System_Int32_
+  commentId: M:Mirage.IMessageSender.SendAsync(ArraySegment{System.Byte},System.Int32)
+  name.vb: SendAsync(ArraySegment(Of Byte), Int32)
+  fullName: Mirage.IMessageSender.SendAsync(ArraySegment<System.Byte>, System.Int32)
+  fullName.vb: Mirage.IMessageSender.SendAsync(ArraySegment(Of System.Byte), System.Int32)
+  nameWithType: IMessageSender.SendAsync(ArraySegment<Byte>, Int32)
+  nameWithType.vb: IMessageSender.SendAsync(ArraySegment(Of Byte), Int32)
+- uid: Mirage.IMessageSender.SendAsync*
+  name: SendAsync
+  href: api/Mirage.IMessageSender.html#Mirage_IMessageSender_SendAsync_
+  commentId: Overload:Mirage.IMessageSender.SendAsync
+  isSpec: "True"
+  fullName: Mirage.IMessageSender.SendAsync
+  nameWithType: IMessageSender.SendAsync
+- uid: Mirage.IMessageSender.SendAsync``1(``0,System.Int32)
+  name: SendAsync<T>(T, Int32)
+  href: api/Mirage.IMessageSender.html#Mirage_IMessageSender_SendAsync__1___0_System_Int32_
+  commentId: M:Mirage.IMessageSender.SendAsync``1(``0,System.Int32)
+  name.vb: SendAsync(Of T)(T, Int32)
+  fullName: Mirage.IMessageSender.SendAsync<T>(T, System.Int32)
+  fullName.vb: Mirage.IMessageSender.SendAsync(Of T)(T, System.Int32)
+  nameWithType: IMessageSender.SendAsync<T>(T, Int32)
+  nameWithType.vb: IMessageSender.SendAsync(Of T)(T, Int32)
 - uid: Mirage.INetworkClient
   name: INetworkClient
   href: api/Mirage.INetworkClient.html
@@ -1768,6 +1752,46 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkServer.Stopped
   nameWithType: INetworkServer.Stopped
+- uid: Mirage.INotifyReceiver
+  name: INotifyReceiver
+  href: api/Mirage.INotifyReceiver.html
+  commentId: T:Mirage.INotifyReceiver
+  fullName: Mirage.INotifyReceiver
+  nameWithType: INotifyReceiver
+- uid: Mirage.INotifyReceiver.NotifyDelivered
+  name: NotifyDelivered
+  href: api/Mirage.INotifyReceiver.html#Mirage_INotifyReceiver_NotifyDelivered
+  commentId: E:Mirage.INotifyReceiver.NotifyDelivered
+  fullName: Mirage.INotifyReceiver.NotifyDelivered
+  nameWithType: INotifyReceiver.NotifyDelivered
+- uid: Mirage.INotifyReceiver.NotifyLost
+  name: NotifyLost
+  href: api/Mirage.INotifyReceiver.html#Mirage_INotifyReceiver_NotifyLost
+  commentId: E:Mirage.INotifyReceiver.NotifyLost
+  fullName: Mirage.INotifyReceiver.NotifyLost
+  nameWithType: INotifyReceiver.NotifyLost
+- uid: Mirage.INotifySender
+  name: INotifySender
+  href: api/Mirage.INotifySender.html
+  commentId: T:Mirage.INotifySender
+  fullName: Mirage.INotifySender
+  nameWithType: INotifySender
+- uid: Mirage.INotifySender.SendNotify*
+  name: SendNotify
+  href: api/Mirage.INotifySender.html#Mirage_INotifySender_SendNotify_
+  commentId: Overload:Mirage.INotifySender.SendNotify
+  isSpec: "True"
+  fullName: Mirage.INotifySender.SendNotify
+  nameWithType: INotifySender.SendNotify
+- uid: Mirage.INotifySender.SendNotify``1(``0,System.Object,System.Int32)
+  name: SendNotify<T>(T, Object, Int32)
+  href: api/Mirage.INotifySender.html#Mirage_INotifySender_SendNotify__1___0_System_Object_System_Int32_
+  commentId: M:Mirage.INotifySender.SendNotify``1(``0,System.Object,System.Int32)
+  name.vb: SendNotify(Of T)(T, Object, Int32)
+  fullName: Mirage.INotifySender.SendNotify<T>(T, System.Object, System.Int32)
+  fullName.vb: Mirage.INotifySender.SendNotify(Of T)(T, System.Object, System.Int32)
+  nameWithType: INotifySender.SendNotify<T>(T, Object, Int32)
+  nameWithType.vb: INotifySender.SendNotify(Of T)(T, Object, Int32)
 - uid: Mirage.InvalidMessageException
   name: InvalidMessageException
   href: api/Mirage.InvalidMessageException.html

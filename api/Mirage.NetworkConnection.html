@@ -97,6 +97,10 @@
     <h5>Implements</h5>
     <div><a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a></div>
     <div><a class="xref" href="Mirage.IMessageHandler.html">IMessageHandler</a></div>
+    <div><a class="xref" href="Mirage.IMessageSender.html">IMessageSender</a></div>
+    <div><a class="xref" href="Mirage.IMessageReceiver.html">IMessageReceiver</a></div>
+    <div><a class="xref" href="Mirage.INotifySender.html">INotifySender</a></div>
+    <div><a class="xref" href="Mirage.INotifyReceiver.html">INotifyReceiver</a></div>
     <div><a class="xref" href="Mirage.IVisibilityTracker.html">IVisibilityTracker</a></div>
     <div><a class="xref" href="Mirage.IObjectOwner.html">IObjectOwner</a></div>
   </div>
@@ -104,7 +108,7 @@
   <h6><strong>Assembly</strong>: doc.dll</h6>
   <h5 id="Mirage_NetworkConnection_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class NetworkConnection : object, INetworkConnection, IMessageHandler, IVisibilityTracker, IObjectOwner</code></pre>
+    <pre><code class="lang-csharp hljs">public class NetworkConnection : object, INetworkConnection, IMessageHandler, IMessageSender, IMessageReceiver, INotifySender, INotifyReceiver, IVisibilityTracker, IObjectOwner</code></pre>
   </div>
   <h5 id="Mirage_NetworkConnection_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>A NetworkConnection corresponds to a specific connection for a host in the transport layer. It has a connectionId that is assigned by the transport layer and passed to the Initialize function.</p>
@@ -1060,6 +1064,18 @@ associated with the connection for reference after Authentication completes.</p>
   </div>
   <div>
       <a class="xref" href="Mirage.IMessageHandler.html">IMessageHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Mirage.IMessageSender.html">IMessageSender</a>
+  </div>
+  <div>
+      <a class="xref" href="Mirage.IMessageReceiver.html">IMessageReceiver</a>
+  </div>
+  <div>
+      <a class="xref" href="Mirage.INotifySender.html">INotifySender</a>
+  </div>
+  <div>
+      <a class="xref" href="Mirage.INotifyReceiver.html">INotifyReceiver</a>
   </div>
   <div>
       <a class="xref" href="Mirage.IVisibilityTracker.html">IVisibilityTracker</a>
