@@ -11,18 +11,6 @@ jobs:
     env:
       UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
     steps:
-    # Install docfx
-    - name: get docfx.zip
-      run: wget https://github.com/dotnet/docfx/releases/download/v2.56.6/docfx.zip 
-    - name: update
-      run: apt-get update
-    - name: install unzip
-      run: apt-get install -y unzip
-    - name: unzip docfx
-      run: unzip docfx.zip -d /docfx
-    - name: delete zip
-      run: rm docfx.zip
-
     # Checkout
     - uses: actions/checkout@v2
     
