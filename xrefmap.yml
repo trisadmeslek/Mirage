@@ -1064,22 +1064,22 @@ references:
   isSpec: "True"
   fullName: Mirage.IConnection.ReceiveAsync
   nameWithType: IConnection.ReceiveAsync
-- uid: Mirage.IConnection.SendAsync(ArraySegment{System.Byte},System.Int32)
-  name: SendAsync(ArraySegment<Byte>, Int32)
-  href: api/Mirage.IConnection.html#Mirage_IConnection_SendAsync_ArraySegment_System_Byte__System_Int32_
-  commentId: M:Mirage.IConnection.SendAsync(ArraySegment{System.Byte},System.Int32)
-  name.vb: SendAsync(ArraySegment(Of Byte), Int32)
-  fullName: Mirage.IConnection.SendAsync(ArraySegment<System.Byte>, System.Int32)
-  fullName.vb: Mirage.IConnection.SendAsync(ArraySegment(Of System.Byte), System.Int32)
-  nameWithType: IConnection.SendAsync(ArraySegment<Byte>, Int32)
-  nameWithType.vb: IConnection.SendAsync(ArraySegment(Of Byte), Int32)
-- uid: Mirage.IConnection.SendAsync*
-  name: SendAsync
-  href: api/Mirage.IConnection.html#Mirage_IConnection_SendAsync_
-  commentId: Overload:Mirage.IConnection.SendAsync
+- uid: Mirage.IConnection.Send(ArraySegment{System.Byte},System.Int32)
+  name: Send(ArraySegment<Byte>, Int32)
+  href: api/Mirage.IConnection.html#Mirage_IConnection_Send_ArraySegment_System_Byte__System_Int32_
+  commentId: M:Mirage.IConnection.Send(ArraySegment{System.Byte},System.Int32)
+  name.vb: Send(ArraySegment(Of Byte), Int32)
+  fullName: Mirage.IConnection.Send(ArraySegment<System.Byte>, System.Int32)
+  fullName.vb: Mirage.IConnection.Send(ArraySegment(Of System.Byte), System.Int32)
+  nameWithType: IConnection.Send(ArraySegment<Byte>, Int32)
+  nameWithType.vb: IConnection.Send(ArraySegment(Of Byte), Int32)
+- uid: Mirage.IConnection.Send*
+  name: Send
+  href: api/Mirage.IConnection.html#Mirage_IConnection_Send_
+  commentId: Overload:Mirage.IConnection.Send
   isSpec: "True"
-  fullName: Mirage.IConnection.SendAsync
-  nameWithType: IConnection.SendAsync
+  fullName: Mirage.IConnection.Send
+  nameWithType: IConnection.Send
 - uid: Mirage.ILoggerExtensions
   name: ILoggerExtensions
   href: api/Mirage.ILoggerExtensions.html
@@ -2841,22 +2841,22 @@ references:
   commentId: F:Mirage.KCP.KcpConnection.RESERVED
   fullName: Mirage.KCP.KcpConnection.RESERVED
   nameWithType: KcpConnection.RESERVED
-- uid: Mirage.KCP.KcpConnection.SendAsync(ArraySegment{System.Byte},System.Int32)
-  name: SendAsync(ArraySegment<Byte>, Int32)
-  href: api/Mirage.KCP.KcpConnection.html#Mirage_KCP_KcpConnection_SendAsync_ArraySegment_System_Byte__System_Int32_
-  commentId: M:Mirage.KCP.KcpConnection.SendAsync(ArraySegment{System.Byte},System.Int32)
-  name.vb: SendAsync(ArraySegment(Of Byte), Int32)
-  fullName: Mirage.KCP.KcpConnection.SendAsync(ArraySegment<System.Byte>, System.Int32)
-  fullName.vb: Mirage.KCP.KcpConnection.SendAsync(ArraySegment(Of System.Byte), System.Int32)
-  nameWithType: KcpConnection.SendAsync(ArraySegment<Byte>, Int32)
-  nameWithType.vb: KcpConnection.SendAsync(ArraySegment(Of Byte), Int32)
-- uid: Mirage.KCP.KcpConnection.SendAsync*
-  name: SendAsync
-  href: api/Mirage.KCP.KcpConnection.html#Mirage_KCP_KcpConnection_SendAsync_
-  commentId: Overload:Mirage.KCP.KcpConnection.SendAsync
+- uid: Mirage.KCP.KcpConnection.Send(ArraySegment{System.Byte},System.Int32)
+  name: Send(ArraySegment<Byte>, Int32)
+  href: api/Mirage.KCP.KcpConnection.html#Mirage_KCP_KcpConnection_Send_ArraySegment_System_Byte__System_Int32_
+  commentId: M:Mirage.KCP.KcpConnection.Send(ArraySegment{System.Byte},System.Int32)
+  name.vb: Send(ArraySegment(Of Byte), Int32)
+  fullName: Mirage.KCP.KcpConnection.Send(ArraySegment<System.Byte>, System.Int32)
+  fullName.vb: Mirage.KCP.KcpConnection.Send(ArraySegment(Of System.Byte), System.Int32)
+  nameWithType: KcpConnection.Send(ArraySegment<Byte>, Int32)
+  nameWithType.vb: KcpConnection.Send(ArraySegment(Of Byte), Int32)
+- uid: Mirage.KCP.KcpConnection.Send*
+  name: Send
+  href: api/Mirage.KCP.KcpConnection.html#Mirage_KCP_KcpConnection_Send_
+  commentId: Overload:Mirage.KCP.KcpConnection.Send
   isSpec: "True"
-  fullName: Mirage.KCP.KcpConnection.SendAsync
-  nameWithType: KcpConnection.SendAsync
+  fullName: Mirage.KCP.KcpConnection.Send
+  nameWithType: KcpConnection.Send
 - uid: Mirage.KCP.KcpConnection.SetupKcp
   name: SetupKcp()
   href: api/Mirage.KCP.KcpConnection.html#Mirage_KCP_KcpConnection_SetupKcp
@@ -8215,22 +8215,22 @@ references:
   isSpec: "True"
   fullName: Mirage.PipeConnection.ReceiveAsync
   nameWithType: PipeConnection.ReceiveAsync
-- uid: Mirage.PipeConnection.SendAsync(ArraySegment{System.Byte},System.Int32)
-  name: SendAsync(ArraySegment<Byte>, Int32)
-  href: api/Mirage.PipeConnection.html#Mirage_PipeConnection_SendAsync_ArraySegment_System_Byte__System_Int32_
-  commentId: M:Mirage.PipeConnection.SendAsync(ArraySegment{System.Byte},System.Int32)
-  name.vb: SendAsync(ArraySegment(Of Byte), Int32)
-  fullName: Mirage.PipeConnection.SendAsync(ArraySegment<System.Byte>, System.Int32)
-  fullName.vb: Mirage.PipeConnection.SendAsync(ArraySegment(Of System.Byte), System.Int32)
-  nameWithType: PipeConnection.SendAsync(ArraySegment<Byte>, Int32)
-  nameWithType.vb: PipeConnection.SendAsync(ArraySegment(Of Byte), Int32)
-- uid: Mirage.PipeConnection.SendAsync*
-  name: SendAsync
-  href: api/Mirage.PipeConnection.html#Mirage_PipeConnection_SendAsync_
-  commentId: Overload:Mirage.PipeConnection.SendAsync
+- uid: Mirage.PipeConnection.Send(ArraySegment{System.Byte},System.Int32)
+  name: Send(ArraySegment<Byte>, Int32)
+  href: api/Mirage.PipeConnection.html#Mirage_PipeConnection_Send_ArraySegment_System_Byte__System_Int32_
+  commentId: M:Mirage.PipeConnection.Send(ArraySegment{System.Byte},System.Int32)
+  name.vb: Send(ArraySegment(Of Byte), Int32)
+  fullName: Mirage.PipeConnection.Send(ArraySegment<System.Byte>, System.Int32)
+  fullName.vb: Mirage.PipeConnection.Send(ArraySegment(Of System.Byte), System.Int32)
+  nameWithType: PipeConnection.Send(ArraySegment<Byte>, Int32)
+  nameWithType.vb: PipeConnection.Send(ArraySegment(Of Byte), Int32)
+- uid: Mirage.PipeConnection.Send*
+  name: Send
+  href: api/Mirage.PipeConnection.html#Mirage_PipeConnection_Send_
+  commentId: Overload:Mirage.PipeConnection.Send
   isSpec: "True"
-  fullName: Mirage.PipeConnection.SendAsync
-  nameWithType: PipeConnection.SendAsync
+  fullName: Mirage.PipeConnection.Send
+  nameWithType: PipeConnection.Send
 - uid: Mirage.PlayerSpawner
   name: PlayerSpawner
   href: api/Mirage.PlayerSpawner.html
