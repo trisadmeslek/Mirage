@@ -6,7 +6,6 @@ jobs:
   build_doc:
 
     runs-on: ubuntu-18.04
-    container: gableroux/unity3d:2020.1.12f1
 
     env:
       UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
