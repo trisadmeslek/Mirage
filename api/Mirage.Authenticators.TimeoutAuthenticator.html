@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class NetworkTransformBase
+    <title>Class TimeoutAuthenticator
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class NetworkTransformBase
+    <meta name="title" content="Class TimeoutAuthenticator
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -80,12 +80,14 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Mirage.NetworkTransformBase">
+            <article class="content wrap" id="_content" data-uid="Mirage.Authenticators.TimeoutAuthenticator">
   
   
-  <h1 id="Mirage_NetworkTransformBase" data-uid="Mirage.NetworkTransformBase" class="text-break">Class NetworkTransformBase
+  <h1 id="Mirage_Authenticators_TimeoutAuthenticator" data-uid="Mirage.Authenticators.TimeoutAuthenticator" class="text-break">Class TimeoutAuthenticator
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>An authenticator that disconnects connections if they don't
+authenticate within a specified time limit.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -94,123 +96,16 @@
     <div class="level2"><a class="xref" href="https://docs.unity3d.com/ScriptReference/Component.html">Component</a></div>
     <div class="level3"><a class="xref" href="https://docs.unity3d.com/ScriptReference/Behaviour.html">Behaviour</a></div>
     <div class="level4"><a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.html">MonoBehaviour</a></div>
-    <div class="level5"><a class="xref" href="Mirage.NetworkBehaviour.html">NetworkBehaviour</a></div>
-    <div class="level6"><span class="xref">NetworkTransformBase</span></div>
-      <div class="level7"><a class="xref" href="Mirage.NetworkTransform.html">NetworkTransform</a></div>
-      <div class="level7"><a class="xref" href="Mirage.NetworkTransformChild.html">NetworkTransformChild</a></div>
+    <div class="level5"><a class="xref" href="Mirage.NetworkAuthenticator.html">NetworkAuthenticator</a></div>
+    <div class="level6"><span class="xref">TimeoutAuthenticator</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_syncMode">NetworkBehaviour.syncMode</a>
+      <a class="xref" href="Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_OnServerAuthenticated">NetworkAuthenticator.OnServerAuthenticated</a>
     </div>
     <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_syncInterval">NetworkBehaviour.syncInterval</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_IsServer">NetworkBehaviour.IsServer</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_IsClient">NetworkBehaviour.IsClient</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_IsLocalClient">NetworkBehaviour.IsLocalClient</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_IsLocalPlayer">NetworkBehaviour.IsLocalPlayer</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_IsServerOnly">NetworkBehaviour.IsServerOnly</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_IsClientOnly">NetworkBehaviour.IsClientOnly</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_HasAuthority">NetworkBehaviour.HasAuthority</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_NetId">NetworkBehaviour.NetId</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_Server">NetworkBehaviour.Server</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_ServerObjectManager">NetworkBehaviour.ServerObjectManager</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_Client">NetworkBehaviour.Client</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_ClientObjectManager">NetworkBehaviour.ClientObjectManager</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_ConnectionToServer">NetworkBehaviour.ConnectionToServer</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_ConnectionToClient">NetworkBehaviour.ConnectionToClient</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_NetworkTime">NetworkBehaviour.NetworkTime</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_SyncVarDirtyBits">NetworkBehaviour.SyncVarDirtyBits</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_GetSyncVarHookGuard_System_UInt64_">NetworkBehaviour.GetSyncVarHookGuard(UInt64)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_SetSyncVarHookGuard_System_UInt64_System_Boolean_">NetworkBehaviour.SetSyncVarHookGuard(UInt64, Boolean)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_syncObjects">NetworkBehaviour.syncObjects</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_NetIdentity">NetworkBehaviour.NetIdentity</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_ComponentIndex">NetworkBehaviour.ComponentIndex</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_InitSyncObject_Mirage_ISyncObject_">NetworkBehaviour.InitSyncObject(ISyncObject)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_SendServerRpcInternal_System_Type_System_String_Mirage_NetworkWriter_System_Int32_System_Boolean_">NetworkBehaviour.SendServerRpcInternal(Type, String, NetworkWriter, Int32, Boolean)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_SendServerRpcWithReturn__1_System_Type_System_String_Mirage_NetworkWriter_System_Int32_System_Boolean_">NetworkBehaviour.SendServerRpcWithReturn&lt;T&gt;(Type, String, NetworkWriter, Int32, Boolean)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_SendRpcInternal_System_Type_System_String_Mirage_NetworkWriter_System_Int32_System_Boolean_">NetworkBehaviour.SendRpcInternal(Type, String, NetworkWriter, Int32, Boolean)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_SendTargetRpcInternal_Mirage_INetworkConnection_System_Type_System_String_Mirage_NetworkWriter_System_Int32_">NetworkBehaviour.SendTargetRpcInternal(INetworkConnection, Type, String, NetworkWriter, Int32)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_SyncVarEqual__1___0___0_">NetworkBehaviour.SyncVarEqual&lt;T&gt;(T, T)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_SetDirtyBit_System_UInt64_">NetworkBehaviour.SetDirtyBit(UInt64)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_ClearAllDirtyBits">NetworkBehaviour.ClearAllDirtyBits()</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_IsDirty">NetworkBehaviour.IsDirty()</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_StillDirty">NetworkBehaviour.StillDirty()</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_SerializeSyncVars_Mirage_NetworkWriter_System_Boolean_">NetworkBehaviour.SerializeSyncVars(NetworkWriter, Boolean)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_DeserializeSyncVars_Mirage_NetworkReader_System_Boolean_">NetworkBehaviour.DeserializeSyncVars(NetworkReader, Boolean)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_SerializeObjectsAll_Mirage_NetworkWriter_">NetworkBehaviour.SerializeObjectsAll(NetworkWriter)</a>
-    </div>
-    <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_SerializeObjectsDelta_Mirage_NetworkWriter_">NetworkBehaviour.SerializeObjectsDelta(NetworkWriter)</a>
+      <a class="xref" href="Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_OnClientAuthenticated">NetworkAuthenticator.OnClientAuthenticated</a>
     </div>
     <div>
       <a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.IsInvoking.html">MonoBehaviour.IsInvoking()</a>
@@ -510,24 +405,23 @@
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Mirage.html">Mirage</a></h6>
-  <h6><strong>Assembly</strong>: Mirage.Components.dll</h6>
-  <h5 id="Mirage_NetworkTransformBase_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mirage.Authenticators.html">Mirage.Authenticators</a></h6>
+  <h6><strong>Assembly</strong>: Mirage.Authenticators.dll</h6>
+  <h5 id="Mirage_Authenticators_TimeoutAuthenticator_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class NetworkTransformBase : NetworkBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;Network/Authenticators/TimeoutAuthenticator&quot;)]
+public class TimeoutAuthenticator : NetworkAuthenticator</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Mirage_NetworkTransformBase_ClientAuthority" data-uid="Mirage.NetworkTransformBase.ClientAuthority">ClientAuthority</h4>
+  <h4 id="Mirage_Authenticators_TimeoutAuthenticator_Authenticator" data-uid="Mirage.Authenticators.TimeoutAuthenticator.Authenticator">Authenticator</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Header(&quot;Authority&quot;)]
-[Tooltip(&quot;Set to true if moves come from owner client, set to false if moves always come from server&quot;)]
-public bool ClientAuthority</code></pre>
+    <pre><code class="lang-csharp hljs">public NetworkAuthenticator Authenticator</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -539,46 +433,21 @@ public bool ClientAuthority</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="Mirage.NetworkAuthenticator.html">NetworkAuthenticator</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Mirage_NetworkTransformBase_LocalPositionSensitivity" data-uid="Mirage.NetworkTransformBase.LocalPositionSensitivity">LocalPositionSensitivity</h4>
+  <h4 id="Mirage_Authenticators_TimeoutAuthenticator_Timeout" data-uid="Mirage.Authenticators.TimeoutAuthenticator.Timeout">Timeout</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Header(&quot;Sensitivity&quot;)]
-[Tooltip(&quot;Changes to the transform must exceed these values to be transmitted on the network.&quot;)]
-public float LocalPositionSensitivity</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Mirage_NetworkTransformBase_LocalRotationSensitivity" data-uid="Mirage.NetworkTransformBase.LocalRotationSensitivity">LocalRotationSensitivity</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;If rotation exceeds this angle, it will be transmitted on the network&quot;)]
-public float LocalRotationSensitivity</code></pre>
+    <pre><code class="lang-csharp hljs">[Range(0F, 600F)]
+[Tooltip(&quot;Timeout to auto-disconnect in seconds. Set to 0 for no timeout.&quot;)]
+public float Timeout</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -591,58 +460,6 @@ public float LocalRotationSensitivity</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Mirage_NetworkTransformBase_LocalScaleSensitivity" data-uid="Mirage.NetworkTransformBase.LocalScaleSensitivity">LocalScaleSensitivity</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Changes to the transform must exceed these values to be transmitted on the network.&quot;)]
-public float LocalScaleSensitivity</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="Mirage_NetworkTransformBase_TargetComponent_" data-uid="Mirage.NetworkTransformBase.TargetComponent*"></a>
-  <h4 id="Mirage_NetworkTransformBase_TargetComponent" data-uid="Mirage.NetworkTransformBase.TargetComponent">TargetComponent</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract Transform TargetComponent { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Transform.html">Transform</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -651,13 +468,23 @@ public float LocalScaleSensitivity</code></pre>
   </h3>
   
   
-  <a id="Mirage_NetworkTransformBase_OnDeserialize_" data-uid="Mirage.NetworkTransformBase.OnDeserialize*"></a>
-  <h4 id="Mirage_NetworkTransformBase_OnDeserialize_Mirage_NetworkReader_System_Boolean_" data-uid="Mirage.NetworkTransformBase.OnDeserialize(Mirage.NetworkReader,System.Boolean)">OnDeserialize(NetworkReader, Boolean)</h4>
+  <a id="Mirage_Authenticators_TimeoutAuthenticator_Awake_" data-uid="Mirage.Authenticators.TimeoutAuthenticator.Awake*"></a>
+  <h4 id="Mirage_Authenticators_TimeoutAuthenticator_Awake" data-uid="Mirage.Authenticators.TimeoutAuthenticator.Awake">Awake()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnDeserialize(NetworkReader reader, bool initialState)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Awake()</code></pre>
+  </div>
+  
+  
+  <a id="Mirage_Authenticators_TimeoutAuthenticator_OnClientAuthenticate_" data-uid="Mirage.Authenticators.TimeoutAuthenticator.OnClientAuthenticate*"></a>
+  <h4 id="Mirage_Authenticators_TimeoutAuthenticator_OnClientAuthenticate_Mirage_INetworkConnection_" data-uid="Mirage.Authenticators.TimeoutAuthenticator.OnClientAuthenticate(Mirage.INetworkConnection)">OnClientAuthenticate(INetworkConnection)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnClientAuthenticate(INetworkConnection conn)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -670,28 +497,23 @@ public float LocalScaleSensitivity</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirage.NetworkReader.html">NetworkReader</a></td>
-        <td><span class="parametername">reader</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">initialState</span></td>
+        <td><a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a></td>
+        <td><span class="parametername">conn</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_OnDeserialize_Mirage_NetworkReader_System_Boolean_">NetworkBehaviour.OnDeserialize(NetworkReader, Boolean)</a></div>
+  <div><a class="xref" href="Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_OnClientAuthenticate_Mirage_INetworkConnection_">NetworkAuthenticator.OnClientAuthenticate(INetworkConnection)</a></div>
   
   
-  <a id="Mirage_NetworkTransformBase_OnSerialize_" data-uid="Mirage.NetworkTransformBase.OnSerialize*"></a>
-  <h4 id="Mirage_NetworkTransformBase_OnSerialize_Mirage_NetworkWriter_System_Boolean_" data-uid="Mirage.NetworkTransformBase.OnSerialize(Mirage.NetworkWriter,System.Boolean)">OnSerialize(NetworkWriter, Boolean)</h4>
+  <a id="Mirage_Authenticators_TimeoutAuthenticator_OnServerAuthenticate_" data-uid="Mirage.Authenticators.TimeoutAuthenticator.OnServerAuthenticate*"></a>
+  <h4 id="Mirage_Authenticators_TimeoutAuthenticator_OnServerAuthenticate_Mirage_INetworkConnection_" data-uid="Mirage.Authenticators.TimeoutAuthenticator.OnServerAuthenticate(Mirage.INetworkConnection)">OnServerAuthenticate(INetworkConnection)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool OnSerialize(NetworkWriter writer, bool initialState)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void OnServerAuthenticate(INetworkConnection conn)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -704,76 +526,14 @@ public float LocalScaleSensitivity</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirage.NetworkWriter.html">NetworkWriter</a></td>
-        <td><span class="parametername">writer</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">initialState</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a></td>
+        <td><span class="parametername">conn</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_OnSerialize_Mirage_NetworkWriter_System_Boolean_">NetworkBehaviour.OnSerialize(NetworkWriter, Boolean)</a></div>
-  
-  
-  <a id="Mirage_NetworkTransformBase_SerializeIntoWriter_" data-uid="Mirage.NetworkTransformBase.SerializeIntoWriter*"></a>
-  <h4 id="Mirage_NetworkTransformBase_SerializeIntoWriter_Mirage_NetworkWriter_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Vector3_" data-uid="Mirage.NetworkTransformBase.SerializeIntoWriter(Mirage.NetworkWriter,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)">SerializeIntoWriter(NetworkWriter, Vector3, Quaternion, Vector3)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SerializeIntoWriter(NetworkWriter writer, Vector3 position, Quaternion rotation, Vector3 scale)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Mirage.NetworkWriter.html">NetworkWriter</a></td>
-        <td><span class="parametername">writer</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Vector3.html">Vector3</a></td>
-        <td><span class="parametername">position</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Quaternion.html">Quaternion</a></td>
-        <td><span class="parametername">rotation</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Vector3.html">Vector3</a></td>
-        <td><span class="parametername">scale</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <div><a class="xref" href="Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_OnServerAuthenticate_Mirage_INetworkConnection_">NetworkAuthenticator.OnServerAuthenticate(INetworkConnection)</a></div>
 </article>
           </div>
           

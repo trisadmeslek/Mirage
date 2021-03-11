@@ -88,7 +88,7 @@
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mirage.html">Mirage</a></h6>
-  <h6><strong>Assembly</strong>: doc.dll</h6>
+  <h6><strong>Assembly</strong>: Mirage.dll</h6>
   <h5 id="Mirage_IClientObjectManager_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public interface IClientObjectManager</code></pre>
@@ -198,7 +198,7 @@
   
   
   <a id="Mirage_IClientObjectManager_GetPrefab_" data-uid="Mirage.IClientObjectManager.GetPrefab*"></a>
-  <h4 id="Mirage_IClientObjectManager_GetPrefab_Guid_" data-uid="Mirage.IClientObjectManager.GetPrefab(Guid)">GetPrefab(Guid)</h4>
+  <h4 id="Mirage_IClientObjectManager_GetPrefab_System_Guid_" data-uid="Mirage.IClientObjectManager.GetPrefab(System.Guid)">GetPrefab(Guid)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -216,7 +216,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Guid</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">Guid</a></td>
         <td><span class="parametername">assetId</span></td>
         <td></td>
       </tr>
@@ -277,38 +277,6 @@
   
   
   <a id="Mirage_IClientObjectManager_RegisterPrefab_" data-uid="Mirage.IClientObjectManager.RegisterPrefab*"></a>
-  <h4 id="Mirage_IClientObjectManager_RegisterPrefab_Mirage_NetworkIdentity_Guid_" data-uid="Mirage.IClientObjectManager.RegisterPrefab(Mirage.NetworkIdentity,Guid)">RegisterPrefab(NetworkIdentity, Guid)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void RegisterPrefab(NetworkIdentity identity, Guid newAssetId)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Mirage.NetworkIdentity.html">NetworkIdentity</a></td>
-        <td><span class="parametername">identity</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Guid</span></td>
-        <td><span class="parametername">newAssetId</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Mirage_IClientObjectManager_RegisterPrefab_" data-uid="Mirage.IClientObjectManager.RegisterPrefab*"></a>
   <h4 id="Mirage_IClientObjectManager_RegisterPrefab_Mirage_NetworkIdentity_Mirage_SpawnHandlerDelegate_Mirage_UnSpawnDelegate_" data-uid="Mirage.IClientObjectManager.RegisterPrefab(Mirage.NetworkIdentity,Mirage.SpawnHandlerDelegate,Mirage.UnSpawnDelegate)">RegisterPrefab(NetworkIdentity, SpawnHandlerDelegate, UnSpawnDelegate)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -345,8 +313,40 @@
   </table>
   
   
+  <a id="Mirage_IClientObjectManager_RegisterPrefab_" data-uid="Mirage.IClientObjectManager.RegisterPrefab*"></a>
+  <h4 id="Mirage_IClientObjectManager_RegisterPrefab_Mirage_NetworkIdentity_System_Guid_" data-uid="Mirage.IClientObjectManager.RegisterPrefab(Mirage.NetworkIdentity,System.Guid)">RegisterPrefab(NetworkIdentity, Guid)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RegisterPrefab(NetworkIdentity identity, Guid newAssetId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirage.NetworkIdentity.html">NetworkIdentity</a></td>
+        <td><span class="parametername">identity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">Guid</a></td>
+        <td><span class="parametername">newAssetId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Mirage_IClientObjectManager_RegisterSpawnHandler_" data-uid="Mirage.IClientObjectManager.RegisterSpawnHandler*"></a>
-  <h4 id="Mirage_IClientObjectManager_RegisterSpawnHandler_Guid_Mirage_SpawnHandlerDelegate_Mirage_UnSpawnDelegate_" data-uid="Mirage.IClientObjectManager.RegisterSpawnHandler(Guid,Mirage.SpawnHandlerDelegate,Mirage.UnSpawnDelegate)">RegisterSpawnHandler(Guid, SpawnHandlerDelegate, UnSpawnDelegate)</h4>
+  <h4 id="Mirage_IClientObjectManager_RegisterSpawnHandler_System_Guid_Mirage_SpawnHandlerDelegate_Mirage_UnSpawnDelegate_" data-uid="Mirage.IClientObjectManager.RegisterSpawnHandler(System.Guid,Mirage.SpawnHandlerDelegate,Mirage.UnSpawnDelegate)">RegisterSpawnHandler(Guid, SpawnHandlerDelegate, UnSpawnDelegate)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -364,7 +364,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Guid</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">Guid</a></td>
         <td><span class="parametername">assetId</span></td>
         <td></td>
       </tr>
@@ -410,7 +410,7 @@
   
   
   <a id="Mirage_IClientObjectManager_UnregisterSpawnHandler_" data-uid="Mirage.IClientObjectManager.UnregisterSpawnHandler*"></a>
-  <h4 id="Mirage_IClientObjectManager_UnregisterSpawnHandler_Guid_" data-uid="Mirage.IClientObjectManager.UnregisterSpawnHandler(Guid)">UnregisterSpawnHandler(Guid)</h4>
+  <h4 id="Mirage_IClientObjectManager_UnregisterSpawnHandler_System_Guid_" data-uid="Mirage.IClientObjectManager.UnregisterSpawnHandler(System.Guid)">UnregisterSpawnHandler(Guid)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -428,7 +428,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Guid</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">Guid</a></td>
         <td><span class="parametername">assetId</span></td>
         <td></td>
       </tr>
