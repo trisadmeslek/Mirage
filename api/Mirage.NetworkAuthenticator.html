@@ -411,13 +411,13 @@ public abstract class NetworkAuthenticator : MonoBehaviour</code></pre>
   
   
   <a id="Mirage_NetworkAuthenticator_OnClientAuthenticate_" data-uid="Mirage.NetworkAuthenticator.OnClientAuthenticate*"></a>
-  <h4 id="Mirage_NetworkAuthenticator_OnClientAuthenticate_Mirage_INetworkConnection_" data-uid="Mirage.NetworkAuthenticator.OnClientAuthenticate(Mirage.INetworkConnection)">OnClientAuthenticate(INetworkConnection)</h4>
+  <h4 id="Mirage_NetworkAuthenticator_OnClientAuthenticate_Mirage_INetworkPlayer_" data-uid="Mirage.NetworkAuthenticator.OnClientAuthenticate(Mirage.INetworkPlayer)">OnClientAuthenticate(INetworkPlayer)</h4>
   <div class="markdown level1 summary"><p>Called on client from OnClientAuthenticateInternal when a client needs to authenticate</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void OnClientAuthenticate(INetworkConnection conn)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void OnClientAuthenticate(INetworkPlayer conn)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -430,7 +430,7 @@ public abstract class NetworkAuthenticator : MonoBehaviour</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a></td>
+        <td><a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a></td>
         <td><span class="parametername">conn</span></td>
         <td><p>Connection of the client.</p>
 </td>
@@ -440,13 +440,13 @@ public abstract class NetworkAuthenticator : MonoBehaviour</code></pre>
   
   
   <a id="Mirage_NetworkAuthenticator_OnServerAuthenticate_" data-uid="Mirage.NetworkAuthenticator.OnServerAuthenticate*"></a>
-  <h4 id="Mirage_NetworkAuthenticator_OnServerAuthenticate_Mirage_INetworkConnection_" data-uid="Mirage.NetworkAuthenticator.OnServerAuthenticate(Mirage.INetworkConnection)">OnServerAuthenticate(INetworkConnection)</h4>
+  <h4 id="Mirage_NetworkAuthenticator_OnServerAuthenticate_Mirage_INetworkPlayer_" data-uid="Mirage.NetworkAuthenticator.OnServerAuthenticate(Mirage.INetworkPlayer)">OnServerAuthenticate(INetworkPlayer)</h4>
   <div class="markdown level1 summary"><p>Called on server from OnServerAuthenticateInternal when a client needs to authenticate</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void OnServerAuthenticate(INetworkConnection conn)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void OnServerAuthenticate(INetworkPlayer conn)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -459,7 +459,7 @@ public abstract class NetworkAuthenticator : MonoBehaviour</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a></td>
+        <td><a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a></td>
         <td><span class="parametername">conn</span></td>
         <td><p>Connection to client.</p>
 </td>
@@ -476,7 +476,7 @@ public abstract class NetworkAuthenticator : MonoBehaviour</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action&lt;INetworkConnection&gt; OnClientAuthenticated</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action&lt;INetworkPlayer&gt; OnClientAuthenticated</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -488,7 +488,7 @@ public abstract class NetworkAuthenticator : MonoBehaviour</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -501,7 +501,7 @@ public abstract class NetworkAuthenticator : MonoBehaviour</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action&lt;INetworkConnection&gt; OnServerAuthenticated</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action&lt;INetworkPlayer&gt; OnServerAuthenticated</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -513,7 +513,7 @@ public abstract class NetworkAuthenticator : MonoBehaviour</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

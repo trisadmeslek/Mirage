@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IMessageReceiver
+    <title>Interface INetworkPlayer
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IMessageReceiver
+    <meta name="title" content="Interface INetworkPlayer
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -80,167 +80,164 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Mirage.IMessageReceiver">
+            <article class="content wrap" id="_content" data-uid="Mirage.INetworkPlayer">
   
   
-  <h1 id="Mirage_IMessageReceiver" data-uid="Mirage.IMessageReceiver" class="text-break">Interface IMessageReceiver
+  <h1 id="Mirage_INetworkPlayer" data-uid="Mirage.INetworkPlayer" class="text-break">Interface INetworkPlayer
   </h1>
-  <div class="markdown level0 summary"><p>An object that can receive messages</p>
+  <div class="markdown level0 summary"><p>A connection to a remote endpoint.
+May be from the server to client or from client to server</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Mirage.IMessageSender.html#Mirage_IMessageSender_Send__1___0_System_Int32_">IMessageSender.Send&lt;T&gt;(T, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirage.IMessageSender.html#Mirage_IMessageSender_Send_System_ArraySegment_System_Byte__System_Int32_">IMessageSender.Send(ArraySegment&lt;Byte&gt;, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_RegisterHandler__1_System_Action_Mirage_INetworkPlayer___0__">IMessageReceiver.RegisterHandler&lt;T&gt;(Action&lt;INetworkPlayer, T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_RegisterHandler__1_System_Action___0__">IMessageReceiver.RegisterHandler&lt;T&gt;(Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_UnregisterHandler__1">IMessageReceiver.UnregisterHandler&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_ClearHandlers">IMessageReceiver.ClearHandlers()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_ProcessMessagesAsync">IMessageReceiver.ProcessMessagesAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirage.INotifySender.html#Mirage_INotifySender_SendNotify__1___0_System_Object_System_Int32_">INotifySender.SendNotify&lt;T&gt;(T, Object, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirage.INotifyReceiver.html#Mirage_INotifyReceiver_NotifyDelivered">INotifyReceiver.NotifyDelivered</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirage.INotifyReceiver.html#Mirage_INotifyReceiver_NotifyLost">INotifyReceiver.NotifyLost</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirage.IVisibilityTracker.html#Mirage_IVisibilityTracker_AddToVisList_Mirage_NetworkIdentity_">IVisibilityTracker.AddToVisList(NetworkIdentity)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirage.IVisibilityTracker.html#Mirage_IVisibilityTracker_RemoveFromVisList_Mirage_NetworkIdentity_">IVisibilityTracker.RemoveFromVisList(NetworkIdentity)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirage.IVisibilityTracker.html#Mirage_IVisibilityTracker_RemoveObservers">IVisibilityTracker.RemoveObservers()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirage.IObjectOwner.html#Mirage_IObjectOwner_Identity">IObjectOwner.Identity</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirage.IObjectOwner.html#Mirage_IObjectOwner_RemoveOwnedObject_Mirage_NetworkIdentity_">IObjectOwner.RemoveOwnedObject(NetworkIdentity)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirage.IObjectOwner.html#Mirage_IObjectOwner_AddOwnedObject_Mirage_NetworkIdentity_">IObjectOwner.AddOwnedObject(NetworkIdentity)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirage.IObjectOwner.html#Mirage_IObjectOwner_DestroyOwnedObjects">IObjectOwner.DestroyOwnedObjects()</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mirage.html">Mirage</a></h6>
   <h6><strong>Assembly</strong>: Mirage.dll</h6>
-  <h5 id="Mirage_IMessageReceiver_syntax">Syntax</h5>
+  <h5 id="Mirage_INetworkPlayer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IMessageReceiver</code></pre>
+    <pre><code class="lang-csharp hljs">public interface INetworkPlayer : IMessageHandler, IMessageSender, IMessageReceiver, INotifySender, INotifyReceiver, IVisibilityTracker, IObjectOwner</code></pre>
   </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Mirage_INetworkPlayer_Address_" data-uid="Mirage.INetworkPlayer.Address*"></a>
+  <h4 id="Mirage_INetworkPlayer_Address" data-uid="Mirage.INetworkPlayer.Address">Address</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">EndPoint Address { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.net.endpoint">EndPoint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mirage_INetworkPlayer_AuthenticationData_" data-uid="Mirage.INetworkPlayer.AuthenticationData*"></a>
+  <h4 id="Mirage_INetworkPlayer_AuthenticationData" data-uid="Mirage.INetworkPlayer.AuthenticationData">AuthenticationData</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">object AuthenticationData { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Mirage_INetworkPlayer_IsReady_" data-uid="Mirage.INetworkPlayer.IsReady*"></a>
+  <h4 id="Mirage_INetworkPlayer_IsReady" data-uid="Mirage.INetworkPlayer.IsReady">IsReady</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsReady { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Mirage_IMessageReceiver_ClearHandlers_" data-uid="Mirage.IMessageReceiver.ClearHandlers*"></a>
-  <h4 id="Mirage_IMessageReceiver_ClearHandlers" data-uid="Mirage.IMessageReceiver.ClearHandlers">ClearHandlers()</h4>
+  <a id="Mirage_INetworkPlayer_Disconnect_" data-uid="Mirage.INetworkPlayer.Disconnect*"></a>
+  <h4 id="Mirage_INetworkPlayer_Disconnect" data-uid="Mirage.INetworkPlayer.Disconnect">Disconnect()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void ClearHandlers()</code></pre>
+    <pre><code class="lang-csharp hljs">void Disconnect()</code></pre>
   </div>
-  
-  
-  <a id="Mirage_IMessageReceiver_ProcessMessagesAsync_" data-uid="Mirage.IMessageReceiver.ProcessMessagesAsync*"></a>
-  <h4 id="Mirage_IMessageReceiver_ProcessMessagesAsync" data-uid="Mirage.IMessageReceiver.ProcessMessagesAsync">ProcessMessagesAsync()</h4>
-  <div class="markdown level1 summary"><p>ProcessMessages loop, should loop unitil object is closed</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">UniTask ProcessMessagesAsync()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Cysharp.Threading.Tasks.UniTask</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Mirage_IMessageReceiver_RegisterHandler_" data-uid="Mirage.IMessageReceiver.RegisterHandler*"></a>
-  <h4 id="Mirage_IMessageReceiver_RegisterHandler__1_System_Action___0__" data-uid="Mirage.IMessageReceiver.RegisterHandler``1(System.Action{``0})">RegisterHandler&lt;T&gt;(Action&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void RegisterHandler&lt;T&gt;(Action&lt;T&gt; handler)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</td>
-        <td><span class="parametername">handler</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Mirage_IMessageReceiver_RegisterHandler_" data-uid="Mirage.IMessageReceiver.RegisterHandler*"></a>
-  <h4 id="Mirage_IMessageReceiver_RegisterHandler__1_System_Action_Mirage_INetworkPlayer___0__" data-uid="Mirage.IMessageReceiver.RegisterHandler``1(System.Action{Mirage.INetworkPlayer,``0})">RegisterHandler&lt;T&gt;(Action&lt;INetworkPlayer, T&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void RegisterHandler&lt;T&gt;(Action&lt;INetworkPlayer, T&gt; handler)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;<a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a>, T&gt;</td>
-        <td><span class="parametername">handler</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Mirage_IMessageReceiver_UnregisterHandler_" data-uid="Mirage.IMessageReceiver.UnregisterHandler*"></a>
-  <h4 id="Mirage_IMessageReceiver_UnregisterHandler__1" data-uid="Mirage.IMessageReceiver.UnregisterHandler``1">UnregisterHandler&lt;T&gt;()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void UnregisterHandler&lt;T&gt;()</code></pre>
-  </div>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           

@@ -187,7 +187,7 @@
       <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_SendRpcInternal_System_Type_System_String_Mirage_NetworkWriter_System_Int32_System_Boolean_">NetworkBehaviour.SendRpcInternal(Type, String, NetworkWriter, Int32, Boolean)</a>
     </div>
     <div>
-      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_SendTargetRpcInternal_Mirage_INetworkConnection_System_Type_System_String_Mirage_NetworkWriter_System_Int32_">NetworkBehaviour.SendTargetRpcInternal(INetworkConnection, Type, String, NetworkWriter, Int32)</a>
+      <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_SendTargetRpcInternal_Mirage_INetworkPlayer_System_Type_System_String_Mirage_NetworkWriter_System_Int32_">NetworkBehaviour.SendTargetRpcInternal(INetworkPlayer, Type, String, NetworkWriter, Int32)</a>
     </div>
     <div>
       <a class="xref" href="Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_SyncVarEqual__1___0___0_">NetworkBehaviour.SyncVarEqual&lt;T&gt;(T, T)</a>
@@ -625,14 +625,14 @@ public float VisibilityUpdateInterval</code></pre>
   
   
   <a id="Mirage_NetworkProximityChecker_OnCheckObserver_" data-uid="Mirage.NetworkProximityChecker.OnCheckObserver*"></a>
-  <h4 id="Mirage_NetworkProximityChecker_OnCheckObserver_Mirage_INetworkConnection_" data-uid="Mirage.NetworkProximityChecker.OnCheckObserver(Mirage.INetworkConnection)">OnCheckObserver(INetworkConnection)</h4>
+  <h4 id="Mirage_NetworkProximityChecker_OnCheckObserver_Mirage_INetworkPlayer_" data-uid="Mirage.NetworkProximityChecker.OnCheckObserver(Mirage.INetworkPlayer)">OnCheckObserver(INetworkPlayer)</h4>
   <div class="markdown level1 summary"><p>Callback used by the visibility system to determine if an observer (player) can see this object.</p>
 <p>If this function returns true, the network connection will be added as an observer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool OnCheckObserver(INetworkConnection conn)</code></pre>
+    <pre><code class="lang-csharp hljs">public override bool OnCheckObserver(INetworkPlayer conn)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -645,7 +645,7 @@ public float VisibilityUpdateInterval</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a></td>
+        <td><a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a></td>
         <td><span class="parametername">conn</span></td>
         <td><p>Network connection of a player.</p>
 </td>
@@ -669,18 +669,18 @@ public float VisibilityUpdateInterval</code></pre>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Mirage.NetworkVisibility.html#Mirage_NetworkVisibility_OnCheckObserver_Mirage_INetworkConnection_">NetworkVisibility.OnCheckObserver(INetworkConnection)</a></div>
+  <div><a class="xref" href="Mirage.NetworkVisibility.html#Mirage_NetworkVisibility_OnCheckObserver_Mirage_INetworkPlayer_">NetworkVisibility.OnCheckObserver(INetworkPlayer)</a></div>
   
   
   <a id="Mirage_NetworkProximityChecker_OnRebuildObservers_" data-uid="Mirage.NetworkProximityChecker.OnRebuildObservers*"></a>
-  <h4 id="Mirage_NetworkProximityChecker_OnRebuildObservers_System_Collections_Generic_HashSet_Mirage_INetworkConnection__System_Boolean_" data-uid="Mirage.NetworkProximityChecker.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkConnection},System.Boolean)">OnRebuildObservers(HashSet&lt;INetworkConnection&gt;, Boolean)</h4>
+  <h4 id="Mirage_NetworkProximityChecker_OnRebuildObservers_System_Collections_Generic_HashSet_Mirage_INetworkPlayer__System_Boolean_" data-uid="Mirage.NetworkProximityChecker.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkPlayer},System.Boolean)">OnRebuildObservers(HashSet&lt;INetworkPlayer&gt;, Boolean)</h4>
   <div class="markdown level1 summary"><p>Callback used by the visibility system to (re)construct the set of observers that can see this object.</p>
 <p>Implementations of this callback should add network connections of players that can see this object to the observers set.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnRebuildObservers(HashSet&lt;INetworkConnection&gt; observers, bool initialize)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void OnRebuildObservers(HashSet&lt;INetworkPlayer&gt; observers, bool initialize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -693,7 +693,7 @@ public float VisibilityUpdateInterval</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a>&gt;</td>
         <td><span class="parametername">observers</span></td>
         <td><p>The new set of observers for this object.</p>
 </td>
@@ -707,7 +707,7 @@ public float VisibilityUpdateInterval</code></pre>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Mirage.NetworkVisibility.html#Mirage_NetworkVisibility_OnRebuildObservers_System_Collections_Generic_HashSet_Mirage_INetworkConnection__System_Boolean_">NetworkVisibility.OnRebuildObservers(HashSet&lt;INetworkConnection&gt;, Boolean)</a></div>
+  <div><a class="xref" href="Mirage.NetworkVisibility.html#Mirage_NetworkVisibility_OnRebuildObservers_System_Collections_Generic_HashSet_Mirage_INetworkPlayer__System_Boolean_">NetworkVisibility.OnRebuildObservers(HashSet&lt;INetworkPlayer&gt;, Boolean)</a></div>
 </article>
           </div>
           

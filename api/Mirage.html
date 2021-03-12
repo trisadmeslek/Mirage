@@ -159,9 +159,6 @@
 <p>The <a class="xref" href="Mirage.NetworkClient.html">NetworkClient</a> handle connection state, messages handlers, and connection configuration. There can be many <a class="xref" href="Mirage.NetworkClient.html">NetworkClient</a> instances in a process at a time, but only one that is connected to a game server (<a class="xref" href="Mirage.NetworkServer.html">NetworkServer</a>) that uses spawned objects.</p>
 <p><a class="xref" href="Mirage.NetworkClient.html">NetworkClient</a> has an internal update function where it handles events from the transport layer. This includes asynchronous connect events, disconnect events and incoming data from a server.</p>
 </section>
-      <h4><a class="xref" href="Mirage.NetworkConnection.html">NetworkConnection</a></h4>
-      <section><p>A High level network connection. This is used for connections from client-to-server and for connection from server-to-client.</p>
-</section>
       <h4><a class="xref" href="Mirage.NetworkConnectionEvent.html">NetworkConnectionEvent</a></h4>
       <section><p>Event fires from a <a class="xref" href="Mirage.NetworkClient.html">NetworkClient</a> or <a class="xref" href="Mirage.NetworkServer.html">NetworkServer</a> during a new connection, a new authentication, or a disconnection.</p>
 <p>INetworkConnection - connection creating the event</p>
@@ -192,6 +189,9 @@ This is used in network communications to be able to lookup game objects on diff
 </section>
       <h4><a class="xref" href="Mirage.NetworkPingDisplay.html">NetworkPingDisplay</a></h4>
       <section><p>Component that will display the clients ping in milliseconds</p>
+</section>
+      <h4><a class="xref" href="Mirage.NetworkPlayer.html">NetworkPlayer</a></h4>
+      <section><p>A High level network connection. This is used for connections from client-to-server and for connection from server-to-client.</p>
 </section>
       <h4><a class="xref" href="Mirage.NetworkProximityChecker.html">NetworkProximityChecker</a></h4>
       <section><p>Component that controls visibility of networked objects for players.</p>
@@ -396,7 +396,7 @@ the weaver will replace the syncvar with this struct.</p>
 </section>
       <h4><a class="xref" href="Mirage.INetworkClient.html">INetworkClient</a></h4>
       <section></section>
-      <h4><a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a></h4>
+      <h4><a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a></h4>
       <section><p>A connection to a remote endpoint.
 May be from the server to client or from client to server</p>
 </section>

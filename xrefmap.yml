@@ -61,12 +61,12 @@ references:
   commentId: F:Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage.Message
   fullName: Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage.Message
   nameWithType: BasicAuthenticator.AuthResponseMessage.Message
-- uid: Mirage.Authenticators.BasicAuthenticator.DelayedDisconnect(Mirage.INetworkConnection,System.Single)
-  name: DelayedDisconnect(INetworkConnection, Single)
-  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_DelayedDisconnect_Mirage_INetworkConnection_System_Single_
-  commentId: M:Mirage.Authenticators.BasicAuthenticator.DelayedDisconnect(Mirage.INetworkConnection,System.Single)
-  fullName: Mirage.Authenticators.BasicAuthenticator.DelayedDisconnect(Mirage.INetworkConnection, System.Single)
-  nameWithType: BasicAuthenticator.DelayedDisconnect(INetworkConnection, Single)
+- uid: Mirage.Authenticators.BasicAuthenticator.DelayedDisconnect(Mirage.INetworkPlayer,System.Single)
+  name: DelayedDisconnect(INetworkPlayer, Single)
+  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_DelayedDisconnect_Mirage_INetworkPlayer_System_Single_
+  commentId: M:Mirage.Authenticators.BasicAuthenticator.DelayedDisconnect(Mirage.INetworkPlayer,System.Single)
+  fullName: Mirage.Authenticators.BasicAuthenticator.DelayedDisconnect(Mirage.INetworkPlayer, System.Single)
+  nameWithType: BasicAuthenticator.DelayedDisconnect(INetworkPlayer, Single)
 - uid: Mirage.Authenticators.BasicAuthenticator.DelayedDisconnect*
   name: DelayedDisconnect
   href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_DelayedDisconnect_
@@ -74,12 +74,12 @@ references:
   isSpec: "True"
   fullName: Mirage.Authenticators.BasicAuthenticator.DelayedDisconnect
   nameWithType: BasicAuthenticator.DelayedDisconnect
-- uid: Mirage.Authenticators.BasicAuthenticator.OnAuthRequestMessage(Mirage.INetworkConnection,Mirage.Authenticators.BasicAuthenticator.AuthRequestMessage)
-  name: OnAuthRequestMessage(INetworkConnection, BasicAuthenticator.AuthRequestMessage)
-  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_OnAuthRequestMessage_Mirage_INetworkConnection_Mirage_Authenticators_BasicAuthenticator_AuthRequestMessage_
-  commentId: M:Mirage.Authenticators.BasicAuthenticator.OnAuthRequestMessage(Mirage.INetworkConnection,Mirage.Authenticators.BasicAuthenticator.AuthRequestMessage)
-  fullName: Mirage.Authenticators.BasicAuthenticator.OnAuthRequestMessage(Mirage.INetworkConnection, Mirage.Authenticators.BasicAuthenticator.AuthRequestMessage)
-  nameWithType: BasicAuthenticator.OnAuthRequestMessage(INetworkConnection, BasicAuthenticator.AuthRequestMessage)
+- uid: Mirage.Authenticators.BasicAuthenticator.OnAuthRequestMessage(Mirage.INetworkPlayer,Mirage.Authenticators.BasicAuthenticator.AuthRequestMessage)
+  name: OnAuthRequestMessage(INetworkPlayer, BasicAuthenticator.AuthRequestMessage)
+  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_OnAuthRequestMessage_Mirage_INetworkPlayer_Mirage_Authenticators_BasicAuthenticator_AuthRequestMessage_
+  commentId: M:Mirage.Authenticators.BasicAuthenticator.OnAuthRequestMessage(Mirage.INetworkPlayer,Mirage.Authenticators.BasicAuthenticator.AuthRequestMessage)
+  fullName: Mirage.Authenticators.BasicAuthenticator.OnAuthRequestMessage(Mirage.INetworkPlayer, Mirage.Authenticators.BasicAuthenticator.AuthRequestMessage)
+  nameWithType: BasicAuthenticator.OnAuthRequestMessage(INetworkPlayer, BasicAuthenticator.AuthRequestMessage)
 - uid: Mirage.Authenticators.BasicAuthenticator.OnAuthRequestMessage*
   name: OnAuthRequestMessage
   href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_OnAuthRequestMessage_
@@ -87,12 +87,12 @@ references:
   isSpec: "True"
   fullName: Mirage.Authenticators.BasicAuthenticator.OnAuthRequestMessage
   nameWithType: BasicAuthenticator.OnAuthRequestMessage
-- uid: Mirage.Authenticators.BasicAuthenticator.OnAuthResponseMessage(Mirage.INetworkConnection,Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage)
-  name: OnAuthResponseMessage(INetworkConnection, BasicAuthenticator.AuthResponseMessage)
-  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_OnAuthResponseMessage_Mirage_INetworkConnection_Mirage_Authenticators_BasicAuthenticator_AuthResponseMessage_
-  commentId: M:Mirage.Authenticators.BasicAuthenticator.OnAuthResponseMessage(Mirage.INetworkConnection,Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage)
-  fullName: Mirage.Authenticators.BasicAuthenticator.OnAuthResponseMessage(Mirage.INetworkConnection, Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage)
-  nameWithType: BasicAuthenticator.OnAuthResponseMessage(INetworkConnection, BasicAuthenticator.AuthResponseMessage)
+- uid: Mirage.Authenticators.BasicAuthenticator.OnAuthResponseMessage(Mirage.INetworkPlayer,Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage)
+  name: OnAuthResponseMessage(INetworkPlayer, BasicAuthenticator.AuthResponseMessage)
+  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_OnAuthResponseMessage_Mirage_INetworkPlayer_Mirage_Authenticators_BasicAuthenticator_AuthResponseMessage_
+  commentId: M:Mirage.Authenticators.BasicAuthenticator.OnAuthResponseMessage(Mirage.INetworkPlayer,Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage)
+  fullName: Mirage.Authenticators.BasicAuthenticator.OnAuthResponseMessage(Mirage.INetworkPlayer, Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage)
+  nameWithType: BasicAuthenticator.OnAuthResponseMessage(INetworkPlayer, BasicAuthenticator.AuthResponseMessage)
 - uid: Mirage.Authenticators.BasicAuthenticator.OnAuthResponseMessage*
   name: OnAuthResponseMessage
   href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_OnAuthResponseMessage_
@@ -100,12 +100,12 @@ references:
   isSpec: "True"
   fullName: Mirage.Authenticators.BasicAuthenticator.OnAuthResponseMessage
   nameWithType: BasicAuthenticator.OnAuthResponseMessage
-- uid: Mirage.Authenticators.BasicAuthenticator.OnClientAuthenticate(Mirage.INetworkConnection)
-  name: OnClientAuthenticate(INetworkConnection)
-  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_OnClientAuthenticate_Mirage_INetworkConnection_
-  commentId: M:Mirage.Authenticators.BasicAuthenticator.OnClientAuthenticate(Mirage.INetworkConnection)
-  fullName: Mirage.Authenticators.BasicAuthenticator.OnClientAuthenticate(Mirage.INetworkConnection)
-  nameWithType: BasicAuthenticator.OnClientAuthenticate(INetworkConnection)
+- uid: Mirage.Authenticators.BasicAuthenticator.OnClientAuthenticate(Mirage.INetworkPlayer)
+  name: OnClientAuthenticate(INetworkPlayer)
+  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_OnClientAuthenticate_Mirage_INetworkPlayer_
+  commentId: M:Mirage.Authenticators.BasicAuthenticator.OnClientAuthenticate(Mirage.INetworkPlayer)
+  fullName: Mirage.Authenticators.BasicAuthenticator.OnClientAuthenticate(Mirage.INetworkPlayer)
+  nameWithType: BasicAuthenticator.OnClientAuthenticate(INetworkPlayer)
 - uid: Mirage.Authenticators.BasicAuthenticator.OnClientAuthenticate*
   name: OnClientAuthenticate
   href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_OnClientAuthenticate_
@@ -113,12 +113,12 @@ references:
   isSpec: "True"
   fullName: Mirage.Authenticators.BasicAuthenticator.OnClientAuthenticate
   nameWithType: BasicAuthenticator.OnClientAuthenticate
-- uid: Mirage.Authenticators.BasicAuthenticator.OnServerAuthenticate(Mirage.INetworkConnection)
-  name: OnServerAuthenticate(INetworkConnection)
-  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_OnServerAuthenticate_Mirage_INetworkConnection_
-  commentId: M:Mirage.Authenticators.BasicAuthenticator.OnServerAuthenticate(Mirage.INetworkConnection)
-  fullName: Mirage.Authenticators.BasicAuthenticator.OnServerAuthenticate(Mirage.INetworkConnection)
-  nameWithType: BasicAuthenticator.OnServerAuthenticate(INetworkConnection)
+- uid: Mirage.Authenticators.BasicAuthenticator.OnServerAuthenticate(Mirage.INetworkPlayer)
+  name: OnServerAuthenticate(INetworkPlayer)
+  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_OnServerAuthenticate_Mirage_INetworkPlayer_
+  commentId: M:Mirage.Authenticators.BasicAuthenticator.OnServerAuthenticate(Mirage.INetworkPlayer)
+  fullName: Mirage.Authenticators.BasicAuthenticator.OnServerAuthenticate(Mirage.INetworkPlayer)
+  nameWithType: BasicAuthenticator.OnServerAuthenticate(INetworkPlayer)
 - uid: Mirage.Authenticators.BasicAuthenticator.OnServerAuthenticate*
   name: OnServerAuthenticate
   href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_OnServerAuthenticate_
@@ -163,12 +163,12 @@ references:
   isSpec: "True"
   fullName: Mirage.Authenticators.TimeoutAuthenticator.Awake
   nameWithType: TimeoutAuthenticator.Awake
-- uid: Mirage.Authenticators.TimeoutAuthenticator.OnClientAuthenticate(Mirage.INetworkConnection)
-  name: OnClientAuthenticate(INetworkConnection)
-  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_OnClientAuthenticate_Mirage_INetworkConnection_
-  commentId: M:Mirage.Authenticators.TimeoutAuthenticator.OnClientAuthenticate(Mirage.INetworkConnection)
-  fullName: Mirage.Authenticators.TimeoutAuthenticator.OnClientAuthenticate(Mirage.INetworkConnection)
-  nameWithType: TimeoutAuthenticator.OnClientAuthenticate(INetworkConnection)
+- uid: Mirage.Authenticators.TimeoutAuthenticator.OnClientAuthenticate(Mirage.INetworkPlayer)
+  name: OnClientAuthenticate(INetworkPlayer)
+  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_OnClientAuthenticate_Mirage_INetworkPlayer_
+  commentId: M:Mirage.Authenticators.TimeoutAuthenticator.OnClientAuthenticate(Mirage.INetworkPlayer)
+  fullName: Mirage.Authenticators.TimeoutAuthenticator.OnClientAuthenticate(Mirage.INetworkPlayer)
+  nameWithType: TimeoutAuthenticator.OnClientAuthenticate(INetworkPlayer)
 - uid: Mirage.Authenticators.TimeoutAuthenticator.OnClientAuthenticate*
   name: OnClientAuthenticate
   href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_OnClientAuthenticate_
@@ -176,12 +176,12 @@ references:
   isSpec: "True"
   fullName: Mirage.Authenticators.TimeoutAuthenticator.OnClientAuthenticate
   nameWithType: TimeoutAuthenticator.OnClientAuthenticate
-- uid: Mirage.Authenticators.TimeoutAuthenticator.OnServerAuthenticate(Mirage.INetworkConnection)
-  name: OnServerAuthenticate(INetworkConnection)
-  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_OnServerAuthenticate_Mirage_INetworkConnection_
-  commentId: M:Mirage.Authenticators.TimeoutAuthenticator.OnServerAuthenticate(Mirage.INetworkConnection)
-  fullName: Mirage.Authenticators.TimeoutAuthenticator.OnServerAuthenticate(Mirage.INetworkConnection)
-  nameWithType: TimeoutAuthenticator.OnServerAuthenticate(INetworkConnection)
+- uid: Mirage.Authenticators.TimeoutAuthenticator.OnServerAuthenticate(Mirage.INetworkPlayer)
+  name: OnServerAuthenticate(INetworkPlayer)
+  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_OnServerAuthenticate_Mirage_INetworkPlayer_
+  commentId: M:Mirage.Authenticators.TimeoutAuthenticator.OnServerAuthenticate(Mirage.INetworkPlayer)
+  fullName: Mirage.Authenticators.TimeoutAuthenticator.OnServerAuthenticate(Mirage.INetworkPlayer)
+  nameWithType: TimeoutAuthenticator.OnServerAuthenticate(INetworkPlayer)
 - uid: Mirage.Authenticators.TimeoutAuthenticator.OnServerAuthenticate*
   name: OnServerAuthenticate
   href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_OnServerAuthenticate_
@@ -1406,15 +1406,15 @@ references:
   fullName.vb: Mirage.IMessageReceiver.RegisterHandler(Of T)(System.Action(Of T))
   nameWithType: IMessageReceiver.RegisterHandler<T>(Action<T>)
   nameWithType.vb: IMessageReceiver.RegisterHandler(Of T)(Action(Of T))
-- uid: Mirage.IMessageReceiver.RegisterHandler``1(System.Action{Mirage.INetworkConnection,``0})
-  name: RegisterHandler<T>(Action<INetworkConnection, T>)
-  href: api/Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_RegisterHandler__1_System_Action_Mirage_INetworkConnection___0__
-  commentId: M:Mirage.IMessageReceiver.RegisterHandler``1(System.Action{Mirage.INetworkConnection,``0})
-  name.vb: RegisterHandler(Of T)(Action(Of INetworkConnection, T))
-  fullName: Mirage.IMessageReceiver.RegisterHandler<T>(System.Action<Mirage.INetworkConnection, T>)
-  fullName.vb: Mirage.IMessageReceiver.RegisterHandler(Of T)(System.Action(Of Mirage.INetworkConnection, T))
-  nameWithType: IMessageReceiver.RegisterHandler<T>(Action<INetworkConnection, T>)
-  nameWithType.vb: IMessageReceiver.RegisterHandler(Of T)(Action(Of INetworkConnection, T))
+- uid: Mirage.IMessageReceiver.RegisterHandler``1(System.Action{Mirage.INetworkPlayer,``0})
+  name: RegisterHandler<T>(Action<INetworkPlayer, T>)
+  href: api/Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_RegisterHandler__1_System_Action_Mirage_INetworkPlayer___0__
+  commentId: M:Mirage.IMessageReceiver.RegisterHandler``1(System.Action{Mirage.INetworkPlayer,``0})
+  name.vb: RegisterHandler(Of T)(Action(Of INetworkPlayer, T))
+  fullName: Mirage.IMessageReceiver.RegisterHandler<T>(System.Action<Mirage.INetworkPlayer, T>)
+  fullName.vb: Mirage.IMessageReceiver.RegisterHandler(Of T)(System.Action(Of Mirage.INetworkPlayer, T))
+  nameWithType: IMessageReceiver.RegisterHandler<T>(Action<INetworkPlayer, T>)
+  nameWithType.vb: IMessageReceiver.RegisterHandler(Of T)(Action(Of INetworkPlayer, T))
 - uid: Mirage.IMessageReceiver.UnregisterHandler*
   name: UnregisterHandler
   href: api/Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_UnregisterHandler_
@@ -1559,64 +1559,64 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkClient.IsLocalClient
   nameWithType: INetworkClient.IsLocalClient
-- uid: Mirage.INetworkConnection
-  name: INetworkConnection
-  href: api/Mirage.INetworkConnection.html
-  commentId: T:Mirage.INetworkConnection
-  fullName: Mirage.INetworkConnection
-  nameWithType: INetworkConnection
-- uid: Mirage.INetworkConnection.Address
+- uid: Mirage.INetworkPlayer
+  name: INetworkPlayer
+  href: api/Mirage.INetworkPlayer.html
+  commentId: T:Mirage.INetworkPlayer
+  fullName: Mirage.INetworkPlayer
+  nameWithType: INetworkPlayer
+- uid: Mirage.INetworkPlayer.Address
   name: Address
-  href: api/Mirage.INetworkConnection.html#Mirage_INetworkConnection_Address
-  commentId: P:Mirage.INetworkConnection.Address
-  fullName: Mirage.INetworkConnection.Address
-  nameWithType: INetworkConnection.Address
-- uid: Mirage.INetworkConnection.Address*
+  href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_Address
+  commentId: P:Mirage.INetworkPlayer.Address
+  fullName: Mirage.INetworkPlayer.Address
+  nameWithType: INetworkPlayer.Address
+- uid: Mirage.INetworkPlayer.Address*
   name: Address
-  href: api/Mirage.INetworkConnection.html#Mirage_INetworkConnection_Address_
-  commentId: Overload:Mirage.INetworkConnection.Address
+  href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_Address_
+  commentId: Overload:Mirage.INetworkPlayer.Address
   isSpec: "True"
-  fullName: Mirage.INetworkConnection.Address
-  nameWithType: INetworkConnection.Address
-- uid: Mirage.INetworkConnection.AuthenticationData
+  fullName: Mirage.INetworkPlayer.Address
+  nameWithType: INetworkPlayer.Address
+- uid: Mirage.INetworkPlayer.AuthenticationData
   name: AuthenticationData
-  href: api/Mirage.INetworkConnection.html#Mirage_INetworkConnection_AuthenticationData
-  commentId: P:Mirage.INetworkConnection.AuthenticationData
-  fullName: Mirage.INetworkConnection.AuthenticationData
-  nameWithType: INetworkConnection.AuthenticationData
-- uid: Mirage.INetworkConnection.AuthenticationData*
+  href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_AuthenticationData
+  commentId: P:Mirage.INetworkPlayer.AuthenticationData
+  fullName: Mirage.INetworkPlayer.AuthenticationData
+  nameWithType: INetworkPlayer.AuthenticationData
+- uid: Mirage.INetworkPlayer.AuthenticationData*
   name: AuthenticationData
-  href: api/Mirage.INetworkConnection.html#Mirage_INetworkConnection_AuthenticationData_
-  commentId: Overload:Mirage.INetworkConnection.AuthenticationData
+  href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_AuthenticationData_
+  commentId: Overload:Mirage.INetworkPlayer.AuthenticationData
   isSpec: "True"
-  fullName: Mirage.INetworkConnection.AuthenticationData
-  nameWithType: INetworkConnection.AuthenticationData
-- uid: Mirage.INetworkConnection.Disconnect
+  fullName: Mirage.INetworkPlayer.AuthenticationData
+  nameWithType: INetworkPlayer.AuthenticationData
+- uid: Mirage.INetworkPlayer.Disconnect
   name: Disconnect()
-  href: api/Mirage.INetworkConnection.html#Mirage_INetworkConnection_Disconnect
-  commentId: M:Mirage.INetworkConnection.Disconnect
-  fullName: Mirage.INetworkConnection.Disconnect()
-  nameWithType: INetworkConnection.Disconnect()
-- uid: Mirage.INetworkConnection.Disconnect*
+  href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_Disconnect
+  commentId: M:Mirage.INetworkPlayer.Disconnect
+  fullName: Mirage.INetworkPlayer.Disconnect()
+  nameWithType: INetworkPlayer.Disconnect()
+- uid: Mirage.INetworkPlayer.Disconnect*
   name: Disconnect
-  href: api/Mirage.INetworkConnection.html#Mirage_INetworkConnection_Disconnect_
-  commentId: Overload:Mirage.INetworkConnection.Disconnect
+  href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_Disconnect_
+  commentId: Overload:Mirage.INetworkPlayer.Disconnect
   isSpec: "True"
-  fullName: Mirage.INetworkConnection.Disconnect
-  nameWithType: INetworkConnection.Disconnect
-- uid: Mirage.INetworkConnection.IsReady
+  fullName: Mirage.INetworkPlayer.Disconnect
+  nameWithType: INetworkPlayer.Disconnect
+- uid: Mirage.INetworkPlayer.IsReady
   name: IsReady
-  href: api/Mirage.INetworkConnection.html#Mirage_INetworkConnection_IsReady
-  commentId: P:Mirage.INetworkConnection.IsReady
-  fullName: Mirage.INetworkConnection.IsReady
-  nameWithType: INetworkConnection.IsReady
-- uid: Mirage.INetworkConnection.IsReady*
+  href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_IsReady
+  commentId: P:Mirage.INetworkPlayer.IsReady
+  fullName: Mirage.INetworkPlayer.IsReady
+  nameWithType: INetworkPlayer.IsReady
+- uid: Mirage.INetworkPlayer.IsReady*
   name: IsReady
-  href: api/Mirage.INetworkConnection.html#Mirage_INetworkConnection_IsReady_
-  commentId: Overload:Mirage.INetworkConnection.IsReady
+  href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_IsReady_
+  commentId: Overload:Mirage.INetworkPlayer.IsReady
   isSpec: "True"
-  fullName: Mirage.INetworkConnection.IsReady
-  nameWithType: INetworkConnection.IsReady
+  fullName: Mirage.INetworkPlayer.IsReady
+  nameWithType: INetworkPlayer.IsReady
 - uid: Mirage.INetworkSceneManager
   name: INetworkSceneManager
   href: api/Mirage.INetworkSceneManager.html
@@ -1707,12 +1707,12 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkServer.Active
   nameWithType: INetworkServer.Active
-- uid: Mirage.INetworkServer.AddConnection(Mirage.INetworkConnection)
-  name: AddConnection(INetworkConnection)
-  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_AddConnection_Mirage_INetworkConnection_
-  commentId: M:Mirage.INetworkServer.AddConnection(Mirage.INetworkConnection)
-  fullName: Mirage.INetworkServer.AddConnection(Mirage.INetworkConnection)
-  nameWithType: INetworkServer.AddConnection(INetworkConnection)
+- uid: Mirage.INetworkServer.AddConnection(Mirage.INetworkPlayer)
+  name: AddConnection(INetworkPlayer)
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_AddConnection_Mirage_INetworkPlayer_
+  commentId: M:Mirage.INetworkServer.AddConnection(Mirage.INetworkPlayer)
+  fullName: Mirage.INetworkServer.AddConnection(Mirage.INetworkPlayer)
+  nameWithType: INetworkServer.AddConnection(INetworkPlayer)
 - uid: Mirage.INetworkServer.AddConnection*
   name: AddConnection
   href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_AddConnection_
@@ -1837,12 +1837,12 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkServer.OnStopHost
   nameWithType: INetworkServer.OnStopHost
-- uid: Mirage.INetworkServer.RemoveConnection(Mirage.INetworkConnection)
-  name: RemoveConnection(INetworkConnection)
-  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_RemoveConnection_Mirage_INetworkConnection_
-  commentId: M:Mirage.INetworkServer.RemoveConnection(Mirage.INetworkConnection)
-  fullName: Mirage.INetworkServer.RemoveConnection(Mirage.INetworkConnection)
-  nameWithType: INetworkServer.RemoveConnection(INetworkConnection)
+- uid: Mirage.INetworkServer.RemoveConnection(Mirage.INetworkPlayer)
+  name: RemoveConnection(INetworkPlayer)
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_RemoveConnection_Mirage_INetworkPlayer_
+  commentId: M:Mirage.INetworkServer.RemoveConnection(Mirage.INetworkPlayer)
+  fullName: Mirage.INetworkServer.RemoveConnection(Mirage.INetworkPlayer)
+  nameWithType: INetworkServer.RemoveConnection(INetworkPlayer)
 - uid: Mirage.INetworkServer.RemoveConnection*
   name: RemoveConnection
   href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_RemoveConnection_
@@ -2055,18 +2055,18 @@ references:
   commentId: T:Mirage.IServerObjectManager
   fullName: Mirage.IServerObjectManager
   nameWithType: IServerObjectManager
-- uid: Mirage.IServerObjectManager.AddPlayerForConnection(Mirage.INetworkConnection,UnityEngine.GameObject)
-  name: AddPlayerForConnection(INetworkConnection, GameObject)
-  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_AddPlayerForConnection_Mirage_INetworkConnection_UnityEngine_GameObject_
-  commentId: M:Mirage.IServerObjectManager.AddPlayerForConnection(Mirage.INetworkConnection,UnityEngine.GameObject)
-  fullName: Mirage.IServerObjectManager.AddPlayerForConnection(Mirage.INetworkConnection, UnityEngine.GameObject)
-  nameWithType: IServerObjectManager.AddPlayerForConnection(INetworkConnection, GameObject)
-- uid: Mirage.IServerObjectManager.AddPlayerForConnection(Mirage.INetworkConnection,UnityEngine.GameObject,System.Guid)
-  name: AddPlayerForConnection(INetworkConnection, GameObject, Guid)
-  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_AddPlayerForConnection_Mirage_INetworkConnection_UnityEngine_GameObject_System_Guid_
-  commentId: M:Mirage.IServerObjectManager.AddPlayerForConnection(Mirage.INetworkConnection,UnityEngine.GameObject,System.Guid)
-  fullName: Mirage.IServerObjectManager.AddPlayerForConnection(Mirage.INetworkConnection, UnityEngine.GameObject, System.Guid)
-  nameWithType: IServerObjectManager.AddPlayerForConnection(INetworkConnection, GameObject, Guid)
+- uid: Mirage.IServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer,UnityEngine.GameObject)
+  name: AddPlayerForConnection(INetworkPlayer, GameObject)
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_AddPlayerForConnection_Mirage_INetworkPlayer_UnityEngine_GameObject_
+  commentId: M:Mirage.IServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer,UnityEngine.GameObject)
+  fullName: Mirage.IServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer, UnityEngine.GameObject)
+  nameWithType: IServerObjectManager.AddPlayerForConnection(INetworkPlayer, GameObject)
+- uid: Mirage.IServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Guid)
+  name: AddPlayerForConnection(INetworkPlayer, GameObject, Guid)
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_AddPlayerForConnection_Mirage_INetworkPlayer_UnityEngine_GameObject_System_Guid_
+  commentId: M:Mirage.IServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Guid)
+  fullName: Mirage.IServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer, UnityEngine.GameObject, System.Guid)
+  nameWithType: IServerObjectManager.AddPlayerForConnection(INetworkPlayer, GameObject, Guid)
 - uid: Mirage.IServerObjectManager.AddPlayerForConnection*
   name: AddPlayerForConnection
   href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_AddPlayerForConnection_
@@ -2087,18 +2087,18 @@ references:
   isSpec: "True"
   fullName: Mirage.IServerObjectManager.Destroy
   nameWithType: IServerObjectManager.Destroy
-- uid: Mirage.IServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkConnection,Mirage.NetworkClient,UnityEngine.GameObject,System.Boolean)
-  name: ReplacePlayerForConnection(INetworkConnection, NetworkClient, GameObject, Boolean)
-  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_ReplacePlayerForConnection_Mirage_INetworkConnection_Mirage_NetworkClient_UnityEngine_GameObject_System_Boolean_
-  commentId: M:Mirage.IServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkConnection,Mirage.NetworkClient,UnityEngine.GameObject,System.Boolean)
-  fullName: Mirage.IServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkConnection, Mirage.NetworkClient, UnityEngine.GameObject, System.Boolean)
-  nameWithType: IServerObjectManager.ReplacePlayerForConnection(INetworkConnection, NetworkClient, GameObject, Boolean)
-- uid: Mirage.IServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkConnection,Mirage.NetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
-  name: ReplacePlayerForConnection(INetworkConnection, NetworkClient, GameObject, Guid, Boolean)
-  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_ReplacePlayerForConnection_Mirage_INetworkConnection_Mirage_NetworkClient_UnityEngine_GameObject_System_Guid_System_Boolean_
-  commentId: M:Mirage.IServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkConnection,Mirage.NetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
-  fullName: Mirage.IServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkConnection, Mirage.NetworkClient, UnityEngine.GameObject, System.Guid, System.Boolean)
-  nameWithType: IServerObjectManager.ReplacePlayerForConnection(INetworkConnection, NetworkClient, GameObject, Guid, Boolean)
+- uid: Mirage.IServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Boolean)
+  name: ReplacePlayerForConnection(INetworkPlayer, NetworkClient, GameObject, Boolean)
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_ReplacePlayerForConnection_Mirage_INetworkPlayer_Mirage_NetworkClient_UnityEngine_GameObject_System_Boolean_
+  commentId: M:Mirage.IServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Boolean)
+  fullName: Mirage.IServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer, Mirage.NetworkClient, UnityEngine.GameObject, System.Boolean)
+  nameWithType: IServerObjectManager.ReplacePlayerForConnection(INetworkPlayer, NetworkClient, GameObject, Boolean)
+- uid: Mirage.IServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
+  name: ReplacePlayerForConnection(INetworkPlayer, NetworkClient, GameObject, Guid, Boolean)
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_ReplacePlayerForConnection_Mirage_INetworkPlayer_Mirage_NetworkClient_UnityEngine_GameObject_System_Guid_System_Boolean_
+  commentId: M:Mirage.IServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
+  fullName: Mirage.IServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer, Mirage.NetworkClient, UnityEngine.GameObject, System.Guid, System.Boolean)
+  nameWithType: IServerObjectManager.ReplacePlayerForConnection(INetworkPlayer, NetworkClient, GameObject, Guid, Boolean)
 - uid: Mirage.IServerObjectManager.ReplacePlayerForConnection*
   name: ReplacePlayerForConnection
   href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_ReplacePlayerForConnection_
@@ -2106,18 +2106,18 @@ references:
   isSpec: "True"
   fullName: Mirage.IServerObjectManager.ReplacePlayerForConnection
   nameWithType: IServerObjectManager.ReplacePlayerForConnection
-- uid: Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject,Mirage.INetworkConnection)
-  name: Spawn(GameObject, INetworkConnection)
-  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_Spawn_UnityEngine_GameObject_Mirage_INetworkConnection_
-  commentId: M:Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject,Mirage.INetworkConnection)
-  fullName: Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject, Mirage.INetworkConnection)
-  nameWithType: IServerObjectManager.Spawn(GameObject, INetworkConnection)
-- uid: Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject,System.Guid,Mirage.INetworkConnection)
-  name: Spawn(GameObject, Guid, INetworkConnection)
-  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_Spawn_UnityEngine_GameObject_System_Guid_Mirage_INetworkConnection_
-  commentId: M:Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject,System.Guid,Mirage.INetworkConnection)
-  fullName: Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject, System.Guid, Mirage.INetworkConnection)
-  nameWithType: IServerObjectManager.Spawn(GameObject, Guid, INetworkConnection)
+- uid: Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject,Mirage.INetworkPlayer)
+  name: Spawn(GameObject, INetworkPlayer)
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_Spawn_UnityEngine_GameObject_Mirage_INetworkPlayer_
+  commentId: M:Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject,Mirage.INetworkPlayer)
+  fullName: Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject, Mirage.INetworkPlayer)
+  nameWithType: IServerObjectManager.Spawn(GameObject, INetworkPlayer)
+- uid: Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject,System.Guid,Mirage.INetworkPlayer)
+  name: Spawn(GameObject, Guid, INetworkPlayer)
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_Spawn_UnityEngine_GameObject_System_Guid_Mirage_INetworkPlayer_
+  commentId: M:Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject,System.Guid,Mirage.INetworkPlayer)
+  fullName: Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject, System.Guid, Mirage.INetworkPlayer)
+  nameWithType: IServerObjectManager.Spawn(GameObject, Guid, INetworkPlayer)
 - uid: Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject,UnityEngine.GameObject)
   name: Spawn(GameObject, GameObject)
   href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_Spawn_UnityEngine_GameObject_UnityEngine_GameObject_
@@ -3932,12 +3932,12 @@ references:
   commentId: T:Mirage.NetworkAuthenticator
   fullName: Mirage.NetworkAuthenticator
   nameWithType: NetworkAuthenticator
-- uid: Mirage.NetworkAuthenticator.OnClientAuthenticate(Mirage.INetworkConnection)
-  name: OnClientAuthenticate(INetworkConnection)
-  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_OnClientAuthenticate_Mirage_INetworkConnection_
-  commentId: M:Mirage.NetworkAuthenticator.OnClientAuthenticate(Mirage.INetworkConnection)
-  fullName: Mirage.NetworkAuthenticator.OnClientAuthenticate(Mirage.INetworkConnection)
-  nameWithType: NetworkAuthenticator.OnClientAuthenticate(INetworkConnection)
+- uid: Mirage.NetworkAuthenticator.OnClientAuthenticate(Mirage.INetworkPlayer)
+  name: OnClientAuthenticate(INetworkPlayer)
+  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_OnClientAuthenticate_Mirage_INetworkPlayer_
+  commentId: M:Mirage.NetworkAuthenticator.OnClientAuthenticate(Mirage.INetworkPlayer)
+  fullName: Mirage.NetworkAuthenticator.OnClientAuthenticate(Mirage.INetworkPlayer)
+  nameWithType: NetworkAuthenticator.OnClientAuthenticate(INetworkPlayer)
 - uid: Mirage.NetworkAuthenticator.OnClientAuthenticate*
   name: OnClientAuthenticate
   href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_OnClientAuthenticate_
@@ -3951,12 +3951,12 @@ references:
   commentId: E:Mirage.NetworkAuthenticator.OnClientAuthenticated
   fullName: Mirage.NetworkAuthenticator.OnClientAuthenticated
   nameWithType: NetworkAuthenticator.OnClientAuthenticated
-- uid: Mirage.NetworkAuthenticator.OnServerAuthenticate(Mirage.INetworkConnection)
-  name: OnServerAuthenticate(INetworkConnection)
-  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_OnServerAuthenticate_Mirage_INetworkConnection_
-  commentId: M:Mirage.NetworkAuthenticator.OnServerAuthenticate(Mirage.INetworkConnection)
-  fullName: Mirage.NetworkAuthenticator.OnServerAuthenticate(Mirage.INetworkConnection)
-  nameWithType: NetworkAuthenticator.OnServerAuthenticate(INetworkConnection)
+- uid: Mirage.NetworkAuthenticator.OnServerAuthenticate(Mirage.INetworkPlayer)
+  name: OnServerAuthenticate(INetworkPlayer)
+  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_OnServerAuthenticate_Mirage_INetworkPlayer_
+  commentId: M:Mirage.NetworkAuthenticator.OnServerAuthenticate(Mirage.INetworkPlayer)
+  fullName: Mirage.NetworkAuthenticator.OnServerAuthenticate(Mirage.INetworkPlayer)
+  nameWithType: NetworkAuthenticator.OnServerAuthenticate(INetworkPlayer)
 - uid: Mirage.NetworkAuthenticator.OnServerAuthenticate*
   name: OnServerAuthenticate
   href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_OnServerAuthenticate_
@@ -4355,12 +4355,12 @@ references:
   fullName.vb: Mirage.NetworkBehaviour.SendServerRpcWithReturn(Of T)(System.Type, System.String, Mirage.NetworkWriter, System.Int32, System.Boolean)
   nameWithType: NetworkBehaviour.SendServerRpcWithReturn<T>(Type, String, NetworkWriter, Int32, Boolean)
   nameWithType.vb: NetworkBehaviour.SendServerRpcWithReturn(Of T)(Type, String, NetworkWriter, Int32, Boolean)
-- uid: Mirage.NetworkBehaviour.SendTargetRpcInternal(Mirage.INetworkConnection,System.Type,System.String,Mirage.NetworkWriter,System.Int32)
-  name: SendTargetRpcInternal(INetworkConnection, Type, String, NetworkWriter, Int32)
-  href: api/Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_SendTargetRpcInternal_Mirage_INetworkConnection_System_Type_System_String_Mirage_NetworkWriter_System_Int32_
-  commentId: M:Mirage.NetworkBehaviour.SendTargetRpcInternal(Mirage.INetworkConnection,System.Type,System.String,Mirage.NetworkWriter,System.Int32)
-  fullName: Mirage.NetworkBehaviour.SendTargetRpcInternal(Mirage.INetworkConnection, System.Type, System.String, Mirage.NetworkWriter, System.Int32)
-  nameWithType: NetworkBehaviour.SendTargetRpcInternal(INetworkConnection, Type, String, NetworkWriter, Int32)
+- uid: Mirage.NetworkBehaviour.SendTargetRpcInternal(Mirage.INetworkPlayer,System.Type,System.String,Mirage.NetworkWriter,System.Int32)
+  name: SendTargetRpcInternal(INetworkPlayer, Type, String, NetworkWriter, Int32)
+  href: api/Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_SendTargetRpcInternal_Mirage_INetworkPlayer_System_Type_System_String_Mirage_NetworkWriter_System_Int32_
+  commentId: M:Mirage.NetworkBehaviour.SendTargetRpcInternal(Mirage.INetworkPlayer,System.Type,System.String,Mirage.NetworkWriter,System.Int32)
+  fullName: Mirage.NetworkBehaviour.SendTargetRpcInternal(Mirage.INetworkPlayer, System.Type, System.String, Mirage.NetworkWriter, System.Int32)
+  nameWithType: NetworkBehaviour.SendTargetRpcInternal(INetworkPlayer, Type, String, NetworkWriter, Int32)
 - uid: Mirage.NetworkBehaviour.SendTargetRpcInternal*
   name: SendTargetRpcInternal
   href: api/Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_SendTargetRpcInternal_
@@ -4717,316 +4717,6 @@ references:
   commentId: F:Mirage.NetworkClient.Transport
   fullName: Mirage.NetworkClient.Transport
   nameWithType: NetworkClient.Transport
-- uid: Mirage.NetworkConnection
-  name: NetworkConnection
-  href: api/Mirage.NetworkConnection.html
-  commentId: T:Mirage.NetworkConnection
-  fullName: Mirage.NetworkConnection
-  nameWithType: NetworkConnection
-- uid: Mirage.NetworkConnection.#ctor(Mirage.IConnection)
-  name: NetworkConnection(IConnection)
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection__ctor_Mirage_IConnection_
-  commentId: M:Mirage.NetworkConnection.#ctor(Mirage.IConnection)
-  fullName: Mirage.NetworkConnection.NetworkConnection(Mirage.IConnection)
-  nameWithType: NetworkConnection.NetworkConnection(IConnection)
-- uid: Mirage.NetworkConnection.#ctor*
-  name: NetworkConnection
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection__ctor_
-  commentId: Overload:Mirage.NetworkConnection.#ctor
-  isSpec: "True"
-  fullName: Mirage.NetworkConnection.NetworkConnection
-  nameWithType: NetworkConnection.NetworkConnection
-- uid: Mirage.NetworkConnection.AddOwnedObject(Mirage.NetworkIdentity)
-  name: AddOwnedObject(NetworkIdentity)
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_AddOwnedObject_Mirage_NetworkIdentity_
-  commentId: M:Mirage.NetworkConnection.AddOwnedObject(Mirage.NetworkIdentity)
-  fullName: Mirage.NetworkConnection.AddOwnedObject(Mirage.NetworkIdentity)
-  nameWithType: NetworkConnection.AddOwnedObject(NetworkIdentity)
-- uid: Mirage.NetworkConnection.AddOwnedObject*
-  name: AddOwnedObject
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_AddOwnedObject_
-  commentId: Overload:Mirage.NetworkConnection.AddOwnedObject
-  isSpec: "True"
-  fullName: Mirage.NetworkConnection.AddOwnedObject
-  nameWithType: NetworkConnection.AddOwnedObject
-- uid: Mirage.NetworkConnection.Address
-  name: Address
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_Address
-  commentId: P:Mirage.NetworkConnection.Address
-  fullName: Mirage.NetworkConnection.Address
-  nameWithType: NetworkConnection.Address
-- uid: Mirage.NetworkConnection.Address*
-  name: Address
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_Address_
-  commentId: Overload:Mirage.NetworkConnection.Address
-  isSpec: "True"
-  fullName: Mirage.NetworkConnection.Address
-  nameWithType: NetworkConnection.Address
-- uid: Mirage.NetworkConnection.AddToVisList(Mirage.NetworkIdentity)
-  name: AddToVisList(NetworkIdentity)
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_AddToVisList_Mirage_NetworkIdentity_
-  commentId: M:Mirage.NetworkConnection.AddToVisList(Mirage.NetworkIdentity)
-  fullName: Mirage.NetworkConnection.AddToVisList(Mirage.NetworkIdentity)
-  nameWithType: NetworkConnection.AddToVisList(NetworkIdentity)
-- uid: Mirage.NetworkConnection.AddToVisList*
-  name: AddToVisList
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_AddToVisList_
-  commentId: Overload:Mirage.NetworkConnection.AddToVisList
-  isSpec: "True"
-  fullName: Mirage.NetworkConnection.AddToVisList
-  nameWithType: NetworkConnection.AddToVisList
-- uid: Mirage.NetworkConnection.AuthenticationData
-  name: AuthenticationData
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_AuthenticationData
-  commentId: P:Mirage.NetworkConnection.AuthenticationData
-  fullName: Mirage.NetworkConnection.AuthenticationData
-  nameWithType: NetworkConnection.AuthenticationData
-- uid: Mirage.NetworkConnection.AuthenticationData*
-  name: AuthenticationData
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_AuthenticationData_
-  commentId: Overload:Mirage.NetworkConnection.AuthenticationData
-  isSpec: "True"
-  fullName: Mirage.NetworkConnection.AuthenticationData
-  nameWithType: NetworkConnection.AuthenticationData
-- uid: Mirage.NetworkConnection.ClearHandlers
-  name: ClearHandlers()
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_ClearHandlers
-  commentId: M:Mirage.NetworkConnection.ClearHandlers
-  fullName: Mirage.NetworkConnection.ClearHandlers()
-  nameWithType: NetworkConnection.ClearHandlers()
-- uid: Mirage.NetworkConnection.ClearHandlers*
-  name: ClearHandlers
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_ClearHandlers_
-  commentId: Overload:Mirage.NetworkConnection.ClearHandlers
-  isSpec: "True"
-  fullName: Mirage.NetworkConnection.ClearHandlers
-  nameWithType: NetworkConnection.ClearHandlers
-- uid: Mirage.NetworkConnection.DestroyOwnedObjects
-  name: DestroyOwnedObjects()
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_DestroyOwnedObjects
-  commentId: M:Mirage.NetworkConnection.DestroyOwnedObjects
-  fullName: Mirage.NetworkConnection.DestroyOwnedObjects()
-  nameWithType: NetworkConnection.DestroyOwnedObjects()
-- uid: Mirage.NetworkConnection.DestroyOwnedObjects*
-  name: DestroyOwnedObjects
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_DestroyOwnedObjects_
-  commentId: Overload:Mirage.NetworkConnection.DestroyOwnedObjects
-  isSpec: "True"
-  fullName: Mirage.NetworkConnection.DestroyOwnedObjects
-  nameWithType: NetworkConnection.DestroyOwnedObjects
-- uid: Mirage.NetworkConnection.Disconnect
-  name: Disconnect()
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_Disconnect
-  commentId: M:Mirage.NetworkConnection.Disconnect
-  fullName: Mirage.NetworkConnection.Disconnect()
-  nameWithType: NetworkConnection.Disconnect()
-- uid: Mirage.NetworkConnection.Disconnect*
-  name: Disconnect
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_Disconnect_
-  commentId: Overload:Mirage.NetworkConnection.Disconnect
-  isSpec: "True"
-  fullName: Mirage.NetworkConnection.Disconnect
-  nameWithType: NetworkConnection.Disconnect
-- uid: Mirage.NetworkConnection.Identity
-  name: Identity
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_Identity
-  commentId: P:Mirage.NetworkConnection.Identity
-  fullName: Mirage.NetworkConnection.Identity
-  nameWithType: NetworkConnection.Identity
-- uid: Mirage.NetworkConnection.Identity*
-  name: Identity
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_Identity_
-  commentId: Overload:Mirage.NetworkConnection.Identity
-  isSpec: "True"
-  fullName: Mirage.NetworkConnection.Identity
-  nameWithType: NetworkConnection.Identity
-- uid: Mirage.NetworkConnection.IsReady
-  name: IsReady
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_IsReady
-  commentId: P:Mirage.NetworkConnection.IsReady
-  fullName: Mirage.NetworkConnection.IsReady
-  nameWithType: NetworkConnection.IsReady
-- uid: Mirage.NetworkConnection.IsReady*
-  name: IsReady
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_IsReady_
-  commentId: Overload:Mirage.NetworkConnection.IsReady
-  isSpec: "True"
-  fullName: Mirage.NetworkConnection.IsReady
-  nameWithType: NetworkConnection.IsReady
-- uid: Mirage.NetworkConnection.NOTIFY_ACK_TIMEOUT
-  name: NOTIFY_ACK_TIMEOUT
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_NOTIFY_ACK_TIMEOUT
-  commentId: F:Mirage.NetworkConnection.NOTIFY_ACK_TIMEOUT
-  fullName: Mirage.NetworkConnection.NOTIFY_ACK_TIMEOUT
-  nameWithType: NetworkConnection.NOTIFY_ACK_TIMEOUT
-- uid: Mirage.NetworkConnection.NotifyDelivered
-  name: NotifyDelivered
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_NotifyDelivered
-  commentId: E:Mirage.NetworkConnection.NotifyDelivered
-  fullName: Mirage.NetworkConnection.NotifyDelivered
-  nameWithType: NetworkConnection.NotifyDelivered
-- uid: Mirage.NetworkConnection.NotifyLost
-  name: NotifyLost
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_NotifyLost
-  commentId: E:Mirage.NetworkConnection.NotifyLost
-  fullName: Mirage.NetworkConnection.NotifyLost
-  nameWithType: NetworkConnection.NotifyLost
-- uid: Mirage.NetworkConnection.ProcessMessagesAsync
-  name: ProcessMessagesAsync()
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_ProcessMessagesAsync
-  commentId: M:Mirage.NetworkConnection.ProcessMessagesAsync
-  fullName: Mirage.NetworkConnection.ProcessMessagesAsync()
-  nameWithType: NetworkConnection.ProcessMessagesAsync()
-- uid: Mirage.NetworkConnection.ProcessMessagesAsync*
-  name: ProcessMessagesAsync
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_ProcessMessagesAsync_
-  commentId: Overload:Mirage.NetworkConnection.ProcessMessagesAsync
-  isSpec: "True"
-  fullName: Mirage.NetworkConnection.ProcessMessagesAsync
-  nameWithType: NetworkConnection.ProcessMessagesAsync
-- uid: Mirage.NetworkConnection.RegisterHandler*
-  name: RegisterHandler
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_RegisterHandler_
-  commentId: Overload:Mirage.NetworkConnection.RegisterHandler
-  isSpec: "True"
-  fullName: Mirage.NetworkConnection.RegisterHandler
-  nameWithType: NetworkConnection.RegisterHandler
-- uid: Mirage.NetworkConnection.RegisterHandler``1(System.Action{``0})
-  name: RegisterHandler<T>(Action<T>)
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_RegisterHandler__1_System_Action___0__
-  commentId: M:Mirage.NetworkConnection.RegisterHandler``1(System.Action{``0})
-  name.vb: RegisterHandler(Of T)(Action(Of T))
-  fullName: Mirage.NetworkConnection.RegisterHandler<T>(System.Action<T>)
-  fullName.vb: Mirage.NetworkConnection.RegisterHandler(Of T)(System.Action(Of T))
-  nameWithType: NetworkConnection.RegisterHandler<T>(Action<T>)
-  nameWithType.vb: NetworkConnection.RegisterHandler(Of T)(Action(Of T))
-- uid: Mirage.NetworkConnection.RegisterHandler``1(System.Action{Mirage.INetworkConnection,``0})
-  name: RegisterHandler<T>(Action<INetworkConnection, T>)
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_RegisterHandler__1_System_Action_Mirage_INetworkConnection___0__
-  commentId: M:Mirage.NetworkConnection.RegisterHandler``1(System.Action{Mirage.INetworkConnection,``0})
-  name.vb: RegisterHandler(Of T)(Action(Of INetworkConnection, T))
-  fullName: Mirage.NetworkConnection.RegisterHandler<T>(System.Action<Mirage.INetworkConnection, T>)
-  fullName.vb: Mirage.NetworkConnection.RegisterHandler(Of T)(System.Action(Of Mirage.INetworkConnection, T))
-  nameWithType: NetworkConnection.RegisterHandler<T>(Action<INetworkConnection, T>)
-  nameWithType.vb: NetworkConnection.RegisterHandler(Of T)(Action(Of INetworkConnection, T))
-- uid: Mirage.NetworkConnection.RemoveFromVisList(Mirage.NetworkIdentity)
-  name: RemoveFromVisList(NetworkIdentity)
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_RemoveFromVisList_Mirage_NetworkIdentity_
-  commentId: M:Mirage.NetworkConnection.RemoveFromVisList(Mirage.NetworkIdentity)
-  fullName: Mirage.NetworkConnection.RemoveFromVisList(Mirage.NetworkIdentity)
-  nameWithType: NetworkConnection.RemoveFromVisList(NetworkIdentity)
-- uid: Mirage.NetworkConnection.RemoveFromVisList*
-  name: RemoveFromVisList
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_RemoveFromVisList_
-  commentId: Overload:Mirage.NetworkConnection.RemoveFromVisList
-  isSpec: "True"
-  fullName: Mirage.NetworkConnection.RemoveFromVisList
-  nameWithType: NetworkConnection.RemoveFromVisList
-- uid: Mirage.NetworkConnection.RemoveObservers
-  name: RemoveObservers()
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_RemoveObservers
-  commentId: M:Mirage.NetworkConnection.RemoveObservers
-  fullName: Mirage.NetworkConnection.RemoveObservers()
-  nameWithType: NetworkConnection.RemoveObservers()
-- uid: Mirage.NetworkConnection.RemoveObservers*
-  name: RemoveObservers
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_RemoveObservers_
-  commentId: Overload:Mirage.NetworkConnection.RemoveObservers
-  isSpec: "True"
-  fullName: Mirage.NetworkConnection.RemoveObservers
-  nameWithType: NetworkConnection.RemoveObservers
-- uid: Mirage.NetworkConnection.RemoveOwnedObject(Mirage.NetworkIdentity)
-  name: RemoveOwnedObject(NetworkIdentity)
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_RemoveOwnedObject_Mirage_NetworkIdentity_
-  commentId: M:Mirage.NetworkConnection.RemoveOwnedObject(Mirage.NetworkIdentity)
-  fullName: Mirage.NetworkConnection.RemoveOwnedObject(Mirage.NetworkIdentity)
-  nameWithType: NetworkConnection.RemoveOwnedObject(NetworkIdentity)
-- uid: Mirage.NetworkConnection.RemoveOwnedObject*
-  name: RemoveOwnedObject
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_RemoveOwnedObject_
-  commentId: Overload:Mirage.NetworkConnection.RemoveOwnedObject
-  isSpec: "True"
-  fullName: Mirage.NetworkConnection.RemoveOwnedObject
-  nameWithType: NetworkConnection.RemoveOwnedObject
-- uid: Mirage.NetworkConnection.Send(System.ArraySegment{System.Byte},System.Int32)
-  name: Send(ArraySegment<Byte>, Int32)
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_Send_System_ArraySegment_System_Byte__System_Int32_
-  commentId: M:Mirage.NetworkConnection.Send(System.ArraySegment{System.Byte},System.Int32)
-  name.vb: Send(ArraySegment(Of Byte), Int32)
-  fullName: Mirage.NetworkConnection.Send(System.ArraySegment<System.Byte>, System.Int32)
-  fullName.vb: Mirage.NetworkConnection.Send(System.ArraySegment(Of System.Byte), System.Int32)
-  nameWithType: NetworkConnection.Send(ArraySegment<Byte>, Int32)
-  nameWithType.vb: NetworkConnection.Send(ArraySegment(Of Byte), Int32)
-- uid: Mirage.NetworkConnection.Send*
-  name: Send
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_Send_
-  commentId: Overload:Mirage.NetworkConnection.Send
-  isSpec: "True"
-  fullName: Mirage.NetworkConnection.Send
-  nameWithType: NetworkConnection.Send
-- uid: Mirage.NetworkConnection.Send``1(``0,System.Int32)
-  name: Send<T>(T, Int32)
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_Send__1___0_System_Int32_
-  commentId: M:Mirage.NetworkConnection.Send``1(``0,System.Int32)
-  name.vb: Send(Of T)(T, Int32)
-  fullName: Mirage.NetworkConnection.Send<T>(T, System.Int32)
-  fullName.vb: Mirage.NetworkConnection.Send(Of T)(T, System.Int32)
-  nameWithType: NetworkConnection.Send<T>(T, Int32)
-  nameWithType.vb: NetworkConnection.Send(Of T)(T, Int32)
-- uid: Mirage.NetworkConnection.Send``1(System.Collections.Generic.IEnumerable{Mirage.INetworkConnection},``0,System.Int32)
-  name: Send<T>(IEnumerable<INetworkConnection>, T, Int32)
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_Send__1_System_Collections_Generic_IEnumerable_Mirage_INetworkConnection____0_System_Int32_
-  commentId: M:Mirage.NetworkConnection.Send``1(System.Collections.Generic.IEnumerable{Mirage.INetworkConnection},``0,System.Int32)
-  name.vb: Send(Of T)(IEnumerable(Of INetworkConnection), T, Int32)
-  fullName: Mirage.NetworkConnection.Send<T>(System.Collections.Generic.IEnumerable<Mirage.INetworkConnection>, T, System.Int32)
-  fullName.vb: Mirage.NetworkConnection.Send(Of T)(System.Collections.Generic.IEnumerable(Of Mirage.INetworkConnection), T, System.Int32)
-  nameWithType: NetworkConnection.Send<T>(IEnumerable<INetworkConnection>, T, Int32)
-  nameWithType.vb: NetworkConnection.Send(Of T)(IEnumerable(Of INetworkConnection), T, Int32)
-- uid: Mirage.NetworkConnection.SendNotify*
-  name: SendNotify
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_SendNotify_
-  commentId: Overload:Mirage.NetworkConnection.SendNotify
-  isSpec: "True"
-  fullName: Mirage.NetworkConnection.SendNotify
-  nameWithType: NetworkConnection.SendNotify
-- uid: Mirage.NetworkConnection.SendNotify``1(``0,System.Object,System.Int32)
-  name: SendNotify<T>(T, Object, Int32)
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_SendNotify__1___0_System_Object_System_Int32_
-  commentId: M:Mirage.NetworkConnection.SendNotify``1(``0,System.Object,System.Int32)
-  name.vb: SendNotify(Of T)(T, Object, Int32)
-  fullName: Mirage.NetworkConnection.SendNotify<T>(T, System.Object, System.Int32)
-  fullName.vb: Mirage.NetworkConnection.SendNotify(Of T)(T, System.Object, System.Int32)
-  nameWithType: NetworkConnection.SendNotify<T>(T, Object, Int32)
-  nameWithType.vb: NetworkConnection.SendNotify(Of T)(T, Object, Int32)
-- uid: Mirage.NetworkConnection.ToString
-  name: ToString()
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_ToString
-  commentId: M:Mirage.NetworkConnection.ToString
-  fullName: Mirage.NetworkConnection.ToString()
-  nameWithType: NetworkConnection.ToString()
-- uid: Mirage.NetworkConnection.ToString*
-  name: ToString
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_ToString_
-  commentId: Overload:Mirage.NetworkConnection.ToString
-  isSpec: "True"
-  fullName: Mirage.NetworkConnection.ToString
-  nameWithType: NetworkConnection.ToString
-- uid: Mirage.NetworkConnection.UnregisterHandler*
-  name: UnregisterHandler
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_UnregisterHandler_
-  commentId: Overload:Mirage.NetworkConnection.UnregisterHandler
-  isSpec: "True"
-  fullName: Mirage.NetworkConnection.UnregisterHandler
-  nameWithType: NetworkConnection.UnregisterHandler
-- uid: Mirage.NetworkConnection.UnregisterHandler``1
-  name: UnregisterHandler<T>()
-  href: api/Mirage.NetworkConnection.html#Mirage_NetworkConnection_UnregisterHandler__1
-  commentId: M:Mirage.NetworkConnection.UnregisterHandler``1
-  name.vb: UnregisterHandler(Of T)()
-  fullName: Mirage.NetworkConnection.UnregisterHandler<T>()
-  fullName.vb: Mirage.NetworkConnection.UnregisterHandler(Of T)()
-  nameWithType: NetworkConnection.UnregisterHandler<T>()
-  nameWithType.vb: NetworkConnection.UnregisterHandler(Of T)()
 - uid: Mirage.NetworkConnectionEvent
   name: NetworkConnectionEvent
   href: api/Mirage.NetworkConnectionEvent.html
@@ -5100,12 +4790,12 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkIdentity.AssetId
   nameWithType: NetworkIdentity.AssetId
-- uid: Mirage.NetworkIdentity.AssignClientAuthority(Mirage.INetworkConnection)
-  name: AssignClientAuthority(INetworkConnection)
-  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_AssignClientAuthority_Mirage_INetworkConnection_
-  commentId: M:Mirage.NetworkIdentity.AssignClientAuthority(Mirage.INetworkConnection)
-  fullName: Mirage.NetworkIdentity.AssignClientAuthority(Mirage.INetworkConnection)
-  nameWithType: NetworkIdentity.AssignClientAuthority(INetworkConnection)
+- uid: Mirage.NetworkIdentity.AssignClientAuthority(Mirage.INetworkPlayer)
+  name: AssignClientAuthority(INetworkPlayer)
+  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_AssignClientAuthority_Mirage_INetworkPlayer_
+  commentId: M:Mirage.NetworkIdentity.AssignClientAuthority(Mirage.INetworkPlayer)
+  fullName: Mirage.NetworkIdentity.AssignClientAuthority(Mirage.INetworkPlayer)
+  nameWithType: NetworkIdentity.AssignClientAuthority(INetworkPlayer)
 - uid: Mirage.NetworkIdentity.AssignClientAuthority*
   name: AssignClientAuthority
   href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_AssignClientAuthority_
@@ -5657,12 +5347,12 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkMatchChecker.MatchId
   nameWithType: NetworkMatchChecker.MatchId
-- uid: Mirage.NetworkMatchChecker.OnCheckObserver(Mirage.INetworkConnection)
-  name: OnCheckObserver(INetworkConnection)
-  href: api/Mirage.NetworkMatchChecker.html#Mirage_NetworkMatchChecker_OnCheckObserver_Mirage_INetworkConnection_
-  commentId: M:Mirage.NetworkMatchChecker.OnCheckObserver(Mirage.INetworkConnection)
-  fullName: Mirage.NetworkMatchChecker.OnCheckObserver(Mirage.INetworkConnection)
-  nameWithType: NetworkMatchChecker.OnCheckObserver(INetworkConnection)
+- uid: Mirage.NetworkMatchChecker.OnCheckObserver(Mirage.INetworkPlayer)
+  name: OnCheckObserver(INetworkPlayer)
+  href: api/Mirage.NetworkMatchChecker.html#Mirage_NetworkMatchChecker_OnCheckObserver_Mirage_INetworkPlayer_
+  commentId: M:Mirage.NetworkMatchChecker.OnCheckObserver(Mirage.INetworkPlayer)
+  fullName: Mirage.NetworkMatchChecker.OnCheckObserver(Mirage.INetworkPlayer)
+  nameWithType: NetworkMatchChecker.OnCheckObserver(INetworkPlayer)
 - uid: Mirage.NetworkMatchChecker.OnCheckObserver*
   name: OnCheckObserver
   href: api/Mirage.NetworkMatchChecker.html#Mirage_NetworkMatchChecker_OnCheckObserver_
@@ -5670,15 +5360,15 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkMatchChecker.OnCheckObserver
   nameWithType: NetworkMatchChecker.OnCheckObserver
-- uid: Mirage.NetworkMatchChecker.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkConnection},System.Boolean)
-  name: OnRebuildObservers(HashSet<INetworkConnection>, Boolean)
-  href: api/Mirage.NetworkMatchChecker.html#Mirage_NetworkMatchChecker_OnRebuildObservers_System_Collections_Generic_HashSet_Mirage_INetworkConnection__System_Boolean_
-  commentId: M:Mirage.NetworkMatchChecker.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkConnection},System.Boolean)
-  name.vb: OnRebuildObservers(HashSet(Of INetworkConnection), Boolean)
-  fullName: Mirage.NetworkMatchChecker.OnRebuildObservers(System.Collections.Generic.HashSet<Mirage.INetworkConnection>, System.Boolean)
-  fullName.vb: Mirage.NetworkMatchChecker.OnRebuildObservers(System.Collections.Generic.HashSet(Of Mirage.INetworkConnection), System.Boolean)
-  nameWithType: NetworkMatchChecker.OnRebuildObservers(HashSet<INetworkConnection>, Boolean)
-  nameWithType.vb: NetworkMatchChecker.OnRebuildObservers(HashSet(Of INetworkConnection), Boolean)
+- uid: Mirage.NetworkMatchChecker.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkPlayer},System.Boolean)
+  name: OnRebuildObservers(HashSet<INetworkPlayer>, Boolean)
+  href: api/Mirage.NetworkMatchChecker.html#Mirage_NetworkMatchChecker_OnRebuildObservers_System_Collections_Generic_HashSet_Mirage_INetworkPlayer__System_Boolean_
+  commentId: M:Mirage.NetworkMatchChecker.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkPlayer},System.Boolean)
+  name.vb: OnRebuildObservers(HashSet(Of INetworkPlayer), Boolean)
+  fullName: Mirage.NetworkMatchChecker.OnRebuildObservers(System.Collections.Generic.HashSet<Mirage.INetworkPlayer>, System.Boolean)
+  fullName.vb: Mirage.NetworkMatchChecker.OnRebuildObservers(System.Collections.Generic.HashSet(Of Mirage.INetworkPlayer), System.Boolean)
+  nameWithType: NetworkMatchChecker.OnRebuildObservers(HashSet<INetworkPlayer>, Boolean)
+  nameWithType.vb: NetworkMatchChecker.OnRebuildObservers(HashSet(Of INetworkPlayer), Boolean)
 - uid: Mirage.NetworkMatchChecker.OnRebuildObservers*
   name: OnRebuildObservers
   href: api/Mirage.NetworkMatchChecker.html#Mirage_NetworkMatchChecker_OnRebuildObservers_
@@ -5735,6 +5425,316 @@ references:
   commentId: F:Mirage.NetworkPingMessage.clientTime
   fullName: Mirage.NetworkPingMessage.clientTime
   nameWithType: NetworkPingMessage.clientTime
+- uid: Mirage.NetworkPlayer
+  name: NetworkPlayer
+  href: api/Mirage.NetworkPlayer.html
+  commentId: T:Mirage.NetworkPlayer
+  fullName: Mirage.NetworkPlayer
+  nameWithType: NetworkPlayer
+- uid: Mirage.NetworkPlayer.#ctor(Mirage.IConnection)
+  name: NetworkPlayer(IConnection)
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer__ctor_Mirage_IConnection_
+  commentId: M:Mirage.NetworkPlayer.#ctor(Mirage.IConnection)
+  fullName: Mirage.NetworkPlayer.NetworkPlayer(Mirage.IConnection)
+  nameWithType: NetworkPlayer.NetworkPlayer(IConnection)
+- uid: Mirage.NetworkPlayer.#ctor*
+  name: NetworkPlayer
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer__ctor_
+  commentId: Overload:Mirage.NetworkPlayer.#ctor
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.NetworkPlayer
+  nameWithType: NetworkPlayer.NetworkPlayer
+- uid: Mirage.NetworkPlayer.AddOwnedObject(Mirage.NetworkIdentity)
+  name: AddOwnedObject(NetworkIdentity)
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_AddOwnedObject_Mirage_NetworkIdentity_
+  commentId: M:Mirage.NetworkPlayer.AddOwnedObject(Mirage.NetworkIdentity)
+  fullName: Mirage.NetworkPlayer.AddOwnedObject(Mirage.NetworkIdentity)
+  nameWithType: NetworkPlayer.AddOwnedObject(NetworkIdentity)
+- uid: Mirage.NetworkPlayer.AddOwnedObject*
+  name: AddOwnedObject
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_AddOwnedObject_
+  commentId: Overload:Mirage.NetworkPlayer.AddOwnedObject
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.AddOwnedObject
+  nameWithType: NetworkPlayer.AddOwnedObject
+- uid: Mirage.NetworkPlayer.Address
+  name: Address
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Address
+  commentId: P:Mirage.NetworkPlayer.Address
+  fullName: Mirage.NetworkPlayer.Address
+  nameWithType: NetworkPlayer.Address
+- uid: Mirage.NetworkPlayer.Address*
+  name: Address
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Address_
+  commentId: Overload:Mirage.NetworkPlayer.Address
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.Address
+  nameWithType: NetworkPlayer.Address
+- uid: Mirage.NetworkPlayer.AddToVisList(Mirage.NetworkIdentity)
+  name: AddToVisList(NetworkIdentity)
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_AddToVisList_Mirage_NetworkIdentity_
+  commentId: M:Mirage.NetworkPlayer.AddToVisList(Mirage.NetworkIdentity)
+  fullName: Mirage.NetworkPlayer.AddToVisList(Mirage.NetworkIdentity)
+  nameWithType: NetworkPlayer.AddToVisList(NetworkIdentity)
+- uid: Mirage.NetworkPlayer.AddToVisList*
+  name: AddToVisList
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_AddToVisList_
+  commentId: Overload:Mirage.NetworkPlayer.AddToVisList
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.AddToVisList
+  nameWithType: NetworkPlayer.AddToVisList
+- uid: Mirage.NetworkPlayer.AuthenticationData
+  name: AuthenticationData
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_AuthenticationData
+  commentId: P:Mirage.NetworkPlayer.AuthenticationData
+  fullName: Mirage.NetworkPlayer.AuthenticationData
+  nameWithType: NetworkPlayer.AuthenticationData
+- uid: Mirage.NetworkPlayer.AuthenticationData*
+  name: AuthenticationData
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_AuthenticationData_
+  commentId: Overload:Mirage.NetworkPlayer.AuthenticationData
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.AuthenticationData
+  nameWithType: NetworkPlayer.AuthenticationData
+- uid: Mirage.NetworkPlayer.ClearHandlers
+  name: ClearHandlers()
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_ClearHandlers
+  commentId: M:Mirage.NetworkPlayer.ClearHandlers
+  fullName: Mirage.NetworkPlayer.ClearHandlers()
+  nameWithType: NetworkPlayer.ClearHandlers()
+- uid: Mirage.NetworkPlayer.ClearHandlers*
+  name: ClearHandlers
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_ClearHandlers_
+  commentId: Overload:Mirage.NetworkPlayer.ClearHandlers
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.ClearHandlers
+  nameWithType: NetworkPlayer.ClearHandlers
+- uid: Mirage.NetworkPlayer.DestroyOwnedObjects
+  name: DestroyOwnedObjects()
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_DestroyOwnedObjects
+  commentId: M:Mirage.NetworkPlayer.DestroyOwnedObjects
+  fullName: Mirage.NetworkPlayer.DestroyOwnedObjects()
+  nameWithType: NetworkPlayer.DestroyOwnedObjects()
+- uid: Mirage.NetworkPlayer.DestroyOwnedObjects*
+  name: DestroyOwnedObjects
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_DestroyOwnedObjects_
+  commentId: Overload:Mirage.NetworkPlayer.DestroyOwnedObjects
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.DestroyOwnedObjects
+  nameWithType: NetworkPlayer.DestroyOwnedObjects
+- uid: Mirage.NetworkPlayer.Disconnect
+  name: Disconnect()
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Disconnect
+  commentId: M:Mirage.NetworkPlayer.Disconnect
+  fullName: Mirage.NetworkPlayer.Disconnect()
+  nameWithType: NetworkPlayer.Disconnect()
+- uid: Mirage.NetworkPlayer.Disconnect*
+  name: Disconnect
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Disconnect_
+  commentId: Overload:Mirage.NetworkPlayer.Disconnect
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.Disconnect
+  nameWithType: NetworkPlayer.Disconnect
+- uid: Mirage.NetworkPlayer.Identity
+  name: Identity
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Identity
+  commentId: P:Mirage.NetworkPlayer.Identity
+  fullName: Mirage.NetworkPlayer.Identity
+  nameWithType: NetworkPlayer.Identity
+- uid: Mirage.NetworkPlayer.Identity*
+  name: Identity
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Identity_
+  commentId: Overload:Mirage.NetworkPlayer.Identity
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.Identity
+  nameWithType: NetworkPlayer.Identity
+- uid: Mirage.NetworkPlayer.IsReady
+  name: IsReady
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_IsReady
+  commentId: P:Mirage.NetworkPlayer.IsReady
+  fullName: Mirage.NetworkPlayer.IsReady
+  nameWithType: NetworkPlayer.IsReady
+- uid: Mirage.NetworkPlayer.IsReady*
+  name: IsReady
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_IsReady_
+  commentId: Overload:Mirage.NetworkPlayer.IsReady
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.IsReady
+  nameWithType: NetworkPlayer.IsReady
+- uid: Mirage.NetworkPlayer.NOTIFY_ACK_TIMEOUT
+  name: NOTIFY_ACK_TIMEOUT
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_NOTIFY_ACK_TIMEOUT
+  commentId: F:Mirage.NetworkPlayer.NOTIFY_ACK_TIMEOUT
+  fullName: Mirage.NetworkPlayer.NOTIFY_ACK_TIMEOUT
+  nameWithType: NetworkPlayer.NOTIFY_ACK_TIMEOUT
+- uid: Mirage.NetworkPlayer.NotifyDelivered
+  name: NotifyDelivered
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_NotifyDelivered
+  commentId: E:Mirage.NetworkPlayer.NotifyDelivered
+  fullName: Mirage.NetworkPlayer.NotifyDelivered
+  nameWithType: NetworkPlayer.NotifyDelivered
+- uid: Mirage.NetworkPlayer.NotifyLost
+  name: NotifyLost
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_NotifyLost
+  commentId: E:Mirage.NetworkPlayer.NotifyLost
+  fullName: Mirage.NetworkPlayer.NotifyLost
+  nameWithType: NetworkPlayer.NotifyLost
+- uid: Mirage.NetworkPlayer.ProcessMessagesAsync
+  name: ProcessMessagesAsync()
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_ProcessMessagesAsync
+  commentId: M:Mirage.NetworkPlayer.ProcessMessagesAsync
+  fullName: Mirage.NetworkPlayer.ProcessMessagesAsync()
+  nameWithType: NetworkPlayer.ProcessMessagesAsync()
+- uid: Mirage.NetworkPlayer.ProcessMessagesAsync*
+  name: ProcessMessagesAsync
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_ProcessMessagesAsync_
+  commentId: Overload:Mirage.NetworkPlayer.ProcessMessagesAsync
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.ProcessMessagesAsync
+  nameWithType: NetworkPlayer.ProcessMessagesAsync
+- uid: Mirage.NetworkPlayer.RegisterHandler*
+  name: RegisterHandler
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_RegisterHandler_
+  commentId: Overload:Mirage.NetworkPlayer.RegisterHandler
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.RegisterHandler
+  nameWithType: NetworkPlayer.RegisterHandler
+- uid: Mirage.NetworkPlayer.RegisterHandler``1(System.Action{``0})
+  name: RegisterHandler<T>(Action<T>)
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_RegisterHandler__1_System_Action___0__
+  commentId: M:Mirage.NetworkPlayer.RegisterHandler``1(System.Action{``0})
+  name.vb: RegisterHandler(Of T)(Action(Of T))
+  fullName: Mirage.NetworkPlayer.RegisterHandler<T>(System.Action<T>)
+  fullName.vb: Mirage.NetworkPlayer.RegisterHandler(Of T)(System.Action(Of T))
+  nameWithType: NetworkPlayer.RegisterHandler<T>(Action<T>)
+  nameWithType.vb: NetworkPlayer.RegisterHandler(Of T)(Action(Of T))
+- uid: Mirage.NetworkPlayer.RegisterHandler``1(System.Action{Mirage.INetworkPlayer,``0})
+  name: RegisterHandler<T>(Action<INetworkPlayer, T>)
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_RegisterHandler__1_System_Action_Mirage_INetworkPlayer___0__
+  commentId: M:Mirage.NetworkPlayer.RegisterHandler``1(System.Action{Mirage.INetworkPlayer,``0})
+  name.vb: RegisterHandler(Of T)(Action(Of INetworkPlayer, T))
+  fullName: Mirage.NetworkPlayer.RegisterHandler<T>(System.Action<Mirage.INetworkPlayer, T>)
+  fullName.vb: Mirage.NetworkPlayer.RegisterHandler(Of T)(System.Action(Of Mirage.INetworkPlayer, T))
+  nameWithType: NetworkPlayer.RegisterHandler<T>(Action<INetworkPlayer, T>)
+  nameWithType.vb: NetworkPlayer.RegisterHandler(Of T)(Action(Of INetworkPlayer, T))
+- uid: Mirage.NetworkPlayer.RemoveFromVisList(Mirage.NetworkIdentity)
+  name: RemoveFromVisList(NetworkIdentity)
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_RemoveFromVisList_Mirage_NetworkIdentity_
+  commentId: M:Mirage.NetworkPlayer.RemoveFromVisList(Mirage.NetworkIdentity)
+  fullName: Mirage.NetworkPlayer.RemoveFromVisList(Mirage.NetworkIdentity)
+  nameWithType: NetworkPlayer.RemoveFromVisList(NetworkIdentity)
+- uid: Mirage.NetworkPlayer.RemoveFromVisList*
+  name: RemoveFromVisList
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_RemoveFromVisList_
+  commentId: Overload:Mirage.NetworkPlayer.RemoveFromVisList
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.RemoveFromVisList
+  nameWithType: NetworkPlayer.RemoveFromVisList
+- uid: Mirage.NetworkPlayer.RemoveObservers
+  name: RemoveObservers()
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_RemoveObservers
+  commentId: M:Mirage.NetworkPlayer.RemoveObservers
+  fullName: Mirage.NetworkPlayer.RemoveObservers()
+  nameWithType: NetworkPlayer.RemoveObservers()
+- uid: Mirage.NetworkPlayer.RemoveObservers*
+  name: RemoveObservers
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_RemoveObservers_
+  commentId: Overload:Mirage.NetworkPlayer.RemoveObservers
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.RemoveObservers
+  nameWithType: NetworkPlayer.RemoveObservers
+- uid: Mirage.NetworkPlayer.RemoveOwnedObject(Mirage.NetworkIdentity)
+  name: RemoveOwnedObject(NetworkIdentity)
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_RemoveOwnedObject_Mirage_NetworkIdentity_
+  commentId: M:Mirage.NetworkPlayer.RemoveOwnedObject(Mirage.NetworkIdentity)
+  fullName: Mirage.NetworkPlayer.RemoveOwnedObject(Mirage.NetworkIdentity)
+  nameWithType: NetworkPlayer.RemoveOwnedObject(NetworkIdentity)
+- uid: Mirage.NetworkPlayer.RemoveOwnedObject*
+  name: RemoveOwnedObject
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_RemoveOwnedObject_
+  commentId: Overload:Mirage.NetworkPlayer.RemoveOwnedObject
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.RemoveOwnedObject
+  nameWithType: NetworkPlayer.RemoveOwnedObject
+- uid: Mirage.NetworkPlayer.Send(System.ArraySegment{System.Byte},System.Int32)
+  name: Send(ArraySegment<Byte>, Int32)
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Send_System_ArraySegment_System_Byte__System_Int32_
+  commentId: M:Mirage.NetworkPlayer.Send(System.ArraySegment{System.Byte},System.Int32)
+  name.vb: Send(ArraySegment(Of Byte), Int32)
+  fullName: Mirage.NetworkPlayer.Send(System.ArraySegment<System.Byte>, System.Int32)
+  fullName.vb: Mirage.NetworkPlayer.Send(System.ArraySegment(Of System.Byte), System.Int32)
+  nameWithType: NetworkPlayer.Send(ArraySegment<Byte>, Int32)
+  nameWithType.vb: NetworkPlayer.Send(ArraySegment(Of Byte), Int32)
+- uid: Mirage.NetworkPlayer.Send*
+  name: Send
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Send_
+  commentId: Overload:Mirage.NetworkPlayer.Send
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.Send
+  nameWithType: NetworkPlayer.Send
+- uid: Mirage.NetworkPlayer.Send``1(``0,System.Int32)
+  name: Send<T>(T, Int32)
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Send__1___0_System_Int32_
+  commentId: M:Mirage.NetworkPlayer.Send``1(``0,System.Int32)
+  name.vb: Send(Of T)(T, Int32)
+  fullName: Mirage.NetworkPlayer.Send<T>(T, System.Int32)
+  fullName.vb: Mirage.NetworkPlayer.Send(Of T)(T, System.Int32)
+  nameWithType: NetworkPlayer.Send<T>(T, Int32)
+  nameWithType.vb: NetworkPlayer.Send(Of T)(T, Int32)
+- uid: Mirage.NetworkPlayer.Send``1(System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer},``0,System.Int32)
+  name: Send<T>(IEnumerable<INetworkPlayer>, T, Int32)
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Send__1_System_Collections_Generic_IEnumerable_Mirage_INetworkPlayer____0_System_Int32_
+  commentId: M:Mirage.NetworkPlayer.Send``1(System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer},``0,System.Int32)
+  name.vb: Send(Of T)(IEnumerable(Of INetworkPlayer), T, Int32)
+  fullName: Mirage.NetworkPlayer.Send<T>(System.Collections.Generic.IEnumerable<Mirage.INetworkPlayer>, T, System.Int32)
+  fullName.vb: Mirage.NetworkPlayer.Send(Of T)(System.Collections.Generic.IEnumerable(Of Mirage.INetworkPlayer), T, System.Int32)
+  nameWithType: NetworkPlayer.Send<T>(IEnumerable<INetworkPlayer>, T, Int32)
+  nameWithType.vb: NetworkPlayer.Send(Of T)(IEnumerable(Of INetworkPlayer), T, Int32)
+- uid: Mirage.NetworkPlayer.SendNotify*
+  name: SendNotify
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_SendNotify_
+  commentId: Overload:Mirage.NetworkPlayer.SendNotify
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.SendNotify
+  nameWithType: NetworkPlayer.SendNotify
+- uid: Mirage.NetworkPlayer.SendNotify``1(``0,System.Object,System.Int32)
+  name: SendNotify<T>(T, Object, Int32)
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_SendNotify__1___0_System_Object_System_Int32_
+  commentId: M:Mirage.NetworkPlayer.SendNotify``1(``0,System.Object,System.Int32)
+  name.vb: SendNotify(Of T)(T, Object, Int32)
+  fullName: Mirage.NetworkPlayer.SendNotify<T>(T, System.Object, System.Int32)
+  fullName.vb: Mirage.NetworkPlayer.SendNotify(Of T)(T, System.Object, System.Int32)
+  nameWithType: NetworkPlayer.SendNotify<T>(T, Object, Int32)
+  nameWithType.vb: NetworkPlayer.SendNotify(Of T)(T, Object, Int32)
+- uid: Mirage.NetworkPlayer.ToString
+  name: ToString()
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_ToString
+  commentId: M:Mirage.NetworkPlayer.ToString
+  fullName: Mirage.NetworkPlayer.ToString()
+  nameWithType: NetworkPlayer.ToString()
+- uid: Mirage.NetworkPlayer.ToString*
+  name: ToString
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_ToString_
+  commentId: Overload:Mirage.NetworkPlayer.ToString
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.ToString
+  nameWithType: NetworkPlayer.ToString
+- uid: Mirage.NetworkPlayer.UnregisterHandler*
+  name: UnregisterHandler
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_UnregisterHandler_
+  commentId: Overload:Mirage.NetworkPlayer.UnregisterHandler
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.UnregisterHandler
+  nameWithType: NetworkPlayer.UnregisterHandler
+- uid: Mirage.NetworkPlayer.UnregisterHandler``1
+  name: UnregisterHandler<T>()
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_UnregisterHandler__1
+  commentId: M:Mirage.NetworkPlayer.UnregisterHandler``1
+  name.vb: UnregisterHandler(Of T)()
+  fullName: Mirage.NetworkPlayer.UnregisterHandler<T>()
+  fullName.vb: Mirage.NetworkPlayer.UnregisterHandler(Of T)()
+  nameWithType: NetworkPlayer.UnregisterHandler<T>()
+  nameWithType.vb: NetworkPlayer.UnregisterHandler(Of T)()
 - uid: Mirage.NetworkPongMessage
   name: NetworkPongMessage
   href: api/Mirage.NetworkPongMessage.html
@@ -5778,12 +5778,12 @@ references:
   commentId: F:Mirage.NetworkProximityChecker.ForceHidden
   fullName: Mirage.NetworkProximityChecker.ForceHidden
   nameWithType: NetworkProximityChecker.ForceHidden
-- uid: Mirage.NetworkProximityChecker.OnCheckObserver(Mirage.INetworkConnection)
-  name: OnCheckObserver(INetworkConnection)
-  href: api/Mirage.NetworkProximityChecker.html#Mirage_NetworkProximityChecker_OnCheckObserver_Mirage_INetworkConnection_
-  commentId: M:Mirage.NetworkProximityChecker.OnCheckObserver(Mirage.INetworkConnection)
-  fullName: Mirage.NetworkProximityChecker.OnCheckObserver(Mirage.INetworkConnection)
-  nameWithType: NetworkProximityChecker.OnCheckObserver(INetworkConnection)
+- uid: Mirage.NetworkProximityChecker.OnCheckObserver(Mirage.INetworkPlayer)
+  name: OnCheckObserver(INetworkPlayer)
+  href: api/Mirage.NetworkProximityChecker.html#Mirage_NetworkProximityChecker_OnCheckObserver_Mirage_INetworkPlayer_
+  commentId: M:Mirage.NetworkProximityChecker.OnCheckObserver(Mirage.INetworkPlayer)
+  fullName: Mirage.NetworkProximityChecker.OnCheckObserver(Mirage.INetworkPlayer)
+  nameWithType: NetworkProximityChecker.OnCheckObserver(INetworkPlayer)
 - uid: Mirage.NetworkProximityChecker.OnCheckObserver*
   name: OnCheckObserver
   href: api/Mirage.NetworkProximityChecker.html#Mirage_NetworkProximityChecker_OnCheckObserver_
@@ -5791,15 +5791,15 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkProximityChecker.OnCheckObserver
   nameWithType: NetworkProximityChecker.OnCheckObserver
-- uid: Mirage.NetworkProximityChecker.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkConnection},System.Boolean)
-  name: OnRebuildObservers(HashSet<INetworkConnection>, Boolean)
-  href: api/Mirage.NetworkProximityChecker.html#Mirage_NetworkProximityChecker_OnRebuildObservers_System_Collections_Generic_HashSet_Mirage_INetworkConnection__System_Boolean_
-  commentId: M:Mirage.NetworkProximityChecker.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkConnection},System.Boolean)
-  name.vb: OnRebuildObservers(HashSet(Of INetworkConnection), Boolean)
-  fullName: Mirage.NetworkProximityChecker.OnRebuildObservers(System.Collections.Generic.HashSet<Mirage.INetworkConnection>, System.Boolean)
-  fullName.vb: Mirage.NetworkProximityChecker.OnRebuildObservers(System.Collections.Generic.HashSet(Of Mirage.INetworkConnection), System.Boolean)
-  nameWithType: NetworkProximityChecker.OnRebuildObservers(HashSet<INetworkConnection>, Boolean)
-  nameWithType.vb: NetworkProximityChecker.OnRebuildObservers(HashSet(Of INetworkConnection), Boolean)
+- uid: Mirage.NetworkProximityChecker.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkPlayer},System.Boolean)
+  name: OnRebuildObservers(HashSet<INetworkPlayer>, Boolean)
+  href: api/Mirage.NetworkProximityChecker.html#Mirage_NetworkProximityChecker_OnRebuildObservers_System_Collections_Generic_HashSet_Mirage_INetworkPlayer__System_Boolean_
+  commentId: M:Mirage.NetworkProximityChecker.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkPlayer},System.Boolean)
+  name.vb: OnRebuildObservers(HashSet(Of INetworkPlayer), Boolean)
+  fullName: Mirage.NetworkProximityChecker.OnRebuildObservers(System.Collections.Generic.HashSet<Mirage.INetworkPlayer>, System.Boolean)
+  fullName.vb: Mirage.NetworkProximityChecker.OnRebuildObservers(System.Collections.Generic.HashSet(Of Mirage.INetworkPlayer), System.Boolean)
+  nameWithType: NetworkProximityChecker.OnRebuildObservers(HashSet<INetworkPlayer>, Boolean)
+  nameWithType.vb: NetworkProximityChecker.OnRebuildObservers(HashSet(Of INetworkPlayer), Boolean)
 - uid: Mirage.NetworkProximityChecker.OnRebuildObservers*
   name: OnRebuildObservers
   href: api/Mirage.NetworkProximityChecker.html#Mirage_NetworkProximityChecker_OnRebuildObservers_
@@ -6615,12 +6615,12 @@ references:
   commentId: F:Mirage.NetworkSceneChecker.forceHidden
   fullName: Mirage.NetworkSceneChecker.forceHidden
   nameWithType: NetworkSceneChecker.forceHidden
-- uid: Mirage.NetworkSceneChecker.OnCheckObserver(Mirage.INetworkConnection)
-  name: OnCheckObserver(INetworkConnection)
-  href: api/Mirage.NetworkSceneChecker.html#Mirage_NetworkSceneChecker_OnCheckObserver_Mirage_INetworkConnection_
-  commentId: M:Mirage.NetworkSceneChecker.OnCheckObserver(Mirage.INetworkConnection)
-  fullName: Mirage.NetworkSceneChecker.OnCheckObserver(Mirage.INetworkConnection)
-  nameWithType: NetworkSceneChecker.OnCheckObserver(INetworkConnection)
+- uid: Mirage.NetworkSceneChecker.OnCheckObserver(Mirage.INetworkPlayer)
+  name: OnCheckObserver(INetworkPlayer)
+  href: api/Mirage.NetworkSceneChecker.html#Mirage_NetworkSceneChecker_OnCheckObserver_Mirage_INetworkPlayer_
+  commentId: M:Mirage.NetworkSceneChecker.OnCheckObserver(Mirage.INetworkPlayer)
+  fullName: Mirage.NetworkSceneChecker.OnCheckObserver(Mirage.INetworkPlayer)
+  nameWithType: NetworkSceneChecker.OnCheckObserver(INetworkPlayer)
 - uid: Mirage.NetworkSceneChecker.OnCheckObserver*
   name: OnCheckObserver
   href: api/Mirage.NetworkSceneChecker.html#Mirage_NetworkSceneChecker_OnCheckObserver_
@@ -6628,15 +6628,15 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkSceneChecker.OnCheckObserver
   nameWithType: NetworkSceneChecker.OnCheckObserver
-- uid: Mirage.NetworkSceneChecker.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkConnection},System.Boolean)
-  name: OnRebuildObservers(HashSet<INetworkConnection>, Boolean)
-  href: api/Mirage.NetworkSceneChecker.html#Mirage_NetworkSceneChecker_OnRebuildObservers_System_Collections_Generic_HashSet_Mirage_INetworkConnection__System_Boolean_
-  commentId: M:Mirage.NetworkSceneChecker.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkConnection},System.Boolean)
-  name.vb: OnRebuildObservers(HashSet(Of INetworkConnection), Boolean)
-  fullName: Mirage.NetworkSceneChecker.OnRebuildObservers(System.Collections.Generic.HashSet<Mirage.INetworkConnection>, System.Boolean)
-  fullName.vb: Mirage.NetworkSceneChecker.OnRebuildObservers(System.Collections.Generic.HashSet(Of Mirage.INetworkConnection), System.Boolean)
-  nameWithType: NetworkSceneChecker.OnRebuildObservers(HashSet<INetworkConnection>, Boolean)
-  nameWithType.vb: NetworkSceneChecker.OnRebuildObservers(HashSet(Of INetworkConnection), Boolean)
+- uid: Mirage.NetworkSceneChecker.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkPlayer},System.Boolean)
+  name: OnRebuildObservers(HashSet<INetworkPlayer>, Boolean)
+  href: api/Mirage.NetworkSceneChecker.html#Mirage_NetworkSceneChecker_OnRebuildObservers_System_Collections_Generic_HashSet_Mirage_INetworkPlayer__System_Boolean_
+  commentId: M:Mirage.NetworkSceneChecker.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkPlayer},System.Boolean)
+  name.vb: OnRebuildObservers(HashSet(Of INetworkPlayer), Boolean)
+  fullName: Mirage.NetworkSceneChecker.OnRebuildObservers(System.Collections.Generic.HashSet<Mirage.INetworkPlayer>, System.Boolean)
+  fullName.vb: Mirage.NetworkSceneChecker.OnRebuildObservers(System.Collections.Generic.HashSet(Of Mirage.INetworkPlayer), System.Boolean)
+  nameWithType: NetworkSceneChecker.OnRebuildObservers(HashSet<INetworkPlayer>, Boolean)
+  nameWithType.vb: NetworkSceneChecker.OnRebuildObservers(HashSet(Of INetworkPlayer), Boolean)
 - uid: Mirage.NetworkSceneChecker.OnRebuildObservers*
   name: OnRebuildObservers
   href: api/Mirage.NetworkSceneChecker.html#Mirage_NetworkSceneChecker_OnRebuildObservers_
@@ -6804,12 +6804,12 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkServer.Active
   nameWithType: NetworkServer.Active
-- uid: Mirage.NetworkServer.AddConnection(Mirage.INetworkConnection)
-  name: AddConnection(INetworkConnection)
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_AddConnection_Mirage_INetworkConnection_
-  commentId: M:Mirage.NetworkServer.AddConnection(Mirage.INetworkConnection)
-  fullName: Mirage.NetworkServer.AddConnection(Mirage.INetworkConnection)
-  nameWithType: NetworkServer.AddConnection(INetworkConnection)
+- uid: Mirage.NetworkServer.AddConnection(Mirage.INetworkPlayer)
+  name: AddConnection(INetworkPlayer)
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_AddConnection_Mirage_INetworkPlayer_
+  commentId: M:Mirage.NetworkServer.AddConnection(Mirage.INetworkPlayer)
+  fullName: Mirage.NetworkServer.AddConnection(Mirage.INetworkPlayer)
+  nameWithType: NetworkServer.AddConnection(INetworkPlayer)
 - uid: Mirage.NetworkServer.AddConnection*
   name: AddConnection
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_AddConnection_
@@ -6997,12 +6997,12 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkServer.OnStopHost
   nameWithType: NetworkServer.OnStopHost
-- uid: Mirage.NetworkServer.RemoveConnection(Mirage.INetworkConnection)
-  name: RemoveConnection(INetworkConnection)
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_RemoveConnection_Mirage_INetworkConnection_
-  commentId: M:Mirage.NetworkServer.RemoveConnection(Mirage.INetworkConnection)
-  fullName: Mirage.NetworkServer.RemoveConnection(Mirage.INetworkConnection)
-  nameWithType: NetworkServer.RemoveConnection(INetworkConnection)
+- uid: Mirage.NetworkServer.RemoveConnection(Mirage.INetworkPlayer)
+  name: RemoveConnection(INetworkPlayer)
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_RemoveConnection_Mirage_INetworkPlayer_
+  commentId: M:Mirage.NetworkServer.RemoveConnection(Mirage.INetworkPlayer)
+  fullName: Mirage.NetworkServer.RemoveConnection(Mirage.INetworkPlayer)
+  nameWithType: NetworkServer.RemoveConnection(INetworkPlayer)
 - uid: Mirage.NetworkServer.RemoveConnection*
   name: RemoveConnection
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_RemoveConnection_
@@ -7400,12 +7400,12 @@ references:
   commentId: T:Mirage.NetworkVisibility
   fullName: Mirage.NetworkVisibility
   nameWithType: NetworkVisibility
-- uid: Mirage.NetworkVisibility.OnCheckObserver(Mirage.INetworkConnection)
-  name: OnCheckObserver(INetworkConnection)
-  href: api/Mirage.NetworkVisibility.html#Mirage_NetworkVisibility_OnCheckObserver_Mirage_INetworkConnection_
-  commentId: M:Mirage.NetworkVisibility.OnCheckObserver(Mirage.INetworkConnection)
-  fullName: Mirage.NetworkVisibility.OnCheckObserver(Mirage.INetworkConnection)
-  nameWithType: NetworkVisibility.OnCheckObserver(INetworkConnection)
+- uid: Mirage.NetworkVisibility.OnCheckObserver(Mirage.INetworkPlayer)
+  name: OnCheckObserver(INetworkPlayer)
+  href: api/Mirage.NetworkVisibility.html#Mirage_NetworkVisibility_OnCheckObserver_Mirage_INetworkPlayer_
+  commentId: M:Mirage.NetworkVisibility.OnCheckObserver(Mirage.INetworkPlayer)
+  fullName: Mirage.NetworkVisibility.OnCheckObserver(Mirage.INetworkPlayer)
+  nameWithType: NetworkVisibility.OnCheckObserver(INetworkPlayer)
 - uid: Mirage.NetworkVisibility.OnCheckObserver*
   name: OnCheckObserver
   href: api/Mirage.NetworkVisibility.html#Mirage_NetworkVisibility_OnCheckObserver_
@@ -7413,15 +7413,15 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkVisibility.OnCheckObserver
   nameWithType: NetworkVisibility.OnCheckObserver
-- uid: Mirage.NetworkVisibility.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkConnection},System.Boolean)
-  name: OnRebuildObservers(HashSet<INetworkConnection>, Boolean)
-  href: api/Mirage.NetworkVisibility.html#Mirage_NetworkVisibility_OnRebuildObservers_System_Collections_Generic_HashSet_Mirage_INetworkConnection__System_Boolean_
-  commentId: M:Mirage.NetworkVisibility.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkConnection},System.Boolean)
-  name.vb: OnRebuildObservers(HashSet(Of INetworkConnection), Boolean)
-  fullName: Mirage.NetworkVisibility.OnRebuildObservers(System.Collections.Generic.HashSet<Mirage.INetworkConnection>, System.Boolean)
-  fullName.vb: Mirage.NetworkVisibility.OnRebuildObservers(System.Collections.Generic.HashSet(Of Mirage.INetworkConnection), System.Boolean)
-  nameWithType: NetworkVisibility.OnRebuildObservers(HashSet<INetworkConnection>, Boolean)
-  nameWithType.vb: NetworkVisibility.OnRebuildObservers(HashSet(Of INetworkConnection), Boolean)
+- uid: Mirage.NetworkVisibility.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkPlayer},System.Boolean)
+  name: OnRebuildObservers(HashSet<INetworkPlayer>, Boolean)
+  href: api/Mirage.NetworkVisibility.html#Mirage_NetworkVisibility_OnRebuildObservers_System_Collections_Generic_HashSet_Mirage_INetworkPlayer__System_Boolean_
+  commentId: M:Mirage.NetworkVisibility.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkPlayer},System.Boolean)
+  name.vb: OnRebuildObservers(HashSet(Of INetworkPlayer), Boolean)
+  fullName: Mirage.NetworkVisibility.OnRebuildObservers(System.Collections.Generic.HashSet<Mirage.INetworkPlayer>, System.Boolean)
+  fullName.vb: Mirage.NetworkVisibility.OnRebuildObservers(System.Collections.Generic.HashSet(Of Mirage.INetworkPlayer), System.Boolean)
+  nameWithType: NetworkVisibility.OnRebuildObservers(HashSet<INetworkPlayer>, Boolean)
+  nameWithType.vb: NetworkVisibility.OnRebuildObservers(HashSet(Of INetworkPlayer), Boolean)
 - uid: Mirage.NetworkVisibility.OnRebuildObservers*
   name: OnRebuildObservers
   href: api/Mirage.NetworkVisibility.html#Mirage_NetworkVisibility_OnRebuildObservers_
@@ -8456,12 +8456,12 @@ references:
   isSpec: "True"
   fullName: Mirage.PlayerSpawner.GetStartPosition
   nameWithType: PlayerSpawner.GetStartPosition
-- uid: Mirage.PlayerSpawner.OnServerAddPlayer(Mirage.INetworkConnection)
-  name: OnServerAddPlayer(INetworkConnection)
-  href: api/Mirage.PlayerSpawner.html#Mirage_PlayerSpawner_OnServerAddPlayer_Mirage_INetworkConnection_
-  commentId: M:Mirage.PlayerSpawner.OnServerAddPlayer(Mirage.INetworkConnection)
-  fullName: Mirage.PlayerSpawner.OnServerAddPlayer(Mirage.INetworkConnection)
-  nameWithType: PlayerSpawner.OnServerAddPlayer(INetworkConnection)
+- uid: Mirage.PlayerSpawner.OnServerAddPlayer(Mirage.INetworkPlayer)
+  name: OnServerAddPlayer(INetworkPlayer)
+  href: api/Mirage.PlayerSpawner.html#Mirage_PlayerSpawner_OnServerAddPlayer_Mirage_INetworkPlayer_
+  commentId: M:Mirage.PlayerSpawner.OnServerAddPlayer(Mirage.INetworkPlayer)
+  fullName: Mirage.PlayerSpawner.OnServerAddPlayer(Mirage.INetworkPlayer)
+  nameWithType: PlayerSpawner.OnServerAddPlayer(INetworkPlayer)
 - uid: Mirage.PlayerSpawner.OnServerAddPlayer*
   name: OnServerAddPlayer
   href: api/Mirage.PlayerSpawner.html#Mirage_PlayerSpawner_OnServerAddPlayer_
@@ -8899,18 +8899,18 @@ references:
   commentId: T:Mirage.ServerObjectManager
   fullName: Mirage.ServerObjectManager
   nameWithType: ServerObjectManager
-- uid: Mirage.ServerObjectManager.AddPlayerForConnection(Mirage.INetworkConnection,UnityEngine.GameObject)
-  name: AddPlayerForConnection(INetworkConnection, GameObject)
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_AddPlayerForConnection_Mirage_INetworkConnection_UnityEngine_GameObject_
-  commentId: M:Mirage.ServerObjectManager.AddPlayerForConnection(Mirage.INetworkConnection,UnityEngine.GameObject)
-  fullName: Mirage.ServerObjectManager.AddPlayerForConnection(Mirage.INetworkConnection, UnityEngine.GameObject)
-  nameWithType: ServerObjectManager.AddPlayerForConnection(INetworkConnection, GameObject)
-- uid: Mirage.ServerObjectManager.AddPlayerForConnection(Mirage.INetworkConnection,UnityEngine.GameObject,System.Guid)
-  name: AddPlayerForConnection(INetworkConnection, GameObject, Guid)
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_AddPlayerForConnection_Mirage_INetworkConnection_UnityEngine_GameObject_System_Guid_
-  commentId: M:Mirage.ServerObjectManager.AddPlayerForConnection(Mirage.INetworkConnection,UnityEngine.GameObject,System.Guid)
-  fullName: Mirage.ServerObjectManager.AddPlayerForConnection(Mirage.INetworkConnection, UnityEngine.GameObject, System.Guid)
-  nameWithType: ServerObjectManager.AddPlayerForConnection(INetworkConnection, GameObject, Guid)
+- uid: Mirage.ServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer,UnityEngine.GameObject)
+  name: AddPlayerForConnection(INetworkPlayer, GameObject)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_AddPlayerForConnection_Mirage_INetworkPlayer_UnityEngine_GameObject_
+  commentId: M:Mirage.ServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer,UnityEngine.GameObject)
+  fullName: Mirage.ServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer, UnityEngine.GameObject)
+  nameWithType: ServerObjectManager.AddPlayerForConnection(INetworkPlayer, GameObject)
+- uid: Mirage.ServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Guid)
+  name: AddPlayerForConnection(INetworkPlayer, GameObject, Guid)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_AddPlayerForConnection_Mirage_INetworkPlayer_UnityEngine_GameObject_System_Guid_
+  commentId: M:Mirage.ServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Guid)
+  fullName: Mirage.ServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer, UnityEngine.GameObject, System.Guid)
+  nameWithType: ServerObjectManager.AddPlayerForConnection(INetworkPlayer, GameObject, Guid)
 - uid: Mirage.ServerObjectManager.AddPlayerForConnection*
   name: AddPlayerForConnection
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_AddPlayerForConnection_
@@ -8959,12 +8959,12 @@ references:
   commentId: F:Mirage.ServerObjectManager.NetworkSceneManager
   fullName: Mirage.ServerObjectManager.NetworkSceneManager
   nameWithType: ServerObjectManager.NetworkSceneManager
-- uid: Mirage.ServerObjectManager.RemovePlayerForConnection(Mirage.INetworkConnection,System.Boolean)
-  name: RemovePlayerForConnection(INetworkConnection, Boolean)
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_RemovePlayerForConnection_Mirage_INetworkConnection_System_Boolean_
-  commentId: M:Mirage.ServerObjectManager.RemovePlayerForConnection(Mirage.INetworkConnection,System.Boolean)
-  fullName: Mirage.ServerObjectManager.RemovePlayerForConnection(Mirage.INetworkConnection, System.Boolean)
-  nameWithType: ServerObjectManager.RemovePlayerForConnection(INetworkConnection, Boolean)
+- uid: Mirage.ServerObjectManager.RemovePlayerForConnection(Mirage.INetworkPlayer,System.Boolean)
+  name: RemovePlayerForConnection(INetworkPlayer, Boolean)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_RemovePlayerForConnection_Mirage_INetworkPlayer_System_Boolean_
+  commentId: M:Mirage.ServerObjectManager.RemovePlayerForConnection(Mirage.INetworkPlayer,System.Boolean)
+  fullName: Mirage.ServerObjectManager.RemovePlayerForConnection(Mirage.INetworkPlayer, System.Boolean)
+  nameWithType: ServerObjectManager.RemovePlayerForConnection(INetworkPlayer, Boolean)
 - uid: Mirage.ServerObjectManager.RemovePlayerForConnection*
   name: RemovePlayerForConnection
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_RemovePlayerForConnection_
@@ -8972,18 +8972,18 @@ references:
   isSpec: "True"
   fullName: Mirage.ServerObjectManager.RemovePlayerForConnection
   nameWithType: ServerObjectManager.RemovePlayerForConnection
-- uid: Mirage.ServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkConnection,Mirage.NetworkClient,UnityEngine.GameObject,System.Boolean)
-  name: ReplacePlayerForConnection(INetworkConnection, NetworkClient, GameObject, Boolean)
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplacePlayerForConnection_Mirage_INetworkConnection_Mirage_NetworkClient_UnityEngine_GameObject_System_Boolean_
-  commentId: M:Mirage.ServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkConnection,Mirage.NetworkClient,UnityEngine.GameObject,System.Boolean)
-  fullName: Mirage.ServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkConnection, Mirage.NetworkClient, UnityEngine.GameObject, System.Boolean)
-  nameWithType: ServerObjectManager.ReplacePlayerForConnection(INetworkConnection, NetworkClient, GameObject, Boolean)
-- uid: Mirage.ServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkConnection,Mirage.NetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
-  name: ReplacePlayerForConnection(INetworkConnection, NetworkClient, GameObject, Guid, Boolean)
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplacePlayerForConnection_Mirage_INetworkConnection_Mirage_NetworkClient_UnityEngine_GameObject_System_Guid_System_Boolean_
-  commentId: M:Mirage.ServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkConnection,Mirage.NetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
-  fullName: Mirage.ServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkConnection, Mirage.NetworkClient, UnityEngine.GameObject, System.Guid, System.Boolean)
-  nameWithType: ServerObjectManager.ReplacePlayerForConnection(INetworkConnection, NetworkClient, GameObject, Guid, Boolean)
+- uid: Mirage.ServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Boolean)
+  name: ReplacePlayerForConnection(INetworkPlayer, NetworkClient, GameObject, Boolean)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplacePlayerForConnection_Mirage_INetworkPlayer_Mirage_NetworkClient_UnityEngine_GameObject_System_Boolean_
+  commentId: M:Mirage.ServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Boolean)
+  fullName: Mirage.ServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer, Mirage.NetworkClient, UnityEngine.GameObject, System.Boolean)
+  nameWithType: ServerObjectManager.ReplacePlayerForConnection(INetworkPlayer, NetworkClient, GameObject, Boolean)
+- uid: Mirage.ServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
+  name: ReplacePlayerForConnection(INetworkPlayer, NetworkClient, GameObject, Guid, Boolean)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplacePlayerForConnection_Mirage_INetworkPlayer_Mirage_NetworkClient_UnityEngine_GameObject_System_Guid_System_Boolean_
+  commentId: M:Mirage.ServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
+  fullName: Mirage.ServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer, Mirage.NetworkClient, UnityEngine.GameObject, System.Guid, System.Boolean)
+  nameWithType: ServerObjectManager.ReplacePlayerForConnection(INetworkPlayer, NetworkClient, GameObject, Guid, Boolean)
 - uid: Mirage.ServerObjectManager.ReplacePlayerForConnection*
   name: ReplacePlayerForConnection
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplacePlayerForConnection_
@@ -9010,12 +9010,12 @@ references:
   isSpec: "True"
   fullName: Mirage.ServerObjectManager.SetAllClientsNotReady
   nameWithType: ServerObjectManager.SetAllClientsNotReady
-- uid: Mirage.ServerObjectManager.SetClientNotReady(Mirage.INetworkConnection)
-  name: SetClientNotReady(INetworkConnection)
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_SetClientNotReady_Mirage_INetworkConnection_
-  commentId: M:Mirage.ServerObjectManager.SetClientNotReady(Mirage.INetworkConnection)
-  fullName: Mirage.ServerObjectManager.SetClientNotReady(Mirage.INetworkConnection)
-  nameWithType: ServerObjectManager.SetClientNotReady(INetworkConnection)
+- uid: Mirage.ServerObjectManager.SetClientNotReady(Mirage.INetworkPlayer)
+  name: SetClientNotReady(INetworkPlayer)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_SetClientNotReady_Mirage_INetworkPlayer_
+  commentId: M:Mirage.ServerObjectManager.SetClientNotReady(Mirage.INetworkPlayer)
+  fullName: Mirage.ServerObjectManager.SetClientNotReady(Mirage.INetworkPlayer)
+  nameWithType: ServerObjectManager.SetClientNotReady(INetworkPlayer)
 - uid: Mirage.ServerObjectManager.SetClientNotReady*
   name: SetClientNotReady
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_SetClientNotReady_
@@ -9023,12 +9023,12 @@ references:
   isSpec: "True"
   fullName: Mirage.ServerObjectManager.SetClientNotReady
   nameWithType: ServerObjectManager.SetClientNotReady
-- uid: Mirage.ServerObjectManager.SetClientReady(Mirage.INetworkConnection)
-  name: SetClientReady(INetworkConnection)
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_SetClientReady_Mirage_INetworkConnection_
-  commentId: M:Mirage.ServerObjectManager.SetClientReady(Mirage.INetworkConnection)
-  fullName: Mirage.ServerObjectManager.SetClientReady(Mirage.INetworkConnection)
-  nameWithType: ServerObjectManager.SetClientReady(INetworkConnection)
+- uid: Mirage.ServerObjectManager.SetClientReady(Mirage.INetworkPlayer)
+  name: SetClientReady(INetworkPlayer)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_SetClientReady_Mirage_INetworkPlayer_
+  commentId: M:Mirage.ServerObjectManager.SetClientReady(Mirage.INetworkPlayer)
+  fullName: Mirage.ServerObjectManager.SetClientReady(Mirage.INetworkPlayer)
+  nameWithType: ServerObjectManager.SetClientReady(INetworkPlayer)
 - uid: Mirage.ServerObjectManager.SetClientReady*
   name: SetClientReady
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_SetClientReady_
@@ -9042,18 +9042,18 @@ references:
   commentId: M:Mirage.ServerObjectManager.Spawn(Mirage.NetworkIdentity)
   fullName: Mirage.ServerObjectManager.Spawn(Mirage.NetworkIdentity)
   nameWithType: ServerObjectManager.Spawn(NetworkIdentity)
-- uid: Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject,Mirage.INetworkConnection)
-  name: Spawn(GameObject, INetworkConnection)
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_Spawn_UnityEngine_GameObject_Mirage_INetworkConnection_
-  commentId: M:Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject,Mirage.INetworkConnection)
-  fullName: Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject, Mirage.INetworkConnection)
-  nameWithType: ServerObjectManager.Spawn(GameObject, INetworkConnection)
-- uid: Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject,System.Guid,Mirage.INetworkConnection)
-  name: Spawn(GameObject, Guid, INetworkConnection)
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_Spawn_UnityEngine_GameObject_System_Guid_Mirage_INetworkConnection_
-  commentId: M:Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject,System.Guid,Mirage.INetworkConnection)
-  fullName: Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject, System.Guid, Mirage.INetworkConnection)
-  nameWithType: ServerObjectManager.Spawn(GameObject, Guid, INetworkConnection)
+- uid: Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject,Mirage.INetworkPlayer)
+  name: Spawn(GameObject, INetworkPlayer)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_Spawn_UnityEngine_GameObject_Mirage_INetworkPlayer_
+  commentId: M:Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject,Mirage.INetworkPlayer)
+  fullName: Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject, Mirage.INetworkPlayer)
+  nameWithType: ServerObjectManager.Spawn(GameObject, INetworkPlayer)
+- uid: Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject,System.Guid,Mirage.INetworkPlayer)
+  name: Spawn(GameObject, Guid, INetworkPlayer)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_Spawn_UnityEngine_GameObject_System_Guid_Mirage_INetworkPlayer_
+  commentId: M:Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject,System.Guid,Mirage.INetworkPlayer)
+  fullName: Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject, System.Guid, Mirage.INetworkPlayer)
+  nameWithType: ServerObjectManager.Spawn(GameObject, Guid, INetworkPlayer)
 - uid: Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject,UnityEngine.GameObject)
   name: Spawn(GameObject, GameObject)
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_Spawn_UnityEngine_GameObject_UnityEngine_GameObject_

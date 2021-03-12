@@ -582,12 +582,12 @@ public SyncMode syncMode</code></pre>
   
   <a id="Mirage_NetworkBehaviour_ConnectionToClient_" data-uid="Mirage.NetworkBehaviour.ConnectionToClient*"></a>
   <h4 id="Mirage_NetworkBehaviour_ConnectionToClient" data-uid="Mirage.NetworkBehaviour.ConnectionToClient">ConnectionToClient</h4>
-  <div class="markdown level1 summary"><p>The <a class="xref" href="Mirage.NetworkConnection.html">NetworkConnection</a> associated with this <a class="xref" href="Mirage.NetworkIdentity.html">NetworkIdentity</a> This is only valid for player objects on the server.</p>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="Mirage.NetworkPlayer.html">NetworkPlayer</a> associated with this <a class="xref" href="Mirage.NetworkIdentity.html">NetworkIdentity</a> This is only valid for player objects on the server.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public INetworkConnection ConnectionToClient { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public INetworkPlayer ConnectionToClient { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -599,7 +599,7 @@ public SyncMode syncMode</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a></td>
+        <td><a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -608,12 +608,12 @@ public SyncMode syncMode</code></pre>
   
   <a id="Mirage_NetworkBehaviour_ConnectionToServer_" data-uid="Mirage.NetworkBehaviour.ConnectionToServer*"></a>
   <h4 id="Mirage_NetworkBehaviour_ConnectionToServer" data-uid="Mirage.NetworkBehaviour.ConnectionToServer">ConnectionToServer</h4>
-  <div class="markdown level1 summary"><p>The <a class="xref" href="Mirage.NetworkConnection.html">NetworkConnection</a> associated with this <a class="xref" href="Mirage.NetworkIdentity.html">NetworkIdentity</a> This is only valid for player objects on the client.</p>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="Mirage.NetworkPlayer.html">NetworkPlayer</a> associated with this <a class="xref" href="Mirage.NetworkIdentity.html">NetworkIdentity</a> This is only valid for player objects on the client.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public INetworkConnection ConnectionToServer { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public INetworkPlayer ConnectionToServer { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -625,7 +625,7 @@ public SyncMode syncMode</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a></td>
+        <td><a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -1376,12 +1376,12 @@ public SyncMode syncMode</code></pre>
   
   
   <a id="Mirage_NetworkBehaviour_SendTargetRpcInternal_" data-uid="Mirage.NetworkBehaviour.SendTargetRpcInternal*"></a>
-  <h4 id="Mirage_NetworkBehaviour_SendTargetRpcInternal_Mirage_INetworkConnection_System_Type_System_String_Mirage_NetworkWriter_System_Int32_" data-uid="Mirage.NetworkBehaviour.SendTargetRpcInternal(Mirage.INetworkConnection,System.Type,System.String,Mirage.NetworkWriter,System.Int32)">SendTargetRpcInternal(INetworkConnection, Type, String, NetworkWriter, Int32)</h4>
+  <h4 id="Mirage_NetworkBehaviour_SendTargetRpcInternal_Mirage_INetworkPlayer_System_Type_System_String_Mirage_NetworkWriter_System_Int32_" data-uid="Mirage.NetworkBehaviour.SendTargetRpcInternal(Mirage.INetworkPlayer,System.Type,System.String,Mirage.NetworkWriter,System.Int32)">SendTargetRpcInternal(INetworkPlayer, Type, String, NetworkWriter, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void SendTargetRpcInternal(INetworkConnection conn, Type invokeClass, string rpcName, NetworkWriter writer, int channelId)</code></pre>
+    <pre><code class="lang-csharp hljs">protected void SendTargetRpcInternal(INetworkPlayer conn, Type invokeClass, string rpcName, NetworkWriter writer, int channelId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1394,7 +1394,7 @@ public SyncMode syncMode</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a></td>
+        <td><a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a></td>
         <td><span class="parametername">conn</span></td>
         <td></td>
       </tr>

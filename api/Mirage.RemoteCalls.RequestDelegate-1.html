@@ -91,7 +91,7 @@
   <h6><strong>Assembly</strong>: Mirage.dll</h6>
   <h5 id="Mirage_RemoteCalls_RequestDelegate_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate UniTask&lt;T&gt; RequestDelegate&lt;T&gt;(NetworkBehaviour obj, NetworkReader reader, INetworkConnection senderConnection, int replyId);</code></pre>
+    <pre><code class="lang-csharp hljs">public delegate UniTask&lt;T&gt; RequestDelegate&lt;T&gt;(NetworkBehaviour obj, NetworkReader reader, INetworkPlayer senderConnection, int replyId);</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -114,7 +114,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a></td>
+        <td><a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a></td>
         <td><span class="parametername">senderConnection</span></td>
         <td></td>
       </tr>

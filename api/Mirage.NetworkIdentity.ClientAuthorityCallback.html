@@ -92,7 +92,7 @@
   <h6><strong>Assembly</strong>: Mirage.dll</h6>
   <h5 id="Mirage_NetworkIdentity_ClientAuthorityCallback_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate void ClientAuthorityCallback(INetworkConnection conn, NetworkIdentity identity, bool authorityState);</code></pre>
+    <pre><code class="lang-csharp hljs">public delegate void ClientAuthorityCallback(INetworkPlayer conn, NetworkIdentity identity, bool authorityState);</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -105,7 +105,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a></td>
+        <td><a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a></td>
         <td><span class="parametername">conn</span></td>
         <td><p>The network connection that is gaining or losing authority.</p>
 </td>

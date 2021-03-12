@@ -614,14 +614,14 @@ public NetworkServer Server</code></pre>
   
   
   <a id="Mirage_ServerObjectManager_AddPlayerForConnection_" data-uid="Mirage.ServerObjectManager.AddPlayerForConnection*"></a>
-  <h4 id="Mirage_ServerObjectManager_AddPlayerForConnection_Mirage_INetworkConnection_UnityEngine_GameObject_" data-uid="Mirage.ServerObjectManager.AddPlayerForConnection(Mirage.INetworkConnection,UnityEngine.GameObject)">AddPlayerForConnection(INetworkConnection, GameObject)</h4>
+  <h4 id="Mirage_ServerObjectManager_AddPlayerForConnection_Mirage_INetworkPlayer_UnityEngine_GameObject_" data-uid="Mirage.ServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer,UnityEngine.GameObject)">AddPlayerForConnection(INetworkPlayer, GameObject)</h4>
   <div class="markdown level1 summary"><p>When an AddPlayer message handler has received a request from a player, the server calls this to associate the player object with the connection.</p>
 <p>When a player is added for a connection, the client for that connection is made ready automatically. The player object is automatically spawned, so you do not need to call NetworkServer.Spawn for that object. This function is used for &quot;adding&quot; a player, not for &quot;replacing&quot; the player on a connection. If there is already a player on this playerControllerId for this connection, this will fail.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool AddPlayerForConnection(INetworkConnection conn, GameObject player)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool AddPlayerForConnection(INetworkPlayer conn, GameObject player)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -634,7 +634,7 @@ public NetworkServer Server</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a></td>
+        <td><a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a></td>
         <td><span class="parametername">conn</span></td>
         <td><p>Connection which is adding the player.</p>
 </td>
@@ -665,14 +665,14 @@ public NetworkServer Server</code></pre>
   
   
   <a id="Mirage_ServerObjectManager_AddPlayerForConnection_" data-uid="Mirage.ServerObjectManager.AddPlayerForConnection*"></a>
-  <h4 id="Mirage_ServerObjectManager_AddPlayerForConnection_Mirage_INetworkConnection_UnityEngine_GameObject_System_Guid_" data-uid="Mirage.ServerObjectManager.AddPlayerForConnection(Mirage.INetworkConnection,UnityEngine.GameObject,System.Guid)">AddPlayerForConnection(INetworkConnection, GameObject, Guid)</h4>
+  <h4 id="Mirage_ServerObjectManager_AddPlayerForConnection_Mirage_INetworkPlayer_UnityEngine_GameObject_System_Guid_" data-uid="Mirage.ServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Guid)">AddPlayerForConnection(INetworkPlayer, GameObject, Guid)</h4>
   <div class="markdown level1 summary"><p>When an AddPlayer message handler has received a request from a player, the server calls this to associate the player object with the connection.</p>
 <p>When a player is added for a connection, the client for that connection is made ready automatically. The player object is automatically spawned, so you do not need to call NetworkServer.Spawn for that object. This function is used for &quot;adding&quot; a player, not for &quot;replacing&quot; the player on a connection. If there is already a player on this playerControllerId for this connection, this will fail.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool AddPlayerForConnection(INetworkConnection conn, GameObject player, Guid assetId)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool AddPlayerForConnection(INetworkPlayer conn, GameObject player, Guid assetId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -685,7 +685,7 @@ public NetworkServer Server</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a></td>
+        <td><a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a></td>
         <td><span class="parametername">conn</span></td>
         <td><p>Connection which is adding the player.</p>
 </td>
@@ -751,13 +751,13 @@ public NetworkServer Server</code></pre>
   
   
   <a id="Mirage_ServerObjectManager_RemovePlayerForConnection_" data-uid="Mirage.ServerObjectManager.RemovePlayerForConnection*"></a>
-  <h4 id="Mirage_ServerObjectManager_RemovePlayerForConnection_Mirage_INetworkConnection_System_Boolean_" data-uid="Mirage.ServerObjectManager.RemovePlayerForConnection(Mirage.INetworkConnection,System.Boolean)">RemovePlayerForConnection(INetworkConnection, Boolean)</h4>
+  <h4 id="Mirage_ServerObjectManager_RemovePlayerForConnection_Mirage_INetworkPlayer_System_Boolean_" data-uid="Mirage.ServerObjectManager.RemovePlayerForConnection(Mirage.INetworkPlayer,System.Boolean)">RemovePlayerForConnection(INetworkPlayer, Boolean)</h4>
   <div class="markdown level1 summary"><p>Removes the player object from the connection</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RemovePlayerForConnection(INetworkConnection conn, bool destroyServerObject = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RemovePlayerForConnection(INetworkPlayer conn, bool destroyServerObject = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -770,7 +770,7 @@ public NetworkServer Server</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a></td>
+        <td><a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a></td>
         <td><span class="parametername">conn</span></td>
         <td><p>The connection of the client to remove from</p>
 </td>
@@ -786,14 +786,14 @@ public NetworkServer Server</code></pre>
   
   
   <a id="Mirage_ServerObjectManager_ReplacePlayerForConnection_" data-uid="Mirage.ServerObjectManager.ReplacePlayerForConnection*"></a>
-  <h4 id="Mirage_ServerObjectManager_ReplacePlayerForConnection_Mirage_INetworkConnection_Mirage_NetworkClient_UnityEngine_GameObject_System_Boolean_" data-uid="Mirage.ServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkConnection,Mirage.NetworkClient,UnityEngine.GameObject,System.Boolean)">ReplacePlayerForConnection(INetworkConnection, NetworkClient, GameObject, Boolean)</h4>
+  <h4 id="Mirage_ServerObjectManager_ReplacePlayerForConnection_Mirage_INetworkPlayer_Mirage_NetworkClient_UnityEngine_GameObject_System_Boolean_" data-uid="Mirage.ServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Boolean)">ReplacePlayerForConnection(INetworkPlayer, NetworkClient, GameObject, Boolean)</h4>
   <div class="markdown level1 summary"><p>This replaces the player object for a connection with a different player object. The old player object is not destroyed.</p>
 <p>If a connection already has a player object, this can be used to replace that object with a different player object. This does NOT change the ready state of the connection, so it can safely be used while changing scenes.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool ReplacePlayerForConnection(INetworkConnection conn, NetworkClient client, GameObject player, bool keepAuthority = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool ReplacePlayerForConnection(INetworkPlayer conn, NetworkClient client, GameObject player, bool keepAuthority = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -806,7 +806,7 @@ public NetworkServer Server</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a></td>
+        <td><a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a></td>
         <td><span class="parametername">conn</span></td>
         <td><p>Connection which is adding the player.</p>
 </td>
@@ -849,14 +849,14 @@ public NetworkServer Server</code></pre>
   
   
   <a id="Mirage_ServerObjectManager_ReplacePlayerForConnection_" data-uid="Mirage.ServerObjectManager.ReplacePlayerForConnection*"></a>
-  <h4 id="Mirage_ServerObjectManager_ReplacePlayerForConnection_Mirage_INetworkConnection_Mirage_NetworkClient_UnityEngine_GameObject_System_Guid_System_Boolean_" data-uid="Mirage.ServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkConnection,Mirage.NetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)">ReplacePlayerForConnection(INetworkConnection, NetworkClient, GameObject, Guid, Boolean)</h4>
+  <h4 id="Mirage_ServerObjectManager_ReplacePlayerForConnection_Mirage_INetworkPlayer_Mirage_NetworkClient_UnityEngine_GameObject_System_Guid_System_Boolean_" data-uid="Mirage.ServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)">ReplacePlayerForConnection(INetworkPlayer, NetworkClient, GameObject, Guid, Boolean)</h4>
   <div class="markdown level1 summary"><p>This replaces the player object for a connection with a different player object. The old player object is not destroyed.</p>
 <p>If a connection already has a player object, this can be used to replace that object with a different player object. This does NOT change the ready state of the connection, so it can safely be used while changing scenes.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool ReplacePlayerForConnection(INetworkConnection conn, NetworkClient client, GameObject player, Guid assetId, bool keepAuthority = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool ReplacePlayerForConnection(INetworkPlayer conn, NetworkClient client, GameObject player, Guid assetId, bool keepAuthority = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -869,7 +869,7 @@ public NetworkServer Server</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a></td>
+        <td><a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a></td>
         <td><span class="parametername">conn</span></td>
         <td><p>Connection which is adding the player.</p>
 </td>
@@ -929,14 +929,14 @@ public NetworkServer Server</code></pre>
   
   
   <a id="Mirage_ServerObjectManager_SetClientNotReady_" data-uid="Mirage.ServerObjectManager.SetClientNotReady*"></a>
-  <h4 id="Mirage_ServerObjectManager_SetClientNotReady_Mirage_INetworkConnection_" data-uid="Mirage.ServerObjectManager.SetClientNotReady(Mirage.INetworkConnection)">SetClientNotReady(INetworkConnection)</h4>
+  <h4 id="Mirage_ServerObjectManager_SetClientNotReady_Mirage_INetworkPlayer_" data-uid="Mirage.ServerObjectManager.SetClientNotReady(Mirage.INetworkPlayer)">SetClientNotReady(INetworkPlayer)</h4>
   <div class="markdown level1 summary"><p>Sets the client of the connection to be not-ready.</p>
 <p>Clients that are not ready do not receive spawned objects or state synchronization updates. They client can be made ready again by calling SetClientReady().</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetClientNotReady(INetworkConnection conn)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetClientNotReady(INetworkPlayer conn)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -949,7 +949,7 @@ public NetworkServer Server</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a></td>
+        <td><a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a></td>
         <td><span class="parametername">conn</span></td>
         <td><p>The connection of the client to make not ready.</p>
 </td>
@@ -959,14 +959,14 @@ public NetworkServer Server</code></pre>
   
   
   <a id="Mirage_ServerObjectManager_SetClientReady_" data-uid="Mirage.ServerObjectManager.SetClientReady*"></a>
-  <h4 id="Mirage_ServerObjectManager_SetClientReady_Mirage_INetworkConnection_" data-uid="Mirage.ServerObjectManager.SetClientReady(Mirage.INetworkConnection)">SetClientReady(INetworkConnection)</h4>
+  <h4 id="Mirage_ServerObjectManager_SetClientReady_Mirage_INetworkPlayer_" data-uid="Mirage.ServerObjectManager.SetClientReady(Mirage.INetworkPlayer)">SetClientReady(INetworkPlayer)</h4>
   <div class="markdown level1 summary"><p>Sets the client to be ready.</p>
 <p>When a client has signaled that it is ready, this method tells the server that the client is ready to receive spawned objects and state synchronization updates. This is usually called in a handler for the SYSTEM_READY message. If there is not specific action a game needs to take for this message, relying on the default ready handler function is probably fine, so this call wont be needed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetClientReady(INetworkConnection conn)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetClientReady(INetworkPlayer conn)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -979,7 +979,7 @@ public NetworkServer Server</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a></td>
+        <td><a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a></td>
         <td><span class="parametername">conn</span></td>
         <td><p>The connection of the client to make ready.</p>
 </td>
@@ -1018,14 +1018,14 @@ public NetworkServer Server</code></pre>
   
   
   <a id="Mirage_ServerObjectManager_Spawn_" data-uid="Mirage.ServerObjectManager.Spawn*"></a>
-  <h4 id="Mirage_ServerObjectManager_Spawn_UnityEngine_GameObject_Mirage_INetworkConnection_" data-uid="Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject,Mirage.INetworkConnection)">Spawn(GameObject, INetworkConnection)</h4>
+  <h4 id="Mirage_ServerObjectManager_Spawn_UnityEngine_GameObject_Mirage_INetworkPlayer_" data-uid="Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject,Mirage.INetworkPlayer)">Spawn(GameObject, INetworkPlayer)</h4>
   <div class="markdown level1 summary"><p>Spawn the given game object on all clients which are ready.</p>
 <p>This will cause a new object to be instantiated from the registered prefab, or from a custom spawn function.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Spawn(GameObject obj, INetworkConnection ownerConnection = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Spawn(GameObject obj, INetworkPlayer ownerConnection = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1044,7 +1044,7 @@ public NetworkServer Server</code></pre>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a></td>
+        <td><a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a></td>
         <td><span class="parametername">ownerConnection</span></td>
         <td><p>The connection that has authority over the object</p>
 </td>
@@ -1054,14 +1054,14 @@ public NetworkServer Server</code></pre>
   
   
   <a id="Mirage_ServerObjectManager_Spawn_" data-uid="Mirage.ServerObjectManager.Spawn*"></a>
-  <h4 id="Mirage_ServerObjectManager_Spawn_UnityEngine_GameObject_System_Guid_Mirage_INetworkConnection_" data-uid="Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject,System.Guid,Mirage.INetworkConnection)">Spawn(GameObject, Guid, INetworkConnection)</h4>
+  <h4 id="Mirage_ServerObjectManager_Spawn_UnityEngine_GameObject_System_Guid_Mirage_INetworkPlayer_" data-uid="Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject,System.Guid,Mirage.INetworkPlayer)">Spawn(GameObject, Guid, INetworkPlayer)</h4>
   <div class="markdown level1 summary"><p>This spawns an object like NetworkServer.Spawn() but also assigns Client Authority to the specified client.</p>
 <p>This is the same as calling NetworkIdentity.AssignClientAuthority on the spawned object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Spawn(GameObject obj, Guid assetId, INetworkConnection ownerConnection = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Spawn(GameObject obj, Guid assetId, INetworkPlayer ownerConnection = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1086,7 +1086,7 @@ public NetworkServer Server</code></pre>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="Mirage.INetworkConnection.html">INetworkConnection</a></td>
+        <td><a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a></td>
         <td><span class="parametername">ownerConnection</span></td>
         <td><p>The connection that has authority over the object</p>
 </td>
