@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/Components/NetworkLerpRigidbody.html",
-          "hash": "s8zKOmZNHhgMMsveYYOuwg=="
+          "hash": "8MxdCgzz4/uXXyCYFtLAPQ=="
         }
       },
       "is_incremental": false,
@@ -393,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/Components/NetworkRigidbody.html",
-          "hash": "PyTU5YX0dzF8M0KMZKOg3Q=="
+          "hash": "Qj1/KmCvISzOwBckhFgaWg=="
         }
       },
       "is_incremental": false,
@@ -416,7 +416,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/Components/NetworkRoomManager.html",
-          "hash": "WibUU8dDfJHZ6DWSbyYKXA=="
+          "hash": "AHNWHOsCtOV1S/QQ5T+JmQ=="
         }
       },
       "is_incremental": false,
@@ -462,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/Components/NetworkSceneChecker.html",
-          "hash": "fZQSQvRaNDzwXP5R7AwgkA=="
+          "hash": "V36MzJSSwdTieVp/+5kdMA=="
         }
       },
       "is_incremental": false,
@@ -531,7 +531,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/Components/NetworkTransform.html",
-          "hash": "Ezcepa/D00pHzr3LlBpL5Q=="
+          "hash": "HuGc3SBG/tIWDpzsxMjU0A=="
         }
       },
       "is_incremental": false,
@@ -566,7 +566,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/Components/index.html",
-          "hash": "Nym2uH+x2IULKOthWvMhuQ=="
+          "hash": "Zb/w1bFrm72O84XeIbVgtQ=="
         }
       },
       "is_incremental": false,
@@ -964,7 +964,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/General/Start.html",
-          "hash": "UsTT0s5vLhU4VBdPRtF/tg=="
+          "hash": "hJ/vVyAqsS1rI6INLZT75w=="
         }
       },
       "is_incremental": false,
@@ -1080,7 +1080,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/Guides/Authority.html",
-          "hash": "udTdcjAWGPA40IkO5OZO9A=="
+          "hash": "e1Uqf4mHIIubHRO+xTTrxA=="
         }
       },
       "is_incremental": false,
@@ -1116,7 +1116,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/Guides/Communications/NetworkBehaviourCallbacks.html",
-          "hash": "J5CWJf52dW2SQ5+enaLNZQ=="
+          "hash": "8QXBmbJSOD79t3cxDWc4Dw=="
         }
       },
       "is_incremental": false,
@@ -1152,7 +1152,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/Guides/Communications/RemoteActions.html",
-          "hash": "Hm+Op90H4jT8rIl93WVPcg=="
+          "hash": "CPXc+jBSuuBipv/denxXng=="
         }
       },
       "is_incremental": false,
@@ -1832,7 +1832,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/Guides/GameObjects/Lifecycle.html",
-          "hash": "8l5bJ2KPcc5wtfSJVvTFfw=="
+          "hash": "pGez4zZBJh2PRgvdEHxzqQ=="
         }
       },
       "is_incremental": false,
@@ -1867,7 +1867,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/Guides/GameObjects/PickupDropChild.html",
-          "hash": "Vs8F6aD2mtlPZfqEz72UgA=="
+          "hash": "rZatva3BFrbZtOPr/F1ATw=="
         }
       },
       "is_incremental": false,
@@ -1879,7 +1879,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/Guides/GameObjects/SceneObjects.html",
-          "hash": "CzcjEuQGCiwwnYL8X2bW2w=="
+          "hash": "6h7QoNfjmOvIJDj1xe6ymw=="
         }
       },
       "is_incremental": false,
@@ -1926,7 +1926,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/Guides/GameObjects/SpawnPlayer.html",
-          "hash": "9MMyL5TRTC6z4BiUAVYSOQ=="
+          "hash": "moS8OG62tbqM+qC/GOwMvw=="
         }
       },
       "is_incremental": false,
@@ -1938,7 +1938,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/Guides/GameObjects/SpawnPlayerCustom.html",
-          "hash": "cjAPPE7TNlE8a/hfFRQYQw=="
+          "hash": "xfSjyuiZcnkPL2xQGYgH3w=="
         }
       },
       "is_incremental": false,
@@ -2225,6 +2225,30 @@
         ".html": {
           "relative_path": "api/Mirage.Channel.html",
           "hash": "YKgU/rbPnHI2D8FIFu6/ZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mirage.CharacterSpawner.PlayerSpawnMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mirage.CharacterSpawner.PlayerSpawnMethod.html",
+          "hash": "ZGKm7SCX0FrtnRFh7wBJzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mirage.CharacterSpawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mirage.CharacterSpawner.html",
+          "hash": "0Rs3ezGKLe3ReGUXEn7G1A=="
         }
       },
       "is_incremental": false,
@@ -3516,30 +3540,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Mirage.PlayerSpawner.PlayerSpawnMethod.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Mirage.PlayerSpawner.PlayerSpawnMethod.html",
-          "hash": "j7oLWBJtPIMURtw2ON3nKw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Mirage.PlayerSpawner.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Mirage.PlayerSpawner.html",
-          "hash": "oxPlpZM1XVwv3/hb0Llvaw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Mirage.PooledNetworkReader.yml",
       "output": {
         ".html": {
@@ -4012,7 +4012,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirage.html",
-          "hash": "v8MhPYTQXEx11uBu61XlJw=="
+          "hash": "OfqgIfZ4YTQ4EOCO4+6CmQ=="
         }
       },
       "is_incremental": false,
@@ -4036,7 +4036,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "I4B3oHH1a17s35mYwM88lQ=="
+          "hash": "+eAQrzcL7CoWlUt/TReGSQ=="
         }
       },
       "is_incremental": false,
