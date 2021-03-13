@@ -7571,19 +7571,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkVisibility.OnRebuildObservers
   nameWithType: NetworkVisibility.OnRebuildObservers
-- uid: Mirage.NetworkVisibility.OnSetHostVisibility(System.Boolean)
-  name: OnSetHostVisibility(Boolean)
-  href: api/Mirage.NetworkVisibility.html#Mirage_NetworkVisibility_OnSetHostVisibility_System_Boolean_
-  commentId: M:Mirage.NetworkVisibility.OnSetHostVisibility(System.Boolean)
-  fullName: Mirage.NetworkVisibility.OnSetHostVisibility(System.Boolean)
-  nameWithType: NetworkVisibility.OnSetHostVisibility(Boolean)
-- uid: Mirage.NetworkVisibility.OnSetHostVisibility*
-  name: OnSetHostVisibility
-  href: api/Mirage.NetworkVisibility.html#Mirage_NetworkVisibility_OnSetHostVisibility_
-  commentId: Overload:Mirage.NetworkVisibility.OnSetHostVisibility
-  isSpec: "True"
-  fullName: Mirage.NetworkVisibility.OnSetHostVisibility
-  nameWithType: NetworkVisibility.OnSetHostVisibility
 - uid: Mirage.NetworkWriter
   name: NetworkWriter
   href: api/Mirage.NetworkWriter.html
