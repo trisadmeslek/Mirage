@@ -1733,19 +1733,6 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkPlayer.Connection
   nameWithType: INetworkPlayer.Connection
-- uid: Mirage.INetworkPlayer.IsReady
-  name: IsReady
-  href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_IsReady
-  commentId: P:Mirage.INetworkPlayer.IsReady
-  fullName: Mirage.INetworkPlayer.IsReady
-  nameWithType: INetworkPlayer.IsReady
-- uid: Mirage.INetworkPlayer.IsReady*
-  name: IsReady
-  href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_IsReady_
-  commentId: Overload:Mirage.INetworkPlayer.IsReady
-  isSpec: "True"
-  fullName: Mirage.INetworkPlayer.IsReady
-  nameWithType: INetworkPlayer.IsReady
 - uid: Mirage.INetworkSceneManager
   name: INetworkSceneManager
   href: api/Mirage.INetworkSceneManager.html
@@ -2178,6 +2165,25 @@ references:
   isSpec: "True"
   fullName: Mirage.IObjectOwner.RemoveOwnedObject
   nameWithType: IObjectOwner.RemoveOwnedObject
+- uid: Mirage.ISceneLoader
+  name: ISceneLoader
+  href: api/Mirage.ISceneLoader.html
+  commentId: T:Mirage.ISceneLoader
+  fullName: Mirage.ISceneLoader
+  nameWithType: ISceneLoader
+- uid: Mirage.ISceneLoader.IsReady
+  name: IsReady
+  href: api/Mirage.ISceneLoader.html#Mirage_ISceneLoader_IsReady
+  commentId: P:Mirage.ISceneLoader.IsReady
+  fullName: Mirage.ISceneLoader.IsReady
+  nameWithType: ISceneLoader.IsReady
+- uid: Mirage.ISceneLoader.IsReady*
+  name: IsReady
+  href: api/Mirage.ISceneLoader.html#Mirage_ISceneLoader_IsReady_
+  commentId: Overload:Mirage.ISceneLoader.IsReady
+  isSpec: "True"
+  fullName: Mirage.ISceneLoader.IsReady
+  nameWithType: ISceneLoader.IsReady
 - uid: Mirage.IServerObjectManager
   name: IServerObjectManager
   href: api/Mirage.IServerObjectManager.html
@@ -5810,15 +5816,6 @@ references:
   fullName.vb: Mirage.NetworkPlayer.Send(Of T)(T, System.Int32)
   nameWithType: NetworkPlayer.Send<T>(T, Int32)
   nameWithType.vb: NetworkPlayer.Send(Of T)(T, Int32)
-- uid: Mirage.NetworkPlayer.Send``1(System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer},``0,System.Int32)
-  name: Send<T>(IEnumerable<INetworkPlayer>, T, Int32)
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Send__1_System_Collections_Generic_IEnumerable_Mirage_INetworkPlayer____0_System_Int32_
-  commentId: M:Mirage.NetworkPlayer.Send``1(System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer},``0,System.Int32)
-  name.vb: Send(Of T)(IEnumerable(Of INetworkPlayer), T, Int32)
-  fullName: Mirage.NetworkPlayer.Send<T>(System.Collections.Generic.IEnumerable<Mirage.INetworkPlayer>, T, System.Int32)
-  fullName.vb: Mirage.NetworkPlayer.Send(Of T)(System.Collections.Generic.IEnumerable(Of Mirage.INetworkPlayer), T, System.Int32)
-  nameWithType: NetworkPlayer.Send<T>(IEnumerable<INetworkPlayer>, T, Int32)
-  nameWithType.vb: NetworkPlayer.Send(Of T)(IEnumerable(Of INetworkPlayer), T, Int32)
 - uid: Mirage.NetworkPlayer.SendNotify*
   name: SendNotify
   href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_SendNotify_
@@ -7155,6 +7152,22 @@ references:
   fullName.vb: Mirage.NetworkServer.SendToAll(Of T)(T, System.Int32)
   nameWithType: NetworkServer.SendToAll<T>(T, Int32)
   nameWithType.vb: NetworkServer.SendToAll(Of T)(T, Int32)
+- uid: Mirage.NetworkServer.SendToMany*
+  name: SendToMany
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_SendToMany_
+  commentId: Overload:Mirage.NetworkServer.SendToMany
+  isSpec: "True"
+  fullName: Mirage.NetworkServer.SendToMany
+  nameWithType: NetworkServer.SendToMany
+- uid: Mirage.NetworkServer.SendToMany``1(System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer},``0,System.Int32)
+  name: SendToMany<T>(IEnumerable<INetworkPlayer>, T, Int32)
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_SendToMany__1_System_Collections_Generic_IEnumerable_Mirage_INetworkPlayer____0_System_Int32_
+  commentId: M:Mirage.NetworkServer.SendToMany``1(System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer},``0,System.Int32)
+  name.vb: SendToMany(Of T)(IEnumerable(Of INetworkPlayer), T, Int32)
+  fullName: Mirage.NetworkServer.SendToMany<T>(System.Collections.Generic.IEnumerable<Mirage.INetworkPlayer>, T, System.Int32)
+  fullName.vb: Mirage.NetworkServer.SendToMany(Of T)(System.Collections.Generic.IEnumerable(Of Mirage.INetworkPlayer), T, System.Int32)
+  nameWithType: NetworkServer.SendToMany<T>(IEnumerable<INetworkPlayer>, T, Int32)
+  nameWithType.vb: NetworkServer.SendToMany(Of T)(IEnumerable(Of INetworkPlayer), T, Int32)
 - uid: Mirage.NetworkServer.Started
   name: Started
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Started

@@ -2608,7 +2608,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirage.INetworkPlayer.html",
-          "hash": "c5b+2ZeYWwCrwyT+9W7aJg=="
+          "hash": "O2tErXyYX6NFkMDNBQ+t8A=="
         }
       },
       "is_incremental": false,
@@ -2681,6 +2681,18 @@
         ".html": {
           "relative_path": "api/Mirage.IObjectOwner.html",
           "hash": "zpqwiQMLZUr9OTVV2FGb/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mirage.ISceneLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mirage.ISceneLoader.html",
+          "hash": "N4CWgvHXeitSoiVisCoghQ=="
         }
       },
       "is_incremental": false,
@@ -3232,7 +3244,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirage.NetworkPlayer.html",
-          "hash": "e42YhOBFmMoy9enwglxAqQ=="
+          "hash": "6t8jbQHkUGsRC+/VO5iqtg=="
         }
       },
       "is_incremental": false,
@@ -3328,7 +3340,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirage.NetworkServer.html",
-          "hash": "CjFD4+c1yVm8KiIWCqPwUw=="
+          "hash": "WuO0GyQuW7mjpC/8ZRzzvg=="
         }
       },
       "is_incremental": false,
@@ -4024,7 +4036,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirage.html",
-          "hash": "1Nelqq8V6ytF1aHq18GUog=="
+          "hash": "MZzAnH3yHLxaYhDEm8gxWQ=="
         }
       },
       "is_incremental": false,
@@ -4048,7 +4060,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "95vIo7sDDE2SOl5Y4HryJA=="
+          "hash": "N/DnnJtYyCRxiniiCb2K+Q=="
         }
       },
       "is_incremental": false,
@@ -4143,7 +4155,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 157,
+          "total_file_count": 158,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

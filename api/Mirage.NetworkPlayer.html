@@ -104,6 +104,7 @@
     <div><a class="xref" href="Mirage.IVisibilityTracker.html">IVisibilityTracker</a></div>
     <div><a class="xref" href="Mirage.IObjectOwner.html">IObjectOwner</a></div>
     <div><a class="xref" href="Mirage.IAuthenticatedObject.html">IAuthenticatedObject</a></div>
+    <div><a class="xref" href="Mirage.ISceneLoader.html">ISceneLoader</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -130,7 +131,7 @@
   <h6><strong>Assembly</strong>: Mirage.dll</h6>
   <h5 id="Mirage_NetworkPlayer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class NetworkPlayer : INetworkPlayer, IMessageHandler, IMessageSender, IMessageReceiver, INotifySender, INotifyReceiver, IVisibilityTracker, IObjectOwner, IAuthenticatedObject</code></pre>
+    <pre><code class="lang-csharp hljs">public class NetworkPlayer : INetworkPlayer, IMessageHandler, IMessageSender, IMessageReceiver, INotifySender, INotifyReceiver, IVisibilityTracker, IObjectOwner, IAuthenticatedObject, ISceneLoader</code></pre>
   </div>
   <h5 id="Mirage_NetworkPlayer_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>A NetworkConnection corresponds to a specific connection for a host in the transport layer. It has a connectionId that is assigned by the transport layer and passed to the Initialize function.</p>
@@ -672,58 +673,6 @@ associated with the connection for reference after Authentication completes.</p>
   </table>
   
   
-  <a id="Mirage_NetworkPlayer_Send_" data-uid="Mirage.NetworkPlayer.Send*"></a>
-  <h4 id="Mirage_NetworkPlayer_Send__1_System_Collections_Generic_IEnumerable_Mirage_INetworkPlayer____0_System_Int32_" data-uid="Mirage.NetworkPlayer.Send``1(System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer},``0,System.Int32)">Send&lt;T&gt;(IEnumerable&lt;INetworkPlayer&gt;, T, Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Send&lt;T&gt;(IEnumerable&lt;INetworkPlayer&gt; connections, T msg, int channelId = 0)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a>&gt;</td>
-        <td><span class="parametername">connections</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">msg</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">channelId</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Mirage_NetworkPlayer_SendNotify_" data-uid="Mirage.NetworkPlayer.SendNotify*"></a>
   <h4 id="Mirage_NetworkPlayer_SendNotify__1___0_System_Object_System_Int32_" data-uid="Mirage.NetworkPlayer.SendNotify``1(``0,System.Object,System.Int32)">SendNotify&lt;T&gt;(T, Object, Int32)</h4>
   <div class="markdown level1 summary"><p>Sends a message, but notify when it is delivered or lost</p>
@@ -911,6 +860,9 @@ associated with the connection for reference after Authentication completes.</p>
   </div>
   <div>
       <a class="xref" href="Mirage.IAuthenticatedObject.html">IAuthenticatedObject</a>
+  </div>
+  <div>
+      <a class="xref" href="Mirage.ISceneLoader.html">ISceneLoader</a>
   </div>
 </article>
           </div>
