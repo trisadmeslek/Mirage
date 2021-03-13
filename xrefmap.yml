@@ -1727,6 +1727,19 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkPlayer.AuthenticationData
   nameWithType: INetworkPlayer.AuthenticationData
+- uid: Mirage.INetworkPlayer.Connection
+  name: Connection
+  href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_Connection
+  commentId: P:Mirage.INetworkPlayer.Connection
+  fullName: Mirage.INetworkPlayer.Connection
+  nameWithType: INetworkPlayer.Connection
+- uid: Mirage.INetworkPlayer.Connection*
+  name: Connection
+  href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_Connection_
+  commentId: Overload:Mirage.INetworkPlayer.Connection
+  isSpec: "True"
+  fullName: Mirage.INetworkPlayer.Connection
+  nameWithType: INetworkPlayer.Connection
 - uid: Mirage.INetworkPlayer.Disconnect
   name: Disconnect()
   href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_Disconnect
@@ -5645,6 +5658,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkPlayer.ClearHandlers
   nameWithType: NetworkPlayer.ClearHandlers
+- uid: Mirage.NetworkPlayer.Connection
+  name: Connection
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Connection
+  commentId: P:Mirage.NetworkPlayer.Connection
+  fullName: Mirage.NetworkPlayer.Connection
+  nameWithType: NetworkPlayer.Connection
+- uid: Mirage.NetworkPlayer.Connection*
+  name: Connection
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Connection_
+  commentId: Overload:Mirage.NetworkPlayer.Connection
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.Connection
+  nameWithType: NetworkPlayer.Connection
 - uid: Mirage.NetworkPlayer.DestroyOwnedObjects
   name: DestroyOwnedObjects()
   href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_DestroyOwnedObjects
