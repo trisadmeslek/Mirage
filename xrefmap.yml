@@ -1740,19 +1740,6 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkPlayer.Connection
   nameWithType: INetworkPlayer.Connection
-- uid: Mirage.INetworkPlayer.Disconnect
-  name: Disconnect()
-  href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_Disconnect
-  commentId: M:Mirage.INetworkPlayer.Disconnect
-  fullName: Mirage.INetworkPlayer.Disconnect()
-  nameWithType: INetworkPlayer.Disconnect()
-- uid: Mirage.INetworkPlayer.Disconnect*
-  name: Disconnect
-  href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_Disconnect_
-  commentId: Overload:Mirage.INetworkPlayer.Disconnect
-  isSpec: "True"
-  fullName: Mirage.INetworkPlayer.Disconnect
-  nameWithType: INetworkPlayer.Disconnect
 - uid: Mirage.INetworkPlayer.IsReady
   name: IsReady
   href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_IsReady
@@ -5684,19 +5671,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkPlayer.DestroyOwnedObjects
   nameWithType: NetworkPlayer.DestroyOwnedObjects
-- uid: Mirage.NetworkPlayer.Disconnect
-  name: Disconnect()
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Disconnect
-  commentId: M:Mirage.NetworkPlayer.Disconnect
-  fullName: Mirage.NetworkPlayer.Disconnect()
-  nameWithType: NetworkPlayer.Disconnect()
-- uid: Mirage.NetworkPlayer.Disconnect*
-  name: Disconnect
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Disconnect_
-  commentId: Overload:Mirage.NetworkPlayer.Disconnect
-  isSpec: "True"
-  fullName: Mirage.NetworkPlayer.Disconnect
-  nameWithType: NetworkPlayer.Disconnect
 - uid: Mirage.NetworkPlayer.Identity
   name: Identity
   href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Identity
