@@ -1701,19 +1701,6 @@ references:
   commentId: T:Mirage.INetworkPlayer
   fullName: Mirage.INetworkPlayer
   nameWithType: INetworkPlayer
-- uid: Mirage.INetworkPlayer.Address
-  name: Address
-  href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_Address
-  commentId: P:Mirage.INetworkPlayer.Address
-  fullName: Mirage.INetworkPlayer.Address
-  nameWithType: INetworkPlayer.Address
-- uid: Mirage.INetworkPlayer.Address*
-  name: Address
-  href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_Address_
-  commentId: Overload:Mirage.INetworkPlayer.Address
-  isSpec: "True"
-  fullName: Mirage.INetworkPlayer.Address
-  nameWithType: INetworkPlayer.Address
 - uid: Mirage.INetworkPlayer.AuthenticationData
   name: AuthenticationData
   href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_AuthenticationData
