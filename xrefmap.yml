@@ -1176,6 +1176,25 @@ references:
   isSpec: "True"
   fullName: Mirage.HeadlessFrameLimiter.Start
   nameWithType: HeadlessFrameLimiter.Start
+- uid: Mirage.IAuthenticatedObject
+  name: IAuthenticatedObject
+  href: api/Mirage.IAuthenticatedObject.html
+  commentId: T:Mirage.IAuthenticatedObject
+  fullName: Mirage.IAuthenticatedObject
+  nameWithType: IAuthenticatedObject
+- uid: Mirage.IAuthenticatedObject.AuthenticationData
+  name: AuthenticationData
+  href: api/Mirage.IAuthenticatedObject.html#Mirage_IAuthenticatedObject_AuthenticationData
+  commentId: P:Mirage.IAuthenticatedObject.AuthenticationData
+  fullName: Mirage.IAuthenticatedObject.AuthenticationData
+  nameWithType: IAuthenticatedObject.AuthenticationData
+- uid: Mirage.IAuthenticatedObject.AuthenticationData*
+  name: AuthenticationData
+  href: api/Mirage.IAuthenticatedObject.html#Mirage_IAuthenticatedObject_AuthenticationData_
+  commentId: Overload:Mirage.IAuthenticatedObject.AuthenticationData
+  isSpec: "True"
+  fullName: Mirage.IAuthenticatedObject.AuthenticationData
+  nameWithType: IAuthenticatedObject.AuthenticationData
 - uid: Mirage.IClientObjectManager
   name: IClientObjectManager
   href: api/Mirage.IClientObjectManager.html
@@ -1701,19 +1720,6 @@ references:
   commentId: T:Mirage.INetworkPlayer
   fullName: Mirage.INetworkPlayer
   nameWithType: INetworkPlayer
-- uid: Mirage.INetworkPlayer.AuthenticationData
-  name: AuthenticationData
-  href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_AuthenticationData
-  commentId: P:Mirage.INetworkPlayer.AuthenticationData
-  fullName: Mirage.INetworkPlayer.AuthenticationData
-  nameWithType: INetworkPlayer.AuthenticationData
-- uid: Mirage.INetworkPlayer.AuthenticationData*
-  name: AuthenticationData
-  href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_AuthenticationData_
-  commentId: Overload:Mirage.INetworkPlayer.AuthenticationData
-  isSpec: "True"
-  fullName: Mirage.INetworkPlayer.AuthenticationData
-  nameWithType: INetworkPlayer.AuthenticationData
 - uid: Mirage.INetworkPlayer.Connection
   name: Connection
   href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_Connection
