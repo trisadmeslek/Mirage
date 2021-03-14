@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "Articles/Components/NetworkLogSettings.html",
-          "hash": "7T/6oD5UD3pdBFMzoHWi7g=="
+          "hash": "mmVNoQlMjkP1EWKFOoOgZg=="
         }
       },
       "is_incremental": false,
@@ -2544,18 +2544,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Mirage.ILoggerExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Mirage.ILoggerExtensions.html",
-          "hash": "CJMNL+5lGrK/oPQGhTXDTg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Mirage.IMessageHandler.yml",
       "output": {
         ".html": {
@@ -2928,11 +2916,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Mirage.LogFactory.yml",
+      "source_relative_path": "api/Mirage.Logging.ILoggerExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Mirage.LogFactory.html",
-          "hash": "R+BdiKJxWj5TPymddsvlRw=="
+          "relative_path": "api/Mirage.Logging.ILoggerExtensions.html",
+          "hash": "DnSMxfJpxXfg2Cf+Iho11A=="
         }
       },
       "is_incremental": false,
@@ -2940,11 +2928,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Mirage.LogSettings.Level.yml",
+      "source_relative_path": "api/Mirage.Logging.LogFactory.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Mirage.LogSettings.Level.html",
-          "hash": "jWs32L1ASgfKkjNAmjnJXQ=="
+          "relative_path": "api/Mirage.Logging.LogFactory.html",
+          "hash": "gS8D3Q5Oa8fU/T79B0TjRw=="
         }
       },
       "is_incremental": false,
@@ -2952,11 +2940,35 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Mirage.LogSettings.yml",
+      "source_relative_path": "api/Mirage.Logging.LogSettings.Level.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Mirage.LogSettings.html",
-          "hash": "5so/p/mKb+c6bNz5oEqeQg=="
+          "relative_path": "api/Mirage.Logging.LogSettings.Level.html",
+          "hash": "jRv4WD7sNpXKVa3bZKoROw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mirage.Logging.LogSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mirage.Logging.LogSettings.html",
+          "hash": "5npDL7jHCUF1gIG+qeUDRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Mirage.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mirage.Logging.html",
+          "hash": "xV8uZgIoRzc+NZk7s3uWFA=="
         }
       },
       "is_incremental": false,
@@ -4036,7 +4048,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Mirage.html",
-          "hash": "MZzAnH3yHLxaYhDEm8gxWQ=="
+          "hash": "7v7yuizSt3K6NOKjxmCeow=="
         }
       },
       "is_incremental": false,
@@ -4060,7 +4072,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "N/DnnJtYyCRxiniiCb2K+Q=="
+          "hash": "ahuzHaBngsCIzR5hMyN5xA=="
         }
       },
       "is_incremental": false,
@@ -4155,7 +4167,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 158,
+          "total_file_count": 159,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

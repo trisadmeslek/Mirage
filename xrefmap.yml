@@ -1417,96 +1417,6 @@ references:
   isSpec: "True"
   fullName: Mirage.IConnection.Send
   nameWithType: IConnection.Send
-- uid: Mirage.ILoggerExtensions
-  name: ILoggerExtensions
-  href: api/Mirage.ILoggerExtensions.html
-  commentId: T:Mirage.ILoggerExtensions
-  fullName: Mirage.ILoggerExtensions
-  nameWithType: ILoggerExtensions
-- uid: Mirage.ILoggerExtensions.Assert(UnityEngine.ILogger,System.Boolean)
-  name: Assert(ILogger, Boolean)
-  href: api/Mirage.ILoggerExtensions.html#Mirage_ILoggerExtensions_Assert_UnityEngine_ILogger_System_Boolean_
-  commentId: M:Mirage.ILoggerExtensions.Assert(UnityEngine.ILogger,System.Boolean)
-  fullName: Mirage.ILoggerExtensions.Assert(UnityEngine.ILogger, System.Boolean)
-  nameWithType: ILoggerExtensions.Assert(ILogger, Boolean)
-- uid: Mirage.ILoggerExtensions.Assert(UnityEngine.ILogger,System.Boolean,System.Object)
-  name: Assert(ILogger, Boolean, Object)
-  href: api/Mirage.ILoggerExtensions.html#Mirage_ILoggerExtensions_Assert_UnityEngine_ILogger_System_Boolean_System_Object_
-  commentId: M:Mirage.ILoggerExtensions.Assert(UnityEngine.ILogger,System.Boolean,System.Object)
-  fullName: Mirage.ILoggerExtensions.Assert(UnityEngine.ILogger, System.Boolean, System.Object)
-  nameWithType: ILoggerExtensions.Assert(ILogger, Boolean, Object)
-- uid: Mirage.ILoggerExtensions.Assert*
-  name: Assert
-  href: api/Mirage.ILoggerExtensions.html#Mirage_ILoggerExtensions_Assert_
-  commentId: Overload:Mirage.ILoggerExtensions.Assert
-  isSpec: "True"
-  fullName: Mirage.ILoggerExtensions.Assert
-  nameWithType: ILoggerExtensions.Assert
-- uid: Mirage.ILoggerExtensions.ErrorEnabled(UnityEngine.ILogger)
-  name: ErrorEnabled(ILogger)
-  href: api/Mirage.ILoggerExtensions.html#Mirage_ILoggerExtensions_ErrorEnabled_UnityEngine_ILogger_
-  commentId: M:Mirage.ILoggerExtensions.ErrorEnabled(UnityEngine.ILogger)
-  fullName: Mirage.ILoggerExtensions.ErrorEnabled(UnityEngine.ILogger)
-  nameWithType: ILoggerExtensions.ErrorEnabled(ILogger)
-- uid: Mirage.ILoggerExtensions.ErrorEnabled*
-  name: ErrorEnabled
-  href: api/Mirage.ILoggerExtensions.html#Mirage_ILoggerExtensions_ErrorEnabled_
-  commentId: Overload:Mirage.ILoggerExtensions.ErrorEnabled
-  isSpec: "True"
-  fullName: Mirage.ILoggerExtensions.ErrorEnabled
-  nameWithType: ILoggerExtensions.ErrorEnabled
-- uid: Mirage.ILoggerExtensions.LogEnabled(UnityEngine.ILogger)
-  name: LogEnabled(ILogger)
-  href: api/Mirage.ILoggerExtensions.html#Mirage_ILoggerExtensions_LogEnabled_UnityEngine_ILogger_
-  commentId: M:Mirage.ILoggerExtensions.LogEnabled(UnityEngine.ILogger)
-  fullName: Mirage.ILoggerExtensions.LogEnabled(UnityEngine.ILogger)
-  nameWithType: ILoggerExtensions.LogEnabled(ILogger)
-- uid: Mirage.ILoggerExtensions.LogEnabled*
-  name: LogEnabled
-  href: api/Mirage.ILoggerExtensions.html#Mirage_ILoggerExtensions_LogEnabled_
-  commentId: Overload:Mirage.ILoggerExtensions.LogEnabled
-  isSpec: "True"
-  fullName: Mirage.ILoggerExtensions.LogEnabled
-  nameWithType: ILoggerExtensions.LogEnabled
-- uid: Mirage.ILoggerExtensions.LogError(UnityEngine.ILogger,System.Object)
-  name: LogError(ILogger, Object)
-  href: api/Mirage.ILoggerExtensions.html#Mirage_ILoggerExtensions_LogError_UnityEngine_ILogger_System_Object_
-  commentId: M:Mirage.ILoggerExtensions.LogError(UnityEngine.ILogger,System.Object)
-  fullName: Mirage.ILoggerExtensions.LogError(UnityEngine.ILogger, System.Object)
-  nameWithType: ILoggerExtensions.LogError(ILogger, Object)
-- uid: Mirage.ILoggerExtensions.LogError*
-  name: LogError
-  href: api/Mirage.ILoggerExtensions.html#Mirage_ILoggerExtensions_LogError_
-  commentId: Overload:Mirage.ILoggerExtensions.LogError
-  isSpec: "True"
-  fullName: Mirage.ILoggerExtensions.LogError
-  nameWithType: ILoggerExtensions.LogError
-- uid: Mirage.ILoggerExtensions.LogWarning(UnityEngine.ILogger,System.Object)
-  name: LogWarning(ILogger, Object)
-  href: api/Mirage.ILoggerExtensions.html#Mirage_ILoggerExtensions_LogWarning_UnityEngine_ILogger_System_Object_
-  commentId: M:Mirage.ILoggerExtensions.LogWarning(UnityEngine.ILogger,System.Object)
-  fullName: Mirage.ILoggerExtensions.LogWarning(UnityEngine.ILogger, System.Object)
-  nameWithType: ILoggerExtensions.LogWarning(ILogger, Object)
-- uid: Mirage.ILoggerExtensions.LogWarning*
-  name: LogWarning
-  href: api/Mirage.ILoggerExtensions.html#Mirage_ILoggerExtensions_LogWarning_
-  commentId: Overload:Mirage.ILoggerExtensions.LogWarning
-  isSpec: "True"
-  fullName: Mirage.ILoggerExtensions.LogWarning
-  nameWithType: ILoggerExtensions.LogWarning
-- uid: Mirage.ILoggerExtensions.WarnEnabled(UnityEngine.ILogger)
-  name: WarnEnabled(ILogger)
-  href: api/Mirage.ILoggerExtensions.html#Mirage_ILoggerExtensions_WarnEnabled_UnityEngine_ILogger_
-  commentId: M:Mirage.ILoggerExtensions.WarnEnabled(UnityEngine.ILogger)
-  fullName: Mirage.ILoggerExtensions.WarnEnabled(UnityEngine.ILogger)
-  nameWithType: ILoggerExtensions.WarnEnabled(ILogger)
-- uid: Mirage.ILoggerExtensions.WarnEnabled*
-  name: WarnEnabled
-  href: api/Mirage.ILoggerExtensions.html#Mirage_ILoggerExtensions_WarnEnabled_
-  commentId: Overload:Mirage.ILoggerExtensions.WarnEnabled
-  isSpec: "True"
-  fullName: Mirage.ILoggerExtensions.WarnEnabled
-  nameWithType: ILoggerExtensions.WarnEnabled
 - uid: Mirage.IMessageHandler
   name: IMessageHandler
   href: api/Mirage.IMessageHandler.html
@@ -3639,82 +3549,178 @@ references:
   commentId: F:Mirage.LocalPlayerAttribute.error
   fullName: Mirage.LocalPlayerAttribute.error
   nameWithType: LocalPlayerAttribute.error
-- uid: Mirage.LogFactory
-  name: LogFactory
-  href: api/Mirage.LogFactory.html
-  commentId: T:Mirage.LogFactory
-  fullName: Mirage.LogFactory
-  nameWithType: LogFactory
-- uid: Mirage.LogFactory.GetLogger(System.String,UnityEngine.LogType)
-  name: GetLogger(String, LogType)
-  href: api/Mirage.LogFactory.html#Mirage_LogFactory_GetLogger_System_String_UnityEngine_LogType_
-  commentId: M:Mirage.LogFactory.GetLogger(System.String,UnityEngine.LogType)
-  fullName: Mirage.LogFactory.GetLogger(System.String, UnityEngine.LogType)
-  nameWithType: LogFactory.GetLogger(String, LogType)
-- uid: Mirage.LogFactory.GetLogger(System.Type,UnityEngine.LogType)
-  name: GetLogger(Type, LogType)
-  href: api/Mirage.LogFactory.html#Mirage_LogFactory_GetLogger_System_Type_UnityEngine_LogType_
-  commentId: M:Mirage.LogFactory.GetLogger(System.Type,UnityEngine.LogType)
-  fullName: Mirage.LogFactory.GetLogger(System.Type, UnityEngine.LogType)
-  nameWithType: LogFactory.GetLogger(Type, LogType)
-- uid: Mirage.LogFactory.GetLogger*
-  name: GetLogger
-  href: api/Mirage.LogFactory.html#Mirage_LogFactory_GetLogger_
-  commentId: Overload:Mirage.LogFactory.GetLogger
+- uid: Mirage.Logging
+  name: Mirage.Logging
+  href: api/Mirage.Logging.html
+  commentId: N:Mirage.Logging
+  fullName: Mirage.Logging
+  nameWithType: Mirage.Logging
+- uid: Mirage.Logging.ILoggerExtensions
+  name: ILoggerExtensions
+  href: api/Mirage.Logging.ILoggerExtensions.html
+  commentId: T:Mirage.Logging.ILoggerExtensions
+  fullName: Mirage.Logging.ILoggerExtensions
+  nameWithType: ILoggerExtensions
+- uid: Mirage.Logging.ILoggerExtensions.Assert(UnityEngine.ILogger,System.Boolean)
+  name: Assert(ILogger, Boolean)
+  href: api/Mirage.Logging.ILoggerExtensions.html#Mirage_Logging_ILoggerExtensions_Assert_UnityEngine_ILogger_System_Boolean_
+  commentId: M:Mirage.Logging.ILoggerExtensions.Assert(UnityEngine.ILogger,System.Boolean)
+  fullName: Mirage.Logging.ILoggerExtensions.Assert(UnityEngine.ILogger, System.Boolean)
+  nameWithType: ILoggerExtensions.Assert(ILogger, Boolean)
+- uid: Mirage.Logging.ILoggerExtensions.Assert(UnityEngine.ILogger,System.Boolean,System.Object)
+  name: Assert(ILogger, Boolean, Object)
+  href: api/Mirage.Logging.ILoggerExtensions.html#Mirage_Logging_ILoggerExtensions_Assert_UnityEngine_ILogger_System_Boolean_System_Object_
+  commentId: M:Mirage.Logging.ILoggerExtensions.Assert(UnityEngine.ILogger,System.Boolean,System.Object)
+  fullName: Mirage.Logging.ILoggerExtensions.Assert(UnityEngine.ILogger, System.Boolean, System.Object)
+  nameWithType: ILoggerExtensions.Assert(ILogger, Boolean, Object)
+- uid: Mirage.Logging.ILoggerExtensions.Assert*
+  name: Assert
+  href: api/Mirage.Logging.ILoggerExtensions.html#Mirage_Logging_ILoggerExtensions_Assert_
+  commentId: Overload:Mirage.Logging.ILoggerExtensions.Assert
   isSpec: "True"
-  fullName: Mirage.LogFactory.GetLogger
+  fullName: Mirage.Logging.ILoggerExtensions.Assert
+  nameWithType: ILoggerExtensions.Assert
+- uid: Mirage.Logging.ILoggerExtensions.ErrorEnabled(UnityEngine.ILogger)
+  name: ErrorEnabled(ILogger)
+  href: api/Mirage.Logging.ILoggerExtensions.html#Mirage_Logging_ILoggerExtensions_ErrorEnabled_UnityEngine_ILogger_
+  commentId: M:Mirage.Logging.ILoggerExtensions.ErrorEnabled(UnityEngine.ILogger)
+  fullName: Mirage.Logging.ILoggerExtensions.ErrorEnabled(UnityEngine.ILogger)
+  nameWithType: ILoggerExtensions.ErrorEnabled(ILogger)
+- uid: Mirage.Logging.ILoggerExtensions.ErrorEnabled*
+  name: ErrorEnabled
+  href: api/Mirage.Logging.ILoggerExtensions.html#Mirage_Logging_ILoggerExtensions_ErrorEnabled_
+  commentId: Overload:Mirage.Logging.ILoggerExtensions.ErrorEnabled
+  isSpec: "True"
+  fullName: Mirage.Logging.ILoggerExtensions.ErrorEnabled
+  nameWithType: ILoggerExtensions.ErrorEnabled
+- uid: Mirage.Logging.ILoggerExtensions.LogEnabled(UnityEngine.ILogger)
+  name: LogEnabled(ILogger)
+  href: api/Mirage.Logging.ILoggerExtensions.html#Mirage_Logging_ILoggerExtensions_LogEnabled_UnityEngine_ILogger_
+  commentId: M:Mirage.Logging.ILoggerExtensions.LogEnabled(UnityEngine.ILogger)
+  fullName: Mirage.Logging.ILoggerExtensions.LogEnabled(UnityEngine.ILogger)
+  nameWithType: ILoggerExtensions.LogEnabled(ILogger)
+- uid: Mirage.Logging.ILoggerExtensions.LogEnabled*
+  name: LogEnabled
+  href: api/Mirage.Logging.ILoggerExtensions.html#Mirage_Logging_ILoggerExtensions_LogEnabled_
+  commentId: Overload:Mirage.Logging.ILoggerExtensions.LogEnabled
+  isSpec: "True"
+  fullName: Mirage.Logging.ILoggerExtensions.LogEnabled
+  nameWithType: ILoggerExtensions.LogEnabled
+- uid: Mirage.Logging.ILoggerExtensions.LogError(UnityEngine.ILogger,System.Object)
+  name: LogError(ILogger, Object)
+  href: api/Mirage.Logging.ILoggerExtensions.html#Mirage_Logging_ILoggerExtensions_LogError_UnityEngine_ILogger_System_Object_
+  commentId: M:Mirage.Logging.ILoggerExtensions.LogError(UnityEngine.ILogger,System.Object)
+  fullName: Mirage.Logging.ILoggerExtensions.LogError(UnityEngine.ILogger, System.Object)
+  nameWithType: ILoggerExtensions.LogError(ILogger, Object)
+- uid: Mirage.Logging.ILoggerExtensions.LogError*
+  name: LogError
+  href: api/Mirage.Logging.ILoggerExtensions.html#Mirage_Logging_ILoggerExtensions_LogError_
+  commentId: Overload:Mirage.Logging.ILoggerExtensions.LogError
+  isSpec: "True"
+  fullName: Mirage.Logging.ILoggerExtensions.LogError
+  nameWithType: ILoggerExtensions.LogError
+- uid: Mirage.Logging.ILoggerExtensions.LogWarning(UnityEngine.ILogger,System.Object)
+  name: LogWarning(ILogger, Object)
+  href: api/Mirage.Logging.ILoggerExtensions.html#Mirage_Logging_ILoggerExtensions_LogWarning_UnityEngine_ILogger_System_Object_
+  commentId: M:Mirage.Logging.ILoggerExtensions.LogWarning(UnityEngine.ILogger,System.Object)
+  fullName: Mirage.Logging.ILoggerExtensions.LogWarning(UnityEngine.ILogger, System.Object)
+  nameWithType: ILoggerExtensions.LogWarning(ILogger, Object)
+- uid: Mirage.Logging.ILoggerExtensions.LogWarning*
+  name: LogWarning
+  href: api/Mirage.Logging.ILoggerExtensions.html#Mirage_Logging_ILoggerExtensions_LogWarning_
+  commentId: Overload:Mirage.Logging.ILoggerExtensions.LogWarning
+  isSpec: "True"
+  fullName: Mirage.Logging.ILoggerExtensions.LogWarning
+  nameWithType: ILoggerExtensions.LogWarning
+- uid: Mirage.Logging.ILoggerExtensions.WarnEnabled(UnityEngine.ILogger)
+  name: WarnEnabled(ILogger)
+  href: api/Mirage.Logging.ILoggerExtensions.html#Mirage_Logging_ILoggerExtensions_WarnEnabled_UnityEngine_ILogger_
+  commentId: M:Mirage.Logging.ILoggerExtensions.WarnEnabled(UnityEngine.ILogger)
+  fullName: Mirage.Logging.ILoggerExtensions.WarnEnabled(UnityEngine.ILogger)
+  nameWithType: ILoggerExtensions.WarnEnabled(ILogger)
+- uid: Mirage.Logging.ILoggerExtensions.WarnEnabled*
+  name: WarnEnabled
+  href: api/Mirage.Logging.ILoggerExtensions.html#Mirage_Logging_ILoggerExtensions_WarnEnabled_
+  commentId: Overload:Mirage.Logging.ILoggerExtensions.WarnEnabled
+  isSpec: "True"
+  fullName: Mirage.Logging.ILoggerExtensions.WarnEnabled
+  nameWithType: ILoggerExtensions.WarnEnabled
+- uid: Mirage.Logging.LogFactory
+  name: LogFactory
+  href: api/Mirage.Logging.LogFactory.html
+  commentId: T:Mirage.Logging.LogFactory
+  fullName: Mirage.Logging.LogFactory
+  nameWithType: LogFactory
+- uid: Mirage.Logging.LogFactory.GetLogger(System.String,UnityEngine.LogType)
+  name: GetLogger(String, LogType)
+  href: api/Mirage.Logging.LogFactory.html#Mirage_Logging_LogFactory_GetLogger_System_String_UnityEngine_LogType_
+  commentId: M:Mirage.Logging.LogFactory.GetLogger(System.String,UnityEngine.LogType)
+  fullName: Mirage.Logging.LogFactory.GetLogger(System.String, UnityEngine.LogType)
+  nameWithType: LogFactory.GetLogger(String, LogType)
+- uid: Mirage.Logging.LogFactory.GetLogger(System.Type,UnityEngine.LogType)
+  name: GetLogger(Type, LogType)
+  href: api/Mirage.Logging.LogFactory.html#Mirage_Logging_LogFactory_GetLogger_System_Type_UnityEngine_LogType_
+  commentId: M:Mirage.Logging.LogFactory.GetLogger(System.Type,UnityEngine.LogType)
+  fullName: Mirage.Logging.LogFactory.GetLogger(System.Type, UnityEngine.LogType)
+  nameWithType: LogFactory.GetLogger(Type, LogType)
+- uid: Mirage.Logging.LogFactory.GetLogger*
+  name: GetLogger
+  href: api/Mirage.Logging.LogFactory.html#Mirage_Logging_LogFactory_GetLogger_
+  commentId: Overload:Mirage.Logging.LogFactory.GetLogger
+  isSpec: "True"
+  fullName: Mirage.Logging.LogFactory.GetLogger
   nameWithType: LogFactory.GetLogger
-- uid: Mirage.LogFactory.GetLogger``1(UnityEngine.LogType)
+- uid: Mirage.Logging.LogFactory.GetLogger``1(UnityEngine.LogType)
   name: GetLogger<T>(LogType)
-  href: api/Mirage.LogFactory.html#Mirage_LogFactory_GetLogger__1_UnityEngine_LogType_
-  commentId: M:Mirage.LogFactory.GetLogger``1(UnityEngine.LogType)
+  href: api/Mirage.Logging.LogFactory.html#Mirage_Logging_LogFactory_GetLogger__1_UnityEngine_LogType_
+  commentId: M:Mirage.Logging.LogFactory.GetLogger``1(UnityEngine.LogType)
   name.vb: GetLogger(Of T)(LogType)
-  fullName: Mirage.LogFactory.GetLogger<T>(UnityEngine.LogType)
-  fullName.vb: Mirage.LogFactory.GetLogger(Of T)(UnityEngine.LogType)
+  fullName: Mirage.Logging.LogFactory.GetLogger<T>(UnityEngine.LogType)
+  fullName.vb: Mirage.Logging.LogFactory.GetLogger(Of T)(UnityEngine.LogType)
   nameWithType: LogFactory.GetLogger<T>(LogType)
   nameWithType.vb: LogFactory.GetLogger(Of T)(LogType)
-- uid: Mirage.LogSettings
+- uid: Mirage.Logging.LogSettings
   name: LogSettings
-  href: api/Mirage.LogSettings.html
-  commentId: T:Mirage.LogSettings
-  fullName: Mirage.LogSettings
+  href: api/Mirage.Logging.LogSettings.html
+  commentId: T:Mirage.Logging.LogSettings
+  fullName: Mirage.Logging.LogSettings
   nameWithType: LogSettings
-- uid: Mirage.LogSettings.Level
+- uid: Mirage.Logging.LogSettings.Level
   name: LogSettings.Level
-  href: api/Mirage.LogSettings.Level.html
-  commentId: T:Mirage.LogSettings.Level
-  fullName: Mirage.LogSettings.Level
+  href: api/Mirage.Logging.LogSettings.Level.html
+  commentId: T:Mirage.Logging.LogSettings.Level
+  fullName: Mirage.Logging.LogSettings.Level
   nameWithType: LogSettings.Level
-- uid: Mirage.LogSettings.Level.level
+- uid: Mirage.Logging.LogSettings.Level.level
   name: level
-  href: api/Mirage.LogSettings.Level.html#Mirage_LogSettings_Level_level
-  commentId: F:Mirage.LogSettings.Level.level
-  fullName: Mirage.LogSettings.Level.level
+  href: api/Mirage.Logging.LogSettings.Level.html#Mirage_Logging_LogSettings_Level_level
+  commentId: F:Mirage.Logging.LogSettings.Level.level
+  fullName: Mirage.Logging.LogSettings.Level.level
   nameWithType: LogSettings.Level.level
-- uid: Mirage.LogSettings.Level.Name
+- uid: Mirage.Logging.LogSettings.Level.Name
   name: Name
-  href: api/Mirage.LogSettings.Level.html#Mirage_LogSettings_Level_Name
-  commentId: F:Mirage.LogSettings.Level.Name
-  fullName: Mirage.LogSettings.Level.Name
+  href: api/Mirage.Logging.LogSettings.Level.html#Mirage_Logging_LogSettings_Level_Name
+  commentId: F:Mirage.Logging.LogSettings.Level.Name
+  fullName: Mirage.Logging.LogSettings.Level.Name
   nameWithType: LogSettings.Level.Name
-- uid: Mirage.LogSettings.Levels
+- uid: Mirage.Logging.LogSettings.Levels
   name: Levels
-  href: api/Mirage.LogSettings.html#Mirage_LogSettings_Levels
-  commentId: F:Mirage.LogSettings.Levels
-  fullName: Mirage.LogSettings.Levels
+  href: api/Mirage.Logging.LogSettings.html#Mirage_Logging_LogSettings_Levels
+  commentId: F:Mirage.Logging.LogSettings.Levels
+  fullName: Mirage.Logging.LogSettings.Levels
   nameWithType: LogSettings.Levels
-- uid: Mirage.LogSettings.SetLogLevels
+- uid: Mirage.Logging.LogSettings.SetLogLevels
   name: SetLogLevels()
-  href: api/Mirage.LogSettings.html#Mirage_LogSettings_SetLogLevels
-  commentId: M:Mirage.LogSettings.SetLogLevels
-  fullName: Mirage.LogSettings.SetLogLevels()
+  href: api/Mirage.Logging.LogSettings.html#Mirage_Logging_LogSettings_SetLogLevels
+  commentId: M:Mirage.Logging.LogSettings.SetLogLevels
+  fullName: Mirage.Logging.LogSettings.SetLogLevels()
   nameWithType: LogSettings.SetLogLevels()
-- uid: Mirage.LogSettings.SetLogLevels*
+- uid: Mirage.Logging.LogSettings.SetLogLevels*
   name: SetLogLevels
-  href: api/Mirage.LogSettings.html#Mirage_LogSettings_SetLogLevels_
-  commentId: Overload:Mirage.LogSettings.SetLogLevels
+  href: api/Mirage.Logging.LogSettings.html#Mirage_Logging_LogSettings_SetLogLevels_
+  commentId: Overload:Mirage.Logging.LogSettings.SetLogLevels
   isSpec: "True"
-  fullName: Mirage.LogSettings.SetLogLevels
+  fullName: Mirage.Logging.LogSettings.SetLogLevels
   nameWithType: LogSettings.SetLogLevels
 - uid: Mirage.MessagePacker
   name: MessagePacker
