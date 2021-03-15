@@ -5647,24 +5647,6 @@ references:
   isSpec: "True"
   fullName: Mirage.MethodInvocationException.MethodInvocationException
   nameWithType: MethodInvocationException.MethodInvocationException
-- uid: Mirage.MirageInvokeType
-  name: MirageInvokeType
-  href: api/Mirage.MirageInvokeType.html
-  commentId: T:Mirage.MirageInvokeType
-  fullName: Mirage.MirageInvokeType
-  nameWithType: MirageInvokeType
-- uid: Mirage.MirageInvokeType.ClientRpc
-  name: ClientRpc
-  href: api/Mirage.MirageInvokeType.html#Mirage_MirageInvokeType_ClientRpc
-  commentId: F:Mirage.MirageInvokeType.ClientRpc
-  fullName: Mirage.MirageInvokeType.ClientRpc
-  nameWithType: MirageInvokeType.ClientRpc
-- uid: Mirage.MirageInvokeType.ServerRpc
-  name: ServerRpc
-  href: api/Mirage.MirageInvokeType.html#Mirage_MirageInvokeType_ServerRpc
-  commentId: F:Mirage.MirageInvokeType.ServerRpc
-  fullName: Mirage.MirageInvokeType.ServerRpc
-  nameWithType: MirageInvokeType.ServerRpc
 - uid: Mirage.MultiplexTransport
   name: MultiplexTransport
   href: api/Mirage.MultiplexTransport.html
@@ -8860,12 +8842,12 @@ references:
   isSpec: "True"
   fullName: Mirage.RemoteCalls.RemoteCallHelper.GetDelegate
   nameWithType: RemoteCallHelper.GetDelegate
-- uid: Mirage.RemoteCalls.RemoteCallHelper.RegisterDelegate(System.Type,System.String,Mirage.MirageInvokeType,Mirage.RemoteCalls.CmdDelegate,System.Boolean)
-  name: RegisterDelegate(Type, String, MirageInvokeType, CmdDelegate, Boolean)
-  href: api/Mirage.RemoteCalls.RemoteCallHelper.html#Mirage_RemoteCalls_RemoteCallHelper_RegisterDelegate_System_Type_System_String_Mirage_MirageInvokeType_Mirage_RemoteCalls_CmdDelegate_System_Boolean_
-  commentId: M:Mirage.RemoteCalls.RemoteCallHelper.RegisterDelegate(System.Type,System.String,Mirage.MirageInvokeType,Mirage.RemoteCalls.CmdDelegate,System.Boolean)
-  fullName: Mirage.RemoteCalls.RemoteCallHelper.RegisterDelegate(System.Type, System.String, Mirage.MirageInvokeType, Mirage.RemoteCalls.CmdDelegate, System.Boolean)
-  nameWithType: RemoteCallHelper.RegisterDelegate(Type, String, MirageInvokeType, CmdDelegate, Boolean)
+- uid: Mirage.RemoteCalls.RemoteCallHelper.RegisterDelegate(System.Type,System.String,Mirage.RemoteCalls.RpcInvokeType,Mirage.RemoteCalls.CmdDelegate,System.Boolean)
+  name: RegisterDelegate(Type, String, RpcInvokeType, CmdDelegate, Boolean)
+  href: api/Mirage.RemoteCalls.RemoteCallHelper.html#Mirage_RemoteCalls_RemoteCallHelper_RegisterDelegate_System_Type_System_String_Mirage_RemoteCalls_RpcInvokeType_Mirage_RemoteCalls_CmdDelegate_System_Boolean_
+  commentId: M:Mirage.RemoteCalls.RemoteCallHelper.RegisterDelegate(System.Type,System.String,Mirage.RemoteCalls.RpcInvokeType,Mirage.RemoteCalls.CmdDelegate,System.Boolean)
+  fullName: Mirage.RemoteCalls.RemoteCallHelper.RegisterDelegate(System.Type, System.String, Mirage.RemoteCalls.RpcInvokeType, Mirage.RemoteCalls.CmdDelegate, System.Boolean)
+  nameWithType: RemoteCallHelper.RegisterDelegate(Type, String, RpcInvokeType, CmdDelegate, Boolean)
 - uid: Mirage.RemoteCalls.RemoteCallHelper.RegisterDelegate*
   name: RegisterDelegate
   href: api/Mirage.RemoteCalls.RemoteCallHelper.html#Mirage_RemoteCalls_RemoteCallHelper_RegisterDelegate_
@@ -8924,6 +8906,24 @@ references:
   fullName.vb: Mirage.RemoteCalls.RequestDelegate(Of T)
   nameWithType: RequestDelegate<T>
   nameWithType.vb: RequestDelegate(Of T)
+- uid: Mirage.RemoteCalls.RpcInvokeType
+  name: RpcInvokeType
+  href: api/Mirage.RemoteCalls.RpcInvokeType.html
+  commentId: T:Mirage.RemoteCalls.RpcInvokeType
+  fullName: Mirage.RemoteCalls.RpcInvokeType
+  nameWithType: RpcInvokeType
+- uid: Mirage.RemoteCalls.RpcInvokeType.ClientRpc
+  name: ClientRpc
+  href: api/Mirage.RemoteCalls.RpcInvokeType.html#Mirage_RemoteCalls_RpcInvokeType_ClientRpc
+  commentId: F:Mirage.RemoteCalls.RpcInvokeType.ClientRpc
+  fullName: Mirage.RemoteCalls.RpcInvokeType.ClientRpc
+  nameWithType: RpcInvokeType.ClientRpc
+- uid: Mirage.RemoteCalls.RpcInvokeType.ServerRpc
+  name: ServerRpc
+  href: api/Mirage.RemoteCalls.RpcInvokeType.html#Mirage_RemoteCalls_RpcInvokeType_ServerRpc
+  commentId: F:Mirage.RemoteCalls.RpcInvokeType.ServerRpc
+  fullName: Mirage.RemoteCalls.RpcInvokeType.ServerRpc
+  nameWithType: RpcInvokeType.ServerRpc
 - uid: Mirage.RpcMessage
   name: RpcMessage
   href: api/Mirage.RpcMessage.html
