@@ -7,12 +7,12 @@ references:
   commentId: N:Mirage
   fullName: Mirage
   nameWithType: Mirage
-- uid: Mirage.AddPlayerMessage
-  name: AddPlayerMessage
-  href: api/Mirage.AddPlayerMessage.html
-  commentId: T:Mirage.AddPlayerMessage
-  fullName: Mirage.AddPlayerMessage
-  nameWithType: AddPlayerMessage
+- uid: Mirage.AddCharacterMessage
+  name: AddCharacterMessage
+  href: api/Mirage.AddCharacterMessage.html
+  commentId: T:Mirage.AddCharacterMessage
+  fullName: Mirage.AddCharacterMessage
+  nameWithType: AddCharacterMessage
 - uid: Mirage.Authenticators
   name: Mirage.Authenticators
   href: api/Mirage.Authenticators.html
@@ -355,12 +355,6 @@ references:
   commentId: T:Mirage.Client
   fullName: Mirage.Client
   nameWithType: Client
-- uid: Mirage.Client.Connection
-  name: Connection
-  href: api/Mirage.Client.html#Mirage_Client_Connection
-  commentId: F:Mirage.Client.Connection
-  fullName: Mirage.Client.Connection
-  nameWithType: Client.Connection
 - uid: Mirage.Client.Observers
   name: Observers
   href: api/Mirage.Client.html#Mirage_Client_Observers
@@ -373,6 +367,12 @@ references:
   commentId: F:Mirage.Client.Owner
   fullName: Mirage.Client.Owner
   nameWithType: Client.Owner
+- uid: Mirage.Client.Player
+  name: Player
+  href: api/Mirage.Client.html#Mirage_Client_Player
+  commentId: F:Mirage.Client.Player
+  fullName: Mirage.Client.Player
+  nameWithType: Client.Player
 - uid: Mirage.ClientAttribute
   name: ClientAttribute
   href: api/Mirage.ClientAttribute.html
@@ -3569,19 +3569,6 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkClient.Connected
   nameWithType: INetworkClient.Connected
-- uid: Mirage.INetworkClient.Connection
-  name: Connection
-  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Connection
-  commentId: P:Mirage.INetworkClient.Connection
-  fullName: Mirage.INetworkClient.Connection
-  nameWithType: INetworkClient.Connection
-- uid: Mirage.INetworkClient.Connection*
-  name: Connection
-  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Connection_
-  commentId: Overload:Mirage.INetworkClient.Connection
-  isSpec: "True"
-  fullName: Mirage.INetworkClient.Connection
-  nameWithType: INetworkClient.Connection
 - uid: Mirage.INetworkClient.Disconnect
   name: Disconnect()
   href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Disconnect
@@ -3621,6 +3608,19 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkClient.IsLocalClient
   nameWithType: INetworkClient.IsLocalClient
+- uid: Mirage.INetworkClient.Player
+  name: Player
+  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Player
+  commentId: P:Mirage.INetworkClient.Player
+  fullName: Mirage.INetworkClient.Player
+  nameWithType: INetworkClient.Player
+- uid: Mirage.INetworkClient.Player*
+  name: Player
+  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Player_
+  commentId: Overload:Mirage.INetworkClient.Player
+  isSpec: "True"
+  fullName: Mirage.INetworkClient.Player
+  nameWithType: INetworkClient.Player
 - uid: Mirage.INetworkPlayer
   name: INetworkPlayer
   href: api/Mirage.INetworkPlayer.html
@@ -3821,19 +3821,19 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkServer.LocalClientActive
   nameWithType: INetworkServer.LocalClientActive
-- uid: Mirage.INetworkServer.LocalConnection
-  name: LocalConnection
-  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_LocalConnection
-  commentId: P:Mirage.INetworkServer.LocalConnection
-  fullName: Mirage.INetworkServer.LocalConnection
-  nameWithType: INetworkServer.LocalConnection
-- uid: Mirage.INetworkServer.LocalConnection*
-  name: LocalConnection
-  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_LocalConnection_
-  commentId: Overload:Mirage.INetworkServer.LocalConnection
+- uid: Mirage.INetworkServer.LocalPlayer
+  name: LocalPlayer
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_LocalPlayer
+  commentId: P:Mirage.INetworkServer.LocalPlayer
+  fullName: Mirage.INetworkServer.LocalPlayer
+  nameWithType: INetworkServer.LocalPlayer
+- uid: Mirage.INetworkServer.LocalPlayer*
+  name: LocalPlayer
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_LocalPlayer_
+  commentId: Overload:Mirage.INetworkServer.LocalPlayer
   isSpec: "True"
-  fullName: Mirage.INetworkServer.LocalConnection
-  nameWithType: INetworkServer.LocalConnection
+  fullName: Mirage.INetworkServer.LocalPlayer
+  nameWithType: INetworkServer.LocalPlayer
 - uid: Mirage.INetworkServer.OnStartHost
   name: OnStartHost
   href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_OnStartHost
@@ -4097,25 +4097,25 @@ references:
   commentId: T:Mirage.IServerObjectManager
   fullName: Mirage.IServerObjectManager
   nameWithType: IServerObjectManager
-- uid: Mirage.IServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer,UnityEngine.GameObject)
-  name: AddPlayerForConnection(INetworkPlayer, GameObject)
-  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_AddPlayerForConnection_Mirage_INetworkPlayer_UnityEngine_GameObject_
-  commentId: M:Mirage.IServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer,UnityEngine.GameObject)
-  fullName: Mirage.IServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer, UnityEngine.GameObject)
-  nameWithType: IServerObjectManager.AddPlayerForConnection(INetworkPlayer, GameObject)
-- uid: Mirage.IServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Guid)
-  name: AddPlayerForConnection(INetworkPlayer, GameObject, Guid)
-  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_AddPlayerForConnection_Mirage_INetworkPlayer_UnityEngine_GameObject_System_Guid_
-  commentId: M:Mirage.IServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Guid)
-  fullName: Mirage.IServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer, UnityEngine.GameObject, System.Guid)
-  nameWithType: IServerObjectManager.AddPlayerForConnection(INetworkPlayer, GameObject, Guid)
-- uid: Mirage.IServerObjectManager.AddPlayerForConnection*
-  name: AddPlayerForConnection
-  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_AddPlayerForConnection_
-  commentId: Overload:Mirage.IServerObjectManager.AddPlayerForConnection
+- uid: Mirage.IServerObjectManager.AddCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject)
+  name: AddCharacter(INetworkPlayer, GameObject)
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_AddCharacter_Mirage_INetworkPlayer_UnityEngine_GameObject_
+  commentId: M:Mirage.IServerObjectManager.AddCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject)
+  fullName: Mirage.IServerObjectManager.AddCharacter(Mirage.INetworkPlayer, UnityEngine.GameObject)
+  nameWithType: IServerObjectManager.AddCharacter(INetworkPlayer, GameObject)
+- uid: Mirage.IServerObjectManager.AddCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Guid)
+  name: AddCharacter(INetworkPlayer, GameObject, Guid)
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_AddCharacter_Mirage_INetworkPlayer_UnityEngine_GameObject_System_Guid_
+  commentId: M:Mirage.IServerObjectManager.AddCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Guid)
+  fullName: Mirage.IServerObjectManager.AddCharacter(Mirage.INetworkPlayer, UnityEngine.GameObject, System.Guid)
+  nameWithType: IServerObjectManager.AddCharacter(INetworkPlayer, GameObject, Guid)
+- uid: Mirage.IServerObjectManager.AddCharacter*
+  name: AddCharacter
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_AddCharacter_
+  commentId: Overload:Mirage.IServerObjectManager.AddCharacter
   isSpec: "True"
-  fullName: Mirage.IServerObjectManager.AddPlayerForConnection
-  nameWithType: IServerObjectManager.AddPlayerForConnection
+  fullName: Mirage.IServerObjectManager.AddCharacter
+  nameWithType: IServerObjectManager.AddCharacter
 - uid: Mirage.IServerObjectManager.Destroy(UnityEngine.GameObject)
   name: Destroy(GameObject)
   href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_Destroy_UnityEngine_GameObject_
@@ -4129,25 +4129,25 @@ references:
   isSpec: "True"
   fullName: Mirage.IServerObjectManager.Destroy
   nameWithType: IServerObjectManager.Destroy
-- uid: Mirage.IServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Boolean)
-  name: ReplacePlayerForConnection(INetworkPlayer, NetworkClient, GameObject, Boolean)
-  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_ReplacePlayerForConnection_Mirage_INetworkPlayer_Mirage_NetworkClient_UnityEngine_GameObject_System_Boolean_
-  commentId: M:Mirage.IServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Boolean)
-  fullName: Mirage.IServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer, Mirage.NetworkClient, UnityEngine.GameObject, System.Boolean)
-  nameWithType: IServerObjectManager.ReplacePlayerForConnection(INetworkPlayer, NetworkClient, GameObject, Boolean)
-- uid: Mirage.IServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
-  name: ReplacePlayerForConnection(INetworkPlayer, NetworkClient, GameObject, Guid, Boolean)
-  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_ReplacePlayerForConnection_Mirage_INetworkPlayer_Mirage_NetworkClient_UnityEngine_GameObject_System_Guid_System_Boolean_
-  commentId: M:Mirage.IServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
-  fullName: Mirage.IServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer, Mirage.NetworkClient, UnityEngine.GameObject, System.Guid, System.Boolean)
-  nameWithType: IServerObjectManager.ReplacePlayerForConnection(INetworkPlayer, NetworkClient, GameObject, Guid, Boolean)
-- uid: Mirage.IServerObjectManager.ReplacePlayerForConnection*
-  name: ReplacePlayerForConnection
-  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_ReplacePlayerForConnection_
-  commentId: Overload:Mirage.IServerObjectManager.ReplacePlayerForConnection
+- uid: Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Boolean)
+  name: ReplaceCharacter(INetworkPlayer, NetworkClient, GameObject, Boolean)
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_Mirage_NetworkClient_UnityEngine_GameObject_System_Boolean_
+  commentId: M:Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Boolean)
+  fullName: Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer, Mirage.NetworkClient, UnityEngine.GameObject, System.Boolean)
+  nameWithType: IServerObjectManager.ReplaceCharacter(INetworkPlayer, NetworkClient, GameObject, Boolean)
+- uid: Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
+  name: ReplaceCharacter(INetworkPlayer, NetworkClient, GameObject, Guid, Boolean)
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_Mirage_NetworkClient_UnityEngine_GameObject_System_Guid_System_Boolean_
+  commentId: M:Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
+  fullName: Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer, Mirage.NetworkClient, UnityEngine.GameObject, System.Guid, System.Boolean)
+  nameWithType: IServerObjectManager.ReplaceCharacter(INetworkPlayer, NetworkClient, GameObject, Guid, Boolean)
+- uid: Mirage.IServerObjectManager.ReplaceCharacter*
+  name: ReplaceCharacter
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_ReplaceCharacter_
+  commentId: Overload:Mirage.IServerObjectManager.ReplaceCharacter
   isSpec: "True"
-  fullName: Mirage.IServerObjectManager.ReplacePlayerForConnection
-  nameWithType: IServerObjectManager.ReplacePlayerForConnection
+  fullName: Mirage.IServerObjectManager.ReplaceCharacter
+  nameWithType: IServerObjectManager.ReplaceCharacter
 - uid: Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject,Mirage.INetworkPlayer)
   name: Spawn(GameObject, INetworkPlayer)
   href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_Spawn_UnityEngine_GameObject_Mirage_INetworkPlayer_
@@ -6501,19 +6501,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkClient.Connected
   nameWithType: NetworkClient.Connected
-- uid: Mirage.NetworkClient.Connection
-  name: Connection
-  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Connection
-  commentId: P:Mirage.NetworkClient.Connection
-  fullName: Mirage.NetworkClient.Connection
-  nameWithType: NetworkClient.Connection
-- uid: Mirage.NetworkClient.Connection*
-  name: Connection
-  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Connection_
-  commentId: Overload:Mirage.NetworkClient.Connection
-  isSpec: "True"
-  fullName: Mirage.NetworkClient.Connection
-  nameWithType: NetworkClient.Connection
 - uid: Mirage.NetworkClient.Disconnect
   name: Disconnect()
   href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Disconnect
@@ -6540,19 +6527,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkClient.Disconnected
   nameWithType: NetworkClient.Disconnected
-- uid: Mirage.NetworkClient.GetNewConnection(Mirage.IConnection)
-  name: GetNewConnection(IConnection)
-  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_GetNewConnection_Mirage_IConnection_
-  commentId: M:Mirage.NetworkClient.GetNewConnection(Mirage.IConnection)
-  fullName: Mirage.NetworkClient.GetNewConnection(Mirage.IConnection)
-  nameWithType: NetworkClient.GetNewConnection(IConnection)
-- uid: Mirage.NetworkClient.GetNewConnection*
-  name: GetNewConnection
-  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_GetNewConnection_
-  commentId: Overload:Mirage.NetworkClient.GetNewConnection
+- uid: Mirage.NetworkClient.GetNewPlayer(Mirage.IConnection)
+  name: GetNewPlayer(IConnection)
+  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_GetNewPlayer_Mirage_IConnection_
+  commentId: M:Mirage.NetworkClient.GetNewPlayer(Mirage.IConnection)
+  fullName: Mirage.NetworkClient.GetNewPlayer(Mirage.IConnection)
+  nameWithType: NetworkClient.GetNewPlayer(IConnection)
+- uid: Mirage.NetworkClient.GetNewPlayer*
+  name: GetNewPlayer
+  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_GetNewPlayer_
+  commentId: Overload:Mirage.NetworkClient.GetNewPlayer
   isSpec: "True"
-  fullName: Mirage.NetworkClient.GetNewConnection
-  nameWithType: NetworkClient.GetNewConnection
+  fullName: Mirage.NetworkClient.GetNewPlayer
+  nameWithType: NetworkClient.GetNewPlayer
 - uid: Mirage.NetworkClient.IsConnected
   name: IsConnected
   href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_IsConnected
@@ -6579,6 +6566,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkClient.IsLocalClient
   nameWithType: NetworkClient.IsLocalClient
+- uid: Mirage.NetworkClient.Player
+  name: Player
+  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Player
+  commentId: P:Mirage.NetworkClient.Player
+  fullName: Mirage.NetworkClient.Player
+  nameWithType: NetworkClient.Player
+- uid: Mirage.NetworkClient.Player*
+  name: Player
+  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Player_
+  commentId: Overload:Mirage.NetworkClient.Player
+  isSpec: "True"
+  fullName: Mirage.NetworkClient.Player
+  nameWithType: NetworkClient.Player
 - uid: Mirage.NetworkClient.Send(System.ArraySegment{System.Byte},System.Int32)
   name: Send(ArraySegment<Byte>, Int32)
   href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Send_System_ArraySegment_System_Byte__System_Int32_
@@ -7962,12 +7962,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkServer.Connected
   nameWithType: NetworkServer.Connected
-- uid: Mirage.NetworkServer.connections
-  name: connections
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_connections
-  commentId: F:Mirage.NetworkServer.connections
-  fullName: Mirage.NetworkServer.connections
-  nameWithType: NetworkServer.connections
 - uid: Mirage.NetworkServer.Disconnect
   name: Disconnect()
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Disconnect
@@ -7994,19 +7988,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkServer.Disconnected
   nameWithType: NetworkServer.Disconnected
-- uid: Mirage.NetworkServer.GetNewConnection(Mirage.IConnection)
-  name: GetNewConnection(IConnection)
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_GetNewConnection_Mirage_IConnection_
-  commentId: M:Mirage.NetworkServer.GetNewConnection(Mirage.IConnection)
-  fullName: Mirage.NetworkServer.GetNewConnection(Mirage.IConnection)
-  nameWithType: NetworkServer.GetNewConnection(IConnection)
-- uid: Mirage.NetworkServer.GetNewConnection*
-  name: GetNewConnection
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_GetNewConnection_
-  commentId: Overload:Mirage.NetworkServer.GetNewConnection
+- uid: Mirage.NetworkServer.GetNewPlayer(Mirage.IConnection)
+  name: GetNewPlayer(IConnection)
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_GetNewPlayer_Mirage_IConnection_
+  commentId: M:Mirage.NetworkServer.GetNewPlayer(Mirage.IConnection)
+  fullName: Mirage.NetworkServer.GetNewPlayer(Mirage.IConnection)
+  nameWithType: NetworkServer.GetNewPlayer(IConnection)
+- uid: Mirage.NetworkServer.GetNewPlayer*
+  name: GetNewPlayer
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_GetNewPlayer_
+  commentId: Overload:Mirage.NetworkServer.GetNewPlayer
   isSpec: "True"
-  fullName: Mirage.NetworkServer.GetNewConnection
-  nameWithType: NetworkServer.GetNewConnection
+  fullName: Mirage.NetworkServer.GetNewPlayer
+  nameWithType: NetworkServer.GetNewPlayer
 - uid: Mirage.NetworkServer.ListenAsync
   name: ListenAsync()
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_ListenAsync
@@ -8052,19 +8046,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkServer.LocalClientActive
   nameWithType: NetworkServer.LocalClientActive
-- uid: Mirage.NetworkServer.LocalConnection
-  name: LocalConnection
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_LocalConnection
-  commentId: P:Mirage.NetworkServer.LocalConnection
-  fullName: Mirage.NetworkServer.LocalConnection
-  nameWithType: NetworkServer.LocalConnection
-- uid: Mirage.NetworkServer.LocalConnection*
-  name: LocalConnection
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_LocalConnection_
-  commentId: Overload:Mirage.NetworkServer.LocalConnection
+- uid: Mirage.NetworkServer.LocalPlayer
+  name: LocalPlayer
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_LocalPlayer
+  commentId: P:Mirage.NetworkServer.LocalPlayer
+  fullName: Mirage.NetworkServer.LocalPlayer
+  nameWithType: NetworkServer.LocalPlayer
+- uid: Mirage.NetworkServer.LocalPlayer*
+  name: LocalPlayer
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_LocalPlayer_
+  commentId: Overload:Mirage.NetworkServer.LocalPlayer
   isSpec: "True"
-  fullName: Mirage.NetworkServer.LocalConnection
-  nameWithType: NetworkServer.LocalConnection
+  fullName: Mirage.NetworkServer.LocalPlayer
+  nameWithType: NetworkServer.LocalPlayer
 - uid: Mirage.NetworkServer.MaxConnections
   name: MaxConnections
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_MaxConnections
@@ -8110,6 +8104,12 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkServer.OnStopHost
   nameWithType: NetworkServer.OnStopHost
+- uid: Mirage.NetworkServer.Players
+  name: Players
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Players
+  commentId: F:Mirage.NetworkServer.Players
+  fullName: Mirage.NetworkServer.Players
+  nameWithType: NetworkServer.Players
 - uid: Mirage.NetworkServer.RemoveConnection(Mirage.INetworkPlayer)
   name: RemoveConnection(INetworkPlayer)
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_RemoveConnection_Mirage_INetworkPlayer_
@@ -10830,25 +10830,25 @@ references:
   commentId: T:Mirage.ServerObjectManager
   fullName: Mirage.ServerObjectManager
   nameWithType: ServerObjectManager
-- uid: Mirage.ServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer,UnityEngine.GameObject)
-  name: AddPlayerForConnection(INetworkPlayer, GameObject)
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_AddPlayerForConnection_Mirage_INetworkPlayer_UnityEngine_GameObject_
-  commentId: M:Mirage.ServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer,UnityEngine.GameObject)
-  fullName: Mirage.ServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer, UnityEngine.GameObject)
-  nameWithType: ServerObjectManager.AddPlayerForConnection(INetworkPlayer, GameObject)
-- uid: Mirage.ServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Guid)
-  name: AddPlayerForConnection(INetworkPlayer, GameObject, Guid)
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_AddPlayerForConnection_Mirage_INetworkPlayer_UnityEngine_GameObject_System_Guid_
-  commentId: M:Mirage.ServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Guid)
-  fullName: Mirage.ServerObjectManager.AddPlayerForConnection(Mirage.INetworkPlayer, UnityEngine.GameObject, System.Guid)
-  nameWithType: ServerObjectManager.AddPlayerForConnection(INetworkPlayer, GameObject, Guid)
-- uid: Mirage.ServerObjectManager.AddPlayerForConnection*
-  name: AddPlayerForConnection
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_AddPlayerForConnection_
-  commentId: Overload:Mirage.ServerObjectManager.AddPlayerForConnection
+- uid: Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject)
+  name: AddCharacter(INetworkPlayer, GameObject)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_AddCharacter_Mirage_INetworkPlayer_UnityEngine_GameObject_
+  commentId: M:Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject)
+  fullName: Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer, UnityEngine.GameObject)
+  nameWithType: ServerObjectManager.AddCharacter(INetworkPlayer, GameObject)
+- uid: Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Guid)
+  name: AddCharacter(INetworkPlayer, GameObject, Guid)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_AddCharacter_Mirage_INetworkPlayer_UnityEngine_GameObject_System_Guid_
+  commentId: M:Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Guid)
+  fullName: Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer, UnityEngine.GameObject, System.Guid)
+  nameWithType: ServerObjectManager.AddCharacter(INetworkPlayer, GameObject, Guid)
+- uid: Mirage.ServerObjectManager.AddCharacter*
+  name: AddCharacter
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_AddCharacter_
+  commentId: Overload:Mirage.ServerObjectManager.AddCharacter
   isSpec: "True"
-  fullName: Mirage.ServerObjectManager.AddPlayerForConnection
-  nameWithType: ServerObjectManager.AddPlayerForConnection
+  fullName: Mirage.ServerObjectManager.AddCharacter
+  nameWithType: ServerObjectManager.AddCharacter
 - uid: Mirage.ServerObjectManager.Destroy(UnityEngine.GameObject)
   name: Destroy(GameObject)
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_Destroy_UnityEngine_GameObject_
@@ -10903,25 +10903,25 @@ references:
   isSpec: "True"
   fullName: Mirage.ServerObjectManager.RemovePlayerForConnection
   nameWithType: ServerObjectManager.RemovePlayerForConnection
-- uid: Mirage.ServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Boolean)
-  name: ReplacePlayerForConnection(INetworkPlayer, NetworkClient, GameObject, Boolean)
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplacePlayerForConnection_Mirage_INetworkPlayer_Mirage_NetworkClient_UnityEngine_GameObject_System_Boolean_
-  commentId: M:Mirage.ServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Boolean)
-  fullName: Mirage.ServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer, Mirage.NetworkClient, UnityEngine.GameObject, System.Boolean)
-  nameWithType: ServerObjectManager.ReplacePlayerForConnection(INetworkPlayer, NetworkClient, GameObject, Boolean)
-- uid: Mirage.ServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
-  name: ReplacePlayerForConnection(INetworkPlayer, NetworkClient, GameObject, Guid, Boolean)
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplacePlayerForConnection_Mirage_INetworkPlayer_Mirage_NetworkClient_UnityEngine_GameObject_System_Guid_System_Boolean_
-  commentId: M:Mirage.ServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
-  fullName: Mirage.ServerObjectManager.ReplacePlayerForConnection(Mirage.INetworkPlayer, Mirage.NetworkClient, UnityEngine.GameObject, System.Guid, System.Boolean)
-  nameWithType: ServerObjectManager.ReplacePlayerForConnection(INetworkPlayer, NetworkClient, GameObject, Guid, Boolean)
-- uid: Mirage.ServerObjectManager.ReplacePlayerForConnection*
-  name: ReplacePlayerForConnection
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplacePlayerForConnection_
-  commentId: Overload:Mirage.ServerObjectManager.ReplacePlayerForConnection
+- uid: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Boolean)
+  name: ReplaceCharacter(INetworkPlayer, NetworkClient, GameObject, Boolean)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_Mirage_NetworkClient_UnityEngine_GameObject_System_Boolean_
+  commentId: M:Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Boolean)
+  fullName: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer, Mirage.NetworkClient, UnityEngine.GameObject, System.Boolean)
+  nameWithType: ServerObjectManager.ReplaceCharacter(INetworkPlayer, NetworkClient, GameObject, Boolean)
+- uid: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
+  name: ReplaceCharacter(INetworkPlayer, NetworkClient, GameObject, Guid, Boolean)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_Mirage_NetworkClient_UnityEngine_GameObject_System_Guid_System_Boolean_
+  commentId: M:Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
+  fullName: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer, Mirage.NetworkClient, UnityEngine.GameObject, System.Guid, System.Boolean)
+  nameWithType: ServerObjectManager.ReplaceCharacter(INetworkPlayer, NetworkClient, GameObject, Guid, Boolean)
+- uid: Mirage.ServerObjectManager.ReplaceCharacter*
+  name: ReplaceCharacter
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplaceCharacter_
+  commentId: Overload:Mirage.ServerObjectManager.ReplaceCharacter
   isSpec: "True"
-  fullName: Mirage.ServerObjectManager.ReplacePlayerForConnection
-  nameWithType: ServerObjectManager.ReplacePlayerForConnection
+  fullName: Mirage.ServerObjectManager.ReplaceCharacter
+  nameWithType: ServerObjectManager.ReplaceCharacter
 - uid: Mirage.ServerObjectManager.Server
   name: Server
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_Server
