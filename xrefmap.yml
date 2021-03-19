@@ -3067,6 +3067,25 @@ references:
   isSpec: "True"
   fullName: Mirage.ExponentialMovingAverage.Var
   nameWithType: ExponentialMovingAverage.Var
+- uid: Mirage.GameobjectExtension
+  name: GameobjectExtension
+  href: api/Mirage.GameobjectExtension.html
+  commentId: T:Mirage.GameobjectExtension
+  fullName: Mirage.GameobjectExtension
+  nameWithType: GameobjectExtension
+- uid: Mirage.GameobjectExtension.GetNetworkIdentity(UnityEngine.GameObject)
+  name: GetNetworkIdentity(GameObject)
+  href: api/Mirage.GameobjectExtension.html#Mirage_GameobjectExtension_GetNetworkIdentity_UnityEngine_GameObject_
+  commentId: M:Mirage.GameobjectExtension.GetNetworkIdentity(UnityEngine.GameObject)
+  fullName: Mirage.GameobjectExtension.GetNetworkIdentity(UnityEngine.GameObject)
+  nameWithType: GameobjectExtension.GetNetworkIdentity(GameObject)
+- uid: Mirage.GameobjectExtension.GetNetworkIdentity*
+  name: GetNetworkIdentity
+  href: api/Mirage.GameobjectExtension.html#Mirage_GameobjectExtension_GetNetworkIdentity_
+  commentId: Overload:Mirage.GameobjectExtension.GetNetworkIdentity
+  isSpec: "True"
+  fullName: Mirage.GameobjectExtension.GetNetworkIdentity
+  nameWithType: GameobjectExtension.GetNetworkIdentity
 - uid: Mirage.GameObjectSerializers
   name: GameObjectSerializers
   href: api/Mirage.GameObjectSerializers.html
