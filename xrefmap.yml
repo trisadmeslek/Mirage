@@ -3640,6 +3640,19 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkClient.Player
   nameWithType: INetworkClient.Player
+- uid: Mirage.INetworkClient.Time
+  name: Time
+  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Time
+  commentId: P:Mirage.INetworkClient.Time
+  fullName: Mirage.INetworkClient.Time
+  nameWithType: INetworkClient.Time
+- uid: Mirage.INetworkClient.Time*
+  name: Time
+  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Time_
+  commentId: Overload:Mirage.INetworkClient.Time
+  isSpec: "True"
+  fullName: Mirage.INetworkClient.Time
+  nameWithType: INetworkClient.Time
 - uid: Mirage.INetworkPlayer
   name: INetworkPlayer
   href: api/Mirage.INetworkPlayer.html
@@ -4148,18 +4161,18 @@ references:
   isSpec: "True"
   fullName: Mirage.IServerObjectManager.Destroy
   nameWithType: IServerObjectManager.Destroy
-- uid: Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Boolean)
-  name: ReplaceCharacter(INetworkPlayer, NetworkClient, GameObject, Boolean)
-  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_Mirage_NetworkClient_UnityEngine_GameObject_System_Boolean_
-  commentId: M:Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Boolean)
-  fullName: Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer, Mirage.NetworkClient, UnityEngine.GameObject, System.Boolean)
-  nameWithType: IServerObjectManager.ReplaceCharacter(INetworkPlayer, NetworkClient, GameObject, Boolean)
-- uid: Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
-  name: ReplaceCharacter(INetworkPlayer, NetworkClient, GameObject, Guid, Boolean)
-  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_Mirage_NetworkClient_UnityEngine_GameObject_System_Guid_System_Boolean_
-  commentId: M:Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
-  fullName: Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer, Mirage.NetworkClient, UnityEngine.GameObject, System.Guid, System.Boolean)
-  nameWithType: IServerObjectManager.ReplaceCharacter(INetworkPlayer, NetworkClient, GameObject, Guid, Boolean)
+- uid: Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.INetworkClient,UnityEngine.GameObject,System.Boolean)
+  name: ReplaceCharacter(INetworkPlayer, INetworkClient, GameObject, Boolean)
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_Mirage_INetworkClient_UnityEngine_GameObject_System_Boolean_
+  commentId: M:Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.INetworkClient,UnityEngine.GameObject,System.Boolean)
+  fullName: Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer, Mirage.INetworkClient, UnityEngine.GameObject, System.Boolean)
+  nameWithType: IServerObjectManager.ReplaceCharacter(INetworkPlayer, INetworkClient, GameObject, Boolean)
+- uid: Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.INetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
+  name: ReplaceCharacter(INetworkPlayer, INetworkClient, GameObject, Guid, Boolean)
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_Mirage_INetworkClient_UnityEngine_GameObject_System_Guid_System_Boolean_
+  commentId: M:Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.INetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
+  fullName: Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer, Mirage.INetworkClient, UnityEngine.GameObject, System.Guid, System.Boolean)
+  nameWithType: IServerObjectManager.ReplaceCharacter(INetworkPlayer, INetworkClient, GameObject, Guid, Boolean)
 - uid: Mirage.IServerObjectManager.ReplaceCharacter*
   name: ReplaceCharacter
   href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_ReplaceCharacter_
@@ -10880,18 +10893,18 @@ references:
   isSpec: "True"
   fullName: Mirage.ServerObjectManager.RemovePlayerForConnection
   nameWithType: ServerObjectManager.RemovePlayerForConnection
-- uid: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Boolean)
-  name: ReplaceCharacter(INetworkPlayer, NetworkClient, GameObject, Boolean)
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_Mirage_NetworkClient_UnityEngine_GameObject_System_Boolean_
-  commentId: M:Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Boolean)
-  fullName: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer, Mirage.NetworkClient, UnityEngine.GameObject, System.Boolean)
-  nameWithType: ServerObjectManager.ReplaceCharacter(INetworkPlayer, NetworkClient, GameObject, Boolean)
-- uid: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
-  name: ReplaceCharacter(INetworkPlayer, NetworkClient, GameObject, Guid, Boolean)
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_Mirage_NetworkClient_UnityEngine_GameObject_System_Guid_System_Boolean_
-  commentId: M:Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
-  fullName: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer, Mirage.NetworkClient, UnityEngine.GameObject, System.Guid, System.Boolean)
-  nameWithType: ServerObjectManager.ReplaceCharacter(INetworkPlayer, NetworkClient, GameObject, Guid, Boolean)
+- uid: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.INetworkClient,UnityEngine.GameObject,System.Boolean)
+  name: ReplaceCharacter(INetworkPlayer, INetworkClient, GameObject, Boolean)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_Mirage_INetworkClient_UnityEngine_GameObject_System_Boolean_
+  commentId: M:Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.INetworkClient,UnityEngine.GameObject,System.Boolean)
+  fullName: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer, Mirage.INetworkClient, UnityEngine.GameObject, System.Boolean)
+  nameWithType: ServerObjectManager.ReplaceCharacter(INetworkPlayer, INetworkClient, GameObject, Boolean)
+- uid: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.INetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
+  name: ReplaceCharacter(INetworkPlayer, INetworkClient, GameObject, Guid, Boolean)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_Mirage_INetworkClient_UnityEngine_GameObject_System_Guid_System_Boolean_
+  commentId: M:Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.INetworkClient,UnityEngine.GameObject,System.Guid,System.Boolean)
+  fullName: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer, Mirage.INetworkClient, UnityEngine.GameObject, System.Guid, System.Boolean)
+  nameWithType: ServerObjectManager.ReplaceCharacter(INetworkPlayer, INetworkClient, GameObject, Guid, Boolean)
 - uid: Mirage.ServerObjectManager.ReplaceCharacter*
   name: ReplaceCharacter
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplaceCharacter_
