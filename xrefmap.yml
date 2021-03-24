@@ -6017,19 +6017,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkBehaviour.ConnectionToClient
   nameWithType: NetworkBehaviour.ConnectionToClient
-- uid: Mirage.NetworkBehaviour.ConnectionToServer
-  name: ConnectionToServer
-  href: api/Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_ConnectionToServer
-  commentId: P:Mirage.NetworkBehaviour.ConnectionToServer
-  fullName: Mirage.NetworkBehaviour.ConnectionToServer
-  nameWithType: NetworkBehaviour.ConnectionToServer
-- uid: Mirage.NetworkBehaviour.ConnectionToServer*
-  name: ConnectionToServer
-  href: api/Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_ConnectionToServer_
-  commentId: Overload:Mirage.NetworkBehaviour.ConnectionToServer
-  isSpec: "True"
-  fullName: Mirage.NetworkBehaviour.ConnectionToServer
-  nameWithType: NetworkBehaviour.ConnectionToServer
 - uid: Mirage.NetworkBehaviour.DeserializeSyncVars(Mirage.Serialization.NetworkReader,System.Boolean)
   name: DeserializeSyncVars(NetworkReader, Boolean)
   href: api/Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_DeserializeSyncVars_Mirage_Serialization_NetworkReader_System_Boolean_
@@ -6772,19 +6759,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkIdentity.ConnectionToClient
   nameWithType: NetworkIdentity.ConnectionToClient
-- uid: Mirage.NetworkIdentity.ConnectionToServer
-  name: ConnectionToServer
-  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_ConnectionToServer
-  commentId: P:Mirage.NetworkIdentity.ConnectionToServer
-  fullName: Mirage.NetworkIdentity.ConnectionToServer
-  nameWithType: NetworkIdentity.ConnectionToServer
-- uid: Mirage.NetworkIdentity.ConnectionToServer*
-  name: ConnectionToServer
-  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_ConnectionToServer_
-  commentId: Overload:Mirage.NetworkIdentity.ConnectionToServer
-  isSpec: "True"
-  fullName: Mirage.NetworkIdentity.ConnectionToServer
-  nameWithType: NetworkIdentity.ConnectionToServer
 - uid: Mirage.NetworkIdentity.GetSceneIdentity(System.UInt64)
   name: GetSceneIdentity(UInt64)
   href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_GetSceneIdentity_System_UInt64_
