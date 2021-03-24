@@ -436,22 +436,6 @@ references:
   isSpec: "True"
   fullName: Mirage.ClientObjectManager.GetPrefab
   nameWithType: ClientObjectManager.GetPrefab
-- uid: Mirage.ClientObjectManager.Item(System.UInt32)
-  name: Item[UInt32]
-  href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_Item_System_UInt32_
-  commentId: P:Mirage.ClientObjectManager.Item(System.UInt32)
-  name.vb: Item(UInt32)
-  fullName: Mirage.ClientObjectManager.Item[System.UInt32]
-  fullName.vb: Mirage.ClientObjectManager.Item(System.UInt32)
-  nameWithType: ClientObjectManager.Item[UInt32]
-  nameWithType.vb: ClientObjectManager.Item(UInt32)
-- uid: Mirage.ClientObjectManager.Item*
-  name: Item
-  href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_Item_
-  commentId: Overload:Mirage.ClientObjectManager.Item
-  isSpec: "True"
-  fullName: Mirage.ClientObjectManager.Item
-  nameWithType: ClientObjectManager.Item
 - uid: Mirage.ClientObjectManager.LocalPlayer
   name: LocalPlayer
   href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_LocalPlayer
@@ -573,6 +557,22 @@ references:
   isSpec: "True"
   fullName: Mirage.ClientObjectManager.Start
   nameWithType: ClientObjectManager.Start
+- uid: Mirage.ClientObjectManager.TryGetIdentity(System.UInt32,Mirage.NetworkIdentity@)
+  name: TryGetIdentity(UInt32, out NetworkIdentity)
+  href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_TryGetIdentity_System_UInt32_Mirage_NetworkIdentity__
+  commentId: M:Mirage.ClientObjectManager.TryGetIdentity(System.UInt32,Mirage.NetworkIdentity@)
+  name.vb: TryGetIdentity(UInt32, ByRef NetworkIdentity)
+  fullName: Mirage.ClientObjectManager.TryGetIdentity(System.UInt32, out Mirage.NetworkIdentity)
+  fullName.vb: Mirage.ClientObjectManager.TryGetIdentity(System.UInt32, ByRef Mirage.NetworkIdentity)
+  nameWithType: ClientObjectManager.TryGetIdentity(UInt32, out NetworkIdentity)
+  nameWithType.vb: ClientObjectManager.TryGetIdentity(UInt32, ByRef NetworkIdentity)
+- uid: Mirage.ClientObjectManager.TryGetIdentity*
+  name: TryGetIdentity
+  href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_TryGetIdentity_
+  commentId: Overload:Mirage.ClientObjectManager.TryGetIdentity
+  isSpec: "True"
+  fullName: Mirage.ClientObjectManager.TryGetIdentity
+  nameWithType: ClientObjectManager.TryGetIdentity
 - uid: Mirage.ClientObjectManager.UnregisterPrefab(Mirage.NetworkIdentity)
   name: UnregisterPrefab(NetworkIdentity)
   href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_UnregisterPrefab_Mirage_NetworkIdentity_
@@ -4017,22 +4017,22 @@ references:
   commentId: T:Mirage.IObjectLocator
   fullName: Mirage.IObjectLocator
   nameWithType: IObjectLocator
-- uid: Mirage.IObjectLocator.Item(System.UInt32)
-  name: Item[UInt32]
-  href: api/Mirage.IObjectLocator.html#Mirage_IObjectLocator_Item_System_UInt32_
-  commentId: P:Mirage.IObjectLocator.Item(System.UInt32)
-  name.vb: Item(UInt32)
-  fullName: Mirage.IObjectLocator.Item[System.UInt32]
-  fullName.vb: Mirage.IObjectLocator.Item(System.UInt32)
-  nameWithType: IObjectLocator.Item[UInt32]
-  nameWithType.vb: IObjectLocator.Item(UInt32)
-- uid: Mirage.IObjectLocator.Item*
-  name: Item
-  href: api/Mirage.IObjectLocator.html#Mirage_IObjectLocator_Item_
-  commentId: Overload:Mirage.IObjectLocator.Item
+- uid: Mirage.IObjectLocator.TryGetIdentity(System.UInt32,Mirage.NetworkIdentity@)
+  name: TryGetIdentity(UInt32, out NetworkIdentity)
+  href: api/Mirage.IObjectLocator.html#Mirage_IObjectLocator_TryGetIdentity_System_UInt32_Mirage_NetworkIdentity__
+  commentId: M:Mirage.IObjectLocator.TryGetIdentity(System.UInt32,Mirage.NetworkIdentity@)
+  name.vb: TryGetIdentity(UInt32, ByRef NetworkIdentity)
+  fullName: Mirage.IObjectLocator.TryGetIdentity(System.UInt32, out Mirage.NetworkIdentity)
+  fullName.vb: Mirage.IObjectLocator.TryGetIdentity(System.UInt32, ByRef Mirage.NetworkIdentity)
+  nameWithType: IObjectLocator.TryGetIdentity(UInt32, out NetworkIdentity)
+  nameWithType.vb: IObjectLocator.TryGetIdentity(UInt32, ByRef NetworkIdentity)
+- uid: Mirage.IObjectLocator.TryGetIdentity*
+  name: TryGetIdentity
+  href: api/Mirage.IObjectLocator.html#Mirage_IObjectLocator_TryGetIdentity_
+  commentId: Overload:Mirage.IObjectLocator.TryGetIdentity
   isSpec: "True"
-  fullName: Mirage.IObjectLocator.Item
-  nameWithType: IObjectLocator.Item
+  fullName: Mirage.IObjectLocator.TryGetIdentity
+  nameWithType: IObjectLocator.TryGetIdentity
 - uid: Mirage.IObjectOwner
   name: IObjectOwner
   href: api/Mirage.IObjectOwner.html
@@ -10861,22 +10861,6 @@ references:
   commentId: F:Mirage.ServerObjectManager.DirtyObjects
   fullName: Mirage.ServerObjectManager.DirtyObjects
   nameWithType: ServerObjectManager.DirtyObjects
-- uid: Mirage.ServerObjectManager.Item(System.UInt32)
-  name: Item[UInt32]
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_Item_System_UInt32_
-  commentId: P:Mirage.ServerObjectManager.Item(System.UInt32)
-  name.vb: Item(UInt32)
-  fullName: Mirage.ServerObjectManager.Item[System.UInt32]
-  fullName.vb: Mirage.ServerObjectManager.Item(System.UInt32)
-  nameWithType: ServerObjectManager.Item[UInt32]
-  nameWithType.vb: ServerObjectManager.Item(UInt32)
-- uid: Mirage.ServerObjectManager.Item*
-  name: Item
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_Item_
-  commentId: Overload:Mirage.ServerObjectManager.Item
-  isSpec: "True"
-  fullName: Mirage.ServerObjectManager.Item
-  nameWithType: ServerObjectManager.Item
 - uid: Mirage.ServerObjectManager.NetworkSceneManager
   name: NetworkSceneManager
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_NetworkSceneManager
@@ -11036,6 +11020,22 @@ references:
   isSpec: "True"
   fullName: Mirage.ServerObjectManager.Start
   nameWithType: ServerObjectManager.Start
+- uid: Mirage.ServerObjectManager.TryGetIdentity(System.UInt32,Mirage.NetworkIdentity@)
+  name: TryGetIdentity(UInt32, out NetworkIdentity)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_TryGetIdentity_System_UInt32_Mirage_NetworkIdentity__
+  commentId: M:Mirage.ServerObjectManager.TryGetIdentity(System.UInt32,Mirage.NetworkIdentity@)
+  name.vb: TryGetIdentity(UInt32, ByRef NetworkIdentity)
+  fullName: Mirage.ServerObjectManager.TryGetIdentity(System.UInt32, out Mirage.NetworkIdentity)
+  fullName.vb: Mirage.ServerObjectManager.TryGetIdentity(System.UInt32, ByRef Mirage.NetworkIdentity)
+  nameWithType: ServerObjectManager.TryGetIdentity(UInt32, out NetworkIdentity)
+  nameWithType.vb: ServerObjectManager.TryGetIdentity(UInt32, ByRef NetworkIdentity)
+- uid: Mirage.ServerObjectManager.TryGetIdentity*
+  name: TryGetIdentity
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_TryGetIdentity_
+  commentId: Overload:Mirage.ServerObjectManager.TryGetIdentity
+  isSpec: "True"
+  fullName: Mirage.ServerObjectManager.TryGetIdentity
+  nameWithType: ServerObjectManager.TryGetIdentity
 - uid: Mirage.ServerObjectManager.UnSpawn(UnityEngine.GameObject)
   name: UnSpawn(GameObject)
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_UnSpawn_UnityEngine_GameObject_
