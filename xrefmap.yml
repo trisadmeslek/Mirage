@@ -3892,6 +3892,19 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkServer.OnStopHost
   nameWithType: INetworkServer.OnStopHost
+- uid: Mirage.INetworkServer.Players
+  name: Players
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Players
+  commentId: P:Mirage.INetworkServer.Players
+  fullName: Mirage.INetworkServer.Players
+  nameWithType: INetworkServer.Players
+- uid: Mirage.INetworkServer.Players*
+  name: Players
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Players_
+  commentId: Overload:Mirage.INetworkServer.Players
+  isSpec: "True"
+  fullName: Mirage.INetworkServer.Players
+  nameWithType: INetworkServer.Players
 - uid: Mirage.INetworkServer.RemoveConnection(Mirage.INetworkPlayer)
   name: RemoveConnection(INetworkPlayer)
   href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_RemoveConnection_Mirage_INetworkPlayer_
@@ -3947,6 +3960,19 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkServer.Stopped
   nameWithType: INetworkServer.Stopped
+- uid: Mirage.INetworkServer.Time
+  name: Time
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Time
+  commentId: P:Mirage.INetworkServer.Time
+  fullName: Mirage.INetworkServer.Time
+  nameWithType: INetworkServer.Time
+- uid: Mirage.INetworkServer.Time*
+  name: Time
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Time_
+  commentId: Overload:Mirage.INetworkServer.Time
+  isSpec: "True"
+  fullName: Mirage.INetworkServer.Time
+  nameWithType: INetworkServer.Time
 - uid: Mirage.INotifyReceiver
   name: INotifyReceiver
   href: api/Mirage.INotifyReceiver.html
@@ -8071,6 +8097,23 @@ references:
   commentId: F:Mirage.NetworkServer.MaxConnections
   fullName: Mirage.NetworkServer.MaxConnections
   nameWithType: NetworkServer.MaxConnections
+- uid: Mirage.NetworkServer.Mirage#INetworkServer#Players
+  name: INetworkServer.Players
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Mirage_INetworkServer_Players
+  commentId: P:Mirage.NetworkServer.Mirage#INetworkServer#Players
+  name.vb: Mirage.INetworkServer.Players
+  fullName: Mirage.NetworkServer.Mirage.INetworkServer.Players
+  nameWithType: NetworkServer.INetworkServer.Players
+  nameWithType.vb: NetworkServer.Mirage.INetworkServer.Players
+- uid: Mirage.NetworkServer.Mirage#INetworkServer#Players*
+  name: INetworkServer.Players
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Mirage_INetworkServer_Players_
+  commentId: Overload:Mirage.NetworkServer.Mirage#INetworkServer#Players
+  isSpec: "True"
+  name.vb: Mirage.INetworkServer.Players
+  fullName: Mirage.NetworkServer.Mirage.INetworkServer.Players
+  nameWithType: NetworkServer.INetworkServer.Players
+  nameWithType.vb: NetworkServer.Mirage.INetworkServer.Players
 - uid: Mirage.NetworkServer.NumberOfPlayers
   name: NumberOfPlayers
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_NumberOfPlayers
