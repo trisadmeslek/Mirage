@@ -636,12 +636,6 @@ references:
   commentId: F:Mirage.ClientRpcAttribute.target
   fullName: Mirage.ClientRpcAttribute.target
   nameWithType: ClientRpcAttribute.target
-- uid: Mirage.ClientSceneChangeEvent
-  name: ClientSceneChangeEvent
-  href: api/Mirage.ClientSceneChangeEvent.html
-  commentId: T:Mirage.ClientSceneChangeEvent
-  fullName: Mirage.ClientSceneChangeEvent
-  nameWithType: ClientSceneChangeEvent
 - uid: Mirage.Collections
   name: Mirage.Collections
   href: api/Mirage.Collections.html
@@ -9009,6 +9003,12 @@ references:
   commentId: T:Mirage.SceneAttribute
   fullName: Mirage.SceneAttribute
   nameWithType: SceneAttribute
+- uid: Mirage.SceneChangeEvent
+  name: SceneChangeEvent
+  href: api/Mirage.SceneChangeEvent.html
+  commentId: T:Mirage.SceneChangeEvent
+  fullName: Mirage.SceneChangeEvent
+  nameWithType: SceneChangeEvent
 - uid: Mirage.SceneMessage
   name: SceneMessage
   href: api/Mirage.SceneMessage.html
