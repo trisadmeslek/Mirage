@@ -191,9 +191,10 @@ This is used in network communications to be able to lookup game objects on diff
 <p>This would be used when the server has multiple additive subscenes loaded to isolate players to their respective subscenes</p>
 </section>
       <h4><a class="xref" href="Mirage.NetworkSceneManager.html">NetworkSceneManager</a></h4>
-      <section><p>Provides Scene Management to a NetworkServer and or NetworkClient.</p>
+      <section><p>NetworkSceneManager is an optional component that helps keep scene in sync between server and client.</p>
 <p>The <a class="xref" href="Mirage.NetworkClient.html">NetworkClient</a> loads scenes as instructed by the <a class="xref" href="Mirage.NetworkServer.html">NetworkServer</a>.</p>
 <p>The <a class="xref" href="Mirage.NetworkServer.html">NetworkServer</a> controls the currently active Scene and any additive Load/Unload.</p>
+<p>when a client connect NetworkSceneManager will send a message telling the new client to load the scene that is active on the server</p>
 </section>
       <h4><a class="xref" href="Mirage.NetworkServer.html">NetworkServer</a></h4>
       <section><p>The NetworkServer.</p>
