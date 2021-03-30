@@ -11628,6 +11628,25 @@ references:
   commentId: F:Mirage.SyncVarAttribute.hook
   fullName: Mirage.SyncVarAttribute.hook
   nameWithType: SyncVarAttribute.hook
+- uid: Mirage.SyncVarReceiver
+  name: SyncVarReceiver
+  href: api/Mirage.SyncVarReceiver.html
+  commentId: T:Mirage.SyncVarReceiver
+  fullName: Mirage.SyncVarReceiver
+  nameWithType: SyncVarReceiver
+- uid: Mirage.SyncVarReceiver.#ctor(Mirage.NetworkClient,Mirage.IObjectLocator)
+  name: SyncVarReceiver(NetworkClient, IObjectLocator)
+  href: api/Mirage.SyncVarReceiver.html#Mirage_SyncVarReceiver__ctor_Mirage_NetworkClient_Mirage_IObjectLocator_
+  commentId: M:Mirage.SyncVarReceiver.#ctor(Mirage.NetworkClient,Mirage.IObjectLocator)
+  fullName: Mirage.SyncVarReceiver.SyncVarReceiver(Mirage.NetworkClient, Mirage.IObjectLocator)
+  nameWithType: SyncVarReceiver.SyncVarReceiver(NetworkClient, IObjectLocator)
+- uid: Mirage.SyncVarReceiver.#ctor*
+  name: SyncVarReceiver
+  href: api/Mirage.SyncVarReceiver.html#Mirage_SyncVarReceiver__ctor_
+  commentId: Overload:Mirage.SyncVarReceiver.#ctor
+  isSpec: "True"
+  fullName: Mirage.SyncVarReceiver.SyncVarReceiver
+  nameWithType: SyncVarReceiver.SyncVarReceiver
 - uid: Mirage.SyncVarSender
   name: SyncVarSender
   href: api/Mirage.SyncVarSender.html
