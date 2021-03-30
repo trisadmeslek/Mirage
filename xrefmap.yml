@@ -11215,12 +11215,6 @@ references:
   isSpec: "True"
   fullName: Mirage.ServerObjectManager.Destroy
   nameWithType: ServerObjectManager.Destroy
-- uid: Mirage.ServerObjectManager.DirtyObjects
-  name: DirtyObjects
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_DirtyObjects
-  commentId: F:Mirage.ServerObjectManager.DirtyObjects
-  fullName: Mirage.ServerObjectManager.DirtyObjects
-  nameWithType: ServerObjectManager.DirtyObjects
 - uid: Mirage.ServerObjectManager.NetworkSceneManager
   name: NetworkSceneManager
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_NetworkSceneManager
@@ -11380,6 +11374,19 @@ references:
   isSpec: "True"
   fullName: Mirage.ServerObjectManager.Start
   nameWithType: ServerObjectManager.Start
+- uid: Mirage.ServerObjectManager.SyncVarSender
+  name: SyncVarSender
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_SyncVarSender
+  commentId: P:Mirage.ServerObjectManager.SyncVarSender
+  fullName: Mirage.ServerObjectManager.SyncVarSender
+  nameWithType: ServerObjectManager.SyncVarSender
+- uid: Mirage.ServerObjectManager.SyncVarSender*
+  name: SyncVarSender
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_SyncVarSender_
+  commentId: Overload:Mirage.ServerObjectManager.SyncVarSender
+  isSpec: "True"
+  fullName: Mirage.ServerObjectManager.SyncVarSender
+  nameWithType: ServerObjectManager.SyncVarSender
 - uid: Mirage.ServerObjectManager.TryGetIdentity(System.UInt32,Mirage.NetworkIdentity@)
   name: TryGetIdentity(UInt32, out NetworkIdentity)
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_TryGetIdentity_System_UInt32_Mirage_NetworkIdentity__
@@ -11621,6 +11628,25 @@ references:
   commentId: F:Mirage.SyncVarAttribute.hook
   fullName: Mirage.SyncVarAttribute.hook
   nameWithType: SyncVarAttribute.hook
+- uid: Mirage.SyncVarSender
+  name: SyncVarSender
+  href: api/Mirage.SyncVarSender.html
+  commentId: T:Mirage.SyncVarSender
+  fullName: Mirage.SyncVarSender
+  nameWithType: SyncVarSender
+- uid: Mirage.SyncVarSender.AddDirtyObject(Mirage.NetworkIdentity)
+  name: AddDirtyObject(NetworkIdentity)
+  href: api/Mirage.SyncVarSender.html#Mirage_SyncVarSender_AddDirtyObject_Mirage_NetworkIdentity_
+  commentId: M:Mirage.SyncVarSender.AddDirtyObject(Mirage.NetworkIdentity)
+  fullName: Mirage.SyncVarSender.AddDirtyObject(Mirage.NetworkIdentity)
+  nameWithType: SyncVarSender.AddDirtyObject(NetworkIdentity)
+- uid: Mirage.SyncVarSender.AddDirtyObject*
+  name: AddDirtyObject
+  href: api/Mirage.SyncVarSender.html#Mirage_SyncVarSender_AddDirtyObject_
+  commentId: Overload:Mirage.SyncVarSender.AddDirtyObject
+  isSpec: "True"
+  fullName: Mirage.SyncVarSender.AddDirtyObject
+  nameWithType: SyncVarSender.AddDirtyObject
 - uid: Mirage.Transport
   name: Transport
   href: api/Mirage.Transport.html
