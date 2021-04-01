@@ -7407,12 +7407,12 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkManager.IsNetworkActive
   nameWithType: NetworkManager.IsNetworkActive
-- uid: Mirage.NetworkManager.SceneManager
-  name: SceneManager
-  href: api/Mirage.NetworkManager.html#Mirage_NetworkManager_SceneManager
-  commentId: F:Mirage.NetworkManager.SceneManager
-  fullName: Mirage.NetworkManager.SceneManager
-  nameWithType: NetworkManager.SceneManager
+- uid: Mirage.NetworkManager.NetworkSceneManager
+  name: NetworkSceneManager
+  href: api/Mirage.NetworkManager.html#Mirage_NetworkManager_NetworkSceneManager
+  commentId: F:Mirage.NetworkManager.NetworkSceneManager
+  fullName: Mirage.NetworkManager.NetworkSceneManager
+  nameWithType: NetworkManager.NetworkSceneManager
 - uid: Mirage.NetworkManager.Server
   name: Server
   href: api/Mirage.NetworkManager.html#Mirage_NetworkManager_Server
