@@ -2659,6 +2659,19 @@ references:
   isSpec: "True"
   fullName: Mirage.Events.AddLateEvent.Invoke
   nameWithType: AddLateEvent.Invoke
+- uid: Mirage.Events.AddLateEvent.RemoveListener(UnityEngine.Events.UnityAction)
+  name: RemoveListener(UnityAction)
+  href: api/Mirage.Events.AddLateEvent.html#Mirage_Events_AddLateEvent_RemoveListener_UnityEngine_Events_UnityAction_
+  commentId: M:Mirage.Events.AddLateEvent.RemoveListener(UnityEngine.Events.UnityAction)
+  fullName: Mirage.Events.AddLateEvent.RemoveListener(UnityEngine.Events.UnityAction)
+  nameWithType: AddLateEvent.RemoveListener(UnityAction)
+- uid: Mirage.Events.AddLateEvent.RemoveListener*
+  name: RemoveListener
+  href: api/Mirage.Events.AddLateEvent.html#Mirage_Events_AddLateEvent_RemoveListener_
+  commentId: Overload:Mirage.Events.AddLateEvent.RemoveListener
+  isSpec: "True"
+  fullName: Mirage.Events.AddLateEvent.RemoveListener
+  nameWithType: AddLateEvent.RemoveListener
 - uid: Mirage.Events.AddLateEvent`2
   name: AddLateEvent<T0, TEvent>
   href: api/Mirage.Events.AddLateEvent-2.html
@@ -2720,6 +2733,24 @@ references:
   fullName.vb: Mirage.Events.AddLateEvent(Of T0, TEvent).Invoke
   nameWithType: AddLateEvent<T0, TEvent>.Invoke
   nameWithType.vb: AddLateEvent(Of T0, TEvent).Invoke
+- uid: Mirage.Events.AddLateEvent`2.RemoveListener(UnityEngine.Events.UnityAction{`0})
+  name: RemoveListener(UnityAction<T0>)
+  href: api/Mirage.Events.AddLateEvent-2.html#Mirage_Events_AddLateEvent_2_RemoveListener_UnityEngine_Events_UnityAction__0__
+  commentId: M:Mirage.Events.AddLateEvent`2.RemoveListener(UnityEngine.Events.UnityAction{`0})
+  name.vb: RemoveListener(UnityAction(Of T0))
+  fullName: Mirage.Events.AddLateEvent<T0, TEvent>.RemoveListener(UnityEngine.Events.UnityAction<T0>)
+  fullName.vb: Mirage.Events.AddLateEvent(Of T0, TEvent).RemoveListener(UnityEngine.Events.UnityAction(Of T0))
+  nameWithType: AddLateEvent<T0, TEvent>.RemoveListener(UnityAction<T0>)
+  nameWithType.vb: AddLateEvent(Of T0, TEvent).RemoveListener(UnityAction(Of T0))
+- uid: Mirage.Events.AddLateEvent`2.RemoveListener*
+  name: RemoveListener
+  href: api/Mirage.Events.AddLateEvent-2.html#Mirage_Events_AddLateEvent_2_RemoveListener_
+  commentId: Overload:Mirage.Events.AddLateEvent`2.RemoveListener
+  isSpec: "True"
+  fullName: Mirage.Events.AddLateEvent<T0, TEvent>.RemoveListener
+  fullName.vb: Mirage.Events.AddLateEvent(Of T0, TEvent).RemoveListener
+  nameWithType: AddLateEvent<T0, TEvent>.RemoveListener
+  nameWithType.vb: AddLateEvent(Of T0, TEvent).RemoveListener
 - uid: Mirage.Events.AddLateEvent`3
   name: AddLateEvent<T0, T1, TEvent>
   href: api/Mirage.Events.AddLateEvent-3.html
@@ -2781,6 +2812,24 @@ references:
   fullName.vb: Mirage.Events.AddLateEvent(Of T0, T1, TEvent).Invoke
   nameWithType: AddLateEvent<T0, T1, TEvent>.Invoke
   nameWithType.vb: AddLateEvent(Of T0, T1, TEvent).Invoke
+- uid: Mirage.Events.AddLateEvent`3.RemoveListener(UnityEngine.Events.UnityAction{`0,`1})
+  name: RemoveListener(UnityAction<T0, T1>)
+  href: api/Mirage.Events.AddLateEvent-3.html#Mirage_Events_AddLateEvent_3_RemoveListener_UnityEngine_Events_UnityAction__0__1__
+  commentId: M:Mirage.Events.AddLateEvent`3.RemoveListener(UnityEngine.Events.UnityAction{`0,`1})
+  name.vb: RemoveListener(UnityAction(Of T0, T1))
+  fullName: Mirage.Events.AddLateEvent<T0, T1, TEvent>.RemoveListener(UnityEngine.Events.UnityAction<T0, T1>)
+  fullName.vb: Mirage.Events.AddLateEvent(Of T0, T1, TEvent).RemoveListener(UnityEngine.Events.UnityAction(Of T0, T1))
+  nameWithType: AddLateEvent<T0, T1, TEvent>.RemoveListener(UnityAction<T0, T1>)
+  nameWithType.vb: AddLateEvent(Of T0, T1, TEvent).RemoveListener(UnityAction(Of T0, T1))
+- uid: Mirage.Events.AddLateEvent`3.RemoveListener*
+  name: RemoveListener
+  href: api/Mirage.Events.AddLateEvent-3.html#Mirage_Events_AddLateEvent_3_RemoveListener_
+  commentId: Overload:Mirage.Events.AddLateEvent`3.RemoveListener
+  isSpec: "True"
+  fullName: Mirage.Events.AddLateEvent<T0, T1, TEvent>.RemoveListener
+  fullName.vb: Mirage.Events.AddLateEvent(Of T0, T1, TEvent).RemoveListener
+  nameWithType: AddLateEvent<T0, T1, TEvent>.RemoveListener
+  nameWithType.vb: AddLateEvent(Of T0, T1, TEvent).RemoveListener
 - uid: Mirage.Events.AddLateEventBase
   name: AddLateEventBase
   href: api/Mirage.Events.AddLateEventBase.html
@@ -2826,6 +2875,19 @@ references:
   isSpec: "True"
   fullName: Mirage.Events.AddLateEventBase.MarkInvoked
   nameWithType: AddLateEventBase.MarkInvoked
+- uid: Mirage.Events.AddLateEventBase.RemoveAllListeners
+  name: RemoveAllListeners()
+  href: api/Mirage.Events.AddLateEventBase.html#Mirage_Events_AddLateEventBase_RemoveAllListeners
+  commentId: M:Mirage.Events.AddLateEventBase.RemoveAllListeners
+  fullName: Mirage.Events.AddLateEventBase.RemoveAllListeners()
+  nameWithType: AddLateEventBase.RemoveAllListeners()
+- uid: Mirage.Events.AddLateEventBase.RemoveAllListeners*
+  name: RemoveAllListeners
+  href: api/Mirage.Events.AddLateEventBase.html#Mirage_Events_AddLateEventBase_RemoveAllListeners_
+  commentId: Overload:Mirage.Events.AddLateEventBase.RemoveAllListeners
+  isSpec: "True"
+  fullName: Mirage.Events.AddLateEventBase.RemoveAllListeners
+  nameWithType: AddLateEventBase.RemoveAllListeners
 - uid: Mirage.Events.AddLateEventBase.Reset
   name: Reset()
   href: api/Mirage.Events.AddLateEventBase.html#Mirage_Events_AddLateEventBase_Reset
@@ -2858,6 +2920,19 @@ references:
   isSpec: "True"
   fullName: Mirage.Events.IAddLateEvent.AddListener
   nameWithType: IAddLateEvent.AddListener
+- uid: Mirage.Events.IAddLateEvent.RemoveListener(UnityEngine.Events.UnityAction)
+  name: RemoveListener(UnityAction)
+  href: api/Mirage.Events.IAddLateEvent.html#Mirage_Events_IAddLateEvent_RemoveListener_UnityEngine_Events_UnityAction_
+  commentId: M:Mirage.Events.IAddLateEvent.RemoveListener(UnityEngine.Events.UnityAction)
+  fullName: Mirage.Events.IAddLateEvent.RemoveListener(UnityEngine.Events.UnityAction)
+  nameWithType: IAddLateEvent.RemoveListener(UnityAction)
+- uid: Mirage.Events.IAddLateEvent.RemoveListener*
+  name: RemoveListener
+  href: api/Mirage.Events.IAddLateEvent.html#Mirage_Events_IAddLateEvent_RemoveListener_
+  commentId: Overload:Mirage.Events.IAddLateEvent.RemoveListener
+  isSpec: "True"
+  fullName: Mirage.Events.IAddLateEvent.RemoveListener
+  nameWithType: IAddLateEvent.RemoveListener
 - uid: Mirage.Events.IAddLateEvent`1
   name: IAddLateEvent<T0>
   href: api/Mirage.Events.IAddLateEvent-1.html
@@ -2885,6 +2960,24 @@ references:
   fullName.vb: Mirage.Events.IAddLateEvent(Of T0).AddListener
   nameWithType: IAddLateEvent<T0>.AddListener
   nameWithType.vb: IAddLateEvent(Of T0).AddListener
+- uid: Mirage.Events.IAddLateEvent`1.RemoveListener(UnityEngine.Events.UnityAction{`0})
+  name: RemoveListener(UnityAction<T0>)
+  href: api/Mirage.Events.IAddLateEvent-1.html#Mirage_Events_IAddLateEvent_1_RemoveListener_UnityEngine_Events_UnityAction__0__
+  commentId: M:Mirage.Events.IAddLateEvent`1.RemoveListener(UnityEngine.Events.UnityAction{`0})
+  name.vb: RemoveListener(UnityAction(Of T0))
+  fullName: Mirage.Events.IAddLateEvent<T0>.RemoveListener(UnityEngine.Events.UnityAction<T0>)
+  fullName.vb: Mirage.Events.IAddLateEvent(Of T0).RemoveListener(UnityEngine.Events.UnityAction(Of T0))
+  nameWithType: IAddLateEvent<T0>.RemoveListener(UnityAction<T0>)
+  nameWithType.vb: IAddLateEvent(Of T0).RemoveListener(UnityAction(Of T0))
+- uid: Mirage.Events.IAddLateEvent`1.RemoveListener*
+  name: RemoveListener
+  href: api/Mirage.Events.IAddLateEvent-1.html#Mirage_Events_IAddLateEvent_1_RemoveListener_
+  commentId: Overload:Mirage.Events.IAddLateEvent`1.RemoveListener
+  isSpec: "True"
+  fullName: Mirage.Events.IAddLateEvent<T0>.RemoveListener
+  fullName.vb: Mirage.Events.IAddLateEvent(Of T0).RemoveListener
+  nameWithType: IAddLateEvent<T0>.RemoveListener
+  nameWithType.vb: IAddLateEvent(Of T0).RemoveListener
 - uid: Mirage.Events.IAddLateEvent`2
   name: IAddLateEvent<T0, T1>
   href: api/Mirage.Events.IAddLateEvent-2.html
@@ -2912,6 +3005,24 @@ references:
   fullName.vb: Mirage.Events.IAddLateEvent(Of T0, T1).AddListener
   nameWithType: IAddLateEvent<T0, T1>.AddListener
   nameWithType.vb: IAddLateEvent(Of T0, T1).AddListener
+- uid: Mirage.Events.IAddLateEvent`2.RemoveListener(UnityEngine.Events.UnityAction{`0,`1})
+  name: RemoveListener(UnityAction<T0, T1>)
+  href: api/Mirage.Events.IAddLateEvent-2.html#Mirage_Events_IAddLateEvent_2_RemoveListener_UnityEngine_Events_UnityAction__0__1__
+  commentId: M:Mirage.Events.IAddLateEvent`2.RemoveListener(UnityEngine.Events.UnityAction{`0,`1})
+  name.vb: RemoveListener(UnityAction(Of T0, T1))
+  fullName: Mirage.Events.IAddLateEvent<T0, T1>.RemoveListener(UnityEngine.Events.UnityAction<T0, T1>)
+  fullName.vb: Mirage.Events.IAddLateEvent(Of T0, T1).RemoveListener(UnityEngine.Events.UnityAction(Of T0, T1))
+  nameWithType: IAddLateEvent<T0, T1>.RemoveListener(UnityAction<T0, T1>)
+  nameWithType.vb: IAddLateEvent(Of T0, T1).RemoveListener(UnityAction(Of T0, T1))
+- uid: Mirage.Events.IAddLateEvent`2.RemoveListener*
+  name: RemoveListener
+  href: api/Mirage.Events.IAddLateEvent-2.html#Mirage_Events_IAddLateEvent_2_RemoveListener_
+  commentId: Overload:Mirage.Events.IAddLateEvent`2.RemoveListener
+  isSpec: "True"
+  fullName: Mirage.Events.IAddLateEvent<T0, T1>.RemoveListener
+  fullName.vb: Mirage.Events.IAddLateEvent(Of T0, T1).RemoveListener
+  nameWithType: IAddLateEvent<T0, T1>.RemoveListener
+  nameWithType.vb: IAddLateEvent(Of T0, T1).RemoveListener
 - uid: Mirage.Experimental
   name: Mirage.Experimental
   href: api/Mirage.Experimental.html
