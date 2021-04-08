@@ -2901,6 +2901,18 @@ references:
   isSpec: "True"
   fullName: Mirage.Events.AddLateEventBase.Reset
   nameWithType: AddLateEventBase.Reset
+- uid: Mirage.Events.BoolAddLateEvent
+  name: BoolAddLateEvent
+  href: api/Mirage.Events.BoolAddLateEvent.html
+  commentId: T:Mirage.Events.BoolAddLateEvent
+  fullName: Mirage.Events.BoolAddLateEvent
+  nameWithType: BoolAddLateEvent
+- uid: Mirage.Events.BoolUnityEvent
+  name: BoolUnityEvent
+  href: api/Mirage.Events.BoolUnityEvent.html
+  commentId: T:Mirage.Events.BoolUnityEvent
+  fullName: Mirage.Events.BoolUnityEvent
+  nameWithType: BoolUnityEvent
 - uid: Mirage.Events.IAddLateEvent
   name: IAddLateEvent
   href: api/Mirage.Events.IAddLateEvent.html
@@ -7262,46 +7274,82 @@ references:
   commentId: F:Mirage.NetworkIdentity.observers
   fullName: Mirage.NetworkIdentity.observers
   nameWithType: NetworkIdentity.observers
-- uid: Mirage.NetworkIdentity.OnStartAuthority
-  name: OnStartAuthority
-  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStartAuthority
-  commentId: F:Mirage.NetworkIdentity.OnStartAuthority
-  fullName: Mirage.NetworkIdentity.OnStartAuthority
-  nameWithType: NetworkIdentity.OnStartAuthority
+- uid: Mirage.NetworkIdentity.OnAuthorityChanged
+  name: OnAuthorityChanged
+  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnAuthorityChanged
+  commentId: P:Mirage.NetworkIdentity.OnAuthorityChanged
+  fullName: Mirage.NetworkIdentity.OnAuthorityChanged
+  nameWithType: NetworkIdentity.OnAuthorityChanged
+- uid: Mirage.NetworkIdentity.OnAuthorityChanged*
+  name: OnAuthorityChanged
+  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnAuthorityChanged_
+  commentId: Overload:Mirage.NetworkIdentity.OnAuthorityChanged
+  isSpec: "True"
+  fullName: Mirage.NetworkIdentity.OnAuthorityChanged
+  nameWithType: NetworkIdentity.OnAuthorityChanged
 - uid: Mirage.NetworkIdentity.OnStartClient
   name: OnStartClient
   href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStartClient
-  commentId: F:Mirage.NetworkIdentity.OnStartClient
+  commentId: P:Mirage.NetworkIdentity.OnStartClient
+  fullName: Mirage.NetworkIdentity.OnStartClient
+  nameWithType: NetworkIdentity.OnStartClient
+- uid: Mirage.NetworkIdentity.OnStartClient*
+  name: OnStartClient
+  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStartClient_
+  commentId: Overload:Mirage.NetworkIdentity.OnStartClient
+  isSpec: "True"
   fullName: Mirage.NetworkIdentity.OnStartClient
   nameWithType: NetworkIdentity.OnStartClient
 - uid: Mirage.NetworkIdentity.OnStartLocalPlayer
   name: OnStartLocalPlayer
   href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStartLocalPlayer
-  commentId: F:Mirage.NetworkIdentity.OnStartLocalPlayer
+  commentId: P:Mirage.NetworkIdentity.OnStartLocalPlayer
+  fullName: Mirage.NetworkIdentity.OnStartLocalPlayer
+  nameWithType: NetworkIdentity.OnStartLocalPlayer
+- uid: Mirage.NetworkIdentity.OnStartLocalPlayer*
+  name: OnStartLocalPlayer
+  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStartLocalPlayer_
+  commentId: Overload:Mirage.NetworkIdentity.OnStartLocalPlayer
+  isSpec: "True"
   fullName: Mirage.NetworkIdentity.OnStartLocalPlayer
   nameWithType: NetworkIdentity.OnStartLocalPlayer
 - uid: Mirage.NetworkIdentity.OnStartServer
   name: OnStartServer
   href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStartServer
-  commentId: F:Mirage.NetworkIdentity.OnStartServer
+  commentId: P:Mirage.NetworkIdentity.OnStartServer
   fullName: Mirage.NetworkIdentity.OnStartServer
   nameWithType: NetworkIdentity.OnStartServer
-- uid: Mirage.NetworkIdentity.OnStopAuthority
-  name: OnStopAuthority
-  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStopAuthority
-  commentId: F:Mirage.NetworkIdentity.OnStopAuthority
-  fullName: Mirage.NetworkIdentity.OnStopAuthority
-  nameWithType: NetworkIdentity.OnStopAuthority
+- uid: Mirage.NetworkIdentity.OnStartServer*
+  name: OnStartServer
+  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStartServer_
+  commentId: Overload:Mirage.NetworkIdentity.OnStartServer
+  isSpec: "True"
+  fullName: Mirage.NetworkIdentity.OnStartServer
+  nameWithType: NetworkIdentity.OnStartServer
 - uid: Mirage.NetworkIdentity.OnStopClient
   name: OnStopClient
   href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStopClient
-  commentId: F:Mirage.NetworkIdentity.OnStopClient
+  commentId: P:Mirage.NetworkIdentity.OnStopClient
+  fullName: Mirage.NetworkIdentity.OnStopClient
+  nameWithType: NetworkIdentity.OnStopClient
+- uid: Mirage.NetworkIdentity.OnStopClient*
+  name: OnStopClient
+  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStopClient_
+  commentId: Overload:Mirage.NetworkIdentity.OnStopClient
+  isSpec: "True"
   fullName: Mirage.NetworkIdentity.OnStopClient
   nameWithType: NetworkIdentity.OnStopClient
 - uid: Mirage.NetworkIdentity.OnStopServer
   name: OnStopServer
   href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStopServer
-  commentId: F:Mirage.NetworkIdentity.OnStopServer
+  commentId: P:Mirage.NetworkIdentity.OnStopServer
+  fullName: Mirage.NetworkIdentity.OnStopServer
+  nameWithType: NetworkIdentity.OnStopServer
+- uid: Mirage.NetworkIdentity.OnStopServer*
+  name: OnStopServer
+  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStopServer_
+  commentId: Overload:Mirage.NetworkIdentity.OnStopServer
+  isSpec: "True"
   fullName: Mirage.NetworkIdentity.OnStopServer
   nameWithType: NetworkIdentity.OnStopServer
 - uid: Mirage.NetworkIdentity.RebuildObservers(System.Boolean)
