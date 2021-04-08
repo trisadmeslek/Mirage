@@ -2901,18 +2901,6 @@ references:
   isSpec: "True"
   fullName: Mirage.Events.AddLateEventBase.Reset
   nameWithType: AddLateEventBase.Reset
-- uid: Mirage.Events.BoolAddLateEvent
-  name: BoolAddLateEvent
-  href: api/Mirage.Events.BoolAddLateEvent.html
-  commentId: T:Mirage.Events.BoolAddLateEvent
-  fullName: Mirage.Events.BoolAddLateEvent
-  nameWithType: BoolAddLateEvent
-- uid: Mirage.Events.BoolUnityEvent
-  name: BoolUnityEvent
-  href: api/Mirage.Events.BoolUnityEvent.html
-  commentId: T:Mirage.Events.BoolUnityEvent
-  fullName: Mirage.Events.BoolUnityEvent
-  nameWithType: BoolUnityEvent
 - uid: Mirage.Events.IAddLateEvent
   name: IAddLateEvent
   href: api/Mirage.Events.IAddLateEvent.html
@@ -7274,19 +7262,12 @@ references:
   commentId: F:Mirage.NetworkIdentity.observers
   fullName: Mirage.NetworkIdentity.observers
   nameWithType: NetworkIdentity.observers
-- uid: Mirage.NetworkIdentity.OnAuthorityChanged
-  name: OnAuthorityChanged
-  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnAuthorityChanged
-  commentId: P:Mirage.NetworkIdentity.OnAuthorityChanged
-  fullName: Mirage.NetworkIdentity.OnAuthorityChanged
-  nameWithType: NetworkIdentity.OnAuthorityChanged
-- uid: Mirage.NetworkIdentity.OnAuthorityChanged*
-  name: OnAuthorityChanged
-  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnAuthorityChanged_
-  commentId: Overload:Mirage.NetworkIdentity.OnAuthorityChanged
-  isSpec: "True"
-  fullName: Mirage.NetworkIdentity.OnAuthorityChanged
-  nameWithType: NetworkIdentity.OnAuthorityChanged
+- uid: Mirage.NetworkIdentity.OnStartAuthority
+  name: OnStartAuthority
+  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStartAuthority
+  commentId: F:Mirage.NetworkIdentity.OnStartAuthority
+  fullName: Mirage.NetworkIdentity.OnStartAuthority
+  nameWithType: NetworkIdentity.OnStartAuthority
 - uid: Mirage.NetworkIdentity.OnStartClient
   name: OnStartClient
   href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStartClient
@@ -7326,6 +7307,12 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkIdentity.OnStartServer
   nameWithType: NetworkIdentity.OnStartServer
+- uid: Mirage.NetworkIdentity.OnStopAuthority
+  name: OnStopAuthority
+  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStopAuthority
+  commentId: F:Mirage.NetworkIdentity.OnStopAuthority
+  fullName: Mirage.NetworkIdentity.OnStopAuthority
+  nameWithType: NetworkIdentity.OnStopAuthority
 - uid: Mirage.NetworkIdentity.OnStopClient
   name: OnStopClient
   href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStopClient
