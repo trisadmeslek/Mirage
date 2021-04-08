@@ -7530,6 +7530,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkManager.IsNetworkActive
   nameWithType: NetworkManager.IsNetworkActive
+- uid: Mirage.NetworkManager.NetworkMode
+  name: NetworkMode
+  href: api/Mirage.NetworkManager.html#Mirage_NetworkManager_NetworkMode
+  commentId: P:Mirage.NetworkManager.NetworkMode
+  fullName: Mirage.NetworkManager.NetworkMode
+  nameWithType: NetworkManager.NetworkMode
+- uid: Mirage.NetworkManager.NetworkMode*
+  name: NetworkMode
+  href: api/Mirage.NetworkManager.html#Mirage_NetworkManager_NetworkMode_
+  commentId: Overload:Mirage.NetworkManager.NetworkMode
+  isSpec: "True"
+  fullName: Mirage.NetworkManager.NetworkMode
+  nameWithType: NetworkManager.NetworkMode
 - uid: Mirage.NetworkManager.NetworkSceneManager
   name: NetworkSceneManager
   href: api/Mirage.NetworkManager.html#Mirage_NetworkManager_NetworkSceneManager
@@ -7655,6 +7668,36 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkManagerHud.StopButtonHandler
   nameWithType: NetworkManagerHud.StopButtonHandler
+- uid: Mirage.NetworkManagerMode
+  name: NetworkManagerMode
+  href: api/Mirage.NetworkManagerMode.html
+  commentId: T:Mirage.NetworkManagerMode
+  fullName: Mirage.NetworkManagerMode
+  nameWithType: NetworkManagerMode
+- uid: Mirage.NetworkManagerMode.Client
+  name: Client
+  href: api/Mirage.NetworkManagerMode.html#Mirage_NetworkManagerMode_Client
+  commentId: F:Mirage.NetworkManagerMode.Client
+  fullName: Mirage.NetworkManagerMode.Client
+  nameWithType: NetworkManagerMode.Client
+- uid: Mirage.NetworkManagerMode.Host
+  name: Host
+  href: api/Mirage.NetworkManagerMode.html#Mirage_NetworkManagerMode_Host
+  commentId: F:Mirage.NetworkManagerMode.Host
+  fullName: Mirage.NetworkManagerMode.Host
+  nameWithType: NetworkManagerMode.Host
+- uid: Mirage.NetworkManagerMode.None
+  name: None
+  href: api/Mirage.NetworkManagerMode.html#Mirage_NetworkManagerMode_None
+  commentId: F:Mirage.NetworkManagerMode.None
+  fullName: Mirage.NetworkManagerMode.None
+  nameWithType: NetworkManagerMode.None
+- uid: Mirage.NetworkManagerMode.Server
+  name: Server
+  href: api/Mirage.NetworkManagerMode.html#Mirage_NetworkManagerMode_Server
+  commentId: F:Mirage.NetworkManagerMode.Server
+  fullName: Mirage.NetworkManagerMode.Server
+  nameWithType: NetworkManagerMode.Server
 - uid: Mirage.NetworkMatchChecker
   name: NetworkMatchChecker
   href: api/Mirage.NetworkMatchChecker.html
