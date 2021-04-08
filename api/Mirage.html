@@ -147,10 +147,6 @@
 <p>The <a class="xref" href="Mirage.NetworkClient.html">NetworkClient</a> handle connection state, messages handlers, and connection configuration. There can be many <a class="xref" href="Mirage.NetworkClient.html">NetworkClient</a> instances in a process at a time, but only one that is connected to a game server (<a class="xref" href="Mirage.NetworkServer.html">NetworkServer</a>) that uses spawned objects.</p>
 <p><a class="xref" href="Mirage.NetworkClient.html">NetworkClient</a> has an internal update function where it handles events from the transport layer. This includes asynchronous connect events, disconnect events and incoming data from a server.</p>
 </section>
-      <h4><a class="xref" href="Mirage.NetworkConnectionEvent.html">NetworkConnectionEvent</a></h4>
-      <section><p>Event fires from a <a class="xref" href="Mirage.NetworkClient.html">NetworkClient</a> or <a class="xref" href="Mirage.NetworkServer.html">NetworkServer</a> during a new connection, a new authentication, or a disconnection.</p>
-<p>INetworkConnection - connection creating the event</p>
-</section>
       <h4><a class="xref" href="Mirage.NetworkDiagnostics.html">NetworkDiagnostics</a></h4>
       <section><p>Provides profiling information from mirror
 A profiler can subscribe to these events and

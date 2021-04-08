@@ -176,7 +176,7 @@ You can customize how objects are instantiated using Spawn Handlers.</p>
 <p>Do not add Network logic to these events.  Instead,  use these events to subscribe to network events in NetworkIdentity.</p>
 <p>Immediatelly after the object is instantiated, all the data is updated to match the data in the server.</p>
 <h1 id="client-start-authority">Client Start Authority</h1>
-<p>If the object is owned by this client, then NetworkIdentity will invoke the <a class="xref" href="../../../api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStartAuthority">OnStartAuthority</a>
+<p>If the object is owned by this client, then NetworkIdentity will invoke the <a class="xref" href="../../../api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnAuthorityChanged">OnAuthorityChanged</a>
 Subscribe to this event either by using <code>AddListener</code>,  or adding your method to the event in the inspector.
 Note the Authority can be revoked, and granted again.  Every time the client gains authority, this event will be invoked again.</p>
 <h1 id="start-client">Start Client</h1>
@@ -187,7 +187,7 @@ Subscribe to this event by using <code>AddListener</code> or adding your method 
 is invoked.
 Subscribe to this event by using <code>AddListener</code> or adding your method in the event in the inspector</p>
 <h1 id="stop-authority">Stop Authority</h1>
-<p>If the object loses authority over the object, then NetworkIdentity will invoke the <a class="xref" href="../../../api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStopAuthority">OnStopAuthority</a>
+<p>If the object loses authority over the object, then NetworkIdentity will invoke the <a class="xref" href="../../../api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnAuthorityChanged">OnAuthorityChanged</a>
 Subscribe to this event either by using <code>AddListener</code>,  or adding your method to the event in the inspector.
 Note the Authority can be revoked, and granted again.  Every time the client loses authority, this event will be invoked again.</p>
 <h1 id="server-stop">Server Stop</h1>
