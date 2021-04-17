@@ -4552,12 +4552,12 @@ references:
   isSpec: "True"
   fullName: Mirage.IServerObjectManager.AddCharacter
   nameWithType: IServerObjectManager.AddCharacter
-- uid: Mirage.IServerObjectManager.Destroy(UnityEngine.GameObject)
-  name: Destroy(GameObject)
-  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_Destroy_UnityEngine_GameObject_
-  commentId: M:Mirage.IServerObjectManager.Destroy(UnityEngine.GameObject)
-  fullName: Mirage.IServerObjectManager.Destroy(UnityEngine.GameObject)
-  nameWithType: IServerObjectManager.Destroy(GameObject)
+- uid: Mirage.IServerObjectManager.Destroy(UnityEngine.GameObject,System.Boolean)
+  name: Destroy(GameObject, Boolean)
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_Destroy_UnityEngine_GameObject_System_Boolean_
+  commentId: M:Mirage.IServerObjectManager.Destroy(UnityEngine.GameObject,System.Boolean)
+  fullName: Mirage.IServerObjectManager.Destroy(UnityEngine.GameObject, System.Boolean)
+  nameWithType: IServerObjectManager.Destroy(GameObject, Boolean)
 - uid: Mirage.IServerObjectManager.Destroy*
   name: Destroy
   href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_Destroy_
@@ -4622,19 +4622,6 @@ references:
   isSpec: "True"
   fullName: Mirage.IServerObjectManager.SpawnObjects
   nameWithType: IServerObjectManager.SpawnObjects
-- uid: Mirage.IServerObjectManager.UnSpawn(UnityEngine.GameObject)
-  name: UnSpawn(GameObject)
-  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_UnSpawn_UnityEngine_GameObject_
-  commentId: M:Mirage.IServerObjectManager.UnSpawn(UnityEngine.GameObject)
-  fullName: Mirage.IServerObjectManager.UnSpawn(UnityEngine.GameObject)
-  nameWithType: IServerObjectManager.UnSpawn(GameObject)
-- uid: Mirage.IServerObjectManager.UnSpawn*
-  name: UnSpawn
-  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_UnSpawn_
-  commentId: Overload:Mirage.IServerObjectManager.UnSpawn
-  isSpec: "True"
-  fullName: Mirage.IServerObjectManager.UnSpawn
-  nameWithType: IServerObjectManager.UnSpawn
 - uid: Mirage.IVisibilityTracker
   name: IVisibilityTracker
   href: api/Mirage.IVisibilityTracker.html
@@ -11415,12 +11402,12 @@ references:
   isSpec: "True"
   fullName: Mirage.ServerObjectManager.AddCharacter
   nameWithType: ServerObjectManager.AddCharacter
-- uid: Mirage.ServerObjectManager.Destroy(UnityEngine.GameObject)
-  name: Destroy(GameObject)
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_Destroy_UnityEngine_GameObject_
-  commentId: M:Mirage.ServerObjectManager.Destroy(UnityEngine.GameObject)
-  fullName: Mirage.ServerObjectManager.Destroy(UnityEngine.GameObject)
-  nameWithType: ServerObjectManager.Destroy(GameObject)
+- uid: Mirage.ServerObjectManager.Destroy(UnityEngine.GameObject,System.Boolean)
+  name: Destroy(GameObject, Boolean)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_Destroy_UnityEngine_GameObject_System_Boolean_
+  commentId: M:Mirage.ServerObjectManager.Destroy(UnityEngine.GameObject,System.Boolean)
+  fullName: Mirage.ServerObjectManager.Destroy(UnityEngine.GameObject, System.Boolean)
+  nameWithType: ServerObjectManager.Destroy(GameObject, Boolean)
 - uid: Mirage.ServerObjectManager.Destroy*
   name: Destroy
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_Destroy_
@@ -11581,19 +11568,6 @@ references:
   isSpec: "True"
   fullName: Mirage.ServerObjectManager.SyncVarSender
   nameWithType: ServerObjectManager.SyncVarSender
-- uid: Mirage.ServerObjectManager.UnSpawn(UnityEngine.GameObject)
-  name: UnSpawn(GameObject)
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_UnSpawn_UnityEngine_GameObject_
-  commentId: M:Mirage.ServerObjectManager.UnSpawn(UnityEngine.GameObject)
-  fullName: Mirage.ServerObjectManager.UnSpawn(UnityEngine.GameObject)
-  nameWithType: ServerObjectManager.UnSpawn(GameObject)
-- uid: Mirage.ServerObjectManager.UnSpawn*
-  name: UnSpawn
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_UnSpawn_
-  commentId: Overload:Mirage.ServerObjectManager.UnSpawn
-  isSpec: "True"
-  fullName: Mirage.ServerObjectManager.UnSpawn
-  nameWithType: ServerObjectManager.UnSpawn
 - uid: Mirage.ServerRpcAttribute
   name: ServerRpcAttribute
   href: api/Mirage.ServerRpcAttribute.html
