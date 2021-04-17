@@ -6937,19 +6937,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkClient.Disconnected
   nameWithType: NetworkClient.Disconnected
-- uid: Mirage.NetworkClient.GetNewPlayer(Mirage.IConnection)
-  name: GetNewPlayer(IConnection)
-  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_GetNewPlayer_Mirage_IConnection_
-  commentId: M:Mirage.NetworkClient.GetNewPlayer(Mirage.IConnection)
-  fullName: Mirage.NetworkClient.GetNewPlayer(Mirage.IConnection)
-  nameWithType: NetworkClient.GetNewPlayer(IConnection)
-- uid: Mirage.NetworkClient.GetNewPlayer*
-  name: GetNewPlayer
-  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_GetNewPlayer_
-  commentId: Overload:Mirage.NetworkClient.GetNewPlayer
-  isSpec: "True"
-  fullName: Mirage.NetworkClient.GetNewPlayer
-  nameWithType: NetworkClient.GetNewPlayer
 - uid: Mirage.NetworkClient.IsConnected
   name: IsConnected
   href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_IsConnected
@@ -8484,19 +8471,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkServer.Disconnected
   nameWithType: NetworkServer.Disconnected
-- uid: Mirage.NetworkServer.GetNewPlayer(Mirage.IConnection)
-  name: GetNewPlayer(IConnection)
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_GetNewPlayer_Mirage_IConnection_
-  commentId: M:Mirage.NetworkServer.GetNewPlayer(Mirage.IConnection)
-  fullName: Mirage.NetworkServer.GetNewPlayer(Mirage.IConnection)
-  nameWithType: NetworkServer.GetNewPlayer(IConnection)
-- uid: Mirage.NetworkServer.GetNewPlayer*
-  name: GetNewPlayer
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_GetNewPlayer_
-  commentId: Overload:Mirage.NetworkServer.GetNewPlayer
-  isSpec: "True"
-  fullName: Mirage.NetworkServer.GetNewPlayer
-  nameWithType: NetworkServer.GetNewPlayer
 - uid: Mirage.NetworkServer.ListenAsync
   name: ListenAsync()
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_ListenAsync
