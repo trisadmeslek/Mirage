@@ -436,19 +436,6 @@ references:
   isSpec: "True"
   fullName: Mirage.ClientObjectManager.GetPrefab
   nameWithType: ClientObjectManager.GetPrefab
-- uid: Mirage.ClientObjectManager.LocalPlayer
-  name: LocalPlayer
-  href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_LocalPlayer
-  commentId: P:Mirage.ClientObjectManager.LocalPlayer
-  fullName: Mirage.ClientObjectManager.LocalPlayer
-  nameWithType: ClientObjectManager.LocalPlayer
-- uid: Mirage.ClientObjectManager.LocalPlayer*
-  name: LocalPlayer
-  href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_LocalPlayer_
-  commentId: Overload:Mirage.ClientObjectManager.LocalPlayer
-  isSpec: "True"
-  fullName: Mirage.ClientObjectManager.LocalPlayer
-  nameWithType: ClientObjectManager.LocalPlayer
 - uid: Mirage.ClientObjectManager.NetworkSceneManager
   name: NetworkSceneManager
   href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_NetworkSceneManager
@@ -3634,19 +3621,6 @@ references:
   isSpec: "True"
   fullName: Mirage.IClientObjectManager.GetPrefab
   nameWithType: IClientObjectManager.GetPrefab
-- uid: Mirage.IClientObjectManager.LocalPlayer
-  name: LocalPlayer
-  href: api/Mirage.IClientObjectManager.html#Mirage_IClientObjectManager_LocalPlayer
-  commentId: P:Mirage.IClientObjectManager.LocalPlayer
-  fullName: Mirage.IClientObjectManager.LocalPlayer
-  nameWithType: IClientObjectManager.LocalPlayer
-- uid: Mirage.IClientObjectManager.LocalPlayer*
-  name: LocalPlayer
-  href: api/Mirage.IClientObjectManager.html#Mirage_IClientObjectManager_LocalPlayer_
-  commentId: Overload:Mirage.IClientObjectManager.LocalPlayer
-  isSpec: "True"
-  fullName: Mirage.IClientObjectManager.LocalPlayer
-  nameWithType: IClientObjectManager.LocalPlayer
 - uid: Mirage.IClientObjectManager.PrepareToSpawnSceneObjects
   name: PrepareToSpawnSceneObjects()
   href: api/Mirage.IClientObjectManager.html#Mirage_IClientObjectManager_PrepareToSpawnSceneObjects
