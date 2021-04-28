@@ -4140,19 +4140,6 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkServer.Connected
   nameWithType: INetworkServer.Connected
-- uid: Mirage.INetworkServer.Disconnect
-  name: Disconnect()
-  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Disconnect
-  commentId: M:Mirage.INetworkServer.Disconnect
-  fullName: Mirage.INetworkServer.Disconnect()
-  nameWithType: INetworkServer.Disconnect()
-- uid: Mirage.INetworkServer.Disconnect*
-  name: Disconnect
-  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Disconnect_
-  commentId: Overload:Mirage.INetworkServer.Disconnect
-  isSpec: "True"
-  fullName: Mirage.INetworkServer.Disconnect
-  nameWithType: INetworkServer.Disconnect
 - uid: Mirage.INetworkServer.Disconnected
   name: Disconnected
   href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Disconnected
@@ -4286,6 +4273,19 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkServer.Started
   nameWithType: INetworkServer.Started
+- uid: Mirage.INetworkServer.Stop
+  name: Stop()
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Stop
+  commentId: M:Mirage.INetworkServer.Stop
+  fullName: Mirage.INetworkServer.Stop()
+  nameWithType: INetworkServer.Stop()
+- uid: Mirage.INetworkServer.Stop*
+  name: Stop
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Stop_
+  commentId: Overload:Mirage.INetworkServer.Stop
+  isSpec: "True"
+  fullName: Mirage.INetworkServer.Stop
+  nameWithType: INetworkServer.Stop
 - uid: Mirage.INetworkServer.Stopped
   name: Stopped
   href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Stopped
@@ -8406,19 +8406,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkServer.Connected
   nameWithType: NetworkServer.Connected
-- uid: Mirage.NetworkServer.Disconnect
-  name: Disconnect()
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Disconnect
-  commentId: M:Mirage.NetworkServer.Disconnect
-  fullName: Mirage.NetworkServer.Disconnect()
-  nameWithType: NetworkServer.Disconnect()
-- uid: Mirage.NetworkServer.Disconnect*
-  name: Disconnect
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Disconnect_
-  commentId: Overload:Mirage.NetworkServer.Disconnect
-  isSpec: "True"
-  fullName: Mirage.NetworkServer.Disconnect
-  nameWithType: NetworkServer.Disconnect
 - uid: Mirage.NetworkServer.Disconnected
   name: Disconnected
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Disconnected
@@ -8629,6 +8616,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkServer.StartHost
   nameWithType: NetworkServer.StartHost
+- uid: Mirage.NetworkServer.Stop
+  name: Stop()
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Stop
+  commentId: M:Mirage.NetworkServer.Stop
+  fullName: Mirage.NetworkServer.Stop()
+  nameWithType: NetworkServer.Stop()
+- uid: Mirage.NetworkServer.Stop*
+  name: Stop
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Stop_
+  commentId: Overload:Mirage.NetworkServer.Stop
+  isSpec: "True"
+  fullName: Mirage.NetworkServer.Stop
+  nameWithType: NetworkServer.Stop
 - uid: Mirage.NetworkServer.StopHost
   name: StopHost()
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_StopHost
