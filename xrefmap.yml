@@ -8419,19 +8419,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkServer.Disconnected
   nameWithType: NetworkServer.Disconnected
-- uid: Mirage.NetworkServer.ListenAsync
-  name: ListenAsync()
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_ListenAsync
-  commentId: M:Mirage.NetworkServer.ListenAsync
-  fullName: Mirage.NetworkServer.ListenAsync()
-  nameWithType: NetworkServer.ListenAsync()
-- uid: Mirage.NetworkServer.ListenAsync*
-  name: ListenAsync
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_ListenAsync_
-  commentId: Overload:Mirage.NetworkServer.ListenAsync
-  isSpec: "True"
-  fullName: Mirage.NetworkServer.ListenAsync
-  nameWithType: NetworkServer.ListenAsync
 - uid: Mirage.NetworkServer.Listening
   name: Listening
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Listening
@@ -8590,6 +8577,19 @@ references:
   fullName.vb: Mirage.NetworkServer.SendToMany(Of T)(System.Collections.Generic.IEnumerable(Of Mirage.INetworkPlayer), T, System.Int32)
   nameWithType: NetworkServer.SendToMany<T>(IEnumerable<INetworkPlayer>, T, Int32)
   nameWithType.vb: NetworkServer.SendToMany(Of T)(IEnumerable(Of INetworkPlayer), T, Int32)
+- uid: Mirage.NetworkServer.StartAsync(Mirage.NetworkClient)
+  name: StartAsync(NetworkClient)
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_StartAsync_Mirage_NetworkClient_
+  commentId: M:Mirage.NetworkServer.StartAsync(Mirage.NetworkClient)
+  fullName: Mirage.NetworkServer.StartAsync(Mirage.NetworkClient)
+  nameWithType: NetworkServer.StartAsync(NetworkClient)
+- uid: Mirage.NetworkServer.StartAsync*
+  name: StartAsync
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_StartAsync_
+  commentId: Overload:Mirage.NetworkServer.StartAsync
+  isSpec: "True"
+  fullName: Mirage.NetworkServer.StartAsync
+  nameWithType: NetworkServer.StartAsync
 - uid: Mirage.NetworkServer.Started
   name: Started
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Started
@@ -8603,19 +8603,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkServer.Started
   nameWithType: NetworkServer.Started
-- uid: Mirage.NetworkServer.StartHost(Mirage.NetworkClient)
-  name: StartHost(NetworkClient)
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_StartHost_Mirage_NetworkClient_
-  commentId: M:Mirage.NetworkServer.StartHost(Mirage.NetworkClient)
-  fullName: Mirage.NetworkServer.StartHost(Mirage.NetworkClient)
-  nameWithType: NetworkServer.StartHost(NetworkClient)
-- uid: Mirage.NetworkServer.StartHost*
-  name: StartHost
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_StartHost_
-  commentId: Overload:Mirage.NetworkServer.StartHost
-  isSpec: "True"
-  fullName: Mirage.NetworkServer.StartHost
-  nameWithType: NetworkServer.StartHost
 - uid: Mirage.NetworkServer.Stop
   name: Stop()
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Stop
