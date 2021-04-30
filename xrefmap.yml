@@ -8629,19 +8629,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkServer.Stop
   nameWithType: NetworkServer.Stop
-- uid: Mirage.NetworkServer.StopHost
-  name: StopHost()
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_StopHost
-  commentId: M:Mirage.NetworkServer.StopHost
-  fullName: Mirage.NetworkServer.StopHost()
-  nameWithType: NetworkServer.StopHost()
-- uid: Mirage.NetworkServer.StopHost*
-  name: StopHost
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_StopHost_
-  commentId: Overload:Mirage.NetworkServer.StopHost
-  isSpec: "True"
-  fullName: Mirage.NetworkServer.StopHost
-  nameWithType: NetworkServer.StopHost
 - uid: Mirage.NetworkServer.Stopped
   name: Stopped
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Stopped
