@@ -7509,6 +7509,36 @@ references:
   commentId: F:Mirage.NetworkManager.ServerObjectManager
   fullName: Mirage.NetworkManager.ServerObjectManager
   nameWithType: NetworkManager.ServerObjectManager
+- uid: Mirage.NetworkManagerGUI
+  name: NetworkManagerGUI
+  href: api/Mirage.NetworkManagerGUI.html
+  commentId: T:Mirage.NetworkManagerGUI
+  fullName: Mirage.NetworkManagerGUI
+  nameWithType: NetworkManagerGUI
+- uid: Mirage.NetworkManagerGUI.GUIAnchor
+  name: GUIAnchor
+  href: api/Mirage.NetworkManagerGUI.html#Mirage_NetworkManagerGUI_GUIAnchor
+  commentId: F:Mirage.NetworkManagerGUI.GUIAnchor
+  fullName: Mirage.NetworkManagerGUI.GUIAnchor
+  nameWithType: NetworkManagerGUI.GUIAnchor
+- uid: Mirage.NetworkManagerGUI.NetworkAddress
+  name: NetworkAddress
+  href: api/Mirage.NetworkManagerGUI.html#Mirage_NetworkManagerGUI_NetworkAddress
+  commentId: F:Mirage.NetworkManagerGUI.NetworkAddress
+  fullName: Mirage.NetworkManagerGUI.NetworkAddress
+  nameWithType: NetworkManagerGUI.NetworkAddress
+- uid: Mirage.NetworkManagerGUI.NetworkManager
+  name: NetworkManager
+  href: api/Mirage.NetworkManagerGUI.html#Mirage_NetworkManagerGUI_NetworkManager
+  commentId: F:Mirage.NetworkManagerGUI.NetworkManager
+  fullName: Mirage.NetworkManagerGUI.NetworkManager
+  nameWithType: NetworkManagerGUI.NetworkManager
+- uid: Mirage.NetworkManagerGUI.Scale
+  name: Scale
+  href: api/Mirage.NetworkManagerGUI.html#Mirage_NetworkManagerGUI_Scale
+  commentId: F:Mirage.NetworkManagerGUI.Scale
+  fullName: Mirage.NetworkManagerGUI.Scale
+  nameWithType: NetworkManagerGUI.Scale
 - uid: Mirage.NetworkManagerHud
   name: NetworkManagerHud
   href: api/Mirage.NetworkManagerHud.html
