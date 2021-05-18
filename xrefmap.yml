@@ -4507,6 +4507,12 @@ references:
   commentId: T:Mirage.IServerObjectManager
   fullName: Mirage.IServerObjectManager
   nameWithType: IServerObjectManager
+- uid: Mirage.IServerObjectManager.AddCharacter(Mirage.INetworkPlayer,Mirage.NetworkIdentity)
+  name: AddCharacter(INetworkPlayer, NetworkIdentity)
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_AddCharacter_Mirage_INetworkPlayer_Mirage_NetworkIdentity_
+  commentId: M:Mirage.IServerObjectManager.AddCharacter(Mirage.INetworkPlayer,Mirage.NetworkIdentity)
+  fullName: Mirage.IServerObjectManager.AddCharacter(Mirage.INetworkPlayer, Mirage.NetworkIdentity)
+  nameWithType: IServerObjectManager.AddCharacter(INetworkPlayer, NetworkIdentity)
 - uid: Mirage.IServerObjectManager.AddCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject)
   name: AddCharacter(INetworkPlayer, GameObject)
   href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_AddCharacter_Mirage_INetworkPlayer_UnityEngine_GameObject_
@@ -4539,6 +4545,12 @@ references:
   isSpec: "True"
   fullName: Mirage.IServerObjectManager.Destroy
   nameWithType: IServerObjectManager.Destroy
+- uid: Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkIdentity,System.Boolean)
+  name: ReplaceCharacter(INetworkPlayer, NetworkIdentity, Boolean)
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_Mirage_NetworkIdentity_System_Boolean_
+  commentId: M:Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkIdentity,System.Boolean)
+  fullName: Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer, Mirage.NetworkIdentity, System.Boolean)
+  nameWithType: IServerObjectManager.ReplaceCharacter(INetworkPlayer, NetworkIdentity, Boolean)
 - uid: Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Boolean)
   name: ReplaceCharacter(INetworkPlayer, GameObject, Boolean)
   href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_UnityEngine_GameObject_System_Boolean_
@@ -4558,6 +4570,18 @@ references:
   isSpec: "True"
   fullName: Mirage.IServerObjectManager.ReplaceCharacter
   nameWithType: IServerObjectManager.ReplaceCharacter
+- uid: Mirage.IServerObjectManager.Spawn(Mirage.NetworkIdentity)
+  name: Spawn(NetworkIdentity)
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_Spawn_Mirage_NetworkIdentity_
+  commentId: M:Mirage.IServerObjectManager.Spawn(Mirage.NetworkIdentity)
+  fullName: Mirage.IServerObjectManager.Spawn(Mirage.NetworkIdentity)
+  nameWithType: IServerObjectManager.Spawn(NetworkIdentity)
+- uid: Mirage.IServerObjectManager.Spawn(Mirage.NetworkIdentity,Mirage.INetworkPlayer)
+  name: Spawn(NetworkIdentity, INetworkPlayer)
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_Spawn_Mirage_NetworkIdentity_Mirage_INetworkPlayer_
+  commentId: M:Mirage.IServerObjectManager.Spawn(Mirage.NetworkIdentity,Mirage.INetworkPlayer)
+  fullName: Mirage.IServerObjectManager.Spawn(Mirage.NetworkIdentity, Mirage.INetworkPlayer)
+  nameWithType: IServerObjectManager.Spawn(NetworkIdentity, INetworkPlayer)
 - uid: Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject,Mirage.INetworkPlayer)
   name: Spawn(GameObject, INetworkPlayer)
   href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_Spawn_UnityEngine_GameObject_Mirage_INetworkPlayer_
@@ -11361,6 +11385,12 @@ references:
   commentId: T:Mirage.ServerObjectManager
   fullName: Mirage.ServerObjectManager
   nameWithType: ServerObjectManager
+- uid: Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer,Mirage.NetworkIdentity)
+  name: AddCharacter(INetworkPlayer, NetworkIdentity)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_AddCharacter_Mirage_INetworkPlayer_Mirage_NetworkIdentity_
+  commentId: M:Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer,Mirage.NetworkIdentity)
+  fullName: Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer, Mirage.NetworkIdentity)
+  nameWithType: ServerObjectManager.AddCharacter(INetworkPlayer, NetworkIdentity)
 - uid: Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject)
   name: AddCharacter(INetworkPlayer, GameObject)
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_AddCharacter_Mirage_INetworkPlayer_UnityEngine_GameObject_
@@ -11412,6 +11442,12 @@ references:
   isSpec: "True"
   fullName: Mirage.ServerObjectManager.RemovePlayerForConnection
   nameWithType: ServerObjectManager.RemovePlayerForConnection
+- uid: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkIdentity,System.Boolean)
+  name: ReplaceCharacter(INetworkPlayer, NetworkIdentity, Boolean)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_Mirage_NetworkIdentity_System_Boolean_
+  commentId: M:Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkIdentity,System.Boolean)
+  fullName: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer, Mirage.NetworkIdentity, System.Boolean)
+  nameWithType: ServerObjectManager.ReplaceCharacter(INetworkPlayer, NetworkIdentity, Boolean)
 - uid: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Boolean)
   name: ReplaceCharacter(INetworkPlayer, GameObject, Boolean)
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_UnityEngine_GameObject_System_Boolean_
@@ -11482,6 +11518,12 @@ references:
   commentId: M:Mirage.ServerObjectManager.Spawn(Mirage.NetworkIdentity)
   fullName: Mirage.ServerObjectManager.Spawn(Mirage.NetworkIdentity)
   nameWithType: ServerObjectManager.Spawn(NetworkIdentity)
+- uid: Mirage.ServerObjectManager.Spawn(Mirage.NetworkIdentity,Mirage.INetworkPlayer)
+  name: Spawn(NetworkIdentity, INetworkPlayer)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_Spawn_Mirage_NetworkIdentity_Mirage_INetworkPlayer_
+  commentId: M:Mirage.ServerObjectManager.Spawn(Mirage.NetworkIdentity,Mirage.INetworkPlayer)
+  fullName: Mirage.ServerObjectManager.Spawn(Mirage.NetworkIdentity, Mirage.INetworkPlayer)
+  nameWithType: ServerObjectManager.Spawn(NetworkIdentity, INetworkPlayer)
 - uid: Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject,Mirage.INetworkPlayer)
   name: Spawn(GameObject, INetworkPlayer)
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_Spawn_UnityEngine_GameObject_Mirage_INetworkPlayer_
