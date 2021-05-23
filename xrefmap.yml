@@ -195,24 +195,6 @@ references:
   commentId: F:Mirage.Authenticators.TimeoutAuthenticator.Timeout
   fullName: Mirage.Authenticators.TimeoutAuthenticator.Timeout
   nameWithType: TimeoutAuthenticator.Timeout
-- uid: Mirage.Channel
-  name: Channel
-  href: api/Mirage.Channel.html
-  commentId: T:Mirage.Channel
-  fullName: Mirage.Channel
-  nameWithType: Channel
-- uid: Mirage.Channel.Reliable
-  name: Reliable
-  href: api/Mirage.Channel.html#Mirage_Channel_Reliable
-  commentId: F:Mirage.Channel.Reliable
-  fullName: Mirage.Channel.Reliable
-  nameWithType: Channel.Reliable
-- uid: Mirage.Channel.Unreliable
-  name: Unreliable
-  href: api/Mirage.Channel.html#Mirage_Channel_Unreliable
-  commentId: F:Mirage.Channel.Unreliable
-  fullName: Mirage.Channel.Unreliable
-  nameWithType: Channel.Unreliable
 - uid: Mirage.CharacterSpawner
   name: CharacterSpawner
   href: api/Mirage.CharacterSpawner.html
