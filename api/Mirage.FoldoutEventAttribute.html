@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ServerRpcAttribute
+    <title>Class FoldoutEventAttribute
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ServerRpcAttribute
+    <meta name="title" content="Class FoldoutEventAttribute
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -93,23 +93,26 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Mirage.ServerRpcAttribute">
+            <article class="content wrap" id="_content" data-uid="Mirage.FoldoutEventAttribute">
   
   
-  <h1 id="Mirage_ServerRpcAttribute" data-uid="Mirage.ServerRpcAttribute" class="text-break">Class ServerRpcAttribute
+  <h1 id="Mirage_FoldoutEventAttribute" data-uid="Mirage.FoldoutEventAttribute" class="text-break">Class FoldoutEventAttribute
   </h1>
-  <div class="markdown level0 summary"><p>Call this from a client to run this function on the server.</p>
-<p>Make sure to validate input etc. It&apos;s not possible to call this from a server.</p>
+  <div class="markdown level0 summary"><p>Draws UnityEvent as a foldout</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.attribute">Attribute</a></div>
-    <div class="level2"><span class="xref">ServerRpcAttribute</span></div>
+    <div class="level2"><a class="xref" href="https://docs.unity3d.com/ScriptReference/PropertyAttribute.html">PropertyAttribute</a></div>
+    <div class="level3"><span class="xref">FoldoutEventAttribute</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/PropertyAttribute-order.html">PropertyAttribute.order</a>
+    </div>
     <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.attribute.equals#System_Attribute_Equals_System_Object_">Attribute.Equals(Object)</a>
     </div>
@@ -239,71 +242,11 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mirage.html">Mirage</a></h6>
   <h6><strong>Assembly</strong>: Mirage.dll</h6>
-  <h5 id="Mirage_ServerRpcAttribute_syntax">Syntax</h5>
+  <h5 id="Mirage_FoldoutEventAttribute_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Method)]
-public class ServerRpcAttribute : Attribute</code></pre>
+    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Field)]
+public sealed class FoldoutEventAttribute : PropertyAttribute</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_ServerRpcAttribute_channel.md&amp;value=---%0Auid%3A%20Mirage.ServerRpcAttribute.channel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/cbb12d13d295c048f0a913ddb91203f4ed9f66f5/Assets/Mirage/Runtime/CustomAttributes.cs/#L24">View Source</a>
-  </span>
-  <h4 id="Mirage_ServerRpcAttribute_channel" data-uid="Mirage.ServerRpcAttribute.channel">channel</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int channel</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_ServerRpcAttribute_requireAuthority.md&amp;value=---%0Auid%3A%20Mirage.ServerRpcAttribute.requireAuthority%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/cbb12d13d295c048f0a913ddb91203f4ed9f66f5/Assets/Mirage/Runtime/CustomAttributes.cs/#L25">View Source</a>
-  </span>
-  <h4 id="Mirage_ServerRpcAttribute_requireAuthority" data-uid="Mirage.ServerRpcAttribute.requireAuthority">requireAuthority</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool requireAuthority</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           
@@ -312,10 +255,10 @@ public class ServerRpcAttribute : Attribute</code></pre>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_ServerRpcAttribute.md&amp;value=---%0Auid%3A%20Mirage.ServerRpcAttribute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_FoldoutEventAttribute.md&amp;value=---%0Auid%3A%20Mirage.FoldoutEventAttribute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/blob/cbb12d13d295c048f0a913ddb91203f4ed9f66f5/Assets/Mirage/Runtime/CustomAttributes.cs/#L21" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirageNet/Mirage/blob/cbb12d13d295c048f0a913ddb91203f4ed9f66f5/Assets/Mirage/Runtime/CustomAttributes.cs/#L125" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

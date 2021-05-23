@@ -3432,6 +3432,12 @@ references:
   isSpec: "True"
   fullName: Mirage.ExponentialMovingAverage.Var
   nameWithType: ExponentialMovingAverage.Var
+- uid: Mirage.FoldoutEventAttribute
+  name: FoldoutEventAttribute
+  href: api/Mirage.FoldoutEventAttribute.html
+  commentId: T:Mirage.FoldoutEventAttribute
+  fullName: Mirage.FoldoutEventAttribute
+  nameWithType: FoldoutEventAttribute
 - uid: Mirage.GameobjectExtension
   name: GameobjectExtension
   href: api/Mirage.GameobjectExtension.html
