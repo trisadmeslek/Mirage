@@ -3771,6 +3771,22 @@ references:
   commentId: T:Mirage.IMessageHandler
   fullName: Mirage.IMessageHandler
   nameWithType: IMessageHandler
+- uid: Mirage.IMessageHandler.HandleMessage(System.ArraySegment{System.Byte})
+  name: HandleMessage(ArraySegment<Byte>)
+  href: api/Mirage.IMessageHandler.html#Mirage_IMessageHandler_HandleMessage_System_ArraySegment_System_Byte__
+  commentId: M:Mirage.IMessageHandler.HandleMessage(System.ArraySegment{System.Byte})
+  name.vb: HandleMessage(ArraySegment(Of Byte))
+  fullName: Mirage.IMessageHandler.HandleMessage(System.ArraySegment<System.Byte>)
+  fullName.vb: Mirage.IMessageHandler.HandleMessage(System.ArraySegment(Of System.Byte))
+  nameWithType: IMessageHandler.HandleMessage(ArraySegment<Byte>)
+  nameWithType.vb: IMessageHandler.HandleMessage(ArraySegment(Of Byte))
+- uid: Mirage.IMessageHandler.HandleMessage*
+  name: HandleMessage
+  href: api/Mirage.IMessageHandler.html#Mirage_IMessageHandler_HandleMessage_
+  commentId: Overload:Mirage.IMessageHandler.HandleMessage
+  isSpec: "True"
+  fullName: Mirage.IMessageHandler.HandleMessage
+  nameWithType: IMessageHandler.HandleMessage
 - uid: Mirage.IMessageReceiver
   name: IMessageReceiver
   href: api/Mirage.IMessageReceiver.html
@@ -3790,19 +3806,6 @@ references:
   isSpec: "True"
   fullName: Mirage.IMessageReceiver.ClearHandlers
   nameWithType: IMessageReceiver.ClearHandlers
-- uid: Mirage.IMessageReceiver.ProcessMessagesAsync
-  name: ProcessMessagesAsync()
-  href: api/Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_ProcessMessagesAsync
-  commentId: M:Mirage.IMessageReceiver.ProcessMessagesAsync
-  fullName: Mirage.IMessageReceiver.ProcessMessagesAsync()
-  nameWithType: IMessageReceiver.ProcessMessagesAsync()
-- uid: Mirage.IMessageReceiver.ProcessMessagesAsync*
-  name: ProcessMessagesAsync
-  href: api/Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_ProcessMessagesAsync_
-  commentId: Overload:Mirage.IMessageReceiver.ProcessMessagesAsync
-  isSpec: "True"
-  fullName: Mirage.IMessageReceiver.ProcessMessagesAsync
-  nameWithType: IMessageReceiver.ProcessMessagesAsync
 - uid: Mirage.IMessageReceiver.RegisterHandler*
   name: RegisterHandler
   href: api/Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_RegisterHandler_
@@ -4017,6 +4020,32 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkPlayer.Connection
   nameWithType: INetworkPlayer.Connection
+- uid: Mirage.INetworkPlayer.Disconnect
+  name: Disconnect()
+  href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_Disconnect
+  commentId: M:Mirage.INetworkPlayer.Disconnect
+  fullName: Mirage.INetworkPlayer.Disconnect()
+  nameWithType: INetworkPlayer.Disconnect()
+- uid: Mirage.INetworkPlayer.Disconnect*
+  name: Disconnect
+  href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_Disconnect_
+  commentId: Overload:Mirage.INetworkPlayer.Disconnect
+  isSpec: "True"
+  fullName: Mirage.INetworkPlayer.Disconnect
+  nameWithType: INetworkPlayer.Disconnect
+- uid: Mirage.INetworkPlayer.MarkAsDisconnected
+  name: MarkAsDisconnected()
+  href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_MarkAsDisconnected
+  commentId: M:Mirage.INetworkPlayer.MarkAsDisconnected
+  fullName: Mirage.INetworkPlayer.MarkAsDisconnected()
+  nameWithType: INetworkPlayer.MarkAsDisconnected()
+- uid: Mirage.INetworkPlayer.MarkAsDisconnected*
+  name: MarkAsDisconnected
+  href: api/Mirage.INetworkPlayer.html#Mirage_INetworkPlayer_MarkAsDisconnected_
+  commentId: Overload:Mirage.INetworkPlayer.MarkAsDisconnected
+  isSpec: "True"
+  fullName: Mirage.INetworkPlayer.MarkAsDisconnected
+  nameWithType: INetworkPlayer.MarkAsDisconnected
 - uid: Mirage.INetworkSceneManager
   name: INetworkSceneManager
   href: api/Mirage.INetworkSceneManager.html
@@ -6864,31 +6893,22 @@ references:
   commentId: F:Mirage.NetworkClient.authenticator
   fullName: Mirage.NetworkClient.authenticator
   nameWithType: NetworkClient.authenticator
-- uid: Mirage.NetworkClient.ConnectAsync(System.String)
-  name: ConnectAsync(String)
-  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_ConnectAsync_System_String_
-  commentId: M:Mirage.NetworkClient.ConnectAsync(System.String)
-  fullName: Mirage.NetworkClient.ConnectAsync(System.String)
-  nameWithType: NetworkClient.ConnectAsync(String)
-- uid: Mirage.NetworkClient.ConnectAsync(System.String,System.UInt16)
-  name: ConnectAsync(String, UInt16)
-  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_ConnectAsync_System_String_System_UInt16_
-  commentId: M:Mirage.NetworkClient.ConnectAsync(System.String,System.UInt16)
-  fullName: Mirage.NetworkClient.ConnectAsync(System.String, System.UInt16)
-  nameWithType: NetworkClient.ConnectAsync(String, UInt16)
-- uid: Mirage.NetworkClient.ConnectAsync(System.Uri)
-  name: ConnectAsync(Uri)
-  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_ConnectAsync_System_Uri_
-  commentId: M:Mirage.NetworkClient.ConnectAsync(System.Uri)
-  fullName: Mirage.NetworkClient.ConnectAsync(System.Uri)
-  nameWithType: NetworkClient.ConnectAsync(Uri)
-- uid: Mirage.NetworkClient.ConnectAsync*
-  name: ConnectAsync
-  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_ConnectAsync_
-  commentId: Overload:Mirage.NetworkClient.ConnectAsync
+- uid: Mirage.NetworkClient.Connect(System.String,System.Nullable{System.UInt16})
+  name: Connect(String, Nullable<UInt16>)
+  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Connect_System_String_System_Nullable_System_UInt16__
+  commentId: M:Mirage.NetworkClient.Connect(System.String,System.Nullable{System.UInt16})
+  name.vb: Connect(String, Nullable(Of UInt16))
+  fullName: Mirage.NetworkClient.Connect(System.String, System.Nullable<System.UInt16>)
+  fullName.vb: Mirage.NetworkClient.Connect(System.String, System.Nullable(Of System.UInt16))
+  nameWithType: NetworkClient.Connect(String, Nullable<UInt16>)
+  nameWithType.vb: NetworkClient.Connect(String, Nullable(Of UInt16))
+- uid: Mirage.NetworkClient.Connect*
+  name: Connect
+  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Connect_
+  commentId: Overload:Mirage.NetworkClient.Connect
   isSpec: "True"
-  fullName: Mirage.NetworkClient.ConnectAsync
-  nameWithType: NetworkClient.ConnectAsync
+  fullName: Mirage.NetworkClient.Connect
+  nameWithType: NetworkClient.Connect
 - uid: Mirage.NetworkClient.Connected
   name: Connected
   href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Connected
@@ -6928,6 +6948,12 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkClient.Disconnected
   nameWithType: NetworkClient.Disconnected
+- uid: Mirage.NetworkClient.EnablePeerMetrics
+  name: EnablePeerMetrics
+  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_EnablePeerMetrics
+  commentId: F:Mirage.NetworkClient.EnablePeerMetrics
+  fullName: Mirage.NetworkClient.EnablePeerMetrics
+  nameWithType: NetworkClient.EnablePeerMetrics
 - uid: Mirage.NetworkClient.IsConnected
   name: IsConnected
   href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_IsConnected
@@ -6954,6 +6980,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkClient.IsLocalClient
   nameWithType: NetworkClient.IsLocalClient
+- uid: Mirage.NetworkClient.Metrics
+  name: Metrics
+  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Metrics
+  commentId: P:Mirage.NetworkClient.Metrics
+  fullName: Mirage.NetworkClient.Metrics
+  nameWithType: NetworkClient.Metrics
+- uid: Mirage.NetworkClient.Metrics*
+  name: Metrics
+  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Metrics_
+  commentId: Overload:Mirage.NetworkClient.Metrics
+  isSpec: "True"
+  fullName: Mirage.NetworkClient.Metrics
+  nameWithType: NetworkClient.Metrics
 - uid: Mirage.NetworkClient.Player
   name: Player
   href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Player
@@ -6992,6 +7031,12 @@ references:
   fullName.vb: Mirage.NetworkClient.Send(Of T)(T, System.Int32)
   nameWithType: NetworkClient.Send<T>(T, Int32)
   nameWithType.vb: NetworkClient.Send(Of T)(T, Int32)
+- uid: Mirage.NetworkClient.SocketFactory
+  name: SocketFactory
+  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_SocketFactory
+  commentId: F:Mirage.NetworkClient.SocketFactory
+  fullName: Mirage.NetworkClient.SocketFactory
+  nameWithType: NetworkClient.SocketFactory
 - uid: Mirage.NetworkClient.Time
   name: Time
   href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Time
@@ -7005,12 +7050,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkClient.Time
   nameWithType: NetworkClient.Time
-- uid: Mirage.NetworkClient.Transport
-  name: Transport
-  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Transport
-  commentId: F:Mirage.NetworkClient.Transport
-  fullName: Mirage.NetworkClient.Transport
-  nameWithType: NetworkClient.Transport
 - uid: Mirage.NetworkClient.World
   name: World
   href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_World
@@ -7841,11 +7880,11 @@ references:
   commentId: T:Mirage.NetworkPlayer
   fullName: Mirage.NetworkPlayer
   nameWithType: NetworkPlayer
-- uid: Mirage.NetworkPlayer.#ctor(Mirage.IConnection)
+- uid: Mirage.NetworkPlayer.#ctor(Mirage.SocketLayer.IConnection)
   name: NetworkPlayer(IConnection)
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer__ctor_Mirage_IConnection_
-  commentId: M:Mirage.NetworkPlayer.#ctor(Mirage.IConnection)
-  fullName: Mirage.NetworkPlayer.NetworkPlayer(Mirage.IConnection)
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer__ctor_Mirage_SocketLayer_IConnection_
+  commentId: M:Mirage.NetworkPlayer.#ctor(Mirage.SocketLayer.IConnection)
+  fullName: Mirage.NetworkPlayer.NetworkPlayer(Mirage.SocketLayer.IConnection)
   nameWithType: NetworkPlayer.NetworkPlayer(IConnection)
 - uid: Mirage.NetworkPlayer.#ctor*
   name: NetworkPlayer
@@ -7945,6 +7984,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkPlayer.DestroyOwnedObjects
   nameWithType: NetworkPlayer.DestroyOwnedObjects
+- uid: Mirage.NetworkPlayer.Disconnect
+  name: Disconnect()
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Disconnect
+  commentId: M:Mirage.NetworkPlayer.Disconnect
+  fullName: Mirage.NetworkPlayer.Disconnect()
+  nameWithType: NetworkPlayer.Disconnect()
+- uid: Mirage.NetworkPlayer.Disconnect*
+  name: Disconnect
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Disconnect_
+  commentId: Overload:Mirage.NetworkPlayer.Disconnect
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.Disconnect
+  nameWithType: NetworkPlayer.Disconnect
 - uid: Mirage.NetworkPlayer.Identity
   name: Identity
   href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Identity
@@ -7971,6 +8023,37 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkPlayer.IsReady
   nameWithType: NetworkPlayer.IsReady
+- uid: Mirage.NetworkPlayer.MarkAsDisconnected
+  name: MarkAsDisconnected()
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_MarkAsDisconnected
+  commentId: M:Mirage.NetworkPlayer.MarkAsDisconnected
+  fullName: Mirage.NetworkPlayer.MarkAsDisconnected()
+  nameWithType: NetworkPlayer.MarkAsDisconnected()
+- uid: Mirage.NetworkPlayer.MarkAsDisconnected*
+  name: MarkAsDisconnected
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_MarkAsDisconnected_
+  commentId: Overload:Mirage.NetworkPlayer.MarkAsDisconnected
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.MarkAsDisconnected
+  nameWithType: NetworkPlayer.MarkAsDisconnected
+- uid: Mirage.NetworkPlayer.Mirage#IMessageHandler#HandleMessage(System.ArraySegment{System.Byte})
+  name: IMessageHandler.HandleMessage(ArraySegment<Byte>)
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Mirage_IMessageHandler_HandleMessage_System_ArraySegment_System_Byte__
+  commentId: M:Mirage.NetworkPlayer.Mirage#IMessageHandler#HandleMessage(System.ArraySegment{System.Byte})
+  name.vb: Mirage.IMessageHandler.HandleMessage(ArraySegment(Of Byte))
+  fullName: Mirage.NetworkPlayer.Mirage.IMessageHandler.HandleMessage(System.ArraySegment<System.Byte>)
+  fullName.vb: Mirage.NetworkPlayer.Mirage.IMessageHandler.HandleMessage(System.ArraySegment(Of System.Byte))
+  nameWithType: NetworkPlayer.IMessageHandler.HandleMessage(ArraySegment<Byte>)
+  nameWithType.vb: NetworkPlayer.Mirage.IMessageHandler.HandleMessage(ArraySegment(Of Byte))
+- uid: Mirage.NetworkPlayer.Mirage#IMessageHandler#HandleMessage*
+  name: IMessageHandler.HandleMessage
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Mirage_IMessageHandler_HandleMessage_
+  commentId: Overload:Mirage.NetworkPlayer.Mirage#IMessageHandler#HandleMessage
+  isSpec: "True"
+  name.vb: Mirage.IMessageHandler.HandleMessage
+  fullName: Mirage.NetworkPlayer.Mirage.IMessageHandler.HandleMessage
+  nameWithType: NetworkPlayer.IMessageHandler.HandleMessage
+  nameWithType.vb: NetworkPlayer.Mirage.IMessageHandler.HandleMessage
 - uid: Mirage.NetworkPlayer.NOTIFY_ACK_TIMEOUT
   name: NOTIFY_ACK_TIMEOUT
   href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_NOTIFY_ACK_TIMEOUT
@@ -7989,19 +8072,6 @@ references:
   commentId: E:Mirage.NetworkPlayer.NotifyLost
   fullName: Mirage.NetworkPlayer.NotifyLost
   nameWithType: NetworkPlayer.NotifyLost
-- uid: Mirage.NetworkPlayer.ProcessMessagesAsync
-  name: ProcessMessagesAsync()
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_ProcessMessagesAsync
-  commentId: M:Mirage.NetworkPlayer.ProcessMessagesAsync
-  fullName: Mirage.NetworkPlayer.ProcessMessagesAsync()
-  nameWithType: NetworkPlayer.ProcessMessagesAsync()
-- uid: Mirage.NetworkPlayer.ProcessMessagesAsync*
-  name: ProcessMessagesAsync
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_ProcessMessagesAsync_
-  commentId: Overload:Mirage.NetworkPlayer.ProcessMessagesAsync
-  isSpec: "True"
-  fullName: Mirage.NetworkPlayer.ProcessMessagesAsync
-  nameWithType: NetworkPlayer.ProcessMessagesAsync
 - uid: Mirage.NetworkPlayer.RegisterHandler*
   name: RegisterHandler
   href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_RegisterHandler_
@@ -8479,6 +8549,12 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkServer.Disconnected
   nameWithType: NetworkServer.Disconnected
+- uid: Mirage.NetworkServer.EnablePeerMetrics
+  name: EnablePeerMetrics
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_EnablePeerMetrics
+  commentId: F:Mirage.NetworkServer.EnablePeerMetrics
+  fullName: Mirage.NetworkServer.EnablePeerMetrics
+  nameWithType: NetworkServer.EnablePeerMetrics
 - uid: Mirage.NetworkServer.Listening
   name: Listening
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Listening
@@ -8530,6 +8606,19 @@ references:
   commentId: F:Mirage.NetworkServer.MaxConnections
   fullName: Mirage.NetworkServer.MaxConnections
   nameWithType: NetworkServer.MaxConnections
+- uid: Mirage.NetworkServer.Metrics
+  name: Metrics
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Metrics
+  commentId: P:Mirage.NetworkServer.Metrics
+  fullName: Mirage.NetworkServer.Metrics
+  nameWithType: NetworkServer.Metrics
+- uid: Mirage.NetworkServer.Metrics*
+  name: Metrics
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Metrics_
+  commentId: Overload:Mirage.NetworkServer.Metrics
+  isSpec: "True"
+  fullName: Mirage.NetworkServer.Metrics
+  nameWithType: NetworkServer.Metrics
 - uid: Mirage.NetworkServer.Mirage#INetworkServer#Players
   name: INetworkServer.Players
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Mirage_INetworkServer_Players
@@ -8637,19 +8726,12 @@ references:
   fullName.vb: Mirage.NetworkServer.SendToMany(Of T)(System.Collections.Generic.IEnumerable(Of Mirage.INetworkPlayer), T, System.Int32)
   nameWithType: NetworkServer.SendToMany<T>(IEnumerable<INetworkPlayer>, T, Int32)
   nameWithType.vb: NetworkServer.SendToMany(Of T)(IEnumerable(Of INetworkPlayer), T, Int32)
-- uid: Mirage.NetworkServer.StartAsync(Mirage.NetworkClient)
-  name: StartAsync(NetworkClient)
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_StartAsync_Mirage_NetworkClient_
-  commentId: M:Mirage.NetworkServer.StartAsync(Mirage.NetworkClient)
-  fullName: Mirage.NetworkServer.StartAsync(Mirage.NetworkClient)
-  nameWithType: NetworkServer.StartAsync(NetworkClient)
-- uid: Mirage.NetworkServer.StartAsync*
-  name: StartAsync
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_StartAsync_
-  commentId: Overload:Mirage.NetworkServer.StartAsync
-  isSpec: "True"
-  fullName: Mirage.NetworkServer.StartAsync
-  nameWithType: NetworkServer.StartAsync
+- uid: Mirage.NetworkServer.SocketFactory
+  name: SocketFactory
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_SocketFactory
+  commentId: F:Mirage.NetworkServer.SocketFactory
+  fullName: Mirage.NetworkServer.SocketFactory
+  nameWithType: NetworkServer.SocketFactory
 - uid: Mirage.NetworkServer.Started
   name: Started
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Started
@@ -8663,6 +8745,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkServer.Started
   nameWithType: NetworkServer.Started
+- uid: Mirage.NetworkServer.StartServer(Mirage.NetworkClient)
+  name: StartServer(NetworkClient)
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_StartServer_Mirage_NetworkClient_
+  commentId: M:Mirage.NetworkServer.StartServer(Mirage.NetworkClient)
+  fullName: Mirage.NetworkServer.StartServer(Mirage.NetworkClient)
+  nameWithType: NetworkServer.StartServer(NetworkClient)
+- uid: Mirage.NetworkServer.StartServer*
+  name: StartServer
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_StartServer_
+  commentId: Overload:Mirage.NetworkServer.StartServer
+  isSpec: "True"
+  fullName: Mirage.NetworkServer.StartServer
+  nameWithType: NetworkServer.StartServer
 - uid: Mirage.NetworkServer.Stop
   name: Stop()
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Stop
@@ -8702,12 +8797,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkServer.Time
   nameWithType: NetworkServer.Time
-- uid: Mirage.NetworkServer.Transport
-  name: Transport
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Transport
-  commentId: F:Mirage.NetworkServer.Transport
-  fullName: Mirage.NetworkServer.Transport
-  nameWithType: NetworkServer.Transport
 - uid: Mirage.NetworkServer.World
   name: World
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_World
@@ -9286,80 +9375,163 @@ references:
   commentId: F:Mirage.OnlineOfflineScene.Server
   fullName: Mirage.OnlineOfflineScene.Server
   nameWithType: OnlineOfflineScene.Server
-- uid: Mirage.PipeConnection
-  name: PipeConnection
-  href: api/Mirage.PipeConnection.html
-  commentId: T:Mirage.PipeConnection
-  fullName: Mirage.PipeConnection
-  nameWithType: PipeConnection
-- uid: Mirage.PipeConnection.CreatePipe
-  name: CreatePipe()
-  href: api/Mirage.PipeConnection.html#Mirage_PipeConnection_CreatePipe
-  commentId: M:Mirage.PipeConnection.CreatePipe
-  fullName: Mirage.PipeConnection.CreatePipe()
-  nameWithType: PipeConnection.CreatePipe()
-- uid: Mirage.PipeConnection.CreatePipe*
-  name: CreatePipe
-  href: api/Mirage.PipeConnection.html#Mirage_PipeConnection_CreatePipe_
-  commentId: Overload:Mirage.PipeConnection.CreatePipe
+- uid: Mirage.PipePeerConnection
+  name: PipePeerConnection
+  href: api/Mirage.PipePeerConnection.html
+  commentId: T:Mirage.PipePeerConnection
+  fullName: Mirage.PipePeerConnection
+  nameWithType: PipePeerConnection
+- uid: Mirage.PipePeerConnection.Create(Mirage.SocketLayer.IDataHandler,Mirage.SocketLayer.IDataHandler)
+  name: Create(IDataHandler, IDataHandler)
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Create_Mirage_SocketLayer_IDataHandler_Mirage_SocketLayer_IDataHandler_
+  commentId: M:Mirage.PipePeerConnection.Create(Mirage.SocketLayer.IDataHandler,Mirage.SocketLayer.IDataHandler)
+  fullName: Mirage.PipePeerConnection.Create(Mirage.SocketLayer.IDataHandler, Mirage.SocketLayer.IDataHandler)
+  nameWithType: PipePeerConnection.Create(IDataHandler, IDataHandler)
+- uid: Mirage.PipePeerConnection.Create*
+  name: Create
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Create_
+  commentId: Overload:Mirage.PipePeerConnection.Create
   isSpec: "True"
-  fullName: Mirage.PipeConnection.CreatePipe
-  nameWithType: PipeConnection.CreatePipe
-- uid: Mirage.PipeConnection.Disconnect
-  name: Disconnect()
-  href: api/Mirage.PipeConnection.html#Mirage_PipeConnection_Disconnect
-  commentId: M:Mirage.PipeConnection.Disconnect
-  fullName: Mirage.PipeConnection.Disconnect()
-  nameWithType: PipeConnection.Disconnect()
-- uid: Mirage.PipeConnection.Disconnect*
-  name: Disconnect
-  href: api/Mirage.PipeConnection.html#Mirage_PipeConnection_Disconnect_
-  commentId: Overload:Mirage.PipeConnection.Disconnect
+  fullName: Mirage.PipePeerConnection.Create
+  nameWithType: PipePeerConnection.Create
+- uid: Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#Disconnect
+  name: IConnection.Disconnect()
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_Disconnect
+  commentId: M:Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#Disconnect
+  name.vb: Mirage.SocketLayer.IConnection.Disconnect()
+  fullName: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.Disconnect()
+  nameWithType: PipePeerConnection.IConnection.Disconnect()
+  nameWithType.vb: PipePeerConnection.Mirage.SocketLayer.IConnection.Disconnect()
+- uid: Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#Disconnect*
+  name: IConnection.Disconnect
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_Disconnect_
+  commentId: Overload:Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#Disconnect
   isSpec: "True"
-  fullName: Mirage.PipeConnection.Disconnect
-  nameWithType: PipeConnection.Disconnect
-- uid: Mirage.PipeConnection.GetEndPointAddress
-  name: GetEndPointAddress()
-  href: api/Mirage.PipeConnection.html#Mirage_PipeConnection_GetEndPointAddress
-  commentId: M:Mirage.PipeConnection.GetEndPointAddress
-  fullName: Mirage.PipeConnection.GetEndPointAddress()
-  nameWithType: PipeConnection.GetEndPointAddress()
-- uid: Mirage.PipeConnection.GetEndPointAddress*
-  name: GetEndPointAddress
-  href: api/Mirage.PipeConnection.html#Mirage_PipeConnection_GetEndPointAddress_
-  commentId: Overload:Mirage.PipeConnection.GetEndPointAddress
+  name.vb: Mirage.SocketLayer.IConnection.Disconnect
+  fullName: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.Disconnect
+  nameWithType: PipePeerConnection.IConnection.Disconnect
+  nameWithType.vb: PipePeerConnection.Mirage.SocketLayer.IConnection.Disconnect
+- uid: Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#EndPoint
+  name: IConnection.EndPoint
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_EndPoint
+  commentId: P:Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#EndPoint
+  name.vb: Mirage.SocketLayer.IConnection.EndPoint
+  fullName: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.EndPoint
+  nameWithType: PipePeerConnection.IConnection.EndPoint
+  nameWithType.vb: PipePeerConnection.Mirage.SocketLayer.IConnection.EndPoint
+- uid: Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#EndPoint*
+  name: IConnection.EndPoint
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_EndPoint_
+  commentId: Overload:Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#EndPoint
   isSpec: "True"
-  fullName: Mirage.PipeConnection.GetEndPointAddress
-  nameWithType: PipeConnection.GetEndPointAddress
-- uid: Mirage.PipeConnection.ReceiveAsync(System.IO.MemoryStream)
-  name: ReceiveAsync(MemoryStream)
-  href: api/Mirage.PipeConnection.html#Mirage_PipeConnection_ReceiveAsync_System_IO_MemoryStream_
-  commentId: M:Mirage.PipeConnection.ReceiveAsync(System.IO.MemoryStream)
-  fullName: Mirage.PipeConnection.ReceiveAsync(System.IO.MemoryStream)
-  nameWithType: PipeConnection.ReceiveAsync(MemoryStream)
-- uid: Mirage.PipeConnection.ReceiveAsync*
-  name: ReceiveAsync
-  href: api/Mirage.PipeConnection.html#Mirage_PipeConnection_ReceiveAsync_
-  commentId: Overload:Mirage.PipeConnection.ReceiveAsync
+  name.vb: Mirage.SocketLayer.IConnection.EndPoint
+  fullName: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.EndPoint
+  nameWithType: PipePeerConnection.IConnection.EndPoint
+  nameWithType.vb: PipePeerConnection.Mirage.SocketLayer.IConnection.EndPoint
+- uid: Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendNotify(System.Byte[])
+  name: IConnection.SendNotify(Byte[])
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_SendNotify_System_Byte___
+  commentId: M:Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendNotify(System.Byte[])
+  name.vb: Mirage.SocketLayer.IConnection.SendNotify(Byte())
+  fullName: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.SendNotify(System.Byte[])
+  fullName.vb: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.SendNotify(System.Byte())
+  nameWithType: PipePeerConnection.IConnection.SendNotify(Byte[])
+  nameWithType.vb: PipePeerConnection.Mirage.SocketLayer.IConnection.SendNotify(Byte())
+- uid: Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendNotify*
+  name: IConnection.SendNotify
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_SendNotify_
+  commentId: Overload:Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendNotify
   isSpec: "True"
-  fullName: Mirage.PipeConnection.ReceiveAsync
-  nameWithType: PipeConnection.ReceiveAsync
-- uid: Mirage.PipeConnection.Send(System.ArraySegment{System.Byte},System.Int32)
-  name: Send(ArraySegment<Byte>, Int32)
-  href: api/Mirage.PipeConnection.html#Mirage_PipeConnection_Send_System_ArraySegment_System_Byte__System_Int32_
-  commentId: M:Mirage.PipeConnection.Send(System.ArraySegment{System.Byte},System.Int32)
-  name.vb: Send(ArraySegment(Of Byte), Int32)
-  fullName: Mirage.PipeConnection.Send(System.ArraySegment<System.Byte>, System.Int32)
-  fullName.vb: Mirage.PipeConnection.Send(System.ArraySegment(Of System.Byte), System.Int32)
-  nameWithType: PipeConnection.Send(ArraySegment<Byte>, Int32)
-  nameWithType.vb: PipeConnection.Send(ArraySegment(Of Byte), Int32)
-- uid: Mirage.PipeConnection.Send*
-  name: Send
-  href: api/Mirage.PipeConnection.html#Mirage_PipeConnection_Send_
-  commentId: Overload:Mirage.PipeConnection.Send
+  name.vb: Mirage.SocketLayer.IConnection.SendNotify
+  fullName: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.SendNotify
+  nameWithType: PipePeerConnection.IConnection.SendNotify
+  nameWithType.vb: PipePeerConnection.Mirage.SocketLayer.IConnection.SendNotify
+- uid: Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendReliable(System.Byte[])
+  name: IConnection.SendReliable(Byte[])
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_SendReliable_System_Byte___
+  commentId: M:Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendReliable(System.Byte[])
+  name.vb: Mirage.SocketLayer.IConnection.SendReliable(Byte())
+  fullName: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.SendReliable(System.Byte[])
+  fullName.vb: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.SendReliable(System.Byte())
+  nameWithType: PipePeerConnection.IConnection.SendReliable(Byte[])
+  nameWithType.vb: PipePeerConnection.Mirage.SocketLayer.IConnection.SendReliable(Byte())
+- uid: Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendReliable*
+  name: IConnection.SendReliable
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_SendReliable_
+  commentId: Overload:Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendReliable
   isSpec: "True"
-  fullName: Mirage.PipeConnection.Send
-  nameWithType: PipeConnection.Send
+  name.vb: Mirage.SocketLayer.IConnection.SendReliable
+  fullName: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.SendReliable
+  nameWithType: PipePeerConnection.IConnection.SendReliable
+  nameWithType.vb: PipePeerConnection.Mirage.SocketLayer.IConnection.SendReliable
+- uid: Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendUnreliable(System.Byte[])
+  name: IConnection.SendUnreliable(Byte[])
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_SendUnreliable_System_Byte___
+  commentId: M:Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendUnreliable(System.Byte[])
+  name.vb: Mirage.SocketLayer.IConnection.SendUnreliable(Byte())
+  fullName: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.SendUnreliable(System.Byte[])
+  fullName.vb: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.SendUnreliable(System.Byte())
+  nameWithType: PipePeerConnection.IConnection.SendUnreliable(Byte[])
+  nameWithType.vb: PipePeerConnection.Mirage.SocketLayer.IConnection.SendUnreliable(Byte())
+- uid: Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendUnreliable*
+  name: IConnection.SendUnreliable
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_SendUnreliable_
+  commentId: Overload:Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendUnreliable
+  isSpec: "True"
+  name.vb: Mirage.SocketLayer.IConnection.SendUnreliable
+  fullName: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.SendUnreliable
+  nameWithType: PipePeerConnection.IConnection.SendUnreliable
+  nameWithType.vb: PipePeerConnection.Mirage.SocketLayer.IConnection.SendUnreliable
+- uid: Mirage.PipePeerConnection.PipeEndPoint
+  name: PipePeerConnection.PipeEndPoint
+  href: api/Mirage.PipePeerConnection.PipeEndPoint.html
+  commentId: T:Mirage.PipePeerConnection.PipeEndPoint
+  fullName: Mirage.PipePeerConnection.PipeEndPoint
+  nameWithType: PipePeerConnection.PipeEndPoint
+- uid: Mirage.PipePeerConnection.PipeNotifyToken
+  name: PipePeerConnection.PipeNotifyToken
+  href: api/Mirage.PipePeerConnection.PipeNotifyToken.html
+  commentId: T:Mirage.PipePeerConnection.PipeNotifyToken
+  fullName: Mirage.PipePeerConnection.PipeNotifyToken
+  nameWithType: PipePeerConnection.PipeNotifyToken
+- uid: Mirage.PipePeerConnection.PipeNotifyToken.Delivered
+  name: Delivered
+  href: api/Mirage.PipePeerConnection.PipeNotifyToken.html#Mirage_PipePeerConnection_PipeNotifyToken_Delivered
+  commentId: E:Mirage.PipePeerConnection.PipeNotifyToken.Delivered
+  fullName: Mirage.PipePeerConnection.PipeNotifyToken.Delivered
+  nameWithType: PipePeerConnection.PipeNotifyToken.Delivered
+- uid: Mirage.PipePeerConnection.PipeNotifyToken.Lost
+  name: Lost
+  href: api/Mirage.PipePeerConnection.PipeNotifyToken.html#Mirage_PipePeerConnection_PipeNotifyToken_Lost
+  commentId: E:Mirage.PipePeerConnection.PipeNotifyToken.Lost
+  fullName: Mirage.PipePeerConnection.PipeNotifyToken.Lost
+  nameWithType: PipePeerConnection.PipeNotifyToken.Lost
+- uid: Mirage.PipePeerConnection.State
+  name: State
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_State
+  commentId: P:Mirage.PipePeerConnection.State
+  fullName: Mirage.PipePeerConnection.State
+  nameWithType: PipePeerConnection.State
+- uid: Mirage.PipePeerConnection.State*
+  name: State
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_State_
+  commentId: Overload:Mirage.PipePeerConnection.State
+  isSpec: "True"
+  fullName: Mirage.PipePeerConnection.State
+  nameWithType: PipePeerConnection.State
+- uid: Mirage.PipePeerConnection.ToString
+  name: ToString()
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_ToString
+  commentId: M:Mirage.PipePeerConnection.ToString
+  fullName: Mirage.PipePeerConnection.ToString()
+  nameWithType: PipePeerConnection.ToString()
+- uid: Mirage.PipePeerConnection.ToString*
+  name: ToString
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_ToString_
+  commentId: Overload:Mirage.PipePeerConnection.ToString
+  isSpec: "True"
+  fullName: Mirage.PipePeerConnection.ToString
+  nameWithType: PipePeerConnection.ToString
 - uid: Mirage.ReadyMessage
   name: ReadyMessage
   href: api/Mirage.ReadyMessage.html

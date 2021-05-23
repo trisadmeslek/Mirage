@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct NetworkDiagnostics.MessageInfo
+    <title>Struct PipePeerConnection.PipeNotifyToken
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct NetworkDiagnostics.MessageInfo
+    <meta name="title" content="Struct PipePeerConnection.PipeNotifyToken
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -93,14 +93,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Mirage.NetworkDiagnostics.MessageInfo">
+            <article class="content wrap" id="_content" data-uid="Mirage.PipePeerConnection.PipeNotifyToken">
   
   
-  <h1 id="Mirage_NetworkDiagnostics_MessageInfo" data-uid="Mirage.NetworkDiagnostics.MessageInfo" class="text-break">Struct NetworkDiagnostics.MessageInfo
+  <h1 id="Mirage_PipePeerConnection_PipeNotifyToken" data-uid="Mirage.PipePeerConnection.PipeNotifyToken" class="text-break">Struct PipePeerConnection.PipeNotifyToken
   </h1>
-  <div class="markdown level0 summary"><p>Describes an outgoing message</p>
+  <div class="markdown level0 summary"><p>Token that invokes <span class="xref">Mirage.SocketLayer.INotifyToken.Delivered</span> immediately</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">Mirage.SocketLayer.INotifyToken</span></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -124,28 +128,27 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mirage.html">Mirage</a></h6>
   <h6><strong>Assembly</strong>: Mirage.dll</h6>
-  <h5 id="Mirage_NetworkDiagnostics_MessageInfo_syntax">Syntax</h5>
+  <h5 id="Mirage_PipePeerConnection_PipeNotifyToken_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct MessageInfo</code></pre>
+    <pre><code class="lang-csharp hljs">public struct PipeNotifyToken : INotifyToken</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="events">Events
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_NetworkDiagnostics_MessageInfo_bytes.md&amp;value=---%0Auid%3A%20Mirage.NetworkDiagnostics.MessageInfo.bytes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_PipePeerConnection_PipeNotifyToken_Delivered.md&amp;value=---%0Auid%3A%20Mirage.PipePeerConnection.PipeNotifyToken.Delivered%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/66b231565c019be49f8da2af8b5e8e17822ecd8f/Assets/Mirage/Runtime/NetworkDiagnostics.cs/#L28">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/66b231565c019be49f8da2af8b5e8e17822ecd8f/Assets/Mirage/Runtime/Transport/PipePeerConnection.cs/#L99">View Source</a>
   </span>
-  <h4 id="Mirage_NetworkDiagnostics_MessageInfo_bytes" data-uid="Mirage.NetworkDiagnostics.MessageInfo.bytes">bytes</h4>
-  <div class="markdown level1 summary"><p>how big was the message (does not include transport headers)</p>
-</div>
+  <h4 id="Mirage_PipePeerConnection_PipeNotifyToken_Delivered" data-uid="Mirage.PipePeerConnection.PipeNotifyToken.Delivered">Delivered</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly int bytes</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action Delivered</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -155,27 +158,26 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action">Action</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_NetworkDiagnostics_MessageInfo_channel.md&amp;value=---%0Auid%3A%20Mirage.NetworkDiagnostics.MessageInfo.channel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_PipePeerConnection_PipeNotifyToken_Lost.md&amp;value=---%0Auid%3A%20Mirage.PipePeerConnection.PipeNotifyToken.Lost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/66b231565c019be49f8da2af8b5e8e17822ecd8f/Assets/Mirage/Runtime/NetworkDiagnostics.cs/#L24">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/66b231565c019be49f8da2af8b5e8e17822ecd8f/Assets/Mirage/Runtime/Transport/PipePeerConnection.cs/#L110">View Source</a>
   </span>
-  <h4 id="Mirage_NetworkDiagnostics_MessageInfo_channel" data-uid="Mirage.NetworkDiagnostics.MessageInfo.channel">channel</h4>
-  <div class="markdown level1 summary"><p>channel through which the message was sent</p>
-</div>
+  <h4 id="Mirage_PipePeerConnection_PipeNotifyToken_Lost" data-uid="Mirage.PipePeerConnection.PipeNotifyToken.Lost">Lost</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly int channel</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action Lost</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -185,72 +187,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action">Action</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_NetworkDiagnostics_MessageInfo_count.md&amp;value=---%0Auid%3A%20Mirage.NetworkDiagnostics.MessageInfo.count%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/66b231565c019be49f8da2af8b5e8e17822ecd8f/Assets/Mirage/Runtime/NetworkDiagnostics.cs/#L33">View Source</a>
-  </span>
-  <h4 id="Mirage_NetworkDiagnostics_MessageInfo_count" data-uid="Mirage.NetworkDiagnostics.MessageInfo.count">count</h4>
-  <div class="markdown level1 summary"><p>How many connections was the message sent to
-If an object has a lot of observers this count could be high</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly int count</code></pre>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">Mirage.SocketLayer.INotifyToken</span>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_NetworkDiagnostics_MessageInfo_message.md&amp;value=---%0Auid%3A%20Mirage.NetworkDiagnostics.MessageInfo.message%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/66b231565c019be49f8da2af8b5e8e17822ecd8f/Assets/Mirage/Runtime/NetworkDiagnostics.cs/#L20">View Source</a>
-  </span>
-  <h4 id="Mirage_NetworkDiagnostics_MessageInfo_message" data-uid="Mirage.NetworkDiagnostics.MessageInfo.message">message</h4>
-  <div class="markdown level1 summary"><p>The message being sent</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly object message</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           
@@ -259,10 +204,10 @@ If an object has a lot of observers this count could be high</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_NetworkDiagnostics_MessageInfo.md&amp;value=---%0Auid%3A%20Mirage.NetworkDiagnostics.MessageInfo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_PipePeerConnection_PipeNotifyToken.md&amp;value=---%0Auid%3A%20Mirage.PipePeerConnection.PipeNotifyToken%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/blob/66b231565c019be49f8da2af8b5e8e17822ecd8f/Assets/Mirage/Runtime/NetworkDiagnostics.cs/#L15" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirageNet/Mirage/blob/66b231565c019be49f8da2af8b5e8e17822ecd8f/Assets/Mirage/Runtime/Transport/PipePeerConnection.cs/#L97" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
