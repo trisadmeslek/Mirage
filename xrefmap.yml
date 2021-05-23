@@ -10230,6 +10230,22 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkReaderExtensions.ReadNetworkIdentity
   nameWithType: NetworkReaderExtensions.ReadNetworkIdentity
+- uid: Mirage.Serialization.NetworkReaderExtensions.ReadNullable*
+  name: ReadNullable
+  href: api/Mirage.Serialization.NetworkReaderExtensions.html#Mirage_Serialization_NetworkReaderExtensions_ReadNullable_
+  commentId: Overload:Mirage.Serialization.NetworkReaderExtensions.ReadNullable
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkReaderExtensions.ReadNullable
+  nameWithType: NetworkReaderExtensions.ReadNullable
+- uid: Mirage.Serialization.NetworkReaderExtensions.ReadNullable``1(Mirage.Serialization.NetworkReader)
+  name: ReadNullable<T>(NetworkReader)
+  href: api/Mirage.Serialization.NetworkReaderExtensions.html#Mirage_Serialization_NetworkReaderExtensions_ReadNullable__1_Mirage_Serialization_NetworkReader_
+  commentId: M:Mirage.Serialization.NetworkReaderExtensions.ReadNullable``1(Mirage.Serialization.NetworkReader)
+  name.vb: ReadNullable(Of T)(NetworkReader)
+  fullName: Mirage.Serialization.NetworkReaderExtensions.ReadNullable<T>(Mirage.Serialization.NetworkReader)
+  fullName.vb: Mirage.Serialization.NetworkReaderExtensions.ReadNullable(Of T)(Mirage.Serialization.NetworkReader)
+  nameWithType: NetworkReaderExtensions.ReadNullable<T>(NetworkReader)
+  nameWithType.vb: NetworkReaderExtensions.ReadNullable(Of T)(NetworkReader)
 - uid: Mirage.Serialization.NetworkReaderExtensions.ReadPackedInt32(Mirage.Serialization.NetworkReader)
   name: ReadPackedInt32(NetworkReader)
   href: api/Mirage.Serialization.NetworkReaderExtensions.html#Mirage_Serialization_NetworkReaderExtensions_ReadPackedInt32_Mirage_Serialization_NetworkReader_
@@ -10998,6 +11014,22 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkWriterExtensions.WriteNetworkIdentity
   nameWithType: NetworkWriterExtensions.WriteNetworkIdentity
+- uid: Mirage.Serialization.NetworkWriterExtensions.WriteNullable*
+  name: WriteNullable
+  href: api/Mirage.Serialization.NetworkWriterExtensions.html#Mirage_Serialization_NetworkWriterExtensions_WriteNullable_
+  commentId: Overload:Mirage.Serialization.NetworkWriterExtensions.WriteNullable
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkWriterExtensions.WriteNullable
+  nameWithType: NetworkWriterExtensions.WriteNullable
+- uid: Mirage.Serialization.NetworkWriterExtensions.WriteNullable``1(Mirage.Serialization.NetworkWriter,System.Nullable{``0})
+  name: WriteNullable<T>(NetworkWriter, Nullable<T>)
+  href: api/Mirage.Serialization.NetworkWriterExtensions.html#Mirage_Serialization_NetworkWriterExtensions_WriteNullable__1_Mirage_Serialization_NetworkWriter_System_Nullable___0__
+  commentId: M:Mirage.Serialization.NetworkWriterExtensions.WriteNullable``1(Mirage.Serialization.NetworkWriter,System.Nullable{``0})
+  name.vb: WriteNullable(Of T)(NetworkWriter, Nullable(Of T))
+  fullName: Mirage.Serialization.NetworkWriterExtensions.WriteNullable<T>(Mirage.Serialization.NetworkWriter, System.Nullable<T>)
+  fullName.vb: Mirage.Serialization.NetworkWriterExtensions.WriteNullable(Of T)(Mirage.Serialization.NetworkWriter, System.Nullable(Of T))
+  nameWithType: NetworkWriterExtensions.WriteNullable<T>(NetworkWriter, Nullable<T>)
+  nameWithType.vb: NetworkWriterExtensions.WriteNullable(Of T)(NetworkWriter, Nullable(Of T))
 - uid: Mirage.Serialization.NetworkWriterExtensions.WritePackedInt32(Mirage.Serialization.NetworkWriter,System.Int32)
   name: WritePackedInt32(NetworkWriter, Int32)
   href: api/Mirage.Serialization.NetworkWriterExtensions.html#Mirage_Serialization_NetworkWriterExtensions_WritePackedInt32_Mirage_Serialization_NetworkWriter_System_Int32_
