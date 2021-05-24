@@ -9304,19 +9304,6 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkReaderExtensions.ReadUInt64
   nameWithType: NetworkReaderExtensions.ReadUInt64
-- uid: Mirage.Serialization.NetworkReaderExtensions.ReadUri(Mirage.Serialization.NetworkReader)
-  name: ReadUri(NetworkReader)
-  href: api/Mirage.Serialization.NetworkReaderExtensions.html#Mirage_Serialization_NetworkReaderExtensions_ReadUri_Mirage_Serialization_NetworkReader_
-  commentId: M:Mirage.Serialization.NetworkReaderExtensions.ReadUri(Mirage.Serialization.NetworkReader)
-  fullName: Mirage.Serialization.NetworkReaderExtensions.ReadUri(Mirage.Serialization.NetworkReader)
-  nameWithType: NetworkReaderExtensions.ReadUri(NetworkReader)
-- uid: Mirage.Serialization.NetworkReaderExtensions.ReadUri*
-  name: ReadUri
-  href: api/Mirage.Serialization.NetworkReaderExtensions.html#Mirage_Serialization_NetworkReaderExtensions_ReadUri_
-  commentId: Overload:Mirage.Serialization.NetworkReaderExtensions.ReadUri
-  isSpec: "True"
-  fullName: Mirage.Serialization.NetworkReaderExtensions.ReadUri
-  nameWithType: NetworkReaderExtensions.ReadUri
 - uid: Mirage.Serialization.NetworkReaderExtensions.ReadVector2(Mirage.Serialization.NetworkReader)
   name: ReadVector2(NetworkReader)
   href: api/Mirage.Serialization.NetworkReaderExtensions.html#Mirage_Serialization_NetworkReaderExtensions_ReadVector2_Mirage_Serialization_NetworkReader_
@@ -10062,19 +10049,6 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkWriterExtensions.WriteUInt16
   nameWithType: NetworkWriterExtensions.WriteUInt16
-- uid: Mirage.Serialization.NetworkWriterExtensions.WriteUri(Mirage.Serialization.NetworkWriter,System.Uri)
-  name: WriteUri(NetworkWriter, Uri)
-  href: api/Mirage.Serialization.NetworkWriterExtensions.html#Mirage_Serialization_NetworkWriterExtensions_WriteUri_Mirage_Serialization_NetworkWriter_System_Uri_
-  commentId: M:Mirage.Serialization.NetworkWriterExtensions.WriteUri(Mirage.Serialization.NetworkWriter,System.Uri)
-  fullName: Mirage.Serialization.NetworkWriterExtensions.WriteUri(Mirage.Serialization.NetworkWriter, System.Uri)
-  nameWithType: NetworkWriterExtensions.WriteUri(NetworkWriter, Uri)
-- uid: Mirage.Serialization.NetworkWriterExtensions.WriteUri*
-  name: WriteUri
-  href: api/Mirage.Serialization.NetworkWriterExtensions.html#Mirage_Serialization_NetworkWriterExtensions_WriteUri_
-  commentId: Overload:Mirage.Serialization.NetworkWriterExtensions.WriteUri
-  isSpec: "True"
-  fullName: Mirage.Serialization.NetworkWriterExtensions.WriteUri
-  nameWithType: NetworkWriterExtensions.WriteUri
 - uid: Mirage.Serialization.NetworkWriterExtensions.WriteVector2(Mirage.Serialization.NetworkWriter,UnityEngine.Vector2)
   name: WriteVector2(NetworkWriter, Vector2)
   href: api/Mirage.Serialization.NetworkWriterExtensions.html#Mirage_Serialization_NetworkWriterExtensions_WriteVector2_Mirage_Serialization_NetworkWriter_UnityEngine_Vector2_
