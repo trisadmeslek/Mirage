@@ -4281,46 +4281,6 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkServer.World
   nameWithType: INetworkServer.World
-- uid: Mirage.INotifyReceiver
-  name: INotifyReceiver
-  href: api/Mirage.INotifyReceiver.html
-  commentId: T:Mirage.INotifyReceiver
-  fullName: Mirage.INotifyReceiver
-  nameWithType: INotifyReceiver
-- uid: Mirage.INotifyReceiver.NotifyDelivered
-  name: NotifyDelivered
-  href: api/Mirage.INotifyReceiver.html#Mirage_INotifyReceiver_NotifyDelivered
-  commentId: E:Mirage.INotifyReceiver.NotifyDelivered
-  fullName: Mirage.INotifyReceiver.NotifyDelivered
-  nameWithType: INotifyReceiver.NotifyDelivered
-- uid: Mirage.INotifyReceiver.NotifyLost
-  name: NotifyLost
-  href: api/Mirage.INotifyReceiver.html#Mirage_INotifyReceiver_NotifyLost
-  commentId: E:Mirage.INotifyReceiver.NotifyLost
-  fullName: Mirage.INotifyReceiver.NotifyLost
-  nameWithType: INotifyReceiver.NotifyLost
-- uid: Mirage.INotifySender
-  name: INotifySender
-  href: api/Mirage.INotifySender.html
-  commentId: T:Mirage.INotifySender
-  fullName: Mirage.INotifySender
-  nameWithType: INotifySender
-- uid: Mirage.INotifySender.SendNotify*
-  name: SendNotify
-  href: api/Mirage.INotifySender.html#Mirage_INotifySender_SendNotify_
-  commentId: Overload:Mirage.INotifySender.SendNotify
-  isSpec: "True"
-  fullName: Mirage.INotifySender.SendNotify
-  nameWithType: INotifySender.SendNotify
-- uid: Mirage.INotifySender.SendNotify``1(``0,System.Object,System.Int32)
-  name: SendNotify<T>(T, Object, Int32)
-  href: api/Mirage.INotifySender.html#Mirage_INotifySender_SendNotify__1___0_System_Object_System_Int32_
-  commentId: M:Mirage.INotifySender.SendNotify``1(``0,System.Object,System.Int32)
-  name.vb: SendNotify(Of T)(T, Object, Int32)
-  fullName: Mirage.INotifySender.SendNotify<T>(T, System.Object, System.Int32)
-  fullName.vb: Mirage.INotifySender.SendNotify(Of T)(T, System.Object, System.Int32)
-  nameWithType: INotifySender.SendNotify<T>(T, Object, Int32)
-  nameWithType.vb: INotifySender.SendNotify(Of T)(T, Object, Int32)
 - uid: Mirage.InvalidMessageException
   name: InvalidMessageException
   href: api/Mirage.InvalidMessageException.html
@@ -6752,24 +6712,6 @@ references:
   fullName: Mirage.NetworkPlayer.Mirage.IMessageHandler.HandleMessage
   nameWithType: NetworkPlayer.IMessageHandler.HandleMessage
   nameWithType.vb: NetworkPlayer.Mirage.IMessageHandler.HandleMessage
-- uid: Mirage.NetworkPlayer.NOTIFY_ACK_TIMEOUT
-  name: NOTIFY_ACK_TIMEOUT
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_NOTIFY_ACK_TIMEOUT
-  commentId: F:Mirage.NetworkPlayer.NOTIFY_ACK_TIMEOUT
-  fullName: Mirage.NetworkPlayer.NOTIFY_ACK_TIMEOUT
-  nameWithType: NetworkPlayer.NOTIFY_ACK_TIMEOUT
-- uid: Mirage.NetworkPlayer.NotifyDelivered
-  name: NotifyDelivered
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_NotifyDelivered
-  commentId: E:Mirage.NetworkPlayer.NotifyDelivered
-  fullName: Mirage.NetworkPlayer.NotifyDelivered
-  nameWithType: NetworkPlayer.NotifyDelivered
-- uid: Mirage.NetworkPlayer.NotifyLost
-  name: NotifyLost
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_NotifyLost
-  commentId: E:Mirage.NetworkPlayer.NotifyLost
-  fullName: Mirage.NetworkPlayer.NotifyLost
-  nameWithType: NetworkPlayer.NotifyLost
 - uid: Mirage.NetworkPlayer.RegisterHandler*
   name: RegisterHandler
   href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_RegisterHandler_
@@ -6859,22 +6801,6 @@ references:
   fullName.vb: Mirage.NetworkPlayer.Send(Of T)(T, System.Int32)
   nameWithType: NetworkPlayer.Send<T>(T, Int32)
   nameWithType.vb: NetworkPlayer.Send(Of T)(T, Int32)
-- uid: Mirage.NetworkPlayer.SendNotify*
-  name: SendNotify
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_SendNotify_
-  commentId: Overload:Mirage.NetworkPlayer.SendNotify
-  isSpec: "True"
-  fullName: Mirage.NetworkPlayer.SendNotify
-  nameWithType: NetworkPlayer.SendNotify
-- uid: Mirage.NetworkPlayer.SendNotify``1(``0,System.Object,System.Int32)
-  name: SendNotify<T>(T, Object, Int32)
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_SendNotify__1___0_System_Object_System_Int32_
-  commentId: M:Mirage.NetworkPlayer.SendNotify``1(``0,System.Object,System.Int32)
-  name.vb: SendNotify(Of T)(T, Object, Int32)
-  fullName: Mirage.NetworkPlayer.SendNotify<T>(T, System.Object, System.Int32)
-  fullName.vb: Mirage.NetworkPlayer.SendNotify(Of T)(T, System.Object, System.Int32)
-  nameWithType: NetworkPlayer.SendNotify<T>(T, Object, Int32)
-  nameWithType.vb: NetworkPlayer.SendNotify(Of T)(T, Object, Int32)
 - uid: Mirage.NetworkPlayer.ToString
   name: ToString()
   href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_ToString
@@ -7900,68 +7826,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkWorld.TryGetIdentity
   nameWithType: NetworkWorld.TryGetIdentity
-- uid: Mirage.NotifyAck
-  name: NotifyAck
-  href: api/Mirage.NotifyAck.html
-  commentId: T:Mirage.NotifyAck
-  fullName: Mirage.NotifyAck
-  nameWithType: NotifyAck
-- uid: Mirage.NotifyPacket
-  name: NotifyPacket
-  href: api/Mirage.NotifyPacket.html
-  commentId: T:Mirage.NotifyPacket
-  fullName: Mirage.NotifyPacket
-  nameWithType: NotifyPacket
-- uid: Mirage.NotifyPacket.AckMask
-  name: AckMask
-  href: api/Mirage.NotifyPacket.html#Mirage_NotifyPacket_AckMask
-  commentId: F:Mirage.NotifyPacket.AckMask
-  fullName: Mirage.NotifyPacket.AckMask
-  nameWithType: NotifyPacket.AckMask
-- uid: Mirage.NotifyPacket.ReceiveSequence
-  name: ReceiveSequence
-  href: api/Mirage.NotifyPacket.html#Mirage_NotifyPacket_ReceiveSequence
-  commentId: F:Mirage.NotifyPacket.ReceiveSequence
-  fullName: Mirage.NotifyPacket.ReceiveSequence
-  nameWithType: NotifyPacket.ReceiveSequence
-- uid: Mirage.NotifyPacket.Sequence
-  name: Sequence
-  href: api/Mirage.NotifyPacket.html#Mirage_NotifyPacket_Sequence
-  commentId: F:Mirage.NotifyPacket.Sequence
-  fullName: Mirage.NotifyPacket.Sequence
-  nameWithType: NotifyPacket.Sequence
-- uid: Mirage.NotifyPacketSerializer
-  name: NotifyPacketSerializer
-  href: api/Mirage.NotifyPacketSerializer.html
-  commentId: T:Mirage.NotifyPacketSerializer
-  fullName: Mirage.NotifyPacketSerializer
-  nameWithType: NotifyPacketSerializer
-- uid: Mirage.NotifyPacketSerializer.ReadNotifyPacket(Mirage.Serialization.NetworkReader)
-  name: ReadNotifyPacket(NetworkReader)
-  href: api/Mirage.NotifyPacketSerializer.html#Mirage_NotifyPacketSerializer_ReadNotifyPacket_Mirage_Serialization_NetworkReader_
-  commentId: M:Mirage.NotifyPacketSerializer.ReadNotifyPacket(Mirage.Serialization.NetworkReader)
-  fullName: Mirage.NotifyPacketSerializer.ReadNotifyPacket(Mirage.Serialization.NetworkReader)
-  nameWithType: NotifyPacketSerializer.ReadNotifyPacket(NetworkReader)
-- uid: Mirage.NotifyPacketSerializer.ReadNotifyPacket*
-  name: ReadNotifyPacket
-  href: api/Mirage.NotifyPacketSerializer.html#Mirage_NotifyPacketSerializer_ReadNotifyPacket_
-  commentId: Overload:Mirage.NotifyPacketSerializer.ReadNotifyPacket
-  isSpec: "True"
-  fullName: Mirage.NotifyPacketSerializer.ReadNotifyPacket
-  nameWithType: NotifyPacketSerializer.ReadNotifyPacket
-- uid: Mirage.NotifyPacketSerializer.WriteNotifyPacket(Mirage.Serialization.NetworkWriter,Mirage.NotifyPacket)
-  name: WriteNotifyPacket(NetworkWriter, NotifyPacket)
-  href: api/Mirage.NotifyPacketSerializer.html#Mirage_NotifyPacketSerializer_WriteNotifyPacket_Mirage_Serialization_NetworkWriter_Mirage_NotifyPacket_
-  commentId: M:Mirage.NotifyPacketSerializer.WriteNotifyPacket(Mirage.Serialization.NetworkWriter,Mirage.NotifyPacket)
-  fullName: Mirage.NotifyPacketSerializer.WriteNotifyPacket(Mirage.Serialization.NetworkWriter, Mirage.NotifyPacket)
-  nameWithType: NotifyPacketSerializer.WriteNotifyPacket(NetworkWriter, NotifyPacket)
-- uid: Mirage.NotifyPacketSerializer.WriteNotifyPacket*
-  name: WriteNotifyPacket
-  href: api/Mirage.NotifyPacketSerializer.html#Mirage_NotifyPacketSerializer_WriteNotifyPacket_
-  commentId: Overload:Mirage.NotifyPacketSerializer.WriteNotifyPacket
-  isSpec: "True"
-  fullName: Mirage.NotifyPacketSerializer.WriteNotifyPacket
-  nameWithType: NotifyPacketSerializer.WriteNotifyPacket
 - uid: Mirage.NotReadyMessage
   name: NotReadyMessage
   href: api/Mirage.NotReadyMessage.html
