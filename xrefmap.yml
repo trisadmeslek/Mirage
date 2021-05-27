@@ -5711,6 +5711,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkClient.Metrics
   nameWithType: NetworkClient.Metrics
+- uid: Mirage.NetworkClient.PeerConfig
+  name: PeerConfig
+  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_PeerConfig
+  commentId: P:Mirage.NetworkClient.PeerConfig
+  fullName: Mirage.NetworkClient.PeerConfig
+  nameWithType: NetworkClient.PeerConfig
+- uid: Mirage.NetworkClient.PeerConfig*
+  name: PeerConfig
+  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_PeerConfig_
+  commentId: Overload:Mirage.NetworkClient.PeerConfig
+  isSpec: "True"
+  fullName: Mirage.NetworkClient.PeerConfig
+  nameWithType: NetworkClient.PeerConfig
 - uid: Mirage.NetworkClient.Player
   name: Player
   href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Player
@@ -5805,12 +5818,6 @@ references:
   commentId: F:Mirage.NetworkDiagnostics.MessageInfo.bytes
   fullName: Mirage.NetworkDiagnostics.MessageInfo.bytes
   nameWithType: NetworkDiagnostics.MessageInfo.bytes
-- uid: Mirage.NetworkDiagnostics.MessageInfo.channel
-  name: channel
-  href: api/Mirage.NetworkDiagnostics.MessageInfo.html#Mirage_NetworkDiagnostics_MessageInfo_channel
-  commentId: F:Mirage.NetworkDiagnostics.MessageInfo.channel
-  fullName: Mirage.NetworkDiagnostics.MessageInfo.channel
-  nameWithType: NetworkDiagnostics.MessageInfo.channel
 - uid: Mirage.NetworkDiagnostics.MessageInfo.count
   name: count
   href: api/Mirage.NetworkDiagnostics.MessageInfo.html#Mirage_NetworkDiagnostics_MessageInfo_count
@@ -7359,6 +7366,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkServer.OnStopHost
   nameWithType: NetworkServer.OnStopHost
+- uid: Mirage.NetworkServer.PeerConfig
+  name: PeerConfig
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_PeerConfig
+  commentId: P:Mirage.NetworkServer.PeerConfig
+  fullName: Mirage.NetworkServer.PeerConfig
+  nameWithType: NetworkServer.PeerConfig
+- uid: Mirage.NetworkServer.PeerConfig*
+  name: PeerConfig
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_PeerConfig_
+  commentId: Overload:Mirage.NetworkServer.PeerConfig
+  isSpec: "True"
+  fullName: Mirage.NetworkServer.PeerConfig
+  nameWithType: NetworkServer.PeerConfig
 - uid: Mirage.NetworkServer.Players
   name: Players
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Players
