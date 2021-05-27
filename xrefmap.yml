@@ -550,6 +550,54 @@ references:
   commentId: F:Mirage.ClientRpcAttribute.target
   fullName: Mirage.ClientRpcAttribute.target
   nameWithType: ClientRpcAttribute.target
+- uid: Mirage.ClientStoppedReason
+  name: ClientStoppedReason
+  href: api/Mirage.ClientStoppedReason.html
+  commentId: T:Mirage.ClientStoppedReason
+  fullName: Mirage.ClientStoppedReason
+  nameWithType: ClientStoppedReason
+- uid: Mirage.ClientStoppedReason.ConnectingCancel
+  name: ConnectingCancel
+  href: api/Mirage.ClientStoppedReason.html#Mirage_ClientStoppedReason_ConnectingCancel
+  commentId: F:Mirage.ClientStoppedReason.ConnectingCancel
+  fullName: Mirage.ClientStoppedReason.ConnectingCancel
+  nameWithType: ClientStoppedReason.ConnectingCancel
+- uid: Mirage.ClientStoppedReason.ConnectingTimeout
+  name: ConnectingTimeout
+  href: api/Mirage.ClientStoppedReason.html#Mirage_ClientStoppedReason_ConnectingTimeout
+  commentId: F:Mirage.ClientStoppedReason.ConnectingTimeout
+  fullName: Mirage.ClientStoppedReason.ConnectingTimeout
+  nameWithType: ClientStoppedReason.ConnectingTimeout
+- uid: Mirage.ClientStoppedReason.LocalConnectionClosed
+  name: LocalConnectionClosed
+  href: api/Mirage.ClientStoppedReason.html#Mirage_ClientStoppedReason_LocalConnectionClosed
+  commentId: F:Mirage.ClientStoppedReason.LocalConnectionClosed
+  fullName: Mirage.ClientStoppedReason.LocalConnectionClosed
+  nameWithType: ClientStoppedReason.LocalConnectionClosed
+- uid: Mirage.ClientStoppedReason.None
+  name: None
+  href: api/Mirage.ClientStoppedReason.html#Mirage_ClientStoppedReason_None
+  commentId: F:Mirage.ClientStoppedReason.None
+  fullName: Mirage.ClientStoppedReason.None
+  nameWithType: ClientStoppedReason.None
+- uid: Mirage.ClientStoppedReason.RemoteConnectionClosed
+  name: RemoteConnectionClosed
+  href: api/Mirage.ClientStoppedReason.html#Mirage_ClientStoppedReason_RemoteConnectionClosed
+  commentId: F:Mirage.ClientStoppedReason.RemoteConnectionClosed
+  fullName: Mirage.ClientStoppedReason.RemoteConnectionClosed
+  nameWithType: ClientStoppedReason.RemoteConnectionClosed
+- uid: Mirage.ClientStoppedReason.ServerFull
+  name: ServerFull
+  href: api/Mirage.ClientStoppedReason.html#Mirage_ClientStoppedReason_ServerFull
+  commentId: F:Mirage.ClientStoppedReason.ServerFull
+  fullName: Mirage.ClientStoppedReason.ServerFull
+  nameWithType: ClientStoppedReason.ServerFull
+- uid: Mirage.ClientStoppedReason.Timeout
+  name: Timeout
+  href: api/Mirage.ClientStoppedReason.html#Mirage_ClientStoppedReason_Timeout
+  commentId: F:Mirage.ClientStoppedReason.Timeout
+  fullName: Mirage.ClientStoppedReason.Timeout
+  nameWithType: ClientStoppedReason.Timeout
 - uid: Mirage.Collections
   name: Mirage.Collections
   href: api/Mirage.Collections.html
@@ -2882,6 +2930,18 @@ references:
   commentId: T:Mirage.Events.BoolUnityEvent
   fullName: Mirage.Events.BoolUnityEvent
   nameWithType: BoolUnityEvent
+- uid: Mirage.Events.DisconnectAddLateEvent
+  name: DisconnectAddLateEvent
+  href: api/Mirage.Events.DisconnectAddLateEvent.html
+  commentId: T:Mirage.Events.DisconnectAddLateEvent
+  fullName: Mirage.Events.DisconnectAddLateEvent
+  nameWithType: DisconnectAddLateEvent
+- uid: Mirage.Events.DisconnectEvent
+  name: DisconnectEvent
+  href: api/Mirage.Events.DisconnectEvent.html
+  commentId: T:Mirage.Events.DisconnectEvent
+  fullName: Mirage.Events.DisconnectEvent
+  nameWithType: DisconnectEvent
 - uid: Mirage.Events.IAddLateEvent
   name: IAddLateEvent
   href: api/Mirage.Events.IAddLateEvent.html

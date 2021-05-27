@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct ObjectHideMessage
+    <title>Enum ClientStoppedReason
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct ObjectHideMessage
+    <meta name="title" content="Enum ClientStoppedReason
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -93,71 +93,74 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Mirage.ObjectHideMessage">
+            <article class="content wrap" id="_content" data-uid="Mirage.ClientStoppedReason">
   
   
-  <h1 id="Mirage_ObjectHideMessage" data-uid="Mirage.ObjectHideMessage" class="text-break">Struct ObjectHideMessage
+  <h1 id="Mirage_ClientStoppedReason" data-uid="Mirage.ClientStoppedReason" class="text-break">Enum ClientStoppedReason
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Reason why Client was stopped or disconnected</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.equals#System_ValueType_Equals_System_Object_">ValueType.Equals(Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.gethashcode#System_ValueType_GetHashCode">ValueType.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.tostring#System_ValueType_ToString">ValueType.ToString()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mirage.html">Mirage</a></h6>
   <h6><strong>Assembly</strong>: Mirage.dll</h6>
-  <h5 id="Mirage_ObjectHideMessage_syntax">Syntax</h5>
+  <h5 id="Mirage_ClientStoppedReason_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct ObjectHideMessage</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public enum ClientStoppedReason</code></pre>
   </div>
+  <h5 id="Mirage_ClientStoppedReason_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Use different enums than SocketLayer so that:
+User doesn't need to add reference to socket layer to use event;
+Give high level reason so that they are easierto understand by the end user.</p>
+</div>
   <h3 id="fields">Fields
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_ObjectHideMessage_netId.md&amp;value=---%0Auid%3A%20Mirage.ObjectHideMessage.netId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/00f4833c121f13f0c5208bb23006fb58bcf294c5/Assets/Mirage/Runtime/Messages.cs/#L120">View Source</a>
-  </span>
-  <h4 id="Mirage_ObjectHideMessage_netId" data-uid="Mirage.ObjectHideMessage.netId">netId</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public uint netId</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
-    </thead>
+    <thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
-        <td></td>
+        <td id="Mirage_ClientStoppedReason_ConnectingCancel">ConnectingCancel</td>
+        <td><p>Disconnect called locally before server replies with connected</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Mirage_ClientStoppedReason_ConnectingTimeout">ConnectingTimeout</td>
+        <td><p>Server did not reply</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Mirage_ClientStoppedReason_LocalConnectionClosed">LocalConnectionClosed</td>
+        <td><p>Connection disconnect called locally</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Mirage_ClientStoppedReason_None">None</td>
+        <td><p>No reason given</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Mirage_ClientStoppedReason_RemoteConnectionClosed">RemoteConnectionClosed</td>
+        <td><p>Connection disconnect called on server</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Mirage_ClientStoppedReason_ServerFull">ServerFull</td>
+        <td><p>Server rejected connecting because it was full</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Mirage_ClientStoppedReason_Timeout">Timeout</td>
+        <td><p>Connecting timed out</p>
+<p>Server not sending replies</p>
+</td>
       </tr>
     </tbody>
-  </table>
+  </thead></thead></table>
 </article>
           </div>
           
@@ -166,10 +169,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_ObjectHideMessage.md&amp;value=---%0Auid%3A%20Mirage.ObjectHideMessage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_ClientStoppedReason.md&amp;value=---%0Auid%3A%20Mirage.ClientStoppedReason%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/blob/00f4833c121f13f0c5208bb23006fb58bcf294c5/Assets/Mirage/Runtime/Messages.cs/#L117" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirageNet/Mirage/blob/00f4833c121f13f0c5208bb23006fb58bcf294c5/Assets/Mirage/Runtime/ClientStoppedReason.cs/#L14" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
