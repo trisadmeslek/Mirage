@@ -5768,6 +5768,19 @@ references:
   commentId: F:Mirage.NetworkClient.SocketFactory
   fullName: Mirage.NetworkClient.SocketFactory
   nameWithType: NetworkClient.SocketFactory
+- uid: Mirage.NetworkClient.Started
+  name: Started
+  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Started
+  commentId: P:Mirage.NetworkClient.Started
+  fullName: Mirage.NetworkClient.Started
+  nameWithType: NetworkClient.Started
+- uid: Mirage.NetworkClient.Started*
+  name: Started
+  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Started_
+  commentId: Overload:Mirage.NetworkClient.Started
+  isSpec: "True"
+  fullName: Mirage.NetworkClient.Started
+  nameWithType: NetworkClient.Started
 - uid: Mirage.NetworkClient.Time
   name: Time
   href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Time
