@@ -98,7 +98,12 @@
   
   <h1 id="Mirage_Authenticators_BasicAuthenticator" data-uid="Mirage.Authenticators.BasicAuthenticator" class="text-break">Class BasicAuthenticator
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Basic Authenticator that lets the server/host set a &quot;passcode&quot; in order to connect.</p>
+<p>
+This code could be a short string that can be used to host a private game.
+The host would set the code and then give it to their friends allowing them to join.
+</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -117,6 +122,18 @@
     </div>
     <div>
       <a class="xref" href="Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_OnClientAuthenticated">NetworkAuthenticator.OnClientAuthenticated</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_ServerAccept_Mirage_INetworkPlayer_">NetworkAuthenticator.ServerAccept(INetworkPlayer)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_ServerReject_Mirage_INetworkPlayer_">NetworkAuthenticator.ServerReject(INetworkPlayer)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_ClientAccept_Mirage_INetworkPlayer_">NetworkAuthenticator.ClientAccept(INetworkPlayer)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_ClientReject_Mirage_INetworkPlayer_">NetworkAuthenticator.ClientReject(INetworkPlayer)</a>
     </div>
     <div>
       <a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.IsInvoking.html">MonoBehaviour.IsInvoking()</a>
@@ -427,46 +444,22 @@ public class BasicAuthenticator : NetworkAuthenticator</code></pre>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Authenticators_BasicAuthenticator_Password.md&amp;value=---%0Auid%3A%20Mirage.Authenticators.BasicAuthenticator.Password%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Authenticators_BasicAuthenticator_serverCode.md&amp;value=---%0Auid%3A%20Mirage.Authenticators.BasicAuthenticator.serverCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/74d40354dfc38044b88c66aa77f7a96e7edbd9b1/Assets/Mirage/Authenticators/BasicAuthenticator.cs/#L14">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/a3c61d87911aadcede7f789cf05455fbca5526e8/Assets/Mirage/Authenticators/BasicAuthenticator.cs/#L26">View Source</a>
   </span>
-  <h4 id="Mirage_Authenticators_BasicAuthenticator_Password" data-uid="Mirage.Authenticators.BasicAuthenticator.Password">Password</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Mirage_Authenticators_BasicAuthenticator_serverCode" data-uid="Mirage.Authenticators.BasicAuthenticator.serverCode">serverCode</h4>
+  <div class="markdown level1 summary"><p>Code given to clients so that they can connect to the server/host</p>
+<p>
+Set this in inspector or at runtime when the server/host starts
+</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Password</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Authenticators_BasicAuthenticator_Username.md&amp;value=---%0Auid%3A%20Mirage.Authenticators.BasicAuthenticator.Username%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/74d40354dfc38044b88c66aa77f7a96e7edbd9b1/Assets/Mirage/Authenticators/BasicAuthenticator.cs/#L13">View Source</a>
-  </span>
-  <h4 id="Mirage_Authenticators_BasicAuthenticator_Username" data-uid="Mirage.Authenticators.BasicAuthenticator.Username">Username</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Username</code></pre>
+    <pre><code class="lang-csharp hljs">[Header(&quot;Custom Properties&quot;)]
+public string serverCode</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -487,144 +480,18 @@ public class BasicAuthenticator : NetworkAuthenticator</code></pre>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Authenticators_BasicAuthenticator_DelayedDisconnect_Mirage_INetworkPlayer_System_Single_.md&amp;value=---%0Auid%3A%20Mirage.Authenticators.BasicAuthenticator.DelayedDisconnect(Mirage.INetworkPlayer%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Authenticators_BasicAuthenticator_ClientAuthenticate_Mirage_INetworkPlayer_.md&amp;value=---%0Auid%3A%20Mirage.Authenticators.BasicAuthenticator.ClientAuthenticate(Mirage.INetworkPlayer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/74d40354dfc38044b88c66aa77f7a96e7edbd9b1/Assets/Mirage/Authenticators/BasicAuthenticator.cs/#L84">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/a3c61d87911aadcede7f789cf05455fbca5526e8/Assets/Mirage/Authenticators/BasicAuthenticator.cs/#L110">View Source</a>
   </span>
-  <a id="Mirage_Authenticators_BasicAuthenticator_DelayedDisconnect_" data-uid="Mirage.Authenticators.BasicAuthenticator.DelayedDisconnect*"></a>
-  <h4 id="Mirage_Authenticators_BasicAuthenticator_DelayedDisconnect_Mirage_INetworkPlayer_System_Single_" data-uid="Mirage.Authenticators.BasicAuthenticator.DelayedDisconnect(Mirage.INetworkPlayer,System.Single)">DelayedDisconnect(INetworkPlayer, Single)</h4>
+  <a id="Mirage_Authenticators_BasicAuthenticator_ClientAuthenticate_" data-uid="Mirage.Authenticators.BasicAuthenticator.ClientAuthenticate*"></a>
+  <h4 id="Mirage_Authenticators_BasicAuthenticator_ClientAuthenticate_Mirage_INetworkPlayer_" data-uid="Mirage.Authenticators.BasicAuthenticator.ClientAuthenticate(Mirage.INetworkPlayer)">ClientAuthenticate(INetworkPlayer)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerator DelayedDisconnect(INetworkPlayer player, float waitTime)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a></td>
-        <td><span class="parametername">player</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">waitTime</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Authenticators_BasicAuthenticator_OnAuthRequestMessage_Mirage_INetworkPlayer_Mirage_Authenticators_BasicAuthenticator_AuthRequestMessage_.md&amp;value=---%0Auid%3A%20Mirage.Authenticators.BasicAuthenticator.OnAuthRequestMessage(Mirage.INetworkPlayer%2CMirage.Authenticators.BasicAuthenticator.AuthRequestMessage)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/74d40354dfc38044b88c66aa77f7a96e7edbd9b1/Assets/Mirage/Authenticators/BasicAuthenticator.cs/#L49">View Source</a>
-  </span>
-  <a id="Mirage_Authenticators_BasicAuthenticator_OnAuthRequestMessage_" data-uid="Mirage.Authenticators.BasicAuthenticator.OnAuthRequestMessage*"></a>
-  <h4 id="Mirage_Authenticators_BasicAuthenticator_OnAuthRequestMessage_Mirage_INetworkPlayer_Mirage_Authenticators_BasicAuthenticator_AuthRequestMessage_" data-uid="Mirage.Authenticators.BasicAuthenticator.OnAuthRequestMessage(Mirage.INetworkPlayer,Mirage.Authenticators.BasicAuthenticator.AuthRequestMessage)">OnAuthRequestMessage(INetworkPlayer, BasicAuthenticator.AuthRequestMessage)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnAuthRequestMessage(INetworkPlayer player, BasicAuthenticator.AuthRequestMessage msg)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a></td>
-        <td><span class="parametername">player</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Mirage.Authenticators.BasicAuthenticator.AuthRequestMessage.html">BasicAuthenticator.AuthRequestMessage</a></td>
-        <td><span class="parametername">msg</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Authenticators_BasicAuthenticator_OnAuthResponseMessage_Mirage_INetworkPlayer_Mirage_Authenticators_BasicAuthenticator_AuthResponseMessage_.md&amp;value=---%0Auid%3A%20Mirage.Authenticators.BasicAuthenticator.OnAuthResponseMessage(Mirage.INetworkPlayer%2CMirage.Authenticators.BasicAuthenticator.AuthResponseMessage)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/74d40354dfc38044b88c66aa77f7a96e7edbd9b1/Assets/Mirage/Authenticators/BasicAuthenticator.cs/#L91">View Source</a>
-  </span>
-  <a id="Mirage_Authenticators_BasicAuthenticator_OnAuthResponseMessage_" data-uid="Mirage.Authenticators.BasicAuthenticator.OnAuthResponseMessage*"></a>
-  <h4 id="Mirage_Authenticators_BasicAuthenticator_OnAuthResponseMessage_Mirage_INetworkPlayer_Mirage_Authenticators_BasicAuthenticator_AuthResponseMessage_" data-uid="Mirage.Authenticators.BasicAuthenticator.OnAuthResponseMessage(Mirage.INetworkPlayer,Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage)">OnAuthResponseMessage(INetworkPlayer, BasicAuthenticator.AuthResponseMessage)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnAuthResponseMessage(INetworkPlayer player, BasicAuthenticator.AuthResponseMessage msg)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Mirage.INetworkPlayer.html">INetworkPlayer</a></td>
-        <td><span class="parametername">player</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage.html">BasicAuthenticator.AuthResponseMessage</a></td>
-        <td><span class="parametername">msg</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Authenticators_BasicAuthenticator_OnClientAuthenticate_Mirage_INetworkPlayer_.md&amp;value=---%0Auid%3A%20Mirage.Authenticators.BasicAuthenticator.OnClientAuthenticate(Mirage.INetworkPlayer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/74d40354dfc38044b88c66aa77f7a96e7edbd9b1/Assets/Mirage/Authenticators/BasicAuthenticator.cs/#L36">View Source</a>
-  </span>
-  <a id="Mirage_Authenticators_BasicAuthenticator_OnClientAuthenticate_" data-uid="Mirage.Authenticators.BasicAuthenticator.OnClientAuthenticate*"></a>
-  <h4 id="Mirage_Authenticators_BasicAuthenticator_OnClientAuthenticate_Mirage_INetworkPlayer_" data-uid="Mirage.Authenticators.BasicAuthenticator.OnClientAuthenticate(Mirage.INetworkPlayer)">OnClientAuthenticate(INetworkPlayer)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnClientAuthenticate(INetworkPlayer player)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void ClientAuthenticate(INetworkPlayer player)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -644,21 +511,21 @@ public class BasicAuthenticator : NetworkAuthenticator</code></pre>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_OnClientAuthenticate_Mirage_INetworkPlayer_">NetworkAuthenticator.OnClientAuthenticate(INetworkPlayer)</a></div>
+  <div><a class="xref" href="Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_ClientAuthenticate_Mirage_INetworkPlayer_">NetworkAuthenticator.ClientAuthenticate(INetworkPlayer)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Authenticators_BasicAuthenticator_OnServerAuthenticate_Mirage_INetworkPlayer_.md&amp;value=---%0Auid%3A%20Mirage.Authenticators.BasicAuthenticator.OnServerAuthenticate(Mirage.INetworkPlayer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Authenticators_BasicAuthenticator_ServerAuthenticate_Mirage_INetworkPlayer_.md&amp;value=---%0Auid%3A%20Mirage.Authenticators.BasicAuthenticator.ServerAuthenticate(Mirage.INetworkPlayer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/74d40354dfc38044b88c66aa77f7a96e7edbd9b1/Assets/Mirage/Authenticators/BasicAuthenticator.cs/#L30">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/a3c61d87911aadcede7f789cf05455fbca5526e8/Assets/Mirage/Authenticators/BasicAuthenticator.cs/#L59">View Source</a>
   </span>
-  <a id="Mirage_Authenticators_BasicAuthenticator_OnServerAuthenticate_" data-uid="Mirage.Authenticators.BasicAuthenticator.OnServerAuthenticate*"></a>
-  <h4 id="Mirage_Authenticators_BasicAuthenticator_OnServerAuthenticate_Mirage_INetworkPlayer_" data-uid="Mirage.Authenticators.BasicAuthenticator.OnServerAuthenticate(Mirage.INetworkPlayer)">OnServerAuthenticate(INetworkPlayer)</h4>
+  <a id="Mirage_Authenticators_BasicAuthenticator_ServerAuthenticate_" data-uid="Mirage.Authenticators.BasicAuthenticator.ServerAuthenticate*"></a>
+  <h4 id="Mirage_Authenticators_BasicAuthenticator_ServerAuthenticate_Mirage_INetworkPlayer_" data-uid="Mirage.Authenticators.BasicAuthenticator.ServerAuthenticate(Mirage.INetworkPlayer)">ServerAuthenticate(INetworkPlayer)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnServerAuthenticate(INetworkPlayer player)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void ServerAuthenticate(INetworkPlayer player)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -678,7 +545,7 @@ public class BasicAuthenticator : NetworkAuthenticator</code></pre>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_OnServerAuthenticate_Mirage_INetworkPlayer_">NetworkAuthenticator.OnServerAuthenticate(INetworkPlayer)</a></div>
+  <div><a class="xref" href="Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_ServerAuthenticate_Mirage_INetworkPlayer_">NetworkAuthenticator.ServerAuthenticate(INetworkPlayer)</a></div>
 </article>
           </div>
           
@@ -690,7 +557,7 @@ public class BasicAuthenticator : NetworkAuthenticator</code></pre>
                     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Authenticators_BasicAuthenticator.md&amp;value=---%0Auid%3A%20Mirage.Authenticators.BasicAuthenticator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/blob/74d40354dfc38044b88c66aa77f7a96e7edbd9b1/Assets/Mirage/Authenticators/BasicAuthenticator.cs/#L7" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirageNet/Mirage/blob/a3c61d87911aadcede7f789cf05455fbca5526e8/Assets/Mirage/Authenticators/BasicAuthenticator.cs/#L14" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

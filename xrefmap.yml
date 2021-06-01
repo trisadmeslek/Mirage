@@ -25,119 +25,38 @@ references:
   commentId: T:Mirage.Authenticators.BasicAuthenticator
   fullName: Mirage.Authenticators.BasicAuthenticator
   nameWithType: BasicAuthenticator
-- uid: Mirage.Authenticators.BasicAuthenticator.AuthRequestMessage
-  name: BasicAuthenticator.AuthRequestMessage
-  href: api/Mirage.Authenticators.BasicAuthenticator.AuthRequestMessage.html
-  commentId: T:Mirage.Authenticators.BasicAuthenticator.AuthRequestMessage
-  fullName: Mirage.Authenticators.BasicAuthenticator.AuthRequestMessage
-  nameWithType: BasicAuthenticator.AuthRequestMessage
-- uid: Mirage.Authenticators.BasicAuthenticator.AuthRequestMessage.AuthPassword
-  name: AuthPassword
-  href: api/Mirage.Authenticators.BasicAuthenticator.AuthRequestMessage.html#Mirage_Authenticators_BasicAuthenticator_AuthRequestMessage_AuthPassword
-  commentId: F:Mirage.Authenticators.BasicAuthenticator.AuthRequestMessage.AuthPassword
-  fullName: Mirage.Authenticators.BasicAuthenticator.AuthRequestMessage.AuthPassword
-  nameWithType: BasicAuthenticator.AuthRequestMessage.AuthPassword
-- uid: Mirage.Authenticators.BasicAuthenticator.AuthRequestMessage.AuthUsername
-  name: AuthUsername
-  href: api/Mirage.Authenticators.BasicAuthenticator.AuthRequestMessage.html#Mirage_Authenticators_BasicAuthenticator_AuthRequestMessage_AuthUsername
-  commentId: F:Mirage.Authenticators.BasicAuthenticator.AuthRequestMessage.AuthUsername
-  fullName: Mirage.Authenticators.BasicAuthenticator.AuthRequestMessage.AuthUsername
-  nameWithType: BasicAuthenticator.AuthRequestMessage.AuthUsername
-- uid: Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage
-  name: BasicAuthenticator.AuthResponseMessage
-  href: api/Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage.html
-  commentId: T:Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage
-  fullName: Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage
-  nameWithType: BasicAuthenticator.AuthResponseMessage
-- uid: Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage.Code
-  name: Code
-  href: api/Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage.html#Mirage_Authenticators_BasicAuthenticator_AuthResponseMessage_Code
-  commentId: F:Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage.Code
-  fullName: Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage.Code
-  nameWithType: BasicAuthenticator.AuthResponseMessage.Code
-- uid: Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage.Message
-  name: Message
-  href: api/Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage.html#Mirage_Authenticators_BasicAuthenticator_AuthResponseMessage_Message
-  commentId: F:Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage.Message
-  fullName: Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage.Message
-  nameWithType: BasicAuthenticator.AuthResponseMessage.Message
-- uid: Mirage.Authenticators.BasicAuthenticator.DelayedDisconnect(Mirage.INetworkPlayer,System.Single)
-  name: DelayedDisconnect(INetworkPlayer, Single)
-  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_DelayedDisconnect_Mirage_INetworkPlayer_System_Single_
-  commentId: M:Mirage.Authenticators.BasicAuthenticator.DelayedDisconnect(Mirage.INetworkPlayer,System.Single)
-  fullName: Mirage.Authenticators.BasicAuthenticator.DelayedDisconnect(Mirage.INetworkPlayer, System.Single)
-  nameWithType: BasicAuthenticator.DelayedDisconnect(INetworkPlayer, Single)
-- uid: Mirage.Authenticators.BasicAuthenticator.DelayedDisconnect*
-  name: DelayedDisconnect
-  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_DelayedDisconnect_
-  commentId: Overload:Mirage.Authenticators.BasicAuthenticator.DelayedDisconnect
+- uid: Mirage.Authenticators.BasicAuthenticator.ClientAuthenticate(Mirage.INetworkPlayer)
+  name: ClientAuthenticate(INetworkPlayer)
+  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_ClientAuthenticate_Mirage_INetworkPlayer_
+  commentId: M:Mirage.Authenticators.BasicAuthenticator.ClientAuthenticate(Mirage.INetworkPlayer)
+  fullName: Mirage.Authenticators.BasicAuthenticator.ClientAuthenticate(Mirage.INetworkPlayer)
+  nameWithType: BasicAuthenticator.ClientAuthenticate(INetworkPlayer)
+- uid: Mirage.Authenticators.BasicAuthenticator.ClientAuthenticate*
+  name: ClientAuthenticate
+  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_ClientAuthenticate_
+  commentId: Overload:Mirage.Authenticators.BasicAuthenticator.ClientAuthenticate
   isSpec: "True"
-  fullName: Mirage.Authenticators.BasicAuthenticator.DelayedDisconnect
-  nameWithType: BasicAuthenticator.DelayedDisconnect
-- uid: Mirage.Authenticators.BasicAuthenticator.OnAuthRequestMessage(Mirage.INetworkPlayer,Mirage.Authenticators.BasicAuthenticator.AuthRequestMessage)
-  name: OnAuthRequestMessage(INetworkPlayer, BasicAuthenticator.AuthRequestMessage)
-  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_OnAuthRequestMessage_Mirage_INetworkPlayer_Mirage_Authenticators_BasicAuthenticator_AuthRequestMessage_
-  commentId: M:Mirage.Authenticators.BasicAuthenticator.OnAuthRequestMessage(Mirage.INetworkPlayer,Mirage.Authenticators.BasicAuthenticator.AuthRequestMessage)
-  fullName: Mirage.Authenticators.BasicAuthenticator.OnAuthRequestMessage(Mirage.INetworkPlayer, Mirage.Authenticators.BasicAuthenticator.AuthRequestMessage)
-  nameWithType: BasicAuthenticator.OnAuthRequestMessage(INetworkPlayer, BasicAuthenticator.AuthRequestMessage)
-- uid: Mirage.Authenticators.BasicAuthenticator.OnAuthRequestMessage*
-  name: OnAuthRequestMessage
-  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_OnAuthRequestMessage_
-  commentId: Overload:Mirage.Authenticators.BasicAuthenticator.OnAuthRequestMessage
+  fullName: Mirage.Authenticators.BasicAuthenticator.ClientAuthenticate
+  nameWithType: BasicAuthenticator.ClientAuthenticate
+- uid: Mirage.Authenticators.BasicAuthenticator.ServerAuthenticate(Mirage.INetworkPlayer)
+  name: ServerAuthenticate(INetworkPlayer)
+  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_ServerAuthenticate_Mirage_INetworkPlayer_
+  commentId: M:Mirage.Authenticators.BasicAuthenticator.ServerAuthenticate(Mirage.INetworkPlayer)
+  fullName: Mirage.Authenticators.BasicAuthenticator.ServerAuthenticate(Mirage.INetworkPlayer)
+  nameWithType: BasicAuthenticator.ServerAuthenticate(INetworkPlayer)
+- uid: Mirage.Authenticators.BasicAuthenticator.ServerAuthenticate*
+  name: ServerAuthenticate
+  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_ServerAuthenticate_
+  commentId: Overload:Mirage.Authenticators.BasicAuthenticator.ServerAuthenticate
   isSpec: "True"
-  fullName: Mirage.Authenticators.BasicAuthenticator.OnAuthRequestMessage
-  nameWithType: BasicAuthenticator.OnAuthRequestMessage
-- uid: Mirage.Authenticators.BasicAuthenticator.OnAuthResponseMessage(Mirage.INetworkPlayer,Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage)
-  name: OnAuthResponseMessage(INetworkPlayer, BasicAuthenticator.AuthResponseMessage)
-  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_OnAuthResponseMessage_Mirage_INetworkPlayer_Mirage_Authenticators_BasicAuthenticator_AuthResponseMessage_
-  commentId: M:Mirage.Authenticators.BasicAuthenticator.OnAuthResponseMessage(Mirage.INetworkPlayer,Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage)
-  fullName: Mirage.Authenticators.BasicAuthenticator.OnAuthResponseMessage(Mirage.INetworkPlayer, Mirage.Authenticators.BasicAuthenticator.AuthResponseMessage)
-  nameWithType: BasicAuthenticator.OnAuthResponseMessage(INetworkPlayer, BasicAuthenticator.AuthResponseMessage)
-- uid: Mirage.Authenticators.BasicAuthenticator.OnAuthResponseMessage*
-  name: OnAuthResponseMessage
-  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_OnAuthResponseMessage_
-  commentId: Overload:Mirage.Authenticators.BasicAuthenticator.OnAuthResponseMessage
-  isSpec: "True"
-  fullName: Mirage.Authenticators.BasicAuthenticator.OnAuthResponseMessage
-  nameWithType: BasicAuthenticator.OnAuthResponseMessage
-- uid: Mirage.Authenticators.BasicAuthenticator.OnClientAuthenticate(Mirage.INetworkPlayer)
-  name: OnClientAuthenticate(INetworkPlayer)
-  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_OnClientAuthenticate_Mirage_INetworkPlayer_
-  commentId: M:Mirage.Authenticators.BasicAuthenticator.OnClientAuthenticate(Mirage.INetworkPlayer)
-  fullName: Mirage.Authenticators.BasicAuthenticator.OnClientAuthenticate(Mirage.INetworkPlayer)
-  nameWithType: BasicAuthenticator.OnClientAuthenticate(INetworkPlayer)
-- uid: Mirage.Authenticators.BasicAuthenticator.OnClientAuthenticate*
-  name: OnClientAuthenticate
-  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_OnClientAuthenticate_
-  commentId: Overload:Mirage.Authenticators.BasicAuthenticator.OnClientAuthenticate
-  isSpec: "True"
-  fullName: Mirage.Authenticators.BasicAuthenticator.OnClientAuthenticate
-  nameWithType: BasicAuthenticator.OnClientAuthenticate
-- uid: Mirage.Authenticators.BasicAuthenticator.OnServerAuthenticate(Mirage.INetworkPlayer)
-  name: OnServerAuthenticate(INetworkPlayer)
-  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_OnServerAuthenticate_Mirage_INetworkPlayer_
-  commentId: M:Mirage.Authenticators.BasicAuthenticator.OnServerAuthenticate(Mirage.INetworkPlayer)
-  fullName: Mirage.Authenticators.BasicAuthenticator.OnServerAuthenticate(Mirage.INetworkPlayer)
-  nameWithType: BasicAuthenticator.OnServerAuthenticate(INetworkPlayer)
-- uid: Mirage.Authenticators.BasicAuthenticator.OnServerAuthenticate*
-  name: OnServerAuthenticate
-  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_OnServerAuthenticate_
-  commentId: Overload:Mirage.Authenticators.BasicAuthenticator.OnServerAuthenticate
-  isSpec: "True"
-  fullName: Mirage.Authenticators.BasicAuthenticator.OnServerAuthenticate
-  nameWithType: BasicAuthenticator.OnServerAuthenticate
-- uid: Mirage.Authenticators.BasicAuthenticator.Password
-  name: Password
-  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_Password
-  commentId: F:Mirage.Authenticators.BasicAuthenticator.Password
-  fullName: Mirage.Authenticators.BasicAuthenticator.Password
-  nameWithType: BasicAuthenticator.Password
-- uid: Mirage.Authenticators.BasicAuthenticator.Username
-  name: Username
-  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_Username
-  commentId: F:Mirage.Authenticators.BasicAuthenticator.Username
-  fullName: Mirage.Authenticators.BasicAuthenticator.Username
-  nameWithType: BasicAuthenticator.Username
+  fullName: Mirage.Authenticators.BasicAuthenticator.ServerAuthenticate
+  nameWithType: BasicAuthenticator.ServerAuthenticate
+- uid: Mirage.Authenticators.BasicAuthenticator.serverCode
+  name: serverCode
+  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_serverCode
+  commentId: F:Mirage.Authenticators.BasicAuthenticator.serverCode
+  fullName: Mirage.Authenticators.BasicAuthenticator.serverCode
+  nameWithType: BasicAuthenticator.serverCode
 - uid: Mirage.Authenticators.TimeoutAuthenticator
   name: TimeoutAuthenticator
   href: api/Mirage.Authenticators.TimeoutAuthenticator.html
@@ -163,32 +82,32 @@ references:
   isSpec: "True"
   fullName: Mirage.Authenticators.TimeoutAuthenticator.Awake
   nameWithType: TimeoutAuthenticator.Awake
-- uid: Mirage.Authenticators.TimeoutAuthenticator.OnClientAuthenticate(Mirage.INetworkPlayer)
-  name: OnClientAuthenticate(INetworkPlayer)
-  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_OnClientAuthenticate_Mirage_INetworkPlayer_
-  commentId: M:Mirage.Authenticators.TimeoutAuthenticator.OnClientAuthenticate(Mirage.INetworkPlayer)
-  fullName: Mirage.Authenticators.TimeoutAuthenticator.OnClientAuthenticate(Mirage.INetworkPlayer)
-  nameWithType: TimeoutAuthenticator.OnClientAuthenticate(INetworkPlayer)
-- uid: Mirage.Authenticators.TimeoutAuthenticator.OnClientAuthenticate*
-  name: OnClientAuthenticate
-  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_OnClientAuthenticate_
-  commentId: Overload:Mirage.Authenticators.TimeoutAuthenticator.OnClientAuthenticate
+- uid: Mirage.Authenticators.TimeoutAuthenticator.ClientAuthenticate(Mirage.INetworkPlayer)
+  name: ClientAuthenticate(INetworkPlayer)
+  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_ClientAuthenticate_Mirage_INetworkPlayer_
+  commentId: M:Mirage.Authenticators.TimeoutAuthenticator.ClientAuthenticate(Mirage.INetworkPlayer)
+  fullName: Mirage.Authenticators.TimeoutAuthenticator.ClientAuthenticate(Mirage.INetworkPlayer)
+  nameWithType: TimeoutAuthenticator.ClientAuthenticate(INetworkPlayer)
+- uid: Mirage.Authenticators.TimeoutAuthenticator.ClientAuthenticate*
+  name: ClientAuthenticate
+  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_ClientAuthenticate_
+  commentId: Overload:Mirage.Authenticators.TimeoutAuthenticator.ClientAuthenticate
   isSpec: "True"
-  fullName: Mirage.Authenticators.TimeoutAuthenticator.OnClientAuthenticate
-  nameWithType: TimeoutAuthenticator.OnClientAuthenticate
-- uid: Mirage.Authenticators.TimeoutAuthenticator.OnServerAuthenticate(Mirage.INetworkPlayer)
-  name: OnServerAuthenticate(INetworkPlayer)
-  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_OnServerAuthenticate_Mirage_INetworkPlayer_
-  commentId: M:Mirage.Authenticators.TimeoutAuthenticator.OnServerAuthenticate(Mirage.INetworkPlayer)
-  fullName: Mirage.Authenticators.TimeoutAuthenticator.OnServerAuthenticate(Mirage.INetworkPlayer)
-  nameWithType: TimeoutAuthenticator.OnServerAuthenticate(INetworkPlayer)
-- uid: Mirage.Authenticators.TimeoutAuthenticator.OnServerAuthenticate*
-  name: OnServerAuthenticate
-  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_OnServerAuthenticate_
-  commentId: Overload:Mirage.Authenticators.TimeoutAuthenticator.OnServerAuthenticate
+  fullName: Mirage.Authenticators.TimeoutAuthenticator.ClientAuthenticate
+  nameWithType: TimeoutAuthenticator.ClientAuthenticate
+- uid: Mirage.Authenticators.TimeoutAuthenticator.ServerAuthenticate(Mirage.INetworkPlayer)
+  name: ServerAuthenticate(INetworkPlayer)
+  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_ServerAuthenticate_Mirage_INetworkPlayer_
+  commentId: M:Mirage.Authenticators.TimeoutAuthenticator.ServerAuthenticate(Mirage.INetworkPlayer)
+  fullName: Mirage.Authenticators.TimeoutAuthenticator.ServerAuthenticate(Mirage.INetworkPlayer)
+  nameWithType: TimeoutAuthenticator.ServerAuthenticate(INetworkPlayer)
+- uid: Mirage.Authenticators.TimeoutAuthenticator.ServerAuthenticate*
+  name: ServerAuthenticate
+  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_ServerAuthenticate_
+  commentId: Overload:Mirage.Authenticators.TimeoutAuthenticator.ServerAuthenticate
   isSpec: "True"
-  fullName: Mirage.Authenticators.TimeoutAuthenticator.OnServerAuthenticate
-  nameWithType: TimeoutAuthenticator.OnServerAuthenticate
+  fullName: Mirage.Authenticators.TimeoutAuthenticator.ServerAuthenticate
+  nameWithType: TimeoutAuthenticator.ServerAuthenticate
 - uid: Mirage.Authenticators.TimeoutAuthenticator.Timeout
   name: Timeout
   href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_Timeout
@@ -4986,44 +4905,96 @@ references:
   commentId: T:Mirage.NetworkAuthenticator
   fullName: Mirage.NetworkAuthenticator
   nameWithType: NetworkAuthenticator
-- uid: Mirage.NetworkAuthenticator.OnClientAuthenticate(Mirage.INetworkPlayer)
-  name: OnClientAuthenticate(INetworkPlayer)
-  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_OnClientAuthenticate_Mirage_INetworkPlayer_
-  commentId: M:Mirage.NetworkAuthenticator.OnClientAuthenticate(Mirage.INetworkPlayer)
-  fullName: Mirage.NetworkAuthenticator.OnClientAuthenticate(Mirage.INetworkPlayer)
-  nameWithType: NetworkAuthenticator.OnClientAuthenticate(INetworkPlayer)
-- uid: Mirage.NetworkAuthenticator.OnClientAuthenticate*
-  name: OnClientAuthenticate
-  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_OnClientAuthenticate_
-  commentId: Overload:Mirage.NetworkAuthenticator.OnClientAuthenticate
+- uid: Mirage.NetworkAuthenticator.ClientAccept(Mirage.INetworkPlayer)
+  name: ClientAccept(INetworkPlayer)
+  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_ClientAccept_Mirage_INetworkPlayer_
+  commentId: M:Mirage.NetworkAuthenticator.ClientAccept(Mirage.INetworkPlayer)
+  fullName: Mirage.NetworkAuthenticator.ClientAccept(Mirage.INetworkPlayer)
+  nameWithType: NetworkAuthenticator.ClientAccept(INetworkPlayer)
+- uid: Mirage.NetworkAuthenticator.ClientAccept*
+  name: ClientAccept
+  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_ClientAccept_
+  commentId: Overload:Mirage.NetworkAuthenticator.ClientAccept
   isSpec: "True"
-  fullName: Mirage.NetworkAuthenticator.OnClientAuthenticate
-  nameWithType: NetworkAuthenticator.OnClientAuthenticate
+  fullName: Mirage.NetworkAuthenticator.ClientAccept
+  nameWithType: NetworkAuthenticator.ClientAccept
+- uid: Mirage.NetworkAuthenticator.ClientAuthenticate(Mirage.INetworkPlayer)
+  name: ClientAuthenticate(INetworkPlayer)
+  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_ClientAuthenticate_Mirage_INetworkPlayer_
+  commentId: M:Mirage.NetworkAuthenticator.ClientAuthenticate(Mirage.INetworkPlayer)
+  fullName: Mirage.NetworkAuthenticator.ClientAuthenticate(Mirage.INetworkPlayer)
+  nameWithType: NetworkAuthenticator.ClientAuthenticate(INetworkPlayer)
+- uid: Mirage.NetworkAuthenticator.ClientAuthenticate*
+  name: ClientAuthenticate
+  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_ClientAuthenticate_
+  commentId: Overload:Mirage.NetworkAuthenticator.ClientAuthenticate
+  isSpec: "True"
+  fullName: Mirage.NetworkAuthenticator.ClientAuthenticate
+  nameWithType: NetworkAuthenticator.ClientAuthenticate
+- uid: Mirage.NetworkAuthenticator.ClientReject(Mirage.INetworkPlayer)
+  name: ClientReject(INetworkPlayer)
+  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_ClientReject_Mirage_INetworkPlayer_
+  commentId: M:Mirage.NetworkAuthenticator.ClientReject(Mirage.INetworkPlayer)
+  fullName: Mirage.NetworkAuthenticator.ClientReject(Mirage.INetworkPlayer)
+  nameWithType: NetworkAuthenticator.ClientReject(INetworkPlayer)
+- uid: Mirage.NetworkAuthenticator.ClientReject*
+  name: ClientReject
+  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_ClientReject_
+  commentId: Overload:Mirage.NetworkAuthenticator.ClientReject
+  isSpec: "True"
+  fullName: Mirage.NetworkAuthenticator.ClientReject
+  nameWithType: NetworkAuthenticator.ClientReject
 - uid: Mirage.NetworkAuthenticator.OnClientAuthenticated
   name: OnClientAuthenticated
   href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_OnClientAuthenticated
   commentId: E:Mirage.NetworkAuthenticator.OnClientAuthenticated
   fullName: Mirage.NetworkAuthenticator.OnClientAuthenticated
   nameWithType: NetworkAuthenticator.OnClientAuthenticated
-- uid: Mirage.NetworkAuthenticator.OnServerAuthenticate(Mirage.INetworkPlayer)
-  name: OnServerAuthenticate(INetworkPlayer)
-  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_OnServerAuthenticate_Mirage_INetworkPlayer_
-  commentId: M:Mirage.NetworkAuthenticator.OnServerAuthenticate(Mirage.INetworkPlayer)
-  fullName: Mirage.NetworkAuthenticator.OnServerAuthenticate(Mirage.INetworkPlayer)
-  nameWithType: NetworkAuthenticator.OnServerAuthenticate(INetworkPlayer)
-- uid: Mirage.NetworkAuthenticator.OnServerAuthenticate*
-  name: OnServerAuthenticate
-  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_OnServerAuthenticate_
-  commentId: Overload:Mirage.NetworkAuthenticator.OnServerAuthenticate
-  isSpec: "True"
-  fullName: Mirage.NetworkAuthenticator.OnServerAuthenticate
-  nameWithType: NetworkAuthenticator.OnServerAuthenticate
 - uid: Mirage.NetworkAuthenticator.OnServerAuthenticated
   name: OnServerAuthenticated
   href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_OnServerAuthenticated
   commentId: E:Mirage.NetworkAuthenticator.OnServerAuthenticated
   fullName: Mirage.NetworkAuthenticator.OnServerAuthenticated
   nameWithType: NetworkAuthenticator.OnServerAuthenticated
+- uid: Mirage.NetworkAuthenticator.ServerAccept(Mirage.INetworkPlayer)
+  name: ServerAccept(INetworkPlayer)
+  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_ServerAccept_Mirage_INetworkPlayer_
+  commentId: M:Mirage.NetworkAuthenticator.ServerAccept(Mirage.INetworkPlayer)
+  fullName: Mirage.NetworkAuthenticator.ServerAccept(Mirage.INetworkPlayer)
+  nameWithType: NetworkAuthenticator.ServerAccept(INetworkPlayer)
+- uid: Mirage.NetworkAuthenticator.ServerAccept*
+  name: ServerAccept
+  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_ServerAccept_
+  commentId: Overload:Mirage.NetworkAuthenticator.ServerAccept
+  isSpec: "True"
+  fullName: Mirage.NetworkAuthenticator.ServerAccept
+  nameWithType: NetworkAuthenticator.ServerAccept
+- uid: Mirage.NetworkAuthenticator.ServerAuthenticate(Mirage.INetworkPlayer)
+  name: ServerAuthenticate(INetworkPlayer)
+  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_ServerAuthenticate_Mirage_INetworkPlayer_
+  commentId: M:Mirage.NetworkAuthenticator.ServerAuthenticate(Mirage.INetworkPlayer)
+  fullName: Mirage.NetworkAuthenticator.ServerAuthenticate(Mirage.INetworkPlayer)
+  nameWithType: NetworkAuthenticator.ServerAuthenticate(INetworkPlayer)
+- uid: Mirage.NetworkAuthenticator.ServerAuthenticate*
+  name: ServerAuthenticate
+  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_ServerAuthenticate_
+  commentId: Overload:Mirage.NetworkAuthenticator.ServerAuthenticate
+  isSpec: "True"
+  fullName: Mirage.NetworkAuthenticator.ServerAuthenticate
+  nameWithType: NetworkAuthenticator.ServerAuthenticate
+- uid: Mirage.NetworkAuthenticator.ServerReject(Mirage.INetworkPlayer)
+  name: ServerReject(INetworkPlayer)
+  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_ServerReject_Mirage_INetworkPlayer_
+  commentId: M:Mirage.NetworkAuthenticator.ServerReject(Mirage.INetworkPlayer)
+  fullName: Mirage.NetworkAuthenticator.ServerReject(Mirage.INetworkPlayer)
+  nameWithType: NetworkAuthenticator.ServerReject(INetworkPlayer)
+- uid: Mirage.NetworkAuthenticator.ServerReject*
+  name: ServerReject
+  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_ServerReject_
+  commentId: Overload:Mirage.NetworkAuthenticator.ServerReject
+  isSpec: "True"
+  fullName: Mirage.NetworkAuthenticator.ServerReject
+  nameWithType: NetworkAuthenticator.ServerReject
 - uid: Mirage.NetworkBehaviorSerializers
   name: NetworkBehaviorSerializers
   href: api/Mirage.NetworkBehaviorSerializers.html
