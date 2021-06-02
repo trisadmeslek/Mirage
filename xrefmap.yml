@@ -3543,19 +3543,6 @@ references:
   isSpec: "True"
   fullName: Mirage.IAuthenticatedObject.AuthenticationData
   nameWithType: IAuthenticatedObject.AuthenticationData
-- uid: Mirage.IAuthenticatedObject.IsAuthenticated
-  name: IsAuthenticated
-  href: api/Mirage.IAuthenticatedObject.html#Mirage_IAuthenticatedObject_IsAuthenticated
-  commentId: P:Mirage.IAuthenticatedObject.IsAuthenticated
-  fullName: Mirage.IAuthenticatedObject.IsAuthenticated
-  nameWithType: IAuthenticatedObject.IsAuthenticated
-- uid: Mirage.IAuthenticatedObject.IsAuthenticated*
-  name: IsAuthenticated
-  href: api/Mirage.IAuthenticatedObject.html#Mirage_IAuthenticatedObject_IsAuthenticated_
-  commentId: Overload:Mirage.IAuthenticatedObject.IsAuthenticated
-  isSpec: "True"
-  fullName: Mirage.IAuthenticatedObject.IsAuthenticated
-  nameWithType: IAuthenticatedObject.IsAuthenticated
 - uid: Mirage.IClientObjectManager
   name: IClientObjectManager
   href: api/Mirage.IClientObjectManager.html
@@ -6745,19 +6732,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkPlayer.Identity
   nameWithType: NetworkPlayer.Identity
-- uid: Mirage.NetworkPlayer.IsAuthenticated
-  name: IsAuthenticated
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_IsAuthenticated
-  commentId: P:Mirage.NetworkPlayer.IsAuthenticated
-  fullName: Mirage.NetworkPlayer.IsAuthenticated
-  nameWithType: NetworkPlayer.IsAuthenticated
-- uid: Mirage.NetworkPlayer.IsAuthenticated*
-  name: IsAuthenticated
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_IsAuthenticated_
-  commentId: Overload:Mirage.NetworkPlayer.IsAuthenticated
-  isSpec: "True"
-  fullName: Mirage.NetworkPlayer.IsAuthenticated
-  nameWithType: NetworkPlayer.IsAuthenticated
 - uid: Mirage.NetworkPlayer.IsReady
   name: IsReady
   href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_IsReady
