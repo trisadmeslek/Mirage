@@ -3543,6 +3543,19 @@ references:
   isSpec: "True"
   fullName: Mirage.IAuthenticatedObject.AuthenticationData
   nameWithType: IAuthenticatedObject.AuthenticationData
+- uid: Mirage.IAuthenticatedObject.IsAuthenticated
+  name: IsAuthenticated
+  href: api/Mirage.IAuthenticatedObject.html#Mirage_IAuthenticatedObject_IsAuthenticated
+  commentId: P:Mirage.IAuthenticatedObject.IsAuthenticated
+  fullName: Mirage.IAuthenticatedObject.IsAuthenticated
+  nameWithType: IAuthenticatedObject.IsAuthenticated
+- uid: Mirage.IAuthenticatedObject.IsAuthenticated*
+  name: IsAuthenticated
+  href: api/Mirage.IAuthenticatedObject.html#Mirage_IAuthenticatedObject_IsAuthenticated_
+  commentId: Overload:Mirage.IAuthenticatedObject.IsAuthenticated
+  isSpec: "True"
+  fullName: Mirage.IAuthenticatedObject.IsAuthenticated
+  nameWithType: IAuthenticatedObject.IsAuthenticated
 - uid: Mirage.IClientObjectManager
   name: IClientObjectManager
   href: api/Mirage.IClientObjectManager.html
@@ -4234,6 +4247,19 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkServer.Stopped
   nameWithType: INetworkServer.Stopped
+- uid: Mirage.INetworkServer.SyncVarSender
+  name: SyncVarSender
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_SyncVarSender
+  commentId: P:Mirage.INetworkServer.SyncVarSender
+  fullName: Mirage.INetworkServer.SyncVarSender
+  nameWithType: INetworkServer.SyncVarSender
+- uid: Mirage.INetworkServer.SyncVarSender*
+  name: SyncVarSender
+  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_SyncVarSender_
+  commentId: Overload:Mirage.INetworkServer.SyncVarSender
+  isSpec: "True"
+  fullName: Mirage.INetworkServer.SyncVarSender
+  nameWithType: INetworkServer.SyncVarSender
 - uid: Mirage.INetworkServer.Time
   name: Time
   href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Time
@@ -6719,6 +6745,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkPlayer.Identity
   nameWithType: NetworkPlayer.Identity
+- uid: Mirage.NetworkPlayer.IsAuthenticated
+  name: IsAuthenticated
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_IsAuthenticated
+  commentId: P:Mirage.NetworkPlayer.IsAuthenticated
+  fullName: Mirage.NetworkPlayer.IsAuthenticated
+  nameWithType: NetworkPlayer.IsAuthenticated
+- uid: Mirage.NetworkPlayer.IsAuthenticated*
+  name: IsAuthenticated
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_IsAuthenticated_
+  commentId: Overload:Mirage.NetworkPlayer.IsAuthenticated
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.IsAuthenticated
+  nameWithType: NetworkPlayer.IsAuthenticated
 - uid: Mirage.NetworkPlayer.IsReady
   name: IsReady
   href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_IsReady
@@ -7472,6 +7511,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkServer.Stopped
   nameWithType: NetworkServer.Stopped
+- uid: Mirage.NetworkServer.SyncVarSender
+  name: SyncVarSender
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_SyncVarSender
+  commentId: P:Mirage.NetworkServer.SyncVarSender
+  fullName: Mirage.NetworkServer.SyncVarSender
+  nameWithType: NetworkServer.SyncVarSender
+- uid: Mirage.NetworkServer.SyncVarSender*
+  name: SyncVarSender
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_SyncVarSender_
+  commentId: Overload:Mirage.NetworkServer.SyncVarSender
+  isSpec: "True"
+  fullName: Mirage.NetworkServer.SyncVarSender
+  nameWithType: NetworkServer.SyncVarSender
 - uid: Mirage.NetworkServer.Time
   name: Time
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Time
@@ -10385,19 +10437,6 @@ references:
   isSpec: "True"
   fullName: Mirage.ServerObjectManager.Start
   nameWithType: ServerObjectManager.Start
-- uid: Mirage.ServerObjectManager.SyncVarSender
-  name: SyncVarSender
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_SyncVarSender
-  commentId: P:Mirage.ServerObjectManager.SyncVarSender
-  fullName: Mirage.ServerObjectManager.SyncVarSender
-  nameWithType: ServerObjectManager.SyncVarSender
-- uid: Mirage.ServerObjectManager.SyncVarSender*
-  name: SyncVarSender
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_SyncVarSender_
-  commentId: Overload:Mirage.ServerObjectManager.SyncVarSender
-  isSpec: "True"
-  fullName: Mirage.ServerObjectManager.SyncVarSender
-  nameWithType: ServerObjectManager.SyncVarSender
 - uid: Mirage.ServerRpcAttribute
   name: ServerRpcAttribute
   href: api/Mirage.ServerRpcAttribute.html
