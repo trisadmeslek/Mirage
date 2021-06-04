@@ -8059,12 +8059,12 @@ references:
   commentId: T:Mirage.PipePeerConnection
   fullName: Mirage.PipePeerConnection
   nameWithType: PipePeerConnection
-- uid: Mirage.PipePeerConnection.Create(Mirage.SocketLayer.IDataHandler,Mirage.SocketLayer.IDataHandler)
-  name: Create(IDataHandler, IDataHandler)
-  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Create_Mirage_SocketLayer_IDataHandler_Mirage_SocketLayer_IDataHandler_
-  commentId: M:Mirage.PipePeerConnection.Create(Mirage.SocketLayer.IDataHandler,Mirage.SocketLayer.IDataHandler)
-  fullName: Mirage.PipePeerConnection.Create(Mirage.SocketLayer.IDataHandler, Mirage.SocketLayer.IDataHandler)
-  nameWithType: PipePeerConnection.Create(IDataHandler, IDataHandler)
+- uid: Mirage.PipePeerConnection.Create(Mirage.SocketLayer.IDataHandler,Mirage.SocketLayer.IDataHandler,System.Action,System.Action)
+  name: Create(IDataHandler, IDataHandler, Action, Action)
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Create_Mirage_SocketLayer_IDataHandler_Mirage_SocketLayer_IDataHandler_System_Action_System_Action_
+  commentId: M:Mirage.PipePeerConnection.Create(Mirage.SocketLayer.IDataHandler,Mirage.SocketLayer.IDataHandler,System.Action,System.Action)
+  fullName: Mirage.PipePeerConnection.Create(Mirage.SocketLayer.IDataHandler, Mirage.SocketLayer.IDataHandler, System.Action, System.Action)
+  nameWithType: PipePeerConnection.Create(IDataHandler, IDataHandler, Action, Action)
 - uid: Mirage.PipePeerConnection.Create*
   name: Create
   href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Create_

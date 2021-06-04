@@ -144,7 +144,7 @@
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_PipePeerConnection_State.md&amp;value=---%0Auid%3A%20Mirage.PipePeerConnection.State%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/99189f12c36349b67ca72a5f0cc48802316648bc/Assets/Mirage/Runtime/PipePeerConnection.cs/#L60">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/eebe63ada737ff5e4d15f0c5231ed192f9d76079/Assets/Mirage/Runtime/PipePeerConnection.cs/#L64">View Source</a>
   </span>
   <a id="Mirage_PipePeerConnection_State_" data-uid="Mirage.PipePeerConnection.State*"></a>
   <h4 id="Mirage_PipePeerConnection_State" data-uid="Mirage.PipePeerConnection.State">State</h4>
@@ -173,18 +173,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_PipePeerConnection_Create_Mirage_SocketLayer_IDataHandler_Mirage_SocketLayer_IDataHandler_.md&amp;value=---%0Auid%3A%20Mirage.PipePeerConnection.Create(Mirage.SocketLayer.IDataHandler%2CMirage.SocketLayer.IDataHandler)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_PipePeerConnection_Create_Mirage_SocketLayer_IDataHandler_Mirage_SocketLayer_IDataHandler_System_Action_System_Action_.md&amp;value=---%0Auid%3A%20Mirage.PipePeerConnection.Create(Mirage.SocketLayer.IDataHandler%2CMirage.SocketLayer.IDataHandler%2CSystem.Action%2CSystem.Action)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/99189f12c36349b67ca72a5f0cc48802316648bc/Assets/Mirage/Runtime/PipePeerConnection.cs/#L32">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/eebe63ada737ff5e4d15f0c5231ed192f9d76079/Assets/Mirage/Runtime/PipePeerConnection.cs/#L34">View Source</a>
   </span>
   <a id="Mirage_PipePeerConnection_Create_" data-uid="Mirage.PipePeerConnection.Create*"></a>
-  <h4 id="Mirage_PipePeerConnection_Create_Mirage_SocketLayer_IDataHandler_Mirage_SocketLayer_IDataHandler_" data-uid="Mirage.PipePeerConnection.Create(Mirage.SocketLayer.IDataHandler,Mirage.SocketLayer.IDataHandler)">Create(IDataHandler, IDataHandler)</h4>
+  <h4 id="Mirage_PipePeerConnection_Create_Mirage_SocketLayer_IDataHandler_Mirage_SocketLayer_IDataHandler_System_Action_System_Action_" data-uid="Mirage.PipePeerConnection.Create(Mirage.SocketLayer.IDataHandler,Mirage.SocketLayer.IDataHandler,System.Action,System.Action)">Create(IDataHandler, IDataHandler, Action, Action)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static (IConnection clientConn, IConnection serverConn) Create(IDataHandler clientHandler, IDataHandler serverHandler)</code></pre>
+    <pre><code class="lang-csharp hljs">public static (IConnection clientConn, IConnection serverConn) Create(IDataHandler clientHandler, IDataHandler serverHandler, Action ClientOnDisconnect, Action ServerOnDisconnect)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -204,6 +204,16 @@
       <tr>
         <td><span class="xref">Mirage.SocketLayer.IDataHandler</span></td>
         <td><span class="parametername">serverHandler</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action">Action</a></td>
+        <td><span class="parametername">ClientOnDisconnect</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action">Action</a></td>
+        <td><span class="parametername">ServerOnDisconnect</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -228,7 +238,7 @@
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_PipePeerConnection_ToString.md&amp;value=---%0Auid%3A%20Mirage.PipePeerConnection.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/99189f12c36349b67ca72a5f0cc48802316648bc/Assets/Mirage/Runtime/PipePeerConnection.cs/#L52">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/eebe63ada737ff5e4d15f0c5231ed192f9d76079/Assets/Mirage/Runtime/PipePeerConnection.cs/#L56">View Source</a>
   </span>
   <a id="Mirage_PipePeerConnection_ToString_" data-uid="Mirage.PipePeerConnection.ToString*"></a>
   <h4 id="Mirage_PipePeerConnection_ToString" data-uid="Mirage.PipePeerConnection.ToString">ToString()</h4>
@@ -262,7 +272,7 @@
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_Disconnect.md&amp;value=---%0Auid%3A%20Mirage.PipePeerConnection.Mirage%23SocketLayer%23IConnection%23Disconnect%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/99189f12c36349b67ca72a5f0cc48802316648bc/Assets/Mirage/Runtime/PipePeerConnection.cs/#L62">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/eebe63ada737ff5e4d15f0c5231ed192f9d76079/Assets/Mirage/Runtime/PipePeerConnection.cs/#L66">View Source</a>
   </span>
   <a id="Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_Disconnect_" data-uid="Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#Disconnect*"></a>
   <h4 id="Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_Disconnect" data-uid="Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#Disconnect">IConnection.Disconnect()</h4>
@@ -277,7 +287,7 @@
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_EndPoint.md&amp;value=---%0Auid%3A%20Mirage.PipePeerConnection.Mirage%23SocketLayer%23IConnection%23EndPoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/99189f12c36349b67ca72a5f0cc48802316648bc/Assets/Mirage/Runtime/PipePeerConnection.cs/#L57">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/eebe63ada737ff5e4d15f0c5231ed192f9d76079/Assets/Mirage/Runtime/PipePeerConnection.cs/#L61">View Source</a>
   </span>
   <a id="Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_EndPoint_" data-uid="Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#EndPoint*"></a>
   <h4 id="Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_EndPoint" data-uid="Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#EndPoint">IConnection.EndPoint</h4>
@@ -307,7 +317,7 @@
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_SendNotify_System_Byte___.md&amp;value=---%0Auid%3A%20Mirage.PipePeerConnection.Mirage%23SocketLayer%23IConnection%23SendNotify(System.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/99189f12c36349b67ca72a5f0cc48802316648bc/Assets/Mirage/Runtime/PipePeerConnection.cs/#L67">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/eebe63ada737ff5e4d15f0c5231ed192f9d76079/Assets/Mirage/Runtime/PipePeerConnection.cs/#L78">View Source</a>
   </span>
   <a id="Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_SendNotify_" data-uid="Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendNotify*"></a>
   <h4 id="Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_SendNotify_System_Byte___" data-uid="Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendNotify(System.Byte[])">IConnection.SendNotify(Byte[])</h4>
@@ -354,7 +364,7 @@
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_SendReliable_System_Byte___.md&amp;value=---%0Auid%3A%20Mirage.PipePeerConnection.Mirage%23SocketLayer%23IConnection%23SendReliable(System.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/99189f12c36349b67ca72a5f0cc48802316648bc/Assets/Mirage/Runtime/PipePeerConnection.cs/#L74">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/eebe63ada737ff5e4d15f0c5231ed192f9d76079/Assets/Mirage/Runtime/PipePeerConnection.cs/#L88">View Source</a>
   </span>
   <a id="Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_SendReliable_" data-uid="Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendReliable*"></a>
   <h4 id="Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_SendReliable_System_Byte___" data-uid="Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendReliable(System.Byte[])">IConnection.SendReliable(Byte[])</h4>
@@ -386,7 +396,7 @@
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_SendUnreliable_System_Byte___.md&amp;value=---%0Auid%3A%20Mirage.PipePeerConnection.Mirage%23SocketLayer%23IConnection%23SendUnreliable(System.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/99189f12c36349b67ca72a5f0cc48802316648bc/Assets/Mirage/Runtime/PipePeerConnection.cs/#L79">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/eebe63ada737ff5e4d15f0c5231ed192f9d76079/Assets/Mirage/Runtime/PipePeerConnection.cs/#L96">View Source</a>
   </span>
   <a id="Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_SendUnreliable_" data-uid="Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendUnreliable*"></a>
   <h4 id="Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_SendUnreliable_System_Byte___" data-uid="Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendUnreliable(System.Byte[])">IConnection.SendUnreliable(Byte[])</h4>
@@ -428,7 +438,7 @@
                     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_PipePeerConnection.md&amp;value=---%0Auid%3A%20Mirage.PipePeerConnection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/blob/99189f12c36349b67ca72a5f0cc48802316648bc/Assets/Mirage/Runtime/PipePeerConnection.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirageNet/Mirage/blob/eebe63ada737ff5e4d15f0c5231ed192f9d76079/Assets/Mirage/Runtime/PipePeerConnection.cs/#L12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
