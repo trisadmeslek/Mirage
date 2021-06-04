@@ -487,6 +487,12 @@ references:
   commentId: F:Mirage.ClientStoppedReason.ConnectingTimeout
   fullName: Mirage.ClientStoppedReason.ConnectingTimeout
   nameWithType: ClientStoppedReason.ConnectingTimeout
+- uid: Mirage.ClientStoppedReason.HostModeStopped
+  name: HostModeStopped
+  href: api/Mirage.ClientStoppedReason.html#Mirage_ClientStoppedReason_HostModeStopped
+  commentId: F:Mirage.ClientStoppedReason.HostModeStopped
+  fullName: Mirage.ClientStoppedReason.HostModeStopped
+  nameWithType: ClientStoppedReason.HostModeStopped
 - uid: Mirage.ClientStoppedReason.LocalConnectionClosed
   name: LocalConnectionClosed
   href: api/Mirage.ClientStoppedReason.html#Mirage_ClientStoppedReason_LocalConnectionClosed
