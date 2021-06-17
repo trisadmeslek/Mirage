@@ -2550,6 +2550,43 @@ references:
   commentId: F:Mirage.ConnectState.Disconnected
   fullName: Mirage.ConnectState.Disconnected
   nameWithType: ConnectState.Disconnected
+- uid: Mirage.DeserializeFailedException
+  name: DeserializeFailedException
+  href: api/Mirage.DeserializeFailedException.html
+  commentId: T:Mirage.DeserializeFailedException
+  fullName: Mirage.DeserializeFailedException
+  nameWithType: DeserializeFailedException
+- uid: Mirage.DeserializeFailedException.#ctor
+  name: DeserializeFailedException()
+  href: api/Mirage.DeserializeFailedException.html#Mirage_DeserializeFailedException__ctor
+  commentId: M:Mirage.DeserializeFailedException.#ctor
+  fullName: Mirage.DeserializeFailedException.DeserializeFailedException()
+  nameWithType: DeserializeFailedException.DeserializeFailedException()
+- uid: Mirage.DeserializeFailedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: DeserializeFailedException(SerializationInfo, StreamingContext)
+  href: api/Mirage.DeserializeFailedException.html#Mirage_DeserializeFailedException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:Mirage.DeserializeFailedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: Mirage.DeserializeFailedException.DeserializeFailedException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: DeserializeFailedException.DeserializeFailedException(SerializationInfo, StreamingContext)
+- uid: Mirage.DeserializeFailedException.#ctor(System.String)
+  name: DeserializeFailedException(String)
+  href: api/Mirage.DeserializeFailedException.html#Mirage_DeserializeFailedException__ctor_System_String_
+  commentId: M:Mirage.DeserializeFailedException.#ctor(System.String)
+  fullName: Mirage.DeserializeFailedException.DeserializeFailedException(System.String)
+  nameWithType: DeserializeFailedException.DeserializeFailedException(String)
+- uid: Mirage.DeserializeFailedException.#ctor(System.String,System.Exception)
+  name: DeserializeFailedException(String, Exception)
+  href: api/Mirage.DeserializeFailedException.html#Mirage_DeserializeFailedException__ctor_System_String_System_Exception_
+  commentId: M:Mirage.DeserializeFailedException.#ctor(System.String,System.Exception)
+  fullName: Mirage.DeserializeFailedException.DeserializeFailedException(System.String, System.Exception)
+  nameWithType: DeserializeFailedException.DeserializeFailedException(String, Exception)
+- uid: Mirage.DeserializeFailedException.#ctor*
+  name: DeserializeFailedException
+  href: api/Mirage.DeserializeFailedException.html#Mirage_DeserializeFailedException__ctor_
+  commentId: Overload:Mirage.DeserializeFailedException.#ctor
+  isSpec: "True"
+  fullName: Mirage.DeserializeFailedException.DeserializeFailedException
+  nameWithType: DeserializeFailedException.DeserializeFailedException
 - uid: Mirage.Events
   name: Mirage.Events
   href: api/Mirage.Events.html
@@ -4292,43 +4329,6 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkServer.World
   nameWithType: INetworkServer.World
-- uid: Mirage.InvalidMessageException
-  name: InvalidMessageException
-  href: api/Mirage.InvalidMessageException.html
-  commentId: T:Mirage.InvalidMessageException
-  fullName: Mirage.InvalidMessageException
-  nameWithType: InvalidMessageException
-- uid: Mirage.InvalidMessageException.#ctor
-  name: InvalidMessageException()
-  href: api/Mirage.InvalidMessageException.html#Mirage_InvalidMessageException__ctor
-  commentId: M:Mirage.InvalidMessageException.#ctor
-  fullName: Mirage.InvalidMessageException.InvalidMessageException()
-  nameWithType: InvalidMessageException.InvalidMessageException()
-- uid: Mirage.InvalidMessageException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: InvalidMessageException(SerializationInfo, StreamingContext)
-  href: api/Mirage.InvalidMessageException.html#Mirage_InvalidMessageException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:Mirage.InvalidMessageException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: Mirage.InvalidMessageException.InvalidMessageException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: InvalidMessageException.InvalidMessageException(SerializationInfo, StreamingContext)
-- uid: Mirage.InvalidMessageException.#ctor(System.String)
-  name: InvalidMessageException(String)
-  href: api/Mirage.InvalidMessageException.html#Mirage_InvalidMessageException__ctor_System_String_
-  commentId: M:Mirage.InvalidMessageException.#ctor(System.String)
-  fullName: Mirage.InvalidMessageException.InvalidMessageException(System.String)
-  nameWithType: InvalidMessageException.InvalidMessageException(String)
-- uid: Mirage.InvalidMessageException.#ctor(System.String,System.Exception)
-  name: InvalidMessageException(String, Exception)
-  href: api/Mirage.InvalidMessageException.html#Mirage_InvalidMessageException__ctor_System_String_System_Exception_
-  commentId: M:Mirage.InvalidMessageException.#ctor(System.String,System.Exception)
-  fullName: Mirage.InvalidMessageException.InvalidMessageException(System.String, System.Exception)
-  nameWithType: InvalidMessageException.InvalidMessageException(String, Exception)
-- uid: Mirage.InvalidMessageException.#ctor*
-  name: InvalidMessageException
-  href: api/Mirage.InvalidMessageException.html#Mirage_InvalidMessageException__ctor_
-  commentId: Overload:Mirage.InvalidMessageException.#ctor
-  isSpec: "True"
-  fullName: Mirage.InvalidMessageException.InvalidMessageException
-  nameWithType: InvalidMessageException.InvalidMessageException
 - uid: Mirage.IObjectLocator
   name: IObjectLocator
   href: api/Mirage.IObjectLocator.html
