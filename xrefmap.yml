@@ -10688,3 +10688,9 @@ references:
   commentId: F:Mirage.Version.Current
   fullName: Mirage.Version.Current
   nameWithType: Version.Current
+- uid: Mirage.WeaverIgnoreAttribute
+  name: WeaverIgnoreAttribute
+  href: api/Mirage.WeaverIgnoreAttribute.html
+  commentId: T:Mirage.WeaverIgnoreAttribute
+  fullName: Mirage.WeaverIgnoreAttribute
+  nameWithType: WeaverIgnoreAttribute
