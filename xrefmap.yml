@@ -8112,60 +8112,6 @@ references:
   fullName: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.EndPoint
   nameWithType: PipePeerConnection.IConnection.EndPoint
   nameWithType.vb: PipePeerConnection.Mirage.SocketLayer.IConnection.EndPoint
-- uid: Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendNotify(System.Byte[])
-  name: IConnection.SendNotify(Byte[])
-  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_SendNotify_System_Byte___
-  commentId: M:Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendNotify(System.Byte[])
-  name.vb: Mirage.SocketLayer.IConnection.SendNotify(Byte())
-  fullName: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.SendNotify(System.Byte[])
-  fullName.vb: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.SendNotify(System.Byte())
-  nameWithType: PipePeerConnection.IConnection.SendNotify(Byte[])
-  nameWithType.vb: PipePeerConnection.Mirage.SocketLayer.IConnection.SendNotify(Byte())
-- uid: Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendNotify*
-  name: IConnection.SendNotify
-  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_SendNotify_
-  commentId: Overload:Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendNotify
-  isSpec: "True"
-  name.vb: Mirage.SocketLayer.IConnection.SendNotify
-  fullName: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.SendNotify
-  nameWithType: PipePeerConnection.IConnection.SendNotify
-  nameWithType.vb: PipePeerConnection.Mirage.SocketLayer.IConnection.SendNotify
-- uid: Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendReliable(System.Byte[])
-  name: IConnection.SendReliable(Byte[])
-  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_SendReliable_System_Byte___
-  commentId: M:Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendReliable(System.Byte[])
-  name.vb: Mirage.SocketLayer.IConnection.SendReliable(Byte())
-  fullName: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.SendReliable(System.Byte[])
-  fullName.vb: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.SendReliable(System.Byte())
-  nameWithType: PipePeerConnection.IConnection.SendReliable(Byte[])
-  nameWithType.vb: PipePeerConnection.Mirage.SocketLayer.IConnection.SendReliable(Byte())
-- uid: Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendReliable*
-  name: IConnection.SendReliable
-  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_SendReliable_
-  commentId: Overload:Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendReliable
-  isSpec: "True"
-  name.vb: Mirage.SocketLayer.IConnection.SendReliable
-  fullName: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.SendReliable
-  nameWithType: PipePeerConnection.IConnection.SendReliable
-  nameWithType.vb: PipePeerConnection.Mirage.SocketLayer.IConnection.SendReliable
-- uid: Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendUnreliable(System.Byte[])
-  name: IConnection.SendUnreliable(Byte[])
-  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_SendUnreliable_System_Byte___
-  commentId: M:Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendUnreliable(System.Byte[])
-  name.vb: Mirage.SocketLayer.IConnection.SendUnreliable(Byte())
-  fullName: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.SendUnreliable(System.Byte[])
-  fullName.vb: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.SendUnreliable(System.Byte())
-  nameWithType: PipePeerConnection.IConnection.SendUnreliable(Byte[])
-  nameWithType.vb: PipePeerConnection.Mirage.SocketLayer.IConnection.SendUnreliable(Byte())
-- uid: Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendUnreliable*
-  name: IConnection.SendUnreliable
-  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_SendUnreliable_
-  commentId: Overload:Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#SendUnreliable
-  isSpec: "True"
-  name.vb: Mirage.SocketLayer.IConnection.SendUnreliable
-  fullName: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.SendUnreliable
-  nameWithType: PipePeerConnection.IConnection.SendUnreliable
-  nameWithType.vb: PipePeerConnection.Mirage.SocketLayer.IConnection.SendUnreliable
 - uid: Mirage.PipePeerConnection.PipeEndPoint
   name: PipePeerConnection.PipeEndPoint
   href: api/Mirage.PipePeerConnection.PipeEndPoint.html
@@ -8190,6 +8136,108 @@ references:
   commentId: E:Mirage.PipePeerConnection.PipeNotifyToken.Lost
   fullName: Mirage.PipePeerConnection.PipeNotifyToken.Lost
   nameWithType: PipePeerConnection.PipeNotifyToken.Lost
+- uid: Mirage.PipePeerConnection.SendNotify(System.ArraySegment{System.Byte})
+  name: SendNotify(ArraySegment<Byte>)
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendNotify_System_ArraySegment_System_Byte__
+  commentId: M:Mirage.PipePeerConnection.SendNotify(System.ArraySegment{System.Byte})
+  name.vb: SendNotify(ArraySegment(Of Byte))
+  fullName: Mirage.PipePeerConnection.SendNotify(System.ArraySegment<System.Byte>)
+  fullName.vb: Mirage.PipePeerConnection.SendNotify(System.ArraySegment(Of System.Byte))
+  nameWithType: PipePeerConnection.SendNotify(ArraySegment<Byte>)
+  nameWithType.vb: PipePeerConnection.SendNotify(ArraySegment(Of Byte))
+- uid: Mirage.PipePeerConnection.SendNotify(System.Byte[])
+  name: SendNotify(Byte[])
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendNotify_System_Byte___
+  commentId: M:Mirage.PipePeerConnection.SendNotify(System.Byte[])
+  name.vb: SendNotify(Byte())
+  fullName: Mirage.PipePeerConnection.SendNotify(System.Byte[])
+  fullName.vb: Mirage.PipePeerConnection.SendNotify(System.Byte())
+  nameWithType: PipePeerConnection.SendNotify(Byte[])
+  nameWithType.vb: PipePeerConnection.SendNotify(Byte())
+- uid: Mirage.PipePeerConnection.SendNotify(System.Byte[],System.Int32,System.Int32)
+  name: SendNotify(Byte[], Int32, Int32)
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendNotify_System_Byte___System_Int32_System_Int32_
+  commentId: M:Mirage.PipePeerConnection.SendNotify(System.Byte[],System.Int32,System.Int32)
+  name.vb: SendNotify(Byte(), Int32, Int32)
+  fullName: Mirage.PipePeerConnection.SendNotify(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: Mirage.PipePeerConnection.SendNotify(System.Byte(), System.Int32, System.Int32)
+  nameWithType: PipePeerConnection.SendNotify(Byte[], Int32, Int32)
+  nameWithType.vb: PipePeerConnection.SendNotify(Byte(), Int32, Int32)
+- uid: Mirage.PipePeerConnection.SendNotify*
+  name: SendNotify
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendNotify_
+  commentId: Overload:Mirage.PipePeerConnection.SendNotify
+  isSpec: "True"
+  fullName: Mirage.PipePeerConnection.SendNotify
+  nameWithType: PipePeerConnection.SendNotify
+- uid: Mirage.PipePeerConnection.SendReliable(System.ArraySegment{System.Byte})
+  name: SendReliable(ArraySegment<Byte>)
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendReliable_System_ArraySegment_System_Byte__
+  commentId: M:Mirage.PipePeerConnection.SendReliable(System.ArraySegment{System.Byte})
+  name.vb: SendReliable(ArraySegment(Of Byte))
+  fullName: Mirage.PipePeerConnection.SendReliable(System.ArraySegment<System.Byte>)
+  fullName.vb: Mirage.PipePeerConnection.SendReliable(System.ArraySegment(Of System.Byte))
+  nameWithType: PipePeerConnection.SendReliable(ArraySegment<Byte>)
+  nameWithType.vb: PipePeerConnection.SendReliable(ArraySegment(Of Byte))
+- uid: Mirage.PipePeerConnection.SendReliable(System.Byte[])
+  name: SendReliable(Byte[])
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendReliable_System_Byte___
+  commentId: M:Mirage.PipePeerConnection.SendReliable(System.Byte[])
+  name.vb: SendReliable(Byte())
+  fullName: Mirage.PipePeerConnection.SendReliable(System.Byte[])
+  fullName.vb: Mirage.PipePeerConnection.SendReliable(System.Byte())
+  nameWithType: PipePeerConnection.SendReliable(Byte[])
+  nameWithType.vb: PipePeerConnection.SendReliable(Byte())
+- uid: Mirage.PipePeerConnection.SendReliable(System.Byte[],System.Int32,System.Int32)
+  name: SendReliable(Byte[], Int32, Int32)
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendReliable_System_Byte___System_Int32_System_Int32_
+  commentId: M:Mirage.PipePeerConnection.SendReliable(System.Byte[],System.Int32,System.Int32)
+  name.vb: SendReliable(Byte(), Int32, Int32)
+  fullName: Mirage.PipePeerConnection.SendReliable(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: Mirage.PipePeerConnection.SendReliable(System.Byte(), System.Int32, System.Int32)
+  nameWithType: PipePeerConnection.SendReliable(Byte[], Int32, Int32)
+  nameWithType.vb: PipePeerConnection.SendReliable(Byte(), Int32, Int32)
+- uid: Mirage.PipePeerConnection.SendReliable*
+  name: SendReliable
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendReliable_
+  commentId: Overload:Mirage.PipePeerConnection.SendReliable
+  isSpec: "True"
+  fullName: Mirage.PipePeerConnection.SendReliable
+  nameWithType: PipePeerConnection.SendReliable
+- uid: Mirage.PipePeerConnection.SendUnreliable(System.ArraySegment{System.Byte})
+  name: SendUnreliable(ArraySegment<Byte>)
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendUnreliable_System_ArraySegment_System_Byte__
+  commentId: M:Mirage.PipePeerConnection.SendUnreliable(System.ArraySegment{System.Byte})
+  name.vb: SendUnreliable(ArraySegment(Of Byte))
+  fullName: Mirage.PipePeerConnection.SendUnreliable(System.ArraySegment<System.Byte>)
+  fullName.vb: Mirage.PipePeerConnection.SendUnreliable(System.ArraySegment(Of System.Byte))
+  nameWithType: PipePeerConnection.SendUnreliable(ArraySegment<Byte>)
+  nameWithType.vb: PipePeerConnection.SendUnreliable(ArraySegment(Of Byte))
+- uid: Mirage.PipePeerConnection.SendUnreliable(System.Byte[])
+  name: SendUnreliable(Byte[])
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendUnreliable_System_Byte___
+  commentId: M:Mirage.PipePeerConnection.SendUnreliable(System.Byte[])
+  name.vb: SendUnreliable(Byte())
+  fullName: Mirage.PipePeerConnection.SendUnreliable(System.Byte[])
+  fullName.vb: Mirage.PipePeerConnection.SendUnreliable(System.Byte())
+  nameWithType: PipePeerConnection.SendUnreliable(Byte[])
+  nameWithType.vb: PipePeerConnection.SendUnreliable(Byte())
+- uid: Mirage.PipePeerConnection.SendUnreliable(System.Byte[],System.Int32,System.Int32)
+  name: SendUnreliable(Byte[], Int32, Int32)
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendUnreliable_System_Byte___System_Int32_System_Int32_
+  commentId: M:Mirage.PipePeerConnection.SendUnreliable(System.Byte[],System.Int32,System.Int32)
+  name.vb: SendUnreliable(Byte(), Int32, Int32)
+  fullName: Mirage.PipePeerConnection.SendUnreliable(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: Mirage.PipePeerConnection.SendUnreliable(System.Byte(), System.Int32, System.Int32)
+  nameWithType: PipePeerConnection.SendUnreliable(Byte[], Int32, Int32)
+  nameWithType.vb: PipePeerConnection.SendUnreliable(Byte(), Int32, Int32)
+- uid: Mirage.PipePeerConnection.SendUnreliable*
+  name: SendUnreliable
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendUnreliable_
+  commentId: Overload:Mirage.PipePeerConnection.SendUnreliable
+  isSpec: "True"
+  fullName: Mirage.PipePeerConnection.SendUnreliable
+  nameWithType: PipePeerConnection.SendUnreliable
 - uid: Mirage.PipePeerConnection.State
   name: State
   href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_State
