@@ -126,6 +126,19 @@ references:
   commentId: F:Mirage.CharacterSpawner.AutoSpawn
   fullName: Mirage.CharacterSpawner.AutoSpawn
   nameWithType: CharacterSpawner.AutoSpawn
+- uid: Mirage.CharacterSpawner.Awake
+  name: Awake()
+  href: api/Mirage.CharacterSpawner.html#Mirage_CharacterSpawner_Awake
+  commentId: M:Mirage.CharacterSpawner.Awake
+  fullName: Mirage.CharacterSpawner.Awake()
+  nameWithType: CharacterSpawner.Awake()
+- uid: Mirage.CharacterSpawner.Awake*
+  name: Awake
+  href: api/Mirage.CharacterSpawner.html#Mirage_CharacterSpawner_Awake_
+  commentId: Overload:Mirage.CharacterSpawner.Awake
+  isSpec: "True"
+  fullName: Mirage.CharacterSpawner.Awake
+  nameWithType: CharacterSpawner.Awake
 - uid: Mirage.CharacterSpawner.Client
   name: Client
   href: api/Mirage.CharacterSpawner.html#Mirage_CharacterSpawner_Client
@@ -225,19 +238,6 @@ references:
   commentId: F:Mirage.CharacterSpawner.ServerObjectManager
   fullName: Mirage.CharacterSpawner.ServerObjectManager
   nameWithType: CharacterSpawner.ServerObjectManager
-- uid: Mirage.CharacterSpawner.Start
-  name: Start()
-  href: api/Mirage.CharacterSpawner.html#Mirage_CharacterSpawner_Start
-  commentId: M:Mirage.CharacterSpawner.Start
-  fullName: Mirage.CharacterSpawner.Start()
-  nameWithType: CharacterSpawner.Start()
-- uid: Mirage.CharacterSpawner.Start*
-  name: Start
-  href: api/Mirage.CharacterSpawner.html#Mirage_CharacterSpawner_Start_
-  commentId: Overload:Mirage.CharacterSpawner.Start
-  isSpec: "True"
-  fullName: Mirage.CharacterSpawner.Start
-  nameWithType: CharacterSpawner.Start
 - uid: Mirage.CharacterSpawner.startPositionIndex
   name: startPositionIndex
   href: api/Mirage.CharacterSpawner.html#Mirage_CharacterSpawner_startPositionIndex
