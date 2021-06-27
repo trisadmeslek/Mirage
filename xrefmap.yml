@@ -493,6 +493,12 @@ references:
   commentId: F:Mirage.ClientStoppedReason.HostModeStopped
   fullName: Mirage.ClientStoppedReason.HostModeStopped
   nameWithType: ClientStoppedReason.HostModeStopped
+- uid: Mirage.ClientStoppedReason.InvalidPacket
+  name: InvalidPacket
+  href: api/Mirage.ClientStoppedReason.html#Mirage_ClientStoppedReason_InvalidPacket
+  commentId: F:Mirage.ClientStoppedReason.InvalidPacket
+  fullName: Mirage.ClientStoppedReason.InvalidPacket
+  nameWithType: ClientStoppedReason.InvalidPacket
 - uid: Mirage.ClientStoppedReason.LocalConnectionClosed
   name: LocalConnectionClosed
   href: api/Mirage.ClientStoppedReason.html#Mirage_ClientStoppedReason_LocalConnectionClosed
