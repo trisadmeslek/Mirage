@@ -8124,6 +8124,23 @@ references:
   commentId: T:Mirage.PipePeerConnection.PipeEndPoint
   fullName: Mirage.PipePeerConnection.PipeEndPoint
   nameWithType: PipePeerConnection.PipeEndPoint
+- uid: Mirage.PipePeerConnection.PipeEndPoint.Mirage#SocketLayer#IEndPoint#CreateCopy
+  name: IEndPoint.CreateCopy()
+  href: api/Mirage.PipePeerConnection.PipeEndPoint.html#Mirage_PipePeerConnection_PipeEndPoint_Mirage_SocketLayer_IEndPoint_CreateCopy
+  commentId: M:Mirage.PipePeerConnection.PipeEndPoint.Mirage#SocketLayer#IEndPoint#CreateCopy
+  name.vb: Mirage.SocketLayer.IEndPoint.CreateCopy()
+  fullName: Mirage.PipePeerConnection.PipeEndPoint.Mirage.SocketLayer.IEndPoint.CreateCopy()
+  nameWithType: PipePeerConnection.PipeEndPoint.IEndPoint.CreateCopy()
+  nameWithType.vb: PipePeerConnection.PipeEndPoint.Mirage.SocketLayer.IEndPoint.CreateCopy()
+- uid: Mirage.PipePeerConnection.PipeEndPoint.Mirage#SocketLayer#IEndPoint#CreateCopy*
+  name: IEndPoint.CreateCopy
+  href: api/Mirage.PipePeerConnection.PipeEndPoint.html#Mirage_PipePeerConnection_PipeEndPoint_Mirage_SocketLayer_IEndPoint_CreateCopy_
+  commentId: Overload:Mirage.PipePeerConnection.PipeEndPoint.Mirage#SocketLayer#IEndPoint#CreateCopy
+  isSpec: "True"
+  name.vb: Mirage.SocketLayer.IEndPoint.CreateCopy
+  fullName: Mirage.PipePeerConnection.PipeEndPoint.Mirage.SocketLayer.IEndPoint.CreateCopy
+  nameWithType: PipePeerConnection.PipeEndPoint.IEndPoint.CreateCopy
+  nameWithType.vb: PipePeerConnection.PipeEndPoint.Mirage.SocketLayer.IEndPoint.CreateCopy
 - uid: Mirage.PipePeerConnection.PipeNotifyToken
   name: PipePeerConnection.PipeNotifyToken
   href: api/Mirage.PipePeerConnection.PipeNotifyToken.html
