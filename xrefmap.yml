@@ -8579,6 +8579,38 @@ references:
   commentId: N:Mirage.Serialization
   fullName: Mirage.Serialization
   nameWithType: Mirage.Serialization
+- uid: Mirage.Serialization.BitMask
+  name: BitMask
+  href: api/Mirage.Serialization.BitMask.html
+  commentId: T:Mirage.Serialization.BitMask
+  fullName: Mirage.Serialization.BitMask
+  nameWithType: BitMask
+- uid: Mirage.Serialization.BitMask.Mask(System.Int32)
+  name: Mask(Int32)
+  href: api/Mirage.Serialization.BitMask.html#Mirage_Serialization_BitMask_Mask_System_Int32_
+  commentId: M:Mirage.Serialization.BitMask.Mask(System.Int32)
+  fullName: Mirage.Serialization.BitMask.Mask(System.Int32)
+  nameWithType: BitMask.Mask(Int32)
+- uid: Mirage.Serialization.BitMask.Mask*
+  name: Mask
+  href: api/Mirage.Serialization.BitMask.html#Mirage_Serialization_BitMask_Mask_
+  commentId: Overload:Mirage.Serialization.BitMask.Mask
+  isSpec: "True"
+  fullName: Mirage.Serialization.BitMask.Mask
+  nameWithType: BitMask.Mask
+- uid: Mirage.Serialization.BitMask.OuterMask(System.Int32,System.Int32)
+  name: OuterMask(Int32, Int32)
+  href: api/Mirage.Serialization.BitMask.html#Mirage_Serialization_BitMask_OuterMask_System_Int32_System_Int32_
+  commentId: M:Mirage.Serialization.BitMask.OuterMask(System.Int32,System.Int32)
+  fullName: Mirage.Serialization.BitMask.OuterMask(System.Int32, System.Int32)
+  nameWithType: BitMask.OuterMask(Int32, Int32)
+- uid: Mirage.Serialization.BitMask.OuterMask*
+  name: OuterMask
+  href: api/Mirage.Serialization.BitMask.html#Mirage_Serialization_BitMask_OuterMask_
+  commentId: Overload:Mirage.Serialization.BitMask.OuterMask
+  isSpec: "True"
+  fullName: Mirage.Serialization.BitMask.OuterMask
+  nameWithType: BitMask.OuterMask
 - uid: Mirage.Serialization.CollectionExtensions
   name: CollectionExtensions
   href: api/Mirage.Serialization.CollectionExtensions.html
@@ -8751,6 +8783,44 @@ references:
   commentId: T:Mirage.Serialization.Compression
   fullName: Mirage.Serialization.Compression
   nameWithType: Compression
+- uid: Mirage.Serialization.GenericTypesSerializationExtensions
+  name: GenericTypesSerializationExtensions
+  href: api/Mirage.Serialization.GenericTypesSerializationExtensions.html
+  commentId: T:Mirage.Serialization.GenericTypesSerializationExtensions
+  fullName: Mirage.Serialization.GenericTypesSerializationExtensions
+  nameWithType: GenericTypesSerializationExtensions
+- uid: Mirage.Serialization.GenericTypesSerializationExtensions.Read*
+  name: Read
+  href: api/Mirage.Serialization.GenericTypesSerializationExtensions.html#Mirage_Serialization_GenericTypesSerializationExtensions_Read_
+  commentId: Overload:Mirage.Serialization.GenericTypesSerializationExtensions.Read
+  isSpec: "True"
+  fullName: Mirage.Serialization.GenericTypesSerializationExtensions.Read
+  nameWithType: GenericTypesSerializationExtensions.Read
+- uid: Mirage.Serialization.GenericTypesSerializationExtensions.Read``1(Mirage.Serialization.NetworkReader)
+  name: Read<T>(NetworkReader)
+  href: api/Mirage.Serialization.GenericTypesSerializationExtensions.html#Mirage_Serialization_GenericTypesSerializationExtensions_Read__1_Mirage_Serialization_NetworkReader_
+  commentId: M:Mirage.Serialization.GenericTypesSerializationExtensions.Read``1(Mirage.Serialization.NetworkReader)
+  name.vb: Read(Of T)(NetworkReader)
+  fullName: Mirage.Serialization.GenericTypesSerializationExtensions.Read<T>(Mirage.Serialization.NetworkReader)
+  fullName.vb: Mirage.Serialization.GenericTypesSerializationExtensions.Read(Of T)(Mirage.Serialization.NetworkReader)
+  nameWithType: GenericTypesSerializationExtensions.Read<T>(NetworkReader)
+  nameWithType.vb: GenericTypesSerializationExtensions.Read(Of T)(NetworkReader)
+- uid: Mirage.Serialization.GenericTypesSerializationExtensions.Write*
+  name: Write
+  href: api/Mirage.Serialization.GenericTypesSerializationExtensions.html#Mirage_Serialization_GenericTypesSerializationExtensions_Write_
+  commentId: Overload:Mirage.Serialization.GenericTypesSerializationExtensions.Write
+  isSpec: "True"
+  fullName: Mirage.Serialization.GenericTypesSerializationExtensions.Write
+  nameWithType: GenericTypesSerializationExtensions.Write
+- uid: Mirage.Serialization.GenericTypesSerializationExtensions.Write``1(Mirage.Serialization.NetworkWriter,``0)
+  name: Write<T>(NetworkWriter, T)
+  href: api/Mirage.Serialization.GenericTypesSerializationExtensions.html#Mirage_Serialization_GenericTypesSerializationExtensions_Write__1_Mirage_Serialization_NetworkWriter___0_
+  commentId: M:Mirage.Serialization.GenericTypesSerializationExtensions.Write``1(Mirage.Serialization.NetworkWriter,``0)
+  name.vb: Write(Of T)(NetworkWriter, T)
+  fullName: Mirage.Serialization.GenericTypesSerializationExtensions.Write<T>(Mirage.Serialization.NetworkWriter, T)
+  fullName.vb: Mirage.Serialization.GenericTypesSerializationExtensions.Write(Of T)(Mirage.Serialization.NetworkWriter, T)
+  nameWithType: GenericTypesSerializationExtensions.Write<T>(NetworkWriter, T)
+  nameWithType.vb: GenericTypesSerializationExtensions.Write(Of T)(NetworkWriter, T)
 - uid: Mirage.Serialization.MessagePacker
   name: MessagePacker
   href: api/Mirage.Serialization.MessagePacker.html
@@ -8961,24 +9031,12 @@ references:
   commentId: T:Mirage.Serialization.NetworkReader
   fullName: Mirage.Serialization.NetworkReader
   nameWithType: NetworkReader
-- uid: Mirage.Serialization.NetworkReader.#ctor(System.ArraySegment{System.Byte})
-  name: NetworkReader(ArraySegment<Byte>)
-  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader__ctor_System_ArraySegment_System_Byte__
-  commentId: M:Mirage.Serialization.NetworkReader.#ctor(System.ArraySegment{System.Byte})
-  name.vb: NetworkReader(ArraySegment(Of Byte))
-  fullName: Mirage.Serialization.NetworkReader.NetworkReader(System.ArraySegment<System.Byte>)
-  fullName.vb: Mirage.Serialization.NetworkReader.NetworkReader(System.ArraySegment(Of System.Byte))
-  nameWithType: NetworkReader.NetworkReader(ArraySegment<Byte>)
-  nameWithType.vb: NetworkReader.NetworkReader(ArraySegment(Of Byte))
-- uid: Mirage.Serialization.NetworkReader.#ctor(System.Byte[])
-  name: NetworkReader(Byte[])
-  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader__ctor_System_Byte___
-  commentId: M:Mirage.Serialization.NetworkReader.#ctor(System.Byte[])
-  name.vb: NetworkReader(Byte())
-  fullName: Mirage.Serialization.NetworkReader.NetworkReader(System.Byte[])
-  fullName.vb: Mirage.Serialization.NetworkReader.NetworkReader(System.Byte())
-  nameWithType: NetworkReader.NetworkReader(Byte[])
-  nameWithType.vb: NetworkReader.NetworkReader(Byte())
+- uid: Mirage.Serialization.NetworkReader.#ctor
+  name: NetworkReader()
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader__ctor
+  commentId: M:Mirage.Serialization.NetworkReader.#ctor
+  fullName: Mirage.Serialization.NetworkReader.NetworkReader()
+  nameWithType: NetworkReader.NetworkReader()
 - uid: Mirage.Serialization.NetworkReader.#ctor*
   name: NetworkReader
   href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader__ctor_
@@ -8986,19 +9044,103 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkReader.NetworkReader
   nameWithType: NetworkReader.NetworkReader
-- uid: Mirage.Serialization.NetworkReader.Length
-  name: Length
-  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_Length
-  commentId: P:Mirage.Serialization.NetworkReader.Length
-  fullName: Mirage.Serialization.NetworkReader.Length
-  nameWithType: NetworkReader.Length
-- uid: Mirage.Serialization.NetworkReader.Length*
-  name: Length
-  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_Length_
-  commentId: Overload:Mirage.Serialization.NetworkReader.Length
+- uid: Mirage.Serialization.NetworkReader.BitLength
+  name: BitLength
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_BitLength
+  commentId: P:Mirage.Serialization.NetworkReader.BitLength
+  fullName: Mirage.Serialization.NetworkReader.BitLength
+  nameWithType: NetworkReader.BitLength
+- uid: Mirage.Serialization.NetworkReader.BitLength*
+  name: BitLength
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_BitLength_
+  commentId: Overload:Mirage.Serialization.NetworkReader.BitLength
   isSpec: "True"
-  fullName: Mirage.Serialization.NetworkReader.Length
-  nameWithType: NetworkReader.Length
+  fullName: Mirage.Serialization.NetworkReader.BitLength
+  nameWithType: NetworkReader.BitLength
+- uid: Mirage.Serialization.NetworkReader.BitPosition
+  name: BitPosition
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_BitPosition
+  commentId: P:Mirage.Serialization.NetworkReader.BitPosition
+  fullName: Mirage.Serialization.NetworkReader.BitPosition
+  nameWithType: NetworkReader.BitPosition
+- uid: Mirage.Serialization.NetworkReader.BitPosition*
+  name: BitPosition
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_BitPosition_
+  commentId: Overload:Mirage.Serialization.NetworkReader.BitPosition
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkReader.BitPosition
+  nameWithType: NetworkReader.BitPosition
+- uid: Mirage.Serialization.NetworkReader.BytePosition
+  name: BytePosition
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_BytePosition
+  commentId: P:Mirage.Serialization.NetworkReader.BytePosition
+  fullName: Mirage.Serialization.NetworkReader.BytePosition
+  nameWithType: NetworkReader.BytePosition
+- uid: Mirage.Serialization.NetworkReader.BytePosition*
+  name: BytePosition
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_BytePosition_
+  commentId: Overload:Mirage.Serialization.NetworkReader.BytePosition
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkReader.BytePosition
+  nameWithType: NetworkReader.BytePosition
+- uid: Mirage.Serialization.NetworkReader.CanRead
+  name: CanRead()
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_CanRead
+  commentId: M:Mirage.Serialization.NetworkReader.CanRead
+  fullName: Mirage.Serialization.NetworkReader.CanRead()
+  nameWithType: NetworkReader.CanRead()
+- uid: Mirage.Serialization.NetworkReader.CanRead*
+  name: CanRead
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_CanRead_
+  commentId: Overload:Mirage.Serialization.NetworkReader.CanRead
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkReader.CanRead
+  nameWithType: NetworkReader.CanRead
+- uid: Mirage.Serialization.NetworkReader.CanReadBytes(System.Int32)
+  name: CanReadBytes(Int32)
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_CanReadBytes_System_Int32_
+  commentId: M:Mirage.Serialization.NetworkReader.CanReadBytes(System.Int32)
+  fullName: Mirage.Serialization.NetworkReader.CanReadBytes(System.Int32)
+  nameWithType: NetworkReader.CanReadBytes(Int32)
+- uid: Mirage.Serialization.NetworkReader.CanReadBytes*
+  name: CanReadBytes
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_CanReadBytes_
+  commentId: Overload:Mirage.Serialization.NetworkReader.CanReadBytes
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkReader.CanReadBytes
+  nameWithType: NetworkReader.CanReadBytes
+- uid: Mirage.Serialization.NetworkReader.Dispose
+  name: Dispose()
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_Dispose
+  commentId: M:Mirage.Serialization.NetworkReader.Dispose
+  fullName: Mirage.Serialization.NetworkReader.Dispose()
+  nameWithType: NetworkReader.Dispose()
+- uid: Mirage.Serialization.NetworkReader.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_Dispose_System_Boolean_
+  commentId: M:Mirage.Serialization.NetworkReader.Dispose(System.Boolean)
+  fullName: Mirage.Serialization.NetworkReader.Dispose(System.Boolean)
+  nameWithType: NetworkReader.Dispose(Boolean)
+- uid: Mirage.Serialization.NetworkReader.Dispose*
+  name: Dispose
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_Dispose_
+  commentId: Overload:Mirage.Serialization.NetworkReader.Dispose
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkReader.Dispose
+  nameWithType: NetworkReader.Dispose
+- uid: Mirage.Serialization.NetworkReader.Finalize
+  name: Finalize()
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_Finalize
+  commentId: M:Mirage.Serialization.NetworkReader.Finalize
+  fullName: Mirage.Serialization.NetworkReader.Finalize()
+  nameWithType: NetworkReader.Finalize()
+- uid: Mirage.Serialization.NetworkReader.Finalize*
+  name: Finalize
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_Finalize_
+  commentId: Overload:Mirage.Serialization.NetworkReader.Finalize
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkReader.Finalize
+  nameWithType: NetworkReader.Finalize
 - uid: Mirage.Serialization.NetworkReader.ObjectLocator
   name: ObjectLocator
   href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ObjectLocator
@@ -9012,12 +9154,28 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkReader.ObjectLocator
   nameWithType: NetworkReader.ObjectLocator
-- uid: Mirage.Serialization.NetworkReader.Position
-  name: Position
-  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_Position
-  commentId: F:Mirage.Serialization.NetworkReader.Position
-  fullName: Mirage.Serialization.NetworkReader.Position
-  nameWithType: NetworkReader.Position
+- uid: Mirage.Serialization.NetworkReader.PadAndCopy*
+  name: PadAndCopy
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_PadAndCopy_
+  commentId: Overload:Mirage.Serialization.NetworkReader.PadAndCopy
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkReader.PadAndCopy
+  nameWithType: NetworkReader.PadAndCopy
+- uid: Mirage.Serialization.NetworkReader.PadAndCopy``1(System.Int32,``0@)
+  name: PadAndCopy<T>(Int32, out T)
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_PadAndCopy__1_System_Int32___0__
+  commentId: M:Mirage.Serialization.NetworkReader.PadAndCopy``1(System.Int32,``0@)
+  name.vb: PadAndCopy(Of T)(Int32, ByRef T)
+  fullName: Mirage.Serialization.NetworkReader.PadAndCopy<T>(System.Int32, out T)
+  fullName.vb: Mirage.Serialization.NetworkReader.PadAndCopy(Of T)(System.Int32, ByRef T)
+  nameWithType: NetworkReader.PadAndCopy<T>(Int32, out T)
+  nameWithType.vb: NetworkReader.PadAndCopy(Of T)(Int32, ByRef T)
+- uid: Mirage.Serialization.NetworkReader.Read(System.Int32)
+  name: Read(Int32)
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_Read_System_Int32_
+  commentId: M:Mirage.Serialization.NetworkReader.Read(System.Int32)
+  fullName: Mirage.Serialization.NetworkReader.Read(System.Int32)
+  nameWithType: NetworkReader.Read(Int32)
 - uid: Mirage.Serialization.NetworkReader.Read*
   name: Read
   href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_Read_
@@ -9025,15 +9183,32 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkReader.Read
   nameWithType: NetworkReader.Read
-- uid: Mirage.Serialization.NetworkReader.Read``1
-  name: Read<T>()
-  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_Read__1
-  commentId: M:Mirage.Serialization.NetworkReader.Read``1
-  name.vb: Read(Of T)()
-  fullName: Mirage.Serialization.NetworkReader.Read<T>()
-  fullName.vb: Mirage.Serialization.NetworkReader.Read(Of T)()
-  nameWithType: NetworkReader.Read<T>()
-  nameWithType.vb: NetworkReader.Read(Of T)()
+- uid: Mirage.Serialization.NetworkReader.ReadBoolean
+  name: ReadBoolean()
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ReadBoolean
+  commentId: M:Mirage.Serialization.NetworkReader.ReadBoolean
+  fullName: Mirage.Serialization.NetworkReader.ReadBoolean()
+  nameWithType: NetworkReader.ReadBoolean()
+- uid: Mirage.Serialization.NetworkReader.ReadBoolean*
+  name: ReadBoolean
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ReadBoolean_
+  commentId: Overload:Mirage.Serialization.NetworkReader.ReadBoolean
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkReader.ReadBoolean
+  nameWithType: NetworkReader.ReadBoolean
+- uid: Mirage.Serialization.NetworkReader.ReadBooleanAsUlong
+  name: ReadBooleanAsUlong()
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ReadBooleanAsUlong
+  commentId: M:Mirage.Serialization.NetworkReader.ReadBooleanAsUlong
+  fullName: Mirage.Serialization.NetworkReader.ReadBooleanAsUlong()
+  nameWithType: NetworkReader.ReadBooleanAsUlong()
+- uid: Mirage.Serialization.NetworkReader.ReadBooleanAsUlong*
+  name: ReadBooleanAsUlong
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ReadBooleanAsUlong_
+  commentId: Overload:Mirage.Serialization.NetworkReader.ReadBooleanAsUlong
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkReader.ReadBooleanAsUlong
+  nameWithType: NetworkReader.ReadBooleanAsUlong
 - uid: Mirage.Serialization.NetworkReader.ReadByte
   name: ReadByte()
   href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ReadByte
@@ -9047,15 +9222,15 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkReader.ReadByte
   nameWithType: NetworkReader.ReadByte
-- uid: Mirage.Serialization.NetworkReader.ReadBytes(System.Byte[],System.Int32)
-  name: ReadBytes(Byte[], Int32)
-  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ReadBytes_System_Byte___System_Int32_
-  commentId: M:Mirage.Serialization.NetworkReader.ReadBytes(System.Byte[],System.Int32)
-  name.vb: ReadBytes(Byte(), Int32)
-  fullName: Mirage.Serialization.NetworkReader.ReadBytes(System.Byte[], System.Int32)
-  fullName.vb: Mirage.Serialization.NetworkReader.ReadBytes(System.Byte(), System.Int32)
-  nameWithType: NetworkReader.ReadBytes(Byte[], Int32)
-  nameWithType.vb: NetworkReader.ReadBytes(Byte(), Int32)
+- uid: Mirage.Serialization.NetworkReader.ReadBytes(System.Byte[],System.Int32,System.Int32)
+  name: ReadBytes(Byte[], Int32, Int32)
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ReadBytes_System_Byte___System_Int32_System_Int32_
+  commentId: M:Mirage.Serialization.NetworkReader.ReadBytes(System.Byte[],System.Int32,System.Int32)
+  name.vb: ReadBytes(Byte(), Int32, Int32)
+  fullName: Mirage.Serialization.NetworkReader.ReadBytes(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: Mirage.Serialization.NetworkReader.ReadBytes(System.Byte(), System.Int32, System.Int32)
+  nameWithType: NetworkReader.ReadBytes(Byte[], Int32, Int32)
+  nameWithType.vb: NetworkReader.ReadBytes(Byte(), Int32, Int32)
 - uid: Mirage.Serialization.NetworkReader.ReadBytes*
   name: ReadBytes
   href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ReadBytes_
@@ -9076,6 +9251,32 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkReader.ReadBytesSegment
   nameWithType: NetworkReader.ReadBytesSegment
+- uid: Mirage.Serialization.NetworkReader.ReadDouble
+  name: ReadDouble()
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ReadDouble
+  commentId: M:Mirage.Serialization.NetworkReader.ReadDouble
+  fullName: Mirage.Serialization.NetworkReader.ReadDouble()
+  nameWithType: NetworkReader.ReadDouble()
+- uid: Mirage.Serialization.NetworkReader.ReadDouble*
+  name: ReadDouble
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ReadDouble_
+  commentId: Overload:Mirage.Serialization.NetworkReader.ReadDouble
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkReader.ReadDouble
+  nameWithType: NetworkReader.ReadDouble
+- uid: Mirage.Serialization.NetworkReader.ReadInt16
+  name: ReadInt16()
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ReadInt16
+  commentId: M:Mirage.Serialization.NetworkReader.ReadInt16
+  fullName: Mirage.Serialization.NetworkReader.ReadInt16()
+  nameWithType: NetworkReader.ReadInt16()
+- uid: Mirage.Serialization.NetworkReader.ReadInt16*
+  name: ReadInt16
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ReadInt16_
+  commentId: Overload:Mirage.Serialization.NetworkReader.ReadInt16
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkReader.ReadInt16
+  nameWithType: NetworkReader.ReadInt16
 - uid: Mirage.Serialization.NetworkReader.ReadInt32
   name: ReadInt32()
   href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ReadInt32
@@ -9102,6 +9303,45 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkReader.ReadInt64
   nameWithType: NetworkReader.ReadInt64
+- uid: Mirage.Serialization.NetworkReader.ReadSByte
+  name: ReadSByte()
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ReadSByte
+  commentId: M:Mirage.Serialization.NetworkReader.ReadSByte
+  fullName: Mirage.Serialization.NetworkReader.ReadSByte()
+  nameWithType: NetworkReader.ReadSByte()
+- uid: Mirage.Serialization.NetworkReader.ReadSByte*
+  name: ReadSByte
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ReadSByte_
+  commentId: Overload:Mirage.Serialization.NetworkReader.ReadSByte
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkReader.ReadSByte
+  nameWithType: NetworkReader.ReadSByte
+- uid: Mirage.Serialization.NetworkReader.ReadSingle
+  name: ReadSingle()
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ReadSingle
+  commentId: M:Mirage.Serialization.NetworkReader.ReadSingle
+  fullName: Mirage.Serialization.NetworkReader.ReadSingle()
+  nameWithType: NetworkReader.ReadSingle()
+- uid: Mirage.Serialization.NetworkReader.ReadSingle*
+  name: ReadSingle
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ReadSingle_
+  commentId: Overload:Mirage.Serialization.NetworkReader.ReadSingle
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkReader.ReadSingle
+  nameWithType: NetworkReader.ReadSingle
+- uid: Mirage.Serialization.NetworkReader.ReadUInt16
+  name: ReadUInt16()
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ReadUInt16
+  commentId: M:Mirage.Serialization.NetworkReader.ReadUInt16
+  fullName: Mirage.Serialization.NetworkReader.ReadUInt16()
+  nameWithType: NetworkReader.ReadUInt16()
+- uid: Mirage.Serialization.NetworkReader.ReadUInt16*
+  name: ReadUInt16
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ReadUInt16_
+  commentId: Overload:Mirage.Serialization.NetworkReader.ReadUInt16
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkReader.ReadUInt16
+  nameWithType: NetworkReader.ReadUInt16
 - uid: Mirage.Serialization.NetworkReader.ReadUInt32
   name: ReadUInt32()
   href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ReadUInt32
@@ -9128,38 +9368,59 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkReader.ReadUInt64
   nameWithType: NetworkReader.ReadUInt64
-- uid: Mirage.Serialization.NetworkReader.ToString
-  name: ToString()
-  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ToString
-  commentId: M:Mirage.Serialization.NetworkReader.ToString
-  fullName: Mirage.Serialization.NetworkReader.ToString()
-  nameWithType: NetworkReader.ToString()
-- uid: Mirage.Serialization.NetworkReader.ToString*
-  name: ToString
-  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ToString_
-  commentId: Overload:Mirage.Serialization.NetworkReader.ToString
+- uid: Mirage.Serialization.NetworkReader.Reset(System.ArraySegment{System.Byte})
+  name: Reset(ArraySegment<Byte>)
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_Reset_System_ArraySegment_System_Byte__
+  commentId: M:Mirage.Serialization.NetworkReader.Reset(System.ArraySegment{System.Byte})
+  name.vb: Reset(ArraySegment(Of Byte))
+  fullName: Mirage.Serialization.NetworkReader.Reset(System.ArraySegment<System.Byte>)
+  fullName.vb: Mirage.Serialization.NetworkReader.Reset(System.ArraySegment(Of System.Byte))
+  nameWithType: NetworkReader.Reset(ArraySegment<Byte>)
+  nameWithType.vb: NetworkReader.Reset(ArraySegment(Of Byte))
+- uid: Mirage.Serialization.NetworkReader.Reset(System.Byte[])
+  name: Reset(Byte[])
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_Reset_System_Byte___
+  commentId: M:Mirage.Serialization.NetworkReader.Reset(System.Byte[])
+  name.vb: Reset(Byte())
+  fullName: Mirage.Serialization.NetworkReader.Reset(System.Byte[])
+  fullName.vb: Mirage.Serialization.NetworkReader.Reset(System.Byte())
+  nameWithType: NetworkReader.Reset(Byte[])
+  nameWithType.vb: NetworkReader.Reset(Byte())
+- uid: Mirage.Serialization.NetworkReader.Reset(System.Byte[],System.Int32,System.Int32)
+  name: Reset(Byte[], Int32, Int32)
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_Reset_System_Byte___System_Int32_System_Int32_
+  commentId: M:Mirage.Serialization.NetworkReader.Reset(System.Byte[],System.Int32,System.Int32)
+  name.vb: Reset(Byte(), Int32, Int32)
+  fullName: Mirage.Serialization.NetworkReader.Reset(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: Mirage.Serialization.NetworkReader.Reset(System.Byte(), System.Int32, System.Int32)
+  nameWithType: NetworkReader.Reset(Byte[], Int32, Int32)
+  nameWithType.vb: NetworkReader.Reset(Byte(), Int32, Int32)
+- uid: Mirage.Serialization.NetworkReader.Reset*
+  name: Reset
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_Reset_
+  commentId: Overload:Mirage.Serialization.NetworkReader.Reset
   isSpec: "True"
-  fullName: Mirage.Serialization.NetworkReader.ToString
-  nameWithType: NetworkReader.ToString
+  fullName: Mirage.Serialization.NetworkReader.Reset
+  nameWithType: NetworkReader.Reset
 - uid: Mirage.Serialization.NetworkReaderPool
   name: NetworkReaderPool
   href: api/Mirage.Serialization.NetworkReaderPool.html
   commentId: T:Mirage.Serialization.NetworkReaderPool
   fullName: Mirage.Serialization.NetworkReaderPool
   nameWithType: NetworkReaderPool
-- uid: Mirage.Serialization.NetworkReaderPool.Capacity
-  name: Capacity
-  href: api/Mirage.Serialization.NetworkReaderPool.html#Mirage_Serialization_NetworkReaderPool_Capacity
-  commentId: P:Mirage.Serialization.NetworkReaderPool.Capacity
-  fullName: Mirage.Serialization.NetworkReaderPool.Capacity
-  nameWithType: NetworkReaderPool.Capacity
-- uid: Mirage.Serialization.NetworkReaderPool.Capacity*
-  name: Capacity
-  href: api/Mirage.Serialization.NetworkReaderPool.html#Mirage_Serialization_NetworkReaderPool_Capacity_
-  commentId: Overload:Mirage.Serialization.NetworkReaderPool.Capacity
+- uid: Mirage.Serialization.NetworkReaderPool.Configure(System.Int32,System.Int32)
+  name: Configure(Int32, Int32)
+  href: api/Mirage.Serialization.NetworkReaderPool.html#Mirage_Serialization_NetworkReaderPool_Configure_System_Int32_System_Int32_
+  commentId: M:Mirage.Serialization.NetworkReaderPool.Configure(System.Int32,System.Int32)
+  fullName: Mirage.Serialization.NetworkReaderPool.Configure(System.Int32, System.Int32)
+  nameWithType: NetworkReaderPool.Configure(Int32, Int32)
+- uid: Mirage.Serialization.NetworkReaderPool.Configure*
+  name: Configure
+  href: api/Mirage.Serialization.NetworkReaderPool.html#Mirage_Serialization_NetworkReaderPool_Configure_
+  commentId: Overload:Mirage.Serialization.NetworkReaderPool.Configure
   isSpec: "True"
-  fullName: Mirage.Serialization.NetworkReaderPool.Capacity
-  nameWithType: NetworkReaderPool.Capacity
+  fullName: Mirage.Serialization.NetworkReaderPool.Configure
+  nameWithType: NetworkReaderPool.Configure
 - uid: Mirage.Serialization.NetworkReaderPool.GetReader(System.ArraySegment{System.Byte})
   name: GetReader(ArraySegment<Byte>)
   href: api/Mirage.Serialization.NetworkReaderPool.html#Mirage_Serialization_NetworkReaderPool_GetReader_System_ArraySegment_System_Byte__
@@ -9178,6 +9439,15 @@ references:
   fullName.vb: Mirage.Serialization.NetworkReaderPool.GetReader(System.Byte())
   nameWithType: NetworkReaderPool.GetReader(Byte[])
   nameWithType.vb: NetworkReaderPool.GetReader(Byte())
+- uid: Mirage.Serialization.NetworkReaderPool.GetReader(System.Byte[],System.Int32,System.Int32)
+  name: GetReader(Byte[], Int32, Int32)
+  href: api/Mirage.Serialization.NetworkReaderPool.html#Mirage_Serialization_NetworkReaderPool_GetReader_System_Byte___System_Int32_System_Int32_
+  commentId: M:Mirage.Serialization.NetworkReaderPool.GetReader(System.Byte[],System.Int32,System.Int32)
+  name.vb: GetReader(Byte(), Int32, Int32)
+  fullName: Mirage.Serialization.NetworkReaderPool.GetReader(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: Mirage.Serialization.NetworkReaderPool.GetReader(System.Byte(), System.Int32, System.Int32)
+  nameWithType: NetworkReaderPool.GetReader(Byte[], Int32, Int32)
+  nameWithType.vb: NetworkReaderPool.GetReader(Byte(), Int32, Int32)
 - uid: Mirage.Serialization.NetworkReaderPool.GetReader*
   name: GetReader
   href: api/Mirage.Serialization.NetworkReaderPool.html#Mirage_Serialization_NetworkReaderPool_GetReader_
@@ -9185,57 +9455,112 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkReaderPool.GetReader
   nameWithType: NetworkReaderPool.GetReader
-- uid: Mirage.Serialization.NetworkReaderPool.Recycle(Mirage.Serialization.PooledNetworkReader)
-  name: Recycle(PooledNetworkReader)
-  href: api/Mirage.Serialization.NetworkReaderPool.html#Mirage_Serialization_NetworkReaderPool_Recycle_Mirage_Serialization_PooledNetworkReader_
-  commentId: M:Mirage.Serialization.NetworkReaderPool.Recycle(Mirage.Serialization.PooledNetworkReader)
-  fullName: Mirage.Serialization.NetworkReaderPool.Recycle(Mirage.Serialization.PooledNetworkReader)
-  nameWithType: NetworkReaderPool.Recycle(PooledNetworkReader)
-- uid: Mirage.Serialization.NetworkReaderPool.Recycle*
-  name: Recycle
-  href: api/Mirage.Serialization.NetworkReaderPool.html#Mirage_Serialization_NetworkReaderPool_Recycle_
-  commentId: Overload:Mirage.Serialization.NetworkReaderPool.Recycle
-  isSpec: "True"
-  fullName: Mirage.Serialization.NetworkReaderPool.Recycle
-  nameWithType: NetworkReaderPool.Recycle
 - uid: Mirage.Serialization.NetworkWriter
   name: NetworkWriter
   href: api/Mirage.Serialization.NetworkWriter.html
   commentId: T:Mirage.Serialization.NetworkWriter
   fullName: Mirage.Serialization.NetworkWriter
   nameWithType: NetworkWriter
-- uid: Mirage.Serialization.NetworkWriter.Length
-  name: Length
-  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_Length
-  commentId: P:Mirage.Serialization.NetworkWriter.Length
-  fullName: Mirage.Serialization.NetworkWriter.Length
-  nameWithType: NetworkWriter.Length
-- uid: Mirage.Serialization.NetworkWriter.Length*
-  name: Length
-  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_Length_
-  commentId: Overload:Mirage.Serialization.NetworkWriter.Length
+- uid: Mirage.Serialization.NetworkWriter.#ctor(System.Int32)
+  name: NetworkWriter(Int32)
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter__ctor_System_Int32_
+  commentId: M:Mirage.Serialization.NetworkWriter.#ctor(System.Int32)
+  fullName: Mirage.Serialization.NetworkWriter.NetworkWriter(System.Int32)
+  nameWithType: NetworkWriter.NetworkWriter(Int32)
+- uid: Mirage.Serialization.NetworkWriter.#ctor(System.Int32,System.Boolean)
+  name: NetworkWriter(Int32, Boolean)
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter__ctor_System_Int32_System_Boolean_
+  commentId: M:Mirage.Serialization.NetworkWriter.#ctor(System.Int32,System.Boolean)
+  fullName: Mirage.Serialization.NetworkWriter.NetworkWriter(System.Int32, System.Boolean)
+  nameWithType: NetworkWriter.NetworkWriter(Int32, Boolean)
+- uid: Mirage.Serialization.NetworkWriter.#ctor*
+  name: NetworkWriter
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter__ctor_
+  commentId: Overload:Mirage.Serialization.NetworkWriter.#ctor
   isSpec: "True"
-  fullName: Mirage.Serialization.NetworkWriter.Length
-  nameWithType: NetworkWriter.Length
-- uid: Mirage.Serialization.NetworkWriter.MaxStringLength
-  name: MaxStringLength
-  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_MaxStringLength
-  commentId: F:Mirage.Serialization.NetworkWriter.MaxStringLength
-  fullName: Mirage.Serialization.NetworkWriter.MaxStringLength
-  nameWithType: NetworkWriter.MaxStringLength
-- uid: Mirage.Serialization.NetworkWriter.Position
-  name: Position
-  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_Position
-  commentId: P:Mirage.Serialization.NetworkWriter.Position
-  fullName: Mirage.Serialization.NetworkWriter.Position
-  nameWithType: NetworkWriter.Position
-- uid: Mirage.Serialization.NetworkWriter.Position*
-  name: Position
-  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_Position_
-  commentId: Overload:Mirage.Serialization.NetworkWriter.Position
+  fullName: Mirage.Serialization.NetworkWriter.NetworkWriter
+  nameWithType: NetworkWriter.NetworkWriter
+- uid: Mirage.Serialization.NetworkWriter.BitPosition
+  name: BitPosition
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_BitPosition
+  commentId: P:Mirage.Serialization.NetworkWriter.BitPosition
+  fullName: Mirage.Serialization.NetworkWriter.BitPosition
+  nameWithType: NetworkWriter.BitPosition
+- uid: Mirage.Serialization.NetworkWriter.BitPosition*
+  name: BitPosition
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_BitPosition_
+  commentId: Overload:Mirage.Serialization.NetworkWriter.BitPosition
   isSpec: "True"
-  fullName: Mirage.Serialization.NetworkWriter.Position
-  nameWithType: NetworkWriter.Position
+  fullName: Mirage.Serialization.NetworkWriter.BitPosition
+  nameWithType: NetworkWriter.BitPosition
+- uid: Mirage.Serialization.NetworkWriter.ByteCapacity
+  name: ByteCapacity
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_ByteCapacity
+  commentId: P:Mirage.Serialization.NetworkWriter.ByteCapacity
+  fullName: Mirage.Serialization.NetworkWriter.ByteCapacity
+  nameWithType: NetworkWriter.ByteCapacity
+- uid: Mirage.Serialization.NetworkWriter.ByteCapacity*
+  name: ByteCapacity
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_ByteCapacity_
+  commentId: Overload:Mirage.Serialization.NetworkWriter.ByteCapacity
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkWriter.ByteCapacity
+  nameWithType: NetworkWriter.ByteCapacity
+- uid: Mirage.Serialization.NetworkWriter.ByteLength
+  name: ByteLength
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_ByteLength
+  commentId: P:Mirage.Serialization.NetworkWriter.ByteLength
+  fullName: Mirage.Serialization.NetworkWriter.ByteLength
+  nameWithType: NetworkWriter.ByteLength
+- uid: Mirage.Serialization.NetworkWriter.ByteLength*
+  name: ByteLength
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_ByteLength_
+  commentId: Overload:Mirage.Serialization.NetworkWriter.ByteLength
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkWriter.ByteLength
+  nameWithType: NetworkWriter.ByteLength
+- uid: Mirage.Serialization.NetworkWriter.CopyFromWriter(Mirage.Serialization.NetworkWriter,System.Int32,System.Int32)
+  name: CopyFromWriter(NetworkWriter, Int32, Int32)
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_CopyFromWriter_Mirage_Serialization_NetworkWriter_System_Int32_System_Int32_
+  commentId: M:Mirage.Serialization.NetworkWriter.CopyFromWriter(Mirage.Serialization.NetworkWriter,System.Int32,System.Int32)
+  fullName: Mirage.Serialization.NetworkWriter.CopyFromWriter(Mirage.Serialization.NetworkWriter, System.Int32, System.Int32)
+  nameWithType: NetworkWriter.CopyFromWriter(NetworkWriter, Int32, Int32)
+- uid: Mirage.Serialization.NetworkWriter.CopyFromWriter*
+  name: CopyFromWriter
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_CopyFromWriter_
+  commentId: Overload:Mirage.Serialization.NetworkWriter.CopyFromWriter
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkWriter.CopyFromWriter
+  nameWithType: NetworkWriter.CopyFromWriter
+- uid: Mirage.Serialization.NetworkWriter.Finalize
+  name: Finalize()
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_Finalize
+  commentId: M:Mirage.Serialization.NetworkWriter.Finalize
+  fullName: Mirage.Serialization.NetworkWriter.Finalize()
+  nameWithType: NetworkWriter.Finalize()
+- uid: Mirage.Serialization.NetworkWriter.Finalize*
+  name: Finalize
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_Finalize_
+  commentId: Overload:Mirage.Serialization.NetworkWriter.Finalize
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkWriter.Finalize
+  nameWithType: NetworkWriter.Finalize
+- uid: Mirage.Serialization.NetworkWriter.PadAndCopy*
+  name: PadAndCopy
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_PadAndCopy_
+  commentId: Overload:Mirage.Serialization.NetworkWriter.PadAndCopy
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkWriter.PadAndCopy
+  nameWithType: NetworkWriter.PadAndCopy
+- uid: Mirage.Serialization.NetworkWriter.PadAndCopy``1(``0@,System.Int32)
+  name: PadAndCopy<T>(ref T, Int32)
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_PadAndCopy__1___0__System_Int32_
+  commentId: M:Mirage.Serialization.NetworkWriter.PadAndCopy``1(``0@,System.Int32)
+  name.vb: PadAndCopy(Of T)(ByRef T, Int32)
+  fullName: Mirage.Serialization.NetworkWriter.PadAndCopy<T>(ref T, System.Int32)
+  fullName.vb: Mirage.Serialization.NetworkWriter.PadAndCopy(Of T)(ByRef T, System.Int32)
+  nameWithType: NetworkWriter.PadAndCopy<T>(ref T, Int32)
+  nameWithType.vb: NetworkWriter.PadAndCopy(Of T)(ByRef T, Int32)
 - uid: Mirage.Serialization.NetworkWriter.Reset
   name: Reset()
   href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_Reset
@@ -9249,19 +9574,6 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkWriter.Reset
   nameWithType: NetworkWriter.Reset
-- uid: Mirage.Serialization.NetworkWriter.SetLength(System.Int32)
-  name: SetLength(Int32)
-  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_SetLength_System_Int32_
-  commentId: M:Mirage.Serialization.NetworkWriter.SetLength(System.Int32)
-  fullName: Mirage.Serialization.NetworkWriter.SetLength(System.Int32)
-  nameWithType: NetworkWriter.SetLength(Int32)
-- uid: Mirage.Serialization.NetworkWriter.SetLength*
-  name: SetLength
-  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_SetLength_
-  commentId: Overload:Mirage.Serialization.NetworkWriter.SetLength
-  isSpec: "True"
-  fullName: Mirage.Serialization.NetworkWriter.SetLength
-  nameWithType: NetworkWriter.SetLength
 - uid: Mirage.Serialization.NetworkWriter.ToArray
   name: ToArray()
   href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_ToArray
@@ -9288,6 +9600,12 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkWriter.ToArraySegment
   nameWithType: NetworkWriter.ToArraySegment
+- uid: Mirage.Serialization.NetworkWriter.Write(System.UInt64,System.Int32)
+  name: Write(UInt64, Int32)
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_Write_System_UInt64_System_Int32_
+  commentId: M:Mirage.Serialization.NetworkWriter.Write(System.UInt64,System.Int32)
+  fullName: Mirage.Serialization.NetworkWriter.Write(System.UInt64, System.Int32)
+  nameWithType: NetworkWriter.Write(UInt64, Int32)
 - uid: Mirage.Serialization.NetworkWriter.Write*
   name: Write
   href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_Write_
@@ -9295,15 +9613,51 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkWriter.Write
   nameWithType: NetworkWriter.Write
-- uid: Mirage.Serialization.NetworkWriter.Write``1(``0)
-  name: Write<T>(T)
-  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_Write__1___0_
-  commentId: M:Mirage.Serialization.NetworkWriter.Write``1(``0)
-  name.vb: Write(Of T)(T)
-  fullName: Mirage.Serialization.NetworkWriter.Write<T>(T)
-  fullName.vb: Mirage.Serialization.NetworkWriter.Write(Of T)(T)
-  nameWithType: NetworkWriter.Write<T>(T)
-  nameWithType.vb: NetworkWriter.Write(Of T)(T)
+- uid: Mirage.Serialization.NetworkWriter.WriteAtBytePosition(System.UInt64,System.Int32,System.Int32)
+  name: WriteAtBytePosition(UInt64, Int32, Int32)
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_WriteAtBytePosition_System_UInt64_System_Int32_System_Int32_
+  commentId: M:Mirage.Serialization.NetworkWriter.WriteAtBytePosition(System.UInt64,System.Int32,System.Int32)
+  fullName: Mirage.Serialization.NetworkWriter.WriteAtBytePosition(System.UInt64, System.Int32, System.Int32)
+  nameWithType: NetworkWriter.WriteAtBytePosition(UInt64, Int32, Int32)
+- uid: Mirage.Serialization.NetworkWriter.WriteAtBytePosition*
+  name: WriteAtBytePosition
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_WriteAtBytePosition_
+  commentId: Overload:Mirage.Serialization.NetworkWriter.WriteAtBytePosition
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkWriter.WriteAtBytePosition
+  nameWithType: NetworkWriter.WriteAtBytePosition
+- uid: Mirage.Serialization.NetworkWriter.WriteAtPosition(System.UInt64,System.Int32,System.Int32)
+  name: WriteAtPosition(UInt64, Int32, Int32)
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_WriteAtPosition_System_UInt64_System_Int32_System_Int32_
+  commentId: M:Mirage.Serialization.NetworkWriter.WriteAtPosition(System.UInt64,System.Int32,System.Int32)
+  fullName: Mirage.Serialization.NetworkWriter.WriteAtPosition(System.UInt64, System.Int32, System.Int32)
+  nameWithType: NetworkWriter.WriteAtPosition(UInt64, Int32, Int32)
+- uid: Mirage.Serialization.NetworkWriter.WriteAtPosition*
+  name: WriteAtPosition
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_WriteAtPosition_
+  commentId: Overload:Mirage.Serialization.NetworkWriter.WriteAtPosition
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkWriter.WriteAtPosition
+  nameWithType: NetworkWriter.WriteAtPosition
+- uid: Mirage.Serialization.NetworkWriter.WriteBoolean(System.Boolean)
+  name: WriteBoolean(Boolean)
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_WriteBoolean_System_Boolean_
+  commentId: M:Mirage.Serialization.NetworkWriter.WriteBoolean(System.Boolean)
+  fullName: Mirage.Serialization.NetworkWriter.WriteBoolean(System.Boolean)
+  nameWithType: NetworkWriter.WriteBoolean(Boolean)
+- uid: Mirage.Serialization.NetworkWriter.WriteBoolean(System.UInt64)
+  name: WriteBoolean(UInt64)
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_WriteBoolean_System_UInt64_
+  commentId: M:Mirage.Serialization.NetworkWriter.WriteBoolean(System.UInt64)
+  fullName: Mirage.Serialization.NetworkWriter.WriteBoolean(System.UInt64)
+  nameWithType: NetworkWriter.WriteBoolean(UInt64)
+- uid: Mirage.Serialization.NetworkWriter.WriteBoolean*
+  name: WriteBoolean
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_WriteBoolean_
+  commentId: Overload:Mirage.Serialization.NetworkWriter.WriteBoolean
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkWriter.WriteBoolean
+  nameWithType: NetworkWriter.WriteBoolean
 - uid: Mirage.Serialization.NetworkWriter.WriteByte(System.Byte)
   name: WriteByte(Byte)
   href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_WriteByte_System_Byte_
@@ -9333,6 +9687,32 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkWriter.WriteBytes
   nameWithType: NetworkWriter.WriteBytes
+- uid: Mirage.Serialization.NetworkWriter.WriteDouble(System.Double)
+  name: WriteDouble(Double)
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_WriteDouble_System_Double_
+  commentId: M:Mirage.Serialization.NetworkWriter.WriteDouble(System.Double)
+  fullName: Mirage.Serialization.NetworkWriter.WriteDouble(System.Double)
+  nameWithType: NetworkWriter.WriteDouble(Double)
+- uid: Mirage.Serialization.NetworkWriter.WriteDouble*
+  name: WriteDouble
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_WriteDouble_
+  commentId: Overload:Mirage.Serialization.NetworkWriter.WriteDouble
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkWriter.WriteDouble
+  nameWithType: NetworkWriter.WriteDouble
+- uid: Mirage.Serialization.NetworkWriter.WriteInt16(System.Int16)
+  name: WriteInt16(Int16)
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_WriteInt16_System_Int16_
+  commentId: M:Mirage.Serialization.NetworkWriter.WriteInt16(System.Int16)
+  fullName: Mirage.Serialization.NetworkWriter.WriteInt16(System.Int16)
+  nameWithType: NetworkWriter.WriteInt16(Int16)
+- uid: Mirage.Serialization.NetworkWriter.WriteInt16*
+  name: WriteInt16
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_WriteInt16_
+  commentId: Overload:Mirage.Serialization.NetworkWriter.WriteInt16
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkWriter.WriteInt16
+  nameWithType: NetworkWriter.WriteInt16
 - uid: Mirage.Serialization.NetworkWriter.WriteInt32(System.Int32)
   name: WriteInt32(Int32)
   href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_WriteInt32_System_Int32_
@@ -9359,6 +9739,45 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkWriter.WriteInt64
   nameWithType: NetworkWriter.WriteInt64
+- uid: Mirage.Serialization.NetworkWriter.WriteSByte(System.SByte)
+  name: WriteSByte(SByte)
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_WriteSByte_System_SByte_
+  commentId: M:Mirage.Serialization.NetworkWriter.WriteSByte(System.SByte)
+  fullName: Mirage.Serialization.NetworkWriter.WriteSByte(System.SByte)
+  nameWithType: NetworkWriter.WriteSByte(SByte)
+- uid: Mirage.Serialization.NetworkWriter.WriteSByte*
+  name: WriteSByte
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_WriteSByte_
+  commentId: Overload:Mirage.Serialization.NetworkWriter.WriteSByte
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkWriter.WriteSByte
+  nameWithType: NetworkWriter.WriteSByte
+- uid: Mirage.Serialization.NetworkWriter.WriteSingle(System.Single)
+  name: WriteSingle(Single)
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_WriteSingle_System_Single_
+  commentId: M:Mirage.Serialization.NetworkWriter.WriteSingle(System.Single)
+  fullName: Mirage.Serialization.NetworkWriter.WriteSingle(System.Single)
+  nameWithType: NetworkWriter.WriteSingle(Single)
+- uid: Mirage.Serialization.NetworkWriter.WriteSingle*
+  name: WriteSingle
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_WriteSingle_
+  commentId: Overload:Mirage.Serialization.NetworkWriter.WriteSingle
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkWriter.WriteSingle
+  nameWithType: NetworkWriter.WriteSingle
+- uid: Mirage.Serialization.NetworkWriter.WriteUInt16(System.UInt16)
+  name: WriteUInt16(UInt16)
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_WriteUInt16_System_UInt16_
+  commentId: M:Mirage.Serialization.NetworkWriter.WriteUInt16(System.UInt16)
+  fullName: Mirage.Serialization.NetworkWriter.WriteUInt16(System.UInt16)
+  nameWithType: NetworkWriter.WriteUInt16(UInt16)
+- uid: Mirage.Serialization.NetworkWriter.WriteUInt16*
+  name: WriteUInt16
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_WriteUInt16_
+  commentId: Overload:Mirage.Serialization.NetworkWriter.WriteUInt16
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkWriter.WriteUInt16
+  nameWithType: NetworkWriter.WriteUInt16
 - uid: Mirage.Serialization.NetworkWriter.WriteUInt32(System.UInt32)
   name: WriteUInt32(UInt32)
   href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_WriteUInt32_System_UInt32_
@@ -9391,19 +9810,32 @@ references:
   commentId: T:Mirage.Serialization.NetworkWriterPool
   fullName: Mirage.Serialization.NetworkWriterPool
   nameWithType: NetworkWriterPool
-- uid: Mirage.Serialization.NetworkWriterPool.Capacity
-  name: Capacity
-  href: api/Mirage.Serialization.NetworkWriterPool.html#Mirage_Serialization_NetworkWriterPool_Capacity
-  commentId: P:Mirage.Serialization.NetworkWriterPool.Capacity
-  fullName: Mirage.Serialization.NetworkWriterPool.Capacity
-  nameWithType: NetworkWriterPool.Capacity
-- uid: Mirage.Serialization.NetworkWriterPool.Capacity*
-  name: Capacity
-  href: api/Mirage.Serialization.NetworkWriterPool.html#Mirage_Serialization_NetworkWriterPool_Capacity_
-  commentId: Overload:Mirage.Serialization.NetworkWriterPool.Capacity
+- uid: Mirage.Serialization.NetworkWriterPool.BufferSize
+  name: BufferSize
+  href: api/Mirage.Serialization.NetworkWriterPool.html#Mirage_Serialization_NetworkWriterPool_BufferSize
+  commentId: P:Mirage.Serialization.NetworkWriterPool.BufferSize
+  fullName: Mirage.Serialization.NetworkWriterPool.BufferSize
+  nameWithType: NetworkWriterPool.BufferSize
+- uid: Mirage.Serialization.NetworkWriterPool.BufferSize*
+  name: BufferSize
+  href: api/Mirage.Serialization.NetworkWriterPool.html#Mirage_Serialization_NetworkWriterPool_BufferSize_
+  commentId: Overload:Mirage.Serialization.NetworkWriterPool.BufferSize
   isSpec: "True"
-  fullName: Mirage.Serialization.NetworkWriterPool.Capacity
-  nameWithType: NetworkWriterPool.Capacity
+  fullName: Mirage.Serialization.NetworkWriterPool.BufferSize
+  nameWithType: NetworkWriterPool.BufferSize
+- uid: Mirage.Serialization.NetworkWriterPool.Configure(System.Int32,System.Int32,System.Int32)
+  name: Configure(Int32, Int32, Int32)
+  href: api/Mirage.Serialization.NetworkWriterPool.html#Mirage_Serialization_NetworkWriterPool_Configure_System_Int32_System_Int32_System_Int32_
+  commentId: M:Mirage.Serialization.NetworkWriterPool.Configure(System.Int32,System.Int32,System.Int32)
+  fullName: Mirage.Serialization.NetworkWriterPool.Configure(System.Int32, System.Int32, System.Int32)
+  nameWithType: NetworkWriterPool.Configure(Int32, Int32, Int32)
+- uid: Mirage.Serialization.NetworkWriterPool.Configure*
+  name: Configure
+  href: api/Mirage.Serialization.NetworkWriterPool.html#Mirage_Serialization_NetworkWriterPool_Configure_
+  commentId: Overload:Mirage.Serialization.NetworkWriterPool.Configure
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkWriterPool.Configure
+  nameWithType: NetworkWriterPool.Configure
 - uid: Mirage.Serialization.NetworkWriterPool.GetWriter
   name: GetWriter()
   href: api/Mirage.Serialization.NetworkWriterPool.html#Mirage_Serialization_NetworkWriterPool_GetWriter
@@ -9417,19 +9849,6 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkWriterPool.GetWriter
   nameWithType: NetworkWriterPool.GetWriter
-- uid: Mirage.Serialization.NetworkWriterPool.Recycle(Mirage.Serialization.PooledNetworkWriter)
-  name: Recycle(PooledNetworkWriter)
-  href: api/Mirage.Serialization.NetworkWriterPool.html#Mirage_Serialization_NetworkWriterPool_Recycle_Mirage_Serialization_PooledNetworkWriter_
-  commentId: M:Mirage.Serialization.NetworkWriterPool.Recycle(Mirage.Serialization.PooledNetworkWriter)
-  fullName: Mirage.Serialization.NetworkWriterPool.Recycle(Mirage.Serialization.PooledNetworkWriter)
-  nameWithType: NetworkWriterPool.Recycle(PooledNetworkWriter)
-- uid: Mirage.Serialization.NetworkWriterPool.Recycle*
-  name: Recycle
-  href: api/Mirage.Serialization.NetworkWriterPool.html#Mirage_Serialization_NetworkWriterPool_Recycle_
-  commentId: Overload:Mirage.Serialization.NetworkWriterPool.Recycle
-  isSpec: "True"
-  fullName: Mirage.Serialization.NetworkWriterPool.Recycle
-  nameWithType: NetworkWriterPool.Recycle
 - uid: Mirage.Serialization.PackedExtensions
   name: PackedExtensions
   href: api/Mirage.Serialization.PackedExtensions.html
@@ -9546,12 +9965,28 @@ references:
   commentId: T:Mirage.Serialization.PooledNetworkReader
   fullName: Mirage.Serialization.PooledNetworkReader
   nameWithType: PooledNetworkReader
-- uid: Mirage.Serialization.PooledNetworkReader.Dispose
-  name: Dispose()
-  href: api/Mirage.Serialization.PooledNetworkReader.html#Mirage_Serialization_PooledNetworkReader_Dispose
-  commentId: M:Mirage.Serialization.PooledNetworkReader.Dispose
-  fullName: Mirage.Serialization.PooledNetworkReader.Dispose()
-  nameWithType: PooledNetworkReader.Dispose()
+- uid: Mirage.Serialization.PooledNetworkReader.CreateNew(System.Int32,Mirage.SocketLayer.Pool{Mirage.Serialization.PooledNetworkReader})
+  name: CreateNew(Int32, Pool<PooledNetworkReader>)
+  href: api/Mirage.Serialization.PooledNetworkReader.html#Mirage_Serialization_PooledNetworkReader_CreateNew_System_Int32_Mirage_SocketLayer_Pool_Mirage_Serialization_PooledNetworkReader__
+  commentId: M:Mirage.Serialization.PooledNetworkReader.CreateNew(System.Int32,Mirage.SocketLayer.Pool{Mirage.Serialization.PooledNetworkReader})
+  name.vb: CreateNew(Int32, Pool(Of PooledNetworkReader))
+  fullName: Mirage.Serialization.PooledNetworkReader.CreateNew(System.Int32, Mirage.SocketLayer.Pool<Mirage.Serialization.PooledNetworkReader>)
+  fullName.vb: Mirage.Serialization.PooledNetworkReader.CreateNew(System.Int32, Mirage.SocketLayer.Pool(Of Mirage.Serialization.PooledNetworkReader))
+  nameWithType: PooledNetworkReader.CreateNew(Int32, Pool<PooledNetworkReader>)
+  nameWithType.vb: PooledNetworkReader.CreateNew(Int32, Pool(Of PooledNetworkReader))
+- uid: Mirage.Serialization.PooledNetworkReader.CreateNew*
+  name: CreateNew
+  href: api/Mirage.Serialization.PooledNetworkReader.html#Mirage_Serialization_PooledNetworkReader_CreateNew_
+  commentId: Overload:Mirage.Serialization.PooledNetworkReader.CreateNew
+  isSpec: "True"
+  fullName: Mirage.Serialization.PooledNetworkReader.CreateNew
+  nameWithType: PooledNetworkReader.CreateNew
+- uid: Mirage.Serialization.PooledNetworkReader.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/Mirage.Serialization.PooledNetworkReader.html#Mirage_Serialization_PooledNetworkReader_Dispose_System_Boolean_
+  commentId: M:Mirage.Serialization.PooledNetworkReader.Dispose(System.Boolean)
+  fullName: Mirage.Serialization.PooledNetworkReader.Dispose(System.Boolean)
+  nameWithType: PooledNetworkReader.Dispose(Boolean)
 - uid: Mirage.Serialization.PooledNetworkReader.Dispose*
   name: Dispose
   href: api/Mirage.Serialization.PooledNetworkReader.html#Mirage_Serialization_PooledNetworkReader_Dispose_
@@ -9559,25 +9994,88 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.PooledNetworkReader.Dispose
   nameWithType: PooledNetworkReader.Dispose
+- uid: Mirage.Serialization.PooledNetworkReader.Release
+  name: Release()
+  href: api/Mirage.Serialization.PooledNetworkReader.html#Mirage_Serialization_PooledNetworkReader_Release
+  commentId: M:Mirage.Serialization.PooledNetworkReader.Release
+  fullName: Mirage.Serialization.PooledNetworkReader.Release()
+  nameWithType: PooledNetworkReader.Release()
+- uid: Mirage.Serialization.PooledNetworkReader.Release*
+  name: Release
+  href: api/Mirage.Serialization.PooledNetworkReader.html#Mirage_Serialization_PooledNetworkReader_Release_
+  commentId: Overload:Mirage.Serialization.PooledNetworkReader.Release
+  isSpec: "True"
+  fullName: Mirage.Serialization.PooledNetworkReader.Release
+  nameWithType: PooledNetworkReader.Release
+- uid: Mirage.Serialization.PooledNetworkReader.System#IDisposable#Dispose
+  name: IDisposable.Dispose()
+  href: api/Mirage.Serialization.PooledNetworkReader.html#Mirage_Serialization_PooledNetworkReader_System_IDisposable_Dispose
+  commentId: M:Mirage.Serialization.PooledNetworkReader.System#IDisposable#Dispose
+  name.vb: System.IDisposable.Dispose()
+  fullName: Mirage.Serialization.PooledNetworkReader.System.IDisposable.Dispose()
+  nameWithType: PooledNetworkReader.IDisposable.Dispose()
+  nameWithType.vb: PooledNetworkReader.System.IDisposable.Dispose()
+- uid: Mirage.Serialization.PooledNetworkReader.System#IDisposable#Dispose*
+  name: IDisposable.Dispose
+  href: api/Mirage.Serialization.PooledNetworkReader.html#Mirage_Serialization_PooledNetworkReader_System_IDisposable_Dispose_
+  commentId: Overload:Mirage.Serialization.PooledNetworkReader.System#IDisposable#Dispose
+  isSpec: "True"
+  name.vb: System.IDisposable.Dispose
+  fullName: Mirage.Serialization.PooledNetworkReader.System.IDisposable.Dispose
+  nameWithType: PooledNetworkReader.IDisposable.Dispose
+  nameWithType.vb: PooledNetworkReader.System.IDisposable.Dispose
 - uid: Mirage.Serialization.PooledNetworkWriter
   name: PooledNetworkWriter
   href: api/Mirage.Serialization.PooledNetworkWriter.html
   commentId: T:Mirage.Serialization.PooledNetworkWriter
   fullName: Mirage.Serialization.PooledNetworkWriter
   nameWithType: PooledNetworkWriter
-- uid: Mirage.Serialization.PooledNetworkWriter.Dispose
-  name: Dispose()
-  href: api/Mirage.Serialization.PooledNetworkWriter.html#Mirage_Serialization_PooledNetworkWriter_Dispose
-  commentId: M:Mirage.Serialization.PooledNetworkWriter.Dispose
-  fullName: Mirage.Serialization.PooledNetworkWriter.Dispose()
-  nameWithType: PooledNetworkWriter.Dispose()
-- uid: Mirage.Serialization.PooledNetworkWriter.Dispose*
-  name: Dispose
-  href: api/Mirage.Serialization.PooledNetworkWriter.html#Mirage_Serialization_PooledNetworkWriter_Dispose_
-  commentId: Overload:Mirage.Serialization.PooledNetworkWriter.Dispose
+- uid: Mirage.Serialization.PooledNetworkWriter.CreateNew(System.Int32,Mirage.SocketLayer.Pool{Mirage.Serialization.PooledNetworkWriter})
+  name: CreateNew(Int32, Pool<PooledNetworkWriter>)
+  href: api/Mirage.Serialization.PooledNetworkWriter.html#Mirage_Serialization_PooledNetworkWriter_CreateNew_System_Int32_Mirage_SocketLayer_Pool_Mirage_Serialization_PooledNetworkWriter__
+  commentId: M:Mirage.Serialization.PooledNetworkWriter.CreateNew(System.Int32,Mirage.SocketLayer.Pool{Mirage.Serialization.PooledNetworkWriter})
+  name.vb: CreateNew(Int32, Pool(Of PooledNetworkWriter))
+  fullName: Mirage.Serialization.PooledNetworkWriter.CreateNew(System.Int32, Mirage.SocketLayer.Pool<Mirage.Serialization.PooledNetworkWriter>)
+  fullName.vb: Mirage.Serialization.PooledNetworkWriter.CreateNew(System.Int32, Mirage.SocketLayer.Pool(Of Mirage.Serialization.PooledNetworkWriter))
+  nameWithType: PooledNetworkWriter.CreateNew(Int32, Pool<PooledNetworkWriter>)
+  nameWithType.vb: PooledNetworkWriter.CreateNew(Int32, Pool(Of PooledNetworkWriter))
+- uid: Mirage.Serialization.PooledNetworkWriter.CreateNew*
+  name: CreateNew
+  href: api/Mirage.Serialization.PooledNetworkWriter.html#Mirage_Serialization_PooledNetworkWriter_CreateNew_
+  commentId: Overload:Mirage.Serialization.PooledNetworkWriter.CreateNew
   isSpec: "True"
-  fullName: Mirage.Serialization.PooledNetworkWriter.Dispose
-  nameWithType: PooledNetworkWriter.Dispose
+  fullName: Mirage.Serialization.PooledNetworkWriter.CreateNew
+  nameWithType: PooledNetworkWriter.CreateNew
+- uid: Mirage.Serialization.PooledNetworkWriter.Release
+  name: Release()
+  href: api/Mirage.Serialization.PooledNetworkWriter.html#Mirage_Serialization_PooledNetworkWriter_Release
+  commentId: M:Mirage.Serialization.PooledNetworkWriter.Release
+  fullName: Mirage.Serialization.PooledNetworkWriter.Release()
+  nameWithType: PooledNetworkWriter.Release()
+- uid: Mirage.Serialization.PooledNetworkWriter.Release*
+  name: Release
+  href: api/Mirage.Serialization.PooledNetworkWriter.html#Mirage_Serialization_PooledNetworkWriter_Release_
+  commentId: Overload:Mirage.Serialization.PooledNetworkWriter.Release
+  isSpec: "True"
+  fullName: Mirage.Serialization.PooledNetworkWriter.Release
+  nameWithType: PooledNetworkWriter.Release
+- uid: Mirage.Serialization.PooledNetworkWriter.System#IDisposable#Dispose
+  name: IDisposable.Dispose()
+  href: api/Mirage.Serialization.PooledNetworkWriter.html#Mirage_Serialization_PooledNetworkWriter_System_IDisposable_Dispose
+  commentId: M:Mirage.Serialization.PooledNetworkWriter.System#IDisposable#Dispose
+  name.vb: System.IDisposable.Dispose()
+  fullName: Mirage.Serialization.PooledNetworkWriter.System.IDisposable.Dispose()
+  nameWithType: PooledNetworkWriter.IDisposable.Dispose()
+  nameWithType.vb: PooledNetworkWriter.System.IDisposable.Dispose()
+- uid: Mirage.Serialization.PooledNetworkWriter.System#IDisposable#Dispose*
+  name: IDisposable.Dispose
+  href: api/Mirage.Serialization.PooledNetworkWriter.html#Mirage_Serialization_PooledNetworkWriter_System_IDisposable_Dispose_
+  commentId: Overload:Mirage.Serialization.PooledNetworkWriter.System#IDisposable#Dispose
+  isSpec: "True"
+  name.vb: System.IDisposable.Dispose
+  fullName: Mirage.Serialization.PooledNetworkWriter.System.IDisposable.Dispose
+  nameWithType: PooledNetworkWriter.IDisposable.Dispose
+  nameWithType.vb: PooledNetworkWriter.System.IDisposable.Dispose
 - uid: Mirage.Serialization.Reader`1
   name: Reader<T>
   href: api/Mirage.Serialization.Reader-1.html
@@ -9610,6 +10108,12 @@ references:
   commentId: T:Mirage.Serialization.StringExtensions
   fullName: Mirage.Serialization.StringExtensions
   nameWithType: StringExtensions
+- uid: Mirage.Serialization.StringExtensions.MaxStringLength
+  name: MaxStringLength
+  href: api/Mirage.Serialization.StringExtensions.html#Mirage_Serialization_StringExtensions_MaxStringLength
+  commentId: F:Mirage.Serialization.StringExtensions.MaxStringLength
+  fullName: Mirage.Serialization.StringExtensions.MaxStringLength
+  nameWithType: StringExtensions.MaxStringLength
 - uid: Mirage.Serialization.StringExtensions.ReadString(Mirage.Serialization.NetworkReader)
   name: ReadString(NetworkReader)
   href: api/Mirage.Serialization.StringExtensions.html#Mirage_Serialization_StringExtensions_ReadString_Mirage_Serialization_NetworkReader_
@@ -9642,32 +10146,32 @@ references:
   commentId: T:Mirage.Serialization.SystemTypesExtensions
   fullName: Mirage.Serialization.SystemTypesExtensions
   nameWithType: SystemTypesExtensions
-- uid: Mirage.Serialization.SystemTypesExtensions.ReadBoolean(Mirage.Serialization.NetworkReader)
-  name: ReadBoolean(NetworkReader)
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadBoolean_Mirage_Serialization_NetworkReader_
-  commentId: M:Mirage.Serialization.SystemTypesExtensions.ReadBoolean(Mirage.Serialization.NetworkReader)
-  fullName: Mirage.Serialization.SystemTypesExtensions.ReadBoolean(Mirage.Serialization.NetworkReader)
-  nameWithType: SystemTypesExtensions.ReadBoolean(NetworkReader)
-- uid: Mirage.Serialization.SystemTypesExtensions.ReadBoolean*
-  name: ReadBoolean
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadBoolean_
-  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.ReadBoolean
+- uid: Mirage.Serialization.SystemTypesExtensions.ReadBooleanExtension(Mirage.Serialization.NetworkReader)
+  name: ReadBooleanExtension(NetworkReader)
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadBooleanExtension_Mirage_Serialization_NetworkReader_
+  commentId: M:Mirage.Serialization.SystemTypesExtensions.ReadBooleanExtension(Mirage.Serialization.NetworkReader)
+  fullName: Mirage.Serialization.SystemTypesExtensions.ReadBooleanExtension(Mirage.Serialization.NetworkReader)
+  nameWithType: SystemTypesExtensions.ReadBooleanExtension(NetworkReader)
+- uid: Mirage.Serialization.SystemTypesExtensions.ReadBooleanExtension*
+  name: ReadBooleanExtension
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadBooleanExtension_
+  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.ReadBooleanExtension
   isSpec: "True"
-  fullName: Mirage.Serialization.SystemTypesExtensions.ReadBoolean
-  nameWithType: SystemTypesExtensions.ReadBoolean
-- uid: Mirage.Serialization.SystemTypesExtensions.ReadByte(Mirage.Serialization.NetworkReader)
-  name: ReadByte(NetworkReader)
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadByte_Mirage_Serialization_NetworkReader_
-  commentId: M:Mirage.Serialization.SystemTypesExtensions.ReadByte(Mirage.Serialization.NetworkReader)
-  fullName: Mirage.Serialization.SystemTypesExtensions.ReadByte(Mirage.Serialization.NetworkReader)
-  nameWithType: SystemTypesExtensions.ReadByte(NetworkReader)
-- uid: Mirage.Serialization.SystemTypesExtensions.ReadByte*
-  name: ReadByte
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadByte_
-  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.ReadByte
+  fullName: Mirage.Serialization.SystemTypesExtensions.ReadBooleanExtension
+  nameWithType: SystemTypesExtensions.ReadBooleanExtension
+- uid: Mirage.Serialization.SystemTypesExtensions.ReadByteExtension(Mirage.Serialization.NetworkReader)
+  name: ReadByteExtension(NetworkReader)
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadByteExtension_Mirage_Serialization_NetworkReader_
+  commentId: M:Mirage.Serialization.SystemTypesExtensions.ReadByteExtension(Mirage.Serialization.NetworkReader)
+  fullName: Mirage.Serialization.SystemTypesExtensions.ReadByteExtension(Mirage.Serialization.NetworkReader)
+  nameWithType: SystemTypesExtensions.ReadByteExtension(NetworkReader)
+- uid: Mirage.Serialization.SystemTypesExtensions.ReadByteExtension*
+  name: ReadByteExtension
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadByteExtension_
+  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.ReadByteExtension
   isSpec: "True"
-  fullName: Mirage.Serialization.SystemTypesExtensions.ReadByte
-  nameWithType: SystemTypesExtensions.ReadByte
+  fullName: Mirage.Serialization.SystemTypesExtensions.ReadByteExtension
+  nameWithType: SystemTypesExtensions.ReadByteExtension
 - uid: Mirage.Serialization.SystemTypesExtensions.ReadChar(Mirage.Serialization.NetworkReader)
   name: ReadChar(NetworkReader)
   href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadChar_Mirage_Serialization_NetworkReader_
@@ -9681,32 +10185,32 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.SystemTypesExtensions.ReadChar
   nameWithType: SystemTypesExtensions.ReadChar
-- uid: Mirage.Serialization.SystemTypesExtensions.ReadDecimal(Mirage.Serialization.NetworkReader)
-  name: ReadDecimal(NetworkReader)
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadDecimal_Mirage_Serialization_NetworkReader_
-  commentId: M:Mirage.Serialization.SystemTypesExtensions.ReadDecimal(Mirage.Serialization.NetworkReader)
-  fullName: Mirage.Serialization.SystemTypesExtensions.ReadDecimal(Mirage.Serialization.NetworkReader)
-  nameWithType: SystemTypesExtensions.ReadDecimal(NetworkReader)
-- uid: Mirage.Serialization.SystemTypesExtensions.ReadDecimal*
-  name: ReadDecimal
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadDecimal_
-  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.ReadDecimal
+- uid: Mirage.Serialization.SystemTypesExtensions.ReadDecimalConverter(Mirage.Serialization.NetworkReader)
+  name: ReadDecimalConverter(NetworkReader)
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadDecimalConverter_Mirage_Serialization_NetworkReader_
+  commentId: M:Mirage.Serialization.SystemTypesExtensions.ReadDecimalConverter(Mirage.Serialization.NetworkReader)
+  fullName: Mirage.Serialization.SystemTypesExtensions.ReadDecimalConverter(Mirage.Serialization.NetworkReader)
+  nameWithType: SystemTypesExtensions.ReadDecimalConverter(NetworkReader)
+- uid: Mirage.Serialization.SystemTypesExtensions.ReadDecimalConverter*
+  name: ReadDecimalConverter
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadDecimalConverter_
+  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.ReadDecimalConverter
   isSpec: "True"
-  fullName: Mirage.Serialization.SystemTypesExtensions.ReadDecimal
-  nameWithType: SystemTypesExtensions.ReadDecimal
-- uid: Mirage.Serialization.SystemTypesExtensions.ReadDouble(Mirage.Serialization.NetworkReader)
-  name: ReadDouble(NetworkReader)
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadDouble_Mirage_Serialization_NetworkReader_
-  commentId: M:Mirage.Serialization.SystemTypesExtensions.ReadDouble(Mirage.Serialization.NetworkReader)
-  fullName: Mirage.Serialization.SystemTypesExtensions.ReadDouble(Mirage.Serialization.NetworkReader)
-  nameWithType: SystemTypesExtensions.ReadDouble(NetworkReader)
-- uid: Mirage.Serialization.SystemTypesExtensions.ReadDouble*
-  name: ReadDouble
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadDouble_
-  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.ReadDouble
+  fullName: Mirage.Serialization.SystemTypesExtensions.ReadDecimalConverter
+  nameWithType: SystemTypesExtensions.ReadDecimalConverter
+- uid: Mirage.Serialization.SystemTypesExtensions.ReadDoubleConverter(Mirage.Serialization.NetworkReader)
+  name: ReadDoubleConverter(NetworkReader)
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadDoubleConverter_Mirage_Serialization_NetworkReader_
+  commentId: M:Mirage.Serialization.SystemTypesExtensions.ReadDoubleConverter(Mirage.Serialization.NetworkReader)
+  fullName: Mirage.Serialization.SystemTypesExtensions.ReadDoubleConverter(Mirage.Serialization.NetworkReader)
+  nameWithType: SystemTypesExtensions.ReadDoubleConverter(NetworkReader)
+- uid: Mirage.Serialization.SystemTypesExtensions.ReadDoubleConverter*
+  name: ReadDoubleConverter
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadDoubleConverter_
+  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.ReadDoubleConverter
   isSpec: "True"
-  fullName: Mirage.Serialization.SystemTypesExtensions.ReadDouble
-  nameWithType: SystemTypesExtensions.ReadDouble
+  fullName: Mirage.Serialization.SystemTypesExtensions.ReadDoubleConverter
+  nameWithType: SystemTypesExtensions.ReadDoubleConverter
 - uid: Mirage.Serialization.SystemTypesExtensions.ReadGuid(Mirage.Serialization.NetworkReader)
   name: ReadGuid(NetworkReader)
   href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadGuid_Mirage_Serialization_NetworkReader_
@@ -9720,19 +10224,19 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.SystemTypesExtensions.ReadGuid
   nameWithType: SystemTypesExtensions.ReadGuid
-- uid: Mirage.Serialization.SystemTypesExtensions.ReadInt16(Mirage.Serialization.NetworkReader)
-  name: ReadInt16(NetworkReader)
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadInt16_Mirage_Serialization_NetworkReader_
-  commentId: M:Mirage.Serialization.SystemTypesExtensions.ReadInt16(Mirage.Serialization.NetworkReader)
-  fullName: Mirage.Serialization.SystemTypesExtensions.ReadInt16(Mirage.Serialization.NetworkReader)
-  nameWithType: SystemTypesExtensions.ReadInt16(NetworkReader)
-- uid: Mirage.Serialization.SystemTypesExtensions.ReadInt16*
-  name: ReadInt16
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadInt16_
-  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.ReadInt16
+- uid: Mirage.Serialization.SystemTypesExtensions.ReadInt16Extension(Mirage.Serialization.NetworkReader)
+  name: ReadInt16Extension(NetworkReader)
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadInt16Extension_Mirage_Serialization_NetworkReader_
+  commentId: M:Mirage.Serialization.SystemTypesExtensions.ReadInt16Extension(Mirage.Serialization.NetworkReader)
+  fullName: Mirage.Serialization.SystemTypesExtensions.ReadInt16Extension(Mirage.Serialization.NetworkReader)
+  nameWithType: SystemTypesExtensions.ReadInt16Extension(NetworkReader)
+- uid: Mirage.Serialization.SystemTypesExtensions.ReadInt16Extension*
+  name: ReadInt16Extension
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadInt16Extension_
+  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.ReadInt16Extension
   isSpec: "True"
-  fullName: Mirage.Serialization.SystemTypesExtensions.ReadInt16
-  nameWithType: SystemTypesExtensions.ReadInt16
+  fullName: Mirage.Serialization.SystemTypesExtensions.ReadInt16Extension
+  nameWithType: SystemTypesExtensions.ReadInt16Extension
 - uid: Mirage.Serialization.SystemTypesExtensions.ReadNullable*
   name: ReadNullable
   href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadNullable_
@@ -9749,71 +10253,71 @@ references:
   fullName.vb: Mirage.Serialization.SystemTypesExtensions.ReadNullable(Of T)(Mirage.Serialization.NetworkReader)
   nameWithType: SystemTypesExtensions.ReadNullable<T>(NetworkReader)
   nameWithType.vb: SystemTypesExtensions.ReadNullable(Of T)(NetworkReader)
-- uid: Mirage.Serialization.SystemTypesExtensions.ReadSByte(Mirage.Serialization.NetworkReader)
-  name: ReadSByte(NetworkReader)
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadSByte_Mirage_Serialization_NetworkReader_
-  commentId: M:Mirage.Serialization.SystemTypesExtensions.ReadSByte(Mirage.Serialization.NetworkReader)
-  fullName: Mirage.Serialization.SystemTypesExtensions.ReadSByte(Mirage.Serialization.NetworkReader)
-  nameWithType: SystemTypesExtensions.ReadSByte(NetworkReader)
-- uid: Mirage.Serialization.SystemTypesExtensions.ReadSByte*
-  name: ReadSByte
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadSByte_
-  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.ReadSByte
+- uid: Mirage.Serialization.SystemTypesExtensions.ReadSByteExtension(Mirage.Serialization.NetworkReader)
+  name: ReadSByteExtension(NetworkReader)
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadSByteExtension_Mirage_Serialization_NetworkReader_
+  commentId: M:Mirage.Serialization.SystemTypesExtensions.ReadSByteExtension(Mirage.Serialization.NetworkReader)
+  fullName: Mirage.Serialization.SystemTypesExtensions.ReadSByteExtension(Mirage.Serialization.NetworkReader)
+  nameWithType: SystemTypesExtensions.ReadSByteExtension(NetworkReader)
+- uid: Mirage.Serialization.SystemTypesExtensions.ReadSByteExtension*
+  name: ReadSByteExtension
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadSByteExtension_
+  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.ReadSByteExtension
   isSpec: "True"
-  fullName: Mirage.Serialization.SystemTypesExtensions.ReadSByte
-  nameWithType: SystemTypesExtensions.ReadSByte
-- uid: Mirage.Serialization.SystemTypesExtensions.ReadSingle(Mirage.Serialization.NetworkReader)
-  name: ReadSingle(NetworkReader)
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadSingle_Mirage_Serialization_NetworkReader_
-  commentId: M:Mirage.Serialization.SystemTypesExtensions.ReadSingle(Mirage.Serialization.NetworkReader)
-  fullName: Mirage.Serialization.SystemTypesExtensions.ReadSingle(Mirage.Serialization.NetworkReader)
-  nameWithType: SystemTypesExtensions.ReadSingle(NetworkReader)
-- uid: Mirage.Serialization.SystemTypesExtensions.ReadSingle*
-  name: ReadSingle
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadSingle_
-  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.ReadSingle
+  fullName: Mirage.Serialization.SystemTypesExtensions.ReadSByteExtension
+  nameWithType: SystemTypesExtensions.ReadSByteExtension
+- uid: Mirage.Serialization.SystemTypesExtensions.ReadSingleConverter(Mirage.Serialization.NetworkReader)
+  name: ReadSingleConverter(NetworkReader)
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadSingleConverter_Mirage_Serialization_NetworkReader_
+  commentId: M:Mirage.Serialization.SystemTypesExtensions.ReadSingleConverter(Mirage.Serialization.NetworkReader)
+  fullName: Mirage.Serialization.SystemTypesExtensions.ReadSingleConverter(Mirage.Serialization.NetworkReader)
+  nameWithType: SystemTypesExtensions.ReadSingleConverter(NetworkReader)
+- uid: Mirage.Serialization.SystemTypesExtensions.ReadSingleConverter*
+  name: ReadSingleConverter
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadSingleConverter_
+  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.ReadSingleConverter
   isSpec: "True"
-  fullName: Mirage.Serialization.SystemTypesExtensions.ReadSingle
-  nameWithType: SystemTypesExtensions.ReadSingle
-- uid: Mirage.Serialization.SystemTypesExtensions.ReadUInt16(Mirage.Serialization.NetworkReader)
-  name: ReadUInt16(NetworkReader)
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadUInt16_Mirage_Serialization_NetworkReader_
-  commentId: M:Mirage.Serialization.SystemTypesExtensions.ReadUInt16(Mirage.Serialization.NetworkReader)
-  fullName: Mirage.Serialization.SystemTypesExtensions.ReadUInt16(Mirage.Serialization.NetworkReader)
-  nameWithType: SystemTypesExtensions.ReadUInt16(NetworkReader)
-- uid: Mirage.Serialization.SystemTypesExtensions.ReadUInt16*
-  name: ReadUInt16
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadUInt16_
-  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.ReadUInt16
+  fullName: Mirage.Serialization.SystemTypesExtensions.ReadSingleConverter
+  nameWithType: SystemTypesExtensions.ReadSingleConverter
+- uid: Mirage.Serialization.SystemTypesExtensions.ReadUInt16Extension(Mirage.Serialization.NetworkReader)
+  name: ReadUInt16Extension(NetworkReader)
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadUInt16Extension_Mirage_Serialization_NetworkReader_
+  commentId: M:Mirage.Serialization.SystemTypesExtensions.ReadUInt16Extension(Mirage.Serialization.NetworkReader)
+  fullName: Mirage.Serialization.SystemTypesExtensions.ReadUInt16Extension(Mirage.Serialization.NetworkReader)
+  nameWithType: SystemTypesExtensions.ReadUInt16Extension(NetworkReader)
+- uid: Mirage.Serialization.SystemTypesExtensions.ReadUInt16Extension*
+  name: ReadUInt16Extension
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadUInt16Extension_
+  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.ReadUInt16Extension
   isSpec: "True"
-  fullName: Mirage.Serialization.SystemTypesExtensions.ReadUInt16
-  nameWithType: SystemTypesExtensions.ReadUInt16
-- uid: Mirage.Serialization.SystemTypesExtensions.WriteBoolean(Mirage.Serialization.NetworkWriter,System.Boolean)
-  name: WriteBoolean(NetworkWriter, Boolean)
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteBoolean_Mirage_Serialization_NetworkWriter_System_Boolean_
-  commentId: M:Mirage.Serialization.SystemTypesExtensions.WriteBoolean(Mirage.Serialization.NetworkWriter,System.Boolean)
-  fullName: Mirage.Serialization.SystemTypesExtensions.WriteBoolean(Mirage.Serialization.NetworkWriter, System.Boolean)
-  nameWithType: SystemTypesExtensions.WriteBoolean(NetworkWriter, Boolean)
-- uid: Mirage.Serialization.SystemTypesExtensions.WriteBoolean*
-  name: WriteBoolean
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteBoolean_
-  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.WriteBoolean
+  fullName: Mirage.Serialization.SystemTypesExtensions.ReadUInt16Extension
+  nameWithType: SystemTypesExtensions.ReadUInt16Extension
+- uid: Mirage.Serialization.SystemTypesExtensions.WriteBooleanExtension(Mirage.Serialization.NetworkWriter,System.Boolean)
+  name: WriteBooleanExtension(NetworkWriter, Boolean)
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteBooleanExtension_Mirage_Serialization_NetworkWriter_System_Boolean_
+  commentId: M:Mirage.Serialization.SystemTypesExtensions.WriteBooleanExtension(Mirage.Serialization.NetworkWriter,System.Boolean)
+  fullName: Mirage.Serialization.SystemTypesExtensions.WriteBooleanExtension(Mirage.Serialization.NetworkWriter, System.Boolean)
+  nameWithType: SystemTypesExtensions.WriteBooleanExtension(NetworkWriter, Boolean)
+- uid: Mirage.Serialization.SystemTypesExtensions.WriteBooleanExtension*
+  name: WriteBooleanExtension
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteBooleanExtension_
+  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.WriteBooleanExtension
   isSpec: "True"
-  fullName: Mirage.Serialization.SystemTypesExtensions.WriteBoolean
-  nameWithType: SystemTypesExtensions.WriteBoolean
-- uid: Mirage.Serialization.SystemTypesExtensions.WriteByte(Mirage.Serialization.NetworkWriter,System.Byte)
-  name: WriteByte(NetworkWriter, Byte)
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteByte_Mirage_Serialization_NetworkWriter_System_Byte_
-  commentId: M:Mirage.Serialization.SystemTypesExtensions.WriteByte(Mirage.Serialization.NetworkWriter,System.Byte)
-  fullName: Mirage.Serialization.SystemTypesExtensions.WriteByte(Mirage.Serialization.NetworkWriter, System.Byte)
-  nameWithType: SystemTypesExtensions.WriteByte(NetworkWriter, Byte)
-- uid: Mirage.Serialization.SystemTypesExtensions.WriteByte*
-  name: WriteByte
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteByte_
-  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.WriteByte
+  fullName: Mirage.Serialization.SystemTypesExtensions.WriteBooleanExtension
+  nameWithType: SystemTypesExtensions.WriteBooleanExtension
+- uid: Mirage.Serialization.SystemTypesExtensions.WriteByteExtension(Mirage.Serialization.NetworkWriter,System.Byte)
+  name: WriteByteExtension(NetworkWriter, Byte)
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteByteExtension_Mirage_Serialization_NetworkWriter_System_Byte_
+  commentId: M:Mirage.Serialization.SystemTypesExtensions.WriteByteExtension(Mirage.Serialization.NetworkWriter,System.Byte)
+  fullName: Mirage.Serialization.SystemTypesExtensions.WriteByteExtension(Mirage.Serialization.NetworkWriter, System.Byte)
+  nameWithType: SystemTypesExtensions.WriteByteExtension(NetworkWriter, Byte)
+- uid: Mirage.Serialization.SystemTypesExtensions.WriteByteExtension*
+  name: WriteByteExtension
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteByteExtension_
+  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.WriteByteExtension
   isSpec: "True"
-  fullName: Mirage.Serialization.SystemTypesExtensions.WriteByte
-  nameWithType: SystemTypesExtensions.WriteByte
+  fullName: Mirage.Serialization.SystemTypesExtensions.WriteByteExtension
+  nameWithType: SystemTypesExtensions.WriteByteExtension
 - uid: Mirage.Serialization.SystemTypesExtensions.WriteChar(Mirage.Serialization.NetworkWriter,System.Char)
   name: WriteChar(NetworkWriter, Char)
   href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteChar_Mirage_Serialization_NetworkWriter_System_Char_
@@ -9827,32 +10331,32 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.SystemTypesExtensions.WriteChar
   nameWithType: SystemTypesExtensions.WriteChar
-- uid: Mirage.Serialization.SystemTypesExtensions.WriteDecimal(Mirage.Serialization.NetworkWriter,System.Decimal)
-  name: WriteDecimal(NetworkWriter, Decimal)
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteDecimal_Mirage_Serialization_NetworkWriter_System_Decimal_
-  commentId: M:Mirage.Serialization.SystemTypesExtensions.WriteDecimal(Mirage.Serialization.NetworkWriter,System.Decimal)
-  fullName: Mirage.Serialization.SystemTypesExtensions.WriteDecimal(Mirage.Serialization.NetworkWriter, System.Decimal)
-  nameWithType: SystemTypesExtensions.WriteDecimal(NetworkWriter, Decimal)
-- uid: Mirage.Serialization.SystemTypesExtensions.WriteDecimal*
-  name: WriteDecimal
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteDecimal_
-  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.WriteDecimal
+- uid: Mirage.Serialization.SystemTypesExtensions.WriteDecimalConverter(Mirage.Serialization.NetworkWriter,System.Decimal)
+  name: WriteDecimalConverter(NetworkWriter, Decimal)
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteDecimalConverter_Mirage_Serialization_NetworkWriter_System_Decimal_
+  commentId: M:Mirage.Serialization.SystemTypesExtensions.WriteDecimalConverter(Mirage.Serialization.NetworkWriter,System.Decimal)
+  fullName: Mirage.Serialization.SystemTypesExtensions.WriteDecimalConverter(Mirage.Serialization.NetworkWriter, System.Decimal)
+  nameWithType: SystemTypesExtensions.WriteDecimalConverter(NetworkWriter, Decimal)
+- uid: Mirage.Serialization.SystemTypesExtensions.WriteDecimalConverter*
+  name: WriteDecimalConverter
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteDecimalConverter_
+  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.WriteDecimalConverter
   isSpec: "True"
-  fullName: Mirage.Serialization.SystemTypesExtensions.WriteDecimal
-  nameWithType: SystemTypesExtensions.WriteDecimal
-- uid: Mirage.Serialization.SystemTypesExtensions.WriteDouble(Mirage.Serialization.NetworkWriter,System.Double)
-  name: WriteDouble(NetworkWriter, Double)
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteDouble_Mirage_Serialization_NetworkWriter_System_Double_
-  commentId: M:Mirage.Serialization.SystemTypesExtensions.WriteDouble(Mirage.Serialization.NetworkWriter,System.Double)
-  fullName: Mirage.Serialization.SystemTypesExtensions.WriteDouble(Mirage.Serialization.NetworkWriter, System.Double)
-  nameWithType: SystemTypesExtensions.WriteDouble(NetworkWriter, Double)
-- uid: Mirage.Serialization.SystemTypesExtensions.WriteDouble*
-  name: WriteDouble
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteDouble_
-  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.WriteDouble
+  fullName: Mirage.Serialization.SystemTypesExtensions.WriteDecimalConverter
+  nameWithType: SystemTypesExtensions.WriteDecimalConverter
+- uid: Mirage.Serialization.SystemTypesExtensions.WriteDoubleConverter(Mirage.Serialization.NetworkWriter,System.Double)
+  name: WriteDoubleConverter(NetworkWriter, Double)
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteDoubleConverter_Mirage_Serialization_NetworkWriter_System_Double_
+  commentId: M:Mirage.Serialization.SystemTypesExtensions.WriteDoubleConverter(Mirage.Serialization.NetworkWriter,System.Double)
+  fullName: Mirage.Serialization.SystemTypesExtensions.WriteDoubleConverter(Mirage.Serialization.NetworkWriter, System.Double)
+  nameWithType: SystemTypesExtensions.WriteDoubleConverter(NetworkWriter, Double)
+- uid: Mirage.Serialization.SystemTypesExtensions.WriteDoubleConverter*
+  name: WriteDoubleConverter
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteDoubleConverter_
+  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.WriteDoubleConverter
   isSpec: "True"
-  fullName: Mirage.Serialization.SystemTypesExtensions.WriteDouble
-  nameWithType: SystemTypesExtensions.WriteDouble
+  fullName: Mirage.Serialization.SystemTypesExtensions.WriteDoubleConverter
+  nameWithType: SystemTypesExtensions.WriteDoubleConverter
 - uid: Mirage.Serialization.SystemTypesExtensions.WriteGuid(Mirage.Serialization.NetworkWriter,System.Guid)
   name: WriteGuid(NetworkWriter, Guid)
   href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteGuid_Mirage_Serialization_NetworkWriter_System_Guid_
@@ -9866,19 +10370,19 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.SystemTypesExtensions.WriteGuid
   nameWithType: SystemTypesExtensions.WriteGuid
-- uid: Mirage.Serialization.SystemTypesExtensions.WriteInt16(Mirage.Serialization.NetworkWriter,System.Int16)
-  name: WriteInt16(NetworkWriter, Int16)
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteInt16_Mirage_Serialization_NetworkWriter_System_Int16_
-  commentId: M:Mirage.Serialization.SystemTypesExtensions.WriteInt16(Mirage.Serialization.NetworkWriter,System.Int16)
-  fullName: Mirage.Serialization.SystemTypesExtensions.WriteInt16(Mirage.Serialization.NetworkWriter, System.Int16)
-  nameWithType: SystemTypesExtensions.WriteInt16(NetworkWriter, Int16)
-- uid: Mirage.Serialization.SystemTypesExtensions.WriteInt16*
-  name: WriteInt16
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteInt16_
-  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.WriteInt16
+- uid: Mirage.Serialization.SystemTypesExtensions.WriteInt16Extension(Mirage.Serialization.NetworkWriter,System.Int16)
+  name: WriteInt16Extension(NetworkWriter, Int16)
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteInt16Extension_Mirage_Serialization_NetworkWriter_System_Int16_
+  commentId: M:Mirage.Serialization.SystemTypesExtensions.WriteInt16Extension(Mirage.Serialization.NetworkWriter,System.Int16)
+  fullName: Mirage.Serialization.SystemTypesExtensions.WriteInt16Extension(Mirage.Serialization.NetworkWriter, System.Int16)
+  nameWithType: SystemTypesExtensions.WriteInt16Extension(NetworkWriter, Int16)
+- uid: Mirage.Serialization.SystemTypesExtensions.WriteInt16Extension*
+  name: WriteInt16Extension
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteInt16Extension_
+  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.WriteInt16Extension
   isSpec: "True"
-  fullName: Mirage.Serialization.SystemTypesExtensions.WriteInt16
-  nameWithType: SystemTypesExtensions.WriteInt16
+  fullName: Mirage.Serialization.SystemTypesExtensions.WriteInt16Extension
+  nameWithType: SystemTypesExtensions.WriteInt16Extension
 - uid: Mirage.Serialization.SystemTypesExtensions.WriteNullable*
   name: WriteNullable
   href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteNullable_
@@ -9895,45 +10399,45 @@ references:
   fullName.vb: Mirage.Serialization.SystemTypesExtensions.WriteNullable(Of T)(Mirage.Serialization.NetworkWriter, System.Nullable(Of T))
   nameWithType: SystemTypesExtensions.WriteNullable<T>(NetworkWriter, Nullable<T>)
   nameWithType.vb: SystemTypesExtensions.WriteNullable(Of T)(NetworkWriter, Nullable(Of T))
-- uid: Mirage.Serialization.SystemTypesExtensions.WriteSByte(Mirage.Serialization.NetworkWriter,System.SByte)
-  name: WriteSByte(NetworkWriter, SByte)
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteSByte_Mirage_Serialization_NetworkWriter_System_SByte_
-  commentId: M:Mirage.Serialization.SystemTypesExtensions.WriteSByte(Mirage.Serialization.NetworkWriter,System.SByte)
-  fullName: Mirage.Serialization.SystemTypesExtensions.WriteSByte(Mirage.Serialization.NetworkWriter, System.SByte)
-  nameWithType: SystemTypesExtensions.WriteSByte(NetworkWriter, SByte)
-- uid: Mirage.Serialization.SystemTypesExtensions.WriteSByte*
-  name: WriteSByte
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteSByte_
-  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.WriteSByte
+- uid: Mirage.Serialization.SystemTypesExtensions.WriteSByteExtension(Mirage.Serialization.NetworkWriter,System.SByte)
+  name: WriteSByteExtension(NetworkWriter, SByte)
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteSByteExtension_Mirage_Serialization_NetworkWriter_System_SByte_
+  commentId: M:Mirage.Serialization.SystemTypesExtensions.WriteSByteExtension(Mirage.Serialization.NetworkWriter,System.SByte)
+  fullName: Mirage.Serialization.SystemTypesExtensions.WriteSByteExtension(Mirage.Serialization.NetworkWriter, System.SByte)
+  nameWithType: SystemTypesExtensions.WriteSByteExtension(NetworkWriter, SByte)
+- uid: Mirage.Serialization.SystemTypesExtensions.WriteSByteExtension*
+  name: WriteSByteExtension
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteSByteExtension_
+  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.WriteSByteExtension
   isSpec: "True"
-  fullName: Mirage.Serialization.SystemTypesExtensions.WriteSByte
-  nameWithType: SystemTypesExtensions.WriteSByte
-- uid: Mirage.Serialization.SystemTypesExtensions.WriteSingle(Mirage.Serialization.NetworkWriter,System.Single)
-  name: WriteSingle(NetworkWriter, Single)
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteSingle_Mirage_Serialization_NetworkWriter_System_Single_
-  commentId: M:Mirage.Serialization.SystemTypesExtensions.WriteSingle(Mirage.Serialization.NetworkWriter,System.Single)
-  fullName: Mirage.Serialization.SystemTypesExtensions.WriteSingle(Mirage.Serialization.NetworkWriter, System.Single)
-  nameWithType: SystemTypesExtensions.WriteSingle(NetworkWriter, Single)
-- uid: Mirage.Serialization.SystemTypesExtensions.WriteSingle*
-  name: WriteSingle
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteSingle_
-  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.WriteSingle
+  fullName: Mirage.Serialization.SystemTypesExtensions.WriteSByteExtension
+  nameWithType: SystemTypesExtensions.WriteSByteExtension
+- uid: Mirage.Serialization.SystemTypesExtensions.WriteSingleConverter(Mirage.Serialization.NetworkWriter,System.Single)
+  name: WriteSingleConverter(NetworkWriter, Single)
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteSingleConverter_Mirage_Serialization_NetworkWriter_System_Single_
+  commentId: M:Mirage.Serialization.SystemTypesExtensions.WriteSingleConverter(Mirage.Serialization.NetworkWriter,System.Single)
+  fullName: Mirage.Serialization.SystemTypesExtensions.WriteSingleConverter(Mirage.Serialization.NetworkWriter, System.Single)
+  nameWithType: SystemTypesExtensions.WriteSingleConverter(NetworkWriter, Single)
+- uid: Mirage.Serialization.SystemTypesExtensions.WriteSingleConverter*
+  name: WriteSingleConverter
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteSingleConverter_
+  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.WriteSingleConverter
   isSpec: "True"
-  fullName: Mirage.Serialization.SystemTypesExtensions.WriteSingle
-  nameWithType: SystemTypesExtensions.WriteSingle
-- uid: Mirage.Serialization.SystemTypesExtensions.WriteUInt16(Mirage.Serialization.NetworkWriter,System.UInt16)
-  name: WriteUInt16(NetworkWriter, UInt16)
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteUInt16_Mirage_Serialization_NetworkWriter_System_UInt16_
-  commentId: M:Mirage.Serialization.SystemTypesExtensions.WriteUInt16(Mirage.Serialization.NetworkWriter,System.UInt16)
-  fullName: Mirage.Serialization.SystemTypesExtensions.WriteUInt16(Mirage.Serialization.NetworkWriter, System.UInt16)
-  nameWithType: SystemTypesExtensions.WriteUInt16(NetworkWriter, UInt16)
-- uid: Mirage.Serialization.SystemTypesExtensions.WriteUInt16*
-  name: WriteUInt16
-  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteUInt16_
-  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.WriteUInt16
+  fullName: Mirage.Serialization.SystemTypesExtensions.WriteSingleConverter
+  nameWithType: SystemTypesExtensions.WriteSingleConverter
+- uid: Mirage.Serialization.SystemTypesExtensions.WriteUInt16Extension(Mirage.Serialization.NetworkWriter,System.UInt16)
+  name: WriteUInt16Extension(NetworkWriter, UInt16)
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteUInt16Extension_Mirage_Serialization_NetworkWriter_System_UInt16_
+  commentId: M:Mirage.Serialization.SystemTypesExtensions.WriteUInt16Extension(Mirage.Serialization.NetworkWriter,System.UInt16)
+  fullName: Mirage.Serialization.SystemTypesExtensions.WriteUInt16Extension(Mirage.Serialization.NetworkWriter, System.UInt16)
+  nameWithType: SystemTypesExtensions.WriteUInt16Extension(NetworkWriter, UInt16)
+- uid: Mirage.Serialization.SystemTypesExtensions.WriteUInt16Extension*
+  name: WriteUInt16Extension
+  href: api/Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_WriteUInt16Extension_
+  commentId: Overload:Mirage.Serialization.SystemTypesExtensions.WriteUInt16Extension
   isSpec: "True"
-  fullName: Mirage.Serialization.SystemTypesExtensions.WriteUInt16
-  nameWithType: SystemTypesExtensions.WriteUInt16
+  fullName: Mirage.Serialization.SystemTypesExtensions.WriteUInt16Extension
+  nameWithType: SystemTypesExtensions.WriteUInt16Extension
 - uid: Mirage.Serialization.UnityTypesExtensions
   name: UnityTypesExtensions
   href: api/Mirage.Serialization.UnityTypesExtensions.html

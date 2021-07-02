@@ -98,8 +98,8 @@
   
   <h1 id="Mirage_Serialization_NetworkReader" data-uid="Mirage.Serialization.NetworkReader" class="text-break">Class NetworkReader
   </h1>
-  <div class="markdown level0 summary"><p>Binary stream Reader. Supports simple types, buffers, arrays, structs, and nested types</p>
-<p>Use <a class="xref" href="Mirage.Serialization.NetworkReaderPool.html#Mirage_Serialization_NetworkReaderPool_GetReader_System_Byte___">GetReader(Byte[])</a> to reduce memory allocation</p>
+  <div class="markdown level0 summary"><p>Bit writer, writes values to a buffer on a bit level</p>
+<p>Use <a class="xref" href="Mirage.Serialization.NetworkReaderPool.html#Mirage_Serialization_NetworkReaderPool_GetReader_System_ArraySegment_System_Byte__">GetReader(ArraySegment&lt;Byte&gt;)</a> to reduce memory allocation</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -107,6 +107,10 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">NetworkReader</span></div>
       <div class="level2"><a class="xref" href="Mirage.Serialization.PooledNetworkReader.html">PooledNetworkReader</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -128,96 +132,51 @@
     <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
     </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mirage.Serialization.html">Mirage.Serialization</a></h6>
   <h6><strong>Assembly</strong>: Mirage.dll</h6>
   <h5 id="Mirage_Serialization_NetworkReader_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class NetworkReader</code></pre>
+    <pre><code class="lang-csharp hljs">public class NetworkReader : IDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader__ctor_System_ArraySegment_System_Byte__.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.%23ctor(System.ArraySegment%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader__ctor.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/a89bae8024bc0397145bd15a4aa08c807cd0610e/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L56">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L80">View Source</a>
   </span>
   <a id="Mirage_Serialization_NetworkReader__ctor_" data-uid="Mirage.Serialization.NetworkReader.#ctor*"></a>
-  <h4 id="Mirage_Serialization_NetworkReader__ctor_System_ArraySegment_System_Byte__" data-uid="Mirage.Serialization.NetworkReader.#ctor(System.ArraySegment{System.Byte})">NetworkReader(ArraySegment&lt;Byte&gt;)</h4>
+  <h4 id="Mirage_Serialization_NetworkReader__ctor" data-uid="Mirage.Serialization.NetworkReader.#ctor">NetworkReader()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NetworkReader(ArraySegment&lt;byte&gt; segment)</code></pre>
+    <pre><code class="lang-csharp hljs">public NetworkReader()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.arraysegment-1">ArraySegment</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>&gt;</td>
-        <td><span class="parametername">segment</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader__ctor_System_Byte___.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.%23ctor(System.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/a89bae8024bc0397145bd15a4aa08c807cd0610e/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L51">View Source</a>
-  </span>
-  <a id="Mirage_Serialization_NetworkReader__ctor_" data-uid="Mirage.Serialization.NetworkReader.#ctor*"></a>
-  <h4 id="Mirage_Serialization_NetworkReader__ctor_System_Byte___" data-uid="Mirage.Serialization.NetworkReader.#ctor(System.Byte[])">NetworkReader(Byte[])</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NetworkReader(byte[] bytes)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
-        <td><span class="parametername">bytes</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_Position.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.Position%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_BitLength.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.BitLength%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/a89bae8024bc0397145bd15a4aa08c807cd0610e/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L43">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L48">View Source</a>
   </span>
-  <h4 id="Mirage_Serialization_NetworkReader_Position" data-uid="Mirage.Serialization.NetworkReader.Position">Position</h4>
+  <a id="Mirage_Serialization_NetworkReader_BitLength_" data-uid="Mirage.Serialization.NetworkReader.BitLength*"></a>
+  <h4 id="Mirage_Serialization_NetworkReader_BitLength" data-uid="Mirage.Serialization.NetworkReader.BitLength">BitLength</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Position</code></pre>
+    <pre><code class="lang-csharp hljs">public int BitLength { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -232,22 +191,51 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_Length.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.Length%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_BitPosition.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.BitPosition%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/a89bae8024bc0397145bd15a4aa08c807cd0610e/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L44">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L54">View Source</a>
   </span>
-  <a id="Mirage_Serialization_NetworkReader_Length_" data-uid="Mirage.Serialization.NetworkReader.Length*"></a>
-  <h4 id="Mirage_Serialization_NetworkReader_Length" data-uid="Mirage.Serialization.NetworkReader.Length">Length</h4>
+  <a id="Mirage_Serialization_NetworkReader_BitPosition_" data-uid="Mirage.Serialization.NetworkReader.BitPosition*"></a>
+  <h4 id="Mirage_Serialization_NetworkReader_BitPosition" data-uid="Mirage.Serialization.NetworkReader.BitPosition">BitPosition</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Length { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int BitPosition { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_BytePosition.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.BytePosition%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L63">View Source</a>
+  </span>
+  <a id="Mirage_Serialization_NetworkReader_BytePosition_" data-uid="Mirage.Serialization.NetworkReader.BytePosition*"></a>
+  <h4 id="Mirage_Serialization_NetworkReader_BytePosition" data-uid="Mirage.Serialization.NetworkReader.BytePosition">BytePosition</h4>
+  <div class="markdown level1 summary"><p>Position to the nearest byte</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int BytePosition { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -269,7 +257,7 @@
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_ObjectLocator.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.ObjectLocator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/a89bae8024bc0397145bd15a4aa08c807cd0610e/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L49">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L77">View Source</a>
   </span>
   <a id="Mirage_Serialization_NetworkReader_ObjectLocator_" data-uid="Mirage.Serialization.NetworkReader.ObjectLocator*"></a>
   <h4 id="Mirage_Serialization_NetworkReader_ObjectLocator" data-uid="Mirage.Serialization.NetworkReader.ObjectLocator">ObjectLocator</h4>
@@ -299,19 +287,19 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_Read__1.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.Read%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_CanRead.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.CanRead%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/a89bae8024bc0397145bd15a4aa08c807cd0610e/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L134">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L137">View Source</a>
   </span>
-  <a id="Mirage_Serialization_NetworkReader_Read_" data-uid="Mirage.Serialization.NetworkReader.Read*"></a>
-  <h4 id="Mirage_Serialization_NetworkReader_Read__1" data-uid="Mirage.Serialization.NetworkReader.Read``1">Read&lt;T&gt;()</h4>
-  <div class="markdown level1 summary"><p>Reads any data type that mirror supports</p>
+  <a id="Mirage_Serialization_NetworkReader_CanRead_" data-uid="Mirage.Serialization.NetworkReader.CanRead*"></a>
+  <h4 id="Mirage_Serialization_NetworkReader_CanRead" data-uid="Mirage.Serialization.NetworkReader.CanRead">CanRead()</h4>
+  <div class="markdown level1 summary"><p>Can read atleast 1 bit</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T Read&lt;T&gt;()</code></pre>
+    <pre><code class="lang-csharp hljs">public bool CanRead()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -323,7 +311,160 @@
     </thead>
     <tbody>
       <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_CanReadBytes_System_Int32_.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.CanReadBytes(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L147">View Source</a>
+  </span>
+  <a id="Mirage_Serialization_NetworkReader_CanReadBytes_" data-uid="Mirage.Serialization.NetworkReader.CanReadBytes*"></a>
+  <h4 id="Mirage_Serialization_NetworkReader_CanReadBytes_System_Int32_" data-uid="Mirage.Serialization.NetworkReader.CanReadBytes(System.Int32)">CanReadBytes(Int32)</h4>
+  <div class="markdown level1 summary"><p>Can atleast <code data-dev-comment-type="paramref" class="paramref">byteLength</code> bytes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanReadBytes(int byteLength)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">byteLength</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_Dispose.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L102">View Source</a>
+  </span>
+  <a id="Mirage_Serialization_NetworkReader_Dispose_" data-uid="Mirage.Serialization.NetworkReader.Dispose*"></a>
+  <h4 id="Mirage_Serialization_NetworkReader_Dispose" data-uid="Mirage.Serialization.NetworkReader.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L87">View Source</a>
+  </span>
+  <a id="Mirage_Serialization_NetworkReader_Dispose_" data-uid="Mirage.Serialization.NetworkReader.Dispose*"></a>
+  <h4 id="Mirage_Serialization_NetworkReader_Dispose_System_Boolean_" data-uid="Mirage.Serialization.NetworkReader.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">disposing</span></td>
+        <td><p>true if called from IDisposable</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_Finalize.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.Finalize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L82">View Source</a>
+  </span>
+  <a id="Mirage_Serialization_NetworkReader_Finalize_" data-uid="Mirage.Serialization.NetworkReader.Finalize*"></a>
+  <h4 id="Mirage_Serialization_NetworkReader_Finalize" data-uid="Mirage.Serialization.NetworkReader.Finalize">Finalize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_PadAndCopy__1_System_Int32___0__.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.PadAndCopy%60%601(System.Int32%2C%60%600%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L314">View Source</a>
+  </span>
+  <a id="Mirage_Serialization_NetworkReader_PadAndCopy_" data-uid="Mirage.Serialization.NetworkReader.PadAndCopy*"></a>
+  <h4 id="Mirage_Serialization_NetworkReader_PadAndCopy__1_System_Int32___0__" data-uid="Mirage.Serialization.NetworkReader.PadAndCopy``1(System.Int32,``0@)">PadAndCopy&lt;T&gt;(Int32, out T)</h4>
+  <div class="markdown level1 summary"><p>
+   Moves position to nearest byte then copies struct from that position
+</p>
+See <a href="https://docs.unity3d.com/ScriptReference/Unity.Collections.LowLevel.Unsafe.UnsafeUtility.CopyPtrToStructure.html">UnsafeUtility.CopyPtrToStructure</a>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PadAndCopy&lt;T&gt;(int byteSize, out T value)
+    where T : struct</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">byteSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
         <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -345,10 +486,118 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_Read_System_Int32_.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.Read(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L262">View Source</a>
+  </span>
+  <a id="Mirage_Serialization_NetworkReader_Read_" data-uid="Mirage.Serialization.NetworkReader.Read*"></a>
+  <h4 id="Mirage_Serialization_NetworkReader_Read_System_Int32_" data-uid="Mirage.Serialization.NetworkReader.Read(System.Int32)">Read(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong Read(int bits)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">bits</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint64">UInt64</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_ReadBoolean.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.ReadBoolean%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L168">View Source</a>
+  </span>
+  <a id="Mirage_Serialization_NetworkReader_ReadBoolean_" data-uid="Mirage.Serialization.NetworkReader.ReadBoolean*"></a>
+  <h4 id="Mirage_Serialization_NetworkReader_ReadBoolean" data-uid="Mirage.Serialization.NetworkReader.ReadBoolean">ReadBoolean()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ReadBoolean()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_ReadBooleanAsUlong.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.ReadBooleanAsUlong%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L178">View Source</a>
+  </span>
+  <a id="Mirage_Serialization_NetworkReader_ReadBooleanAsUlong_" data-uid="Mirage.Serialization.NetworkReader.ReadBooleanAsUlong*"></a>
+  <h4 id="Mirage_Serialization_NetworkReader_ReadBooleanAsUlong" data-uid="Mirage.Serialization.NetworkReader.ReadBooleanAsUlong">ReadBooleanAsUlong()</h4>
+  <div class="markdown level1 summary"><p>Writes first bit of <code data-dev-comment-type="paramref" class="paramref">value</code> to buffer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong ReadBooleanAsUlong()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint64">UInt64</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_ReadByte.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.ReadByte%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/a89bae8024bc0397145bd15a4aa08c807cd0610e/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L61">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L193">View Source</a>
   </span>
   <a id="Mirage_Serialization_NetworkReader_ReadByte_" data-uid="Mirage.Serialization.NetworkReader.ReadByte*"></a>
   <h4 id="Mirage_Serialization_NetworkReader_ReadByte" data-uid="Mirage.Serialization.NetworkReader.ReadByte">ReadByte()</h4>
@@ -375,18 +624,21 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_ReadBytes_System_Byte___System_Int32_.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.ReadBytes(System.Byte%5B%5D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_ReadBytes_System_Byte___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.ReadBytes(System.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/a89bae8024bc0397145bd15a4aa08c807cd0610e/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L96">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L334">View Source</a>
   </span>
   <a id="Mirage_Serialization_NetworkReader_ReadBytes_" data-uid="Mirage.Serialization.NetworkReader.ReadBytes*"></a>
-  <h4 id="Mirage_Serialization_NetworkReader_ReadBytes_System_Byte___System_Int32_" data-uid="Mirage.Serialization.NetworkReader.ReadBytes(System.Byte[],System.Int32)">ReadBytes(Byte[], Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Mirage_Serialization_NetworkReader_ReadBytes_System_Byte___System_Int32_System_Int32_" data-uid="Mirage.Serialization.NetworkReader.ReadBytes(System.Byte[],System.Int32,System.Int32)">ReadBytes(Byte[], Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>
+   Moves position to nearest byte then copies bytes from that position
+</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public byte[] ReadBytes(byte[] bytes, int count)</code></pre>
+    <pre><code class="lang-csharp hljs">public void ReadBytes(byte[] array, int offset, int length)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -400,27 +652,17 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
-        <td><span class="parametername">bytes</span></td>
+        <td><span class="parametername">array</span></td>
         <td></td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">count</span></td>
+        <td><span class="parametername">offset</span></td>
         <td></td>
       </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">length</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -430,7 +672,7 @@
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_ReadBytesSegment_System_Int32_.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.ReadBytesSegment(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/a89bae8024bc0397145bd15a4aa08c807cd0610e/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L110">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L345">View Source</a>
   </span>
   <a id="Mirage_Serialization_NetworkReader_ReadBytesSegment_" data-uid="Mirage.Serialization.NetworkReader.ReadBytesSegment*"></a>
   <h4 id="Mirage_Serialization_NetworkReader_ReadBytesSegment_System_Int32_" data-uid="Mirage.Serialization.NetworkReader.ReadBytesSegment(System.Int32)">ReadBytesSegment(Int32)</h4>
@@ -474,10 +716,70 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_ReadDouble.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.ReadDouble%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L254">View Source</a>
+  </span>
+  <a id="Mirage_Serialization_NetworkReader_ReadDouble_" data-uid="Mirage.Serialization.NetworkReader.ReadDouble*"></a>
+  <h4 id="Mirage_Serialization_NetworkReader_ReadDouble" data-uid="Mirage.Serialization.NetworkReader.ReadDouble">ReadDouble()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double ReadDouble()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.double">Double</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_ReadInt16.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.ReadInt16%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L197">View Source</a>
+  </span>
+  <a id="Mirage_Serialization_NetworkReader_ReadInt16_" data-uid="Mirage.Serialization.NetworkReader.ReadInt16*"></a>
+  <h4 id="Mirage_Serialization_NetworkReader_ReadInt16" data-uid="Mirage.Serialization.NetworkReader.ReadInt16">ReadInt16()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short ReadInt16()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int16">Int16</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_ReadInt32.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.ReadInt32%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/a89bae8024bc0397145bd15a4aa08c807cd0610e/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L70">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L203">View Source</a>
   </span>
   <a id="Mirage_Serialization_NetworkReader_ReadInt32_" data-uid="Mirage.Serialization.NetworkReader.ReadInt32*"></a>
   <h4 id="Mirage_Serialization_NetworkReader_ReadInt32" data-uid="Mirage.Serialization.NetworkReader.ReadInt32">ReadInt32()</h4>
@@ -507,7 +809,7 @@
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_ReadInt64.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.ReadInt64%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/a89bae8024bc0397145bd15a4aa08c807cd0610e/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L80">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L209">View Source</a>
   </span>
   <a id="Mirage_Serialization_NetworkReader_ReadInt64_" data-uid="Mirage.Serialization.NetworkReader.ReadInt64*"></a>
   <h4 id="Mirage_Serialization_NetworkReader_ReadInt64" data-uid="Mirage.Serialization.NetworkReader.ReadInt64">ReadInt64()</h4>
@@ -534,10 +836,100 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_ReadSByte.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.ReadSByte%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L191">View Source</a>
+  </span>
+  <a id="Mirage_Serialization_NetworkReader_ReadSByte_" data-uid="Mirage.Serialization.NetworkReader.ReadSByte*"></a>
+  <h4 id="Mirage_Serialization_NetworkReader_ReadSByte" data-uid="Mirage.Serialization.NetworkReader.ReadSByte">ReadSByte()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sbyte ReadSByte()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.sbyte">SByte</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_ReadSingle.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.ReadSingle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L248">View Source</a>
+  </span>
+  <a id="Mirage_Serialization_NetworkReader_ReadSingle_" data-uid="Mirage.Serialization.NetworkReader.ReadSingle*"></a>
+  <h4 id="Mirage_Serialization_NetworkReader_ReadSingle" data-uid="Mirage.Serialization.NetworkReader.ReadSingle">ReadSingle()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ReadSingle()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_ReadUInt16.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.ReadUInt16%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L199">View Source</a>
+  </span>
+  <a id="Mirage_Serialization_NetworkReader_ReadUInt16_" data-uid="Mirage.Serialization.NetworkReader.ReadUInt16*"></a>
+  <h4 id="Mirage_Serialization_NetworkReader_ReadUInt16" data-uid="Mirage.Serialization.NetworkReader.ReadUInt16">ReadUInt16()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort ReadUInt16()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint16">UInt16</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_ReadUInt32.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.ReadUInt32%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/a89bae8024bc0397145bd15a4aa08c807cd0610e/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L71">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L205">View Source</a>
   </span>
   <a id="Mirage_Serialization_NetworkReader_ReadUInt32_" data-uid="Mirage.Serialization.NetworkReader.ReadUInt32*"></a>
   <h4 id="Mirage_Serialization_NetworkReader_ReadUInt32" data-uid="Mirage.Serialization.NetworkReader.ReadUInt32">ReadUInt32()</h4>
@@ -567,7 +959,7 @@
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_ReadUInt64.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.ReadUInt64%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/a89bae8024bc0397145bd15a4aa08c807cd0610e/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L81">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L211">View Source</a>
   </span>
   <a id="Mirage_Serialization_NetworkReader_ReadUInt64_" data-uid="Mirage.Serialization.NetworkReader.ReadUInt64*"></a>
   <h4 id="Mirage_Serialization_NetworkReader_ReadUInt64" data-uid="Mirage.Serialization.NetworkReader.ReadUInt64">ReadUInt64()</h4>
@@ -594,36 +986,114 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_ToString.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_Reset_System_ArraySegment_System_Byte__.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.Reset(System.ArraySegment%7BSystem.Byte%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/a89bae8024bc0397145bd15a4aa08c807cd0610e/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L124">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L107">View Source</a>
   </span>
-  <a id="Mirage_Serialization_NetworkReader_ToString_" data-uid="Mirage.Serialization.NetworkReader.ToString*"></a>
-  <h4 id="Mirage_Serialization_NetworkReader_ToString" data-uid="Mirage.Serialization.NetworkReader.ToString">ToString()</h4>
+  <a id="Mirage_Serialization_NetworkReader_Reset_" data-uid="Mirage.Serialization.NetworkReader.Reset*"></a>
+  <h4 id="Mirage_Serialization_NetworkReader_Reset_System_ArraySegment_System_Byte__" data-uid="Mirage.Serialization.NetworkReader.Reset(System.ArraySegment{System.Byte})">Reset(ArraySegment&lt;Byte&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Reset(ArraySegment&lt;byte&gt; segment)</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.arraysegment-1">ArraySegment</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>&gt;</td>
+        <td><span class="parametername">segment</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_Reset_System_Byte___.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.Reset(System.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L111">View Source</a>
+  </span>
+  <a id="Mirage_Serialization_NetworkReader_Reset_" data-uid="Mirage.Serialization.NetworkReader.Reset*"></a>
+  <h4 id="Mirage_Serialization_NetworkReader_Reset_System_Byte___" data-uid="Mirage.Serialization.NetworkReader.Reset(System.Byte[])">Reset(Byte[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reset(byte[] array)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><span class="parametername">array</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader_Reset_System_Byte___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader.Reset(System.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L115">View Source</a>
+  </span>
+  <a id="Mirage_Serialization_NetworkReader_Reset_" data-uid="Mirage.Serialization.NetworkReader.Reset*"></a>
+  <h4 id="Mirage_Serialization_NetworkReader_Reset_System_Byte___System_Int32_System_Int32_" data-uid="Mirage.Serialization.NetworkReader.Reset(System.Byte[],System.Int32,System.Int32)">Reset(Byte[], Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reset(byte[] array, int position, int length)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><span class="parametername">array</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">length</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Mirage.GameObjectSerializers.html#Mirage_GameObjectSerializers_ReadGameObjectSyncVar_Mirage_Serialization_NetworkReader_">GameObjectSerializers.ReadGameObjectSyncVar(NetworkReader)</a>
@@ -657,6 +1127,9 @@
   </div>
   <div>
       <a class="xref" href="Mirage.Serialization.MirageTypesExtensions.html#Mirage_Serialization_MirageTypesExtensions_ReadGameObject_Mirage_Serialization_NetworkReader_">MirageTypesExtensions.ReadGameObject(NetworkReader)</a>
+  </div>
+  <div>
+      <a class="xref" href="Mirage.Serialization.GenericTypesSerializationExtensions.html#Mirage_Serialization_GenericTypesSerializationExtensions_Read__1_Mirage_Serialization_NetworkReader_">GenericTypesSerializationExtensions.Read&lt;T&gt;(NetworkReader)</a>
   </div>
   <div>
       <a class="xref" href="Mirage.Serialization.StringExtensions.html#Mirage_Serialization_StringExtensions_ReadString_Mirage_Serialization_NetworkReader_">StringExtensions.ReadString(NetworkReader)</a>
@@ -713,31 +1186,31 @@
       <a class="xref" href="Mirage.Serialization.CollectionExtensions.html#Mirage_Serialization_CollectionExtensions_ReadArray__1_Mirage_Serialization_NetworkReader_">CollectionExtensions.ReadArray&lt;T&gt;(NetworkReader)</a>
   </div>
   <div>
-      <a class="xref" href="Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadByte_Mirage_Serialization_NetworkReader_">SystemTypesExtensions.ReadByte(NetworkReader)</a>
+      <a class="xref" href="Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadByteExtension_Mirage_Serialization_NetworkReader_">SystemTypesExtensions.ReadByteExtension(NetworkReader)</a>
   </div>
   <div>
-      <a class="xref" href="Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadSByte_Mirage_Serialization_NetworkReader_">SystemTypesExtensions.ReadSByte(NetworkReader)</a>
+      <a class="xref" href="Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadSByteExtension_Mirage_Serialization_NetworkReader_">SystemTypesExtensions.ReadSByteExtension(NetworkReader)</a>
   </div>
   <div>
       <a class="xref" href="Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadChar_Mirage_Serialization_NetworkReader_">SystemTypesExtensions.ReadChar(NetworkReader)</a>
   </div>
   <div>
-      <a class="xref" href="Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadBoolean_Mirage_Serialization_NetworkReader_">SystemTypesExtensions.ReadBoolean(NetworkReader)</a>
+      <a class="xref" href="Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadBooleanExtension_Mirage_Serialization_NetworkReader_">SystemTypesExtensions.ReadBooleanExtension(NetworkReader)</a>
   </div>
   <div>
-      <a class="xref" href="Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadInt16_Mirage_Serialization_NetworkReader_">SystemTypesExtensions.ReadInt16(NetworkReader)</a>
+      <a class="xref" href="Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadInt16Extension_Mirage_Serialization_NetworkReader_">SystemTypesExtensions.ReadInt16Extension(NetworkReader)</a>
   </div>
   <div>
-      <a class="xref" href="Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadUInt16_Mirage_Serialization_NetworkReader_">SystemTypesExtensions.ReadUInt16(NetworkReader)</a>
+      <a class="xref" href="Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadUInt16Extension_Mirage_Serialization_NetworkReader_">SystemTypesExtensions.ReadUInt16Extension(NetworkReader)</a>
   </div>
   <div>
-      <a class="xref" href="Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadSingle_Mirage_Serialization_NetworkReader_">SystemTypesExtensions.ReadSingle(NetworkReader)</a>
+      <a class="xref" href="Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadSingleConverter_Mirage_Serialization_NetworkReader_">SystemTypesExtensions.ReadSingleConverter(NetworkReader)</a>
   </div>
   <div>
-      <a class="xref" href="Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadDouble_Mirage_Serialization_NetworkReader_">SystemTypesExtensions.ReadDouble(NetworkReader)</a>
+      <a class="xref" href="Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadDoubleConverter_Mirage_Serialization_NetworkReader_">SystemTypesExtensions.ReadDoubleConverter(NetworkReader)</a>
   </div>
   <div>
-      <a class="xref" href="Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadDecimal_Mirage_Serialization_NetworkReader_">SystemTypesExtensions.ReadDecimal(NetworkReader)</a>
+      <a class="xref" href="Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadDecimalConverter_Mirage_Serialization_NetworkReader_">SystemTypesExtensions.ReadDecimalConverter(NetworkReader)</a>
   </div>
   <div>
       <a class="xref" href="Mirage.Serialization.SystemTypesExtensions.html#Mirage_Serialization_SystemTypesExtensions_ReadGuid_Mirage_Serialization_NetworkReader_">SystemTypesExtensions.ReadGuid(NetworkReader)</a>
@@ -756,7 +1229,7 @@
                     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkReader.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkReader%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/blob/a89bae8024bc0397145bd15a4aa08c807cd0610e/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L34" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkReader.cs/#L37" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

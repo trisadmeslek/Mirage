@@ -98,10 +98,7 @@
   
   <h1 id="Mirage_Serialization_NetworkWriterPool" data-uid="Mirage.Serialization.NetworkWriterPool" class="text-break">Class NetworkWriterPool
   </h1>
-  <div class="markdown level0 summary"><p>Pool of NetworkWriters</p>
-<p>Use this pool instead of <a class="xref" href="Mirage.Serialization.NetworkWriter.html">NetworkWriter</a> to reduce memory allocation</p>
-<p>Use <a class="xref" href="Mirage.Serialization.NetworkWriterPool.html#Mirage_Serialization_NetworkWriterPool_Capacity">Capacity</a> to change size of pool</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -142,21 +139,19 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkWriterPool_Capacity.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkWriterPool.Capacity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkWriterPool_BufferSize.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkWriterPool.BufferSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/a89bae8024bc0397145bd15a4aa08c807cd0610e/Assets/Mirage/Runtime/Serialization/NetworkWriterPool.cs/#L32">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkWriterPool.cs/#L16">View Source</a>
   </span>
-  <a id="Mirage_Serialization_NetworkWriterPool_Capacity_" data-uid="Mirage.Serialization.NetworkWriterPool.Capacity*"></a>
-  <h4 id="Mirage_Serialization_NetworkWriterPool_Capacity" data-uid="Mirage.Serialization.NetworkWriterPool.Capacity">Capacity</h4>
-  <div class="markdown level1 summary"><p>Size of the pool</p>
-<p>If pool is too small getting writers will causes memory allocation</p>
-<p>Default value: 100 </p>
+  <a id="Mirage_Serialization_NetworkWriterPool_BufferSize_" data-uid="Mirage.Serialization.NetworkWriterPool.BufferSize*"></a>
+  <h4 id="Mirage_Serialization_NetworkWriterPool_BufferSize" data-uid="Mirage.Serialization.NetworkWriterPool.BufferSize">BufferSize</h4>
+  <div class="markdown level1 summary"><p>Current Size of buffers, or null before Configure has been called</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int Capacity { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static int? BufferSize { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -168,7 +163,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -177,16 +172,59 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkWriterPool_Configure_System_Int32_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkWriterPool.Configure(System.Int32%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkWriterPool.cs/#L32">View Source</a>
+  </span>
+  <a id="Mirage_Serialization_NetworkWriterPool_Configure_" data-uid="Mirage.Serialization.NetworkWriterPool.Configure*"></a>
+  <h4 id="Mirage_Serialization_NetworkWriterPool_Configure_System_Int32_System_Int32_System_Int32_" data-uid="Mirage.Serialization.NetworkWriterPool.Configure(System.Int32,System.Int32,System.Int32)">Configure(Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Configures an exist pool or creates a new one</p>
+<p>Does not create a new pool if <code data-dev-comment-type="paramref" class="paramref">bufferSize</code> is less that current <a class="xref" href="Mirage.Serialization.NetworkWriterPool.html#Mirage_Serialization_NetworkWriterPool_BufferSize">BufferSize</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Configure(int bufferSize, int startPoolSize = 5, int maxPoolSize = 100)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">bufferSize</span></td>
+        <td><p>starting capacity of buffer</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">startPoolSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">maxPoolSize</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkWriterPool_GetWriter.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkWriterPool.GetWriter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/a89bae8024bc0397145bd15a4aa08c807cd0610e/Assets/Mirage/Runtime/Serialization/NetworkWriterPool.cs/#L66">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkWriterPool.cs/#L46">View Source</a>
   </span>
   <a id="Mirage_Serialization_NetworkWriterPool_GetWriter_" data-uid="Mirage.Serialization.NetworkWriterPool.GetWriter*"></a>
   <h4 id="Mirage_Serialization_NetworkWriterPool_GetWriter" data-uid="Mirage.Serialization.NetworkWriterPool.GetWriter">GetWriter()</h4>
-  <div class="markdown level1 summary"><p>Get the next writer in the pool</p>
-<p>If pool is empty, creates a new Writer</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -207,40 +245,6 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkWriterPool_Recycle_Mirage_Serialization_PooledNetworkWriter_.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkWriterPool.Recycle(Mirage.Serialization.PooledNetworkWriter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/a89bae8024bc0397145bd15a4aa08c807cd0610e/Assets/Mirage/Runtime/Serialization/NetworkWriterPool.cs/#L86">View Source</a>
-  </span>
-  <a id="Mirage_Serialization_NetworkWriterPool_Recycle_" data-uid="Mirage.Serialization.NetworkWriterPool.Recycle*"></a>
-  <h4 id="Mirage_Serialization_NetworkWriterPool_Recycle_Mirage_Serialization_PooledNetworkWriter_" data-uid="Mirage.Serialization.NetworkWriterPool.Recycle(Mirage.Serialization.PooledNetworkWriter)">Recycle(PooledNetworkWriter)</h4>
-  <div class="markdown level1 summary"><p>Puts writer back into pool</p>
-<p>When pool is full, the extra writer is left for the GC</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Recycle(PooledNetworkWriter writer)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Mirage.Serialization.PooledNetworkWriter.html">PooledNetworkWriter</a></td>
-        <td><span class="parametername">writer</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           
@@ -252,7 +256,7 @@
                     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_NetworkWriterPool.md&amp;value=---%0Auid%3A%20Mirage.Serialization.NetworkWriterPool%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/blob/a89bae8024bc0397145bd15a4aa08c807cd0610e/Assets/Mirage/Runtime/Serialization/NetworkWriterPool.cs/#L23" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirageNet/Mirage/blob/773c58f75eb77be2a893398d1e27012ee9ba83e6/Assets/Mirage/Runtime/Serialization/NetworkWriterPool.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
