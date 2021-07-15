@@ -38,6 +38,19 @@ references:
   isSpec: "True"
   fullName: Mirage.Authenticators.BasicAuthenticator.ClientAuthenticate
   nameWithType: BasicAuthenticator.ClientAuthenticate
+- uid: Mirage.Authenticators.BasicAuthenticator.ClientSetup(Mirage.NetworkClient)
+  name: ClientSetup(NetworkClient)
+  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_ClientSetup_Mirage_NetworkClient_
+  commentId: M:Mirage.Authenticators.BasicAuthenticator.ClientSetup(Mirage.NetworkClient)
+  fullName: Mirage.Authenticators.BasicAuthenticator.ClientSetup(Mirage.NetworkClient)
+  nameWithType: BasicAuthenticator.ClientSetup(NetworkClient)
+- uid: Mirage.Authenticators.BasicAuthenticator.ClientSetup*
+  name: ClientSetup
+  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_ClientSetup_
+  commentId: Overload:Mirage.Authenticators.BasicAuthenticator.ClientSetup
+  isSpec: "True"
+  fullName: Mirage.Authenticators.BasicAuthenticator.ClientSetup
+  nameWithType: BasicAuthenticator.ClientSetup
 - uid: Mirage.Authenticators.BasicAuthenticator.ServerAuthenticate(Mirage.INetworkPlayer)
   name: ServerAuthenticate(INetworkPlayer)
   href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_ServerAuthenticate_Mirage_INetworkPlayer_
@@ -57,6 +70,19 @@ references:
   commentId: F:Mirage.Authenticators.BasicAuthenticator.serverCode
   fullName: Mirage.Authenticators.BasicAuthenticator.serverCode
   nameWithType: BasicAuthenticator.serverCode
+- uid: Mirage.Authenticators.BasicAuthenticator.ServerSetup(Mirage.NetworkServer)
+  name: ServerSetup(NetworkServer)
+  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_ServerSetup_Mirage_NetworkServer_
+  commentId: M:Mirage.Authenticators.BasicAuthenticator.ServerSetup(Mirage.NetworkServer)
+  fullName: Mirage.Authenticators.BasicAuthenticator.ServerSetup(Mirage.NetworkServer)
+  nameWithType: BasicAuthenticator.ServerSetup(NetworkServer)
+- uid: Mirage.Authenticators.BasicAuthenticator.ServerSetup*
+  name: ServerSetup
+  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_ServerSetup_
+  commentId: Overload:Mirage.Authenticators.BasicAuthenticator.ServerSetup
+  isSpec: "True"
+  fullName: Mirage.Authenticators.BasicAuthenticator.ServerSetup
+  nameWithType: BasicAuthenticator.ServerSetup
 - uid: Mirage.Authenticators.TimeoutAuthenticator
   name: TimeoutAuthenticator
   href: api/Mirage.Authenticators.TimeoutAuthenticator.html
@@ -95,6 +121,19 @@ references:
   isSpec: "True"
   fullName: Mirage.Authenticators.TimeoutAuthenticator.ClientAuthenticate
   nameWithType: TimeoutAuthenticator.ClientAuthenticate
+- uid: Mirage.Authenticators.TimeoutAuthenticator.ClientSetup(Mirage.NetworkClient)
+  name: ClientSetup(NetworkClient)
+  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_ClientSetup_Mirage_NetworkClient_
+  commentId: M:Mirage.Authenticators.TimeoutAuthenticator.ClientSetup(Mirage.NetworkClient)
+  fullName: Mirage.Authenticators.TimeoutAuthenticator.ClientSetup(Mirage.NetworkClient)
+  nameWithType: TimeoutAuthenticator.ClientSetup(NetworkClient)
+- uid: Mirage.Authenticators.TimeoutAuthenticator.ClientSetup*
+  name: ClientSetup
+  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_ClientSetup_
+  commentId: Overload:Mirage.Authenticators.TimeoutAuthenticator.ClientSetup
+  isSpec: "True"
+  fullName: Mirage.Authenticators.TimeoutAuthenticator.ClientSetup
+  nameWithType: TimeoutAuthenticator.ClientSetup
 - uid: Mirage.Authenticators.TimeoutAuthenticator.ServerAuthenticate(Mirage.INetworkPlayer)
   name: ServerAuthenticate(INetworkPlayer)
   href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_ServerAuthenticate_Mirage_INetworkPlayer_
@@ -108,6 +147,19 @@ references:
   isSpec: "True"
   fullName: Mirage.Authenticators.TimeoutAuthenticator.ServerAuthenticate
   nameWithType: TimeoutAuthenticator.ServerAuthenticate
+- uid: Mirage.Authenticators.TimeoutAuthenticator.ServerSetup(Mirage.NetworkServer)
+  name: ServerSetup(NetworkServer)
+  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_ServerSetup_Mirage_NetworkServer_
+  commentId: M:Mirage.Authenticators.TimeoutAuthenticator.ServerSetup(Mirage.NetworkServer)
+  fullName: Mirage.Authenticators.TimeoutAuthenticator.ServerSetup(Mirage.NetworkServer)
+  nameWithType: TimeoutAuthenticator.ServerSetup(NetworkServer)
+- uid: Mirage.Authenticators.TimeoutAuthenticator.ServerSetup*
+  name: ServerSetup
+  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_ServerSetup_
+  commentId: Overload:Mirage.Authenticators.TimeoutAuthenticator.ServerSetup
+  isSpec: "True"
+  fullName: Mirage.Authenticators.TimeoutAuthenticator.ServerSetup
+  nameWithType: TimeoutAuthenticator.ServerSetup
 - uid: Mirage.Authenticators.TimeoutAuthenticator.Timeout
   name: Timeout
   href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_Timeout
@@ -3727,28 +3779,6 @@ references:
   isSpec: "True"
   fullName: Mirage.IClientObjectManager.UnregisterSpawnHandler
   nameWithType: IClientObjectManager.UnregisterSpawnHandler
-- uid: Mirage.IMessageHandler
-  name: IMessageHandler
-  href: api/Mirage.IMessageHandler.html
-  commentId: T:Mirage.IMessageHandler
-  fullName: Mirage.IMessageHandler
-  nameWithType: IMessageHandler
-- uid: Mirage.IMessageHandler.HandleMessage(System.ArraySegment{System.Byte})
-  name: HandleMessage(ArraySegment<Byte>)
-  href: api/Mirage.IMessageHandler.html#Mirage_IMessageHandler_HandleMessage_System_ArraySegment_System_Byte__
-  commentId: M:Mirage.IMessageHandler.HandleMessage(System.ArraySegment{System.Byte})
-  name.vb: HandleMessage(ArraySegment(Of Byte))
-  fullName: Mirage.IMessageHandler.HandleMessage(System.ArraySegment<System.Byte>)
-  fullName.vb: Mirage.IMessageHandler.HandleMessage(System.ArraySegment(Of System.Byte))
-  nameWithType: IMessageHandler.HandleMessage(ArraySegment<Byte>)
-  nameWithType.vb: IMessageHandler.HandleMessage(ArraySegment(Of Byte))
-- uid: Mirage.IMessageHandler.HandleMessage*
-  name: HandleMessage
-  href: api/Mirage.IMessageHandler.html#Mirage_IMessageHandler_HandleMessage_
-  commentId: Overload:Mirage.IMessageHandler.HandleMessage
-  isSpec: "True"
-  fullName: Mirage.IMessageHandler.HandleMessage
-  nameWithType: IMessageHandler.HandleMessage
 - uid: Mirage.IMessageReceiver
   name: IMessageReceiver
   href: api/Mirage.IMessageReceiver.html
@@ -3768,6 +3798,22 @@ references:
   isSpec: "True"
   fullName: Mirage.IMessageReceiver.ClearHandlers
   nameWithType: IMessageReceiver.ClearHandlers
+- uid: Mirage.IMessageReceiver.HandleMessage(Mirage.INetworkPlayer,System.ArraySegment{System.Byte})
+  name: HandleMessage(INetworkPlayer, ArraySegment<Byte>)
+  href: api/Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_HandleMessage_Mirage_INetworkPlayer_System_ArraySegment_System_Byte__
+  commentId: M:Mirage.IMessageReceiver.HandleMessage(Mirage.INetworkPlayer,System.ArraySegment{System.Byte})
+  name.vb: HandleMessage(INetworkPlayer, ArraySegment(Of Byte))
+  fullName: Mirage.IMessageReceiver.HandleMessage(Mirage.INetworkPlayer, System.ArraySegment<System.Byte>)
+  fullName.vb: Mirage.IMessageReceiver.HandleMessage(Mirage.INetworkPlayer, System.ArraySegment(Of System.Byte))
+  nameWithType: IMessageReceiver.HandleMessage(INetworkPlayer, ArraySegment<Byte>)
+  nameWithType.vb: IMessageReceiver.HandleMessage(INetworkPlayer, ArraySegment(Of Byte))
+- uid: Mirage.IMessageReceiver.HandleMessage*
+  name: HandleMessage
+  href: api/Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_HandleMessage_
+  commentId: Overload:Mirage.IMessageReceiver.HandleMessage
+  isSpec: "True"
+  fullName: Mirage.IMessageReceiver.HandleMessage
+  nameWithType: IMessageReceiver.HandleMessage
 - uid: Mirage.IMessageReceiver.RegisterHandler*
   name: RegisterHandler
   href: api/Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_RegisterHandler_
@@ -3775,24 +3821,24 @@ references:
   isSpec: "True"
   fullName: Mirage.IMessageReceiver.RegisterHandler
   nameWithType: IMessageReceiver.RegisterHandler
-- uid: Mirage.IMessageReceiver.RegisterHandler``1(System.Action{``0})
-  name: RegisterHandler<T>(Action<T>)
-  href: api/Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_RegisterHandler__1_System_Action___0__
-  commentId: M:Mirage.IMessageReceiver.RegisterHandler``1(System.Action{``0})
-  name.vb: RegisterHandler(Of T)(Action(Of T))
-  fullName: Mirage.IMessageReceiver.RegisterHandler<T>(System.Action<T>)
-  fullName.vb: Mirage.IMessageReceiver.RegisterHandler(Of T)(System.Action(Of T))
-  nameWithType: IMessageReceiver.RegisterHandler<T>(Action<T>)
-  nameWithType.vb: IMessageReceiver.RegisterHandler(Of T)(Action(Of T))
-- uid: Mirage.IMessageReceiver.RegisterHandler``1(System.Action{Mirage.INetworkPlayer,``0})
-  name: RegisterHandler<T>(Action<INetworkPlayer, T>)
-  href: api/Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_RegisterHandler__1_System_Action_Mirage_INetworkPlayer___0__
-  commentId: M:Mirage.IMessageReceiver.RegisterHandler``1(System.Action{Mirage.INetworkPlayer,``0})
-  name.vb: RegisterHandler(Of T)(Action(Of INetworkPlayer, T))
-  fullName: Mirage.IMessageReceiver.RegisterHandler<T>(System.Action<Mirage.INetworkPlayer, T>)
-  fullName.vb: Mirage.IMessageReceiver.RegisterHandler(Of T)(System.Action(Of Mirage.INetworkPlayer, T))
-  nameWithType: IMessageReceiver.RegisterHandler<T>(Action<INetworkPlayer, T>)
-  nameWithType.vb: IMessageReceiver.RegisterHandler(Of T)(Action(Of INetworkPlayer, T))
+- uid: Mirage.IMessageReceiver.RegisterHandler``1(Mirage.MessageDelegate{``0})
+  name: RegisterHandler<T>(MessageDelegate<T>)
+  href: api/Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_RegisterHandler__1_Mirage_MessageDelegate___0__
+  commentId: M:Mirage.IMessageReceiver.RegisterHandler``1(Mirage.MessageDelegate{``0})
+  name.vb: RegisterHandler(Of T)(MessageDelegate(Of T))
+  fullName: Mirage.IMessageReceiver.RegisterHandler<T>(Mirage.MessageDelegate<T>)
+  fullName.vb: Mirage.IMessageReceiver.RegisterHandler(Of T)(Mirage.MessageDelegate(Of T))
+  nameWithType: IMessageReceiver.RegisterHandler<T>(MessageDelegate<T>)
+  nameWithType.vb: IMessageReceiver.RegisterHandler(Of T)(MessageDelegate(Of T))
+- uid: Mirage.IMessageReceiver.RegisterHandler``1(Mirage.MessageDelegateWithPlayer{``0})
+  name: RegisterHandler<T>(MessageDelegateWithPlayer<T>)
+  href: api/Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_RegisterHandler__1_Mirage_MessageDelegateWithPlayer___0__
+  commentId: M:Mirage.IMessageReceiver.RegisterHandler``1(Mirage.MessageDelegateWithPlayer{``0})
+  name.vb: RegisterHandler(Of T)(MessageDelegateWithPlayer(Of T))
+  fullName: Mirage.IMessageReceiver.RegisterHandler<T>(Mirage.MessageDelegateWithPlayer<T>)
+  fullName.vb: Mirage.IMessageReceiver.RegisterHandler(Of T)(Mirage.MessageDelegateWithPlayer(Of T))
+  nameWithType: IMessageReceiver.RegisterHandler<T>(MessageDelegateWithPlayer<T>)
+  nameWithType.vb: IMessageReceiver.RegisterHandler(Of T)(MessageDelegateWithPlayer(Of T))
 - uid: Mirage.IMessageReceiver.UnregisterHandler*
   name: UnregisterHandler
   href: api/Mirage.IMessageReceiver.html#Mirage_IMessageReceiver_UnregisterHandler_
@@ -4824,6 +4870,113 @@ references:
   isSpec: "True"
   fullName: Mirage.Logging.LogSettings.SetLogLevels
   nameWithType: LogSettings.SetLogLevels
+- uid: Mirage.MessageDelegate`1
+  name: MessageDelegate<T>
+  href: api/Mirage.MessageDelegate-1.html
+  commentId: T:Mirage.MessageDelegate`1
+  name.vb: MessageDelegate(Of T)
+  fullName: Mirage.MessageDelegate<T>
+  fullName.vb: Mirage.MessageDelegate(Of T)
+  nameWithType: MessageDelegate<T>
+  nameWithType.vb: MessageDelegate(Of T)
+- uid: Mirage.MessageDelegateWithPlayer`1
+  name: MessageDelegateWithPlayer<T>
+  href: api/Mirage.MessageDelegateWithPlayer-1.html
+  commentId: T:Mirage.MessageDelegateWithPlayer`1
+  name.vb: MessageDelegateWithPlayer(Of T)
+  fullName: Mirage.MessageDelegateWithPlayer<T>
+  fullName.vb: Mirage.MessageDelegateWithPlayer(Of T)
+  nameWithType: MessageDelegateWithPlayer<T>
+  nameWithType.vb: MessageDelegateWithPlayer(Of T)
+- uid: Mirage.MessageHandler
+  name: MessageHandler
+  href: api/Mirage.MessageHandler.html
+  commentId: T:Mirage.MessageHandler
+  fullName: Mirage.MessageHandler
+  nameWithType: MessageHandler
+- uid: Mirage.MessageHandler.#ctor(System.Boolean)
+  name: MessageHandler(Boolean)
+  href: api/Mirage.MessageHandler.html#Mirage_MessageHandler__ctor_System_Boolean_
+  commentId: M:Mirage.MessageHandler.#ctor(System.Boolean)
+  fullName: Mirage.MessageHandler.MessageHandler(System.Boolean)
+  nameWithType: MessageHandler.MessageHandler(Boolean)
+- uid: Mirage.MessageHandler.#ctor*
+  name: MessageHandler
+  href: api/Mirage.MessageHandler.html#Mirage_MessageHandler__ctor_
+  commentId: Overload:Mirage.MessageHandler.#ctor
+  isSpec: "True"
+  fullName: Mirage.MessageHandler.MessageHandler
+  nameWithType: MessageHandler.MessageHandler
+- uid: Mirage.MessageHandler.ClearHandlers
+  name: ClearHandlers()
+  href: api/Mirage.MessageHandler.html#Mirage_MessageHandler_ClearHandlers
+  commentId: M:Mirage.MessageHandler.ClearHandlers
+  fullName: Mirage.MessageHandler.ClearHandlers()
+  nameWithType: MessageHandler.ClearHandlers()
+- uid: Mirage.MessageHandler.ClearHandlers*
+  name: ClearHandlers
+  href: api/Mirage.MessageHandler.html#Mirage_MessageHandler_ClearHandlers_
+  commentId: Overload:Mirage.MessageHandler.ClearHandlers
+  isSpec: "True"
+  fullName: Mirage.MessageHandler.ClearHandlers
+  nameWithType: MessageHandler.ClearHandlers
+- uid: Mirage.MessageHandler.HandleMessage(Mirage.INetworkPlayer,System.ArraySegment{System.Byte})
+  name: HandleMessage(INetworkPlayer, ArraySegment<Byte>)
+  href: api/Mirage.MessageHandler.html#Mirage_MessageHandler_HandleMessage_Mirage_INetworkPlayer_System_ArraySegment_System_Byte__
+  commentId: M:Mirage.MessageHandler.HandleMessage(Mirage.INetworkPlayer,System.ArraySegment{System.Byte})
+  name.vb: HandleMessage(INetworkPlayer, ArraySegment(Of Byte))
+  fullName: Mirage.MessageHandler.HandleMessage(Mirage.INetworkPlayer, System.ArraySegment<System.Byte>)
+  fullName.vb: Mirage.MessageHandler.HandleMessage(Mirage.INetworkPlayer, System.ArraySegment(Of System.Byte))
+  nameWithType: MessageHandler.HandleMessage(INetworkPlayer, ArraySegment<Byte>)
+  nameWithType.vb: MessageHandler.HandleMessage(INetworkPlayer, ArraySegment(Of Byte))
+- uid: Mirage.MessageHandler.HandleMessage*
+  name: HandleMessage
+  href: api/Mirage.MessageHandler.html#Mirage_MessageHandler_HandleMessage_
+  commentId: Overload:Mirage.MessageHandler.HandleMessage
+  isSpec: "True"
+  fullName: Mirage.MessageHandler.HandleMessage
+  nameWithType: MessageHandler.HandleMessage
+- uid: Mirage.MessageHandler.RegisterHandler*
+  name: RegisterHandler
+  href: api/Mirage.MessageHandler.html#Mirage_MessageHandler_RegisterHandler_
+  commentId: Overload:Mirage.MessageHandler.RegisterHandler
+  isSpec: "True"
+  fullName: Mirage.MessageHandler.RegisterHandler
+  nameWithType: MessageHandler.RegisterHandler
+- uid: Mirage.MessageHandler.RegisterHandler``1(Mirage.MessageDelegate{``0})
+  name: RegisterHandler<T>(MessageDelegate<T>)
+  href: api/Mirage.MessageHandler.html#Mirage_MessageHandler_RegisterHandler__1_Mirage_MessageDelegate___0__
+  commentId: M:Mirage.MessageHandler.RegisterHandler``1(Mirage.MessageDelegate{``0})
+  name.vb: RegisterHandler(Of T)(MessageDelegate(Of T))
+  fullName: Mirage.MessageHandler.RegisterHandler<T>(Mirage.MessageDelegate<T>)
+  fullName.vb: Mirage.MessageHandler.RegisterHandler(Of T)(Mirage.MessageDelegate(Of T))
+  nameWithType: MessageHandler.RegisterHandler<T>(MessageDelegate<T>)
+  nameWithType.vb: MessageHandler.RegisterHandler(Of T)(MessageDelegate(Of T))
+- uid: Mirage.MessageHandler.RegisterHandler``1(Mirage.MessageDelegateWithPlayer{``0})
+  name: RegisterHandler<T>(MessageDelegateWithPlayer<T>)
+  href: api/Mirage.MessageHandler.html#Mirage_MessageHandler_RegisterHandler__1_Mirage_MessageDelegateWithPlayer___0__
+  commentId: M:Mirage.MessageHandler.RegisterHandler``1(Mirage.MessageDelegateWithPlayer{``0})
+  name.vb: RegisterHandler(Of T)(MessageDelegateWithPlayer(Of T))
+  fullName: Mirage.MessageHandler.RegisterHandler<T>(Mirage.MessageDelegateWithPlayer<T>)
+  fullName.vb: Mirage.MessageHandler.RegisterHandler(Of T)(Mirage.MessageDelegateWithPlayer(Of T))
+  nameWithType: MessageHandler.RegisterHandler<T>(MessageDelegateWithPlayer<T>)
+  nameWithType.vb: MessageHandler.RegisterHandler(Of T)(MessageDelegateWithPlayer(Of T))
+- uid: Mirage.MessageHandler.UnregisterHandler*
+  name: UnregisterHandler
+  href: api/Mirage.MessageHandler.html#Mirage_MessageHandler_UnregisterHandler_
+  commentId: Overload:Mirage.MessageHandler.UnregisterHandler
+  isSpec: "True"
+  fullName: Mirage.MessageHandler.UnregisterHandler
+  nameWithType: MessageHandler.UnregisterHandler
+- uid: Mirage.MessageHandler.UnregisterHandler``1
+  name: UnregisterHandler<T>()
+  href: api/Mirage.MessageHandler.html#Mirage_MessageHandler_UnregisterHandler__1
+  commentId: M:Mirage.MessageHandler.UnregisterHandler``1
+  name.vb: UnregisterHandler(Of T)()
+  fullName: Mirage.MessageHandler.UnregisterHandler<T>()
+  fullName.vb: Mirage.MessageHandler.UnregisterHandler(Of T)()
+  nameWithType: MessageHandler.UnregisterHandler<T>()
+  nameWithType.vb: MessageHandler.UnregisterHandler(Of T)()
 - uid: Mirage.MethodInvocationException
   name: MethodInvocationException
   href: api/Mirage.MethodInvocationException.html
@@ -4982,6 +5135,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkAuthenticator.ClientReject
   nameWithType: NetworkAuthenticator.ClientReject
+- uid: Mirage.NetworkAuthenticator.ClientSetup(Mirage.NetworkClient)
+  name: ClientSetup(NetworkClient)
+  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_ClientSetup_Mirage_NetworkClient_
+  commentId: M:Mirage.NetworkAuthenticator.ClientSetup(Mirage.NetworkClient)
+  fullName: Mirage.NetworkAuthenticator.ClientSetup(Mirage.NetworkClient)
+  nameWithType: NetworkAuthenticator.ClientSetup(NetworkClient)
+- uid: Mirage.NetworkAuthenticator.ClientSetup*
+  name: ClientSetup
+  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_ClientSetup_
+  commentId: Overload:Mirage.NetworkAuthenticator.ClientSetup
+  isSpec: "True"
+  fullName: Mirage.NetworkAuthenticator.ClientSetup
+  nameWithType: NetworkAuthenticator.ClientSetup
 - uid: Mirage.NetworkAuthenticator.OnClientAuthenticated
   name: OnClientAuthenticated
   href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_OnClientAuthenticated
@@ -5033,6 +5199,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkAuthenticator.ServerReject
   nameWithType: NetworkAuthenticator.ServerReject
+- uid: Mirage.NetworkAuthenticator.ServerSetup(Mirage.NetworkServer)
+  name: ServerSetup(NetworkServer)
+  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_ServerSetup_Mirage_NetworkServer_
+  commentId: M:Mirage.NetworkAuthenticator.ServerSetup(Mirage.NetworkServer)
+  fullName: Mirage.NetworkAuthenticator.ServerSetup(Mirage.NetworkServer)
+  nameWithType: NetworkAuthenticator.ServerSetup(NetworkServer)
+- uid: Mirage.NetworkAuthenticator.ServerSetup*
+  name: ServerSetup
+  href: api/Mirage.NetworkAuthenticator.html#Mirage_NetworkAuthenticator_ServerSetup_
+  commentId: Overload:Mirage.NetworkAuthenticator.ServerSetup
+  isSpec: "True"
+  fullName: Mirage.NetworkAuthenticator.ServerSetup
+  nameWithType: NetworkAuthenticator.ServerSetup
 - uid: Mirage.NetworkBehaviorSerializers
   name: NetworkBehaviorSerializers
   href: api/Mirage.NetworkBehaviorSerializers.html
@@ -5675,6 +5854,12 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkClient.Disconnected
   nameWithType: NetworkClient.Disconnected
+- uid: Mirage.NetworkClient.DisconnectOnException
+  name: DisconnectOnException
+  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_DisconnectOnException
+  commentId: F:Mirage.NetworkClient.DisconnectOnException
+  fullName: Mirage.NetworkClient.DisconnectOnException
+  nameWithType: NetworkClient.DisconnectOnException
 - uid: Mirage.NetworkClient.EnablePeerMetrics
   name: EnablePeerMetrics
   href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_EnablePeerMetrics
@@ -5707,6 +5892,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkClient.IsLocalClient
   nameWithType: NetworkClient.IsLocalClient
+- uid: Mirage.NetworkClient.MessageHandler
+  name: MessageHandler
+  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_MessageHandler
+  commentId: P:Mirage.NetworkClient.MessageHandler
+  fullName: Mirage.NetworkClient.MessageHandler
+  nameWithType: NetworkClient.MessageHandler
+- uid: Mirage.NetworkClient.MessageHandler*
+  name: MessageHandler
+  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_MessageHandler_
+  commentId: Overload:Mirage.NetworkClient.MessageHandler
+  isSpec: "True"
+  fullName: Mirage.NetworkClient.MessageHandler
+  nameWithType: NetworkClient.MessageHandler
 - uid: Mirage.NetworkClient.Metrics
   name: Metrics
   href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Metrics
@@ -6692,19 +6890,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkPlayer.AuthenticationData
   nameWithType: NetworkPlayer.AuthenticationData
-- uid: Mirage.NetworkPlayer.ClearHandlers
-  name: ClearHandlers()
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_ClearHandlers
-  commentId: M:Mirage.NetworkPlayer.ClearHandlers
-  fullName: Mirage.NetworkPlayer.ClearHandlers()
-  nameWithType: NetworkPlayer.ClearHandlers()
-- uid: Mirage.NetworkPlayer.ClearHandlers*
-  name: ClearHandlers
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_ClearHandlers_
-  commentId: Overload:Mirage.NetworkPlayer.ClearHandlers
-  isSpec: "True"
-  fullName: Mirage.NetworkPlayer.ClearHandlers
-  nameWithType: NetworkPlayer.ClearHandlers
 - uid: Mirage.NetworkPlayer.Connection
   name: Connection
   href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Connection
@@ -6796,49 +6981,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkPlayer.MarkAsDisconnected
   nameWithType: NetworkPlayer.MarkAsDisconnected
-- uid: Mirage.NetworkPlayer.Mirage#IMessageHandler#HandleMessage(System.ArraySegment{System.Byte})
-  name: IMessageHandler.HandleMessage(ArraySegment<Byte>)
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Mirage_IMessageHandler_HandleMessage_System_ArraySegment_System_Byte__
-  commentId: M:Mirage.NetworkPlayer.Mirage#IMessageHandler#HandleMessage(System.ArraySegment{System.Byte})
-  name.vb: Mirage.IMessageHandler.HandleMessage(ArraySegment(Of Byte))
-  fullName: Mirage.NetworkPlayer.Mirage.IMessageHandler.HandleMessage(System.ArraySegment<System.Byte>)
-  fullName.vb: Mirage.NetworkPlayer.Mirage.IMessageHandler.HandleMessage(System.ArraySegment(Of System.Byte))
-  nameWithType: NetworkPlayer.IMessageHandler.HandleMessage(ArraySegment<Byte>)
-  nameWithType.vb: NetworkPlayer.Mirage.IMessageHandler.HandleMessage(ArraySegment(Of Byte))
-- uid: Mirage.NetworkPlayer.Mirage#IMessageHandler#HandleMessage*
-  name: IMessageHandler.HandleMessage
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Mirage_IMessageHandler_HandleMessage_
-  commentId: Overload:Mirage.NetworkPlayer.Mirage#IMessageHandler#HandleMessage
-  isSpec: "True"
-  name.vb: Mirage.IMessageHandler.HandleMessage
-  fullName: Mirage.NetworkPlayer.Mirage.IMessageHandler.HandleMessage
-  nameWithType: NetworkPlayer.IMessageHandler.HandleMessage
-  nameWithType.vb: NetworkPlayer.Mirage.IMessageHandler.HandleMessage
-- uid: Mirage.NetworkPlayer.RegisterHandler*
-  name: RegisterHandler
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_RegisterHandler_
-  commentId: Overload:Mirage.NetworkPlayer.RegisterHandler
-  isSpec: "True"
-  fullName: Mirage.NetworkPlayer.RegisterHandler
-  nameWithType: NetworkPlayer.RegisterHandler
-- uid: Mirage.NetworkPlayer.RegisterHandler``1(System.Action{``0})
-  name: RegisterHandler<T>(Action<T>)
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_RegisterHandler__1_System_Action___0__
-  commentId: M:Mirage.NetworkPlayer.RegisterHandler``1(System.Action{``0})
-  name.vb: RegisterHandler(Of T)(Action(Of T))
-  fullName: Mirage.NetworkPlayer.RegisterHandler<T>(System.Action<T>)
-  fullName.vb: Mirage.NetworkPlayer.RegisterHandler(Of T)(System.Action(Of T))
-  nameWithType: NetworkPlayer.RegisterHandler<T>(Action<T>)
-  nameWithType.vb: NetworkPlayer.RegisterHandler(Of T)(Action(Of T))
-- uid: Mirage.NetworkPlayer.RegisterHandler``1(System.Action{Mirage.INetworkPlayer,``0})
-  name: RegisterHandler<T>(Action<INetworkPlayer, T>)
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_RegisterHandler__1_System_Action_Mirage_INetworkPlayer___0__
-  commentId: M:Mirage.NetworkPlayer.RegisterHandler``1(System.Action{Mirage.INetworkPlayer,``0})
-  name.vb: RegisterHandler(Of T)(Action(Of INetworkPlayer, T))
-  fullName: Mirage.NetworkPlayer.RegisterHandler<T>(System.Action<Mirage.INetworkPlayer, T>)
-  fullName.vb: Mirage.NetworkPlayer.RegisterHandler(Of T)(System.Action(Of Mirage.INetworkPlayer, T))
-  nameWithType: NetworkPlayer.RegisterHandler<T>(Action<INetworkPlayer, T>)
-  nameWithType.vb: NetworkPlayer.RegisterHandler(Of T)(Action(Of INetworkPlayer, T))
 - uid: Mirage.NetworkPlayer.RemoveFromVisList(Mirage.NetworkIdentity)
   name: RemoveFromVisList(NetworkIdentity)
   href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_RemoveFromVisList_Mirage_NetworkIdentity_
@@ -6916,22 +7058,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkPlayer.ToString
   nameWithType: NetworkPlayer.ToString
-- uid: Mirage.NetworkPlayer.UnregisterHandler*
-  name: UnregisterHandler
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_UnregisterHandler_
-  commentId: Overload:Mirage.NetworkPlayer.UnregisterHandler
-  isSpec: "True"
-  fullName: Mirage.NetworkPlayer.UnregisterHandler
-  nameWithType: NetworkPlayer.UnregisterHandler
-- uid: Mirage.NetworkPlayer.UnregisterHandler``1
-  name: UnregisterHandler<T>()
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_UnregisterHandler__1
-  commentId: M:Mirage.NetworkPlayer.UnregisterHandler``1
-  name.vb: UnregisterHandler(Of T)()
-  fullName: Mirage.NetworkPlayer.UnregisterHandler<T>()
-  fullName.vb: Mirage.NetworkPlayer.UnregisterHandler(Of T)()
-  nameWithType: NetworkPlayer.UnregisterHandler<T>()
-  nameWithType.vb: NetworkPlayer.UnregisterHandler(Of T)()
 - uid: Mirage.NetworkPongMessage
   name: NetworkPongMessage
   href: api/Mirage.NetworkPongMessage.html
@@ -7275,6 +7401,12 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkServer.Disconnected
   nameWithType: NetworkServer.Disconnected
+- uid: Mirage.NetworkServer.DisconnectOnException
+  name: DisconnectOnException
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_DisconnectOnException
+  commentId: F:Mirage.NetworkServer.DisconnectOnException
+  fullName: Mirage.NetworkServer.DisconnectOnException
+  nameWithType: NetworkServer.DisconnectOnException
 - uid: Mirage.NetworkServer.EnablePeerMetrics
   name: EnablePeerMetrics
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_EnablePeerMetrics
@@ -7332,6 +7464,19 @@ references:
   commentId: F:Mirage.NetworkServer.MaxConnections
   fullName: Mirage.NetworkServer.MaxConnections
   nameWithType: NetworkServer.MaxConnections
+- uid: Mirage.NetworkServer.MessageHandler
+  name: MessageHandler
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_MessageHandler
+  commentId: P:Mirage.NetworkServer.MessageHandler
+  fullName: Mirage.NetworkServer.MessageHandler
+  nameWithType: NetworkServer.MessageHandler
+- uid: Mirage.NetworkServer.MessageHandler*
+  name: MessageHandler
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_MessageHandler_
+  commentId: Overload:Mirage.NetworkServer.MessageHandler
+  isSpec: "True"
+  fullName: Mirage.NetworkServer.MessageHandler
+  nameWithType: NetworkServer.MessageHandler
 - uid: Mirage.NetworkServer.Metrics
   name: Metrics
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Metrics
