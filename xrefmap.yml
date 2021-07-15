@@ -9141,6 +9141,19 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkReader.Finalize
   nameWithType: NetworkReader.Finalize
+- uid: Mirage.Serialization.NetworkReader.MoveBitPosition(System.Int32)
+  name: MoveBitPosition(Int32)
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_MoveBitPosition_System_Int32_
+  commentId: M:Mirage.Serialization.NetworkReader.MoveBitPosition(System.Int32)
+  fullName: Mirage.Serialization.NetworkReader.MoveBitPosition(System.Int32)
+  nameWithType: NetworkReader.MoveBitPosition(Int32)
+- uid: Mirage.Serialization.NetworkReader.MoveBitPosition*
+  name: MoveBitPosition
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_MoveBitPosition_
+  commentId: Overload:Mirage.Serialization.NetworkReader.MoveBitPosition
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkReader.MoveBitPosition
+  nameWithType: NetworkReader.MoveBitPosition
 - uid: Mirage.Serialization.NetworkReader.ObjectLocator
   name: ObjectLocator
   href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ObjectLocator
@@ -9183,6 +9196,19 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkReader.Read
   nameWithType: NetworkReader.Read
+- uid: Mirage.Serialization.NetworkReader.ReadAtPosition(System.Int32,System.Int32)
+  name: ReadAtPosition(Int32, Int32)
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ReadAtPosition_System_Int32_System_Int32_
+  commentId: M:Mirage.Serialization.NetworkReader.ReadAtPosition(System.Int32,System.Int32)
+  fullName: Mirage.Serialization.NetworkReader.ReadAtPosition(System.Int32, System.Int32)
+  nameWithType: NetworkReader.ReadAtPosition(Int32, Int32)
+- uid: Mirage.Serialization.NetworkReader.ReadAtPosition*
+  name: ReadAtPosition
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ReadAtPosition_
+  commentId: Overload:Mirage.Serialization.NetworkReader.ReadAtPosition
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkReader.ReadAtPosition
+  nameWithType: NetworkReader.ReadAtPosition
 - uid: Mirage.Serialization.NetworkReader.ReadBoolean
   name: ReadBoolean()
   href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_ReadBoolean
@@ -9545,6 +9571,19 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkWriter.Finalize
   nameWithType: NetworkWriter.Finalize
+- uid: Mirage.Serialization.NetworkWriter.MoveBitPosition(System.Int32)
+  name: MoveBitPosition(Int32)
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_MoveBitPosition_System_Int32_
+  commentId: M:Mirage.Serialization.NetworkWriter.MoveBitPosition(System.Int32)
+  fullName: Mirage.Serialization.NetworkWriter.MoveBitPosition(System.Int32)
+  nameWithType: NetworkWriter.MoveBitPosition(Int32)
+- uid: Mirage.Serialization.NetworkWriter.MoveBitPosition*
+  name: MoveBitPosition
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_MoveBitPosition_
+  commentId: Overload:Mirage.Serialization.NetworkWriter.MoveBitPosition
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkWriter.MoveBitPosition
+  nameWithType: NetworkWriter.MoveBitPosition
 - uid: Mirage.Serialization.NetworkWriter.PadAndCopy*
   name: PadAndCopy
   href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_PadAndCopy_
