@@ -7610,6 +7610,15 @@ references:
   fullName.vb: Mirage.NetworkServer.SendToMany(Of T)(System.Collections.Generic.IEnumerable(Of Mirage.INetworkPlayer), T, System.Int32)
   nameWithType: NetworkServer.SendToMany<T>(IEnumerable<INetworkPlayer>, T, Int32)
   nameWithType.vb: NetworkServer.SendToMany(Of T)(IEnumerable(Of INetworkPlayer), T, Int32)
+- uid: Mirage.NetworkServer.SendToMany``1(System.Collections.Generic.IReadOnlyList{Mirage.INetworkPlayer},``0,System.Int32)
+  name: SendToMany<T>(IReadOnlyList<INetworkPlayer>, T, Int32)
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_SendToMany__1_System_Collections_Generic_IReadOnlyList_Mirage_INetworkPlayer____0_System_Int32_
+  commentId: M:Mirage.NetworkServer.SendToMany``1(System.Collections.Generic.IReadOnlyList{Mirage.INetworkPlayer},``0,System.Int32)
+  name.vb: SendToMany(Of T)(IReadOnlyList(Of INetworkPlayer), T, Int32)
+  fullName: Mirage.NetworkServer.SendToMany<T>(System.Collections.Generic.IReadOnlyList<Mirage.INetworkPlayer>, T, System.Int32)
+  fullName.vb: Mirage.NetworkServer.SendToMany(Of T)(System.Collections.Generic.IReadOnlyList(Of Mirage.INetworkPlayer), T, System.Int32)
+  nameWithType: NetworkServer.SendToMany<T>(IReadOnlyList<INetworkPlayer>, T, Int32)
+  nameWithType.vb: NetworkServer.SendToMany(Of T)(IReadOnlyList(Of INetworkPlayer), T, Int32)
 - uid: Mirage.NetworkServer.SocketFactory
   name: SocketFactory
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_SocketFactory
