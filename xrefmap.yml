@@ -1,6 +1,110 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: JamesFrowen.NetworkingBenchmark
+  name: JamesFrowen.NetworkingBenchmark
+  href: api/JamesFrowen.NetworkingBenchmark.html
+  commentId: N:JamesFrowen.NetworkingBenchmark
+  fullName: JamesFrowen.NetworkingBenchmark
+  nameWithType: JamesFrowen.NetworkingBenchmark
+- uid: JamesFrowen.NetworkingBenchmark.DisplayMetricsAverageGui
+  name: DisplayMetricsAverageGui
+  href: api/JamesFrowen.NetworkingBenchmark.DisplayMetricsAverageGui.html
+  commentId: T:JamesFrowen.NetworkingBenchmark.DisplayMetricsAverageGui
+  fullName: JamesFrowen.NetworkingBenchmark.DisplayMetricsAverageGui
+  nameWithType: DisplayMetricsAverageGui
+- uid: JamesFrowen.NetworkingBenchmark.DisplayMetricsAverageGui.background
+  name: background
+  href: api/JamesFrowen.NetworkingBenchmark.DisplayMetricsAverageGui.html#JamesFrowen_NetworkingBenchmark_DisplayMetricsAverageGui_background
+  commentId: F:JamesFrowen.NetworkingBenchmark.DisplayMetricsAverageGui.background
+  fullName: JamesFrowen.NetworkingBenchmark.DisplayMetricsAverageGui.background
+  nameWithType: DisplayMetricsAverageGui.background
+- uid: JamesFrowen.NetworkingBenchmark.DisplayMetricsAverageGui.Metrics
+  name: Metrics
+  href: api/JamesFrowen.NetworkingBenchmark.DisplayMetricsAverageGui.html#JamesFrowen_NetworkingBenchmark_DisplayMetricsAverageGui_Metrics
+  commentId: P:JamesFrowen.NetworkingBenchmark.DisplayMetricsAverageGui.Metrics
+  fullName: JamesFrowen.NetworkingBenchmark.DisplayMetricsAverageGui.Metrics
+  nameWithType: DisplayMetricsAverageGui.Metrics
+- uid: JamesFrowen.NetworkingBenchmark.DisplayMetricsAverageGui.Metrics*
+  name: Metrics
+  href: api/JamesFrowen.NetworkingBenchmark.DisplayMetricsAverageGui.html#JamesFrowen_NetworkingBenchmark_DisplayMetricsAverageGui_Metrics_
+  commentId: Overload:JamesFrowen.NetworkingBenchmark.DisplayMetricsAverageGui.Metrics
+  isSpec: "True"
+  fullName: JamesFrowen.NetworkingBenchmark.DisplayMetricsAverageGui.Metrics
+  nameWithType: DisplayMetricsAverageGui.Metrics
+- uid: JamesFrowen.NetworkingBenchmark.DisplayMetricsAverageGui.offset
+  name: offset
+  href: api/JamesFrowen.NetworkingBenchmark.DisplayMetricsAverageGui.html#JamesFrowen_NetworkingBenchmark_DisplayMetricsAverageGui_offset
+  commentId: F:JamesFrowen.NetworkingBenchmark.DisplayMetricsAverageGui.offset
+  fullName: JamesFrowen.NetworkingBenchmark.DisplayMetricsAverageGui.offset
+  nameWithType: DisplayMetricsAverageGui.offset
+- uid: JamesFrowen.NetworkingBenchmark.RequestServerMetrics
+  name: RequestServerMetrics
+  href: api/JamesFrowen.NetworkingBenchmark.RequestServerMetrics.html
+  commentId: T:JamesFrowen.NetworkingBenchmark.RequestServerMetrics
+  fullName: JamesFrowen.NetworkingBenchmark.RequestServerMetrics
+  nameWithType: RequestServerMetrics
+- uid: JamesFrowen.NetworkingBenchmark.RequestServerMetrics.client
+  name: client
+  href: api/JamesFrowen.NetworkingBenchmark.RequestServerMetrics.html#JamesFrowen_NetworkingBenchmark_RequestServerMetrics_client
+  commentId: F:JamesFrowen.NetworkingBenchmark.RequestServerMetrics.client
+  fullName: JamesFrowen.NetworkingBenchmark.RequestServerMetrics.client
+  nameWithType: RequestServerMetrics.client
+- uid: JamesFrowen.NetworkingBenchmark.RequestServerMetrics.displayMetrics
+  name: displayMetrics
+  href: api/JamesFrowen.NetworkingBenchmark.RequestServerMetrics.html#JamesFrowen_NetworkingBenchmark_RequestServerMetrics_displayMetrics
+  commentId: F:JamesFrowen.NetworkingBenchmark.RequestServerMetrics.displayMetrics
+  fullName: JamesFrowen.NetworkingBenchmark.RequestServerMetrics.displayMetrics
+  nameWithType: RequestServerMetrics.displayMetrics
+- uid: JamesFrowen.NetworkingBenchmark.RequestServerMetrics.RequestMetrics
+  name: RequestMetrics
+  href: api/JamesFrowen.NetworkingBenchmark.RequestServerMetrics.html#JamesFrowen_NetworkingBenchmark_RequestServerMetrics_RequestMetrics
+  commentId: F:JamesFrowen.NetworkingBenchmark.RequestServerMetrics.RequestMetrics
+  fullName: JamesFrowen.NetworkingBenchmark.RequestServerMetrics.RequestMetrics
+  nameWithType: RequestServerMetrics.RequestMetrics
+- uid: JamesFrowen.NetworkingBenchmark.RequestServerMetrics.Runner
+  name: Runner()
+  href: api/JamesFrowen.NetworkingBenchmark.RequestServerMetrics.html#JamesFrowen_NetworkingBenchmark_RequestServerMetrics_Runner
+  commentId: M:JamesFrowen.NetworkingBenchmark.RequestServerMetrics.Runner
+  fullName: JamesFrowen.NetworkingBenchmark.RequestServerMetrics.Runner()
+  nameWithType: RequestServerMetrics.Runner()
+- uid: JamesFrowen.NetworkingBenchmark.RequestServerMetrics.Runner*
+  name: Runner
+  href: api/JamesFrowen.NetworkingBenchmark.RequestServerMetrics.html#JamesFrowen_NetworkingBenchmark_RequestServerMetrics_Runner_
+  commentId: Overload:JamesFrowen.NetworkingBenchmark.RequestServerMetrics.Runner
+  isSpec: "True"
+  fullName: JamesFrowen.NetworkingBenchmark.RequestServerMetrics.Runner
+  nameWithType: RequestServerMetrics.Runner
+- uid: JamesFrowen.NetworkingBenchmark.RequestServerMetrics.server
+  name: server
+  href: api/JamesFrowen.NetworkingBenchmark.RequestServerMetrics.html#JamesFrowen_NetworkingBenchmark_RequestServerMetrics_server
+  commentId: F:JamesFrowen.NetworkingBenchmark.RequestServerMetrics.server
+  fullName: JamesFrowen.NetworkingBenchmark.RequestServerMetrics.server
+  nameWithType: RequestServerMetrics.server
+- uid: JamesFrowen.NetworkingBenchmark.SetDisplayMetrics
+  name: SetDisplayMetrics
+  href: api/JamesFrowen.NetworkingBenchmark.SetDisplayMetrics.html
+  commentId: T:JamesFrowen.NetworkingBenchmark.SetDisplayMetrics
+  fullName: JamesFrowen.NetworkingBenchmark.SetDisplayMetrics
+  nameWithType: SetDisplayMetrics
+- uid: JamesFrowen.NetworkingBenchmark.SetDisplayMetrics.client
+  name: client
+  href: api/JamesFrowen.NetworkingBenchmark.SetDisplayMetrics.html#JamesFrowen_NetworkingBenchmark_SetDisplayMetrics_client
+  commentId: F:JamesFrowen.NetworkingBenchmark.SetDisplayMetrics.client
+  fullName: JamesFrowen.NetworkingBenchmark.SetDisplayMetrics.client
+  nameWithType: SetDisplayMetrics.client
+- uid: JamesFrowen.NetworkingBenchmark.SetDisplayMetrics.displayMetrics
+  name: displayMetrics
+  href: api/JamesFrowen.NetworkingBenchmark.SetDisplayMetrics.html#JamesFrowen_NetworkingBenchmark_SetDisplayMetrics_displayMetrics
+  commentId: F:JamesFrowen.NetworkingBenchmark.SetDisplayMetrics.displayMetrics
+  fullName: JamesFrowen.NetworkingBenchmark.SetDisplayMetrics.displayMetrics
+  nameWithType: SetDisplayMetrics.displayMetrics
+- uid: JamesFrowen.NetworkingBenchmark.SetDisplayMetrics.server
+  name: server
+  href: api/JamesFrowen.NetworkingBenchmark.SetDisplayMetrics.html#JamesFrowen_NetworkingBenchmark_SetDisplayMetrics_server
+  commentId: F:JamesFrowen.NetworkingBenchmark.SetDisplayMetrics.server
+  fullName: JamesFrowen.NetworkingBenchmark.SetDisplayMetrics.server
+  nameWithType: SetDisplayMetrics.server
 - uid: Mirage
   name: Mirage
   href: api/Mirage.html
@@ -8322,6 +8426,15 @@ references:
   fullName.vb: Mirage.PipePeerConnection.SendNotify(System.ArraySegment(Of System.Byte))
   nameWithType: PipePeerConnection.SendNotify(ArraySegment<Byte>)
   nameWithType.vb: PipePeerConnection.SendNotify(ArraySegment(Of Byte))
+- uid: Mirage.PipePeerConnection.SendNotify(System.ArraySegment{System.Byte},Mirage.SocketLayer.INotifyCallBack)
+  name: SendNotify(ArraySegment<Byte>, INotifyCallBack)
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendNotify_System_ArraySegment_System_Byte__Mirage_SocketLayer_INotifyCallBack_
+  commentId: M:Mirage.PipePeerConnection.SendNotify(System.ArraySegment{System.Byte},Mirage.SocketLayer.INotifyCallBack)
+  name.vb: SendNotify(ArraySegment(Of Byte), INotifyCallBack)
+  fullName: Mirage.PipePeerConnection.SendNotify(System.ArraySegment<System.Byte>, Mirage.SocketLayer.INotifyCallBack)
+  fullName.vb: Mirage.PipePeerConnection.SendNotify(System.ArraySegment(Of System.Byte), Mirage.SocketLayer.INotifyCallBack)
+  nameWithType: PipePeerConnection.SendNotify(ArraySegment<Byte>, INotifyCallBack)
+  nameWithType.vb: PipePeerConnection.SendNotify(ArraySegment(Of Byte), INotifyCallBack)
 - uid: Mirage.PipePeerConnection.SendNotify(System.Byte[])
   name: SendNotify(Byte[])
   href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendNotify_System_Byte___
@@ -8331,6 +8444,15 @@ references:
   fullName.vb: Mirage.PipePeerConnection.SendNotify(System.Byte())
   nameWithType: PipePeerConnection.SendNotify(Byte[])
   nameWithType.vb: PipePeerConnection.SendNotify(Byte())
+- uid: Mirage.PipePeerConnection.SendNotify(System.Byte[],Mirage.SocketLayer.INotifyCallBack)
+  name: SendNotify(Byte[], INotifyCallBack)
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendNotify_System_Byte___Mirage_SocketLayer_INotifyCallBack_
+  commentId: M:Mirage.PipePeerConnection.SendNotify(System.Byte[],Mirage.SocketLayer.INotifyCallBack)
+  name.vb: SendNotify(Byte(), INotifyCallBack)
+  fullName: Mirage.PipePeerConnection.SendNotify(System.Byte[], Mirage.SocketLayer.INotifyCallBack)
+  fullName.vb: Mirage.PipePeerConnection.SendNotify(System.Byte(), Mirage.SocketLayer.INotifyCallBack)
+  nameWithType: PipePeerConnection.SendNotify(Byte[], INotifyCallBack)
+  nameWithType.vb: PipePeerConnection.SendNotify(Byte(), INotifyCallBack)
 - uid: Mirage.PipePeerConnection.SendNotify(System.Byte[],System.Int32,System.Int32)
   name: SendNotify(Byte[], Int32, Int32)
   href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendNotify_System_Byte___System_Int32_System_Int32_
@@ -8340,6 +8462,15 @@ references:
   fullName.vb: Mirage.PipePeerConnection.SendNotify(System.Byte(), System.Int32, System.Int32)
   nameWithType: PipePeerConnection.SendNotify(Byte[], Int32, Int32)
   nameWithType.vb: PipePeerConnection.SendNotify(Byte(), Int32, Int32)
+- uid: Mirage.PipePeerConnection.SendNotify(System.Byte[],System.Int32,System.Int32,Mirage.SocketLayer.INotifyCallBack)
+  name: SendNotify(Byte[], Int32, Int32, INotifyCallBack)
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendNotify_System_Byte___System_Int32_System_Int32_Mirage_SocketLayer_INotifyCallBack_
+  commentId: M:Mirage.PipePeerConnection.SendNotify(System.Byte[],System.Int32,System.Int32,Mirage.SocketLayer.INotifyCallBack)
+  name.vb: SendNotify(Byte(), Int32, Int32, INotifyCallBack)
+  fullName: Mirage.PipePeerConnection.SendNotify(System.Byte[], System.Int32, System.Int32, Mirage.SocketLayer.INotifyCallBack)
+  fullName.vb: Mirage.PipePeerConnection.SendNotify(System.Byte(), System.Int32, System.Int32, Mirage.SocketLayer.INotifyCallBack)
+  nameWithType: PipePeerConnection.SendNotify(Byte[], Int32, Int32, INotifyCallBack)
+  nameWithType.vb: PipePeerConnection.SendNotify(Byte(), Int32, Int32, INotifyCallBack)
 - uid: Mirage.PipePeerConnection.SendNotify*
   name: SendNotify
   href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendNotify_
