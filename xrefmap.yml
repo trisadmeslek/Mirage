@@ -11078,6 +11078,12 @@ references:
   isSpec: "True"
   fullName: Mirage.ServerObjectManager.AddCharacter
   nameWithType: ServerObjectManager.AddCharacter
+- uid: Mirage.ServerObjectManager.Destroy(Mirage.NetworkIdentity,System.Boolean)
+  name: Destroy(NetworkIdentity, Boolean)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_Destroy_Mirage_NetworkIdentity_System_Boolean_
+  commentId: M:Mirage.ServerObjectManager.Destroy(Mirage.NetworkIdentity,System.Boolean)
+  fullName: Mirage.ServerObjectManager.Destroy(Mirage.NetworkIdentity, System.Boolean)
+  nameWithType: ServerObjectManager.Destroy(NetworkIdentity, Boolean)
 - uid: Mirage.ServerObjectManager.Destroy(UnityEngine.GameObject,System.Boolean)
   name: Destroy(GameObject, Boolean)
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_Destroy_UnityEngine_GameObject_System_Boolean_
