@@ -8793,6 +8793,25 @@ references:
   commentId: N:Mirage.Serialization
   fullName: Mirage.Serialization
   nameWithType: Mirage.Serialization
+- uid: Mirage.Serialization.BitHelper
+  name: BitHelper
+  href: api/Mirage.Serialization.BitHelper.html
+  commentId: T:Mirage.Serialization.BitHelper
+  fullName: Mirage.Serialization.BitHelper
+  nameWithType: BitHelper
+- uid: Mirage.Serialization.BitHelper.BitCount(System.Single,System.Single)
+  name: BitCount(Single, Single)
+  href: api/Mirage.Serialization.BitHelper.html#Mirage_Serialization_BitHelper_BitCount_System_Single_System_Single_
+  commentId: M:Mirage.Serialization.BitHelper.BitCount(System.Single,System.Single)
+  fullName: Mirage.Serialization.BitHelper.BitCount(System.Single, System.Single)
+  nameWithType: BitHelper.BitCount(Single, Single)
+- uid: Mirage.Serialization.BitHelper.BitCount*
+  name: BitCount
+  href: api/Mirage.Serialization.BitHelper.html#Mirage_Serialization_BitHelper_BitCount_
+  commentId: Overload:Mirage.Serialization.BitHelper.BitCount
+  isSpec: "True"
+  fullName: Mirage.Serialization.BitHelper.BitCount
+  nameWithType: BitHelper.BitCount
 - uid: Mirage.Serialization.BitMask
   name: BitMask
   href: api/Mirage.Serialization.BitMask.html
@@ -8991,12 +9010,127 @@ references:
   fullName.vb: Mirage.Serialization.CollectionExtensions.WriteList(Of T)(Mirage.Serialization.NetworkWriter, System.Collections.Generic.List(Of T))
   nameWithType: CollectionExtensions.WriteList<T>(NetworkWriter, List<T>)
   nameWithType.vb: CollectionExtensions.WriteList(Of T)(NetworkWriter, List(Of T))
-- uid: Mirage.Serialization.Compression
-  name: Compression
-  href: api/Mirage.Serialization.Compression.html
-  commentId: T:Mirage.Serialization.Compression
-  fullName: Mirage.Serialization.Compression
-  nameWithType: Compression
+- uid: Mirage.Serialization.CompressedExtensions
+  name: CompressedExtensions
+  href: api/Mirage.Serialization.CompressedExtensions.html
+  commentId: T:Mirage.Serialization.CompressedExtensions
+  fullName: Mirage.Serialization.CompressedExtensions
+  nameWithType: CompressedExtensions
+- uid: Mirage.Serialization.CompressedExtensions.PackRotation(Mirage.Serialization.NetworkWriter,UnityEngine.Quaternion)
+  name: PackRotation(NetworkWriter, Quaternion)
+  href: api/Mirage.Serialization.CompressedExtensions.html#Mirage_Serialization_CompressedExtensions_PackRotation_Mirage_Serialization_NetworkWriter_UnityEngine_Quaternion_
+  commentId: M:Mirage.Serialization.CompressedExtensions.PackRotation(Mirage.Serialization.NetworkWriter,UnityEngine.Quaternion)
+  fullName: Mirage.Serialization.CompressedExtensions.PackRotation(Mirage.Serialization.NetworkWriter, UnityEngine.Quaternion)
+  nameWithType: CompressedExtensions.PackRotation(NetworkWriter, Quaternion)
+- uid: Mirage.Serialization.CompressedExtensions.PackRotation*
+  name: PackRotation
+  href: api/Mirage.Serialization.CompressedExtensions.html#Mirage_Serialization_CompressedExtensions_PackRotation_
+  commentId: Overload:Mirage.Serialization.CompressedExtensions.PackRotation
+  isSpec: "True"
+  fullName: Mirage.Serialization.CompressedExtensions.PackRotation
+  nameWithType: CompressedExtensions.PackRotation
+- uid: Mirage.Serialization.CompressedExtensions.UnpackRotation(Mirage.Serialization.NetworkReader)
+  name: UnpackRotation(NetworkReader)
+  href: api/Mirage.Serialization.CompressedExtensions.html#Mirage_Serialization_CompressedExtensions_UnpackRotation_Mirage_Serialization_NetworkReader_
+  commentId: M:Mirage.Serialization.CompressedExtensions.UnpackRotation(Mirage.Serialization.NetworkReader)
+  fullName: Mirage.Serialization.CompressedExtensions.UnpackRotation(Mirage.Serialization.NetworkReader)
+  nameWithType: CompressedExtensions.UnpackRotation(NetworkReader)
+- uid: Mirage.Serialization.CompressedExtensions.UnpackRotation*
+  name: UnpackRotation
+  href: api/Mirage.Serialization.CompressedExtensions.html#Mirage_Serialization_CompressedExtensions_UnpackRotation_
+  commentId: Overload:Mirage.Serialization.CompressedExtensions.UnpackRotation
+  isSpec: "True"
+  fullName: Mirage.Serialization.CompressedExtensions.UnpackRotation
+  nameWithType: CompressedExtensions.UnpackRotation
+- uid: Mirage.Serialization.FloatPacker
+  name: FloatPacker
+  href: api/Mirage.Serialization.FloatPacker.html
+  commentId: T:Mirage.Serialization.FloatPacker
+  fullName: Mirage.Serialization.FloatPacker
+  nameWithType: FloatPacker
+- uid: Mirage.Serialization.FloatPacker.#ctor(System.Single,System.Single)
+  name: FloatPacker(Single, Single)
+  href: api/Mirage.Serialization.FloatPacker.html#Mirage_Serialization_FloatPacker__ctor_System_Single_System_Single_
+  commentId: M:Mirage.Serialization.FloatPacker.#ctor(System.Single,System.Single)
+  fullName: Mirage.Serialization.FloatPacker.FloatPacker(System.Single, System.Single)
+  nameWithType: FloatPacker.FloatPacker(Single, Single)
+- uid: Mirage.Serialization.FloatPacker.#ctor*
+  name: FloatPacker
+  href: api/Mirage.Serialization.FloatPacker.html#Mirage_Serialization_FloatPacker__ctor_
+  commentId: Overload:Mirage.Serialization.FloatPacker.#ctor
+  isSpec: "True"
+  fullName: Mirage.Serialization.FloatPacker.FloatPacker
+  nameWithType: FloatPacker.FloatPacker
+- uid: Mirage.Serialization.FloatPacker.FromBitCount(System.Single,System.Int32)
+  name: FromBitCount(Single, Int32)
+  href: api/Mirage.Serialization.FloatPacker.html#Mirage_Serialization_FloatPacker_FromBitCount_System_Single_System_Int32_
+  commentId: M:Mirage.Serialization.FloatPacker.FromBitCount(System.Single,System.Int32)
+  fullName: Mirage.Serialization.FloatPacker.FromBitCount(System.Single, System.Int32)
+  nameWithType: FloatPacker.FromBitCount(Single, Int32)
+- uid: Mirage.Serialization.FloatPacker.FromBitCount*
+  name: FromBitCount
+  href: api/Mirage.Serialization.FloatPacker.html#Mirage_Serialization_FloatPacker_FromBitCount_
+  commentId: Overload:Mirage.Serialization.FloatPacker.FromBitCount
+  isSpec: "True"
+  fullName: Mirage.Serialization.FloatPacker.FromBitCount
+  nameWithType: FloatPacker.FromBitCount
+- uid: Mirage.Serialization.FloatPacker.Pack(Mirage.Serialization.NetworkWriter,System.Single)
+  name: Pack(NetworkWriter, Single)
+  href: api/Mirage.Serialization.FloatPacker.html#Mirage_Serialization_FloatPacker_Pack_Mirage_Serialization_NetworkWriter_System_Single_
+  commentId: M:Mirage.Serialization.FloatPacker.Pack(Mirage.Serialization.NetworkWriter,System.Single)
+  fullName: Mirage.Serialization.FloatPacker.Pack(Mirage.Serialization.NetworkWriter, System.Single)
+  nameWithType: FloatPacker.Pack(NetworkWriter, Single)
+- uid: Mirage.Serialization.FloatPacker.Pack(System.Single)
+  name: Pack(Single)
+  href: api/Mirage.Serialization.FloatPacker.html#Mirage_Serialization_FloatPacker_Pack_System_Single_
+  commentId: M:Mirage.Serialization.FloatPacker.Pack(System.Single)
+  fullName: Mirage.Serialization.FloatPacker.Pack(System.Single)
+  nameWithType: FloatPacker.Pack(Single)
+- uid: Mirage.Serialization.FloatPacker.Pack*
+  name: Pack
+  href: api/Mirage.Serialization.FloatPacker.html#Mirage_Serialization_FloatPacker_Pack_
+  commentId: Overload:Mirage.Serialization.FloatPacker.Pack
+  isSpec: "True"
+  fullName: Mirage.Serialization.FloatPacker.Pack
+  nameWithType: FloatPacker.Pack
+- uid: Mirage.Serialization.FloatPacker.PackNoClamp(Mirage.Serialization.NetworkWriter,System.Single)
+  name: PackNoClamp(NetworkWriter, Single)
+  href: api/Mirage.Serialization.FloatPacker.html#Mirage_Serialization_FloatPacker_PackNoClamp_Mirage_Serialization_NetworkWriter_System_Single_
+  commentId: M:Mirage.Serialization.FloatPacker.PackNoClamp(Mirage.Serialization.NetworkWriter,System.Single)
+  fullName: Mirage.Serialization.FloatPacker.PackNoClamp(Mirage.Serialization.NetworkWriter, System.Single)
+  nameWithType: FloatPacker.PackNoClamp(NetworkWriter, Single)
+- uid: Mirage.Serialization.FloatPacker.PackNoClamp(System.Single)
+  name: PackNoClamp(Single)
+  href: api/Mirage.Serialization.FloatPacker.html#Mirage_Serialization_FloatPacker_PackNoClamp_System_Single_
+  commentId: M:Mirage.Serialization.FloatPacker.PackNoClamp(System.Single)
+  fullName: Mirage.Serialization.FloatPacker.PackNoClamp(System.Single)
+  nameWithType: FloatPacker.PackNoClamp(Single)
+- uid: Mirage.Serialization.FloatPacker.PackNoClamp*
+  name: PackNoClamp
+  href: api/Mirage.Serialization.FloatPacker.html#Mirage_Serialization_FloatPacker_PackNoClamp_
+  commentId: Overload:Mirage.Serialization.FloatPacker.PackNoClamp
+  isSpec: "True"
+  fullName: Mirage.Serialization.FloatPacker.PackNoClamp
+  nameWithType: FloatPacker.PackNoClamp
+- uid: Mirage.Serialization.FloatPacker.Unpack(Mirage.Serialization.NetworkReader)
+  name: Unpack(NetworkReader)
+  href: api/Mirage.Serialization.FloatPacker.html#Mirage_Serialization_FloatPacker_Unpack_Mirage_Serialization_NetworkReader_
+  commentId: M:Mirage.Serialization.FloatPacker.Unpack(Mirage.Serialization.NetworkReader)
+  fullName: Mirage.Serialization.FloatPacker.Unpack(Mirage.Serialization.NetworkReader)
+  nameWithType: FloatPacker.Unpack(NetworkReader)
+- uid: Mirage.Serialization.FloatPacker.Unpack(System.UInt32)
+  name: Unpack(UInt32)
+  href: api/Mirage.Serialization.FloatPacker.html#Mirage_Serialization_FloatPacker_Unpack_System_UInt32_
+  commentId: M:Mirage.Serialization.FloatPacker.Unpack(System.UInt32)
+  fullName: Mirage.Serialization.FloatPacker.Unpack(System.UInt32)
+  nameWithType: FloatPacker.Unpack(UInt32)
+- uid: Mirage.Serialization.FloatPacker.Unpack*
+  name: Unpack
+  href: api/Mirage.Serialization.FloatPacker.html#Mirage_Serialization_FloatPacker_Unpack_
+  commentId: Overload:Mirage.Serialization.FloatPacker.Unpack
+  isSpec: "True"
+  fullName: Mirage.Serialization.FloatPacker.Unpack
+  nameWithType: FloatPacker.Unpack
 - uid: Mirage.Serialization.GenericTypesSerializationExtensions
   name: GenericTypesSerializationExtensions
   href: api/Mirage.Serialization.GenericTypesSerializationExtensions.html
@@ -10329,6 +10463,63 @@ references:
   fullName: Mirage.Serialization.PooledNetworkWriter.System.IDisposable.Dispose
   nameWithType: PooledNetworkWriter.IDisposable.Dispose
   nameWithType.vb: PooledNetworkWriter.System.IDisposable.Dispose
+- uid: Mirage.Serialization.QuaternionPacker
+  name: QuaternionPacker
+  href: api/Mirage.Serialization.QuaternionPacker.html
+  commentId: T:Mirage.Serialization.QuaternionPacker
+  fullName: Mirage.Serialization.QuaternionPacker
+  nameWithType: QuaternionPacker
+- uid: Mirage.Serialization.QuaternionPacker.#ctor(System.Int32)
+  name: QuaternionPacker(Int32)
+  href: api/Mirage.Serialization.QuaternionPacker.html#Mirage_Serialization_QuaternionPacker__ctor_System_Int32_
+  commentId: M:Mirage.Serialization.QuaternionPacker.#ctor(System.Int32)
+  fullName: Mirage.Serialization.QuaternionPacker.QuaternionPacker(System.Int32)
+  nameWithType: QuaternionPacker.QuaternionPacker(Int32)
+- uid: Mirage.Serialization.QuaternionPacker.#ctor*
+  name: QuaternionPacker
+  href: api/Mirage.Serialization.QuaternionPacker.html#Mirage_Serialization_QuaternionPacker__ctor_
+  commentId: Overload:Mirage.Serialization.QuaternionPacker.#ctor
+  isSpec: "True"
+  fullName: Mirage.Serialization.QuaternionPacker.QuaternionPacker
+  nameWithType: QuaternionPacker.QuaternionPacker
+- uid: Mirage.Serialization.QuaternionPacker.Default10
+  name: Default10
+  href: api/Mirage.Serialization.QuaternionPacker.html#Mirage_Serialization_QuaternionPacker_Default10
+  commentId: F:Mirage.Serialization.QuaternionPacker.Default10
+  fullName: Mirage.Serialization.QuaternionPacker.Default10
+  nameWithType: QuaternionPacker.Default10
+- uid: Mirage.Serialization.QuaternionPacker.Default9
+  name: Default9
+  href: api/Mirage.Serialization.QuaternionPacker.html#Mirage_Serialization_QuaternionPacker_Default9
+  commentId: F:Mirage.Serialization.QuaternionPacker.Default9
+  fullName: Mirage.Serialization.QuaternionPacker.Default9
+  nameWithType: QuaternionPacker.Default9
+- uid: Mirage.Serialization.QuaternionPacker.Pack(Mirage.Serialization.NetworkWriter,UnityEngine.Quaternion)
+  name: Pack(NetworkWriter, Quaternion)
+  href: api/Mirage.Serialization.QuaternionPacker.html#Mirage_Serialization_QuaternionPacker_Pack_Mirage_Serialization_NetworkWriter_UnityEngine_Quaternion_
+  commentId: M:Mirage.Serialization.QuaternionPacker.Pack(Mirage.Serialization.NetworkWriter,UnityEngine.Quaternion)
+  fullName: Mirage.Serialization.QuaternionPacker.Pack(Mirage.Serialization.NetworkWriter, UnityEngine.Quaternion)
+  nameWithType: QuaternionPacker.Pack(NetworkWriter, Quaternion)
+- uid: Mirage.Serialization.QuaternionPacker.Pack*
+  name: Pack
+  href: api/Mirage.Serialization.QuaternionPacker.html#Mirage_Serialization_QuaternionPacker_Pack_
+  commentId: Overload:Mirage.Serialization.QuaternionPacker.Pack
+  isSpec: "True"
+  fullName: Mirage.Serialization.QuaternionPacker.Pack
+  nameWithType: QuaternionPacker.Pack
+- uid: Mirage.Serialization.QuaternionPacker.Unpack(Mirage.Serialization.NetworkReader)
+  name: Unpack(NetworkReader)
+  href: api/Mirage.Serialization.QuaternionPacker.html#Mirage_Serialization_QuaternionPacker_Unpack_Mirage_Serialization_NetworkReader_
+  commentId: M:Mirage.Serialization.QuaternionPacker.Unpack(Mirage.Serialization.NetworkReader)
+  fullName: Mirage.Serialization.QuaternionPacker.Unpack(Mirage.Serialization.NetworkReader)
+  nameWithType: QuaternionPacker.Unpack(NetworkReader)
+- uid: Mirage.Serialization.QuaternionPacker.Unpack*
+  name: Unpack
+  href: api/Mirage.Serialization.QuaternionPacker.html#Mirage_Serialization_QuaternionPacker_Unpack_
+  commentId: Overload:Mirage.Serialization.QuaternionPacker.Unpack
+  isSpec: "True"
+  fullName: Mirage.Serialization.QuaternionPacker.Unpack
+  nameWithType: QuaternionPacker.Unpack
 - uid: Mirage.Serialization.Reader`1
   name: Reader<T>
   href: api/Mirage.Serialization.Reader-1.html
@@ -11009,6 +11200,96 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.UnityTypesExtensions.WriteVector4
   nameWithType: UnityTypesExtensions.WriteVector4
+- uid: Mirage.Serialization.Vector2Packer
+  name: Vector2Packer
+  href: api/Mirage.Serialization.Vector2Packer.html
+  commentId: T:Mirage.Serialization.Vector2Packer
+  fullName: Mirage.Serialization.Vector2Packer
+  nameWithType: Vector2Packer
+- uid: Mirage.Serialization.Vector2Packer.#ctor(UnityEngine.Vector2,UnityEngine.Vector2)
+  name: Vector2Packer(Vector2, Vector2)
+  href: api/Mirage.Serialization.Vector2Packer.html#Mirage_Serialization_Vector2Packer__ctor_UnityEngine_Vector2_UnityEngine_Vector2_
+  commentId: M:Mirage.Serialization.Vector2Packer.#ctor(UnityEngine.Vector2,UnityEngine.Vector2)
+  fullName: Mirage.Serialization.Vector2Packer.Vector2Packer(UnityEngine.Vector2, UnityEngine.Vector2)
+  nameWithType: Vector2Packer.Vector2Packer(Vector2, Vector2)
+- uid: Mirage.Serialization.Vector2Packer.#ctor*
+  name: Vector2Packer
+  href: api/Mirage.Serialization.Vector2Packer.html#Mirage_Serialization_Vector2Packer__ctor_
+  commentId: Overload:Mirage.Serialization.Vector2Packer.#ctor
+  isSpec: "True"
+  fullName: Mirage.Serialization.Vector2Packer.Vector2Packer
+  nameWithType: Vector2Packer.Vector2Packer
+- uid: Mirage.Serialization.Vector2Packer.Pack(Mirage.Serialization.NetworkWriter,UnityEngine.Vector2)
+  name: Pack(NetworkWriter, Vector2)
+  href: api/Mirage.Serialization.Vector2Packer.html#Mirage_Serialization_Vector2Packer_Pack_Mirage_Serialization_NetworkWriter_UnityEngine_Vector2_
+  commentId: M:Mirage.Serialization.Vector2Packer.Pack(Mirage.Serialization.NetworkWriter,UnityEngine.Vector2)
+  fullName: Mirage.Serialization.Vector2Packer.Pack(Mirage.Serialization.NetworkWriter, UnityEngine.Vector2)
+  nameWithType: Vector2Packer.Pack(NetworkWriter, Vector2)
+- uid: Mirage.Serialization.Vector2Packer.Pack*
+  name: Pack
+  href: api/Mirage.Serialization.Vector2Packer.html#Mirage_Serialization_Vector2Packer_Pack_
+  commentId: Overload:Mirage.Serialization.Vector2Packer.Pack
+  isSpec: "True"
+  fullName: Mirage.Serialization.Vector2Packer.Pack
+  nameWithType: Vector2Packer.Pack
+- uid: Mirage.Serialization.Vector2Packer.Unpack(Mirage.Serialization.NetworkReader)
+  name: Unpack(NetworkReader)
+  href: api/Mirage.Serialization.Vector2Packer.html#Mirage_Serialization_Vector2Packer_Unpack_Mirage_Serialization_NetworkReader_
+  commentId: M:Mirage.Serialization.Vector2Packer.Unpack(Mirage.Serialization.NetworkReader)
+  fullName: Mirage.Serialization.Vector2Packer.Unpack(Mirage.Serialization.NetworkReader)
+  nameWithType: Vector2Packer.Unpack(NetworkReader)
+- uid: Mirage.Serialization.Vector2Packer.Unpack*
+  name: Unpack
+  href: api/Mirage.Serialization.Vector2Packer.html#Mirage_Serialization_Vector2Packer_Unpack_
+  commentId: Overload:Mirage.Serialization.Vector2Packer.Unpack
+  isSpec: "True"
+  fullName: Mirage.Serialization.Vector2Packer.Unpack
+  nameWithType: Vector2Packer.Unpack
+- uid: Mirage.Serialization.Vector3Packer
+  name: Vector3Packer
+  href: api/Mirage.Serialization.Vector3Packer.html
+  commentId: T:Mirage.Serialization.Vector3Packer
+  fullName: Mirage.Serialization.Vector3Packer
+  nameWithType: Vector3Packer
+- uid: Mirage.Serialization.Vector3Packer.#ctor(UnityEngine.Vector3,UnityEngine.Vector3)
+  name: Vector3Packer(Vector3, Vector3)
+  href: api/Mirage.Serialization.Vector3Packer.html#Mirage_Serialization_Vector3Packer__ctor_UnityEngine_Vector3_UnityEngine_Vector3_
+  commentId: M:Mirage.Serialization.Vector3Packer.#ctor(UnityEngine.Vector3,UnityEngine.Vector3)
+  fullName: Mirage.Serialization.Vector3Packer.Vector3Packer(UnityEngine.Vector3, UnityEngine.Vector3)
+  nameWithType: Vector3Packer.Vector3Packer(Vector3, Vector3)
+- uid: Mirage.Serialization.Vector3Packer.#ctor*
+  name: Vector3Packer
+  href: api/Mirage.Serialization.Vector3Packer.html#Mirage_Serialization_Vector3Packer__ctor_
+  commentId: Overload:Mirage.Serialization.Vector3Packer.#ctor
+  isSpec: "True"
+  fullName: Mirage.Serialization.Vector3Packer.Vector3Packer
+  nameWithType: Vector3Packer.Vector3Packer
+- uid: Mirage.Serialization.Vector3Packer.Pack(Mirage.Serialization.NetworkWriter,UnityEngine.Vector3)
+  name: Pack(NetworkWriter, Vector3)
+  href: api/Mirage.Serialization.Vector3Packer.html#Mirage_Serialization_Vector3Packer_Pack_Mirage_Serialization_NetworkWriter_UnityEngine_Vector3_
+  commentId: M:Mirage.Serialization.Vector3Packer.Pack(Mirage.Serialization.NetworkWriter,UnityEngine.Vector3)
+  fullName: Mirage.Serialization.Vector3Packer.Pack(Mirage.Serialization.NetworkWriter, UnityEngine.Vector3)
+  nameWithType: Vector3Packer.Pack(NetworkWriter, Vector3)
+- uid: Mirage.Serialization.Vector3Packer.Pack*
+  name: Pack
+  href: api/Mirage.Serialization.Vector3Packer.html#Mirage_Serialization_Vector3Packer_Pack_
+  commentId: Overload:Mirage.Serialization.Vector3Packer.Pack
+  isSpec: "True"
+  fullName: Mirage.Serialization.Vector3Packer.Pack
+  nameWithType: Vector3Packer.Pack
+- uid: Mirage.Serialization.Vector3Packer.Unpack(Mirage.Serialization.NetworkReader)
+  name: Unpack(NetworkReader)
+  href: api/Mirage.Serialization.Vector3Packer.html#Mirage_Serialization_Vector3Packer_Unpack_Mirage_Serialization_NetworkReader_
+  commentId: M:Mirage.Serialization.Vector3Packer.Unpack(Mirage.Serialization.NetworkReader)
+  fullName: Mirage.Serialization.Vector3Packer.Unpack(Mirage.Serialization.NetworkReader)
+  nameWithType: Vector3Packer.Unpack(NetworkReader)
+- uid: Mirage.Serialization.Vector3Packer.Unpack*
+  name: Unpack
+  href: api/Mirage.Serialization.Vector3Packer.html#Mirage_Serialization_Vector3Packer_Unpack_
+  commentId: Overload:Mirage.Serialization.Vector3Packer.Unpack
+  isSpec: "True"
+  fullName: Mirage.Serialization.Vector3Packer.Unpack
+  nameWithType: Vector3Packer.Unpack
 - uid: Mirage.Serialization.Writer`1
   name: Writer<T>
   href: api/Mirage.Serialization.Writer-1.html
