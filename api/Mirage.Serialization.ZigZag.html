@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class VariableBlockPacker
+    <title>Class ZigZag
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class VariableBlockPacker
+    <meta name="title" content="Class ZigZag
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -95,17 +95,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Mirage.Serialization.VariableBlockPacker">
+            <article class="content wrap" id="_content" data-uid="Mirage.Serialization.ZigZag">
   
   
-  <h1 id="Mirage_Serialization_VariableBlockPacker" data-uid="Mirage.Serialization.VariableBlockPacker" class="text-break">Class VariableBlockPacker
+  <h1 id="Mirage_Serialization_ZigZag" data-uid="Mirage.Serialization.ZigZag" class="text-break">Class ZigZag
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>See <a href="https://gist.github.com/mfuerstenau/ba870a29e16536fdbaba">zigzag encoding</a><br></p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">VariableBlockPacker</span></div>
+    <div class="level1"><span class="xref">ZigZag</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -133,26 +134,26 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Mirage.Serialization.html">Mirage.Serialization</a></h6>
   <h6><strong>Assembly</strong>: Mirage.dll</h6>
-  <h5 id="Mirage_Serialization_VariableBlockPacker_syntax">Syntax</h5>
+  <h5 id="Mirage_Serialization_ZigZag_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class VariableBlockPacker</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ZigZag</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_VariableBlockPacker_Pack_Mirage_Serialization_NetworkWriter_System_UInt64_System_Int32_.md&amp;value=---%0Auid%3A%20Mirage.Serialization.VariableBlockPacker.Pack(Mirage.Serialization.NetworkWriter%2CSystem.UInt64%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_ZigZag_Decode_System_UInt32_.md&amp;value=---%0Auid%3A%20Mirage.Serialization.ZigZag.Decode(System.UInt32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/2ca4f5be75d122578d8a48455368d97f7e4f5f5d/Assets/Mirage/Runtime/Serialization/Packers/VariableBlockPacker.cs/#L35">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/2ca4f5be75d122578d8a48455368d97f7e4f5f5d/Assets/Mirage/Runtime/Serialization/Packers/ZigZag.cs/#L20">View Source</a>
   </span>
-  <a id="Mirage_Serialization_VariableBlockPacker_Pack_" data-uid="Mirage.Serialization.VariableBlockPacker.Pack*"></a>
-  <h4 id="Mirage_Serialization_VariableBlockPacker_Pack_Mirage_Serialization_NetworkWriter_System_UInt64_System_Int32_" data-uid="Mirage.Serialization.VariableBlockPacker.Pack(Mirage.Serialization.NetworkWriter,System.UInt64,System.Int32)">Pack(NetworkWriter, UInt64, Int32)</h4>
+  <a id="Mirage_Serialization_ZigZag_Decode_" data-uid="Mirage.Serialization.ZigZag.Decode*"></a>
+  <h4 id="Mirage_Serialization_ZigZag_Decode_System_UInt32_" data-uid="Mirage.Serialization.ZigZag.Decode(System.UInt32)">Decode(UInt32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Pack(NetworkWriter writer, ulong value, int blockSize)</code></pre>
+    <pre><code class="lang-csharp hljs">public static int Decode(uint v)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -165,36 +166,41 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirage.Serialization.NetworkWriter.html">NetworkWriter</a></td>
-        <td><span class="parametername">writer</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><span class="parametername">v</span></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint64">UInt64</a></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
+        <th>Type</th>
+        <th>Description</th>
       </tr>
+    </thead>
+    <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">blockSize</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_VariableBlockPacker_Unpack_Mirage_Serialization_NetworkReader_System_Int32_.md&amp;value=---%0Auid%3A%20Mirage.Serialization.VariableBlockPacker.Unpack(Mirage.Serialization.NetworkReader%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_ZigZag_Decode_System_UInt64_.md&amp;value=---%0Auid%3A%20Mirage.Serialization.ZigZag.Decode(System.UInt64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/2ca4f5be75d122578d8a48455368d97f7e4f5f5d/Assets/Mirage/Runtime/Serialization/Packers/VariableBlockPacker.cs/#L53">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/2ca4f5be75d122578d8a48455368d97f7e4f5f5d/Assets/Mirage/Runtime/Serialization/Packers/ZigZag.cs/#L25">View Source</a>
   </span>
-  <a id="Mirage_Serialization_VariableBlockPacker_Unpack_" data-uid="Mirage.Serialization.VariableBlockPacker.Unpack*"></a>
-  <h4 id="Mirage_Serialization_VariableBlockPacker_Unpack_Mirage_Serialization_NetworkReader_System_Int32_" data-uid="Mirage.Serialization.VariableBlockPacker.Unpack(Mirage.Serialization.NetworkReader,System.Int32)">Unpack(NetworkReader, Int32)</h4>
+  <a id="Mirage_Serialization_ZigZag_Decode_" data-uid="Mirage.Serialization.ZigZag.Decode*"></a>
+  <h4 id="Mirage_Serialization_ZigZag_Decode_System_UInt64_" data-uid="Mirage.Serialization.ZigZag.Decode(System.UInt64)">Decode(UInt64)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ulong Unpack(NetworkReader reader, int blockSize)</code></pre>
+    <pre><code class="lang-csharp hljs">public static long Decode(ulong v)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -207,13 +213,102 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Mirage.Serialization.NetworkReader.html">NetworkReader</a></td>
-        <td><span class="parametername">reader</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint64">UInt64</a></td>
+        <td><span class="parametername">v</span></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_ZigZag_Encode_System_Int32_.md&amp;value=---%0Auid%3A%20Mirage.Serialization.ZigZag.Encode(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/2ca4f5be75d122578d8a48455368d97f7e4f5f5d/Assets/Mirage/Runtime/Serialization/Packers/ZigZag.cs/#L10">View Source</a>
+  </span>
+  <a id="Mirage_Serialization_ZigZag_Encode_" data-uid="Mirage.Serialization.ZigZag.Encode*"></a>
+  <h4 id="Mirage_Serialization_ZigZag_Encode_System_Int32_" data-uid="Mirage.Serialization.ZigZag.Encode(System.Int32)">Encode(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static uint Encode(int v)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">blockSize</span></td>
+        <td><span class="parametername">v</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_ZigZag_Encode_System_Int64_.md&amp;value=---%0Auid%3A%20Mirage.Serialization.ZigZag.Encode(System.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/2ca4f5be75d122578d8a48455368d97f7e4f5f5d/Assets/Mirage/Runtime/Serialization/Packers/ZigZag.cs/#L15">View Source</a>
+  </span>
+  <a id="Mirage_Serialization_ZigZag_Encode_" data-uid="Mirage.Serialization.ZigZag.Encode*"></a>
+  <h4 id="Mirage_Serialization_ZigZag_Encode_System_Int64_" data-uid="Mirage.Serialization.ZigZag.Encode(System.Int64)">Encode(Int64)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ulong Encode(long v)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td><span class="parametername">v</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -241,10 +336,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_VariableBlockPacker.md&amp;value=---%0Auid%3A%20Mirage.Serialization.VariableBlockPacker%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_ZigZag.md&amp;value=---%0Auid%3A%20Mirage.Serialization.ZigZag%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/blob/2ca4f5be75d122578d8a48455368d97f7e4f5f5d/Assets/Mirage/Runtime/Serialization/Packers/VariableBlockPacker.cs/#L30" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirageNet/Mirage/blob/2ca4f5be75d122578d8a48455368d97f7e4f5f5d/Assets/Mirage/Runtime/Serialization/Packers/ZigZag.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
