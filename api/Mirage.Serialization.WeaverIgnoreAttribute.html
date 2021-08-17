@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SceneAttribute
+    <title>Class WeaverIgnoreAttribute
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SceneAttribute
+    <meta name="title" content="Class WeaverIgnoreAttribute
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -95,26 +95,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Mirage.SceneAttribute">
+            <article class="content wrap" id="_content" data-uid="Mirage.Serialization.WeaverIgnoreAttribute">
   
   
-  <h1 id="Mirage_SceneAttribute" data-uid="Mirage.SceneAttribute" class="text-break">Class SceneAttribute
+  <h1 id="Mirage_Serialization_WeaverIgnoreAttribute" data-uid="Mirage.Serialization.WeaverIgnoreAttribute" class="text-break">Class WeaverIgnoreAttribute
   </h1>
-  <div class="markdown level0 summary"><p>Converts a string property into a Scene property in the inspector</p>
+  <div class="markdown level0 summary"><p>Tells Weaver to ignore an Extension method</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.attribute">Attribute</a></div>
-    <div class="level2"><a class="xref" href="https://docs.unity3d.com/ScriptReference/PropertyAttribute.html">PropertyAttribute</a></div>
-    <div class="level3"><span class="xref">SceneAttribute</span></div>
+    <div class="level2"><span class="xref">WeaverIgnoreAttribute</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="https://docs.unity3d.com/ScriptReference/PropertyAttribute-order.html">PropertyAttribute.order</a>
-    </div>
     <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.attribute.equals#System_Attribute_Equals_System_Object_">Attribute.Equals(Object)</a>
     </div>
@@ -242,11 +238,12 @@
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Mirage.html">Mirage</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mirage.Serialization.html">Mirage.Serialization</a></h6>
   <h6><strong>Assembly</strong>: Mirage.dll</h6>
-  <h5 id="Mirage_SceneAttribute_syntax">Syntax</h5>
+  <h5 id="Mirage_Serialization_WeaverIgnoreAttribute_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class SceneAttribute : PropertyAttribute</code></pre>
+    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Method)]
+public sealed class WeaverIgnoreAttribute : Attribute</code></pre>
   </div>
 </article>
           </div>
@@ -256,10 +253,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_SceneAttribute.md&amp;value=---%0Auid%3A%20Mirage.SceneAttribute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_WeaverIgnoreAttribute.md&amp;value=---%0Auid%3A%20Mirage.Serialization.WeaverIgnoreAttribute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/blob/57f725083deb3bbef3f584a9d0ca0fb7d6d84a7f/Assets/Mirage/Runtime/CustomAttributes.cs/#L113" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirageNet/Mirage/blob/57f725083deb3bbef3f584a9d0ca0fb7d6d84a7f/Assets/Mirage/Runtime/Serialization/WeaverAttributes.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
