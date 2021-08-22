@@ -8793,6 +8793,38 @@ references:
   commentId: N:Mirage.Serialization
   fullName: Mirage.Serialization
   nameWithType: Mirage.Serialization
+- uid: Mirage.Serialization.BitCountAttribute
+  name: BitCountAttribute
+  href: api/Mirage.Serialization.BitCountAttribute.html
+  commentId: T:Mirage.Serialization.BitCountAttribute
+  fullName: Mirage.Serialization.BitCountAttribute
+  nameWithType: BitCountAttribute
+- uid: Mirage.Serialization.BitCountAttribute.#ctor(System.Int32)
+  name: BitCountAttribute(Int32)
+  href: api/Mirage.Serialization.BitCountAttribute.html#Mirage_Serialization_BitCountAttribute__ctor_System_Int32_
+  commentId: M:Mirage.Serialization.BitCountAttribute.#ctor(System.Int32)
+  fullName: Mirage.Serialization.BitCountAttribute.BitCountAttribute(System.Int32)
+  nameWithType: BitCountAttribute.BitCountAttribute(Int32)
+- uid: Mirage.Serialization.BitCountAttribute.#ctor*
+  name: BitCountAttribute
+  href: api/Mirage.Serialization.BitCountAttribute.html#Mirage_Serialization_BitCountAttribute__ctor_
+  commentId: Overload:Mirage.Serialization.BitCountAttribute.#ctor
+  isSpec: "True"
+  fullName: Mirage.Serialization.BitCountAttribute.BitCountAttribute
+  nameWithType: BitCountAttribute.BitCountAttribute
+- uid: Mirage.Serialization.BitCountAttribute.BitCount
+  name: BitCount
+  href: api/Mirage.Serialization.BitCountAttribute.html#Mirage_Serialization_BitCountAttribute_BitCount
+  commentId: P:Mirage.Serialization.BitCountAttribute.BitCount
+  fullName: Mirage.Serialization.BitCountAttribute.BitCount
+  nameWithType: BitCountAttribute.BitCount
+- uid: Mirage.Serialization.BitCountAttribute.BitCount*
+  name: BitCount
+  href: api/Mirage.Serialization.BitCountAttribute.html#Mirage_Serialization_BitCountAttribute_BitCount_
+  commentId: Overload:Mirage.Serialization.BitCountAttribute.BitCount
+  isSpec: "True"
+  fullName: Mirage.Serialization.BitCountAttribute.BitCount
+  nameWithType: BitCountAttribute.BitCount
 - uid: Mirage.Serialization.BitHelper
   name: BitHelper
   href: api/Mirage.Serialization.BitHelper.html
