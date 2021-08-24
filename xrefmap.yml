@@ -11558,6 +11558,25 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.ZigZag.Encode
   nameWithType: ZigZag.Encode
+- uid: Mirage.Serialization.ZigZagEncodeAttribute
+  name: ZigZagEncodeAttribute
+  href: api/Mirage.Serialization.ZigZagEncodeAttribute.html
+  commentId: T:Mirage.Serialization.ZigZagEncodeAttribute
+  fullName: Mirage.Serialization.ZigZagEncodeAttribute
+  nameWithType: ZigZagEncodeAttribute
+- uid: Mirage.Serialization.ZigZagEncodeAttribute.#ctor
+  name: ZigZagEncodeAttribute()
+  href: api/Mirage.Serialization.ZigZagEncodeAttribute.html#Mirage_Serialization_ZigZagEncodeAttribute__ctor
+  commentId: M:Mirage.Serialization.ZigZagEncodeAttribute.#ctor
+  fullName: Mirage.Serialization.ZigZagEncodeAttribute.ZigZagEncodeAttribute()
+  nameWithType: ZigZagEncodeAttribute.ZigZagEncodeAttribute()
+- uid: Mirage.Serialization.ZigZagEncodeAttribute.#ctor*
+  name: ZigZagEncodeAttribute
+  href: api/Mirage.Serialization.ZigZagEncodeAttribute.html#Mirage_Serialization_ZigZagEncodeAttribute__ctor_
+  commentId: Overload:Mirage.Serialization.ZigZagEncodeAttribute.#ctor
+  isSpec: "True"
+  fullName: Mirage.Serialization.ZigZagEncodeAttribute.ZigZagEncodeAttribute
+  nameWithType: ZigZagEncodeAttribute.ZigZagEncodeAttribute
 - uid: Mirage.ServerAttribute
   name: ServerAttribute
   href: api/Mirage.ServerAttribute.html

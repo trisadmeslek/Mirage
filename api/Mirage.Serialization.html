@@ -108,7 +108,7 @@
       <section><p>Tells weaver how many bits to sue for field</p>
 <p>Only works with interager fields (byte, int, ulong, enums etc)</p>
 <p>
-NOTE: bits are truncated when using this, so signed values will lose their sign.
+NOTE: bits are truncated when using this, so signed values will lose their sign. Use <a class="xref" href="Mirage.Serialization.ZigZagEncodeAttribute.html">ZigZagEncodeAttribute</a> as well if value might be negative
 </p>
 </section>
       <h4><a class="xref" href="Mirage.Serialization.BitHelper.html">BitHelper</a></h4>
@@ -182,6 +182,9 @@ This will be populated by the weaver</p>
 </section>
       <h4><a class="xref" href="Mirage.Serialization.ZigZag.html">ZigZag</a></h4>
       <section><p>See <a href="https://gist.github.com/mfuerstenau/ba870a29e16536fdbaba">zigzag encoding</a><br></p>
+</section>
+      <h4><a class="xref" href="Mirage.Serialization.ZigZagEncodeAttribute.html">ZigZagEncodeAttribute</a></h4>
+      <section><p>Used along size <a class="xref" href="Mirage.Serialization.BitCountAttribute.html">BitCountAttribute</a> to encodes a interager value using <a class="xref" href="Mirage.Serialization.ZigZag.html">ZigZag</a> so that both positive and negative values can be sent</p>
 </section>
 </article>
           </div>
