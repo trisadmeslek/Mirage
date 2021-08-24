@@ -8825,6 +8825,25 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.BitCountAttribute.BitCount
   nameWithType: BitCountAttribute.BitCount
+- uid: Mirage.Serialization.BitCountFromRangeAttribute
+  name: BitCountFromRangeAttribute
+  href: api/Mirage.Serialization.BitCountFromRangeAttribute.html
+  commentId: T:Mirage.Serialization.BitCountFromRangeAttribute
+  fullName: Mirage.Serialization.BitCountFromRangeAttribute
+  nameWithType: BitCountFromRangeAttribute
+- uid: Mirage.Serialization.BitCountFromRangeAttribute.#ctor(System.Int32,System.Int32)
+  name: BitCountFromRangeAttribute(Int32, Int32)
+  href: api/Mirage.Serialization.BitCountFromRangeAttribute.html#Mirage_Serialization_BitCountFromRangeAttribute__ctor_System_Int32_System_Int32_
+  commentId: M:Mirage.Serialization.BitCountFromRangeAttribute.#ctor(System.Int32,System.Int32)
+  fullName: Mirage.Serialization.BitCountFromRangeAttribute.BitCountFromRangeAttribute(System.Int32, System.Int32)
+  nameWithType: BitCountFromRangeAttribute.BitCountFromRangeAttribute(Int32, Int32)
+- uid: Mirage.Serialization.BitCountFromRangeAttribute.#ctor*
+  name: BitCountFromRangeAttribute
+  href: api/Mirage.Serialization.BitCountFromRangeAttribute.html#Mirage_Serialization_BitCountFromRangeAttribute__ctor_
+  commentId: Overload:Mirage.Serialization.BitCountFromRangeAttribute.#ctor
+  isSpec: "True"
+  fullName: Mirage.Serialization.BitCountFromRangeAttribute.BitCountFromRangeAttribute
+  nameWithType: BitCountFromRangeAttribute.BitCountFromRangeAttribute
 - uid: Mirage.Serialization.BitHelper
   name: BitHelper
   href: api/Mirage.Serialization.BitHelper.html
