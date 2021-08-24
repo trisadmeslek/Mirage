@@ -1124,6 +1124,46 @@
     "title": "Best Practices",
     "keywords": "Best Practices work in progress Custom Messages If you send custom message regularly then the message should be a struct so that there is no GC/allocations struct CreateVisualEffect { public Vector3 position; public Guid prefabId; }"
   },
+  "Articles/Guides/BitPacking/BitCount.html": {
+    "href": "Articles/Guides/BitPacking/BitCount.html",
+    "title": "Bit Count",
+    "keywords": "Bit Count The bit count of Integer based fields can be set using BitCountAttribute This will truncate the bits so that only the small bits are sent. There is no range checking for values using BitCount, so value that are too big or negative will not be unpacked correctly This means that BitCount should not be used with values that can be negative because this data will be lost. If you do need to send negative values then use ZigZagEncode or BitCountFromRange Use cases A Value with a maximum value An index in an array of known size eg array with 10 elements, index can be sent as 4 bits A Random int hash where you only need to send 16 bits Supported Types Byte Short UShort Int Uint Long ULong Enum Example 1 Health which is between 0 and 100 public class MyNetworkBehaviour : NetworkBehaviour { [SyncVar, BitCount(7)] public int Health; } BitCount = 7 so max value of Health is 127 health = 57 will serialize to 011_1001 health = -1 (out of range) will serialize to 111_1111 health = 130 (out of range) will serialize to 000_0010 Example 2 Weapon index in a list of 6 weapons public class MyNetworkBehaviour : NetworkBehaviour { [SyncVar, BitCount(3)] public int WeaponIndex; } BitCount = 7 so max value of Health is 7 WeaponIndex = 5 will serialize to 101 Generated Code Source: [SyncVar, BitCount(7)] public int myValue; Generated: public override bool SerializeSyncVars(NetworkWriter writer, bool initialState) { ulong syncVarDirtyBits = base.SyncVarDirtyBits; bool result = base.SerializeSyncVars(writer, initialize); if (initialState) { writer.Write((ulong)this.myValue, 7); return true; } writer.Write(syncVarDirtyBits, 1); if ((syncVarDirtyBits & 1UL) != 0UL) { writer.Write((ulong)this.myValue, 7); result = true; } return result; } public override void DeserializeSyncVars(NetworkReader reader, bool initialState) { base.DeserializeSyncVars(reader, initialState); if (initialState) { this.myValue = reader.Read(7); return; } ulong dirtyMask = reader.Read(1); if ((dirtyMask & 1UL) != 0UL) { this.myValue = reader.Read(7); } } last updated for Mirage v101.6.0"
+  },
+  "Articles/Guides/BitPacking/BitCountFromRange.html": {
+    "href": "Articles/Guides/BitPacking/BitCountFromRange.html",
+    "title": "Bit Count From Range",
+    "keywords": "Bit Count From Range The bit count of Integer based fields can be set using BitCountFromRangeAttribute , It will use the given range to calculate the required bit count. This works in a similar way to BitCount The min value is subtracted from the value before it is written and added back on after it is read. This will shift all written values into the positive range for writing so that the sign bit is not lost. This will truncate the bits so that only the small bits are sent. There is no range checking for values using BitCount, so value that are too big or too small will not be unpacked correctly. Bit Count is calculated using bitCount = Ceiling(Log2(max - min)) , so min = -100 , max = 100 results in bit count = 8 Values are written using Write(value - min, bitCount) and read using value = Read(bitCount) + min Use cases A Value with a minimum and maximum value Supported Types Byte Short UShort Int Uint Long ULong Enum Example 1 A modifier which can add to a character value to increase or decrease it public class MyNetworkBehaviour : NetworkBehaviour { [SyncVar, BitCountFromRange(-100, 100)] public int modifier; } Range = 200 so bit count is 8, causing real range to be -100 to 155 modifier = 57 will serialize to 1001_1101 modifier = -57 will serialize to 0010_1011 modifier = -110 (out of range) will serialize to 1111_0110 modifier = 130 will serialize to 1110_0110 , even tho 130 is out of range there is enough range because bit count rounds up. modifier = 170 (out of range) will serialize to 0000_1110 Example 2 A Direction enum to say which way a model is facing public enum MyDirection { Backwards = -1, None = 0, Forwards = 1, } public class MyNetworkBehaviour : NetworkBehaviour { [SyncVar, BitCount(-1, 1)] public MyDirection direction; } Range = 3 so bit count is 2 , causing real range to be -1 to 2 direction = -1 will serialize to 00 direction = 1 will serialize to 10 Generated Code Source: [SyncVar, BitCountFromRange(-100, 100)] public int myValue; Generated: public override bool SerializeSyncVars(NetworkWriter writer, bool initialState) { ulong syncVarDirtyBits = base.SyncVarDirtyBits; bool result = base.SerializeSyncVars(writer, initialize); if (initialState) { writer.Write((ulong)(this.myValue - (-100)), 8); return true; } writer.Write(syncVarDirtyBits, 1); if ((syncVarDirtyBits & 1UL) != 0UL) { writer.Write((ulong)(this.myValue - (-100)), 8); result = true; } return result; } public override void DeserializeSyncVars(NetworkReader reader, bool initialState) { base.DeserializeSyncVars(reader, initialState); if (initialState) { this.myValue = reader.Read(8) + (-100); return; } ulong dirtyMask = reader.Read(1); if ((dirtyMask & 1UL) != 0UL) { this.myValue = reader.Read(8) + (-100); } } last updated for Mirage v101.6.0"
+  },
+  "Articles/Guides/BitPacking/FloatPacker.html": {
+    "href": "Articles/Guides/BitPacking/FloatPacker.html",
+    "title": "",
+    "keywords": "work in progress"
+  },
+  "Articles/Guides/BitPacking/index.html": {
+    "href": "Articles/Guides/BitPacking/index.html",
+    "title": "Bit Packing",
+    "keywords": "Bit Packing Bit packing is a form of data compression that reducing that number of bits it takes to serialize a value. A simple example of this is an integer that is always between 0 and 100. Normally an integer will be serialized as 32 bits, but knowing its range is 100 it can be packed into only 7 bits. Bit Packing in Mirage Mirage has many attributes that can be applied to SyncVars and Rpc parameters BitCount Sets the number of bits on an integer BitCountFromRange Sets the number of bits from a given range, rounding up. ZigZagEncode Encodes a value using ZigZag Encoding . Only useable with BitCount or VarIntBlock"
+  },
+  "Articles/Guides/BitPacking/QuaternionPacker.html": {
+    "href": "Articles/Guides/BitPacking/QuaternionPacker.html",
+    "title": "",
+    "keywords": "work in progress"
+  },
+  "Articles/Guides/BitPacking/VarIntBlock.html": {
+    "href": "Articles/Guides/BitPacking/VarIntBlock.html",
+    "title": "",
+    "keywords": "work in progress // todo update name to match attribute"
+  },
+  "Articles/Guides/BitPacking/VectorPacker.html": {
+    "href": "Articles/Guides/BitPacking/VectorPacker.html",
+    "title": "",
+    "keywords": "work in progress"
+  },
+  "Articles/Guides/BitPacking/ZigZagEncode.html": {
+    "href": "Articles/Guides/BitPacking/ZigZagEncode.html",
+    "title": "ZigZag Encode",
+    "keywords": "ZigZag Encode To encoding a value using ZigZag Encoding you can use the ZigZagEncodeAttribute This will cause negative values to be encoded as positive so that the sign bit is not lost when packing. This works best with VarIntBlock but also works with BitCount . This attribute can not be used on the same field as BitCountFromRange , this is because BitCountFromRange already ensures negative values are packed correctly. Note The sign of a value will take up 1 bit, so if the value is in range -+100 it will need a bit count of 8 Use cases A value that can be negative or positive Supported Types Byte Short Int Long Enum Example 1 A modifier which can add to a character value to increase or decrease it public class MyNetworkBehaviour : NetworkBehaviour { [SyncVar, BitCount(8), ZigZagEncode] public int modifier; } Range = 200 so bit count is 8, causing real range to be -128 to 127 modifier = 57 will serialize to 0111_0010 modifier = -57 will serialize to 0111_0001 modifier = -110 will serialize to 1101_1011 , even tho -110 is out of range there is enough range because bit count rounds up. modifier = 130 (out of range) will serialize to 0000_0100 Generated Code Source: [SyncVar, BitCount(8), ZigZagEncode] public int myValue; Generated: public override bool SerializeSyncVars(NetworkWriter writer, bool initialState) { ulong syncVarDirtyBits = base.SyncVarDirtyBits; bool result = base.SerializeSyncVars(writer, initialize); if (initialState) { writer.Write((ulong)ZigZag.Encode(this.myValue), 8); return true; } writer.Write(syncVarDirtyBits, 1); if ((syncVarDirtyBits & 1UL) != 0UL) { writer.Write((ulong)ZigZag.Encode(this.myValue), 8); result = true; } return result; } public override void DeserializeSyncVars(NetworkReader reader, bool initialState) { base.DeserializeSyncVars(reader, initialState); if (initialState) { this.myValue = ZigZag.Decode(reader.Read(8)); return; } ulong dirtyMask = reader.Read(1); if ((dirtyMask & 1UL) != 0UL) { this.myValue = ZigZag.Decode(reader.Read(8)); } } last updated for Mirage v101.6.0"
+  },
   "Articles/Guides/ClockSync.html": {
     "href": "Articles/Guides/ClockSync.html",
     "title": "Clock Synchronization",
