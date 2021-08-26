@@ -110,9 +110,12 @@
 <p>
 NOTE: bits are truncated when using this, so signed values will lose their sign. Use <a class="xref" href="Mirage.Serialization.ZigZagEncodeAttribute.html">ZigZagEncodeAttribute</a> as well if value might be negative
 </p>
+<p>Also See: <a href="https://miragenet.github.io/Mirage/Articles/Guides/BitPacking/BitCount.html">Bit Packing Documentation</a></p>
 </section>
       <h4><a class="xref" href="Mirage.Serialization.BitCountFromRangeAttribute.html">BitCountFromRangeAttribute</a></h4>
-      <section></section>
+      <section><p>Calculates bitcount from then given min/max values and then packs using <a class="xref" href="Mirage.Serialization.BitCountAttribute.html">BitCountAttribute</a></p>
+<p>Also See: <a href="https://miragenet.github.io/Mirage/Articles/Guides/BitPacking/BitCountFromRange.html">Bit Packing Documentation</a></p>
+</section>
       <h4><a class="xref" href="Mirage.Serialization.BitHelper.html">BitHelper</a></h4>
       <section></section>
       <h4><a class="xref" href="Mirage.Serialization.BitMask.html">BitMask</a></h4>
@@ -121,6 +124,10 @@ NOTE: bits are truncated when using this, so signed values will lose their sign.
       <section></section>
       <h4><a class="xref" href="Mirage.Serialization.CompressedExtensions.html">CompressedExtensions</a></h4>
       <section></section>
+      <h4><a class="xref" href="Mirage.Serialization.FloatPackAttribute.html">FloatPackAttribute</a></h4>
+      <section><p>Packs a float field, clamped from -max to +max, with</p>
+<p>Also See: <a href="https://miragenet.github.io/Mirage/Articles/Guides/BitPacking/BitCountFromRange.html">Bit Packing Documentation</a></p>
+</section>
       <h4><a class="xref" href="Mirage.Serialization.FloatPacker.html">FloatPacker</a></h4>
       <section><p>Helps compresses a float into a reduced number of bits</p>
 </section>
@@ -187,6 +194,7 @@ This will be populated by the weaver</p>
 </section>
       <h4><a class="xref" href="Mirage.Serialization.ZigZagEncodeAttribute.html">ZigZagEncodeAttribute</a></h4>
       <section><p>Used along size <a class="xref" href="Mirage.Serialization.BitCountAttribute.html">BitCountAttribute</a> to encodes a interager value using <a class="xref" href="Mirage.Serialization.ZigZag.html">ZigZag</a> so that both positive and negative values can be sent</p>
+<p>Also See: <a href="https://miragenet.github.io/Mirage/Articles/Guides/BitPacking/BitCountFromRange.html">Bit Packing Documentation</a></p>
 </section>
 </article>
           </div>

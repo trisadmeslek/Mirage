@@ -8812,19 +8812,6 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.BitCountAttribute.BitCountAttribute
   nameWithType: BitCountAttribute.BitCountAttribute
-- uid: Mirage.Serialization.BitCountAttribute.BitCount
-  name: BitCount
-  href: api/Mirage.Serialization.BitCountAttribute.html#Mirage_Serialization_BitCountAttribute_BitCount
-  commentId: P:Mirage.Serialization.BitCountAttribute.BitCount
-  fullName: Mirage.Serialization.BitCountAttribute.BitCount
-  nameWithType: BitCountAttribute.BitCount
-- uid: Mirage.Serialization.BitCountAttribute.BitCount*
-  name: BitCount
-  href: api/Mirage.Serialization.BitCountAttribute.html#Mirage_Serialization_BitCountAttribute_BitCount_
-  commentId: Overload:Mirage.Serialization.BitCountAttribute.BitCount
-  isSpec: "True"
-  fullName: Mirage.Serialization.BitCountAttribute.BitCount
-  nameWithType: BitCountAttribute.BitCount
 - uid: Mirage.Serialization.BitCountFromRangeAttribute
   name: BitCountFromRangeAttribute
   href: api/Mirage.Serialization.BitCountFromRangeAttribute.html
@@ -9099,12 +9086,43 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.CompressedExtensions.UnpackRotation
   nameWithType: CompressedExtensions.UnpackRotation
+- uid: Mirage.Serialization.FloatPackAttribute
+  name: FloatPackAttribute
+  href: api/Mirage.Serialization.FloatPackAttribute.html
+  commentId: T:Mirage.Serialization.FloatPackAttribute
+  fullName: Mirage.Serialization.FloatPackAttribute
+  nameWithType: FloatPackAttribute
+- uid: Mirage.Serialization.FloatPackAttribute.#ctor(System.Single,System.Int32)
+  name: FloatPackAttribute(Single, Int32)
+  href: api/Mirage.Serialization.FloatPackAttribute.html#Mirage_Serialization_FloatPackAttribute__ctor_System_Single_System_Int32_
+  commentId: M:Mirage.Serialization.FloatPackAttribute.#ctor(System.Single,System.Int32)
+  fullName: Mirage.Serialization.FloatPackAttribute.FloatPackAttribute(System.Single, System.Int32)
+  nameWithType: FloatPackAttribute.FloatPackAttribute(Single, Int32)
+- uid: Mirage.Serialization.FloatPackAttribute.#ctor(System.Single,System.Single)
+  name: FloatPackAttribute(Single, Single)
+  href: api/Mirage.Serialization.FloatPackAttribute.html#Mirage_Serialization_FloatPackAttribute__ctor_System_Single_System_Single_
+  commentId: M:Mirage.Serialization.FloatPackAttribute.#ctor(System.Single,System.Single)
+  fullName: Mirage.Serialization.FloatPackAttribute.FloatPackAttribute(System.Single, System.Single)
+  nameWithType: FloatPackAttribute.FloatPackAttribute(Single, Single)
+- uid: Mirage.Serialization.FloatPackAttribute.#ctor*
+  name: FloatPackAttribute
+  href: api/Mirage.Serialization.FloatPackAttribute.html#Mirage_Serialization_FloatPackAttribute__ctor_
+  commentId: Overload:Mirage.Serialization.FloatPackAttribute.#ctor
+  isSpec: "True"
+  fullName: Mirage.Serialization.FloatPackAttribute.FloatPackAttribute
+  nameWithType: FloatPackAttribute.FloatPackAttribute
 - uid: Mirage.Serialization.FloatPacker
   name: FloatPacker
   href: api/Mirage.Serialization.FloatPacker.html
   commentId: T:Mirage.Serialization.FloatPacker
   fullName: Mirage.Serialization.FloatPacker
   nameWithType: FloatPacker
+- uid: Mirage.Serialization.FloatPacker.#ctor(System.Single,System.Int32)
+  name: FloatPacker(Single, Int32)
+  href: api/Mirage.Serialization.FloatPacker.html#Mirage_Serialization_FloatPacker__ctor_System_Single_System_Int32_
+  commentId: M:Mirage.Serialization.FloatPacker.#ctor(System.Single,System.Int32)
+  fullName: Mirage.Serialization.FloatPacker.FloatPacker(System.Single, System.Int32)
+  nameWithType: FloatPacker.FloatPacker(Single, Int32)
 - uid: Mirage.Serialization.FloatPacker.#ctor(System.Single,System.Single)
   name: FloatPacker(Single, Single)
   href: api/Mirage.Serialization.FloatPacker.html#Mirage_Serialization_FloatPacker__ctor_System_Single_System_Single_
@@ -9118,19 +9136,6 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.FloatPacker.FloatPacker
   nameWithType: FloatPacker.FloatPacker
-- uid: Mirage.Serialization.FloatPacker.FromBitCount(System.Single,System.Int32)
-  name: FromBitCount(Single, Int32)
-  href: api/Mirage.Serialization.FloatPacker.html#Mirage_Serialization_FloatPacker_FromBitCount_System_Single_System_Int32_
-  commentId: M:Mirage.Serialization.FloatPacker.FromBitCount(System.Single,System.Int32)
-  fullName: Mirage.Serialization.FloatPacker.FromBitCount(System.Single, System.Int32)
-  nameWithType: FloatPacker.FromBitCount(Single, Int32)
-- uid: Mirage.Serialization.FloatPacker.FromBitCount*
-  name: FromBitCount
-  href: api/Mirage.Serialization.FloatPacker.html#Mirage_Serialization_FloatPacker_FromBitCount_
-  commentId: Overload:Mirage.Serialization.FloatPacker.FromBitCount
-  isSpec: "True"
-  fullName: Mirage.Serialization.FloatPacker.FromBitCount
-  nameWithType: FloatPacker.FromBitCount
 - uid: Mirage.Serialization.FloatPacker.Pack(Mirage.Serialization.NetworkWriter,System.Single)
   name: Pack(NetworkWriter, Single)
   href: api/Mirage.Serialization.FloatPacker.html#Mirage_Serialization_FloatPacker_Pack_Mirage_Serialization_NetworkWriter_System_Single_
