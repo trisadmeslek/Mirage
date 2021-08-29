@@ -1,0 +1,445 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Peer
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Peer
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" style="display:flex;" href="https://github.com/MirageNet/Mirage">
+                <img id="logo" class="svg" style="vertical-align: middle;align-self:center;" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="navbar-form-flex">
+                  <div class="toggle-mode">
+                    <div class="icon">
+                    <i aria-hidden="true">🌕</i>
+                  </div>
+                  <label class="switch">
+                    <input type="checkbox" id="switch-style">
+                    <span class="slider round"></span>
+                  </label>
+                  <div class="icon">
+                    <i aria-hidden="true">🌙</i>
+                  </div>
+                    <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Mirage.SocketLayer.Peer">
+  
+  
+  <h1 id="Mirage_SocketLayer_Peer" data-uid="Mirage.SocketLayer.Peer" class="text-break">Class Peer
+  </h1>
+  <div class="markdown level0 summary"><p>Controls flow of data in/out of mirage, Uses <a class="xref" href="Mirage.SocketLayer.ISocket.html">ISocket</a></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">Peer</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Mirage.SocketLayer.IPeer.html">IPeer</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mirage.SocketLayer.html">Mirage.SocketLayer</a></h6>
+  <h6><strong>Assembly</strong>: Mirage.SocketLayer.dll</h6>
+  <h5 id="Mirage_SocketLayer_Peer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class Peer : IPeer</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_SocketLayer_Peer__ctor_Mirage_SocketLayer_ISocket_Mirage_SocketLayer_IDataHandler_Mirage_SocketLayer_Config_UnityEngine_ILogger_Mirage_SocketLayer_Metrics_.md&amp;value=---%0Auid%3A%20Mirage.SocketLayer.Peer.%23ctor(Mirage.SocketLayer.ISocket%2CMirage.SocketLayer.IDataHandler%2CMirage.SocketLayer.Config%2CUnityEngine.ILogger%2CMirage.SocketLayer.Metrics)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/8815b7e21712b45662bc3edaf28facccf934cd52/Assets/Mirage/Runtime/SocketLayer/Peer.cs/#L55">View Source</a>
+  </span>
+  <a id="Mirage_SocketLayer_Peer__ctor_" data-uid="Mirage.SocketLayer.Peer.#ctor*"></a>
+  <h4 id="Mirage_SocketLayer_Peer__ctor_Mirage_SocketLayer_ISocket_Mirage_SocketLayer_IDataHandler_Mirage_SocketLayer_Config_UnityEngine_ILogger_Mirage_SocketLayer_Metrics_" data-uid="Mirage.SocketLayer.Peer.#ctor(Mirage.SocketLayer.ISocket,Mirage.SocketLayer.IDataHandler,Mirage.SocketLayer.Config,UnityEngine.ILogger,Mirage.SocketLayer.Metrics)">Peer(ISocket, IDataHandler, Config, ILogger, Metrics)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Peer(ISocket socket, IDataHandler dataHandler, Config config = null, ILogger logger = null, Metrics metrics = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirage.SocketLayer.ISocket.html">ISocket</a></td>
+        <td><span class="parametername">socket</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Mirage.SocketLayer.IDataHandler.html">IDataHandler</a></td>
+        <td><span class="parametername">dataHandler</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Mirage.SocketLayer.Config.html">Config</a></td>
+        <td><span class="parametername">config</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/ILogger.html">ILogger</a></td>
+        <td><span class="parametername">logger</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Mirage.SocketLayer.Metrics.html">Metrics</a></td>
+        <td><span class="parametername">metrics</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_SocketLayer_Peer_Bind_Mirage_SocketLayer_IEndPoint_.md&amp;value=---%0Auid%3A%20Mirage.SocketLayer.Peer.Bind(Mirage.SocketLayer.IEndPoint)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/8815b7e21712b45662bc3edaf28facccf934cd52/Assets/Mirage/Runtime/SocketLayer/Peer.cs/#L79">View Source</a>
+  </span>
+  <a id="Mirage_SocketLayer_Peer_Bind_" data-uid="Mirage.SocketLayer.Peer.Bind*"></a>
+  <h4 id="Mirage_SocketLayer_Peer_Bind_Mirage_SocketLayer_IEndPoint_" data-uid="Mirage.SocketLayer.Peer.Bind(Mirage.SocketLayer.IEndPoint)">Bind(IEndPoint)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Bind(IEndPoint endPoint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirage.SocketLayer.IEndPoint.html">IEndPoint</a></td>
+        <td><span class="parametername">endPoint</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_SocketLayer_Peer_Close.md&amp;value=---%0Auid%3A%20Mirage.SocketLayer.Peer.Close%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/8815b7e21712b45662bc3edaf28facccf934cd52/Assets/Mirage/Runtime/SocketLayer/Peer.cs/#L101">View Source</a>
+  </span>
+  <a id="Mirage_SocketLayer_Peer_Close_" data-uid="Mirage.SocketLayer.Peer.Close*"></a>
+  <h4 id="Mirage_SocketLayer_Peer_Close" data-uid="Mirage.SocketLayer.Peer.Close">Close()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Close()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_SocketLayer_Peer_Connect_Mirage_SocketLayer_IEndPoint_.md&amp;value=---%0Auid%3A%20Mirage.SocketLayer.Peer.Connect(Mirage.SocketLayer.IEndPoint)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/8815b7e21712b45662bc3edaf28facccf934cd52/Assets/Mirage/Runtime/SocketLayer/Peer.cs/#L86">View Source</a>
+  </span>
+  <a id="Mirage_SocketLayer_Peer_Connect_" data-uid="Mirage.SocketLayer.Peer.Connect*"></a>
+  <h4 id="Mirage_SocketLayer_Peer_Connect_Mirage_SocketLayer_IEndPoint_" data-uid="Mirage.SocketLayer.Peer.Connect(Mirage.SocketLayer.IEndPoint)">Connect(IEndPoint)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IConnection Connect(IEndPoint endPoint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirage.SocketLayer.IEndPoint.html">IEndPoint</a></td>
+        <td><span class="parametername">endPoint</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirage.SocketLayer.IConnection.html">IConnection</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_SocketLayer_Peer_Update.md&amp;value=---%0Auid%3A%20Mirage.SocketLayer.Peer.Update%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/8815b7e21712b45662bc3edaf28facccf934cd52/Assets/Mirage/Runtime/SocketLayer/Peer.cs/#L218">View Source</a>
+  </span>
+  <a id="Mirage_SocketLayer_Peer_Update_" data-uid="Mirage.SocketLayer.Peer.Update*"></a>
+  <h4 id="Mirage_SocketLayer_Peer_Update" data-uid="Mirage.SocketLayer.Peer.Update">Update()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Update()</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_SocketLayer_Peer_OnConnected.md&amp;value=---%0Auid%3A%20Mirage.SocketLayer.Peer.OnConnected%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/8815b7e21712b45662bc3edaf28facccf934cd52/Assets/Mirage/Runtime/SocketLayer/Peer.cs/#L46">View Source</a>
+  </span>
+  <h4 id="Mirage_SocketLayer_Peer_OnConnected" data-uid="Mirage.SocketLayer.Peer.OnConnected">OnConnected</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;IConnection&gt; OnConnected</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Mirage.SocketLayer.IConnection.html">IConnection</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_SocketLayer_Peer_OnConnectionFailed.md&amp;value=---%0Auid%3A%20Mirage.SocketLayer.Peer.OnConnectionFailed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/8815b7e21712b45662bc3edaf28facccf934cd52/Assets/Mirage/Runtime/SocketLayer/Peer.cs/#L48">View Source</a>
+  </span>
+  <h4 id="Mirage_SocketLayer_Peer_OnConnectionFailed" data-uid="Mirage.SocketLayer.Peer.OnConnectionFailed">OnConnectionFailed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;IConnection, RejectReason&gt; OnConnectionFailed</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;<a class="xref" href="Mirage.SocketLayer.IConnection.html">IConnection</a>, <a class="xref" href="Mirage.SocketLayer.RejectReason.html">RejectReason</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_SocketLayer_Peer_OnDisconnected.md&amp;value=---%0Auid%3A%20Mirage.SocketLayer.Peer.OnDisconnected%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/8815b7e21712b45662bc3edaf28facccf934cd52/Assets/Mirage/Runtime/SocketLayer/Peer.cs/#L47">View Source</a>
+  </span>
+  <h4 id="Mirage_SocketLayer_Peer_OnDisconnected" data-uid="Mirage.SocketLayer.Peer.OnDisconnected">OnDisconnected</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;IConnection, DisconnectReason&gt; OnDisconnected</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;<a class="xref" href="Mirage.SocketLayer.IConnection.html">IConnection</a>, <a class="xref" href="Mirage.SocketLayer.DisconnectReason.html">DisconnectReason</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Mirage.SocketLayer.IPeer.html">IPeer</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_SocketLayer_Peer.md&amp;value=---%0Auid%3A%20Mirage.SocketLayer.Peer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MirageNet/Mirage/blob/8815b7e21712b45662bc3edaf28facccf934cd52/Assets/Mirage/Runtime/SocketLayer/Peer.cs/#L31" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

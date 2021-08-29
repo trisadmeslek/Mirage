@@ -270,6 +270,24 @@ references:
   commentId: F:Mirage.Authenticators.TimeoutAuthenticator.Timeout
   fullName: Mirage.Authenticators.TimeoutAuthenticator.Timeout
   nameWithType: TimeoutAuthenticator.Timeout
+- uid: Mirage.Channel
+  name: Channel
+  href: api/Mirage.Channel.html
+  commentId: T:Mirage.Channel
+  fullName: Mirage.Channel
+  nameWithType: Channel
+- uid: Mirage.Channel.Reliable
+  name: Reliable
+  href: api/Mirage.Channel.html#Mirage_Channel_Reliable
+  commentId: F:Mirage.Channel.Reliable
+  fullName: Mirage.Channel.Reliable
+  nameWithType: Channel.Reliable
+- uid: Mirage.Channel.Unreliable
+  name: Unreliable
+  href: api/Mirage.Channel.html#Mirage_Channel_Unreliable
+  commentId: F:Mirage.Channel.Unreliable
+  fullName: Mirage.Channel.Unreliable
+  nameWithType: Channel.Unreliable
 - uid: Mirage.CharacterSpawner
   name: CharacterSpawner
   href: api/Mirage.CharacterSpawner.html
@@ -11893,6 +11911,2363 @@ references:
   commentId: T:Mirage.ShowInInspectorAttribute
   fullName: Mirage.ShowInInspectorAttribute
   nameWithType: ShowInInspectorAttribute
+- uid: Mirage.SocketLayer
+  name: Mirage.SocketLayer
+  href: api/Mirage.SocketLayer.html
+  commentId: N:Mirage.SocketLayer
+  fullName: Mirage.SocketLayer
+  nameWithType: Mirage.SocketLayer
+- uid: Mirage.SocketLayer.ByteBuffer
+  name: ByteBuffer
+  href: api/Mirage.SocketLayer.ByteBuffer.html
+  commentId: T:Mirage.SocketLayer.ByteBuffer
+  fullName: Mirage.SocketLayer.ByteBuffer
+  nameWithType: ByteBuffer
+- uid: Mirage.SocketLayer.ByteBuffer.array
+  name: array
+  href: api/Mirage.SocketLayer.ByteBuffer.html#Mirage_SocketLayer_ByteBuffer_array
+  commentId: F:Mirage.SocketLayer.ByteBuffer.array
+  fullName: Mirage.SocketLayer.ByteBuffer.array
+  nameWithType: ByteBuffer.array
+- uid: Mirage.SocketLayer.ByteBuffer.CreateNew(System.Int32,Mirage.SocketLayer.Pool{Mirage.SocketLayer.ByteBuffer})
+  name: CreateNew(Int32, Pool<ByteBuffer>)
+  href: api/Mirage.SocketLayer.ByteBuffer.html#Mirage_SocketLayer_ByteBuffer_CreateNew_System_Int32_Mirage_SocketLayer_Pool_Mirage_SocketLayer_ByteBuffer__
+  commentId: M:Mirage.SocketLayer.ByteBuffer.CreateNew(System.Int32,Mirage.SocketLayer.Pool{Mirage.SocketLayer.ByteBuffer})
+  name.vb: CreateNew(Int32, Pool(Of ByteBuffer))
+  fullName: Mirage.SocketLayer.ByteBuffer.CreateNew(System.Int32, Mirage.SocketLayer.Pool<Mirage.SocketLayer.ByteBuffer>)
+  fullName.vb: Mirage.SocketLayer.ByteBuffer.CreateNew(System.Int32, Mirage.SocketLayer.Pool(Of Mirage.SocketLayer.ByteBuffer))
+  nameWithType: ByteBuffer.CreateNew(Int32, Pool<ByteBuffer>)
+  nameWithType.vb: ByteBuffer.CreateNew(Int32, Pool(Of ByteBuffer))
+- uid: Mirage.SocketLayer.ByteBuffer.CreateNew*
+  name: CreateNew
+  href: api/Mirage.SocketLayer.ByteBuffer.html#Mirage_SocketLayer_ByteBuffer_CreateNew_
+  commentId: Overload:Mirage.SocketLayer.ByteBuffer.CreateNew
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.ByteBuffer.CreateNew
+  nameWithType: ByteBuffer.CreateNew
+- uid: Mirage.SocketLayer.ByteBuffer.Release
+  name: Release()
+  href: api/Mirage.SocketLayer.ByteBuffer.html#Mirage_SocketLayer_ByteBuffer_Release
+  commentId: M:Mirage.SocketLayer.ByteBuffer.Release
+  fullName: Mirage.SocketLayer.ByteBuffer.Release()
+  nameWithType: ByteBuffer.Release()
+- uid: Mirage.SocketLayer.ByteBuffer.Release*
+  name: Release
+  href: api/Mirage.SocketLayer.ByteBuffer.html#Mirage_SocketLayer_ByteBuffer_Release_
+  commentId: Overload:Mirage.SocketLayer.ByteBuffer.Release
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.ByteBuffer.Release
+  nameWithType: ByteBuffer.Release
+- uid: Mirage.SocketLayer.ByteBuffer.System#IDisposable#Dispose
+  name: IDisposable.Dispose()
+  href: api/Mirage.SocketLayer.ByteBuffer.html#Mirage_SocketLayer_ByteBuffer_System_IDisposable_Dispose
+  commentId: M:Mirage.SocketLayer.ByteBuffer.System#IDisposable#Dispose
+  name.vb: System.IDisposable.Dispose()
+  fullName: Mirage.SocketLayer.ByteBuffer.System.IDisposable.Dispose()
+  nameWithType: ByteBuffer.IDisposable.Dispose()
+  nameWithType.vb: ByteBuffer.System.IDisposable.Dispose()
+- uid: Mirage.SocketLayer.ByteBuffer.System#IDisposable#Dispose*
+  name: IDisposable.Dispose
+  href: api/Mirage.SocketLayer.ByteBuffer.html#Mirage_SocketLayer_ByteBuffer_System_IDisposable_Dispose_
+  commentId: Overload:Mirage.SocketLayer.ByteBuffer.System#IDisposable#Dispose
+  isSpec: "True"
+  name.vb: System.IDisposable.Dispose
+  fullName: Mirage.SocketLayer.ByteBuffer.System.IDisposable.Dispose
+  nameWithType: ByteBuffer.IDisposable.Dispose
+  nameWithType.vb: ByteBuffer.System.IDisposable.Dispose
+- uid: Mirage.SocketLayer.ByteUtils
+  name: ByteUtils
+  href: api/Mirage.SocketLayer.ByteUtils.html
+  commentId: T:Mirage.SocketLayer.ByteUtils
+  fullName: Mirage.SocketLayer.ByteUtils
+  nameWithType: ByteUtils
+- uid: Mirage.SocketLayer.ByteUtils.ReadByte(System.Byte[],System.Int32@)
+  name: ReadByte(Byte[], ref Int32)
+  href: api/Mirage.SocketLayer.ByteUtils.html#Mirage_SocketLayer_ByteUtils_ReadByte_System_Byte___System_Int32__
+  commentId: M:Mirage.SocketLayer.ByteUtils.ReadByte(System.Byte[],System.Int32@)
+  name.vb: ReadByte(Byte(), ByRef Int32)
+  fullName: Mirage.SocketLayer.ByteUtils.ReadByte(System.Byte[], ref System.Int32)
+  fullName.vb: Mirage.SocketLayer.ByteUtils.ReadByte(System.Byte(), ByRef System.Int32)
+  nameWithType: ByteUtils.ReadByte(Byte[], ref Int32)
+  nameWithType.vb: ByteUtils.ReadByte(Byte(), ByRef Int32)
+- uid: Mirage.SocketLayer.ByteUtils.ReadByte*
+  name: ReadByte
+  href: api/Mirage.SocketLayer.ByteUtils.html#Mirage_SocketLayer_ByteUtils_ReadByte_
+  commentId: Overload:Mirage.SocketLayer.ByteUtils.ReadByte
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.ByteUtils.ReadByte
+  nameWithType: ByteUtils.ReadByte
+- uid: Mirage.SocketLayer.ByteUtils.ReadUInt(System.Byte[],System.Int32@)
+  name: ReadUInt(Byte[], ref Int32)
+  href: api/Mirage.SocketLayer.ByteUtils.html#Mirage_SocketLayer_ByteUtils_ReadUInt_System_Byte___System_Int32__
+  commentId: M:Mirage.SocketLayer.ByteUtils.ReadUInt(System.Byte[],System.Int32@)
+  name.vb: ReadUInt(Byte(), ByRef Int32)
+  fullName: Mirage.SocketLayer.ByteUtils.ReadUInt(System.Byte[], ref System.Int32)
+  fullName.vb: Mirage.SocketLayer.ByteUtils.ReadUInt(System.Byte(), ByRef System.Int32)
+  nameWithType: ByteUtils.ReadUInt(Byte[], ref Int32)
+  nameWithType.vb: ByteUtils.ReadUInt(Byte(), ByRef Int32)
+- uid: Mirage.SocketLayer.ByteUtils.ReadUInt*
+  name: ReadUInt
+  href: api/Mirage.SocketLayer.ByteUtils.html#Mirage_SocketLayer_ByteUtils_ReadUInt_
+  commentId: Overload:Mirage.SocketLayer.ByteUtils.ReadUInt
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.ByteUtils.ReadUInt
+  nameWithType: ByteUtils.ReadUInt
+- uid: Mirage.SocketLayer.ByteUtils.ReadULong(System.Byte[],System.Int32@)
+  name: ReadULong(Byte[], ref Int32)
+  href: api/Mirage.SocketLayer.ByteUtils.html#Mirage_SocketLayer_ByteUtils_ReadULong_System_Byte___System_Int32__
+  commentId: M:Mirage.SocketLayer.ByteUtils.ReadULong(System.Byte[],System.Int32@)
+  name.vb: ReadULong(Byte(), ByRef Int32)
+  fullName: Mirage.SocketLayer.ByteUtils.ReadULong(System.Byte[], ref System.Int32)
+  fullName.vb: Mirage.SocketLayer.ByteUtils.ReadULong(System.Byte(), ByRef System.Int32)
+  nameWithType: ByteUtils.ReadULong(Byte[], ref Int32)
+  nameWithType.vb: ByteUtils.ReadULong(Byte(), ByRef Int32)
+- uid: Mirage.SocketLayer.ByteUtils.ReadULong*
+  name: ReadULong
+  href: api/Mirage.SocketLayer.ByteUtils.html#Mirage_SocketLayer_ByteUtils_ReadULong_
+  commentId: Overload:Mirage.SocketLayer.ByteUtils.ReadULong
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.ByteUtils.ReadULong
+  nameWithType: ByteUtils.ReadULong
+- uid: Mirage.SocketLayer.ByteUtils.ReadUShort(System.Byte[],System.Int32@)
+  name: ReadUShort(Byte[], ref Int32)
+  href: api/Mirage.SocketLayer.ByteUtils.html#Mirage_SocketLayer_ByteUtils_ReadUShort_System_Byte___System_Int32__
+  commentId: M:Mirage.SocketLayer.ByteUtils.ReadUShort(System.Byte[],System.Int32@)
+  name.vb: ReadUShort(Byte(), ByRef Int32)
+  fullName: Mirage.SocketLayer.ByteUtils.ReadUShort(System.Byte[], ref System.Int32)
+  fullName.vb: Mirage.SocketLayer.ByteUtils.ReadUShort(System.Byte(), ByRef System.Int32)
+  nameWithType: ByteUtils.ReadUShort(Byte[], ref Int32)
+  nameWithType.vb: ByteUtils.ReadUShort(Byte(), ByRef Int32)
+- uid: Mirage.SocketLayer.ByteUtils.ReadUShort*
+  name: ReadUShort
+  href: api/Mirage.SocketLayer.ByteUtils.html#Mirage_SocketLayer_ByteUtils_ReadUShort_
+  commentId: Overload:Mirage.SocketLayer.ByteUtils.ReadUShort
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.ByteUtils.ReadUShort
+  nameWithType: ByteUtils.ReadUShort
+- uid: Mirage.SocketLayer.ByteUtils.WriteByte(System.Byte[],System.Int32@,System.Byte)
+  name: WriteByte(Byte[], ref Int32, Byte)
+  href: api/Mirage.SocketLayer.ByteUtils.html#Mirage_SocketLayer_ByteUtils_WriteByte_System_Byte___System_Int32__System_Byte_
+  commentId: M:Mirage.SocketLayer.ByteUtils.WriteByte(System.Byte[],System.Int32@,System.Byte)
+  name.vb: WriteByte(Byte(), ByRef Int32, Byte)
+  fullName: Mirage.SocketLayer.ByteUtils.WriteByte(System.Byte[], ref System.Int32, System.Byte)
+  fullName.vb: Mirage.SocketLayer.ByteUtils.WriteByte(System.Byte(), ByRef System.Int32, System.Byte)
+  nameWithType: ByteUtils.WriteByte(Byte[], ref Int32, Byte)
+  nameWithType.vb: ByteUtils.WriteByte(Byte(), ByRef Int32, Byte)
+- uid: Mirage.SocketLayer.ByteUtils.WriteByte*
+  name: WriteByte
+  href: api/Mirage.SocketLayer.ByteUtils.html#Mirage_SocketLayer_ByteUtils_WriteByte_
+  commentId: Overload:Mirage.SocketLayer.ByteUtils.WriteByte
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.ByteUtils.WriteByte
+  nameWithType: ByteUtils.WriteByte
+- uid: Mirage.SocketLayer.ByteUtils.WriteUInt(System.Byte[],System.Int32@,System.UInt32)
+  name: WriteUInt(Byte[], ref Int32, UInt32)
+  href: api/Mirage.SocketLayer.ByteUtils.html#Mirage_SocketLayer_ByteUtils_WriteUInt_System_Byte___System_Int32__System_UInt32_
+  commentId: M:Mirage.SocketLayer.ByteUtils.WriteUInt(System.Byte[],System.Int32@,System.UInt32)
+  name.vb: WriteUInt(Byte(), ByRef Int32, UInt32)
+  fullName: Mirage.SocketLayer.ByteUtils.WriteUInt(System.Byte[], ref System.Int32, System.UInt32)
+  fullName.vb: Mirage.SocketLayer.ByteUtils.WriteUInt(System.Byte(), ByRef System.Int32, System.UInt32)
+  nameWithType: ByteUtils.WriteUInt(Byte[], ref Int32, UInt32)
+  nameWithType.vb: ByteUtils.WriteUInt(Byte(), ByRef Int32, UInt32)
+- uid: Mirage.SocketLayer.ByteUtils.WriteUInt*
+  name: WriteUInt
+  href: api/Mirage.SocketLayer.ByteUtils.html#Mirage_SocketLayer_ByteUtils_WriteUInt_
+  commentId: Overload:Mirage.SocketLayer.ByteUtils.WriteUInt
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.ByteUtils.WriteUInt
+  nameWithType: ByteUtils.WriteUInt
+- uid: Mirage.SocketLayer.ByteUtils.WriteULong(System.Byte[],System.Int32@,System.UInt64)
+  name: WriteULong(Byte[], ref Int32, UInt64)
+  href: api/Mirage.SocketLayer.ByteUtils.html#Mirage_SocketLayer_ByteUtils_WriteULong_System_Byte___System_Int32__System_UInt64_
+  commentId: M:Mirage.SocketLayer.ByteUtils.WriteULong(System.Byte[],System.Int32@,System.UInt64)
+  name.vb: WriteULong(Byte(), ByRef Int32, UInt64)
+  fullName: Mirage.SocketLayer.ByteUtils.WriteULong(System.Byte[], ref System.Int32, System.UInt64)
+  fullName.vb: Mirage.SocketLayer.ByteUtils.WriteULong(System.Byte(), ByRef System.Int32, System.UInt64)
+  nameWithType: ByteUtils.WriteULong(Byte[], ref Int32, UInt64)
+  nameWithType.vb: ByteUtils.WriteULong(Byte(), ByRef Int32, UInt64)
+- uid: Mirage.SocketLayer.ByteUtils.WriteULong*
+  name: WriteULong
+  href: api/Mirage.SocketLayer.ByteUtils.html#Mirage_SocketLayer_ByteUtils_WriteULong_
+  commentId: Overload:Mirage.SocketLayer.ByteUtils.WriteULong
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.ByteUtils.WriteULong
+  nameWithType: ByteUtils.WriteULong
+- uid: Mirage.SocketLayer.ByteUtils.WriteUShort(System.Byte[],System.Int32@,System.UInt16)
+  name: WriteUShort(Byte[], ref Int32, UInt16)
+  href: api/Mirage.SocketLayer.ByteUtils.html#Mirage_SocketLayer_ByteUtils_WriteUShort_System_Byte___System_Int32__System_UInt16_
+  commentId: M:Mirage.SocketLayer.ByteUtils.WriteUShort(System.Byte[],System.Int32@,System.UInt16)
+  name.vb: WriteUShort(Byte(), ByRef Int32, UInt16)
+  fullName: Mirage.SocketLayer.ByteUtils.WriteUShort(System.Byte[], ref System.Int32, System.UInt16)
+  fullName.vb: Mirage.SocketLayer.ByteUtils.WriteUShort(System.Byte(), ByRef System.Int32, System.UInt16)
+  nameWithType: ByteUtils.WriteUShort(Byte[], ref Int32, UInt16)
+  nameWithType.vb: ByteUtils.WriteUShort(Byte(), ByRef Int32, UInt16)
+- uid: Mirage.SocketLayer.ByteUtils.WriteUShort*
+  name: WriteUShort
+  href: api/Mirage.SocketLayer.ByteUtils.html#Mirage_SocketLayer_ByteUtils_WriteUShort_
+  commentId: Overload:Mirage.SocketLayer.ByteUtils.WriteUShort
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.ByteUtils.WriteUShort
+  nameWithType: ByteUtils.WriteUShort
+- uid: Mirage.SocketLayer.Commands
+  name: Commands
+  href: api/Mirage.SocketLayer.Commands.html
+  commentId: T:Mirage.SocketLayer.Commands
+  fullName: Mirage.SocketLayer.Commands
+  nameWithType: Commands
+- uid: Mirage.SocketLayer.Commands.ConnectionAccepted
+  name: ConnectionAccepted
+  href: api/Mirage.SocketLayer.Commands.html#Mirage_SocketLayer_Commands_ConnectionAccepted
+  commentId: F:Mirage.SocketLayer.Commands.ConnectionAccepted
+  fullName: Mirage.SocketLayer.Commands.ConnectionAccepted
+  nameWithType: Commands.ConnectionAccepted
+- uid: Mirage.SocketLayer.Commands.ConnectionRejected
+  name: ConnectionRejected
+  href: api/Mirage.SocketLayer.Commands.html#Mirage_SocketLayer_Commands_ConnectionRejected
+  commentId: F:Mirage.SocketLayer.Commands.ConnectionRejected
+  fullName: Mirage.SocketLayer.Commands.ConnectionRejected
+  nameWithType: Commands.ConnectionRejected
+- uid: Mirage.SocketLayer.Commands.ConnectRequest
+  name: ConnectRequest
+  href: api/Mirage.SocketLayer.Commands.html#Mirage_SocketLayer_Commands_ConnectRequest
+  commentId: F:Mirage.SocketLayer.Commands.ConnectRequest
+  fullName: Mirage.SocketLayer.Commands.ConnectRequest
+  nameWithType: Commands.ConnectRequest
+- uid: Mirage.SocketLayer.Commands.Disconnect
+  name: Disconnect
+  href: api/Mirage.SocketLayer.Commands.html#Mirage_SocketLayer_Commands_Disconnect
+  commentId: F:Mirage.SocketLayer.Commands.Disconnect
+  fullName: Mirage.SocketLayer.Commands.Disconnect
+  nameWithType: Commands.Disconnect
+- uid: Mirage.SocketLayer.Config
+  name: Config
+  href: api/Mirage.SocketLayer.Config.html
+  commentId: T:Mirage.SocketLayer.Config
+  fullName: Mirage.SocketLayer.Config
+  nameWithType: Config
+- uid: Mirage.SocketLayer.Config.BufferPoolMaxSize
+  name: BufferPoolMaxSize
+  href: api/Mirage.SocketLayer.Config.html#Mirage_SocketLayer_Config_BufferPoolMaxSize
+  commentId: F:Mirage.SocketLayer.Config.BufferPoolMaxSize
+  fullName: Mirage.SocketLayer.Config.BufferPoolMaxSize
+  nameWithType: Config.BufferPoolMaxSize
+- uid: Mirage.SocketLayer.Config.BufferPoolStartSize
+  name: BufferPoolStartSize
+  href: api/Mirage.SocketLayer.Config.html#Mirage_SocketLayer_Config_BufferPoolStartSize
+  commentId: F:Mirage.SocketLayer.Config.BufferPoolStartSize
+  fullName: Mirage.SocketLayer.Config.BufferPoolStartSize
+  nameWithType: Config.BufferPoolStartSize
+- uid: Mirage.SocketLayer.Config.ConnectAttemptInterval
+  name: ConnectAttemptInterval
+  href: api/Mirage.SocketLayer.Config.html#Mirage_SocketLayer_Config_ConnectAttemptInterval
+  commentId: F:Mirage.SocketLayer.Config.ConnectAttemptInterval
+  fullName: Mirage.SocketLayer.Config.ConnectAttemptInterval
+  nameWithType: Config.ConnectAttemptInterval
+- uid: Mirage.SocketLayer.Config.DisconnectDuration
+  name: DisconnectDuration
+  href: api/Mirage.SocketLayer.Config.html#Mirage_SocketLayer_Config_DisconnectDuration
+  commentId: F:Mirage.SocketLayer.Config.DisconnectDuration
+  fullName: Mirage.SocketLayer.Config.DisconnectDuration
+  nameWithType: Config.DisconnectDuration
+- uid: Mirage.SocketLayer.Config.EmptyAckLimit
+  name: EmptyAckLimit
+  href: api/Mirage.SocketLayer.Config.html#Mirage_SocketLayer_Config_EmptyAckLimit
+  commentId: F:Mirage.SocketLayer.Config.EmptyAckLimit
+  fullName: Mirage.SocketLayer.Config.EmptyAckLimit
+  nameWithType: Config.EmptyAckLimit
+- uid: Mirage.SocketLayer.Config.KeepAliveInterval
+  name: KeepAliveInterval
+  href: api/Mirage.SocketLayer.Config.html#Mirage_SocketLayer_Config_KeepAliveInterval
+  commentId: F:Mirage.SocketLayer.Config.KeepAliveInterval
+  fullName: Mirage.SocketLayer.Config.KeepAliveInterval
+  nameWithType: Config.KeepAliveInterval
+- uid: Mirage.SocketLayer.Config.MaxConnectAttempts
+  name: MaxConnectAttempts
+  href: api/Mirage.SocketLayer.Config.html#Mirage_SocketLayer_Config_MaxConnectAttempts
+  commentId: F:Mirage.SocketLayer.Config.MaxConnectAttempts
+  fullName: Mirage.SocketLayer.Config.MaxConnectAttempts
+  nameWithType: Config.MaxConnectAttempts
+- uid: Mirage.SocketLayer.Config.MaxConnections
+  name: MaxConnections
+  href: api/Mirage.SocketLayer.Config.html#Mirage_SocketLayer_Config_MaxConnections
+  commentId: F:Mirage.SocketLayer.Config.MaxConnections
+  fullName: Mirage.SocketLayer.Config.MaxConnections
+  nameWithType: Config.MaxConnections
+- uid: Mirage.SocketLayer.Config.MaxPacketSize
+  name: MaxPacketSize
+  href: api/Mirage.SocketLayer.Config.html#Mirage_SocketLayer_Config_MaxPacketSize
+  commentId: F:Mirage.SocketLayer.Config.MaxPacketSize
+  fullName: Mirage.SocketLayer.Config.MaxPacketSize
+  nameWithType: Config.MaxPacketSize
+- uid: Mirage.SocketLayer.Config.MaxReliableFragments
+  name: MaxReliableFragments
+  href: api/Mirage.SocketLayer.Config.html#Mirage_SocketLayer_Config_MaxReliableFragments
+  commentId: F:Mirage.SocketLayer.Config.MaxReliableFragments
+  fullName: Mirage.SocketLayer.Config.MaxReliableFragments
+  nameWithType: Config.MaxReliableFragments
+- uid: Mirage.SocketLayer.Config.MaxReliablePacketsInSendBufferPerConnection
+  name: MaxReliablePacketsInSendBufferPerConnection
+  href: api/Mirage.SocketLayer.Config.html#Mirage_SocketLayer_Config_MaxReliablePacketsInSendBufferPerConnection
+  commentId: F:Mirage.SocketLayer.Config.MaxReliablePacketsInSendBufferPerConnection
+  fullName: Mirage.SocketLayer.Config.MaxReliablePacketsInSendBufferPerConnection
+  nameWithType: Config.MaxReliablePacketsInSendBufferPerConnection
+- uid: Mirage.SocketLayer.Config.ReceivesBeforeEmptyAck
+  name: ReceivesBeforeEmptyAck
+  href: api/Mirage.SocketLayer.Config.html#Mirage_SocketLayer_Config_ReceivesBeforeEmptyAck
+  commentId: F:Mirage.SocketLayer.Config.ReceivesBeforeEmptyAck
+  fullName: Mirage.SocketLayer.Config.ReceivesBeforeEmptyAck
+  nameWithType: Config.ReceivesBeforeEmptyAck
+- uid: Mirage.SocketLayer.Config.SequenceSize
+  name: SequenceSize
+  href: api/Mirage.SocketLayer.Config.html#Mirage_SocketLayer_Config_SequenceSize
+  commentId: F:Mirage.SocketLayer.Config.SequenceSize
+  fullName: Mirage.SocketLayer.Config.SequenceSize
+  nameWithType: Config.SequenceSize
+- uid: Mirage.SocketLayer.Config.TimeBeforeEmptyAck
+  name: TimeBeforeEmptyAck
+  href: api/Mirage.SocketLayer.Config.html#Mirage_SocketLayer_Config_TimeBeforeEmptyAck
+  commentId: F:Mirage.SocketLayer.Config.TimeBeforeEmptyAck
+  fullName: Mirage.SocketLayer.Config.TimeBeforeEmptyAck
+  nameWithType: Config.TimeBeforeEmptyAck
+- uid: Mirage.SocketLayer.Config.TimeoutDuration
+  name: TimeoutDuration
+  href: api/Mirage.SocketLayer.Config.html#Mirage_SocketLayer_Config_TimeoutDuration
+  commentId: F:Mirage.SocketLayer.Config.TimeoutDuration
+  fullName: Mirage.SocketLayer.Config.TimeoutDuration
+  nameWithType: Config.TimeoutDuration
+- uid: Mirage.SocketLayer.ConnectionState
+  name: ConnectionState
+  href: api/Mirage.SocketLayer.ConnectionState.html
+  commentId: T:Mirage.SocketLayer.ConnectionState
+  fullName: Mirage.SocketLayer.ConnectionState
+  nameWithType: ConnectionState
+- uid: Mirage.SocketLayer.ConnectionState.Connected
+  name: Connected
+  href: api/Mirage.SocketLayer.ConnectionState.html#Mirage_SocketLayer_ConnectionState_Connected
+  commentId: F:Mirage.SocketLayer.ConnectionState.Connected
+  fullName: Mirage.SocketLayer.ConnectionState.Connected
+  nameWithType: ConnectionState.Connected
+- uid: Mirage.SocketLayer.ConnectionState.Connecting
+  name: Connecting
+  href: api/Mirage.SocketLayer.ConnectionState.html#Mirage_SocketLayer_ConnectionState_Connecting
+  commentId: F:Mirage.SocketLayer.ConnectionState.Connecting
+  fullName: Mirage.SocketLayer.ConnectionState.Connecting
+  nameWithType: ConnectionState.Connecting
+- uid: Mirage.SocketLayer.ConnectionState.Created
+  name: Created
+  href: api/Mirage.SocketLayer.ConnectionState.html#Mirage_SocketLayer_ConnectionState_Created
+  commentId: F:Mirage.SocketLayer.ConnectionState.Created
+  fullName: Mirage.SocketLayer.ConnectionState.Created
+  nameWithType: ConnectionState.Created
+- uid: Mirage.SocketLayer.ConnectionState.Destroyed
+  name: Destroyed
+  href: api/Mirage.SocketLayer.ConnectionState.html#Mirage_SocketLayer_ConnectionState_Destroyed
+  commentId: F:Mirage.SocketLayer.ConnectionState.Destroyed
+  fullName: Mirage.SocketLayer.ConnectionState.Destroyed
+  nameWithType: ConnectionState.Destroyed
+- uid: Mirage.SocketLayer.ConnectionState.Disconnected
+  name: Disconnected
+  href: api/Mirage.SocketLayer.ConnectionState.html#Mirage_SocketLayer_ConnectionState_Disconnected
+  commentId: F:Mirage.SocketLayer.ConnectionState.Disconnected
+  fullName: Mirage.SocketLayer.ConnectionState.Disconnected
+  nameWithType: ConnectionState.Disconnected
+- uid: Mirage.SocketLayer.ConnectionState.Removing
+  name: Removing
+  href: api/Mirage.SocketLayer.ConnectionState.html#Mirage_SocketLayer_ConnectionState_Removing
+  commentId: F:Mirage.SocketLayer.ConnectionState.Removing
+  fullName: Mirage.SocketLayer.ConnectionState.Removing
+  nameWithType: ConnectionState.Removing
+- uid: Mirage.SocketLayer.DisconnectReason
+  name: DisconnectReason
+  href: api/Mirage.SocketLayer.DisconnectReason.html
+  commentId: T:Mirage.SocketLayer.DisconnectReason
+  fullName: Mirage.SocketLayer.DisconnectReason
+  nameWithType: DisconnectReason
+- uid: Mirage.SocketLayer.DisconnectReason.InvalidPacket
+  name: InvalidPacket
+  href: api/Mirage.SocketLayer.DisconnectReason.html#Mirage_SocketLayer_DisconnectReason_InvalidPacket
+  commentId: F:Mirage.SocketLayer.DisconnectReason.InvalidPacket
+  fullName: Mirage.SocketLayer.DisconnectReason.InvalidPacket
+  nameWithType: DisconnectReason.InvalidPacket
+- uid: Mirage.SocketLayer.DisconnectReason.None
+  name: None
+  href: api/Mirage.SocketLayer.DisconnectReason.html#Mirage_SocketLayer_DisconnectReason_None
+  commentId: F:Mirage.SocketLayer.DisconnectReason.None
+  fullName: Mirage.SocketLayer.DisconnectReason.None
+  nameWithType: DisconnectReason.None
+- uid: Mirage.SocketLayer.DisconnectReason.RequestedByLocalPeer
+  name: RequestedByLocalPeer
+  href: api/Mirage.SocketLayer.DisconnectReason.html#Mirage_SocketLayer_DisconnectReason_RequestedByLocalPeer
+  commentId: F:Mirage.SocketLayer.DisconnectReason.RequestedByLocalPeer
+  fullName: Mirage.SocketLayer.DisconnectReason.RequestedByLocalPeer
+  nameWithType: DisconnectReason.RequestedByLocalPeer
+- uid: Mirage.SocketLayer.DisconnectReason.RequestedByRemotePeer
+  name: RequestedByRemotePeer
+  href: api/Mirage.SocketLayer.DisconnectReason.html#Mirage_SocketLayer_DisconnectReason_RequestedByRemotePeer
+  commentId: F:Mirage.SocketLayer.DisconnectReason.RequestedByRemotePeer
+  fullName: Mirage.SocketLayer.DisconnectReason.RequestedByRemotePeer
+  nameWithType: DisconnectReason.RequestedByRemotePeer
+- uid: Mirage.SocketLayer.DisconnectReason.Timeout
+  name: Timeout
+  href: api/Mirage.SocketLayer.DisconnectReason.html#Mirage_SocketLayer_DisconnectReason_Timeout
+  commentId: F:Mirage.SocketLayer.DisconnectReason.Timeout
+  fullName: Mirage.SocketLayer.DisconnectReason.Timeout
+  nameWithType: DisconnectReason.Timeout
+- uid: Mirage.SocketLayer.IConnection
+  name: IConnection
+  href: api/Mirage.SocketLayer.IConnection.html
+  commentId: T:Mirage.SocketLayer.IConnection
+  fullName: Mirage.SocketLayer.IConnection
+  nameWithType: IConnection
+- uid: Mirage.SocketLayer.IConnection.Disconnect
+  name: Disconnect()
+  href: api/Mirage.SocketLayer.IConnection.html#Mirage_SocketLayer_IConnection_Disconnect
+  commentId: M:Mirage.SocketLayer.IConnection.Disconnect
+  fullName: Mirage.SocketLayer.IConnection.Disconnect()
+  nameWithType: IConnection.Disconnect()
+- uid: Mirage.SocketLayer.IConnection.Disconnect*
+  name: Disconnect
+  href: api/Mirage.SocketLayer.IConnection.html#Mirage_SocketLayer_IConnection_Disconnect_
+  commentId: Overload:Mirage.SocketLayer.IConnection.Disconnect
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.IConnection.Disconnect
+  nameWithType: IConnection.Disconnect
+- uid: Mirage.SocketLayer.IConnection.EndPoint
+  name: EndPoint
+  href: api/Mirage.SocketLayer.IConnection.html#Mirage_SocketLayer_IConnection_EndPoint
+  commentId: P:Mirage.SocketLayer.IConnection.EndPoint
+  fullName: Mirage.SocketLayer.IConnection.EndPoint
+  nameWithType: IConnection.EndPoint
+- uid: Mirage.SocketLayer.IConnection.EndPoint*
+  name: EndPoint
+  href: api/Mirage.SocketLayer.IConnection.html#Mirage_SocketLayer_IConnection_EndPoint_
+  commentId: Overload:Mirage.SocketLayer.IConnection.EndPoint
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.IConnection.EndPoint
+  nameWithType: IConnection.EndPoint
+- uid: Mirage.SocketLayer.IConnection.SendNotify(System.ArraySegment{System.Byte})
+  name: SendNotify(ArraySegment<Byte>)
+  href: api/Mirage.SocketLayer.IConnection.html#Mirage_SocketLayer_IConnection_SendNotify_System_ArraySegment_System_Byte__
+  commentId: M:Mirage.SocketLayer.IConnection.SendNotify(System.ArraySegment{System.Byte})
+  name.vb: SendNotify(ArraySegment(Of Byte))
+  fullName: Mirage.SocketLayer.IConnection.SendNotify(System.ArraySegment<System.Byte>)
+  fullName.vb: Mirage.SocketLayer.IConnection.SendNotify(System.ArraySegment(Of System.Byte))
+  nameWithType: IConnection.SendNotify(ArraySegment<Byte>)
+  nameWithType.vb: IConnection.SendNotify(ArraySegment(Of Byte))
+- uid: Mirage.SocketLayer.IConnection.SendNotify(System.ArraySegment{System.Byte},Mirage.SocketLayer.INotifyCallBack)
+  name: SendNotify(ArraySegment<Byte>, INotifyCallBack)
+  href: api/Mirage.SocketLayer.IConnection.html#Mirage_SocketLayer_IConnection_SendNotify_System_ArraySegment_System_Byte__Mirage_SocketLayer_INotifyCallBack_
+  commentId: M:Mirage.SocketLayer.IConnection.SendNotify(System.ArraySegment{System.Byte},Mirage.SocketLayer.INotifyCallBack)
+  name.vb: SendNotify(ArraySegment(Of Byte), INotifyCallBack)
+  fullName: Mirage.SocketLayer.IConnection.SendNotify(System.ArraySegment<System.Byte>, Mirage.SocketLayer.INotifyCallBack)
+  fullName.vb: Mirage.SocketLayer.IConnection.SendNotify(System.ArraySegment(Of System.Byte), Mirage.SocketLayer.INotifyCallBack)
+  nameWithType: IConnection.SendNotify(ArraySegment<Byte>, INotifyCallBack)
+  nameWithType.vb: IConnection.SendNotify(ArraySegment(Of Byte), INotifyCallBack)
+- uid: Mirage.SocketLayer.IConnection.SendNotify(System.Byte[])
+  name: SendNotify(Byte[])
+  href: api/Mirage.SocketLayer.IConnection.html#Mirage_SocketLayer_IConnection_SendNotify_System_Byte___
+  commentId: M:Mirage.SocketLayer.IConnection.SendNotify(System.Byte[])
+  name.vb: SendNotify(Byte())
+  fullName: Mirage.SocketLayer.IConnection.SendNotify(System.Byte[])
+  fullName.vb: Mirage.SocketLayer.IConnection.SendNotify(System.Byte())
+  nameWithType: IConnection.SendNotify(Byte[])
+  nameWithType.vb: IConnection.SendNotify(Byte())
+- uid: Mirage.SocketLayer.IConnection.SendNotify(System.Byte[],Mirage.SocketLayer.INotifyCallBack)
+  name: SendNotify(Byte[], INotifyCallBack)
+  href: api/Mirage.SocketLayer.IConnection.html#Mirage_SocketLayer_IConnection_SendNotify_System_Byte___Mirage_SocketLayer_INotifyCallBack_
+  commentId: M:Mirage.SocketLayer.IConnection.SendNotify(System.Byte[],Mirage.SocketLayer.INotifyCallBack)
+  name.vb: SendNotify(Byte(), INotifyCallBack)
+  fullName: Mirage.SocketLayer.IConnection.SendNotify(System.Byte[], Mirage.SocketLayer.INotifyCallBack)
+  fullName.vb: Mirage.SocketLayer.IConnection.SendNotify(System.Byte(), Mirage.SocketLayer.INotifyCallBack)
+  nameWithType: IConnection.SendNotify(Byte[], INotifyCallBack)
+  nameWithType.vb: IConnection.SendNotify(Byte(), INotifyCallBack)
+- uid: Mirage.SocketLayer.IConnection.SendNotify(System.Byte[],System.Int32,System.Int32)
+  name: SendNotify(Byte[], Int32, Int32)
+  href: api/Mirage.SocketLayer.IConnection.html#Mirage_SocketLayer_IConnection_SendNotify_System_Byte___System_Int32_System_Int32_
+  commentId: M:Mirage.SocketLayer.IConnection.SendNotify(System.Byte[],System.Int32,System.Int32)
+  name.vb: SendNotify(Byte(), Int32, Int32)
+  fullName: Mirage.SocketLayer.IConnection.SendNotify(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: Mirage.SocketLayer.IConnection.SendNotify(System.Byte(), System.Int32, System.Int32)
+  nameWithType: IConnection.SendNotify(Byte[], Int32, Int32)
+  nameWithType.vb: IConnection.SendNotify(Byte(), Int32, Int32)
+- uid: Mirage.SocketLayer.IConnection.SendNotify(System.Byte[],System.Int32,System.Int32,Mirage.SocketLayer.INotifyCallBack)
+  name: SendNotify(Byte[], Int32, Int32, INotifyCallBack)
+  href: api/Mirage.SocketLayer.IConnection.html#Mirage_SocketLayer_IConnection_SendNotify_System_Byte___System_Int32_System_Int32_Mirage_SocketLayer_INotifyCallBack_
+  commentId: M:Mirage.SocketLayer.IConnection.SendNotify(System.Byte[],System.Int32,System.Int32,Mirage.SocketLayer.INotifyCallBack)
+  name.vb: SendNotify(Byte(), Int32, Int32, INotifyCallBack)
+  fullName: Mirage.SocketLayer.IConnection.SendNotify(System.Byte[], System.Int32, System.Int32, Mirage.SocketLayer.INotifyCallBack)
+  fullName.vb: Mirage.SocketLayer.IConnection.SendNotify(System.Byte(), System.Int32, System.Int32, Mirage.SocketLayer.INotifyCallBack)
+  nameWithType: IConnection.SendNotify(Byte[], Int32, Int32, INotifyCallBack)
+  nameWithType.vb: IConnection.SendNotify(Byte(), Int32, Int32, INotifyCallBack)
+- uid: Mirage.SocketLayer.IConnection.SendNotify*
+  name: SendNotify
+  href: api/Mirage.SocketLayer.IConnection.html#Mirage_SocketLayer_IConnection_SendNotify_
+  commentId: Overload:Mirage.SocketLayer.IConnection.SendNotify
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.IConnection.SendNotify
+  nameWithType: IConnection.SendNotify
+- uid: Mirage.SocketLayer.IConnection.SendReliable(System.ArraySegment{System.Byte})
+  name: SendReliable(ArraySegment<Byte>)
+  href: api/Mirage.SocketLayer.IConnection.html#Mirage_SocketLayer_IConnection_SendReliable_System_ArraySegment_System_Byte__
+  commentId: M:Mirage.SocketLayer.IConnection.SendReliable(System.ArraySegment{System.Byte})
+  name.vb: SendReliable(ArraySegment(Of Byte))
+  fullName: Mirage.SocketLayer.IConnection.SendReliable(System.ArraySegment<System.Byte>)
+  fullName.vb: Mirage.SocketLayer.IConnection.SendReliable(System.ArraySegment(Of System.Byte))
+  nameWithType: IConnection.SendReliable(ArraySegment<Byte>)
+  nameWithType.vb: IConnection.SendReliable(ArraySegment(Of Byte))
+- uid: Mirage.SocketLayer.IConnection.SendReliable(System.Byte[])
+  name: SendReliable(Byte[])
+  href: api/Mirage.SocketLayer.IConnection.html#Mirage_SocketLayer_IConnection_SendReliable_System_Byte___
+  commentId: M:Mirage.SocketLayer.IConnection.SendReliable(System.Byte[])
+  name.vb: SendReliable(Byte())
+  fullName: Mirage.SocketLayer.IConnection.SendReliable(System.Byte[])
+  fullName.vb: Mirage.SocketLayer.IConnection.SendReliable(System.Byte())
+  nameWithType: IConnection.SendReliable(Byte[])
+  nameWithType.vb: IConnection.SendReliable(Byte())
+- uid: Mirage.SocketLayer.IConnection.SendReliable(System.Byte[],System.Int32,System.Int32)
+  name: SendReliable(Byte[], Int32, Int32)
+  href: api/Mirage.SocketLayer.IConnection.html#Mirage_SocketLayer_IConnection_SendReliable_System_Byte___System_Int32_System_Int32_
+  commentId: M:Mirage.SocketLayer.IConnection.SendReliable(System.Byte[],System.Int32,System.Int32)
+  name.vb: SendReliable(Byte(), Int32, Int32)
+  fullName: Mirage.SocketLayer.IConnection.SendReliable(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: Mirage.SocketLayer.IConnection.SendReliable(System.Byte(), System.Int32, System.Int32)
+  nameWithType: IConnection.SendReliable(Byte[], Int32, Int32)
+  nameWithType.vb: IConnection.SendReliable(Byte(), Int32, Int32)
+- uid: Mirage.SocketLayer.IConnection.SendReliable*
+  name: SendReliable
+  href: api/Mirage.SocketLayer.IConnection.html#Mirage_SocketLayer_IConnection_SendReliable_
+  commentId: Overload:Mirage.SocketLayer.IConnection.SendReliable
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.IConnection.SendReliable
+  nameWithType: IConnection.SendReliable
+- uid: Mirage.SocketLayer.IConnection.SendUnreliable(System.ArraySegment{System.Byte})
+  name: SendUnreliable(ArraySegment<Byte>)
+  href: api/Mirage.SocketLayer.IConnection.html#Mirage_SocketLayer_IConnection_SendUnreliable_System_ArraySegment_System_Byte__
+  commentId: M:Mirage.SocketLayer.IConnection.SendUnreliable(System.ArraySegment{System.Byte})
+  name.vb: SendUnreliable(ArraySegment(Of Byte))
+  fullName: Mirage.SocketLayer.IConnection.SendUnreliable(System.ArraySegment<System.Byte>)
+  fullName.vb: Mirage.SocketLayer.IConnection.SendUnreliable(System.ArraySegment(Of System.Byte))
+  nameWithType: IConnection.SendUnreliable(ArraySegment<Byte>)
+  nameWithType.vb: IConnection.SendUnreliable(ArraySegment(Of Byte))
+- uid: Mirage.SocketLayer.IConnection.SendUnreliable(System.Byte[])
+  name: SendUnreliable(Byte[])
+  href: api/Mirage.SocketLayer.IConnection.html#Mirage_SocketLayer_IConnection_SendUnreliable_System_Byte___
+  commentId: M:Mirage.SocketLayer.IConnection.SendUnreliable(System.Byte[])
+  name.vb: SendUnreliable(Byte())
+  fullName: Mirage.SocketLayer.IConnection.SendUnreliable(System.Byte[])
+  fullName.vb: Mirage.SocketLayer.IConnection.SendUnreliable(System.Byte())
+  nameWithType: IConnection.SendUnreliable(Byte[])
+  nameWithType.vb: IConnection.SendUnreliable(Byte())
+- uid: Mirage.SocketLayer.IConnection.SendUnreliable(System.Byte[],System.Int32,System.Int32)
+  name: SendUnreliable(Byte[], Int32, Int32)
+  href: api/Mirage.SocketLayer.IConnection.html#Mirage_SocketLayer_IConnection_SendUnreliable_System_Byte___System_Int32_System_Int32_
+  commentId: M:Mirage.SocketLayer.IConnection.SendUnreliable(System.Byte[],System.Int32,System.Int32)
+  name.vb: SendUnreliable(Byte(), Int32, Int32)
+  fullName: Mirage.SocketLayer.IConnection.SendUnreliable(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: Mirage.SocketLayer.IConnection.SendUnreliable(System.Byte(), System.Int32, System.Int32)
+  nameWithType: IConnection.SendUnreliable(Byte[], Int32, Int32)
+  nameWithType.vb: IConnection.SendUnreliable(Byte(), Int32, Int32)
+- uid: Mirage.SocketLayer.IConnection.SendUnreliable*
+  name: SendUnreliable
+  href: api/Mirage.SocketLayer.IConnection.html#Mirage_SocketLayer_IConnection_SendUnreliable_
+  commentId: Overload:Mirage.SocketLayer.IConnection.SendUnreliable
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.IConnection.SendUnreliable
+  nameWithType: IConnection.SendUnreliable
+- uid: Mirage.SocketLayer.IConnection.State
+  name: State
+  href: api/Mirage.SocketLayer.IConnection.html#Mirage_SocketLayer_IConnection_State
+  commentId: P:Mirage.SocketLayer.IConnection.State
+  fullName: Mirage.SocketLayer.IConnection.State
+  nameWithType: IConnection.State
+- uid: Mirage.SocketLayer.IConnection.State*
+  name: State
+  href: api/Mirage.SocketLayer.IConnection.html#Mirage_SocketLayer_IConnection_State_
+  commentId: Overload:Mirage.SocketLayer.IConnection.State
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.IConnection.State
+  nameWithType: IConnection.State
+- uid: Mirage.SocketLayer.IDataHandler
+  name: IDataHandler
+  href: api/Mirage.SocketLayer.IDataHandler.html
+  commentId: T:Mirage.SocketLayer.IDataHandler
+  fullName: Mirage.SocketLayer.IDataHandler
+  nameWithType: IDataHandler
+- uid: Mirage.SocketLayer.IDataHandler.ReceiveMessage(Mirage.SocketLayer.IConnection,System.ArraySegment{System.Byte})
+  name: ReceiveMessage(IConnection, ArraySegment<Byte>)
+  href: api/Mirage.SocketLayer.IDataHandler.html#Mirage_SocketLayer_IDataHandler_ReceiveMessage_Mirage_SocketLayer_IConnection_System_ArraySegment_System_Byte__
+  commentId: M:Mirage.SocketLayer.IDataHandler.ReceiveMessage(Mirage.SocketLayer.IConnection,System.ArraySegment{System.Byte})
+  name.vb: ReceiveMessage(IConnection, ArraySegment(Of Byte))
+  fullName: Mirage.SocketLayer.IDataHandler.ReceiveMessage(Mirage.SocketLayer.IConnection, System.ArraySegment<System.Byte>)
+  fullName.vb: Mirage.SocketLayer.IDataHandler.ReceiveMessage(Mirage.SocketLayer.IConnection, System.ArraySegment(Of System.Byte))
+  nameWithType: IDataHandler.ReceiveMessage(IConnection, ArraySegment<Byte>)
+  nameWithType.vb: IDataHandler.ReceiveMessage(IConnection, ArraySegment(Of Byte))
+- uid: Mirage.SocketLayer.IDataHandler.ReceiveMessage*
+  name: ReceiveMessage
+  href: api/Mirage.SocketLayer.IDataHandler.html#Mirage_SocketLayer_IDataHandler_ReceiveMessage_
+  commentId: Overload:Mirage.SocketLayer.IDataHandler.ReceiveMessage
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.IDataHandler.ReceiveMessage
+  nameWithType: IDataHandler.ReceiveMessage
+- uid: Mirage.SocketLayer.IEndPoint
+  name: IEndPoint
+  href: api/Mirage.SocketLayer.IEndPoint.html
+  commentId: T:Mirage.SocketLayer.IEndPoint
+  fullName: Mirage.SocketLayer.IEndPoint
+  nameWithType: IEndPoint
+- uid: Mirage.SocketLayer.IEndPoint.CreateCopy
+  name: CreateCopy()
+  href: api/Mirage.SocketLayer.IEndPoint.html#Mirage_SocketLayer_IEndPoint_CreateCopy
+  commentId: M:Mirage.SocketLayer.IEndPoint.CreateCopy
+  fullName: Mirage.SocketLayer.IEndPoint.CreateCopy()
+  nameWithType: IEndPoint.CreateCopy()
+- uid: Mirage.SocketLayer.IEndPoint.CreateCopy*
+  name: CreateCopy
+  href: api/Mirage.SocketLayer.IEndPoint.html#Mirage_SocketLayer_IEndPoint_CreateCopy_
+  commentId: Overload:Mirage.SocketLayer.IEndPoint.CreateCopy
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.IEndPoint.CreateCopy
+  nameWithType: IEndPoint.CreateCopy
+- uid: Mirage.SocketLayer.INotifyCallBack
+  name: INotifyCallBack
+  href: api/Mirage.SocketLayer.INotifyCallBack.html
+  commentId: T:Mirage.SocketLayer.INotifyCallBack
+  fullName: Mirage.SocketLayer.INotifyCallBack
+  nameWithType: INotifyCallBack
+- uid: Mirage.SocketLayer.INotifyCallBack.OnDelivered
+  name: OnDelivered()
+  href: api/Mirage.SocketLayer.INotifyCallBack.html#Mirage_SocketLayer_INotifyCallBack_OnDelivered
+  commentId: M:Mirage.SocketLayer.INotifyCallBack.OnDelivered
+  fullName: Mirage.SocketLayer.INotifyCallBack.OnDelivered()
+  nameWithType: INotifyCallBack.OnDelivered()
+- uid: Mirage.SocketLayer.INotifyCallBack.OnDelivered*
+  name: OnDelivered
+  href: api/Mirage.SocketLayer.INotifyCallBack.html#Mirage_SocketLayer_INotifyCallBack_OnDelivered_
+  commentId: Overload:Mirage.SocketLayer.INotifyCallBack.OnDelivered
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.INotifyCallBack.OnDelivered
+  nameWithType: INotifyCallBack.OnDelivered
+- uid: Mirage.SocketLayer.INotifyCallBack.OnLost
+  name: OnLost()
+  href: api/Mirage.SocketLayer.INotifyCallBack.html#Mirage_SocketLayer_INotifyCallBack_OnLost
+  commentId: M:Mirage.SocketLayer.INotifyCallBack.OnLost
+  fullName: Mirage.SocketLayer.INotifyCallBack.OnLost()
+  nameWithType: INotifyCallBack.OnLost()
+- uid: Mirage.SocketLayer.INotifyCallBack.OnLost*
+  name: OnLost
+  href: api/Mirage.SocketLayer.INotifyCallBack.html#Mirage_SocketLayer_INotifyCallBack_OnLost_
+  commentId: Overload:Mirage.SocketLayer.INotifyCallBack.OnLost
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.INotifyCallBack.OnLost
+  nameWithType: INotifyCallBack.OnLost
+- uid: Mirage.SocketLayer.INotifyCallBackExtensions
+  name: INotifyCallBackExtensions
+  href: api/Mirage.SocketLayer.INotifyCallBackExtensions.html
+  commentId: T:Mirage.SocketLayer.INotifyCallBackExtensions
+  fullName: Mirage.SocketLayer.INotifyCallBackExtensions
+  nameWithType: INotifyCallBackExtensions
+- uid: Mirage.SocketLayer.INotifyCallBackExtensions.Notify(Mirage.SocketLayer.INotifyCallBack,System.Boolean)
+  name: Notify(INotifyCallBack, Boolean)
+  href: api/Mirage.SocketLayer.INotifyCallBackExtensions.html#Mirage_SocketLayer_INotifyCallBackExtensions_Notify_Mirage_SocketLayer_INotifyCallBack_System_Boolean_
+  commentId: M:Mirage.SocketLayer.INotifyCallBackExtensions.Notify(Mirage.SocketLayer.INotifyCallBack,System.Boolean)
+  fullName: Mirage.SocketLayer.INotifyCallBackExtensions.Notify(Mirage.SocketLayer.INotifyCallBack, System.Boolean)
+  nameWithType: INotifyCallBackExtensions.Notify(INotifyCallBack, Boolean)
+- uid: Mirage.SocketLayer.INotifyCallBackExtensions.Notify*
+  name: Notify
+  href: api/Mirage.SocketLayer.INotifyCallBackExtensions.html#Mirage_SocketLayer_INotifyCallBackExtensions_Notify_
+  commentId: Overload:Mirage.SocketLayer.INotifyCallBackExtensions.Notify
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.INotifyCallBackExtensions.Notify
+  nameWithType: INotifyCallBackExtensions.Notify
+- uid: Mirage.SocketLayer.INotifyToken
+  name: INotifyToken
+  href: api/Mirage.SocketLayer.INotifyToken.html
+  commentId: T:Mirage.SocketLayer.INotifyToken
+  fullName: Mirage.SocketLayer.INotifyToken
+  nameWithType: INotifyToken
+- uid: Mirage.SocketLayer.INotifyToken.Delivered
+  name: Delivered
+  href: api/Mirage.SocketLayer.INotifyToken.html#Mirage_SocketLayer_INotifyToken_Delivered
+  commentId: E:Mirage.SocketLayer.INotifyToken.Delivered
+  fullName: Mirage.SocketLayer.INotifyToken.Delivered
+  nameWithType: INotifyToken.Delivered
+- uid: Mirage.SocketLayer.INotifyToken.Lost
+  name: Lost
+  href: api/Mirage.SocketLayer.INotifyToken.html#Mirage_SocketLayer_INotifyToken_Lost
+  commentId: E:Mirage.SocketLayer.INotifyToken.Lost
+  fullName: Mirage.SocketLayer.INotifyToken.Lost
+  nameWithType: INotifyToken.Lost
+- uid: Mirage.SocketLayer.IPeer
+  name: IPeer
+  href: api/Mirage.SocketLayer.IPeer.html
+  commentId: T:Mirage.SocketLayer.IPeer
+  fullName: Mirage.SocketLayer.IPeer
+  nameWithType: IPeer
+- uid: Mirage.SocketLayer.IPeer.Bind(Mirage.SocketLayer.IEndPoint)
+  name: Bind(IEndPoint)
+  href: api/Mirage.SocketLayer.IPeer.html#Mirage_SocketLayer_IPeer_Bind_Mirage_SocketLayer_IEndPoint_
+  commentId: M:Mirage.SocketLayer.IPeer.Bind(Mirage.SocketLayer.IEndPoint)
+  fullName: Mirage.SocketLayer.IPeer.Bind(Mirage.SocketLayer.IEndPoint)
+  nameWithType: IPeer.Bind(IEndPoint)
+- uid: Mirage.SocketLayer.IPeer.Bind*
+  name: Bind
+  href: api/Mirage.SocketLayer.IPeer.html#Mirage_SocketLayer_IPeer_Bind_
+  commentId: Overload:Mirage.SocketLayer.IPeer.Bind
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.IPeer.Bind
+  nameWithType: IPeer.Bind
+- uid: Mirage.SocketLayer.IPeer.Close
+  name: Close()
+  href: api/Mirage.SocketLayer.IPeer.html#Mirage_SocketLayer_IPeer_Close
+  commentId: M:Mirage.SocketLayer.IPeer.Close
+  fullName: Mirage.SocketLayer.IPeer.Close()
+  nameWithType: IPeer.Close()
+- uid: Mirage.SocketLayer.IPeer.Close*
+  name: Close
+  href: api/Mirage.SocketLayer.IPeer.html#Mirage_SocketLayer_IPeer_Close_
+  commentId: Overload:Mirage.SocketLayer.IPeer.Close
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.IPeer.Close
+  nameWithType: IPeer.Close
+- uid: Mirage.SocketLayer.IPeer.Connect(Mirage.SocketLayer.IEndPoint)
+  name: Connect(IEndPoint)
+  href: api/Mirage.SocketLayer.IPeer.html#Mirage_SocketLayer_IPeer_Connect_Mirage_SocketLayer_IEndPoint_
+  commentId: M:Mirage.SocketLayer.IPeer.Connect(Mirage.SocketLayer.IEndPoint)
+  fullName: Mirage.SocketLayer.IPeer.Connect(Mirage.SocketLayer.IEndPoint)
+  nameWithType: IPeer.Connect(IEndPoint)
+- uid: Mirage.SocketLayer.IPeer.Connect*
+  name: Connect
+  href: api/Mirage.SocketLayer.IPeer.html#Mirage_SocketLayer_IPeer_Connect_
+  commentId: Overload:Mirage.SocketLayer.IPeer.Connect
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.IPeer.Connect
+  nameWithType: IPeer.Connect
+- uid: Mirage.SocketLayer.IPeer.OnConnected
+  name: OnConnected
+  href: api/Mirage.SocketLayer.IPeer.html#Mirage_SocketLayer_IPeer_OnConnected
+  commentId: E:Mirage.SocketLayer.IPeer.OnConnected
+  fullName: Mirage.SocketLayer.IPeer.OnConnected
+  nameWithType: IPeer.OnConnected
+- uid: Mirage.SocketLayer.IPeer.OnConnectionFailed
+  name: OnConnectionFailed
+  href: api/Mirage.SocketLayer.IPeer.html#Mirage_SocketLayer_IPeer_OnConnectionFailed
+  commentId: E:Mirage.SocketLayer.IPeer.OnConnectionFailed
+  fullName: Mirage.SocketLayer.IPeer.OnConnectionFailed
+  nameWithType: IPeer.OnConnectionFailed
+- uid: Mirage.SocketLayer.IPeer.OnDisconnected
+  name: OnDisconnected
+  href: api/Mirage.SocketLayer.IPeer.html#Mirage_SocketLayer_IPeer_OnDisconnected
+  commentId: E:Mirage.SocketLayer.IPeer.OnDisconnected
+  fullName: Mirage.SocketLayer.IPeer.OnDisconnected
+  nameWithType: IPeer.OnDisconnected
+- uid: Mirage.SocketLayer.IPeer.Update
+  name: Update()
+  href: api/Mirage.SocketLayer.IPeer.html#Mirage_SocketLayer_IPeer_Update
+  commentId: M:Mirage.SocketLayer.IPeer.Update
+  fullName: Mirage.SocketLayer.IPeer.Update()
+  nameWithType: IPeer.Update()
+- uid: Mirage.SocketLayer.IPeer.Update*
+  name: Update
+  href: api/Mirage.SocketLayer.IPeer.html#Mirage_SocketLayer_IPeer_Update_
+  commentId: Overload:Mirage.SocketLayer.IPeer.Update
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.IPeer.Update
+  nameWithType: IPeer.Update
+- uid: Mirage.SocketLayer.ISocket
+  name: ISocket
+  href: api/Mirage.SocketLayer.ISocket.html
+  commentId: T:Mirage.SocketLayer.ISocket
+  fullName: Mirage.SocketLayer.ISocket
+  nameWithType: ISocket
+- uid: Mirage.SocketLayer.ISocket.Bind(Mirage.SocketLayer.IEndPoint)
+  name: Bind(IEndPoint)
+  href: api/Mirage.SocketLayer.ISocket.html#Mirage_SocketLayer_ISocket_Bind_Mirage_SocketLayer_IEndPoint_
+  commentId: M:Mirage.SocketLayer.ISocket.Bind(Mirage.SocketLayer.IEndPoint)
+  fullName: Mirage.SocketLayer.ISocket.Bind(Mirage.SocketLayer.IEndPoint)
+  nameWithType: ISocket.Bind(IEndPoint)
+- uid: Mirage.SocketLayer.ISocket.Bind*
+  name: Bind
+  href: api/Mirage.SocketLayer.ISocket.html#Mirage_SocketLayer_ISocket_Bind_
+  commentId: Overload:Mirage.SocketLayer.ISocket.Bind
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.ISocket.Bind
+  nameWithType: ISocket.Bind
+- uid: Mirage.SocketLayer.ISocket.Close
+  name: Close()
+  href: api/Mirage.SocketLayer.ISocket.html#Mirage_SocketLayer_ISocket_Close
+  commentId: M:Mirage.SocketLayer.ISocket.Close
+  fullName: Mirage.SocketLayer.ISocket.Close()
+  nameWithType: ISocket.Close()
+- uid: Mirage.SocketLayer.ISocket.Close*
+  name: Close
+  href: api/Mirage.SocketLayer.ISocket.html#Mirage_SocketLayer_ISocket_Close_
+  commentId: Overload:Mirage.SocketLayer.ISocket.Close
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.ISocket.Close
+  nameWithType: ISocket.Close
+- uid: Mirage.SocketLayer.ISocket.Connect(Mirage.SocketLayer.IEndPoint)
+  name: Connect(IEndPoint)
+  href: api/Mirage.SocketLayer.ISocket.html#Mirage_SocketLayer_ISocket_Connect_Mirage_SocketLayer_IEndPoint_
+  commentId: M:Mirage.SocketLayer.ISocket.Connect(Mirage.SocketLayer.IEndPoint)
+  fullName: Mirage.SocketLayer.ISocket.Connect(Mirage.SocketLayer.IEndPoint)
+  nameWithType: ISocket.Connect(IEndPoint)
+- uid: Mirage.SocketLayer.ISocket.Connect*
+  name: Connect
+  href: api/Mirage.SocketLayer.ISocket.html#Mirage_SocketLayer_ISocket_Connect_
+  commentId: Overload:Mirage.SocketLayer.ISocket.Connect
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.ISocket.Connect
+  nameWithType: ISocket.Connect
+- uid: Mirage.SocketLayer.ISocket.Poll
+  name: Poll()
+  href: api/Mirage.SocketLayer.ISocket.html#Mirage_SocketLayer_ISocket_Poll
+  commentId: M:Mirage.SocketLayer.ISocket.Poll
+  fullName: Mirage.SocketLayer.ISocket.Poll()
+  nameWithType: ISocket.Poll()
+- uid: Mirage.SocketLayer.ISocket.Poll*
+  name: Poll
+  href: api/Mirage.SocketLayer.ISocket.html#Mirage_SocketLayer_ISocket_Poll_
+  commentId: Overload:Mirage.SocketLayer.ISocket.Poll
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.ISocket.Poll
+  nameWithType: ISocket.Poll
+- uid: Mirage.SocketLayer.ISocket.Receive(System.Byte[],Mirage.SocketLayer.IEndPoint@)
+  name: Receive(Byte[], out IEndPoint)
+  href: api/Mirage.SocketLayer.ISocket.html#Mirage_SocketLayer_ISocket_Receive_System_Byte___Mirage_SocketLayer_IEndPoint__
+  commentId: M:Mirage.SocketLayer.ISocket.Receive(System.Byte[],Mirage.SocketLayer.IEndPoint@)
+  name.vb: Receive(Byte(), ByRef IEndPoint)
+  fullName: Mirage.SocketLayer.ISocket.Receive(System.Byte[], out Mirage.SocketLayer.IEndPoint)
+  fullName.vb: Mirage.SocketLayer.ISocket.Receive(System.Byte(), ByRef Mirage.SocketLayer.IEndPoint)
+  nameWithType: ISocket.Receive(Byte[], out IEndPoint)
+  nameWithType.vb: ISocket.Receive(Byte(), ByRef IEndPoint)
+- uid: Mirage.SocketLayer.ISocket.Receive*
+  name: Receive
+  href: api/Mirage.SocketLayer.ISocket.html#Mirage_SocketLayer_ISocket_Receive_
+  commentId: Overload:Mirage.SocketLayer.ISocket.Receive
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.ISocket.Receive
+  nameWithType: ISocket.Receive
+- uid: Mirage.SocketLayer.ISocket.Send(Mirage.SocketLayer.IEndPoint,System.Byte[],System.Int32)
+  name: Send(IEndPoint, Byte[], Int32)
+  href: api/Mirage.SocketLayer.ISocket.html#Mirage_SocketLayer_ISocket_Send_Mirage_SocketLayer_IEndPoint_System_Byte___System_Int32_
+  commentId: M:Mirage.SocketLayer.ISocket.Send(Mirage.SocketLayer.IEndPoint,System.Byte[],System.Int32)
+  name.vb: Send(IEndPoint, Byte(), Int32)
+  fullName: Mirage.SocketLayer.ISocket.Send(Mirage.SocketLayer.IEndPoint, System.Byte[], System.Int32)
+  fullName.vb: Mirage.SocketLayer.ISocket.Send(Mirage.SocketLayer.IEndPoint, System.Byte(), System.Int32)
+  nameWithType: ISocket.Send(IEndPoint, Byte[], Int32)
+  nameWithType.vb: ISocket.Send(IEndPoint, Byte(), Int32)
+- uid: Mirage.SocketLayer.ISocket.Send*
+  name: Send
+  href: api/Mirage.SocketLayer.ISocket.html#Mirage_SocketLayer_ISocket_Send_
+  commentId: Overload:Mirage.SocketLayer.ISocket.Send
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.ISocket.Send
+  nameWithType: ISocket.Send
+- uid: Mirage.SocketLayer.ITime
+  name: ITime
+  href: api/Mirage.SocketLayer.ITime.html
+  commentId: T:Mirage.SocketLayer.ITime
+  fullName: Mirage.SocketLayer.ITime
+  nameWithType: ITime
+- uid: Mirage.SocketLayer.ITime.Now
+  name: Now
+  href: api/Mirage.SocketLayer.ITime.html#Mirage_SocketLayer_ITime_Now
+  commentId: P:Mirage.SocketLayer.ITime.Now
+  fullName: Mirage.SocketLayer.ITime.Now
+  nameWithType: ITime.Now
+- uid: Mirage.SocketLayer.ITime.Now*
+  name: Now
+  href: api/Mirage.SocketLayer.ITime.html#Mirage_SocketLayer_ITime_Now_
+  commentId: Overload:Mirage.SocketLayer.ITime.Now
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.ITime.Now
+  nameWithType: ITime.Now
+- uid: Mirage.SocketLayer.Metrics
+  name: Metrics
+  href: api/Mirage.SocketLayer.Metrics.html
+  commentId: T:Mirage.SocketLayer.Metrics
+  fullName: Mirage.SocketLayer.Metrics
+  nameWithType: Metrics
+- uid: Mirage.SocketLayer.Metrics.#ctor(System.Int32)
+  name: Metrics(Int32)
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics__ctor_System_Int32_
+  commentId: M:Mirage.SocketLayer.Metrics.#ctor(System.Int32)
+  fullName: Mirage.SocketLayer.Metrics.Metrics(System.Int32)
+  nameWithType: Metrics.Metrics(Int32)
+- uid: Mirage.SocketLayer.Metrics.#ctor*
+  name: Metrics
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics__ctor_
+  commentId: Overload:Mirage.SocketLayer.Metrics.#ctor
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Metrics.Metrics
+  nameWithType: Metrics.Metrics
+- uid: Mirage.SocketLayer.Metrics.buffer
+  name: buffer
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_buffer
+  commentId: F:Mirage.SocketLayer.Metrics.buffer
+  fullName: Mirage.SocketLayer.Metrics.buffer
+  nameWithType: Metrics.buffer
+- uid: Mirage.SocketLayer.Metrics.Current
+  name: Current
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_Current
+  commentId: P:Mirage.SocketLayer.Metrics.Current
+  fullName: Mirage.SocketLayer.Metrics.Current
+  nameWithType: Metrics.Current
+- uid: Mirage.SocketLayer.Metrics.Current*
+  name: Current
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_Current_
+  commentId: Overload:Mirage.SocketLayer.Metrics.Current
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Metrics.Current
+  nameWithType: Metrics.Current
+- uid: Mirage.SocketLayer.Metrics.Frame
+  name: Metrics.Frame
+  href: api/Mirage.SocketLayer.Metrics.Frame.html
+  commentId: T:Mirage.SocketLayer.Metrics.Frame
+  fullName: Mirage.SocketLayer.Metrics.Frame
+  nameWithType: Metrics.Frame
+- uid: Mirage.SocketLayer.Metrics.Frame.connectionCount
+  name: connectionCount
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_connectionCount
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.connectionCount
+  fullName: Mirage.SocketLayer.Metrics.Frame.connectionCount
+  nameWithType: Metrics.Frame.connectionCount
+- uid: Mirage.SocketLayer.Metrics.Frame.init
+  name: init
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_init
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.init
+  fullName: Mirage.SocketLayer.Metrics.Frame.init
+  nameWithType: Metrics.Frame.init
+- uid: Mirage.SocketLayer.Metrics.Frame.receiveBytes
+  name: receiveBytes
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_receiveBytes
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.receiveBytes
+  fullName: Mirage.SocketLayer.Metrics.Frame.receiveBytes
+  nameWithType: Metrics.Frame.receiveBytes
+- uid: Mirage.SocketLayer.Metrics.Frame.receiveCount
+  name: receiveCount
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_receiveCount
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.receiveCount
+  fullName: Mirage.SocketLayer.Metrics.Frame.receiveCount
+  nameWithType: Metrics.Frame.receiveCount
+- uid: Mirage.SocketLayer.Metrics.Frame.receiveUnconnectedBytes
+  name: receiveUnconnectedBytes
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_receiveUnconnectedBytes
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.receiveUnconnectedBytes
+  fullName: Mirage.SocketLayer.Metrics.Frame.receiveUnconnectedBytes
+  nameWithType: Metrics.Frame.receiveUnconnectedBytes
+- uid: Mirage.SocketLayer.Metrics.Frame.receiveUnconnectedCount
+  name: receiveUnconnectedCount
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_receiveUnconnectedCount
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.receiveUnconnectedCount
+  fullName: Mirage.SocketLayer.Metrics.Frame.receiveUnconnectedCount
+  nameWithType: Metrics.Frame.receiveUnconnectedCount
+- uid: Mirage.SocketLayer.Metrics.Frame.resendBytes
+  name: resendBytes
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_resendBytes
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.resendBytes
+  fullName: Mirage.SocketLayer.Metrics.Frame.resendBytes
+  nameWithType: Metrics.Frame.resendBytes
+- uid: Mirage.SocketLayer.Metrics.Frame.resendCount
+  name: resendCount
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_resendCount
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.resendCount
+  fullName: Mirage.SocketLayer.Metrics.Frame.resendCount
+  nameWithType: Metrics.Frame.resendCount
+- uid: Mirage.SocketLayer.Metrics.Frame.sendBytes
+  name: sendBytes
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_sendBytes
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.sendBytes
+  fullName: Mirage.SocketLayer.Metrics.Frame.sendBytes
+  nameWithType: Metrics.Frame.sendBytes
+- uid: Mirage.SocketLayer.Metrics.Frame.sendCount
+  name: sendCount
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_sendCount
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.sendCount
+  fullName: Mirage.SocketLayer.Metrics.Frame.sendCount
+  nameWithType: Metrics.Frame.sendCount
+- uid: Mirage.SocketLayer.Metrics.Frame.sendUnconnectedBytes
+  name: sendUnconnectedBytes
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_sendUnconnectedBytes
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.sendUnconnectedBytes
+  fullName: Mirage.SocketLayer.Metrics.Frame.sendUnconnectedBytes
+  nameWithType: Metrics.Frame.sendUnconnectedBytes
+- uid: Mirage.SocketLayer.Metrics.Frame.sendUnconnectedCount
+  name: sendUnconnectedCount
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_sendUnconnectedCount
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.sendUnconnectedCount
+  fullName: Mirage.SocketLayer.Metrics.Frame.sendUnconnectedCount
+  nameWithType: Metrics.Frame.sendUnconnectedCount
+- uid: Mirage.SocketLayer.Metrics.OnReceive(System.Int32)
+  name: OnReceive(Int32)
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnReceive_System_Int32_
+  commentId: M:Mirage.SocketLayer.Metrics.OnReceive(System.Int32)
+  fullName: Mirage.SocketLayer.Metrics.OnReceive(System.Int32)
+  nameWithType: Metrics.OnReceive(Int32)
+- uid: Mirage.SocketLayer.Metrics.OnReceive*
+  name: OnReceive
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnReceive_
+  commentId: Overload:Mirage.SocketLayer.Metrics.OnReceive
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Metrics.OnReceive
+  nameWithType: Metrics.OnReceive
+- uid: Mirage.SocketLayer.Metrics.OnReceiveUnconnected(System.Int32)
+  name: OnReceiveUnconnected(Int32)
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnReceiveUnconnected_System_Int32_
+  commentId: M:Mirage.SocketLayer.Metrics.OnReceiveUnconnected(System.Int32)
+  fullName: Mirage.SocketLayer.Metrics.OnReceiveUnconnected(System.Int32)
+  nameWithType: Metrics.OnReceiveUnconnected(Int32)
+- uid: Mirage.SocketLayer.Metrics.OnReceiveUnconnected*
+  name: OnReceiveUnconnected
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnReceiveUnconnected_
+  commentId: Overload:Mirage.SocketLayer.Metrics.OnReceiveUnconnected
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Metrics.OnReceiveUnconnected
+  nameWithType: Metrics.OnReceiveUnconnected
+- uid: Mirage.SocketLayer.Metrics.OnResend(System.Int32)
+  name: OnResend(Int32)
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnResend_System_Int32_
+  commentId: M:Mirage.SocketLayer.Metrics.OnResend(System.Int32)
+  fullName: Mirage.SocketLayer.Metrics.OnResend(System.Int32)
+  nameWithType: Metrics.OnResend(Int32)
+- uid: Mirage.SocketLayer.Metrics.OnResend*
+  name: OnResend
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnResend_
+  commentId: Overload:Mirage.SocketLayer.Metrics.OnResend
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Metrics.OnResend
+  nameWithType: Metrics.OnResend
+- uid: Mirage.SocketLayer.Metrics.OnSend(System.Int32)
+  name: OnSend(Int32)
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnSend_System_Int32_
+  commentId: M:Mirage.SocketLayer.Metrics.OnSend(System.Int32)
+  fullName: Mirage.SocketLayer.Metrics.OnSend(System.Int32)
+  nameWithType: Metrics.OnSend(Int32)
+- uid: Mirage.SocketLayer.Metrics.OnSend*
+  name: OnSend
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnSend_
+  commentId: Overload:Mirage.SocketLayer.Metrics.OnSend
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Metrics.OnSend
+  nameWithType: Metrics.OnSend
+- uid: Mirage.SocketLayer.Metrics.OnTick(System.Int32)
+  name: OnTick(Int32)
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnTick_System_Int32_
+  commentId: M:Mirage.SocketLayer.Metrics.OnTick(System.Int32)
+  fullName: Mirage.SocketLayer.Metrics.OnTick(System.Int32)
+  nameWithType: Metrics.OnTick(Int32)
+- uid: Mirage.SocketLayer.Metrics.OnTick*
+  name: OnTick
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnTick_
+  commentId: Overload:Mirage.SocketLayer.Metrics.OnTick
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Metrics.OnTick
+  nameWithType: Metrics.OnTick
+- uid: Mirage.SocketLayer.Metrics.Sequencer
+  name: Sequencer
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_Sequencer
+  commentId: F:Mirage.SocketLayer.Metrics.Sequencer
+  fullName: Mirage.SocketLayer.Metrics.Sequencer
+  nameWithType: Metrics.Sequencer
+- uid: Mirage.SocketLayer.Metrics.tick
+  name: tick
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_tick
+  commentId: F:Mirage.SocketLayer.Metrics.tick
+  fullName: Mirage.SocketLayer.Metrics.tick
+  nameWithType: Metrics.tick
+- uid: Mirage.SocketLayer.NotifyToken
+  name: NotifyToken
+  href: api/Mirage.SocketLayer.NotifyToken.html
+  commentId: T:Mirage.SocketLayer.NotifyToken
+  fullName: Mirage.SocketLayer.NotifyToken
+  nameWithType: NotifyToken
+- uid: Mirage.SocketLayer.NotifyToken.Delivered
+  name: Delivered
+  href: api/Mirage.SocketLayer.NotifyToken.html#Mirage_SocketLayer_NotifyToken_Delivered
+  commentId: E:Mirage.SocketLayer.NotifyToken.Delivered
+  fullName: Mirage.SocketLayer.NotifyToken.Delivered
+  nameWithType: NotifyToken.Delivered
+- uid: Mirage.SocketLayer.NotifyToken.Lost
+  name: Lost
+  href: api/Mirage.SocketLayer.NotifyToken.html#Mirage_SocketLayer_NotifyToken_Lost
+  commentId: E:Mirage.SocketLayer.NotifyToken.Lost
+  fullName: Mirage.SocketLayer.NotifyToken.Lost
+  nameWithType: NotifyToken.Lost
+- uid: Mirage.SocketLayer.NotifyToken.OnDelivered
+  name: OnDelivered()
+  href: api/Mirage.SocketLayer.NotifyToken.html#Mirage_SocketLayer_NotifyToken_OnDelivered
+  commentId: M:Mirage.SocketLayer.NotifyToken.OnDelivered
+  fullName: Mirage.SocketLayer.NotifyToken.OnDelivered()
+  nameWithType: NotifyToken.OnDelivered()
+- uid: Mirage.SocketLayer.NotifyToken.OnDelivered*
+  name: OnDelivered
+  href: api/Mirage.SocketLayer.NotifyToken.html#Mirage_SocketLayer_NotifyToken_OnDelivered_
+  commentId: Overload:Mirage.SocketLayer.NotifyToken.OnDelivered
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.NotifyToken.OnDelivered
+  nameWithType: NotifyToken.OnDelivered
+- uid: Mirage.SocketLayer.NotifyToken.OnLost
+  name: OnLost()
+  href: api/Mirage.SocketLayer.NotifyToken.html#Mirage_SocketLayer_NotifyToken_OnLost
+  commentId: M:Mirage.SocketLayer.NotifyToken.OnLost
+  fullName: Mirage.SocketLayer.NotifyToken.OnLost()
+  nameWithType: NotifyToken.OnLost()
+- uid: Mirage.SocketLayer.NotifyToken.OnLost*
+  name: OnLost
+  href: api/Mirage.SocketLayer.NotifyToken.html#Mirage_SocketLayer_NotifyToken_OnLost_
+  commentId: Overload:Mirage.SocketLayer.NotifyToken.OnLost
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.NotifyToken.OnLost
+  nameWithType: NotifyToken.OnLost
+- uid: Mirage.SocketLayer.PacketType
+  name: PacketType
+  href: api/Mirage.SocketLayer.PacketType.html
+  commentId: T:Mirage.SocketLayer.PacketType
+  fullName: Mirage.SocketLayer.PacketType
+  nameWithType: PacketType
+- uid: Mirage.SocketLayer.PacketType.Ack
+  name: Ack
+  href: api/Mirage.SocketLayer.PacketType.html#Mirage_SocketLayer_PacketType_Ack
+  commentId: F:Mirage.SocketLayer.PacketType.Ack
+  fullName: Mirage.SocketLayer.PacketType.Ack
+  nameWithType: PacketType.Ack
+- uid: Mirage.SocketLayer.PacketType.Command
+  name: Command
+  href: api/Mirage.SocketLayer.PacketType.html#Mirage_SocketLayer_PacketType_Command
+  commentId: F:Mirage.SocketLayer.PacketType.Command
+  fullName: Mirage.SocketLayer.PacketType.Command
+  nameWithType: PacketType.Command
+- uid: Mirage.SocketLayer.PacketType.KeepAlive
+  name: KeepAlive
+  href: api/Mirage.SocketLayer.PacketType.html#Mirage_SocketLayer_PacketType_KeepAlive
+  commentId: F:Mirage.SocketLayer.PacketType.KeepAlive
+  fullName: Mirage.SocketLayer.PacketType.KeepAlive
+  nameWithType: PacketType.KeepAlive
+- uid: Mirage.SocketLayer.PacketType.Notify
+  name: Notify
+  href: api/Mirage.SocketLayer.PacketType.html#Mirage_SocketLayer_PacketType_Notify
+  commentId: F:Mirage.SocketLayer.PacketType.Notify
+  fullName: Mirage.SocketLayer.PacketType.Notify
+  nameWithType: PacketType.Notify
+- uid: Mirage.SocketLayer.PacketType.Reliable
+  name: Reliable
+  href: api/Mirage.SocketLayer.PacketType.html#Mirage_SocketLayer_PacketType_Reliable
+  commentId: F:Mirage.SocketLayer.PacketType.Reliable
+  fullName: Mirage.SocketLayer.PacketType.Reliable
+  nameWithType: PacketType.Reliable
+- uid: Mirage.SocketLayer.PacketType.ReliableFragment
+  name: ReliableFragment
+  href: api/Mirage.SocketLayer.PacketType.html#Mirage_SocketLayer_PacketType_ReliableFragment
+  commentId: F:Mirage.SocketLayer.PacketType.ReliableFragment
+  fullName: Mirage.SocketLayer.PacketType.ReliableFragment
+  nameWithType: PacketType.ReliableFragment
+- uid: Mirage.SocketLayer.PacketType.Unreliable
+  name: Unreliable
+  href: api/Mirage.SocketLayer.PacketType.html#Mirage_SocketLayer_PacketType_Unreliable
+  commentId: F:Mirage.SocketLayer.PacketType.Unreliable
+  fullName: Mirage.SocketLayer.PacketType.Unreliable
+  nameWithType: PacketType.Unreliable
+- uid: Mirage.SocketLayer.Peer
+  name: Peer
+  href: api/Mirage.SocketLayer.Peer.html
+  commentId: T:Mirage.SocketLayer.Peer
+  fullName: Mirage.SocketLayer.Peer
+  nameWithType: Peer
+- uid: Mirage.SocketLayer.Peer.#ctor(Mirage.SocketLayer.ISocket,Mirage.SocketLayer.IDataHandler,Mirage.SocketLayer.Config,UnityEngine.ILogger,Mirage.SocketLayer.Metrics)
+  name: Peer(ISocket, IDataHandler, Config, ILogger, Metrics)
+  href: api/Mirage.SocketLayer.Peer.html#Mirage_SocketLayer_Peer__ctor_Mirage_SocketLayer_ISocket_Mirage_SocketLayer_IDataHandler_Mirage_SocketLayer_Config_UnityEngine_ILogger_Mirage_SocketLayer_Metrics_
+  commentId: M:Mirage.SocketLayer.Peer.#ctor(Mirage.SocketLayer.ISocket,Mirage.SocketLayer.IDataHandler,Mirage.SocketLayer.Config,UnityEngine.ILogger,Mirage.SocketLayer.Metrics)
+  fullName: Mirage.SocketLayer.Peer.Peer(Mirage.SocketLayer.ISocket, Mirage.SocketLayer.IDataHandler, Mirage.SocketLayer.Config, UnityEngine.ILogger, Mirage.SocketLayer.Metrics)
+  nameWithType: Peer.Peer(ISocket, IDataHandler, Config, ILogger, Metrics)
+- uid: Mirage.SocketLayer.Peer.#ctor*
+  name: Peer
+  href: api/Mirage.SocketLayer.Peer.html#Mirage_SocketLayer_Peer__ctor_
+  commentId: Overload:Mirage.SocketLayer.Peer.#ctor
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Peer.Peer
+  nameWithType: Peer.Peer
+- uid: Mirage.SocketLayer.Peer.Bind(Mirage.SocketLayer.IEndPoint)
+  name: Bind(IEndPoint)
+  href: api/Mirage.SocketLayer.Peer.html#Mirage_SocketLayer_Peer_Bind_Mirage_SocketLayer_IEndPoint_
+  commentId: M:Mirage.SocketLayer.Peer.Bind(Mirage.SocketLayer.IEndPoint)
+  fullName: Mirage.SocketLayer.Peer.Bind(Mirage.SocketLayer.IEndPoint)
+  nameWithType: Peer.Bind(IEndPoint)
+- uid: Mirage.SocketLayer.Peer.Bind*
+  name: Bind
+  href: api/Mirage.SocketLayer.Peer.html#Mirage_SocketLayer_Peer_Bind_
+  commentId: Overload:Mirage.SocketLayer.Peer.Bind
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Peer.Bind
+  nameWithType: Peer.Bind
+- uid: Mirage.SocketLayer.Peer.Close
+  name: Close()
+  href: api/Mirage.SocketLayer.Peer.html#Mirage_SocketLayer_Peer_Close
+  commentId: M:Mirage.SocketLayer.Peer.Close
+  fullName: Mirage.SocketLayer.Peer.Close()
+  nameWithType: Peer.Close()
+- uid: Mirage.SocketLayer.Peer.Close*
+  name: Close
+  href: api/Mirage.SocketLayer.Peer.html#Mirage_SocketLayer_Peer_Close_
+  commentId: Overload:Mirage.SocketLayer.Peer.Close
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Peer.Close
+  nameWithType: Peer.Close
+- uid: Mirage.SocketLayer.Peer.Connect(Mirage.SocketLayer.IEndPoint)
+  name: Connect(IEndPoint)
+  href: api/Mirage.SocketLayer.Peer.html#Mirage_SocketLayer_Peer_Connect_Mirage_SocketLayer_IEndPoint_
+  commentId: M:Mirage.SocketLayer.Peer.Connect(Mirage.SocketLayer.IEndPoint)
+  fullName: Mirage.SocketLayer.Peer.Connect(Mirage.SocketLayer.IEndPoint)
+  nameWithType: Peer.Connect(IEndPoint)
+- uid: Mirage.SocketLayer.Peer.Connect*
+  name: Connect
+  href: api/Mirage.SocketLayer.Peer.html#Mirage_SocketLayer_Peer_Connect_
+  commentId: Overload:Mirage.SocketLayer.Peer.Connect
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Peer.Connect
+  nameWithType: Peer.Connect
+- uid: Mirage.SocketLayer.Peer.OnConnected
+  name: OnConnected
+  href: api/Mirage.SocketLayer.Peer.html#Mirage_SocketLayer_Peer_OnConnected
+  commentId: E:Mirage.SocketLayer.Peer.OnConnected
+  fullName: Mirage.SocketLayer.Peer.OnConnected
+  nameWithType: Peer.OnConnected
+- uid: Mirage.SocketLayer.Peer.OnConnectionFailed
+  name: OnConnectionFailed
+  href: api/Mirage.SocketLayer.Peer.html#Mirage_SocketLayer_Peer_OnConnectionFailed
+  commentId: E:Mirage.SocketLayer.Peer.OnConnectionFailed
+  fullName: Mirage.SocketLayer.Peer.OnConnectionFailed
+  nameWithType: Peer.OnConnectionFailed
+- uid: Mirage.SocketLayer.Peer.OnDisconnected
+  name: OnDisconnected
+  href: api/Mirage.SocketLayer.Peer.html#Mirage_SocketLayer_Peer_OnDisconnected
+  commentId: E:Mirage.SocketLayer.Peer.OnDisconnected
+  fullName: Mirage.SocketLayer.Peer.OnDisconnected
+  nameWithType: Peer.OnDisconnected
+- uid: Mirage.SocketLayer.Peer.Update
+  name: Update()
+  href: api/Mirage.SocketLayer.Peer.html#Mirage_SocketLayer_Peer_Update
+  commentId: M:Mirage.SocketLayer.Peer.Update
+  fullName: Mirage.SocketLayer.Peer.Update()
+  nameWithType: Peer.Update()
+- uid: Mirage.SocketLayer.Peer.Update*
+  name: Update
+  href: api/Mirage.SocketLayer.Peer.html#Mirage_SocketLayer_Peer_Update_
+  commentId: Overload:Mirage.SocketLayer.Peer.Update
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Peer.Update
+  nameWithType: Peer.Update
+- uid: Mirage.SocketLayer.Pool`1
+  name: Pool<T>
+  href: api/Mirage.SocketLayer.Pool-1.html
+  commentId: T:Mirage.SocketLayer.Pool`1
+  name.vb: Pool(Of T)
+  fullName: Mirage.SocketLayer.Pool<T>
+  fullName.vb: Mirage.SocketLayer.Pool(Of T)
+  nameWithType: Pool<T>
+  nameWithType.vb: Pool(Of T)
+- uid: Mirage.SocketLayer.Pool`1.#ctor(Mirage.SocketLayer.Pool{`0}.CreateNewItem,System.Int32,System.Int32,System.Int32,UnityEngine.ILogger)
+  name: Pool(Pool<T>.CreateNewItem, Int32, Int32, Int32, ILogger)
+  href: api/Mirage.SocketLayer.Pool-1.html#Mirage_SocketLayer_Pool_1__ctor_Mirage_SocketLayer_Pool__0__CreateNewItem_System_Int32_System_Int32_System_Int32_UnityEngine_ILogger_
+  commentId: M:Mirage.SocketLayer.Pool`1.#ctor(Mirage.SocketLayer.Pool{`0}.CreateNewItem,System.Int32,System.Int32,System.Int32,UnityEngine.ILogger)
+  name.vb: Pool(Pool(Of T).CreateNewItem, Int32, Int32, Int32, ILogger)
+  fullName: Mirage.SocketLayer.Pool<T>.Pool(Mirage.SocketLayer.Pool<T>.CreateNewItem, System.Int32, System.Int32, System.Int32, UnityEngine.ILogger)
+  fullName.vb: Mirage.SocketLayer.Pool(Of T).Pool(Mirage.SocketLayer.Pool(Of T).CreateNewItem, System.Int32, System.Int32, System.Int32, UnityEngine.ILogger)
+  nameWithType: Pool<T>.Pool(Pool<T>.CreateNewItem, Int32, Int32, Int32, ILogger)
+  nameWithType.vb: Pool(Of T).Pool(Pool(Of T).CreateNewItem, Int32, Int32, Int32, ILogger)
+- uid: Mirage.SocketLayer.Pool`1.#ctor*
+  name: Pool
+  href: api/Mirage.SocketLayer.Pool-1.html#Mirage_SocketLayer_Pool_1__ctor_
+  commentId: Overload:Mirage.SocketLayer.Pool`1.#ctor
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Pool<T>.Pool
+  fullName.vb: Mirage.SocketLayer.Pool(Of T).Pool
+  nameWithType: Pool<T>.Pool
+  nameWithType.vb: Pool(Of T).Pool
+- uid: Mirage.SocketLayer.Pool`1.Configure(System.Int32,System.Int32)
+  name: Configure(Int32, Int32)
+  href: api/Mirage.SocketLayer.Pool-1.html#Mirage_SocketLayer_Pool_1_Configure_System_Int32_System_Int32_
+  commentId: M:Mirage.SocketLayer.Pool`1.Configure(System.Int32,System.Int32)
+  fullName: Mirage.SocketLayer.Pool<T>.Configure(System.Int32, System.Int32)
+  fullName.vb: Mirage.SocketLayer.Pool(Of T).Configure(System.Int32, System.Int32)
+  nameWithType: Pool<T>.Configure(Int32, Int32)
+  nameWithType.vb: Pool(Of T).Configure(Int32, Int32)
+- uid: Mirage.SocketLayer.Pool`1.Configure*
+  name: Configure
+  href: api/Mirage.SocketLayer.Pool-1.html#Mirage_SocketLayer_Pool_1_Configure_
+  commentId: Overload:Mirage.SocketLayer.Pool`1.Configure
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Pool<T>.Configure
+  fullName.vb: Mirage.SocketLayer.Pool(Of T).Configure
+  nameWithType: Pool<T>.Configure
+  nameWithType.vb: Pool(Of T).Configure
+- uid: Mirage.SocketLayer.Pool`1.CreateNewItem
+  name: Pool<T>.CreateNewItem
+  href: api/Mirage.SocketLayer.Pool-1.CreateNewItem.html
+  commentId: T:Mirage.SocketLayer.Pool`1.CreateNewItem
+  name.vb: Pool(Of T).CreateNewItem
+  fullName: Mirage.SocketLayer.Pool<T>.CreateNewItem
+  fullName.vb: Mirage.SocketLayer.Pool(Of T).CreateNewItem
+  nameWithType: Pool<T>.CreateNewItem
+  nameWithType.vb: Pool(Of T).CreateNewItem
+- uid: Mirage.SocketLayer.Pool`1.Put(`0)
+  name: Put(T)
+  href: api/Mirage.SocketLayer.Pool-1.html#Mirage_SocketLayer_Pool_1_Put__0_
+  commentId: M:Mirage.SocketLayer.Pool`1.Put(`0)
+  fullName: Mirage.SocketLayer.Pool<T>.Put(T)
+  fullName.vb: Mirage.SocketLayer.Pool(Of T).Put(T)
+  nameWithType: Pool<T>.Put(T)
+  nameWithType.vb: Pool(Of T).Put(T)
+- uid: Mirage.SocketLayer.Pool`1.Put*
+  name: Put
+  href: api/Mirage.SocketLayer.Pool-1.html#Mirage_SocketLayer_Pool_1_Put_
+  commentId: Overload:Mirage.SocketLayer.Pool`1.Put
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Pool<T>.Put
+  fullName.vb: Mirage.SocketLayer.Pool(Of T).Put
+  nameWithType: Pool<T>.Put
+  nameWithType.vb: Pool(Of T).Put
+- uid: Mirage.SocketLayer.Pool`1.Take
+  name: Take()
+  href: api/Mirage.SocketLayer.Pool-1.html#Mirage_SocketLayer_Pool_1_Take
+  commentId: M:Mirage.SocketLayer.Pool`1.Take
+  fullName: Mirage.SocketLayer.Pool<T>.Take()
+  fullName.vb: Mirage.SocketLayer.Pool(Of T).Take()
+  nameWithType: Pool<T>.Take()
+  nameWithType.vb: Pool(Of T).Take()
+- uid: Mirage.SocketLayer.Pool`1.Take*
+  name: Take
+  href: api/Mirage.SocketLayer.Pool-1.html#Mirage_SocketLayer_Pool_1_Take_
+  commentId: Overload:Mirage.SocketLayer.Pool`1.Take
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Pool<T>.Take
+  fullName.vb: Mirage.SocketLayer.Pool(Of T).Take
+  nameWithType: Pool<T>.Take
+  nameWithType.vb: Pool(Of T).Take
+- uid: Mirage.SocketLayer.RejectReason
+  name: RejectReason
+  href: api/Mirage.SocketLayer.RejectReason.html
+  commentId: T:Mirage.SocketLayer.RejectReason
+  fullName: Mirage.SocketLayer.RejectReason
+  nameWithType: RejectReason
+- uid: Mirage.SocketLayer.RejectReason.ClosedByPeer
+  name: ClosedByPeer
+  href: api/Mirage.SocketLayer.RejectReason.html#Mirage_SocketLayer_RejectReason_ClosedByPeer
+  commentId: F:Mirage.SocketLayer.RejectReason.ClosedByPeer
+  fullName: Mirage.SocketLayer.RejectReason.ClosedByPeer
+  nameWithType: RejectReason.ClosedByPeer
+- uid: Mirage.SocketLayer.RejectReason.None
+  name: None
+  href: api/Mirage.SocketLayer.RejectReason.html#Mirage_SocketLayer_RejectReason_None
+  commentId: F:Mirage.SocketLayer.RejectReason.None
+  fullName: Mirage.SocketLayer.RejectReason.None
+  nameWithType: RejectReason.None
+- uid: Mirage.SocketLayer.RejectReason.ServerFull
+  name: ServerFull
+  href: api/Mirage.SocketLayer.RejectReason.html#Mirage_SocketLayer_RejectReason_ServerFull
+  commentId: F:Mirage.SocketLayer.RejectReason.ServerFull
+  fullName: Mirage.SocketLayer.RejectReason.ServerFull
+  nameWithType: RejectReason.ServerFull
+- uid: Mirage.SocketLayer.RejectReason.Timeout
+  name: Timeout
+  href: api/Mirage.SocketLayer.RejectReason.html#Mirage_SocketLayer_RejectReason_Timeout
+  commentId: F:Mirage.SocketLayer.RejectReason.Timeout
+  fullName: Mirage.SocketLayer.RejectReason.Timeout
+  nameWithType: RejectReason.Timeout
+- uid: Mirage.SocketLayer.RingBuffer`1
+  name: RingBuffer<T>
+  href: api/Mirage.SocketLayer.RingBuffer-1.html
+  commentId: T:Mirage.SocketLayer.RingBuffer`1
+  name.vb: RingBuffer(Of T)
+  fullName: Mirage.SocketLayer.RingBuffer<T>
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T)
+  nameWithType: RingBuffer<T>
+  nameWithType.vb: RingBuffer(Of T)
+- uid: Mirage.SocketLayer.RingBuffer`1.#ctor(System.Int32)
+  name: RingBuffer(Int32)
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1__ctor_System_Int32_
+  commentId: M:Mirage.SocketLayer.RingBuffer`1.#ctor(System.Int32)
+  fullName: Mirage.SocketLayer.RingBuffer<T>.RingBuffer(System.Int32)
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).RingBuffer(System.Int32)
+  nameWithType: RingBuffer<T>.RingBuffer(Int32)
+  nameWithType.vb: RingBuffer(Of T).RingBuffer(Int32)
+- uid: Mirage.SocketLayer.RingBuffer`1.#ctor(System.Int32,System.Collections.Generic.IEqualityComparer{`0})
+  name: RingBuffer(Int32, IEqualityComparer<T>)
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1__ctor_System_Int32_System_Collections_Generic_IEqualityComparer__0__
+  commentId: M:Mirage.SocketLayer.RingBuffer`1.#ctor(System.Int32,System.Collections.Generic.IEqualityComparer{`0})
+  name.vb: RingBuffer(Int32, IEqualityComparer(Of T))
+  fullName: Mirage.SocketLayer.RingBuffer<T>.RingBuffer(System.Int32, System.Collections.Generic.IEqualityComparer<T>)
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).RingBuffer(System.Int32, System.Collections.Generic.IEqualityComparer(Of T))
+  nameWithType: RingBuffer<T>.RingBuffer(Int32, IEqualityComparer<T>)
+  nameWithType.vb: RingBuffer(Of T).RingBuffer(Int32, IEqualityComparer(Of T))
+- uid: Mirage.SocketLayer.RingBuffer`1.#ctor*
+  name: RingBuffer
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1__ctor_
+  commentId: Overload:Mirage.SocketLayer.RingBuffer`1.#ctor
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.RingBuffer<T>.RingBuffer
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).RingBuffer
+  nameWithType: RingBuffer<T>.RingBuffer
+  nameWithType.vb: RingBuffer(Of T).RingBuffer
+- uid: Mirage.SocketLayer.RingBuffer`1.Count
+  name: Count
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_Count
+  commentId: P:Mirage.SocketLayer.RingBuffer`1.Count
+  fullName: Mirage.SocketLayer.RingBuffer<T>.Count
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).Count
+  nameWithType: RingBuffer<T>.Count
+  nameWithType.vb: RingBuffer(Of T).Count
+- uid: Mirage.SocketLayer.RingBuffer`1.Count*
+  name: Count
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_Count_
+  commentId: Overload:Mirage.SocketLayer.RingBuffer`1.Count
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.RingBuffer<T>.Count
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).Count
+  nameWithType: RingBuffer<T>.Count
+  nameWithType.vb: RingBuffer(Of T).Count
+- uid: Mirage.SocketLayer.RingBuffer`1.Dequeue
+  name: Dequeue()
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_Dequeue
+  commentId: M:Mirage.SocketLayer.RingBuffer`1.Dequeue
+  fullName: Mirage.SocketLayer.RingBuffer<T>.Dequeue()
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).Dequeue()
+  nameWithType: RingBuffer<T>.Dequeue()
+  nameWithType.vb: RingBuffer(Of T).Dequeue()
+- uid: Mirage.SocketLayer.RingBuffer`1.Dequeue*
+  name: Dequeue
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_Dequeue_
+  commentId: Overload:Mirage.SocketLayer.RingBuffer`1.Dequeue
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.RingBuffer<T>.Dequeue
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).Dequeue
+  nameWithType: RingBuffer<T>.Dequeue
+  nameWithType.vb: RingBuffer(Of T).Dequeue
+- uid: Mirage.SocketLayer.RingBuffer`1.DistanceToRead(System.UInt32)
+  name: DistanceToRead(UInt32)
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_DistanceToRead_System_UInt32_
+  commentId: M:Mirage.SocketLayer.RingBuffer`1.DistanceToRead(System.UInt32)
+  fullName: Mirage.SocketLayer.RingBuffer<T>.DistanceToRead(System.UInt32)
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).DistanceToRead(System.UInt32)
+  nameWithType: RingBuffer<T>.DistanceToRead(UInt32)
+  nameWithType.vb: RingBuffer(Of T).DistanceToRead(UInt32)
+- uid: Mirage.SocketLayer.RingBuffer`1.DistanceToRead*
+  name: DistanceToRead
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_DistanceToRead_
+  commentId: Overload:Mirage.SocketLayer.RingBuffer`1.DistanceToRead
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.RingBuffer<T>.DistanceToRead
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).DistanceToRead
+  nameWithType: RingBuffer<T>.DistanceToRead
+  nameWithType.vb: RingBuffer(Of T).DistanceToRead
+- uid: Mirage.SocketLayer.RingBuffer`1.Enqueue(`0)
+  name: Enqueue(T)
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_Enqueue__0_
+  commentId: M:Mirage.SocketLayer.RingBuffer`1.Enqueue(`0)
+  fullName: Mirage.SocketLayer.RingBuffer<T>.Enqueue(T)
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).Enqueue(T)
+  nameWithType: RingBuffer<T>.Enqueue(T)
+  nameWithType.vb: RingBuffer(Of T).Enqueue(T)
+- uid: Mirage.SocketLayer.RingBuffer`1.Enqueue*
+  name: Enqueue
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_Enqueue_
+  commentId: Overload:Mirage.SocketLayer.RingBuffer`1.Enqueue
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.RingBuffer<T>.Enqueue
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).Enqueue
+  nameWithType: RingBuffer<T>.Enqueue
+  nameWithType.vb: RingBuffer(Of T).Enqueue
+- uid: Mirage.SocketLayer.RingBuffer`1.Exists(System.UInt32)
+  name: Exists(UInt32)
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_Exists_System_UInt32_
+  commentId: M:Mirage.SocketLayer.RingBuffer`1.Exists(System.UInt32)
+  fullName: Mirage.SocketLayer.RingBuffer<T>.Exists(System.UInt32)
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).Exists(System.UInt32)
+  nameWithType: RingBuffer<T>.Exists(UInt32)
+  nameWithType.vb: RingBuffer(Of T).Exists(UInt32)
+- uid: Mirage.SocketLayer.RingBuffer`1.Exists*
+  name: Exists
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_Exists_
+  commentId: Overload:Mirage.SocketLayer.RingBuffer`1.Exists
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.RingBuffer<T>.Exists
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).Exists
+  nameWithType: RingBuffer<T>.Exists
+  nameWithType.vb: RingBuffer(Of T).Exists
+- uid: Mirage.SocketLayer.RingBuffer`1.InsertAt(System.UInt32,`0)
+  name: InsertAt(UInt32, T)
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_InsertAt_System_UInt32__0_
+  commentId: M:Mirage.SocketLayer.RingBuffer`1.InsertAt(System.UInt32,`0)
+  fullName: Mirage.SocketLayer.RingBuffer<T>.InsertAt(System.UInt32, T)
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).InsertAt(System.UInt32, T)
+  nameWithType: RingBuffer<T>.InsertAt(UInt32, T)
+  nameWithType.vb: RingBuffer(Of T).InsertAt(UInt32, T)
+- uid: Mirage.SocketLayer.RingBuffer`1.InsertAt*
+  name: InsertAt
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_InsertAt_
+  commentId: Overload:Mirage.SocketLayer.RingBuffer`1.InsertAt
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.RingBuffer<T>.InsertAt
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).InsertAt
+  nameWithType: RingBuffer<T>.InsertAt
+  nameWithType.vb: RingBuffer(Of T).InsertAt
+- uid: Mirage.SocketLayer.RingBuffer`1.IsFull
+  name: IsFull
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_IsFull
+  commentId: P:Mirage.SocketLayer.RingBuffer`1.IsFull
+  fullName: Mirage.SocketLayer.RingBuffer<T>.IsFull
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).IsFull
+  nameWithType: RingBuffer<T>.IsFull
+  nameWithType.vb: RingBuffer(Of T).IsFull
+- uid: Mirage.SocketLayer.RingBuffer`1.IsFull*
+  name: IsFull
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_IsFull_
+  commentId: Overload:Mirage.SocketLayer.RingBuffer`1.IsFull
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.RingBuffer<T>.IsFull
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).IsFull
+  nameWithType: RingBuffer<T>.IsFull
+  nameWithType.vb: RingBuffer(Of T).IsFull
+- uid: Mirage.SocketLayer.RingBuffer`1.Item(System.Int32)
+  name: Item[Int32]
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_Item_System_Int32_
+  commentId: P:Mirage.SocketLayer.RingBuffer`1.Item(System.Int32)
+  name.vb: Item(Int32)
+  fullName: Mirage.SocketLayer.RingBuffer<T>.Item[System.Int32]
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).Item(System.Int32)
+  nameWithType: RingBuffer<T>.Item[Int32]
+  nameWithType.vb: RingBuffer(Of T).Item(Int32)
+- uid: Mirage.SocketLayer.RingBuffer`1.Item(System.UInt32)
+  name: Item[UInt32]
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_Item_System_UInt32_
+  commentId: P:Mirage.SocketLayer.RingBuffer`1.Item(System.UInt32)
+  name.vb: Item(UInt32)
+  fullName: Mirage.SocketLayer.RingBuffer<T>.Item[System.UInt32]
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).Item(System.UInt32)
+  nameWithType: RingBuffer<T>.Item[UInt32]
+  nameWithType.vb: RingBuffer(Of T).Item(UInt32)
+- uid: Mirage.SocketLayer.RingBuffer`1.Item*
+  name: Item
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_Item_
+  commentId: Overload:Mirage.SocketLayer.RingBuffer`1.Item
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.RingBuffer<T>.Item
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).Item
+  nameWithType: RingBuffer<T>.Item
+  nameWithType.vb: RingBuffer(Of T).Item
+- uid: Mirage.SocketLayer.RingBuffer`1.MoveReadOne
+  name: MoveReadOne()
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_MoveReadOne
+  commentId: M:Mirage.SocketLayer.RingBuffer`1.MoveReadOne
+  fullName: Mirage.SocketLayer.RingBuffer<T>.MoveReadOne()
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).MoveReadOne()
+  nameWithType: RingBuffer<T>.MoveReadOne()
+  nameWithType.vb: RingBuffer(Of T).MoveReadOne()
+- uid: Mirage.SocketLayer.RingBuffer`1.MoveReadOne*
+  name: MoveReadOne
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_MoveReadOne_
+  commentId: Overload:Mirage.SocketLayer.RingBuffer`1.MoveReadOne
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.RingBuffer<T>.MoveReadOne
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).MoveReadOne
+  nameWithType: RingBuffer<T>.MoveReadOne
+  nameWithType.vb: RingBuffer(Of T).MoveReadOne
+- uid: Mirage.SocketLayer.RingBuffer`1.MoveReadToNextNonEmpty
+  name: MoveReadToNextNonEmpty()
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_MoveReadToNextNonEmpty
+  commentId: M:Mirage.SocketLayer.RingBuffer`1.MoveReadToNextNonEmpty
+  fullName: Mirage.SocketLayer.RingBuffer<T>.MoveReadToNextNonEmpty()
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).MoveReadToNextNonEmpty()
+  nameWithType: RingBuffer<T>.MoveReadToNextNonEmpty()
+  nameWithType.vb: RingBuffer(Of T).MoveReadToNextNonEmpty()
+- uid: Mirage.SocketLayer.RingBuffer`1.MoveReadToNextNonEmpty*
+  name: MoveReadToNextNonEmpty
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_MoveReadToNextNonEmpty_
+  commentId: Overload:Mirage.SocketLayer.RingBuffer`1.MoveReadToNextNonEmpty
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.RingBuffer<T>.MoveReadToNextNonEmpty
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).MoveReadToNextNonEmpty
+  nameWithType: RingBuffer<T>.MoveReadToNextNonEmpty
+  nameWithType.vb: RingBuffer(Of T).MoveReadToNextNonEmpty
+- uid: Mirage.SocketLayer.RingBuffer`1.Read
+  name: Read
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_Read
+  commentId: P:Mirage.SocketLayer.RingBuffer`1.Read
+  fullName: Mirage.SocketLayer.RingBuffer<T>.Read
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).Read
+  nameWithType: RingBuffer<T>.Read
+  nameWithType.vb: RingBuffer(Of T).Read
+- uid: Mirage.SocketLayer.RingBuffer`1.Read*
+  name: Read
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_Read_
+  commentId: Overload:Mirage.SocketLayer.RingBuffer`1.Read
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.RingBuffer<T>.Read
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).Read
+  nameWithType: RingBuffer<T>.Read
+  nameWithType.vb: RingBuffer(Of T).Read
+- uid: Mirage.SocketLayer.RingBuffer`1.RemoveAt(System.UInt32)
+  name: RemoveAt(UInt32)
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_RemoveAt_System_UInt32_
+  commentId: M:Mirage.SocketLayer.RingBuffer`1.RemoveAt(System.UInt32)
+  fullName: Mirage.SocketLayer.RingBuffer<T>.RemoveAt(System.UInt32)
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).RemoveAt(System.UInt32)
+  nameWithType: RingBuffer<T>.RemoveAt(UInt32)
+  nameWithType.vb: RingBuffer(Of T).RemoveAt(UInt32)
+- uid: Mirage.SocketLayer.RingBuffer`1.RemoveAt*
+  name: RemoveAt
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_RemoveAt_
+  commentId: Overload:Mirage.SocketLayer.RingBuffer`1.RemoveAt
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.RingBuffer<T>.RemoveAt
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).RemoveAt
+  nameWithType: RingBuffer<T>.RemoveAt
+  nameWithType.vb: RingBuffer(Of T).RemoveAt
+- uid: Mirage.SocketLayer.RingBuffer`1.RemoveNext
+  name: RemoveNext()
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_RemoveNext
+  commentId: M:Mirage.SocketLayer.RingBuffer`1.RemoveNext
+  fullName: Mirage.SocketLayer.RingBuffer<T>.RemoveNext()
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).RemoveNext()
+  nameWithType: RingBuffer<T>.RemoveNext()
+  nameWithType.vb: RingBuffer(Of T).RemoveNext()
+- uid: Mirage.SocketLayer.RingBuffer`1.RemoveNext*
+  name: RemoveNext
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_RemoveNext_
+  commentId: Overload:Mirage.SocketLayer.RingBuffer`1.RemoveNext
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.RingBuffer<T>.RemoveNext
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).RemoveNext
+  nameWithType: RingBuffer<T>.RemoveNext
+  nameWithType.vb: RingBuffer(Of T).RemoveNext
+- uid: Mirage.SocketLayer.RingBuffer`1.Sequencer
+  name: Sequencer
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_Sequencer
+  commentId: F:Mirage.SocketLayer.RingBuffer`1.Sequencer
+  fullName: Mirage.SocketLayer.RingBuffer<T>.Sequencer
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).Sequencer
+  nameWithType: RingBuffer<T>.Sequencer
+  nameWithType.vb: RingBuffer(Of T).Sequencer
+- uid: Mirage.SocketLayer.RingBuffer`1.TryDequeue(`0@)
+  name: TryDequeue(out T)
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_TryDequeue__0__
+  commentId: M:Mirage.SocketLayer.RingBuffer`1.TryDequeue(`0@)
+  name.vb: TryDequeue(ByRef T)
+  fullName: Mirage.SocketLayer.RingBuffer<T>.TryDequeue(out T)
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).TryDequeue(ByRef T)
+  nameWithType: RingBuffer<T>.TryDequeue(out T)
+  nameWithType.vb: RingBuffer(Of T).TryDequeue(ByRef T)
+- uid: Mirage.SocketLayer.RingBuffer`1.TryDequeue*
+  name: TryDequeue
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_TryDequeue_
+  commentId: Overload:Mirage.SocketLayer.RingBuffer`1.TryDequeue
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.RingBuffer<T>.TryDequeue
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).TryDequeue
+  nameWithType: RingBuffer<T>.TryDequeue
+  nameWithType.vb: RingBuffer(Of T).TryDequeue
+- uid: Mirage.SocketLayer.RingBuffer`1.TryPeak(`0@)
+  name: TryPeak(out T)
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_TryPeak__0__
+  commentId: M:Mirage.SocketLayer.RingBuffer`1.TryPeak(`0@)
+  name.vb: TryPeak(ByRef T)
+  fullName: Mirage.SocketLayer.RingBuffer<T>.TryPeak(out T)
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).TryPeak(ByRef T)
+  nameWithType: RingBuffer<T>.TryPeak(out T)
+  nameWithType.vb: RingBuffer(Of T).TryPeak(ByRef T)
+- uid: Mirage.SocketLayer.RingBuffer`1.TryPeak*
+  name: TryPeak
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_TryPeak_
+  commentId: Overload:Mirage.SocketLayer.RingBuffer`1.TryPeak
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.RingBuffer<T>.TryPeak
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).TryPeak
+  nameWithType: RingBuffer<T>.TryPeak
+  nameWithType.vb: RingBuffer(Of T).TryPeak
+- uid: Mirage.SocketLayer.RingBuffer`1.Write
+  name: Write
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_Write
+  commentId: P:Mirage.SocketLayer.RingBuffer`1.Write
+  fullName: Mirage.SocketLayer.RingBuffer<T>.Write
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).Write
+  nameWithType: RingBuffer<T>.Write
+  nameWithType.vb: RingBuffer(Of T).Write
+- uid: Mirage.SocketLayer.RingBuffer`1.Write*
+  name: Write
+  href: api/Mirage.SocketLayer.RingBuffer-1.html#Mirage_SocketLayer_RingBuffer_1_Write_
+  commentId: Overload:Mirage.SocketLayer.RingBuffer`1.Write
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.RingBuffer<T>.Write
+  fullName.vb: Mirage.SocketLayer.RingBuffer(Of T).Write
+  nameWithType: RingBuffer<T>.Write
+  nameWithType.vb: RingBuffer(Of T).Write
+- uid: Mirage.SocketLayer.Sequencer
+  name: Sequencer
+  href: api/Mirage.SocketLayer.Sequencer.html
+  commentId: T:Mirage.SocketLayer.Sequencer
+  fullName: Mirage.SocketLayer.Sequencer
+  nameWithType: Sequencer
+- uid: Mirage.SocketLayer.Sequencer.#ctor(System.Int32)
+  name: Sequencer(Int32)
+  href: api/Mirage.SocketLayer.Sequencer.html#Mirage_SocketLayer_Sequencer__ctor_System_Int32_
+  commentId: M:Mirage.SocketLayer.Sequencer.#ctor(System.Int32)
+  fullName: Mirage.SocketLayer.Sequencer.Sequencer(System.Int32)
+  nameWithType: Sequencer.Sequencer(Int32)
+- uid: Mirage.SocketLayer.Sequencer.#ctor*
+  name: Sequencer
+  href: api/Mirage.SocketLayer.Sequencer.html#Mirage_SocketLayer_Sequencer__ctor_
+  commentId: Overload:Mirage.SocketLayer.Sequencer.#ctor
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Sequencer.Sequencer
+  nameWithType: Sequencer.Sequencer
+- uid: Mirage.SocketLayer.Sequencer.Bits
+  name: Bits
+  href: api/Mirage.SocketLayer.Sequencer.html#Mirage_SocketLayer_Sequencer_Bits
+  commentId: P:Mirage.SocketLayer.Sequencer.Bits
+  fullName: Mirage.SocketLayer.Sequencer.Bits
+  nameWithType: Sequencer.Bits
+- uid: Mirage.SocketLayer.Sequencer.Bits*
+  name: Bits
+  href: api/Mirage.SocketLayer.Sequencer.html#Mirage_SocketLayer_Sequencer_Bits_
+  commentId: Overload:Mirage.SocketLayer.Sequencer.Bits
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Sequencer.Bits
+  nameWithType: Sequencer.Bits
+- uid: Mirage.SocketLayer.Sequencer.Distance(System.UInt64,System.UInt64)
+  name: Distance(UInt64, UInt64)
+  href: api/Mirage.SocketLayer.Sequencer.html#Mirage_SocketLayer_Sequencer_Distance_System_UInt64_System_UInt64_
+  commentId: M:Mirage.SocketLayer.Sequencer.Distance(System.UInt64,System.UInt64)
+  fullName: Mirage.SocketLayer.Sequencer.Distance(System.UInt64, System.UInt64)
+  nameWithType: Sequencer.Distance(UInt64, UInt64)
+- uid: Mirage.SocketLayer.Sequencer.Distance*
+  name: Distance
+  href: api/Mirage.SocketLayer.Sequencer.html#Mirage_SocketLayer_Sequencer_Distance_
+  commentId: Overload:Mirage.SocketLayer.Sequencer.Distance
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Sequencer.Distance
+  nameWithType: Sequencer.Distance
+- uid: Mirage.SocketLayer.Sequencer.MoveInBounds(System.UInt64)
+  name: MoveInBounds(UInt64)
+  href: api/Mirage.SocketLayer.Sequencer.html#Mirage_SocketLayer_Sequencer_MoveInBounds_System_UInt64_
+  commentId: M:Mirage.SocketLayer.Sequencer.MoveInBounds(System.UInt64)
+  fullName: Mirage.SocketLayer.Sequencer.MoveInBounds(System.UInt64)
+  nameWithType: Sequencer.MoveInBounds(UInt64)
+- uid: Mirage.SocketLayer.Sequencer.MoveInBounds*
+  name: MoveInBounds
+  href: api/Mirage.SocketLayer.Sequencer.html#Mirage_SocketLayer_Sequencer_MoveInBounds_
+  commentId: Overload:Mirage.SocketLayer.Sequencer.MoveInBounds
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Sequencer.MoveInBounds
+  nameWithType: Sequencer.MoveInBounds
+- uid: Mirage.SocketLayer.Sequencer.Next
+  name: Next()
+  href: api/Mirage.SocketLayer.Sequencer.html#Mirage_SocketLayer_Sequencer_Next
+  commentId: M:Mirage.SocketLayer.Sequencer.Next
+  fullName: Mirage.SocketLayer.Sequencer.Next()
+  nameWithType: Sequencer.Next()
+- uid: Mirage.SocketLayer.Sequencer.Next*
+  name: Next
+  href: api/Mirage.SocketLayer.Sequencer.html#Mirage_SocketLayer_Sequencer_Next_
+  commentId: Overload:Mirage.SocketLayer.Sequencer.Next
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Sequencer.Next
+  nameWithType: Sequencer.Next
+- uid: Mirage.SocketLayer.Sequencer.NextAfter(System.UInt64)
+  name: NextAfter(UInt64)
+  href: api/Mirage.SocketLayer.Sequencer.html#Mirage_SocketLayer_Sequencer_NextAfter_System_UInt64_
+  commentId: M:Mirage.SocketLayer.Sequencer.NextAfter(System.UInt64)
+  fullName: Mirage.SocketLayer.Sequencer.NextAfter(System.UInt64)
+  nameWithType: Sequencer.NextAfter(UInt64)
+- uid: Mirage.SocketLayer.Sequencer.NextAfter*
+  name: NextAfter
+  href: api/Mirage.SocketLayer.Sequencer.html#Mirage_SocketLayer_Sequencer_NextAfter_
+  commentId: Overload:Mirage.SocketLayer.Sequencer.NextAfter
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Sequencer.NextAfter
+  nameWithType: Sequencer.NextAfter
+- uid: Mirage.SocketLayer.SocketFactory
+  name: SocketFactory
+  href: api/Mirage.SocketLayer.SocketFactory.html
+  commentId: T:Mirage.SocketLayer.SocketFactory
+  fullName: Mirage.SocketLayer.SocketFactory
+  nameWithType: SocketFactory
+- uid: Mirage.SocketLayer.SocketFactory.CreateClientSocket
+  name: CreateClientSocket()
+  href: api/Mirage.SocketLayer.SocketFactory.html#Mirage_SocketLayer_SocketFactory_CreateClientSocket
+  commentId: M:Mirage.SocketLayer.SocketFactory.CreateClientSocket
+  fullName: Mirage.SocketLayer.SocketFactory.CreateClientSocket()
+  nameWithType: SocketFactory.CreateClientSocket()
+- uid: Mirage.SocketLayer.SocketFactory.CreateClientSocket*
+  name: CreateClientSocket
+  href: api/Mirage.SocketLayer.SocketFactory.html#Mirage_SocketLayer_SocketFactory_CreateClientSocket_
+  commentId: Overload:Mirage.SocketLayer.SocketFactory.CreateClientSocket
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.SocketFactory.CreateClientSocket
+  nameWithType: SocketFactory.CreateClientSocket
+- uid: Mirage.SocketLayer.SocketFactory.CreateServerSocket
+  name: CreateServerSocket()
+  href: api/Mirage.SocketLayer.SocketFactory.html#Mirage_SocketLayer_SocketFactory_CreateServerSocket
+  commentId: M:Mirage.SocketLayer.SocketFactory.CreateServerSocket
+  fullName: Mirage.SocketLayer.SocketFactory.CreateServerSocket()
+  nameWithType: SocketFactory.CreateServerSocket()
+- uid: Mirage.SocketLayer.SocketFactory.CreateServerSocket*
+  name: CreateServerSocket
+  href: api/Mirage.SocketLayer.SocketFactory.html#Mirage_SocketLayer_SocketFactory_CreateServerSocket_
+  commentId: Overload:Mirage.SocketLayer.SocketFactory.CreateServerSocket
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.SocketFactory.CreateServerSocket
+  nameWithType: SocketFactory.CreateServerSocket
+- uid: Mirage.SocketLayer.SocketFactory.GetBindEndPoint
+  name: GetBindEndPoint()
+  href: api/Mirage.SocketLayer.SocketFactory.html#Mirage_SocketLayer_SocketFactory_GetBindEndPoint
+  commentId: M:Mirage.SocketLayer.SocketFactory.GetBindEndPoint
+  fullName: Mirage.SocketLayer.SocketFactory.GetBindEndPoint()
+  nameWithType: SocketFactory.GetBindEndPoint()
+- uid: Mirage.SocketLayer.SocketFactory.GetBindEndPoint*
+  name: GetBindEndPoint
+  href: api/Mirage.SocketLayer.SocketFactory.html#Mirage_SocketLayer_SocketFactory_GetBindEndPoint_
+  commentId: Overload:Mirage.SocketLayer.SocketFactory.GetBindEndPoint
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.SocketFactory.GetBindEndPoint
+  nameWithType: SocketFactory.GetBindEndPoint
+- uid: Mirage.SocketLayer.SocketFactory.GetConnectEndPoint(System.String,System.Nullable{System.UInt16})
+  name: GetConnectEndPoint(String, Nullable<UInt16>)
+  href: api/Mirage.SocketLayer.SocketFactory.html#Mirage_SocketLayer_SocketFactory_GetConnectEndPoint_System_String_System_Nullable_System_UInt16__
+  commentId: M:Mirage.SocketLayer.SocketFactory.GetConnectEndPoint(System.String,System.Nullable{System.UInt16})
+  name.vb: GetConnectEndPoint(String, Nullable(Of UInt16))
+  fullName: Mirage.SocketLayer.SocketFactory.GetConnectEndPoint(System.String, System.Nullable<System.UInt16>)
+  fullName.vb: Mirage.SocketLayer.SocketFactory.GetConnectEndPoint(System.String, System.Nullable(Of System.UInt16))
+  nameWithType: SocketFactory.GetConnectEndPoint(String, Nullable<UInt16>)
+  nameWithType.vb: SocketFactory.GetConnectEndPoint(String, Nullable(Of UInt16))
+- uid: Mirage.SocketLayer.SocketFactory.GetConnectEndPoint*
+  name: GetConnectEndPoint
+  href: api/Mirage.SocketLayer.SocketFactory.html#Mirage_SocketLayer_SocketFactory_GetConnectEndPoint_
+  commentId: Overload:Mirage.SocketLayer.SocketFactory.GetConnectEndPoint
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.SocketFactory.GetConnectEndPoint
+  nameWithType: SocketFactory.GetConnectEndPoint
+- uid: Mirage.Sockets.Udp
+  name: Mirage.Sockets.Udp
+  href: api/Mirage.Sockets.Udp.html
+  commentId: N:Mirage.Sockets.Udp
+  fullName: Mirage.Sockets.Udp
+  nameWithType: Mirage.Sockets.Udp
+- uid: Mirage.Sockets.Udp.EndPointWrapper
+  name: EndPointWrapper
+  href: api/Mirage.Sockets.Udp.EndPointWrapper.html
+  commentId: T:Mirage.Sockets.Udp.EndPointWrapper
+  fullName: Mirage.Sockets.Udp.EndPointWrapper
+  nameWithType: EndPointWrapper
+- uid: Mirage.Sockets.Udp.EndPointWrapper.#ctor(System.Net.EndPoint)
+  name: EndPointWrapper(EndPoint)
+  href: api/Mirage.Sockets.Udp.EndPointWrapper.html#Mirage_Sockets_Udp_EndPointWrapper__ctor_System_Net_EndPoint_
+  commentId: M:Mirage.Sockets.Udp.EndPointWrapper.#ctor(System.Net.EndPoint)
+  fullName: Mirage.Sockets.Udp.EndPointWrapper.EndPointWrapper(System.Net.EndPoint)
+  nameWithType: EndPointWrapper.EndPointWrapper(EndPoint)
+- uid: Mirage.Sockets.Udp.EndPointWrapper.#ctor*
+  name: EndPointWrapper
+  href: api/Mirage.Sockets.Udp.EndPointWrapper.html#Mirage_Sockets_Udp_EndPointWrapper__ctor_
+  commentId: Overload:Mirage.Sockets.Udp.EndPointWrapper.#ctor
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.EndPointWrapper.EndPointWrapper
+  nameWithType: EndPointWrapper.EndPointWrapper
+- uid: Mirage.Sockets.Udp.EndPointWrapper.Equals(System.Object)
+  name: Equals(Object)
+  href: api/Mirage.Sockets.Udp.EndPointWrapper.html#Mirage_Sockets_Udp_EndPointWrapper_Equals_System_Object_
+  commentId: M:Mirage.Sockets.Udp.EndPointWrapper.Equals(System.Object)
+  fullName: Mirage.Sockets.Udp.EndPointWrapper.Equals(System.Object)
+  nameWithType: EndPointWrapper.Equals(Object)
+- uid: Mirage.Sockets.Udp.EndPointWrapper.Equals*
+  name: Equals
+  href: api/Mirage.Sockets.Udp.EndPointWrapper.html#Mirage_Sockets_Udp_EndPointWrapper_Equals_
+  commentId: Overload:Mirage.Sockets.Udp.EndPointWrapper.Equals
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.EndPointWrapper.Equals
+  nameWithType: EndPointWrapper.Equals
+- uid: Mirage.Sockets.Udp.EndPointWrapper.GetHashCode
+  name: GetHashCode()
+  href: api/Mirage.Sockets.Udp.EndPointWrapper.html#Mirage_Sockets_Udp_EndPointWrapper_GetHashCode
+  commentId: M:Mirage.Sockets.Udp.EndPointWrapper.GetHashCode
+  fullName: Mirage.Sockets.Udp.EndPointWrapper.GetHashCode()
+  nameWithType: EndPointWrapper.GetHashCode()
+- uid: Mirage.Sockets.Udp.EndPointWrapper.GetHashCode*
+  name: GetHashCode
+  href: api/Mirage.Sockets.Udp.EndPointWrapper.html#Mirage_Sockets_Udp_EndPointWrapper_GetHashCode_
+  commentId: Overload:Mirage.Sockets.Udp.EndPointWrapper.GetHashCode
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.EndPointWrapper.GetHashCode
+  nameWithType: EndPointWrapper.GetHashCode
+- uid: Mirage.Sockets.Udp.EndPointWrapper.inner
+  name: inner
+  href: api/Mirage.Sockets.Udp.EndPointWrapper.html#Mirage_Sockets_Udp_EndPointWrapper_inner
+  commentId: F:Mirage.Sockets.Udp.EndPointWrapper.inner
+  fullName: Mirage.Sockets.Udp.EndPointWrapper.inner
+  nameWithType: EndPointWrapper.inner
+- uid: Mirage.Sockets.Udp.EndPointWrapper.Mirage#SocketLayer#IEndPoint#CreateCopy
+  name: IEndPoint.CreateCopy()
+  href: api/Mirage.Sockets.Udp.EndPointWrapper.html#Mirage_Sockets_Udp_EndPointWrapper_Mirage_SocketLayer_IEndPoint_CreateCopy
+  commentId: M:Mirage.Sockets.Udp.EndPointWrapper.Mirage#SocketLayer#IEndPoint#CreateCopy
+  name.vb: Mirage.SocketLayer.IEndPoint.CreateCopy()
+  fullName: Mirage.Sockets.Udp.EndPointWrapper.Mirage.SocketLayer.IEndPoint.CreateCopy()
+  nameWithType: EndPointWrapper.IEndPoint.CreateCopy()
+  nameWithType.vb: EndPointWrapper.Mirage.SocketLayer.IEndPoint.CreateCopy()
+- uid: Mirage.Sockets.Udp.EndPointWrapper.Mirage#SocketLayer#IEndPoint#CreateCopy*
+  name: IEndPoint.CreateCopy
+  href: api/Mirage.Sockets.Udp.EndPointWrapper.html#Mirage_Sockets_Udp_EndPointWrapper_Mirage_SocketLayer_IEndPoint_CreateCopy_
+  commentId: Overload:Mirage.Sockets.Udp.EndPointWrapper.Mirage#SocketLayer#IEndPoint#CreateCopy
+  isSpec: "True"
+  name.vb: Mirage.SocketLayer.IEndPoint.CreateCopy
+  fullName: Mirage.Sockets.Udp.EndPointWrapper.Mirage.SocketLayer.IEndPoint.CreateCopy
+  nameWithType: EndPointWrapper.IEndPoint.CreateCopy
+  nameWithType.vb: EndPointWrapper.Mirage.SocketLayer.IEndPoint.CreateCopy
+- uid: Mirage.Sockets.Udp.EndPointWrapper.ToString
+  name: ToString()
+  href: api/Mirage.Sockets.Udp.EndPointWrapper.html#Mirage_Sockets_Udp_EndPointWrapper_ToString
+  commentId: M:Mirage.Sockets.Udp.EndPointWrapper.ToString
+  fullName: Mirage.Sockets.Udp.EndPointWrapper.ToString()
+  nameWithType: EndPointWrapper.ToString()
+- uid: Mirage.Sockets.Udp.EndPointWrapper.ToString*
+  name: ToString
+  href: api/Mirage.Sockets.Udp.EndPointWrapper.html#Mirage_Sockets_Udp_EndPointWrapper_ToString_
+  commentId: Overload:Mirage.Sockets.Udp.EndPointWrapper.ToString
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.EndPointWrapper.ToString
+  nameWithType: EndPointWrapper.ToString
+- uid: Mirage.Sockets.Udp.NanoEndPoint
+  name: NanoEndPoint
+  href: api/Mirage.Sockets.Udp.NanoEndPoint.html
+  commentId: T:Mirage.Sockets.Udp.NanoEndPoint
+  fullName: Mirage.Sockets.Udp.NanoEndPoint
+  nameWithType: NanoEndPoint
+- uid: Mirage.Sockets.Udp.NanoEndPoint.#ctor(NanoSockets.Address)
+  name: NanoEndPoint(Address)
+  href: api/Mirage.Sockets.Udp.NanoEndPoint.html#Mirage_Sockets_Udp_NanoEndPoint__ctor_NanoSockets_Address_
+  commentId: M:Mirage.Sockets.Udp.NanoEndPoint.#ctor(NanoSockets.Address)
+  fullName: Mirage.Sockets.Udp.NanoEndPoint.NanoEndPoint(NanoSockets.Address)
+  nameWithType: NanoEndPoint.NanoEndPoint(Address)
+- uid: Mirage.Sockets.Udp.NanoEndPoint.#ctor(System.String,System.UInt16)
+  name: NanoEndPoint(String, UInt16)
+  href: api/Mirage.Sockets.Udp.NanoEndPoint.html#Mirage_Sockets_Udp_NanoEndPoint__ctor_System_String_System_UInt16_
+  commentId: M:Mirage.Sockets.Udp.NanoEndPoint.#ctor(System.String,System.UInt16)
+  fullName: Mirage.Sockets.Udp.NanoEndPoint.NanoEndPoint(System.String, System.UInt16)
+  nameWithType: NanoEndPoint.NanoEndPoint(String, UInt16)
+- uid: Mirage.Sockets.Udp.NanoEndPoint.#ctor*
+  name: NanoEndPoint
+  href: api/Mirage.Sockets.Udp.NanoEndPoint.html#Mirage_Sockets_Udp_NanoEndPoint__ctor_
+  commentId: Overload:Mirage.Sockets.Udp.NanoEndPoint.#ctor
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.NanoEndPoint.NanoEndPoint
+  nameWithType: NanoEndPoint.NanoEndPoint
+- uid: Mirage.Sockets.Udp.NanoEndPoint.address
+  name: address
+  href: api/Mirage.Sockets.Udp.NanoEndPoint.html#Mirage_Sockets_Udp_NanoEndPoint_address
+  commentId: F:Mirage.Sockets.Udp.NanoEndPoint.address
+  fullName: Mirage.Sockets.Udp.NanoEndPoint.address
+  nameWithType: NanoEndPoint.address
+- uid: Mirage.Sockets.Udp.NanoEndPoint.CreateCopy
+  name: CreateCopy()
+  href: api/Mirage.Sockets.Udp.NanoEndPoint.html#Mirage_Sockets_Udp_NanoEndPoint_CreateCopy
+  commentId: M:Mirage.Sockets.Udp.NanoEndPoint.CreateCopy
+  fullName: Mirage.Sockets.Udp.NanoEndPoint.CreateCopy()
+  nameWithType: NanoEndPoint.CreateCopy()
+- uid: Mirage.Sockets.Udp.NanoEndPoint.CreateCopy*
+  name: CreateCopy
+  href: api/Mirage.Sockets.Udp.NanoEndPoint.html#Mirage_Sockets_Udp_NanoEndPoint_CreateCopy_
+  commentId: Overload:Mirage.Sockets.Udp.NanoEndPoint.CreateCopy
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.NanoEndPoint.CreateCopy
+  nameWithType: NanoEndPoint.CreateCopy
+- uid: Mirage.Sockets.Udp.NanoEndPoint.Equals(Mirage.Sockets.Udp.NanoEndPoint)
+  name: Equals(NanoEndPoint)
+  href: api/Mirage.Sockets.Udp.NanoEndPoint.html#Mirage_Sockets_Udp_NanoEndPoint_Equals_Mirage_Sockets_Udp_NanoEndPoint_
+  commentId: M:Mirage.Sockets.Udp.NanoEndPoint.Equals(Mirage.Sockets.Udp.NanoEndPoint)
+  fullName: Mirage.Sockets.Udp.NanoEndPoint.Equals(Mirage.Sockets.Udp.NanoEndPoint)
+  nameWithType: NanoEndPoint.Equals(NanoEndPoint)
+- uid: Mirage.Sockets.Udp.NanoEndPoint.Equals(System.Object)
+  name: Equals(Object)
+  href: api/Mirage.Sockets.Udp.NanoEndPoint.html#Mirage_Sockets_Udp_NanoEndPoint_Equals_System_Object_
+  commentId: M:Mirage.Sockets.Udp.NanoEndPoint.Equals(System.Object)
+  fullName: Mirage.Sockets.Udp.NanoEndPoint.Equals(System.Object)
+  nameWithType: NanoEndPoint.Equals(Object)
+- uid: Mirage.Sockets.Udp.NanoEndPoint.Equals*
+  name: Equals
+  href: api/Mirage.Sockets.Udp.NanoEndPoint.html#Mirage_Sockets_Udp_NanoEndPoint_Equals_
+  commentId: Overload:Mirage.Sockets.Udp.NanoEndPoint.Equals
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.NanoEndPoint.Equals
+  nameWithType: NanoEndPoint.Equals
+- uid: Mirage.Sockets.Udp.NanoEndPoint.GetHashCode
+  name: GetHashCode()
+  href: api/Mirage.Sockets.Udp.NanoEndPoint.html#Mirage_Sockets_Udp_NanoEndPoint_GetHashCode
+  commentId: M:Mirage.Sockets.Udp.NanoEndPoint.GetHashCode
+  fullName: Mirage.Sockets.Udp.NanoEndPoint.GetHashCode()
+  nameWithType: NanoEndPoint.GetHashCode()
+- uid: Mirage.Sockets.Udp.NanoEndPoint.GetHashCode*
+  name: GetHashCode
+  href: api/Mirage.Sockets.Udp.NanoEndPoint.html#Mirage_Sockets_Udp_NanoEndPoint_GetHashCode_
+  commentId: Overload:Mirage.Sockets.Udp.NanoEndPoint.GetHashCode
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.NanoEndPoint.GetHashCode
+  nameWithType: NanoEndPoint.GetHashCode
+- uid: Mirage.Sockets.Udp.NanoEndPoint.ToString
+  name: ToString()
+  href: api/Mirage.Sockets.Udp.NanoEndPoint.html#Mirage_Sockets_Udp_NanoEndPoint_ToString
+  commentId: M:Mirage.Sockets.Udp.NanoEndPoint.ToString
+  fullName: Mirage.Sockets.Udp.NanoEndPoint.ToString()
+  nameWithType: NanoEndPoint.ToString()
+- uid: Mirage.Sockets.Udp.NanoEndPoint.ToString*
+  name: ToString
+  href: api/Mirage.Sockets.Udp.NanoEndPoint.html#Mirage_Sockets_Udp_NanoEndPoint_ToString_
+  commentId: Overload:Mirage.Sockets.Udp.NanoEndPoint.ToString
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.NanoEndPoint.ToString
+  nameWithType: NanoEndPoint.ToString
+- uid: Mirage.Sockets.Udp.NanoSocket
+  name: NanoSocket
+  href: api/Mirage.Sockets.Udp.NanoSocket.html
+  commentId: T:Mirage.Sockets.Udp.NanoSocket
+  fullName: Mirage.Sockets.Udp.NanoSocket
+  nameWithType: NanoSocket
+- uid: Mirage.Sockets.Udp.NanoSocket.#ctor(Mirage.Sockets.Udp.UdpSocketFactory)
+  name: NanoSocket(UdpSocketFactory)
+  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket__ctor_Mirage_Sockets_Udp_UdpSocketFactory_
+  commentId: M:Mirage.Sockets.Udp.NanoSocket.#ctor(Mirage.Sockets.Udp.UdpSocketFactory)
+  fullName: Mirage.Sockets.Udp.NanoSocket.NanoSocket(Mirage.Sockets.Udp.UdpSocketFactory)
+  nameWithType: NanoSocket.NanoSocket(UdpSocketFactory)
+- uid: Mirage.Sockets.Udp.NanoSocket.#ctor*
+  name: NanoSocket
+  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket__ctor_
+  commentId: Overload:Mirage.Sockets.Udp.NanoSocket.#ctor
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.NanoSocket.NanoSocket
+  nameWithType: NanoSocket.NanoSocket
+- uid: Mirage.Sockets.Udp.NanoSocket.Bind(Mirage.SocketLayer.IEndPoint)
+  name: Bind(IEndPoint)
+  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Bind_Mirage_SocketLayer_IEndPoint_
+  commentId: M:Mirage.Sockets.Udp.NanoSocket.Bind(Mirage.SocketLayer.IEndPoint)
+  fullName: Mirage.Sockets.Udp.NanoSocket.Bind(Mirage.SocketLayer.IEndPoint)
+  nameWithType: NanoSocket.Bind(IEndPoint)
+- uid: Mirage.Sockets.Udp.NanoSocket.Bind*
+  name: Bind
+  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Bind_
+  commentId: Overload:Mirage.Sockets.Udp.NanoSocket.Bind
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.NanoSocket.Bind
+  nameWithType: NanoSocket.Bind
+- uid: Mirage.Sockets.Udp.NanoSocket.Close
+  name: Close()
+  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Close
+  commentId: M:Mirage.Sockets.Udp.NanoSocket.Close
+  fullName: Mirage.Sockets.Udp.NanoSocket.Close()
+  nameWithType: NanoSocket.Close()
+- uid: Mirage.Sockets.Udp.NanoSocket.Close*
+  name: Close
+  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Close_
+  commentId: Overload:Mirage.Sockets.Udp.NanoSocket.Close
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.NanoSocket.Close
+  nameWithType: NanoSocket.Close
+- uid: Mirage.Sockets.Udp.NanoSocket.Connect(Mirage.SocketLayer.IEndPoint)
+  name: Connect(IEndPoint)
+  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Connect_Mirage_SocketLayer_IEndPoint_
+  commentId: M:Mirage.Sockets.Udp.NanoSocket.Connect(Mirage.SocketLayer.IEndPoint)
+  fullName: Mirage.Sockets.Udp.NanoSocket.Connect(Mirage.SocketLayer.IEndPoint)
+  nameWithType: NanoSocket.Connect(IEndPoint)
+- uid: Mirage.Sockets.Udp.NanoSocket.Connect*
+  name: Connect
+  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Connect_
+  commentId: Overload:Mirage.Sockets.Udp.NanoSocket.Connect
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.NanoSocket.Connect
+  nameWithType: NanoSocket.Connect
+- uid: Mirage.Sockets.Udp.NanoSocket.Dispose
+  name: Dispose()
+  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Dispose
+  commentId: M:Mirage.Sockets.Udp.NanoSocket.Dispose
+  fullName: Mirage.Sockets.Udp.NanoSocket.Dispose()
+  nameWithType: NanoSocket.Dispose()
+- uid: Mirage.Sockets.Udp.NanoSocket.Dispose*
+  name: Dispose
+  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Dispose_
+  commentId: Overload:Mirage.Sockets.Udp.NanoSocket.Dispose
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.NanoSocket.Dispose
+  nameWithType: NanoSocket.Dispose
+- uid: Mirage.Sockets.Udp.NanoSocket.Finalize
+  name: Finalize()
+  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Finalize
+  commentId: M:Mirage.Sockets.Udp.NanoSocket.Finalize
+  fullName: Mirage.Sockets.Udp.NanoSocket.Finalize()
+  nameWithType: NanoSocket.Finalize()
+- uid: Mirage.Sockets.Udp.NanoSocket.Finalize*
+  name: Finalize
+  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Finalize_
+  commentId: Overload:Mirage.Sockets.Udp.NanoSocket.Finalize
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.NanoSocket.Finalize
+  nameWithType: NanoSocket.Finalize
+- uid: Mirage.Sockets.Udp.NanoSocket.Poll
+  name: Poll()
+  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Poll
+  commentId: M:Mirage.Sockets.Udp.NanoSocket.Poll
+  fullName: Mirage.Sockets.Udp.NanoSocket.Poll()
+  nameWithType: NanoSocket.Poll()
+- uid: Mirage.Sockets.Udp.NanoSocket.Poll*
+  name: Poll
+  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Poll_
+  commentId: Overload:Mirage.Sockets.Udp.NanoSocket.Poll
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.NanoSocket.Poll
+  nameWithType: NanoSocket.Poll
+- uid: Mirage.Sockets.Udp.NanoSocket.Receive(System.Byte[],Mirage.SocketLayer.IEndPoint@)
+  name: Receive(Byte[], out IEndPoint)
+  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Receive_System_Byte___Mirage_SocketLayer_IEndPoint__
+  commentId: M:Mirage.Sockets.Udp.NanoSocket.Receive(System.Byte[],Mirage.SocketLayer.IEndPoint@)
+  name.vb: Receive(Byte(), ByRef IEndPoint)
+  fullName: Mirage.Sockets.Udp.NanoSocket.Receive(System.Byte[], out Mirage.SocketLayer.IEndPoint)
+  fullName.vb: Mirage.Sockets.Udp.NanoSocket.Receive(System.Byte(), ByRef Mirage.SocketLayer.IEndPoint)
+  nameWithType: NanoSocket.Receive(Byte[], out IEndPoint)
+  nameWithType.vb: NanoSocket.Receive(Byte(), ByRef IEndPoint)
+- uid: Mirage.Sockets.Udp.NanoSocket.Receive*
+  name: Receive
+  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Receive_
+  commentId: Overload:Mirage.Sockets.Udp.NanoSocket.Receive
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.NanoSocket.Receive
+  nameWithType: NanoSocket.Receive
+- uid: Mirage.Sockets.Udp.NanoSocket.Send(Mirage.SocketLayer.IEndPoint,System.Byte[],System.Int32)
+  name: Send(IEndPoint, Byte[], Int32)
+  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Send_Mirage_SocketLayer_IEndPoint_System_Byte___System_Int32_
+  commentId: M:Mirage.Sockets.Udp.NanoSocket.Send(Mirage.SocketLayer.IEndPoint,System.Byte[],System.Int32)
+  name.vb: Send(IEndPoint, Byte(), Int32)
+  fullName: Mirage.Sockets.Udp.NanoSocket.Send(Mirage.SocketLayer.IEndPoint, System.Byte[], System.Int32)
+  fullName.vb: Mirage.Sockets.Udp.NanoSocket.Send(Mirage.SocketLayer.IEndPoint, System.Byte(), System.Int32)
+  nameWithType: NanoSocket.Send(IEndPoint, Byte[], Int32)
+  nameWithType.vb: NanoSocket.Send(IEndPoint, Byte(), Int32)
+- uid: Mirage.Sockets.Udp.NanoSocket.Send*
+  name: Send
+  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Send_
+  commentId: Overload:Mirage.Sockets.Udp.NanoSocket.Send
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.NanoSocket.Send
+  nameWithType: NanoSocket.Send
+- uid: Mirage.Sockets.Udp.NanoSocketException
+  name: NanoSocketException
+  href: api/Mirage.Sockets.Udp.NanoSocketException.html
+  commentId: T:Mirage.Sockets.Udp.NanoSocketException
+  fullName: Mirage.Sockets.Udp.NanoSocketException
+  nameWithType: NanoSocketException
+- uid: Mirage.Sockets.Udp.NanoSocketException.#ctor(System.String)
+  name: NanoSocketException(String)
+  href: api/Mirage.Sockets.Udp.NanoSocketException.html#Mirage_Sockets_Udp_NanoSocketException__ctor_System_String_
+  commentId: M:Mirage.Sockets.Udp.NanoSocketException.#ctor(System.String)
+  fullName: Mirage.Sockets.Udp.NanoSocketException.NanoSocketException(System.String)
+  nameWithType: NanoSocketException.NanoSocketException(String)
+- uid: Mirage.Sockets.Udp.NanoSocketException.#ctor*
+  name: NanoSocketException
+  href: api/Mirage.Sockets.Udp.NanoSocketException.html#Mirage_Sockets_Udp_NanoSocketException__ctor_
+  commentId: Overload:Mirage.Sockets.Udp.NanoSocketException.#ctor
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.NanoSocketException.NanoSocketException
+  nameWithType: NanoSocketException.NanoSocketException
+- uid: Mirage.Sockets.Udp.SocketLib
+  name: SocketLib
+  href: api/Mirage.Sockets.Udp.SocketLib.html
+  commentId: T:Mirage.Sockets.Udp.SocketLib
+  fullName: Mirage.Sockets.Udp.SocketLib
+  nameWithType: SocketLib
+- uid: Mirage.Sockets.Udp.SocketLib.Automatic
+  name: Automatic
+  href: api/Mirage.Sockets.Udp.SocketLib.html#Mirage_Sockets_Udp_SocketLib_Automatic
+  commentId: F:Mirage.Sockets.Udp.SocketLib.Automatic
+  fullName: Mirage.Sockets.Udp.SocketLib.Automatic
+  nameWithType: SocketLib.Automatic
+- uid: Mirage.Sockets.Udp.SocketLib.Managed
+  name: Managed
+  href: api/Mirage.Sockets.Udp.SocketLib.html#Mirage_Sockets_Udp_SocketLib_Managed
+  commentId: F:Mirage.Sockets.Udp.SocketLib.Managed
+  fullName: Mirage.Sockets.Udp.SocketLib.Managed
+  nameWithType: SocketLib.Managed
+- uid: Mirage.Sockets.Udp.SocketLib.Native
+  name: Native
+  href: api/Mirage.Sockets.Udp.SocketLib.html#Mirage_Sockets_Udp_SocketLib_Native
+  commentId: F:Mirage.Sockets.Udp.SocketLib.Native
+  fullName: Mirage.Sockets.Udp.SocketLib.Native
+  nameWithType: SocketLib.Native
+- uid: Mirage.Sockets.Udp.UdpSocket
+  name: UdpSocket
+  href: api/Mirage.Sockets.Udp.UdpSocket.html
+  commentId: T:Mirage.Sockets.Udp.UdpSocket
+  fullName: Mirage.Sockets.Udp.UdpSocket
+  nameWithType: UdpSocket
+- uid: Mirage.Sockets.Udp.UdpSocket.Bind(Mirage.SocketLayer.IEndPoint)
+  name: Bind(IEndPoint)
+  href: api/Mirage.Sockets.Udp.UdpSocket.html#Mirage_Sockets_Udp_UdpSocket_Bind_Mirage_SocketLayer_IEndPoint_
+  commentId: M:Mirage.Sockets.Udp.UdpSocket.Bind(Mirage.SocketLayer.IEndPoint)
+  fullName: Mirage.Sockets.Udp.UdpSocket.Bind(Mirage.SocketLayer.IEndPoint)
+  nameWithType: UdpSocket.Bind(IEndPoint)
+- uid: Mirage.Sockets.Udp.UdpSocket.Bind*
+  name: Bind
+  href: api/Mirage.Sockets.Udp.UdpSocket.html#Mirage_Sockets_Udp_UdpSocket_Bind_
+  commentId: Overload:Mirage.Sockets.Udp.UdpSocket.Bind
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.UdpSocket.Bind
+  nameWithType: UdpSocket.Bind
+- uid: Mirage.Sockets.Udp.UdpSocket.Close
+  name: Close()
+  href: api/Mirage.Sockets.Udp.UdpSocket.html#Mirage_Sockets_Udp_UdpSocket_Close
+  commentId: M:Mirage.Sockets.Udp.UdpSocket.Close
+  fullName: Mirage.Sockets.Udp.UdpSocket.Close()
+  nameWithType: UdpSocket.Close()
+- uid: Mirage.Sockets.Udp.UdpSocket.Close*
+  name: Close
+  href: api/Mirage.Sockets.Udp.UdpSocket.html#Mirage_Sockets_Udp_UdpSocket_Close_
+  commentId: Overload:Mirage.Sockets.Udp.UdpSocket.Close
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.UdpSocket.Close
+  nameWithType: UdpSocket.Close
+- uid: Mirage.Sockets.Udp.UdpSocket.Connect(Mirage.SocketLayer.IEndPoint)
+  name: Connect(IEndPoint)
+  href: api/Mirage.Sockets.Udp.UdpSocket.html#Mirage_Sockets_Udp_UdpSocket_Connect_Mirage_SocketLayer_IEndPoint_
+  commentId: M:Mirage.Sockets.Udp.UdpSocket.Connect(Mirage.SocketLayer.IEndPoint)
+  fullName: Mirage.Sockets.Udp.UdpSocket.Connect(Mirage.SocketLayer.IEndPoint)
+  nameWithType: UdpSocket.Connect(IEndPoint)
+- uid: Mirage.Sockets.Udp.UdpSocket.Connect*
+  name: Connect
+  href: api/Mirage.Sockets.Udp.UdpSocket.html#Mirage_Sockets_Udp_UdpSocket_Connect_
+  commentId: Overload:Mirage.Sockets.Udp.UdpSocket.Connect
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.UdpSocket.Connect
+  nameWithType: UdpSocket.Connect
+- uid: Mirage.Sockets.Udp.UdpSocket.Poll
+  name: Poll()
+  href: api/Mirage.Sockets.Udp.UdpSocket.html#Mirage_Sockets_Udp_UdpSocket_Poll
+  commentId: M:Mirage.Sockets.Udp.UdpSocket.Poll
+  fullName: Mirage.Sockets.Udp.UdpSocket.Poll()
+  nameWithType: UdpSocket.Poll()
+- uid: Mirage.Sockets.Udp.UdpSocket.Poll*
+  name: Poll
+  href: api/Mirage.Sockets.Udp.UdpSocket.html#Mirage_Sockets_Udp_UdpSocket_Poll_
+  commentId: Overload:Mirage.Sockets.Udp.UdpSocket.Poll
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.UdpSocket.Poll
+  nameWithType: UdpSocket.Poll
+- uid: Mirage.Sockets.Udp.UdpSocket.Receive(System.Byte[],Mirage.SocketLayer.IEndPoint@)
+  name: Receive(Byte[], out IEndPoint)
+  href: api/Mirage.Sockets.Udp.UdpSocket.html#Mirage_Sockets_Udp_UdpSocket_Receive_System_Byte___Mirage_SocketLayer_IEndPoint__
+  commentId: M:Mirage.Sockets.Udp.UdpSocket.Receive(System.Byte[],Mirage.SocketLayer.IEndPoint@)
+  name.vb: Receive(Byte(), ByRef IEndPoint)
+  fullName: Mirage.Sockets.Udp.UdpSocket.Receive(System.Byte[], out Mirage.SocketLayer.IEndPoint)
+  fullName.vb: Mirage.Sockets.Udp.UdpSocket.Receive(System.Byte(), ByRef Mirage.SocketLayer.IEndPoint)
+  nameWithType: UdpSocket.Receive(Byte[], out IEndPoint)
+  nameWithType.vb: UdpSocket.Receive(Byte(), ByRef IEndPoint)
+- uid: Mirage.Sockets.Udp.UdpSocket.Receive*
+  name: Receive
+  href: api/Mirage.Sockets.Udp.UdpSocket.html#Mirage_Sockets_Udp_UdpSocket_Receive_
+  commentId: Overload:Mirage.Sockets.Udp.UdpSocket.Receive
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.UdpSocket.Receive
+  nameWithType: UdpSocket.Receive
+- uid: Mirage.Sockets.Udp.UdpSocket.Send(Mirage.SocketLayer.IEndPoint,System.Byte[],System.Int32)
+  name: Send(IEndPoint, Byte[], Int32)
+  href: api/Mirage.Sockets.Udp.UdpSocket.html#Mirage_Sockets_Udp_UdpSocket_Send_Mirage_SocketLayer_IEndPoint_System_Byte___System_Int32_
+  commentId: M:Mirage.Sockets.Udp.UdpSocket.Send(Mirage.SocketLayer.IEndPoint,System.Byte[],System.Int32)
+  name.vb: Send(IEndPoint, Byte(), Int32)
+  fullName: Mirage.Sockets.Udp.UdpSocket.Send(Mirage.SocketLayer.IEndPoint, System.Byte[], System.Int32)
+  fullName.vb: Mirage.Sockets.Udp.UdpSocket.Send(Mirage.SocketLayer.IEndPoint, System.Byte(), System.Int32)
+  nameWithType: UdpSocket.Send(IEndPoint, Byte[], Int32)
+  nameWithType.vb: UdpSocket.Send(IEndPoint, Byte(), Int32)
+- uid: Mirage.Sockets.Udp.UdpSocket.Send*
+  name: Send
+  href: api/Mirage.Sockets.Udp.UdpSocket.html#Mirage_Sockets_Udp_UdpSocket_Send_
+  commentId: Overload:Mirage.Sockets.Udp.UdpSocket.Send
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.UdpSocket.Send
+  nameWithType: UdpSocket.Send
+- uid: Mirage.Sockets.Udp.UdpSocketFactory
+  name: UdpSocketFactory
+  href: api/Mirage.Sockets.Udp.UdpSocketFactory.html
+  commentId: T:Mirage.Sockets.Udp.UdpSocketFactory
+  fullName: Mirage.Sockets.Udp.UdpSocketFactory
+  nameWithType: UdpSocketFactory
+- uid: Mirage.Sockets.Udp.UdpSocketFactory.Address
+  name: Address
+  href: api/Mirage.Sockets.Udp.UdpSocketFactory.html#Mirage_Sockets_Udp_UdpSocketFactory_Address
+  commentId: F:Mirage.Sockets.Udp.UdpSocketFactory.Address
+  fullName: Mirage.Sockets.Udp.UdpSocketFactory.Address
+  nameWithType: UdpSocketFactory.Address
+- uid: Mirage.Sockets.Udp.UdpSocketFactory.BufferSize
+  name: BufferSize
+  href: api/Mirage.Sockets.Udp.UdpSocketFactory.html#Mirage_Sockets_Udp_UdpSocketFactory_BufferSize
+  commentId: F:Mirage.Sockets.Udp.UdpSocketFactory.BufferSize
+  fullName: Mirage.Sockets.Udp.UdpSocketFactory.BufferSize
+  nameWithType: UdpSocketFactory.BufferSize
+- uid: Mirage.Sockets.Udp.UdpSocketFactory.CreateClientSocket
+  name: CreateClientSocket()
+  href: api/Mirage.Sockets.Udp.UdpSocketFactory.html#Mirage_Sockets_Udp_UdpSocketFactory_CreateClientSocket
+  commentId: M:Mirage.Sockets.Udp.UdpSocketFactory.CreateClientSocket
+  fullName: Mirage.Sockets.Udp.UdpSocketFactory.CreateClientSocket()
+  nameWithType: UdpSocketFactory.CreateClientSocket()
+- uid: Mirage.Sockets.Udp.UdpSocketFactory.CreateClientSocket*
+  name: CreateClientSocket
+  href: api/Mirage.Sockets.Udp.UdpSocketFactory.html#Mirage_Sockets_Udp_UdpSocketFactory_CreateClientSocket_
+  commentId: Overload:Mirage.Sockets.Udp.UdpSocketFactory.CreateClientSocket
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.UdpSocketFactory.CreateClientSocket
+  nameWithType: UdpSocketFactory.CreateClientSocket
+- uid: Mirage.Sockets.Udp.UdpSocketFactory.CreateServerSocket
+  name: CreateServerSocket()
+  href: api/Mirage.Sockets.Udp.UdpSocketFactory.html#Mirage_Sockets_Udp_UdpSocketFactory_CreateServerSocket
+  commentId: M:Mirage.Sockets.Udp.UdpSocketFactory.CreateServerSocket
+  fullName: Mirage.Sockets.Udp.UdpSocketFactory.CreateServerSocket()
+  nameWithType: UdpSocketFactory.CreateServerSocket()
+- uid: Mirage.Sockets.Udp.UdpSocketFactory.CreateServerSocket*
+  name: CreateServerSocket
+  href: api/Mirage.Sockets.Udp.UdpSocketFactory.html#Mirage_Sockets_Udp_UdpSocketFactory_CreateServerSocket_
+  commentId: Overload:Mirage.Sockets.Udp.UdpSocketFactory.CreateServerSocket
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.UdpSocketFactory.CreateServerSocket
+  nameWithType: UdpSocketFactory.CreateServerSocket
+- uid: Mirage.Sockets.Udp.UdpSocketFactory.GetBindEndPoint
+  name: GetBindEndPoint()
+  href: api/Mirage.Sockets.Udp.UdpSocketFactory.html#Mirage_Sockets_Udp_UdpSocketFactory_GetBindEndPoint
+  commentId: M:Mirage.Sockets.Udp.UdpSocketFactory.GetBindEndPoint
+  fullName: Mirage.Sockets.Udp.UdpSocketFactory.GetBindEndPoint()
+  nameWithType: UdpSocketFactory.GetBindEndPoint()
+- uid: Mirage.Sockets.Udp.UdpSocketFactory.GetBindEndPoint*
+  name: GetBindEndPoint
+  href: api/Mirage.Sockets.Udp.UdpSocketFactory.html#Mirage_Sockets_Udp_UdpSocketFactory_GetBindEndPoint_
+  commentId: Overload:Mirage.Sockets.Udp.UdpSocketFactory.GetBindEndPoint
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.UdpSocketFactory.GetBindEndPoint
+  nameWithType: UdpSocketFactory.GetBindEndPoint
+- uid: Mirage.Sockets.Udp.UdpSocketFactory.GetConnectEndPoint(System.String,System.Nullable{System.UInt16})
+  name: GetConnectEndPoint(String, Nullable<UInt16>)
+  href: api/Mirage.Sockets.Udp.UdpSocketFactory.html#Mirage_Sockets_Udp_UdpSocketFactory_GetConnectEndPoint_System_String_System_Nullable_System_UInt16__
+  commentId: M:Mirage.Sockets.Udp.UdpSocketFactory.GetConnectEndPoint(System.String,System.Nullable{System.UInt16})
+  name.vb: GetConnectEndPoint(String, Nullable(Of UInt16))
+  fullName: Mirage.Sockets.Udp.UdpSocketFactory.GetConnectEndPoint(System.String, System.Nullable<System.UInt16>)
+  fullName.vb: Mirage.Sockets.Udp.UdpSocketFactory.GetConnectEndPoint(System.String, System.Nullable(Of System.UInt16))
+  nameWithType: UdpSocketFactory.GetConnectEndPoint(String, Nullable<UInt16>)
+  nameWithType.vb: UdpSocketFactory.GetConnectEndPoint(String, Nullable(Of UInt16))
+- uid: Mirage.Sockets.Udp.UdpSocketFactory.GetConnectEndPoint*
+  name: GetConnectEndPoint
+  href: api/Mirage.Sockets.Udp.UdpSocketFactory.html#Mirage_Sockets_Udp_UdpSocketFactory_GetConnectEndPoint_
+  commentId: Overload:Mirage.Sockets.Udp.UdpSocketFactory.GetConnectEndPoint
+  isSpec: "True"
+  fullName: Mirage.Sockets.Udp.UdpSocketFactory.GetConnectEndPoint
+  nameWithType: UdpSocketFactory.GetConnectEndPoint
+- uid: Mirage.Sockets.Udp.UdpSocketFactory.Port
+  name: Port
+  href: api/Mirage.Sockets.Udp.UdpSocketFactory.html#Mirage_Sockets_Udp_UdpSocketFactory_Port
+  commentId: F:Mirage.Sockets.Udp.UdpSocketFactory.Port
+  fullName: Mirage.Sockets.Udp.UdpSocketFactory.Port
+  nameWithType: UdpSocketFactory.Port
+- uid: Mirage.Sockets.Udp.UdpSocketFactory.SocketLib
+  name: SocketLib
+  href: api/Mirage.Sockets.Udp.UdpSocketFactory.html#Mirage_Sockets_Udp_UdpSocketFactory_SocketLib
+  commentId: F:Mirage.Sockets.Udp.UdpSocketFactory.SocketLib
+  fullName: Mirage.Sockets.Udp.UdpSocketFactory.SocketLib
+  nameWithType: UdpSocketFactory.SocketLib
 - uid: Mirage.SpawnEvent
   name: SpawnEvent
   href: api/Mirage.SpawnEvent.html
@@ -12088,3 +14463,528 @@ references:
   commentId: F:Mirage.Version.Current
   fullName: Mirage.Version.Current
   nameWithType: Version.Current
+- uid: NanoSockets
+  name: NanoSockets
+  href: api/NanoSockets.html
+  commentId: N:NanoSockets
+  fullName: NanoSockets
+  nameWithType: NanoSockets
+- uid: NanoSockets.Address
+  name: Address
+  href: api/NanoSockets.Address.html
+  commentId: T:NanoSockets.Address
+  fullName: NanoSockets.Address
+  nameWithType: Address
+- uid: NanoSockets.Address.CreateFromIpPort(System.String,System.UInt16)
+  name: CreateFromIpPort(String, UInt16)
+  href: api/NanoSockets.Address.html#NanoSockets_Address_CreateFromIpPort_System_String_System_UInt16_
+  commentId: M:NanoSockets.Address.CreateFromIpPort(System.String,System.UInt16)
+  fullName: NanoSockets.Address.CreateFromIpPort(System.String, System.UInt16)
+  nameWithType: Address.CreateFromIpPort(String, UInt16)
+- uid: NanoSockets.Address.CreateFromIpPort*
+  name: CreateFromIpPort
+  href: api/NanoSockets.Address.html#NanoSockets_Address_CreateFromIpPort_
+  commentId: Overload:NanoSockets.Address.CreateFromIpPort
+  isSpec: "True"
+  fullName: NanoSockets.Address.CreateFromIpPort
+  nameWithType: Address.CreateFromIpPort
+- uid: NanoSockets.Address.Equals(NanoSockets.Address)
+  name: Equals(Address)
+  href: api/NanoSockets.Address.html#NanoSockets_Address_Equals_NanoSockets_Address_
+  commentId: M:NanoSockets.Address.Equals(NanoSockets.Address)
+  fullName: NanoSockets.Address.Equals(NanoSockets.Address)
+  nameWithType: Address.Equals(Address)
+- uid: NanoSockets.Address.Equals(System.Object)
+  name: Equals(Object)
+  href: api/NanoSockets.Address.html#NanoSockets_Address_Equals_System_Object_
+  commentId: M:NanoSockets.Address.Equals(System.Object)
+  fullName: NanoSockets.Address.Equals(System.Object)
+  nameWithType: Address.Equals(Object)
+- uid: NanoSockets.Address.Equals*
+  name: Equals
+  href: api/NanoSockets.Address.html#NanoSockets_Address_Equals_
+  commentId: Overload:NanoSockets.Address.Equals
+  isSpec: "True"
+  fullName: NanoSockets.Address.Equals
+  nameWithType: Address.Equals
+- uid: NanoSockets.Address.GetHashCode
+  name: GetHashCode()
+  href: api/NanoSockets.Address.html#NanoSockets_Address_GetHashCode
+  commentId: M:NanoSockets.Address.GetHashCode
+  fullName: NanoSockets.Address.GetHashCode()
+  nameWithType: Address.GetHashCode()
+- uid: NanoSockets.Address.GetHashCode*
+  name: GetHashCode
+  href: api/NanoSockets.Address.html#NanoSockets_Address_GetHashCode_
+  commentId: Overload:NanoSockets.Address.GetHashCode
+  isSpec: "True"
+  fullName: NanoSockets.Address.GetHashCode
+  nameWithType: Address.GetHashCode
+- uid: NanoSockets.Address.port
+  name: port
+  href: api/NanoSockets.Address.html#NanoSockets_Address_port
+  commentId: F:NanoSockets.Address.port
+  fullName: NanoSockets.Address.port
+  nameWithType: Address.port
+- uid: NanoSockets.Address.Port
+  name: Port
+  href: api/NanoSockets.Address.html#NanoSockets_Address_Port
+  commentId: F:NanoSockets.Address.Port
+  fullName: NanoSockets.Address.Port
+  nameWithType: Address.Port
+- uid: NanoSockets.Address.ToString
+  name: ToString()
+  href: api/NanoSockets.Address.html#NanoSockets_Address_ToString
+  commentId: M:NanoSockets.Address.ToString
+  fullName: NanoSockets.Address.ToString()
+  nameWithType: Address.ToString()
+- uid: NanoSockets.Address.ToString*
+  name: ToString
+  href: api/NanoSockets.Address.html#NanoSockets_Address_ToString_
+  commentId: Overload:NanoSockets.Address.ToString
+  isSpec: "True"
+  fullName: NanoSockets.Address.ToString
+  nameWithType: Address.ToString
+- uid: NanoSockets.Socket
+  name: Socket
+  href: api/NanoSockets.Socket.html
+  commentId: T:NanoSockets.Socket
+  fullName: NanoSockets.Socket
+  nameWithType: Socket
+- uid: NanoSockets.Socket.IsCreated
+  name: IsCreated
+  href: api/NanoSockets.Socket.html#NanoSockets_Socket_IsCreated
+  commentId: P:NanoSockets.Socket.IsCreated
+  fullName: NanoSockets.Socket.IsCreated
+  nameWithType: Socket.IsCreated
+- uid: NanoSockets.Socket.IsCreated*
+  name: IsCreated
+  href: api/NanoSockets.Socket.html#NanoSockets_Socket_IsCreated_
+  commentId: Overload:NanoSockets.Socket.IsCreated
+  isSpec: "True"
+  fullName: NanoSockets.Socket.IsCreated
+  nameWithType: Socket.IsCreated
+- uid: NanoSockets.Status
+  name: Status
+  href: api/NanoSockets.Status.html
+  commentId: T:NanoSockets.Status
+  fullName: NanoSockets.Status
+  nameWithType: Status
+- uid: NanoSockets.Status.Error
+  name: Error
+  href: api/NanoSockets.Status.html#NanoSockets_Status_Error
+  commentId: F:NanoSockets.Status.Error
+  fullName: NanoSockets.Status.Error
+  nameWithType: Status.Error
+- uid: NanoSockets.Status.OK
+  name: OK
+  href: api/NanoSockets.Status.html#NanoSockets_Status_OK
+  commentId: F:NanoSockets.Status.OK
+  fullName: NanoSockets.Status.OK
+  nameWithType: Status.OK
+- uid: NanoSockets.UDP
+  name: UDP
+  href: api/NanoSockets.UDP.html
+  commentId: T:NanoSockets.UDP
+  fullName: NanoSockets.UDP
+  nameWithType: UDP
+- uid: NanoSockets.UDP.Bind(NanoSockets.Socket,NanoSockets.Address@)
+  name: Bind(Socket, ref Address)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Bind_NanoSockets_Socket_NanoSockets_Address__
+  commentId: M:NanoSockets.UDP.Bind(NanoSockets.Socket,NanoSockets.Address@)
+  name.vb: Bind(Socket, ByRef Address)
+  fullName: NanoSockets.UDP.Bind(NanoSockets.Socket, ref NanoSockets.Address)
+  fullName.vb: NanoSockets.UDP.Bind(NanoSockets.Socket, ByRef NanoSockets.Address)
+  nameWithType: UDP.Bind(Socket, ref Address)
+  nameWithType.vb: UDP.Bind(Socket, ByRef Address)
+- uid: NanoSockets.UDP.Bind(NanoSockets.Socket,System.IntPtr)
+  name: Bind(Socket, IntPtr)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Bind_NanoSockets_Socket_System_IntPtr_
+  commentId: M:NanoSockets.UDP.Bind(NanoSockets.Socket,System.IntPtr)
+  fullName: NanoSockets.UDP.Bind(NanoSockets.Socket, System.IntPtr)
+  nameWithType: UDP.Bind(Socket, IntPtr)
+- uid: NanoSockets.UDP.Bind*
+  name: Bind
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Bind_
+  commentId: Overload:NanoSockets.UDP.Bind
+  fullName: NanoSockets.UDP.Bind
+  nameWithType: UDP.Bind
+- uid: NanoSockets.UDP.Connect(NanoSockets.Socket,NanoSockets.Address@)
+  name: Connect(Socket, ref Address)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Connect_NanoSockets_Socket_NanoSockets_Address__
+  commentId: M:NanoSockets.UDP.Connect(NanoSockets.Socket,NanoSockets.Address@)
+  name.vb: Connect(Socket, ByRef Address)
+  fullName: NanoSockets.UDP.Connect(NanoSockets.Socket, ref NanoSockets.Address)
+  fullName.vb: NanoSockets.UDP.Connect(NanoSockets.Socket, ByRef NanoSockets.Address)
+  nameWithType: UDP.Connect(Socket, ref Address)
+  nameWithType.vb: UDP.Connect(Socket, ByRef Address)
+- uid: NanoSockets.UDP.Connect*
+  name: Connect
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Connect_
+  commentId: Overload:NanoSockets.UDP.Connect
+  fullName: NanoSockets.UDP.Connect
+  nameWithType: UDP.Connect
+- uid: NanoSockets.UDP.Create(System.Int32,System.Int32)
+  name: Create(Int32, Int32)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Create_System_Int32_System_Int32_
+  commentId: M:NanoSockets.UDP.Create(System.Int32,System.Int32)
+  fullName: NanoSockets.UDP.Create(System.Int32, System.Int32)
+  nameWithType: UDP.Create(Int32, Int32)
+- uid: NanoSockets.UDP.Create*
+  name: Create
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Create_
+  commentId: Overload:NanoSockets.UDP.Create
+  fullName: NanoSockets.UDP.Create
+  nameWithType: UDP.Create
+- uid: NanoSockets.UDP.Deinitialize
+  name: Deinitialize()
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Deinitialize
+  commentId: M:NanoSockets.UDP.Deinitialize
+  fullName: NanoSockets.UDP.Deinitialize()
+  nameWithType: UDP.Deinitialize()
+- uid: NanoSockets.UDP.Deinitialize*
+  name: Deinitialize
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Deinitialize_
+  commentId: Overload:NanoSockets.UDP.Deinitialize
+  fullName: NanoSockets.UDP.Deinitialize
+  nameWithType: UDP.Deinitialize
+- uid: NanoSockets.UDP.Destroy(NanoSockets.Socket@)
+  name: Destroy(ref Socket)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Destroy_NanoSockets_Socket__
+  commentId: M:NanoSockets.UDP.Destroy(NanoSockets.Socket@)
+  name.vb: Destroy(ByRef Socket)
+  fullName: NanoSockets.UDP.Destroy(ref NanoSockets.Socket)
+  fullName.vb: NanoSockets.UDP.Destroy(ByRef NanoSockets.Socket)
+  nameWithType: UDP.Destroy(ref Socket)
+  nameWithType.vb: UDP.Destroy(ByRef Socket)
+- uid: NanoSockets.UDP.Destroy*
+  name: Destroy
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Destroy_
+  commentId: Overload:NanoSockets.UDP.Destroy
+  fullName: NanoSockets.UDP.Destroy
+  nameWithType: UDP.Destroy
+- uid: NanoSockets.UDP.GetAddress(NanoSockets.Socket,NanoSockets.Address@)
+  name: GetAddress(Socket, ref Address)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_GetAddress_NanoSockets_Socket_NanoSockets_Address__
+  commentId: M:NanoSockets.UDP.GetAddress(NanoSockets.Socket,NanoSockets.Address@)
+  name.vb: GetAddress(Socket, ByRef Address)
+  fullName: NanoSockets.UDP.GetAddress(NanoSockets.Socket, ref NanoSockets.Address)
+  fullName.vb: NanoSockets.UDP.GetAddress(NanoSockets.Socket, ByRef NanoSockets.Address)
+  nameWithType: UDP.GetAddress(Socket, ref Address)
+  nameWithType.vb: UDP.GetAddress(Socket, ByRef Address)
+- uid: NanoSockets.UDP.GetAddress*
+  name: GetAddress
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_GetAddress_
+  commentId: Overload:NanoSockets.UDP.GetAddress
+  fullName: NanoSockets.UDP.GetAddress
+  nameWithType: UDP.GetAddress
+- uid: NanoSockets.UDP.GetHostName(NanoSockets.Address@,System.IntPtr,System.Int32)
+  name: GetHostName(ref Address, IntPtr, Int32)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_GetHostName_NanoSockets_Address__System_IntPtr_System_Int32_
+  commentId: M:NanoSockets.UDP.GetHostName(NanoSockets.Address@,System.IntPtr,System.Int32)
+  name.vb: GetHostName(ByRef Address, IntPtr, Int32)
+  fullName: NanoSockets.UDP.GetHostName(ref NanoSockets.Address, System.IntPtr, System.Int32)
+  fullName.vb: NanoSockets.UDP.GetHostName(ByRef NanoSockets.Address, System.IntPtr, System.Int32)
+  nameWithType: UDP.GetHostName(ref Address, IntPtr, Int32)
+  nameWithType.vb: UDP.GetHostName(ByRef Address, IntPtr, Int32)
+- uid: NanoSockets.UDP.GetHostName(NanoSockets.Address@,System.Text.StringBuilder,System.Int32)
+  name: GetHostName(ref Address, StringBuilder, Int32)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_GetHostName_NanoSockets_Address__System_Text_StringBuilder_System_Int32_
+  commentId: M:NanoSockets.UDP.GetHostName(NanoSockets.Address@,System.Text.StringBuilder,System.Int32)
+  name.vb: GetHostName(ByRef Address, StringBuilder, Int32)
+  fullName: NanoSockets.UDP.GetHostName(ref NanoSockets.Address, System.Text.StringBuilder, System.Int32)
+  fullName.vb: NanoSockets.UDP.GetHostName(ByRef NanoSockets.Address, System.Text.StringBuilder, System.Int32)
+  nameWithType: UDP.GetHostName(ref Address, StringBuilder, Int32)
+  nameWithType.vb: UDP.GetHostName(ByRef Address, StringBuilder, Int32)
+- uid: NanoSockets.UDP.GetHostName*
+  name: GetHostName
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_GetHostName_
+  commentId: Overload:NanoSockets.UDP.GetHostName
+  fullName: NanoSockets.UDP.GetHostName
+  nameWithType: UDP.GetHostName
+- uid: NanoSockets.UDP.GetIP(NanoSockets.Address@,System.IntPtr,System.Int32)
+  name: GetIP(ref Address, IntPtr, Int32)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_GetIP_NanoSockets_Address__System_IntPtr_System_Int32_
+  commentId: M:NanoSockets.UDP.GetIP(NanoSockets.Address@,System.IntPtr,System.Int32)
+  name.vb: GetIP(ByRef Address, IntPtr, Int32)
+  fullName: NanoSockets.UDP.GetIP(ref NanoSockets.Address, System.IntPtr, System.Int32)
+  fullName.vb: NanoSockets.UDP.GetIP(ByRef NanoSockets.Address, System.IntPtr, System.Int32)
+  nameWithType: UDP.GetIP(ref Address, IntPtr, Int32)
+  nameWithType.vb: UDP.GetIP(ByRef Address, IntPtr, Int32)
+- uid: NanoSockets.UDP.GetIP(NanoSockets.Address@,System.Text.StringBuilder,System.Int32)
+  name: GetIP(ref Address, StringBuilder, Int32)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_GetIP_NanoSockets_Address__System_Text_StringBuilder_System_Int32_
+  commentId: M:NanoSockets.UDP.GetIP(NanoSockets.Address@,System.Text.StringBuilder,System.Int32)
+  name.vb: GetIP(ByRef Address, StringBuilder, Int32)
+  fullName: NanoSockets.UDP.GetIP(ref NanoSockets.Address, System.Text.StringBuilder, System.Int32)
+  fullName.vb: NanoSockets.UDP.GetIP(ByRef NanoSockets.Address, System.Text.StringBuilder, System.Int32)
+  nameWithType: UDP.GetIP(ref Address, StringBuilder, Int32)
+  nameWithType.vb: UDP.GetIP(ByRef Address, StringBuilder, Int32)
+- uid: NanoSockets.UDP.GetIP*
+  name: GetIP
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_GetIP_
+  commentId: Overload:NanoSockets.UDP.GetIP
+  fullName: NanoSockets.UDP.GetIP
+  nameWithType: UDP.GetIP
+- uid: NanoSockets.UDP.GetOption(NanoSockets.Socket,System.Int32,System.Int32,System.Int32@,System.Int32@)
+  name: GetOption(Socket, Int32, Int32, ref Int32, ref Int32)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_GetOption_NanoSockets_Socket_System_Int32_System_Int32_System_Int32__System_Int32__
+  commentId: M:NanoSockets.UDP.GetOption(NanoSockets.Socket,System.Int32,System.Int32,System.Int32@,System.Int32@)
+  name.vb: GetOption(Socket, Int32, Int32, ByRef Int32, ByRef Int32)
+  fullName: NanoSockets.UDP.GetOption(NanoSockets.Socket, System.Int32, System.Int32, ref System.Int32, ref System.Int32)
+  fullName.vb: NanoSockets.UDP.GetOption(NanoSockets.Socket, System.Int32, System.Int32, ByRef System.Int32, ByRef System.Int32)
+  nameWithType: UDP.GetOption(Socket, Int32, Int32, ref Int32, ref Int32)
+  nameWithType.vb: UDP.GetOption(Socket, Int32, Int32, ByRef Int32, ByRef Int32)
+- uid: NanoSockets.UDP.GetOption*
+  name: GetOption
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_GetOption_
+  commentId: Overload:NanoSockets.UDP.GetOption
+  fullName: NanoSockets.UDP.GetOption
+  nameWithType: UDP.GetOption
+- uid: NanoSockets.UDP.hostNameSize
+  name: hostNameSize
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_hostNameSize
+  commentId: F:NanoSockets.UDP.hostNameSize
+  fullName: NanoSockets.UDP.hostNameSize
+  nameWithType: UDP.hostNameSize
+- uid: NanoSockets.UDP.Initialize
+  name: Initialize()
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Initialize
+  commentId: M:NanoSockets.UDP.Initialize
+  fullName: NanoSockets.UDP.Initialize()
+  nameWithType: UDP.Initialize()
+- uid: NanoSockets.UDP.Initialize*
+  name: Initialize
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Initialize_
+  commentId: Overload:NanoSockets.UDP.Initialize
+  fullName: NanoSockets.UDP.Initialize
+  nameWithType: UDP.Initialize
+- uid: NanoSockets.UDP.IsEqual(NanoSockets.Address@,NanoSockets.Address@)
+  name: IsEqual(ref Address, ref Address)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_IsEqual_NanoSockets_Address__NanoSockets_Address__
+  commentId: M:NanoSockets.UDP.IsEqual(NanoSockets.Address@,NanoSockets.Address@)
+  name.vb: IsEqual(ByRef Address, ByRef Address)
+  fullName: NanoSockets.UDP.IsEqual(ref NanoSockets.Address, ref NanoSockets.Address)
+  fullName.vb: NanoSockets.UDP.IsEqual(ByRef NanoSockets.Address, ByRef NanoSockets.Address)
+  nameWithType: UDP.IsEqual(ref Address, ref Address)
+  nameWithType.vb: UDP.IsEqual(ByRef Address, ByRef Address)
+- uid: NanoSockets.UDP.IsEqual*
+  name: IsEqual
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_IsEqual_
+  commentId: Overload:NanoSockets.UDP.IsEqual
+  fullName: NanoSockets.UDP.IsEqual
+  nameWithType: UDP.IsEqual
+- uid: NanoSockets.UDP.Poll(NanoSockets.Socket,System.Int64)
+  name: Poll(Socket, Int64)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Poll_NanoSockets_Socket_System_Int64_
+  commentId: M:NanoSockets.UDP.Poll(NanoSockets.Socket,System.Int64)
+  fullName: NanoSockets.UDP.Poll(NanoSockets.Socket, System.Int64)
+  nameWithType: UDP.Poll(Socket, Int64)
+- uid: NanoSockets.UDP.Poll*
+  name: Poll
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Poll_
+  commentId: Overload:NanoSockets.UDP.Poll
+  fullName: NanoSockets.UDP.Poll
+  nameWithType: UDP.Poll
+- uid: NanoSockets.UDP.Receive(NanoSockets.Socket,NanoSockets.Address@,System.Byte[],System.Int32)
+  name: Receive(Socket, ref Address, Byte[], Int32)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Receive_NanoSockets_Socket_NanoSockets_Address__System_Byte___System_Int32_
+  commentId: M:NanoSockets.UDP.Receive(NanoSockets.Socket,NanoSockets.Address@,System.Byte[],System.Int32)
+  name.vb: Receive(Socket, ByRef Address, Byte(), Int32)
+  fullName: NanoSockets.UDP.Receive(NanoSockets.Socket, ref NanoSockets.Address, System.Byte[], System.Int32)
+  fullName.vb: NanoSockets.UDP.Receive(NanoSockets.Socket, ByRef NanoSockets.Address, System.Byte(), System.Int32)
+  nameWithType: UDP.Receive(Socket, ref Address, Byte[], Int32)
+  nameWithType.vb: UDP.Receive(Socket, ByRef Address, Byte(), Int32)
+- uid: NanoSockets.UDP.Receive(NanoSockets.Socket,NanoSockets.Address@,System.Byte[],System.Int32,System.Int32)
+  name: Receive(Socket, ref Address, Byte[], Int32, Int32)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Receive_NanoSockets_Socket_NanoSockets_Address__System_Byte___System_Int32_System_Int32_
+  commentId: M:NanoSockets.UDP.Receive(NanoSockets.Socket,NanoSockets.Address@,System.Byte[],System.Int32,System.Int32)
+  name.vb: Receive(Socket, ByRef Address, Byte(), Int32, Int32)
+  fullName: NanoSockets.UDP.Receive(NanoSockets.Socket, ref NanoSockets.Address, System.Byte[], System.Int32, System.Int32)
+  fullName.vb: NanoSockets.UDP.Receive(NanoSockets.Socket, ByRef NanoSockets.Address, System.Byte(), System.Int32, System.Int32)
+  nameWithType: UDP.Receive(Socket, ref Address, Byte[], Int32, Int32)
+  nameWithType.vb: UDP.Receive(Socket, ByRef Address, Byte(), Int32, Int32)
+- uid: NanoSockets.UDP.Receive(NanoSockets.Socket,NanoSockets.Address@,System.IntPtr,System.Int32)
+  name: Receive(Socket, ref Address, IntPtr, Int32)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Receive_NanoSockets_Socket_NanoSockets_Address__System_IntPtr_System_Int32_
+  commentId: M:NanoSockets.UDP.Receive(NanoSockets.Socket,NanoSockets.Address@,System.IntPtr,System.Int32)
+  name.vb: Receive(Socket, ByRef Address, IntPtr, Int32)
+  fullName: NanoSockets.UDP.Receive(NanoSockets.Socket, ref NanoSockets.Address, System.IntPtr, System.Int32)
+  fullName.vb: NanoSockets.UDP.Receive(NanoSockets.Socket, ByRef NanoSockets.Address, System.IntPtr, System.Int32)
+  nameWithType: UDP.Receive(Socket, ref Address, IntPtr, Int32)
+  nameWithType.vb: UDP.Receive(Socket, ByRef Address, IntPtr, Int32)
+- uid: NanoSockets.UDP.Receive(NanoSockets.Socket,System.IntPtr,System.Byte[],System.Int32)
+  name: Receive(Socket, IntPtr, Byte[], Int32)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Receive_NanoSockets_Socket_System_IntPtr_System_Byte___System_Int32_
+  commentId: M:NanoSockets.UDP.Receive(NanoSockets.Socket,System.IntPtr,System.Byte[],System.Int32)
+  name.vb: Receive(Socket, IntPtr, Byte(), Int32)
+  fullName: NanoSockets.UDP.Receive(NanoSockets.Socket, System.IntPtr, System.Byte[], System.Int32)
+  fullName.vb: NanoSockets.UDP.Receive(NanoSockets.Socket, System.IntPtr, System.Byte(), System.Int32)
+  nameWithType: UDP.Receive(Socket, IntPtr, Byte[], Int32)
+  nameWithType.vb: UDP.Receive(Socket, IntPtr, Byte(), Int32)
+- uid: NanoSockets.UDP.Receive(NanoSockets.Socket,System.IntPtr,System.Byte[],System.Int32,System.Int32)
+  name: Receive(Socket, IntPtr, Byte[], Int32, Int32)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Receive_NanoSockets_Socket_System_IntPtr_System_Byte___System_Int32_System_Int32_
+  commentId: M:NanoSockets.UDP.Receive(NanoSockets.Socket,System.IntPtr,System.Byte[],System.Int32,System.Int32)
+  name.vb: Receive(Socket, IntPtr, Byte(), Int32, Int32)
+  fullName: NanoSockets.UDP.Receive(NanoSockets.Socket, System.IntPtr, System.Byte[], System.Int32, System.Int32)
+  fullName.vb: NanoSockets.UDP.Receive(NanoSockets.Socket, System.IntPtr, System.Byte(), System.Int32, System.Int32)
+  nameWithType: UDP.Receive(Socket, IntPtr, Byte[], Int32, Int32)
+  nameWithType.vb: UDP.Receive(Socket, IntPtr, Byte(), Int32, Int32)
+- uid: NanoSockets.UDP.Receive(NanoSockets.Socket,System.IntPtr,System.IntPtr,System.Int32)
+  name: Receive(Socket, IntPtr, IntPtr, Int32)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Receive_NanoSockets_Socket_System_IntPtr_System_IntPtr_System_Int32_
+  commentId: M:NanoSockets.UDP.Receive(NanoSockets.Socket,System.IntPtr,System.IntPtr,System.Int32)
+  fullName: NanoSockets.UDP.Receive(NanoSockets.Socket, System.IntPtr, System.IntPtr, System.Int32)
+  nameWithType: UDP.Receive(Socket, IntPtr, IntPtr, Int32)
+- uid: NanoSockets.UDP.Receive*
+  name: Receive
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Receive_
+  commentId: Overload:NanoSockets.UDP.Receive
+  fullName: NanoSockets.UDP.Receive
+  nameWithType: UDP.Receive
+- uid: NanoSockets.UDP.Send(NanoSockets.Socket,NanoSockets.Address@,System.Byte[],System.Int32)
+  name: Send(Socket, ref Address, Byte[], Int32)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Send_NanoSockets_Socket_NanoSockets_Address__System_Byte___System_Int32_
+  commentId: M:NanoSockets.UDP.Send(NanoSockets.Socket,NanoSockets.Address@,System.Byte[],System.Int32)
+  name.vb: Send(Socket, ByRef Address, Byte(), Int32)
+  fullName: NanoSockets.UDP.Send(NanoSockets.Socket, ref NanoSockets.Address, System.Byte[], System.Int32)
+  fullName.vb: NanoSockets.UDP.Send(NanoSockets.Socket, ByRef NanoSockets.Address, System.Byte(), System.Int32)
+  nameWithType: UDP.Send(Socket, ref Address, Byte[], Int32)
+  nameWithType.vb: UDP.Send(Socket, ByRef Address, Byte(), Int32)
+- uid: NanoSockets.UDP.Send(NanoSockets.Socket,NanoSockets.Address@,System.Byte[],System.Int32,System.Int32)
+  name: Send(Socket, ref Address, Byte[], Int32, Int32)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Send_NanoSockets_Socket_NanoSockets_Address__System_Byte___System_Int32_System_Int32_
+  commentId: M:NanoSockets.UDP.Send(NanoSockets.Socket,NanoSockets.Address@,System.Byte[],System.Int32,System.Int32)
+  name.vb: Send(Socket, ByRef Address, Byte(), Int32, Int32)
+  fullName: NanoSockets.UDP.Send(NanoSockets.Socket, ref NanoSockets.Address, System.Byte[], System.Int32, System.Int32)
+  fullName.vb: NanoSockets.UDP.Send(NanoSockets.Socket, ByRef NanoSockets.Address, System.Byte(), System.Int32, System.Int32)
+  nameWithType: UDP.Send(Socket, ref Address, Byte[], Int32, Int32)
+  nameWithType.vb: UDP.Send(Socket, ByRef Address, Byte(), Int32, Int32)
+- uid: NanoSockets.UDP.Send(NanoSockets.Socket,NanoSockets.Address@,System.IntPtr,System.Int32)
+  name: Send(Socket, ref Address, IntPtr, Int32)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Send_NanoSockets_Socket_NanoSockets_Address__System_IntPtr_System_Int32_
+  commentId: M:NanoSockets.UDP.Send(NanoSockets.Socket,NanoSockets.Address@,System.IntPtr,System.Int32)
+  name.vb: Send(Socket, ByRef Address, IntPtr, Int32)
+  fullName: NanoSockets.UDP.Send(NanoSockets.Socket, ref NanoSockets.Address, System.IntPtr, System.Int32)
+  fullName.vb: NanoSockets.UDP.Send(NanoSockets.Socket, ByRef NanoSockets.Address, System.IntPtr, System.Int32)
+  nameWithType: UDP.Send(Socket, ref Address, IntPtr, Int32)
+  nameWithType.vb: UDP.Send(Socket, ByRef Address, IntPtr, Int32)
+- uid: NanoSockets.UDP.Send(NanoSockets.Socket,System.IntPtr,System.Byte[],System.Int32)
+  name: Send(Socket, IntPtr, Byte[], Int32)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Send_NanoSockets_Socket_System_IntPtr_System_Byte___System_Int32_
+  commentId: M:NanoSockets.UDP.Send(NanoSockets.Socket,System.IntPtr,System.Byte[],System.Int32)
+  name.vb: Send(Socket, IntPtr, Byte(), Int32)
+  fullName: NanoSockets.UDP.Send(NanoSockets.Socket, System.IntPtr, System.Byte[], System.Int32)
+  fullName.vb: NanoSockets.UDP.Send(NanoSockets.Socket, System.IntPtr, System.Byte(), System.Int32)
+  nameWithType: UDP.Send(Socket, IntPtr, Byte[], Int32)
+  nameWithType.vb: UDP.Send(Socket, IntPtr, Byte(), Int32)
+- uid: NanoSockets.UDP.Send(NanoSockets.Socket,System.IntPtr,System.Byte[],System.Int32,System.Int32)
+  name: Send(Socket, IntPtr, Byte[], Int32, Int32)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Send_NanoSockets_Socket_System_IntPtr_System_Byte___System_Int32_System_Int32_
+  commentId: M:NanoSockets.UDP.Send(NanoSockets.Socket,System.IntPtr,System.Byte[],System.Int32,System.Int32)
+  name.vb: Send(Socket, IntPtr, Byte(), Int32, Int32)
+  fullName: NanoSockets.UDP.Send(NanoSockets.Socket, System.IntPtr, System.Byte[], System.Int32, System.Int32)
+  fullName.vb: NanoSockets.UDP.Send(NanoSockets.Socket, System.IntPtr, System.Byte(), System.Int32, System.Int32)
+  nameWithType: UDP.Send(Socket, IntPtr, Byte[], Int32, Int32)
+  nameWithType.vb: UDP.Send(Socket, IntPtr, Byte(), Int32, Int32)
+- uid: NanoSockets.UDP.Send(NanoSockets.Socket,System.IntPtr,System.IntPtr,System.Int32)
+  name: Send(Socket, IntPtr, IntPtr, Int32)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Send_NanoSockets_Socket_System_IntPtr_System_IntPtr_System_Int32_
+  commentId: M:NanoSockets.UDP.Send(NanoSockets.Socket,System.IntPtr,System.IntPtr,System.Int32)
+  fullName: NanoSockets.UDP.Send(NanoSockets.Socket, System.IntPtr, System.IntPtr, System.Int32)
+  nameWithType: UDP.Send(Socket, IntPtr, IntPtr, Int32)
+- uid: NanoSockets.UDP.Send*
+  name: Send
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_Send_
+  commentId: Overload:NanoSockets.UDP.Send
+  fullName: NanoSockets.UDP.Send
+  nameWithType: UDP.Send
+- uid: NanoSockets.UDP.SetDontFragment(NanoSockets.Socket)
+  name: SetDontFragment(Socket)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_SetDontFragment_NanoSockets_Socket_
+  commentId: M:NanoSockets.UDP.SetDontFragment(NanoSockets.Socket)
+  fullName: NanoSockets.UDP.SetDontFragment(NanoSockets.Socket)
+  nameWithType: UDP.SetDontFragment(Socket)
+- uid: NanoSockets.UDP.SetDontFragment*
+  name: SetDontFragment
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_SetDontFragment_
+  commentId: Overload:NanoSockets.UDP.SetDontFragment
+  fullName: NanoSockets.UDP.SetDontFragment
+  nameWithType: UDP.SetDontFragment
+- uid: NanoSockets.UDP.SetHostName(NanoSockets.Address@,System.IntPtr)
+  name: SetHostName(ref Address, IntPtr)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_SetHostName_NanoSockets_Address__System_IntPtr_
+  commentId: M:NanoSockets.UDP.SetHostName(NanoSockets.Address@,System.IntPtr)
+  name.vb: SetHostName(ByRef Address, IntPtr)
+  fullName: NanoSockets.UDP.SetHostName(ref NanoSockets.Address, System.IntPtr)
+  fullName.vb: NanoSockets.UDP.SetHostName(ByRef NanoSockets.Address, System.IntPtr)
+  nameWithType: UDP.SetHostName(ref Address, IntPtr)
+  nameWithType.vb: UDP.SetHostName(ByRef Address, IntPtr)
+- uid: NanoSockets.UDP.SetHostName(NanoSockets.Address@,System.String)
+  name: SetHostName(ref Address, String)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_SetHostName_NanoSockets_Address__System_String_
+  commentId: M:NanoSockets.UDP.SetHostName(NanoSockets.Address@,System.String)
+  name.vb: SetHostName(ByRef Address, String)
+  fullName: NanoSockets.UDP.SetHostName(ref NanoSockets.Address, System.String)
+  fullName.vb: NanoSockets.UDP.SetHostName(ByRef NanoSockets.Address, System.String)
+  nameWithType: UDP.SetHostName(ref Address, String)
+  nameWithType.vb: UDP.SetHostName(ByRef Address, String)
+- uid: NanoSockets.UDP.SetHostName*
+  name: SetHostName
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_SetHostName_
+  commentId: Overload:NanoSockets.UDP.SetHostName
+  fullName: NanoSockets.UDP.SetHostName
+  nameWithType: UDP.SetHostName
+- uid: NanoSockets.UDP.SetIP(NanoSockets.Address@,System.IntPtr)
+  name: SetIP(ref Address, IntPtr)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_SetIP_NanoSockets_Address__System_IntPtr_
+  commentId: M:NanoSockets.UDP.SetIP(NanoSockets.Address@,System.IntPtr)
+  name.vb: SetIP(ByRef Address, IntPtr)
+  fullName: NanoSockets.UDP.SetIP(ref NanoSockets.Address, System.IntPtr)
+  fullName.vb: NanoSockets.UDP.SetIP(ByRef NanoSockets.Address, System.IntPtr)
+  nameWithType: UDP.SetIP(ref Address, IntPtr)
+  nameWithType.vb: UDP.SetIP(ByRef Address, IntPtr)
+- uid: NanoSockets.UDP.SetIP(NanoSockets.Address@,System.String)
+  name: SetIP(ref Address, String)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_SetIP_NanoSockets_Address__System_String_
+  commentId: M:NanoSockets.UDP.SetIP(NanoSockets.Address@,System.String)
+  name.vb: SetIP(ByRef Address, String)
+  fullName: NanoSockets.UDP.SetIP(ref NanoSockets.Address, System.String)
+  fullName.vb: NanoSockets.UDP.SetIP(ByRef NanoSockets.Address, System.String)
+  nameWithType: UDP.SetIP(ref Address, String)
+  nameWithType.vb: UDP.SetIP(ByRef Address, String)
+- uid: NanoSockets.UDP.SetIP*
+  name: SetIP
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_SetIP_
+  commentId: Overload:NanoSockets.UDP.SetIP
+  fullName: NanoSockets.UDP.SetIP
+  nameWithType: UDP.SetIP
+- uid: NanoSockets.UDP.SetNonBlocking(NanoSockets.Socket,System.Boolean)
+  name: SetNonBlocking(Socket, Boolean)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_SetNonBlocking_NanoSockets_Socket_System_Boolean_
+  commentId: M:NanoSockets.UDP.SetNonBlocking(NanoSockets.Socket,System.Boolean)
+  fullName: NanoSockets.UDP.SetNonBlocking(NanoSockets.Socket, System.Boolean)
+  nameWithType: UDP.SetNonBlocking(Socket, Boolean)
+- uid: NanoSockets.UDP.SetNonBlocking*
+  name: SetNonBlocking
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_SetNonBlocking_
+  commentId: Overload:NanoSockets.UDP.SetNonBlocking
+  isSpec: "True"
+  fullName: NanoSockets.UDP.SetNonBlocking
+  nameWithType: UDP.SetNonBlocking
+- uid: NanoSockets.UDP.SetOption(NanoSockets.Socket,System.Int32,System.Int32,System.Int32@,System.Int32)
+  name: SetOption(Socket, Int32, Int32, ref Int32, Int32)
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_SetOption_NanoSockets_Socket_System_Int32_System_Int32_System_Int32__System_Int32_
+  commentId: M:NanoSockets.UDP.SetOption(NanoSockets.Socket,System.Int32,System.Int32,System.Int32@,System.Int32)
+  name.vb: SetOption(Socket, Int32, Int32, ByRef Int32, Int32)
+  fullName: NanoSockets.UDP.SetOption(NanoSockets.Socket, System.Int32, System.Int32, ref System.Int32, System.Int32)
+  fullName.vb: NanoSockets.UDP.SetOption(NanoSockets.Socket, System.Int32, System.Int32, ByRef System.Int32, System.Int32)
+  nameWithType: UDP.SetOption(Socket, Int32, Int32, ref Int32, Int32)
+  nameWithType.vb: UDP.SetOption(Socket, Int32, Int32, ByRef Int32, Int32)
+- uid: NanoSockets.UDP.SetOption*
+  name: SetOption
+  href: api/NanoSockets.UDP.html#NanoSockets_UDP_SetOption_
+  commentId: Overload:NanoSockets.UDP.SetOption
+  fullName: NanoSockets.UDP.SetOption
+  nameWithType: UDP.SetOption
