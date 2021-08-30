@@ -25,11 +25,11 @@ references:
   commentId: T:Mirage.Authenticators.BasicAuthenticator
   fullName: Mirage.Authenticators.BasicAuthenticator
   nameWithType: BasicAuthenticator
-- uid: Mirage.Authenticators.BasicAuthenticator.ClientAuthenticate(Mirage.INetworkPlayer)
+- uid: Mirage.Authenticators.BasicAuthenticator.ClientAuthenticate(INetworkPlayer)
   name: ClientAuthenticate(INetworkPlayer)
-  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_ClientAuthenticate_Mirage_INetworkPlayer_
-  commentId: M:Mirage.Authenticators.BasicAuthenticator.ClientAuthenticate(Mirage.INetworkPlayer)
-  fullName: Mirage.Authenticators.BasicAuthenticator.ClientAuthenticate(Mirage.INetworkPlayer)
+  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_ClientAuthenticate_INetworkPlayer_
+  commentId: M:Mirage.Authenticators.BasicAuthenticator.ClientAuthenticate(INetworkPlayer)
+  fullName: Mirage.Authenticators.BasicAuthenticator.ClientAuthenticate(INetworkPlayer)
   nameWithType: BasicAuthenticator.ClientAuthenticate(INetworkPlayer)
 - uid: Mirage.Authenticators.BasicAuthenticator.ClientAuthenticate*
   name: ClientAuthenticate
@@ -38,11 +38,11 @@ references:
   isSpec: "True"
   fullName: Mirage.Authenticators.BasicAuthenticator.ClientAuthenticate
   nameWithType: BasicAuthenticator.ClientAuthenticate
-- uid: Mirage.Authenticators.BasicAuthenticator.ClientSetup(Mirage.NetworkClient)
+- uid: Mirage.Authenticators.BasicAuthenticator.ClientSetup(NetworkClient)
   name: ClientSetup(NetworkClient)
-  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_ClientSetup_Mirage_NetworkClient_
-  commentId: M:Mirage.Authenticators.BasicAuthenticator.ClientSetup(Mirage.NetworkClient)
-  fullName: Mirage.Authenticators.BasicAuthenticator.ClientSetup(Mirage.NetworkClient)
+  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_ClientSetup_NetworkClient_
+  commentId: M:Mirage.Authenticators.BasicAuthenticator.ClientSetup(NetworkClient)
+  fullName: Mirage.Authenticators.BasicAuthenticator.ClientSetup(NetworkClient)
   nameWithType: BasicAuthenticator.ClientSetup(NetworkClient)
 - uid: Mirage.Authenticators.BasicAuthenticator.ClientSetup*
   name: ClientSetup
@@ -51,11 +51,11 @@ references:
   isSpec: "True"
   fullName: Mirage.Authenticators.BasicAuthenticator.ClientSetup
   nameWithType: BasicAuthenticator.ClientSetup
-- uid: Mirage.Authenticators.BasicAuthenticator.ServerAuthenticate(Mirage.INetworkPlayer)
+- uid: Mirage.Authenticators.BasicAuthenticator.ServerAuthenticate(INetworkPlayer)
   name: ServerAuthenticate(INetworkPlayer)
-  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_ServerAuthenticate_Mirage_INetworkPlayer_
-  commentId: M:Mirage.Authenticators.BasicAuthenticator.ServerAuthenticate(Mirage.INetworkPlayer)
-  fullName: Mirage.Authenticators.BasicAuthenticator.ServerAuthenticate(Mirage.INetworkPlayer)
+  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_ServerAuthenticate_INetworkPlayer_
+  commentId: M:Mirage.Authenticators.BasicAuthenticator.ServerAuthenticate(INetworkPlayer)
+  fullName: Mirage.Authenticators.BasicAuthenticator.ServerAuthenticate(INetworkPlayer)
   nameWithType: BasicAuthenticator.ServerAuthenticate(INetworkPlayer)
 - uid: Mirage.Authenticators.BasicAuthenticator.ServerAuthenticate*
   name: ServerAuthenticate
@@ -70,11 +70,11 @@ references:
   commentId: F:Mirage.Authenticators.BasicAuthenticator.serverCode
   fullName: Mirage.Authenticators.BasicAuthenticator.serverCode
   nameWithType: BasicAuthenticator.serverCode
-- uid: Mirage.Authenticators.BasicAuthenticator.ServerSetup(Mirage.NetworkServer)
+- uid: Mirage.Authenticators.BasicAuthenticator.ServerSetup(NetworkServer)
   name: ServerSetup(NetworkServer)
-  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_ServerSetup_Mirage_NetworkServer_
-  commentId: M:Mirage.Authenticators.BasicAuthenticator.ServerSetup(Mirage.NetworkServer)
-  fullName: Mirage.Authenticators.BasicAuthenticator.ServerSetup(Mirage.NetworkServer)
+  href: api/Mirage.Authenticators.BasicAuthenticator.html#Mirage_Authenticators_BasicAuthenticator_ServerSetup_NetworkServer_
+  commentId: M:Mirage.Authenticators.BasicAuthenticator.ServerSetup(NetworkServer)
+  fullName: Mirage.Authenticators.BasicAuthenticator.ServerSetup(NetworkServer)
   nameWithType: BasicAuthenticator.ServerSetup(NetworkServer)
 - uid: Mirage.Authenticators.BasicAuthenticator.ServerSetup*
   name: ServerSetup
@@ -108,11 +108,11 @@ references:
   isSpec: "True"
   fullName: Mirage.Authenticators.TimeoutAuthenticator.Awake
   nameWithType: TimeoutAuthenticator.Awake
-- uid: Mirage.Authenticators.TimeoutAuthenticator.ClientAuthenticate(Mirage.INetworkPlayer)
+- uid: Mirage.Authenticators.TimeoutAuthenticator.ClientAuthenticate(INetworkPlayer)
   name: ClientAuthenticate(INetworkPlayer)
-  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_ClientAuthenticate_Mirage_INetworkPlayer_
-  commentId: M:Mirage.Authenticators.TimeoutAuthenticator.ClientAuthenticate(Mirage.INetworkPlayer)
-  fullName: Mirage.Authenticators.TimeoutAuthenticator.ClientAuthenticate(Mirage.INetworkPlayer)
+  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_ClientAuthenticate_INetworkPlayer_
+  commentId: M:Mirage.Authenticators.TimeoutAuthenticator.ClientAuthenticate(INetworkPlayer)
+  fullName: Mirage.Authenticators.TimeoutAuthenticator.ClientAuthenticate(INetworkPlayer)
   nameWithType: TimeoutAuthenticator.ClientAuthenticate(INetworkPlayer)
 - uid: Mirage.Authenticators.TimeoutAuthenticator.ClientAuthenticate*
   name: ClientAuthenticate
@@ -121,11 +121,11 @@ references:
   isSpec: "True"
   fullName: Mirage.Authenticators.TimeoutAuthenticator.ClientAuthenticate
   nameWithType: TimeoutAuthenticator.ClientAuthenticate
-- uid: Mirage.Authenticators.TimeoutAuthenticator.ClientSetup(Mirage.NetworkClient)
+- uid: Mirage.Authenticators.TimeoutAuthenticator.ClientSetup(NetworkClient)
   name: ClientSetup(NetworkClient)
-  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_ClientSetup_Mirage_NetworkClient_
-  commentId: M:Mirage.Authenticators.TimeoutAuthenticator.ClientSetup(Mirage.NetworkClient)
-  fullName: Mirage.Authenticators.TimeoutAuthenticator.ClientSetup(Mirage.NetworkClient)
+  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_ClientSetup_NetworkClient_
+  commentId: M:Mirage.Authenticators.TimeoutAuthenticator.ClientSetup(NetworkClient)
+  fullName: Mirage.Authenticators.TimeoutAuthenticator.ClientSetup(NetworkClient)
   nameWithType: TimeoutAuthenticator.ClientSetup(NetworkClient)
 - uid: Mirage.Authenticators.TimeoutAuthenticator.ClientSetup*
   name: ClientSetup
@@ -134,11 +134,11 @@ references:
   isSpec: "True"
   fullName: Mirage.Authenticators.TimeoutAuthenticator.ClientSetup
   nameWithType: TimeoutAuthenticator.ClientSetup
-- uid: Mirage.Authenticators.TimeoutAuthenticator.ServerAuthenticate(Mirage.INetworkPlayer)
+- uid: Mirage.Authenticators.TimeoutAuthenticator.ServerAuthenticate(INetworkPlayer)
   name: ServerAuthenticate(INetworkPlayer)
-  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_ServerAuthenticate_Mirage_INetworkPlayer_
-  commentId: M:Mirage.Authenticators.TimeoutAuthenticator.ServerAuthenticate(Mirage.INetworkPlayer)
-  fullName: Mirage.Authenticators.TimeoutAuthenticator.ServerAuthenticate(Mirage.INetworkPlayer)
+  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_ServerAuthenticate_INetworkPlayer_
+  commentId: M:Mirage.Authenticators.TimeoutAuthenticator.ServerAuthenticate(INetworkPlayer)
+  fullName: Mirage.Authenticators.TimeoutAuthenticator.ServerAuthenticate(INetworkPlayer)
   nameWithType: TimeoutAuthenticator.ServerAuthenticate(INetworkPlayer)
 - uid: Mirage.Authenticators.TimeoutAuthenticator.ServerAuthenticate*
   name: ServerAuthenticate
@@ -147,11 +147,11 @@ references:
   isSpec: "True"
   fullName: Mirage.Authenticators.TimeoutAuthenticator.ServerAuthenticate
   nameWithType: TimeoutAuthenticator.ServerAuthenticate
-- uid: Mirage.Authenticators.TimeoutAuthenticator.ServerSetup(Mirage.NetworkServer)
+- uid: Mirage.Authenticators.TimeoutAuthenticator.ServerSetup(NetworkServer)
   name: ServerSetup(NetworkServer)
-  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_ServerSetup_Mirage_NetworkServer_
-  commentId: M:Mirage.Authenticators.TimeoutAuthenticator.ServerSetup(Mirage.NetworkServer)
-  fullName: Mirage.Authenticators.TimeoutAuthenticator.ServerSetup(Mirage.NetworkServer)
+  href: api/Mirage.Authenticators.TimeoutAuthenticator.html#Mirage_Authenticators_TimeoutAuthenticator_ServerSetup_NetworkServer_
+  commentId: M:Mirage.Authenticators.TimeoutAuthenticator.ServerSetup(NetworkServer)
+  fullName: Mirage.Authenticators.TimeoutAuthenticator.ServerSetup(NetworkServer)
   nameWithType: TimeoutAuthenticator.ServerSetup(NetworkServer)
 - uid: Mirage.Authenticators.TimeoutAuthenticator.ServerSetup*
   name: ServerSetup
@@ -4785,13 +4785,13 @@ references:
   isSpec: "True"
   fullName: Mirage.LobbyReady.SendToReady
   nameWithType: LobbyReady.SendToReady
-- uid: Mirage.LobbyReady.SendToReady``1(Mirage.NetworkIdentity,``0,System.Boolean,System.Int32)
+- uid: Mirage.LobbyReady.SendToReady``1(NetworkIdentity,``0,System.Boolean,System.Int32)
   name: SendToReady<T>(NetworkIdentity, T, Boolean, Int32)
-  href: api/Mirage.LobbyReady.html#Mirage_LobbyReady_SendToReady__1_Mirage_NetworkIdentity___0_System_Boolean_System_Int32_
-  commentId: M:Mirage.LobbyReady.SendToReady``1(Mirage.NetworkIdentity,``0,System.Boolean,System.Int32)
+  href: api/Mirage.LobbyReady.html#Mirage_LobbyReady_SendToReady__1_NetworkIdentity___0_System_Boolean_System_Int32_
+  commentId: M:Mirage.LobbyReady.SendToReady``1(NetworkIdentity,``0,System.Boolean,System.Int32)
   name.vb: SendToReady(Of T)(NetworkIdentity, T, Boolean, Int32)
-  fullName: Mirage.LobbyReady.SendToReady<T>(Mirage.NetworkIdentity, T, System.Boolean, System.Int32)
-  fullName.vb: Mirage.LobbyReady.SendToReady(Of T)(Mirage.NetworkIdentity, T, System.Boolean, System.Int32)
+  fullName: Mirage.LobbyReady.SendToReady<T>(NetworkIdentity, T, System.Boolean, System.Int32)
+  fullName.vb: Mirage.LobbyReady.SendToReady(Of T)(NetworkIdentity, T, System.Boolean, System.Int32)
   nameWithType: LobbyReady.SendToReady<T>(NetworkIdentity, T, Boolean, Int32)
   nameWithType.vb: LobbyReady.SendToReady(Of T)(NetworkIdentity, T, Boolean, Int32)
 - uid: Mirage.LobbyReady.SetAllClientsNotReady
@@ -5148,11 +5148,11 @@ references:
   commentId: F:Mirage.NetworkAnimator.ClientAuthority
   fullName: Mirage.NetworkAnimator.ClientAuthority
   nameWithType: NetworkAnimator.ClientAuthority
-- uid: Mirage.NetworkAnimator.OnDeserialize(Mirage.Serialization.NetworkReader,System.Boolean)
+- uid: Mirage.NetworkAnimator.OnDeserialize(NetworkReader,System.Boolean)
   name: OnDeserialize(NetworkReader, Boolean)
-  href: api/Mirage.NetworkAnimator.html#Mirage_NetworkAnimator_OnDeserialize_Mirage_Serialization_NetworkReader_System_Boolean_
-  commentId: M:Mirage.NetworkAnimator.OnDeserialize(Mirage.Serialization.NetworkReader,System.Boolean)
-  fullName: Mirage.NetworkAnimator.OnDeserialize(Mirage.Serialization.NetworkReader, System.Boolean)
+  href: api/Mirage.NetworkAnimator.html#Mirage_NetworkAnimator_OnDeserialize_NetworkReader_System_Boolean_
+  commentId: M:Mirage.NetworkAnimator.OnDeserialize(NetworkReader,System.Boolean)
+  fullName: Mirage.NetworkAnimator.OnDeserialize(NetworkReader, System.Boolean)
   nameWithType: NetworkAnimator.OnDeserialize(NetworkReader, Boolean)
 - uid: Mirage.NetworkAnimator.OnDeserialize*
   name: OnDeserialize
@@ -5161,11 +5161,11 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkAnimator.OnDeserialize
   nameWithType: NetworkAnimator.OnDeserialize
-- uid: Mirage.NetworkAnimator.OnSerialize(Mirage.Serialization.NetworkWriter,System.Boolean)
+- uid: Mirage.NetworkAnimator.OnSerialize(NetworkWriter,System.Boolean)
   name: OnSerialize(NetworkWriter, Boolean)
-  href: api/Mirage.NetworkAnimator.html#Mirage_NetworkAnimator_OnSerialize_Mirage_Serialization_NetworkWriter_System_Boolean_
-  commentId: M:Mirage.NetworkAnimator.OnSerialize(Mirage.Serialization.NetworkWriter,System.Boolean)
-  fullName: Mirage.NetworkAnimator.OnSerialize(Mirage.Serialization.NetworkWriter, System.Boolean)
+  href: api/Mirage.NetworkAnimator.html#Mirage_NetworkAnimator_OnSerialize_NetworkWriter_System_Boolean_
+  commentId: M:Mirage.NetworkAnimator.OnSerialize(NetworkWriter,System.Boolean)
+  fullName: Mirage.NetworkAnimator.OnSerialize(NetworkWriter, System.Boolean)
   nameWithType: NetworkAnimator.OnSerialize(NetworkWriter, Boolean)
 - uid: Mirage.NetworkAnimator.OnSerialize*
   name: OnSerialize
@@ -6869,11 +6869,11 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkMatchChecker.MatchId
   nameWithType: NetworkMatchChecker.MatchId
-- uid: Mirage.NetworkMatchChecker.OnCheckObserver(Mirage.INetworkPlayer)
+- uid: Mirage.NetworkMatchChecker.OnCheckObserver(INetworkPlayer)
   name: OnCheckObserver(INetworkPlayer)
-  href: api/Mirage.NetworkMatchChecker.html#Mirage_NetworkMatchChecker_OnCheckObserver_Mirage_INetworkPlayer_
-  commentId: M:Mirage.NetworkMatchChecker.OnCheckObserver(Mirage.INetworkPlayer)
-  fullName: Mirage.NetworkMatchChecker.OnCheckObserver(Mirage.INetworkPlayer)
+  href: api/Mirage.NetworkMatchChecker.html#Mirage_NetworkMatchChecker_OnCheckObserver_INetworkPlayer_
+  commentId: M:Mirage.NetworkMatchChecker.OnCheckObserver(INetworkPlayer)
+  fullName: Mirage.NetworkMatchChecker.OnCheckObserver(INetworkPlayer)
   nameWithType: NetworkMatchChecker.OnCheckObserver(INetworkPlayer)
 - uid: Mirage.NetworkMatchChecker.OnCheckObserver*
   name: OnCheckObserver
@@ -6882,13 +6882,13 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkMatchChecker.OnCheckObserver
   nameWithType: NetworkMatchChecker.OnCheckObserver
-- uid: Mirage.NetworkMatchChecker.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkPlayer},System.Boolean)
+- uid: Mirage.NetworkMatchChecker.OnRebuildObservers(System.Collections.Generic.HashSet{INetworkPlayer},System.Boolean)
   name: OnRebuildObservers(HashSet<INetworkPlayer>, Boolean)
-  href: api/Mirage.NetworkMatchChecker.html#Mirage_NetworkMatchChecker_OnRebuildObservers_System_Collections_Generic_HashSet_Mirage_INetworkPlayer__System_Boolean_
-  commentId: M:Mirage.NetworkMatchChecker.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkPlayer},System.Boolean)
+  href: api/Mirage.NetworkMatchChecker.html#Mirage_NetworkMatchChecker_OnRebuildObservers_System_Collections_Generic_HashSet_INetworkPlayer__System_Boolean_
+  commentId: M:Mirage.NetworkMatchChecker.OnRebuildObservers(System.Collections.Generic.HashSet{INetworkPlayer},System.Boolean)
   name.vb: OnRebuildObservers(HashSet(Of INetworkPlayer), Boolean)
-  fullName: Mirage.NetworkMatchChecker.OnRebuildObservers(System.Collections.Generic.HashSet<Mirage.INetworkPlayer>, System.Boolean)
-  fullName.vb: Mirage.NetworkMatchChecker.OnRebuildObservers(System.Collections.Generic.HashSet(Of Mirage.INetworkPlayer), System.Boolean)
+  fullName: Mirage.NetworkMatchChecker.OnRebuildObservers(System.Collections.Generic.HashSet<INetworkPlayer>, System.Boolean)
+  fullName.vb: Mirage.NetworkMatchChecker.OnRebuildObservers(System.Collections.Generic.HashSet(Of INetworkPlayer), System.Boolean)
   nameWithType: NetworkMatchChecker.OnRebuildObservers(HashSet<INetworkPlayer>, Boolean)
   nameWithType.vb: NetworkMatchChecker.OnRebuildObservers(HashSet(Of INetworkPlayer), Boolean)
 - uid: Mirage.NetworkMatchChecker.OnRebuildObservers*
@@ -6953,11 +6953,11 @@ references:
   commentId: T:Mirage.NetworkPlayer
   fullName: Mirage.NetworkPlayer
   nameWithType: NetworkPlayer
-- uid: Mirage.NetworkPlayer.#ctor(Mirage.SocketLayer.IConnection)
+- uid: Mirage.NetworkPlayer.#ctor(IConnection)
   name: NetworkPlayer(IConnection)
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer__ctor_Mirage_SocketLayer_IConnection_
-  commentId: M:Mirage.NetworkPlayer.#ctor(Mirage.SocketLayer.IConnection)
-  fullName: Mirage.NetworkPlayer.NetworkPlayer(Mirage.SocketLayer.IConnection)
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer__ctor_IConnection_
+  commentId: M:Mirage.NetworkPlayer.#ctor(IConnection)
+  fullName: Mirage.NetworkPlayer.NetworkPlayer(IConnection)
   nameWithType: NetworkPlayer.NetworkPlayer(IConnection)
 - uid: Mirage.NetworkPlayer.#ctor*
   name: NetworkPlayer
@@ -7229,11 +7229,11 @@ references:
   commentId: F:Mirage.NetworkProximityChecker.ForceHidden
   fullName: Mirage.NetworkProximityChecker.ForceHidden
   nameWithType: NetworkProximityChecker.ForceHidden
-- uid: Mirage.NetworkProximityChecker.OnCheckObserver(Mirage.INetworkPlayer)
+- uid: Mirage.NetworkProximityChecker.OnCheckObserver(INetworkPlayer)
   name: OnCheckObserver(INetworkPlayer)
-  href: api/Mirage.NetworkProximityChecker.html#Mirage_NetworkProximityChecker_OnCheckObserver_Mirage_INetworkPlayer_
-  commentId: M:Mirage.NetworkProximityChecker.OnCheckObserver(Mirage.INetworkPlayer)
-  fullName: Mirage.NetworkProximityChecker.OnCheckObserver(Mirage.INetworkPlayer)
+  href: api/Mirage.NetworkProximityChecker.html#Mirage_NetworkProximityChecker_OnCheckObserver_INetworkPlayer_
+  commentId: M:Mirage.NetworkProximityChecker.OnCheckObserver(INetworkPlayer)
+  fullName: Mirage.NetworkProximityChecker.OnCheckObserver(INetworkPlayer)
   nameWithType: NetworkProximityChecker.OnCheckObserver(INetworkPlayer)
 - uid: Mirage.NetworkProximityChecker.OnCheckObserver*
   name: OnCheckObserver
@@ -7242,13 +7242,13 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkProximityChecker.OnCheckObserver
   nameWithType: NetworkProximityChecker.OnCheckObserver
-- uid: Mirage.NetworkProximityChecker.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkPlayer},System.Boolean)
+- uid: Mirage.NetworkProximityChecker.OnRebuildObservers(System.Collections.Generic.HashSet{INetworkPlayer},System.Boolean)
   name: OnRebuildObservers(HashSet<INetworkPlayer>, Boolean)
-  href: api/Mirage.NetworkProximityChecker.html#Mirage_NetworkProximityChecker_OnRebuildObservers_System_Collections_Generic_HashSet_Mirage_INetworkPlayer__System_Boolean_
-  commentId: M:Mirage.NetworkProximityChecker.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkPlayer},System.Boolean)
+  href: api/Mirage.NetworkProximityChecker.html#Mirage_NetworkProximityChecker_OnRebuildObservers_System_Collections_Generic_HashSet_INetworkPlayer__System_Boolean_
+  commentId: M:Mirage.NetworkProximityChecker.OnRebuildObservers(System.Collections.Generic.HashSet{INetworkPlayer},System.Boolean)
   name.vb: OnRebuildObservers(HashSet(Of INetworkPlayer), Boolean)
-  fullName: Mirage.NetworkProximityChecker.OnRebuildObservers(System.Collections.Generic.HashSet<Mirage.INetworkPlayer>, System.Boolean)
-  fullName.vb: Mirage.NetworkProximityChecker.OnRebuildObservers(System.Collections.Generic.HashSet(Of Mirage.INetworkPlayer), System.Boolean)
+  fullName: Mirage.NetworkProximityChecker.OnRebuildObservers(System.Collections.Generic.HashSet<INetworkPlayer>, System.Boolean)
+  fullName.vb: Mirage.NetworkProximityChecker.OnRebuildObservers(System.Collections.Generic.HashSet(Of INetworkPlayer), System.Boolean)
   nameWithType: NetworkProximityChecker.OnRebuildObservers(HashSet<INetworkPlayer>, Boolean)
   nameWithType.vb: NetworkProximityChecker.OnRebuildObservers(HashSet(Of INetworkPlayer), Boolean)
 - uid: Mirage.NetworkProximityChecker.OnRebuildObservers*
@@ -7282,11 +7282,11 @@ references:
   commentId: F:Mirage.NetworkSceneChecker.forceHidden
   fullName: Mirage.NetworkSceneChecker.forceHidden
   nameWithType: NetworkSceneChecker.forceHidden
-- uid: Mirage.NetworkSceneChecker.OnCheckObserver(Mirage.INetworkPlayer)
+- uid: Mirage.NetworkSceneChecker.OnCheckObserver(INetworkPlayer)
   name: OnCheckObserver(INetworkPlayer)
-  href: api/Mirage.NetworkSceneChecker.html#Mirage_NetworkSceneChecker_OnCheckObserver_Mirage_INetworkPlayer_
-  commentId: M:Mirage.NetworkSceneChecker.OnCheckObserver(Mirage.INetworkPlayer)
-  fullName: Mirage.NetworkSceneChecker.OnCheckObserver(Mirage.INetworkPlayer)
+  href: api/Mirage.NetworkSceneChecker.html#Mirage_NetworkSceneChecker_OnCheckObserver_INetworkPlayer_
+  commentId: M:Mirage.NetworkSceneChecker.OnCheckObserver(INetworkPlayer)
+  fullName: Mirage.NetworkSceneChecker.OnCheckObserver(INetworkPlayer)
   nameWithType: NetworkSceneChecker.OnCheckObserver(INetworkPlayer)
 - uid: Mirage.NetworkSceneChecker.OnCheckObserver*
   name: OnCheckObserver
@@ -7295,13 +7295,13 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkSceneChecker.OnCheckObserver
   nameWithType: NetworkSceneChecker.OnCheckObserver
-- uid: Mirage.NetworkSceneChecker.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkPlayer},System.Boolean)
+- uid: Mirage.NetworkSceneChecker.OnRebuildObservers(System.Collections.Generic.HashSet{INetworkPlayer},System.Boolean)
   name: OnRebuildObservers(HashSet<INetworkPlayer>, Boolean)
-  href: api/Mirage.NetworkSceneChecker.html#Mirage_NetworkSceneChecker_OnRebuildObservers_System_Collections_Generic_HashSet_Mirage_INetworkPlayer__System_Boolean_
-  commentId: M:Mirage.NetworkSceneChecker.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkPlayer},System.Boolean)
+  href: api/Mirage.NetworkSceneChecker.html#Mirage_NetworkSceneChecker_OnRebuildObservers_System_Collections_Generic_HashSet_INetworkPlayer__System_Boolean_
+  commentId: M:Mirage.NetworkSceneChecker.OnRebuildObservers(System.Collections.Generic.HashSet{INetworkPlayer},System.Boolean)
   name.vb: OnRebuildObservers(HashSet(Of INetworkPlayer), Boolean)
-  fullName: Mirage.NetworkSceneChecker.OnRebuildObservers(System.Collections.Generic.HashSet<Mirage.INetworkPlayer>, System.Boolean)
-  fullName.vb: Mirage.NetworkSceneChecker.OnRebuildObservers(System.Collections.Generic.HashSet(Of Mirage.INetworkPlayer), System.Boolean)
+  fullName: Mirage.NetworkSceneChecker.OnRebuildObservers(System.Collections.Generic.HashSet<INetworkPlayer>, System.Boolean)
+  fullName.vb: Mirage.NetworkSceneChecker.OnRebuildObservers(System.Collections.Generic.HashSet(Of INetworkPlayer), System.Boolean)
   nameWithType: NetworkSceneChecker.OnRebuildObservers(HashSet<INetworkPlayer>, Boolean)
   nameWithType.vb: NetworkSceneChecker.OnRebuildObservers(HashSet(Of INetworkPlayer), Boolean)
 - uid: Mirage.NetworkSceneChecker.OnRebuildObservers*
@@ -8064,11 +8064,11 @@ references:
   commentId: F:Mirage.NetworkTransformBase.LocalScaleSensitivity
   fullName: Mirage.NetworkTransformBase.LocalScaleSensitivity
   nameWithType: NetworkTransformBase.LocalScaleSensitivity
-- uid: Mirage.NetworkTransformBase.OnDeserialize(Mirage.Serialization.NetworkReader,System.Boolean)
+- uid: Mirage.NetworkTransformBase.OnDeserialize(NetworkReader,System.Boolean)
   name: OnDeserialize(NetworkReader, Boolean)
-  href: api/Mirage.NetworkTransformBase.html#Mirage_NetworkTransformBase_OnDeserialize_Mirage_Serialization_NetworkReader_System_Boolean_
-  commentId: M:Mirage.NetworkTransformBase.OnDeserialize(Mirage.Serialization.NetworkReader,System.Boolean)
-  fullName: Mirage.NetworkTransformBase.OnDeserialize(Mirage.Serialization.NetworkReader, System.Boolean)
+  href: api/Mirage.NetworkTransformBase.html#Mirage_NetworkTransformBase_OnDeserialize_NetworkReader_System_Boolean_
+  commentId: M:Mirage.NetworkTransformBase.OnDeserialize(NetworkReader,System.Boolean)
+  fullName: Mirage.NetworkTransformBase.OnDeserialize(NetworkReader, System.Boolean)
   nameWithType: NetworkTransformBase.OnDeserialize(NetworkReader, Boolean)
 - uid: Mirage.NetworkTransformBase.OnDeserialize*
   name: OnDeserialize
@@ -8077,11 +8077,11 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkTransformBase.OnDeserialize
   nameWithType: NetworkTransformBase.OnDeserialize
-- uid: Mirage.NetworkTransformBase.OnSerialize(Mirage.Serialization.NetworkWriter,System.Boolean)
+- uid: Mirage.NetworkTransformBase.OnSerialize(NetworkWriter,System.Boolean)
   name: OnSerialize(NetworkWriter, Boolean)
-  href: api/Mirage.NetworkTransformBase.html#Mirage_NetworkTransformBase_OnSerialize_Mirage_Serialization_NetworkWriter_System_Boolean_
-  commentId: M:Mirage.NetworkTransformBase.OnSerialize(Mirage.Serialization.NetworkWriter,System.Boolean)
-  fullName: Mirage.NetworkTransformBase.OnSerialize(Mirage.Serialization.NetworkWriter, System.Boolean)
+  href: api/Mirage.NetworkTransformBase.html#Mirage_NetworkTransformBase_OnSerialize_NetworkWriter_System_Boolean_
+  commentId: M:Mirage.NetworkTransformBase.OnSerialize(NetworkWriter,System.Boolean)
+  fullName: Mirage.NetworkTransformBase.OnSerialize(NetworkWriter, System.Boolean)
   nameWithType: NetworkTransformBase.OnSerialize(NetworkWriter, Boolean)
 - uid: Mirage.NetworkTransformBase.OnSerialize*
   name: OnSerialize
@@ -8090,11 +8090,11 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkTransformBase.OnSerialize
   nameWithType: NetworkTransformBase.OnSerialize
-- uid: Mirage.NetworkTransformBase.SerializeIntoWriter(Mirage.Serialization.NetworkWriter,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)
+- uid: Mirage.NetworkTransformBase.SerializeIntoWriter(NetworkWriter,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)
   name: SerializeIntoWriter(NetworkWriter, Vector3, Quaternion, Vector3)
-  href: api/Mirage.NetworkTransformBase.html#Mirage_NetworkTransformBase_SerializeIntoWriter_Mirage_Serialization_NetworkWriter_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Vector3_
-  commentId: M:Mirage.NetworkTransformBase.SerializeIntoWriter(Mirage.Serialization.NetworkWriter,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)
-  fullName: Mirage.NetworkTransformBase.SerializeIntoWriter(Mirage.Serialization.NetworkWriter, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3)
+  href: api/Mirage.NetworkTransformBase.html#Mirage_NetworkTransformBase_SerializeIntoWriter_NetworkWriter_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Vector3_
+  commentId: M:Mirage.NetworkTransformBase.SerializeIntoWriter(NetworkWriter,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)
+  fullName: Mirage.NetworkTransformBase.SerializeIntoWriter(NetworkWriter, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3)
   nameWithType: NetworkTransformBase.SerializeIntoWriter(NetworkWriter, Vector3, Quaternion, Vector3)
 - uid: Mirage.NetworkTransformBase.SerializeIntoWriter*
   name: SerializeIntoWriter
@@ -8353,11 +8353,11 @@ references:
   commentId: T:Mirage.PipePeerConnection
   fullName: Mirage.PipePeerConnection
   nameWithType: PipePeerConnection
-- uid: Mirage.PipePeerConnection.Create(Mirage.SocketLayer.IDataHandler,Mirage.SocketLayer.IDataHandler,System.Action,System.Action)
+- uid: Mirage.PipePeerConnection.Create(IDataHandler,IDataHandler,System.Action,System.Action)
   name: Create(IDataHandler, IDataHandler, Action, Action)
-  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Create_Mirage_SocketLayer_IDataHandler_Mirage_SocketLayer_IDataHandler_System_Action_System_Action_
-  commentId: M:Mirage.PipePeerConnection.Create(Mirage.SocketLayer.IDataHandler,Mirage.SocketLayer.IDataHandler,System.Action,System.Action)
-  fullName: Mirage.PipePeerConnection.Create(Mirage.SocketLayer.IDataHandler, Mirage.SocketLayer.IDataHandler, System.Action, System.Action)
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Create_IDataHandler_IDataHandler_System_Action_System_Action_
+  commentId: M:Mirage.PipePeerConnection.Create(IDataHandler,IDataHandler,System.Action,System.Action)
+  fullName: Mirage.PipePeerConnection.Create(IDataHandler, IDataHandler, System.Action, System.Action)
   nameWithType: PipePeerConnection.Create(IDataHandler, IDataHandler, Action, Action)
 - uid: Mirage.PipePeerConnection.Create*
   name: Create
@@ -8366,63 +8366,12 @@ references:
   isSpec: "True"
   fullName: Mirage.PipePeerConnection.Create
   nameWithType: PipePeerConnection.Create
-- uid: Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#Disconnect
-  name: IConnection.Disconnect()
-  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_Disconnect
-  commentId: M:Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#Disconnect
-  name.vb: Mirage.SocketLayer.IConnection.Disconnect()
-  fullName: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.Disconnect()
-  nameWithType: PipePeerConnection.IConnection.Disconnect()
-  nameWithType.vb: PipePeerConnection.Mirage.SocketLayer.IConnection.Disconnect()
-- uid: Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#Disconnect*
-  name: IConnection.Disconnect
-  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_Disconnect_
-  commentId: Overload:Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#Disconnect
-  isSpec: "True"
-  name.vb: Mirage.SocketLayer.IConnection.Disconnect
-  fullName: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.Disconnect
-  nameWithType: PipePeerConnection.IConnection.Disconnect
-  nameWithType.vb: PipePeerConnection.Mirage.SocketLayer.IConnection.Disconnect
-- uid: Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#EndPoint
-  name: IConnection.EndPoint
-  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_EndPoint
-  commentId: P:Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#EndPoint
-  name.vb: Mirage.SocketLayer.IConnection.EndPoint
-  fullName: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.EndPoint
-  nameWithType: PipePeerConnection.IConnection.EndPoint
-  nameWithType.vb: PipePeerConnection.Mirage.SocketLayer.IConnection.EndPoint
-- uid: Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#EndPoint*
-  name: IConnection.EndPoint
-  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_Mirage_SocketLayer_IConnection_EndPoint_
-  commentId: Overload:Mirage.PipePeerConnection.Mirage#SocketLayer#IConnection#EndPoint
-  isSpec: "True"
-  name.vb: Mirage.SocketLayer.IConnection.EndPoint
-  fullName: Mirage.PipePeerConnection.Mirage.SocketLayer.IConnection.EndPoint
-  nameWithType: PipePeerConnection.IConnection.EndPoint
-  nameWithType.vb: PipePeerConnection.Mirage.SocketLayer.IConnection.EndPoint
 - uid: Mirage.PipePeerConnection.PipeEndPoint
   name: PipePeerConnection.PipeEndPoint
   href: api/Mirage.PipePeerConnection.PipeEndPoint.html
   commentId: T:Mirage.PipePeerConnection.PipeEndPoint
   fullName: Mirage.PipePeerConnection.PipeEndPoint
   nameWithType: PipePeerConnection.PipeEndPoint
-- uid: Mirage.PipePeerConnection.PipeEndPoint.Mirage#SocketLayer#IEndPoint#CreateCopy
-  name: IEndPoint.CreateCopy()
-  href: api/Mirage.PipePeerConnection.PipeEndPoint.html#Mirage_PipePeerConnection_PipeEndPoint_Mirage_SocketLayer_IEndPoint_CreateCopy
-  commentId: M:Mirage.PipePeerConnection.PipeEndPoint.Mirage#SocketLayer#IEndPoint#CreateCopy
-  name.vb: Mirage.SocketLayer.IEndPoint.CreateCopy()
-  fullName: Mirage.PipePeerConnection.PipeEndPoint.Mirage.SocketLayer.IEndPoint.CreateCopy()
-  nameWithType: PipePeerConnection.PipeEndPoint.IEndPoint.CreateCopy()
-  nameWithType.vb: PipePeerConnection.PipeEndPoint.Mirage.SocketLayer.IEndPoint.CreateCopy()
-- uid: Mirage.PipePeerConnection.PipeEndPoint.Mirage#SocketLayer#IEndPoint#CreateCopy*
-  name: IEndPoint.CreateCopy
-  href: api/Mirage.PipePeerConnection.PipeEndPoint.html#Mirage_PipePeerConnection_PipeEndPoint_Mirage_SocketLayer_IEndPoint_CreateCopy_
-  commentId: Overload:Mirage.PipePeerConnection.PipeEndPoint.Mirage#SocketLayer#IEndPoint#CreateCopy
-  isSpec: "True"
-  name.vb: Mirage.SocketLayer.IEndPoint.CreateCopy
-  fullName: Mirage.PipePeerConnection.PipeEndPoint.Mirage.SocketLayer.IEndPoint.CreateCopy
-  nameWithType: PipePeerConnection.PipeEndPoint.IEndPoint.CreateCopy
-  nameWithType.vb: PipePeerConnection.PipeEndPoint.Mirage.SocketLayer.IEndPoint.CreateCopy
 - uid: Mirage.PipePeerConnection.PipeNotifyToken
   name: PipePeerConnection.PipeNotifyToken
   href: api/Mirage.PipePeerConnection.PipeNotifyToken.html
@@ -8450,13 +8399,13 @@ references:
   fullName.vb: Mirage.PipePeerConnection.SendNotify(System.ArraySegment(Of System.Byte))
   nameWithType: PipePeerConnection.SendNotify(ArraySegment<Byte>)
   nameWithType.vb: PipePeerConnection.SendNotify(ArraySegment(Of Byte))
-- uid: Mirage.PipePeerConnection.SendNotify(System.ArraySegment{System.Byte},Mirage.SocketLayer.INotifyCallBack)
+- uid: Mirage.PipePeerConnection.SendNotify(System.ArraySegment{System.Byte},INotifyCallBack)
   name: SendNotify(ArraySegment<Byte>, INotifyCallBack)
-  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendNotify_System_ArraySegment_System_Byte__Mirage_SocketLayer_INotifyCallBack_
-  commentId: M:Mirage.PipePeerConnection.SendNotify(System.ArraySegment{System.Byte},Mirage.SocketLayer.INotifyCallBack)
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendNotify_System_ArraySegment_System_Byte__INotifyCallBack_
+  commentId: M:Mirage.PipePeerConnection.SendNotify(System.ArraySegment{System.Byte},INotifyCallBack)
   name.vb: SendNotify(ArraySegment(Of Byte), INotifyCallBack)
-  fullName: Mirage.PipePeerConnection.SendNotify(System.ArraySegment<System.Byte>, Mirage.SocketLayer.INotifyCallBack)
-  fullName.vb: Mirage.PipePeerConnection.SendNotify(System.ArraySegment(Of System.Byte), Mirage.SocketLayer.INotifyCallBack)
+  fullName: Mirage.PipePeerConnection.SendNotify(System.ArraySegment<System.Byte>, INotifyCallBack)
+  fullName.vb: Mirage.PipePeerConnection.SendNotify(System.ArraySegment(Of System.Byte), INotifyCallBack)
   nameWithType: PipePeerConnection.SendNotify(ArraySegment<Byte>, INotifyCallBack)
   nameWithType.vb: PipePeerConnection.SendNotify(ArraySegment(Of Byte), INotifyCallBack)
 - uid: Mirage.PipePeerConnection.SendNotify(System.Byte[])
@@ -8468,13 +8417,13 @@ references:
   fullName.vb: Mirage.PipePeerConnection.SendNotify(System.Byte())
   nameWithType: PipePeerConnection.SendNotify(Byte[])
   nameWithType.vb: PipePeerConnection.SendNotify(Byte())
-- uid: Mirage.PipePeerConnection.SendNotify(System.Byte[],Mirage.SocketLayer.INotifyCallBack)
+- uid: Mirage.PipePeerConnection.SendNotify(System.Byte[],INotifyCallBack)
   name: SendNotify(Byte[], INotifyCallBack)
-  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendNotify_System_Byte___Mirage_SocketLayer_INotifyCallBack_
-  commentId: M:Mirage.PipePeerConnection.SendNotify(System.Byte[],Mirage.SocketLayer.INotifyCallBack)
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendNotify_System_Byte___INotifyCallBack_
+  commentId: M:Mirage.PipePeerConnection.SendNotify(System.Byte[],INotifyCallBack)
   name.vb: SendNotify(Byte(), INotifyCallBack)
-  fullName: Mirage.PipePeerConnection.SendNotify(System.Byte[], Mirage.SocketLayer.INotifyCallBack)
-  fullName.vb: Mirage.PipePeerConnection.SendNotify(System.Byte(), Mirage.SocketLayer.INotifyCallBack)
+  fullName: Mirage.PipePeerConnection.SendNotify(System.Byte[], INotifyCallBack)
+  fullName.vb: Mirage.PipePeerConnection.SendNotify(System.Byte(), INotifyCallBack)
   nameWithType: PipePeerConnection.SendNotify(Byte[], INotifyCallBack)
   nameWithType.vb: PipePeerConnection.SendNotify(Byte(), INotifyCallBack)
 - uid: Mirage.PipePeerConnection.SendNotify(System.Byte[],System.Int32,System.Int32)
@@ -8486,13 +8435,13 @@ references:
   fullName.vb: Mirage.PipePeerConnection.SendNotify(System.Byte(), System.Int32, System.Int32)
   nameWithType: PipePeerConnection.SendNotify(Byte[], Int32, Int32)
   nameWithType.vb: PipePeerConnection.SendNotify(Byte(), Int32, Int32)
-- uid: Mirage.PipePeerConnection.SendNotify(System.Byte[],System.Int32,System.Int32,Mirage.SocketLayer.INotifyCallBack)
+- uid: Mirage.PipePeerConnection.SendNotify(System.Byte[],System.Int32,System.Int32,INotifyCallBack)
   name: SendNotify(Byte[], Int32, Int32, INotifyCallBack)
-  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendNotify_System_Byte___System_Int32_System_Int32_Mirage_SocketLayer_INotifyCallBack_
-  commentId: M:Mirage.PipePeerConnection.SendNotify(System.Byte[],System.Int32,System.Int32,Mirage.SocketLayer.INotifyCallBack)
+  href: api/Mirage.PipePeerConnection.html#Mirage_PipePeerConnection_SendNotify_System_Byte___System_Int32_System_Int32_INotifyCallBack_
+  commentId: M:Mirage.PipePeerConnection.SendNotify(System.Byte[],System.Int32,System.Int32,INotifyCallBack)
   name.vb: SendNotify(Byte(), Int32, Int32, INotifyCallBack)
-  fullName: Mirage.PipePeerConnection.SendNotify(System.Byte[], System.Int32, System.Int32, Mirage.SocketLayer.INotifyCallBack)
-  fullName.vb: Mirage.PipePeerConnection.SendNotify(System.Byte(), System.Int32, System.Int32, Mirage.SocketLayer.INotifyCallBack)
+  fullName: Mirage.PipePeerConnection.SendNotify(System.Byte[], System.Int32, System.Int32, INotifyCallBack)
+  fullName.vb: Mirage.PipePeerConnection.SendNotify(System.Byte(), System.Int32, System.Int32, INotifyCallBack)
   nameWithType: PipePeerConnection.SendNotify(Byte[], Int32, Int32, INotifyCallBack)
   nameWithType.vb: PipePeerConnection.SendNotify(Byte(), Int32, Int32, INotifyCallBack)
 - uid: Mirage.PipePeerConnection.SendNotify*
@@ -10438,13 +10387,13 @@ references:
   commentId: T:Mirage.Serialization.PooledNetworkReader
   fullName: Mirage.Serialization.PooledNetworkReader
   nameWithType: PooledNetworkReader
-- uid: Mirage.Serialization.PooledNetworkReader.CreateNew(System.Int32,Mirage.SocketLayer.Pool{Mirage.Serialization.PooledNetworkReader})
+- uid: Mirage.Serialization.PooledNetworkReader.CreateNew(System.Int32,Pool{Mirage.Serialization.PooledNetworkReader})
   name: CreateNew(Int32, Pool<PooledNetworkReader>)
-  href: api/Mirage.Serialization.PooledNetworkReader.html#Mirage_Serialization_PooledNetworkReader_CreateNew_System_Int32_Mirage_SocketLayer_Pool_Mirage_Serialization_PooledNetworkReader__
-  commentId: M:Mirage.Serialization.PooledNetworkReader.CreateNew(System.Int32,Mirage.SocketLayer.Pool{Mirage.Serialization.PooledNetworkReader})
+  href: api/Mirage.Serialization.PooledNetworkReader.html#Mirage_Serialization_PooledNetworkReader_CreateNew_System_Int32_Pool_Mirage_Serialization_PooledNetworkReader__
+  commentId: M:Mirage.Serialization.PooledNetworkReader.CreateNew(System.Int32,Pool{Mirage.Serialization.PooledNetworkReader})
   name.vb: CreateNew(Int32, Pool(Of PooledNetworkReader))
-  fullName: Mirage.Serialization.PooledNetworkReader.CreateNew(System.Int32, Mirage.SocketLayer.Pool<Mirage.Serialization.PooledNetworkReader>)
-  fullName.vb: Mirage.Serialization.PooledNetworkReader.CreateNew(System.Int32, Mirage.SocketLayer.Pool(Of Mirage.Serialization.PooledNetworkReader))
+  fullName: Mirage.Serialization.PooledNetworkReader.CreateNew(System.Int32, Pool<Mirage.Serialization.PooledNetworkReader>)
+  fullName.vb: Mirage.Serialization.PooledNetworkReader.CreateNew(System.Int32, Pool(Of Mirage.Serialization.PooledNetworkReader))
   nameWithType: PooledNetworkReader.CreateNew(Int32, Pool<PooledNetworkReader>)
   nameWithType.vb: PooledNetworkReader.CreateNew(Int32, Pool(Of PooledNetworkReader))
 - uid: Mirage.Serialization.PooledNetworkReader.CreateNew*
@@ -10503,13 +10452,13 @@ references:
   commentId: T:Mirage.Serialization.PooledNetworkWriter
   fullName: Mirage.Serialization.PooledNetworkWriter
   nameWithType: PooledNetworkWriter
-- uid: Mirage.Serialization.PooledNetworkWriter.CreateNew(System.Int32,Mirage.SocketLayer.Pool{Mirage.Serialization.PooledNetworkWriter})
+- uid: Mirage.Serialization.PooledNetworkWriter.CreateNew(System.Int32,Pool{Mirage.Serialization.PooledNetworkWriter})
   name: CreateNew(Int32, Pool<PooledNetworkWriter>)
-  href: api/Mirage.Serialization.PooledNetworkWriter.html#Mirage_Serialization_PooledNetworkWriter_CreateNew_System_Int32_Mirage_SocketLayer_Pool_Mirage_Serialization_PooledNetworkWriter__
-  commentId: M:Mirage.Serialization.PooledNetworkWriter.CreateNew(System.Int32,Mirage.SocketLayer.Pool{Mirage.Serialization.PooledNetworkWriter})
+  href: api/Mirage.Serialization.PooledNetworkWriter.html#Mirage_Serialization_PooledNetworkWriter_CreateNew_System_Int32_Pool_Mirage_Serialization_PooledNetworkWriter__
+  commentId: M:Mirage.Serialization.PooledNetworkWriter.CreateNew(System.Int32,Pool{Mirage.Serialization.PooledNetworkWriter})
   name.vb: CreateNew(Int32, Pool(Of PooledNetworkWriter))
-  fullName: Mirage.Serialization.PooledNetworkWriter.CreateNew(System.Int32, Mirage.SocketLayer.Pool<Mirage.Serialization.PooledNetworkWriter>)
-  fullName.vb: Mirage.Serialization.PooledNetworkWriter.CreateNew(System.Int32, Mirage.SocketLayer.Pool(Of Mirage.Serialization.PooledNetworkWriter))
+  fullName: Mirage.Serialization.PooledNetworkWriter.CreateNew(System.Int32, Pool<Mirage.Serialization.PooledNetworkWriter>)
+  fullName.vb: Mirage.Serialization.PooledNetworkWriter.CreateNew(System.Int32, Pool(Of Mirage.Serialization.PooledNetworkWriter))
   nameWithType: PooledNetworkWriter.CreateNew(Int32, Pool<PooledNetworkWriter>)
   nameWithType.vb: PooledNetworkWriter.CreateNew(Int32, Pool(Of PooledNetworkWriter))
 - uid: Mirage.Serialization.PooledNetworkWriter.CreateNew*
@@ -13808,23 +13757,6 @@ references:
   commentId: F:Mirage.Sockets.Udp.EndPointWrapper.inner
   fullName: Mirage.Sockets.Udp.EndPointWrapper.inner
   nameWithType: EndPointWrapper.inner
-- uid: Mirage.Sockets.Udp.EndPointWrapper.Mirage#SocketLayer#IEndPoint#CreateCopy
-  name: IEndPoint.CreateCopy()
-  href: api/Mirage.Sockets.Udp.EndPointWrapper.html#Mirage_Sockets_Udp_EndPointWrapper_Mirage_SocketLayer_IEndPoint_CreateCopy
-  commentId: M:Mirage.Sockets.Udp.EndPointWrapper.Mirage#SocketLayer#IEndPoint#CreateCopy
-  name.vb: Mirage.SocketLayer.IEndPoint.CreateCopy()
-  fullName: Mirage.Sockets.Udp.EndPointWrapper.Mirage.SocketLayer.IEndPoint.CreateCopy()
-  nameWithType: EndPointWrapper.IEndPoint.CreateCopy()
-  nameWithType.vb: EndPointWrapper.Mirage.SocketLayer.IEndPoint.CreateCopy()
-- uid: Mirage.Sockets.Udp.EndPointWrapper.Mirage#SocketLayer#IEndPoint#CreateCopy*
-  name: IEndPoint.CreateCopy
-  href: api/Mirage.Sockets.Udp.EndPointWrapper.html#Mirage_Sockets_Udp_EndPointWrapper_Mirage_SocketLayer_IEndPoint_CreateCopy_
-  commentId: Overload:Mirage.Sockets.Udp.EndPointWrapper.Mirage#SocketLayer#IEndPoint#CreateCopy
-  isSpec: "True"
-  name.vb: Mirage.SocketLayer.IEndPoint.CreateCopy
-  fullName: Mirage.Sockets.Udp.EndPointWrapper.Mirage.SocketLayer.IEndPoint.CreateCopy
-  nameWithType: EndPointWrapper.IEndPoint.CreateCopy
-  nameWithType.vb: EndPointWrapper.Mirage.SocketLayer.IEndPoint.CreateCopy
 - uid: Mirage.Sockets.Udp.EndPointWrapper.ToString
   name: ToString()
   href: api/Mirage.Sockets.Udp.EndPointWrapper.html#Mirage_Sockets_Udp_EndPointWrapper_ToString
@@ -13946,11 +13878,11 @@ references:
   isSpec: "True"
   fullName: Mirage.Sockets.Udp.NanoSocket.NanoSocket
   nameWithType: NanoSocket.NanoSocket
-- uid: Mirage.Sockets.Udp.NanoSocket.Bind(Mirage.SocketLayer.IEndPoint)
+- uid: Mirage.Sockets.Udp.NanoSocket.Bind(IEndPoint)
   name: Bind(IEndPoint)
-  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Bind_Mirage_SocketLayer_IEndPoint_
-  commentId: M:Mirage.Sockets.Udp.NanoSocket.Bind(Mirage.SocketLayer.IEndPoint)
-  fullName: Mirage.Sockets.Udp.NanoSocket.Bind(Mirage.SocketLayer.IEndPoint)
+  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Bind_IEndPoint_
+  commentId: M:Mirage.Sockets.Udp.NanoSocket.Bind(IEndPoint)
+  fullName: Mirage.Sockets.Udp.NanoSocket.Bind(IEndPoint)
   nameWithType: NanoSocket.Bind(IEndPoint)
 - uid: Mirage.Sockets.Udp.NanoSocket.Bind*
   name: Bind
@@ -13972,11 +13904,11 @@ references:
   isSpec: "True"
   fullName: Mirage.Sockets.Udp.NanoSocket.Close
   nameWithType: NanoSocket.Close
-- uid: Mirage.Sockets.Udp.NanoSocket.Connect(Mirage.SocketLayer.IEndPoint)
+- uid: Mirage.Sockets.Udp.NanoSocket.Connect(IEndPoint)
   name: Connect(IEndPoint)
-  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Connect_Mirage_SocketLayer_IEndPoint_
-  commentId: M:Mirage.Sockets.Udp.NanoSocket.Connect(Mirage.SocketLayer.IEndPoint)
-  fullName: Mirage.Sockets.Udp.NanoSocket.Connect(Mirage.SocketLayer.IEndPoint)
+  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Connect_IEndPoint_
+  commentId: M:Mirage.Sockets.Udp.NanoSocket.Connect(IEndPoint)
+  fullName: Mirage.Sockets.Udp.NanoSocket.Connect(IEndPoint)
   nameWithType: NanoSocket.Connect(IEndPoint)
 - uid: Mirage.Sockets.Udp.NanoSocket.Connect*
   name: Connect
@@ -14024,13 +13956,13 @@ references:
   isSpec: "True"
   fullName: Mirage.Sockets.Udp.NanoSocket.Poll
   nameWithType: NanoSocket.Poll
-- uid: Mirage.Sockets.Udp.NanoSocket.Receive(System.Byte[],Mirage.SocketLayer.IEndPoint@)
+- uid: Mirage.Sockets.Udp.NanoSocket.Receive(System.Byte[],IEndPoint@)
   name: Receive(Byte[], out IEndPoint)
-  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Receive_System_Byte___Mirage_SocketLayer_IEndPoint__
-  commentId: M:Mirage.Sockets.Udp.NanoSocket.Receive(System.Byte[],Mirage.SocketLayer.IEndPoint@)
+  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Receive_System_Byte___IEndPoint__
+  commentId: M:Mirage.Sockets.Udp.NanoSocket.Receive(System.Byte[],IEndPoint@)
   name.vb: Receive(Byte(), ByRef IEndPoint)
-  fullName: Mirage.Sockets.Udp.NanoSocket.Receive(System.Byte[], out Mirage.SocketLayer.IEndPoint)
-  fullName.vb: Mirage.Sockets.Udp.NanoSocket.Receive(System.Byte(), ByRef Mirage.SocketLayer.IEndPoint)
+  fullName: Mirage.Sockets.Udp.NanoSocket.Receive(System.Byte[], out IEndPoint)
+  fullName.vb: Mirage.Sockets.Udp.NanoSocket.Receive(System.Byte(), ByRef IEndPoint)
   nameWithType: NanoSocket.Receive(Byte[], out IEndPoint)
   nameWithType.vb: NanoSocket.Receive(Byte(), ByRef IEndPoint)
 - uid: Mirage.Sockets.Udp.NanoSocket.Receive*
@@ -14040,13 +13972,13 @@ references:
   isSpec: "True"
   fullName: Mirage.Sockets.Udp.NanoSocket.Receive
   nameWithType: NanoSocket.Receive
-- uid: Mirage.Sockets.Udp.NanoSocket.Send(Mirage.SocketLayer.IEndPoint,System.Byte[],System.Int32)
+- uid: Mirage.Sockets.Udp.NanoSocket.Send(IEndPoint,System.Byte[],System.Int32)
   name: Send(IEndPoint, Byte[], Int32)
-  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Send_Mirage_SocketLayer_IEndPoint_System_Byte___System_Int32_
-  commentId: M:Mirage.Sockets.Udp.NanoSocket.Send(Mirage.SocketLayer.IEndPoint,System.Byte[],System.Int32)
+  href: api/Mirage.Sockets.Udp.NanoSocket.html#Mirage_Sockets_Udp_NanoSocket_Send_IEndPoint_System_Byte___System_Int32_
+  commentId: M:Mirage.Sockets.Udp.NanoSocket.Send(IEndPoint,System.Byte[],System.Int32)
   name.vb: Send(IEndPoint, Byte(), Int32)
-  fullName: Mirage.Sockets.Udp.NanoSocket.Send(Mirage.SocketLayer.IEndPoint, System.Byte[], System.Int32)
-  fullName.vb: Mirage.Sockets.Udp.NanoSocket.Send(Mirage.SocketLayer.IEndPoint, System.Byte(), System.Int32)
+  fullName: Mirage.Sockets.Udp.NanoSocket.Send(IEndPoint, System.Byte[], System.Int32)
+  fullName.vb: Mirage.Sockets.Udp.NanoSocket.Send(IEndPoint, System.Byte(), System.Int32)
   nameWithType: NanoSocket.Send(IEndPoint, Byte[], Int32)
   nameWithType.vb: NanoSocket.Send(IEndPoint, Byte(), Int32)
 - uid: Mirage.Sockets.Udp.NanoSocket.Send*
@@ -14105,11 +14037,11 @@ references:
   commentId: T:Mirage.Sockets.Udp.UdpSocket
   fullName: Mirage.Sockets.Udp.UdpSocket
   nameWithType: UdpSocket
-- uid: Mirage.Sockets.Udp.UdpSocket.Bind(Mirage.SocketLayer.IEndPoint)
+- uid: Mirage.Sockets.Udp.UdpSocket.Bind(IEndPoint)
   name: Bind(IEndPoint)
-  href: api/Mirage.Sockets.Udp.UdpSocket.html#Mirage_Sockets_Udp_UdpSocket_Bind_Mirage_SocketLayer_IEndPoint_
-  commentId: M:Mirage.Sockets.Udp.UdpSocket.Bind(Mirage.SocketLayer.IEndPoint)
-  fullName: Mirage.Sockets.Udp.UdpSocket.Bind(Mirage.SocketLayer.IEndPoint)
+  href: api/Mirage.Sockets.Udp.UdpSocket.html#Mirage_Sockets_Udp_UdpSocket_Bind_IEndPoint_
+  commentId: M:Mirage.Sockets.Udp.UdpSocket.Bind(IEndPoint)
+  fullName: Mirage.Sockets.Udp.UdpSocket.Bind(IEndPoint)
   nameWithType: UdpSocket.Bind(IEndPoint)
 - uid: Mirage.Sockets.Udp.UdpSocket.Bind*
   name: Bind
@@ -14131,11 +14063,11 @@ references:
   isSpec: "True"
   fullName: Mirage.Sockets.Udp.UdpSocket.Close
   nameWithType: UdpSocket.Close
-- uid: Mirage.Sockets.Udp.UdpSocket.Connect(Mirage.SocketLayer.IEndPoint)
+- uid: Mirage.Sockets.Udp.UdpSocket.Connect(IEndPoint)
   name: Connect(IEndPoint)
-  href: api/Mirage.Sockets.Udp.UdpSocket.html#Mirage_Sockets_Udp_UdpSocket_Connect_Mirage_SocketLayer_IEndPoint_
-  commentId: M:Mirage.Sockets.Udp.UdpSocket.Connect(Mirage.SocketLayer.IEndPoint)
-  fullName: Mirage.Sockets.Udp.UdpSocket.Connect(Mirage.SocketLayer.IEndPoint)
+  href: api/Mirage.Sockets.Udp.UdpSocket.html#Mirage_Sockets_Udp_UdpSocket_Connect_IEndPoint_
+  commentId: M:Mirage.Sockets.Udp.UdpSocket.Connect(IEndPoint)
+  fullName: Mirage.Sockets.Udp.UdpSocket.Connect(IEndPoint)
   nameWithType: UdpSocket.Connect(IEndPoint)
 - uid: Mirage.Sockets.Udp.UdpSocket.Connect*
   name: Connect
@@ -14157,13 +14089,13 @@ references:
   isSpec: "True"
   fullName: Mirage.Sockets.Udp.UdpSocket.Poll
   nameWithType: UdpSocket.Poll
-- uid: Mirage.Sockets.Udp.UdpSocket.Receive(System.Byte[],Mirage.SocketLayer.IEndPoint@)
+- uid: Mirage.Sockets.Udp.UdpSocket.Receive(System.Byte[],IEndPoint@)
   name: Receive(Byte[], out IEndPoint)
-  href: api/Mirage.Sockets.Udp.UdpSocket.html#Mirage_Sockets_Udp_UdpSocket_Receive_System_Byte___Mirage_SocketLayer_IEndPoint__
-  commentId: M:Mirage.Sockets.Udp.UdpSocket.Receive(System.Byte[],Mirage.SocketLayer.IEndPoint@)
+  href: api/Mirage.Sockets.Udp.UdpSocket.html#Mirage_Sockets_Udp_UdpSocket_Receive_System_Byte___IEndPoint__
+  commentId: M:Mirage.Sockets.Udp.UdpSocket.Receive(System.Byte[],IEndPoint@)
   name.vb: Receive(Byte(), ByRef IEndPoint)
-  fullName: Mirage.Sockets.Udp.UdpSocket.Receive(System.Byte[], out Mirage.SocketLayer.IEndPoint)
-  fullName.vb: Mirage.Sockets.Udp.UdpSocket.Receive(System.Byte(), ByRef Mirage.SocketLayer.IEndPoint)
+  fullName: Mirage.Sockets.Udp.UdpSocket.Receive(System.Byte[], out IEndPoint)
+  fullName.vb: Mirage.Sockets.Udp.UdpSocket.Receive(System.Byte(), ByRef IEndPoint)
   nameWithType: UdpSocket.Receive(Byte[], out IEndPoint)
   nameWithType.vb: UdpSocket.Receive(Byte(), ByRef IEndPoint)
 - uid: Mirage.Sockets.Udp.UdpSocket.Receive*
@@ -14173,13 +14105,13 @@ references:
   isSpec: "True"
   fullName: Mirage.Sockets.Udp.UdpSocket.Receive
   nameWithType: UdpSocket.Receive
-- uid: Mirage.Sockets.Udp.UdpSocket.Send(Mirage.SocketLayer.IEndPoint,System.Byte[],System.Int32)
+- uid: Mirage.Sockets.Udp.UdpSocket.Send(IEndPoint,System.Byte[],System.Int32)
   name: Send(IEndPoint, Byte[], Int32)
-  href: api/Mirage.Sockets.Udp.UdpSocket.html#Mirage_Sockets_Udp_UdpSocket_Send_Mirage_SocketLayer_IEndPoint_System_Byte___System_Int32_
-  commentId: M:Mirage.Sockets.Udp.UdpSocket.Send(Mirage.SocketLayer.IEndPoint,System.Byte[],System.Int32)
+  href: api/Mirage.Sockets.Udp.UdpSocket.html#Mirage_Sockets_Udp_UdpSocket_Send_IEndPoint_System_Byte___System_Int32_
+  commentId: M:Mirage.Sockets.Udp.UdpSocket.Send(IEndPoint,System.Byte[],System.Int32)
   name.vb: Send(IEndPoint, Byte(), Int32)
-  fullName: Mirage.Sockets.Udp.UdpSocket.Send(Mirage.SocketLayer.IEndPoint, System.Byte[], System.Int32)
-  fullName.vb: Mirage.Sockets.Udp.UdpSocket.Send(Mirage.SocketLayer.IEndPoint, System.Byte(), System.Int32)
+  fullName: Mirage.Sockets.Udp.UdpSocket.Send(IEndPoint, System.Byte[], System.Int32)
+  fullName.vb: Mirage.Sockets.Udp.UdpSocket.Send(IEndPoint, System.Byte(), System.Int32)
   nameWithType: UdpSocket.Send(IEndPoint, Byte[], Int32)
   nameWithType.vb: UdpSocket.Send(IEndPoint, Byte(), Int32)
 - uid: Mirage.Sockets.Udp.UdpSocket.Send*
