@@ -10498,6 +10498,25 @@ references:
   fullName: Mirage.Serialization.PooledNetworkWriter.System.IDisposable.Dispose
   nameWithType: PooledNetworkWriter.IDisposable.Dispose
   nameWithType.vb: PooledNetworkWriter.System.IDisposable.Dispose
+- uid: Mirage.Serialization.QuaternionPackAttribute
+  name: QuaternionPackAttribute
+  href: api/Mirage.Serialization.QuaternionPackAttribute.html
+  commentId: T:Mirage.Serialization.QuaternionPackAttribute
+  fullName: Mirage.Serialization.QuaternionPackAttribute
+  nameWithType: QuaternionPackAttribute
+- uid: Mirage.Serialization.QuaternionPackAttribute.#ctor(System.Int32)
+  name: QuaternionPackAttribute(Int32)
+  href: api/Mirage.Serialization.QuaternionPackAttribute.html#Mirage_Serialization_QuaternionPackAttribute__ctor_System_Int32_
+  commentId: M:Mirage.Serialization.QuaternionPackAttribute.#ctor(System.Int32)
+  fullName: Mirage.Serialization.QuaternionPackAttribute.QuaternionPackAttribute(System.Int32)
+  nameWithType: QuaternionPackAttribute.QuaternionPackAttribute(Int32)
+- uid: Mirage.Serialization.QuaternionPackAttribute.#ctor*
+  name: QuaternionPackAttribute
+  href: api/Mirage.Serialization.QuaternionPackAttribute.html#Mirage_Serialization_QuaternionPackAttribute__ctor_
+  commentId: Overload:Mirage.Serialization.QuaternionPackAttribute.#ctor
+  isSpec: "True"
+  fullName: Mirage.Serialization.QuaternionPackAttribute.QuaternionPackAttribute
+  nameWithType: QuaternionPackAttribute.QuaternionPackAttribute
 - uid: Mirage.Serialization.QuaternionPacker
   name: QuaternionPacker
   href: api/Mirage.Serialization.QuaternionPacker.html
@@ -11389,12 +11408,61 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.VariableIntPacker.UnpackUshort
   nameWithType: VariableIntPacker.UnpackUshort
+- uid: Mirage.Serialization.Vector2PackAttribute
+  name: Vector2PackAttribute
+  href: api/Mirage.Serialization.Vector2PackAttribute.html
+  commentId: T:Mirage.Serialization.Vector2PackAttribute
+  fullName: Mirage.Serialization.Vector2PackAttribute
+  nameWithType: Vector2PackAttribute
+- uid: Mirage.Serialization.Vector2PackAttribute.#ctor(System.Single,System.Single,System.Int32)
+  name: Vector2PackAttribute(Single, Single, Int32)
+  href: api/Mirage.Serialization.Vector2PackAttribute.html#Mirage_Serialization_Vector2PackAttribute__ctor_System_Single_System_Single_System_Int32_
+  commentId: M:Mirage.Serialization.Vector2PackAttribute.#ctor(System.Single,System.Single,System.Int32)
+  fullName: Mirage.Serialization.Vector2PackAttribute.Vector2PackAttribute(System.Single, System.Single, System.Int32)
+  nameWithType: Vector2PackAttribute.Vector2PackAttribute(Single, Single, Int32)
+- uid: Mirage.Serialization.Vector2PackAttribute.#ctor(System.Single,System.Single,System.Int32,System.Int32)
+  name: Vector2PackAttribute(Single, Single, Int32, Int32)
+  href: api/Mirage.Serialization.Vector2PackAttribute.html#Mirage_Serialization_Vector2PackAttribute__ctor_System_Single_System_Single_System_Int32_System_Int32_
+  commentId: M:Mirage.Serialization.Vector2PackAttribute.#ctor(System.Single,System.Single,System.Int32,System.Int32)
+  fullName: Mirage.Serialization.Vector2PackAttribute.Vector2PackAttribute(System.Single, System.Single, System.Int32, System.Int32)
+  nameWithType: Vector2PackAttribute.Vector2PackAttribute(Single, Single, Int32, Int32)
+- uid: Mirage.Serialization.Vector2PackAttribute.#ctor(System.Single,System.Single,System.Single)
+  name: Vector2PackAttribute(Single, Single, Single)
+  href: api/Mirage.Serialization.Vector2PackAttribute.html#Mirage_Serialization_Vector2PackAttribute__ctor_System_Single_System_Single_System_Single_
+  commentId: M:Mirage.Serialization.Vector2PackAttribute.#ctor(System.Single,System.Single,System.Single)
+  fullName: Mirage.Serialization.Vector2PackAttribute.Vector2PackAttribute(System.Single, System.Single, System.Single)
+  nameWithType: Vector2PackAttribute.Vector2PackAttribute(Single, Single, Single)
+- uid: Mirage.Serialization.Vector2PackAttribute.#ctor(System.Single,System.Single,System.Single,System.Single)
+  name: Vector2PackAttribute(Single, Single, Single, Single)
+  href: api/Mirage.Serialization.Vector2PackAttribute.html#Mirage_Serialization_Vector2PackAttribute__ctor_System_Single_System_Single_System_Single_System_Single_
+  commentId: M:Mirage.Serialization.Vector2PackAttribute.#ctor(System.Single,System.Single,System.Single,System.Single)
+  fullName: Mirage.Serialization.Vector2PackAttribute.Vector2PackAttribute(System.Single, System.Single, System.Single, System.Single)
+  nameWithType: Vector2PackAttribute.Vector2PackAttribute(Single, Single, Single, Single)
+- uid: Mirage.Serialization.Vector2PackAttribute.#ctor*
+  name: Vector2PackAttribute
+  href: api/Mirage.Serialization.Vector2PackAttribute.html#Mirage_Serialization_Vector2PackAttribute__ctor_
+  commentId: Overload:Mirage.Serialization.Vector2PackAttribute.#ctor
+  isSpec: "True"
+  fullName: Mirage.Serialization.Vector2PackAttribute.Vector2PackAttribute
+  nameWithType: Vector2PackAttribute.Vector2PackAttribute
 - uid: Mirage.Serialization.Vector2Packer
   name: Vector2Packer
   href: api/Mirage.Serialization.Vector2Packer.html
   commentId: T:Mirage.Serialization.Vector2Packer
   fullName: Mirage.Serialization.Vector2Packer
   nameWithType: Vector2Packer
+- uid: Mirage.Serialization.Vector2Packer.#ctor(System.Single,System.Single,System.Int32,System.Int32)
+  name: Vector2Packer(Single, Single, Int32, Int32)
+  href: api/Mirage.Serialization.Vector2Packer.html#Mirage_Serialization_Vector2Packer__ctor_System_Single_System_Single_System_Int32_System_Int32_
+  commentId: M:Mirage.Serialization.Vector2Packer.#ctor(System.Single,System.Single,System.Int32,System.Int32)
+  fullName: Mirage.Serialization.Vector2Packer.Vector2Packer(System.Single, System.Single, System.Int32, System.Int32)
+  nameWithType: Vector2Packer.Vector2Packer(Single, Single, Int32, Int32)
+- uid: Mirage.Serialization.Vector2Packer.#ctor(System.Single,System.Single,System.Single,System.Single)
+  name: Vector2Packer(Single, Single, Single, Single)
+  href: api/Mirage.Serialization.Vector2Packer.html#Mirage_Serialization_Vector2Packer__ctor_System_Single_System_Single_System_Single_System_Single_
+  commentId: M:Mirage.Serialization.Vector2Packer.#ctor(System.Single,System.Single,System.Single,System.Single)
+  fullName: Mirage.Serialization.Vector2Packer.Vector2Packer(System.Single, System.Single, System.Single, System.Single)
+  nameWithType: Vector2Packer.Vector2Packer(Single, Single, Single, Single)
 - uid: Mirage.Serialization.Vector2Packer.#ctor(UnityEngine.Vector2,UnityEngine.Vector2)
   name: Vector2Packer(Vector2, Vector2)
   href: api/Mirage.Serialization.Vector2Packer.html#Mirage_Serialization_Vector2Packer__ctor_UnityEngine_Vector2_UnityEngine_Vector2_
@@ -11434,12 +11502,61 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.Vector2Packer.Unpack
   nameWithType: Vector2Packer.Unpack
+- uid: Mirage.Serialization.Vector3PackAttribute
+  name: Vector3PackAttribute
+  href: api/Mirage.Serialization.Vector3PackAttribute.html
+  commentId: T:Mirage.Serialization.Vector3PackAttribute
+  fullName: Mirage.Serialization.Vector3PackAttribute
+  nameWithType: Vector3PackAttribute
+- uid: Mirage.Serialization.Vector3PackAttribute.#ctor(System.Single,System.Single,System.Single,System.Int32)
+  name: Vector3PackAttribute(Single, Single, Single, Int32)
+  href: api/Mirage.Serialization.Vector3PackAttribute.html#Mirage_Serialization_Vector3PackAttribute__ctor_System_Single_System_Single_System_Single_System_Int32_
+  commentId: M:Mirage.Serialization.Vector3PackAttribute.#ctor(System.Single,System.Single,System.Single,System.Int32)
+  fullName: Mirage.Serialization.Vector3PackAttribute.Vector3PackAttribute(System.Single, System.Single, System.Single, System.Int32)
+  nameWithType: Vector3PackAttribute.Vector3PackAttribute(Single, Single, Single, Int32)
+- uid: Mirage.Serialization.Vector3PackAttribute.#ctor(System.Single,System.Single,System.Single,System.Int32,System.Int32,System.Int32)
+  name: Vector3PackAttribute(Single, Single, Single, Int32, Int32, Int32)
+  href: api/Mirage.Serialization.Vector3PackAttribute.html#Mirage_Serialization_Vector3PackAttribute__ctor_System_Single_System_Single_System_Single_System_Int32_System_Int32_System_Int32_
+  commentId: M:Mirage.Serialization.Vector3PackAttribute.#ctor(System.Single,System.Single,System.Single,System.Int32,System.Int32,System.Int32)
+  fullName: Mirage.Serialization.Vector3PackAttribute.Vector3PackAttribute(System.Single, System.Single, System.Single, System.Int32, System.Int32, System.Int32)
+  nameWithType: Vector3PackAttribute.Vector3PackAttribute(Single, Single, Single, Int32, Int32, Int32)
+- uid: Mirage.Serialization.Vector3PackAttribute.#ctor(System.Single,System.Single,System.Single,System.Single)
+  name: Vector3PackAttribute(Single, Single, Single, Single)
+  href: api/Mirage.Serialization.Vector3PackAttribute.html#Mirage_Serialization_Vector3PackAttribute__ctor_System_Single_System_Single_System_Single_System_Single_
+  commentId: M:Mirage.Serialization.Vector3PackAttribute.#ctor(System.Single,System.Single,System.Single,System.Single)
+  fullName: Mirage.Serialization.Vector3PackAttribute.Vector3PackAttribute(System.Single, System.Single, System.Single, System.Single)
+  nameWithType: Vector3PackAttribute.Vector3PackAttribute(Single, Single, Single, Single)
+- uid: Mirage.Serialization.Vector3PackAttribute.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  name: Vector3PackAttribute(Single, Single, Single, Single, Single, Single)
+  href: api/Mirage.Serialization.Vector3PackAttribute.html#Mirage_Serialization_Vector3PackAttribute__ctor_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_
+  commentId: M:Mirage.Serialization.Vector3PackAttribute.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  fullName: Mirage.Serialization.Vector3PackAttribute.Vector3PackAttribute(System.Single, System.Single, System.Single, System.Single, System.Single, System.Single)
+  nameWithType: Vector3PackAttribute.Vector3PackAttribute(Single, Single, Single, Single, Single, Single)
+- uid: Mirage.Serialization.Vector3PackAttribute.#ctor*
+  name: Vector3PackAttribute
+  href: api/Mirage.Serialization.Vector3PackAttribute.html#Mirage_Serialization_Vector3PackAttribute__ctor_
+  commentId: Overload:Mirage.Serialization.Vector3PackAttribute.#ctor
+  isSpec: "True"
+  fullName: Mirage.Serialization.Vector3PackAttribute.Vector3PackAttribute
+  nameWithType: Vector3PackAttribute.Vector3PackAttribute
 - uid: Mirage.Serialization.Vector3Packer
   name: Vector3Packer
   href: api/Mirage.Serialization.Vector3Packer.html
   commentId: T:Mirage.Serialization.Vector3Packer
   fullName: Mirage.Serialization.Vector3Packer
   nameWithType: Vector3Packer
+- uid: Mirage.Serialization.Vector3Packer.#ctor(System.Single,System.Single,System.Single,System.Int32,System.Int32,System.Int32)
+  name: Vector3Packer(Single, Single, Single, Int32, Int32, Int32)
+  href: api/Mirage.Serialization.Vector3Packer.html#Mirage_Serialization_Vector3Packer__ctor_System_Single_System_Single_System_Single_System_Int32_System_Int32_System_Int32_
+  commentId: M:Mirage.Serialization.Vector3Packer.#ctor(System.Single,System.Single,System.Single,System.Int32,System.Int32,System.Int32)
+  fullName: Mirage.Serialization.Vector3Packer.Vector3Packer(System.Single, System.Single, System.Single, System.Int32, System.Int32, System.Int32)
+  nameWithType: Vector3Packer.Vector3Packer(Single, Single, Single, Int32, Int32, Int32)
+- uid: Mirage.Serialization.Vector3Packer.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  name: Vector3Packer(Single, Single, Single, Single, Single, Single)
+  href: api/Mirage.Serialization.Vector3Packer.html#Mirage_Serialization_Vector3Packer__ctor_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_
+  commentId: M:Mirage.Serialization.Vector3Packer.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  fullName: Mirage.Serialization.Vector3Packer.Vector3Packer(System.Single, System.Single, System.Single, System.Single, System.Single, System.Single)
+  nameWithType: Vector3Packer.Vector3Packer(Single, Single, Single, Single, Single, Single)
 - uid: Mirage.Serialization.Vector3Packer.#ctor(UnityEngine.Vector3,UnityEngine.Vector3)
   name: Vector3Packer(Vector3, Vector3)
   href: api/Mirage.Serialization.Vector3Packer.html#Mirage_Serialization_Vector3Packer__ctor_UnityEngine_Vector3_UnityEngine_Vector3_

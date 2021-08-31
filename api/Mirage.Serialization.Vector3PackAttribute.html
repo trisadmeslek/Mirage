@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ClientAttribute
+    <title>Class Vector3PackAttribute
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ClientAttribute
+    <meta name="title" content="Class Vector3PackAttribute
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -95,20 +95,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Mirage.ClientAttribute">
+            <article class="content wrap" id="_content" data-uid="Mirage.Serialization.Vector3PackAttribute">
   
   
-  <h1 id="Mirage_ClientAttribute" data-uid="Mirage.ClientAttribute" class="text-break">Class ClientAttribute
+  <h1 id="Mirage_Serialization_Vector3PackAttribute" data-uid="Mirage.Serialization.Vector3PackAttribute" class="text-break">Class Vector3PackAttribute
   </h1>
-  <div class="markdown level0 summary"><p>Prevents this method from running if client is not active.</p>
-<p>Can only be used inside a NetworkBehaviour</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.attribute">Attribute</a></div>
-    <div class="level2"><span class="xref">ClientAttribute</span></div>
+    <div class="level2"><span class="xref">Vector3PackAttribute</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -239,43 +237,218 @@
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Mirage.html">Mirage</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mirage.Serialization.html">Mirage.Serialization</a></h6>
   <h6><strong>Assembly</strong>: Mirage.dll</h6>
-  <h5 id="Mirage_ClientAttribute_syntax">Syntax</h5>
+  <h5 id="Mirage_Serialization_Vector3PackAttribute_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Method)]
-public class ClientAttribute : Attribute</code></pre>
+    <pre><code class="lang-csharp hljs">public class Vector3PackAttribute : Attribute</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_ClientAttribute_error.md&amp;value=---%0Auid%3A%20Mirage.ClientAttribute.error%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_Vector3PackAttribute__ctor_System_Single_System_Single_System_Single_System_Int32_.md&amp;value=---%0Auid%3A%20Mirage.Serialization.Vector3PackAttribute.%23ctor(System.Single%2CSystem.Single%2CSystem.Single%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/149bf5adc44f60ad810c2233afceea32c5af2e2a/Assets/Mirage/Runtime/CustomAttributes.cs/#L77">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/149bf5adc44f60ad810c2233afceea32c5af2e2a/Assets/Mirage/Runtime/Serialization/WeaverAttributes.cs/#L76">View Source</a>
   </span>
-  <h4 id="Mirage_ClientAttribute_error" data-uid="Mirage.ClientAttribute.error">error</h4>
-  <div class="markdown level1 summary"><p>If true,  when the method is called from a client, it throws an error
-If false, no error is thrown, but the method won't execute
-useful for unity built in methods such as Await, Update, Start, etc.</p>
-</div>
+  <a id="Mirage_Serialization_Vector3PackAttribute__ctor_" data-uid="Mirage.Serialization.Vector3PackAttribute.#ctor*"></a>
+  <h4 id="Mirage_Serialization_Vector3PackAttribute__ctor_System_Single_System_Single_System_Single_System_Int32_" data-uid="Mirage.Serialization.Vector3PackAttribute.#ctor(System.Single,System.Single,System.Single,System.Int32)">Vector3PackAttribute(Single, Single, Single, Int32)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool error</code></pre>
+    <pre><code class="lang-csharp hljs">public Vector3PackAttribute(float xMax, float yMax, float zMax, int bitCount)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">xMax</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">yMax</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">zMax</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">bitCount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_Vector3PackAttribute__ctor_System_Single_System_Single_System_Single_System_Int32_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Mirage.Serialization.Vector3PackAttribute.%23ctor(System.Single%2CSystem.Single%2CSystem.Single%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/149bf5adc44f60ad810c2233afceea32c5af2e2a/Assets/Mirage/Runtime/Serialization/WeaverAttributes.cs/#L75">View Source</a>
+  </span>
+  <a id="Mirage_Serialization_Vector3PackAttribute__ctor_" data-uid="Mirage.Serialization.Vector3PackAttribute.#ctor*"></a>
+  <h4 id="Mirage_Serialization_Vector3PackAttribute__ctor_System_Single_System_Single_System_Single_System_Int32_System_Int32_System_Int32_" data-uid="Mirage.Serialization.Vector3PackAttribute.#ctor(System.Single,System.Single,System.Single,System.Int32,System.Int32,System.Int32)">Vector3PackAttribute(Single, Single, Single, Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3PackAttribute(float xMax, float yMax, float zMax, int xBitCount, int yBitCount, int ZBitCount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">xMax</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">yMax</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">zMax</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">xBitCount</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">yBitCount</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">ZBitCount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_Vector3PackAttribute__ctor_System_Single_System_Single_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Mirage.Serialization.Vector3PackAttribute.%23ctor(System.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/149bf5adc44f60ad810c2233afceea32c5af2e2a/Assets/Mirage/Runtime/Serialization/WeaverAttributes.cs/#L73">View Source</a>
+  </span>
+  <a id="Mirage_Serialization_Vector3PackAttribute__ctor_" data-uid="Mirage.Serialization.Vector3PackAttribute.#ctor*"></a>
+  <h4 id="Mirage_Serialization_Vector3PackAttribute__ctor_System_Single_System_Single_System_Single_System_Single_" data-uid="Mirage.Serialization.Vector3PackAttribute.#ctor(System.Single,System.Single,System.Single,System.Single)">Vector3PackAttribute(Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3PackAttribute(float xMax, float yMax, float zMax, float precision)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">xMax</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">yMax</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">zMax</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">precision</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_Vector3PackAttribute__ctor_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Mirage.Serialization.Vector3PackAttribute.%23ctor(System.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/149bf5adc44f60ad810c2233afceea32c5af2e2a/Assets/Mirage/Runtime/Serialization/WeaverAttributes.cs/#L72">View Source</a>
+  </span>
+  <a id="Mirage_Serialization_Vector3PackAttribute__ctor_" data-uid="Mirage.Serialization.Vector3PackAttribute.#ctor*"></a>
+  <h4 id="Mirage_Serialization_Vector3PackAttribute__ctor_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="Mirage.Serialization.Vector3PackAttribute.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">Vector3PackAttribute(Single, Single, Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3PackAttribute(float xMax, float yMax, float zMax, float xPrecision, float yPrecision, float zPrecision)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">xMax</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">yMax</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">zMax</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">xPrecision</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">yPrecision</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">zPrecision</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -288,10 +461,10 @@ useful for unity built in methods such as Await, Update, Start, etc.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_ClientAttribute.md&amp;value=---%0Auid%3A%20Mirage.ClientAttribute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_Vector3PackAttribute.md&amp;value=---%0Auid%3A%20Mirage.Serialization.Vector3PackAttribute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/blob/149bf5adc44f60ad810c2233afceea32c5af2e2a/Assets/Mirage/Runtime/CustomAttributes.cs/#L69" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirageNet/Mirage/blob/149bf5adc44f60ad810c2233afceea32c5af2e2a/Assets/Mirage/Runtime/Serialization/WeaverAttributes.cs/#L70" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
