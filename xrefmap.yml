@@ -234,6 +234,19 @@ references:
   isSpec: "True"
   fullName: Mirage.CharacterSpawner.GetStartPosition
   nameWithType: CharacterSpawner.GetStartPosition
+- uid: Mirage.CharacterSpawner.OnClientFinishedSceneChange(System.String,Mirage.SceneOperation)
+  name: OnClientFinishedSceneChange(String, SceneOperation)
+  href: api/Mirage.CharacterSpawner.html#Mirage_CharacterSpawner_OnClientFinishedSceneChange_System_String_Mirage_SceneOperation_
+  commentId: M:Mirage.CharacterSpawner.OnClientFinishedSceneChange(System.String,Mirage.SceneOperation)
+  fullName: Mirage.CharacterSpawner.OnClientFinishedSceneChange(System.String, Mirage.SceneOperation)
+  nameWithType: CharacterSpawner.OnClientFinishedSceneChange(String, SceneOperation)
+- uid: Mirage.CharacterSpawner.OnClientFinishedSceneChange*
+  name: OnClientFinishedSceneChange
+  href: api/Mirage.CharacterSpawner.html#Mirage_CharacterSpawner_OnClientFinishedSceneChange_
+  commentId: Overload:Mirage.CharacterSpawner.OnClientFinishedSceneChange
+  isSpec: "True"
+  fullName: Mirage.CharacterSpawner.OnClientFinishedSceneChange
+  nameWithType: CharacterSpawner.OnClientFinishedSceneChange
 - uid: Mirage.CharacterSpawner.OnServerAddPlayer(Mirage.INetworkPlayer)
   name: OnServerAddPlayer(INetworkPlayer)
   href: api/Mirage.CharacterSpawner.html#Mirage_CharacterSpawner_OnServerAddPlayer_Mirage_INetworkPlayer_
@@ -4182,71 +4195,103 @@ references:
   commentId: T:Mirage.INetworkSceneManager
   fullName: Mirage.INetworkSceneManager
   nameWithType: INetworkSceneManager
-- uid: Mirage.INetworkSceneManager.ChangeServerScene(System.String,Mirage.SceneOperation)
-  name: ChangeServerScene(String, SceneOperation)
-  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ChangeServerScene_System_String_Mirage_SceneOperation_
-  commentId: M:Mirage.INetworkSceneManager.ChangeServerScene(System.String,Mirage.SceneOperation)
-  fullName: Mirage.INetworkSceneManager.ChangeServerScene(System.String, Mirage.SceneOperation)
-  nameWithType: INetworkSceneManager.ChangeServerScene(String, SceneOperation)
-- uid: Mirage.INetworkSceneManager.ChangeServerScene*
-  name: ChangeServerScene
-  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ChangeServerScene_
-  commentId: Overload:Mirage.INetworkSceneManager.ChangeServerScene
+- uid: Mirage.INetworkSceneManager.OnClientFinishedSceneChange
+  name: OnClientFinishedSceneChange
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_OnClientFinishedSceneChange
+  commentId: P:Mirage.INetworkSceneManager.OnClientFinishedSceneChange
+  fullName: Mirage.INetworkSceneManager.OnClientFinishedSceneChange
+  nameWithType: INetworkSceneManager.OnClientFinishedSceneChange
+- uid: Mirage.INetworkSceneManager.OnClientFinishedSceneChange*
+  name: OnClientFinishedSceneChange
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_OnClientFinishedSceneChange_
+  commentId: Overload:Mirage.INetworkSceneManager.OnClientFinishedSceneChange
   isSpec: "True"
-  fullName: Mirage.INetworkSceneManager.ChangeServerScene
-  nameWithType: INetworkSceneManager.ChangeServerScene
-- uid: Mirage.INetworkSceneManager.ClientChangeScene
-  name: ClientChangeScene
-  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ClientChangeScene
-  commentId: P:Mirage.INetworkSceneManager.ClientChangeScene
-  fullName: Mirage.INetworkSceneManager.ClientChangeScene
-  nameWithType: INetworkSceneManager.ClientChangeScene
-- uid: Mirage.INetworkSceneManager.ClientChangeScene*
-  name: ClientChangeScene
-  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ClientChangeScene_
-  commentId: Overload:Mirage.INetworkSceneManager.ClientChangeScene
+  fullName: Mirage.INetworkSceneManager.OnClientFinishedSceneChange
+  nameWithType: INetworkSceneManager.OnClientFinishedSceneChange
+- uid: Mirage.INetworkSceneManager.OnClientStartedSceneChange
+  name: OnClientStartedSceneChange
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_OnClientStartedSceneChange
+  commentId: P:Mirage.INetworkSceneManager.OnClientStartedSceneChange
+  fullName: Mirage.INetworkSceneManager.OnClientStartedSceneChange
+  nameWithType: INetworkSceneManager.OnClientStartedSceneChange
+- uid: Mirage.INetworkSceneManager.OnClientStartedSceneChange*
+  name: OnClientStartedSceneChange
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_OnClientStartedSceneChange_
+  commentId: Overload:Mirage.INetworkSceneManager.OnClientStartedSceneChange
   isSpec: "True"
-  fullName: Mirage.INetworkSceneManager.ClientChangeScene
-  nameWithType: INetworkSceneManager.ClientChangeScene
-- uid: Mirage.INetworkSceneManager.ClientSceneChanged
-  name: ClientSceneChanged
-  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ClientSceneChanged
-  commentId: P:Mirage.INetworkSceneManager.ClientSceneChanged
-  fullName: Mirage.INetworkSceneManager.ClientSceneChanged
-  nameWithType: INetworkSceneManager.ClientSceneChanged
-- uid: Mirage.INetworkSceneManager.ClientSceneChanged*
-  name: ClientSceneChanged
-  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ClientSceneChanged_
-  commentId: Overload:Mirage.INetworkSceneManager.ClientSceneChanged
+  fullName: Mirage.INetworkSceneManager.OnClientStartedSceneChange
+  nameWithType: INetworkSceneManager.OnClientStartedSceneChange
+- uid: Mirage.INetworkSceneManager.OnServerFinishedSceneChange
+  name: OnServerFinishedSceneChange
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_OnServerFinishedSceneChange
+  commentId: P:Mirage.INetworkSceneManager.OnServerFinishedSceneChange
+  fullName: Mirage.INetworkSceneManager.OnServerFinishedSceneChange
+  nameWithType: INetworkSceneManager.OnServerFinishedSceneChange
+- uid: Mirage.INetworkSceneManager.OnServerFinishedSceneChange*
+  name: OnServerFinishedSceneChange
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_OnServerFinishedSceneChange_
+  commentId: Overload:Mirage.INetworkSceneManager.OnServerFinishedSceneChange
   isSpec: "True"
-  fullName: Mirage.INetworkSceneManager.ClientSceneChanged
-  nameWithType: INetworkSceneManager.ClientSceneChanged
-- uid: Mirage.INetworkSceneManager.ServerChangeScene
-  name: ServerChangeScene
-  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ServerChangeScene
-  commentId: P:Mirage.INetworkSceneManager.ServerChangeScene
-  fullName: Mirage.INetworkSceneManager.ServerChangeScene
-  nameWithType: INetworkSceneManager.ServerChangeScene
-- uid: Mirage.INetworkSceneManager.ServerChangeScene*
-  name: ServerChangeScene
-  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ServerChangeScene_
-  commentId: Overload:Mirage.INetworkSceneManager.ServerChangeScene
+  fullName: Mirage.INetworkSceneManager.OnServerFinishedSceneChange
+  nameWithType: INetworkSceneManager.OnServerFinishedSceneChange
+- uid: Mirage.INetworkSceneManager.OnServerStartedSceneChange
+  name: OnServerStartedSceneChange
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_OnServerStartedSceneChange
+  commentId: P:Mirage.INetworkSceneManager.OnServerStartedSceneChange
+  fullName: Mirage.INetworkSceneManager.OnServerStartedSceneChange
+  nameWithType: INetworkSceneManager.OnServerStartedSceneChange
+- uid: Mirage.INetworkSceneManager.OnServerStartedSceneChange*
+  name: OnServerStartedSceneChange
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_OnServerStartedSceneChange_
+  commentId: Overload:Mirage.INetworkSceneManager.OnServerStartedSceneChange
   isSpec: "True"
-  fullName: Mirage.INetworkSceneManager.ServerChangeScene
-  nameWithType: INetworkSceneManager.ServerChangeScene
-- uid: Mirage.INetworkSceneManager.ServerSceneChanged
-  name: ServerSceneChanged
-  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ServerSceneChanged
-  commentId: P:Mirage.INetworkSceneManager.ServerSceneChanged
-  fullName: Mirage.INetworkSceneManager.ServerSceneChanged
-  nameWithType: INetworkSceneManager.ServerSceneChanged
-- uid: Mirage.INetworkSceneManager.ServerSceneChanged*
-  name: ServerSceneChanged
-  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ServerSceneChanged_
-  commentId: Overload:Mirage.INetworkSceneManager.ServerSceneChanged
+  fullName: Mirage.INetworkSceneManager.OnServerStartedSceneChange
+  nameWithType: INetworkSceneManager.OnServerStartedSceneChange
+- uid: Mirage.INetworkSceneManager.ServerLoadSceneAdditively(System.String,System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer},System.Boolean)
+  name: ServerLoadSceneAdditively(String, IEnumerable<INetworkPlayer>, Boolean)
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ServerLoadSceneAdditively_System_String_System_Collections_Generic_IEnumerable_Mirage_INetworkPlayer__System_Boolean_
+  commentId: M:Mirage.INetworkSceneManager.ServerLoadSceneAdditively(System.String,System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer},System.Boolean)
+  name.vb: ServerLoadSceneAdditively(String, IEnumerable(Of INetworkPlayer), Boolean)
+  fullName: Mirage.INetworkSceneManager.ServerLoadSceneAdditively(System.String, System.Collections.Generic.IEnumerable<Mirage.INetworkPlayer>, System.Boolean)
+  fullName.vb: Mirage.INetworkSceneManager.ServerLoadSceneAdditively(System.String, System.Collections.Generic.IEnumerable(Of Mirage.INetworkPlayer), System.Boolean)
+  nameWithType: INetworkSceneManager.ServerLoadSceneAdditively(String, IEnumerable<INetworkPlayer>, Boolean)
+  nameWithType.vb: INetworkSceneManager.ServerLoadSceneAdditively(String, IEnumerable(Of INetworkPlayer), Boolean)
+- uid: Mirage.INetworkSceneManager.ServerLoadSceneAdditively*
+  name: ServerLoadSceneAdditively
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ServerLoadSceneAdditively_
+  commentId: Overload:Mirage.INetworkSceneManager.ServerLoadSceneAdditively
   isSpec: "True"
-  fullName: Mirage.INetworkSceneManager.ServerSceneChanged
-  nameWithType: INetworkSceneManager.ServerSceneChanged
+  fullName: Mirage.INetworkSceneManager.ServerLoadSceneAdditively
+  nameWithType: INetworkSceneManager.ServerLoadSceneAdditively
+- uid: Mirage.INetworkSceneManager.ServerLoadSceneNormal(System.String)
+  name: ServerLoadSceneNormal(String)
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ServerLoadSceneNormal_System_String_
+  commentId: M:Mirage.INetworkSceneManager.ServerLoadSceneNormal(System.String)
+  fullName: Mirage.INetworkSceneManager.ServerLoadSceneNormal(System.String)
+  nameWithType: INetworkSceneManager.ServerLoadSceneNormal(String)
+- uid: Mirage.INetworkSceneManager.ServerLoadSceneNormal*
+  name: ServerLoadSceneNormal
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ServerLoadSceneNormal_
+  commentId: Overload:Mirage.INetworkSceneManager.ServerLoadSceneNormal
+  isSpec: "True"
+  fullName: Mirage.INetworkSceneManager.ServerLoadSceneNormal
+  nameWithType: INetworkSceneManager.ServerLoadSceneNormal
+- uid: Mirage.INetworkSceneManager.ServerUnloadSceneAdditively(UnityEngine.SceneManagement.Scene,System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer})
+  name: ServerUnloadSceneAdditively(Scene, IEnumerable<INetworkPlayer>)
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ServerUnloadSceneAdditively_UnityEngine_SceneManagement_Scene_System_Collections_Generic_IEnumerable_Mirage_INetworkPlayer__
+  commentId: M:Mirage.INetworkSceneManager.ServerUnloadSceneAdditively(UnityEngine.SceneManagement.Scene,System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer})
+  name.vb: ServerUnloadSceneAdditively(Scene, IEnumerable(Of INetworkPlayer))
+  fullName: Mirage.INetworkSceneManager.ServerUnloadSceneAdditively(UnityEngine.SceneManagement.Scene, System.Collections.Generic.IEnumerable<Mirage.INetworkPlayer>)
+  fullName.vb: Mirage.INetworkSceneManager.ServerUnloadSceneAdditively(UnityEngine.SceneManagement.Scene, System.Collections.Generic.IEnumerable(Of Mirage.INetworkPlayer))
+  nameWithType: INetworkSceneManager.ServerUnloadSceneAdditively(Scene, IEnumerable<INetworkPlayer>)
+  nameWithType.vb: INetworkSceneManager.ServerUnloadSceneAdditively(Scene, IEnumerable(Of INetworkPlayer))
+- uid: Mirage.INetworkSceneManager.ServerUnloadSceneAdditively*
+  name: ServerUnloadSceneAdditively
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ServerUnloadSceneAdditively_
+  commentId: Overload:Mirage.INetworkSceneManager.ServerUnloadSceneAdditively
+  isSpec: "True"
+  fullName: Mirage.INetworkSceneManager.ServerUnloadSceneAdditively
+  nameWithType: INetworkSceneManager.ServerUnloadSceneAdditively
 - uid: Mirage.INetworkServer
   name: INetworkServer
   href: api/Mirage.INetworkServer.html
@@ -4589,19 +4634,19 @@ references:
   commentId: T:Mirage.ISceneLoader
   fullName: Mirage.ISceneLoader
   nameWithType: ISceneLoader
-- uid: Mirage.ISceneLoader.IsReady
-  name: IsReady
-  href: api/Mirage.ISceneLoader.html#Mirage_ISceneLoader_IsReady
-  commentId: P:Mirage.ISceneLoader.IsReady
-  fullName: Mirage.ISceneLoader.IsReady
-  nameWithType: ISceneLoader.IsReady
-- uid: Mirage.ISceneLoader.IsReady*
-  name: IsReady
-  href: api/Mirage.ISceneLoader.html#Mirage_ISceneLoader_IsReady_
-  commentId: Overload:Mirage.ISceneLoader.IsReady
+- uid: Mirage.ISceneLoader.SceneIsReady
+  name: SceneIsReady
+  href: api/Mirage.ISceneLoader.html#Mirage_ISceneLoader_SceneIsReady
+  commentId: P:Mirage.ISceneLoader.SceneIsReady
+  fullName: Mirage.ISceneLoader.SceneIsReady
+  nameWithType: ISceneLoader.SceneIsReady
+- uid: Mirage.ISceneLoader.SceneIsReady*
+  name: SceneIsReady
+  href: api/Mirage.ISceneLoader.html#Mirage_ISceneLoader_SceneIsReady_
+  commentId: Overload:Mirage.ISceneLoader.SceneIsReady
   isSpec: "True"
-  fullName: Mirage.ISceneLoader.IsReady
-  nameWithType: ISceneLoader.IsReady
+  fullName: Mirage.ISceneLoader.SceneIsReady
+  nameWithType: ISceneLoader.SceneIsReady
 - uid: Mirage.IServerObjectManager
   name: IServerObjectManager
   href: api/Mirage.IServerObjectManager.html
@@ -7083,19 +7128,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkPlayer.IsAuthenticated
   nameWithType: NetworkPlayer.IsAuthenticated
-- uid: Mirage.NetworkPlayer.IsReady
-  name: IsReady
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_IsReady
-  commentId: P:Mirage.NetworkPlayer.IsReady
-  fullName: Mirage.NetworkPlayer.IsReady
-  nameWithType: NetworkPlayer.IsReady
-- uid: Mirage.NetworkPlayer.IsReady*
-  name: IsReady
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_IsReady_
-  commentId: Overload:Mirage.NetworkPlayer.IsReady
-  isSpec: "True"
-  fullName: Mirage.NetworkPlayer.IsReady
-  nameWithType: NetworkPlayer.IsReady
 - uid: Mirage.NetworkPlayer.MarkAsDisconnected
   name: MarkAsDisconnected()
   href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_MarkAsDisconnected
@@ -7148,6 +7180,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkPlayer.RemoveOwnedObject
   nameWithType: NetworkPlayer.RemoveOwnedObject
+- uid: Mirage.NetworkPlayer.SceneIsReady
+  name: SceneIsReady
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_SceneIsReady
+  commentId: P:Mirage.NetworkPlayer.SceneIsReady
+  fullName: Mirage.NetworkPlayer.SceneIsReady
+  nameWithType: NetworkPlayer.SceneIsReady
+- uid: Mirage.NetworkPlayer.SceneIsReady*
+  name: SceneIsReady
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_SceneIsReady_
+  commentId: Overload:Mirage.NetworkPlayer.SceneIsReady
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.SceneIsReady
+  nameWithType: NetworkPlayer.SceneIsReady
 - uid: Mirage.NetworkPlayer.Send(System.ArraySegment{System.Byte},System.Int32)
   name: Send(ArraySegment<Byte>, Int32)
   href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Send_System_ArraySegment_System_Byte__System_Int32_
@@ -7343,102 +7388,286 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkSceneManager.ActiveScenePath
   nameWithType: NetworkSceneManager.ActiveScenePath
-- uid: Mirage.NetworkSceneManager.ChangeServerScene(System.String,Mirage.SceneOperation)
-  name: ChangeServerScene(String, SceneOperation)
-  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ChangeServerScene_System_String_Mirage_SceneOperation_
-  commentId: M:Mirage.NetworkSceneManager.ChangeServerScene(System.String,Mirage.SceneOperation)
-  fullName: Mirage.NetworkSceneManager.ChangeServerScene(System.String, Mirage.SceneOperation)
-  nameWithType: NetworkSceneManager.ChangeServerScene(String, SceneOperation)
-- uid: Mirage.NetworkSceneManager.ChangeServerScene*
-  name: ChangeServerScene
-  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ChangeServerScene_
-  commentId: Overload:Mirage.NetworkSceneManager.ChangeServerScene
-  isSpec: "True"
-  fullName: Mirage.NetworkSceneManager.ChangeServerScene
-  nameWithType: NetworkSceneManager.ChangeServerScene
 - uid: Mirage.NetworkSceneManager.Client
   name: Client
   href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_Client
   commentId: F:Mirage.NetworkSceneManager.Client
   fullName: Mirage.NetworkSceneManager.Client
   nameWithType: NetworkSceneManager.Client
-- uid: Mirage.NetworkSceneManager.ClientChangeScene
-  name: ClientChangeScene
-  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ClientChangeScene
-  commentId: P:Mirage.NetworkSceneManager.ClientChangeScene
-  fullName: Mirage.NetworkSceneManager.ClientChangeScene
-  nameWithType: NetworkSceneManager.ClientChangeScene
-- uid: Mirage.NetworkSceneManager.ClientChangeScene*
-  name: ClientChangeScene
-  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ClientChangeScene_
-  commentId: Overload:Mirage.NetworkSceneManager.ClientChangeScene
+- uid: Mirage.NetworkSceneManager.ClientFinishedLoadingSceneMessage(Mirage.INetworkPlayer,Mirage.SceneReadyMessage)
+  name: ClientFinishedLoadingSceneMessage(INetworkPlayer, SceneReadyMessage)
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ClientFinishedLoadingSceneMessage_Mirage_INetworkPlayer_Mirage_SceneReadyMessage_
+  commentId: M:Mirage.NetworkSceneManager.ClientFinishedLoadingSceneMessage(Mirage.INetworkPlayer,Mirage.SceneReadyMessage)
+  fullName: Mirage.NetworkSceneManager.ClientFinishedLoadingSceneMessage(Mirage.INetworkPlayer, Mirage.SceneReadyMessage)
+  nameWithType: NetworkSceneManager.ClientFinishedLoadingSceneMessage(INetworkPlayer, SceneReadyMessage)
+- uid: Mirage.NetworkSceneManager.ClientFinishedLoadingSceneMessage*
+  name: ClientFinishedLoadingSceneMessage
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ClientFinishedLoadingSceneMessage_
+  commentId: Overload:Mirage.NetworkSceneManager.ClientFinishedLoadingSceneMessage
   isSpec: "True"
-  fullName: Mirage.NetworkSceneManager.ClientChangeScene
-  nameWithType: NetworkSceneManager.ClientChangeScene
-- uid: Mirage.NetworkSceneManager.ClientSceneChanged
-  name: ClientSceneChanged
-  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ClientSceneChanged
-  commentId: P:Mirage.NetworkSceneManager.ClientSceneChanged
-  fullName: Mirage.NetworkSceneManager.ClientSceneChanged
-  nameWithType: NetworkSceneManager.ClientSceneChanged
-- uid: Mirage.NetworkSceneManager.ClientSceneChanged*
-  name: ClientSceneChanged
-  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ClientSceneChanged_
-  commentId: Overload:Mirage.NetworkSceneManager.ClientSceneChanged
+  fullName: Mirage.NetworkSceneManager.ClientFinishedLoadingSceneMessage
+  nameWithType: NetworkSceneManager.ClientFinishedLoadingSceneMessage
+- uid: Mirage.NetworkSceneManager.ClientNotReadyMessage(Mirage.INetworkPlayer,Mirage.NotReadyMessage)
+  name: ClientNotReadyMessage(INetworkPlayer, NotReadyMessage)
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ClientNotReadyMessage_Mirage_INetworkPlayer_Mirage_NotReadyMessage_
+  commentId: M:Mirage.NetworkSceneManager.ClientNotReadyMessage(Mirage.INetworkPlayer,Mirage.NotReadyMessage)
+  fullName: Mirage.NetworkSceneManager.ClientNotReadyMessage(Mirage.INetworkPlayer, Mirage.NotReadyMessage)
+  nameWithType: NetworkSceneManager.ClientNotReadyMessage(INetworkPlayer, NotReadyMessage)
+- uid: Mirage.NetworkSceneManager.ClientNotReadyMessage*
+  name: ClientNotReadyMessage
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ClientNotReadyMessage_
+  commentId: Overload:Mirage.NetworkSceneManager.ClientNotReadyMessage
   isSpec: "True"
-  fullName: Mirage.NetworkSceneManager.ClientSceneChanged
-  nameWithType: NetworkSceneManager.ClientSceneChanged
+  fullName: Mirage.NetworkSceneManager.ClientNotReadyMessage
+  nameWithType: NetworkSceneManager.ClientNotReadyMessage
+- uid: Mirage.NetworkSceneManager.ClientStartSceneMessage(Mirage.INetworkPlayer,Mirage.SceneMessage)
+  name: ClientStartSceneMessage(INetworkPlayer, SceneMessage)
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ClientStartSceneMessage_Mirage_INetworkPlayer_Mirage_SceneMessage_
+  commentId: M:Mirage.NetworkSceneManager.ClientStartSceneMessage(Mirage.INetworkPlayer,Mirage.SceneMessage)
+  fullName: Mirage.NetworkSceneManager.ClientStartSceneMessage(Mirage.INetworkPlayer, Mirage.SceneMessage)
+  nameWithType: NetworkSceneManager.ClientStartSceneMessage(INetworkPlayer, SceneMessage)
+- uid: Mirage.NetworkSceneManager.ClientStartSceneMessage*
+  name: ClientStartSceneMessage
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ClientStartSceneMessage_
+  commentId: Overload:Mirage.NetworkSceneManager.ClientStartSceneMessage
+  isSpec: "True"
+  fullName: Mirage.NetworkSceneManager.ClientStartSceneMessage
+  nameWithType: NetworkSceneManager.ClientStartSceneMessage
 - uid: Mirage.NetworkSceneManager.DontDestroy
   name: DontDestroy
   href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_DontDestroy
   commentId: F:Mirage.NetworkSceneManager.DontDestroy
   fullName: Mirage.NetworkSceneManager.DontDestroy
   nameWithType: NetworkSceneManager.DontDestroy
+- uid: Mirage.NetworkSceneManager.GetSceneByPathOrName(System.String)
+  name: GetSceneByPathOrName(String)
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_GetSceneByPathOrName_System_String_
+  commentId: M:Mirage.NetworkSceneManager.GetSceneByPathOrName(System.String)
+  fullName: Mirage.NetworkSceneManager.GetSceneByPathOrName(System.String)
+  nameWithType: NetworkSceneManager.GetSceneByPathOrName(String)
+- uid: Mirage.NetworkSceneManager.GetSceneByPathOrName*
+  name: GetSceneByPathOrName
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_GetSceneByPathOrName_
+  commentId: Overload:Mirage.NetworkSceneManager.GetSceneByPathOrName
+  isSpec: "True"
+  fullName: Mirage.NetworkSceneManager.GetSceneByPathOrName
+  nameWithType: NetworkSceneManager.GetSceneByPathOrName
+- uid: Mirage.NetworkSceneManager.IsPlayerInScene(UnityEngine.SceneManagement.Scene,Mirage.INetworkPlayer)
+  name: IsPlayerInScene(Scene, INetworkPlayer)
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_IsPlayerInScene_UnityEngine_SceneManagement_Scene_Mirage_INetworkPlayer_
+  commentId: M:Mirage.NetworkSceneManager.IsPlayerInScene(UnityEngine.SceneManagement.Scene,Mirage.INetworkPlayer)
+  fullName: Mirage.NetworkSceneManager.IsPlayerInScene(UnityEngine.SceneManagement.Scene, Mirage.INetworkPlayer)
+  nameWithType: NetworkSceneManager.IsPlayerInScene(Scene, INetworkPlayer)
+- uid: Mirage.NetworkSceneManager.IsPlayerInScene*
+  name: IsPlayerInScene
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_IsPlayerInScene_
+  commentId: Overload:Mirage.NetworkSceneManager.IsPlayerInScene
+  isSpec: "True"
+  fullName: Mirage.NetworkSceneManager.IsPlayerInScene
+  nameWithType: NetworkSceneManager.IsPlayerInScene
+- uid: Mirage.NetworkSceneManager.OnClientFinishedSceneChange
+  name: OnClientFinishedSceneChange
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_OnClientFinishedSceneChange
+  commentId: P:Mirage.NetworkSceneManager.OnClientFinishedSceneChange
+  fullName: Mirage.NetworkSceneManager.OnClientFinishedSceneChange
+  nameWithType: NetworkSceneManager.OnClientFinishedSceneChange
+- uid: Mirage.NetworkSceneManager.OnClientFinishedSceneChange*
+  name: OnClientFinishedSceneChange
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_OnClientFinishedSceneChange_
+  commentId: Overload:Mirage.NetworkSceneManager.OnClientFinishedSceneChange
+  isSpec: "True"
+  fullName: Mirage.NetworkSceneManager.OnClientFinishedSceneChange
+  nameWithType: NetworkSceneManager.OnClientFinishedSceneChange
+- uid: Mirage.NetworkSceneManager.OnClientStartedSceneChange
+  name: OnClientStartedSceneChange
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_OnClientStartedSceneChange
+  commentId: P:Mirage.NetworkSceneManager.OnClientStartedSceneChange
+  fullName: Mirage.NetworkSceneManager.OnClientStartedSceneChange
+  nameWithType: NetworkSceneManager.OnClientStartedSceneChange
+- uid: Mirage.NetworkSceneManager.OnClientStartedSceneChange*
+  name: OnClientStartedSceneChange
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_OnClientStartedSceneChange_
+  commentId: Overload:Mirage.NetworkSceneManager.OnClientStartedSceneChange
+  isSpec: "True"
+  fullName: Mirage.NetworkSceneManager.OnClientStartedSceneChange
+  nameWithType: NetworkSceneManager.OnClientStartedSceneChange
+- uid: Mirage.NetworkSceneManager.OnDestroy
+  name: OnDestroy()
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_OnDestroy
+  commentId: M:Mirage.NetworkSceneManager.OnDestroy
+  fullName: Mirage.NetworkSceneManager.OnDestroy()
+  nameWithType: NetworkSceneManager.OnDestroy()
+- uid: Mirage.NetworkSceneManager.OnDestroy*
+  name: OnDestroy
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_OnDestroy_
+  commentId: Overload:Mirage.NetworkSceneManager.OnDestroy
+  isSpec: "True"
+  fullName: Mirage.NetworkSceneManager.OnDestroy
+  nameWithType: NetworkSceneManager.OnDestroy
+- uid: Mirage.NetworkSceneManager.OnServerAuthenticated(Mirage.INetworkPlayer)
+  name: OnServerAuthenticated(INetworkPlayer)
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_OnServerAuthenticated_Mirage_INetworkPlayer_
+  commentId: M:Mirage.NetworkSceneManager.OnServerAuthenticated(Mirage.INetworkPlayer)
+  fullName: Mirage.NetworkSceneManager.OnServerAuthenticated(Mirage.INetworkPlayer)
+  nameWithType: NetworkSceneManager.OnServerAuthenticated(INetworkPlayer)
+- uid: Mirage.NetworkSceneManager.OnServerAuthenticated*
+  name: OnServerAuthenticated
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_OnServerAuthenticated_
+  commentId: Overload:Mirage.NetworkSceneManager.OnServerAuthenticated
+  isSpec: "True"
+  fullName: Mirage.NetworkSceneManager.OnServerAuthenticated
+  nameWithType: NetworkSceneManager.OnServerAuthenticated
+- uid: Mirage.NetworkSceneManager.OnServerFinishedSceneChange
+  name: OnServerFinishedSceneChange
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_OnServerFinishedSceneChange
+  commentId: P:Mirage.NetworkSceneManager.OnServerFinishedSceneChange
+  fullName: Mirage.NetworkSceneManager.OnServerFinishedSceneChange
+  nameWithType: NetworkSceneManager.OnServerFinishedSceneChange
+- uid: Mirage.NetworkSceneManager.OnServerFinishedSceneChange*
+  name: OnServerFinishedSceneChange
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_OnServerFinishedSceneChange_
+  commentId: Overload:Mirage.NetworkSceneManager.OnServerFinishedSceneChange
+  isSpec: "True"
+  fullName: Mirage.NetworkSceneManager.OnServerFinishedSceneChange
+  nameWithType: NetworkSceneManager.OnServerFinishedSceneChange
+- uid: Mirage.NetworkSceneManager.OnServerPlayerDisconnected(Mirage.INetworkPlayer)
+  name: OnServerPlayerDisconnected(INetworkPlayer)
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_OnServerPlayerDisconnected_Mirage_INetworkPlayer_
+  commentId: M:Mirage.NetworkSceneManager.OnServerPlayerDisconnected(Mirage.INetworkPlayer)
+  fullName: Mirage.NetworkSceneManager.OnServerPlayerDisconnected(Mirage.INetworkPlayer)
+  nameWithType: NetworkSceneManager.OnServerPlayerDisconnected(INetworkPlayer)
+- uid: Mirage.NetworkSceneManager.OnServerPlayerDisconnected*
+  name: OnServerPlayerDisconnected
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_OnServerPlayerDisconnected_
+  commentId: Overload:Mirage.NetworkSceneManager.OnServerPlayerDisconnected
+  isSpec: "True"
+  fullName: Mirage.NetworkSceneManager.OnServerPlayerDisconnected
+  nameWithType: NetworkSceneManager.OnServerPlayerDisconnected
+- uid: Mirage.NetworkSceneManager.OnServerStartedSceneChange
+  name: OnServerStartedSceneChange
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_OnServerStartedSceneChange
+  commentId: P:Mirage.NetworkSceneManager.OnServerStartedSceneChange
+  fullName: Mirage.NetworkSceneManager.OnServerStartedSceneChange
+  nameWithType: NetworkSceneManager.OnServerStartedSceneChange
+- uid: Mirage.NetworkSceneManager.OnServerStartedSceneChange*
+  name: OnServerStartedSceneChange
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_OnServerStartedSceneChange_
+  commentId: Overload:Mirage.NetworkSceneManager.OnServerStartedSceneChange
+  isSpec: "True"
+  fullName: Mirage.NetworkSceneManager.OnServerStartedSceneChange
+  nameWithType: NetworkSceneManager.OnServerStartedSceneChange
+- uid: Mirage.NetworkSceneManager.SceneLoadingAsyncOperationInfo
+  name: SceneLoadingAsyncOperationInfo
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_SceneLoadingAsyncOperationInfo
+  commentId: F:Mirage.NetworkSceneManager.SceneLoadingAsyncOperationInfo
+  fullName: Mirage.NetworkSceneManager.SceneLoadingAsyncOperationInfo
+  nameWithType: NetworkSceneManager.SceneLoadingAsyncOperationInfo
+- uid: Mirage.NetworkSceneManager.ScenesPlayerIsIn(Mirage.INetworkPlayer)
+  name: ScenesPlayerIsIn(INetworkPlayer)
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ScenesPlayerIsIn_Mirage_INetworkPlayer_
+  commentId: M:Mirage.NetworkSceneManager.ScenesPlayerIsIn(Mirage.INetworkPlayer)
+  fullName: Mirage.NetworkSceneManager.ScenesPlayerIsIn(Mirage.INetworkPlayer)
+  nameWithType: NetworkSceneManager.ScenesPlayerIsIn(INetworkPlayer)
+- uid: Mirage.NetworkSceneManager.ScenesPlayerIsIn*
+  name: ScenesPlayerIsIn
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ScenesPlayerIsIn_
+  commentId: Overload:Mirage.NetworkSceneManager.ScenesPlayerIsIn
+  isSpec: "True"
+  fullName: Mirage.NetworkSceneManager.ScenesPlayerIsIn
+  nameWithType: NetworkSceneManager.ScenesPlayerIsIn
+- uid: Mirage.NetworkSceneManager.ScenesPlayerIsInNonAlloc(Mirage.INetworkPlayer,System.Collections.Generic.List{UnityEngine.SceneManagement.Scene})
+  name: ScenesPlayerIsInNonAlloc(INetworkPlayer, List<Scene>)
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ScenesPlayerIsInNonAlloc_Mirage_INetworkPlayer_System_Collections_Generic_List_UnityEngine_SceneManagement_Scene__
+  commentId: M:Mirage.NetworkSceneManager.ScenesPlayerIsInNonAlloc(Mirage.INetworkPlayer,System.Collections.Generic.List{UnityEngine.SceneManagement.Scene})
+  name.vb: ScenesPlayerIsInNonAlloc(INetworkPlayer, List(Of Scene))
+  fullName: Mirage.NetworkSceneManager.ScenesPlayerIsInNonAlloc(Mirage.INetworkPlayer, System.Collections.Generic.List<UnityEngine.SceneManagement.Scene>)
+  fullName.vb: Mirage.NetworkSceneManager.ScenesPlayerIsInNonAlloc(Mirage.INetworkPlayer, System.Collections.Generic.List(Of UnityEngine.SceneManagement.Scene))
+  nameWithType: NetworkSceneManager.ScenesPlayerIsInNonAlloc(INetworkPlayer, List<Scene>)
+  nameWithType.vb: NetworkSceneManager.ScenesPlayerIsInNonAlloc(INetworkPlayer, List(Of Scene))
+- uid: Mirage.NetworkSceneManager.ScenesPlayerIsInNonAlloc*
+  name: ScenesPlayerIsInNonAlloc
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ScenesPlayerIsInNonAlloc_
+  commentId: Overload:Mirage.NetworkSceneManager.ScenesPlayerIsInNonAlloc
+  isSpec: "True"
+  fullName: Mirage.NetworkSceneManager.ScenesPlayerIsInNonAlloc
+  nameWithType: NetworkSceneManager.ScenesPlayerIsInNonAlloc
 - uid: Mirage.NetworkSceneManager.Server
   name: Server
   href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_Server
   commentId: F:Mirage.NetworkSceneManager.Server
   fullName: Mirage.NetworkSceneManager.Server
   nameWithType: NetworkSceneManager.Server
-- uid: Mirage.NetworkSceneManager.ServerChangeScene
-  name: ServerChangeScene
-  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ServerChangeScene
-  commentId: P:Mirage.NetworkSceneManager.ServerChangeScene
-  fullName: Mirage.NetworkSceneManager.ServerChangeScene
-  nameWithType: NetworkSceneManager.ServerChangeScene
-- uid: Mirage.NetworkSceneManager.ServerChangeScene*
-  name: ServerChangeScene
-  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ServerChangeScene_
-  commentId: Overload:Mirage.NetworkSceneManager.ServerChangeScene
+- uid: Mirage.NetworkSceneManager.ServerLoadSceneAdditively(System.String,System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer},System.Boolean)
+  name: ServerLoadSceneAdditively(String, IEnumerable<INetworkPlayer>, Boolean)
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ServerLoadSceneAdditively_System_String_System_Collections_Generic_IEnumerable_Mirage_INetworkPlayer__System_Boolean_
+  commentId: M:Mirage.NetworkSceneManager.ServerLoadSceneAdditively(System.String,System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer},System.Boolean)
+  name.vb: ServerLoadSceneAdditively(String, IEnumerable(Of INetworkPlayer), Boolean)
+  fullName: Mirage.NetworkSceneManager.ServerLoadSceneAdditively(System.String, System.Collections.Generic.IEnumerable<Mirage.INetworkPlayer>, System.Boolean)
+  fullName.vb: Mirage.NetworkSceneManager.ServerLoadSceneAdditively(System.String, System.Collections.Generic.IEnumerable(Of Mirage.INetworkPlayer), System.Boolean)
+  nameWithType: NetworkSceneManager.ServerLoadSceneAdditively(String, IEnumerable<INetworkPlayer>, Boolean)
+  nameWithType.vb: NetworkSceneManager.ServerLoadSceneAdditively(String, IEnumerable(Of INetworkPlayer), Boolean)
+- uid: Mirage.NetworkSceneManager.ServerLoadSceneAdditively*
+  name: ServerLoadSceneAdditively
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ServerLoadSceneAdditively_
+  commentId: Overload:Mirage.NetworkSceneManager.ServerLoadSceneAdditively
   isSpec: "True"
-  fullName: Mirage.NetworkSceneManager.ServerChangeScene
-  nameWithType: NetworkSceneManager.ServerChangeScene
-- uid: Mirage.NetworkSceneManager.ServerSceneChanged
-  name: ServerSceneChanged
-  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ServerSceneChanged
-  commentId: P:Mirage.NetworkSceneManager.ServerSceneChanged
-  fullName: Mirage.NetworkSceneManager.ServerSceneChanged
-  nameWithType: NetworkSceneManager.ServerSceneChanged
-- uid: Mirage.NetworkSceneManager.ServerSceneChanged*
-  name: ServerSceneChanged
-  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ServerSceneChanged_
-  commentId: Overload:Mirage.NetworkSceneManager.ServerSceneChanged
+  fullName: Mirage.NetworkSceneManager.ServerLoadSceneAdditively
+  nameWithType: NetworkSceneManager.ServerLoadSceneAdditively
+- uid: Mirage.NetworkSceneManager.ServerLoadSceneNormal(System.String)
+  name: ServerLoadSceneNormal(String)
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ServerLoadSceneNormal_System_String_
+  commentId: M:Mirage.NetworkSceneManager.ServerLoadSceneNormal(System.String)
+  fullName: Mirage.NetworkSceneManager.ServerLoadSceneNormal(System.String)
+  nameWithType: NetworkSceneManager.ServerLoadSceneNormal(String)
+- uid: Mirage.NetworkSceneManager.ServerLoadSceneNormal*
+  name: ServerLoadSceneNormal
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ServerLoadSceneNormal_
+  commentId: Overload:Mirage.NetworkSceneManager.ServerLoadSceneNormal
   isSpec: "True"
-  fullName: Mirage.NetworkSceneManager.ServerSceneChanged
-  nameWithType: NetworkSceneManager.ServerSceneChanged
-- uid: Mirage.NetworkSceneManager.SetClientReady
-  name: SetClientReady()
-  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_SetClientReady
-  commentId: M:Mirage.NetworkSceneManager.SetClientReady
-  fullName: Mirage.NetworkSceneManager.SetClientReady()
-  nameWithType: NetworkSceneManager.SetClientReady()
-- uid: Mirage.NetworkSceneManager.SetClientReady*
-  name: SetClientReady
-  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_SetClientReady_
-  commentId: Overload:Mirage.NetworkSceneManager.SetClientReady
+  fullName: Mirage.NetworkSceneManager.ServerLoadSceneNormal
+  nameWithType: NetworkSceneManager.ServerLoadSceneNormal
+- uid: Mirage.NetworkSceneManager.ServerSceneData
+  name: ServerSceneData
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ServerSceneData
+  commentId: P:Mirage.NetworkSceneManager.ServerSceneData
+  fullName: Mirage.NetworkSceneManager.ServerSceneData
+  nameWithType: NetworkSceneManager.ServerSceneData
+- uid: Mirage.NetworkSceneManager.ServerSceneData*
+  name: ServerSceneData
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ServerSceneData_
+  commentId: Overload:Mirage.NetworkSceneManager.ServerSceneData
   isSpec: "True"
-  fullName: Mirage.NetworkSceneManager.SetClientReady
-  nameWithType: NetworkSceneManager.SetClientReady
+  fullName: Mirage.NetworkSceneManager.ServerSceneData
+  nameWithType: NetworkSceneManager.ServerSceneData
+- uid: Mirage.NetworkSceneManager.ServerUnloadSceneAdditively(UnityEngine.SceneManagement.Scene,System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer})
+  name: ServerUnloadSceneAdditively(Scene, IEnumerable<INetworkPlayer>)
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ServerUnloadSceneAdditively_UnityEngine_SceneManagement_Scene_System_Collections_Generic_IEnumerable_Mirage_INetworkPlayer__
+  commentId: M:Mirage.NetworkSceneManager.ServerUnloadSceneAdditively(UnityEngine.SceneManagement.Scene,System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer})
+  name.vb: ServerUnloadSceneAdditively(Scene, IEnumerable(Of INetworkPlayer))
+  fullName: Mirage.NetworkSceneManager.ServerUnloadSceneAdditively(UnityEngine.SceneManagement.Scene, System.Collections.Generic.IEnumerable<Mirage.INetworkPlayer>)
+  fullName.vb: Mirage.NetworkSceneManager.ServerUnloadSceneAdditively(UnityEngine.SceneManagement.Scene, System.Collections.Generic.IEnumerable(Of Mirage.INetworkPlayer))
+  nameWithType: NetworkSceneManager.ServerUnloadSceneAdditively(Scene, IEnumerable<INetworkPlayer>)
+  nameWithType.vb: NetworkSceneManager.ServerUnloadSceneAdditively(Scene, IEnumerable(Of INetworkPlayer))
+- uid: Mirage.NetworkSceneManager.ServerUnloadSceneAdditively*
+  name: ServerUnloadSceneAdditively
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ServerUnloadSceneAdditively_
+  commentId: Overload:Mirage.NetworkSceneManager.ServerUnloadSceneAdditively
+  isSpec: "True"
+  fullName: Mirage.NetworkSceneManager.ServerUnloadSceneAdditively
+  nameWithType: NetworkSceneManager.ServerUnloadSceneAdditively
+- uid: Mirage.NetworkSceneManager.SetSceneIsReady
+  name: SetSceneIsReady()
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_SetSceneIsReady
+  commentId: M:Mirage.NetworkSceneManager.SetSceneIsReady
+  fullName: Mirage.NetworkSceneManager.SetSceneIsReady()
+  nameWithType: NetworkSceneManager.SetSceneIsReady()
+- uid: Mirage.NetworkSceneManager.SetSceneIsReady*
+  name: SetSceneIsReady
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_SetSceneIsReady_
+  commentId: Overload:Mirage.NetworkSceneManager.SetSceneIsReady
+  isSpec: "True"
+  fullName: Mirage.NetworkSceneManager.SetSceneIsReady
+  nameWithType: NetworkSceneManager.SetSceneIsReady
 - uid: Mirage.NetworkSceneManager.Start
   name: Start()
   href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_Start
@@ -8712,24 +8941,24 @@ references:
   commentId: T:Mirage.SceneMessage
   fullName: Mirage.SceneMessage
   nameWithType: SceneMessage
-- uid: Mirage.SceneMessage.additiveScenes
-  name: additiveScenes
-  href: api/Mirage.SceneMessage.html#Mirage_SceneMessage_additiveScenes
-  commentId: F:Mirage.SceneMessage.additiveScenes
-  fullName: Mirage.SceneMessage.additiveScenes
-  nameWithType: SceneMessage.additiveScenes
-- uid: Mirage.SceneMessage.sceneOperation
-  name: sceneOperation
-  href: api/Mirage.SceneMessage.html#Mirage_SceneMessage_sceneOperation
-  commentId: F:Mirage.SceneMessage.sceneOperation
-  fullName: Mirage.SceneMessage.sceneOperation
-  nameWithType: SceneMessage.sceneOperation
-- uid: Mirage.SceneMessage.scenePath
-  name: scenePath
-  href: api/Mirage.SceneMessage.html#Mirage_SceneMessage_scenePath
-  commentId: F:Mirage.SceneMessage.scenePath
-  fullName: Mirage.SceneMessage.scenePath
-  nameWithType: SceneMessage.scenePath
+- uid: Mirage.SceneMessage.AdditiveScenes
+  name: AdditiveScenes
+  href: api/Mirage.SceneMessage.html#Mirage_SceneMessage_AdditiveScenes
+  commentId: F:Mirage.SceneMessage.AdditiveScenes
+  fullName: Mirage.SceneMessage.AdditiveScenes
+  nameWithType: SceneMessage.AdditiveScenes
+- uid: Mirage.SceneMessage.MainActivateScene
+  name: MainActivateScene
+  href: api/Mirage.SceneMessage.html#Mirage_SceneMessage_MainActivateScene
+  commentId: F:Mirage.SceneMessage.MainActivateScene
+  fullName: Mirage.SceneMessage.MainActivateScene
+  nameWithType: SceneMessage.MainActivateScene
+- uid: Mirage.SceneMessage.SceneOperation
+  name: SceneOperation
+  href: api/Mirage.SceneMessage.html#Mirage_SceneMessage_SceneOperation
+  commentId: F:Mirage.SceneMessage.SceneOperation
+  fullName: Mirage.SceneMessage.SceneOperation
+  nameWithType: SceneMessage.SceneOperation
 - uid: Mirage.SceneOperation
   name: SceneOperation
   href: api/Mirage.SceneOperation.html
