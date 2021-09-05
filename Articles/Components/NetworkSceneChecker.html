@@ -119,7 +119,7 @@ Tick this checkbox to hide this object from all players.</li>
     sceneOperation = SceneOperation.LoadAdditive
 };
 
-connectionToClient.Send(msg);
+Owner.Send(msg);
 </code></pre>
 <p>Then, on the server only, you just move the character object to the subscene:</p>
 <pre><code class="lang-cs">// Position the character object in world space first

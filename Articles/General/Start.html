@@ -118,7 +118,7 @@
 <li>Add a NetworkTransform component to the player Prefab</li>
 <li>Check the Client Authority checkbox on the component.</li>
 <li>Update input and control scripts to respect <code>IsLocalPlayer</code></li>
-<li>Subscribe to <code>NetIdentity.OnStartLocalPlayer</code> event to take control of the Main Camera in the scene for the player.</li>
+<li>Subscribe to <code>Identity.OnStartLocalPlayer</code> event to take control of the Main Camera in the scene for the player.</li>
 </ul>
 <p>For example, this script only processes input for the local player:</p>
 <pre><code class="lang-cs">using UnityEngine;

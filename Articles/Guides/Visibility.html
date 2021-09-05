@@ -130,7 +130,7 @@ This method is called on the server when <code>RebuildObservers</code> is invoke
 <li><strong>OnSetHostVisibility</strong><br>
 This method is called on the server by the visibility system for objects on a host.  Objects on a host (with a local client) cannot be disabled or destroyed when they are not visibile to the local client. So this function is called to allow custom code to hide these objects. A typical implementation will disable renderer components on the object. This is only called on local clients on a host.</li>
 </ul>
-<p>You can check whether any given networked game object is a player by checking if its <code>NetworkIdentity</code> has a valid connectionToClient. For example:</p>
+<p>You can check whether any given networked game object is a player by checking if its <code>NetworkIdentity</code> has a valid Owner. For example:</p>
 <pre><code class="lang-cs">int hitCount = Physics.OverlapSphereNonAlloc(transform.position, visRange, hitsBuffer3D, castLayers);
 
 for (int i = 0; i &lt; hitCount; i++)
@@ -139,8 +139,8 @@ for (int i = 0; i &lt; hitCount; i++)
 
     NetworkIdentity identity = hit.GetComponent&lt;NetworkIdentity&gt;();
 
-    if (identity != null &amp;&amp; identity.connectionToClient != null)
-        observers.Add(identity.connectionToClient);
+    if (identity != null &amp;&amp; identity.Owner != null)
+        observers.Add(identity.Owner);
 }
 </code></pre>
 </article>

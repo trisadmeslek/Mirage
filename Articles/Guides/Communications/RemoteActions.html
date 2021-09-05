@@ -165,7 +165,7 @@ To return a value,  add a return value using <code>UniTask&lt;MyReturnType&gt;</
 <li>The object has client authority set with <code>NetworkIdentity.AssignClientAuthority</code></li>
 <li>the Server RPC Call has the <code>requireAuthority</code> option set false.
 <ul>
-<li>You can include an optional <code>NetworkConnectionToClient sender = null</code> parameter in the Server RPC Call method signature and Mirage will fill in the sending client for you.</li>
+<li>You can include an optional <code>INetworkPlayer sender = null</code> parameter in the Server RPC Call method signature and Mirage will fill in the sending client for you.</li>
 <li>Do not try to set a value for this optional parameter...it will be ignored.</li>
 </ul>
 </li>
@@ -182,7 +182,7 @@ public class Door : NetworkBehaviour
     public DoorState doorState;
 
     [ServerRpc(requireAuthority = false)]
-    public void CmdSetDoorState(DoorState newDoorState, NetworkConnectionToClient sender = null)
+    public void CmdSetDoorState(DoorState newDoorState, INetworkPlayer sender = null)
     {
         if (sender.identity.GetComponent&lt;Player&gt;().hasDoorKey)
             doorState = newDoorState;
@@ -214,7 +214,7 @@ public class Door : NetworkBehaviour
 </code></pre>
 <p>When running a game as a host with a local client, ClientRpc calls will be invoked on the local client even though it is in the same process as the server. So the behaviours of local and remote clients are the same for ClientRpc calls.</p>
 <p>You can also specify which client gets the call with the <code>target</code> parameter.</p>
-<p>If you only want the client that owns the object to be called,  use <code>[ClientRpc(target = Client.Owner)]</code> or you can specify which client gets the message by using <code>[ClientRpc(target = Client.Connection)]</code> and passing the connection as a parameter.  For example:</p>
+<p>If you only want the client that owns the object to be called,  use <code>[ClientRpc(target = RpcTarget.Owner)]</code> or you can specify which client gets the message by using <code>[ClientRpc(target = RpcTarget.Player)]</code> and passing the player as a parameter.  For example:</p>
 <pre><code class="lang-cs">public class Player : NetworkBehaviour
 {
     int health;
@@ -225,11 +225,11 @@ public class Door : NetworkBehaviour
         target.GetComponent&lt;Player&gt;().health -= damage;
 
         NetworkIdentity opponentIdentity = target.GetComponent&lt;NetworkIdentity&gt;();
-        DoMagic(opponentIdentity.connectionToClient, damage);
+        DoMagic(opponentIdentity.Owner, damage);
     }
 
-    [ClientRpc(target = Client.Connection)]
-    public void DoMagic(NetworkConnection target, int damage)
+    [ClientRpc(target = Client.Player)]
+    public void DoMagic(INetworkPlayer target, int damage)
     {
         // This will appear on the opponent's client, not the attacking player's
         Debug.Log($&quot;Magic Damage = {damage}&quot;);
@@ -245,7 +245,7 @@ public class Door : NetworkBehaviour
     [ClientRpc(target = Client.Owner)]
     public void Healed(int amount)
     {
-        // No NetworkConnection parameter, so it goes to owner
+        // No NetworkPlayer parameter, so it goes to owner
         Debug.Log($&quot;Health increased by {amount}&quot;);
     }
 }

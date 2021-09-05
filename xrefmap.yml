@@ -333,30 +333,6 @@ references:
   commentId: F:Mirage.CharacterSpawner.startPositions
   fullName: Mirage.CharacterSpawner.startPositions
   nameWithType: CharacterSpawner.startPositions
-- uid: Mirage.Client
-  name: Client
-  href: api/Mirage.Client.html
-  commentId: T:Mirage.Client
-  fullName: Mirage.Client
-  nameWithType: Client
-- uid: Mirage.Client.Observers
-  name: Observers
-  href: api/Mirage.Client.html#Mirage_Client_Observers
-  commentId: F:Mirage.Client.Observers
-  fullName: Mirage.Client.Observers
-  nameWithType: Client.Observers
-- uid: Mirage.Client.Owner
-  name: Owner
-  href: api/Mirage.Client.html#Mirage_Client_Owner
-  commentId: F:Mirage.Client.Owner
-  fullName: Mirage.Client.Owner
-  nameWithType: Client.Owner
-- uid: Mirage.Client.Player
-  name: Player
-  href: api/Mirage.Client.html#Mirage_Client_Player
-  commentId: F:Mirage.Client.Player
-  fullName: Mirage.Client.Player
-  nameWithType: Client.Player
 - uid: Mirage.ClientAttribute
   name: ClientAttribute
   href: api/Mirage.ClientAttribute.html
@@ -5488,19 +5464,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkBehaviour.ComponentIndex
   nameWithType: NetworkBehaviour.ComponentIndex
-- uid: Mirage.NetworkBehaviour.ConnectionToClient
-  name: ConnectionToClient
-  href: api/Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_ConnectionToClient
-  commentId: P:Mirage.NetworkBehaviour.ConnectionToClient
-  fullName: Mirage.NetworkBehaviour.ConnectionToClient
-  nameWithType: NetworkBehaviour.ConnectionToClient
-- uid: Mirage.NetworkBehaviour.ConnectionToClient*
-  name: ConnectionToClient
-  href: api/Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_ConnectionToClient_
-  commentId: Overload:Mirage.NetworkBehaviour.ConnectionToClient
-  isSpec: "True"
-  fullName: Mirage.NetworkBehaviour.ConnectionToClient
-  nameWithType: NetworkBehaviour.ConnectionToClient
 - uid: Mirage.NetworkBehaviour.DeserializeSyncVars(Mirage.Serialization.NetworkReader,System.Boolean)
   name: DeserializeSyncVars(NetworkReader, Boolean)
   href: api/Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_DeserializeSyncVars_Mirage_Serialization_NetworkReader_System_Boolean_
@@ -5540,6 +5503,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkBehaviour.HasAuthority
   nameWithType: NetworkBehaviour.HasAuthority
+- uid: Mirage.NetworkBehaviour.Identity
+  name: Identity
+  href: api/Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_Identity
+  commentId: P:Mirage.NetworkBehaviour.Identity
+  fullName: Mirage.NetworkBehaviour.Identity
+  nameWithType: NetworkBehaviour.Identity
+- uid: Mirage.NetworkBehaviour.Identity*
+  name: Identity
+  href: api/Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_Identity_
+  commentId: Overload:Mirage.NetworkBehaviour.Identity
+  isSpec: "True"
+  fullName: Mirage.NetworkBehaviour.Identity
+  nameWithType: NetworkBehaviour.Identity
 - uid: Mirage.NetworkBehaviour.InitSyncObject(Mirage.Collections.ISyncObject)
   name: InitSyncObject(ISyncObject)
   href: api/Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_InitSyncObject_Mirage_Collections_ISyncObject_
@@ -5657,19 +5633,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkBehaviour.NetId
   nameWithType: NetworkBehaviour.NetId
-- uid: Mirage.NetworkBehaviour.NetIdentity
-  name: NetIdentity
-  href: api/Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_NetIdentity
-  commentId: P:Mirage.NetworkBehaviour.NetIdentity
-  fullName: Mirage.NetworkBehaviour.NetIdentity
-  nameWithType: NetworkBehaviour.NetIdentity
-- uid: Mirage.NetworkBehaviour.NetIdentity*
-  name: NetIdentity
-  href: api/Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_NetIdentity_
-  commentId: Overload:Mirage.NetworkBehaviour.NetIdentity
-  isSpec: "True"
-  fullName: Mirage.NetworkBehaviour.NetIdentity
-  nameWithType: NetworkBehaviour.NetIdentity
 - uid: Mirage.NetworkBehaviour.NetworkTime
   name: NetworkTime
   href: api/Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_NetworkTime
@@ -5709,6 +5672,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkBehaviour.OnSerialize
   nameWithType: NetworkBehaviour.OnSerialize
+- uid: Mirage.NetworkBehaviour.Owner
+  name: Owner
+  href: api/Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_Owner
+  commentId: P:Mirage.NetworkBehaviour.Owner
+  fullName: Mirage.NetworkBehaviour.Owner
+  nameWithType: NetworkBehaviour.Owner
+- uid: Mirage.NetworkBehaviour.Owner*
+  name: Owner
+  href: api/Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_Owner_
+  commentId: Overload:Mirage.NetworkBehaviour.Owner
+  isSpec: "True"
+  fullName: Mirage.NetworkBehaviour.Owner
+  nameWithType: NetworkBehaviour.Owner
 - uid: Mirage.NetworkBehaviour.SendRpcInternal(System.Type,System.String,Mirage.Serialization.NetworkWriter,System.Int32,System.Boolean)
   name: SendRpcInternal(Type, String, NetworkWriter, Int32, Boolean)
   href: api/Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_SendRpcInternal_System_Type_System_String_Mirage_Serialization_NetworkWriter_System_Int32_System_Boolean_
@@ -6286,19 +6262,6 @@ references:
   commentId: F:Mirage.NetworkIdentity.ClientObjectManager
   fullName: Mirage.NetworkIdentity.ClientObjectManager
   nameWithType: NetworkIdentity.ClientObjectManager
-- uid: Mirage.NetworkIdentity.ConnectionToClient
-  name: ConnectionToClient
-  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_ConnectionToClient
-  commentId: P:Mirage.NetworkIdentity.ConnectionToClient
-  fullName: Mirage.NetworkIdentity.ConnectionToClient
-  nameWithType: NetworkIdentity.ConnectionToClient
-- uid: Mirage.NetworkIdentity.ConnectionToClient*
-  name: ConnectionToClient
-  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_ConnectionToClient_
-  commentId: Overload:Mirage.NetworkIdentity.ConnectionToClient
-  isSpec: "True"
-  fullName: Mirage.NetworkIdentity.ConnectionToClient
-  nameWithType: NetworkIdentity.ConnectionToClient
 - uid: Mirage.NetworkIdentity.GetSceneIdentity(System.UInt64)
   name: GetSceneIdentity(UInt64)
   href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_GetSceneIdentity_System_UInt64_
@@ -6487,6 +6450,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkIdentity.OnStopServer
   nameWithType: NetworkIdentity.OnStopServer
+- uid: Mirage.NetworkIdentity.Owner
+  name: Owner
+  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_Owner
+  commentId: P:Mirage.NetworkIdentity.Owner
+  fullName: Mirage.NetworkIdentity.Owner
+  nameWithType: NetworkIdentity.Owner
+- uid: Mirage.NetworkIdentity.Owner*
+  name: Owner
+  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_Owner_
+  commentId: Overload:Mirage.NetworkIdentity.Owner
+  isSpec: "True"
+  fullName: Mirage.NetworkIdentity.Owner
+  nameWithType: NetworkIdentity.Owner
 - uid: Mirage.NetworkIdentity.RebuildObservers(System.Boolean)
   name: RebuildObservers(Boolean)
   href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_RebuildObservers_System_Boolean_
@@ -8923,6 +8899,30 @@ references:
   commentId: F:Mirage.RpcMessage.payload
   fullName: Mirage.RpcMessage.payload
   nameWithType: RpcMessage.payload
+- uid: Mirage.RpcTarget
+  name: RpcTarget
+  href: api/Mirage.RpcTarget.html
+  commentId: T:Mirage.RpcTarget
+  fullName: Mirage.RpcTarget
+  nameWithType: RpcTarget
+- uid: Mirage.RpcTarget.Observers
+  name: Observers
+  href: api/Mirage.RpcTarget.html#Mirage_RpcTarget_Observers
+  commentId: F:Mirage.RpcTarget.Observers
+  fullName: Mirage.RpcTarget.Observers
+  nameWithType: RpcTarget.Observers
+- uid: Mirage.RpcTarget.Owner
+  name: Owner
+  href: api/Mirage.RpcTarget.html#Mirage_RpcTarget_Owner
+  commentId: F:Mirage.RpcTarget.Owner
+  fullName: Mirage.RpcTarget.Owner
+  nameWithType: RpcTarget.Owner
+- uid: Mirage.RpcTarget.Player
+  name: Player
+  href: api/Mirage.RpcTarget.html#Mirage_RpcTarget_Player
+  commentId: F:Mirage.RpcTarget.Player
+  fullName: Mirage.RpcTarget.Player
+  nameWithType: RpcTarget.Player
 - uid: Mirage.SceneAttribute
   name: SceneAttribute
   href: api/Mirage.SceneAttribute.html
