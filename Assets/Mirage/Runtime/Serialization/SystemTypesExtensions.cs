@@ -48,6 +48,19 @@ namespace Mirage.Serialization
             public decimal decimalValue;
         }
 
+        [StructLayout(LayoutKind.Explicit, Size = 16)]
+        internal struct GUIDConverter
+        {
+            [FieldOffset(0)]
+            public Guid guidValue;
+
+            [FieldOffset(0)]
+            public ulong longValue1;
+
+            [FieldOffset(8)]
+            public ulong longValue2;
+        }
+
         public static void WriteByteExtension(this NetworkWriter writer, byte value) => writer.WriteByte(value);
 
         public static void WriteSByteExtension(this NetworkWriter writer, sbyte value) => writer.WriteSByte(value);
@@ -92,10 +105,14 @@ namespace Mirage.Serialization
             writer.WriteUInt64(converter.longValue2);
         }
 
-        public static void WriteGuid(this NetworkWriter writer, Guid value)
+        public static void WriteGuidConverter(this NetworkWriter writer, Guid value)
         {
-            byte[] data = value.ToByteArray();
-            writer.WriteBytes(data, 0, data.Length);
+            var converter = new GUIDConverter
+            {
+                guidValue = value
+            };
+            writer.WriteUInt64(converter.longValue1);
+            writer.WriteUInt64(converter.longValue2);
         }
 
         public static void WriteNullable<T>(this NetworkWriter writer, T? nullable) where T : struct
@@ -142,7 +159,16 @@ namespace Mirage.Serialization
             };
             return converter.decimalValue;
         }
-        public static Guid ReadGuid(this NetworkReader reader) => new Guid(reader.ReadBytes(16));
+        public static Guid ReadGuidConverter(this NetworkReader reader)
+        {
+            var converter = new GUIDConverter
+            {
+                longValue1 = reader.ReadUInt64(),
+                longValue2 = reader.ReadUInt64()
+            };
+            return converter.guidValue;
+        }
+
         public static T? ReadNullable<T>(this NetworkReader reader) where T : struct
         {
             bool hasValue = reader.ReadBoolean();
