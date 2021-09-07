@@ -163,6 +163,12 @@ namespace Mirage
         public ulong sceneId;
 
         /// <summary>
+        /// Does this object have a <see cref="sceneId" />
+        /// <para>Scene objects will be based on objects in the scene, rather than instantiate new object like Prefabs</para>
+        /// </summary>
+        public bool IsSceneObject => sceneId != 0;
+
+        /// <summary>
         /// The NetworkServer associated with this NetworkIdentity.
         /// </summary>
         public INetworkServer Server { get; internal set; }
@@ -241,8 +247,10 @@ namespace Mirage
             }
         }
 
+        // todo store struct at runtime to avoid doing `new Guid(string)` each time we get AssetId
         [SerializeField, HideInInspector] string m_AssetId;
 
+        public bool IsPrefab => this.AssetId != Guid.Empty;
 
         /// <remarks>
         /// The AssetId trick:
