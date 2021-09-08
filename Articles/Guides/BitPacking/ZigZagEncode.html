@@ -98,7 +98,7 @@
 
 <p>To encoding a value using <a href="https://gist.github.com/mfuerstenau/ba870a29e16536fdbaba">ZigZag Encoding</a> you can use the <a class="xref" href="../../../api/Mirage.Serialization.ZigZagEncodeAttribute.html">ZigZagEncodeAttribute</a></p>
 <p>This will cause negative values to be encoded as positive so that the sign bit is not lost when packing.</p>
-<p>This works best with <a href="VarIntBlock.html">VarIntBlock</a> but also works with <a href="BitCount.html">BitCount</a>.</p>
+<p>This works best with <a href="VarIntBlocks.html">VarIntBlocks</a> but also works with <a href="BitCount.html">BitCount</a>.</p>
 <p>This attribute can not be used on the same field as <a href="BitCountFromRange.html">BitCountFromRange</a>, this is because <code>BitCountFromRange</code> already ensures negative values are packed correctly.</p>
 <div class="NOTE">
 <h5>Note</h5>

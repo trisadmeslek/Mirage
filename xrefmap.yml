@@ -11483,160 +11483,204 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.UnityTypesExtensions.WriteVector4
   nameWithType: UnityTypesExtensions.WriteVector4
-- uid: Mirage.Serialization.VariableBlockPacker
-  name: VariableBlockPacker
-  href: api/Mirage.Serialization.VariableBlockPacker.html
-  commentId: T:Mirage.Serialization.VariableBlockPacker
-  fullName: Mirage.Serialization.VariableBlockPacker
-  nameWithType: VariableBlockPacker
-- uid: Mirage.Serialization.VariableBlockPacker.Pack(Mirage.Serialization.NetworkWriter,System.UInt64,System.Int32)
+- uid: Mirage.Serialization.VarIntAttribute
+  name: VarIntAttribute
+  href: api/Mirage.Serialization.VarIntAttribute.html
+  commentId: T:Mirage.Serialization.VarIntAttribute
+  fullName: Mirage.Serialization.VarIntAttribute
+  nameWithType: VarIntAttribute
+- uid: Mirage.Serialization.VarIntAttribute.#ctor(System.UInt64,System.UInt64)
+  name: VarIntAttribute(UInt64, UInt64)
+  href: api/Mirage.Serialization.VarIntAttribute.html#Mirage_Serialization_VarIntAttribute__ctor_System_UInt64_System_UInt64_
+  commentId: M:Mirage.Serialization.VarIntAttribute.#ctor(System.UInt64,System.UInt64)
+  fullName: Mirage.Serialization.VarIntAttribute.VarIntAttribute(System.UInt64, System.UInt64)
+  nameWithType: VarIntAttribute.VarIntAttribute(UInt64, UInt64)
+- uid: Mirage.Serialization.VarIntAttribute.#ctor(System.UInt64,System.UInt64,System.UInt64,System.Boolean)
+  name: VarIntAttribute(UInt64, UInt64, UInt64, Boolean)
+  href: api/Mirage.Serialization.VarIntAttribute.html#Mirage_Serialization_VarIntAttribute__ctor_System_UInt64_System_UInt64_System_UInt64_System_Boolean_
+  commentId: M:Mirage.Serialization.VarIntAttribute.#ctor(System.UInt64,System.UInt64,System.UInt64,System.Boolean)
+  fullName: Mirage.Serialization.VarIntAttribute.VarIntAttribute(System.UInt64, System.UInt64, System.UInt64, System.Boolean)
+  nameWithType: VarIntAttribute.VarIntAttribute(UInt64, UInt64, UInt64, Boolean)
+- uid: Mirage.Serialization.VarIntAttribute.#ctor*
+  name: VarIntAttribute
+  href: api/Mirage.Serialization.VarIntAttribute.html#Mirage_Serialization_VarIntAttribute__ctor_
+  commentId: Overload:Mirage.Serialization.VarIntAttribute.#ctor
+  isSpec: "True"
+  fullName: Mirage.Serialization.VarIntAttribute.VarIntAttribute
+  nameWithType: VarIntAttribute.VarIntAttribute
+- uid: Mirage.Serialization.VarIntBlocksAttribute
+  name: VarIntBlocksAttribute
+  href: api/Mirage.Serialization.VarIntBlocksAttribute.html
+  commentId: T:Mirage.Serialization.VarIntBlocksAttribute
+  fullName: Mirage.Serialization.VarIntBlocksAttribute
+  nameWithType: VarIntBlocksAttribute
+- uid: Mirage.Serialization.VarIntBlocksAttribute.#ctor(System.Int32)
+  name: VarIntBlocksAttribute(Int32)
+  href: api/Mirage.Serialization.VarIntBlocksAttribute.html#Mirage_Serialization_VarIntBlocksAttribute__ctor_System_Int32_
+  commentId: M:Mirage.Serialization.VarIntBlocksAttribute.#ctor(System.Int32)
+  fullName: Mirage.Serialization.VarIntBlocksAttribute.VarIntBlocksAttribute(System.Int32)
+  nameWithType: VarIntBlocksAttribute.VarIntBlocksAttribute(Int32)
+- uid: Mirage.Serialization.VarIntBlocksAttribute.#ctor*
+  name: VarIntBlocksAttribute
+  href: api/Mirage.Serialization.VarIntBlocksAttribute.html#Mirage_Serialization_VarIntBlocksAttribute__ctor_
+  commentId: Overload:Mirage.Serialization.VarIntBlocksAttribute.#ctor
+  isSpec: "True"
+  fullName: Mirage.Serialization.VarIntBlocksAttribute.VarIntBlocksAttribute
+  nameWithType: VarIntBlocksAttribute.VarIntBlocksAttribute
+- uid: Mirage.Serialization.VarIntBlocksPacker
+  name: VarIntBlocksPacker
+  href: api/Mirage.Serialization.VarIntBlocksPacker.html
+  commentId: T:Mirage.Serialization.VarIntBlocksPacker
+  fullName: Mirage.Serialization.VarIntBlocksPacker
+  nameWithType: VarIntBlocksPacker
+- uid: Mirage.Serialization.VarIntBlocksPacker.Pack(Mirage.Serialization.NetworkWriter,System.UInt64,System.Int32)
   name: Pack(NetworkWriter, UInt64, Int32)
-  href: api/Mirage.Serialization.VariableBlockPacker.html#Mirage_Serialization_VariableBlockPacker_Pack_Mirage_Serialization_NetworkWriter_System_UInt64_System_Int32_
-  commentId: M:Mirage.Serialization.VariableBlockPacker.Pack(Mirage.Serialization.NetworkWriter,System.UInt64,System.Int32)
-  fullName: Mirage.Serialization.VariableBlockPacker.Pack(Mirage.Serialization.NetworkWriter, System.UInt64, System.Int32)
-  nameWithType: VariableBlockPacker.Pack(NetworkWriter, UInt64, Int32)
-- uid: Mirage.Serialization.VariableBlockPacker.Pack*
+  href: api/Mirage.Serialization.VarIntBlocksPacker.html#Mirage_Serialization_VarIntBlocksPacker_Pack_Mirage_Serialization_NetworkWriter_System_UInt64_System_Int32_
+  commentId: M:Mirage.Serialization.VarIntBlocksPacker.Pack(Mirage.Serialization.NetworkWriter,System.UInt64,System.Int32)
+  fullName: Mirage.Serialization.VarIntBlocksPacker.Pack(Mirage.Serialization.NetworkWriter, System.UInt64, System.Int32)
+  nameWithType: VarIntBlocksPacker.Pack(NetworkWriter, UInt64, Int32)
+- uid: Mirage.Serialization.VarIntBlocksPacker.Pack*
   name: Pack
-  href: api/Mirage.Serialization.VariableBlockPacker.html#Mirage_Serialization_VariableBlockPacker_Pack_
-  commentId: Overload:Mirage.Serialization.VariableBlockPacker.Pack
+  href: api/Mirage.Serialization.VarIntBlocksPacker.html#Mirage_Serialization_VarIntBlocksPacker_Pack_
+  commentId: Overload:Mirage.Serialization.VarIntBlocksPacker.Pack
   isSpec: "True"
-  fullName: Mirage.Serialization.VariableBlockPacker.Pack
-  nameWithType: VariableBlockPacker.Pack
-- uid: Mirage.Serialization.VariableBlockPacker.Unpack(Mirage.Serialization.NetworkReader,System.Int32)
+  fullName: Mirage.Serialization.VarIntBlocksPacker.Pack
+  nameWithType: VarIntBlocksPacker.Pack
+- uid: Mirage.Serialization.VarIntBlocksPacker.Unpack(Mirage.Serialization.NetworkReader,System.Int32)
   name: Unpack(NetworkReader, Int32)
-  href: api/Mirage.Serialization.VariableBlockPacker.html#Mirage_Serialization_VariableBlockPacker_Unpack_Mirage_Serialization_NetworkReader_System_Int32_
-  commentId: M:Mirage.Serialization.VariableBlockPacker.Unpack(Mirage.Serialization.NetworkReader,System.Int32)
-  fullName: Mirage.Serialization.VariableBlockPacker.Unpack(Mirage.Serialization.NetworkReader, System.Int32)
-  nameWithType: VariableBlockPacker.Unpack(NetworkReader, Int32)
-- uid: Mirage.Serialization.VariableBlockPacker.Unpack*
+  href: api/Mirage.Serialization.VarIntBlocksPacker.html#Mirage_Serialization_VarIntBlocksPacker_Unpack_Mirage_Serialization_NetworkReader_System_Int32_
+  commentId: M:Mirage.Serialization.VarIntBlocksPacker.Unpack(Mirage.Serialization.NetworkReader,System.Int32)
+  fullName: Mirage.Serialization.VarIntBlocksPacker.Unpack(Mirage.Serialization.NetworkReader, System.Int32)
+  nameWithType: VarIntBlocksPacker.Unpack(NetworkReader, Int32)
+- uid: Mirage.Serialization.VarIntBlocksPacker.Unpack*
   name: Unpack
-  href: api/Mirage.Serialization.VariableBlockPacker.html#Mirage_Serialization_VariableBlockPacker_Unpack_
-  commentId: Overload:Mirage.Serialization.VariableBlockPacker.Unpack
+  href: api/Mirage.Serialization.VarIntBlocksPacker.html#Mirage_Serialization_VarIntBlocksPacker_Unpack_
+  commentId: Overload:Mirage.Serialization.VarIntBlocksPacker.Unpack
   isSpec: "True"
-  fullName: Mirage.Serialization.VariableBlockPacker.Unpack
-  nameWithType: VariableBlockPacker.Unpack
-- uid: Mirage.Serialization.VariableIntPacker
-  name: VariableIntPacker
-  href: api/Mirage.Serialization.VariableIntPacker.html
-  commentId: T:Mirage.Serialization.VariableIntPacker
-  fullName: Mirage.Serialization.VariableIntPacker
-  nameWithType: VariableIntPacker
-- uid: Mirage.Serialization.VariableIntPacker.#ctor(System.UInt64,System.UInt64)
-  name: VariableIntPacker(UInt64, UInt64)
-  href: api/Mirage.Serialization.VariableIntPacker.html#Mirage_Serialization_VariableIntPacker__ctor_System_UInt64_System_UInt64_
-  commentId: M:Mirage.Serialization.VariableIntPacker.#ctor(System.UInt64,System.UInt64)
-  fullName: Mirage.Serialization.VariableIntPacker.VariableIntPacker(System.UInt64, System.UInt64)
-  nameWithType: VariableIntPacker.VariableIntPacker(UInt64, UInt64)
-- uid: Mirage.Serialization.VariableIntPacker.#ctor(System.UInt64,System.UInt64,System.UInt64,System.Boolean)
-  name: VariableIntPacker(UInt64, UInt64, UInt64, Boolean)
-  href: api/Mirage.Serialization.VariableIntPacker.html#Mirage_Serialization_VariableIntPacker__ctor_System_UInt64_System_UInt64_System_UInt64_System_Boolean_
-  commentId: M:Mirage.Serialization.VariableIntPacker.#ctor(System.UInt64,System.UInt64,System.UInt64,System.Boolean)
-  fullName: Mirage.Serialization.VariableIntPacker.VariableIntPacker(System.UInt64, System.UInt64, System.UInt64, System.Boolean)
-  nameWithType: VariableIntPacker.VariableIntPacker(UInt64, UInt64, UInt64, Boolean)
-- uid: Mirage.Serialization.VariableIntPacker.#ctor*
-  name: VariableIntPacker
-  href: api/Mirage.Serialization.VariableIntPacker.html#Mirage_Serialization_VariableIntPacker__ctor_
-  commentId: Overload:Mirage.Serialization.VariableIntPacker.#ctor
+  fullName: Mirage.Serialization.VarIntBlocksPacker.Unpack
+  nameWithType: VarIntBlocksPacker.Unpack
+- uid: Mirage.Serialization.VarIntPacker
+  name: VarIntPacker
+  href: api/Mirage.Serialization.VarIntPacker.html
+  commentId: T:Mirage.Serialization.VarIntPacker
+  fullName: Mirage.Serialization.VarIntPacker
+  nameWithType: VarIntPacker
+- uid: Mirage.Serialization.VarIntPacker.#ctor(System.UInt64,System.UInt64)
+  name: VarIntPacker(UInt64, UInt64)
+  href: api/Mirage.Serialization.VarIntPacker.html#Mirage_Serialization_VarIntPacker__ctor_System_UInt64_System_UInt64_
+  commentId: M:Mirage.Serialization.VarIntPacker.#ctor(System.UInt64,System.UInt64)
+  fullName: Mirage.Serialization.VarIntPacker.VarIntPacker(System.UInt64, System.UInt64)
+  nameWithType: VarIntPacker.VarIntPacker(UInt64, UInt64)
+- uid: Mirage.Serialization.VarIntPacker.#ctor(System.UInt64,System.UInt64,System.UInt64,System.Boolean)
+  name: VarIntPacker(UInt64, UInt64, UInt64, Boolean)
+  href: api/Mirage.Serialization.VarIntPacker.html#Mirage_Serialization_VarIntPacker__ctor_System_UInt64_System_UInt64_System_UInt64_System_Boolean_
+  commentId: M:Mirage.Serialization.VarIntPacker.#ctor(System.UInt64,System.UInt64,System.UInt64,System.Boolean)
+  fullName: Mirage.Serialization.VarIntPacker.VarIntPacker(System.UInt64, System.UInt64, System.UInt64, System.Boolean)
+  nameWithType: VarIntPacker.VarIntPacker(UInt64, UInt64, UInt64, Boolean)
+- uid: Mirage.Serialization.VarIntPacker.#ctor*
+  name: VarIntPacker
+  href: api/Mirage.Serialization.VarIntPacker.html#Mirage_Serialization_VarIntPacker__ctor_
+  commentId: Overload:Mirage.Serialization.VarIntPacker.#ctor
   isSpec: "True"
-  fullName: Mirage.Serialization.VariableIntPacker.VariableIntPacker
-  nameWithType: VariableIntPacker.VariableIntPacker
-- uid: Mirage.Serialization.VariableIntPacker.FromBitCount(System.Int32,System.Int32)
+  fullName: Mirage.Serialization.VarIntPacker.VarIntPacker
+  nameWithType: VarIntPacker.VarIntPacker
+- uid: Mirage.Serialization.VarIntPacker.FromBitCount(System.Int32,System.Int32)
   name: FromBitCount(Int32, Int32)
-  href: api/Mirage.Serialization.VariableIntPacker.html#Mirage_Serialization_VariableIntPacker_FromBitCount_System_Int32_System_Int32_
-  commentId: M:Mirage.Serialization.VariableIntPacker.FromBitCount(System.Int32,System.Int32)
-  fullName: Mirage.Serialization.VariableIntPacker.FromBitCount(System.Int32, System.Int32)
-  nameWithType: VariableIntPacker.FromBitCount(Int32, Int32)
-- uid: Mirage.Serialization.VariableIntPacker.FromBitCount(System.Int32,System.Int32,System.Int32,System.Boolean)
+  href: api/Mirage.Serialization.VarIntPacker.html#Mirage_Serialization_VarIntPacker_FromBitCount_System_Int32_System_Int32_
+  commentId: M:Mirage.Serialization.VarIntPacker.FromBitCount(System.Int32,System.Int32)
+  fullName: Mirage.Serialization.VarIntPacker.FromBitCount(System.Int32, System.Int32)
+  nameWithType: VarIntPacker.FromBitCount(Int32, Int32)
+- uid: Mirage.Serialization.VarIntPacker.FromBitCount(System.Int32,System.Int32,System.Int32,System.Boolean)
   name: FromBitCount(Int32, Int32, Int32, Boolean)
-  href: api/Mirage.Serialization.VariableIntPacker.html#Mirage_Serialization_VariableIntPacker_FromBitCount_System_Int32_System_Int32_System_Int32_System_Boolean_
-  commentId: M:Mirage.Serialization.VariableIntPacker.FromBitCount(System.Int32,System.Int32,System.Int32,System.Boolean)
-  fullName: Mirage.Serialization.VariableIntPacker.FromBitCount(System.Int32, System.Int32, System.Int32, System.Boolean)
-  nameWithType: VariableIntPacker.FromBitCount(Int32, Int32, Int32, Boolean)
-- uid: Mirage.Serialization.VariableIntPacker.FromBitCount*
+  href: api/Mirage.Serialization.VarIntPacker.html#Mirage_Serialization_VarIntPacker_FromBitCount_System_Int32_System_Int32_System_Int32_System_Boolean_
+  commentId: M:Mirage.Serialization.VarIntPacker.FromBitCount(System.Int32,System.Int32,System.Int32,System.Boolean)
+  fullName: Mirage.Serialization.VarIntPacker.FromBitCount(System.Int32, System.Int32, System.Int32, System.Boolean)
+  nameWithType: VarIntPacker.FromBitCount(Int32, Int32, Int32, Boolean)
+- uid: Mirage.Serialization.VarIntPacker.FromBitCount*
   name: FromBitCount
-  href: api/Mirage.Serialization.VariableIntPacker.html#Mirage_Serialization_VariableIntPacker_FromBitCount_
-  commentId: Overload:Mirage.Serialization.VariableIntPacker.FromBitCount
+  href: api/Mirage.Serialization.VarIntPacker.html#Mirage_Serialization_VarIntPacker_FromBitCount_
+  commentId: Overload:Mirage.Serialization.VarIntPacker.FromBitCount
   isSpec: "True"
-  fullName: Mirage.Serialization.VariableIntPacker.FromBitCount
-  nameWithType: VariableIntPacker.FromBitCount
-- uid: Mirage.Serialization.VariableIntPacker.PackUint(Mirage.Serialization.NetworkWriter,System.UInt32)
+  fullName: Mirage.Serialization.VarIntPacker.FromBitCount
+  nameWithType: VarIntPacker.FromBitCount
+- uid: Mirage.Serialization.VarIntPacker.PackUint(Mirage.Serialization.NetworkWriter,System.UInt32)
   name: PackUint(NetworkWriter, UInt32)
-  href: api/Mirage.Serialization.VariableIntPacker.html#Mirage_Serialization_VariableIntPacker_PackUint_Mirage_Serialization_NetworkWriter_System_UInt32_
-  commentId: M:Mirage.Serialization.VariableIntPacker.PackUint(Mirage.Serialization.NetworkWriter,System.UInt32)
-  fullName: Mirage.Serialization.VariableIntPacker.PackUint(Mirage.Serialization.NetworkWriter, System.UInt32)
-  nameWithType: VariableIntPacker.PackUint(NetworkWriter, UInt32)
-- uid: Mirage.Serialization.VariableIntPacker.PackUint*
+  href: api/Mirage.Serialization.VarIntPacker.html#Mirage_Serialization_VarIntPacker_PackUint_Mirage_Serialization_NetworkWriter_System_UInt32_
+  commentId: M:Mirage.Serialization.VarIntPacker.PackUint(Mirage.Serialization.NetworkWriter,System.UInt32)
+  fullName: Mirage.Serialization.VarIntPacker.PackUint(Mirage.Serialization.NetworkWriter, System.UInt32)
+  nameWithType: VarIntPacker.PackUint(NetworkWriter, UInt32)
+- uid: Mirage.Serialization.VarIntPacker.PackUint*
   name: PackUint
-  href: api/Mirage.Serialization.VariableIntPacker.html#Mirage_Serialization_VariableIntPacker_PackUint_
-  commentId: Overload:Mirage.Serialization.VariableIntPacker.PackUint
+  href: api/Mirage.Serialization.VarIntPacker.html#Mirage_Serialization_VarIntPacker_PackUint_
+  commentId: Overload:Mirage.Serialization.VarIntPacker.PackUint
   isSpec: "True"
-  fullName: Mirage.Serialization.VariableIntPacker.PackUint
-  nameWithType: VariableIntPacker.PackUint
-- uid: Mirage.Serialization.VariableIntPacker.PackUlong(Mirage.Serialization.NetworkWriter,System.UInt64)
+  fullName: Mirage.Serialization.VarIntPacker.PackUint
+  nameWithType: VarIntPacker.PackUint
+- uid: Mirage.Serialization.VarIntPacker.PackUlong(Mirage.Serialization.NetworkWriter,System.UInt64)
   name: PackUlong(NetworkWriter, UInt64)
-  href: api/Mirage.Serialization.VariableIntPacker.html#Mirage_Serialization_VariableIntPacker_PackUlong_Mirage_Serialization_NetworkWriter_System_UInt64_
-  commentId: M:Mirage.Serialization.VariableIntPacker.PackUlong(Mirage.Serialization.NetworkWriter,System.UInt64)
-  fullName: Mirage.Serialization.VariableIntPacker.PackUlong(Mirage.Serialization.NetworkWriter, System.UInt64)
-  nameWithType: VariableIntPacker.PackUlong(NetworkWriter, UInt64)
-- uid: Mirage.Serialization.VariableIntPacker.PackUlong*
+  href: api/Mirage.Serialization.VarIntPacker.html#Mirage_Serialization_VarIntPacker_PackUlong_Mirage_Serialization_NetworkWriter_System_UInt64_
+  commentId: M:Mirage.Serialization.VarIntPacker.PackUlong(Mirage.Serialization.NetworkWriter,System.UInt64)
+  fullName: Mirage.Serialization.VarIntPacker.PackUlong(Mirage.Serialization.NetworkWriter, System.UInt64)
+  nameWithType: VarIntPacker.PackUlong(NetworkWriter, UInt64)
+- uid: Mirage.Serialization.VarIntPacker.PackUlong*
   name: PackUlong
-  href: api/Mirage.Serialization.VariableIntPacker.html#Mirage_Serialization_VariableIntPacker_PackUlong_
-  commentId: Overload:Mirage.Serialization.VariableIntPacker.PackUlong
+  href: api/Mirage.Serialization.VarIntPacker.html#Mirage_Serialization_VarIntPacker_PackUlong_
+  commentId: Overload:Mirage.Serialization.VarIntPacker.PackUlong
   isSpec: "True"
-  fullName: Mirage.Serialization.VariableIntPacker.PackUlong
-  nameWithType: VariableIntPacker.PackUlong
-- uid: Mirage.Serialization.VariableIntPacker.PackUshort(Mirage.Serialization.NetworkWriter,System.UInt16)
+  fullName: Mirage.Serialization.VarIntPacker.PackUlong
+  nameWithType: VarIntPacker.PackUlong
+- uid: Mirage.Serialization.VarIntPacker.PackUshort(Mirage.Serialization.NetworkWriter,System.UInt16)
   name: PackUshort(NetworkWriter, UInt16)
-  href: api/Mirage.Serialization.VariableIntPacker.html#Mirage_Serialization_VariableIntPacker_PackUshort_Mirage_Serialization_NetworkWriter_System_UInt16_
-  commentId: M:Mirage.Serialization.VariableIntPacker.PackUshort(Mirage.Serialization.NetworkWriter,System.UInt16)
-  fullName: Mirage.Serialization.VariableIntPacker.PackUshort(Mirage.Serialization.NetworkWriter, System.UInt16)
-  nameWithType: VariableIntPacker.PackUshort(NetworkWriter, UInt16)
-- uid: Mirage.Serialization.VariableIntPacker.PackUshort*
+  href: api/Mirage.Serialization.VarIntPacker.html#Mirage_Serialization_VarIntPacker_PackUshort_Mirage_Serialization_NetworkWriter_System_UInt16_
+  commentId: M:Mirage.Serialization.VarIntPacker.PackUshort(Mirage.Serialization.NetworkWriter,System.UInt16)
+  fullName: Mirage.Serialization.VarIntPacker.PackUshort(Mirage.Serialization.NetworkWriter, System.UInt16)
+  nameWithType: VarIntPacker.PackUshort(NetworkWriter, UInt16)
+- uid: Mirage.Serialization.VarIntPacker.PackUshort*
   name: PackUshort
-  href: api/Mirage.Serialization.VariableIntPacker.html#Mirage_Serialization_VariableIntPacker_PackUshort_
-  commentId: Overload:Mirage.Serialization.VariableIntPacker.PackUshort
+  href: api/Mirage.Serialization.VarIntPacker.html#Mirage_Serialization_VarIntPacker_PackUshort_
+  commentId: Overload:Mirage.Serialization.VarIntPacker.PackUshort
   isSpec: "True"
-  fullName: Mirage.Serialization.VariableIntPacker.PackUshort
-  nameWithType: VariableIntPacker.PackUshort
-- uid: Mirage.Serialization.VariableIntPacker.UnpackUint(Mirage.Serialization.NetworkReader)
+  fullName: Mirage.Serialization.VarIntPacker.PackUshort
+  nameWithType: VarIntPacker.PackUshort
+- uid: Mirage.Serialization.VarIntPacker.UnpackUint(Mirage.Serialization.NetworkReader)
   name: UnpackUint(NetworkReader)
-  href: api/Mirage.Serialization.VariableIntPacker.html#Mirage_Serialization_VariableIntPacker_UnpackUint_Mirage_Serialization_NetworkReader_
-  commentId: M:Mirage.Serialization.VariableIntPacker.UnpackUint(Mirage.Serialization.NetworkReader)
-  fullName: Mirage.Serialization.VariableIntPacker.UnpackUint(Mirage.Serialization.NetworkReader)
-  nameWithType: VariableIntPacker.UnpackUint(NetworkReader)
-- uid: Mirage.Serialization.VariableIntPacker.UnpackUint*
+  href: api/Mirage.Serialization.VarIntPacker.html#Mirage_Serialization_VarIntPacker_UnpackUint_Mirage_Serialization_NetworkReader_
+  commentId: M:Mirage.Serialization.VarIntPacker.UnpackUint(Mirage.Serialization.NetworkReader)
+  fullName: Mirage.Serialization.VarIntPacker.UnpackUint(Mirage.Serialization.NetworkReader)
+  nameWithType: VarIntPacker.UnpackUint(NetworkReader)
+- uid: Mirage.Serialization.VarIntPacker.UnpackUint*
   name: UnpackUint
-  href: api/Mirage.Serialization.VariableIntPacker.html#Mirage_Serialization_VariableIntPacker_UnpackUint_
-  commentId: Overload:Mirage.Serialization.VariableIntPacker.UnpackUint
+  href: api/Mirage.Serialization.VarIntPacker.html#Mirage_Serialization_VarIntPacker_UnpackUint_
+  commentId: Overload:Mirage.Serialization.VarIntPacker.UnpackUint
   isSpec: "True"
-  fullName: Mirage.Serialization.VariableIntPacker.UnpackUint
-  nameWithType: VariableIntPacker.UnpackUint
-- uid: Mirage.Serialization.VariableIntPacker.UnpackUlong(Mirage.Serialization.NetworkReader)
+  fullName: Mirage.Serialization.VarIntPacker.UnpackUint
+  nameWithType: VarIntPacker.UnpackUint
+- uid: Mirage.Serialization.VarIntPacker.UnpackUlong(Mirage.Serialization.NetworkReader)
   name: UnpackUlong(NetworkReader)
-  href: api/Mirage.Serialization.VariableIntPacker.html#Mirage_Serialization_VariableIntPacker_UnpackUlong_Mirage_Serialization_NetworkReader_
-  commentId: M:Mirage.Serialization.VariableIntPacker.UnpackUlong(Mirage.Serialization.NetworkReader)
-  fullName: Mirage.Serialization.VariableIntPacker.UnpackUlong(Mirage.Serialization.NetworkReader)
-  nameWithType: VariableIntPacker.UnpackUlong(NetworkReader)
-- uid: Mirage.Serialization.VariableIntPacker.UnpackUlong*
+  href: api/Mirage.Serialization.VarIntPacker.html#Mirage_Serialization_VarIntPacker_UnpackUlong_Mirage_Serialization_NetworkReader_
+  commentId: M:Mirage.Serialization.VarIntPacker.UnpackUlong(Mirage.Serialization.NetworkReader)
+  fullName: Mirage.Serialization.VarIntPacker.UnpackUlong(Mirage.Serialization.NetworkReader)
+  nameWithType: VarIntPacker.UnpackUlong(NetworkReader)
+- uid: Mirage.Serialization.VarIntPacker.UnpackUlong*
   name: UnpackUlong
-  href: api/Mirage.Serialization.VariableIntPacker.html#Mirage_Serialization_VariableIntPacker_UnpackUlong_
-  commentId: Overload:Mirage.Serialization.VariableIntPacker.UnpackUlong
+  href: api/Mirage.Serialization.VarIntPacker.html#Mirage_Serialization_VarIntPacker_UnpackUlong_
+  commentId: Overload:Mirage.Serialization.VarIntPacker.UnpackUlong
   isSpec: "True"
-  fullName: Mirage.Serialization.VariableIntPacker.UnpackUlong
-  nameWithType: VariableIntPacker.UnpackUlong
-- uid: Mirage.Serialization.VariableIntPacker.UnpackUshort(Mirage.Serialization.NetworkReader)
+  fullName: Mirage.Serialization.VarIntPacker.UnpackUlong
+  nameWithType: VarIntPacker.UnpackUlong
+- uid: Mirage.Serialization.VarIntPacker.UnpackUshort(Mirage.Serialization.NetworkReader)
   name: UnpackUshort(NetworkReader)
-  href: api/Mirage.Serialization.VariableIntPacker.html#Mirage_Serialization_VariableIntPacker_UnpackUshort_Mirage_Serialization_NetworkReader_
-  commentId: M:Mirage.Serialization.VariableIntPacker.UnpackUshort(Mirage.Serialization.NetworkReader)
-  fullName: Mirage.Serialization.VariableIntPacker.UnpackUshort(Mirage.Serialization.NetworkReader)
-  nameWithType: VariableIntPacker.UnpackUshort(NetworkReader)
-- uid: Mirage.Serialization.VariableIntPacker.UnpackUshort*
+  href: api/Mirage.Serialization.VarIntPacker.html#Mirage_Serialization_VarIntPacker_UnpackUshort_Mirage_Serialization_NetworkReader_
+  commentId: M:Mirage.Serialization.VarIntPacker.UnpackUshort(Mirage.Serialization.NetworkReader)
+  fullName: Mirage.Serialization.VarIntPacker.UnpackUshort(Mirage.Serialization.NetworkReader)
+  nameWithType: VarIntPacker.UnpackUshort(NetworkReader)
+- uid: Mirage.Serialization.VarIntPacker.UnpackUshort*
   name: UnpackUshort
-  href: api/Mirage.Serialization.VariableIntPacker.html#Mirage_Serialization_VariableIntPacker_UnpackUshort_
-  commentId: Overload:Mirage.Serialization.VariableIntPacker.UnpackUshort
+  href: api/Mirage.Serialization.VarIntPacker.html#Mirage_Serialization_VarIntPacker_UnpackUshort_
+  commentId: Overload:Mirage.Serialization.VarIntPacker.UnpackUshort
   isSpec: "True"
-  fullName: Mirage.Serialization.VariableIntPacker.UnpackUshort
-  nameWithType: VariableIntPacker.UnpackUshort
+  fullName: Mirage.Serialization.VarIntPacker.UnpackUshort
+  nameWithType: VarIntPacker.UnpackUshort
 - uid: Mirage.Serialization.Vector2PackAttribute
   name: Vector2PackAttribute
   href: api/Mirage.Serialization.Vector2PackAttribute.html
