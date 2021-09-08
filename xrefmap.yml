@@ -4197,6 +4197,19 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkSceneManager.OnClientStartedSceneChange
   nameWithType: INetworkSceneManager.OnClientStartedSceneChange
+- uid: Mirage.INetworkSceneManager.OnPlayerSceneReady
+  name: OnPlayerSceneReady
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_OnPlayerSceneReady
+  commentId: P:Mirage.INetworkSceneManager.OnPlayerSceneReady
+  fullName: Mirage.INetworkSceneManager.OnPlayerSceneReady
+  nameWithType: INetworkSceneManager.OnPlayerSceneReady
+- uid: Mirage.INetworkSceneManager.OnPlayerSceneReady*
+  name: OnPlayerSceneReady
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_OnPlayerSceneReady_
+  commentId: Overload:Mirage.INetworkSceneManager.OnPlayerSceneReady
+  isSpec: "True"
+  fullName: Mirage.INetworkSceneManager.OnPlayerSceneReady
+  nameWithType: INetworkSceneManager.OnPlayerSceneReady
 - uid: Mirage.INetworkSceneManager.OnServerFinishedSceneChange
   name: OnServerFinishedSceneChange
   href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_OnServerFinishedSceneChange
@@ -4578,6 +4591,19 @@ references:
   isSpec: "True"
   fullName: Mirage.IObjectOwner.DestroyOwnedObjects
   nameWithType: IObjectOwner.DestroyOwnedObjects
+- uid: Mirage.IObjectOwner.HasCharacter
+  name: HasCharacter
+  href: api/Mirage.IObjectOwner.html#Mirage_IObjectOwner_HasCharacter
+  commentId: P:Mirage.IObjectOwner.HasCharacter
+  fullName: Mirage.IObjectOwner.HasCharacter
+  nameWithType: IObjectOwner.HasCharacter
+- uid: Mirage.IObjectOwner.HasCharacter*
+  name: HasCharacter
+  href: api/Mirage.IObjectOwner.html#Mirage_IObjectOwner_HasCharacter_
+  commentId: Overload:Mirage.IObjectOwner.HasCharacter
+  isSpec: "True"
+  fullName: Mirage.IObjectOwner.HasCharacter
+  nameWithType: IObjectOwner.HasCharacter
 - uid: Mirage.IObjectOwner.Identity
   name: Identity
   href: api/Mirage.IObjectOwner.html#Mirage_IObjectOwner_Identity
@@ -4761,6 +4787,19 @@ references:
   isSpec: "True"
   fullName: Mirage.IVisibilityTracker.AddToVisList
   nameWithType: IVisibilityTracker.AddToVisList
+- uid: Mirage.IVisibilityTracker.RemoveAllVisibleObjects
+  name: RemoveAllVisibleObjects()
+  href: api/Mirage.IVisibilityTracker.html#Mirage_IVisibilityTracker_RemoveAllVisibleObjects
+  commentId: M:Mirage.IVisibilityTracker.RemoveAllVisibleObjects
+  fullName: Mirage.IVisibilityTracker.RemoveAllVisibleObjects()
+  nameWithType: IVisibilityTracker.RemoveAllVisibleObjects()
+- uid: Mirage.IVisibilityTracker.RemoveAllVisibleObjects*
+  name: RemoveAllVisibleObjects
+  href: api/Mirage.IVisibilityTracker.html#Mirage_IVisibilityTracker_RemoveAllVisibleObjects_
+  commentId: Overload:Mirage.IVisibilityTracker.RemoveAllVisibleObjects
+  isSpec: "True"
+  fullName: Mirage.IVisibilityTracker.RemoveAllVisibleObjects
+  nameWithType: IVisibilityTracker.RemoveAllVisibleObjects
 - uid: Mirage.IVisibilityTracker.RemoveFromVisList(Mirage.NetworkIdentity)
   name: RemoveFromVisList(NetworkIdentity)
   href: api/Mirage.IVisibilityTracker.html#Mirage_IVisibilityTracker_RemoveFromVisList_Mirage_NetworkIdentity_
@@ -4774,19 +4813,6 @@ references:
   isSpec: "True"
   fullName: Mirage.IVisibilityTracker.RemoveFromVisList
   nameWithType: IVisibilityTracker.RemoveFromVisList
-- uid: Mirage.IVisibilityTracker.RemoveObservers
-  name: RemoveObservers()
-  href: api/Mirage.IVisibilityTracker.html#Mirage_IVisibilityTracker_RemoveObservers
-  commentId: M:Mirage.IVisibilityTracker.RemoveObservers
-  fullName: Mirage.IVisibilityTracker.RemoveObservers()
-  nameWithType: IVisibilityTracker.RemoveObservers()
-- uid: Mirage.IVisibilityTracker.RemoveObservers*
-  name: RemoveObservers
-  href: api/Mirage.IVisibilityTracker.html#Mirage_IVisibilityTracker_RemoveObservers_
-  commentId: Overload:Mirage.IVisibilityTracker.RemoveObservers
-  isSpec: "True"
-  fullName: Mirage.IVisibilityTracker.RemoveObservers
-  nameWithType: IVisibilityTracker.RemoveObservers
 - uid: Mirage.LobbyReady
   name: LobbyReady
   href: api/Mirage.LobbyReady.html
@@ -7078,6 +7104,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkPlayer.Disconnect
   nameWithType: NetworkPlayer.Disconnect
+- uid: Mirage.NetworkPlayer.HasCharacter
+  name: HasCharacter
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_HasCharacter
+  commentId: P:Mirage.NetworkPlayer.HasCharacter
+  fullName: Mirage.NetworkPlayer.HasCharacter
+  nameWithType: NetworkPlayer.HasCharacter
+- uid: Mirage.NetworkPlayer.HasCharacter*
+  name: HasCharacter
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_HasCharacter_
+  commentId: Overload:Mirage.NetworkPlayer.HasCharacter
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.HasCharacter
+  nameWithType: NetworkPlayer.HasCharacter
 - uid: Mirage.NetworkPlayer.Identity
   name: Identity
   href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_Identity
@@ -7117,6 +7156,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkPlayer.MarkAsDisconnected
   nameWithType: NetworkPlayer.MarkAsDisconnected
+- uid: Mirage.NetworkPlayer.RemoveAllVisibleObjects
+  name: RemoveAllVisibleObjects()
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_RemoveAllVisibleObjects
+  commentId: M:Mirage.NetworkPlayer.RemoveAllVisibleObjects
+  fullName: Mirage.NetworkPlayer.RemoveAllVisibleObjects()
+  nameWithType: NetworkPlayer.RemoveAllVisibleObjects()
+- uid: Mirage.NetworkPlayer.RemoveAllVisibleObjects*
+  name: RemoveAllVisibleObjects
+  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_RemoveAllVisibleObjects_
+  commentId: Overload:Mirage.NetworkPlayer.RemoveAllVisibleObjects
+  isSpec: "True"
+  fullName: Mirage.NetworkPlayer.RemoveAllVisibleObjects
+  nameWithType: NetworkPlayer.RemoveAllVisibleObjects
 - uid: Mirage.NetworkPlayer.RemoveFromVisList(Mirage.NetworkIdentity)
   name: RemoveFromVisList(NetworkIdentity)
   href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_RemoveFromVisList_Mirage_NetworkIdentity_
@@ -7130,19 +7182,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkPlayer.RemoveFromVisList
   nameWithType: NetworkPlayer.RemoveFromVisList
-- uid: Mirage.NetworkPlayer.RemoveObservers
-  name: RemoveObservers()
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_RemoveObservers
-  commentId: M:Mirage.NetworkPlayer.RemoveObservers
-  fullName: Mirage.NetworkPlayer.RemoveObservers()
-  nameWithType: NetworkPlayer.RemoveObservers()
-- uid: Mirage.NetworkPlayer.RemoveObservers*
-  name: RemoveObservers
-  href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_RemoveObservers_
-  commentId: Overload:Mirage.NetworkPlayer.RemoveObservers
-  isSpec: "True"
-  fullName: Mirage.NetworkPlayer.RemoveObservers
-  nameWithType: NetworkPlayer.RemoveObservers
 - uid: Mirage.NetworkPlayer.RemoveOwnedObject(Mirage.NetworkIdentity)
   name: RemoveOwnedObject(NetworkIdentity)
   href: api/Mirage.NetworkPlayer.html#Mirage_NetworkPlayer_RemoveOwnedObject_Mirage_NetworkIdentity_
@@ -7383,12 +7422,12 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkSceneManager.ClientFinishedLoadingSceneMessage
   nameWithType: NetworkSceneManager.ClientFinishedLoadingSceneMessage
-- uid: Mirage.NetworkSceneManager.ClientNotReadyMessage(Mirage.INetworkPlayer,Mirage.NotReadyMessage)
-  name: ClientNotReadyMessage(INetworkPlayer, NotReadyMessage)
-  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ClientNotReadyMessage_Mirage_INetworkPlayer_Mirage_NotReadyMessage_
-  commentId: M:Mirage.NetworkSceneManager.ClientNotReadyMessage(Mirage.INetworkPlayer,Mirage.NotReadyMessage)
-  fullName: Mirage.NetworkSceneManager.ClientNotReadyMessage(Mirage.INetworkPlayer, Mirage.NotReadyMessage)
-  nameWithType: NetworkSceneManager.ClientNotReadyMessage(INetworkPlayer, NotReadyMessage)
+- uid: Mirage.NetworkSceneManager.ClientNotReadyMessage(Mirage.INetworkPlayer,Mirage.SceneNotReadyMessage)
+  name: ClientNotReadyMessage(INetworkPlayer, SceneNotReadyMessage)
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ClientNotReadyMessage_Mirage_INetworkPlayer_Mirage_SceneNotReadyMessage_
+  commentId: M:Mirage.NetworkSceneManager.ClientNotReadyMessage(Mirage.INetworkPlayer,Mirage.SceneNotReadyMessage)
+  fullName: Mirage.NetworkSceneManager.ClientNotReadyMessage(Mirage.INetworkPlayer, Mirage.SceneNotReadyMessage)
+  nameWithType: NetworkSceneManager.ClientNotReadyMessage(INetworkPlayer, SceneNotReadyMessage)
 - uid: Mirage.NetworkSceneManager.ClientNotReadyMessage*
   name: ClientNotReadyMessage
   href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ClientNotReadyMessage_
@@ -7480,6 +7519,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkSceneManager.OnDestroy
   nameWithType: NetworkSceneManager.OnDestroy
+- uid: Mirage.NetworkSceneManager.OnPlayerSceneReady
+  name: OnPlayerSceneReady
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_OnPlayerSceneReady
+  commentId: P:Mirage.NetworkSceneManager.OnPlayerSceneReady
+  fullName: Mirage.NetworkSceneManager.OnPlayerSceneReady
+  nameWithType: NetworkSceneManager.OnPlayerSceneReady
+- uid: Mirage.NetworkSceneManager.OnPlayerSceneReady*
+  name: OnPlayerSceneReady
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_OnPlayerSceneReady_
+  commentId: Overload:Mirage.NetworkSceneManager.OnPlayerSceneReady
+  isSpec: "True"
+  fullName: Mirage.NetworkSceneManager.OnPlayerSceneReady
+  nameWithType: NetworkSceneManager.OnPlayerSceneReady
 - uid: Mirage.NetworkSceneManager.OnServerAuthenticated(Mirage.INetworkPlayer)
   name: OnServerAuthenticated(INetworkPlayer)
   href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_OnServerAuthenticated_Mirage_INetworkPlayer_
@@ -7631,6 +7683,32 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkSceneManager.ServerUnloadSceneAdditively
   nameWithType: NetworkSceneManager.ServerUnloadSceneAdditively
+- uid: Mirage.NetworkSceneManager.SetAllClientsNotReady
+  name: SetAllClientsNotReady()
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_SetAllClientsNotReady
+  commentId: M:Mirage.NetworkSceneManager.SetAllClientsNotReady
+  fullName: Mirage.NetworkSceneManager.SetAllClientsNotReady()
+  nameWithType: NetworkSceneManager.SetAllClientsNotReady()
+- uid: Mirage.NetworkSceneManager.SetAllClientsNotReady*
+  name: SetAllClientsNotReady
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_SetAllClientsNotReady_
+  commentId: Overload:Mirage.NetworkSceneManager.SetAllClientsNotReady
+  isSpec: "True"
+  fullName: Mirage.NetworkSceneManager.SetAllClientsNotReady
+  nameWithType: NetworkSceneManager.SetAllClientsNotReady
+- uid: Mirage.NetworkSceneManager.SetClientNotReady(Mirage.INetworkPlayer)
+  name: SetClientNotReady(INetworkPlayer)
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_SetClientNotReady_Mirage_INetworkPlayer_
+  commentId: M:Mirage.NetworkSceneManager.SetClientNotReady(Mirage.INetworkPlayer)
+  fullName: Mirage.NetworkSceneManager.SetClientNotReady(Mirage.INetworkPlayer)
+  nameWithType: NetworkSceneManager.SetClientNotReady(INetworkPlayer)
+- uid: Mirage.NetworkSceneManager.SetClientNotReady*
+  name: SetClientNotReady
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_SetClientNotReady_
+  commentId: Overload:Mirage.NetworkSceneManager.SetClientNotReady
+  isSpec: "True"
+  fullName: Mirage.NetworkSceneManager.SetClientNotReady
+  nameWithType: NetworkSceneManager.SetClientNotReady
 - uid: Mirage.NetworkSceneManager.SetSceneIsReady
   name: SetSceneIsReady()
   href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_SetSceneIsReady
@@ -8441,12 +8519,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkWorld.TryGetIdentity
   nameWithType: NetworkWorld.TryGetIdentity
-- uid: Mirage.NotReadyMessage
-  name: NotReadyMessage
-  href: api/Mirage.NotReadyMessage.html
-  commentId: T:Mirage.NotReadyMessage
-  fullName: Mirage.NotReadyMessage
-  nameWithType: NotReadyMessage
 - uid: Mirage.ObjectDestroyMessage
   name: ObjectDestroyMessage
   href: api/Mirage.ObjectDestroyMessage.html
@@ -8750,12 +8822,12 @@ references:
   isSpec: "True"
   fullName: Mirage.PipePeerConnection.ToString
   nameWithType: PipePeerConnection.ToString
-- uid: Mirage.ReadyMessage
-  name: ReadyMessage
-  href: api/Mirage.ReadyMessage.html
-  commentId: T:Mirage.ReadyMessage
-  fullName: Mirage.ReadyMessage
-  nameWithType: ReadyMessage
+- uid: Mirage.PlayerSceneChangeEvent
+  name: PlayerSceneChangeEvent
+  href: api/Mirage.PlayerSceneChangeEvent.html
+  commentId: T:Mirage.PlayerSceneChangeEvent
+  fullName: Mirage.PlayerSceneChangeEvent
+  nameWithType: PlayerSceneChangeEvent
 - uid: Mirage.RemoteCalls
   name: Mirage.RemoteCalls
   href: api/Mirage.RemoteCalls.html
@@ -8959,6 +9031,12 @@ references:
   commentId: F:Mirage.SceneMessage.SceneOperation
   fullName: Mirage.SceneMessage.SceneOperation
   nameWithType: SceneMessage.SceneOperation
+- uid: Mirage.SceneNotReadyMessage
+  name: SceneNotReadyMessage
+  href: api/Mirage.SceneNotReadyMessage.html
+  commentId: T:Mirage.SceneNotReadyMessage
+  fullName: Mirage.SceneNotReadyMessage
+  nameWithType: SceneNotReadyMessage
 - uid: Mirage.SceneOperation
   name: SceneOperation
   href: api/Mirage.SceneOperation.html
@@ -12076,45 +12154,6 @@ references:
   commentId: F:Mirage.ServerObjectManager.Server
   fullName: Mirage.ServerObjectManager.Server
   nameWithType: ServerObjectManager.Server
-- uid: Mirage.ServerObjectManager.SetAllClientsNotReady
-  name: SetAllClientsNotReady()
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_SetAllClientsNotReady
-  commentId: M:Mirage.ServerObjectManager.SetAllClientsNotReady
-  fullName: Mirage.ServerObjectManager.SetAllClientsNotReady()
-  nameWithType: ServerObjectManager.SetAllClientsNotReady()
-- uid: Mirage.ServerObjectManager.SetAllClientsNotReady*
-  name: SetAllClientsNotReady
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_SetAllClientsNotReady_
-  commentId: Overload:Mirage.ServerObjectManager.SetAllClientsNotReady
-  isSpec: "True"
-  fullName: Mirage.ServerObjectManager.SetAllClientsNotReady
-  nameWithType: ServerObjectManager.SetAllClientsNotReady
-- uid: Mirage.ServerObjectManager.SetClientNotReady(Mirage.INetworkPlayer)
-  name: SetClientNotReady(INetworkPlayer)
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_SetClientNotReady_Mirage_INetworkPlayer_
-  commentId: M:Mirage.ServerObjectManager.SetClientNotReady(Mirage.INetworkPlayer)
-  fullName: Mirage.ServerObjectManager.SetClientNotReady(Mirage.INetworkPlayer)
-  nameWithType: ServerObjectManager.SetClientNotReady(INetworkPlayer)
-- uid: Mirage.ServerObjectManager.SetClientNotReady*
-  name: SetClientNotReady
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_SetClientNotReady_
-  commentId: Overload:Mirage.ServerObjectManager.SetClientNotReady
-  isSpec: "True"
-  fullName: Mirage.ServerObjectManager.SetClientNotReady
-  nameWithType: ServerObjectManager.SetClientNotReady
-- uid: Mirage.ServerObjectManager.SetClientReady(Mirage.INetworkPlayer)
-  name: SetClientReady(INetworkPlayer)
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_SetClientReady_Mirage_INetworkPlayer_
-  commentId: M:Mirage.ServerObjectManager.SetClientReady(Mirage.INetworkPlayer)
-  fullName: Mirage.ServerObjectManager.SetClientReady(Mirage.INetworkPlayer)
-  nameWithType: ServerObjectManager.SetClientReady(INetworkPlayer)
-- uid: Mirage.ServerObjectManager.SetClientReady*
-  name: SetClientReady
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_SetClientReady_
-  commentId: Overload:Mirage.ServerObjectManager.SetClientReady
-  isSpec: "True"
-  fullName: Mirage.ServerObjectManager.SetClientReady
-  nameWithType: ServerObjectManager.SetClientReady
 - uid: Mirage.ServerObjectManager.Spawn(Mirage.NetworkIdentity)
   name: Spawn(NetworkIdentity)
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_Spawn_Mirage_NetworkIdentity_
@@ -12165,6 +12204,25 @@ references:
   isSpec: "True"
   fullName: Mirage.ServerObjectManager.SpawnObjects
   nameWithType: ServerObjectManager.SpawnObjects
+- uid: Mirage.ServerObjectManager.SpawnVisibleObjects(Mirage.INetworkPlayer)
+  name: SpawnVisibleObjects(INetworkPlayer)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_SpawnVisibleObjects_Mirage_INetworkPlayer_
+  commentId: M:Mirage.ServerObjectManager.SpawnVisibleObjects(Mirage.INetworkPlayer)
+  fullName: Mirage.ServerObjectManager.SpawnVisibleObjects(Mirage.INetworkPlayer)
+  nameWithType: ServerObjectManager.SpawnVisibleObjects(INetworkPlayer)
+- uid: Mirage.ServerObjectManager.SpawnVisibleObjects(Mirage.INetworkPlayer,System.Boolean)
+  name: SpawnVisibleObjects(INetworkPlayer, Boolean)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_SpawnVisibleObjects_Mirage_INetworkPlayer_System_Boolean_
+  commentId: M:Mirage.ServerObjectManager.SpawnVisibleObjects(Mirage.INetworkPlayer,System.Boolean)
+  fullName: Mirage.ServerObjectManager.SpawnVisibleObjects(Mirage.INetworkPlayer, System.Boolean)
+  nameWithType: ServerObjectManager.SpawnVisibleObjects(INetworkPlayer, Boolean)
+- uid: Mirage.ServerObjectManager.SpawnVisibleObjects*
+  name: SpawnVisibleObjects
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_SpawnVisibleObjects_
+  commentId: Overload:Mirage.ServerObjectManager.SpawnVisibleObjects
+  isSpec: "True"
+  fullName: Mirage.ServerObjectManager.SpawnVisibleObjects
+  nameWithType: ServerObjectManager.SpawnVisibleObjects
 - uid: Mirage.ServerObjectManager.Start
   name: Start()
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_Start
