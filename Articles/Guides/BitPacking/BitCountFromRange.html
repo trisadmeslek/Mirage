@@ -99,7 +99,7 @@
 <p>The bit count of Integer based fields can be set using <a class="xref" href="../../../api/Mirage.Serialization.BitCountFromRangeAttribute.html">BitCountFromRangeAttribute</a>, It will use the given range to calculate the required bit count. This works in a similar way to <a href="BitCount.html">BitCount</a></p>
 <p>The min value is subtracted from the value before it is written and added back on after it is read. This will shift all written values into the positive range for writing so that the sign bit is not lost.</p>
 <p>This will truncate the bits so that only the small bits are sent. There is no range checking for values using BitCount, so value that are too big or too small will not be unpacked correctly.</p>
-<p>Bit Count is calculated using <code>bitCount = Ceiling(Log2(max - min))</code>, so <code>min = -100</code>, <code>max = 100</code> results in <code>bit count = 8</code></p>
+<p>Bit Count is calculated using <code>bitCount = 1 + Floor(Log2(max - min))</code>, so <code>min = -100</code>, <code>max = 100</code> results in <code>bit count = 8</code></p>
 <p>Values are written using <code>Write(value - min, bitCount)</code> and read using <code>value = Read(bitCount) + min</code></p>
 <h3 id="use-cases">Use cases</h3>
 <ul>
