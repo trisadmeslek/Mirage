@@ -2,7 +2,6 @@ using System;
 using Mirage.Weaver;
 using NUnit.Framework;
 using Unity.PerformanceTesting;
-using Unity.PerformanceTesting.Measurements;
 using UnityEditor.Compilation;
 using UnityEngine;
 
@@ -14,7 +13,7 @@ namespace Mirage.Tests.Weaver
         [Performance]
         public void Benchmark()
         {
-            Run(Measure.Method(RunWeaver));
+            Run("Default");
         }
 
         [Test]
@@ -22,10 +21,10 @@ namespace Mirage.Tests.Weaver
         public void Benchmark_FieldReferenceComparator()
         {
             FieldReferenceComparator.Fast = false;
-            Run(Measure.Method(RunWeaver).SampleGroup("Slow"));
+            Run("Slow");
 
             FieldReferenceComparator.Fast = true;
-            Run(Measure.Method(RunWeaver).SampleGroup("Fast"));
+            Run("Fast");
         }
 
         [Test]
@@ -35,17 +34,20 @@ namespace Mirage.Tests.Weaver
             for (int i = 0; i < 4; i++)
             {
                 PostProcessorAssemblyResolver.Version = 1 + i;
-                Run(Measure.Method(RunWeaver).SampleGroup($"Version_{PostProcessorAssemblyResolver.Version}"));
+                Run($"Version_{PostProcessorAssemblyResolver.Version}");
             }
         }
 
-        void Run(MethodMeasurement method) => method.WarmupCount(1).MeasurementCount(10).CleanUp(() => GC.Collect()).Run();
+        void Run(string name)
+        {
+            Measure.Method(() => RunWeaver("Library/ScriptAssemblies/Mirage.Tests.Runtime.dll")).SampleGroup($"Runtime_{name}").WarmupCount(1).MeasurementCount(6).CleanUp(() => GC.Collect()).Run();
+            Measure.Method(() => RunWeaver("Library/ScriptAssemblies/Mirage.Tests.Generated.Runtime.dll")).SampleGroup($"Generated_{name}").WarmupCount(1).MeasurementCount(6).CleanUp(() => GC.Collect()).Run();
+        }
 
-        public void RunWeaver()
+        public void RunWeaver(string path)
         {
             var logger = new WeaverLogger();
             var weaver = new Mirage.Weaver.Weaver(logger);
-            string path = "Library/ScriptAssemblies/Mirage.Tests.Runtime.dll";
             var assemblyBuilder = new AssemblyBuilder(path, new string[1] { "Assets/Tests/Runtime/MessagePackerTest.cs" })
             {
                 referencesOptions = ReferencesOptions.UseEngineModules,
