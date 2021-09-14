@@ -108,7 +108,8 @@ namespace Mirage.Weaver
 
         public static AssemblyDefinition AssemblyDefinitionFor(ICompiledAssembly compiledAssembly)
         {
-            var assemblyResolver = new PostProcessorAssemblyResolver(compiledAssembly);
+            IMyAssemblyResolver assemblyResolver = PostProcessorAssemblyResolver.GetNew(compiledAssembly);
+
             var readerParameters = new ReaderParameters
             {
                 SymbolStream = new MemoryStream(compiledAssembly.InMemoryAssembly.PdbData),

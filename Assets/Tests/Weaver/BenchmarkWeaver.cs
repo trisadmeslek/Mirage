@@ -28,6 +28,17 @@ namespace Mirage.Tests.Weaver
             Run(Measure.Method(RunWeaver).SampleGroup("Fast"));
         }
 
+        [Test]
+        [Performance]
+        public void Benchmark_PostProcessorAssemblyResolver()
+        {
+            for (int i = 0; i < 4; i++)
+            {
+                PostProcessorAssemblyResolver.Version = 1 + i;
+                Run(Measure.Method(RunWeaver).SampleGroup($"Version_{PostProcessorAssemblyResolver.Version}"));
+            }
+        }
+
         void Run(MethodMeasurement method) => method.WarmupCount(1).MeasurementCount(10).CleanUp(() => GC.Collect()).Run();
 
         public void RunWeaver()
