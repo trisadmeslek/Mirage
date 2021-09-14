@@ -18,6 +18,21 @@ namespace Mirage.Tests.Weaver
 
         [Test]
         [Performance]
+        public void Benchmark_RunOnce()
+        {
+            Run("Default", 0, 1);
+        }
+
+        [TearDown]
+        public void TearDown()
+        {
+            FieldReferenceComparator.Fast = false;
+            PostProcessorAssemblyResolver.Version = 0;
+            PostProcessorReflectionImporter.Fast = false;
+        }
+
+        [Test]
+        [Performance]
         public void Benchmark_FieldReferenceComparator()
         {
             FieldReferenceComparator.Fast = false;
@@ -38,14 +53,27 @@ namespace Mirage.Tests.Weaver
             }
         }
 
-        void Run(string name)
+        [Test]
+        [Performance]
+        public void Benchmark_PostProcessorReflectionImporter()
         {
-            Measure.Method(() => RunWeaver("Library/ScriptAssemblies/Mirage.Tests.Runtime.dll")).SampleGroup($"Runtime_{name}").WarmupCount(1).MeasurementCount(6).CleanUp(() => GC.Collect()).Run();
-            Measure.Method(() => RunWeaver("Library/ScriptAssemblies/Mirage.Tests.Generated.Runtime.dll")).SampleGroup($"Generated_{name}").WarmupCount(1).MeasurementCount(6).CleanUp(() => GC.Collect()).Run();
+            PostProcessorReflectionImporter.Fast = false;
+            Run("Slow");
+
+            PostProcessorReflectionImporter.Fast = true;
+            Run("Fast");
+        }
+
+        void Run(string name, int warmup = 1, int measure = 6)
+        {
+            Measure.Method(() => RunWeaver("Library/ScriptAssemblies/Mirage.Tests.Runtime.dll")).SampleGroup($"Runtime_{name}").WarmupCount(warmup).MeasurementCount(measure).CleanUp(() => GC.Collect()).Run();
+            Measure.Method(() => RunWeaver("Library/ScriptAssemblies/Mirage.Tests.Generated.Runtime.dll")).SampleGroup($"Generated_{name}").WarmupCount(warmup).MeasurementCount(measure).CleanUp(() => GC.Collect()).Run();
         }
 
         public void RunWeaver(string path)
         {
+            Debug.Log($"Weaving {path}");
+
             var logger = new WeaverLogger();
             var weaver = new Mirage.Weaver.Weaver(logger);
             var assemblyBuilder = new AssemblyBuilder(path, new string[1] { "Assets/Tests/Runtime/MessagePackerTest.cs" })

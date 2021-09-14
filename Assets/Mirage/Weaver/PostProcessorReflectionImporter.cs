@@ -7,6 +7,8 @@ namespace Mirage.Weaver
 {
     internal class PostProcessorReflectionImporter : DefaultReflectionImporter
     {
+        public static bool Fast = true;
+
         private const string SystemPrivateCoreLib = "System.Private.CoreLib";
         private readonly AssemblyNameReference _correctCorlib;
 
@@ -22,17 +24,26 @@ namespace Mirage.Weaver
         /// <returns></returns>
         public override AssemblyNameReference ImportReference(AssemblyName name)
         {
-            if (_correctCorlib != null && name.Name == SystemPrivateCoreLib)
+            if (Fast)
             {
-                return _correctCorlib;
-            }
 
-            if (TryImportFast(name, out AssemblyNameReference reference))
+                if (_correctCorlib != null && name.Name == SystemPrivateCoreLib)
+                {
+                    return _correctCorlib;
+                }
+
+                if (TryImportFast(name, out AssemblyNameReference reference))
+                {
+                    return reference;
+                }
+
+                return base.ImportReference(name);
+            }
+            else
             {
-                return reference;
+                // old code from Mirage v104
+                return _correctCorlib != null && name.Name == SystemPrivateCoreLib ? _correctCorlib : base.ImportReference(name);
             }
-
-            return base.ImportReference(name);
         }
 
         /// <summary>

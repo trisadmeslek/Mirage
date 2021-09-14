@@ -1,4 +1,4 @@
-﻿namespace Mirage.Weaver
+namespace Mirage.Weaver
 {
     public static class HashCodeHelper
     {
