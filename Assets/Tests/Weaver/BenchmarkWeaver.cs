@@ -17,6 +17,16 @@ namespace Mirage.Tests.Weaver
             Run(Measure.Method(RunWeaver));
         }
 
+        [Test]
+        [Performance]
+        public void Benchmark_FieldReferenceComparator()
+        {
+            FieldReferenceComparator.Fast = false;
+            Run(Measure.Method(RunWeaver).SampleGroup("Slow"));
+
+            FieldReferenceComparator.Fast = true;
+            Run(Measure.Method(RunWeaver).SampleGroup("Fast"));
+        }
 
         void Run(MethodMeasurement method) => method.WarmupCount(1).MeasurementCount(10).CleanUp(() => GC.Collect()).Run();
 
