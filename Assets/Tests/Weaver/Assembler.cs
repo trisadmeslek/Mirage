@@ -25,7 +25,6 @@ namespace Mirage.Tests.Weaver
         {
             get
             {
-
                 if (inMemoryAssembly == null)
                 {
                     byte[] peData = File.ReadAllBytes(assemblyPath);

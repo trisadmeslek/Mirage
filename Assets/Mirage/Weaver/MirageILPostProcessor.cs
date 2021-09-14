@@ -14,6 +14,8 @@ namespace Mirage.Weaver
 
         public override ILPostProcessResult Process(ICompiledAssembly compiledAssembly)
         {
+            return null;
+
             if (!WillProcess(compiledAssembly))
                 return null;
 
