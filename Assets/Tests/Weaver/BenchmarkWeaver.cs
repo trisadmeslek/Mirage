@@ -1,5 +1,6 @@
 using System;
 using Mirage.Weaver;
+using Mono.Cecil;
 using NUnit.Framework;
 using Unity.PerformanceTesting;
 using UnityEditor.Compilation;
@@ -11,14 +12,14 @@ namespace Mirage.Tests.Weaver
     {
         [Test]
         [Performance]
-        public void Benchmark()
+        public void _Benchmark()
         {
             Run("Default");
         }
 
         [Test]
         [Performance]
-        public void Benchmark_RunOnce()
+        public void _Benchmark_RunOnce()
         {
             Run("Default", 0, 1);
         }
@@ -28,7 +29,9 @@ namespace Mirage.Tests.Weaver
         {
             FieldReferenceComparator.Fast = false;
             PostProcessorAssemblyResolver.Version = 0;
-            PostProcessorReflectionImporter.Fast = false;
+            PostProcessorReflectionImporter.Fast = true;// default true
+            Extensions.Fast_IsDerivedFrom = false;
+            Extensions.Fast_TryResolve = false;
         }
 
         [Test]
@@ -64,6 +67,28 @@ namespace Mirage.Tests.Weaver
             Run("Fast");
         }
 
+        [Test]
+        [Performance]
+        public void Benchmark_IsDerivedFrom()
+        {
+            Extensions.Fast_IsDerivedFrom = false;
+            Run("Slow");
+
+            Extensions.Fast_IsDerivedFrom = true;
+            Run("Fast");
+        }
+
+        [Test]
+        [Performance]
+        public void Benchmark_TryResolve()
+        {
+            Extensions.Fast_TryResolve = false;
+            Run("Slow");
+
+            Extensions.Fast_TryResolve = true;
+            Run("Fast");
+        }
+
         void Run(string name, int warmup = 1, int measure = 6)
         {
             Measure.Method(() => RunWeaver("Library/ScriptAssemblies/Mirage.Tests.Runtime.dll")).SampleGroup($"Runtime_{name}").WarmupCount(warmup).MeasurementCount(measure).CleanUp(() => GC.Collect()).Run();
@@ -91,6 +116,79 @@ namespace Mirage.Tests.Weaver
                     Debug.LogError(message.MessageData);
                 else
                     Debug.LogWarning(message.MessageData);
+            }
+        }
+
+
+        static AssemblyDefinition LoadAssembly(string path)
+        {
+            string fullPath = $"Library/ScriptAssemblies/{path}.dll";
+            var assemblyBuilder = new AssemblyBuilder(fullPath, new string[1] { "Assets/Tests/Runtime/MessagePackerTest.cs" })
+            {
+                referencesOptions = ReferencesOptions.UseEngineModules,
+            };
+
+            var compiledAssembly = new CompiledAssembly(fullPath, assemblyBuilder);
+
+            return Mirage.Weaver.Weaver.AssemblyDefinitionFor(compiledAssembly);
+        }
+        void RunOnEachType(string path, string name, Action<TypeDefinition> action)
+        {
+            Measure.Method(() =>
+            {
+                Mono.Collections.Generic.Collection<TypeDefinition> types = OnEach_Assembly.MainModule.Types;
+                foreach (TypeDefinition type in types)
+                {
+                    action.Invoke(type);
+                }
+            }).SetUp(() =>
+            {
+                OnEach_Assembly = LoadAssembly(path);
+            }).CleanUp(() =>
+            {
+                OnEach_Assembly?.Dispose();
+                OnEach_Assembly = null;
+                GC.Collect();
+            })
+            .SampleGroup($"{name}").WarmupCount(0).MeasurementCount(10).Run();
+        }
+        AssemblyDefinition OnEach_Assembly;
+
+        [Test]
+        [Performance]
+        public void OnEach_IsDerivedFrom()
+        {
+            RunOnEachType("Mirage.Tests.Runtime", "IsDerivedFrom", td => td.IsDerivedFrom<NetworkBehaviour>());
+            RunOnEachType("Mirage.Tests.Runtime", "IsNetworkBehaviour", td => IsNetworkBehaviour(td));
+            RunOnEachType("Mirage.Tests.Generated.Runtime", "IsDerivedFrom", td => td.IsDerivedFrom<NetworkBehaviour>());
+            RunOnEachType("Mirage.Tests.Generated.Runtime", "IsNetworkBehaviour", td => IsNetworkBehaviour(td));
+        }
+
+        static bool IsNetworkBehaviour(TypeDefinition td)
+        {
+            if (!td.IsClass) { return false; }
+
+            TypeReference parent = td.BaseType;
+            while (parent != null)
+            {
+                if (parent.Is<NetworkBehaviour>())
+                {
+                    return true;
+                }
+
+                parent = TryResolve(parent)?.BaseType;
+            }
+            return false;
+        }
+        static TypeDefinition TryResolve(TypeReference typeReference)
+        {
+            try
+            {
+                return typeReference.Resolve();
+            }
+            catch
+            {
+                return null;
             }
         }
     }

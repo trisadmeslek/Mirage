@@ -6,6 +6,9 @@ namespace Mirage.Weaver
 {
     public static class Extensions
     {
+        public static bool Fast_IsDerivedFrom;
+        public static bool Fast_TryResolve;
+
         public static bool Is(this TypeReference td, Type t)
         {
             if (t.IsGenericType)
@@ -33,6 +36,9 @@ namespace Mirage.Weaver
             if (!td.IsClass)
                 return false;
 
+            if (Fast_TryResolve) { return IsDerivedFrom_Fast_TryResolve(td, baseClass); }
+            if (Fast_IsDerivedFrom) { return IsDerivedFrom_Fast(td, baseClass); }
+
             // are ANY parent classes of baseClass?
             TypeReference parent = td.BaseType;
 
@@ -47,6 +53,50 @@ namespace Mirage.Weaver
 
             return false;
         }
+
+        private static bool IsDerivedFrom_Fast_TryResolve(TypeDefinition td, Type baseClass)
+        {
+            if (td == null)
+                return false;
+
+            if (!td.IsClass)
+                return false;
+
+            // are ANY parent classes of baseClass?
+            TypeReference parent = td.BaseType;
+            while (parent != null)
+            {
+                if (parent.Is(baseClass))
+                    return true;
+
+                if (parent.TryResolve(out TypeDefinition resolved))
+                    parent = resolved.BaseType;
+            }
+
+            return false;
+        }
+        private static bool IsDerivedFrom_Fast(TypeDefinition td, Type baseClass)
+        {
+            if (td == null)
+                return false;
+
+            if (!td.IsClass)
+                return false;
+
+            // are ANY parent classes of baseClass?
+            TypeReference parent = td.BaseType;
+            while (parent != null)
+            {
+                if (parent.Is(baseClass))
+                    return true;
+
+                if (parent.CanBeResolved())
+                    parent = parent.Resolve().BaseType;
+            }
+
+            return false;
+        }
+
 
         /// <summary>
         /// Resolves type using try/catch check
@@ -157,6 +207,36 @@ namespace Mirage.Weaver
             return tr is ArrayType arrayType && arrayType.Rank > 1;
         }
 
+        public static bool TryResolve(this TypeReference type, out TypeDefinition resolved)
+        {
+            if (type == null) throw new NullReferenceException();
+            resolved = null;
+
+            // todo find out why we can't resolve from "Windows"
+            if (type.Scope.Name == "Windows")
+            {
+                return false;
+            }
+
+            // todo find out why "mscorlib" is sepcail case
+            if (type.Scope.Name == "mscorlib")
+            {
+                resolved = type.Resolve();
+                return resolved != null;
+            }
+
+            try
+            {
+                resolved = type.Resolve();
+                return resolved != null;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        // todo what is CanBeResolved for, do we need it to do all this?
         public static bool CanBeResolved(this TypeReference parent)
         {
             while (parent != null)
