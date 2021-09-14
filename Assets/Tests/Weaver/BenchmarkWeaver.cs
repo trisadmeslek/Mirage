@@ -1,7 +1,10 @@
-﻿using Mirage.Weaver;
+using System;
+using Mirage.Weaver;
 using NUnit.Framework;
 using Unity.PerformanceTesting;
+using Unity.PerformanceTesting.Measurements;
 using UnityEditor.Compilation;
+using UnityEngine;
 
 namespace Mirage.Tests.Weaver
 {
@@ -11,11 +14,11 @@ namespace Mirage.Tests.Weaver
         [Performance]
         public void Benchmark()
         {
-            Measure.Method(RunWeaver)
-               .WarmupCount(1)
-               .MeasurementCount(10)
-               .Run();
+            Run(Measure.Method(RunWeaver));
         }
+
+
+        void Run(MethodMeasurement method) => method.WarmupCount(1).MeasurementCount(10).CleanUp(() => GC.Collect()).Run();
 
         public void RunWeaver()
         {
@@ -31,6 +34,13 @@ namespace Mirage.Tests.Weaver
             weaver.Weave(compiledAssembly);
 
             Assert.That(logger.Diagnostics.Count == 0, "Had errors");
+            foreach (Unity.CompilationPipeline.Common.Diagnostics.DiagnosticMessage message in logger.Diagnostics)
+            {
+                if (message.DiagnosticType == Unity.CompilationPipeline.Common.Diagnostics.DiagnosticType.Error)
+                    Debug.LogError(message.MessageData);
+                else
+                    Debug.LogWarning(message.MessageData);
+            }
         }
     }
 }
