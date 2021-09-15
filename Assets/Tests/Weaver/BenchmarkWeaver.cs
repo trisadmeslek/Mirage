@@ -33,6 +33,7 @@ namespace Mirage.Tests.Weaver
             Extensions.Fast_IsDerivedFrom = false;
             Extensions.Fast_TryResolve = false;
             Extensions.Fast_IsDerivedFrom_V2 = false;
+            ServerClientAttributeProcessor.HasCheck = false;
         }
 
         [Test]
@@ -101,6 +102,17 @@ namespace Mirage.Tests.Weaver
             Run("Fast");
         }
 
+        [Test]
+        [Performance]
+        public void Benchmark_ServerClientAttributeProcessor_HasCheck()
+        {
+            ServerClientAttributeProcessor.HasCheck = false;
+            Run("Slow");
+
+            ServerClientAttributeProcessor.HasCheck = true;
+            Run("Fast");
+        }
+
         void Run(string name, int warmup = 1, int measure = 6)
         {
             Measure.Method(() => RunWeaver("Library/ScriptAssemblies/Mirage.Tests.Runtime.dll")).SampleGroup($"Runtime_{name}").WarmupCount(warmup).MeasurementCount(measure).CleanUp(() => GC.Collect()).Run();
@@ -109,7 +121,7 @@ namespace Mirage.Tests.Weaver
 
         public void RunWeaver(string path)
         {
-            Debug.Log($"Weaving {path}");
+            //Debug.Log($"Weaving {path}");
 
             var logger = new WeaverLogger();
             var weaver = new Mirage.Weaver.Weaver(logger);
