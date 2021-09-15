@@ -7,6 +7,7 @@ namespace Mirage.Weaver
     public static class Extensions
     {
         public static bool Fast_IsDerivedFrom;
+        public static bool Fast_IsDerivedFrom_V2;
         public static bool Fast_TryResolve;
 
         public static bool Is(this TypeReference td, Type t)
@@ -37,6 +38,7 @@ namespace Mirage.Weaver
                 return false;
 
             if (Fast_TryResolve) { return IsDerivedFrom_Fast_TryResolve(td, baseClass); }
+            if (Fast_IsDerivedFrom_V2) { return IsDerivedFrom_Fast_V2(td, baseClass); }
             if (Fast_IsDerivedFrom) { return IsDerivedFrom_Fast(td, baseClass); }
 
             // are ANY parent classes of baseClass?
@@ -92,6 +94,31 @@ namespace Mirage.Weaver
 
                 if (parent.CanBeResolved())
                     parent = parent.Resolve().BaseType;
+                else return false;
+            }
+
+            return false;
+        }
+        private static bool IsDerivedFrom_Fast_V2(TypeDefinition td, Type baseClass)
+        {
+            if (td == null)
+                return false;
+
+            if (!td.IsClass)
+                return false;
+
+            // are ANY parent classes of baseClass?
+            TypeReference parent = td.BaseType;
+
+            // check CanBeResolved once, it will check all base classes to make sure they can all be resolved
+            if (!parent.CanBeResolved()) return false;
+
+            while (parent != null)
+            {
+                if (parent.Is(baseClass))
+                    return true;
+
+                parent = parent.Resolve().BaseType;
             }
 
             return false;

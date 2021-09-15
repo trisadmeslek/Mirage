@@ -32,6 +32,7 @@ namespace Mirage.Tests.Weaver
             PostProcessorReflectionImporter.Fast = true;// default true
             Extensions.Fast_IsDerivedFrom = false;
             Extensions.Fast_TryResolve = false;
+            Extensions.Fast_IsDerivedFrom_V2 = false;
         }
 
         [Test]
@@ -75,6 +76,17 @@ namespace Mirage.Tests.Weaver
             Run("Slow");
 
             Extensions.Fast_IsDerivedFrom = true;
+            Run("Fast");
+        }
+
+        [Test]
+        [Performance]
+        public void Benchmark_IsDerivedFrom_V2()
+        {
+            Extensions.Fast_IsDerivedFrom_V2 = false;
+            Run("Slow");
+
+            Extensions.Fast_IsDerivedFrom_V2 = true;
             Run("Fast");
         }
 
