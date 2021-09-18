@@ -5477,6 +5477,12 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkBehaviour.ClientObjectManager
   nameWithType: NetworkBehaviour.ClientObjectManager
+- uid: Mirage.NetworkBehaviour.COMPONENT_INDEX_NOT_FOUND
+  name: COMPONENT_INDEX_NOT_FOUND
+  href: api/Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_COMPONENT_INDEX_NOT_FOUND
+  commentId: F:Mirage.NetworkBehaviour.COMPONENT_INDEX_NOT_FOUND
+  fullName: Mirage.NetworkBehaviour.COMPONENT_INDEX_NOT_FOUND
+  nameWithType: NetworkBehaviour.COMPONENT_INDEX_NOT_FOUND
 - uid: Mirage.NetworkBehaviour.ComponentIndex
   name: ComponentIndex
   href: api/Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_ComponentIndex
