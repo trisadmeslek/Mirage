@@ -175,11 +175,13 @@ This will be populated by the weaver</p>
       <h4><a class="xref" href="Mirage.Serialization.UnityTypesExtensions.html">UnityTypesExtensions</a></h4>
       <section></section>
       <h4><a class="xref" href="Mirage.Serialization.VarIntAttribute.html">VarIntAttribute</a></h4>
-      <section><p>Tells weaver how many bits to sue for field</p>
+      <section><p>Tells weaver the max range for small, medium and large values.</p>
+<p>Allows small values to be sent using less bits</p>
 <p>Only works with interager fields (byte, int, ulong, enums etc)</p>
 </section>
       <h4><a class="xref" href="Mirage.Serialization.VarIntBlocksAttribute.html">VarIntBlocksAttribute</a></h4>
-      <section><p>Tells weaver how many bits to sue for field</p>
+      <section><p>Tells weaver the block size to use for packing int values</p>
+<p>Allows small values to be sent using less bits</p>
 <p>Only works with interager fields (byte, int, ulong, enums etc)</p>
 </section>
       <h4><a class="xref" href="Mirage.Serialization.VarIntBlocksPacker.html">VarIntBlocksPacker</a></h4>
