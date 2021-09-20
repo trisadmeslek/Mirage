@@ -4082,19 +4082,6 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkClient.Player
   nameWithType: INetworkClient.Player
-- uid: Mirage.INetworkClient.Time
-  name: Time
-  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Time
-  commentId: P:Mirage.INetworkClient.Time
-  fullName: Mirage.INetworkClient.Time
-  nameWithType: INetworkClient.Time
-- uid: Mirage.INetworkClient.Time*
-  name: Time
-  href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_Time_
-  commentId: Overload:Mirage.INetworkClient.Time
-  isSpec: "True"
-  fullName: Mirage.INetworkClient.Time
-  nameWithType: INetworkClient.Time
 - uid: Mirage.INetworkClient.World
   name: World
   href: api/Mirage.INetworkClient.html#Mirage_INetworkClient_World
@@ -4499,19 +4486,6 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkServer.SyncVarSender
   nameWithType: INetworkServer.SyncVarSender
-- uid: Mirage.INetworkServer.Time
-  name: Time
-  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Time
-  commentId: P:Mirage.INetworkServer.Time
-  fullName: Mirage.INetworkServer.Time
-  nameWithType: INetworkServer.Time
-- uid: Mirage.INetworkServer.Time*
-  name: Time
-  href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_Time_
-  commentId: Overload:Mirage.INetworkServer.Time
-  isSpec: "True"
-  fullName: Mirage.INetworkServer.Time
-  nameWithType: INetworkServer.Time
 - uid: Mirage.INetworkServer.World
   name: World
   href: api/Mirage.INetworkServer.html#Mirage_INetworkServer_World
@@ -6151,19 +6125,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkClient.Started
   nameWithType: NetworkClient.Started
-- uid: Mirage.NetworkClient.Time
-  name: Time
-  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Time
-  commentId: P:Mirage.NetworkClient.Time
-  fullName: Mirage.NetworkClient.Time
-  nameWithType: NetworkClient.Time
-- uid: Mirage.NetworkClient.Time*
-  name: Time
-  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_Time_
-  commentId: Overload:Mirage.NetworkClient.Time
-  isSpec: "True"
-  fullName: Mirage.NetworkClient.Time
-  nameWithType: NetworkClient.Time
 - uid: Mirage.NetworkClient.World
   name: World
   href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_World
@@ -8095,19 +8056,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkServer.SyncVarSender
   nameWithType: NetworkServer.SyncVarSender
-- uid: Mirage.NetworkServer.Time
-  name: Time
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Time
-  commentId: P:Mirage.NetworkServer.Time
-  fullName: Mirage.NetworkServer.Time
-  nameWithType: NetworkServer.Time
-- uid: Mirage.NetworkServer.Time*
-  name: Time
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Time_
-  commentId: Overload:Mirage.NetworkServer.Time
-  isSpec: "True"
-  fullName: Mirage.NetworkServer.Time
-  nameWithType: NetworkServer.Time
 - uid: Mirage.NetworkServer.World
   name: World
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_World
@@ -8497,6 +8445,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkWorld.SpawnedIdentities
   nameWithType: NetworkWorld.SpawnedIdentities
+- uid: Mirage.NetworkWorld.Time
+  name: Time
+  href: api/Mirage.NetworkWorld.html#Mirage_NetworkWorld_Time
+  commentId: P:Mirage.NetworkWorld.Time
+  fullName: Mirage.NetworkWorld.Time
+  nameWithType: NetworkWorld.Time
+- uid: Mirage.NetworkWorld.Time*
+  name: Time
+  href: api/Mirage.NetworkWorld.html#Mirage_NetworkWorld_Time_
+  commentId: Overload:Mirage.NetworkWorld.Time
+  isSpec: "True"
+  fullName: Mirage.NetworkWorld.Time
+  nameWithType: NetworkWorld.Time
 - uid: Mirage.NetworkWorld.TryGetIdentity(System.UInt32,Mirage.NetworkIdentity@)
   name: TryGetIdentity(UInt32, out NetworkIdentity)
   href: api/Mirage.NetworkWorld.html#Mirage_NetworkWorld_TryGetIdentity_System_UInt32_Mirage_NetworkIdentity__
