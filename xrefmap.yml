@@ -2621,12 +2621,6 @@ references:
   commentId: T:Mirage.DeserializeFailedException
   fullName: Mirage.DeserializeFailedException
   nameWithType: DeserializeFailedException
-- uid: Mirage.DeserializeFailedException.#ctor
-  name: DeserializeFailedException()
-  href: api/Mirage.DeserializeFailedException.html#Mirage_DeserializeFailedException__ctor
-  commentId: M:Mirage.DeserializeFailedException.#ctor
-  fullName: Mirage.DeserializeFailedException.DeserializeFailedException()
-  nameWithType: DeserializeFailedException.DeserializeFailedException()
 - uid: Mirage.DeserializeFailedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   name: DeserializeFailedException(SerializationInfo, StreamingContext)
   href: api/Mirage.DeserializeFailedException.html#Mirage_DeserializeFailedException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
@@ -2639,12 +2633,6 @@ references:
   commentId: M:Mirage.DeserializeFailedException.#ctor(System.String)
   fullName: Mirage.DeserializeFailedException.DeserializeFailedException(System.String)
   nameWithType: DeserializeFailedException.DeserializeFailedException(String)
-- uid: Mirage.DeserializeFailedException.#ctor(System.String,System.Exception)
-  name: DeserializeFailedException(String, Exception)
-  href: api/Mirage.DeserializeFailedException.html#Mirage_DeserializeFailedException__ctor_System_String_System_Exception_
-  commentId: M:Mirage.DeserializeFailedException.#ctor(System.String,System.Exception)
-  fullName: Mirage.DeserializeFailedException.DeserializeFailedException(System.String, System.Exception)
-  nameWithType: DeserializeFailedException.DeserializeFailedException(String, Exception)
 - uid: Mirage.DeserializeFailedException.#ctor*
   name: DeserializeFailedException
   href: api/Mirage.DeserializeFailedException.html#Mirage_DeserializeFailedException__ctor_
