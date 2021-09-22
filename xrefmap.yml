@@ -15120,6 +15120,12 @@ references:
   commentId: F:Mirage.SyncVarAttribute.hook
   fullName: Mirage.SyncVarAttribute.hook
   nameWithType: SyncVarAttribute.hook
+- uid: Mirage.SyncVarAttribute.initialOnly
+  name: initialOnly
+  href: api/Mirage.SyncVarAttribute.html#Mirage_SyncVarAttribute_initialOnly
+  commentId: F:Mirage.SyncVarAttribute.initialOnly
+  fullName: Mirage.SyncVarAttribute.initialOnly
+  nameWithType: SyncVarAttribute.initialOnly
 - uid: Mirage.SyncVarReceiver
   name: SyncVarReceiver
   href: api/Mirage.SyncVarReceiver.html
