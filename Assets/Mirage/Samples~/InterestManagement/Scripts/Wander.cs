@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -10,13 +10,7 @@ namespace Mirage.Examples.InterestManagement
 
         public Bounds bounds;
 
-        // Start is called before the first frame update
-        public void StartMoving()
-        {
-            StartCoroutine(Move());
-        }
-
-        public IEnumerator Move()
+        public IEnumerator Start()
         {
             while (true)
             {
