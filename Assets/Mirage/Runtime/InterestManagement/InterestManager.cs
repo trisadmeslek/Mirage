@@ -8,6 +8,68 @@ using UnityEngine;
 
 namespace Mirage.InterestManagement
 {
+
+    public static class Benchmarker
+    {
+        public class Mark
+        {
+            readonly string name;
+            long start = 0;
+            long count = 0;
+            long total = 0;
+
+
+            public Mark(string name)
+            {
+                this.name = name ?? throw new ArgumentNullException(nameof(name));
+            }
+
+            public void Start()
+            {
+                start = Stopwatch.GetTimestamp();
+            }
+            public void Stop()
+            {
+                total += Stopwatch.GetTimestamp() - start;
+                count++;
+            }
+
+            public override string ToString()
+            {
+                return $"{name}, {total}, {count}";
+            }
+        }
+
+
+
+        public static void Clear()
+        {
+            update = new Mark("Update");
+            OnSpawnInWorld = new Mark("OnSpawnInWorld");
+            SendT = new Mark("SendT");
+            Send = new Mark("Send");
+            Observers = new Mark("Observers");
+        }
+
+        public static void Output()
+        {
+            Console.WriteLine("---Benchmarker---");
+            Console.WriteLine(update);
+            Console.WriteLine(OnSpawnInWorld);
+            Console.WriteLine(SendT);
+            Console.WriteLine(Send);
+            Console.WriteLine(Observers);
+        }
+
+
+        internal static Mark update = new Mark("Update");
+        internal static Mark OnSpawnInWorld = new Mark("OnSpawnInWorld");
+        internal static Mark SendT = new Mark("SendT");
+        internal static Mark Send = new Mark("Send");
+        internal static Mark Observers = new Mark("Observers");
+    }
+
+
     public class InterestManager
     {
         static readonly ILogger logger = LogFactory.GetLogger(typeof(InterestManager));
@@ -31,19 +93,27 @@ namespace Mirage.InterestManagement
 
         internal void Update()
         {
-            var stopWatch = Stopwatch.StartNew();
-
-            if (_visibilitySystems == null) return;
-
-            foreach (ObserverData observerData in _visibilitySystems)
+            Benchmarker.update.Start();
+            try
             {
-                observerData.System.CheckForObservers();
+                var stopWatch = Stopwatch.StartNew();
+
+                if (_visibilitySystems == null) return;
+
+                foreach (ObserverData observerData in _visibilitySystems)
+                {
+                    observerData.System.CheckForObservers();
+                }
+
+                stopWatch.Stop();
+
+                if (logger.logEnabled)
+                    logger.Log($"[Interest Manager] - Update Method Execution Time: {stopWatch.Elapsed.TotalMilliseconds} ms");
             }
-
-            stopWatch.Stop();
-
-            if (logger.logEnabled)
-                logger.Log($"[Interest Manager] - Update Method Execution Time: {stopWatch.Elapsed.TotalMilliseconds} ms");
+            finally
+            {
+                Benchmarker.update.Stop();
+            }
         }
 
         /// <summary>
@@ -69,27 +139,35 @@ namespace Mirage.InterestManagement
         /// <param name="identity"></param>
         private void OnSpawnInWorld(NetworkIdentity identity)
         {
-            var stopWatch = Stopwatch.StartNew();
-
-            if (_visibilitySystems == null)
+            Benchmarker.OnSpawnInWorld.Start();
+            try
             {
-                foreach (INetworkPlayer player in ServerObjectManager.Server.Players)
+                var stopWatch = Stopwatch.StartNew();
+
+                if (_visibilitySystems == null)
                 {
-                    ServerObjectManager.ShowToPlayer(identity, player);
+                    foreach (INetworkPlayer player in ServerObjectManager.Server.Players)
+                    {
+                        ServerObjectManager.ShowToPlayer(identity, player);
+                    }
                 }
+                else
+                {
+                    foreach (ObserverData systemData in _visibilitySystems)
+                    {
+                        systemData.System.OnSpawned(identity);
+                    }
+                }
+
+                stopWatch.Stop();
+
+                if (logger.logEnabled)
+                    logger.Log($"[Interest Manager] - OnSpawnInWorld Method Execution Time: {stopWatch.Elapsed.TotalMilliseconds} ms");
             }
-            else
+            finally
             {
-                foreach (ObserverData systemData in _visibilitySystems)
-                {
-                    systemData.System.OnSpawned(identity);
-                }
+                Benchmarker.OnSpawnInWorld.Stop();
             }
-
-            stopWatch.Stop();
-
-            if (logger.logEnabled)
-                logger.Log($"[Interest Manager] - OnSpawnInWorld Method Execution Time: {stopWatch.Elapsed.TotalMilliseconds} ms");
         }
 
         #endregion
@@ -119,28 +197,36 @@ namespace Mirage.InterestManagement
         /// <param name="channelId"></param>
         protected internal virtual void Send<T>(NetworkIdentity identity, T msg, int channelId = Channel.Reliable, INetworkPlayer skip = null)
         {
-            var stopWatch = Stopwatch.StartNew();
-
-            HashSet<INetworkPlayer> observers = Observers(identity);
-
-            if (observers.Count == 0)
-                return;
-
-            using (PooledNetworkWriter writer = NetworkWriterPool.GetWriter())
+            Benchmarker.SendT.Start();
+            try
             {
-                // pack message into byte[] once
-                MessagePacker.Pack(msg, writer);
-                var segment = writer.ToArraySegment();
-                int count = Send(identity, segment, channelId, skip);
+                var stopWatch = Stopwatch.StartNew();
 
-                if (count > 0)
-                    NetworkDiagnostics.OnSend(msg, segment.Count, count);
+                HashSet<INetworkPlayer> observers = Observers(identity);
+
+                if (observers.Count == 0)
+                    return;
+
+                using (PooledNetworkWriter writer = NetworkWriterPool.GetWriter())
+                {
+                    // pack message into byte[] once
+                    MessagePacker.Pack(msg, writer);
+                    var segment = writer.ToArraySegment();
+                    int count = Send(identity, segment, channelId, skip);
+
+                    if (count > 0)
+                        NetworkDiagnostics.OnSend(msg, segment.Count, count);
+                }
+
+                stopWatch.Stop();
+
+                if (logger.logEnabled)
+                    logger.Log($"[Interest Manager] - Send Method Execution Time: {stopWatch.Elapsed.TotalMilliseconds} ms");
             }
-
-            stopWatch.Stop();
-
-            if (logger.logEnabled)
-                logger.Log($"[Interest Manager] - Send Method Execution Time: {stopWatch.Elapsed.TotalMilliseconds} ms");
+            finally
+            {
+                Benchmarker.SendT.Stop();
+            }
         }
 
         /// <summary>
@@ -155,21 +241,29 @@ namespace Mirage.InterestManagement
         /// <returns>Total amounts of messages sent</returns>
         protected virtual int Send(NetworkIdentity identity, ArraySegment<byte> data, int channelId = Channel.Reliable, INetworkPlayer skip = null)
         {
-            int count = 0;
-
-            foreach (INetworkPlayer player in Observers(identity))
+            Benchmarker.Send.Start();
+            try
             {
-                if (player == null) continue;
+                int count = 0;
 
-                if (player != skip)
+                foreach (INetworkPlayer player in Observers(identity))
                 {
-                    // send to all connections, but don't wait for them
-                    player.Send(data, channelId);
-                    count++;
-                }
-            }
+                    if (player == null) continue;
 
-            return count;
+                    if (player != skip)
+                    {
+                        // send to all connections, but don't wait for them
+                        player.Send(data, channelId);
+                        count++;
+                    }
+                }
+
+                return count;
+            }
+            finally
+            {
+                Benchmarker.Send.Stop();
+            }
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -218,12 +312,12 @@ namespace Mirage.InterestManagement
                 return;
             }
 
-            if(logger.logEnabled)
+            if (logger.logEnabled)
                 logger.Log($"[Interest Manager] - Registering system {system} to our manager.");
 
             for (int i = 0; i < _visibilitySystems.Length; i++)
             {
-                if(!_visibilitySystems[i].Equals(default)) continue;
+                if (!_visibilitySystems[i].Equals(default)) continue;
 
                 _visibilitySystems[i] = system;
 
@@ -277,20 +371,29 @@ namespace Mirage.InterestManagement
         /// <returns></returns>
         internal HashSet<INetworkPlayer> Observers(NetworkIdentity identity)
         {
-            var stopWatch = Stopwatch.StartNew();
+            Benchmarker.Observers.Start();
+            try
+            {
 
-            if (_visibilitySystems == null)
-                return ServerObjectManager.Server.Players;
+                var stopWatch = Stopwatch.StartNew();
 
-            var observers = new HashSet<INetworkPlayer>();
+                if (_visibilitySystems == null)
+                    return ServerObjectManager.Server.Players;
 
-            stopWatch.Stop();
+                var observers = new HashSet<INetworkPlayer>();
 
-            if (logger.logEnabled)
-                logger.Log(
-                    $"[Interest Manager] - Observers Method Execution Time: {stopWatch.Elapsed.TotalMilliseconds} ms");
+                stopWatch.Stop();
 
-            return observers;
+                if (logger.logEnabled)
+                    logger.Log(
+                        $"[Interest Manager] - Observers Method Execution Time: {stopWatch.Elapsed.TotalMilliseconds} ms");
+
+                return observers;
+            }
+            finally
+            {
+                Benchmarker.Observers.Start();
+            }
         }
 
         #endregion
