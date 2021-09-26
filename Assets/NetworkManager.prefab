@@ -18,6 +18,8 @@ GameObject:
   - component: {fileID: 916766450354047455}
   - component: {fileID: 916766450354047452}
   - component: {fileID: 916766450354047428}
+  - component: {fileID: 5999903503089800216}
+  - component: {fileID: 6288142687377857464}
   m_Layer: 0
   m_Name: NetworkManager
   m_TagString: Untagged
@@ -68,7 +70,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5f5ec068f5604c32b160bc49ee97b75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnablePeerMetrics: 0
+  EnablePeerMetrics: 1
   MaxConnections: 4
   DisconnectOnException: 1
   Listening: 1
@@ -409,3 +411,37 @@ MonoBehaviour:
   Port: 7777
   SocketLib: 0
   BufferSize: 262144
+--- !u!114 &5999903503089800216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916766450354047430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc574a7aad794bb4f92d506123548695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset:
+    serializedVersion: 2
+    x: 10
+    y: 10
+    width: 400
+    height: 800
+  background: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &6288142687377857464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916766450354047430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c354427f6a5b2d4e85a2d7b3336615c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  server: {fileID: 916766450354047448}
+  client: {fileID: 916766450354047454}
+  displayMetrics: {fileID: 5999903503089800216}
