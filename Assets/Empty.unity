@@ -325,12 +325,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6afeb56f4d99ca45b8f21b1ba95e762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NetworkManagerPrefab: {fileID: 916766450354047430, guid: 4a5d3e357b0fab64682b8702e20e46f1,
-    type: 3}
   clientCount: 10
   stationaryCount: 500
   movingCount: 100
-  runServer: 1
+  runServerInEditor: 1
 --- !u!4 &1774769107
 Transform:
   m_ObjectHideFlags: 0

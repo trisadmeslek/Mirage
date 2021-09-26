@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using Mirage.Examples.InterestManagement;
 using Mirage.InterestManagement;
@@ -12,12 +13,11 @@ namespace Mirage.Tests.Performance.Runtime
         const string testScene = "Assets/Examples/InterestManagement/Scenes/Scene.unity";
         const string NpcSpawnerName = "Mobs";
         const string LootSpawnerName = "Ground";
-        [SerializeField] GameObject NetworkManagerPrefab;
         [SerializeField] int clientCount = 100;
         [SerializeField] int stationaryCount = 3500;
         [SerializeField] int movingCount = 500;
 
-        [SerializeField] bool runServer;
+        [SerializeField] bool runServerInEditor;
 
         private NetworkServer server;
 
@@ -27,14 +27,30 @@ namespace Mirage.Tests.Performance.Runtime
             Application.targetFrameRate = 60;
 
             string[] args = System.Environment.GetCommandLineArgs();
-            if (runServer || args[1] == "server")
+
+            IEnumerator run = null;
+            try
             {
-                yield return RunServer();
+
+                if (
+#if UNITY_EDITOR
+                runServerInEditor ||
+#endif
+                args.Length >= 2 && args[1] == "server")
+                {
+                    run = RunServer();
+                }
+                else
+                {
+                    run = RunClient();
+                }
             }
-            else
+            catch (Exception e)
             {
-                yield return RunClient();
+                Application.Quit();
             }
+
+            yield return run;
         }
 
 
