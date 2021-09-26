@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Runtime.CompilerServices;
 using Mirage.Logging;
 using Mirage.Serialization;
 using UnityEngine;
@@ -78,7 +77,7 @@ namespace Mirage.InterestManagement
         #region Fields
 
         public readonly ServerObjectManager ServerObjectManager;
-        private ObserverData[] _visibilitySystems;
+        private List<ObserverData> _visibilitySystems;
         private readonly int _initialSystems;
         private readonly List<ObserverData> _observerSystems = new List<ObserverData>();
 
@@ -267,42 +266,13 @@ namespace Mirage.InterestManagement
             }
         }
 
-        [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        private void CheckGrowVisibilitySystem()
-        {
-            var stopWatch = Stopwatch.StartNew();
-
-            if (_visibilitySystems == null)
-            {
-                _visibilitySystems = new ObserverData[_initialSystems];
-            }
-            else if (_visibilitySystems[_visibilitySystems.Length - 1].System == default)
-            {
-                // We need to copy and expand our visibility system.
-                if (logger.logEnabled)
-                    logger.Log("[Interest Manager] - Visibility system is expanding array. If this is happening often. Please set initial systems in constructor.");
-
-                var newData = new ObserverData[_initialSystems + _initialSystems];
-
-                _visibilitySystems.CopyTo(newData, 0);
-
-                _visibilitySystems = newData;
-            }
-
-            stopWatch.Stop();
-
-            if (logger.logEnabled)
-                logger.Log($"[Interest Manager] - CheckGrowVisibilitySystem Method Execution Time: {stopWatch.Elapsed.TotalMilliseconds} ms");
-        }
-
         /// <summary>
         ///     Register a specific interest management system to the interest manager.
         /// </summary>
         /// <param name="system">The system we want to register in the interest manager.</param>
         internal void RegisterVisibilitySystem(ref ObserverData system)
         {
-            CheckGrowVisibilitySystem();
-
+            if (_visibilitySystems == null) _visibilitySystems = new List<ObserverData>();
             var stopWatch = Stopwatch.StartNew();
 
             if (_visibilitySystems.Equals(system))
@@ -316,7 +286,7 @@ namespace Mirage.InterestManagement
             if (logger.logEnabled)
                 logger.Log($"[Interest Manager] - Registering system {system} to our manager.");
 
-            for (int i = 0; i < _visibilitySystems.Length; i++)
+            for (int i = 0; i < _visibilitySystems.Count; i++)
             {
                 if (!_visibilitySystems[i].Equals(default)) continue;
 
@@ -337,9 +307,10 @@ namespace Mirage.InterestManagement
         /// <param name="system">The system we want to un-register from the interest manager.</param>
         internal void UnRegisterVisibilitySystem(ref ObserverData system)
         {
+            if (_visibilitySystems == null) return;
             var stopWatch = Stopwatch.StartNew();
 
-            for (int i = 0; i < _visibilitySystems.Length; i++)
+            for (int i = 0; i < _visibilitySystems.Count; i++)
             {
                 if (!_visibilitySystems[i].Equals(system)) continue;
 
@@ -393,7 +364,7 @@ namespace Mirage.InterestManagement
             }
             finally
             {
-                Benchmarker.Observers.Start();
+                Benchmarker.Observers.Stop();
             }
         }
 
