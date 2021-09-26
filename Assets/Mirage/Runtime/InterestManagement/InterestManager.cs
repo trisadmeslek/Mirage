@@ -37,7 +37,7 @@ namespace Mirage.InterestManagement
             public override string ToString()
             {
                 double ms = total / (double)Stopwatch.Frequency * 1000.0;
-                return $"{name}, {ms:0.000}, {count}";
+                return $"{name}, {ms:0.00}ms, {count}, {ms / count * 1000:0.00}us,";
             }
         }
 
