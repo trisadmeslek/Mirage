@@ -8,6 +8,12 @@ using UnityEngine.SceneManagement;
 
 namespace Mirage.Tests.Performance.Runtime
 {
+    /*
+     Run lots from powershell
+
+invoke-expression 'cmd /c start powershell -Command { .\array_server.exe server }'
+1..10 | % { invoke-expression 'cmd /c start powershell -Command { .\array_server.exe client }' }
+     */
     public class InterestManagementPerformanceBase_BenchmarkRunner : MonoBehaviour
     {
         const string testScene = "Assets/Examples/InterestManagement/Scenes/Scene.unity";
@@ -110,6 +116,7 @@ namespace Mirage.Tests.Performance.Runtime
             while (!started) { yield return null; }
             lootSpawner.Spawn();
             npcSpawner.Spawn();
+
 
             // wait for 10 players
             while (server.Players.Count < clientCount) { yield return null; }
