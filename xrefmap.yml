@@ -5114,12 +5114,12 @@ references:
   commentId: T:Mirage.MessageHandler
   fullName: Mirage.MessageHandler
   nameWithType: MessageHandler
-- uid: Mirage.MessageHandler.#ctor(System.Boolean)
-  name: MessageHandler(Boolean)
-  href: api/Mirage.MessageHandler.html#Mirage_MessageHandler__ctor_System_Boolean_
-  commentId: M:Mirage.MessageHandler.#ctor(System.Boolean)
-  fullName: Mirage.MessageHandler.MessageHandler(System.Boolean)
-  nameWithType: MessageHandler.MessageHandler(Boolean)
+- uid: Mirage.MessageHandler.#ctor(Mirage.IObjectLocator,System.Boolean)
+  name: MessageHandler(IObjectLocator, Boolean)
+  href: api/Mirage.MessageHandler.html#Mirage_MessageHandler__ctor_Mirage_IObjectLocator_System_Boolean_
+  commentId: M:Mirage.MessageHandler.#ctor(Mirage.IObjectLocator,System.Boolean)
+  fullName: Mirage.MessageHandler.MessageHandler(Mirage.IObjectLocator, System.Boolean)
+  nameWithType: MessageHandler.MessageHandler(IObjectLocator, Boolean)
 - uid: Mirage.MessageHandler.#ctor*
   name: MessageHandler
   href: api/Mirage.MessageHandler.html#Mirage_MessageHandler__ctor_
@@ -6144,6 +6144,12 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkClient.Metrics
   nameWithType: NetworkClient.Metrics
+- uid: Mirage.NetworkClient.MetricsSize
+  name: MetricsSize
+  href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_MetricsSize
+  commentId: F:Mirage.NetworkClient.MetricsSize
+  fullName: Mirage.NetworkClient.MetricsSize
+  nameWithType: NetworkClient.MetricsSize
 - uid: Mirage.NetworkClient.PeerConfig
   name: PeerConfig
   href: api/Mirage.NetworkClient.html#Mirage_NetworkClient_PeerConfig
@@ -7945,6 +7951,12 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkServer.Metrics
   nameWithType: NetworkServer.Metrics
+- uid: Mirage.NetworkServer.MetricsSize
+  name: MetricsSize
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_MetricsSize
+  commentId: F:Mirage.NetworkServer.MetricsSize
+  fullName: Mirage.NetworkServer.MetricsSize
+  nameWithType: NetworkServer.MetricsSize
 - uid: Mirage.NetworkServer.Mirage#INetworkServer#Players
   name: INetworkServer.Players
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Mirage_INetworkServer_Players
