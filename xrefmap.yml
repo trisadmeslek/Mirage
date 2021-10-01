@@ -5114,12 +5114,12 @@ references:
   commentId: T:Mirage.MessageHandler
   fullName: Mirage.MessageHandler
   nameWithType: MessageHandler
-- uid: Mirage.MessageHandler.#ctor(Mirage.IObjectLocator,System.Boolean)
-  name: MessageHandler(IObjectLocator, Boolean)
-  href: api/Mirage.MessageHandler.html#Mirage_MessageHandler__ctor_Mirage_IObjectLocator_System_Boolean_
-  commentId: M:Mirage.MessageHandler.#ctor(Mirage.IObjectLocator,System.Boolean)
-  fullName: Mirage.MessageHandler.MessageHandler(Mirage.IObjectLocator, System.Boolean)
-  nameWithType: MessageHandler.MessageHandler(IObjectLocator, Boolean)
+- uid: Mirage.MessageHandler.#ctor(System.Boolean)
+  name: MessageHandler(Boolean)
+  href: api/Mirage.MessageHandler.html#Mirage_MessageHandler__ctor_System_Boolean_
+  commentId: M:Mirage.MessageHandler.#ctor(System.Boolean)
+  fullName: Mirage.MessageHandler.MessageHandler(System.Boolean)
+  nameWithType: MessageHandler.MessageHandler(Boolean)
 - uid: Mirage.MessageHandler.#ctor*
   name: MessageHandler
   href: api/Mirage.MessageHandler.html#Mirage_MessageHandler__ctor_
