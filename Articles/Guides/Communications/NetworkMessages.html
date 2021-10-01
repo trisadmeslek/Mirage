@@ -97,8 +97,14 @@
 <h1 id="network-messages">Network Messages</h1>
 
 <p>For the most part we recommend the high level <a href="RemoteActions.html">RPC</a> calls and <a href="../Sync/index.html">SyncVar</a>, but you can also send low level network messages. This can be useful if you want clients to send messages that are not tied to game objects, such as logging, analytics or profiling information.</p>
-<p>You can send any <a href="../DataTypes.html">supported Mirage type</a> as a message, use the <code>Send()</code> method on the NetworkClient, NetworkServer, and INetworkConnection classes which work the same way. The code below demonstrates how to send and handle a message:</p>
-<p>To declare a custom network message class and use it:</p>
+<h2 id="usage">Usage</h2>
+<ol>
+<li>Define a new struct (rather than a class to prevent GC allocations) which will represent your message.</li>
+<li>Add any <a href="../DataTypes.html">supported Mirage types</a> as public fields of that struct. This will be the data you want to send.</li>
+<li>Register a handler for that message on <a class="xref" href="../../../api/Mirage.NetworkServer.html">NetworkServer</a> and/or <a class="xref" href="../../../api/Mirage.NetworkClient.html">NetworkClient</a>'s <code>MessageHandler</code> depending on where you want to listen for that message being received.</li>
+<li>Use the <code>Send()</code> method on the <a class="xref" href="../../../api/Mirage.NetworkClient.html">NetworkClient</a>, <a class="xref" href="../../../api/Mirage.NetworkServer.html">NetworkServer</a> or <a class="xref" href="../../../api/Mirage.NetworkPlayer.html">NetworkPlayer</a> classes depending on which way you want to send the message.</li>
+</ol>
+<h2 id="example">Example</h2>
 <pre><code class="lang-cs">using UnityEngine;
 using Mirage;
 
@@ -108,13 +114,18 @@ public class Scores : MonoBehaviour
     public NetworkServer Server;
     public NetworkClient Client;
 
-    public class ScoreMessage
+    // using structs to prevent GC allocations
+    public struct ScoreMessage
     {
         public int score;
         public Vector3 scorePos;
         public int lives;
     }
 
+    void Awake() {
+        Client.MessageHandler.RegisterHandler&lt;ScoreMessage&gt;(OnScore); // register Client to listen for the ScoreMessage
+    }
+    
     public void SendScore(int score, Vector3 scorePos, int lives)
     {
         ScoreMessage msg = new ScoreMessage()
@@ -127,22 +138,13 @@ public class Scores : MonoBehaviour
         NetworkServer.SendToAll(msg);
     }
 
-    public void Start() {
-        Client.Connected.AddListener(OnConnected);
-    }
-
-    public void OnConnected(INetworkConnection connection)
+    void OnScore(INetworkPlayer player, ScoreMessage msg)
     {
-        connection.RegisterHandler&lt;ScoreMessage&gt;(OnScore);
-    }
-
-    public void OnScore(NetworkConnection conn, ScoreMessage msg)
-    {
-        Debug.Log(&quot;OnScoreMessage &quot; + msg.score);
+        Debug.Log(&quot;ScoreMessage received on client with score &quot; + msg.score);
     }
 }
 </code></pre>
-<p>Note that there is no serialization code for the <code>ScoreMessage</code> class in this source code example. Mirage will generate a reader and writer for ScoreMessage when it sees that it is being sent.</p>
+<p>Note that there is no serialization code for the <code>ScoreMessage</code> struct in this source code example. Mirage will generate a reader and writer for ScoreMessage when it sees that it is being sent.</p>
 </article>
           </div>
           
