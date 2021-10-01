@@ -13598,6 +13598,68 @@ references:
   commentId: F:Mirage.SocketLayer.Metrics.Frame.receiveCount
   fullName: Mirage.SocketLayer.Metrics.Frame.receiveCount
   nameWithType: Metrics.Frame.receiveCount
+- uid: Mirage.SocketLayer.Metrics.Frame.receiveMessagesBytesTotal
+  name: receiveMessagesBytesTotal
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_receiveMessagesBytesTotal
+  commentId: P:Mirage.SocketLayer.Metrics.Frame.receiveMessagesBytesTotal
+  fullName: Mirage.SocketLayer.Metrics.Frame.receiveMessagesBytesTotal
+  nameWithType: Metrics.Frame.receiveMessagesBytesTotal
+- uid: Mirage.SocketLayer.Metrics.Frame.receiveMessagesBytesTotal*
+  name: receiveMessagesBytesTotal
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_receiveMessagesBytesTotal_
+  commentId: Overload:Mirage.SocketLayer.Metrics.Frame.receiveMessagesBytesTotal
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Metrics.Frame.receiveMessagesBytesTotal
+  nameWithType: Metrics.Frame.receiveMessagesBytesTotal
+- uid: Mirage.SocketLayer.Metrics.Frame.receiveMessagesCountTotal
+  name: receiveMessagesCountTotal
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_receiveMessagesCountTotal
+  commentId: P:Mirage.SocketLayer.Metrics.Frame.receiveMessagesCountTotal
+  fullName: Mirage.SocketLayer.Metrics.Frame.receiveMessagesCountTotal
+  nameWithType: Metrics.Frame.receiveMessagesCountTotal
+- uid: Mirage.SocketLayer.Metrics.Frame.receiveMessagesCountTotal*
+  name: receiveMessagesCountTotal
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_receiveMessagesCountTotal_
+  commentId: Overload:Mirage.SocketLayer.Metrics.Frame.receiveMessagesCountTotal
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Metrics.Frame.receiveMessagesCountTotal
+  nameWithType: Metrics.Frame.receiveMessagesCountTotal
+- uid: Mirage.SocketLayer.Metrics.Frame.receiveMessagesNotifyBytes
+  name: receiveMessagesNotifyBytes
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_receiveMessagesNotifyBytes
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.receiveMessagesNotifyBytes
+  fullName: Mirage.SocketLayer.Metrics.Frame.receiveMessagesNotifyBytes
+  nameWithType: Metrics.Frame.receiveMessagesNotifyBytes
+- uid: Mirage.SocketLayer.Metrics.Frame.receiveMessagesNotifyCount
+  name: receiveMessagesNotifyCount
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_receiveMessagesNotifyCount
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.receiveMessagesNotifyCount
+  fullName: Mirage.SocketLayer.Metrics.Frame.receiveMessagesNotifyCount
+  nameWithType: Metrics.Frame.receiveMessagesNotifyCount
+- uid: Mirage.SocketLayer.Metrics.Frame.receiveMessagesReliableBytes
+  name: receiveMessagesReliableBytes
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_receiveMessagesReliableBytes
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.receiveMessagesReliableBytes
+  fullName: Mirage.SocketLayer.Metrics.Frame.receiveMessagesReliableBytes
+  nameWithType: Metrics.Frame.receiveMessagesReliableBytes
+- uid: Mirage.SocketLayer.Metrics.Frame.receiveMessagesReliableCount
+  name: receiveMessagesReliableCount
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_receiveMessagesReliableCount
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.receiveMessagesReliableCount
+  fullName: Mirage.SocketLayer.Metrics.Frame.receiveMessagesReliableCount
+  nameWithType: Metrics.Frame.receiveMessagesReliableCount
+- uid: Mirage.SocketLayer.Metrics.Frame.receiveMessagesUnreliableBytes
+  name: receiveMessagesUnreliableBytes
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_receiveMessagesUnreliableBytes
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.receiveMessagesUnreliableBytes
+  fullName: Mirage.SocketLayer.Metrics.Frame.receiveMessagesUnreliableBytes
+  nameWithType: Metrics.Frame.receiveMessagesUnreliableBytes
+- uid: Mirage.SocketLayer.Metrics.Frame.receiveMessagesUnreliableCount
+  name: receiveMessagesUnreliableCount
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_receiveMessagesUnreliableCount
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.receiveMessagesUnreliableCount
+  fullName: Mirage.SocketLayer.Metrics.Frame.receiveMessagesUnreliableCount
+  nameWithType: Metrics.Frame.receiveMessagesUnreliableCount
 - uid: Mirage.SocketLayer.Metrics.Frame.receiveUnconnectedBytes
   name: receiveUnconnectedBytes
   href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_receiveUnconnectedBytes
@@ -13634,6 +13696,68 @@ references:
   commentId: F:Mirage.SocketLayer.Metrics.Frame.sendCount
   fullName: Mirage.SocketLayer.Metrics.Frame.sendCount
   nameWithType: Metrics.Frame.sendCount
+- uid: Mirage.SocketLayer.Metrics.Frame.sendMessagesBytesTotal
+  name: sendMessagesBytesTotal
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_sendMessagesBytesTotal
+  commentId: P:Mirage.SocketLayer.Metrics.Frame.sendMessagesBytesTotal
+  fullName: Mirage.SocketLayer.Metrics.Frame.sendMessagesBytesTotal
+  nameWithType: Metrics.Frame.sendMessagesBytesTotal
+- uid: Mirage.SocketLayer.Metrics.Frame.sendMessagesBytesTotal*
+  name: sendMessagesBytesTotal
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_sendMessagesBytesTotal_
+  commentId: Overload:Mirage.SocketLayer.Metrics.Frame.sendMessagesBytesTotal
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Metrics.Frame.sendMessagesBytesTotal
+  nameWithType: Metrics.Frame.sendMessagesBytesTotal
+- uid: Mirage.SocketLayer.Metrics.Frame.sendMessagesCountTotal
+  name: sendMessagesCountTotal
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_sendMessagesCountTotal
+  commentId: P:Mirage.SocketLayer.Metrics.Frame.sendMessagesCountTotal
+  fullName: Mirage.SocketLayer.Metrics.Frame.sendMessagesCountTotal
+  nameWithType: Metrics.Frame.sendMessagesCountTotal
+- uid: Mirage.SocketLayer.Metrics.Frame.sendMessagesCountTotal*
+  name: sendMessagesCountTotal
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_sendMessagesCountTotal_
+  commentId: Overload:Mirage.SocketLayer.Metrics.Frame.sendMessagesCountTotal
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Metrics.Frame.sendMessagesCountTotal
+  nameWithType: Metrics.Frame.sendMessagesCountTotal
+- uid: Mirage.SocketLayer.Metrics.Frame.sendMessagesNotifyBytes
+  name: sendMessagesNotifyBytes
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_sendMessagesNotifyBytes
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.sendMessagesNotifyBytes
+  fullName: Mirage.SocketLayer.Metrics.Frame.sendMessagesNotifyBytes
+  nameWithType: Metrics.Frame.sendMessagesNotifyBytes
+- uid: Mirage.SocketLayer.Metrics.Frame.sendMessagesNotifyCount
+  name: sendMessagesNotifyCount
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_sendMessagesNotifyCount
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.sendMessagesNotifyCount
+  fullName: Mirage.SocketLayer.Metrics.Frame.sendMessagesNotifyCount
+  nameWithType: Metrics.Frame.sendMessagesNotifyCount
+- uid: Mirage.SocketLayer.Metrics.Frame.sendMessagesReliableBytes
+  name: sendMessagesReliableBytes
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_sendMessagesReliableBytes
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.sendMessagesReliableBytes
+  fullName: Mirage.SocketLayer.Metrics.Frame.sendMessagesReliableBytes
+  nameWithType: Metrics.Frame.sendMessagesReliableBytes
+- uid: Mirage.SocketLayer.Metrics.Frame.sendMessagesReliableCount
+  name: sendMessagesReliableCount
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_sendMessagesReliableCount
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.sendMessagesReliableCount
+  fullName: Mirage.SocketLayer.Metrics.Frame.sendMessagesReliableCount
+  nameWithType: Metrics.Frame.sendMessagesReliableCount
+- uid: Mirage.SocketLayer.Metrics.Frame.sendMessagesUnreliableBytes
+  name: sendMessagesUnreliableBytes
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_sendMessagesUnreliableBytes
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.sendMessagesUnreliableBytes
+  fullName: Mirage.SocketLayer.Metrics.Frame.sendMessagesUnreliableBytes
+  nameWithType: Metrics.Frame.sendMessagesUnreliableBytes
+- uid: Mirage.SocketLayer.Metrics.Frame.sendMessagesUnreliableCount
+  name: sendMessagesUnreliableCount
+  href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_sendMessagesUnreliableCount
+  commentId: F:Mirage.SocketLayer.Metrics.Frame.sendMessagesUnreliableCount
+  fullName: Mirage.SocketLayer.Metrics.Frame.sendMessagesUnreliableCount
+  nameWithType: Metrics.Frame.sendMessagesUnreliableCount
 - uid: Mirage.SocketLayer.Metrics.Frame.sendUnconnectedBytes
   name: sendUnconnectedBytes
   href: api/Mirage.SocketLayer.Metrics.Frame.html#Mirage_SocketLayer_Metrics_Frame_sendUnconnectedBytes
@@ -13659,6 +13783,45 @@ references:
   isSpec: "True"
   fullName: Mirage.SocketLayer.Metrics.OnReceive
   nameWithType: Metrics.OnReceive
+- uid: Mirage.SocketLayer.Metrics.OnReceiveMessageNotify(System.Int32)
+  name: OnReceiveMessageNotify(Int32)
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnReceiveMessageNotify_System_Int32_
+  commentId: M:Mirage.SocketLayer.Metrics.OnReceiveMessageNotify(System.Int32)
+  fullName: Mirage.SocketLayer.Metrics.OnReceiveMessageNotify(System.Int32)
+  nameWithType: Metrics.OnReceiveMessageNotify(Int32)
+- uid: Mirage.SocketLayer.Metrics.OnReceiveMessageNotify*
+  name: OnReceiveMessageNotify
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnReceiveMessageNotify_
+  commentId: Overload:Mirage.SocketLayer.Metrics.OnReceiveMessageNotify
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Metrics.OnReceiveMessageNotify
+  nameWithType: Metrics.OnReceiveMessageNotify
+- uid: Mirage.SocketLayer.Metrics.OnReceiveMessageReliable(System.Int32)
+  name: OnReceiveMessageReliable(Int32)
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnReceiveMessageReliable_System_Int32_
+  commentId: M:Mirage.SocketLayer.Metrics.OnReceiveMessageReliable(System.Int32)
+  fullName: Mirage.SocketLayer.Metrics.OnReceiveMessageReliable(System.Int32)
+  nameWithType: Metrics.OnReceiveMessageReliable(Int32)
+- uid: Mirage.SocketLayer.Metrics.OnReceiveMessageReliable*
+  name: OnReceiveMessageReliable
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnReceiveMessageReliable_
+  commentId: Overload:Mirage.SocketLayer.Metrics.OnReceiveMessageReliable
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Metrics.OnReceiveMessageReliable
+  nameWithType: Metrics.OnReceiveMessageReliable
+- uid: Mirage.SocketLayer.Metrics.OnReceiveMessageUnreliable(System.Int32)
+  name: OnReceiveMessageUnreliable(Int32)
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnReceiveMessageUnreliable_System_Int32_
+  commentId: M:Mirage.SocketLayer.Metrics.OnReceiveMessageUnreliable(System.Int32)
+  fullName: Mirage.SocketLayer.Metrics.OnReceiveMessageUnreliable(System.Int32)
+  nameWithType: Metrics.OnReceiveMessageUnreliable(Int32)
+- uid: Mirage.SocketLayer.Metrics.OnReceiveMessageUnreliable*
+  name: OnReceiveMessageUnreliable
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnReceiveMessageUnreliable_
+  commentId: Overload:Mirage.SocketLayer.Metrics.OnReceiveMessageUnreliable
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Metrics.OnReceiveMessageUnreliable
+  nameWithType: Metrics.OnReceiveMessageUnreliable
 - uid: Mirage.SocketLayer.Metrics.OnReceiveUnconnected(System.Int32)
   name: OnReceiveUnconnected(Int32)
   href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnReceiveUnconnected_System_Int32_
@@ -13698,6 +13861,45 @@ references:
   isSpec: "True"
   fullName: Mirage.SocketLayer.Metrics.OnSend
   nameWithType: Metrics.OnSend
+- uid: Mirage.SocketLayer.Metrics.OnSendMessageNotify(System.Int32)
+  name: OnSendMessageNotify(Int32)
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnSendMessageNotify_System_Int32_
+  commentId: M:Mirage.SocketLayer.Metrics.OnSendMessageNotify(System.Int32)
+  fullName: Mirage.SocketLayer.Metrics.OnSendMessageNotify(System.Int32)
+  nameWithType: Metrics.OnSendMessageNotify(Int32)
+- uid: Mirage.SocketLayer.Metrics.OnSendMessageNotify*
+  name: OnSendMessageNotify
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnSendMessageNotify_
+  commentId: Overload:Mirage.SocketLayer.Metrics.OnSendMessageNotify
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Metrics.OnSendMessageNotify
+  nameWithType: Metrics.OnSendMessageNotify
+- uid: Mirage.SocketLayer.Metrics.OnSendMessageReliable(System.Int32)
+  name: OnSendMessageReliable(Int32)
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnSendMessageReliable_System_Int32_
+  commentId: M:Mirage.SocketLayer.Metrics.OnSendMessageReliable(System.Int32)
+  fullName: Mirage.SocketLayer.Metrics.OnSendMessageReliable(System.Int32)
+  nameWithType: Metrics.OnSendMessageReliable(Int32)
+- uid: Mirage.SocketLayer.Metrics.OnSendMessageReliable*
+  name: OnSendMessageReliable
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnSendMessageReliable_
+  commentId: Overload:Mirage.SocketLayer.Metrics.OnSendMessageReliable
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Metrics.OnSendMessageReliable
+  nameWithType: Metrics.OnSendMessageReliable
+- uid: Mirage.SocketLayer.Metrics.OnSendMessageUnreliable(System.Int32)
+  name: OnSendMessageUnreliable(Int32)
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnSendMessageUnreliable_System_Int32_
+  commentId: M:Mirage.SocketLayer.Metrics.OnSendMessageUnreliable(System.Int32)
+  fullName: Mirage.SocketLayer.Metrics.OnSendMessageUnreliable(System.Int32)
+  nameWithType: Metrics.OnSendMessageUnreliable(Int32)
+- uid: Mirage.SocketLayer.Metrics.OnSendMessageUnreliable*
+  name: OnSendMessageUnreliable
+  href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnSendMessageUnreliable_
+  commentId: Overload:Mirage.SocketLayer.Metrics.OnSendMessageUnreliable
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Metrics.OnSendMessageUnreliable
+  nameWithType: Metrics.OnSendMessageUnreliable
 - uid: Mirage.SocketLayer.Metrics.OnTick(System.Int32)
   name: OnTick(Int32)
   href: api/Mirage.SocketLayer.Metrics.html#Mirage_SocketLayer_Metrics_OnTick_System_Int32_
