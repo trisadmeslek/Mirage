@@ -4958,49 +4958,138 @@ references:
   fullName.vb: Mirage.Logging.LogFactory.GetLogger(Of T)(UnityEngine.LogType)
   nameWithType: LogFactory.GetLogger<T>(LogType)
   nameWithType.vb: LogFactory.GetLogger(Of T)(LogType)
+- uid: Mirage.Logging.LogFactory.Loggers
+  name: Loggers
+  href: api/Mirage.Logging.LogFactory.html#Mirage_Logging_LogFactory_Loggers
+  commentId: P:Mirage.Logging.LogFactory.Loggers
+  fullName: Mirage.Logging.LogFactory.Loggers
+  nameWithType: LogFactory.Loggers
+- uid: Mirage.Logging.LogFactory.Loggers*
+  name: Loggers
+  href: api/Mirage.Logging.LogFactory.html#Mirage_Logging_LogFactory_Loggers_
+  commentId: Overload:Mirage.Logging.LogFactory.Loggers
+  isSpec: "True"
+  fullName: Mirage.Logging.LogFactory.Loggers
+  nameWithType: LogFactory.Loggers
+- uid: Mirage.Logging.LogFactory.ReplaceLogHandler(UnityEngine.ILogHandler)
+  name: ReplaceLogHandler(ILogHandler)
+  href: api/Mirage.Logging.LogFactory.html#Mirage_Logging_LogFactory_ReplaceLogHandler_UnityEngine_ILogHandler_
+  commentId: M:Mirage.Logging.LogFactory.ReplaceLogHandler(UnityEngine.ILogHandler)
+  fullName: Mirage.Logging.LogFactory.ReplaceLogHandler(UnityEngine.ILogHandler)
+  nameWithType: LogFactory.ReplaceLogHandler(ILogHandler)
+- uid: Mirage.Logging.LogFactory.ReplaceLogHandler*
+  name: ReplaceLogHandler
+  href: api/Mirage.Logging.LogFactory.html#Mirage_Logging_LogFactory_ReplaceLogHandler_
+  commentId: Overload:Mirage.Logging.LogFactory.ReplaceLogHandler
+  isSpec: "True"
+  fullName: Mirage.Logging.LogFactory.ReplaceLogHandler
+  nameWithType: LogFactory.ReplaceLogHandler
 - uid: Mirage.Logging.LogSettings
   name: LogSettings
   href: api/Mirage.Logging.LogSettings.html
   commentId: T:Mirage.Logging.LogSettings
   fullName: Mirage.Logging.LogSettings
   nameWithType: LogSettings
-- uid: Mirage.Logging.LogSettings.Level
-  name: LogSettings.Level
-  href: api/Mirage.Logging.LogSettings.Level.html
-  commentId: T:Mirage.Logging.LogSettings.Level
-  fullName: Mirage.Logging.LogSettings.Level
-  nameWithType: LogSettings.Level
-- uid: Mirage.Logging.LogSettings.Level.level
-  name: level
-  href: api/Mirage.Logging.LogSettings.Level.html#Mirage_Logging_LogSettings_Level_level
-  commentId: F:Mirage.Logging.LogSettings.Level.level
-  fullName: Mirage.Logging.LogSettings.Level.level
-  nameWithType: LogSettings.Level.level
-- uid: Mirage.Logging.LogSettings.Level.Name
-  name: Name
-  href: api/Mirage.Logging.LogSettings.Level.html#Mirage_Logging_LogSettings_Level_Name
-  commentId: F:Mirage.Logging.LogSettings.Level.Name
-  fullName: Mirage.Logging.LogSettings.Level.Name
-  nameWithType: LogSettings.Level.Name
-- uid: Mirage.Logging.LogSettings.Levels
-  name: Levels
-  href: api/Mirage.Logging.LogSettings.html#Mirage_Logging_LogSettings_Levels
-  commentId: F:Mirage.Logging.LogSettings.Levels
-  fullName: Mirage.Logging.LogSettings.Levels
-  nameWithType: LogSettings.Levels
-- uid: Mirage.Logging.LogSettings.SetLogLevels
-  name: SetLogLevels()
-  href: api/Mirage.Logging.LogSettings.html#Mirage_Logging_LogSettings_SetLogLevels
-  commentId: M:Mirage.Logging.LogSettings.SetLogLevels
-  fullName: Mirage.Logging.LogSettings.SetLogLevels()
-  nameWithType: LogSettings.SetLogLevels()
-- uid: Mirage.Logging.LogSettings.SetLogLevels*
-  name: SetLogLevels
-  href: api/Mirage.Logging.LogSettings.html#Mirage_Logging_LogSettings_SetLogLevels_
-  commentId: Overload:Mirage.Logging.LogSettings.SetLogLevels
+- uid: Mirage.Logging.LogSettingsExtensions
+  name: LogSettingsExtensions
+  href: api/Mirage.Logging.LogSettingsExtensions.html
+  commentId: T:Mirage.Logging.LogSettingsExtensions
+  fullName: Mirage.Logging.LogSettingsExtensions
+  nameWithType: LogSettingsExtensions
+- uid: Mirage.Logging.LogSettingsExtensions.LoadIntoLogFactory(Mirage.Logging.LogSettingsSO)
+  name: LoadIntoLogFactory(LogSettingsSO)
+  href: api/Mirage.Logging.LogSettingsExtensions.html#Mirage_Logging_LogSettingsExtensions_LoadIntoLogFactory_Mirage_Logging_LogSettingsSO_
+  commentId: M:Mirage.Logging.LogSettingsExtensions.LoadIntoLogFactory(Mirage.Logging.LogSettingsSO)
+  fullName: Mirage.Logging.LogSettingsExtensions.LoadIntoLogFactory(Mirage.Logging.LogSettingsSO)
+  nameWithType: LogSettingsExtensions.LoadIntoLogFactory(LogSettingsSO)
+- uid: Mirage.Logging.LogSettingsExtensions.LoadIntoLogFactory*
+  name: LoadIntoLogFactory
+  href: api/Mirage.Logging.LogSettingsExtensions.html#Mirage_Logging_LogSettingsExtensions_LoadIntoLogFactory_
+  commentId: Overload:Mirage.Logging.LogSettingsExtensions.LoadIntoLogFactory
   isSpec: "True"
-  fullName: Mirage.Logging.LogSettings.SetLogLevels
-  nameWithType: LogSettings.SetLogLevels
+  fullName: Mirage.Logging.LogSettingsExtensions.LoadIntoLogFactory
+  nameWithType: LogSettingsExtensions.LoadIntoLogFactory
+- uid: Mirage.Logging.LogSettingsExtensions.SaveFromLogFactory(Mirage.Logging.LogSettingsSO)
+  name: SaveFromLogFactory(LogSettingsSO)
+  href: api/Mirage.Logging.LogSettingsExtensions.html#Mirage_Logging_LogSettingsExtensions_SaveFromLogFactory_Mirage_Logging_LogSettingsSO_
+  commentId: M:Mirage.Logging.LogSettingsExtensions.SaveFromLogFactory(Mirage.Logging.LogSettingsSO)
+  fullName: Mirage.Logging.LogSettingsExtensions.SaveFromLogFactory(Mirage.Logging.LogSettingsSO)
+  nameWithType: LogSettingsExtensions.SaveFromLogFactory(LogSettingsSO)
+- uid: Mirage.Logging.LogSettingsExtensions.SaveFromLogFactory*
+  name: SaveFromLogFactory
+  href: api/Mirage.Logging.LogSettingsExtensions.html#Mirage_Logging_LogSettingsExtensions_SaveFromLogFactory_
+  commentId: Overload:Mirage.Logging.LogSettingsExtensions.SaveFromLogFactory
+  isSpec: "True"
+  fullName: Mirage.Logging.LogSettingsExtensions.SaveFromLogFactory
+  nameWithType: LogSettingsExtensions.SaveFromLogFactory
+- uid: Mirage.Logging.LogSettingsSO
+  name: LogSettingsSO
+  href: api/Mirage.Logging.LogSettingsSO.html
+  commentId: T:Mirage.Logging.LogSettingsSO
+  fullName: Mirage.Logging.LogSettingsSO
+  nameWithType: LogSettingsSO
+- uid: Mirage.Logging.LogSettingsSO.LoggerSettings
+  name: LogSettingsSO.LoggerSettings
+  href: api/Mirage.Logging.LogSettingsSO.LoggerSettings.html
+  commentId: T:Mirage.Logging.LogSettingsSO.LoggerSettings
+  fullName: Mirage.Logging.LogSettingsSO.LoggerSettings
+  nameWithType: LogSettingsSO.LoggerSettings
+- uid: Mirage.Logging.LogSettingsSO.LoggerSettings.#ctor(System.String,System.String,UnityEngine.LogType)
+  name: LoggerSettings(String, String, LogType)
+  href: api/Mirage.Logging.LogSettingsSO.LoggerSettings.html#Mirage_Logging_LogSettingsSO_LoggerSettings__ctor_System_String_System_String_UnityEngine_LogType_
+  commentId: M:Mirage.Logging.LogSettingsSO.LoggerSettings.#ctor(System.String,System.String,UnityEngine.LogType)
+  fullName: Mirage.Logging.LogSettingsSO.LoggerSettings.LoggerSettings(System.String, System.String, UnityEngine.LogType)
+  nameWithType: LogSettingsSO.LoggerSettings.LoggerSettings(String, String, LogType)
+- uid: Mirage.Logging.LogSettingsSO.LoggerSettings.#ctor(System.String,UnityEngine.LogType)
+  name: LoggerSettings(String, LogType)
+  href: api/Mirage.Logging.LogSettingsSO.LoggerSettings.html#Mirage_Logging_LogSettingsSO_LoggerSettings__ctor_System_String_UnityEngine_LogType_
+  commentId: M:Mirage.Logging.LogSettingsSO.LoggerSettings.#ctor(System.String,UnityEngine.LogType)
+  fullName: Mirage.Logging.LogSettingsSO.LoggerSettings.LoggerSettings(System.String, UnityEngine.LogType)
+  nameWithType: LogSettingsSO.LoggerSettings.LoggerSettings(String, LogType)
+- uid: Mirage.Logging.LogSettingsSO.LoggerSettings.#ctor*
+  name: LoggerSettings
+  href: api/Mirage.Logging.LogSettingsSO.LoggerSettings.html#Mirage_Logging_LogSettingsSO_LoggerSettings__ctor_
+  commentId: Overload:Mirage.Logging.LogSettingsSO.LoggerSettings.#ctor
+  isSpec: "True"
+  fullName: Mirage.Logging.LogSettingsSO.LoggerSettings.LoggerSettings
+  nameWithType: LogSettingsSO.LoggerSettings.LoggerSettings
+- uid: Mirage.Logging.LogSettingsSO.LoggerSettings.FullName
+  name: FullName
+  href: api/Mirage.Logging.LogSettingsSO.LoggerSettings.html#Mirage_Logging_LogSettingsSO_LoggerSettings_FullName
+  commentId: P:Mirage.Logging.LogSettingsSO.LoggerSettings.FullName
+  fullName: Mirage.Logging.LogSettingsSO.LoggerSettings.FullName
+  nameWithType: LogSettingsSO.LoggerSettings.FullName
+- uid: Mirage.Logging.LogSettingsSO.LoggerSettings.FullName*
+  name: FullName
+  href: api/Mirage.Logging.LogSettingsSO.LoggerSettings.html#Mirage_Logging_LogSettingsSO_LoggerSettings_FullName_
+  commentId: Overload:Mirage.Logging.LogSettingsSO.LoggerSettings.FullName
+  isSpec: "True"
+  fullName: Mirage.Logging.LogSettingsSO.LoggerSettings.FullName
+  nameWithType: LogSettingsSO.LoggerSettings.FullName
+- uid: Mirage.Logging.LogSettingsSO.LoggerSettings.logLevel
+  name: logLevel
+  href: api/Mirage.Logging.LogSettingsSO.LoggerSettings.html#Mirage_Logging_LogSettingsSO_LoggerSettings_logLevel
+  commentId: F:Mirage.Logging.LogSettingsSO.LoggerSettings.logLevel
+  fullName: Mirage.Logging.LogSettingsSO.LoggerSettings.logLevel
+  nameWithType: LogSettingsSO.LoggerSettings.logLevel
+- uid: Mirage.Logging.LogSettingsSO.LoggerSettings.Name
+  name: Name
+  href: api/Mirage.Logging.LogSettingsSO.LoggerSettings.html#Mirage_Logging_LogSettingsSO_LoggerSettings_Name
+  commentId: F:Mirage.Logging.LogSettingsSO.LoggerSettings.Name
+  fullName: Mirage.Logging.LogSettingsSO.LoggerSettings.Name
+  nameWithType: LogSettingsSO.LoggerSettings.Name
+- uid: Mirage.Logging.LogSettingsSO.LoggerSettings.Namespace
+  name: Namespace
+  href: api/Mirage.Logging.LogSettingsSO.LoggerSettings.html#Mirage_Logging_LogSettingsSO_LoggerSettings_Namespace
+  commentId: F:Mirage.Logging.LogSettingsSO.LoggerSettings.Namespace
+  fullName: Mirage.Logging.LogSettingsSO.LoggerSettings.Namespace
+  nameWithType: LogSettingsSO.LoggerSettings.Namespace
+- uid: Mirage.Logging.LogSettingsSO.LogLevels
+  name: LogLevels
+  href: api/Mirage.Logging.LogSettingsSO.html#Mirage_Logging_LogSettingsSO_LogLevels
+  commentId: F:Mirage.Logging.LogSettingsSO.LogLevels
+  fullName: Mirage.Logging.LogSettingsSO.LogLevels
+  nameWithType: LogSettingsSO.LogLevels
 - uid: Mirage.MessageDelegate`1
   name: MessageDelegate<T>
   href: api/Mirage.MessageDelegate-1.html
@@ -5025,12 +5114,12 @@ references:
   commentId: T:Mirage.MessageHandler
   fullName: Mirage.MessageHandler
   nameWithType: MessageHandler
-- uid: Mirage.MessageHandler.#ctor(System.Boolean)
-  name: MessageHandler(Boolean)
-  href: api/Mirage.MessageHandler.html#Mirage_MessageHandler__ctor_System_Boolean_
-  commentId: M:Mirage.MessageHandler.#ctor(System.Boolean)
-  fullName: Mirage.MessageHandler.MessageHandler(System.Boolean)
-  nameWithType: MessageHandler.MessageHandler(Boolean)
+- uid: Mirage.MessageHandler.#ctor(Mirage.IObjectLocator,System.Boolean)
+  name: MessageHandler(IObjectLocator, Boolean)
+  href: api/Mirage.MessageHandler.html#Mirage_MessageHandler__ctor_Mirage_IObjectLocator_System_Boolean_
+  commentId: M:Mirage.MessageHandler.#ctor(Mirage.IObjectLocator,System.Boolean)
+  fullName: Mirage.MessageHandler.MessageHandler(Mirage.IObjectLocator, System.Boolean)
+  nameWithType: MessageHandler.MessageHandler(IObjectLocator, Boolean)
 - uid: Mirage.MessageHandler.#ctor*
   name: MessageHandler
   href: api/Mirage.MessageHandler.html#Mirage_MessageHandler__ctor_
