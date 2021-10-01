@@ -1339,6 +1339,11 @@
     "title": "Showcase",
     "keywords": "Showcase [!Video https://www.youtube.com/embed/D_f_MntrLVE] Cubica | The multiplayer version of Block Story Alteros Online | Science-Fantasy Post Apo 3D MMORPG"
   },
+  "Articles/General/Sockets.html": {
+    "href": "Articles/General/Sockets.html",
+    "title": "Sockets",
+    "keywords": "Sockets Sockets are low level objects that are responsible for sending and receiving raw data over the network. Mirage has a single transport (called Peer ) built into its core, which handles all the connection states and reliability. Peer then uses the low level sockets API to send and receive raw data over the network. Check this section below to see how to implement your own socket. Available sockets The table below shows a list of available sockets and their features. UDP (built-in) Steam ( SteamWorks.NET , Facepunch ) CCU 1000+ ? Protocol UDP UDP Unreliable ✅ ✅ Mobile ✅ CPU LOW LOW NAT Punch ✅ Encryption ✅ IPv6 ✅ ? Managed ✅ ✅ Native ✅ Based on NanoSockets (native), .NET (managed) Steam Game Networking Sockets Changing a socket To change a socket, follow the steps below: Install the desired socket. Instructions are available on each socket's repository. Add the socket's SocketFactory as a new component on the object where you have the other Mirage components. Assign a reference to this component in the Socket Factory field of NetworkServer and NetworkClient components. Check if the socket has any required additional steps. Done. Mirage should now be using the newly added socket. Implementing new socket To create a new socket, you have to implement two classes - one that implements the ISocket interface, which will represent the low-level socket and one that extends the SocketFactory class, which will act as the MonoBehaviour component creating new instances of the low-level class. You can check out our built-in UDP socket implementation as an inspiration: UdpSocket and UdpSocketFactory ."
+  },
   "Articles/General/Start.html": {
     "href": "Articles/General/Start.html",
     "title": "Getting Started",
@@ -1348,11 +1353,6 @@
     "href": "Articles/General/Support.html",
     "title": "Support",
     "keywords": "Support Discord You can find us on Discord . GitHub You can create an issue in GitHub You can also contribute with Pull Requests...see Contributing"
-  },
-  "Articles/General/Transports.html": {
-    "href": "Articles/General/Transports.html",
-    "title": "Transports",
-    "keywords": "Transports Transports are low level components that are responsible for sending and receiving raw data over the netowrk. This allows Mirage to support many networking protocols and backends, such as UDP, WebSocket, Steam, etc. Available Transports The table below shows a list of available transports. Kcp (built-in) Websocket Steam ( SteamWorks.NET , Facepunch ) CCU 1000+ ? ? Protocol UDP TCP UDP Unreliable ✅ ✅ WebGL ✅ Mobile ✅ CPU LOW HIGH ? NAT Punch ✅ Encryption ✅ ✅ IPV6 ✅ ✅ ? Managed ✅ ✅ Based on KCP Websockets Steam Game Networking Sockets Changing a transport To change a transport, follow the steps below: Install the desired transport. Instructions are available on each transport's repository. Add the transport as a new component on the object where you have the other Mirage components. Assign a reference to this component in the Transport field of NetworkServer and NetworkClient components. Check if the transport has any required additional steps. Done. Mirage should now be using the newly added transport."
   },
   "Articles/General/Troubleshooting.html": {
     "href": "Articles/General/Troubleshooting.html",
