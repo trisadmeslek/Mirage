@@ -9396,32 +9396,32 @@ references:
   commentId: T:Mirage.Serialization.CompressedExtensions
   fullName: Mirage.Serialization.CompressedExtensions
   nameWithType: CompressedExtensions
-- uid: Mirage.Serialization.CompressedExtensions.PackRotation(Mirage.Serialization.NetworkWriter,UnityEngine.Quaternion)
-  name: PackRotation(NetworkWriter, Quaternion)
-  href: api/Mirage.Serialization.CompressedExtensions.html#Mirage_Serialization_CompressedExtensions_PackRotation_Mirage_Serialization_NetworkWriter_UnityEngine_Quaternion_
-  commentId: M:Mirage.Serialization.CompressedExtensions.PackRotation(Mirage.Serialization.NetworkWriter,UnityEngine.Quaternion)
-  fullName: Mirage.Serialization.CompressedExtensions.PackRotation(Mirage.Serialization.NetworkWriter, UnityEngine.Quaternion)
-  nameWithType: CompressedExtensions.PackRotation(NetworkWriter, Quaternion)
-- uid: Mirage.Serialization.CompressedExtensions.PackRotation*
-  name: PackRotation
-  href: api/Mirage.Serialization.CompressedExtensions.html#Mirage_Serialization_CompressedExtensions_PackRotation_
-  commentId: Overload:Mirage.Serialization.CompressedExtensions.PackRotation
+- uid: Mirage.Serialization.CompressedExtensions.ReadQuaternion(Mirage.Serialization.NetworkReader)
+  name: ReadQuaternion(NetworkReader)
+  href: api/Mirage.Serialization.CompressedExtensions.html#Mirage_Serialization_CompressedExtensions_ReadQuaternion_Mirage_Serialization_NetworkReader_
+  commentId: M:Mirage.Serialization.CompressedExtensions.ReadQuaternion(Mirage.Serialization.NetworkReader)
+  fullName: Mirage.Serialization.CompressedExtensions.ReadQuaternion(Mirage.Serialization.NetworkReader)
+  nameWithType: CompressedExtensions.ReadQuaternion(NetworkReader)
+- uid: Mirage.Serialization.CompressedExtensions.ReadQuaternion*
+  name: ReadQuaternion
+  href: api/Mirage.Serialization.CompressedExtensions.html#Mirage_Serialization_CompressedExtensions_ReadQuaternion_
+  commentId: Overload:Mirage.Serialization.CompressedExtensions.ReadQuaternion
   isSpec: "True"
-  fullName: Mirage.Serialization.CompressedExtensions.PackRotation
-  nameWithType: CompressedExtensions.PackRotation
-- uid: Mirage.Serialization.CompressedExtensions.UnpackRotation(Mirage.Serialization.NetworkReader)
-  name: UnpackRotation(NetworkReader)
-  href: api/Mirage.Serialization.CompressedExtensions.html#Mirage_Serialization_CompressedExtensions_UnpackRotation_Mirage_Serialization_NetworkReader_
-  commentId: M:Mirage.Serialization.CompressedExtensions.UnpackRotation(Mirage.Serialization.NetworkReader)
-  fullName: Mirage.Serialization.CompressedExtensions.UnpackRotation(Mirage.Serialization.NetworkReader)
-  nameWithType: CompressedExtensions.UnpackRotation(NetworkReader)
-- uid: Mirage.Serialization.CompressedExtensions.UnpackRotation*
-  name: UnpackRotation
-  href: api/Mirage.Serialization.CompressedExtensions.html#Mirage_Serialization_CompressedExtensions_UnpackRotation_
-  commentId: Overload:Mirage.Serialization.CompressedExtensions.UnpackRotation
+  fullName: Mirage.Serialization.CompressedExtensions.ReadQuaternion
+  nameWithType: CompressedExtensions.ReadQuaternion
+- uid: Mirage.Serialization.CompressedExtensions.WriteQuaternion(Mirage.Serialization.NetworkWriter,UnityEngine.Quaternion)
+  name: WriteQuaternion(NetworkWriter, Quaternion)
+  href: api/Mirage.Serialization.CompressedExtensions.html#Mirage_Serialization_CompressedExtensions_WriteQuaternion_Mirage_Serialization_NetworkWriter_UnityEngine_Quaternion_
+  commentId: M:Mirage.Serialization.CompressedExtensions.WriteQuaternion(Mirage.Serialization.NetworkWriter,UnityEngine.Quaternion)
+  fullName: Mirage.Serialization.CompressedExtensions.WriteQuaternion(Mirage.Serialization.NetworkWriter, UnityEngine.Quaternion)
+  nameWithType: CompressedExtensions.WriteQuaternion(NetworkWriter, Quaternion)
+- uid: Mirage.Serialization.CompressedExtensions.WriteQuaternion*
+  name: WriteQuaternion
+  href: api/Mirage.Serialization.CompressedExtensions.html#Mirage_Serialization_CompressedExtensions_WriteQuaternion_
+  commentId: Overload:Mirage.Serialization.CompressedExtensions.WriteQuaternion
   isSpec: "True"
-  fullName: Mirage.Serialization.CompressedExtensions.UnpackRotation
-  nameWithType: CompressedExtensions.UnpackRotation
+  fullName: Mirage.Serialization.CompressedExtensions.WriteQuaternion
+  nameWithType: CompressedExtensions.WriteQuaternion
 - uid: Mirage.Serialization.FloatPackAttribute
   name: FloatPackAttribute
   href: api/Mirage.Serialization.FloatPackAttribute.html
@@ -11747,19 +11747,6 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.UnityTypesExtensions.ReadPlane
   nameWithType: UnityTypesExtensions.ReadPlane
-- uid: Mirage.Serialization.UnityTypesExtensions.ReadQuaternion(Mirage.Serialization.NetworkReader)
-  name: ReadQuaternion(NetworkReader)
-  href: api/Mirage.Serialization.UnityTypesExtensions.html#Mirage_Serialization_UnityTypesExtensions_ReadQuaternion_Mirage_Serialization_NetworkReader_
-  commentId: M:Mirage.Serialization.UnityTypesExtensions.ReadQuaternion(Mirage.Serialization.NetworkReader)
-  fullName: Mirage.Serialization.UnityTypesExtensions.ReadQuaternion(Mirage.Serialization.NetworkReader)
-  nameWithType: UnityTypesExtensions.ReadQuaternion(NetworkReader)
-- uid: Mirage.Serialization.UnityTypesExtensions.ReadQuaternion*
-  name: ReadQuaternion
-  href: api/Mirage.Serialization.UnityTypesExtensions.html#Mirage_Serialization_UnityTypesExtensions_ReadQuaternion_
-  commentId: Overload:Mirage.Serialization.UnityTypesExtensions.ReadQuaternion
-  isSpec: "True"
-  fullName: Mirage.Serialization.UnityTypesExtensions.ReadQuaternion
-  nameWithType: UnityTypesExtensions.ReadQuaternion
 - uid: Mirage.Serialization.UnityTypesExtensions.ReadRay(Mirage.Serialization.NetworkReader)
   name: ReadRay(NetworkReader)
   href: api/Mirage.Serialization.UnityTypesExtensions.html#Mirage_Serialization_UnityTypesExtensions_ReadRay_Mirage_Serialization_NetworkReader_
@@ -11903,19 +11890,6 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.UnityTypesExtensions.WritePlane
   nameWithType: UnityTypesExtensions.WritePlane
-- uid: Mirage.Serialization.UnityTypesExtensions.WriteQuaternion(Mirage.Serialization.NetworkWriter,UnityEngine.Quaternion)
-  name: WriteQuaternion(NetworkWriter, Quaternion)
-  href: api/Mirage.Serialization.UnityTypesExtensions.html#Mirage_Serialization_UnityTypesExtensions_WriteQuaternion_Mirage_Serialization_NetworkWriter_UnityEngine_Quaternion_
-  commentId: M:Mirage.Serialization.UnityTypesExtensions.WriteQuaternion(Mirage.Serialization.NetworkWriter,UnityEngine.Quaternion)
-  fullName: Mirage.Serialization.UnityTypesExtensions.WriteQuaternion(Mirage.Serialization.NetworkWriter, UnityEngine.Quaternion)
-  nameWithType: UnityTypesExtensions.WriteQuaternion(NetworkWriter, Quaternion)
-- uid: Mirage.Serialization.UnityTypesExtensions.WriteQuaternion*
-  name: WriteQuaternion
-  href: api/Mirage.Serialization.UnityTypesExtensions.html#Mirage_Serialization_UnityTypesExtensions_WriteQuaternion_
-  commentId: Overload:Mirage.Serialization.UnityTypesExtensions.WriteQuaternion
-  isSpec: "True"
-  fullName: Mirage.Serialization.UnityTypesExtensions.WriteQuaternion
-  nameWithType: UnityTypesExtensions.WriteQuaternion
 - uid: Mirage.Serialization.UnityTypesExtensions.WriteRay(Mirage.Serialization.NetworkWriter,UnityEngine.Ray)
   name: WriteRay(NetworkWriter, Ray)
   href: api/Mirage.Serialization.UnityTypesExtensions.html#Mirage_Serialization_UnityTypesExtensions_WriteRay_Mirage_Serialization_NetworkWriter_UnityEngine_Ray_
