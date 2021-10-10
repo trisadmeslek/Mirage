@@ -4211,15 +4211,15 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkSceneManager.OnServerStartedSceneChange
   nameWithType: INetworkSceneManager.OnServerStartedSceneChange
-- uid: Mirage.INetworkSceneManager.ServerLoadSceneAdditively(System.String,System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer},System.Boolean)
-  name: ServerLoadSceneAdditively(String, IEnumerable<INetworkPlayer>, Boolean)
-  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ServerLoadSceneAdditively_System_String_System_Collections_Generic_IEnumerable_Mirage_INetworkPlayer__System_Boolean_
-  commentId: M:Mirage.INetworkSceneManager.ServerLoadSceneAdditively(System.String,System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer},System.Boolean)
-  name.vb: ServerLoadSceneAdditively(String, IEnumerable(Of INetworkPlayer), Boolean)
-  fullName: Mirage.INetworkSceneManager.ServerLoadSceneAdditively(System.String, System.Collections.Generic.IEnumerable<Mirage.INetworkPlayer>, System.Boolean)
-  fullName.vb: Mirage.INetworkSceneManager.ServerLoadSceneAdditively(System.String, System.Collections.Generic.IEnumerable(Of Mirage.INetworkPlayer), System.Boolean)
-  nameWithType: INetworkSceneManager.ServerLoadSceneAdditively(String, IEnumerable<INetworkPlayer>, Boolean)
-  nameWithType.vb: INetworkSceneManager.ServerLoadSceneAdditively(String, IEnumerable(Of INetworkPlayer), Boolean)
+- uid: Mirage.INetworkSceneManager.ServerLoadSceneAdditively(System.String,System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer},System.Boolean,System.Nullable{UnityEngine.SceneManagement.LoadSceneParameters})
+  name: ServerLoadSceneAdditively(String, IEnumerable<INetworkPlayer>, Boolean, Nullable<LoadSceneParameters>)
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ServerLoadSceneAdditively_System_String_System_Collections_Generic_IEnumerable_Mirage_INetworkPlayer__System_Boolean_System_Nullable_UnityEngine_SceneManagement_LoadSceneParameters__
+  commentId: M:Mirage.INetworkSceneManager.ServerLoadSceneAdditively(System.String,System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer},System.Boolean,System.Nullable{UnityEngine.SceneManagement.LoadSceneParameters})
+  name.vb: ServerLoadSceneAdditively(String, IEnumerable(Of INetworkPlayer), Boolean, Nullable(Of LoadSceneParameters))
+  fullName: Mirage.INetworkSceneManager.ServerLoadSceneAdditively(System.String, System.Collections.Generic.IEnumerable<Mirage.INetworkPlayer>, System.Boolean, System.Nullable<UnityEngine.SceneManagement.LoadSceneParameters>)
+  fullName.vb: Mirage.INetworkSceneManager.ServerLoadSceneAdditively(System.String, System.Collections.Generic.IEnumerable(Of Mirage.INetworkPlayer), System.Boolean, System.Nullable(Of UnityEngine.SceneManagement.LoadSceneParameters))
+  nameWithType: INetworkSceneManager.ServerLoadSceneAdditively(String, IEnumerable<INetworkPlayer>, Boolean, Nullable<LoadSceneParameters>)
+  nameWithType.vb: INetworkSceneManager.ServerLoadSceneAdditively(String, IEnumerable(Of INetworkPlayer), Boolean, Nullable(Of LoadSceneParameters))
 - uid: Mirage.INetworkSceneManager.ServerLoadSceneAdditively*
   name: ServerLoadSceneAdditively
   href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ServerLoadSceneAdditively_
@@ -4227,12 +4227,15 @@ references:
   isSpec: "True"
   fullName: Mirage.INetworkSceneManager.ServerLoadSceneAdditively
   nameWithType: INetworkSceneManager.ServerLoadSceneAdditively
-- uid: Mirage.INetworkSceneManager.ServerLoadSceneNormal(System.String)
-  name: ServerLoadSceneNormal(String)
-  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ServerLoadSceneNormal_System_String_
-  commentId: M:Mirage.INetworkSceneManager.ServerLoadSceneNormal(System.String)
-  fullName: Mirage.INetworkSceneManager.ServerLoadSceneNormal(System.String)
-  nameWithType: INetworkSceneManager.ServerLoadSceneNormal(String)
+- uid: Mirage.INetworkSceneManager.ServerLoadSceneNormal(System.String,System.Nullable{UnityEngine.SceneManagement.LoadSceneParameters})
+  name: ServerLoadSceneNormal(String, Nullable<LoadSceneParameters>)
+  href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ServerLoadSceneNormal_System_String_System_Nullable_UnityEngine_SceneManagement_LoadSceneParameters__
+  commentId: M:Mirage.INetworkSceneManager.ServerLoadSceneNormal(System.String,System.Nullable{UnityEngine.SceneManagement.LoadSceneParameters})
+  name.vb: ServerLoadSceneNormal(String, Nullable(Of LoadSceneParameters))
+  fullName: Mirage.INetworkSceneManager.ServerLoadSceneNormal(System.String, System.Nullable<UnityEngine.SceneManagement.LoadSceneParameters>)
+  fullName.vb: Mirage.INetworkSceneManager.ServerLoadSceneNormal(System.String, System.Nullable(Of UnityEngine.SceneManagement.LoadSceneParameters))
+  nameWithType: INetworkSceneManager.ServerLoadSceneNormal(String, Nullable<LoadSceneParameters>)
+  nameWithType.vb: INetworkSceneManager.ServerLoadSceneNormal(String, Nullable(Of LoadSceneParameters))
 - uid: Mirage.INetworkSceneManager.ServerLoadSceneNormal*
   name: ServerLoadSceneNormal
   href: api/Mirage.INetworkSceneManager.html#Mirage_INetworkSceneManager_ServerLoadSceneNormal_
@@ -7675,15 +7678,15 @@ references:
   commentId: F:Mirage.NetworkSceneManager.Server
   fullName: Mirage.NetworkSceneManager.Server
   nameWithType: NetworkSceneManager.Server
-- uid: Mirage.NetworkSceneManager.ServerLoadSceneAdditively(System.String,System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer},System.Boolean)
-  name: ServerLoadSceneAdditively(String, IEnumerable<INetworkPlayer>, Boolean)
-  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ServerLoadSceneAdditively_System_String_System_Collections_Generic_IEnumerable_Mirage_INetworkPlayer__System_Boolean_
-  commentId: M:Mirage.NetworkSceneManager.ServerLoadSceneAdditively(System.String,System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer},System.Boolean)
-  name.vb: ServerLoadSceneAdditively(String, IEnumerable(Of INetworkPlayer), Boolean)
-  fullName: Mirage.NetworkSceneManager.ServerLoadSceneAdditively(System.String, System.Collections.Generic.IEnumerable<Mirage.INetworkPlayer>, System.Boolean)
-  fullName.vb: Mirage.NetworkSceneManager.ServerLoadSceneAdditively(System.String, System.Collections.Generic.IEnumerable(Of Mirage.INetworkPlayer), System.Boolean)
-  nameWithType: NetworkSceneManager.ServerLoadSceneAdditively(String, IEnumerable<INetworkPlayer>, Boolean)
-  nameWithType.vb: NetworkSceneManager.ServerLoadSceneAdditively(String, IEnumerable(Of INetworkPlayer), Boolean)
+- uid: Mirage.NetworkSceneManager.ServerLoadSceneAdditively(System.String,System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer},System.Boolean,System.Nullable{UnityEngine.SceneManagement.LoadSceneParameters})
+  name: ServerLoadSceneAdditively(String, IEnumerable<INetworkPlayer>, Boolean, Nullable<LoadSceneParameters>)
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ServerLoadSceneAdditively_System_String_System_Collections_Generic_IEnumerable_Mirage_INetworkPlayer__System_Boolean_System_Nullable_UnityEngine_SceneManagement_LoadSceneParameters__
+  commentId: M:Mirage.NetworkSceneManager.ServerLoadSceneAdditively(System.String,System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer},System.Boolean,System.Nullable{UnityEngine.SceneManagement.LoadSceneParameters})
+  name.vb: ServerLoadSceneAdditively(String, IEnumerable(Of INetworkPlayer), Boolean, Nullable(Of LoadSceneParameters))
+  fullName: Mirage.NetworkSceneManager.ServerLoadSceneAdditively(System.String, System.Collections.Generic.IEnumerable<Mirage.INetworkPlayer>, System.Boolean, System.Nullable<UnityEngine.SceneManagement.LoadSceneParameters>)
+  fullName.vb: Mirage.NetworkSceneManager.ServerLoadSceneAdditively(System.String, System.Collections.Generic.IEnumerable(Of Mirage.INetworkPlayer), System.Boolean, System.Nullable(Of UnityEngine.SceneManagement.LoadSceneParameters))
+  nameWithType: NetworkSceneManager.ServerLoadSceneAdditively(String, IEnumerable<INetworkPlayer>, Boolean, Nullable<LoadSceneParameters>)
+  nameWithType.vb: NetworkSceneManager.ServerLoadSceneAdditively(String, IEnumerable(Of INetworkPlayer), Boolean, Nullable(Of LoadSceneParameters))
 - uid: Mirage.NetworkSceneManager.ServerLoadSceneAdditively*
   name: ServerLoadSceneAdditively
   href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ServerLoadSceneAdditively_
@@ -7691,12 +7694,15 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkSceneManager.ServerLoadSceneAdditively
   nameWithType: NetworkSceneManager.ServerLoadSceneAdditively
-- uid: Mirage.NetworkSceneManager.ServerLoadSceneNormal(System.String)
-  name: ServerLoadSceneNormal(String)
-  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ServerLoadSceneNormal_System_String_
-  commentId: M:Mirage.NetworkSceneManager.ServerLoadSceneNormal(System.String)
-  fullName: Mirage.NetworkSceneManager.ServerLoadSceneNormal(System.String)
-  nameWithType: NetworkSceneManager.ServerLoadSceneNormal(String)
+- uid: Mirage.NetworkSceneManager.ServerLoadSceneNormal(System.String,System.Nullable{UnityEngine.SceneManagement.LoadSceneParameters})
+  name: ServerLoadSceneNormal(String, Nullable<LoadSceneParameters>)
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ServerLoadSceneNormal_System_String_System_Nullable_UnityEngine_SceneManagement_LoadSceneParameters__
+  commentId: M:Mirage.NetworkSceneManager.ServerLoadSceneNormal(System.String,System.Nullable{UnityEngine.SceneManagement.LoadSceneParameters})
+  name.vb: ServerLoadSceneNormal(String, Nullable(Of LoadSceneParameters))
+  fullName: Mirage.NetworkSceneManager.ServerLoadSceneNormal(System.String, System.Nullable<UnityEngine.SceneManagement.LoadSceneParameters>)
+  fullName.vb: Mirage.NetworkSceneManager.ServerLoadSceneNormal(System.String, System.Nullable(Of UnityEngine.SceneManagement.LoadSceneParameters))
+  nameWithType: NetworkSceneManager.ServerLoadSceneNormal(String, Nullable<LoadSceneParameters>)
+  nameWithType.vb: NetworkSceneManager.ServerLoadSceneNormal(String, Nullable(Of LoadSceneParameters))
 - uid: Mirage.NetworkSceneManager.ServerLoadSceneNormal*
   name: ServerLoadSceneNormal
   href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_ServerLoadSceneNormal_
@@ -7733,12 +7739,15 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkSceneManager.ServerUnloadSceneAdditively
   nameWithType: NetworkSceneManager.ServerUnloadSceneAdditively
-- uid: Mirage.NetworkSceneManager.SetAllClientsNotReady
-  name: SetAllClientsNotReady()
-  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_SetAllClientsNotReady
-  commentId: M:Mirage.NetworkSceneManager.SetAllClientsNotReady
-  fullName: Mirage.NetworkSceneManager.SetAllClientsNotReady()
-  nameWithType: NetworkSceneManager.SetAllClientsNotReady()
+- uid: Mirage.NetworkSceneManager.SetAllClientsNotReady(System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer})
+  name: SetAllClientsNotReady(IEnumerable<INetworkPlayer>)
+  href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_SetAllClientsNotReady_System_Collections_Generic_IEnumerable_Mirage_INetworkPlayer__
+  commentId: M:Mirage.NetworkSceneManager.SetAllClientsNotReady(System.Collections.Generic.IEnumerable{Mirage.INetworkPlayer})
+  name.vb: SetAllClientsNotReady(IEnumerable(Of INetworkPlayer))
+  fullName: Mirage.NetworkSceneManager.SetAllClientsNotReady(System.Collections.Generic.IEnumerable<Mirage.INetworkPlayer>)
+  fullName.vb: Mirage.NetworkSceneManager.SetAllClientsNotReady(System.Collections.Generic.IEnumerable(Of Mirage.INetworkPlayer))
+  nameWithType: NetworkSceneManager.SetAllClientsNotReady(IEnumerable<INetworkPlayer>)
+  nameWithType.vb: NetworkSceneManager.SetAllClientsNotReady(IEnumerable(Of INetworkPlayer))
 - uid: Mirage.NetworkSceneManager.SetAllClientsNotReady*
   name: SetAllClientsNotReady
   href: api/Mirage.NetworkSceneManager.html#Mirage_NetworkSceneManager_SetAllClientsNotReady_
