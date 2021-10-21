@@ -6341,19 +6341,6 @@ references:
   commentId: F:Mirage.NetworkIdentity.ClientObjectManager
   fullName: Mirage.NetworkIdentity.ClientObjectManager
   nameWithType: NetworkIdentity.ClientObjectManager
-- uid: Mirage.NetworkIdentity.GetSceneIdentity(System.UInt64)
-  name: GetSceneIdentity(UInt64)
-  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_GetSceneIdentity_System_UInt64_
-  commentId: M:Mirage.NetworkIdentity.GetSceneIdentity(System.UInt64)
-  fullName: Mirage.NetworkIdentity.GetSceneIdentity(System.UInt64)
-  nameWithType: NetworkIdentity.GetSceneIdentity(UInt64)
-- uid: Mirage.NetworkIdentity.GetSceneIdentity*
-  name: GetSceneIdentity
-  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_GetSceneIdentity_
-  commentId: Overload:Mirage.NetworkIdentity.GetSceneIdentity
-  isSpec: "True"
-  fullName: Mirage.NetworkIdentity.GetSceneIdentity
-  nameWithType: NetworkIdentity.GetSceneIdentity
 - uid: Mirage.NetworkIdentity.HasAuthority
   name: HasAuthority
   href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_HasAuthority
@@ -6943,19 +6930,6 @@ references:
   commentId: F:Mirage.NetworkMatchChecker.currentMatchDebug
   fullName: Mirage.NetworkMatchChecker.currentMatchDebug
   nameWithType: NetworkMatchChecker.currentMatchDebug
-- uid: Mirage.NetworkMatchChecker.Identity
-  name: Identity
-  href: api/Mirage.NetworkMatchChecker.html#Mirage_NetworkMatchChecker_Identity
-  commentId: P:Mirage.NetworkMatchChecker.Identity
-  fullName: Mirage.NetworkMatchChecker.Identity
-  nameWithType: NetworkMatchChecker.Identity
-- uid: Mirage.NetworkMatchChecker.Identity*
-  name: Identity
-  href: api/Mirage.NetworkMatchChecker.html#Mirage_NetworkMatchChecker_Identity_
-  commentId: Overload:Mirage.NetworkMatchChecker.Identity
-  isSpec: "True"
-  fullName: Mirage.NetworkMatchChecker.Identity
-  nameWithType: NetworkMatchChecker.Identity
 - uid: Mirage.NetworkMatchChecker.MatchId
   name: MatchId
   href: api/Mirage.NetworkMatchChecker.html#Mirage_NetworkMatchChecker_MatchId
