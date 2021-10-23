@@ -383,12 +383,12 @@ references:
   isSpec: "True"
   fullName: Mirage.ClientObjectManager.DestroyAllClientObjects
   nameWithType: ClientObjectManager.DestroyAllClientObjects
-- uid: Mirage.ClientObjectManager.GetPrefab(System.Guid)
-  name: GetPrefab(Guid)
-  href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_GetPrefab_System_Guid_
-  commentId: M:Mirage.ClientObjectManager.GetPrefab(System.Guid)
-  fullName: Mirage.ClientObjectManager.GetPrefab(System.Guid)
-  nameWithType: ClientObjectManager.GetPrefab(Guid)
+- uid: Mirage.ClientObjectManager.GetPrefab(System.Int32)
+  name: GetPrefab(Int32)
+  href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_GetPrefab_System_Int32_
+  commentId: M:Mirage.ClientObjectManager.GetPrefab(System.Int32)
+  fullName: Mirage.ClientObjectManager.GetPrefab(System.Int32)
+  nameWithType: ClientObjectManager.GetPrefab(Int32)
 - uid: Mirage.ClientObjectManager.GetPrefab*
   name: GetPrefab
   href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_GetPrefab_
@@ -427,12 +427,12 @@ references:
   commentId: M:Mirage.ClientObjectManager.RegisterPrefab(Mirage.NetworkIdentity,Mirage.SpawnHandlerDelegate,Mirage.UnSpawnDelegate)
   fullName: Mirage.ClientObjectManager.RegisterPrefab(Mirage.NetworkIdentity, Mirage.SpawnHandlerDelegate, Mirage.UnSpawnDelegate)
   nameWithType: ClientObjectManager.RegisterPrefab(NetworkIdentity, SpawnHandlerDelegate, UnSpawnDelegate)
-- uid: Mirage.ClientObjectManager.RegisterPrefab(Mirage.NetworkIdentity,System.Guid)
-  name: RegisterPrefab(NetworkIdentity, Guid)
-  href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_RegisterPrefab_Mirage_NetworkIdentity_System_Guid_
-  commentId: M:Mirage.ClientObjectManager.RegisterPrefab(Mirage.NetworkIdentity,System.Guid)
-  fullName: Mirage.ClientObjectManager.RegisterPrefab(Mirage.NetworkIdentity, System.Guid)
-  nameWithType: ClientObjectManager.RegisterPrefab(NetworkIdentity, Guid)
+- uid: Mirage.ClientObjectManager.RegisterPrefab(Mirage.NetworkIdentity,System.Int32)
+  name: RegisterPrefab(NetworkIdentity, Int32)
+  href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_RegisterPrefab_Mirage_NetworkIdentity_System_Int32_
+  commentId: M:Mirage.ClientObjectManager.RegisterPrefab(Mirage.NetworkIdentity,System.Int32)
+  fullName: Mirage.ClientObjectManager.RegisterPrefab(Mirage.NetworkIdentity, System.Int32)
+  nameWithType: ClientObjectManager.RegisterPrefab(NetworkIdentity, Int32)
 - uid: Mirage.ClientObjectManager.RegisterPrefab*
   name: RegisterPrefab
   href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_RegisterPrefab_
@@ -440,12 +440,12 @@ references:
   isSpec: "True"
   fullName: Mirage.ClientObjectManager.RegisterPrefab
   nameWithType: ClientObjectManager.RegisterPrefab
-- uid: Mirage.ClientObjectManager.RegisterSpawnHandler(System.Guid,Mirage.SpawnHandlerDelegate,Mirage.UnSpawnDelegate)
-  name: RegisterSpawnHandler(Guid, SpawnHandlerDelegate, UnSpawnDelegate)
-  href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_RegisterSpawnHandler_System_Guid_Mirage_SpawnHandlerDelegate_Mirage_UnSpawnDelegate_
-  commentId: M:Mirage.ClientObjectManager.RegisterSpawnHandler(System.Guid,Mirage.SpawnHandlerDelegate,Mirage.UnSpawnDelegate)
-  fullName: Mirage.ClientObjectManager.RegisterSpawnHandler(System.Guid, Mirage.SpawnHandlerDelegate, Mirage.UnSpawnDelegate)
-  nameWithType: ClientObjectManager.RegisterSpawnHandler(Guid, SpawnHandlerDelegate, UnSpawnDelegate)
+- uid: Mirage.ClientObjectManager.RegisterSpawnHandler(System.Int32,Mirage.SpawnHandlerDelegate,Mirage.UnSpawnDelegate)
+  name: RegisterSpawnHandler(Int32, SpawnHandlerDelegate, UnSpawnDelegate)
+  href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_RegisterSpawnHandler_System_Int32_Mirage_SpawnHandlerDelegate_Mirage_UnSpawnDelegate_
+  commentId: M:Mirage.ClientObjectManager.RegisterSpawnHandler(System.Int32,Mirage.SpawnHandlerDelegate,Mirage.UnSpawnDelegate)
+  fullName: Mirage.ClientObjectManager.RegisterSpawnHandler(System.Int32, Mirage.SpawnHandlerDelegate, Mirage.UnSpawnDelegate)
+  nameWithType: ClientObjectManager.RegisterSpawnHandler(Int32, SpawnHandlerDelegate, UnSpawnDelegate)
 - uid: Mirage.ClientObjectManager.RegisterSpawnHandler*
   name: RegisterSpawnHandler
   href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_RegisterSpawnHandler_
@@ -491,12 +491,12 @@ references:
   isSpec: "True"
   fullName: Mirage.ClientObjectManager.UnregisterPrefab
   nameWithType: ClientObjectManager.UnregisterPrefab
-- uid: Mirage.ClientObjectManager.UnregisterSpawnHandler(System.Guid)
-  name: UnregisterSpawnHandler(Guid)
-  href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_UnregisterSpawnHandler_System_Guid_
-  commentId: M:Mirage.ClientObjectManager.UnregisterSpawnHandler(System.Guid)
-  fullName: Mirage.ClientObjectManager.UnregisterSpawnHandler(System.Guid)
-  nameWithType: ClientObjectManager.UnregisterSpawnHandler(Guid)
+- uid: Mirage.ClientObjectManager.UnregisterSpawnHandler(System.Int32)
+  name: UnregisterSpawnHandler(Int32)
+  href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_UnregisterSpawnHandler_System_Int32_
+  commentId: M:Mirage.ClientObjectManager.UnregisterSpawnHandler(System.Int32)
+  fullName: Mirage.ClientObjectManager.UnregisterSpawnHandler(System.Int32)
+  nameWithType: ClientObjectManager.UnregisterSpawnHandler(Int32)
 - uid: Mirage.ClientObjectManager.UnregisterSpawnHandler*
   name: UnregisterSpawnHandler
   href: api/Mirage.ClientObjectManager.html#Mirage_ClientObjectManager_UnregisterSpawnHandler_
@@ -3788,12 +3788,12 @@ references:
   isSpec: "True"
   fullName: Mirage.IClientObjectManager.DestroyAllClientObjects
   nameWithType: IClientObjectManager.DestroyAllClientObjects
-- uid: Mirage.IClientObjectManager.GetPrefab(System.Guid)
-  name: GetPrefab(Guid)
-  href: api/Mirage.IClientObjectManager.html#Mirage_IClientObjectManager_GetPrefab_System_Guid_
-  commentId: M:Mirage.IClientObjectManager.GetPrefab(System.Guid)
-  fullName: Mirage.IClientObjectManager.GetPrefab(System.Guid)
-  nameWithType: IClientObjectManager.GetPrefab(Guid)
+- uid: Mirage.IClientObjectManager.GetPrefab(System.Int32)
+  name: GetPrefab(Int32)
+  href: api/Mirage.IClientObjectManager.html#Mirage_IClientObjectManager_GetPrefab_System_Int32_
+  commentId: M:Mirage.IClientObjectManager.GetPrefab(System.Int32)
+  fullName: Mirage.IClientObjectManager.GetPrefab(System.Int32)
+  nameWithType: IClientObjectManager.GetPrefab(Int32)
 - uid: Mirage.IClientObjectManager.GetPrefab*
   name: GetPrefab
   href: api/Mirage.IClientObjectManager.html#Mirage_IClientObjectManager_GetPrefab_
@@ -3826,12 +3826,12 @@ references:
   commentId: M:Mirage.IClientObjectManager.RegisterPrefab(Mirage.NetworkIdentity,Mirage.SpawnHandlerDelegate,Mirage.UnSpawnDelegate)
   fullName: Mirage.IClientObjectManager.RegisterPrefab(Mirage.NetworkIdentity, Mirage.SpawnHandlerDelegate, Mirage.UnSpawnDelegate)
   nameWithType: IClientObjectManager.RegisterPrefab(NetworkIdentity, SpawnHandlerDelegate, UnSpawnDelegate)
-- uid: Mirage.IClientObjectManager.RegisterPrefab(Mirage.NetworkIdentity,System.Guid)
-  name: RegisterPrefab(NetworkIdentity, Guid)
-  href: api/Mirage.IClientObjectManager.html#Mirage_IClientObjectManager_RegisterPrefab_Mirage_NetworkIdentity_System_Guid_
-  commentId: M:Mirage.IClientObjectManager.RegisterPrefab(Mirage.NetworkIdentity,System.Guid)
-  fullName: Mirage.IClientObjectManager.RegisterPrefab(Mirage.NetworkIdentity, System.Guid)
-  nameWithType: IClientObjectManager.RegisterPrefab(NetworkIdentity, Guid)
+- uid: Mirage.IClientObjectManager.RegisterPrefab(Mirage.NetworkIdentity,System.Int32)
+  name: RegisterPrefab(NetworkIdentity, Int32)
+  href: api/Mirage.IClientObjectManager.html#Mirage_IClientObjectManager_RegisterPrefab_Mirage_NetworkIdentity_System_Int32_
+  commentId: M:Mirage.IClientObjectManager.RegisterPrefab(Mirage.NetworkIdentity,System.Int32)
+  fullName: Mirage.IClientObjectManager.RegisterPrefab(Mirage.NetworkIdentity, System.Int32)
+  nameWithType: IClientObjectManager.RegisterPrefab(NetworkIdentity, Int32)
 - uid: Mirage.IClientObjectManager.RegisterPrefab*
   name: RegisterPrefab
   href: api/Mirage.IClientObjectManager.html#Mirage_IClientObjectManager_RegisterPrefab_
@@ -3839,12 +3839,12 @@ references:
   isSpec: "True"
   fullName: Mirage.IClientObjectManager.RegisterPrefab
   nameWithType: IClientObjectManager.RegisterPrefab
-- uid: Mirage.IClientObjectManager.RegisterSpawnHandler(System.Guid,Mirage.SpawnHandlerDelegate,Mirage.UnSpawnDelegate)
-  name: RegisterSpawnHandler(Guid, SpawnHandlerDelegate, UnSpawnDelegate)
-  href: api/Mirage.IClientObjectManager.html#Mirage_IClientObjectManager_RegisterSpawnHandler_System_Guid_Mirage_SpawnHandlerDelegate_Mirage_UnSpawnDelegate_
-  commentId: M:Mirage.IClientObjectManager.RegisterSpawnHandler(System.Guid,Mirage.SpawnHandlerDelegate,Mirage.UnSpawnDelegate)
-  fullName: Mirage.IClientObjectManager.RegisterSpawnHandler(System.Guid, Mirage.SpawnHandlerDelegate, Mirage.UnSpawnDelegate)
-  nameWithType: IClientObjectManager.RegisterSpawnHandler(Guid, SpawnHandlerDelegate, UnSpawnDelegate)
+- uid: Mirage.IClientObjectManager.RegisterSpawnHandler(System.Int32,Mirage.SpawnHandlerDelegate,Mirage.UnSpawnDelegate)
+  name: RegisterSpawnHandler(Int32, SpawnHandlerDelegate, UnSpawnDelegate)
+  href: api/Mirage.IClientObjectManager.html#Mirage_IClientObjectManager_RegisterSpawnHandler_System_Int32_Mirage_SpawnHandlerDelegate_Mirage_UnSpawnDelegate_
+  commentId: M:Mirage.IClientObjectManager.RegisterSpawnHandler(System.Int32,Mirage.SpawnHandlerDelegate,Mirage.UnSpawnDelegate)
+  fullName: Mirage.IClientObjectManager.RegisterSpawnHandler(System.Int32, Mirage.SpawnHandlerDelegate, Mirage.UnSpawnDelegate)
+  nameWithType: IClientObjectManager.RegisterSpawnHandler(Int32, SpawnHandlerDelegate, UnSpawnDelegate)
 - uid: Mirage.IClientObjectManager.RegisterSpawnHandler*
   name: RegisterSpawnHandler
   href: api/Mirage.IClientObjectManager.html#Mirage_IClientObjectManager_RegisterSpawnHandler_
@@ -3865,12 +3865,12 @@ references:
   isSpec: "True"
   fullName: Mirage.IClientObjectManager.UnregisterPrefab
   nameWithType: IClientObjectManager.UnregisterPrefab
-- uid: Mirage.IClientObjectManager.UnregisterSpawnHandler(System.Guid)
-  name: UnregisterSpawnHandler(Guid)
-  href: api/Mirage.IClientObjectManager.html#Mirage_IClientObjectManager_UnregisterSpawnHandler_System_Guid_
-  commentId: M:Mirage.IClientObjectManager.UnregisterSpawnHandler(System.Guid)
-  fullName: Mirage.IClientObjectManager.UnregisterSpawnHandler(System.Guid)
-  nameWithType: IClientObjectManager.UnregisterSpawnHandler(Guid)
+- uid: Mirage.IClientObjectManager.UnregisterSpawnHandler(System.Int32)
+  name: UnregisterSpawnHandler(Int32)
+  href: api/Mirage.IClientObjectManager.html#Mirage_IClientObjectManager_UnregisterSpawnHandler_System_Int32_
+  commentId: M:Mirage.IClientObjectManager.UnregisterSpawnHandler(System.Int32)
+  fullName: Mirage.IClientObjectManager.UnregisterSpawnHandler(System.Int32)
+  nameWithType: IClientObjectManager.UnregisterSpawnHandler(Int32)
 - uid: Mirage.IClientObjectManager.UnregisterSpawnHandler*
   name: UnregisterSpawnHandler
   href: api/Mirage.IClientObjectManager.html#Mirage_IClientObjectManager_UnregisterSpawnHandler_
@@ -4632,12 +4632,12 @@ references:
   commentId: M:Mirage.IServerObjectManager.AddCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject)
   fullName: Mirage.IServerObjectManager.AddCharacter(Mirage.INetworkPlayer, UnityEngine.GameObject)
   nameWithType: IServerObjectManager.AddCharacter(INetworkPlayer, GameObject)
-- uid: Mirage.IServerObjectManager.AddCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Guid)
-  name: AddCharacter(INetworkPlayer, GameObject, Guid)
-  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_AddCharacter_Mirage_INetworkPlayer_UnityEngine_GameObject_System_Guid_
-  commentId: M:Mirage.IServerObjectManager.AddCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Guid)
-  fullName: Mirage.IServerObjectManager.AddCharacter(Mirage.INetworkPlayer, UnityEngine.GameObject, System.Guid)
-  nameWithType: IServerObjectManager.AddCharacter(INetworkPlayer, GameObject, Guid)
+- uid: Mirage.IServerObjectManager.AddCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Int32)
+  name: AddCharacter(INetworkPlayer, GameObject, Int32)
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_AddCharacter_Mirage_INetworkPlayer_UnityEngine_GameObject_System_Int32_
+  commentId: M:Mirage.IServerObjectManager.AddCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Int32)
+  fullName: Mirage.IServerObjectManager.AddCharacter(Mirage.INetworkPlayer, UnityEngine.GameObject, System.Int32)
+  nameWithType: IServerObjectManager.AddCharacter(INetworkPlayer, GameObject, Int32)
 - uid: Mirage.IServerObjectManager.AddCharacter*
   name: AddCharacter
   href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_AddCharacter_
@@ -4670,12 +4670,12 @@ references:
   commentId: M:Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Boolean)
   fullName: Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer, UnityEngine.GameObject, System.Boolean)
   nameWithType: IServerObjectManager.ReplaceCharacter(INetworkPlayer, GameObject, Boolean)
-- uid: Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Guid,System.Boolean)
-  name: ReplaceCharacter(INetworkPlayer, GameObject, Guid, Boolean)
-  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_UnityEngine_GameObject_System_Guid_System_Boolean_
-  commentId: M:Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Guid,System.Boolean)
-  fullName: Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer, UnityEngine.GameObject, System.Guid, System.Boolean)
-  nameWithType: IServerObjectManager.ReplaceCharacter(INetworkPlayer, GameObject, Guid, Boolean)
+- uid: Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Int32,System.Boolean)
+  name: ReplaceCharacter(INetworkPlayer, GameObject, Int32, Boolean)
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_UnityEngine_GameObject_System_Int32_System_Boolean_
+  commentId: M:Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Int32,System.Boolean)
+  fullName: Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer, UnityEngine.GameObject, System.Int32, System.Boolean)
+  nameWithType: IServerObjectManager.ReplaceCharacter(INetworkPlayer, GameObject, Int32, Boolean)
 - uid: Mirage.IServerObjectManager.ReplaceCharacter*
   name: ReplaceCharacter
   href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_ReplaceCharacter_
@@ -4701,12 +4701,12 @@ references:
   commentId: M:Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject,Mirage.INetworkPlayer)
   fullName: Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject, Mirage.INetworkPlayer)
   nameWithType: IServerObjectManager.Spawn(GameObject, INetworkPlayer)
-- uid: Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject,System.Guid,Mirage.INetworkPlayer)
-  name: Spawn(GameObject, Guid, INetworkPlayer)
-  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_Spawn_UnityEngine_GameObject_System_Guid_Mirage_INetworkPlayer_
-  commentId: M:Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject,System.Guid,Mirage.INetworkPlayer)
-  fullName: Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject, System.Guid, Mirage.INetworkPlayer)
-  nameWithType: IServerObjectManager.Spawn(GameObject, Guid, INetworkPlayer)
+- uid: Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject,System.Int32,Mirage.INetworkPlayer)
+  name: Spawn(GameObject, Int32, INetworkPlayer)
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_Spawn_UnityEngine_GameObject_System_Int32_Mirage_INetworkPlayer_
+  commentId: M:Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject,System.Int32,Mirage.INetworkPlayer)
+  fullName: Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject, System.Int32, Mirage.INetworkPlayer)
+  nameWithType: IServerObjectManager.Spawn(GameObject, Int32, INetworkPlayer)
 - uid: Mirage.IServerObjectManager.Spawn(UnityEngine.GameObject,UnityEngine.GameObject)
   name: Spawn(GameObject, GameObject)
   href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_Spawn_UnityEngine_GameObject_UnityEngine_GameObject_
@@ -6284,19 +6284,6 @@ references:
   commentId: T:Mirage.NetworkIdentity
   fullName: Mirage.NetworkIdentity
   nameWithType: NetworkIdentity
-- uid: Mirage.NetworkIdentity.AssetId
-  name: AssetId
-  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_AssetId
-  commentId: P:Mirage.NetworkIdentity.AssetId
-  fullName: Mirage.NetworkIdentity.AssetId
-  nameWithType: NetworkIdentity.AssetId
-- uid: Mirage.NetworkIdentity.AssetId*
-  name: AssetId
-  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_AssetId_
-  commentId: Overload:Mirage.NetworkIdentity.AssetId
-  isSpec: "True"
-  fullName: Mirage.NetworkIdentity.AssetId
-  nameWithType: NetworkIdentity.AssetId
 - uid: Mirage.NetworkIdentity.AssignClientAuthority(Mirage.INetworkPlayer)
   name: AssignClientAuthority(INetworkPlayer)
   href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_AssignClientAuthority_Mirage_INetworkPlayer_
@@ -6529,6 +6516,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkIdentity.Owner
   nameWithType: NetworkIdentity.Owner
+- uid: Mirage.NetworkIdentity.PrefabHash
+  name: PrefabHash
+  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_PrefabHash
+  commentId: P:Mirage.NetworkIdentity.PrefabHash
+  fullName: Mirage.NetworkIdentity.PrefabHash
+  nameWithType: NetworkIdentity.PrefabHash
+- uid: Mirage.NetworkIdentity.PrefabHash*
+  name: PrefabHash
+  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_PrefabHash_
+  commentId: Overload:Mirage.NetworkIdentity.PrefabHash
+  isSpec: "True"
+  fullName: Mirage.NetworkIdentity.PrefabHash
+  nameWithType: NetworkIdentity.PrefabHash
 - uid: Mirage.NetworkIdentity.RebuildObservers(System.Boolean)
   name: RebuildObservers(Boolean)
   href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_RebuildObservers_System_Boolean_
@@ -12475,12 +12475,12 @@ references:
   commentId: M:Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject)
   fullName: Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer, UnityEngine.GameObject)
   nameWithType: ServerObjectManager.AddCharacter(INetworkPlayer, GameObject)
-- uid: Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Guid)
-  name: AddCharacter(INetworkPlayer, GameObject, Guid)
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_AddCharacter_Mirage_INetworkPlayer_UnityEngine_GameObject_System_Guid_
-  commentId: M:Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Guid)
-  fullName: Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer, UnityEngine.GameObject, System.Guid)
-  nameWithType: ServerObjectManager.AddCharacter(INetworkPlayer, GameObject, Guid)
+- uid: Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Int32)
+  name: AddCharacter(INetworkPlayer, GameObject, Int32)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_AddCharacter_Mirage_INetworkPlayer_UnityEngine_GameObject_System_Int32_
+  commentId: M:Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Int32)
+  fullName: Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer, UnityEngine.GameObject, System.Int32)
+  nameWithType: ServerObjectManager.AddCharacter(INetworkPlayer, GameObject, Int32)
 - uid: Mirage.ServerObjectManager.AddCharacter*
   name: AddCharacter
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_AddCharacter_
@@ -12538,12 +12538,12 @@ references:
   commentId: M:Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Boolean)
   fullName: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer, UnityEngine.GameObject, System.Boolean)
   nameWithType: ServerObjectManager.ReplaceCharacter(INetworkPlayer, GameObject, Boolean)
-- uid: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Guid,System.Boolean)
-  name: ReplaceCharacter(INetworkPlayer, GameObject, Guid, Boolean)
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_UnityEngine_GameObject_System_Guid_System_Boolean_
-  commentId: M:Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Guid,System.Boolean)
-  fullName: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer, UnityEngine.GameObject, System.Guid, System.Boolean)
-  nameWithType: ServerObjectManager.ReplaceCharacter(INetworkPlayer, GameObject, Guid, Boolean)
+- uid: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Int32,System.Boolean)
+  name: ReplaceCharacter(INetworkPlayer, GameObject, Int32, Boolean)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_UnityEngine_GameObject_System_Int32_System_Boolean_
+  commentId: M:Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Int32,System.Boolean)
+  fullName: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer, UnityEngine.GameObject, System.Int32, System.Boolean)
+  nameWithType: ServerObjectManager.ReplaceCharacter(INetworkPlayer, GameObject, Int32, Boolean)
 - uid: Mirage.ServerObjectManager.ReplaceCharacter*
   name: ReplaceCharacter
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplaceCharacter_
@@ -12575,12 +12575,12 @@ references:
   commentId: M:Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject,Mirage.INetworkPlayer)
   fullName: Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject, Mirage.INetworkPlayer)
   nameWithType: ServerObjectManager.Spawn(GameObject, INetworkPlayer)
-- uid: Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject,System.Guid,Mirage.INetworkPlayer)
-  name: Spawn(GameObject, Guid, INetworkPlayer)
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_Spawn_UnityEngine_GameObject_System_Guid_Mirage_INetworkPlayer_
-  commentId: M:Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject,System.Guid,Mirage.INetworkPlayer)
-  fullName: Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject, System.Guid, Mirage.INetworkPlayer)
-  nameWithType: ServerObjectManager.Spawn(GameObject, Guid, INetworkPlayer)
+- uid: Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject,System.Int32,Mirage.INetworkPlayer)
+  name: Spawn(GameObject, Int32, INetworkPlayer)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_Spawn_UnityEngine_GameObject_System_Int32_Mirage_INetworkPlayer_
+  commentId: M:Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject,System.Int32,Mirage.INetworkPlayer)
+  fullName: Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject, System.Int32, Mirage.INetworkPlayer)
+  nameWithType: ServerObjectManager.Spawn(GameObject, Int32, INetworkPlayer)
 - uid: Mirage.ServerObjectManager.Spawn(UnityEngine.GameObject,UnityEngine.GameObject)
   name: Spawn(GameObject, GameObject)
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_Spawn_UnityEngine_GameObject_UnityEngine_GameObject_
@@ -15277,12 +15277,6 @@ references:
   commentId: T:Mirage.SpawnMessage
   fullName: Mirage.SpawnMessage
   nameWithType: SpawnMessage
-- uid: Mirage.SpawnMessage.assetId
-  name: assetId
-  href: api/Mirage.SpawnMessage.html#Mirage_SpawnMessage_assetId
-  commentId: F:Mirage.SpawnMessage.assetId
-  fullName: Mirage.SpawnMessage.assetId
-  nameWithType: SpawnMessage.assetId
 - uid: Mirage.SpawnMessage.isLocalPlayer
   name: isLocalPlayer
   href: api/Mirage.SpawnMessage.html#Mirage_SpawnMessage_isLocalPlayer
@@ -15313,6 +15307,12 @@ references:
   commentId: F:Mirage.SpawnMessage.position
   fullName: Mirage.SpawnMessage.position
   nameWithType: SpawnMessage.position
+- uid: Mirage.SpawnMessage.prefabHash
+  name: prefabHash
+  href: api/Mirage.SpawnMessage.html#Mirage_SpawnMessage_prefabHash
+  commentId: F:Mirage.SpawnMessage.prefabHash
+  fullName: Mirage.SpawnMessage.prefabHash
+  nameWithType: SpawnMessage.prefabHash
 - uid: Mirage.SpawnMessage.rotation
   name: rotation
   href: api/Mirage.SpawnMessage.html#Mirage_SpawnMessage_rotation
