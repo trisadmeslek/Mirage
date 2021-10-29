@@ -8980,6 +8980,18 @@ references:
   commentId: F:Mirage.RemoteCalls.RpcInvokeType.ServerRpc
   fullName: Mirage.RemoteCalls.RpcInvokeType.ServerRpc
   nameWithType: RpcInvokeType.ServerRpc
+- uid: Mirage.RemoveAuthorityMessage
+  name: RemoveAuthorityMessage
+  href: api/Mirage.RemoveAuthorityMessage.html
+  commentId: T:Mirage.RemoveAuthorityMessage
+  fullName: Mirage.RemoveAuthorityMessage
+  nameWithType: RemoveAuthorityMessage
+- uid: Mirage.RemoveAuthorityMessage.netId
+  name: netId
+  href: api/Mirage.RemoveAuthorityMessage.html#Mirage_RemoveAuthorityMessage_netId
+  commentId: F:Mirage.RemoveAuthorityMessage.netId
+  fullName: Mirage.RemoveAuthorityMessage.netId
+  nameWithType: RemoveAuthorityMessage.netId
 - uid: Mirage.RpcMessage
   name: RpcMessage
   href: api/Mirage.RpcMessage.html
