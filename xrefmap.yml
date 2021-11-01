@@ -6336,18 +6336,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkIdentity.Client
   nameWithType: NetworkIdentity.Client
-- uid: Mirage.NetworkIdentity.clientAuthorityCallback
-  name: clientAuthorityCallback
-  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_clientAuthorityCallback
-  commentId: E:Mirage.NetworkIdentity.clientAuthorityCallback
-  fullName: Mirage.NetworkIdentity.clientAuthorityCallback
-  nameWithType: NetworkIdentity.clientAuthorityCallback
-- uid: Mirage.NetworkIdentity.ClientAuthorityCallback
-  name: NetworkIdentity.ClientAuthorityCallback
-  href: api/Mirage.NetworkIdentity.ClientAuthorityCallback.html
-  commentId: T:Mirage.NetworkIdentity.ClientAuthorityCallback
-  fullName: Mirage.NetworkIdentity.ClientAuthorityCallback
-  nameWithType: NetworkIdentity.ClientAuthorityCallback
 - uid: Mirage.NetworkIdentity.ClientObjectManager
   name: ClientObjectManager
   href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_ClientObjectManager
