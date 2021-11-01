@@ -4658,6 +4658,32 @@ references:
   isSpec: "True"
   fullName: Mirage.IServerObjectManager.Destroy
   nameWithType: IServerObjectManager.Destroy
+- uid: Mirage.IServerObjectManager.DestroyCharacter(Mirage.INetworkPlayer,System.Boolean)
+  name: DestroyCharacter(INetworkPlayer, Boolean)
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_DestroyCharacter_Mirage_INetworkPlayer_System_Boolean_
+  commentId: M:Mirage.IServerObjectManager.DestroyCharacter(Mirage.INetworkPlayer,System.Boolean)
+  fullName: Mirage.IServerObjectManager.DestroyCharacter(Mirage.INetworkPlayer, System.Boolean)
+  nameWithType: IServerObjectManager.DestroyCharacter(INetworkPlayer, Boolean)
+- uid: Mirage.IServerObjectManager.DestroyCharacter*
+  name: DestroyCharacter
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_DestroyCharacter_
+  commentId: Overload:Mirage.IServerObjectManager.DestroyCharacter
+  isSpec: "True"
+  fullName: Mirage.IServerObjectManager.DestroyCharacter
+  nameWithType: IServerObjectManager.DestroyCharacter
+- uid: Mirage.IServerObjectManager.RemoveCharacter(Mirage.INetworkPlayer,System.Boolean)
+  name: RemoveCharacter(INetworkPlayer, Boolean)
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_RemoveCharacter_Mirage_INetworkPlayer_System_Boolean_
+  commentId: M:Mirage.IServerObjectManager.RemoveCharacter(Mirage.INetworkPlayer,System.Boolean)
+  fullName: Mirage.IServerObjectManager.RemoveCharacter(Mirage.INetworkPlayer, System.Boolean)
+  nameWithType: IServerObjectManager.RemoveCharacter(INetworkPlayer, Boolean)
+- uid: Mirage.IServerObjectManager.RemoveCharacter*
+  name: RemoveCharacter
+  href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_RemoveCharacter_
+  commentId: Overload:Mirage.IServerObjectManager.RemoveCharacter
+  isSpec: "True"
+  fullName: Mirage.IServerObjectManager.RemoveCharacter
+  nameWithType: IServerObjectManager.RemoveCharacter
 - uid: Mirage.IServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkIdentity,System.Boolean)
   name: ReplaceCharacter(INetworkPlayer, NetworkIdentity, Boolean)
   href: api/Mirage.IServerObjectManager.html#Mirage_IServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_Mirage_NetworkIdentity_System_Boolean_
@@ -8992,6 +9018,18 @@ references:
   commentId: F:Mirage.RemoveAuthorityMessage.netId
   fullName: Mirage.RemoveAuthorityMessage.netId
   nameWithType: RemoveAuthorityMessage.netId
+- uid: Mirage.RemoveCharacterMessage
+  name: RemoveCharacterMessage
+  href: api/Mirage.RemoveCharacterMessage.html
+  commentId: T:Mirage.RemoveCharacterMessage
+  fullName: Mirage.RemoveCharacterMessage
+  nameWithType: RemoveCharacterMessage
+- uid: Mirage.RemoveCharacterMessage.keepAuthority
+  name: keepAuthority
+  href: api/Mirage.RemoveCharacterMessage.html#Mirage_RemoveCharacterMessage_keepAuthority
+  commentId: F:Mirage.RemoveCharacterMessage.keepAuthority
+  fullName: Mirage.RemoveCharacterMessage.keepAuthority
+  nameWithType: RemoveCharacterMessage.keepAuthority
 - uid: Mirage.RpcMessage
   name: RpcMessage
   href: api/Mirage.RpcMessage.html
@@ -12519,25 +12557,38 @@ references:
   isSpec: "True"
   fullName: Mirage.ServerObjectManager.Destroy
   nameWithType: ServerObjectManager.Destroy
+- uid: Mirage.ServerObjectManager.DestroyCharacter(Mirage.INetworkPlayer,System.Boolean)
+  name: DestroyCharacter(INetworkPlayer, Boolean)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_DestroyCharacter_Mirage_INetworkPlayer_System_Boolean_
+  commentId: M:Mirage.ServerObjectManager.DestroyCharacter(Mirage.INetworkPlayer,System.Boolean)
+  fullName: Mirage.ServerObjectManager.DestroyCharacter(Mirage.INetworkPlayer, System.Boolean)
+  nameWithType: ServerObjectManager.DestroyCharacter(INetworkPlayer, Boolean)
+- uid: Mirage.ServerObjectManager.DestroyCharacter*
+  name: DestroyCharacter
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_DestroyCharacter_
+  commentId: Overload:Mirage.ServerObjectManager.DestroyCharacter
+  isSpec: "True"
+  fullName: Mirage.ServerObjectManager.DestroyCharacter
+  nameWithType: ServerObjectManager.DestroyCharacter
 - uid: Mirage.ServerObjectManager.NetworkSceneManager
   name: NetworkSceneManager
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_NetworkSceneManager
   commentId: F:Mirage.ServerObjectManager.NetworkSceneManager
   fullName: Mirage.ServerObjectManager.NetworkSceneManager
   nameWithType: ServerObjectManager.NetworkSceneManager
-- uid: Mirage.ServerObjectManager.RemovePlayerForConnection(Mirage.INetworkPlayer,System.Boolean)
-  name: RemovePlayerForConnection(INetworkPlayer, Boolean)
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_RemovePlayerForConnection_Mirage_INetworkPlayer_System_Boolean_
-  commentId: M:Mirage.ServerObjectManager.RemovePlayerForConnection(Mirage.INetworkPlayer,System.Boolean)
-  fullName: Mirage.ServerObjectManager.RemovePlayerForConnection(Mirage.INetworkPlayer, System.Boolean)
-  nameWithType: ServerObjectManager.RemovePlayerForConnection(INetworkPlayer, Boolean)
-- uid: Mirage.ServerObjectManager.RemovePlayerForConnection*
-  name: RemovePlayerForConnection
-  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_RemovePlayerForConnection_
-  commentId: Overload:Mirage.ServerObjectManager.RemovePlayerForConnection
+- uid: Mirage.ServerObjectManager.RemoveCharacter(Mirage.INetworkPlayer,System.Boolean)
+  name: RemoveCharacter(INetworkPlayer, Boolean)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_RemoveCharacter_Mirage_INetworkPlayer_System_Boolean_
+  commentId: M:Mirage.ServerObjectManager.RemoveCharacter(Mirage.INetworkPlayer,System.Boolean)
+  fullName: Mirage.ServerObjectManager.RemoveCharacter(Mirage.INetworkPlayer, System.Boolean)
+  nameWithType: ServerObjectManager.RemoveCharacter(INetworkPlayer, Boolean)
+- uid: Mirage.ServerObjectManager.RemoveCharacter*
+  name: RemoveCharacter
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_RemoveCharacter_
+  commentId: Overload:Mirage.ServerObjectManager.RemoveCharacter
   isSpec: "True"
-  fullName: Mirage.ServerObjectManager.RemovePlayerForConnection
-  nameWithType: ServerObjectManager.RemovePlayerForConnection
+  fullName: Mirage.ServerObjectManager.RemoveCharacter
+  nameWithType: ServerObjectManager.RemoveCharacter
 - uid: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkIdentity,System.Boolean)
   name: ReplaceCharacter(INetworkPlayer, NetworkIdentity, Boolean)
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_Mirage_NetworkIdentity_System_Boolean_
