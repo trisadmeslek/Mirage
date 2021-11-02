@@ -5,22 +5,20 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct SceneNotReadyMessage
-   </title>
+    <title>Using NetworkSceneManager </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct SceneNotReadyMessage
-   ">
+    <meta name="title" content="Using NetworkSceneManager ">
     <meta name="generator" content="docfx 2.56.6.0">
     
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
     
-    <meta property="docfx:rel" content="../">
+    <meta property="docfx:rel" content="../../../">
     
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script>mermaid.initialize({startOnLoad:true});</script>
@@ -39,7 +37,7 @@
               </button>
               
               <a class="navbar-brand" style="display:flex;" href="https://github.com/MirageNet/Mirage">
-                <img id="logo" class="svg" style="vertical-align: middle;align-self:center;" src="../logo.png" alt="">
+                <img id="logo" class="svg" style="vertical-align: middle;align-self:center;" src="../../../logo.png" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -56,7 +54,7 @@
                   <div class="icon">
                     <i aria-hidden="true">🌙</i>
                   </div>
-                    <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+                    <script type="text/javascript" src="../../../styles/toggle-theme.js"></script>
                   </div>
                   <div class="form-group">
                     <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
@@ -95,42 +93,38 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Mirage.SceneNotReadyMessage">
-  
-  
-  <h1 id="Mirage_SceneNotReadyMessage" data-uid="Mirage.SceneNotReadyMessage" class="text-break">Struct SceneNotReadyMessage
-  </h1>
-  <div class="markdown level0 summary"><p>Sent to client to mark their scene as not ready</p>
-<p>Client can sent <a class="xref" href="Mirage.SceneReadyMessage.html">SceneReadyMessage</a> once its scene is ready again</p>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="using-networkscenemanager">Using NetworkSceneManager</h1>
+
+<p><a class="xref" href="../../../api/Mirage.NetworkSceneManager.html">NetworkSceneManager</a> contains methods and logic to help keep the scene in sync between server and client.</p>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>This page is work in progress</p>
 </div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.equals#System_ValueType_Equals_System_Object_">ValueType.Equals(Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.gethashcode#System_ValueType_GetHashCode">ValueType.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.tostring#System_ValueType_ToString">ValueType.ToString()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Mirage.html">Mirage</a></h6>
-  <h6><strong>Assembly</strong>: Mirage.dll</h6>
-  <h5 id="Mirage_SceneNotReadyMessage_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct SceneNotReadyMessage</code></pre>
-  </div>
+<h2 id="how-to-use">How to use</h2>
+<h2 id="virtual-methods">Virtual Methods</h2>
+<p>Some of the methods in NetworkSceneManager can be overridden to customize how it works</p>
+<ul>
+<li>Start</li>
+<li>OnDestroy</li>
+<li>ClientStartSceneMessage</li>
+<li>ClientFinishedLoadingSceneMessage</li>
+<li>ClientNotReadyMessage</li>
+<li>OnServerAuthenticated</li>
+<li>OnServerPlayerDisconnected</li>
+</ul>
+<h3 id="example---onserverauthenticated">Example - OnServerAuthenticated</h3>
+<p>By default OnServerAuthenticated sends the active scene and all additive scenes to the client, It can be overridden to only send the active scene:</p>
+<pre><code class="lang-cs">class MySceneManager : NetworkSceneManager
+{
+    protected internal override void OnServerAuthenticated(INetworkPlayer player)
+    {
+        // just load server's active scene instead of all additive scenes as well
+        player.Send(new SceneMessage { MainActivateScene = ActiveScenePath });
+        player.Send(new SceneReadyMessage());
+    }
+}
+</code></pre>
 </article>
           </div>
           
@@ -139,10 +133,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_SceneNotReadyMessage.md&amp;value=---%0Auid%3A%20Mirage.SceneNotReadyMessage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/MirageNet/Mirage/blob/9b8961a59bbbd824a3fdcb5574fe8f4b813eb4bb/Assets/Mirage/Runtime/Messages.cs/#L14" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirageNet/Mirage/blob/master/doc/Articles/Guides/SceneLoading/NetworkSceneManager.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -169,8 +160,8 @@
       </footer>
     </div>
     
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
   </body>
 </html>
