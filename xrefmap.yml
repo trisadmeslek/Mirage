@@ -9195,6 +9195,54 @@ references:
   commentId: T:Mirage.SceneReadyMessage
   fullName: Mirage.SceneReadyMessage
   nameWithType: SceneReadyMessage
+- uid: Mirage.SceneVisibilityChecker
+  name: SceneVisibilityChecker
+  href: api/Mirage.SceneVisibilityChecker.html
+  commentId: T:Mirage.SceneVisibilityChecker
+  fullName: Mirage.SceneVisibilityChecker
+  nameWithType: SceneVisibilityChecker
+- uid: Mirage.SceneVisibilityChecker.MoveToScene(UnityEngine.SceneManagement.Scene)
+  name: MoveToScene(Scene)
+  href: api/Mirage.SceneVisibilityChecker.html#Mirage_SceneVisibilityChecker_MoveToScene_UnityEngine_SceneManagement_Scene_
+  commentId: M:Mirage.SceneVisibilityChecker.MoveToScene(UnityEngine.SceneManagement.Scene)
+  fullName: Mirage.SceneVisibilityChecker.MoveToScene(UnityEngine.SceneManagement.Scene)
+  nameWithType: SceneVisibilityChecker.MoveToScene(Scene)
+- uid: Mirage.SceneVisibilityChecker.MoveToScene*
+  name: MoveToScene
+  href: api/Mirage.SceneVisibilityChecker.html#Mirage_SceneVisibilityChecker_MoveToScene_
+  commentId: Overload:Mirage.SceneVisibilityChecker.MoveToScene
+  isSpec: "True"
+  fullName: Mirage.SceneVisibilityChecker.MoveToScene
+  nameWithType: SceneVisibilityChecker.MoveToScene
+- uid: Mirage.SceneVisibilityChecker.OnCheckObserver(Mirage.INetworkPlayer)
+  name: OnCheckObserver(INetworkPlayer)
+  href: api/Mirage.SceneVisibilityChecker.html#Mirage_SceneVisibilityChecker_OnCheckObserver_Mirage_INetworkPlayer_
+  commentId: M:Mirage.SceneVisibilityChecker.OnCheckObserver(Mirage.INetworkPlayer)
+  fullName: Mirage.SceneVisibilityChecker.OnCheckObserver(Mirage.INetworkPlayer)
+  nameWithType: SceneVisibilityChecker.OnCheckObserver(INetworkPlayer)
+- uid: Mirage.SceneVisibilityChecker.OnCheckObserver*
+  name: OnCheckObserver
+  href: api/Mirage.SceneVisibilityChecker.html#Mirage_SceneVisibilityChecker_OnCheckObserver_
+  commentId: Overload:Mirage.SceneVisibilityChecker.OnCheckObserver
+  isSpec: "True"
+  fullName: Mirage.SceneVisibilityChecker.OnCheckObserver
+  nameWithType: SceneVisibilityChecker.OnCheckObserver
+- uid: Mirage.SceneVisibilityChecker.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkPlayer},System.Boolean)
+  name: OnRebuildObservers(HashSet<INetworkPlayer>, Boolean)
+  href: api/Mirage.SceneVisibilityChecker.html#Mirage_SceneVisibilityChecker_OnRebuildObservers_System_Collections_Generic_HashSet_Mirage_INetworkPlayer__System_Boolean_
+  commentId: M:Mirage.SceneVisibilityChecker.OnRebuildObservers(System.Collections.Generic.HashSet{Mirage.INetworkPlayer},System.Boolean)
+  name.vb: OnRebuildObservers(HashSet(Of INetworkPlayer), Boolean)
+  fullName: Mirage.SceneVisibilityChecker.OnRebuildObservers(System.Collections.Generic.HashSet<Mirage.INetworkPlayer>, System.Boolean)
+  fullName.vb: Mirage.SceneVisibilityChecker.OnRebuildObservers(System.Collections.Generic.HashSet(Of Mirage.INetworkPlayer), System.Boolean)
+  nameWithType: SceneVisibilityChecker.OnRebuildObservers(HashSet<INetworkPlayer>, Boolean)
+  nameWithType.vb: SceneVisibilityChecker.OnRebuildObservers(HashSet(Of INetworkPlayer), Boolean)
+- uid: Mirage.SceneVisibilityChecker.OnRebuildObservers*
+  name: OnRebuildObservers
+  href: api/Mirage.SceneVisibilityChecker.html#Mirage_SceneVisibilityChecker_OnRebuildObservers_
+  commentId: Overload:Mirage.SceneVisibilityChecker.OnRebuildObservers
+  isSpec: "True"
+  fullName: Mirage.SceneVisibilityChecker.OnRebuildObservers
+  nameWithType: SceneVisibilityChecker.OnRebuildObservers
 - uid: Mirage.Serialization
   name: Mirage.Serialization
   href: api/Mirage.Serialization.html
