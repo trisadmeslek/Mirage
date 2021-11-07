@@ -6640,6 +6640,49 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkIdentity.SpawnedFromInstantiate
   nameWithType: NetworkIdentity.SpawnedFromInstantiate
+- uid: Mirage.NetworkIdentity.SpawnSettings
+  name: SpawnSettings
+  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_SpawnSettings
+  commentId: F:Mirage.NetworkIdentity.SpawnSettings
+  fullName: Mirage.NetworkIdentity.SpawnSettings
+  nameWithType: NetworkIdentity.SpawnSettings
+- uid: Mirage.NetworkIdentity.TransformSpawnSettings
+  name: NetworkIdentity.TransformSpawnSettings
+  href: api/Mirage.NetworkIdentity.TransformSpawnSettings.html
+  commentId: T:Mirage.NetworkIdentity.TransformSpawnSettings
+  fullName: Mirage.NetworkIdentity.TransformSpawnSettings
+  nameWithType: NetworkIdentity.TransformSpawnSettings
+- uid: Mirage.NetworkIdentity.TransformSpawnSettings.#ctor(System.Boolean,System.Boolean,System.Boolean)
+  name: TransformSpawnSettings(Boolean, Boolean, Boolean)
+  href: api/Mirage.NetworkIdentity.TransformSpawnSettings.html#Mirage_NetworkIdentity_TransformSpawnSettings__ctor_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:Mirage.NetworkIdentity.TransformSpawnSettings.#ctor(System.Boolean,System.Boolean,System.Boolean)
+  fullName: Mirage.NetworkIdentity.TransformSpawnSettings.TransformSpawnSettings(System.Boolean, System.Boolean, System.Boolean)
+  nameWithType: NetworkIdentity.TransformSpawnSettings.TransformSpawnSettings(Boolean, Boolean, Boolean)
+- uid: Mirage.NetworkIdentity.TransformSpawnSettings.#ctor*
+  name: TransformSpawnSettings
+  href: api/Mirage.NetworkIdentity.TransformSpawnSettings.html#Mirage_NetworkIdentity_TransformSpawnSettings__ctor_
+  commentId: Overload:Mirage.NetworkIdentity.TransformSpawnSettings.#ctor
+  isSpec: "True"
+  fullName: Mirage.NetworkIdentity.TransformSpawnSettings.TransformSpawnSettings
+  nameWithType: NetworkIdentity.TransformSpawnSettings.TransformSpawnSettings
+- uid: Mirage.NetworkIdentity.TransformSpawnSettings.SendPosition
+  name: SendPosition
+  href: api/Mirage.NetworkIdentity.TransformSpawnSettings.html#Mirage_NetworkIdentity_TransformSpawnSettings_SendPosition
+  commentId: F:Mirage.NetworkIdentity.TransformSpawnSettings.SendPosition
+  fullName: Mirage.NetworkIdentity.TransformSpawnSettings.SendPosition
+  nameWithType: NetworkIdentity.TransformSpawnSettings.SendPosition
+- uid: Mirage.NetworkIdentity.TransformSpawnSettings.SendRotation
+  name: SendRotation
+  href: api/Mirage.NetworkIdentity.TransformSpawnSettings.html#Mirage_NetworkIdentity_TransformSpawnSettings_SendRotation
+  commentId: F:Mirage.NetworkIdentity.TransformSpawnSettings.SendRotation
+  fullName: Mirage.NetworkIdentity.TransformSpawnSettings.SendRotation
+  nameWithType: NetworkIdentity.TransformSpawnSettings.SendRotation
+- uid: Mirage.NetworkIdentity.TransformSpawnSettings.SendScale
+  name: SendScale
+  href: api/Mirage.NetworkIdentity.TransformSpawnSettings.html#Mirage_NetworkIdentity_TransformSpawnSettings_SendScale
+  commentId: F:Mirage.NetworkIdentity.TransformSpawnSettings.SendScale
+  fullName: Mirage.NetworkIdentity.TransformSpawnSettings.SendScale
+  nameWithType: NetworkIdentity.TransformSpawnSettings.SendScale
 - uid: Mirage.NetworkIdentity.Visibility
   name: Visibility
   href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_Visibility
