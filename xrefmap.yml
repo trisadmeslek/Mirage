@@ -6394,6 +6394,32 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkIdentity.IsLocalPlayer
   nameWithType: NetworkIdentity.IsLocalPlayer
+- uid: Mirage.NetworkIdentity.IsPrefab
+  name: IsPrefab
+  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_IsPrefab
+  commentId: P:Mirage.NetworkIdentity.IsPrefab
+  fullName: Mirage.NetworkIdentity.IsPrefab
+  nameWithType: NetworkIdentity.IsPrefab
+- uid: Mirage.NetworkIdentity.IsPrefab*
+  name: IsPrefab
+  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_IsPrefab_
+  commentId: Overload:Mirage.NetworkIdentity.IsPrefab
+  isSpec: "True"
+  fullName: Mirage.NetworkIdentity.IsPrefab
+  nameWithType: NetworkIdentity.IsPrefab
+- uid: Mirage.NetworkIdentity.IsSceneObject
+  name: IsSceneObject
+  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_IsSceneObject
+  commentId: P:Mirage.NetworkIdentity.IsSceneObject
+  fullName: Mirage.NetworkIdentity.IsSceneObject
+  nameWithType: NetworkIdentity.IsSceneObject
+- uid: Mirage.NetworkIdentity.IsSceneObject*
+  name: IsSceneObject
+  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_IsSceneObject_
+  commentId: Overload:Mirage.NetworkIdentity.IsSceneObject
+  isSpec: "True"
+  fullName: Mirage.NetworkIdentity.IsSceneObject
+  nameWithType: NetworkIdentity.IsSceneObject
 - uid: Mirage.NetworkIdentity.IsServer
   name: IsServer
   href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_IsServer
@@ -6407,6 +6433,19 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkIdentity.IsServer
   nameWithType: NetworkIdentity.IsServer
+- uid: Mirage.NetworkIdentity.IsSpawned
+  name: IsSpawned
+  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_IsSpawned
+  commentId: P:Mirage.NetworkIdentity.IsSpawned
+  fullName: Mirage.NetworkIdentity.IsSpawned
+  nameWithType: NetworkIdentity.IsSpawned
+- uid: Mirage.NetworkIdentity.IsSpawned*
+  name: IsSpawned
+  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_IsSpawned_
+  commentId: Overload:Mirage.NetworkIdentity.IsSpawned
+  isSpec: "True"
+  fullName: Mirage.NetworkIdentity.IsSpawned
+  nameWithType: NetworkIdentity.IsSpawned
 - uid: Mirage.NetworkIdentity.NetId
   name: NetId
   href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_NetId
@@ -6569,12 +6608,6 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkIdentity.RemoveClientAuthority
   nameWithType: NetworkIdentity.RemoveClientAuthority
-- uid: Mirage.NetworkIdentity.sceneId
-  name: sceneId
-  href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_sceneId
-  commentId: F:Mirage.NetworkIdentity.sceneId
-  fullName: Mirage.NetworkIdentity.sceneId
-  nameWithType: NetworkIdentity.sceneId
 - uid: Mirage.NetworkIdentity.Server
   name: Server
   href: api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_Server
@@ -12606,6 +12639,12 @@ references:
   commentId: M:Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer,Mirage.NetworkIdentity)
   fullName: Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer, Mirage.NetworkIdentity)
   nameWithType: ServerObjectManager.AddCharacter(INetworkPlayer, NetworkIdentity)
+- uid: Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer,Mirage.NetworkIdentity,System.Int32)
+  name: AddCharacter(INetworkPlayer, NetworkIdentity, Int32)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_AddCharacter_Mirage_INetworkPlayer_Mirage_NetworkIdentity_System_Int32_
+  commentId: M:Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer,Mirage.NetworkIdentity,System.Int32)
+  fullName: Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer, Mirage.NetworkIdentity, System.Int32)
+  nameWithType: ServerObjectManager.AddCharacter(INetworkPlayer, NetworkIdentity, Int32)
 - uid: Mirage.ServerObjectManager.AddCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject)
   name: AddCharacter(INetworkPlayer, GameObject)
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_AddCharacter_Mirage_INetworkPlayer_UnityEngine_GameObject_
@@ -12682,6 +12721,12 @@ references:
   commentId: M:Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkIdentity,System.Boolean)
   fullName: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer, Mirage.NetworkIdentity, System.Boolean)
   nameWithType: ServerObjectManager.ReplaceCharacter(INetworkPlayer, NetworkIdentity, Boolean)
+- uid: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkIdentity,System.Int32,System.Boolean)
+  name: ReplaceCharacter(INetworkPlayer, NetworkIdentity, Int32, Boolean)
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_Mirage_NetworkIdentity_System_Int32_System_Boolean_
+  commentId: M:Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,Mirage.NetworkIdentity,System.Int32,System.Boolean)
+  fullName: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer, Mirage.NetworkIdentity, System.Int32, System.Boolean)
+  nameWithType: ServerObjectManager.ReplaceCharacter(INetworkPlayer, NetworkIdentity, Int32, Boolean)
 - uid: Mirage.ServerObjectManager.ReplaceCharacter(Mirage.INetworkPlayer,UnityEngine.GameObject,System.Boolean)
   name: ReplaceCharacter(INetworkPlayer, GameObject, Boolean)
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_ReplaceCharacter_Mirage_INetworkPlayer_UnityEngine_GameObject_System_Boolean_
@@ -15504,6 +15549,12 @@ references:
   commentId: T:Mirage.StringHash
   fullName: Mirage.StringHash
   nameWithType: StringHash
+- uid: Mirage.StringHash.EmptyString
+  name: EmptyString
+  href: api/Mirage.StringHash.html#Mirage_StringHash_EmptyString
+  commentId: F:Mirage.StringHash.EmptyString
+  fullName: Mirage.StringHash.EmptyString
+  nameWithType: StringHash.EmptyString
 - uid: Mirage.StringHash.GetStableHashCode(System.String)
   name: GetStableHashCode(String)
   href: api/Mirage.StringHash.html#Mirage_StringHash_GetStableHashCode_System_String_
