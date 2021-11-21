@@ -48,6 +48,11 @@ namespace Mirage
         [Tooltip("Creates Socket for Peer to use")]
         public SocketFactory SocketFactory;
 
+        /// <summary>
+        /// Should we update NetworkServer and Peer inside unity's update function
+        /// </summary>
+        public bool UnityUpdate = true;
+
         Peer peer;
 
         [Tooltip("Authentication component attached to this object")]
@@ -268,7 +273,26 @@ namespace Mirage
 
         internal void Update()
         {
+            if (UnityUpdate)
+            {
+                peer?.UpdateReceive();
+                SyncVarSender?.Update();
+                peer?.UpdateSent();
+            }
+        }
+
+        public void ManualEarlyUpdate()
+        {
+            if (UnityUpdate)
+                logger.LogWarning("ManualUpdate called while UnityUpdate was true");
+
             peer?.UpdateReceive();
+        }
+        public void ManualLateUpdate()
+        {
+            if (UnityUpdate)
+                logger.LogWarning("ManualUpdate called while UnityUpdate was true");
+
             SyncVarSender?.Update();
             peer?.UpdateSent();
         }
