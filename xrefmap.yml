@@ -13562,6 +13562,44 @@ references:
   isSpec: "True"
   fullName: Mirage.SocketLayer.IEndPoint.CreateCopy
   nameWithType: IEndPoint.CreateCopy
+- uid: Mirage.SocketLayer.IHasAddress
+  name: IHasAddress
+  href: api/Mirage.SocketLayer.IHasAddress.html
+  commentId: T:Mirage.SocketLayer.IHasAddress
+  fullName: Mirage.SocketLayer.IHasAddress
+  nameWithType: IHasAddress
+- uid: Mirage.SocketLayer.IHasAddress.Address
+  name: Address
+  href: api/Mirage.SocketLayer.IHasAddress.html#Mirage_SocketLayer_IHasAddress_Address
+  commentId: P:Mirage.SocketLayer.IHasAddress.Address
+  fullName: Mirage.SocketLayer.IHasAddress.Address
+  nameWithType: IHasAddress.Address
+- uid: Mirage.SocketLayer.IHasAddress.Address*
+  name: Address
+  href: api/Mirage.SocketLayer.IHasAddress.html#Mirage_SocketLayer_IHasAddress_Address_
+  commentId: Overload:Mirage.SocketLayer.IHasAddress.Address
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.IHasAddress.Address
+  nameWithType: IHasAddress.Address
+- uid: Mirage.SocketLayer.IHasPort
+  name: IHasPort
+  href: api/Mirage.SocketLayer.IHasPort.html
+  commentId: T:Mirage.SocketLayer.IHasPort
+  fullName: Mirage.SocketLayer.IHasPort
+  nameWithType: IHasPort
+- uid: Mirage.SocketLayer.IHasPort.Port
+  name: Port
+  href: api/Mirage.SocketLayer.IHasPort.html#Mirage_SocketLayer_IHasPort_Port
+  commentId: P:Mirage.SocketLayer.IHasPort.Port
+  fullName: Mirage.SocketLayer.IHasPort.Port
+  nameWithType: IHasPort.Port
+- uid: Mirage.SocketLayer.IHasPort.Port*
+  name: Port
+  href: api/Mirage.SocketLayer.IHasPort.html#Mirage_SocketLayer_IHasPort_Port_
+  commentId: Overload:Mirage.SocketLayer.IHasPort.Port
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.IHasPort.Port
+  nameWithType: IHasPort.Port
 - uid: Mirage.SocketLayer.INotifyCallBack
   name: INotifyCallBack
   href: api/Mirage.SocketLayer.INotifyCallBack.html
@@ -15518,6 +15556,40 @@ references:
   isSpec: "True"
   fullName: Mirage.Sockets.Udp.UdpSocketFactory.GetConnectEndPoint
   nameWithType: UdpSocketFactory.GetConnectEndPoint
+- uid: Mirage.Sockets.Udp.UdpSocketFactory.Mirage#SocketLayer#IHasAddress#Address
+  name: IHasAddress.Address
+  href: api/Mirage.Sockets.Udp.UdpSocketFactory.html#Mirage_Sockets_Udp_UdpSocketFactory_Mirage_SocketLayer_IHasAddress_Address
+  commentId: P:Mirage.Sockets.Udp.UdpSocketFactory.Mirage#SocketLayer#IHasAddress#Address
+  name.vb: Mirage.SocketLayer.IHasAddress.Address
+  fullName: Mirage.Sockets.Udp.UdpSocketFactory.Mirage.SocketLayer.IHasAddress.Address
+  nameWithType: UdpSocketFactory.IHasAddress.Address
+  nameWithType.vb: UdpSocketFactory.Mirage.SocketLayer.IHasAddress.Address
+- uid: Mirage.Sockets.Udp.UdpSocketFactory.Mirage#SocketLayer#IHasAddress#Address*
+  name: IHasAddress.Address
+  href: api/Mirage.Sockets.Udp.UdpSocketFactory.html#Mirage_Sockets_Udp_UdpSocketFactory_Mirage_SocketLayer_IHasAddress_Address_
+  commentId: Overload:Mirage.Sockets.Udp.UdpSocketFactory.Mirage#SocketLayer#IHasAddress#Address
+  isSpec: "True"
+  name.vb: Mirage.SocketLayer.IHasAddress.Address
+  fullName: Mirage.Sockets.Udp.UdpSocketFactory.Mirage.SocketLayer.IHasAddress.Address
+  nameWithType: UdpSocketFactory.IHasAddress.Address
+  nameWithType.vb: UdpSocketFactory.Mirage.SocketLayer.IHasAddress.Address
+- uid: Mirage.Sockets.Udp.UdpSocketFactory.Mirage#SocketLayer#IHasPort#Port
+  name: IHasPort.Port
+  href: api/Mirage.Sockets.Udp.UdpSocketFactory.html#Mirage_Sockets_Udp_UdpSocketFactory_Mirage_SocketLayer_IHasPort_Port
+  commentId: P:Mirage.Sockets.Udp.UdpSocketFactory.Mirage#SocketLayer#IHasPort#Port
+  name.vb: Mirage.SocketLayer.IHasPort.Port
+  fullName: Mirage.Sockets.Udp.UdpSocketFactory.Mirage.SocketLayer.IHasPort.Port
+  nameWithType: UdpSocketFactory.IHasPort.Port
+  nameWithType.vb: UdpSocketFactory.Mirage.SocketLayer.IHasPort.Port
+- uid: Mirage.Sockets.Udp.UdpSocketFactory.Mirage#SocketLayer#IHasPort#Port*
+  name: IHasPort.Port
+  href: api/Mirage.Sockets.Udp.UdpSocketFactory.html#Mirage_Sockets_Udp_UdpSocketFactory_Mirage_SocketLayer_IHasPort_Port_
+  commentId: Overload:Mirage.Sockets.Udp.UdpSocketFactory.Mirage#SocketLayer#IHasPort#Port
+  isSpec: "True"
+  name.vb: Mirage.SocketLayer.IHasPort.Port
+  fullName: Mirage.Sockets.Udp.UdpSocketFactory.Mirage.SocketLayer.IHasPort.Port
+  nameWithType: UdpSocketFactory.IHasPort.Port
+  nameWithType.vb: UdpSocketFactory.Mirage.SocketLayer.IHasPort.Port
 - uid: Mirage.Sockets.Udp.UdpSocketFactory.Port
   name: Port
   href: api/Mirage.Sockets.Udp.UdpSocketFactory.html#Mirage_Sockets_Udp_UdpSocketFactory_Port

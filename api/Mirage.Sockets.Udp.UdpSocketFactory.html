@@ -112,6 +112,11 @@
     <div class="level5"><a class="xref" href="Mirage.SocketLayer.SocketFactory.html">SocketFactory</a></div>
     <div class="level6"><span class="xref">UdpSocketFactory</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Mirage.SocketLayer.IHasAddress.html">IHasAddress</a></div>
+    <div><a class="xref" href="Mirage.SocketLayer.IHasPort.html">IHasPort</a></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -416,7 +421,7 @@
   <h6><strong>Assembly</strong>: Mirage.Sockets.Udp.dll</h6>
   <h5 id="Mirage_Sockets_Udp_UdpSocketFactory_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class UdpSocketFactory : SocketFactory</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class UdpSocketFactory : SocketFactory, IHasAddress, IHasPort</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -425,7 +430,7 @@
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Sockets_Udp_UdpSocketFactory_Address.md&amp;value=---%0Auid%3A%20Mirage.Sockets.Udp.UdpSocketFactory.Address%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/0d6d34bd4d03800dc9edfc0adda1cd2d4b483d44/Assets/Mirage/Runtime/Sockets/Udp/UdpSocketFactory.cs/#L14">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/e969e6dc4c85337e2deaa40202d557da6ac51f69/Assets/Mirage/Runtime/Sockets/Udp/UdpSocketFactory.cs/#L14">View Source</a>
   </span>
   <h4 id="Mirage_Sockets_Udp_UdpSocketFactory_Address" data-uid="Mirage.Sockets.Udp.UdpSocketFactory.Address">Address</h4>
   <div class="markdown level1 summary"></div>
@@ -454,7 +459,7 @@
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Sockets_Udp_UdpSocketFactory_BufferSize.md&amp;value=---%0Auid%3A%20Mirage.Sockets.Udp.UdpSocketFactory.BufferSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/0d6d34bd4d03800dc9edfc0adda1cd2d4b483d44/Assets/Mirage/Runtime/Sockets/Udp/UdpSocketFactory.cs/#L21">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/e969e6dc4c85337e2deaa40202d557da6ac51f69/Assets/Mirage/Runtime/Sockets/Udp/UdpSocketFactory.cs/#L21">View Source</a>
   </span>
   <h4 id="Mirage_Sockets_Udp_UdpSocketFactory_BufferSize" data-uid="Mirage.Sockets.Udp.UdpSocketFactory.BufferSize">BufferSize</h4>
   <div class="markdown level1 summary"></div>
@@ -484,7 +489,7 @@ public int BufferSize</code></pre>
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Sockets_Udp_UdpSocketFactory_Port.md&amp;value=---%0Auid%3A%20Mirage.Sockets.Udp.UdpSocketFactory.Port%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/0d6d34bd4d03800dc9edfc0adda1cd2d4b483d44/Assets/Mirage/Runtime/Sockets/Udp/UdpSocketFactory.cs/#L15">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/e969e6dc4c85337e2deaa40202d557da6ac51f69/Assets/Mirage/Runtime/Sockets/Udp/UdpSocketFactory.cs/#L15">View Source</a>
   </span>
   <h4 id="Mirage_Sockets_Udp_UdpSocketFactory_Port" data-uid="Mirage.Sockets.Udp.UdpSocketFactory.Port">Port</h4>
   <div class="markdown level1 summary"></div>
@@ -513,7 +518,7 @@ public int BufferSize</code></pre>
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Sockets_Udp_UdpSocketFactory_SocketLib.md&amp;value=---%0Auid%3A%20Mirage.Sockets.Udp.UdpSocketFactory.SocketLib%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/0d6d34bd4d03800dc9edfc0adda1cd2d4b483d44/Assets/Mirage/Runtime/Sockets/Udp/UdpSocketFactory.cs/#L18">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/e969e6dc4c85337e2deaa40202d557da6ac51f69/Assets/Mirage/Runtime/Sockets/Udp/UdpSocketFactory.cs/#L18">View Source</a>
   </span>
   <h4 id="Mirage_Sockets_Udp_UdpSocketFactory_SocketLib" data-uid="Mirage.Sockets.Udp.UdpSocketFactory.SocketLib">SocketLib</h4>
   <div class="markdown level1 summary"></div>
@@ -545,7 +550,7 @@ public SocketLib SocketLib</code></pre>
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Sockets_Udp_UdpSocketFactory_CreateClientSocket.md&amp;value=---%0Auid%3A%20Mirage.Sockets.Udp.UdpSocketFactory.CreateClientSocket%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/0d6d34bd4d03800dc9edfc0adda1cd2d4b483d44/Assets/Mirage/Runtime/Sockets/Udp/UdpSocketFactory.cs/#L57">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/e969e6dc4c85337e2deaa40202d557da6ac51f69/Assets/Mirage/Runtime/Sockets/Udp/UdpSocketFactory.cs/#L68">View Source</a>
   </span>
   <a id="Mirage_Sockets_Udp_UdpSocketFactory_CreateClientSocket_" data-uid="Mirage.Sockets.Udp.UdpSocketFactory.CreateClientSocket*"></a>
   <h4 id="Mirage_Sockets_Udp_UdpSocketFactory_CreateClientSocket" data-uid="Mirage.Sockets.Udp.UdpSocketFactory.CreateClientSocket">CreateClientSocket()</h4>
@@ -577,7 +582,7 @@ public SocketLib SocketLib</code></pre>
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Sockets_Udp_UdpSocketFactory_CreateServerSocket.md&amp;value=---%0Auid%3A%20Mirage.Sockets.Udp.UdpSocketFactory.CreateServerSocket%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/0d6d34bd4d03800dc9edfc0adda1cd2d4b483d44/Assets/Mirage/Runtime/Sockets/Udp/UdpSocketFactory.cs/#L66">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/e969e6dc4c85337e2deaa40202d557da6ac51f69/Assets/Mirage/Runtime/Sockets/Udp/UdpSocketFactory.cs/#L77">View Source</a>
   </span>
   <a id="Mirage_Sockets_Udp_UdpSocketFactory_CreateServerSocket_" data-uid="Mirage.Sockets.Udp.UdpSocketFactory.CreateServerSocket*"></a>
   <h4 id="Mirage_Sockets_Udp_UdpSocketFactory_CreateServerSocket" data-uid="Mirage.Sockets.Udp.UdpSocketFactory.CreateServerSocket">CreateServerSocket()</h4>
@@ -609,7 +614,7 @@ public SocketLib SocketLib</code></pre>
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Sockets_Udp_UdpSocketFactory_GetBindEndPoint.md&amp;value=---%0Auid%3A%20Mirage.Sockets.Udp.UdpSocketFactory.GetBindEndPoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/0d6d34bd4d03800dc9edfc0adda1cd2d4b483d44/Assets/Mirage/Runtime/Sockets/Udp/UdpSocketFactory.cs/#L75">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/e969e6dc4c85337e2deaa40202d557da6ac51f69/Assets/Mirage/Runtime/Sockets/Udp/UdpSocketFactory.cs/#L86">View Source</a>
   </span>
   <a id="Mirage_Sockets_Udp_UdpSocketFactory_GetBindEndPoint_" data-uid="Mirage.Sockets.Udp.UdpSocketFactory.GetBindEndPoint*"></a>
   <h4 id="Mirage_Sockets_Udp_UdpSocketFactory_GetBindEndPoint" data-uid="Mirage.Sockets.Udp.UdpSocketFactory.GetBindEndPoint">GetBindEndPoint()</h4>
@@ -641,7 +646,7 @@ public SocketLib SocketLib</code></pre>
     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Sockets_Udp_UdpSocketFactory_GetConnectEndPoint_System_String_System_Nullable_System_UInt16__.md&amp;value=---%0Auid%3A%20Mirage.Sockets.Udp.UdpSocketFactory.GetConnectEndPoint(System.String%2CSystem.Nullable%7BSystem.UInt16%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/0d6d34bd4d03800dc9edfc0adda1cd2d4b483d44/Assets/Mirage/Runtime/Sockets/Udp/UdpSocketFactory.cs/#L82">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/e969e6dc4c85337e2deaa40202d557da6ac51f69/Assets/Mirage/Runtime/Sockets/Udp/UdpSocketFactory.cs/#L93">View Source</a>
   </span>
   <a id="Mirage_Sockets_Udp_UdpSocketFactory_GetConnectEndPoint_" data-uid="Mirage.Sockets.Udp.UdpSocketFactory.GetConnectEndPoint*"></a>
   <h4 id="Mirage_Sockets_Udp_UdpSocketFactory_GetConnectEndPoint_System_String_System_Nullable_System_UInt16__" data-uid="Mirage.Sockets.Udp.UdpSocketFactory.GetConnectEndPoint(System.String,System.Nullable{System.UInt16})">GetConnectEndPoint(String, Nullable&lt;UInt16&gt;)</h4>
@@ -690,6 +695,75 @@ public SocketLib SocketLib</code></pre>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Mirage.SocketLayer.SocketFactory.html#Mirage_SocketLayer_SocketFactory_GetConnectEndPoint_System_String_System_Nullable_System_UInt16__">SocketFactory.GetConnectEndPoint(String, Nullable&lt;UInt16&gt;)</a></div>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Sockets_Udp_UdpSocketFactory_Mirage_SocketLayer_IHasAddress_Address.md&amp;value=---%0Auid%3A%20Mirage.Sockets.Udp.UdpSocketFactory.Mirage%23SocketLayer%23IHasAddress%23Address%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/e969e6dc4c85337e2deaa40202d557da6ac51f69/Assets/Mirage/Runtime/Sockets/Udp/UdpSocketFactory.cs/#L25">View Source</a>
+  </span>
+  <a id="Mirage_Sockets_Udp_UdpSocketFactory_Mirage_SocketLayer_IHasAddress_Address_" data-uid="Mirage.Sockets.Udp.UdpSocketFactory.Mirage#SocketLayer#IHasAddress#Address*"></a>
+  <h4 id="Mirage_Sockets_Udp_UdpSocketFactory_Mirage_SocketLayer_IHasAddress_Address" data-uid="Mirage.Sockets.Udp.UdpSocketFactory.Mirage#SocketLayer#IHasAddress#Address">IHasAddress.Address</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string IHasAddress.Address { get; set; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Sockets_Udp_UdpSocketFactory_Mirage_SocketLayer_IHasPort_Port.md&amp;value=---%0Auid%3A%20Mirage.Sockets.Udp.UdpSocketFactory.Mirage%23SocketLayer%23IHasPort%23Port%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/e969e6dc4c85337e2deaa40202d557da6ac51f69/Assets/Mirage/Runtime/Sockets/Udp/UdpSocketFactory.cs/#L30">View Source</a>
+  </span>
+  <a id="Mirage_Sockets_Udp_UdpSocketFactory_Mirage_SocketLayer_IHasPort_Port_" data-uid="Mirage.Sockets.Udp.UdpSocketFactory.Mirage#SocketLayer#IHasPort#Port*"></a>
+  <h4 id="Mirage_Sockets_Udp_UdpSocketFactory_Mirage_SocketLayer_IHasPort_Port" data-uid="Mirage.Sockets.Udp.UdpSocketFactory.Mirage#SocketLayer#IHasPort#Port">IHasPort.Port</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int IHasPort.Port { get; set; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Mirage.SocketLayer.IHasAddress.html">IHasAddress</a>
+  </div>
+  <div>
+      <a class="xref" href="Mirage.SocketLayer.IHasPort.html">IHasPort</a>
+  </div>
 </article>
           </div>
           
@@ -701,7 +775,7 @@ public SocketLib SocketLib</code></pre>
                     <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Sockets_Udp_UdpSocketFactory.md&amp;value=---%0Auid%3A%20Mirage.Sockets.Udp.UdpSocketFactory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/blob/0d6d34bd4d03800dc9edfc0adda1cd2d4b483d44/Assets/Mirage/Runtime/Sockets/Udp/UdpSocketFactory.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirageNet/Mirage/blob/e969e6dc4c85337e2deaa40202d557da6ac51f69/Assets/Mirage/Runtime/Sockets/Udp/UdpSocketFactory.cs/#L12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
