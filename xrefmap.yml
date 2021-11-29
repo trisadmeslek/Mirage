@@ -8030,23 +8030,6 @@ references:
   commentId: F:Mirage.NetworkServer.MetricsSize
   fullName: Mirage.NetworkServer.MetricsSize
   nameWithType: NetworkServer.MetricsSize
-- uid: Mirage.NetworkServer.Mirage#INetworkServer#Players
-  name: INetworkServer.Players
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Mirage_INetworkServer_Players
-  commentId: P:Mirage.NetworkServer.Mirage#INetworkServer#Players
-  name.vb: Mirage.INetworkServer.Players
-  fullName: Mirage.NetworkServer.Mirage.INetworkServer.Players
-  nameWithType: NetworkServer.INetworkServer.Players
-  nameWithType.vb: NetworkServer.Mirage.INetworkServer.Players
-- uid: Mirage.NetworkServer.Mirage#INetworkServer#Players*
-  name: INetworkServer.Players
-  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Mirage_INetworkServer_Players_
-  commentId: Overload:Mirage.NetworkServer.Mirage#INetworkServer#Players
-  isSpec: "True"
-  name.vb: Mirage.INetworkServer.Players
-  fullName: Mirage.NetworkServer.Mirage.INetworkServer.Players
-  nameWithType: NetworkServer.INetworkServer.Players
-  nameWithType.vb: NetworkServer.Mirage.INetworkServer.Players
 - uid: Mirage.NetworkServer.NumberOfPlayers
   name: NumberOfPlayers
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_NumberOfPlayers
@@ -8102,7 +8085,14 @@ references:
 - uid: Mirage.NetworkServer.Players
   name: Players
   href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Players
-  commentId: F:Mirage.NetworkServer.Players
+  commentId: P:Mirage.NetworkServer.Players
+  fullName: Mirage.NetworkServer.Players
+  nameWithType: NetworkServer.Players
+- uid: Mirage.NetworkServer.Players*
+  name: Players
+  href: api/Mirage.NetworkServer.html#Mirage_NetworkServer_Players_
+  commentId: Overload:Mirage.NetworkServer.Players
+  isSpec: "True"
   fullName: Mirage.NetworkServer.Players
   nameWithType: NetworkServer.Players
 - uid: Mirage.NetworkServer.RemoveConnection(Mirage.INetworkPlayer)
