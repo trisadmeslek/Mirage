@@ -13694,19 +13694,32 @@ references:
   commentId: E:Mirage.SocketLayer.IPeer.OnDisconnected
   fullName: Mirage.SocketLayer.IPeer.OnDisconnected
   nameWithType: IPeer.OnDisconnected
-- uid: Mirage.SocketLayer.IPeer.Update
-  name: Update()
-  href: api/Mirage.SocketLayer.IPeer.html#Mirage_SocketLayer_IPeer_Update
-  commentId: M:Mirage.SocketLayer.IPeer.Update
-  fullName: Mirage.SocketLayer.IPeer.Update()
-  nameWithType: IPeer.Update()
-- uid: Mirage.SocketLayer.IPeer.Update*
-  name: Update
-  href: api/Mirage.SocketLayer.IPeer.html#Mirage_SocketLayer_IPeer_Update_
-  commentId: Overload:Mirage.SocketLayer.IPeer.Update
+- uid: Mirage.SocketLayer.IPeer.UpdateReceive
+  name: UpdateReceive()
+  href: api/Mirage.SocketLayer.IPeer.html#Mirage_SocketLayer_IPeer_UpdateReceive
+  commentId: M:Mirage.SocketLayer.IPeer.UpdateReceive
+  fullName: Mirage.SocketLayer.IPeer.UpdateReceive()
+  nameWithType: IPeer.UpdateReceive()
+- uid: Mirage.SocketLayer.IPeer.UpdateReceive*
+  name: UpdateReceive
+  href: api/Mirage.SocketLayer.IPeer.html#Mirage_SocketLayer_IPeer_UpdateReceive_
+  commentId: Overload:Mirage.SocketLayer.IPeer.UpdateReceive
   isSpec: "True"
-  fullName: Mirage.SocketLayer.IPeer.Update
-  nameWithType: IPeer.Update
+  fullName: Mirage.SocketLayer.IPeer.UpdateReceive
+  nameWithType: IPeer.UpdateReceive
+- uid: Mirage.SocketLayer.IPeer.UpdateSent
+  name: UpdateSent()
+  href: api/Mirage.SocketLayer.IPeer.html#Mirage_SocketLayer_IPeer_UpdateSent
+  commentId: M:Mirage.SocketLayer.IPeer.UpdateSent
+  fullName: Mirage.SocketLayer.IPeer.UpdateSent()
+  nameWithType: IPeer.UpdateSent()
+- uid: Mirage.SocketLayer.IPeer.UpdateSent*
+  name: UpdateSent
+  href: api/Mirage.SocketLayer.IPeer.html#Mirage_SocketLayer_IPeer_UpdateSent_
+  commentId: Overload:Mirage.SocketLayer.IPeer.UpdateSent
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.IPeer.UpdateSent
+  nameWithType: IPeer.UpdateSent
 - uid: Mirage.SocketLayer.ISocket
   name: ISocket
   href: api/Mirage.SocketLayer.ISocket.html
@@ -14379,19 +14392,32 @@ references:
   commentId: E:Mirage.SocketLayer.Peer.OnDisconnected
   fullName: Mirage.SocketLayer.Peer.OnDisconnected
   nameWithType: Peer.OnDisconnected
-- uid: Mirage.SocketLayer.Peer.Update
-  name: Update()
-  href: api/Mirage.SocketLayer.Peer.html#Mirage_SocketLayer_Peer_Update
-  commentId: M:Mirage.SocketLayer.Peer.Update
-  fullName: Mirage.SocketLayer.Peer.Update()
-  nameWithType: Peer.Update()
-- uid: Mirage.SocketLayer.Peer.Update*
-  name: Update
-  href: api/Mirage.SocketLayer.Peer.html#Mirage_SocketLayer_Peer_Update_
-  commentId: Overload:Mirage.SocketLayer.Peer.Update
+- uid: Mirage.SocketLayer.Peer.UpdateReceive
+  name: UpdateReceive()
+  href: api/Mirage.SocketLayer.Peer.html#Mirage_SocketLayer_Peer_UpdateReceive
+  commentId: M:Mirage.SocketLayer.Peer.UpdateReceive
+  fullName: Mirage.SocketLayer.Peer.UpdateReceive()
+  nameWithType: Peer.UpdateReceive()
+- uid: Mirage.SocketLayer.Peer.UpdateReceive*
+  name: UpdateReceive
+  href: api/Mirage.SocketLayer.Peer.html#Mirage_SocketLayer_Peer_UpdateReceive_
+  commentId: Overload:Mirage.SocketLayer.Peer.UpdateReceive
   isSpec: "True"
-  fullName: Mirage.SocketLayer.Peer.Update
-  nameWithType: Peer.Update
+  fullName: Mirage.SocketLayer.Peer.UpdateReceive
+  nameWithType: Peer.UpdateReceive
+- uid: Mirage.SocketLayer.Peer.UpdateSent
+  name: UpdateSent()
+  href: api/Mirage.SocketLayer.Peer.html#Mirage_SocketLayer_Peer_UpdateSent
+  commentId: M:Mirage.SocketLayer.Peer.UpdateSent
+  fullName: Mirage.SocketLayer.Peer.UpdateSent()
+  nameWithType: Peer.UpdateSent()
+- uid: Mirage.SocketLayer.Peer.UpdateSent*
+  name: UpdateSent
+  href: api/Mirage.SocketLayer.Peer.html#Mirage_SocketLayer_Peer_UpdateSent_
+  commentId: Overload:Mirage.SocketLayer.Peer.UpdateSent
+  isSpec: "True"
+  fullName: Mirage.SocketLayer.Peer.UpdateSent
+  nameWithType: Peer.UpdateSent
 - uid: Mirage.SocketLayer.Pool`1
   name: Pool<T>
   href: api/Mirage.SocketLayer.Pool-1.html
