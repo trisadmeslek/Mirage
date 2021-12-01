@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using Mirage.Logging;
 using UnityEngine;
 
 namespace Mirage.Visibility.SpatialHash
@@ -12,6 +13,8 @@ namespace Mirage.Visibility.SpatialHash
 
     public class SpatialHashSystem : MonoBehaviour
     {
+        static readonly ILogger logger = LogFactory.GetLogger<SpatialHashSystem>();
+
         public NetworkServer Server;
 
         /// <summary>
@@ -23,7 +26,8 @@ namespace Mirage.Visibility.SpatialHash
         [Tooltip("height and width of 1 box in grid")]
         public float gridSize = 10;
 
-        public Vector2 Centre = new Vector2(0, 0);
+        [Tooltip("Offset of world origin, used to shift positions into bounds. Should be bottom left of world, if world positions are negative then this should be negatve.")]
+        public Vector2 Offset = new Vector2(0, 0);
 
         [Tooltip("Bounds of the map used to calculate visibility. Objects out side of grid will not be visibility")]
         public Vector2 Size = new Vector2(100, 100);
@@ -43,7 +47,7 @@ namespace Mirage.Visibility.SpatialHash
                 // skip first invoke, list will be empty
                 InvokeRepeating(nameof(RebuildObservers), VisibilityUpdateInterval, VisibilityUpdateInterval);
 
-                Grid = new GridHolder<INetworkPlayer>(gridSize, Centre, Size);
+                Grid = new GridHolder<INetworkPlayer>(gridSize, Offset, Size);
             });
 
             Server.Stopped.AddListener(() =>
@@ -115,20 +119,30 @@ namespace Mirage.Visibility.SpatialHash
             public readonly int Width;
             public readonly int Height;
             public readonly float GridSize;
-            public readonly Vector2 Centre;
+            public readonly Vector2 Offset;
             public readonly Vector2 Size;
 
             public readonly GridPoint[] Points;
 
-            public GridHolder(float gridSize, Vector2 centre, Vector2 size)
+            public GridHolder(float gridSize, Vector2 offset, Vector2 size)
             {
-                Centre = centre;
+                Offset = offset;
                 Size = size;
-                Width = Mathf.CeilToInt(size.x / gridSize);
-                Height = Mathf.CeilToInt(size.y / gridSize);
+                // todo check comment
+                // +1 so we can round up at max size of grid
+                // I think this is also needed because we are rounding, so if size is 100, and gridSize is 15, then we have 90 as the max
+                // ^ this doesn't sound right because we are doing ceil below
+                Width = Mathf.CeilToInt(size.x / gridSize) + 1;
+                Height = Mathf.CeilToInt(size.y / gridSize) + 1;
                 GridSize = gridSize;
 
                 Points = new GridPoint[Width * Height];
+            }
+
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            int ToIndex(int x, int y)
+            {
+                return x + y * Width;
             }
 
             [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -141,7 +155,8 @@ namespace Mirage.Visibility.SpatialHash
             [MethodImpl(MethodImplOptions.AggressiveInlining)]
             public void AddObject(int i, int j, T obj)
             {
-                int index = i + j * Width;
+                int index = ToIndex(i, j);
+                if (index > Points.Length) logger.LogError($"Out of bounds for ({i},{j}). Max:({Width},{Height})");
                 if (Points[index].objects == null)
                 {
                     Points[index].objects = new HashSet<T>();
@@ -153,20 +168,20 @@ namespace Mirage.Visibility.SpatialHash
             [MethodImpl(MethodImplOptions.AggressiveInlining)]
             public HashSet<T> GetObjects(int i, int j)
             {
-                return Points[i + j * Width].objects;
+                return Points[ToIndex(i, j)].objects;
             }
 
             [MethodImpl(MethodImplOptions.AggressiveInlining)]
             public void CreateSet(int i, int j)
             {
-                Points[i + j * Width].objects = new HashSet<T>();
+                Points[ToIndex(i, j)].objects = new HashSet<T>();
             }
 
             [MethodImpl(MethodImplOptions.AggressiveInlining)]
             public bool InBounds(Vector2 position)
             {
-                float x = position.x - Centre.x;
-                float y = position.y - Centre.y;
+                float x = position.x - Offset.x;
+                float y = position.y - Offset.y;
 
                 return (0 < x && x < Size.x)
                     && (0 < y && y < Size.y);
@@ -202,11 +217,18 @@ namespace Mirage.Visibility.SpatialHash
             [MethodImpl(MethodImplOptions.AggressiveInlining)]
             public void ToGridIndex(Vector2 position, out int x, out int y)
             {
-                float fx = position.x - Centre.x;
-                float fy = position.y - Centre.y;
+                float fx = position.x - Offset.x;
+                float fy = position.y - Offset.y;
 
                 x = Mathf.RoundToInt(fx / GridSize);
                 y = Mathf.RoundToInt(fy / GridSize);
+
+                if (x < 0) logger.LogError($"X was Negative for pos:{position.x}");
+                if (y < 0) logger.LogError($"Y was Negative for pos:{position.y}");
+
+                // include equal in error, 0 indexed
+                if (x >= Width) logger.LogError($"X was Greater than Width({Width}) for pos:{position.x}");
+                if (y >= Height) logger.LogError($"Y was Greater than Width({Height}) for pos:{position.y}");
             }
 
             public void BuildObservers(HashSet<T> observers, Vector2 position, int range)
@@ -215,7 +237,7 @@ namespace Mirage.Visibility.SpatialHash
                 if (!InBounds(position))
                     return;
 
-                ToGridIndex(position - Centre, out int x, out int y);
+                ToGridIndex(position, out int x, out int y);
 
                 for (int i = x - range; i <= x + range; i++)
                 {
@@ -223,7 +245,10 @@ namespace Mirage.Visibility.SpatialHash
                     {
                         if (InBounds(i, j))
                         {
-                            observers.UnionWith(GetObjects(i, j));
+                            HashSet<T> obj = GetObjects(i, j);
+                            // obj might be null if objects are never added to that grid
+                            if (obj != null)
+                                observers.UnionWith(obj);
                         }
                     }
                 }
