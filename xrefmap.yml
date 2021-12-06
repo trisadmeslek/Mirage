@@ -3567,6 +3567,19 @@ references:
   isSpec: "True"
   fullName: Mirage.ExponentialMovingAverage.Add
   nameWithType: ExponentialMovingAverage.Add
+- uid: Mirage.ExponentialMovingAverage.Reset
+  name: Reset()
+  href: api/Mirage.ExponentialMovingAverage.html#Mirage_ExponentialMovingAverage_Reset
+  commentId: M:Mirage.ExponentialMovingAverage.Reset
+  fullName: Mirage.ExponentialMovingAverage.Reset()
+  nameWithType: ExponentialMovingAverage.Reset()
+- uid: Mirage.ExponentialMovingAverage.Reset*
+  name: Reset
+  href: api/Mirage.ExponentialMovingAverage.html#Mirage_ExponentialMovingAverage_Reset_
+  commentId: Overload:Mirage.ExponentialMovingAverage.Reset
+  isSpec: "True"
+  fullName: Mirage.ExponentialMovingAverage.Reset
+  nameWithType: ExponentialMovingAverage.Reset
 - uid: Mirage.ExponentialMovingAverage.Value
   name: Value
   href: api/Mirage.ExponentialMovingAverage.html#Mirage_ExponentialMovingAverage_Value
