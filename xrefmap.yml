@@ -10880,6 +10880,12 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkWriter.ByteLength
   nameWithType: NetworkWriter.ByteLength
+- uid: Mirage.Serialization.NetworkWriter.CopyFromWriter(Mirage.Serialization.NetworkWriter)
+  name: CopyFromWriter(NetworkWriter)
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_CopyFromWriter_Mirage_Serialization_NetworkWriter_
+  commentId: M:Mirage.Serialization.NetworkWriter.CopyFromWriter(Mirage.Serialization.NetworkWriter)
+  fullName: Mirage.Serialization.NetworkWriter.CopyFromWriter(Mirage.Serialization.NetworkWriter)
+  nameWithType: NetworkWriter.CopyFromWriter(NetworkWriter)
 - uid: Mirage.Serialization.NetworkWriter.CopyFromWriter(Mirage.Serialization.NetworkWriter,System.Int32,System.Int32)
   name: CopyFromWriter(NetworkWriter, Int32, Int32)
   href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_CopyFromWriter_Mirage_Serialization_NetworkWriter_System_Int32_System_Int32_
