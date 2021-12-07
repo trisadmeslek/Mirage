@@ -12186,6 +12186,51 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.UnityTypesExtensions.WriteVector4
   nameWithType: UnityTypesExtensions.WriteVector4
+- uid: Mirage.Serialization.VarFloatPacker
+  name: VarFloatPacker
+  href: api/Mirage.Serialization.VarFloatPacker.html
+  commentId: T:Mirage.Serialization.VarFloatPacker
+  fullName: Mirage.Serialization.VarFloatPacker
+  nameWithType: VarFloatPacker
+- uid: Mirage.Serialization.VarFloatPacker.#ctor(System.Single,System.Int32)
+  name: VarFloatPacker(Single, Int32)
+  href: api/Mirage.Serialization.VarFloatPacker.html#Mirage_Serialization_VarFloatPacker__ctor_System_Single_System_Int32_
+  commentId: M:Mirage.Serialization.VarFloatPacker.#ctor(System.Single,System.Int32)
+  fullName: Mirage.Serialization.VarFloatPacker.VarFloatPacker(System.Single, System.Int32)
+  nameWithType: VarFloatPacker.VarFloatPacker(Single, Int32)
+- uid: Mirage.Serialization.VarFloatPacker.#ctor*
+  name: VarFloatPacker
+  href: api/Mirage.Serialization.VarFloatPacker.html#Mirage_Serialization_VarFloatPacker__ctor_
+  commentId: Overload:Mirage.Serialization.VarFloatPacker.#ctor
+  isSpec: "True"
+  fullName: Mirage.Serialization.VarFloatPacker.VarFloatPacker
+  nameWithType: VarFloatPacker.VarFloatPacker
+- uid: Mirage.Serialization.VarFloatPacker.Pack(Mirage.Serialization.NetworkWriter,System.Single)
+  name: Pack(NetworkWriter, Single)
+  href: api/Mirage.Serialization.VarFloatPacker.html#Mirage_Serialization_VarFloatPacker_Pack_Mirage_Serialization_NetworkWriter_System_Single_
+  commentId: M:Mirage.Serialization.VarFloatPacker.Pack(Mirage.Serialization.NetworkWriter,System.Single)
+  fullName: Mirage.Serialization.VarFloatPacker.Pack(Mirage.Serialization.NetworkWriter, System.Single)
+  nameWithType: VarFloatPacker.Pack(NetworkWriter, Single)
+- uid: Mirage.Serialization.VarFloatPacker.Pack*
+  name: Pack
+  href: api/Mirage.Serialization.VarFloatPacker.html#Mirage_Serialization_VarFloatPacker_Pack_
+  commentId: Overload:Mirage.Serialization.VarFloatPacker.Pack
+  isSpec: "True"
+  fullName: Mirage.Serialization.VarFloatPacker.Pack
+  nameWithType: VarFloatPacker.Pack
+- uid: Mirage.Serialization.VarFloatPacker.Unpack(Mirage.Serialization.NetworkReader)
+  name: Unpack(NetworkReader)
+  href: api/Mirage.Serialization.VarFloatPacker.html#Mirage_Serialization_VarFloatPacker_Unpack_Mirage_Serialization_NetworkReader_
+  commentId: M:Mirage.Serialization.VarFloatPacker.Unpack(Mirage.Serialization.NetworkReader)
+  fullName: Mirage.Serialization.VarFloatPacker.Unpack(Mirage.Serialization.NetworkReader)
+  nameWithType: VarFloatPacker.Unpack(NetworkReader)
+- uid: Mirage.Serialization.VarFloatPacker.Unpack*
+  name: Unpack
+  href: api/Mirage.Serialization.VarFloatPacker.html#Mirage_Serialization_VarFloatPacker_Unpack_
+  commentId: Overload:Mirage.Serialization.VarFloatPacker.Unpack
+  isSpec: "True"
+  fullName: Mirage.Serialization.VarFloatPacker.Unpack
+  nameWithType: VarFloatPacker.Unpack
 - uid: Mirage.Serialization.VarIntAttribute
   name: VarIntAttribute
   href: api/Mirage.Serialization.VarIntAttribute.html
@@ -12384,6 +12429,51 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.VarIntPacker.UnpackUshort
   nameWithType: VarIntPacker.UnpackUshort
+- uid: Mirage.Serialization.VarVector3Packer
+  name: VarVector3Packer
+  href: api/Mirage.Serialization.VarVector3Packer.html
+  commentId: T:Mirage.Serialization.VarVector3Packer
+  fullName: Mirage.Serialization.VarVector3Packer
+  nameWithType: VarVector3Packer
+- uid: Mirage.Serialization.VarVector3Packer.#ctor(UnityEngine.Vector3,System.Int32)
+  name: VarVector3Packer(Vector3, Int32)
+  href: api/Mirage.Serialization.VarVector3Packer.html#Mirage_Serialization_VarVector3Packer__ctor_UnityEngine_Vector3_System_Int32_
+  commentId: M:Mirage.Serialization.VarVector3Packer.#ctor(UnityEngine.Vector3,System.Int32)
+  fullName: Mirage.Serialization.VarVector3Packer.VarVector3Packer(UnityEngine.Vector3, System.Int32)
+  nameWithType: VarVector3Packer.VarVector3Packer(Vector3, Int32)
+- uid: Mirage.Serialization.VarVector3Packer.#ctor*
+  name: VarVector3Packer
+  href: api/Mirage.Serialization.VarVector3Packer.html#Mirage_Serialization_VarVector3Packer__ctor_
+  commentId: Overload:Mirage.Serialization.VarVector3Packer.#ctor
+  isSpec: "True"
+  fullName: Mirage.Serialization.VarVector3Packer.VarVector3Packer
+  nameWithType: VarVector3Packer.VarVector3Packer
+- uid: Mirage.Serialization.VarVector3Packer.Pack(Mirage.Serialization.NetworkWriter,UnityEngine.Vector3)
+  name: Pack(NetworkWriter, Vector3)
+  href: api/Mirage.Serialization.VarVector3Packer.html#Mirage_Serialization_VarVector3Packer_Pack_Mirage_Serialization_NetworkWriter_UnityEngine_Vector3_
+  commentId: M:Mirage.Serialization.VarVector3Packer.Pack(Mirage.Serialization.NetworkWriter,UnityEngine.Vector3)
+  fullName: Mirage.Serialization.VarVector3Packer.Pack(Mirage.Serialization.NetworkWriter, UnityEngine.Vector3)
+  nameWithType: VarVector3Packer.Pack(NetworkWriter, Vector3)
+- uid: Mirage.Serialization.VarVector3Packer.Pack*
+  name: Pack
+  href: api/Mirage.Serialization.VarVector3Packer.html#Mirage_Serialization_VarVector3Packer_Pack_
+  commentId: Overload:Mirage.Serialization.VarVector3Packer.Pack
+  isSpec: "True"
+  fullName: Mirage.Serialization.VarVector3Packer.Pack
+  nameWithType: VarVector3Packer.Pack
+- uid: Mirage.Serialization.VarVector3Packer.Unpack(Mirage.Serialization.NetworkReader)
+  name: Unpack(NetworkReader)
+  href: api/Mirage.Serialization.VarVector3Packer.html#Mirage_Serialization_VarVector3Packer_Unpack_Mirage_Serialization_NetworkReader_
+  commentId: M:Mirage.Serialization.VarVector3Packer.Unpack(Mirage.Serialization.NetworkReader)
+  fullName: Mirage.Serialization.VarVector3Packer.Unpack(Mirage.Serialization.NetworkReader)
+  nameWithType: VarVector3Packer.Unpack(NetworkReader)
+- uid: Mirage.Serialization.VarVector3Packer.Unpack*
+  name: Unpack
+  href: api/Mirage.Serialization.VarVector3Packer.html#Mirage_Serialization_VarVector3Packer_Unpack_
+  commentId: Overload:Mirage.Serialization.VarVector3Packer.Unpack
+  isSpec: "True"
+  fullName: Mirage.Serialization.VarVector3Packer.Unpack
+  nameWithType: VarVector3Packer.Unpack
 - uid: Mirage.Serialization.Vector2PackAttribute
   name: Vector2PackAttribute
   href: api/Mirage.Serialization.Vector2PackAttribute.html

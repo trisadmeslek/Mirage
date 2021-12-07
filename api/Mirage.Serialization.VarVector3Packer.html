@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Channel
+    <title>Class VarVector3Packer
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Channel
+    <meta name="title" content="Class VarVector3Packer
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -95,17 +95,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Mirage.Channel">
+            <article class="content wrap" id="_content" data-uid="Mirage.Serialization.VarVector3Packer">
   
   
-  <h1 id="Mirage_Channel" data-uid="Mirage.Channel" class="text-break">Class Channel
+  <h1 id="Mirage_Serialization_VarVector3Packer" data-uid="Mirage.Serialization.VarVector3Packer" class="text-break">Class VarVector3Packer
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Packs a vector3 using <a class="xref" href="Mirage.Serialization.ZigZag.html">ZigZag</a> and <a class="xref" href="Mirage.Serialization.VarIntBlocksPacker.html">VarIntBlocksPacker</a></p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">Channel</span></div>
+    <div class="level1"><span class="xref">VarVector3Packer</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -131,58 +132,123 @@
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Mirage.html">Mirage</a></h6>
-  <h6><strong>Assembly</strong>: Mirage.SocketLayer.dll</h6>
-  <h5 id="Mirage_Channel_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mirage.Serialization.html">Mirage.Serialization</a></h6>
+  <h6><strong>Assembly</strong>: Mirage.dll</h6>
+  <h5 id="Mirage_Serialization_VarVector3Packer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Channel</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class VarVector3Packer</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Channel_Reliable.md&amp;value=---%0Auid%3A%20Mirage.Channel.Reliable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_VarVector3Packer__ctor_UnityEngine_Vector3_System_Int32_.md&amp;value=---%0Auid%3A%20Mirage.Serialization.VarVector3Packer.%23ctor(UnityEngine.Vector3%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/4c38c095461fc4fa1b823563cdb8075abe45dfe3/Assets/Mirage/Runtime/SocketLayer/Channel.cs/#L8">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/4c38c095461fc4fa1b823563cdb8075abe45dfe3/Assets/Mirage/Runtime/Serialization/Packers/VarVector3Packer.cs/#L38">View Source</a>
   </span>
-  <h4 id="Mirage_Channel_Reliable" data-uid="Mirage.Channel.Reliable">Reliable</h4>
+  <a id="Mirage_Serialization_VarVector3Packer__ctor_" data-uid="Mirage.Serialization.VarVector3Packer.#ctor*"></a>
+  <h4 id="Mirage_Serialization_VarVector3Packer__ctor_UnityEngine_Vector3_System_Int32_" data-uid="Mirage.Serialization.VarVector3Packer.#ctor(UnityEngine.Vector3,System.Int32)">VarVector3Packer(Vector3, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const int Reliable = 0</code></pre>
+    <pre><code class="lang-csharp hljs">public VarVector3Packer(Vector3 precision, int blocksize)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Vector3.html">Vector3</a></td>
+        <td><span class="parametername">precision</span></td>
+        <td></td>
+      </tr>
+      <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">blocksize</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_VarVector3Packer_Pack_Mirage_Serialization_NetworkWriter_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20Mirage.Serialization.VarVector3Packer.Pack(Mirage.Serialization.NetworkWriter%2CUnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MirageNet/Mirage/blob/4c38c095461fc4fa1b823563cdb8075abe45dfe3/Assets/Mirage/Runtime/Serialization/Packers/VarVector3Packer.cs/#L45">View Source</a>
+  </span>
+  <a id="Mirage_Serialization_VarVector3Packer_Pack_" data-uid="Mirage.Serialization.VarVector3Packer.Pack*"></a>
+  <h4 id="Mirage_Serialization_VarVector3Packer_Pack_Mirage_Serialization_NetworkWriter_UnityEngine_Vector3_" data-uid="Mirage.Serialization.VarVector3Packer.Pack(Mirage.Serialization.NetworkWriter,UnityEngine.Vector3)">Pack(NetworkWriter, Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Pack(NetworkWriter writer, Vector3 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirage.Serialization.NetworkWriter.html">NetworkWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Vector3.html">Vector3</a></td>
+        <td><span class="parametername">position</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Channel_Unreliable.md&amp;value=---%0Auid%3A%20Mirage.Channel.Unreliable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_VarVector3Packer_Unpack_Mirage_Serialization_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirage.Serialization.VarVector3Packer.Unpack(Mirage.Serialization.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/4c38c095461fc4fa1b823563cdb8075abe45dfe3/Assets/Mirage/Runtime/SocketLayer/Channel.cs/#L9">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/4c38c095461fc4fa1b823563cdb8075abe45dfe3/Assets/Mirage/Runtime/Serialization/Packers/VarVector3Packer.cs/#L52">View Source</a>
   </span>
-  <h4 id="Mirage_Channel_Unreliable" data-uid="Mirage.Channel.Unreliable">Unreliable</h4>
+  <a id="Mirage_Serialization_VarVector3Packer_Unpack_" data-uid="Mirage.Serialization.VarVector3Packer.Unpack*"></a>
+  <h4 id="Mirage_Serialization_VarVector3Packer_Unpack_Mirage_Serialization_NetworkReader_" data-uid="Mirage.Serialization.VarVector3Packer.Unpack(Mirage.Serialization.NetworkReader)">Unpack(NetworkReader)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const int Unreliable = 1</code></pre>
+    <pre><code class="lang-csharp hljs">public Vector3 Unpack(NetworkReader reader)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirage.Serialization.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -192,7 +258,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Vector3.html">Vector3</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -205,10 +271,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Channel.md&amp;value=---%0Auid%3A%20Mirage.Channel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_Serialization_VarVector3Packer.md&amp;value=---%0Auid%3A%20Mirage.Serialization.VarVector3Packer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/blob/4c38c095461fc4fa1b823563cdb8075abe45dfe3/Assets/Mirage/Runtime/SocketLayer/Channel.cs/#L3" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirageNet/Mirage/blob/4c38c095461fc4fa1b823563cdb8075abe45dfe3/Assets/Mirage/Runtime/Serialization/Packers/VarVector3Packer.cs/#L32" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
