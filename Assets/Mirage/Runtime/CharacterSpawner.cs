@@ -35,29 +35,32 @@ namespace Mirage
         // Start is called before the first frame update
         public virtual void Awake()
         {
-            if (PlayerPrefab == null)
-            {
-                throw new InvalidOperationException("Assign a player in the CharacterSpawner");
-            }
+            if (PlayerPrefab == null) throw new InvalidOperationException("Assign a player in the CharacterSpawner");
+
             if (Client != null)
             {
+                if (ClientObjectManager == null) throw new InvalidOperationException("Assign a ClientObjectManager");
+
+                // prefabs registered in start, so always do this regardless of SceneManager or not
+                Client.Started.AddListener(OnClientStarted);
+
+                // if there is SceneManager, let it decide when to spawn, otherwise just spawn after Authenticated
                 if (SceneManager != null)
                 {
                     SceneManager.OnClientFinishedSceneChange.AddListener(OnClientFinishedSceneChange);
                 }
                 else
                 {
+
                     Client.Authenticated.AddListener(OnClientAuthenticated);
-                    Client.Connected.AddListener(OnClientConnected);
                 }
             }
+
             if (Server != null)
             {
+                if (ServerObjectManager == null) throw new InvalidOperationException("Assign a ServerObjectManager");
+
                 Server.Started.AddListener(OnServerStarted);
-                if (ServerObjectManager == null)
-                {
-                    throw new InvalidOperationException("Assign a ServerObjectManager");
-                }
             }
         }
 
@@ -74,16 +77,9 @@ namespace Mirage
             }
         }
 
-        internal void OnClientConnected(INetworkPlayer player)
+        internal void OnClientStarted()
         {
-            if (ClientObjectManager != null)
-            {
-                ClientObjectManager.RegisterPrefab(PlayerPrefab);
-            }
-            else
-            {
-                throw new InvalidOperationException("Assign a ClientObjectManager");
-            }
+            ClientObjectManager.RegisterPrefab(PlayerPrefab);
         }
 
         private void OnClientAuthenticated(INetworkPlayer _)
