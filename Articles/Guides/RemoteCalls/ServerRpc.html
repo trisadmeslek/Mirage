@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Server RPC Calls </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Server RPC Calls ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    <meta property="docfx:rel" content="../../../">
+    
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" style="display:flex;" href="https://github.com/MirageNet/Mirage">
+                <img id="logo" class="svg" style="vertical-align: middle;align-self:center;" src="../../../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="navbar-form-flex">
+                  <div class="toggle-mode">
+                    <div class="icon">
+                    <i aria-hidden="true">🌕</i>
+                  </div>
+                  <label class="switch">
+                    <input type="checkbox" id="switch-style">
+                    <span class="slider round"></span>
+                  </label>
+                  <div class="icon">
+                    <i aria-hidden="true">🌙</i>
+                  </div>
+                    <script type="text/javascript" src="../../../styles/toggle-theme.js"></script>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="server-rpc-calls">Server RPC Calls</h1>
+
+<p>Server RPC Calls are sent from character objects on the client to character objects on the server. For security, Server RPC Calls can only be sent from YOUR character object by default, so you cannot control the objects of other players.  You can bypass the authority check using <code>[ServerRpc(requireAuthority = false)]</code>.</p>
+<p>To make a function into a Server RPC Calls, add the [ServerRpc] custom attribute to it. This function will now be run on the server when it is called on the client. Any parameters of <a href="../DataTypes.html">allowed data type</a> will be automatically passed to the server with the Server RPC Call.</p>
+<p>Server RPC Calls functions cannot be static.</p>
+<pre><code class="lang-cs">public class Player : NetworkBehaviour
+{
+    void Update()
+    {
+        if (!isLocalPlayer) return;
+
+        if (Input.GetKey(KeyCode.X))
+            DropCube();
+    }
+
+    // assigned in inspector
+    public GameObject cubePrefab;
+
+    [ServerRpc]
+    void DropCube()
+    {
+        if (cubePrefab != null)
+        {
+            Vector3 spawnPos = transform.position + transform.forward * 2;
+            Quaternion spawnRot = transform.rotation;
+            GameObject cube = Instantiate(cubePrefab, spawnPos, spawnRot);
+            NetworkServer.Spawn(cube);
+        }
+    }
+}
+</code></pre>
+<p>Be careful of sending ServerRpcs from the client every frame! This can cause a lot of network traffic.</p>
+<h3 id="returning-values">Returning values</h3>
+<p>ServerRpcs can return values.  It can take a long time for the server to reply, so they must return a UniTask which the client can await.
+To return a value,  add a return value using <code>UniTask&lt;MyReturnType&gt;</code> where <code>MyReturnType</code> is any <a href="../DataTypes.html">supported Mirage type</a>.  In the server you can make your method async,  or you can use <code>UniTask.FromResult(myresult);</code>.  For example:</p>
+<pre><code class="lang-cs">public class Shop: NetworkBehavior {
+
+    [ServerRpc]
+    public UniTask&lt;int&gt; GetPrice(string item) 
+    {
+        switch (item) 
+        {
+             case &quot;turnip&quot;:
+                 return UniTask.FromResult(10);
+             case &quot;apple&quot;:
+                return UniTask.FromResult(3);
+             default:
+                return UniTask.FromResult(int.MaxValue);
+        }
+    }
+
+    [Client]
+    public async UniTaskVoid DisplayTurnipPrice() 
+    {
+        // call the RPC and wait for the response without blocking the main thread
+        int price = await GetPrice(&quot;turnip&quot;);
+        Debug.Log($&quot;Turnips price {price}&quot;);
+    }
+}
+</code></pre>
+<h3 id="serverrpc-and-authority">ServerRpc and Authority</h3>
+<p>It is possible to invoke ServerRpcs on non-character objects if any of the following are true:</p>
+<ul>
+<li>The object was spawned with client authority</li>
+<li>The object has client authority set with <code>NetworkIdentity.AssignClientAuthority</code></li>
+<li>the Server RPC Call has the <code>requireAuthority</code> option set false.
+<ul>
+<li>You can include an optional <code>INetworkPlayer sender = null</code> parameter in the Server RPC Call method signature and Mirage will fill in the sending client for you.</li>
+<li>Do not try to set a value for this optional parameter...it will be ignored.</li>
+</ul>
+</li>
+</ul>
+<p>Server RPC Calls sent from these object are run on the server instance of the object, not on the associated character object for the client.</p>
+<pre><code class="lang-cs">public enum DoorState : byte
+{
+    Open, Closed
+}
+
+public class Door : NetworkBehaviour
+{
+    [SyncVar]
+    public DoorState doorState;
+
+    [ServerRpc(requireAuthority = false)]
+    public void CmdSetDoorState(DoorState newDoorState, INetworkPlayer sender = null)
+    {
+        if (sender.identity.GetComponent&lt;Player&gt;().hasDoorKey)
+            doorState = newDoorState;
+    }
+}
+</code></pre>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MirageNet/Mirage/blob/master/doc/Articles/Guides/RemoteCalls/ServerRpc.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

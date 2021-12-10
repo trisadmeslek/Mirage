@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Network Messages </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Network Messages ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    <meta property="docfx:rel" content="../../../">
+    
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" style="display:flex;" href="https://github.com/MirageNet/Mirage">
+                <img id="logo" class="svg" style="vertical-align: middle;align-self:center;" src="../../../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="navbar-form-flex">
+                  <div class="toggle-mode">
+                    <div class="icon">
+                    <i aria-hidden="true">🌕</i>
+                  </div>
+                  <label class="switch">
+                    <input type="checkbox" id="switch-style">
+                    <span class="slider round"></span>
+                  </label>
+                  <div class="icon">
+                    <i aria-hidden="true">🌙</i>
+                  </div>
+                    <script type="text/javascript" src="../../../styles/toggle-theme.js"></script>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="network-messages">Network Messages</h1>
+<!-- todo -->
+
+<p>For the most part we recommend the high level <a href="ServerRpc.html">ServerRpc</a>/<a href="ClientRpc.html">ClientRpc</a> calls and <a href="../Sync/index.html">SyncVar</a>, but you can also send low level network messages. This can be useful if you want clients to send messages that are not tied to game objects, such as logging, analytics or profiling information.</p>
+<h2 id="usage">Usage</h2>
+<ol>
+<li>Define a new struct (rather than a class to prevent GC allocations) which will represent your message.</li>
+<li>Add any <a href="../DataTypes.html">supported Mirage types</a> as public fields of that struct. This will be the data you want to send.</li>
+<li>Register a handler for that message on <a class="xref" href="../../../api/Mirage.NetworkServer.html">NetworkServer</a> and/or <a class="xref" href="../../../api/Mirage.NetworkClient.html">NetworkClient</a>'s <code>MessageHandler</code> depending on where you want to listen for that message being received.</li>
+<li>Use the <code>Send()</code> method on the <a class="xref" href="../../../api/Mirage.NetworkClient.html">NetworkClient</a>, <a class="xref" href="../../../api/Mirage.NetworkServer.html">NetworkServer</a> or <a class="xref" href="../../../api/Mirage.NetworkPlayer.html">NetworkPlayer</a> classes depending on which way you want to send the message.</li>
+</ol>
+<h2 id="example">Example</h2>
+<pre><code class="lang-cs">using UnityEngine;
+using Mirage;
+
+public class Scores : MonoBehaviour
+{
+    // attach these in the inspector
+    public NetworkServer Server;
+    public NetworkClient Client;
+
+    // using structs to prevent GC allocations
+    public struct ScoreMessage
+    {
+        public int score;
+        public Vector3 scorePos;
+        public int lives;
+    }
+
+    void Awake() {
+        Client.MessageHandler.RegisterHandler&lt;ScoreMessage&gt;(OnScore); // register Client to listen for the ScoreMessage
+    }
+    
+    public void SendScore(int score, Vector3 scorePos, int lives)
+    {
+        ScoreMessage msg = new ScoreMessage()
+        {
+            score = score,
+            scorePos = scorePos,
+            lives = lives
+        };
+
+        NetworkServer.SendToAll(msg);
+    }
+
+    void OnScore(INetworkPlayer player, ScoreMessage msg)
+    {
+        Debug.Log(&quot;ScoreMessage received on client with score &quot; + msg.score);
+    }
+}
+</code></pre>
+<p>Note that there is no serialization code for the <code>ScoreMessage</code> struct in this source code example. Mirage will generate a reader and writer for ScoreMessage when it sees that it is being sent.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MirageNet/Mirage/blob/master/doc/Articles/Guides/RemoteCalls/NetworkMessages.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

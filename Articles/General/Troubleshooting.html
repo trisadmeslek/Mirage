@@ -100,7 +100,7 @@
 <p>Mirage normally generates readers and writers for any <a href="../Guides/DataTypes.html">Data Type</a>
 In order to do so,  it needs to know what types you want to read or write.
 You are getting this error because Mirage did not know you wanted to read or write this type.</p>
-<p>Mirage scans your code looking for calls to <code>Send</code>, <code>ReceiveHandler</code>, <code>Write</code> or <code>Read</code>. It will also recognize <a href="../Guides/Sync/index.html">SyncVars</a> and parameters of <a href="../Guides/Communications/RemoteActions.html">RPC methods</a>. If it does not find one,  it assumes you are not trying to serialize the type so it does not generate the reader and writer.</p>
+<p>Mirage scans your code looking for calls to <code>Send</code>, <code>ReceiveHandler</code>, <code>Write</code> or <code>Read</code>. It will also recognize <a href="../Guides/Sync/index.html">SyncVars</a> and parameters of <a href="../Guides/RemoteCalls/index.html">RPC methods</a>. If it does not find one,  it assumes you are not trying to serialize the type so it does not generate the reader and writer.</p>
 <p>For example, you might get this error with this code when trying to sync the synclist.</p>
 <pre><code class="lang-cs">struct MyCustomType {
     public int id;

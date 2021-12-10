@@ -101,8 +101,8 @@
 <p>Server authority means that the server has control of an object. Server has authority over an object by default. This means the server would manage and control of all collectible items, moving platforms, NPCs, and any other networked objects that aren't the player.</p>
 <h2 id="client-authority">Client Authority</h2>
 <p>Client authority means that the client has control of an object.</p>
-<p>When a client has authority over an object it means that they can call <a href="Communications/RemoteActions.html">ServerRpc</a> and that the object will automatically be destroyed when the client disconnects.</p>
-<p>Even if a client has authority over an object the server still controls SyncVar and control other serialization features. A component will need to use a <a href="Communications/RemoteActions.html">ServerRpc</a> to update the state on the server in order for it to sync to other clients.</p>
+<p>When a client has authority over an object it means that they can call <a href="RemoteCalls/ServerRpc.html">ServerRpc</a> and that the object will automatically be destroyed when the client disconnects.</p>
+<p>Even if a client has authority over an object the server still controls SyncVar and control other serialization features. A component will need to use a <a href="RemoteCalls/ServerRpc.html">ServerRpc</a> to update the state on the server in order for it to sync to other clients.</p>
 <h2 id="how-to-give-authority">How to give authority</h2>
 <p>By default the server has Authority over all objects. The server can give authority to objects that a client needs to control, like the character object.</p>
 <p>If you spawn a character object using <code>ServerObjectManager.AddCharacter</code> then it will automatically be given authority.</p>

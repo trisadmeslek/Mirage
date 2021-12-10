@@ -133,7 +133,7 @@ public class Player : NetworkBehaviour
     }
 }
 </code></pre>
-<p>In this example, when Player A clicks the left mouse button, he sends an <a href="../Communications/RemoteActions.html#server-rpc-calls">RPC</a> to the server where the <code>clickCount</code> SyncVar is incremented. All other visible players will be informed about Player A's new <code>clickCount</code> value.</p>
+<p>In this example, when Player A clicks the left mouse button, he sends a <a href="../RemoteCalls/ServerRpc.html">ServerRpc</a> to the server where the <code>clickCount</code> SyncVar is incremented. All other visible players will be informed about Player A's new <code>clickCount</code> value.</p>
 <h2 id="class-inheritance">Class inheritance</h2>
 <p>SyncVars work with class inheritance. Consider this example:</p>
 <pre><code class="lang-cs">class Pet : NetworkBehaviour

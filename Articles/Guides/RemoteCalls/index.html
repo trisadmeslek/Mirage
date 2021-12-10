@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Remote Actions </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Remote Actions ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    <meta property="docfx:rel" content="../../../">
+    
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" style="display:flex;" href="https://github.com/MirageNet/Mirage">
+                <img id="logo" class="svg" style="vertical-align: middle;align-self:center;" src="../../../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="navbar-form-flex">
+                  <div class="toggle-mode">
+                    <div class="icon">
+                    <i aria-hidden="true">🌕</i>
+                  </div>
+                  <label class="switch">
+                    <input type="checkbox" id="switch-style">
+                    <span class="slider round"></span>
+                  </label>
+                  <div class="icon">
+                    <i aria-hidden="true">🌙</i>
+                  </div>
+                    <script type="text/javascript" src="../../../styles/toggle-theme.js"></script>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="remote-actions">Remote Actions</h1>
+
+<p>To invoke code across the network you can use RPC (remote procedure call) and messages.</p>
+<p>RPC stands for  Remote Procedure Calls. They can be used inside <a class="xref" href="../../../api/Mirage.NetworkBehaviour.html">NetworkBehaviours</a> to tell either the client or server to do an action. For example, the client sending an RPC to the server to update the player's name.</p>
+<p>There are 3 types of RPC:</p>
+<ul>
+<li><a href="ClientRpc.html">Client Rpc</a> | Called on server, Invoked on client</li>
+<li><a href="ServerRpc.html">Server Rpc</a> | Called on client, Invoked on server, can have return values</li>
+<li><a href="NetworkMessages.html">Network Messages</a> | Calls on either server/client, requires a handler to be registered</li>
+</ul>
+<p>Mirage uses <a href="NetworkMessages.html">Network messages</a> for sending everything, this includes Spawning, RPC, and SyncVars. Network message serialized into bytes then sent over the network.</p>
+<p>Network Message can be used to send data or invoke actions without a NetworkBehaviours. For example, sending character select information before the player's character is spawned.</p>
+<p>The diagram below shows the directions that remote actions take:</p>
+<p><img src="UNetDirections.jpg" alt="Data Flow Graph"></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>&quot;Commands&quot; is the previous name for &quot;ServerRpc&quot;</p>
+</div>
+<h2 id="arguments-to-remote-actions">Arguments to Remote Actions</h2>
+<p>Mirage serializes RPC arguments to send them over the network. You can use any <a href="../DataTypes.html">supported Mirage type</a>.</p>
+<p>There are limits to what can be arguments. GameObject, NetworkIdentity, and NetworkBehaviour can be sent because they have a Network ID. But, Mirage can't send other Unity Objects by itself because it will have no way to find them on the other side.</p>
+<p>It is also possible to create serialize functions for unsupported types. You can find out more information <a href="../DataTypes.html#custom-data-types">here</a>.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MirageNet/Mirage/blob/master/doc/Articles/Guides/RemoteCalls/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

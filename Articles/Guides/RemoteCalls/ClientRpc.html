@@ -1,0 +1,230 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>ClientRpc Calls </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="ClientRpc Calls ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    <meta property="docfx:rel" content="../../../">
+    
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" style="display:flex;" href="https://github.com/MirageNet/Mirage">
+                <img id="logo" class="svg" style="vertical-align: middle;align-self:center;" src="../../../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="navbar-form-flex">
+                  <div class="toggle-mode">
+                    <div class="icon">
+                    <i aria-hidden="true">🌕</i>
+                  </div>
+                  <label class="switch">
+                    <input type="checkbox" id="switch-style">
+                    <span class="slider round"></span>
+                  </label>
+                  <div class="icon">
+                    <i aria-hidden="true">🌙</i>
+                  </div>
+                    <script type="text/javascript" src="../../../styles/toggle-theme.js"></script>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="clientrpc-calls">ClientRpc Calls</h1>
+
+<p>ClientRpc are sent from NetworkBehaviours on the server to Behaviours on the client. They can be sent from any NetworkBehaviour that has been spawned.</p>
+<p>To make a function into a ClientRpc add  <code>[ClientRpc]</code> directly above the function.</p>
+<pre><code class="lang-cs">[ClientRpc]
+public void MyRpcFunction() 
+{
+    // code to invoke on client
+}
+</code></pre>
+<p>ClientRpc functions can't be static and must return <code>void</code>.</p>
+<h2 id="rpctarget">RpcTarget</h2>
+<p>There are 3 target modes for ClientRpc:</p>
+<ul>
+<li>Observers (default)</li>
+<li>Owner</li>
+<li>Player</li>
+</ul>
+<h3 id="rpctargetobservers">RpcTarget.Observers</h3>
+<p>This is the default target.</p>
+<p>This will send the RPC message to only the observers of an object according to its <a href="../Visibility.html">Network Visibility</a>. If there is no Network Visibility on the object it will send to all players.</p>
+<h3 id="rpctargetowner">RpcTarget.Owner</h3>
+<p>This will send the RPC message to only the owner of the object.</p>
+<h3 id="rpctargetplayer">RpcTarget.Player</h3>
+<p>This will send the RPC message to the NetworkPlayer that is passed into the call.</p>
+<pre><code class="lang-cs">[ClientRpc(target = RpcTarget.Player)]
+public void MyRpcFunction(NetworkPlayer target) 
+{
+    // code to invoke on client
+}
+</code></pre>
+<p>Mirage will use the <code>NetworkPlayer target</code> to know where to sent it, but it will not send the <code>target</code> value. Because of this its value will always be null on the client.</p>
+<h2 id="exclude-owner">Exclude owner</h2>
+<p>You may want to exclude the owner client when calling a ClientRpc.  This is done with the <code>excludeOwner</code> option: <code>[ClientRpc(excludeOwner = true)]</code>.</p>
+<h2 id="channel">Channel</h2>
+<p>RPC can be sent using either the Reliable or Unreliable channels. <code>[ClientRpc(channel = Channel.Reliable)]</code></p>
+<h1 id="examples">Examples</h1>
+<pre><code class="lang-cs">public class Player : NetworkBehaviour
+{
+    int health;
+
+    public void TakeDamage(int amount)
+    {
+        if (!isServer) return;
+
+        health -= amount;
+        Damage(amount);
+    }
+
+    [ClientRpc]
+    void Damage(int amount)
+    {
+        Debug.Log(&quot;Took damage:&quot; + amount);
+    }
+}
+</code></pre>
+<p>When running a game as a host with a local client, ClientRpc calls will be invoked on the local client even though it is in the same process as the server. So the behaviours of local and remote clients are the same for ClientRpc calls.</p>
+<p>You can also specify which client gets the call with the <code>target</code> parameter.</p>
+<p>If you only want the client that owns the object to be called,  use <code>[ClientRpc(target = RpcTarget.Owner)]</code> or you can specify which client gets the message by using <code>[ClientRpc(target = RpcTarget.Player)]</code> and passing the player as a parameter.  For example:</p>
+<pre><code class="lang-cs">public class Player : NetworkBehaviour
+{
+    int health;
+
+    [Server]
+    void Magic(GameObject target, int damage)
+    {
+        target.GetComponent&lt;Player&gt;().health -= damage;
+
+        NetworkIdentity opponentIdentity = target.GetComponent&lt;NetworkIdentity&gt;();
+        DoMagic(opponentIdentity.Owner, damage);
+    }
+
+    [ClientRpc(target = Client.Player)]
+    public void DoMagic(INetworkPlayer target, int damage)
+    {
+        // This will appear on the opponent's client, not the attacking player's
+        Debug.Log($&quot;Magic Damage = {damage}&quot;);
+    }
+
+    [Server]
+    void HealMe()
+    {
+        health += 10;
+        Healed(10);
+    }
+
+    [ClientRpc(target = Client.Owner)]
+    public void Healed(int amount)
+    {
+        // No NetworkPlayer parameter, so it goes to owner
+        Debug.Log($&quot;Health increased by {amount}&quot;);
+    }
+}
+</code></pre>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MirageNet/Mirage/blob/master/doc/Articles/Guides/RemoteCalls/ClientRpc.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>
