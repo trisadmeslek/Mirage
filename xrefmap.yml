@@ -10932,15 +10932,15 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkWriter.PadAndCopy
   nameWithType: NetworkWriter.PadAndCopy
-- uid: Mirage.Serialization.NetworkWriter.PadAndCopy``1(``0@,System.Int32)
-  name: PadAndCopy<T>(ref T, Int32)
-  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_PadAndCopy__1___0__System_Int32_
-  commentId: M:Mirage.Serialization.NetworkWriter.PadAndCopy``1(``0@,System.Int32)
-  name.vb: PadAndCopy(Of T)(ByRef T, Int32)
-  fullName: Mirage.Serialization.NetworkWriter.PadAndCopy<T>(ref T, System.Int32)
-  fullName.vb: Mirage.Serialization.NetworkWriter.PadAndCopy(Of T)(ByRef T, System.Int32)
-  nameWithType: NetworkWriter.PadAndCopy<T>(ref T, Int32)
-  nameWithType.vb: NetworkWriter.PadAndCopy(Of T)(ByRef T, Int32)
+- uid: Mirage.Serialization.NetworkWriter.PadAndCopy``1(``0@)
+  name: PadAndCopy<T>(T)
+  href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_PadAndCopy__1___0__
+  commentId: M:Mirage.Serialization.NetworkWriter.PadAndCopy``1(``0@)
+  name.vb: PadAndCopy(Of T)(ByRef T)
+  fullName: Mirage.Serialization.NetworkWriter.PadAndCopy<T>(T)
+  fullName.vb: Mirage.Serialization.NetworkWriter.PadAndCopy(Of T)(ByRef T)
+  nameWithType: NetworkWriter.PadAndCopy<T>(T)
+  nameWithType.vb: NetworkWriter.PadAndCopy(Of T)(ByRef T)
 - uid: Mirage.Serialization.NetworkWriter.Reset
   name: Reset()
   href: api/Mirage.Serialization.NetworkWriter.html#Mirage_Serialization_NetworkWriter_Reset
