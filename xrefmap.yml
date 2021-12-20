@@ -10431,6 +10431,19 @@ references:
   isSpec: "True"
   fullName: Mirage.Serialization.NetworkReader.CanRead
   nameWithType: NetworkReader.CanRead
+- uid: Mirage.Serialization.NetworkReader.CanReadBits(System.Int32)
+  name: CanReadBits(Int32)
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_CanReadBits_System_Int32_
+  commentId: M:Mirage.Serialization.NetworkReader.CanReadBits(System.Int32)
+  fullName: Mirage.Serialization.NetworkReader.CanReadBits(System.Int32)
+  nameWithType: NetworkReader.CanReadBits(Int32)
+- uid: Mirage.Serialization.NetworkReader.CanReadBits*
+  name: CanReadBits
+  href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_CanReadBits_
+  commentId: Overload:Mirage.Serialization.NetworkReader.CanReadBits
+  isSpec: "True"
+  fullName: Mirage.Serialization.NetworkReader.CanReadBits
+  nameWithType: NetworkReader.CanReadBits
 - uid: Mirage.Serialization.NetworkReader.CanReadBytes(System.Int32)
   name: CanReadBytes(Int32)
   href: api/Mirage.Serialization.NetworkReader.html#Mirage_Serialization_NetworkReader_CanReadBytes_System_Int32_
