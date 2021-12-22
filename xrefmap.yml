@@ -15857,6 +15857,12 @@ references:
   commentId: F:Mirage.SyncVarAttribute.initialOnly
   fullName: Mirage.SyncVarAttribute.initialOnly
   nameWithType: SyncVarAttribute.initialOnly
+- uid: Mirage.SyncVarAttribute.invokeHookOnServer
+  name: invokeHookOnServer
+  href: api/Mirage.SyncVarAttribute.html#Mirage_SyncVarAttribute_invokeHookOnServer
+  commentId: F:Mirage.SyncVarAttribute.invokeHookOnServer
+  fullName: Mirage.SyncVarAttribute.invokeHookOnServer
+  nameWithType: SyncVarAttribute.invokeHookOnServer
 - uid: Mirage.SyncVarReceiver
   name: SyncVarReceiver
   href: api/Mirage.SyncVarReceiver.html
