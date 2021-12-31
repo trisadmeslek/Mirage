@@ -10184,19 +10184,19 @@ references:
   fullName.vb: Mirage.Serialization.MessagePacker.GetId(Of T)()
   nameWithType: MessagePacker.GetId<T>()
   nameWithType.vb: MessagePacker.GetId(Of T)()
-- uid: Mirage.Serialization.MessagePacker.GetMessageType(System.Int32)
-  name: GetMessageType(Int32)
-  href: api/Mirage.Serialization.MessagePacker.html#Mirage_Serialization_MessagePacker_GetMessageType_System_Int32_
-  commentId: M:Mirage.Serialization.MessagePacker.GetMessageType(System.Int32)
-  fullName: Mirage.Serialization.MessagePacker.GetMessageType(System.Int32)
-  nameWithType: MessagePacker.GetMessageType(Int32)
-- uid: Mirage.Serialization.MessagePacker.GetMessageType*
-  name: GetMessageType
-  href: api/Mirage.Serialization.MessagePacker.html#Mirage_Serialization_MessagePacker_GetMessageType_
-  commentId: Overload:Mirage.Serialization.MessagePacker.GetMessageType
+- uid: Mirage.Serialization.MessagePacker.MessageTypes
+  name: MessageTypes
+  href: api/Mirage.Serialization.MessagePacker.html#Mirage_Serialization_MessagePacker_MessageTypes
+  commentId: P:Mirage.Serialization.MessagePacker.MessageTypes
+  fullName: Mirage.Serialization.MessagePacker.MessageTypes
+  nameWithType: MessagePacker.MessageTypes
+- uid: Mirage.Serialization.MessagePacker.MessageTypes*
+  name: MessageTypes
+  href: api/Mirage.Serialization.MessagePacker.html#Mirage_Serialization_MessagePacker_MessageTypes_
+  commentId: Overload:Mirage.Serialization.MessagePacker.MessageTypes
   isSpec: "True"
-  fullName: Mirage.Serialization.MessagePacker.GetMessageType
-  nameWithType: MessagePacker.GetMessageType
+  fullName: Mirage.Serialization.MessagePacker.MessageTypes
+  nameWithType: MessagePacker.MessageTypes
 - uid: Mirage.Serialization.MessagePacker.Pack*
   name: Pack
   href: api/Mirage.Serialization.MessagePacker.html#Mirage_Serialization_MessagePacker_Pack_
