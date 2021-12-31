@@ -8278,12 +8278,12 @@ references:
   isSpec: "True"
   fullName: Mirage.NetworkTime.Offset
   nameWithType: NetworkTime.Offset
-- uid: Mirage.NetworkTime.PingFrequency
-  name: PingFrequency
-  href: api/Mirage.NetworkTime.html#Mirage_NetworkTime_PingFrequency
-  commentId: F:Mirage.NetworkTime.PingFrequency
-  fullName: Mirage.NetworkTime.PingFrequency
-  nameWithType: NetworkTime.PingFrequency
+- uid: Mirage.NetworkTime.PingInterval
+  name: PingInterval
+  href: api/Mirage.NetworkTime.html#Mirage_NetworkTime_PingInterval
+  commentId: F:Mirage.NetworkTime.PingInterval
+  fullName: Mirage.NetworkTime.PingInterval
+  nameWithType: NetworkTime.PingInterval
 - uid: Mirage.NetworkTime.PingWindowSize
   name: PingWindowSize
   href: api/Mirage.NetworkTime.html#Mirage_NetworkTime_PingWindowSize
