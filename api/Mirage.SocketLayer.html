@@ -151,7 +151,7 @@ the following numbers:</p>
       <h4><a class="xref" href="Mirage.SocketLayer.IEndPoint.html">IEndPoint</a></h4>
       <section><p>Object that can be used as an endpoint for <a class="xref" href="Mirage.SocketLayer.Peer.html">Peer</a> and <a class="xref" href="Mirage.SocketLayer.ISocket.html">ISocket</a></p>
 <p>
-Implementation of this should override <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">GetHashCode()</a> and <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Equals(Object)</a> so that 2 instance wil be equal if they have the same address internally
+Implementation of this should override <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">GetHashCode()</a> and <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">Equals(Object)</a> so that 2 instance wil be equal if they have the same address internally
 </p>
 <p>
 When a new connection is received by Peer a copy of this endpoint will be created and given to that connection.
