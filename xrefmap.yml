@@ -3998,6 +3998,25 @@ references:
   fullName.vb: Mirage.IMessageSender.Send(Of T)(T, System.Int32)
   nameWithType: IMessageSender.Send<T>(T, Int32)
   nameWithType.vb: IMessageSender.Send(Of T)(T, Int32)
+- uid: Mirage.INetIdGenerator
+  name: INetIdGenerator
+  href: api/Mirage.INetIdGenerator.html
+  commentId: T:Mirage.INetIdGenerator
+  fullName: Mirage.INetIdGenerator
+  nameWithType: INetIdGenerator
+- uid: Mirage.INetIdGenerator.GenerateNetId
+  name: GenerateNetId()
+  href: api/Mirage.INetIdGenerator.html#Mirage_INetIdGenerator_GenerateNetId
+  commentId: M:Mirage.INetIdGenerator.GenerateNetId
+  fullName: Mirage.INetIdGenerator.GenerateNetId()
+  nameWithType: INetIdGenerator.GenerateNetId()
+- uid: Mirage.INetIdGenerator.GenerateNetId*
+  name: GenerateNetId
+  href: api/Mirage.INetIdGenerator.html#Mirage_INetIdGenerator_GenerateNetId_
+  commentId: Overload:Mirage.INetIdGenerator.GenerateNetId
+  isSpec: "True"
+  fullName: Mirage.INetIdGenerator.GenerateNetId
+  nameWithType: INetIdGenerator.GenerateNetId
 - uid: Mirage.INetworkClient
   name: INetworkClient
   href: api/Mirage.INetworkClient.html
@@ -12851,6 +12870,12 @@ references:
   isSpec: "True"
   fullName: Mirage.ServerObjectManager.DestroyCharacter
   nameWithType: ServerObjectManager.DestroyCharacter
+- uid: Mirage.ServerObjectManager.NetIdGenerator
+  name: NetIdGenerator
+  href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_NetIdGenerator
+  commentId: F:Mirage.ServerObjectManager.NetIdGenerator
+  fullName: Mirage.ServerObjectManager.NetIdGenerator
+  nameWithType: ServerObjectManager.NetIdGenerator
 - uid: Mirage.ServerObjectManager.NetworkSceneManager
   name: NetworkSceneManager
   href: api/Mirage.ServerObjectManager.html#Mirage_ServerObjectManager_NetworkSceneManager

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface ITime
+    <title>Interface INetIdGenerator
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface ITime
+    <meta name="title" content="Interface INetIdGenerator
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -95,37 +95,38 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Mirage.SocketLayer.ITime">
+            <article class="content wrap" id="_content" data-uid="Mirage.INetIdGenerator">
   
   
-  <h1 id="Mirage_SocketLayer_ITime" data-uid="Mirage.SocketLayer.ITime" class="text-break">Interface ITime
+  <h1 id="Mirage_INetIdGenerator" data-uid="Mirage.INetIdGenerator" class="text-break">Interface INetIdGenerator
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Mirage.SocketLayer.html">Mirage.SocketLayer</a></h6>
-  <h6><strong>Assembly</strong>: Mirage.SocketLayer.dll</h6>
-  <h5 id="Mirage_SocketLayer_ITime_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mirage.html">Mirage</a></h6>
+  <h6><strong>Assembly</strong>: Mirage.dll</h6>
+  <h5 id="Mirage_INetIdGenerator_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ITime</code></pre>
+    <pre><code class="lang-csharp hljs">public interface INetIdGenerator</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_SocketLayer_ITime_Now.md&amp;value=---%0Auid%3A%20Mirage.SocketLayer.ITime.Now%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_INetIdGenerator_GenerateNetId.md&amp;value=---%0Auid%3A%20Mirage.INetIdGenerator.GenerateNetId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MirageNet/Mirage/blob/d2e88343b939d12d15f9acae0c06b14386c6dd74/Assets/Mirage/Runtime/SocketLayer/Peer.cs/#L9">View Source</a>
+    <a href="https://github.com/MirageNet/Mirage/blob/d2e88343b939d12d15f9acae0c06b14386c6dd74/Assets/Mirage/Runtime/INetIdGenerator.cs/#L8">View Source</a>
   </span>
-  <a id="Mirage_SocketLayer_ITime_Now_" data-uid="Mirage.SocketLayer.ITime.Now*"></a>
-  <h4 id="Mirage_SocketLayer_ITime_Now" data-uid="Mirage.SocketLayer.ITime.Now">Now</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Mirage_INetIdGenerator_GenerateNetId_" data-uid="Mirage.INetIdGenerator.GenerateNetId*"></a>
+  <h4 id="Mirage_INetIdGenerator_GenerateNetId" data-uid="Mirage.INetIdGenerator.GenerateNetId">GenerateNetId()</h4>
+  <div class="markdown level1 summary"><p>Generate your own specific net id.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">float Now { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">uint GenerateNetId()</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -135,7 +136,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -148,10 +149,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_SocketLayer_ITime.md&amp;value=---%0Auid%3A%20Mirage.SocketLayer.ITime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/MirageNet/Mirage/new/master/apiSpec/new?filename=Mirage_INetIdGenerator.md&amp;value=---%0Auid%3A%20Mirage.INetIdGenerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/MirageNet/Mirage/blob/d2e88343b939d12d15f9acae0c06b14386c6dd74/Assets/Mirage/Runtime/SocketLayer/Peer.cs/#L7" class="contribution-link">View Source</a>
+                    <a href="https://github.com/MirageNet/Mirage/blob/d2e88343b939d12d15f9acae0c06b14386c6dd74/Assets/Mirage/Runtime/INetIdGenerator.cs/#L3" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
