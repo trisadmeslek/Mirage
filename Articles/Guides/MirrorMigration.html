@@ -200,11 +200,11 @@ class MyNetworkManager : NetworkManager {
         // Server stopped
     }
 
-    public override void OnClinetConnect(NetworkConnection conn) {
+    public override void OnClientConnect(NetworkConnection conn) {
         // Client connected
     }
 
-    public override void OnClientDisconenct(NetworkConnection conn) {
+    public override void OnClientDisconnect(NetworkConnection conn) {
         // Client disconnected
     }
 }
@@ -218,7 +218,7 @@ class MyNetworkManager : NetworkManager {
         Server.Authenticated.AddListener(OnServerConnect);
         Server.Stopped.AddListener(OnStopServer);
         Client.Authenticated.AddListener(OnClientConnect);
-        Client.Disconnected.AddListener(OnClientDisconenct);
+        Client.Disconnected.AddListener(OnClientDisconnected);
     }
 
     void OnStartServer() {
@@ -233,11 +233,11 @@ class MyNetworkManager : NetworkManager {
         // Server stopped
     }
 
-    void OnClinetConnect(INetworkPlayer conn) {
+    void OnClientConnect(INetworkPlayer conn) {
         // Client connected
     }
 
-    void OnClientDisconenct() {
+    void OnClientDisconnected() {
         // Client disconnected
     }
 }
@@ -317,7 +317,7 @@ public class Player : NetworkBehaviour {
 <h5>Note</h5>
 <p>Please note that due to timing all event callbacks should be registered in <code>Awake</code> method or via Unity inspector in order for them to be invoked consistently.</p>
 </div>
-<h2 id="attributes">Attributes</h2>
+<h2 id="method-attributes">Method Attributes</h2>
 <p>The table below shows the new attribute names in Mirage.</p>
 <table>
 <thead>
@@ -338,6 +338,18 @@ public class Player : NetworkBehaviour {
 <tr>
 <td style="text-align: center;"><code>[ServerCallback]</code></td>
 <td style="text-align: center;"><a class="xref" href="../../api/Mirage.ServerAttribute.html">[Server(error = false)]</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>[ClientCallback]</code></td>
+<td style="text-align: center;"><a class="xref" href="../../api/Mirage.ClientAttribute.html">[Client(error = false)]</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">doesn't exist</td>
+<td style="text-align: center;"><a class="xref" href="../../api/Mirage.HasAuthorityAttribute.html">[HasAuthority(error = false)]</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">doesn't exist</td>
+<td style="text-align: center;"><a class="xref" href="../../api/Mirage.LocalPlayerAttribute.html">[LocalPlayer(error = false)]</a></td>
 </tr>
 </tbody>
 </table>
