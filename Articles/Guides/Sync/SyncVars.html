@@ -99,7 +99,7 @@
 <p>SyncVars are properties of classes that inherit from <a class="xref" href="../../../api/Mirage.NetworkBehaviour.html">NetworkBehaviour</a>, which are synchronized from the server to clients. When a game object is spawned, or a new player joins a game in progress, they are sent the latest state of all SyncVars on networked objects that are visible to them. Use the <a class="xref" href="../../../api/Mirage.SyncVarAttribute.html">[SyncVar]</a> custom attribute to specify which variables in your script you want to synchronize.</p>
 <div class="NOTE">
 <h5>Note</h5>
-<p>The state of SyncVars is applied to game objects on clients before <a class="xref" href="../../../api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStartClient">NetIdentity.OnStartClient</a> event is invoked, so the state of the object is always up-to-date in subscribed callbacks.</p>
+<p>The state of SyncVars is applied to game objects on clients before <a class="xref" href="../../../api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStartClient">Identity.OnStartClient</a> event is invoked, so the state of the object is always up-to-date in subscribed callbacks.</p>
 </div>
 <p>SyncVars can use any <a href="../DataTypes.html">type supported by Mirage</a>. You can have up to 64 SyncVars on a single NetworkBehaviour script, including <a href="SyncLists.html">SyncLists</a> and other sync types.</p>
 <p>The server automatically sends SyncVar updates when the value of a SyncVar changes, so you do not need to track when they change or send information about the changes yourself. Changing a value in the inspector will not trigger an update.</p>
@@ -181,7 +181,7 @@ public class Player : NetworkBehaviour
     void Awake()
     {
         renderer = GetComponent&lt;Renderer&gt;();
-        NetIdentity.OnStartServer.AddListener(OnStartServer);
+        Identity.OnStartServer.AddListener(OnStartServer);
     }
 
     void OnStartServer()
@@ -226,7 +226,7 @@ public class Player : NetworkBehaviour
     void Awake()
     {
         renderer = GetComponent&lt;Renderer&gt;();
-        NetIdentity.OnStartServer.AddListener(OnStartServer);
+        Identity.OnStartServer.AddListener(OnStartServer);
     }
 
     void OnStartServer()

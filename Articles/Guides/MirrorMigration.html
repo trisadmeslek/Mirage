@@ -254,31 +254,31 @@ class MyNetworkManager : NetworkManager {
 <tbody>
 <tr>
 <td style="text-align: center;"><code>OnStartServer</code></td>
-<td style="text-align: center;"><a class="xref" href="../../api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStartServer">NetIdentity.OnStartServer</a></td>
+<td style="text-align: center;"><a class="xref" href="../../api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStartServer">Identity.OnStartServer</a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><code>OnStopServer</code></td>
-<td style="text-align: center;"><a class="xref" href="../../api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStopServer">NetIdentity.OnStopServer</a></td>
+<td style="text-align: center;"><a class="xref" href="../../api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStopServer">Identity.OnStopServer</a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><code>OnStartClient</code></td>
-<td style="text-align: center;"><a class="xref" href="../../api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStartClient">NetIdentity.OnStartClient</a></td>
+<td style="text-align: center;"><a class="xref" href="../../api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStartClient">Identity.OnStartClient</a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><code>OnStopClient</code></td>
-<td style="text-align: center;"><a class="xref" href="../../api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStopClient">NetIdentity.OnStopClient</a></td>
+<td style="text-align: center;"><a class="xref" href="../../api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStopClient">Identity.OnStopClient</a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><code>OnStartLocalPlayer</code></td>
-<td style="text-align: center;"><a class="xref" href="../../api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStartLocalPlayer">NetIdentity.OnStartLocalPlayer</a></td>
+<td style="text-align: center;"><a class="xref" href="../../api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnStartLocalPlayer">Identity.OnStartLocalPlayer</a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><code>OnStartAuthority</code></td>
-<td style="text-align: center;"><a class="xref" href="../../api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnAuthorityChanged">NetIdentity.OnAuthorityChanged</a></td>
+<td style="text-align: center;"><a class="xref" href="../../api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnAuthorityChanged">Identity.OnAuthorityChanged</a></td>
 </tr>
 <tr>
 <td style="text-align: center;"><code>OnStopAuthority</code></td>
-<td style="text-align: center;"><a class="xref" href="../../api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnAuthorityChanged">NetIdentity.OnAuthorityChanged</a></td>
+<td style="text-align: center;"><a class="xref" href="../../api/Mirage.NetworkIdentity.html#Mirage_NetworkIdentity_OnAuthorityChanged">Identity.OnAuthorityChanged</a></td>
 </tr>
 </tbody>
 </table>
@@ -300,8 +300,8 @@ public class Player : NetworkBehaviour {
 
 public class Player : NetworkBehaviour {
     void Awake() {
-        NetIdentity.OnStartServer.AddListener(OnStartServer);
-        NetIdentity.OnStartClient.AddListener(OnStartClient);
+        Identity.OnStartServer.AddListener(OnStartServer);
+        Identity.OnStartClient.AddListener(OnStartClient);
     }
 
     void OnStartServer() {
@@ -388,7 +388,7 @@ public class Player : NetworkBehaviour {
 <td style="text-align: center;"><a class="xref" href="../../api/Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_HasAuthority">NetworkBehaviour.HasAuthority</a></td>
 </tr>
 <tr>
-<td style="text-align: center;"><code>NetworkBehaviour.netIdentity</code></td>
+<td style="text-align: center;"><code>NetworkBehaviour.Identity</code></td>
 <td style="text-align: center;"><a class="xref" href="../../api/Mirage.NetworkBehaviour.html#Mirage_NetworkBehaviour_Identity">NetworkBehaviour.Identity</a></td>
 </tr>
 <tr>

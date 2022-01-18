@@ -122,7 +122,7 @@ public class Player : NetworkBehaviour
     public readonly SyncDictionary&lt;stirng, Item&gt; Equipment = new SyncDictionary&lt;string, Item&gt;();
 
     void Awake() {
-        NetIdentity.OnStartServer.AddListener(OnStartServer);
+        Identity.OnStartServer.AddListener(OnStartServer);
     }
 
     void OnStartServer()
@@ -140,8 +140,8 @@ public class Player : NetworkBehaviour
 <p>Depending on where you want to invoke the callbacks, you can use these methods to register them:</p>
 <ul>
 <li><code>Awake</code> for both client and server</li>
-<li><code>NetIdentity.OnStartServer</code> event for server-only</li>
-<li><code>NetIdentity.OnStartClient</code> event for cleint-only</li>
+<li><code>Identity.OnStartServer</code> event for server-only</li>
+<li><code>Identity.OnStartClient</code> event for cleint-only</li>
 </ul>
 <div class="NOTE">
 <h5>Note</h5>
@@ -159,7 +159,7 @@ public class Player : NetworkBehaviour {
     void Awake()
     {
         Equipment.OnChange += UpdateEquipment;
-        NetIdentity.OnStartClient.AddListener(OnStartClient);
+        Identity.OnStartClient.AddListener(OnStartClient);
     }
 
     // hotbar changes will only be invoked on clients
